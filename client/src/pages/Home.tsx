@@ -30,48 +30,56 @@ export default function Home() {
       title: "Fiori App Development",
       description:
         "Build modern, responsive Fiori applications that deliver exceptional user experiences across all devices.",
+      href: "/services/fiori-development",
     },
     {
       icon: Layers,
       title: "BTP Architecture & Design",
       description:
         "Strategic architecture planning and design for scalable SAP BTP solutions tailored to your business needs.",
+      href: "/services/btp-architecture",
     },
     {
       icon: Lightbulb,
       title: "Design Thinking",
       description:
         "User-centered design approach to create innovative solutions that solve real business challenges.",
+      href: "/services/design-thinking",
     },
     {
       icon: Wifi,
       title: "Offline PWA Apps",
       description:
         "Progressive web applications with offline capabilities ensuring seamless user experience anywhere.",
+      href: "/services/offline-pwa",
     },
     {
       icon: Database,
       title: "SAP BTP Database Management",
       description:
         "Efficient database design, optimization, and management for high-performance BTP applications.",
+      href: "/services/database-management",
     },
     {
       icon: Brain,
       title: "Claude AI Invoice Processing",
       description:
         "Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations.",
+      href: "/services/claude-ai",
     },
     {
       icon: GitBranch,
       title: "SAP BTP Integration Suite",
       description:
         "Seamless integration solutions connecting your SAP systems with cloud and on-premise applications.",
+      href: "/services/integration-suite",
     },
     {
       icon: Zap,
       title: "Event Mesh",
       description:
         "Real-time event-driven architecture implementation for responsive, scalable business processes.",
+      href: "/services/event-mesh",
     },
   ];
 
