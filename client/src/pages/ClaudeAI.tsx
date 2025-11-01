@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/card";
 import { ArrowLeft, CheckCircle, Brain, FileText, Zap, TrendingUp, Shield, Workflow } from "lucide-react";
 import { Link } from "wouter";
 
-export default function AIInvoiceProcessing() {
+export default function ClaudeAI() {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
@@ -118,14 +118,14 @@ export default function AIInvoiceProcessing() {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
-                AI Based
+                Claude AI
               </span>
               <br />
               <span className="text-foreground">Invoice Processing</span>
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Intelligent invoice processing automation powered by advanced AI for accurate, efficient operations. 
+              Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations. 
               Transform your accounts payable process with cutting-edge AI technology integrated with SAP BTP.
             </p>
 
@@ -148,7 +148,7 @@ export default function AIInvoiceProcessing() {
               AI-Powered Invoice Automation
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Leverage advanced AI capabilities for intelligent invoice processing and automation.
+              Leverage Claude AI's advanced capabilities for intelligent invoice processing and automation.
             </p>
           </div>
 
@@ -192,13 +192,13 @@ export default function AIInvoiceProcessing() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="bg-primary/10 text-primary border-primary/30 mb-6">
-                The Power of AI
+                The Power of Claude AI
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
                 Transform Your Invoice Processing
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Advanced AI brings human-level understanding to invoice processing. Handle complex layouts, 
+                Claude AI brings human-level understanding to invoice processing. Handle complex layouts, 
                 multiple languages, and edge cases that traditional OCR systems struggle with.
               </p>
               
@@ -251,7 +251,7 @@ export default function AIInvoiceProcessing() {
             <span className="text-foreground">Manual Invoice Processing?</span>
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Discover how AI-based invoice processing can revolutionize your accounts payable process with 
+            Discover how Claude AI can revolutionize your accounts payable process with 
             intelligent automation and unprecedented accuracy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

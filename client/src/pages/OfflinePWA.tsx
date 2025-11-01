@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ArrowLeft, CheckCircle, Wifi, WifiOff, Smartphone, Cloud, Zap, Shield, Package, Wrench, ScanBarcode, Radio } from "lucide-react";
+import { ArrowLeft, CheckCircle, Wifi, WifiOff, Smartphone, Cloud, Zap, Shield } from "lucide-react";
 import { Link } from "wouter";
 
 export default function OfflinePWA() {
@@ -17,58 +17,6 @@ export default function OfflinePWA() {
 
   const services = [
     {
-      icon: Package,
-      title: "Stocktake Apps",
-      description: "Comprehensive inventory management and stocktaking solutions that work offline.",
-      features: [
-        "Real-time inventory counting offline",
-        "Batch processing and bulk updates",
-        "Photo capture for stock verification",
-        "Location-based stock tracking",
-        "Variance reporting and reconciliation",
-        "Integration with SAP S/4HANA inventory"
-      ]
-    },
-    {
-      icon: Wrench,
-      title: "Service Management Apps",
-      description: "Complete field service management including work orders and maintenance operations.",
-      features: [
-        "Work order creation and updates offline",
-        "Maintenance notification management",
-        "Equipment history and documentation",
-        "Parts and materials consumption tracking",
-        "Technician time and attendance tracking",
-        "Customer signature capture"
-      ]
-    },
-    {
-      icon: ScanBarcode,
-      title: "Barcode Scanning",
-      description: "Advanced barcode scanning capabilities for inventory and asset management.",
-      features: [
-        "1D and 2D barcode scanning",
-        "QR code recognition",
-        "Batch scanning for multiple items",
-        "Offline barcode validation",
-        "Asset tagging and tracking",
-        "Serial number capture and verification"
-      ]
-    },
-    {
-      icon: Radio,
-      title: "RFID Scanning",
-      description: "RFID technology integration for rapid asset and inventory tracking.",
-      features: [
-        "Bulk RFID tag reading",
-        "Real-time asset location tracking",
-        "High-speed inventory counting",
-        "Anti-theft and security monitoring",
-        "Equipment calibration tracking",
-        "Automated check-in/check-out"
-      ]
-    },
-    {
       icon: WifiOff,
       title: "Offline-First Architecture",
       description: "Design applications that work seamlessly even without internet connectivity.",
@@ -77,8 +25,7 @@ export default function OfflinePWA() {
         "Offline data caching strategies",
         "IndexedDB and local storage management",
         "Background sync capabilities",
-        "Conflict resolution strategies",
-        "Queue management for offline actions"
+        "Conflict resolution strategies"
       ]
     },
     {
@@ -90,8 +37,55 @@ export default function OfflinePWA() {
         "Delta sync for efficient data transfer",
         "Conflict detection and resolution",
         "Optimistic UI updates",
-        "Retry mechanisms and error handling",
-        "Real-time SAP BTP integration"
+        "Retry mechanisms and error handling"
+      ]
+    },
+    {
+      icon: Smartphone,
+      title: "Progressive Web App Features",
+      description: "Native app-like experience with modern web capabilities.",
+      features: [
+        "App manifest configuration",
+        "Add to home screen functionality",
+        "Push notification support",
+        "Camera and GPS integration",
+        "App shell architecture"
+      ]
+    },
+    {
+      icon: Zap,
+      title: "Performance Optimization",
+      description: "Lightning-fast load times and smooth offline transitions.",
+      features: [
+        "Pre-caching critical resources",
+        "Lazy loading for images and content",
+        "Code splitting and bundling",
+        "Compression and minification",
+        "Performance monitoring and analytics"
+      ]
+    },
+    {
+      icon: Shield,
+      title: "Security & Compliance",
+      description: "Secure offline data storage and transmission.",
+      features: [
+        "Data encryption at rest",
+        "Secure authentication tokens",
+        "HTTPS enforcement",
+        "Content Security Policy (CSP)",
+        "Regular security audits"
+      ]
+    },
+    {
+      icon: Wifi,
+      title: "Online Enhancement",
+      description: "Enhanced functionality when connectivity is available.",
+      features: [
+        "Real-time updates and notifications",
+        "Cloud backup and restore",
+        "Multi-device synchronization",
+        "Analytics and telemetry",
+        "Feature detection and progressive enhancement"
       ]
     }
   ];
@@ -131,9 +125,8 @@ export default function OfflinePWA() {
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Progressive web applications with offline capabilities for stocktaking, service management, work orders, 
-              maintenance notifications, barcode scanning, RFID tracking, and more. Build field-ready SAP BTP apps 
-              that work seamlessly anywhere, even without internet connectivity.
+              Progressive web applications with offline capabilities ensuring seamless user experience anywhere. 
+              Build apps that work perfectly whether online or offline, delivering native app experiences through the web.
             </p>
 
             <Button 
@@ -155,7 +148,7 @@ export default function OfflinePWA() {
               Complete PWA Development Services
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Complete PWA solutions including stocktake apps, service management with work orders and maintenance, barcode/RFID scanning, and more - all working offline.
+              From offline-first architecture to push notifications, we build PWAs that rival native apps.
             </p>
           </div>
 
