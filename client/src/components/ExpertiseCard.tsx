@@ -13,9 +13,9 @@ export default function ExpertiseCard({
   description,
 }: ExpertiseCardProps) {
   return (
-    <Card className="p-6 hover-elevate transition-all duration-300" data-testid={`card-expertise-${title.toLowerCase().replace(/\s+/g, '-')}`}>
+    <Card className="p-6 hover-elevate transition-all duration-300 border-l-4 border-l-transparent hover:border-l-primary" data-testid={`card-expertise-${title.toLowerCase().replace(/\s+/g, '-')}`}>
       <div className="space-y-4">
-        <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-primary/10 to-chart-2/10 flex items-center justify-center">
+        <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-primary/15 to-trust/10 flex items-center justify-center">
           <Icon className="h-6 w-6 text-primary" />
         </div>
         <h3 className="text-xl font-semibold text-foreground">{title}</h3>

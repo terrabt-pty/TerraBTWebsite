@@ -48,33 +48,41 @@
 
   --popover-border: 210 12% 88%;
 
-  --primary: 132 70% 48%;
+  --primary: 132 68% 46%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 210 8% 88%;
+  --secondary: 212 72% 36%;
 
-  --secondary-foreground: 210 12% 20%;
+  --secondary-foreground: 0 0% 100%;
 
   --muted: 210 12% 92%;
 
   --muted-foreground: 210 8% 42%;
 
-  --accent: 166 54% 55%;
+  --accent: 28 92% 52%;
 
-  --accent-foreground: 0 0% 12%;
+  --accent-foreground: 0 0% 100%;
+
+  --urgency: 28 92% 52%;
+
+  --urgency-foreground: 0 0% 100%;
+
+  --trust: 212 72% 36%;
+
+  --trust-foreground: 0 0% 100%;
 
   --destructive: 0 72% 51%;
 
   --destructive-foreground: 0 0% 100%;
 
   --input: 240 8% 75%;
-  --ring: 132 70% 48%;
-  --chart-1: 132 70% 48%;
-  --chart-2: 166 60% 52%;
-  --chart-3: 190 54% 48%;
-  --chart-4: 202 48% 44%;
-  --chart-5: 142 62% 56%;
+  --ring: 28 92% 52%;
+  --chart-1: 132 68% 46%;
+  --chart-2: 166 58% 50%;
+  --chart-3: 202 64% 42%;
+  --chart-4: 212 72% 36%;
+  --chart-5: 212 78% 18%;
 
   --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: Georgia, serif;
@@ -166,33 +174,41 @@
 
   --popover-border: 210 6% 24%;
 
-  --primary: 132 68% 58%;
+  --primary: 132 70% 56%;
 
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 210 6% 22%;
+  --secondary: 212 76% 48%;
 
-  --secondary-foreground: 210 6% 90%;
+  --secondary-foreground: 0 0% 100%;
 
   --muted: 210 8% 20%;
 
   --muted-foreground: 210 6% 68%;
 
-  --accent: 166 56% 62%;
+  --accent: 28 94% 58%;
 
-  --accent-foreground: 0 0% 96%;
+  --accent-foreground: 0 0% 10%;
+
+  --urgency: 28 94% 58%;
+
+  --urgency-foreground: 0 0% 10%;
+
+  --trust: 212 76% 48%;
+
+  --trust-foreground: 0 0% 100%;
 
   --destructive: 0 68% 56%;
 
   --destructive-foreground: 0 0% 100%;
 
   --input: 240 6% 35%;
-  --ring: 132 68% 58%;
-  --chart-1: 132 75% 68%;
-  --chart-2: 166 64% 62%;
-  --chart-3: 190 58% 58%;
-  --chart-4: 202 52% 54%;
-  --chart-5: 142 68% 64%;
+  --ring: 28 94% 58%;
+  --chart-1: 132 70% 56%;
+  --chart-2: 166 60% 58%;
+  --chart-3: 202 68% 52%;
+  --chart-4: 212 76% 48%;
+  --chart-5: 212 82% 28%;
 
   --shadow-2xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.20);
   --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.25);

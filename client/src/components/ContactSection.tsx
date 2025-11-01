@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -26,14 +27,22 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 md:py-24 bg-gradient-to-br from-primary/5 via-chart-2/5 to-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-20 md:py-24 bg-gradient-to-br from-trust/10 via-primary/5 to-background relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-chart-5/5 via-transparent to-primary/5" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-            Let's Transform Your Business Together
+          <Badge className="bg-urgency/10 text-urgency border-urgency/30 font-semibold mb-4">
+            ⚡ Limited Availability - Book Your Slot Now
+          </Badge>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+            <span className="bg-gradient-to-r from-chart-4 via-primary to-urgency bg-clip-text text-transparent">
+              Ready to Accelerate
+            </span>
+            <br />
+            <span className="text-foreground">Your SAP BTP Journey?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get in touch with our SAP BTP experts to discuss your project needs
+            Connect with our experts for a free consultation and discover how we can transform your business
           </p>
         </div>
 
@@ -96,8 +105,12 @@ export default function ContactSection() {
               />
             </div>
 
-            <Button type="submit" className="w-full h-12" data-testid="button-submit-contact">
-              Send Message
+            <Button 
+              type="submit" 
+              className="w-full h-12 bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20 text-base font-semibold" 
+              data-testid="button-submit-contact"
+            >
+              Get Your Free Consultation →
             </Button>
           </form>
 
@@ -145,14 +158,13 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl bg-card border">
-              <h4 className="font-semibold text-foreground mb-2">
-                Response Time Promise
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-trust/10 border border-primary/20">
+              <h4 className="font-semibold text-foreground mb-2 flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                Fast Response Guarantee
               </h4>
-              <p className="text-muted-foreground text-sm">
-                We typically respond to all inquiries within 24 hours during
-                business days. For urgent matters, please indicate in your
-                message.
+              <p className="text-foreground/80 text-sm font-medium">
+                Get expert advice within 24 hours. Our SAP BTP specialists are ready to help you succeed.
               </p>
             </div>
           </div>

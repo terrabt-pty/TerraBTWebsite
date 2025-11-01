@@ -23,15 +23,14 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <Badge
-            variant="secondary"
-            className="text-sm font-semibold px-4 py-2"
+            className="text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30"
             data-testid="badge-specialization"
           >
-            SAP BTP Specialized Consulting
+            🚀 100% SAP BTP Specialized Consulting
           </Badge>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-            <span className="bg-gradient-to-r from-primary via-chart-2 to-chart-4 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
               Transform Your Business
             </span>
             <br />
@@ -47,34 +46,38 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button
               size="lg"
-              className="w-full sm:w-auto text-base px-8 h-12"
+              className="w-full sm:w-auto text-base px-8 h-12 shadow-lg shadow-primary/20"
               onClick={() => scrollToSection("#contact")}
               data-testid="button-get-started"
             >
-              Get Started
+              Get Started Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="w-full sm:w-auto text-base px-8 h-12 bg-background/50 backdrop-blur"
+              variant="secondary"
+              className="w-full sm:w-auto text-base px-8 h-12 bg-trust text-trust-foreground hover:bg-trust"
               onClick={() => scrollToSection("#services")}
               data-testid="button-view-services"
             >
-              View Services
+              View Our Expertise
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 pt-8 text-sm">
             <div className="flex items-center gap-2">
-              <Globe className="h-5 w-5 text-primary" />
-              <span className="text-muted-foreground font-medium" data-testid="text-countries">
+              <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
+                <Globe className="h-4 w-4 text-primary" />
+              </div>
+              <span className="font-semibold text-foreground" data-testid="text-countries">
                 Serving 40+ Countries
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <Target className="h-5 w-5 text-primary" />
-              <span className="text-muted-foreground font-medium" data-testid="text-focus">
+              <div className="h-8 w-8 rounded-full bg-trust/10 flex items-center justify-center">
+                <Target className="h-4 w-4 text-trust" />
+              </div>
+              <span className="font-semibold text-foreground" data-testid="text-focus">
                 100% SAP BTP Focused
               </span>
             </div>

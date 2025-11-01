@@ -162,7 +162,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 md:py-24 bg-card/30">
+      <section className="py-20 md:py-24 bg-gradient-to-b from-trust/5 via-background to-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
@@ -229,12 +229,13 @@ export default function Home() {
 
           <div className="text-center">
             <Button
-              variant="outline"
+              variant="secondary"
               size="lg"
+              className="bg-trust text-trust-foreground hover:bg-trust"
               onClick={scrollToKnowledge}
               data-testid="button-view-all-articles"
             >
-              View All Articles
+              Explore Knowledge Hub
             </Button>
           </div>
         </div>

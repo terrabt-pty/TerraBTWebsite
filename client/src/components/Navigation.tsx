@@ -46,9 +46,10 @@ export default function Navigation() {
             ))}
             <Button
               onClick={() => scrollToSection("#contact")}
+              className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
               data-testid="button-schedule-consultation"
             >
-              Schedule Consultation
+              Book Free Consultation
             </Button>
           </div>
 
@@ -80,11 +81,11 @@ export default function Navigation() {
               </button>
             ))}
             <Button
-              className="w-full"
+              className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
               onClick={() => scrollToSection("#contact")}
               data-testid="button-mobile-consultation"
             >
-              Schedule Consultation
+              Book Free Consultation
             </Button>
           </div>
         </div>
