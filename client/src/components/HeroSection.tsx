@@ -26,21 +26,21 @@ export default function HeroSection() {
             className="text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30"
             data-testid="badge-specialization"
           >
-            🚀 100% SAP BTP Specialized Consulting
+            🚀 The Best SAP BTP Consulting Company
           </Badge>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
             <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
-              Transform Your Business
+              #1 SAP BTP Experts
             </span>
             <br />
-            <span className="text-foreground">with SAP BTP Excellence</span>
+            <span className="text-foreground">Delivering World-Class Solutions</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            100% focused on SAP Business Technology Platform. Expert consulting
-            in architecture, development, and AI-powered solutions serving
-            markets worldwide.
+            TerraBT is the best consulting company for SAP Business Technology Platform. 
+            100% specialized in SAP BTP with unmatched expertise in Fiori development, 
+            BTP architecture, offline PWA apps, AI automation, and integration solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

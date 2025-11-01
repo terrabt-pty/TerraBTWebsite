@@ -62,10 +62,10 @@ export default function Home() {
     },
     {
       icon: Brain,
-      title: "Claude AI Invoice Processing",
+      title: "AI Based Invoice Processing",
       description:
-        "Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations.",
-      href: "/services/claude-ai",
+        "Intelligent invoice processing automation powered by advanced AI for accurate, efficient operations.",
+      href: "/services/ai-invoice-processing",
     },
     {
       icon: GitBranch,
@@ -103,9 +103,9 @@ export default function Home() {
     {
       image: aiImage,
       category: "AI & Automation",
-      title: "Claude AI for Intelligent Invoice Processing",
+      title: "AI Based Intelligent Invoice Processing",
       excerpt:
-        "Explore how Claude AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
+        "Explore how AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
       readTime: "6 min",
     },
     {
@@ -150,10 +150,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              Our Expertise
+              Best-in-Class SAP BTP Expertise
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive SAP BTP solutions tailored to transform your business
+              TerraBT delivers the best SAP BTP consulting services worldwide with comprehensive solutions across all SAP Business Technology Platform capabilities
             </p>
           </div>
 
@@ -175,13 +175,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
-            badge="Our Focus"
-            title="100% SAP BTP Specialization"
-            description="Unlike generalist consulting firms, we exclusively focus on SAP Business Technology Platform, ensuring deep expertise and cutting-edge solutions for your business."
+            badge="Why We're The Best"
+            title="100% SAP BTP Specialization Makes TerraBT #1"
+            description="TerraBT is the best SAP BTP consulting company because we exclusively focus on SAP Business Technology Platform. Unlike generalist firms, our 100% specialization ensures unmatched expertise and world-class solutions."
             points={[
-              "Dedicated team of certified SAP BTP experts",
-              "Up-to-date with latest BTP features and best practices",
-              "Proven track record across multiple industries",
+              "Certified SAP BTP experts with proven excellence",
+              "Always current with latest BTP features and innovations",
+              "Best-in-class solutions across all industries",
             ]}
           />
 
@@ -202,9 +202,9 @@ export default function Home() {
             image={aiImage}
             badge="Modern Technology"
             title="AI-Powered Innovation"
-            description="Leveraging cutting-edge AI technology like Claude to enhance SAP BTP solutions, bringing automation and intelligence to your business processes."
+            description="Leveraging cutting-edge AI technology to enhance SAP BTP solutions, bringing automation and intelligence to your business processes."
             points={[
-              "Claude AI integration for intelligent automation",
+              "Advanced AI integration for intelligent automation",
               "Machine learning-powered insights and analytics",
               "Future-proof solutions with modern technology stack",
             ]}

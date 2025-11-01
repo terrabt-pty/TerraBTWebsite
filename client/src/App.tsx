@@ -9,7 +9,7 @@ import FioriDevelopment from "@/pages/FioriDevelopment";
 import DesignThinking from "@/pages/DesignThinking";
 import OfflinePWA from "@/pages/OfflinePWA";
 import DatabaseManagement from "@/pages/DatabaseManagement";
-import ClaudeAI from "@/pages/ClaudeAI";
+import AIInvoiceProcessing from "@/pages/ClaudeAI";
 import IntegrationSuite from "@/pages/IntegrationSuite";
 import EventMesh from "@/pages/EventMesh";
 import NotFound from "@/pages/not-found";
@@ -23,7 +23,7 @@ function Router() {
       <Route path="/services/design-thinking" component={DesignThinking} />
       <Route path="/services/offline-pwa" component={OfflinePWA} />
       <Route path="/services/database-management" component={DatabaseManagement} />
-      <Route path="/services/claude-ai" component={ClaudeAI} />
+      <Route path="/services/ai-invoice-processing" component={AIInvoiceProcessing} />
       <Route path="/services/integration-suite" component={IntegrationSuite} />
       <Route path="/services/event-mesh" component={EventMesh} />
       <Route component={NotFound} />
