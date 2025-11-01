@@ -15,9 +15,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
-            <div className="text-2xl font-bold bg-gradient-to-r from-primary to-chart-2 bg-clip-text text-transparent">
-              TerraBT
-            </div>
+            <img 
+              src="/attached_assets/Screenshot 2025-10-29 at 8.59.24 pm_1761968672258.png" 
+              alt="TerraBT Logo" 
+              className="h-10"
+              data-testid="img-footer-logo"
+            />
             <p className="text-sm text-muted-foreground">
               Specialized SAP BTP consulting delivering excellence worldwide
             </p>

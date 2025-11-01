@@ -25,9 +25,12 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="text-2xl font-bold bg-gradient-to-r from-primary to-chart-2 bg-clip-text text-transparent">
-              TerraBT
-            </div>
+            <img 
+              src="/attached_assets/Screenshot 2025-10-29 at 8.59.24 pm_1761968672258.png" 
+              alt="TerraBT Logo" 
+              className="h-8"
+              data-testid="img-logo"
+            />
           </div>
 
           <div className="hidden md:flex items-center gap-6">
