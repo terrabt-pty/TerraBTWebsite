@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -276,9 +277,8 @@ export default function OfflinePWA() {
         </div>
       </section>
 
-      <div id="contact">
-        <Footer />
-      </div>
+      <ContactSection />
+      <Footer />
     </div>
   );
 }

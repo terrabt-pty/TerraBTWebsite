@@ -164,6 +164,7 @@ export default function Home() {
                 icon={area.icon}
                 title={area.title}
                 description={area.description}
+                href={area.href}
               />
             ))}
           </div>
