@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import Logo from "@/components/Logo";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,12 +26,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <img 
-              src="/attached_assets/Screenshot 2025-10-29 at 8.59.24 pm_1761968672258.png" 
-              alt="TerraBT Logo" 
-              className="h-8"
-              data-testid="img-logo"
-            />
+            <Logo className="h-8" data-testid="img-logo" />
           </div>
 
           <div className="hidden md:flex items-center gap-6">
