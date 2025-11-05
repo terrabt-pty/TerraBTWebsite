@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import ExpertiseCard from "@/components/ExpertiseCard";
@@ -24,61 +25,55 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.png";
 
 export default function Home() {
+  const { t } = useTranslation();
+  
   const expertiseAreas = [
     {
       icon: Smartphone,
-      title: "Fiori App Development",
-      description:
-        "Build modern, responsive Fiori applications that deliver exceptional user experiences across all devices.",
+      title: t('services.fiori.title'),
+      description: t('services.fiori.description'),
       href: "/services/fiori-development",
     },
     {
       icon: Layers,
-      title: "BTP Architecture & Design",
-      description:
-        "Strategic architecture planning and design for scalable SAP BTP solutions tailored to your business needs.",
+      title: t('services.architecture.title'),
+      description: t('services.architecture.description'),
       href: "/services/btp-architecture",
     },
     {
       icon: Lightbulb,
-      title: "Design Thinking",
-      description:
-        "User-centered design approach to create innovative solutions that solve real business challenges.",
+      title: t('services.designThinking.title'),
+      description: t('services.designThinking.description'),
       href: "/services/design-thinking",
     },
     {
       icon: Wifi,
-      title: "Offline PWA Apps",
-      description:
-        "Progressive web applications with offline capabilities ensuring seamless user experience anywhere.",
+      title: t('services.pwa.title'),
+      description: t('services.pwa.description'),
       href: "/services/offline-pwa",
     },
     {
       icon: Database,
-      title: "SAP BTP Database Management",
-      description:
-        "Efficient database design, optimization, and management for high-performance BTP applications.",
+      title: t('services.database.title'),
+      description: t('services.database.description'),
       href: "/services/database-management",
     },
     {
       icon: Brain,
-      title: "Claude AI Invoice Processing",
-      description:
-        "Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations.",
+      title: t('services.ai.title'),
+      description: t('services.ai.description'),
       href: "/services/claude-ai",
     },
     {
       icon: GitBranch,
-      title: "SAP BTP Integration Suite",
-      description:
-        "Seamless integration solutions connecting your SAP systems with cloud and on-premise applications.",
+      title: t('services.integration.title'),
+      description: t('services.integration.description'),
       href: "/services/integration-suite",
     },
     {
       icon: Zap,
-      title: "Event Mesh",
-      description:
-        "Real-time event-driven architecture implementation for responsive, scalable business processes.",
+      title: t('services.eventMesh.title'),
+      description: t('services.eventMesh.description'),
       href: "/services/event-mesh",
     },
   ];
@@ -150,10 +145,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              Our Expertise
+              {t('services.title')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive SAP BTP solutions tailored to transform your business
+              {t('services.subtitle')}
             </p>
           </div>
 
@@ -175,38 +170,38 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
-            badge="Our Focus"
-            title="100% SAP BTP Specialization"
-            description="Unlike generalist consulting firms, we exclusively focus on SAP Business Technology Platform, ensuring deep expertise and cutting-edge solutions for your business."
+            badge={t('value.specialization.badge')}
+            title={t('value.specialization.title')}
+            description={t('value.specialization.description')}
             points={[
-              "Dedicated team of certified SAP BTP experts",
-              "Up-to-date with latest BTP features and best practices",
-              "Proven track record across multiple industries",
+              t('value.specialization.point1'),
+              t('value.specialization.point2'),
+              t('value.specialization.point3'),
             ]}
           />
 
           <ValueProposition
             image={globalImage}
-            badge="Global Reach"
-            title="Serving Underserved Markets Worldwide"
-            description="We bring SAP BTP expertise to markets where local specialized consulting is limited, providing world-class solutions regardless of your location."
+            badge={t('value.global.badge')}
+            title={t('value.global.title')}
+            description={t('value.global.description')}
             points={[
-              "Remote consulting capabilities across all time zones",
-              "Multilingual support for international teams",
-              "Understanding of regional business requirements",
+              t('value.global.point1'),
+              t('value.global.point2'),
+              t('value.global.point3'),
             ]}
             imageOnRight
           />
 
           <ValueProposition
             image={aiImage}
-            badge="Modern Technology"
-            title="AI-Powered Innovation"
-            description="Leveraging cutting-edge AI technology like Claude to enhance SAP BTP solutions, bringing automation and intelligence to your business processes."
+            badge={t('value.ai.badge')}
+            title={t('value.ai.title')}
+            description={t('value.ai.description')}
             points={[
-              "Claude AI integration for intelligent automation",
-              "Machine learning-powered insights and analytics",
-              "Future-proof solutions with modern technology stack",
+              t('value.ai.point1'),
+              t('value.ai.point2'),
+              t('value.ai.point3'),
             ]}
           />
         </div>
@@ -216,10 +211,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              Knowledge Hub
+              {t('knowledge.title')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Expert insights and best practices for SAP BTP
+              {t('knowledge.subtitle')}
             </p>
           </div>
 

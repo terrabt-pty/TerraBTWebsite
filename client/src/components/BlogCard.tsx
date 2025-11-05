@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock } from "lucide-react";
@@ -17,6 +18,7 @@ export default function BlogCard({
   excerpt,
   readTime,
 }: BlogCardProps) {
+  const { t } = useTranslation();
   return (
     <Card className="overflow-hidden hover-elevate transition-all duration-300 group" data-testid={`card-blog-${title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`}>
       <div className="aspect-video overflow-hidden">
@@ -46,7 +48,7 @@ export default function BlogCard({
             onClick={() => console.log(`Read more: ${title}`)}
             data-testid="button-read-more"
           >
-            Read More
+            {t('knowledge.readMore')}
             <ArrowRight className="h-4 w-4" />
           </button>
         </div>
