@@ -6,6 +6,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SUPPORTED_LANGUAGES } from "@/config/languages";
+import LanguageRedirect from "@/components/LanguageRedirect";
 import Home from "@/pages/Home";
 import BTPArchitecture from "@/pages/BTPArchitecture";
 import FioriDevelopment from "@/pages/FioriDevelopment";
@@ -78,6 +79,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <LanguageRedirect />
         <LanguageSync />
         <Toaster />
         <Router />
