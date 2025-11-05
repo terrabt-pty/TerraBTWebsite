@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "knowledge": "Knowledge",
+    "contact": "Contact",
+    "bookConsultation": "Book Free Consultation"
+  },
+  "hero": {
+    "title": "Transform Your Business with Expert SAP BTP Solutions",
+    "subtitle": "Specialized consulting delivering cutting-edge SAP Business Technology Platform implementations worldwide",
+    "cta": "Get Started Today",
+    "learn": "Explore Our Services"
+  },
+  "services": {
+    "title": "Our Expertise",
+    "subtitle": "Comprehensive SAP BTP solutions tailored to transform your business",
+    "fiori": {
+      "title": "Fiori App Development",
+      "description": "Build modern, responsive Fiori applications that deliver exceptional user experiences across all devices."
+    },
+    "architecture": {
+      "title": "BTP Architecture & Design",
+      "description": "Strategic architecture planning and design for scalable SAP BTP solutions tailored to your business needs."
+    },
+    "designThinking": {
+      "title": "Design Thinking",
+      "description": "User-centered design approach to create innovative solutions that solve real business challenges."
+    },
+    "pwa": {
+      "title": "Offline PWA Apps",
+      "description": "Progressive web applications with offline capabilities ensuring seamless user experience anywhere."
+    },
+    "database": {
+      "title": "SAP BTP Database Management",
+      "description": "Efficient database design, optimization, and management for high-performance BTP applications."
+    },
+    "ai": {
+      "title": "Claude AI Invoice Processing",
+      "description": "Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations."
+    },
+    "integration": {
+      "title": "SAP BTP Integration Suite",
+      "description": "Seamless integration solutions connecting your SAP systems with cloud and on-premise applications."
+    },
+    "eventMesh": {
+      "title": "Event Mesh",
+      "description": "Real-time event-driven architecture implementation for responsive, scalable business processes."
+    }
+  },
+  "value": {
+    "specialization": {
+      "badge": "Our Focus",
+      "title": "100% SAP BTP Specialization",
+      "description": "Unlike generalist consulting firms, we exclusively focus on SAP Business Technology Platform, ensuring deep expertise and cutting-edge solutions for your business.",
+      "point1": "Dedicated team of certified SAP BTP experts",
+      "point2": "Up-to-date with latest BTP features and best practices",
+      "point3": "Proven track record across multiple industries"
+    },
+    "global": {
+      "badge": "Global Reach",
+      "title": "Serving Underserved Markets Worldwide",
+      "description": "We bring SAP BTP expertise to markets where local specialized consulting is limited, providing world-class solutions regardless of your location.",
+      "point1": "Remote consulting capabilities across all time zones",
+      "point2": "Multilingual support for international teams",
+      "point3": "Understanding of regional business requirements"
+    },
+    "ai": {
+      "badge": "Modern Technology",
+      "title": "AI-Powered Innovation",
+      "description": "Leveraging cutting-edge AI technology like Claude to enhance SAP BTP solutions, bringing automation and intelligence to your business processes.",
+      "point1": "Intelligent automation for repetitive tasks",
+      "point2": "Advanced data processing and analysis",
+      "point3": "Seamless integration with existing workflows"
+    }
+  },
+  "knowledge": {
+    "title": "Knowledge Hub",
+    "subtitle": "Expert insights and best practices for SAP BTP success",
+    "readMore": "Read Article",
+    "readTime": "{{time}} min"
+  },
+  "contact": {
+    "badge": "Get Started",
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Book a free consultation with our SAP BTP experts",
+    "availability": "Limited Availability",
+    "form": {
+      "name": "Full Name",
+      "email": "Business Email",
+      "company": "Company Name",
+      "message": "Tell us about your project",
+      "submit": "Schedule Free Consultation",
+      "submitting": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent!",
+      "description": "Thank you for reaching out. We'll get back to you within 24 hours."
+    },
+    "error": {
+      "title": "Error",
+      "description": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Specialized SAP BTP consulting delivering excellence worldwide",
+    "services": "Services",
+    "fiori": "Fiori Development",
+    "architecture": "BTP Architecture",
+    "integration": "Integration Suite",
+    "ai": "AI Solutions",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "caseStudies": "Case Studies",
+    "whitepapers": "Whitepapers",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "backToHome": "Back to Home"
+  }
+}
