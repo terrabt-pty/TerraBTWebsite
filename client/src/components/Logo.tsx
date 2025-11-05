@@ -24,7 +24,6 @@ export default function Logo({ className = "h-8" }: LogoProps) {
             .tagline {
               fill: #666666;
               font-family: Arial, sans-serif;
-              font-size: 14px;
               letter-spacing: 0.3;
             }
           `}
@@ -38,7 +37,7 @@ export default function Logo({ className = "h-8" }: LogoProps) {
         <tspan className="green-text">T</tspan>
       </text>
       
-      <text x="0" y="24" className="tagline">100% BOUTIQUE SAP BTP CONSULTING</text>
+      <text x="32" y="25" fontSize="6" className="tagline" textAnchor="middle">SAP BTP Consulting</text>
     </svg>
   );
 }
