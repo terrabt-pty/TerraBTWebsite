@@ -5,6 +5,7 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { SUPPORTED_LANGUAGES } from "@/config/languages";
 import Home from "@/pages/Home";
 import BTPArchitecture from "@/pages/BTPArchitecture";
 import FioriDevelopment from "@/pages/FioriDevelopment";
@@ -21,9 +22,19 @@ function LanguageSync() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    const lang = location.startsWith('/ja') ? 'ja' : 'en';
-    if (i18n.language !== lang) {
-      i18n.changeLanguage(lang);
+    const pathSegments = location.split('/').filter(Boolean);
+    let detectedLang = 'en';
+    
+    if (pathSegments.length > 0) {
+      const potentialLang = pathSegments[0];
+      const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === potentialLang);
+      if (isSupported) {
+        detectedLang = potentialLang;
+      }
+    }
+    
+    if (i18n.language !== detectedLang) {
+      i18n.changeLanguage(detectedLang);
     }
   }, [location, i18n]);
 
@@ -31,9 +42,12 @@ function LanguageSync() {
 }
 
 function Router() {
+  const supportedLangCodes = SUPPORTED_LANGUAGES.map(lang => lang.code).filter(code => code !== 'en');
+  const langPattern = supportedLangCodes.join('|');
+  
   return (
     <Switch>
-      {/* English routes */}
+      {/* English routes (no prefix) */}
       <Route path="/" component={Home} />
       <Route path="/services/btp-architecture" component={BTPArchitecture} />
       <Route path="/services/fiori-development" component={FioriDevelopment} />
@@ -44,16 +58,16 @@ function Router() {
       <Route path="/services/integration-suite" component={IntegrationSuite} />
       <Route path="/services/event-mesh" component={EventMesh} />
       
-      {/* Japanese routes */}
-      <Route path="/ja" component={Home} />
-      <Route path="/ja/services/btp-architecture" component={BTPArchitecture} />
-      <Route path="/ja/services/fiori-development" component={FioriDevelopment} />
-      <Route path="/ja/services/design-thinking" component={DesignThinking} />
-      <Route path="/ja/services/offline-pwa" component={OfflinePWA} />
-      <Route path="/ja/services/database-management" component={DatabaseManagement} />
-      <Route path="/ja/services/claude-ai" component={ClaudeAI} />
-      <Route path="/ja/services/integration-suite" component={IntegrationSuite} />
-      <Route path="/ja/services/event-mesh" component={EventMesh} />
+      {/* Localized routes for all supported languages */}
+      <Route path="/:lang" component={Home} />
+      <Route path="/:lang/services/btp-architecture" component={BTPArchitecture} />
+      <Route path="/:lang/services/fiori-development" component={FioriDevelopment} />
+      <Route path="/:lang/services/design-thinking" component={DesignThinking} />
+      <Route path="/:lang/services/offline-pwa" component={OfflinePWA} />
+      <Route path="/:lang/services/database-management" component={DatabaseManagement} />
+      <Route path="/:lang/services/claude-ai" component={ClaudeAI} />
+      <Route path="/:lang/services/integration-suite" component={IntegrationSuite} />
+      <Route path="/:lang/services/event-mesh" component={EventMesh} />
       
       <Route component={NotFound} />
     </Switch>

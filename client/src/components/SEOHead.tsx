@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 interface SEOHeadProps {
   title?: string;
@@ -30,32 +31,28 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
       existingDescription.setAttribute('content', description);
     }
     
-    let existingAlternateEn = document.querySelector('link[hreflang="en"]');
-    if (!existingAlternateEn) {
-      existingAlternateEn = document.createElement('link');
-      existingAlternateEn.setAttribute('rel', 'alternate');
-      existingAlternateEn.setAttribute('hreflang', 'en');
-      document.head.appendChild(existingAlternateEn);
-    }
-    existingAlternateEn.setAttribute('href', `${baseUrl}${path}`);
+    const existingAlternates = document.querySelectorAll('link[hreflang]');
+    existingAlternates.forEach(link => link.remove());
     
-    let existingAlternateJa = document.querySelector('link[hreflang="ja"]');
-    if (!existingAlternateJa) {
-      existingAlternateJa = document.createElement('link');
-      existingAlternateJa.setAttribute('rel', 'alternate');
-      existingAlternateJa.setAttribute('hreflang', 'ja');
-      document.head.appendChild(existingAlternateJa);
-    }
-    existingAlternateJa.setAttribute('href', `${baseUrl}/ja${path}`);
+    SUPPORTED_LANGUAGES.forEach(language => {
+      const link = document.createElement('link');
+      link.setAttribute('rel', 'alternate');
+      link.setAttribute('hreflang', language.code);
+      
+      if (language.code === 'en') {
+        link.setAttribute('href', `${baseUrl}${path}`);
+      } else {
+        link.setAttribute('href', `${baseUrl}/${language.code}${path}`);
+      }
+      
+      document.head.appendChild(link);
+    });
     
-    let existingAlternateDefault = document.querySelector('link[hreflang="x-default"]');
-    if (!existingAlternateDefault) {
-      existingAlternateDefault = document.createElement('link');
-      existingAlternateDefault.setAttribute('rel', 'alternate');
-      existingAlternateDefault.setAttribute('hreflang', 'x-default');
-      document.head.appendChild(existingAlternateDefault);
-    }
-    existingAlternateDefault.setAttribute('href', `${baseUrl}${path}`);
+    const defaultLink = document.createElement('link');
+    defaultLink.setAttribute('rel', 'alternate');
+    defaultLink.setAttribute('hreflang', 'x-default');
+    defaultLink.setAttribute('href', `${baseUrl}${path}`);
+    document.head.appendChild(defaultLink);
     
   }, [i18n.language, title, description, path]);
   

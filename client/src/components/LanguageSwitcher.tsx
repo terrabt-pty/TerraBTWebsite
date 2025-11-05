@@ -1,39 +1,70 @@
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'wouter';
-import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Globe } from "lucide-react";
+import { SUPPORTED_LANGUAGES, getLanguageByCode } from "@/config/languages";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [location, setLocation] = useLocation();
 
-  const toggleLanguage = () => {
+  const handleLanguageChange = (newLang: string) => {
     const currentLang = i18n.language;
-    const newLang = currentLang === 'en' ? 'ja' : 'en';
+    
+    if (currentLang === newLang) return;
+    
+    let currentPath = location;
+    const currentPrefix = SUPPORTED_LANGUAGES.find(lang => 
+      currentPath.startsWith(`/${lang.code}`) && lang.code !== 'en'
+    );
+    
+    if (currentPrefix) {
+      currentPath = currentPath.replace(new RegExp(`^/${currentPrefix.code}`), '') || '/';
+    }
     
     let newPath: string;
-    if (newLang === 'ja') {
-      newPath = location === '/' ? '/ja' : `/ja${location}`;
+    if (newLang === 'en') {
+      newPath = currentPath;
     } else {
-      newPath = location.replace(/^\/ja/, '') || '/';
+      newPath = currentPath === '/' ? `/${newLang}` : `/${newLang}${currentPath}`;
     }
     
     setLocation(newPath);
   };
 
+  const currentLanguage = getLanguageByCode(i18n.language);
+
   return (
-    <Button
-      variant="ghost"
-      size="icon"
-      onClick={toggleLanguage}
-      className="relative"
-      data-testid="button-language-toggle"
-      title={i18n.language === 'en' ? 'Switch to Japanese' : '日本語から英語へ'}
-    >
-      <Globe className="h-5 w-5" />
-      <span className="absolute bottom-1 right-1 text-[8px] font-bold">
-        {i18n.language === 'en' ? 'EN' : 'JA'}
-      </span>
-    </Button>
+    <Select value={i18n.language} onValueChange={handleLanguageChange}>
+      <SelectTrigger 
+        className="w-[180px] gap-2" 
+        data-testid="select-language"
+      >
+        <Globe className="h-4 w-4 shrink-0" />
+        <SelectValue>
+          {currentLanguage.nativeName}
+        </SelectValue>
+      </SelectTrigger>
+      <SelectContent className="max-h-[300px]">
+        {SUPPORTED_LANGUAGES.map((language) => (
+          <SelectItem 
+            key={language.code} 
+            value={language.code}
+            data-testid={`option-language-${language.code}`}
+          >
+            <div className="flex items-center justify-between w-full gap-3">
+              <span>{language.nativeName}</span>
+              <span className="text-muted-foreground text-sm">{language.name}</span>
+            </div>
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
   );
 }
