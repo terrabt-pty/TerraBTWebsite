@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter, Github, Cloud } from "lucide-react";
 import Logo from "@/components/Logo";
 
 export default function Footer() {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (href: string) => {
@@ -18,7 +20,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo className="h-10" data-testid="img-footer-logo" />
             <p className="text-sm text-muted-foreground">
-              Specialized SAP BTP consulting delivering excellence worldwide
+              {t('footer.description')}
             </p>
             <div className="flex items-center gap-3">
               <button
@@ -46,7 +48,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Services</h3>
+            <h3 className="font-semibold text-foreground mb-4">{t('footer.services')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <button
@@ -54,7 +56,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-fiori"
                 >
-                  Fiori Development
+                  {t('footer.fiori')}
                 </button>
               </li>
               <li>
@@ -63,7 +65,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-architecture"
                 >
-                  BTP Architecture
+                  {t('footer.architecture')}
                 </button>
               </li>
               <li>
@@ -72,7 +74,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-integration"
                 >
-                  Integration Suite
+                  {t('footer.integration')}
                 </button>
               </li>
               <li>
@@ -81,7 +83,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-ai-solutions"
                 >
-                  AI Solutions
+                  {t('footer.ai')}
                 </button>
               </li>
             </ul>

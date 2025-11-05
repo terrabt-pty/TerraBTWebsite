@@ -1,16 +1,19 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const navLinks = [
-    { label: "Home", href: "#home" },
-    { label: "Services", href: "#services" },
-    { label: "Knowledge", href: "#knowledge" },
-    { label: "Contact", href: "#contact" },
+    { label: t('nav.home'), href: "#home" },
+    { label: t('nav.services'), href: "#services" },
+    { label: t('nav.knowledge'), href: "#knowledge" },
+    { label: t('nav.contact'), href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -32,10 +35,10 @@ export default function Navigation() {
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <button
-                key={link.label}
+                key={link.href}
                 onClick={() => scrollToSection(link.href)}
                 className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-                data-testid={`link-${link.label.toLowerCase()}`}
+                data-testid={`link-${link.href.replace('#', '')}`}
               >
                 {link.label}
               </button>
@@ -45,21 +48,24 @@ export default function Navigation() {
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
               data-testid="button-schedule-consultation"
             >
-              Book Free Consultation
+              {t('nav.bookConsultation')}
             </Button>
+            <LanguageSwitcher />
           </div>
 
-          <button
-            className="md:hidden"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            data-testid="button-mobile-menu"
-          >
-            {mobileMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              data-testid="button-mobile-menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -68,10 +74,10 @@ export default function Navigation() {
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <button
-                key={link.label}
+                key={link.href}
                 onClick={() => scrollToSection(link.href)}
                 className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
-                data-testid={`mobile-link-${link.label.toLowerCase()}`}
+                data-testid={`mobile-link-${link.href.replace('#', '')}`}
               >
                 {link.label}
               </button>
@@ -81,7 +87,7 @@ export default function Navigation() {
               onClick={() => scrollToSection("#contact")}
               data-testid="button-mobile-consultation"
             >
-              Book Free Consultation
+              {t('nav.bookConsultation')}
             </Button>
           </div>
         </div>

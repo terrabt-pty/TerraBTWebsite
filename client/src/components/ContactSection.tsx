@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -8,6 +9,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
+  const { t } = useTranslation();
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
@@ -15,15 +17,21 @@ export default function ContactSection() {
     company: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
     console.log("Form submitted:", formData);
-    toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 24 hours.",
-    });
-    setFormData({ name: "", email: "", company: "", message: "" });
+    
+    setTimeout(() => {
+      toast({
+        title: t('contact.success.title'),
+        description: t('contact.success.description'),
+      });
+      setFormData({ name: "", email: "", company: "", message: "" });
+      setIsSubmitting(false);
+    }, 500);
   };
 
   return (
@@ -32,75 +40,73 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center space-y-4 mb-12">
           <Badge className="bg-urgency/10 text-urgency border-urgency/30 font-semibold mb-4">
-            ⚡ Limited Availability - Book Your Slot Now
+            ⚡ {t('contact.availability')}
           </Badge>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             <span className="bg-gradient-to-r from-chart-4 via-primary to-urgency bg-clip-text text-transparent">
-              Ready to Accelerate
+              {t('contact.title')}
             </span>
-            <br />
-            <span className="text-foreground">Your SAP BTP Journey?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Connect with our experts for a free consultation and discover how we can transform your business
+            {t('contact.subtitle')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           <form onSubmit={handleSubmit} className="space-y-6" data-testid="form-contact">
             <div className="space-y-2">
-              <Label htmlFor="name">Name</Label>
+              <Label htmlFor="name">{t('contact.form.name')}</Label>
               <Input
                 id="name"
-                placeholder="John Doe"
                 value={formData.name}
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
                 required
+                disabled={isSubmitting}
                 data-testid="input-name"
               />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">{t('contact.form.email')}</Label>
               <Input
                 id="email"
                 type="email"
-                placeholder="john@company.com"
                 value={formData.email}
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
                 required
+                disabled={isSubmitting}
                 data-testid="input-email"
               />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="company">Company</Label>
+              <Label htmlFor="company">{t('contact.form.company')}</Label>
               <Input
                 id="company"
-                placeholder="Your Company"
                 value={formData.company}
                 onChange={(e) =>
                   setFormData({ ...formData, company: e.target.value })
                 }
+                disabled={isSubmitting}
                 data-testid="input-company"
               />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="message">Message</Label>
+              <Label htmlFor="message">{t('contact.form.message')}</Label>
               <Textarea
                 id="message"
-                placeholder="Tell us about your project..."
                 className="min-h-32"
                 value={formData.message}
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }
                 required
+                disabled={isSubmitting}
                 data-testid="input-message"
               />
             </div>
@@ -109,8 +115,9 @@ export default function ContactSection() {
               type="submit" 
               className="w-full h-12 bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20 text-base font-semibold" 
               data-testid="button-submit-contact"
+              disabled={isSubmitting}
             >
-              Get Your Free Consultation →
+              {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit')}
             </Button>
           </form>
 

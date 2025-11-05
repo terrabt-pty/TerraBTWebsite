@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Globe, Target } from "lucide-react";
 import heroImage from "@assets/generated_images/Hero_background_with_tech_patterns_69d4428f.png";
 
 export default function HeroSection() {
+  const { t } = useTranslation();
+  
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -31,16 +34,12 @@ export default function HeroSection() {
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
             <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
-              Transform Your Business
+              {t('hero.title')}
             </span>
-            <br />
-            <span className="text-foreground">with SAP BTP Excellence</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            100% focused on SAP Business Technology Platform. Expert consulting
-            in architecture, development, and AI-powered solutions serving
-            markets worldwide.
+            {t('hero.subtitle')}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -50,7 +49,7 @@ export default function HeroSection() {
               onClick={() => scrollToSection("#contact")}
               data-testid="button-get-started"
             >
-              Get Started Now
+              {t('hero.cta')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
@@ -60,7 +59,7 @@ export default function HeroSection() {
               onClick={() => scrollToSection("#services")}
               data-testid="button-view-services"
             >
-              View Our Expertise
+              {t('hero.learn')}
             </Button>
           </div>
 
@@ -70,7 +69,7 @@ export default function HeroSection() {
                 <Globe className="h-4 w-4 text-primary" />
               </div>
               <span className="font-semibold text-foreground" data-testid="text-countries">
-                Serving 40+ Countries
+                {t('value.global.point1')}
               </span>
             </div>
             <div className="flex items-center gap-2">
@@ -78,7 +77,7 @@ export default function HeroSection() {
                 <Target className="h-4 w-4 text-trust" />
               </div>
               <span className="font-semibold text-foreground" data-testid="text-focus">
-                100% SAP BTP Focused
+                {t('value.specialization.title')}
               </span>
             </div>
           </div>
