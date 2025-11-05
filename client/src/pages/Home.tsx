@@ -6,6 +6,7 @@ import ValueProposition from "@/components/ValueProposition";
 import BlogCard from "@/components/BlogCard";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import {
   Smartphone,
@@ -138,6 +139,11 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="TerraBT - SAP BTP Consulting | 100% Specialized SAP Business Technology Platform"
+        description={t('hero.subtitle')}
+        path="/"
+      />
       <Navigation />
       <HeroSection />
 

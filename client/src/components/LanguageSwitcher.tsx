@@ -1,13 +1,24 @@
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'wouter';
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
+  const [location, setLocation] = useLocation();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'ja' : 'en';
-    i18n.changeLanguage(newLang);
+    const currentLang = i18n.language;
+    const newLang = currentLang === 'en' ? 'ja' : 'en';
+    
+    let newPath: string;
+    if (newLang === 'ja') {
+      newPath = location === '/' ? '/ja' : `/ja${location}`;
+    } else {
+      newPath = location.replace(/^\/ja/, '') || '/';
+    }
+    
+    setLocation(newPath);
   };
 
   return (

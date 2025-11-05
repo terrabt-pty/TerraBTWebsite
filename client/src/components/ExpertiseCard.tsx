@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
 import { LucideIcon } from "lucide-react";
 import { Link } from "wouter";
@@ -16,8 +17,11 @@ export default function ExpertiseCard({
   description,
   href,
 }: ExpertiseCardProps) {
+  const { i18n } = useTranslation();
+  const localizedHref = i18n.language === 'ja' ? `/ja${href}` : href;
+  
   return (
-    <Link href={href}>
+    <Link href={localizedHref}>
       <Card className="p-6 hover-elevate active-elevate-2 transition-all duration-300 border-l-4 border-l-transparent hover:border-l-primary cursor-pointer group" data-testid={`card-expertise-${title.toLowerCase().replace(/\s+/g, '-')}`}>
         <div className="space-y-4">
           <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-primary/15 to-trust/10 flex items-center justify-center">
