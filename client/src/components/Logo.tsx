@@ -24,7 +24,7 @@ export default function Logo({ className = "h-8" }: LogoProps) {
             .tagline {
               fill: #666666;
               font-family: Arial, sans-serif;
-              font-size: 4px;
+              font-size: 14px;
               letter-spacing: 0.3;
             }
           `}
