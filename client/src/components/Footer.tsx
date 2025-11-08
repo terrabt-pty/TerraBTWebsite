@@ -90,7 +90,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Knowledge</h3>
+            <h3 className="font-semibold text-foreground mb-4">{t('footer.knowledge')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <button
@@ -98,7 +98,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-blog"
                 >
-                  Blog Articles
+                  {t('footer.blogArticles')}
                 </button>
               </li>
               <li>
@@ -107,7 +107,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-case-studies"
                 >
-                  Case Studies
+                  {t('footer.caseStudies')}
                 </button>
               </li>
               <li>
@@ -116,14 +116,14 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-resources"
                 >
-                  Resources
+                  {t('footer.resources')}
                 </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Company</h3>
+            <h3 className="font-semibold text-foreground mb-4">{t('footer.company')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <button
@@ -131,7 +131,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-about"
                 >
-                  About Us
+                  {t('footer.about')}
                 </button>
               </li>
               <li>
@@ -140,7 +140,7 @@ export default function Footer() {
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-contact-footer"
                 >
-                  Contact
+                  {t('footer.contact')}
                 </button>
               </li>
             </ul>
@@ -149,11 +149,11 @@ export default function Footer() {
 
         <div className="pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} TerraBT. All rights reserved.
+            © {currentYear} TerraBT. {t('footer.copyright')}
           </p>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Cloud className="h-4 w-4 text-primary" />
-            <span>Deployed on Cloudflare</span>
+            <span>{t('footer.deployedOn')}</span>
           </div>
         </div>
       </div>
