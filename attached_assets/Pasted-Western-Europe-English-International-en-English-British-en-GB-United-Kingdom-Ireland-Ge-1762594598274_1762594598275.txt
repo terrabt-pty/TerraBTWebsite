@@ -1,0 +1,113 @@
+Western Europe:
+
+English (International) - en
+English (British) - en-GB - United Kingdom, Ireland
+German (Deutsch) - de-DE - Germany
+German (Deutsch - Austrian) - de-AT - Austria
+German (Deutsch - Swiss) - de-CH - Switzerland
+French (Français) - fr-FR - France
+French (Français - Swiss) - fr-CH - Switzerland
+Spanish (Español - European/Castilian) - es-ES - Spain
+Italian (Italiano) - it-IT - Italy
+Dutch (Nederlands) - nl-NL - Netherlands
+Portuguese (Português - European) - pt-PT - Portugal
+
+Nordic Countries:
+
+Swedish (Svenska) - sv-SE - Sweden
+Danish (Dansk) - da-DK - Denmark
+Norwegian (Norsk) - nb-NO - Norway
+Finnish (Suomi) - fi-FI - Finland
+
+Central & Eastern Europe:
+
+Polish (Polski) - pl-PL - Poland
+Czech (Čeština) - cs-CZ - Czech Republic
+Hungarian (Magyar) - hu-HU - Hungary
+Romanian (Română) - ro-RO - Romania
+Slovak (Slovenčina) - sk-SK - Slovakia
+Slovenian (Slovenščina) - sl-SI - Slovenia
+Croatian (Hrvatski) - hr-HR - Croatia
+Bulgarian (Български) - bg-BG - Bulgaria
+Ukrainian (Українська) - uk-UA - Ukraine
+Russian (Русський) - ru-RU - Russia
+Lithuanian (Lietuvių) - lt-LT - Lithuania
+Latvian (Latviešu) - lv-LV - Latvia
+Estonian (Eesti) - et-EE - Estonia
+
+Southeastern Europe:
+
+Greek (Ελληνικά) - el-GR - Greece
+
+Belgium-Specific:
+
+Flemish/Dutch (Vlaams/Nederlands) - nl-BE - Belgium
+French (Français - Belgian) - fr-BE - Belgium
+
+Americas
+North America:
+
+English (US) - en-US - United States
+English (Canadian) - en-CA - Canada
+French (Français - Canadian/Québécois) - fr-CA - Canada
+
+Latin America:
+
+Spanish (Español - Mexican) - es-MX - Mexico
+Spanish (Español - Argentinian/Rioplatense) - es-AR - Argentina
+Spanish (Español - Colombian) - es-CO - Colombia
+Spanish (Español - Chilean) - es-CL - Chile
+Spanish (Español - Peruvian) - es-PE - Peru
+Spanish (Español - Central American) - es-GT, es-CR - Guatemala, Costa Rica
+Portuguese (Português - Brazilian) - pt-BR - Brazil
+
+Asia-Pacific
+East Asia:
+
+Mandarin Chinese - Simplified (简体中文) - zh-CN - China
+Mandarin Chinese - Traditional (繁體中文) - zh-TW - Taiwan
+Japanese (日本語) - ja-JP - Japan
+Korean (한국어) - ko-KR - South Korea
+
+Southeast Asia:
+
+English (Singapore) - en-SG - Singapore
+English (Malaysian) - en-MY - Malaysia
+English (Indonesian) - en-ID - Indonesia
+English (Filipino) - en-PH - Philippines
+English (Thai) - en-TH - Thailand
+English (Vietnamese) - en-VN - Vietnam
+
+South Asia:
+
+English (Indian) - en-IN - India
+English (Pakistani) - en-PK - Pakistan
+English (Bangladeshi) - en-BD - Bangladesh
+English (Sri Lankan) - en-LK - Sri Lanka
+
+Oceania:
+
+English (Australian) - en-AU - Australia
+English (New Zealand) - en-NZ - New Zealand
+
+Middle East & Central Asia
+Middle East:
+
+Arabic (العربية - UAE) - ar-AE - United Arab Emirates
+Arabic (العربية - Saudi) - ar-SA - Saudi Arabia
+Arabic (العربية - Egyptian) - ar-EG - Egypt
+English (UAE) - en-AE - United Arab Emirates
+English (Saudi) - en-SA - Saudi Arabia
+Hebrew (עברית) - he-IL - Israel
+Turkish (Türkçe) - tr-TR - Turkey
+
+Africa
+East Africa:
+
+English (Kenyan) - en-KE - Kenya
+English (South African) - en-ZA - South Africa
+English (Nigerian) - en-NG - Nigeria
+English (Ghanaian) - en-GH - Ghana
+French (Français - West African) - fr-SN, fr-CI, fr-CM - Senegal, Côte d'Ivoire, Cameroon
+Portuguese (Português - Angolan) - pt-AO - Angola
+Portuguese (Português - Mozambican) - pt-MZ - Mozambique
