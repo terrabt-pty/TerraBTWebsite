@@ -82,51 +82,45 @@ export default function Home() {
   const blogPosts = [
     {
       image: fioriImage,
-      category: "Development",
-      title: "Building Modern Fiori Applications with SAP BTP",
-      excerpt:
-        "Learn how to create responsive, user-friendly Fiori applications that leverage the full power of SAP Business Technology Platform for enhanced user experiences.",
-      readTime: "5 min",
+      category: t('blog.post1.category'),
+      title: t('blog.post1.title'),
+      excerpt: t('blog.post1.excerpt'),
+      readTime: t('blog.post1.readTime'),
     },
     {
       image: pwaImage,
-      category: "Technology",
-      title: "Offline PWA: Ensuring Business Continuity Anywhere",
-      excerpt:
-        "Discover how Progressive Web Apps with offline capabilities can keep your business operations running smoothly even without internet connectivity.",
-      readTime: "7 min",
+      category: t('blog.post2.category'),
+      title: t('blog.post2.title'),
+      excerpt: t('blog.post2.excerpt'),
+      readTime: t('blog.post2.readTime'),
     },
     {
       image: aiImage,
-      category: "AI & Automation",
-      title: "Claude AI for Intelligent Invoice Processing",
-      excerpt:
-        "Explore how Claude AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
-      readTime: "6 min",
+      category: t('blog.post3.category'),
+      title: t('blog.post3.title'),
+      excerpt: t('blog.post3.excerpt'),
+      readTime: t('blog.post3.readTime'),
     },
     {
       image: globalImage,
-      category: "Integration",
-      title: "Mastering SAP BTP Integration Suite",
-      excerpt:
-        "A comprehensive guide to connecting your enterprise systems using SAP BTP Integration Suite for seamless data flow and business processes.",
-      readTime: "8 min",
+      category: t('blog.post4.category'),
+      title: t('blog.post4.title'),
+      excerpt: t('blog.post4.excerpt'),
+      readTime: t('blog.post4.readTime'),
     },
     {
       image: teamImage,
-      category: "Architecture",
-      title: "Event Mesh Architecture for Real-Time Business",
-      excerpt:
-        "Implementing event-driven architecture with SAP Event Mesh to create responsive, scalable solutions for modern business requirements.",
-      readTime: "6 min",
+      category: t('blog.post5.category'),
+      title: t('blog.post5.title'),
+      excerpt: t('blog.post5.excerpt'),
+      readTime: t('blog.post5.readTime'),
     },
     {
       image: fioriImage,
-      category: "Best Practices",
-      title: "BTP Database Optimization Strategies",
-      excerpt:
-        "Essential strategies for optimizing your SAP BTP database performance to ensure fast, reliable access to your business-critical data.",
-      readTime: "5 min",
+      category: t('blog.post6.category'),
+      title: t('blog.post6.title'),
+      excerpt: t('blog.post6.excerpt'),
+      readTime: t('blog.post6.readTime'),
     },
   ];
 
