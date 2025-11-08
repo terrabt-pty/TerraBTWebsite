@@ -80,6 +80,44 @@
     "readMore": "Read Article",
     "readTime": "{{time}} min"
   },
+  "blog": {
+    "post1": {
+      "category": "Development",
+      "title": "Building Modern Fiori Applications with SAP BTP",
+      "excerpt": "Learn how to create responsive, user-friendly Fiori applications that leverage the full power of SAP Business Technology Platform for enhanced user experiences.",
+      "readTime": "5 min"
+    },
+    "post2": {
+      "category": "Technology",
+      "title": "Offline PWA: Ensuring Business Continuity Anywhere",
+      "excerpt": "Discover how Progressive Web Apps with offline capabilities can keep your business operations running smoothly even without internet connectivity.",
+      "readTime": "7 min"
+    },
+    "post3": {
+      "category": "AI & Automation",
+      "title": "Claude AI for Intelligent Invoice Processing",
+      "excerpt": "Explore how Claude AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
+      "readTime": "6 min"
+    },
+    "post4": {
+      "category": "Integration",
+      "title": "Mastering SAP BTP Integration Suite",
+      "excerpt": "A comprehensive guide to connecting your enterprise systems using SAP BTP Integration Suite for seamless data flow and business processes.",
+      "readTime": "8 min"
+    },
+    "post5": {
+      "category": "Architecture",
+      "title": "Event Mesh Architecture for Real-Time Business",
+      "excerpt": "Implementing event-driven architecture with SAP Event Mesh to create responsive, scalable solutions for modern business requirements.",
+      "readTime": "6 min"
+    },
+    "post6": {
+      "category": "Best Practices",
+      "title": "BTP Database Optimization Strategies",
+      "excerpt": "Essential strategies for optimizing your SAP BTP database performance to ensure fast, reliable access to your business-critical data.",
+      "readTime": "5 min"
+    }
+  },
   "contact": {
     "badge": "Get Started",
     "title": "Ready to Transform Your Business?",
