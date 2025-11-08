@@ -5,20 +5,27 @@ import { SUPPORTED_LANGUAGES } from './config/languages';
 import enTranslations from './locales/en.json';
 import jaTranslations from './locales/ja.json';
 
+const getBaseLanguage = (code: string): string => {
+  return code.split('-')[0];
+};
+
 const getBrowserLanguage = (): string => {
   const browserLang = navigator.language || (navigator as any).userLanguage;
+  const normalizedBrowserLang = browserLang.toLowerCase();
   
-  const langCode = browserLang.split('-')[0];
-  const fullLangCode = browserLang;
-  
-  const exactMatch = SUPPORTED_LANGUAGES.find(lang => lang.code === fullLangCode);
+  const exactMatch = SUPPORTED_LANGUAGES.find(
+    lang => lang.code.toLowerCase() === normalizedBrowserLang
+  );
   if (exactMatch) {
     return exactMatch.code;
   }
   
-  const partialMatch = SUPPORTED_LANGUAGES.find(lang => lang.code.startsWith(langCode));
-  if (partialMatch) {
-    return partialMatch.code;
+  const baseLang = getBaseLanguage(normalizedBrowserLang);
+  const baseMatch = SUPPORTED_LANGUAGES.find(
+    lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
+  );
+  if (baseMatch) {
+    return baseMatch.code;
   }
   
   return 'en';
@@ -39,15 +46,23 @@ const getLanguageFromPath = () => {
   return getBrowserLanguage();
 };
 
-export { getBrowserLanguage };
+export { getBrowserLanguage, getBaseLanguage };
 
-const resources: { [key: string]: { translation: any } } = {
-  en: { translation: enTranslations },
-  ja: { translation: jaTranslations },
+const baseTranslations: { [key: string]: any } = {
+  'en': enTranslations,
+  'ja': jaTranslations,
 };
 
+const resources: { [key: string]: { translation: any } } = {};
+
 SUPPORTED_LANGUAGES.forEach(lang => {
-  if (!resources[lang.code]) {
+  const baseLang = getBaseLanguage(lang.code);
+  
+  if (baseTranslations[lang.code]) {
+    resources[lang.code] = { translation: baseTranslations[lang.code] };
+  } else if (baseTranslations[baseLang]) {
+    resources[lang.code] = { translation: baseTranslations[baseLang] };
+  } else {
     resources[lang.code] = { translation: enTranslations };
   }
 });
@@ -57,7 +72,10 @@ i18n
   .init({
     resources,
     lng: getLanguageFromPath(),
-    fallbackLng: 'en',
+    fallbackLng: (code) => {
+      const baseLang = getBaseLanguage(code);
+      return baseLang !== code ? [baseLang, 'en'] : ['en'];
+    },
     debug: false,
     interpolation: {
       escapeValue: false,
