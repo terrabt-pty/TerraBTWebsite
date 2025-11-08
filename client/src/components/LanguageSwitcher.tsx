@@ -6,9 +6,11 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  SelectGroup,
+  SelectLabel,
 } from "@/components/ui/select";
 import { Globe } from "lucide-react";
-import { SUPPORTED_LANGUAGES, getLanguageByCode } from "@/config/languages";
+import { SUPPORTED_LANGUAGES, getLanguageByCode, getRegions, getLanguagesByRegion } from "@/config/languages";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
@@ -39,11 +41,12 @@ export default function LanguageSwitcher() {
   };
 
   const currentLanguage = getLanguageByCode(i18n.language);
+  const regions = getRegions();
 
   return (
     <Select value={i18n.language} onValueChange={handleLanguageChange}>
       <SelectTrigger 
-        className="w-[180px] gap-2" 
+        className="w-[200px] gap-2" 
         data-testid="select-language"
       >
         <Globe className="h-4 w-4 shrink-0" />
@@ -51,19 +54,29 @@ export default function LanguageSwitcher() {
           {currentLanguage.nativeName}
         </SelectValue>
       </SelectTrigger>
-      <SelectContent className="max-h-[300px]">
-        {SUPPORTED_LANGUAGES.map((language) => (
-          <SelectItem 
-            key={language.code} 
-            value={language.code}
-            data-testid={`option-language-${language.code}`}
-          >
-            <div className="flex items-center justify-between w-full gap-3">
-              <span>{language.nativeName}</span>
-              <span className="text-muted-foreground text-sm">{language.name}</span>
-            </div>
-          </SelectItem>
-        ))}
+      <SelectContent className="max-h-[400px]">
+        {regions.map((region) => {
+          const languagesInRegion = getLanguagesByRegion(region);
+          return (
+            <SelectGroup key={region}>
+              <SelectLabel className="text-xs font-semibold text-muted-foreground">
+                {region}
+              </SelectLabel>
+              {languagesInRegion.map((language) => (
+                <SelectItem 
+                  key={language.code} 
+                  value={language.code}
+                  data-testid={`option-language-${language.code}`}
+                >
+                  <div className="flex items-center justify-between w-full gap-3">
+                    <span className="font-medium">{language.nativeName}</span>
+                    <span className="text-muted-foreground text-xs">{language.name}</span>
+                  </div>
+                </SelectItem>
+              ))}
+            </SelectGroup>
+          );
+        })}
       </SelectContent>
     </Select>
   );
