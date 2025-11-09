@@ -36,8 +36,8 @@
       "description": "Efficient database design, optimization, and management for high-performance BTP applications."
     },
     "ai": {
-      "title": "Claude AI Invoice Processing",
-      "description": "Intelligent invoice processing automation powered by Claude AI for accurate, efficient operations."
+      "title": "AI Invoice Processing",
+      "description": "Intelligent invoice processing automation powered by advanced AI for accurate, efficient operations."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
@@ -71,8 +71,8 @@
     },
     "global": {
       "badge": "Global Reach",
-      "title": "Serving Underserved Markets Worldwide",
-      "description": "We bring SAP BTP expertise to markets where local specialized consulting is limited, providing world-class solutions regardless of your location.",
+      "title": "Serving Markets Worldwide",
+      "description": "We bring SAP BTP expertise to markets globally, providing world-class solutions regardless of your location.",
       "point1": "Remote consulting capabilities across all time zones",
       "point2": "Multilingual support for international teams",
       "point3": "Understanding of regional business requirements"
@@ -80,7 +80,7 @@
     "ai": {
       "badge": "Modern Technology",
       "title": "AI-Powered Innovation",
-      "description": "Leveraging cutting-edge AI technology like Claude to enhance SAP BTP solutions, bringing automation and intelligence to your business processes.",
+      "description": "Leveraging cutting-edge AI technology to enhance SAP BTP solutions, bringing automation and intelligence to your business processes.",
       "point1": "Intelligent automation for repetitive tasks",
       "point2": "Advanced data processing and analysis",
       "point3": "Seamless integration with existing workflows"
@@ -107,8 +107,8 @@
     },
     "post3": {
       "category": "AI & Automation",
-      "title": "Claude AI for Intelligent Invoice Processing",
-      "excerpt": "Explore how Claude AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
+      "title": "AI for Intelligent Invoice Processing",
+      "excerpt": "Explore how AI integration with SAP BTP transforms invoice processing with unprecedented accuracy and efficiency for your business.",
       "readTime": "6 min"
     },
     "post4": {
