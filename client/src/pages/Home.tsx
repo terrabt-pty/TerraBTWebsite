@@ -93,6 +93,7 @@ export default function Home() {
       title: t('blog.post1.title'),
       excerpt: t('blog.post1.excerpt'),
       readTime: t('blog.post1.readTime'),
+      slug: 'fiori-applications-sap-btp',
     },
     {
       image: pwaImage,
@@ -100,6 +101,7 @@ export default function Home() {
       title: t('blog.post2.title'),
       excerpt: t('blog.post2.excerpt'),
       readTime: t('blog.post2.readTime'),
+      slug: 'offline-pwa-business-continuity',
     },
     {
       image: aiImage,
@@ -107,6 +109,7 @@ export default function Home() {
       title: t('blog.post3.title'),
       excerpt: t('blog.post3.excerpt'),
       readTime: t('blog.post3.readTime'),
+      slug: 'claude-ai-invoice-processing',
     },
     {
       image: globalImage,
@@ -114,6 +117,7 @@ export default function Home() {
       title: t('blog.post4.title'),
       excerpt: t('blog.post4.excerpt'),
       readTime: t('blog.post4.readTime'),
+      slug: 'mastering-integration-suite',
     },
     {
       image: teamImage,
@@ -121,6 +125,7 @@ export default function Home() {
       title: t('blog.post5.title'),
       excerpt: t('blog.post5.excerpt'),
       readTime: t('blog.post5.readTime'),
+      slug: 'event-mesh-architecture',
     },
     {
       image: fioriImage,
@@ -128,6 +133,7 @@ export default function Home() {
       title: t('blog.post6.title'),
       excerpt: t('blog.post6.excerpt'),
       readTime: t('blog.post6.readTime'),
+      slug: 'database-optimization-strategies',
     },
   ];
 
@@ -234,6 +240,7 @@ export default function Home() {
                 title={post.title}
                 excerpt={post.excerpt}
                 readTime={post.readTime}
+                slug={post.slug}
               />
             ))}
           </div>

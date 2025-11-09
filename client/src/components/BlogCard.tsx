@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock } from "lucide-react";
@@ -9,6 +10,7 @@ interface BlogCardProps {
   title: string;
   excerpt: string;
   readTime: string;
+  slug: string;
 }
 
 export default function BlogCard({
@@ -17,6 +19,7 @@ export default function BlogCard({
   title,
   excerpt,
   readTime,
+  slug,
 }: BlogCardProps) {
   const { t } = useTranslation();
   return (
@@ -41,16 +44,17 @@ export default function BlogCard({
         <div className="flex items-center justify-between pt-2">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Clock className="h-4 w-4" />
-            <span>{readTime} read</span>
+            <span>{readTime}</span>
           </div>
-          <button
-            className="flex items-center gap-1 text-primary font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
-            onClick={() => console.log(`Read more: ${title}`)}
-            data-testid="button-read-more"
-          >
-            {t('knowledge.readMore')}
-            <ArrowRight className="h-4 w-4" />
-          </button>
+          <Link href={`/blog/${slug}`}>
+            <button
+              className="flex items-center gap-1 text-primary font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
+              data-testid="button-read-more"
+            >
+              {t('knowledge.readMore')}
+              <ArrowRight className="h-4 w-4" />
+            </button>
+          </Link>
         </div>
       </div>
     </Card>
