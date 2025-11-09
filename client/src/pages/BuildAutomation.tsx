@@ -22,84 +22,84 @@ export default function BuildAutomation() {
   const features = [
     {
       icon: Workflow,
-      title: "Workflow Automation",
-      description: "Design and automate complex business workflows with visual modeling tools.",
+      title: t('buildAutomationPage.features.workflow.title'),
+      description: t('buildAutomationPage.features.workflow.description'),
       items: [
-        "Visual workflow designer",
-        "Business rule management",
-        "Conditional branching logic",
-        "Multi-step approvals",
-        "Process orchestration"
+        t('buildAutomationPage.features.workflow.items.0'),
+        t('buildAutomationPage.features.workflow.items.1'),
+        t('buildAutomationPage.features.workflow.items.2'),
+        t('buildAutomationPage.features.workflow.items.3'),
+        t('buildAutomationPage.features.workflow.items.4')
       ]
     },
     {
       icon: Bot,
-      title: "Robotic Process Automation",
-      description: "Automate repetitive desktop tasks with intelligent bots.",
+      title: t('buildAutomationPage.features.rpa.title'),
+      description: t('buildAutomationPage.features.rpa.description'),
       items: [
-        "Desktop automation bots",
-        "UI interaction recording",
-        "Screen scraping capabilities",
-        "Excel automation",
-        "System integration bots"
+        t('buildAutomationPage.features.rpa.items.0'),
+        t('buildAutomationPage.features.rpa.items.1'),
+        t('buildAutomationPage.features.rpa.items.2'),
+        t('buildAutomationPage.features.rpa.items.3'),
+        t('buildAutomationPage.features.rpa.items.4')
       ]
     },
     {
       icon: Zap,
-      title: "Intelligent Document Processing",
-      description: "Extract and process information from documents automatically.",
+      title: t('buildAutomationPage.features.document.title'),
+      description: t('buildAutomationPage.features.document.description'),
       items: [
-        "AI-powered data extraction",
-        "Multi-format document support",
-        "Template-based extraction",
-        "Machine learning models",
-        "Validation and verification"
+        t('buildAutomationPage.features.document.items.0'),
+        t('buildAutomationPage.features.document.items.1'),
+        t('buildAutomationPage.features.document.items.2'),
+        t('buildAutomationPage.features.document.items.3'),
+        t('buildAutomationPage.features.document.items.4')
       ]
     },
     {
       icon: FileCheck,
-      title: "Approval Workflows",
-      description: "Streamline approval processes with automated routing.",
+      title: t('buildAutomationPage.features.approval.title'),
+      description: t('buildAutomationPage.features.approval.description'),
       items: [
-        "Multi-level approvals",
-        "Parallel and sequential routing",
-        "Deadline management",
-        "Escalation handling",
-        "Mobile approval support"
+        t('buildAutomationPage.features.approval.items.0'),
+        t('buildAutomationPage.features.approval.items.1'),
+        t('buildAutomationPage.features.approval.items.2'),
+        t('buildAutomationPage.features.approval.items.3'),
+        t('buildAutomationPage.features.approval.items.4')
       ]
     },
     {
       icon: TrendingUp,
-      title: "Process Analytics",
-      description: "Gain insights into process performance with built-in analytics.",
+      title: t('buildAutomationPage.features.analytics.title'),
+      description: t('buildAutomationPage.features.analytics.description'),
       items: [
-        "Process performance metrics",
-        "Bottleneck identification",
-        "Real-time dashboards",
-        "Historical trend analysis",
-        "ROI calculation"
+        t('buildAutomationPage.features.analytics.items.0'),
+        t('buildAutomationPage.features.analytics.items.1'),
+        t('buildAutomationPage.features.analytics.items.2'),
+        t('buildAutomationPage.features.analytics.items.3'),
+        t('buildAutomationPage.features.analytics.items.4')
       ]
     },
     {
       icon: Shield,
-      title: "Governance & Compliance",
-      description: "Ensure compliance through automated controls and audit trails.",
+      title: t('buildAutomationPage.features.governance.title'),
+      description: t('buildAutomationPage.features.governance.description'),
       items: [
-        "Complete audit logging",
-        "Compliance rule enforcement",
-        "Version control",
-        "Access control management",
-        "Regulatory compliance"
+        t('buildAutomationPage.features.governance.items.0'),
+        t('buildAutomationPage.features.governance.items.1'),
+        t('buildAutomationPage.features.governance.items.2'),
+        t('buildAutomationPage.features.governance.items.3'),
+        t('buildAutomationPage.features.governance.items.4')
       ]
     }
   ];
 
   const benefits = [
-    "90% reduction in manual processing time",
-    "Near-zero error rates in automated processes",
-    "Significant cost savings in operations",
-    "Improved compliance and audit capability",
-    "Enhanced employee productivity"
+    t('buildAutomationPage.benefits.0'),
+    t('buildAutomationPage.benefits.1'),
+    t('buildAutomationPage.benefits.2'),
+    t('buildAutomationPage.benefits.3'),
+    t('buildAutomationPage.benefits.4')
   ];
 
   return (
@@ -115,26 +115,25 @@ export default function BuildAutomation() {
           <Link href="/">
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Home
+              {t('common.backToHome')}
             </Button>
           </Link>
 
           <div className="max-w-4xl">
             <Badge className="bg-primary/10 text-primary border-primary/30 mb-6" data-testid="badge-category">
-              Process Automation
+              {t('buildAutomationPage.badge')}
             </Badge>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-chart-1 via-primary to-trust bg-clip-text text-transparent">
-                SAP Build Process Automation
+                {t('buildAutomationPage.title')}
               </span>
               <br />
-              <span className="text-foreground">Services</span>
+              <span className="text-foreground">{t('buildAutomationPage.subtitle')}</span>
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Transform repetitive tasks and complex workflows with intelligent automation. 
-              Combine RPA, workflow, and AI to streamline business processes and drive operational excellence.
+              {t('buildAutomationPage.description')}
             </p>
 
             <Button 
@@ -143,7 +142,7 @@ export default function BuildAutomation() {
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20"
               data-testid="button-start-project"
             >
-              Start Your Automation Journey →
+              {t('buildAutomationPage.cta')}
             </Button>
           </div>
         </div>
@@ -153,10 +152,10 @@ export default function BuildAutomation() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Intelligent Business Process Automation
+              {t('buildAutomationPage.servicesTitle')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Leverage the power of intelligent automation to eliminate manual work and accelerate business processes.
+              {t('buildAutomationPage.servicesSubtitle')}
             </p>
           </div>
 
@@ -200,10 +199,10 @@ export default function BuildAutomation() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-                Why Automate with SAP Build?
+                {t('buildAutomationPage.whyChooseTitle')}
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                SAP Build Process Automation combines workflow, RPA, and AI capabilities to deliver comprehensive process automation solutions.
+                {t('buildAutomationPage.whyChooseDescription')}
               </p>
               <ul className="space-y-4">
                 {benefits.map((benefit, index) => (
@@ -217,42 +216,42 @@ export default function BuildAutomation() {
               </ul>
             </div>
             <Card className="p-8">
-              <h3 className="text-2xl font-semibold mb-6 text-foreground">Implementation Approach</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-foreground">{t('buildAutomationPage.implementationTitle')}</h3>
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">1. Process Discovery</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step1.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Identify automation opportunities and quantify potential benefits.
+                    {t('buildAutomationPage.implementation.step1.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">2. Solution Design</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step2.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Design optimal automation architecture combining workflow, RPA, and AI.
+                    {t('buildAutomationPage.implementation.step2.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">3. Development & Configuration</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step3.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Build automation solutions with visual tools and intelligent capabilities.
+                    {t('buildAutomationPage.implementation.step3.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">4. Testing & Validation</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step4.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Ensure reliability across scenarios and validate business rules.
+                    {t('buildAutomationPage.implementation.step4.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">5. Deployment & Monitoring</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step5.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Deploy to production and establish continuous monitoring and optimization.
+                    {t('buildAutomationPage.implementation.step5.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">6. Center of Excellence</h4>
+                  <h4 className="font-semibold text-foreground mb-2">{t('buildAutomationPage.implementation.step6.title')}</h4>
                   <p className="text-muted-foreground text-sm">
-                    Establish governance and scale automation across the organization.
+                    {t('buildAutomationPage.implementation.step6.description')}
                   </p>
                 </div>
               </div>
