@@ -1,5 +1,5 @@
 import BlogPost from "@/pages/BlogPost";
-import globalImage from "@assets/global-reach.jpg";
+import globalImage from "@assets/generated_images/Global_reach_world_map_bb3068a2.png";
 
 export default function MasteringIntegrationSuite() {
   return (

@@ -1,5 +1,5 @@
 import BlogPost from "@/pages/BlogPost";
-import pwaImage from "@assets/pwa-offline.jpg";
+import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.png";
 
 export default function OfflinePWABusinessContinuity() {
   return (

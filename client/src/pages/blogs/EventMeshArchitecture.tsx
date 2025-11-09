@@ -1,5 +1,5 @@
 import BlogPost from "@/pages/BlogPost";
-import teamImage from "@assets/team-collaboration.jpg";
+import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
 
 export default function EventMeshArchitecture() {
   return (

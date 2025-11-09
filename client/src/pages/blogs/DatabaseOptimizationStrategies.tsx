@@ -1,5 +1,5 @@
 import BlogPost from "@/pages/BlogPost";
-import fioriImage from "@assets/fiori-modern.jpg";
+import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.png";
 
 export default function DatabaseOptimizationStrategies() {
   return (

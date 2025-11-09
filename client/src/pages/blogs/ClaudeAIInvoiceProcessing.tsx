@@ -1,5 +1,5 @@
 import BlogPost from "@/pages/BlogPost";
-import aiImage from "@assets/ai-integration.jpg";
+import aiImage from "@assets/generated_images/AI_technology_integration_visual_7e9469a5.png";
 
 export default function ClaudeAIInvoiceProcessing() {
   return (
