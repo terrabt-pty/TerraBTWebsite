@@ -625,7 +625,14 @@
         "value": "24/7",
         "label": "Support Available"
       }
-    }
+    },
+    "whyChooseBadge": "Why Choose TerraBT",
+    "ctaSectionBadge": "⚡ Start Your Project Today",
+    "ctaSectionTitle1": "Ready to Build",
+    "ctaSectionTitle2": "Your SAP BTP Architecture?",
+    "ctaSectionDescription": "Schedule a free consultation with our SAP BTP architects to discuss your requirements and explore how we can help you succeed.",
+    "ctaSectionButton1": "Schedule Free Consultation →",
+    "ctaSectionButton2": "View All Services"
   },
   "fioriDevelopment": {
     "badge": "Application Development",

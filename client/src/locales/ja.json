@@ -654,7 +654,14 @@
         "value": "24時間365日",
         "label": "サポート対応"
       }
-    }
+    },
+    "whyChooseBadge": "TerraBTを選ぶ理由",
+    "ctaSectionBadge": "⚡ 今すぐプロジェクトを開始",
+    "ctaSectionTitle1": "構築の準備はできていますか？",
+    "ctaSectionTitle2": "SAP BTPアーキテクチャ",
+    "ctaSectionDescription": "SAP BTPアーキテクトとの無料相談をスケジュールして、要件について話し合い、成功をサポートする方法を探りましょう。",
+    "ctaSectionButton1": "無料相談を予約 →",
+    "ctaSectionButton2": "すべてのサービスを見る"
   },
   "fioriDevelopment": {
     "badge": "アプリケーション開発",
