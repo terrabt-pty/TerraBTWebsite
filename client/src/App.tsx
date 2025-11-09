@@ -17,6 +17,12 @@ import ClaudeAI from "@/pages/ClaudeAI";
 import IntegrationSuite from "@/pages/IntegrationSuite";
 import EventMesh from "@/pages/EventMesh";
 import CAPDevelopment from "@/pages/CAPDevelopment";
+import FioriApplicationsSAPBTP from "@/pages/blogs/FioriApplicationsSAPBTP";
+import OfflinePWABusinessContinuity from "@/pages/blogs/OfflinePWABusinessContinuity";
+import ClaudeAIInvoiceProcessing from "@/pages/blogs/ClaudeAIInvoiceProcessing";
+import MasteringIntegrationSuite from "@/pages/blogs/MasteringIntegrationSuite";
+import EventMeshArchitecture from "@/pages/blogs/EventMeshArchitecture";
+import DatabaseOptimizationStrategies from "@/pages/blogs/DatabaseOptimizationStrategies";
 import NotFound from "@/pages/not-found";
 
 function LanguageSync() {
@@ -61,6 +67,14 @@ function Router() {
       <Route path="/services/event-mesh" component={EventMesh} />
       <Route path="/services/cap-development" component={CAPDevelopment} />
       
+      {/* Blog post routes */}
+      <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
+      <Route path="/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
+      <Route path="/blog/claude-ai-invoice-processing" component={ClaudeAIInvoiceProcessing} />
+      <Route path="/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
+      <Route path="/blog/event-mesh-architecture" component={EventMeshArchitecture} />
+      <Route path="/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />
+      
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={Home} />
       <Route path="/:lang/services/btp-architecture" component={BTPArchitecture} />
@@ -72,6 +86,14 @@ function Router() {
       <Route path="/:lang/services/integration-suite" component={IntegrationSuite} />
       <Route path="/:lang/services/event-mesh" component={EventMesh} />
       <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
+      
+      {/* Localized blog post routes */}
+      <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
+      <Route path="/:lang/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
+      <Route path="/:lang/blog/claude-ai-invoice-processing" component={ClaudeAIInvoiceProcessing} />
+      <Route path="/:lang/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
+      <Route path="/:lang/blog/event-mesh-architecture" component={EventMeshArchitecture} />
+      <Route path="/:lang/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />
       
       <Route component={NotFound} />
     </Switch>
