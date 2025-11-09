@@ -16,6 +16,7 @@ import DatabaseManagement from "@/pages/DatabaseManagement";
 import ClaudeAI from "@/pages/ClaudeAI";
 import IntegrationSuite from "@/pages/IntegrationSuite";
 import EventMesh from "@/pages/EventMesh";
+import CAPDevelopment from "@/pages/CAPDevelopment";
 import NotFound from "@/pages/not-found";
 
 function LanguageSync() {
@@ -58,6 +59,7 @@ function Router() {
       <Route path="/services/claude-ai" component={ClaudeAI} />
       <Route path="/services/integration-suite" component={IntegrationSuite} />
       <Route path="/services/event-mesh" component={EventMesh} />
+      <Route path="/services/cap-development" component={CAPDevelopment} />
       
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={Home} />
@@ -69,6 +71,7 @@ function Router() {
       <Route path="/:lang/services/claude-ai" component={ClaudeAI} />
       <Route path="/:lang/services/integration-suite" component={IntegrationSuite} />
       <Route path="/:lang/services/event-mesh" component={EventMesh} />
+      <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
       
       <Route component={NotFound} />
     </Switch>

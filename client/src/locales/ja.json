@@ -46,6 +46,10 @@
     "eventMesh": {
       "title": "イベントメッシュ",
       "description": "レスポンシブでスケーラブルなビジネスプロセスのためのリアルタイムイベント駆動型アーキテクチャの実装。"
+    },
+    "cap": {
+      "title": "SAP CAP開発",
+      "description": "SAP Cloud Application Programming Modelを使用して、迅速でスケーラブルな開発のためのモダンなクラウドアプリケーションを構築します。"
     }
   },
   "value": {

@@ -17,6 +17,7 @@ import {
   Brain,
   GitBranch,
   Zap,
+  Code,
 } from "lucide-react";
 
 import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
@@ -76,6 +77,12 @@ export default function Home() {
       title: t('services.eventMesh.title'),
       description: t('services.eventMesh.description'),
       href: "/services/event-mesh",
+    },
+    {
+      icon: Code,
+      title: t('services.cap.title'),
+      description: t('services.cap.description'),
+      href: "/services/cap-development",
     },
   ];
 
