@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -8,6 +10,8 @@ import { ArrowLeft, CheckCircle, Database, LineChart, Lock, Zap, HardDrive, Refr
 import { Link } from "wouter";
 
 export default function DatabaseManagement() {
+  const { t } = useTranslation();
+
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
@@ -18,84 +22,36 @@ export default function DatabaseManagement() {
   const services = [
     {
       icon: Database,
-      title: "Database Design & Modeling",
-      description: "Efficient database schema design optimized for SAP BTP applications.",
-      features: [
-        "SAP HANA Cloud database design",
-        "PostgreSQL and SAP ASE configuration",
-        "Entity-relationship modeling",
-        "Normalization and denormalization strategies",
-        "Indexing and partitioning strategies"
-      ]
+      key: "design"
     },
     {
       icon: Zap,
-      title: "Performance Optimization",
-      description: "Maximize database performance for lightning-fast query execution.",
-      features: [
-        "Query optimization and tuning",
-        "Index analysis and recommendations",
-        "Execution plan optimization",
-        "Memory and cache configuration",
-        "Performance monitoring and profiling"
-      ]
+      key: "optimization"
     },
     {
       icon: Lock,
-      title: "Security & Compliance",
-      description: "Protect your data with enterprise-grade security measures.",
-      features: [
-        "Data encryption at rest and in transit",
-        "Row-level and column-level security",
-        "Audit trail implementation",
-        "GDPR and compliance requirements",
-        "Backup encryption and secure storage"
-      ]
+      key: "security"
     },
     {
       icon: RefreshCw,
-      title: "Backup & Recovery",
-      description: "Comprehensive disaster recovery and business continuity planning.",
-      features: [
-        "Automated backup scheduling",
-        "Point-in-time recovery capabilities",
-        "Disaster recovery procedures",
-        "High availability configuration",
-        "Multi-region replication"
-      ]
+      key: "backup"
     },
     {
       icon: HardDrive,
-      title: "Data Migration",
-      description: "Seamless data migration from legacy systems to SAP BTP.",
-      features: [
-        "Data extraction and transformation",
-        "Migration strategy and planning",
-        "Zero-downtime migration techniques",
-        "Data validation and verification",
-        "Rollback procedures and testing"
-      ]
+      key: "migration"
     },
     {
       icon: LineChart,
-      title: "Monitoring & Maintenance",
-      description: "Proactive monitoring and maintenance for optimal database health.",
-      features: [
-        "Real-time performance monitoring",
-        "Automated alerting and notifications",
-        "Health check and diagnostics",
-        "Capacity planning and forecasting",
-        "Patch management and updates"
-      ]
+      key: "monitoring"
     }
   ];
 
   const benefits = [
-    "Up to 10x faster query performance with optimization",
-    "99.99% uptime with high availability configuration",
-    "Reduced storage costs through efficient design",
-    "Compliance-ready with built-in security features",
-    "24/7 monitoring and expert support"
+    t('databaseManagement.benefits.0'),
+    t('databaseManagement.benefits.1'),
+    t('databaseManagement.benefits.2'),
+    t('databaseManagement.benefits.3'),
+    t('databaseManagement.benefits.4')
   ];
 
   return (

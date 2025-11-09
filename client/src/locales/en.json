@@ -736,7 +736,14 @@
         "value": "100%",
         "label": "Mobile Responsive"
       }
-    }
+    },
+    "whyChooseBadge": "Why Choose TerraBT",
+    "ctaSectionBadge": "⚡ Limited Development Slots Available",
+    "ctaSectionTitle1": "Ready to Build",
+    "ctaSectionTitle2": "Your Next Fiori Application?",
+    "ctaSectionDescription": "Let's discuss your requirements and create a beautiful, high-performing Fiori app that your users will love.",
+    "ctaSectionButton1": "Get a Free Quote →",
+    "ctaSectionButton2": "Explore Other Services"
   },
   "offlinePWA": {
     "badge": "Progressive Web Apps",
@@ -1361,5 +1368,116 @@
         "label": "Processing Availability"
       }
     }
+  },
+  "offlinePWA": {
+    "badge": "Progressive Web Apps",
+    "title": "Offline PWA Apps",
+    "subtitle": "for SAP BTP",
+    "description": "Progressive web applications with offline capabilities ensuring seamless user experience anywhere. Build apps that work perfectly whether online or offline, delivering native app experiences through the web.",
+    "cta": "Build Your PWA →",
+    "servicesTitle": "Complete PWA Development Services",
+    "servicesSubtitle": "From offline-first architecture to push notifications, we build PWAs that rival native apps.",
+    "whyChooseBadge": "The PWA Advantage",
+    "whyChooseTitle": "Native Experience, Web Simplicity",
+    "whyChooseDescription": "Progressive Web Apps combine the best of web and native apps. No app store approvals, instant updates, and work across all devices - all while providing an app-like experience.",
+    "features": {
+      "offlineFirst": {
+        "title": "Offline-First Architecture",
+        "description": "Design applications that work seamlessly even without internet connectivity.",
+        "items": [
+          "Service Worker implementation",
+          "Offline data caching strategies",
+          "IndexedDB and local storage management",
+          "Background sync capabilities",
+          "Conflict resolution strategies"
+        ]
+      },
+      "dataSync": {
+        "title": "Data Synchronization",
+        "description": "Intelligent sync mechanisms to keep data consistent across devices.",
+        "items": [
+          "Automatic background synchronization",
+          "Delta sync for efficient data transfer",
+          "Conflict detection and resolution",
+          "Optimistic UI updates",
+          "Retry mechanisms and error handling"
+        ]
+      },
+      "pwaFeatures": {
+        "title": "Progressive Web App Features",
+        "description": "Native app-like experience with modern web capabilities.",
+        "items": [
+          "App manifest configuration",
+          "Add to home screen functionality",
+          "Push notification support",
+          "Camera and GPS integration",
+          "App shell architecture"
+        ]
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "description": "Lightning-fast load times and smooth offline transitions.",
+        "items": [
+          "Pre-caching critical resources",
+          "Lazy loading for images and content",
+          "Code splitting and bundling",
+          "Compression and minification",
+          "Performance monitoring and analytics"
+        ]
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "description": "Secure offline data storage and transmission.",
+        "items": [
+          "Data encryption at rest",
+          "Secure authentication tokens",
+          "HTTPS enforcement",
+          "Content Security Policy (CSP)",
+          "Regular security audits"
+        ]
+      },
+      "onlineEnhancement": {
+        "title": "Online Enhancement",
+        "description": "Enhanced functionality when connectivity is available.",
+        "items": [
+          "Real-time updates and notifications",
+          "Cloud backup and restore",
+          "Multi-device synchronization",
+          "Analytics and telemetry",
+          "Feature detection and progressive enhancement"
+        ]
+      }
+    },
+    "benefits": [
+      "Work anywhere, anytime - even without internet",
+      "Improved user experience with instant loading",
+      "Reduced server costs with efficient caching",
+      "Higher conversion rates from app-like experience",
+      "Better engagement with push notifications"
+    ],
+    "statistics": {
+      "offlineCapability": {
+        "value": "100%",
+        "label": "Offline Capability"
+      },
+      "loadTime": {
+        "value": "3x",
+        "label": "Faster Load Times"
+      },
+      "dataReduction": {
+        "value": "50%",
+        "label": "Reduced Data Usage"
+      },
+      "engagement": {
+        "value": "80%",
+        "label": "Higher Engagement"
+      }
+    },
+    "ctaSectionBadge": "⚡ Enable Offline Capabilities Today",
+    "ctaSectionTitle1": "Ready to Build",
+    "ctaSectionTitle2": "Your Offline-First PWA?",
+    "ctaSectionDescription": "Let's create a progressive web app that works flawlessly offline and delivers a native app experience to your users.",
+    "ctaSectionButton1": "Start Your PWA Project →",
+    "ctaSectionButton2": "View All Services"
   }
 }
