@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Linkedin, Twitter, Github, Cloud } from "lucide-react";
+import { Linkedin, Twitter, Cloud } from "lucide-react";
 import Logo from "@/components/Logo";
 
 export default function Footer() {
@@ -36,13 +36,6 @@ export default function Footer() {
                 data-testid="button-twitter"
               >
                 <Twitter className="h-4 w-4" />
-              </button>
-              <button
-                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all"
-                onClick={() => console.log("Github clicked")}
-                data-testid="button-github"
-              >
-                <Github className="h-4 w-4" />
               </button>
             </div>
           </div>
