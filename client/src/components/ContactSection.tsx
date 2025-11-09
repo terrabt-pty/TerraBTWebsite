@@ -27,7 +27,7 @@ export default function ContactSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">
-                Contact Information
+                {t('contact.contactInfo')}
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
@@ -35,7 +35,7 @@ export default function ContactSection() {
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">Email</p>
+                    <p className="font-medium text-foreground">{t('contact.email')}</p>
                     <a 
                       href="mailto:contact@terrabt.com" 
                       className="text-muted-foreground hover:text-primary transition-colors hover-elevate px-2 py-1 rounded-md inline-block"
@@ -51,9 +51,9 @@ export default function ContactSection() {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">Global Presence</p>
+                    <p className="font-medium text-foreground">{t('contact.globalPresence')}</p>
                     <p className="text-muted-foreground" data-testid="text-location">
-                      Serving clients in 40+ countries worldwide
+                      {t('contact.servingCountries')}
                     </p>
                   </div>
                 </div>
@@ -63,10 +63,10 @@ export default function ContactSection() {
             <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-trust/10 border border-primary/20">
               <h4 className="font-semibold text-foreground mb-2 flex items-center gap-2">
                 <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-                Fast Response Guarantee
+                {t('contact.fastResponse')}
               </h4>
               <p className="text-foreground/80 text-sm font-medium">
-                Get expert advice within 24 hours. Our SAP BTP specialists are ready to help you succeed.
+                {t('contact.fastResponseDesc')}
               </p>
             </div>
           </div>
