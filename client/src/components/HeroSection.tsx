@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Globe, Target } from "lucide-react";
-import heroImage from "@assets/generated_images/Hero_background_with_tech_patterns_69d4428f.png";
+import heroImage from "@assets/TerraBT Page Background_1762663704678.png";
 
 export default function HeroSection() {
   const { t } = useTranslation();
