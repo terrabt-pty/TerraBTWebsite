@@ -1,38 +1,9 @@
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
   const { t } = useTranslation();
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    console.log("Form submitted:", formData);
-    
-    setTimeout(() => {
-      toast({
-        title: t('contact.success.title'),
-        description: t('contact.success.description'),
-      });
-      setFormData({ name: "", email: "", company: "", message: "" });
-      setIsSubmitting(false);
-    }, 500);
-  };
 
   return (
     <section id="contact" className="py-20 md:py-24 bg-gradient-to-br from-trust/10 via-primary/5 to-background relative overflow-hidden">
@@ -52,75 +23,7 @@ export default function ContactSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <form onSubmit={handleSubmit} className="space-y-6" data-testid="form-contact">
-            <div className="space-y-2">
-              <Label htmlFor="name">{t('contact.form.name')}</Label>
-              <Input
-                id="name"
-                value={formData.name}
-                onChange={(e) =>
-                  setFormData({ ...formData, name: e.target.value })
-                }
-                required
-                disabled={isSubmitting}
-                data-testid="input-name"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="email">{t('contact.form.email')}</Label>
-              <Input
-                id="email"
-                type="email"
-                value={formData.email}
-                onChange={(e) =>
-                  setFormData({ ...formData, email: e.target.value })
-                }
-                required
-                disabled={isSubmitting}
-                data-testid="input-email"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="company">{t('contact.form.company')}</Label>
-              <Input
-                id="company"
-                value={formData.company}
-                onChange={(e) =>
-                  setFormData({ ...formData, company: e.target.value })
-                }
-                disabled={isSubmitting}
-                data-testid="input-company"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="message">{t('contact.form.message')}</Label>
-              <Textarea
-                id="message"
-                className="min-h-32"
-                value={formData.message}
-                onChange={(e) =>
-                  setFormData({ ...formData, message: e.target.value })
-                }
-                required
-                disabled={isSubmitting}
-                data-testid="input-message"
-              />
-            </div>
-
-            <Button 
-              type="submit" 
-              className="w-full h-12 bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20 text-base font-semibold" 
-              data-testid="button-submit-contact"
-              disabled={isSubmitting}
-            >
-              {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit')}
-            </Button>
-          </form>
-
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">
