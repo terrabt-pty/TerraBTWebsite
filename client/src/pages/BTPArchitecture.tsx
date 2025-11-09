@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ArrowLeft, CheckCircle, Layers, Shield, Server, GitBranch, Zap, Key, Users } from "lucide-react";
+import { ArrowLeft, CheckCircle, Layers, Shield, Server, GitBranch, Zap, Key, Users, Network } from "lucide-react";
 import { Link } from "wouter";
 
 export default function BTPArchitecture() {
@@ -62,6 +62,19 @@ export default function BTPArchitecture() {
         "Open Connectors configuration",
         "Integration Advisor utilization",
         "Pre-packaged integration content deployment"
+      ]
+    },
+    {
+      icon: Network,
+      title: "SAP Cloud Connector Setup",
+      description: "Secure on-premise to cloud connectivity for hybrid landscape integration.",
+      features: [
+        "Cloud Connector installation and configuration",
+        "Secure tunnel establishment between on-premise and BTP",
+        "Access control and security group management",
+        "System mapping and virtual host configuration",
+        "High availability and failover setup",
+        "Monitoring and troubleshooting connectivity issues"
       ]
     },
     {
