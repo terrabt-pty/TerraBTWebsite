@@ -10,9 +10,6 @@ export default function ContactSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-chart-5/5 via-transparent to-primary/5" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center space-y-4 mb-12">
-          <Badge className="bg-urgency/10 text-urgency border-urgency/30 font-semibold mb-4">
-            ⚡ {t('contact.availability')}
-          </Badge>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             <span className="bg-gradient-to-r from-chart-4 via-primary to-urgency bg-clip-text text-transparent">
               {t('contact.title')}
@@ -43,6 +40,9 @@ export default function ContactSection() {
                     >
                       contact@terrabt.com
                     </a>
+                    <p className="text-sm text-muted-foreground/80 mt-2 italic">
+                      {t('contact.mentionCountry')}
+                    </p>
                   </div>
                 </div>
 
