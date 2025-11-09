@@ -36,9 +36,13 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground" data-testid="text-email">
+                    <a 
+                      href="mailto:contact@terrabt.com" 
+                      className="text-muted-foreground hover:text-primary transition-colors hover-elevate px-2 py-1 rounded-md inline-block"
+                      data-testid="text-email"
+                    >
                       contact@terrabt.com
-                    </p>
+                    </a>
                   </div>
                 </div>
 
