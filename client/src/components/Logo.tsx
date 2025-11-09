@@ -10,7 +10,7 @@ export default function Logo({ className = "h-8" }: LogoProps) {
           {`
             @font-face {
               font-family: 'Asimovian';
-              src: url('https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Asimovian.woff2') format('woff2');
+              src: url('/fonts/Asimovian-Regular.woff2') format('woff2');
             }
             .green-text {
               fill: #5AC765;
