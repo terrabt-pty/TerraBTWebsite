@@ -7,8 +7,11 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft, CheckCircle, Code, Database, Shield, Zap, FileCode, Workflow } from "lucide-react";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 
 export default function CAPDevelopment() {
+  const { t } = useTranslation();
+  
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
@@ -19,85 +22,43 @@ export default function CAPDevelopment() {
   const features = [
     {
       icon: Code,
-      title: "Full-Stack CAP Development",
-      description: "End-to-end application development using SAP Cloud Application Programming Model.",
-      items: [
-        "CDS modeling for domain-driven design",
-        "Service implementation with Node.js or Java",
-        "Entity-relationship modeling and associations",
-        "Custom business logic and event handlers",
-        "Annotations for UI generation"
-      ]
+      title: t('capDevelopment.features.fullStack.title'),
+      description: t('capDevelopment.features.fullStack.description'),
+      items: t('capDevelopment.features.fullStack.items', { returnObjects: true }) as string[]
     },
     {
       icon: Database,
-      title: "Database Integration",
-      description: "Seamless database management with SAP HANA and other supported databases.",
-      items: [
-        "SAP HANA Cloud database setup",
-        "SQLite for local development",
-        "PostgreSQL integration support",
-        "Data migration and seeding strategies",
-        "Advanced CDS views and projections"
-      ]
+      title: t('capDevelopment.features.database.title'),
+      description: t('capDevelopment.features.database.description'),
+      items: t('capDevelopment.features.database.items', { returnObjects: true }) as string[]
     },
     {
       icon: Shield,
-      title: "Security & Authorization",
-      description: "Enterprise-grade security implementation for CAP applications.",
-      items: [
-        "Role-based access control (RBAC)",
-        "Authorization annotations in CDS",
-        "Integration with IAS/XSUAA",
-        "Data protection and field-level security",
-        "Audit logging configuration"
-      ]
+      title: t('capDevelopment.features.security.title'),
+      description: t('capDevelopment.features.security.description'),
+      items: t('capDevelopment.features.security.items', { returnObjects: true }) as string[]
     },
     {
       icon: Zap,
-      title: "API Development",
-      description: "Build robust OData and REST APIs with CAP framework.",
-      items: [
-        "OData V4 service exposure",
-        "Custom REST API endpoints",
-        "Service composition and reuse",
-        "API documentation generation",
-        "Batch request handling"
-      ]
+      title: t('capDevelopment.features.api.title'),
+      description: t('capDevelopment.features.api.description'),
+      items: t('capDevelopment.features.api.items', { returnObjects: true }) as string[]
     },
     {
       icon: FileCode,
-      title: "Fiori Integration",
-      description: "Connect CAP backend services with SAP Fiori frontends.",
-      items: [
-        "Fiori Elements application generation",
-        "Custom Fiori UI5 app integration",
-        "Draft handling for collaborative editing",
-        "Value help and search capabilities",
-        "Flexible programming model annotations"
-      ]
+      title: t('capDevelopment.features.fiori.title'),
+      description: t('capDevelopment.features.fiori.description'),
+      items: t('capDevelopment.features.fiori.items', { returnObjects: true }) as string[]
     },
     {
       icon: Workflow,
-      title: "CI/CD & Deployment",
-      description: "Automated deployment pipelines for CAP applications on BTP.",
-      items: [
-        "Multi-target application (MTA) build",
-        "Cloud Foundry deployment automation",
-        "Environment-specific configurations",
-        "Database schema migration automation",
-        "Testing and quality assurance setup"
-      ]
+      title: t('capDevelopment.features.cicd.title'),
+      description: t('capDevelopment.features.cicd.description'),
+      items: t('capDevelopment.features.cicd.items', { returnObjects: true }) as string[]
     }
   ];
 
-  const benefits = [
-    "Rapid development with built-in best practices",
-    "Seamless SAP ecosystem integration",
-    "Scalable microservices architecture",
-    "Reduced development time by 50%",
-    "Cloud-native and deployment-ready"
-  ];
+  const benefits = t('capDevelopment.benefits', { returnObjects: true }) as string[];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -113,26 +74,25 @@ export default function CAPDevelopment() {
           <Link href="/">
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Home
+              {t('common.backToHome')}
             </Button>
           </Link>
 
           <div className="max-w-4xl">
             <Badge className="bg-primary/10 text-primary border-primary/30 mb-6" data-testid="badge-category">
-              Development
+              {t('capDevelopment.badge')}
             </Badge>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-chart-1 via-primary to-trust bg-clip-text text-transparent">
-                SAP CAP Development
+                {t('capDevelopment.title')}
               </span>
               <br />
-              <span className="text-foreground">Services</span>
+              <span className="text-foreground">{t('capDevelopment.subtitle')}</span>
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Build modern, cloud-native applications with SAP Cloud Application Programming Model (CAP). 
-              Our expert developers create scalable, enterprise-grade solutions leveraging the full power of CAP framework.
+              {t('capDevelopment.description')}
             </p>
 
             <Button 
@@ -141,7 +101,7 @@ export default function CAPDevelopment() {
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20"
               data-testid="button-start-cap-project"
             >
-              Start Your CAP Project →
+              {t('capDevelopment.cta')}
             </Button>
           </div>
         </div>
@@ -151,11 +111,10 @@ export default function CAPDevelopment() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Comprehensive CAP Development Services
+              {t('capDevelopment.servicesTitle')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              From data modeling to deployment, we provide end-to-end CAP development expertise 
-              for your enterprise applications.
+              {t('capDevelopment.servicesSubtitle')}
             </p>
           </div>
 
@@ -199,14 +158,13 @@ export default function CAPDevelopment() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="bg-primary/10 text-primary border-primary/30 mb-6">
-                Why Choose CAP
+                {t('capDevelopment.whyChoose')}
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-                Modern Development for SAP Ecosystem
+                {t('capDevelopment.whyChooseTitle')}
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                SAP CAP provides a powerful framework for building enterprise applications 
-                with built-in best practices, seamless SAP integration, and cloud-native capabilities.
+                {t('capDevelopment.whyChooseDescription')}
               </p>
               
               <ul className="space-y-4">
