@@ -186,5 +186,1173 @@
   "common": {
     "learnMore": "Learn More",
     "backToHome": "Back to Home"
+  },
+  "capDevelopment": {
+    "badge": "Cloud Application Development",
+    "title": "SAP CAP Development",
+    "subtitle": "Services",
+    "description": "Build modern cloud applications with SAP Cloud Application Programming Model for rapid, scalable development on SAP BTP.",
+    "cta": "Start Your CAP Project →",
+    "servicesTitle": "Comprehensive CAP Development Services",
+    "servicesSubtitle": "From data modeling to deployment - complete CAP expertise for your business applications.",
+    "whyChoose": "Why Choose TerraBT",
+    "whyChooseTitle": "Expert CAP Development That Delivers",
+    "whyChooseDescription": "Our certified SAP CAP developers bring years of experience building enterprise applications. We combine technical expertise with business acumen to deliver solutions that drive results.",
+    "features": {
+      "fullStack": {
+        "title": "Full-Stack CAP Development",
+        "description": "End-to-end application development using the CAP framework.",
+        "items": [
+          "CDS data modeling and entity definitions",
+          "Service definition and implementation",
+          "Custom business logic development",
+          "Fiori Elements UI generation",
+          "CAP Node.js and Java runtime support"
+        ]
+      },
+      "database": {
+        "title": "Database Integration",
+        "description": "Seamless integration with SAP HANA Cloud and other databases.",
+        "items": [
+          "SAP HANA Cloud native development",
+          "PostgreSQL and SAP ASE support",
+          "Database migration and schema management",
+          "Query optimization and performance tuning",
+          "Multi-tenancy database configuration"
+        ]
+      },
+      "security": {
+        "title": "Security & Authorization",
+        "description": "Enterprise-grade security implementation for CAP applications.",
+        "items": [
+          "Role-based access control (RBAC)",
+          "Authentication integration (XSUAA, IAS)",
+          "Authorization annotations and restrictions",
+          "Data privacy and field-level security",
+          "Secure credential management"
+        ]
+      },
+      "api": {
+        "title": "API & Service Development",
+        "description": "Build robust OData and REST APIs with CAP services.",
+        "items": [
+          "OData V2 and V4 service creation",
+          "REST API implementation",
+          "Custom actions and functions",
+          "Draft enablement for transactional apps",
+          "External service integration and mashups"
+        ]
+      },
+      "fiori": {
+        "title": "Fiori Elements Integration",
+        "description": "Rapid UI development with Fiori Elements and CAP.",
+        "items": [
+          "List Report and Object Page applications",
+          "Analytical List Page (ALP) development",
+          "Freestyle Fiori app integration",
+          "UI annotations and customization",
+          "Responsive and adaptive design"
+        ]
+      },
+      "cicd": {
+        "title": "CI/CD & DevOps",
+        "description": "Automated deployment and continuous integration pipelines.",
+        "items": [
+          "Cloud Foundry and Kyma deployment",
+          "MTA (Multi-Target Application) build",
+          "Automated testing and quality gates",
+          "CI/CD pipeline setup (Jenkins, GitHub Actions)",
+          "Multi-environment promotion strategies"
+        ]
+      }
+    },
+    "benefits": [
+      "Accelerated development with proven CAP patterns",
+      "Built-in best practices and enterprise-ready architecture",
+      "Scalable applications that grow with your business",
+      "Seamless SAP S/4HANA integration",
+      "Expert guidance throughout the development lifecycle"
+    ]
+  },
+  "buildAppsPage": {
+    "badge": "No-Code/Low-Code Development",
+    "title": "SAP Build Apps",
+    "subtitle": "Development Services",
+    "description": "Create professional enterprise applications with no-code/low-code tools for rapid digital transformation and business agility.",
+    "cta": "Start Building Today →",
+    "servicesTitle": "Complete SAP Build Apps Solutions",
+    "servicesSubtitle": "From visual development to enterprise deployment - empower your business users.",
+    "whyChooseTitle": "Rapid Application Development",
+    "whyChooseDescription": "SAP Build Apps enables business users and developers to create powerful applications without extensive coding. Accelerate your digital transformation with visual development tools.",
+    "implementationTitle": "Implementation Approach",
+    "features": {
+      "visual": {
+        "title": "Visual Development",
+        "description": "Drag-and-drop interface for rapid application building.",
+        "items": [
+          "Intuitive visual page builder",
+          "Pre-built UI components library",
+          "Responsive design canvas",
+          "Real-time preview and testing",
+          "Theme customization and branding"
+        ]
+      },
+      "crossPlatform": {
+        "title": "Cross-Platform Apps",
+        "description": "Build once, deploy everywhere - web, iOS, and Android.",
+        "items": [
+          "Progressive Web App (PWA) support",
+          "Native mobile app generation",
+          "Tablet and desktop optimization",
+          "Offline data capabilities",
+          "App store deployment support"
+        ]
+      },
+      "cloudNative": {
+        "title": "Cloud-Native Integration",
+        "description": "Seamless connection to SAP BTP services and data.",
+        "items": [
+          "SAP S/4HANA Cloud integration",
+          "OData service connectivity",
+          "BTP service consumption",
+          "Authentication and authorization",
+          "Real-time data synchronization"
+        ]
+      },
+      "rapid": {
+        "title": "Rapid Prototyping",
+        "description": "Quickly validate ideas and iterate based on feedback.",
+        "items": [
+          "Fast MVP development",
+          "User testing and feedback collection",
+          "Iterative design and refinement",
+          "Version control and rollback",
+          "Collaboration tools for teams"
+        ]
+      },
+      "citizen": {
+        "title": "Citizen Developer Enablement",
+        "description": "Empower business users to create applications.",
+        "items": [
+          "Low learning curve for non-developers",
+          "Guided development workflows",
+          "Template and blueprint library",
+          "Governance and quality controls",
+          "Training and enablement programs"
+        ]
+      },
+      "proCode": {
+        "title": "Pro-Code Extensibility",
+        "description": "Extend with custom code when needed.",
+        "items": [
+          "Custom JavaScript logic",
+          "API integration capabilities",
+          "Custom component development",
+          "Advanced data transformations",
+          "Third-party library integration"
+        ]
+      }
+    },
+    "benefits": [
+      "10x faster application development",
+      "Reduce development costs by 60%",
+      "Empower business users to innovate",
+      "Seamless SAP ecosystem integration",
+      "Enterprise-grade security and governance"
+    ],
+    "implementation": {
+      "step1": {
+        "title": "1. Requirements & Design",
+        "description": "Workshop to understand business needs and design app structure with stakeholders."
+      },
+      "step2": {
+        "title": "2. Visual Development",
+        "description": "Build app using drag-and-drop interface with pre-built components and templates."
+      },
+      "step3": {
+        "title": "3. Data Integration",
+        "description": "Connect to SAP systems and external data sources with seamless authentication."
+      },
+      "step4": {
+        "title": "4. Testing & Refinement",
+        "description": "User acceptance testing and iterative improvements based on feedback."
+      },
+      "step5": {
+        "title": "5. Deployment",
+        "description": "Deploy to web, iOS, and Android with automated build and distribution."
+      },
+      "step6": {
+        "title": "6. Training & Support",
+        "description": "End-user training and ongoing support for continuous improvement."
+      }
+    }
+  },
+  "buildAutomationPage": {
+    "badge": "Process Automation",
+    "title": "SAP Build Process Automation",
+    "subtitle": "Services",
+    "description": "Automate business processes with intelligent workflow and robotic process automation capabilities for increased efficiency.",
+    "cta": "Automate Your Processes →",
+    "servicesTitle": "Complete Process Automation Solutions",
+    "servicesSubtitle": "From simple workflows to complex RPA - comprehensive automation expertise.",
+    "whyChooseTitle": "Intelligent Process Automation",
+    "whyChooseDescription": "Transform your business operations with SAP Build Process Automation. Combine workflow management, RPA, and AI for end-to-end process excellence.",
+    "implementationTitle": "Implementation Roadmap",
+    "features": {
+      "workflow": {
+        "title": "Workflow Management",
+        "description": "Design and orchestrate complex business workflows.",
+        "items": [
+          "Visual workflow designer",
+          "Approval and routing logic",
+          "Human task management",
+          "Parallel and sequential processing",
+          "Escalation and deadline handling"
+        ]
+      },
+      "rpa": {
+        "title": "Robotic Process Automation",
+        "description": "Automate repetitive tasks with software robots.",
+        "items": [
+          "Desktop and web automation",
+          "Screen scraping and data extraction",
+          "Application integration without APIs",
+          "Attended and unattended bots",
+          "Bot scheduling and orchestration"
+        ]
+      },
+      "document": {
+        "title": "Document Processing",
+        "description": "Intelligent document extraction and classification.",
+        "items": [
+          "AI-powered data extraction",
+          "Document classification and routing",
+          "Template-based processing",
+          "Multi-format support (PDF, images, scans)",
+          "Validation and verification rules"
+        ]
+      },
+      "approval": {
+        "title": "Approval Workflows",
+        "description": "Streamline approval processes across your organization.",
+        "items": [
+          "Multi-level approval chains",
+          "Conditional routing logic",
+          "Delegation and substitution rules",
+          "Mobile approval capabilities",
+          "Notification and reminder system"
+        ]
+      },
+      "analytics": {
+        "title": "Process Analytics",
+        "description": "Gain insights into process performance and bottlenecks.",
+        "items": [
+          "Process mining and discovery",
+          "Performance metrics and KPIs",
+          "Bottleneck identification",
+          "Compliance monitoring",
+          "Continuous improvement recommendations"
+        ]
+      },
+      "governance": {
+        "title": "Governance & Compliance",
+        "description": "Ensure processes meet regulatory requirements.",
+        "items": [
+          "Audit trail and logging",
+          "Access control and security",
+          "Compliance rule enforcement",
+          "Version control and change management",
+          "SLA monitoring and enforcement"
+        ]
+      }
+    },
+    "benefits": [
+      "70% reduction in manual processing time",
+      "99.9% accuracy in automated tasks",
+      "Rapid ROI within 3-6 months",
+      "Improved compliance and auditability",
+      "24/7 expert support and optimization"
+    ],
+    "implementation": {
+      "step1": {
+        "title": "1. Process Discovery",
+        "description": "Analyze and document current processes to identify automation opportunities."
+      },
+      "step2": {
+        "title": "2. Automation Design",
+        "description": "Design optimal automation solution combining workflow, RPA, and AI capabilities."
+      },
+      "step3": {
+        "title": "3. Development & Configuration",
+        "description": "Build and configure automation using SAP Build Process Automation tools."
+      },
+      "step4": {
+        "title": "4. Testing & Validation",
+        "description": "Comprehensive testing to ensure accuracy and reliability of automation."
+      },
+      "step5": {
+        "title": "5. Deployment & Go-Live",
+        "description": "Deploy automation to production with monitored rollout and user training."
+      },
+      "step6": {
+        "title": "6. Monitoring & Optimization",
+        "description": "Continuous monitoring and improvement based on performance analytics."
+      }
+    }
+  },
+  "btpArchitecture": {
+    "badge": "Architecture & Design",
+    "title": "SAP BTP Architecture",
+    "subtitle": "& Design Services",
+    "description": "Strategic architecture planning and design for scalable, secure, and high-performing SAP BTP solutions. We build enterprise-grade cloud environments tailored to your business needs.",
+    "cta": "Discuss Your Architecture Needs →",
+    "servicesTitle": "Comprehensive Architecture Services",
+    "servicesSubtitle": "From initial landscape design to security implementation, we cover every aspect of your SAP BTP architecture.",
+    "whyChooseTitle": "Expert Architecture That Delivers Results",
+    "whyChooseDescription": "Our certified SAP BTP architects bring years of experience designing enterprise solutions for global organizations. We combine best practices with innovation to create architectures that stand the test of time.",
+    "features": {
+      "landscape": {
+        "title": "Landscape Design",
+        "description": "Comprehensive BTP landscape architecture tailored to your business requirements.",
+        "items": [
+          "Multi-tier environment setup (Dev, Test, Production)",
+          "Subaccount structure and organization",
+          "Resource allocation and capacity planning",
+          "Cloud Foundry and Kyma runtime configuration",
+          "Network topology and connectivity planning"
+        ]
+      },
+      "security": {
+        "title": "Security Architecture",
+        "description": "Enterprise-grade security design to protect your BTP environment and data.",
+        "items": [
+          "Identity and access management (IAM) strategy",
+          "Role-based access control (RBAC) implementation",
+          "Data encryption and compliance standards",
+          "Security monitoring and threat detection",
+          "Audit logging and compliance reporting"
+        ]
+      },
+      "highAvailability": {
+        "title": "High Availability",
+        "description": "Design resilient systems with minimal downtime and maximum reliability.",
+        "items": [
+          "Multi-region deployment strategies",
+          "Disaster recovery and backup solutions",
+          "Load balancing and failover mechanisms",
+          "Business continuity planning",
+          "Performance monitoring and optimization"
+        ]
+      },
+      "integrationSetup": {
+        "title": "Integration Suite Setup",
+        "description": "Complete Integration Suite configuration for seamless system connectivity.",
+        "items": [
+          "Cloud Integration (CPI) setup and configuration",
+          "API Management implementation",
+          "Open Connectors configuration",
+          "Integration Advisor utilization",
+          "Pre-packaged integration content deployment"
+        ]
+      },
+      "cloudConnector": {
+        "title": "SAP Cloud Connector Setup",
+        "description": "Secure on-premise to cloud connectivity for hybrid landscape integration.",
+        "items": [
+          "Cloud Connector installation and configuration",
+          "Secure tunnel establishment between on-premise and BTP",
+          "Access control and security group management",
+          "System mapping and virtual host configuration",
+          "High availability and failover setup",
+          "Monitoring and troubleshooting connectivity issues"
+        ]
+      },
+      "eventMeshSetup": {
+        "title": "Event Mesh Setup",
+        "description": "Event-driven architecture implementation for real-time business processes.",
+        "items": [
+          "Event Mesh instance provisioning",
+          "Queue and topic configuration",
+          "Event broker setup and management",
+          "Message routing and filtering rules",
+          "Event monitoring and analytics"
+        ]
+      },
+      "ias": {
+        "title": "IAS Setup",
+        "description": "Identity Authentication Service configuration for secure user management.",
+        "items": [
+          "IAS tenant provisioning and configuration",
+          "Single Sign-On (SSO) implementation",
+          "Multi-factor authentication (MFA) setup",
+          "Corporate identity provider integration",
+          "User provisioning and lifecycle management"
+        ]
+      },
+      "userAuth": {
+        "title": "User Authentication & Roles",
+        "description": "Comprehensive user management and authorization framework.",
+        "items": [
+          "Custom role definition and management",
+          "Authorization model design",
+          "User group organization",
+          "Application-level security implementation",
+          "Role assignment and delegation workflows"
+        ]
+      }
+    },
+    "benefits": [
+      "Reduced implementation time by 40% with proven architecture patterns",
+      "Enterprise-grade security compliant with industry standards",
+      "Scalable infrastructure that grows with your business",
+      "24/7 monitoring and support for critical systems",
+      "Expert guidance from certified SAP BTP architects"
+    ],
+    "statistics": {
+      "btpFocus": {
+        "value": "100%",
+        "label": "SAP BTP Focused"
+      },
+      "experience": {
+        "value": "15+",
+        "label": "Years Combined Experience"
+      },
+      "countries": {
+        "value": "40+",
+        "label": "Countries Served"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Support Available"
+      }
+    }
+  },
+  "fioriDevelopment": {
+    "badge": "Application Development",
+    "title": "SAP Fiori App",
+    "subtitle": "Development Services",
+    "description": "Build modern, responsive Fiori applications that deliver exceptional user experiences across all devices. From concept to deployment, we create beautiful, performant apps using SAP's latest technologies.",
+    "cta": "Start Your Fiori Project →",
+    "servicesTitle": "Complete Fiori Development Solutions",
+    "servicesSubtitle": "End-to-end Fiori development services from design to deployment and beyond.",
+    "whyChooseTitle": "Fiori Experts Who Deliver Excellence",
+    "whyChooseDescription": "Our SAP-certified developers specialize in building enterprise-grade Fiori applications. We combine technical expertise with design thinking to create apps users love.",
+    "features": {
+      "customDev": {
+        "title": "Custom Fiori App Development",
+        "description": "Build tailored Fiori applications that perfectly match your business requirements.",
+        "items": [
+          "SAPUI5 framework expertise",
+          "Fiori Elements and Freestyle applications",
+          "OData service integration",
+          "Responsive design for all devices",
+          "Custom controls and components"
+        ]
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "description": "Create intuitive, beautiful interfaces following SAP Fiori design guidelines.",
+        "items": [
+          "SAP Fiori design principles adherence",
+          "User research and persona development",
+          "Wireframing and prototyping",
+          "Accessibility compliance (WCAG)",
+          "Theme customization and branding"
+        ]
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "description": "Ensure your Fiori apps load fast and run smoothly on any device.",
+        "items": [
+          "Code optimization and minification",
+          "Lazy loading implementation",
+          "Bundle size reduction",
+          "Network request optimization",
+          "Performance monitoring and analytics"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile-First Development",
+        "description": "Build Fiori apps optimized for mobile users and offline scenarios.",
+        "items": [
+          "Responsive and adaptive design",
+          "Touch-optimized interactions",
+          "Mobile-specific features (camera, GPS)",
+          "Offline data synchronization",
+          "Progressive Web App (PWA) capabilities"
+        ]
+      },
+      "integration": {
+        "title": "Integration & Testing",
+        "description": "Seamless backend integration with comprehensive testing coverage.",
+        "items": [
+          "SAP Gateway and OData service creation",
+          "Backend system integration",
+          "Unit and integration testing",
+          "End-to-end test automation",
+          "Continuous integration/deployment (CI/CD)"
+        ]
+      },
+      "support": {
+        "title": "Training & Support",
+        "description": "Empower your team with knowledge and ongoing maintenance support.",
+        "items": [
+          "Developer training workshops",
+          "Best practices documentation",
+          "Code review and quality assurance",
+          "Ongoing maintenance and updates",
+          "24/7 production support"
+        ]
+      }
+    },
+    "benefits": [
+      "Modern, intuitive interfaces that increase user adoption",
+      "Faster development with reusable components and templates",
+      "Cross-device compatibility ensuring seamless experience",
+      "SAP-certified developers with deep Fiori expertise",
+      "Reduced training costs with familiar, consistent UX"
+    ],
+    "statistics": {
+      "appsDelivered": {
+        "value": "50+",
+        "label": "Fiori Apps Delivered"
+      },
+      "satisfaction": {
+        "value": "95%",
+        "label": "User Satisfaction Rate"
+      },
+      "timeToMarket": {
+        "value": "30%",
+        "label": "Faster Time to Market"
+      },
+      "responsive": {
+        "value": "100%",
+        "label": "Mobile Responsive"
+      }
+    }
+  },
+  "offlinePWA": {
+    "badge": "Progressive Web Apps",
+    "title": "Offline PWA Apps",
+    "subtitle": "for SAP BTP",
+    "description": "Progressive web applications with offline capabilities ensuring seamless user experience anywhere. Build apps that work perfectly whether online or offline, delivering native app experiences through the web.",
+    "cta": "Build Your PWA →",
+    "servicesTitle": "Complete PWA Development Services",
+    "servicesSubtitle": "From offline-first architecture to push notifications, we build PWAs that rival native apps.",
+    "whyChooseTitle": "Native Experience, Web Simplicity",
+    "whyChooseDescription": "Progressive Web Apps combine the best of web and native apps. No app store approvals, instant updates, and work across all devices - all while providing an app-like experience.",
+    "features": {
+      "offlineFirst": {
+        "title": "Offline-First Architecture",
+        "description": "Design applications that work seamlessly even without internet connectivity.",
+        "items": [
+          "Service Worker implementation",
+          "Offline data caching strategies",
+          "IndexedDB and local storage management",
+          "Background sync capabilities",
+          "Conflict resolution strategies"
+        ]
+      },
+      "dataSync": {
+        "title": "Data Synchronization",
+        "description": "Intelligent sync mechanisms to keep data consistent across devices.",
+        "items": [
+          "Automatic background synchronization",
+          "Delta sync for efficient data transfer",
+          "Conflict detection and resolution",
+          "Optimistic UI updates",
+          "Retry mechanisms and error handling"
+        ]
+      },
+      "pwaFeatures": {
+        "title": "Progressive Web App Features",
+        "description": "Native app-like experience with modern web capabilities.",
+        "items": [
+          "App manifest configuration",
+          "Add to home screen functionality",
+          "Push notification support",
+          "Camera and GPS integration",
+          "App shell architecture"
+        ]
+      },
+      "performanceOpt": {
+        "title": "Performance Optimization",
+        "description": "Lightning-fast load times and smooth offline transitions.",
+        "items": [
+          "Pre-caching critical resources",
+          "Lazy loading for images and content",
+          "Code splitting and bundling",
+          "Compression and minification",
+          "Performance monitoring and analytics"
+        ]
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "description": "Secure offline data storage and transmission.",
+        "items": [
+          "Data encryption at rest",
+          "Secure authentication tokens",
+          "HTTPS enforcement",
+          "Content Security Policy (CSP)",
+          "Regular security audits"
+        ]
+      },
+      "onlineEnhancement": {
+        "title": "Online Enhancement",
+        "description": "Enhanced functionality when connectivity is available.",
+        "items": [
+          "Real-time updates and notifications",
+          "Cloud backup and restore",
+          "Multi-device synchronization",
+          "Analytics and telemetry",
+          "Feature detection and progressive enhancement"
+        ]
+      }
+    },
+    "benefits": [
+      "Work anywhere, anytime - even without internet",
+      "Improved user experience with instant loading",
+      "Reduced server costs with efficient caching",
+      "Higher conversion rates from app-like experience",
+      "Better engagement with push notifications"
+    ],
+    "statistics": {
+      "offline": {
+        "value": "100%",
+        "label": "Offline Capability"
+      },
+      "loadTime": {
+        "value": "3x",
+        "label": "Faster Load Times"
+      },
+      "dataUsage": {
+        "value": "50%",
+        "label": "Reduced Data Usage"
+      },
+      "engagement": {
+        "value": "80%",
+        "label": "Higher Engagement"
+      }
+    }
+  },
+  "databaseManagement": {
+    "badge": "Data Management",
+    "title": "SAP BTP Database",
+    "subtitle": "Management Services",
+    "description": "Efficient database design, optimization, and management for high-performance SAP BTP applications. Expert services for SAP HANA Cloud, PostgreSQL, and SAP ASE databases.",
+    "cta": "Optimize Your Database →",
+    "servicesTitle": "Complete Database Management Solutions",
+    "servicesSubtitle": "From design to optimization, security to recovery - comprehensive database expertise.",
+    "whyChooseTitle": "Performance, Security, Reliability",
+    "whyChooseDescription": "Our database specialists bring deep expertise in SAP BTP database technologies. We ensure your data is fast, secure, and always available when you need it.",
+    "features": {
+      "design": {
+        "title": "Database Design & Modeling",
+        "description": "Efficient database schema design optimized for SAP BTP applications.",
+        "items": [
+          "SAP HANA Cloud database design",
+          "PostgreSQL and SAP ASE configuration",
+          "Entity-relationship modeling",
+          "Normalization and denormalization strategies",
+          "Indexing and partitioning strategies"
+        ]
+      },
+      "optimization": {
+        "title": "Performance Optimization",
+        "description": "Maximize database performance for lightning-fast query execution.",
+        "items": [
+          "Query optimization and tuning",
+          "Index analysis and recommendations",
+          "Execution plan optimization",
+          "Memory and cache configuration",
+          "Performance monitoring and profiling"
+        ]
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "description": "Protect your data with enterprise-grade security measures.",
+        "items": [
+          "Data encryption at rest and in transit",
+          "Row-level and column-level security",
+          "Audit trail implementation",
+          "GDPR and compliance requirements",
+          "Backup encryption and secure storage"
+        ]
+      },
+      "backup": {
+        "title": "Backup & Recovery",
+        "description": "Comprehensive disaster recovery and business continuity planning.",
+        "items": [
+          "Automated backup scheduling",
+          "Point-in-time recovery capabilities",
+          "Disaster recovery procedures",
+          "High availability configuration",
+          "Multi-region replication"
+        ]
+      },
+      "migration": {
+        "title": "Data Migration",
+        "description": "Seamless data migration from legacy systems to SAP BTP.",
+        "items": [
+          "Data extraction and transformation",
+          "Migration strategy and planning",
+          "Zero-downtime migration techniques",
+          "Data validation and verification",
+          "Rollback procedures and testing"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring & Maintenance",
+        "description": "Proactive monitoring and maintenance for optimal database health.",
+        "items": [
+          "Real-time performance monitoring",
+          "Automated alerting and notifications",
+          "Health check and diagnostics",
+          "Capacity planning and forecasting",
+          "Patch management and updates"
+        ]
+      }
+    },
+    "benefits": [
+      "Up to 10x faster query performance with optimization",
+      "99.99% uptime with high availability configuration",
+      "Reduced storage costs through efficient design",
+      "Compliance-ready with built-in security features",
+      "24/7 monitoring and expert support"
+    ],
+    "statistics": {
+      "uptime": {
+        "value": "99.99%",
+        "label": "Uptime Guarantee"
+      },
+      "performance": {
+        "value": "10x",
+        "label": "Performance Improvement"
+      },
+      "security": {
+        "value": "100%",
+        "label": "Data Security"
+      },
+      "monitoring": {
+        "value": "24/7",
+        "label": "Expert Monitoring"
+      }
+    }
+  },
+  "designThinking": {
+    "badge": "Innovation & Strategy",
+    "title": "Design Thinking",
+    "subtitle": "for SAP BTP Innovation",
+    "description": "User-centered design approach to create innovative SAP BTP solutions that solve real business challenges. We help you discover the right problems to solve and build solutions users love.",
+    "cta": "Schedule a Design Workshop →",
+    "servicesTitle": "Our Design Thinking Process",
+    "servicesSubtitle": "A proven methodology for innovation and problem-solving in SAP BTP projects.",
+    "whyChooseTitle": "Innovation That Creates Real Value",
+    "whyChooseDescription": "Design Thinking transforms how you approach SAP BTP projects. By focusing on user needs and rapid iteration, we help you build solutions that deliver measurable business value.",
+    "features": {
+      "empathy": {
+        "title": "User Research & Empathy",
+        "description": "Deep understanding of your users' needs, pain points, and motivations.",
+        "items": [
+          "User interviews and stakeholder engagement",
+          "Persona development and journey mapping",
+          "Contextual inquiry and observation",
+          "Pain point and opportunity identification",
+          "Empathy mapping workshops"
+        ]
+      },
+      "define": {
+        "title": "Problem Definition",
+        "description": "Clearly define the right problems to solve for maximum business impact.",
+        "items": [
+          "Problem statement formulation",
+          "Design challenge framing",
+          "Opportunity area identification",
+          "Success criteria definition",
+          "Stakeholder alignment sessions"
+        ]
+      },
+      "ideate": {
+        "title": "Ideation Workshops",
+        "description": "Generate innovative solutions through structured creative sessions.",
+        "items": [
+          "Facilitated brainstorming sessions",
+          "SCAMPER and lateral thinking techniques",
+          "Collaborative ideation workshops",
+          "Idea prioritization and selection",
+          "Concept development and refinement"
+        ]
+      },
+      "prototype": {
+        "title": "Prototyping",
+        "description": "Rapidly create tangible representations of ideas for validation.",
+        "items": [
+          "Low-fidelity wireframes and sketches",
+          "Interactive clickable prototypes",
+          "High-fidelity mockups",
+          "Proof of concept development",
+          "MVP (Minimum Viable Product) design"
+        ]
+      },
+      "test": {
+        "title": "Testing & Iteration",
+        "description": "Validate solutions with real users and continuously improve.",
+        "items": [
+          "Usability testing sessions",
+          "A/B testing and experimentation",
+          "User feedback collection and analysis",
+          "Iterative design refinement",
+          "Validation against success criteria"
+        ]
+      },
+      "implement": {
+        "title": "Implementation Support",
+        "description": "Guide your team from validated concept to successful launch.",
+        "items": [
+          "Technical feasibility assessment",
+          "Implementation roadmap creation",
+          "Agile sprint planning",
+          "Development team collaboration",
+          "Post-launch monitoring and optimization"
+        ]
+      }
+    },
+    "benefits": [
+      "Reduce risk by validating ideas before heavy investment",
+      "Faster innovation with structured problem-solving approach",
+      "Higher user adoption through user-centered solutions",
+      "Cross-functional team alignment and engagement",
+      "Measurable business outcomes and ROI"
+    ],
+    "statistics": {
+      "resolution": {
+        "value": "3x",
+        "label": "Faster Problem Resolution"
+      },
+      "waste": {
+        "value": "75%",
+        "label": "Reduced Development Waste"
+      },
+      "satisfaction": {
+        "value": "90%",
+        "label": "Stakeholder Satisfaction"
+      },
+      "userCentered": {
+        "value": "100%",
+        "label": "User-Centered Approach"
+      }
+    }
+  },
+  "integrationSuite": {
+    "badge": "Integration & Connectivity",
+    "title": "SAP BTP Integration Suite",
+    "subtitle": "Services",
+    "description": "Seamless integration solutions connecting your SAP systems with cloud and on-premise applications. Expert implementation of Cloud Integration, API Management, Open Connectors, and Integration Advisor.",
+    "cta": "Connect Your Systems →",
+    "servicesTitle": "Complete Integration Suite Expertise",
+    "servicesSubtitle": "From Cloud Integration to API Management - comprehensive integration services.",
+    "whyChooseTitle": "Seamless System Connectivity",
+    "whyChooseDescription": "SAP BTP Integration Suite provides everything you need to connect your enterprise. Our experts ensure your integrations are reliable, secure, and scalable.",
+    "features": {
+      "cpi": {
+        "title": "Cloud Integration (CPI)",
+        "description": "Connect cloud and on-premise systems with robust integration flows.",
+        "items": [
+          "Integration flow design and development",
+          "Pre-built integration content utilization",
+          "Message mapping and transformation",
+          "Error handling and monitoring",
+          "Security artifact management"
+        ]
+      },
+      "apiManagement": {
+        "title": "API Management",
+        "description": "Design, publish, and manage APIs with comprehensive lifecycle support.",
+        "items": [
+          "API proxy creation and configuration",
+          "Policy enforcement (security, rate limiting)",
+          "API portal and developer documentation",
+          "Analytics and usage monitoring",
+          "Monetization and quota management"
+        ]
+      },
+      "openConnectors": {
+        "title": "Open Connectors",
+        "description": "Pre-built connectors for rapid integration with third-party systems.",
+        "items": [
+          "150+ pre-built connectors",
+          "Custom connector development",
+          "Authentication and authorization",
+          "Data transformation and normalization",
+          "Event-based integration"
+        ]
+      },
+      "advisor": {
+        "title": "Integration Advisor",
+        "description": "Accelerate integration development with AI-powered recommendations.",
+        "items": [
+          "Automated mapping suggestions",
+          "Message implementation guides (MIGs)",
+          "B2B integration scenario templates",
+          "Interface mapping proposals",
+          "Best practice recommendations"
+        ]
+      },
+      "security": {
+        "title": "Security & Governance",
+        "description": "Enterprise-grade security and governance for all integrations.",
+        "items": [
+          "OAuth and SAML authentication",
+          "Certificate and key management",
+          "Transport-level encryption (TLS/SSL)",
+          "Message-level encryption",
+          "Audit logging and compliance"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring & Operations",
+        "description": "Comprehensive monitoring and operational excellence.",
+        "items": [
+          "Real-time message monitoring",
+          "Performance metrics and KPIs",
+          "Alerting and notification setup",
+          "Log analysis and troubleshooting",
+          "Capacity planning and optimization"
+        ]
+      }
+    },
+    "benefits": [
+      "Faster integration with pre-built content and accelerators",
+      "Reduced integration costs with cloud-native platform",
+      "Enterprise-grade reliability and scalability",
+      "Single platform for all integration needs",
+      "24/7 expert support and monitoring"
+    ],
+    "statistics": {
+      "connectors": {
+        "value": "150+",
+        "label": "Pre-Built Connectors"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Integration Uptime"
+      },
+      "implementation": {
+        "value": "50%",
+        "label": "Faster Implementation"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Monitoring & Support"
+      }
+    }
+  },
+  "eventMesh": {
+    "badge": "Event-Driven Architecture",
+    "title": "SAP Event Mesh",
+    "subtitle": "Implementation Services",
+    "description": "Real-time event-driven architecture implementation for responsive, scalable business processes. Build distributed systems that react instantly to business events with SAP Event Mesh.",
+    "cta": "Build Event-Driven Architecture →",
+    "servicesTitle": "Complete Event Mesh Solutions",
+    "servicesSubtitle": "From architecture design to implementation - build responsive event-driven systems.",
+    "whyChooseTitle": "Real-Time Business Responsiveness",
+    "whyChooseDescription": "Event Mesh enables your business to react instantly to events as they happen. Build loosely coupled, highly scalable systems that adapt to changing business needs.",
+    "features": {
+      "architecture": {
+        "title": "Event Mesh Architecture",
+        "description": "Design and implement enterprise-wide event-driven architecture.",
+        "items": [
+          "Event mesh topology design",
+          "Multi-region event distribution",
+          "Event broker configuration",
+          "Message routing strategies",
+          "Topic and queue design patterns"
+        ]
+      },
+      "realTime": {
+        "title": "Real-Time Event Processing",
+        "description": "Process and react to business events in real-time.",
+        "items": [
+          "Event streaming implementation",
+          "Complex event processing (CEP)",
+          "Event filtering and transformation",
+          "Event aggregation and correlation",
+          "Low-latency event delivery"
+        ]
+      },
+      "integrations": {
+        "title": "Event-Driven Integrations",
+        "description": "Connect systems through asynchronous event-based communication.",
+        "items": [
+          "Publisher/subscriber patterns",
+          "Event-driven microservices",
+          "Webhook and callback integration",
+          "Event replay and recovery",
+          "Dead letter queue management"
+        ]
+      },
+      "security": {
+        "title": "Security & Governance",
+        "description": "Secure event transmission with comprehensive governance.",
+        "items": [
+          "Event encryption in transit",
+          "Access control and authorization",
+          "Event schema validation",
+          "Compliance and audit logging",
+          "Data privacy controls"
+        ]
+      },
+      "multiCloud": {
+        "title": "Multi-Cloud & Hybrid",
+        "description": "Event mesh across cloud providers and on-premise systems.",
+        "items": [
+          "Cross-cloud event distribution",
+          "Hybrid cloud connectivity",
+          "Multi-region redundancy",
+          "Geographic event routing",
+          "Cloud-agnostic architecture"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring & Analytics",
+        "description": "Comprehensive visibility into your event-driven ecosystem.",
+        "items": [
+          "Real-time event monitoring",
+          "Performance metrics and SLAs",
+          "Event flow visualization",
+          "Bottleneck identification",
+          "Predictive capacity planning"
+        ]
+      }
+    },
+    "benefits": [
+      "Decouple systems for greater flexibility and scalability",
+      "Real-time business insights and immediate reaction",
+      "Improved system resilience and fault tolerance",
+      "Reduced point-to-point integrations complexity",
+      "Support for modern event-driven architectures"
+    ],
+    "statistics": {
+      "latency": {
+        "value": "<100ms",
+        "label": "Event Delivery Latency"
+      },
+      "throughput": {
+        "value": "1M+",
+        "label": "Events Per Second"
+      },
+      "guarantee": {
+        "value": "99.99%",
+        "label": "Event Delivery Guarantee"
+      },
+      "distribution": {
+        "value": "Global",
+        "label": "Multi-Region Distribution"
+      }
+    }
+  },
+  "aiInvoice": {
+    "badge": "AI & Automation",
+    "title": "AI-Powered",
+    "subtitle": "Invoice Processing",
+    "description": "Intelligent invoice processing automation powered by advanced AI for accurate, efficient operations. Transform your accounts payable process with cutting-edge AI technology integrated with SAP BTP.",
+    "cta": "Automate Your Invoices →",
+    "servicesTitle": "AI-Powered Invoice Automation",
+    "servicesSubtitle": "Leverage advanced AI capabilities for intelligent invoice processing and automation.",
+    "whyChooseTitle": "Transform Your Invoice Processing",
+    "whyChooseDescription": "Advanced AI brings human-level understanding to invoice processing. Handle complex layouts, multiple languages, and edge cases that traditional OCR systems struggle with.",
+    "features": {
+      "extraction": {
+        "title": "Intelligent Data Extraction",
+        "description": "Advanced AI-powered extraction of invoice data with unprecedented accuracy.",
+        "items": [
+          "Multi-format invoice processing (PDF, images, scans)",
+          "Automatic field detection and extraction",
+          "Header and line item recognition",
+          "Table and complex layout understanding",
+          "Handwritten text recognition"
+        ]
+      },
+      "integration": {
+        "title": "SAP BTP Integration",
+        "description": "Seamless integration with SAP BTP services and backend systems.",
+        "items": [
+          "Direct integration with SAP S/4HANA",
+          "SAP Document Management Service connection",
+          "Workflow automation triggers",
+          "Real-time data validation",
+          "Custom business rule implementation"
+        ]
+      },
+      "automation": {
+        "title": "Automated Processing",
+        "description": "End-to-end automation reducing manual intervention to near zero.",
+        "items": [
+          "Intelligent routing and classification",
+          "Auto-approval for low-risk invoices",
+          "Exception handling workflows",
+          "Duplicate detection and prevention",
+          "Three-way matching automation"
+        ]
+      },
+      "validation": {
+        "title": "Validation & Compliance",
+        "description": "Ensure accuracy and regulatory compliance in every transaction.",
+        "items": [
+          "Multi-level validation rules",
+          "Tax calculation verification",
+          "Compliance checking (VAT, GST)",
+          "Audit trail and logging",
+          "Data privacy and security (GDPR compliant)"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & Insights",
+        "description": "Gain valuable insights from your invoice processing data.",
+        "items": [
+          "Processing metrics and KPIs",
+          "Accuracy and error rate tracking",
+          "Cost savings analysis",
+          "Supplier performance analytics",
+          "Predictive cash flow insights"
+        ]
+      },
+      "training": {
+        "title": "Training & Optimization",
+        "description": "Continuous improvement through AI learning and system optimization.",
+        "items": [
+          "Custom model training for your invoices",
+          "Continuous learning from corrections",
+          "Template-based processing optimization",
+          "Feedback loop implementation",
+          "Regular accuracy improvements"
+        ]
+      }
+    },
+    "benefits": [
+      "95%+ accuracy rate reducing manual corrections",
+      "80% faster invoice processing time",
+      "70% reduction in processing costs",
+      "Near-zero data entry errors",
+      "Real-time processing status visibility"
+    ],
+    "statistics": {
+      "accuracy": {
+        "value": "95%+",
+        "label": "Accuracy Rate"
+      },
+      "timeReduction": {
+        "value": "80%",
+        "label": "Time Reduction"
+      },
+      "costSavings": {
+        "value": "70%",
+        "label": "Cost Savings"
+      },
+      "availability": {
+        "value": "24/7",
+        "label": "Processing Availability"
+      }
+    }
   }
 }
