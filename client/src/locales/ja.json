@@ -50,6 +50,14 @@
     "cap": {
       "title": "SAP CAP開発",
       "description": "SAP Cloud Application Programming Modelを使用して、迅速でスケーラブルな開発のためのモダンなクラウドアプリケーションを構築します。"
+    },
+    "buildApps": {
+      "title": "SAP Build Apps",
+      "description": "ノーコード/ローコードツールを使用して、迅速なデジタル変革のためのプロフェッショナルなエンタープライズアプリケーションを作成します。"
+    },
+    "buildAutomation": {
+      "title": "SAP Build Process Automation",
+      "description": "インテリジェントなワークフローとロボティックプロセスオートメーション機能でビジネスプロセスを自動化します。"
     }
   },
   "value": {

@@ -18,6 +18,8 @@ import {
   GitBranch,
   Zap,
   Code,
+  Layout,
+  Bot,
 } from "lucide-react";
 
 import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
@@ -83,6 +85,18 @@ export default function Home() {
       title: t('services.cap.title'),
       description: t('services.cap.description'),
       href: "/services/cap-development",
+    },
+    {
+      icon: Layout,
+      title: t('services.buildApps.title'),
+      description: t('services.buildApps.description'),
+      href: "/services/build-apps",
+    },
+    {
+      icon: Bot,
+      title: t('services.buildAutomation.title'),
+      description: t('services.buildAutomation.description'),
+      href: "/services/build-automation",
     },
   ];
 

@@ -17,6 +17,8 @@ import ClaudeAI from "@/pages/ClaudeAI";
 import IntegrationSuite from "@/pages/IntegrationSuite";
 import EventMesh from "@/pages/EventMesh";
 import CAPDevelopment from "@/pages/CAPDevelopment";
+import BuildApps from "@/pages/BuildApps";
+import BuildAutomation from "@/pages/BuildAutomation";
 import FioriApplicationsSAPBTP from "@/pages/blogs/FioriApplicationsSAPBTP";
 import OfflinePWABusinessContinuity from "@/pages/blogs/OfflinePWABusinessContinuity";
 import ClaudeAIInvoiceProcessing from "@/pages/blogs/ClaudeAIInvoiceProcessing";
@@ -66,6 +68,8 @@ function Router() {
       <Route path="/services/integration-suite" component={IntegrationSuite} />
       <Route path="/services/event-mesh" component={EventMesh} />
       <Route path="/services/cap-development" component={CAPDevelopment} />
+      <Route path="/services/build-apps" component={BuildApps} />
+      <Route path="/services/build-automation" component={BuildAutomation} />
       
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
@@ -86,6 +90,8 @@ function Router() {
       <Route path="/:lang/services/integration-suite" component={IntegrationSuite} />
       <Route path="/:lang/services/event-mesh" component={EventMesh} />
       <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
+      <Route path="/:lang/services/build-apps" component={BuildApps} />
+      <Route path="/:lang/services/build-automation" component={BuildAutomation} />
       
       {/* Localized blog post routes */}
       <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />

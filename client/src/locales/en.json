@@ -50,6 +50,14 @@
     "cap": {
       "title": "SAP CAP Development",
       "description": "Build modern cloud applications with SAP Cloud Application Programming Model for rapid, scalable development."
+    },
+    "buildApps": {
+      "title": "SAP Build Apps",
+      "description": "Create professional enterprise applications with no-code/low-code tools for rapid digital transformation."
+    },
+    "buildAutomation": {
+      "title": "SAP Build Process Automation",
+      "description": "Automate business processes with intelligent workflow and robotic process automation capabilities."
     }
   },
   "value": {
