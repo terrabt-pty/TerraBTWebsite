@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Phone } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 
 export default function ContactSection() {
   const { t } = useTranslation();
@@ -32,12 +32,12 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <Phone className="h-5 w-5 text-primary" />
+                    <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground" data-testid="text-phone">
-                      Available via email
+                    <p className="font-medium text-foreground">Email</p>
+                    <p className="text-muted-foreground" data-testid="text-email">
+                      contact@terrabt.com
                     </p>
                   </div>
                 </div>
