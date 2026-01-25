@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "TerraBT - SAP BTP Consulting",
+  "name_for_model": "terrabt_sap_btp_consulting",
+  "description_for_human": "TerraBT provides specialized SAP Business Technology Platform consulting services including Fiori development, BTP architecture, AI integration, and more.",
+  "description_for_model": "TerraBT is an SAP Business Technology Platform (BTP) consulting company. They provide services including: SAP Fiori application development, BTP architecture and design, SAP CAP development, SAP Build Apps (low-code), SAP Build Process Automation, AI-powered invoice processing, SAP Integration Suite implementation, SAP Event Mesh, offline PWA applications, database management for SAP HANA Cloud, and design thinking workshops. They serve clients in 40+ countries with support in English and Japanese. Contact: contact@terrabt.com. Website: https://www.terrabt.com",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.terrabt.com/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.terrabt.com/logo.png",
+  "contact_email": "contact@terrabt.com",
+  "legal_info_url": "https://www.terrabt.com"
+}

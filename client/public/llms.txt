@@ -1,0 +1,82 @@
+# TerraBT - SAP Business Technology Platform Consulting
+
+> TerraBT is a specialized SAP BTP consulting company providing enterprise-grade solutions worldwide. We help organizations transform their business with SAP's cloud platform technologies.
+
+## About TerraBT
+
+TerraBT is an independent SAP Business Technology Platform (BTP) consulting firm serving clients in 40+ countries. We specialize in delivering modern, scalable, and secure SAP BTP solutions that drive digital transformation.
+
+## Our Services
+
+### SAP BTP Architecture & Design
+Strategic architecture planning for scalable, secure SAP BTP environments. Services include landscape design, security architecture, high availability configuration, and cloud infrastructure setup.
+
+### SAP Fiori Application Development
+Custom Fiori application development using SAPUI5 framework. We build responsive, user-friendly applications with modern UI/UX design following SAP Fiori guidelines.
+
+### SAP CAP Development
+Full-stack development using SAP Cloud Application Programming Model. We create robust backend services, OData APIs, and enterprise-grade applications.
+
+### SAP Build Apps (Low-Code Development)
+Rapid application development using SAP Build Apps platform. Ideal for citizen developers and quick prototyping of business applications.
+
+### SAP Build Process Automation
+Workflow automation, RPA (Robotic Process Automation), and document processing solutions to streamline business operations.
+
+### AI-Powered Invoice Processing
+Intelligent invoice processing automation with advanced AI for accurate data extraction and seamless SAP integration.
+
+### SAP BTP Integration Suite
+Enterprise integration services including Cloud Integration (CPI), API Management, Open Connectors, and Integration Advisor implementation.
+
+### SAP Event Mesh
+Event-driven architecture implementation for real-time, responsive business processes using SAP Event Mesh.
+
+### Offline PWA Applications
+Progressive Web Applications with offline capabilities for seamless user experience on any device, anywhere.
+
+### SAP BTP Database Management
+Database design, optimization, and management for SAP HANA Cloud, PostgreSQL, and SAP ASE databases.
+
+### Design Thinking Workshops
+User-centered design approach to identify innovative SAP BTP solutions that solve real business challenges.
+
+## Contact Information
+
+- Website: https://www.terrabt.com
+- Email: contact@terrabt.com
+- Languages: English, Japanese (日本語)
+
+## Technical Expertise
+
+- SAP Business Technology Platform (BTP)
+- SAP Fiori / SAPUI5
+- SAP Cloud Application Programming Model (CAP)
+- SAP Build Apps
+- SAP Build Process Automation
+- SAP Integration Suite
+- SAP Event Mesh
+- SAP HANA Cloud
+- SAP S/4HANA Integration
+- Progressive Web Applications (PWA)
+- AI/ML Integration
+
+## Service Regions
+
+We serve clients globally with particular focus on:
+- Japan (日本)
+- United States
+- Germany
+- United Kingdom
+- France
+- Australia
+- Singapore
+- And 35+ additional countries
+
+## Language Support
+
+This website is available in multiple languages:
+- English (International): /
+- Japanese (日本語): /ja-JP/
+
+For Japanese content, visit: https://www.terrabt.com/ja-JP/

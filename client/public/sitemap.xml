@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.terrabt.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.terrabt.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- BTP Architecture -->
+  <url>
+    <loc>https://www.terrabt.com/services/btp-architecture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/btp-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/btp-architecture"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/btp-architecture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/btp-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/btp-architecture"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Fiori Development -->
+  <url>
+    <loc>https://www.terrabt.com/services/fiori-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/fiori-development"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/fiori-development"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/fiori-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/fiori-development"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/fiori-development"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- CAP Development -->
+  <url>
+    <loc>https://www.terrabt.com/services/cap-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/cap-development"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/cap-development"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/cap-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/cap-development"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/cap-development"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Build Apps -->
+  <url>
+    <loc>https://www.terrabt.com/services/build-apps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/build-apps"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/build-apps"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/build-apps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/build-apps"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/build-apps"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Build Automation -->
+  <url>
+    <loc>https://www.terrabt.com/services/build-automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/build-automation"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/build-automation"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/build-automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/build-automation"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/build-automation"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- AI Invoice Processing -->
+  <url>
+    <loc>https://www.terrabt.com/services/claude-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/claude-ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/claude-ai"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/claude-ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/claude-ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/claude-ai"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Integration Suite -->
+  <url>
+    <loc>https://www.terrabt.com/services/integration-suite</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/integration-suite"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/integration-suite"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/integration-suite</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/integration-suite"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/integration-suite"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Event Mesh -->
+  <url>
+    <loc>https://www.terrabt.com/services/event-mesh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/event-mesh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/event-mesh"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/event-mesh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/event-mesh"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/event-mesh"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Offline PWA -->
+  <url>
+    <loc>https://www.terrabt.com/services/offline-pwa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/offline-pwa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/offline-pwa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/offline-pwa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/offline-pwa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/offline-pwa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Database Management -->
+  <url>
+    <loc>https://www.terrabt.com/services/database-management</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/database-management"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/database-management"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/database-management</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/database-management"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/database-management"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Design Thinking -->
+  <url>
+    <loc>https://www.terrabt.com/services/design-thinking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/design-thinking"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/design-thinking"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.terrabt.com/ja-JP/services/design-thinking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.terrabt.com/services/design-thinking"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja-JP/services/design-thinking"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
