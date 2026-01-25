@@ -4,6 +4,7 @@ import { SUPPORTED_LANGUAGES } from './config/languages';
 
 import enTranslations from './locales/en.json';
 import jaTranslations from './locales/ja.json';
+import amTranslations from './locales/am.json';
 
 const getBaseLanguage = (code: string): string => {
   return code.split('-')[0];
@@ -27,8 +28,8 @@ const getTimezoneRegion = (): string | null => {
     if (timezone.startsWith('Asia/Singapore')) {
       return 'en-SG';
     }
-    if (timezone.startsWith('Australia/')) {
-      return 'en-AU';
+    if (timezone.startsWith('Africa/Addis_Ababa')) {
+      return 'am-ET';
     }
   } catch {
     return null;
@@ -101,6 +102,7 @@ export { getBrowserLanguage, getBaseLanguage, saveBrowserLanguage };
 const baseTranslations: { [key: string]: any } = {
   'en': enTranslations,
   'ja': jaTranslations,
+  'am': amTranslations,
 };
 
 const resources: { [key: string]: { translation: any } } = {};

@@ -1,0 +1,1462 @@
+{
+  "nav": {
+    "home": "መነሻ",
+    "services": "አገልግሎቶች",
+    "knowledge": "እውቀት",
+    "contact": "ያግኙን",
+    "bookConsultation": "ነጻ ምክክር ያስያዙ"
+  },
+  "hero": {
+    "title": "ንግድዎን በባለሙያ SAP BTP መፍትሄዎች ይለውጡ",
+    "subtitle": "ዓለም አቀፍ የSAP Business Technology Platform ትግበራዎችን የሚያቀርብ ልዩ የማማከር አገልግሎት",
+    "cta": "ዛሬ ይጀምሩ",
+    "learn": "አገልግሎቶቻችንን ያስሱ"
+  },
+  "services": {
+    "title": "የእኛ ልምድ",
+    "subtitle": "ንግድዎን ለመለወጥ የተዘጋጁ ሁሉን አቀፍ SAP BTP መፍትሄዎች",
+    "fiori": {
+      "title": "Fiori መተግበሪያ ልማት",
+      "description": "በሁሉም መሳሪያዎች ላይ ልዩ የተጠቃሚ ልምድ የሚሰጡ ዘመናዊና ምላሽ ሰጪ Fiori መተግበሪያዎችን ይገንቡ።"
+    },
+    "architecture": {
+      "title": "BTP አርክቴክቸር እና ዲዛይን",
+      "description": "ለንግድ ፍላጎቶችዎ የተዘጋጁ ማስፋፊያ ችሎታ ያላቸው SAP BTP መፍትሄዎች ስትራቴጂካዊ አርክቴክቸር እቅድ እና ዲዛይን።"
+    },
+    "designThinking": {
+      "title": "ዲዛይን አስተሳሰብ",
+      "description": "እውነተኛ የንግድ ችግሮችን የሚፈታ አዲስ መፍትሄዎችን ለመፍጠር ተጠቃሚን ያማከለ ዲዛይን አቀራረብ።"
+    },
+    "pwa": {
+      "title": "ከመስመር ውጪ PWA መተግበሪያዎች",
+      "description": "በማንኛውም ቦታ ያለ ችግር የተጠቃሚ ልምድ የሚያረጋግጡ ከመስመር ውጪ አቅም ያላቸው ተራማጅ ድር መተግበሪያዎች።"
+    },
+    "database": {
+      "title": "SAP BTP የውሂብ ጎታ አስተዳደር",
+      "description": "ለከፍተኛ አፈጻጸም BTP መተግበሪያዎች ውጤታማ የውሂብ ጎታ ዲዛይን፣ ማመቻቸት እና አስተዳደር።"
+    },
+    "ai": {
+      "title": "AI የክፍያ መጠየቂያ ሂደት",
+      "description": "ትክክለኛ እና ቀልጣፋ ስራዎችን ለማግኘት በከፍተኛ AI የተጎላበተ ብልህ የክፍያ መጠየቂያ ሂደት አውቶሜሽን።"
+    },
+    "integration": {
+      "title": "SAP BTP Integration Suite",
+      "description": "SAP ስርዓቶችዎን ከደመና እና ከቅድመ-ተከላ መተግበሪያዎች ጋር የሚያገናኙ ያለችግር ውህደት መፍትሄዎች።"
+    },
+    "eventMesh": {
+      "title": "Event Mesh",
+      "description": "ለምላሽ ሰጪ እና ማስፋፊያ ችሎታ ላላቸው የንግድ ሂደቶች የእውነተኛ ጊዜ ክስተት-ተኮር አርክቴክቸር ትግበራ።"
+    },
+    "cap": {
+      "title": "SAP CAP ልማት",
+      "description": "ለፈጣንና ማስፋፊያ ችሎታ ላለው ልማት በSAP Cloud Application Programming Model ዘመናዊ የደመና መተግበሪያዎችን ይገንቡ።"
+    },
+    "buildApps": {
+      "title": "SAP Build Apps",
+      "description": "ለፈጣን ዲጂታል ለውጥ ያለ ኮድ/ዝቅተኛ ኮድ መሳሪያዎች ባለሙያ የድርጅት መተግበሪያዎችን ይፍጠሩ።"
+    },
+    "buildAutomation": {
+      "title": "SAP Build Process Automation",
+      "description": "ብልህ የስራ ፍሰት እና ሮቦቲክ ሂደት አውቶሜሽን አቅሞች የንግድ ሂደቶችን አውቶሜት ያድርጉ።"
+    }
+  },
+  "value": {
+    "specialization": {
+      "badge": "ትኩረታችን",
+      "title": "100% SAP BTP ልዩ ባለሙያነት",
+      "description": "ከአጠቃላይ የማማከር ድርጅቶች በተለየ፣ እኛ በSAP Business Technology Platform ላይ ብቻ እናተኩራለን፣ ለንግድዎ ጥልቅ ልምድ እና ዘመናዊ መፍትሄዎችን እናረጋግጣለን።",
+      "point1": "የተሰጡ የተረጋገጡ SAP BTP ባለሙያዎች ቡድን",
+      "point2": "በቅርብ ጊዜ BTP ባህሪያት እና ምርጥ ልምዶች ዘመናዊ",
+      "point3": "በተለያዩ ኢንዱስትሪዎች የተረጋገጠ ልምድ"
+    },
+    "global": {
+      "badge": "ዓለም አቀፍ ደረጃ",
+      "title": "ዓለም አቀፍ ገበያዎችን ማገልገል",
+      "description": "ቦታዎ ምንም ይሁን ምን የአለም ደረጃ መፍትሄዎችን በማቅረብ SAP BTP ልምድን ወደ ገበያዎች በዓለም ዙሪያ እናመጣለን።",
+      "point1": "በሁሉም የሰዓት ዞኖች የርቀት ማማከር አቅሞች",
+      "point2": "ለዓለም አቀፍ ቡድኖች ባለብዙ ቋንቋ ድጋፍ",
+      "point3": "የክልል የንግድ መስፈርቶች ግንዛቤ"
+    },
+    "ai": {
+      "badge": "ዘመናዊ ቴክኖሎጂ",
+      "title": "በAI የተጎላበተ ፈጠራ",
+      "description": "SAP BTP መፍትሄዎችን ለማጎልበት ዘመናዊ AI ቴክኖሎጂን በመጠቀም፣ ለንግድ ሂደቶችዎ አውቶሜሽን እና ብልህነት ማምጣት።",
+      "point1": "ለተደጋጋሚ ተግባራት ብልህ አውቶሜሽን",
+      "point2": "የላቀ የውሂብ ሂደት እና ትንተና",
+      "point3": "ከነባር የስራ ፍሰቶች ጋር ያለችግር ውህደት"
+    }
+  },
+  "knowledge": {
+    "title": "የእውቀት ማዕከል",
+    "subtitle": "ለSAP BTP ስኬት የባለሙያ ግንዛቤዎች እና ምርጥ ልምዶች",
+    "readMore": "ጽሑፍ ያንብቡ",
+    "readTime": "{{time}} ደቂቃ"
+  },
+  "blog": {
+    "post1": {
+      "category": "ልማት",
+      "title": "በSAP BTP ዘመናዊ Fiori መተግበሪያዎችን መገንባት",
+      "excerpt": "ለተሻሻለ የተጠቃሚ ልምዶች የSAP Business Technology Platform ሙሉ ኃይል የሚጠቀሙ ምላሽ ሰጪ፣ ለተጠቃሚ ምቹ Fiori መተግበሪያዎችን እንዴት እንደሚፈጥሩ ይማሩ።",
+      "readTime": "5 ደቂቃ"
+    },
+    "post2": {
+      "category": "ቴክኖሎጂ",
+      "title": "ከመስመር ውጪ PWA: በማንኛውም ቦታ የንግድ ቀጣይነት ማረጋገጥ",
+      "excerpt": "ከመስመር ውጪ አቅም ያላቸው ተራማጅ ድር መተግበሪያዎች ያለ ኢንተርኔት ግንኙነት እንኳን የንግድ ስራዎችዎ በለስላሳ እንዲሰሩ እንዴት እንደሚያደርጉ ያግኙ።",
+      "readTime": "7 ደቂቃ"
+    },
+    "post3": {
+      "category": "AI እና አውቶሜሽን",
+      "title": "ለብልህ የክፍያ መጠየቂያ ሂደት AI",
+      "excerpt": "ከSAP BTP ጋር AI ውህደት ለንግድዎ ከዚህ በፊት ባልታየ ትክክለኛነት እና ቅልጥፍና የክፍያ መጠየቂያ ሂደትን እንዴት እንደሚለውጥ ያስሱ።",
+      "readTime": "6 ደቂቃ"
+    },
+    "post4": {
+      "category": "ውህደት",
+      "title": "SAP BTP Integration Suite ማስተማር",
+      "excerpt": "ለያለችግር የውሂብ ፍሰት እና የንግድ ሂደቶች SAP BTP Integration Suite በመጠቀም የድርጅት ስርዓቶችዎን ለማገናኘት ሁሉን አቀፍ መመሪያ።",
+      "readTime": "8 ደቂቃ"
+    },
+    "post5": {
+      "category": "አርክቴክቸር",
+      "title": "ለእውነተኛ ጊዜ ንግድ Event Mesh አርክቴክቸር",
+      "excerpt": "ለዘመናዊ የንግድ መስፈርቶች ምላሽ ሰጪ፣ ማስፋፊያ ችሎታ ያላቸው መፍትሄዎችን ለመፍጠር ከSAP Event Mesh ጋር ክስተት-ተኮር አርክቴክቸር መተግበር።",
+      "readTime": "6 ደቂቃ"
+    },
+    "post6": {
+      "category": "ምርጥ ልምዶች",
+      "title": "BTP የውሂብ ጎታ ማመቻቸት ስልቶች",
+      "excerpt": "ለንግድ-ወሳኝ ውሂብዎ ፈጣን፣ አስተማማኝ መዳረሻ ለማረጋገጥ የSAP BTP የውሂብ ጎታ አፈጻጸምዎን ለማመቻቸት አስፈላጊ ስልቶች።",
+      "readTime": "5 ደቂቃ"
+    }
+  },
+  "contact": {
+    "badge": "ይጀምሩ",
+    "title": "ንግድዎን ለመለወጥ ዝግጁ ነዎት?",
+    "subtitle": "ከSAP BTP ባለሙያዎቻችን ጋር ነጻ ምክክር ያስያዙ",
+    "availability": "ውስን ቅድመ-ቀጠሮ",
+    "contactInfo": "የእውቂያ መረጃ",
+    "email": "ኢሜይል",
+    "globalPresence": "ዓለም አቀፍ መኖር",
+    "servingCountries": "በ40+ አገሮች ውስጥ ደንበኞችን ማገልገል",
+    "fastResponse": "ፈጣን ምላሽ ዋስትና",
+    "fastResponseDesc": "በ24 ሰዓት ውስጥ የባለሙያ ምክር ያግኙ። የSAP BTP ልዩ ባለሙያዎቻችን እንዲሳካልዎት ለመርዳት ዝግጁ ናቸው።",
+    "mentionCountry": "ሲያገኙን እባክዎ አገርዎን ይጥቀሱ",
+    "form": {
+      "name": "ሙሉ ስም",
+      "email": "የንግድ ኢሜይል",
+      "company": "የድርጅት ስም",
+      "message": "ስለ ፕሮጀክትዎ ይንገሩን",
+      "submit": "ነጻ ምክክር ያስይዙ",
+      "submitting": "በመላክ ላይ..."
+    },
+    "success": {
+      "title": "መልዕክት ተልኳል!",
+      "description": "ስለተገናኙን እናመሰግናለን። በ24 ሰዓት ውስጥ እንመልሳለን።"
+    },
+    "error": {
+      "title": "ስህተት",
+      "description": "ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "footer": {
+    "description": "ዓለም አቀፍ ልቀት የሚያቀርብ ልዩ SAP BTP ማማከር",
+    "services": "አገልግሎቶች",
+    "fiori": "Fiori ልማት",
+    "architecture": "BTP አርክቴክቸር",
+    "integration": "Integration Suite",
+    "ai": "AI መፍትሄዎች",
+    "knowledge": "እውቀት",
+    "blogArticles": "ብሎግ ጽሑፎች",
+    "caseStudies": "የጉዳይ ጥናቶች",
+    "resources": "ምንጮች",
+    "company": "ድርጅት",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን",
+    "careers": "ስራዎች",
+    "blog": "ብሎግ",
+    "documentation": "ሰነዶች",
+    "whitepapers": "ነጭ ወረቀቶች",
+    "legal": "ህጋዊ",
+    "privacy": "የግላዊነት ፖሊሲ",
+    "terms": "የአገልግሎት ውል",
+    "copyright": "ሁሉም መብቶች የተጠበቁ ናቸው።",
+    "deployedOn": "በCloudflare ላይ ተሰራጭቷል",
+    "serviceRestriction": "አገልግሎቶች በአውስትራሊያ እና በኒውዚላንድ አይገኙም።",
+    "availableLanguages": "በቋንቋዎ ይገኛል"
+  },
+  "common": {
+    "learnMore": "ተጨማሪ ይወቁ",
+    "backToHome": "ወደ መነሻ ተመለስ"
+  },
+  "capDevelopment": {
+    "badge": "የደመና መተግበሪያ ልማት",
+    "title": "SAP CAP ልማት",
+    "subtitle": "አገልግሎቶች",
+    "description": "በSAP BTP ላይ ለፈጣን፣ ማስፋፊያ ችሎታ ላለው ልማት በSAP Cloud Application Programming Model ዘመናዊ የደመና መተግበሪያዎችን ይገንቡ።",
+    "cta": "የCAP ፕሮጀክትዎን ይጀምሩ →",
+    "servicesTitle": "ሁሉን አቀፍ CAP ልማት አገልግሎቶች",
+    "servicesSubtitle": "ከውሂብ ሞዴሊንግ እስከ ዲፕሎይመንት - ለንግድ መተግበሪያዎችዎ ሙሉ CAP ልምድ።",
+    "whyChoose": "ለምን TerraBT ይምረጡ",
+    "whyChooseTitle": "ውጤት የሚያስገኝ የባለሙያ CAP ልማት",
+    "whyChooseDescription": "የተረጋገጡ SAP CAP ገንቢዎቻችን ለድርጅት መተግበሪያዎች ግንባታ ዓመታት ልምድ ያመጣሉ። ውጤት የሚያስገኙ መፍትሄዎችን ለማቅረብ ቴክኒካዊ ልምድን ከንግድ ብልህነት ጋር እናጣምራለን።",
+    "features": {
+      "fullStack": {
+        "title": "ሙሉ-Stack CAP ልማት",
+        "description": "የCAP framework በመጠቀም ከጫፍ እስከ ጫፍ የመተግበሪያ ልማት።",
+        "items": [
+          "CDS ውሂብ ሞዴሊንግ እና entity ትርጓሜዎች",
+          "አገልግሎት ትርጓሜ እና ትግበራ",
+          "ብጁ የንግድ ሎጂክ ልማት",
+          "Fiori Elements UI ማመንጫ",
+          "CAP Node.js እና Java runtime ድጋፍ"
+        ]
+      },
+      "database": {
+        "title": "የውሂብ ጎታ ውህደት",
+        "description": "ከSAP HANA Cloud እና ከሌሎች የውሂብ ጎታዎች ጋር ያለችግር ውህደት።",
+        "items": [
+          "SAP HANA Cloud ተወላጅ ልማት",
+          "PostgreSQL እና SAP ASE ድጋፍ",
+          "የውሂብ ጎታ ፍልሰት እና schema አስተዳደር",
+          "የጥያቄ ማመቻቸት እና አፈጻጸም ማስተካከል",
+          "ባለብዙ ተከራይ የውሂብ ጎታ ውቅር"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት እና ፈቃድ",
+        "description": "ለCAP መተግበሪያዎች የድርጅት-ደረጃ ደህንነት ትግበራ።",
+        "items": [
+          "ሚና-ተኮር የመዳረሻ ቁጥጥር (RBAC)",
+          "የማረጋገጫ ውህደት (XSUAA, IAS)",
+          "የፈቃድ ማብራሪያዎች እና ገደቦች",
+          "የውሂብ ግላዊነት እና የመስክ-ደረጃ ደህንነት",
+          "ደህንነቱ የተጠበቀ ምስክርነት አስተዳደር"
+        ]
+      },
+      "api": {
+        "title": "API እና አገልግሎት ልማት",
+        "description": "በCAP አገልግሎቶች ጠንካራ OData እና REST APIs ይገንቡ።",
+        "items": [
+          "OData V2 እና V4 አገልግሎት ፈጠራ",
+          "REST API ትግበራ",
+          "ብጁ እርምጃዎች እና ተግባራት",
+          "ለግብይት መተግበሪያዎች ረቂቅ ማስቻል",
+          "የውጭ አገልግሎት ውህደት እና mashups"
+        ]
+      },
+      "fiori": {
+        "title": "Fiori Elements ውህደት",
+        "description": "ከFiori Elements እና CAP ጋር ፈጣን UI ልማት።",
+        "items": [
+          "List Report እና Object Page መተግበሪያዎች",
+          "Analytical List Page (ALP) ልማት",
+          "ነጻ ቅጥ Fiori መተግበሪያ ውህደት",
+          "UI ማብራሪያዎች እና ማበጀት",
+          "ምላሽ ሰጪ እና ማስማማት ችሎታ ያለው ዲዛይን"
+        ]
+      },
+      "cicd": {
+        "title": "CI/CD እና DevOps",
+        "description": "አውቶማቲክ ዲፕሎይመንት እና ቀጣይ ውህደት ቧንቧዎች።",
+        "items": [
+          "Cloud Foundry እና Kyma ዲፕሎይመንት",
+          "MTA (Multi-Target Application) ግንባታ",
+          "አውቶማቲክ ሙከራ እና ጥራት መግቢያዎች",
+          "CI/CD ቧንቧ ዝግጅት (Jenkins, GitHub Actions)",
+          "ባለብዙ-አካባቢ ማስተዋወቅ ስልቶች"
+        ]
+      }
+    },
+    "benefits": [
+      "በተረጋገጡ CAP ቅጦች የተፋጠነ ልማት",
+      "አብሮ የተገነባ ምርጥ ልምዶች እና ለድርጅት ዝግጁ አርክቴክቸር",
+      "ከንግድዎ ጋር የሚያድጉ ማስፋፊያ ችሎታ ያላቸው መተግበሪያዎች",
+      "ያለችግር SAP S/4HANA ውህደት",
+      "በልማት የህይወት ዑደት ውስጥ የባለሙያ መመሪያ"
+    ]
+  },
+  "buildAppsPage": {
+    "badge": "ያለ ኮድ/ዝቅተኛ ኮድ ልማት",
+    "title": "SAP Build Apps",
+    "subtitle": "ልማት አገልግሎቶች",
+    "description": "ለፈጣን ዲጂታል ለውጥ እና የንግድ ፈጣንነት ያለ ኮድ/ዝቅተኛ ኮድ መሳሪያዎች ባለሙያ የድርጅት መተግበሪያዎችን ይፍጠሩ።",
+    "cta": "ዛሬ መገንባት ይጀምሩ →",
+    "servicesTitle": "ሙሉ SAP Build Apps መፍትሄዎች",
+    "servicesSubtitle": "ከእይታ ልማት እስከ የድርጅት ዲፕሎይመንት - የንግድ ተጠቃሚዎችዎን ያበረታቱ።",
+    "whyChooseTitle": "ፈጣን የመተግበሪያ ልማት",
+    "whyChooseDescription": "SAP Build Apps የንግድ ተጠቃሚዎች እና ገንቢዎች ያለ ሰፊ ኮዲንግ ኃይለኛ መተግበሪያዎችን እንዲፈጥሩ ያስችላል። በእይታ ልማት መሳሪያዎች ዲጂታል ለውጥዎን ያፋጥኑ።",
+    "implementationTitle": "የትግበራ አቀራረብ",
+    "features": {
+      "visual": {
+        "title": "እይታ ልማት",
+        "description": "ለፈጣን የመተግበሪያ ግንባታ የጎትት-እና-ጣል በይነገጽ።",
+        "items": [
+          "ሚስጥራዊ እይታ ገጽ ገንቢ",
+          "ቅድመ-የተገነቡ UI ክፍሎች ቤተ-መጽሐፍት",
+          "ምላሽ ሰጪ ዲዛይን ሸራ",
+          "የእውነተኛ ጊዜ ቅድመ-እይታ እና ሙከራ",
+          "ገጽታ ማበጀት እና ብራንዲንግ"
+        ]
+      },
+      "crossPlatform": {
+        "title": "ዘርፈ-ብዙ መድረክ መተግበሪያዎች",
+        "description": "አንድ ጊዜ ይገንቡ፣ በሁሉም ቦታ ያሰራጩ - ድር፣ iOS እና Android።",
+        "items": [
+          "ተራማጅ ድር መተግበሪያ (PWA) ድጋፍ",
+          "ተወላጅ ተንቀሳቃሽ መተግበሪያ ማመንጫ",
+          "ታብሌት እና ዴስክቶፕ ማመቻቸት",
+          "ከመስመር ውጪ ውሂብ አቅሞች",
+          "የመተግበሪያ መደብር ዲፕሎይመንት ድጋፍ"
+        ]
+      },
+      "cloudNative": {
+        "title": "ደመና-ተወላጅ ውህደት",
+        "description": "ከSAP BTP አገልግሎቶች እና ውሂብ ጋር ያለችግር ግንኙነት።",
+        "items": [
+          "SAP S/4HANA Cloud ውህደት",
+          "OData አገልግሎት ግንኙነት",
+          "BTP አገልግሎት ፍጆታ",
+          "ማረጋገጫ እና ፈቃድ",
+          "የእውነተኛ ጊዜ ውሂብ ማመሳሰል"
+        ]
+      },
+      "rapid": {
+        "title": "ፈጣን ፕሮቶታይፒንግ",
+        "description": "ሃሳቦችን በፍጥነት ያረጋግጡ እና በግብረመልስ ላይ ተመስርተው ያሻሽሉ።",
+        "items": [
+          "ፈጣን MVP ልማት",
+          "የተጠቃሚ ሙከራ እና ግብረመልስ ስብሰባ",
+          "ተደጋጋሚ ዲዛይን እና ማጥራት",
+          "ስሪት ቁጥጥር እና መልሶ ማቋቋም",
+          "ለቡድኖች የትብብር መሳሪያዎች"
+        ]
+      },
+      "citizen": {
+        "title": "ዜጋ ገንቢ ማስቻል",
+        "description": "የንግድ ተጠቃሚዎች መተግበሪያዎችን እንዲፈጥሩ ያበረታቱ።",
+        "items": [
+          "ለገንቢ ያልሆኑ ዝቅተኛ የመማሪያ ጥመኛ",
+          "የተመራ ልማት የስራ ፍሰቶች",
+          "ቅጽበት እና ንድፍ ቤተ-መጽሐፍት",
+          "አስተዳደር እና ጥራት ቁጥጥሮች",
+          "ስልጠና እና ማስቻል ፕሮግራሞች"
+        ]
+      },
+      "proCode": {
+        "title": "Pro-Code ማስፋፊያ",
+        "description": "ሲያስፈልግ በብጁ ኮድ ያስፋፉ።",
+        "items": [
+          "ብጁ JavaScript ሎጂክ",
+          "API ውህደት አቅሞች",
+          "ብጁ ክፍል ልማት",
+          "የላቁ ውሂብ ለውጦች",
+          "የሶስተኛ ወገን ቤተ-መጽሐፍት ውህደት"
+        ]
+      }
+    },
+    "benefits": [
+      "10 ጊዜ ፈጣን የመተግበሪያ ልማት",
+      "የልማት ወጪዎችን በ60% ይቀንሱ",
+      "የንግድ ተጠቃሚዎች እንዲፈጥሩ ያበረታቱ",
+      "ያለችግር SAP ስነ-ምህዳር ውህደት",
+      "የድርጅት-ደረጃ ደህንነት እና አስተዳደር"
+    ],
+    "implementation": {
+      "step1": {
+        "title": "1. መስፈርቶች እና ዲዛይን",
+        "description": "የንግድ ፍላጎቶችን ለመረዳት እና ከባለድርሻ አካላት ጋር የመተግበሪያ መዋቅር ለመንደፍ የስራ ሸቦ።"
+      },
+      "step2": {
+        "title": "2. እይታ ልማት",
+        "description": "ቅድመ-የተገነቡ ክፍሎች እና ቅጽበቶች ያለው የጎትት-እና-ጣል በይነገጽ በመጠቀም መተግበሪያ ይገንቡ።"
+      },
+      "step3": {
+        "title": "3. ውሂብ ውህደት",
+        "description": "ያለችግር ማረጋገጫ ያለው ከSAP ስርዓቶች እና ከውጭ ውሂብ ምንጮች ጋር ያገናኙ።"
+      },
+      "step4": {
+        "title": "4. ሙከራ እና ማሻሻል",
+        "description": "የተጠቃሚ ተቀባይነት ሙከራ እና በግብረመልስ ላይ የተመሰረቱ ተደጋጋሚ ማሻሻያዎች።"
+      },
+      "step5": {
+        "title": "5. ዲፕሎይመንት",
+        "description": "አውቶማቲክ ግንባታ እና ስርጭት ያለው ወደ ድር፣ iOS እና Android ያሰራጩ።"
+      },
+      "step6": {
+        "title": "6. ስልጠና እና ድጋፍ",
+        "description": "የመጨረሻ ተጠቃሚ ስልጠና እና ለቀጣይ ማሻሻያ ቀጣይ ድጋፍ።"
+      }
+    }
+  },
+  "buildAutomationPage": {
+    "badge": "ሂደት አውቶሜሽን",
+    "title": "SAP Build Process Automation",
+    "subtitle": "አገልግሎቶች",
+    "description": "ለተሻሻለ ቅልጥፍና ብልህ የስራ ፍሰት እና ሮቦቲክ ሂደት አውቶሜሽን አቅሞች የንግድ ሂደቶችን አውቶሜት ያድርጉ።",
+    "cta": "ሂደቶችዎን አውቶሜት ያድርጉ →",
+    "servicesTitle": "ሙሉ ሂደት አውቶሜሽን መፍትሄዎች",
+    "servicesSubtitle": "ከቀላል የስራ ፍሰቶች እስከ ውስብስብ RPA - ሁሉን አቀፍ አውቶሜሽን ልምድ።",
+    "whyChooseTitle": "ብልህ ሂደት አውቶሜሽን",
+    "whyChooseDescription": "የንግድ ስራዎችዎን በSAP Build Process Automation ይለውጡ። ለጫፍ-ወደ-ጫፍ ሂደት ልቀት የስራ ፍሰት አስተዳደር፣ RPA እና AI ያጣምሩ።",
+    "implementationTitle": "የትግበራ ካርታ",
+    "features": {
+      "workflow": {
+        "title": "የስራ ፍሰት አስተዳደር",
+        "description": "ውስብስብ የንግድ የስራ ፍሰቶችን ይንደፉ እና ያስተባብሩ።",
+        "items": [
+          "እይታ የስራ ፍሰት ዲዛይነር",
+          "ማጽደቅ እና ማዞሪያ ሎጂክ",
+          "የሰው ተግባር አስተዳደር",
+          "ትይዩ እና ተከታታይ ሂደት",
+          "ማስተላለፍ እና የጊዜ ገደብ አያያዝ"
+        ]
+      },
+      "rpa": {
+        "title": "ሮቦቲክ ሂደት አውቶሜሽን",
+        "description": "በሶፍትዌር ሮቦቶች ተደጋጋሚ ተግባራትን አውቶሜት ያድርጉ።",
+        "items": [
+          "ዴስክቶፕ እና ድር አውቶሜሽን",
+          "ስክሪን ስክራፒንግ እና ውሂብ ማውጣት",
+          "ያለ APIs የመተግበሪያ ውህደት",
+          "የተሰኘ እና ያልተሰኘ ቦቶች",
+          "ቦት መርሐግብር እና ማስተባበር"
+        ]
+      },
+      "document": {
+        "title": "ሰነድ ሂደት",
+        "description": "ብልህ ሰነድ ማውጣት እና ምደባ።",
+        "items": [
+          "AI-የተጎላበተ ውሂብ ማውጣት",
+          "ሰነድ ምደባ እና ማዞሪያ",
+          "ቅጽበት-ተኮር ሂደት",
+          "ባለብዙ-ቅርጸት ድጋፍ (PDF, ምስሎች, ስካኖች)",
+          "ማረጋገጫ እና ማረጋገጫ ህጎች"
+        ]
+      },
+      "approval": {
+        "title": "የማጽደቅ የስራ ፍሰቶች",
+        "description": "በድርጅትዎ ውስጥ የማጽደቅ ሂደቶችን ያቀላጥፉ።",
+        "items": [
+          "ባለብዙ ደረጃ የማጽደቅ ሰንሰለቶች",
+          "ሁኔታዊ ማዞሪያ ሎጂክ",
+          "ውክልና እና ምትክ ህጎች",
+          "ተንቀሳቃሽ ማጽደቅ አቅሞች",
+          "ማስታወቂያ እና ማስታወሻ ስርዓት"
+        ]
+      },
+      "analytics": {
+        "title": "ሂደት ትንተና",
+        "description": "ስለ ሂደት አፈጻጸም እና ማነቆዎች ግንዛቤዎችን ያግኙ።",
+        "items": [
+          "ሂደት ማዕድን እና ግኝት",
+          "አፈጻጸም ልኬቶች እና KPIs",
+          "ማነቆ ማወቂያ",
+          "ተገዢነት ክትትል",
+          "ቀጣይ ማሻሻያ ምክሮች"
+        ]
+      },
+      "governance": {
+        "title": "አስተዳደር እና ተገዢነት",
+        "description": "ሂደቶች ተቆጣጣሪ መስፈርቶችን ማሟላታቸውን ያረጋግጡ።",
+        "items": [
+          "ኦዲት ምንጭ እና መመዝገቢያ",
+          "የመዳረሻ ቁጥጥር እና ደህንነት",
+          "ተገዢነት ህግ ማስፈጸም",
+          "ስሪት ቁጥጥር እና ለውጥ አስተዳደር",
+          "SLA ክትትል እና ማስፈጸም"
+        ]
+      }
+    },
+    "benefits": [
+      "70% የእጅ ሂደት ጊዜ ቅነሳ",
+      "99.9% በአውቶማቲክ ተግባራት ውስጥ ትክክለኛነት",
+      "በ3-6 ወራት ውስጥ ፈጣን ROI",
+      "የተሻሻለ ተገዢነት እና ኦዲት ችሎታ",
+      "የተሰጠ የትግበራ ድጋፍ እና ማመቻቸት"
+    ],
+    "implementation": {
+      "step1": {
+        "title": "1. ሂደት ግኝት",
+        "description": "የአውቶሜሽን ዕድሎችን ለመለየት ወቅታዊ ሂደቶችን ይተንትኑ እና ይሰነዱ።"
+      },
+      "step2": {
+        "title": "2. አውቶሜሽን ዲዛይን",
+        "description": "የስራ ፍሰት፣ RPA እና AI አቅሞችን የሚያጣምር ምርጥ አውቶሜሽን መፍትሄ ይንደፉ።"
+      },
+      "step3": {
+        "title": "3. ልማት እና ውቅር",
+        "description": "SAP Build Process Automation መሳሪያዎችን በመጠቀም አውቶሜሽን ይገንቡ እና ያዋቅሩ።"
+      },
+      "step4": {
+        "title": "4. ሙከራ እና ማረጋገጫ",
+        "description": "የአውቶሜሽን ትክክለኛነት እና አስተማማኝነት ለማረጋገጥ ሁሉን አቀፍ ሙከራ።"
+      },
+      "step5": {
+        "title": "5. ዲፕሎይመንት እና Go-Live",
+        "description": "ክትትል የሚደረግበት ማሰራጨት እና የተጠቃሚ ስልጠና ያለው አውቶሜሽንን ወደ ምርት ያሰራጩ።"
+      },
+      "step6": {
+        "title": "6. ክትትል እና ማመቻቸት",
+        "description": "በአፈጻጸም ትንተና ላይ የተመሰረተ ቀጣይ ክትትል እና ማሻሻያ።"
+      }
+    }
+  },
+  "btpArchitecture": {
+    "badge": "አርክቴክቸር እና ዲዛይን",
+    "title": "SAP BTP አርክቴክቸር",
+    "subtitle": "እና ዲዛይን አገልግሎቶች",
+    "description": "ለማስፋፊያ ችሎታ ያላቸው፣ ደህንነቱ የተጠበቀ እና ከፍተኛ አፈጻጸም ያላቸው SAP BTP መፍትሄዎች ስትራቴጂካዊ አርክቴክቸር እቅድ እና ዲዛይን። ለንግድ ፍላጎቶችዎ የተዘጋጁ የድርጅት-ደረጃ የደመና አካባቢዎችን እንገነባለን።",
+    "cta": "የአርክቴክቸር ፍላጎቶችዎን ይወያዩ →",
+    "servicesTitle": "ሁሉን አቀፍ አርክቴክቸር አገልግሎቶች",
+    "servicesSubtitle": "ከመጀመሪያው landscape ዲዛይን እስከ ደህንነት ትግበራ፣ የSAP BTP አርክቴክቸርዎን ሁሉንም ገጽታ እንሸፍናለን።",
+    "whyChooseTitle": "ውጤት የሚያስገኝ የባለሙያ አርክቴክቸር",
+    "whyChooseDescription": "የተረጋገጡ SAP BTP አርክቴክቶቻችን ለዓለም አቀፍ ድርጅቶች የድርጅት መፍትሄዎችን በመንደፍ ዓመታት ልምድ ያመጣሉ። ጊዜን የሚቋቋሙ አርክቴክቸሮችን ለመፍጠር ምርጥ ልምዶችን ከፈጠራ ጋር እናጣምራለን።",
+    "features": {
+      "landscape": {
+        "title": "Landscape ዲዛይን",
+        "description": "ለንግድ መስፈርቶችዎ የተዘጋጀ ሁሉን አቀፍ BTP landscape አርክቴክቸር።",
+        "items": [
+          "ባለብዙ ደረጃ አካባቢ ዝግጅት (Dev, Test, Production)",
+          "Subaccount መዋቅር እና አደረጃጀት",
+          "ምንጭ ድልድል እና አቅም እቅድ",
+          "Cloud Foundry እና Kyma runtime ውቅር",
+          "ኔትወርክ ቶፖሎጂ እና ግንኙነት እቅድ"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት አርክቴክቸር",
+        "description": "BTP አካባቢዎን እና ውሂብዎን ለመጠበቅ የድርጅት-ደረጃ ደህንነት ዲዛይን።",
+        "items": [
+          "ማንነት እና መዳረሻ አስተዳደር (IAM) ስልት",
+          "ሚና-ተኮር የመዳረሻ ቁጥጥር (RBAC) ትግበራ",
+          "የውሂብ ምስጠራ እና ተገዢነት ደረጃዎች",
+          "ደህንነት ክትትል እና ስጋት ማወቂያ",
+          "ኦዲት መመዝገቢያ እና ተገዢነት ሪፖርት"
+        ]
+      },
+      "highAvailability": {
+        "title": "ከፍተኛ ተገኝነት",
+        "description": "በትንሹ የእረፍት ጊዜ እና ከፍተኛ አስተማማኝነት ጠንካራ ስርዓቶችን ይንደፉ።",
+        "items": [
+          "ባለብዙ ክልል የዲፕሎይመንት ስልቶች",
+          "አደጋ መልሶ ማግኛ እና ምትኬ መፍትሄዎች",
+          "ጭነት ማመጣጠን እና failover ዘዴዎች",
+          "የንግድ ቀጣይነት እቅድ",
+          "አፈጻጸም ክትትል እና ማመቻቸት"
+        ]
+      },
+      "integrationSetup": {
+        "title": "Integration Suite ዝግጅት",
+        "description": "ለያለችግር ስርዓት ግንኙነት ሙሉ Integration Suite ውቅር።",
+        "items": [
+          "Cloud Integration (CPI) ዝግጅት እና ውቅር",
+          "API Management ትግበራ",
+          "Open Connectors ውቅር",
+          "Integration Advisor አጠቃቀም",
+          "ቅድመ-የታሸገ ውህደት ይዘት ዲፕሎይመንት"
+        ]
+      },
+      "cloudConnector": {
+        "title": "SAP Cloud Connector ዝግጅት",
+        "description": "ለድብልቅ landscape ውህደት ደህንነቱ የተጠበቀ on-premise ወደ ደመና ግንኙነት።",
+        "items": [
+          "Cloud Connector ተከላ እና ውቅር",
+          "በon-premise እና BTP መካከል ደህንነቱ የተጠበቀ ዋሻ ማቋቋም",
+          "የመዳረሻ ቁጥጥር እና የደህንነት ቡድን አስተዳደር",
+          "ስርዓት ካርታ እና ምናባዊ አስተናጋጅ ውቅር",
+          "ከፍተኛ ተገኝነት እና failover ዝግጅት",
+          "ግንኙነት ችግሮችን ክትትል እና መላ ፈለጋ"
+        ]
+      },
+      "eventMeshSetup": {
+        "title": "Event Mesh ዝግጅት",
+        "description": "ለእውነተኛ ጊዜ የንግድ ሂደቶች ክስተት-ተኮር አርክቴክቸር ትግበራ።",
+        "items": [
+          "Event Mesh instance ማቅረብ",
+          "Queue እና topic ውቅር",
+          "Event broker ዝግጅት እና አስተዳደር",
+          "መልዕክት ማዞሪያ እና ማጣሪያ ህጎች",
+          "ክስተት ክትትል እና ትንተና"
+        ]
+      },
+      "ias": {
+        "title": "IAS ዝግጅት",
+        "description": "ለደህንነቱ የተጠበቀ ተጠቃሚ አስተዳደር Identity Authentication Service ውቅር።",
+        "items": [
+          "IAS tenant ማቅረብ እና ውቅር",
+          "Single Sign-On (SSO) ትግበራ",
+          "Multi-factor authentication (MFA) ዝግጅት",
+          "የድርጅት ማንነት አቅራቢ ውህደት",
+          "ተጠቃሚ ማቅረብ እና የህይወት ዑደት አስተዳደር"
+        ]
+      },
+      "userAuth": {
+        "title": "ተጠቃሚ ማረጋገጫ እና ሚናዎች",
+        "description": "ሁሉን አቀፍ ተጠቃሚ አስተዳደር እና ፈቃድ ማዕቀፍ።",
+        "items": [
+          "ብጁ ሚና ትርጓሜ እና አስተዳደር",
+          "የፈቃድ ሞዴል ዲዛይን",
+          "የተጠቃሚ ቡድን አደረጃጀት",
+          "የመተግበሪያ-ደረጃ ደህንነት ትግበራ",
+          "ሚና ምደባ እና ውክልና የስራ ፍሰቶች"
+        ]
+      }
+    },
+    "benefits": [
+      "በተረጋገጡ አርክቴክቸር ቅጦች የትግበራ ጊዜን በ40% ቅነሳ",
+      "ከኢንዱስትሪ ደረጃዎች ጋር ተገዢ የድርጅት-ደረጃ ደህንነት",
+      "ከንግድዎ ጋር የሚያድግ ማስፋፊያ ችሎታ ያለው መሠረተ ልማት",
+      "ለወሳኝ ስርዓቶች ንቁ ክትትል አቅሞች",
+      "ከተረጋገጡ SAP BTP አርክቴክቶች የባለሙያ መመሪያ"
+    ],
+    "statistics": {
+      "btpFocus": {
+        "value": "100%",
+        "label": "SAP BTP ትኩረት"
+      },
+      "experience": {
+        "value": "15+",
+        "label": "ዓመታት የተጣመረ ልምድ"
+      },
+      "countries": {
+        "value": "40+",
+        "label": "አገሮች ተገልግለዋል"
+      },
+      "support": {
+        "value": "ዓለም አቀፍ",
+        "label": "የባለሙያ ቡድን"
+      }
+    },
+    "whyChooseBadge": "ለምን TerraBT ይምረጡ",
+    "ctaSectionBadge": "⚡ ዛሬ ፕሮጀክትዎን ይጀምሩ",
+    "ctaSectionTitle1": "ለመገንባት ዝግጁ",
+    "ctaSectionTitle2": "የSAP BTP አርክቴክቸርዎ?",
+    "ctaSectionDescription": "መስፈርቶችዎን ለመወያየት እና እንዴት ልንረዳዎ እንደምንችል ለመመርመር ከSAP BTP አርክቴክቶቻችን ጋር ነጻ ምክክር ያስይዙ።",
+    "ctaSectionButton1": "ነጻ ምክክር ያስይዙ →",
+    "ctaSectionButton2": "ሁሉንም አገልግሎቶች ይመልከቱ"
+  },
+  "fioriDevelopment": {
+    "badge": "መተግበሪያ ልማት",
+    "title": "SAP Fiori መተግበሪያ",
+    "subtitle": "ልማት አገልግሎቶች",
+    "description": "በሁሉም መሳሪያዎች ላይ ልዩ የተጠቃሚ ልምዶችን የሚያቀርቡ ዘመናዊ፣ ምላሽ ሰጪ Fiori መተግበሪያዎችን ይገንቡ። ከጽንሰ-ሀሳብ እስከ ዲፕሎይመንት፣ የSAP ቅርብ ጊዜ ቴክኖሎጂዎችን በመጠቀም ውብ፣ አፈጻጸም ያላቸው መተግበሪያዎችን እንፈጥራለን።",
+    "cta": "የFiori ፕሮጀክትዎን ይጀምሩ →",
+    "servicesTitle": "ሙሉ Fiori ልማት መፍትሄዎች",
+    "servicesSubtitle": "ከዲዛይን እስከ ዲፕሎይመንት እና ከዚያ ባሻገር ከጫፍ እስከ ጫፍ Fiori ልማት አገልግሎቶች።",
+    "whyChooseTitle": "ልቀት የሚያቀርቡ Fiori ባለሙያዎች",
+    "whyChooseDescription": "SAP-የተረጋገጡ ገንቢዎቻችን የድርጅት-ደረጃ Fiori መተግበሪያዎችን በመገንባት ልዩ ናቸው። ተጠቃሚዎች የሚወዷቸውን መተግበሪያዎች ለመፍጠር ቴክኒካዊ ልምድን ከዲዛይን አስተሳሰብ ጋር እናጣምራለን።",
+    "features": {
+      "customDev": {
+        "title": "ብጁ Fiori መተግበሪያ ልማት",
+        "description": "የንግድ መስፈርቶችዎን በትክክል የሚያሟሉ የተበጁ Fiori መተግበሪያዎችን ይገንቡ።",
+        "items": [
+          "SAPUI5 framework ልምድ",
+          "Fiori Elements እና Freestyle መተግበሪያዎች",
+          "OData አገልግሎት ውህደት",
+          "ለሁሉም መሳሪያዎች ምላሽ ሰጪ ዲዛይን",
+          "ብጁ ቁጥጥሮች እና ክፍሎች"
+        ]
+      },
+      "uiux": {
+        "title": "UI/UX ዲዛይን",
+        "description": "SAP Fiori ዲዛይን መመሪያዎችን የሚከተሉ ሚስጥራዊ፣ ውብ በይነገጾችን ይፍጠሩ።",
+        "items": [
+          "SAP Fiori ዲዛይን መርሆዎች ተከትሎ",
+          "የተጠቃሚ ምርምር እና persona ልማት",
+          "Wireframing እና prototyping",
+          "ተደራሽነት ተገዢነት (WCAG)",
+          "ገጽታ ማበጀት እና ብራንዲንግ"
+        ]
+      },
+      "performance": {
+        "title": "አፈጻጸም ማመቻቸት",
+        "description": "Fiori መተግበሪያዎችዎ በማንኛውም መሳሪያ ላይ በፍጥነት እንዲጫኑ እና በለስላሳ እንዲሰሩ ያረጋግጡ።",
+        "items": [
+          "ኮድ ማመቻቸት እና minification",
+          "Lazy loading ትግበራ",
+          "Bundle መጠን ቅነሳ",
+          "ኔትወርክ ጥያቄ ማመቻቸት",
+          "አፈጻጸም ክትትል እና ትንተና"
+        ]
+      },
+      "mobile": {
+        "title": "ተንቀሳቃሽ-መጀመሪያ ልማት",
+        "description": "ለተንቀሳቃሽ ተጠቃሚዎች እና ከመስመር ውጪ ሁኔታዎች የተመቻቹ Fiori መተግበሪያዎችን ይገንቡ።",
+        "items": [
+          "ምላሽ ሰጪ እና ማስማማት ችሎታ ያለው ዲዛይን",
+          "ንክኪ-የተመቻቹ መስተጋብሮች",
+          "ተንቀሳቃሽ-ተኮር ባህሪያት (ካሜራ, GPS)",
+          "ከመስመር ውጪ ውሂብ ማመሳሰል",
+          "ተራማጅ ድር መተግበሪያ (PWA) አቅሞች"
+        ]
+      },
+      "integration": {
+        "title": "ውህደት እና ሙከራ",
+        "description": "ሁሉን አቀፍ ሙከራ ሽፋን ያለው ያለችግር backend ውህደት።",
+        "items": [
+          "SAP Gateway እና OData አገልግሎት ፈጠራ",
+          "Backend ስርዓት ውህደት",
+          "Unit እና integration ሙከራ",
+          "ከጫፍ-ወደ-ጫፍ ሙከራ አውቶሜሽን",
+          "ቀጣይ ውህደት/ዲፕሎይመንት (CI/CD)"
+        ]
+      },
+      "support": {
+        "title": "ስልጠና እና ድጋፍ",
+        "description": "ቡድንዎን በእውቀት እና ቀጣይ የጥገና ድጋፍ ያበረታቱ።",
+        "items": [
+          "ገንቢ ስልጠና ወርክሾፖች",
+          "ምርጥ ልምዶች ሰነድ",
+          "ኮድ ግምገማ እና ጥራት ማረጋገጫ",
+          "ቀጣይ ጥገና እና ዝማኔዎች",
+          "ሁሉን አቀፍ የምርት ማስረከብ"
+        ]
+      }
+    },
+    "benefits": [
+      "የተጠቃሚ ተቀባይነትን የሚያሳድጉ ዘመናዊ፣ ሚስጥራዊ በይነገጾች",
+      "እንደገና ጥቅም ላይ በሚውሉ ክፍሎች እና ቅጽበቶች ፈጣን ልማት",
+      "ያለችግር ልምድ የሚያረጋግጥ ዘርፈ-ብዙ መሳሪያ ተኳሃኝነት",
+      "ጥልቅ Fiori ልምድ ያላቸው SAP-የተረጋገጡ ገንቢዎች",
+      "በተለመደ፣ ወጥ UX የቀነሰ የስልጠና ወጪዎች"
+    ],
+    "statistics": {
+      "appsDelivered": {
+        "value": "50+",
+        "label": "የተላኩ Fiori መተግበሪያዎች"
+      },
+      "satisfaction": {
+        "value": "95%",
+        "label": "የተጠቃሚ እርካታ ደረጃ"
+      },
+      "timeToMarket": {
+        "value": "30%",
+        "label": "ፈጣን ወደ ገበያ ጊዜ"
+      },
+      "responsive": {
+        "value": "100%",
+        "label": "ተንቀሳቃሽ ምላሽ ሰጪ"
+      }
+    },
+    "whyChooseBadge": "ለምን TerraBT ይምረጡ",
+    "ctaSectionBadge": "⚡ ውስን የልማት ቦታዎች ይገኛሉ",
+    "ctaSectionTitle1": "ለመገንባት ዝግጁ",
+    "ctaSectionTitle2": "የሚቀጥለው Fiori መተግበሪያዎ?",
+    "ctaSectionDescription": "መስፈርቶችዎን እንወያይ እና ተጠቃሚዎችዎ የሚወዷት ውብ፣ ከፍተኛ አፈጻጸም ያለው Fiori መተግበሪያ እንፍጠር።",
+    "ctaSectionButton1": "ነጻ ዋጋ ያግኙ →",
+    "ctaSectionButton2": "ሌሎች አገልግሎቶችን ያስሱ"
+  },
+  "offlinePWA": {
+    "badge": "ተራማጅ ድር መተግበሪያዎች",
+    "title": "ከመስመር ውጪ PWA መተግበሪያዎች",
+    "subtitle": "ለSAP BTP",
+    "description": "በማንኛውም ቦታ ያለ ችግር የተጠቃሚ ልምድ የሚያረጋግጡ ከመስመር ውጪ አቅሞች ያላቸው ተራማጅ ድር መተግበሪያዎች። በመስመር ላይም ሆነ ከመስመር ውጪ በትክክል የሚሰሩ፣ በድር በኩል ተወላጅ መተግበሪያ ልምዶችን የሚያቀርቡ መተግበሪያዎችን ይገንቡ።",
+    "cta": "PWAዎን ይገንቡ →",
+    "servicesTitle": "ሙሉ PWA ልማት አገልግሎቶች",
+    "servicesSubtitle": "ከመስመር-ውጪ-መጀመሪያ አርክቴክቸር እስከ push notifications፣ ተወላጅ መተግበሪያዎችን የሚፎካከሩ PWAs እንገነባለን።",
+    "whyChooseBadge": "የPWA ጥቅም",
+    "whyChooseTitle": "ተወላጅ ልምድ፣ የድር ቀላልነት",
+    "whyChooseDescription": "ተራማጅ ድር መተግበሪያዎች የድር እና ተወላጅ መተግበሪያዎችን ምርጥ ያጣምራሉ። የመተግበሪያ መደብር ማጽደቆች የሉም፣ ፈጣን ዝማኔዎች፣ እና በሁሉም መሳሪያዎች ላይ ይሰራሉ - ሁሉም መተግበሪያ-መሰል ልምድ በሚያቀርቡበት ጊዜ።",
+    "features": {
+      "offlineFirst": {
+        "title": "ከመስመር-ውጪ-መጀመሪያ አርክቴክቸር",
+        "description": "ያለ ኢንተርኔት ግንኙነት እንኳን ያለችግር የሚሰሩ መተግበሪያዎችን ይንደፉ።",
+        "items": [
+          "Service Worker ትግበራ",
+          "ከመስመር ውጪ ውሂብ caching ስልቶች",
+          "IndexedDB እና local storage አስተዳደር",
+          "Background sync አቅሞች",
+          "ግጭት መፍታት ስልቶች"
+        ]
+      },
+      "dataSync": {
+        "title": "ውሂብ ማመሳሰል",
+        "description": "በመሳሪያዎች ላይ ውሂብን ወጥ ለማድረግ ብልህ sync ዘዴዎች።",
+        "items": [
+          "አውቶማቲክ background ማመሳሰል",
+          "ለውጤታማ ውሂብ ማስተላለፍ Delta sync",
+          "ግጭት ማወቂያ እና መፍታት",
+          "ብሩህ UI ዝማኔዎች",
+          "Retry ዘዴዎች እና ስህተት አያያዝ"
+        ]
+      },
+      "pwaFeatures": {
+        "title": "ተራማጅ ድር መተግበሪያ ባህሪያት",
+        "description": "ዘመናዊ ድር አቅሞች ያለው ተወላጅ መተግበሪያ-መሰል ልምድ።",
+        "items": [
+          "App manifest ውቅር",
+          "ወደ መነሻ ስክሪን ማከል ተግባር",
+          "Push notification ድጋፍ",
+          "ካሜራ እና GPS ውህደት",
+          "App shell አርክቴክቸር"
+        ]
+      },
+      "performance": {
+        "title": "አፈጻጸም ማመቻቸት",
+        "description": "መብረቅ-ፈጣን ጭነት ጊዜዎች እና ለስላሳ ከመስመር ውጪ ሽግግሮች።",
+        "items": [
+          "ወሳኝ ምንጮችን ቅድመ-caching",
+          "ለምስሎች እና ይዘት Lazy loading",
+          "Code splitting እና bundling",
+          "Compression እና minification",
+          "አፈጻጸም ክትትል እና ትንተና"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት እና ተገዢነት",
+        "description": "ደህንነቱ የተጠበቀ ከመስመር ውጪ ውሂብ ማከማቻ እና ማስተላለፍ።",
+        "items": [
+          "በእረፍት ላይ ውሂብ ምስጠራ",
+          "ደህንነቱ የተጠበቀ authentication tokens",
+          "HTTPS ማስገደድ",
+          "Content Security Policy (CSP)",
+          "መደበኛ ደህንነት ኦዲቶች"
+        ]
+      },
+      "onlineEnhancement": {
+        "title": "የመስመር ላይ ማሻሻያ",
+        "description": "ግንኙነት በሚኖርበት ጊዜ የተሻሻለ ተግባር።",
+        "items": [
+          "የእውነተኛ ጊዜ ዝማኔዎች እና ማስታወቂያዎች",
+          "የደመና ምትኬ እና መልሶ ማግኛ",
+          "ባለብዙ መሳሪያ ማመሳሰል",
+          "Analytics እና telemetry",
+          "ባህሪ ማወቂያ እና ተራማጅ ማሻሻያ"
+        ]
+      }
+    },
+    "benefits": [
+      "በማንኛውም ቦታ፣ በማንኛውም ጊዜ ይስሩ - ያለ ኢንተርኔት እንኳን",
+      "በፈጣን ጭነት የተሻሻለ የተጠቃሚ ልምድ",
+      "በውጤታማ caching የቀነሰ የአገልጋይ ወጪዎች",
+      "ከመተግበሪያ-መሰል ልምድ ከፍተኛ ልወጣ ደረጃዎች",
+      "በpush notifications የተሻለ ተሳትፎ"
+    ],
+    "statistics": {
+      "offlineCapability": {
+        "value": "100%",
+        "label": "ከመስመር ውጪ አቅም"
+      },
+      "loadTime": {
+        "value": "3x",
+        "label": "ፈጣን ጭነት ጊዜዎች"
+      },
+      "dataReduction": {
+        "value": "50%",
+        "label": "የቀነሰ ውሂብ አጠቃቀም"
+      },
+      "engagement": {
+        "value": "80%",
+        "label": "ከፍተኛ ተሳትፎ"
+      }
+    },
+    "ctaSectionBadge": "⚡ ዛሬ ከመስመር ውጪ አቅሞችን ያስቻሉ",
+    "ctaSectionTitle1": "ለመገንባት ዝግጁ",
+    "ctaSectionTitle2": "ከመስመር-ውጪ-መጀመሪያ PWAዎ?",
+    "ctaSectionDescription": "ከመስመር ውጪ በትክክል የሚሰራ እና ለተጠቃሚዎችዎ ተወላጅ መተግበሪያ ልምድ የሚያቀርብ ተራማጅ ድር መተግበሪያ እንፍጠር።",
+    "ctaSectionButton1": "የPWA ፕሮጀክትዎን ይጀምሩ →",
+    "ctaSectionButton2": "ሁሉንም አገልግሎቶች ይመልከቱ"
+  },
+  "databaseManagement": {
+    "badge": "ውሂብ አስተዳደር",
+    "title": "SAP BTP የውሂብ ጎታ",
+    "subtitle": "አስተዳደር አገልግሎቶች",
+    "description": "ለከፍተኛ-አፈጻጸም SAP BTP መተግበሪያዎች ውጤታማ የውሂብ ጎታ ዲዛይን፣ ማመቻቸት እና አስተዳደር። ለSAP HANA Cloud፣ PostgreSQL እና SAP ASE የውሂብ ጎታዎች የባለሙያ አገልግሎቶች።",
+    "cta": "የውሂብ ጎታዎን ያመቻቹ →",
+    "servicesTitle": "ሙሉ የውሂብ ጎታ አስተዳደር መፍትሄዎች",
+    "servicesSubtitle": "ከዲዛይን እስከ ማመቻቸት፣ ከደህንነት እስከ መልሶ ማግኛ - ሁሉን አቀፍ የውሂብ ጎታ ልምድ።",
+    "whyChooseTitle": "አፈጻጸም፣ ደህንነት፣ አስተማማኝነት",
+    "whyChooseDescription": "የውሂብ ጎታ ልዩ ባለሙያዎቻችን በSAP BTP የውሂብ ጎታ ቴክኖሎጂዎች ጥልቅ ልምድ ያመጣሉ። ውሂብዎ ፈጣን፣ ደህንነቱ የተጠበቀ እና ሲያስፈልግዎ ሁልጊዜ ዝግጁ መሆኑን እናረጋግጣለን።",
+    "features": {
+      "design": {
+        "title": "የውሂብ ጎታ ዲዛይን እና ሞዴሊንግ",
+        "description": "ለSAP BTP መተግበሪያዎች የተመቻቸ ውጤታማ የውሂብ ጎታ schema ዲዛይን።",
+        "items": [
+          "SAP HANA Cloud የውሂብ ጎታ ዲዛይን",
+          "PostgreSQL እና SAP ASE ውቅር",
+          "Entity-relationship ሞዴሊንግ",
+          "Normalization እና denormalization ስልቶች",
+          "Indexing እና partitioning ስልቶች"
+        ]
+      },
+      "optimization": {
+        "title": "አፈጻጸም ማመቻቸት",
+        "description": "ለመብረቅ-ፈጣን ጥያቄ አፈጻጸም የውሂብ ጎታ አፈጻጸምን ይጨምሩ።",
+        "items": [
+          "ጥያቄ ማመቻቸት እና ማስተካከል",
+          "Index ትንተና እና ምክሮች",
+          "Execution plan ማመቻቸት",
+          "Memory እና cache ውቅር",
+          "አፈጻጸም ክትትል እና profiling"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት እና ተገዢነት",
+        "description": "በድርጅት-ደረጃ ደህንነት እርምጃዎች ውሂብዎን ይጠብቁ።",
+        "items": [
+          "በእረፍት እና በማስተላለፍ ላይ ውሂብ ምስጠራ",
+          "Row-level እና column-level ደህንነት",
+          "Audit trail ትግበራ",
+          "GDPR እና ተገዢነት መስፈርቶች",
+          "Backup ምስጠራ እና ደህንነቱ የተጠበቀ ማከማቻ"
+        ]
+      },
+      "backup": {
+        "title": "ምትኬ እና መልሶ ማግኛ",
+        "description": "ሁሉን አቀፍ አደጋ መልሶ ማግኛ እና የንግድ ቀጣይነት እቅድ።",
+        "items": [
+          "አውቶማቲክ ምትኬ መርሐግብር",
+          "Point-in-time መልሶ ማግኛ አቅሞች",
+          "አደጋ መልሶ ማግኛ ሂደቶች",
+          "ከፍተኛ ተገኝነት ውቅር",
+          "ባለብዙ-ክልል ማባዛት"
+        ]
+      },
+      "migration": {
+        "title": "ውሂብ ፍልሰት",
+        "description": "ከቅርስ ስርዓቶች ወደ SAP BTP ያለችግር ውሂብ ፍልሰት።",
+        "items": [
+          "ውሂብ ማውጣት እና መለወጥ",
+          "ፍልሰት ስልት እና እቅድ",
+          "ዜሮ-የእረፍት ጊዜ ፍልሰት ቴክኒኮች",
+          "ውሂብ ማረጋገጫ እና ማረጋገጫ",
+          "Rollback ሂደቶች እና ሙከራ"
+        ]
+      },
+      "monitoring": {
+        "title": "ክትትል እና ጥገና",
+        "description": "ለጥሩ የውሂብ ጎታ ጤና ንቁ ክትትል እና ጥገና።",
+        "items": [
+          "የእውነተኛ ጊዜ አፈጻጸም ክትትል",
+          "አውቶማቲክ ማንቂያ እና ማስታወቂያዎች",
+          "ጤና ምርመራ እና ምርመራዎች",
+          "አቅም እቅድ እና ትንበያ",
+          "Patch አስተዳደር እና ዝማኔዎች"
+        ]
+      }
+    },
+    "benefits": [
+      "በማመቻቸት እስከ 10x ፈጣን ጥያቄ አፈጻጸም",
+      "በከፍተኛ ተገኝነት ውቅር 99.99% uptime",
+      "በውጤታማ ዲዛይን የቀነሰ የማከማቻ ወጪዎች",
+      "አብሮ በተገነባ ደህንነት ባህሪያት ለተገዢነት ዝግጁ",
+      "ንቁ ክትትል እና የባለሙያ መመሪያ"
+    ],
+    "whyChooseBadge": "የውሂብ ጎታ ልቀት",
+    "statistics": {
+      "uptime": {
+        "value": "99.99%",
+        "label": "Uptime ዋስትና"
+      },
+      "performance": {
+        "value": "10x",
+        "label": "አፈጻጸም ማሻሻያ"
+      },
+      "security": {
+        "value": "100%",
+        "label": "ውሂብ ደህንነት"
+      },
+      "monitoring": {
+        "value": "100%",
+        "label": "የባለሙያ መመሪያ"
+      }
+    },
+    "ctaSectionBadge": "የውሂብ ጎታ አፈጻጸምዎን ያመቻቹ",
+    "ctaSectionTitle1": "ለማሳደግ ዝግጁ",
+    "ctaSectionTitle2": "የውሂብ ጎታ አፈጻጸምዎ?",
+    "ctaSectionDescription": "ነጻ የውሂብ ጎታ ጤና ምርመራ ያግኙ እና የመተግበሪያ አፈጻጸምዎን ሊለውጡ የሚችሉ ማመቻቸት እድሎችን ያግኙ።",
+    "ctaSectionButton1": "ነጻ የውሂብ ጎታ ግምገማ ያግኙ →",
+    "ctaSectionButton2": "ሁሉንም አገልግሎቶች ያስሱ"
+  },
+  "designThinking": {
+    "badge": "ፈጠራ እና ስልት",
+    "title": "ዲዛይን አስተሳሰብ",
+    "subtitle": "ለSAP BTP ፈጠራ",
+    "description": "እውነተኛ የንግድ ችግሮችን የሚፈቱ አዳዲስ SAP BTP መፍትሄዎችን ለመፍጠር ተጠቃሚን ያማከለ ዲዛይን አቀራረብ። ለመፍታት ትክክለኛውን ችግሮች እንዲያገኙ እና ተጠቃሚዎች የሚወዷቸውን መፍትሄዎች እንዲገነቡ እንረዳዎታለን።",
+    "cta": "የዲዛይን ወርክሾፕ ያስይዙ →",
+    "servicesTitle": "የዲዛይን አስተሳሰብ ሂደታችን",
+    "servicesSubtitle": "በSAP BTP ፕሮጀክቶች ውስጥ ለፈጠራ እና ችግር መፍታት የተረጋገጠ ዘዴ።",
+    "whyChooseTitle": "እውነተኛ ዋጋ የሚፈጥር ፈጠራ",
+    "whyChooseDescription": "ዲዛይን አስተሳሰብ SAP BTP ፕሮጀክቶችን የሚቀርቡበትን መንገድ ይለውጣል። በተጠቃሚ ፍላጎቶች እና ፈጣን ድግግሞሽ ላይ በማተኮር ልኬት የሚችል የንግድ ዋጋ የሚያቀርቡ መፍትሄዎችን እንዲገነቡ እንረዳዎታለን።",
+    "features": {
+      "empathy": {
+        "title": "የተጠቃሚ ምርምር እና ርህራሄ",
+        "description": "የተጠቃሚዎችዎን ፍላጎቶች፣ ችግሮች እና ተነሳሽነቶች ጥልቅ ግንዛቤ።",
+        "items": [
+          "የተጠቃሚ ቃለ-መጠይቆች እና ባለድርሻ አካላት ተሳትፎ",
+          "Persona ልማት እና journey mapping",
+          "ዐውደ-ጽሑፍ ጥያቄ እና ምልከታ",
+          "ችግር እና እድል ማወቂያ",
+          "ርህራሄ mapping ወርክሾፖች"
+        ]
+      },
+      "define": {
+        "title": "ችግር ትርጓሜ",
+        "description": "ለከፍተኛ የንግድ ተፅዕኖ ለመፍታት ትክክለኛ ችግሮችን በግልጽ ይግለጹ።",
+        "items": [
+          "የችግር መግለጫ ቀረጻ",
+          "ዲዛይን ፈተና ማዋቀር",
+          "እድል ቦታ ማወቂያ",
+          "ስኬት መስፈርት ትርጓሜ",
+          "ባለድርሻ አካላት ማስማማት ስብሰባዎች"
+        ]
+      },
+      "ideate": {
+        "title": "ሃሳብ ማፍለቅ ወርክሾፖች",
+        "description": "በተቀረጹ ፈጠራ ስብሰባዎች አዳዲስ መፍትሄዎችን ያመንጩ።",
+        "items": [
+          "የተመሩ brainstorming ስብሰባዎች",
+          "SCAMPER እና lateral thinking ቴክኒኮች",
+          "የትብብር ሃሳብ ማፍለቅ ወርክሾፖች",
+          "ሃሳብ ቅድሚያ እና ምርጫ",
+          "ፅንሰ-ሀሳብ ልማት እና ማጥራት"
+        ]
+      },
+      "prototype": {
+        "title": "Prototyping",
+        "description": "ለማረጋገጫ የሃሳቦች ተጨባጭ ውክልናዎችን በፍጥነት ይፍጠሩ።",
+        "items": [
+          "ዝቅተኛ-ታማኝነት wireframes እና sketches",
+          "መስተጋብራዊ ጠቅታ-ችሎታ ያላቸው prototypes",
+          "ከፍተኛ-ታማኝነት mockups",
+          "Proof of concept ልማት",
+          "MVP (Minimum Viable Product) ዲዛይን"
+        ]
+      },
+      "test": {
+        "title": "ሙከራ እና ድግግሞሽ",
+        "description": "መፍትሄዎችን ከእውነተኛ ተጠቃሚዎች ጋር ያረጋግጡ እና ያለማቋረጥ ያሻሽሉ።",
+        "items": [
+          "የአጠቃቀም ሙከራ ስብሰባዎች",
+          "A/B ሙከራ እና ሙከራ",
+          "የተጠቃሚ ግብረመልስ ስብሰባ እና ትንተና",
+          "ተደጋጋሚ ዲዛይን ማጥራት",
+          "ከስኬት መስፈርቶች ጋር ማረጋገጫ"
+        ]
+      },
+      "implement": {
+        "title": "ትግበራ ድጋፍ",
+        "description": "ቡድንዎን ከተረጋገጠ ፅንሰ-ሀሳብ እስከ ስኬታማ ማስጀመር ይመሩ።",
+        "items": [
+          "ቴክኒካዊ እውነታነት ግምገማ",
+          "ትግበራ ካርታ ፈጠራ",
+          "Agile sprint እቅድ",
+          "የልማት ቡድን ትብብር",
+          "ከማስጀመር በኋላ ክትትል እና ማመቻቸት"
+        ]
+      }
+    },
+    "benefits": [
+      "ከከባድ ኢንቨስትመንት በፊት ሃሳቦችን በማረጋገጥ ስጋትን ይቀንሱ",
+      "በተቀረጸ ችግር-መፍታት አቀራረብ ፈጣን ፈጠራ",
+      "በተጠቃሚ-ያማከለ መፍትሄዎች ከፍተኛ ተጠቃሚ ተቀባይነት",
+      "ዘርፈ-ብዙ ተግባር ቡድን ማስማማት እና ተሳትፎ",
+      "ሊለኩ የሚችሉ የንግድ ውጤቶች እና ROI"
+    ],
+    "statistics": {
+      "resolution": {
+        "value": "3x",
+        "label": "ፈጣን ችግር መፍታት"
+      },
+      "waste": {
+        "value": "75%",
+        "label": "የቀነሰ ልማት ብክነት"
+      },
+      "satisfaction": {
+        "value": "90%",
+        "label": "ባለድርሻ አካላት እርካታ"
+      },
+      "userCentered": {
+        "value": "100%",
+        "label": "ተጠቃሚ-ያማከለ አቀራረብ"
+      }
+    }
+  },
+  "integrationSuite": {
+    "badge": "ውህደት እና ግንኙነት",
+    "title": "SAP BTP Integration Suite",
+    "subtitle": "አገልግሎቶች",
+    "description": "SAP ስርዓቶችዎን ከደመና እና ከቅድመ-ተከላ መተግበሪያዎች ጋር የሚያገናኙ ያለችግር ውህደት መፍትሄዎች። የCloud Integration፣ API Management፣ Open Connectors እና Integration Advisor የባለሙያ ትግበራ።",
+    "cta": "ስርዓቶችዎን ያገናኙ →",
+    "servicesTitle": "ሙሉ Integration Suite ልምድ",
+    "servicesSubtitle": "ከCloud Integration እስከ API Management - ሁሉን አቀፍ ውህደት አገልግሎቶች።",
+    "whyChooseTitle": "ያለችግር ስርዓት ግንኙነት",
+    "whyChooseDescription": "SAP BTP Integration Suite ድርጅትዎን ለማገናኘት የሚያስፈልግዎትን ሁሉ ያቀርባል። ባለሙያዎቻችን ውህደቶችዎ አስተማማኝ፣ ደህንነቱ የተጠበቀ እና ማስፋፊያ ችሎታ ያላቸው መሆናቸውን ያረጋግጣሉ።",
+    "features": {
+      "cpi": {
+        "title": "Cloud Integration (CPI)",
+        "description": "ደመና እና on-premise ስርዓቶችን በጠንካራ ውህደት ፍሰቶች ያገናኙ።",
+        "items": [
+          "ውህደት ፍሰት ዲዛይን እና ልማት",
+          "ቅድመ-የተገነባ ውህደት ይዘት አጠቃቀም",
+          "መልዕክት mapping እና ለውጥ",
+          "ስህተት አያያዝ እና ክትትል",
+          "ደህንነት artifact አስተዳደር"
+        ]
+      },
+      "apiManagement": {
+        "title": "API Management",
+        "description": "ሁሉን አቀፍ lifecycle ድጋፍ ያለው APIs ይንደፉ፣ ያትሙ እና ያስተዳድሩ።",
+        "items": [
+          "API proxy ፈጠራ እና ውቅር",
+          "ፖሊሲ ማስፈጸም (ደህንነት፣ rate limiting)",
+          "API portal እና ገንቢ ሰነድ",
+          "Analytics እና አጠቃቀም ክትትል",
+          "ገንዘብ ማስገኛ እና quota አስተዳደር"
+        ]
+      },
+      "openConnectors": {
+        "title": "Open Connectors",
+        "description": "ከሶስተኛ ወገን ስርዓቶች ጋር ፈጣን ውህደት ለማግኘት ቅድመ-የተገነቡ connectors።",
+        "items": [
+          "150+ ቅድመ-የተገነቡ connectors",
+          "ብጁ connector ልማት",
+          "Authentication እና authorization",
+          "ውሂብ ለውጥ እና normalization",
+          "ክስተት-ተኮር ውህደት"
+        ]
+      },
+      "advisor": {
+        "title": "Integration Advisor",
+        "description": "በAI-የተጎላበቱ ምክሮች ውህደት ልማትን ያፋጥኑ።",
+        "items": [
+          "አውቶማቲክ mapping ምክሮች",
+          "Message implementation guides (MIGs)",
+          "B2B ውህደት ሁኔታ ቅጽበቶች",
+          "Interface mapping ሀሳቦች",
+          "ምርጥ ልምድ ምክሮች"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት እና አስተዳደር",
+        "description": "ለሁሉም ውህደቶች የድርጅት-ደረጃ ደህንነት እና አስተዳደር።",
+        "items": [
+          "OAuth እና SAML authentication",
+          "Certificate እና key አስተዳደር",
+          "Transport-level ምስጠራ (TLS/SSL)",
+          "Message-level ምስጠራ",
+          "Audit logging እና ተገዢነት"
+        ]
+      },
+      "monitoring": {
+        "title": "ክትትል እና ስራዎች",
+        "description": "ሁሉን አቀፍ ክትትል እና ስራ ልቀት።",
+        "items": [
+          "የእውነተኛ ጊዜ መልዕክት ክትትል",
+          "አፈጻጸም ልኬቶች እና KPIs",
+          "ማንቂያ እና ማስታወቂያ ዝግጅት",
+          "Log ትንተና እና መላ ፈለጋ",
+          "አቅም እቅድ እና ማመቻቸት"
+        ]
+      }
+    },
+    "benefits": [
+      "ቅድመ-የተገነባ ይዘት እና accelerators በመጠቀም ፈጣን ውህደት",
+      "በደመና-ተወላጅ መድረክ የቀነሰ የውህደት ወጪዎች",
+      "የድርጅት-ደረጃ አስተማማኝነት እና ማስፋፊያ ችሎታ",
+      "ለሁሉም ውህደት ፍላጎቶች ነጠላ መድረክ",
+      "የተሰጠ የባለሙያ ምክክር እና መመሪያ"
+    ],
+    "statistics": {
+      "connectors": {
+        "value": "150+",
+        "label": "ቅድመ-የተገነቡ Connectors"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "ውህደት Uptime"
+      },
+      "implementation": {
+        "value": "50%",
+        "label": "ፈጣን ትግበራ"
+      },
+      "support": {
+        "value": "ዓለም አቀፍ",
+        "label": "የባለሙያ ቡድን"
+      }
+    },
+    "whyChooseBadge": "የውህደት ልቀት",
+    "ctaSectionBadge": "⚡ ዛሬ ድርጅትዎን ያገናኙ",
+    "ctaSectionTitle1": "ለማዋሐድ ዝግጁ",
+    "ctaSectionTitle2": "የንግድ ስርዓቶችዎ?",
+    "ctaSectionDescription": "የውህደት መስፈርቶችዎን እንወያይ እና ሁሉንም ወሳኝ የንግድ ስርዓቶችዎን የሚያገናኝ ሁሉን አቀፍ መፍትሄ እንፍጠር።",
+    "ctaSectionButton1": "የውህደት ምክክር ያግኙ →",
+    "ctaSectionButton2": "ሁሉንም አገልግሎቶች ይመልከቱ"
+  },
+  "eventMesh": {
+    "badge": "ክስተት-ተኮር አርክቴክቸር",
+    "title": "SAP Event Mesh",
+    "subtitle": "ትግበራ አገልግሎቶች",
+    "description": "ለምላሽ ሰጪ፣ ማስፋፊያ ችሎታ ያላቸው የንግድ ሂደቶች የእውነተኛ ጊዜ ክስተት-ተኮር አርክቴክቸር ትግበራ። ለንግድ ክስተቶች በቅጽበት ምላሽ የሚሰጡ ስርጭት ስርዓቶችን በSAP Event Mesh ይገንቡ።",
+    "cta": "ክስተት-ተኮር አርክቴክቸር ይገንቡ →",
+    "servicesTitle": "ሙሉ Event Mesh መፍትሄዎች",
+    "servicesSubtitle": "ከአርክቴክቸር ዲዛይን እስከ ትግበራ - ምላሽ ሰጪ ክስተት-ተኮር ስርዓቶችን ይገንቡ።",
+    "whyChooseTitle": "የእውነተኛ ጊዜ የንግድ ምላሽ",
+    "whyChooseDescription": "Event Mesh ንግድዎ ሲከሰቱ ለክስተቶች በቅጽበት ምላሽ እንዲሰጥ ያስችላል። ለሚለዋወጡ የንግድ ፍላጎቶች የሚስማሙ ልቅ ተገናኝ፣ ከፍተኛ ማስፋፊያ ችሎታ ያላቸው ስርዓቶችን ይገንቡ።",
+    "features": {
+      "architecture": {
+        "title": "Event Mesh አርክቴክቸር",
+        "description": "የድርጅት-ሰፊ ክስተት-ተኮር አርክቴክቸር ይንደፉ እና ይተግብሩ።",
+        "items": [
+          "Event mesh topology ዲዛይን",
+          "ባለብዙ-ክልል ክስተት ስርጭት",
+          "Event broker ውቅር",
+          "መልዕክት ማዞሪያ ስልቶች",
+          "Topic እና queue ዲዛይን ቅጦች"
+        ]
+      },
+      "realTime": {
+        "title": "የእውነተኛ ጊዜ ክስተት ሂደት",
+        "description": "የንግድ ክስተቶችን በእውነተኛ ጊዜ ያስሩ እና ምላሽ ይስጡ።",
+        "items": [
+          "Event streaming ትግበራ",
+          "Complex event processing (CEP)",
+          "ክስተት ማጣሪያ እና ለውጥ",
+          "ክስተት ማጠቃለል እና correlation",
+          "ዝቅተኛ-latency ክስተት አቅርቦት"
+        ]
+      },
+      "integrations": {
+        "title": "ክስተት-ተኮር ውህደቶች",
+        "description": "ስርዓቶችን በasynchronous ክስተት-ተኮር ግንኙነት ያገናኙ።",
+        "items": [
+          "Publisher/subscriber ቅጦች",
+          "ክስተት-ተኮር microservices",
+          "Webhook እና callback ውህደት",
+          "ክስተት replay እና መልሶ ማግኛ",
+          "Dead letter queue አስተዳደር"
+        ]
+      },
+      "security": {
+        "title": "ደህንነት እና አስተዳደር",
+        "description": "ሁሉን አቀፍ አስተዳደር ያለው ደህንነቱ የተጠበቀ ክስተት ማስተላለፍ።",
+        "items": [
+          "በማስተላለፍ ላይ ክስተት ምስጠራ",
+          "የመዳረሻ ቁጥጥር እና ፈቃድ",
+          "ክስተት schema ማረጋገጫ",
+          "ተገዢነት እና audit logging",
+          "የውሂብ ግላዊነት ቁጥጥሮች"
+        ]
+      },
+      "multiCloud": {
+        "title": "ባለብዙ-ደመና እና ድብልቅ",
+        "description": "በደመና አቅራቢዎች እና on-premise ስርዓቶች ላይ Event mesh።",
+        "items": [
+          "ዘርፈ-ብዙ ደመና ክስተት ስርጭት",
+          "ድብልቅ ደመና ግንኙነት",
+          "ባለብዙ-ክልል redundancy",
+          "ጂኦግራፊያዊ ክስተት ማዞሪያ",
+          "ደመና-ገለልተኛ አርክቴክቸር"
+        ]
+      },
+      "monitoring": {
+        "title": "ክትትል እና ትንተና",
+        "description": "ወደ ክስተት-ተኮር ስነ-ምህዳርዎ ሁሉን አቀፍ visibility።",
+        "items": [
+          "የእውነተኛ ጊዜ ክስተት ክትትል",
+          "አፈጻጸም ልኬቶች እና SLAs",
+          "ክስተት ፍሰት visualization",
+          "ማነቆ ማወቂያ",
+          "ትንበያ አቅም እቅድ"
+        ]
+      }
+    },
+    "benefits": [
+      "ለተሻለ ተለዋዋጭነት እና ማስፋፊያ ችሎታ ስርዓቶችን ለይ",
+      "የእውነተኛ ጊዜ የንግድ ግንዛቤዎች እና ፈጣን ምላሽ",
+      "የተሻሻለ ስርዓት ጥንካሬ እና ስህተት መቋቋም",
+      "የቀነሰ ነጥብ-ወደ-ነጥብ ውህደቶች ውስብስብነት",
+      "ለዘመናዊ ክስተት-ተኮር አርክቴክቸሮች ድጋፍ"
+    ],
+    "statistics": {
+      "latency": {
+        "value": "<100ms",
+        "label": "ክስተት አቅርቦት Latency"
+      },
+      "throughput": {
+        "value": "1M+",
+        "label": "በሰከንድ ክስተቶች"
+      },
+      "guarantee": {
+        "value": "99.99%",
+        "label": "ክስተት አቅርቦት ዋስትና"
+      },
+      "distribution": {
+        "value": "ዓለም አቀፍ",
+        "label": "ባለብዙ-ክልል ስርጭት"
+      }
+    },
+    "whyChooseBadge": "ክስተት-ተኮር ልቀት",
+    "ctaSectionBadge": "⚡ የእውነተኛ ጊዜ ስርዓቶችን ይገንቡ",
+    "ctaSectionTitle1": "ለመተግበር ዝግጁ",
+    "ctaSectionTitle2": "ክስተት-ተኮር አርክቴክቸር?",
+    "ctaSectionDescription": "ንግድዎን በእውነተኛ ጊዜ ክስተት ሂደት ይለውጡ። Event Mesh ቀጣዩ ትውልድ መተግበሪያዎችዎን እንዴት ማበረታታት እንደሚችል እንወያይ።",
+    "ctaSectionButton1": "Event Mesh ምክክር ያስይዙ →",
+    "ctaSectionButton2": "ሁሉንም ቴክኖሎጂዎች ያስሱ"
+  },
+  "aiInvoice": {
+    "badge": "AI እና አውቶሜሽን",
+    "title": "በAI የተጎላበተ",
+    "subtitle": "የክፍያ መጠየቂያ ሂደት",
+    "description": "ለትክክለኛ፣ ቀልጣፋ ስራዎች በከፍተኛ AI የተጎላበተ ብልህ የክፍያ መጠየቂያ ሂደት አውቶሜሽን። ከSAP BTP ጋር የተዋሃደ ዘመናዊ AI ቴክኖሎጂ በመጠቀም የክፍያ ሂደትዎን ይለውጡ።",
+    "cta": "የክፍያ መጠየቂያዎችዎን አውቶሜት ያድርጉ →",
+    "servicesTitle": "በAI የተጎላበተ የክፍያ መጠየቂያ አውቶሜሽን",
+    "servicesSubtitle": "ለብልህ የክፍያ መጠየቂያ ሂደት እና አውቶሜሽን ከፍተኛ AI አቅሞችን ይጠቀሙ።",
+    "whyChooseTitle": "የክፍያ መጠየቂያ ሂደትዎን ይለውጡ",
+    "whyChooseDescription": "ከፍተኛ AI ለክፍያ መጠየቂያ ሂደት የሰው-ደረጃ ግንዛቤን ያመጣል። ባህላዊ OCR ስርዓቶች የሚቸገሩባቸውን ውስብስብ layouts፣ በርካታ ቋንቋዎች እና edge cases ይያዙ።",
+    "features": {
+      "extraction": {
+        "title": "ብልህ ውሂብ ማውጣት",
+        "description": "ከዚህ በፊት ባልታየ ትክክለኛነት ከፍተኛ AI-የተጎላበተ የክፍያ መጠየቂያ ውሂብ ማውጣት።",
+        "items": [
+          "ባለብዙ-ቅርጸት የክፍያ መጠየቂያ ሂደት (PDF, ምስሎች, ስካኖች)",
+          "አውቶማቲክ መስክ ማወቂያ እና ማውጣት",
+          "Header እና line item ማወቅ",
+          "ሰንጠረዥ እና ውስብስብ layout ግንዛቤ",
+          "በእጅ የተጻፈ ጽሑፍ ማወቅ"
+        ]
+      },
+      "integration": {
+        "title": "SAP BTP ውህደት",
+        "description": "ከSAP BTP አገልግሎቶች እና backend ስርዓቶች ጋር ያለችግር ውህደት።",
+        "items": [
+          "ከSAP S/4HANA ቀጥታ ውህደት",
+          "SAP Document Management Service ግንኙነት",
+          "የስራ ፍሰት አውቶሜሽን triggers",
+          "የእውነተኛ ጊዜ ውሂብ ማረጋገጫ",
+          "ብጁ የንግድ ህግ ትግበራ"
+        ]
+      },
+      "automation": {
+        "title": "አውቶማቲክ ሂደት",
+        "description": "የእጅ ጣልቃገብነትን ወደ ዜሮ ማቅረብ ከጫፍ ወደ ጫፍ አውቶሜሽን።",
+        "items": [
+          "ብልህ ማዞሪያ እና ምደባ",
+          "ለዝቅተኛ-ስጋት ክፍያ መጠየቂያዎች አውቶ-ማጽደቅ",
+          "ልዩ ሁኔታ አያያዝ የስራ ፍሰቶች",
+          "ተደጋጋሚ ማወቂያ እና መከላከል",
+          "ሶስት-መንገድ matching አውቶሜሽን"
+        ]
+      },
+      "validation": {
+        "title": "ማረጋገጫ እና ተገዢነት",
+        "description": "በእያንዳንዱ ግብይት ውስጥ ትክክለኛነት እና ተቆጣጣሪ ተገዢነት ያረጋግጡ።",
+        "items": [
+          "ባለብዙ-ደረጃ ማረጋገጫ ህጎች",
+          "ታክስ ስሌት ማረጋገጫ",
+          "ተገዢነት ምርመራ (VAT, GST)",
+          "Audit trail እና logging",
+          "ውሂብ ግላዊነት እና ደህንነት (GDPR ተገዢ)"
+        ]
+      },
+      "analytics": {
+        "title": "ትንተና እና ግንዛቤዎች",
+        "description": "ከክፍያ መጠየቂያ ሂደት ውሂብዎ ዋጋ ያላቸው ግንዛቤዎችን ያግኙ።",
+        "items": [
+          "ሂደት ልኬቶች እና KPIs",
+          "ትክክለኛነት እና ስህተት ደረጃ ክትትል",
+          "ወጪ ቁጠባ ትንተና",
+          "አቅራቢ አፈጻጸም ትንተና",
+          "ትንበያ የገንዘብ ፍሰት ግንዛቤዎች"
+        ]
+      },
+      "training": {
+        "title": "ስልጠና እና ማመቻቸት",
+        "description": "በAI ትምህርት እና ስርዓት ማመቻቸት ቀጣይ ማሻሻያ።",
+        "items": [
+          "ለክፍያ መጠየቂያዎችዎ ብጁ ሞዴል ስልጠና",
+          "ከማስተካከያዎች ቀጣይ ትምህርት",
+          "ቅጽበት-ተኮር ሂደት ማመቻቸት",
+          "ግብረመልስ loop ትግበራ",
+          "መደበኛ ትክክለኛነት ማሻሻያዎች"
+        ]
+      }
+    },
+    "benefits": [
+      "የእጅ ማስተካከያዎችን የሚቀንስ 95%+ ትክክለኛነት ደረጃ",
+      "80% ፈጣን የክፍያ መጠየቂያ ሂደት ጊዜ",
+      "70% የሂደት ወጪዎች ቅነሳ",
+      "ወደ ዜሮ ቅርብ የውሂብ ማስገቢያ ስህተቶች",
+      "የእውነተኛ ጊዜ ሂደት ሁኔታ visibility"
+    ],
+    "statistics": {
+      "accuracy": {
+        "value": "95%+",
+        "label": "ትክክለኛነት ደረጃ"
+      },
+      "timeReduction": {
+        "value": "80%",
+        "label": "ጊዜ ቅነሳ"
+      },
+      "costSavings": {
+        "value": "70%",
+        "label": "ወጪ ቁጠባ"
+      },
+      "availability": {
+        "value": "100%",
+        "label": "አውቶማቲክ ሂደት"
+      }
+    }
+  },
+  "blogs": {
+    "backToHome": "ወደ መነሻ ተመለስ",
+    "claudeAI": {
+      "title": "በAI የክፍያ መጠየቂያ ሂደትን ማብዮት",
+      "category": "AI/ML",
+      "readTime": "6 ደቂቃ",
+      "seoDescription": "በSAP BTP ላይ AI ውህደት በብልህ አውቶሜሽን እና ከፍተኛ ሰነድ ግንዛቤ የክፍያ መጠየቂያ ሂደትን እንዴት እንደሚለውጥ ያስሱ።",
+      "intro": "የክፍያ መጠየቂያ ሂደት በባህላዊ ጊዜ ብዙ ጊዜ የሚጠይቅ፣ ስህተት-ተጋላጭ የእጅ ስራ ነበር። ከSAP BTP ጋር ከፍተኛ AI ውህደት ይህን ሂደት እያብዮተው ነው፣ ለክፍያ ሂሳብ ስራዎች ከዚህ በፊት ያልታየ ደረጃ አውቶሜሽን፣ ትክክለኛነት እና ቅልጥፍና እያመጣ።",
+      "section1Title": "የባህላዊ የክፍያ መጠየቂያ ሂደት ፈተና",
+      "section1Content": "ድርጅቶች በየወሩ በሺዎች የሚቆጠሩ ክፍያ መጠየቂያዎችን ያስተናግዳሉ፣ እያንዳንዳቸው ውሂብ ማውጣት፣ ማረጋገጫ እና ወደ ERP ስርዓቶች ማስገባት ይፈልጋሉ። የእጅ ሂደት ዘገምተኛ፣ ውድ እና ክፍያ መዘግየቶች፣ ተደጋጋሚ ክፍያዎች ወይም ቀደምት ክፍያ ቅናሾች መጥፋት ሊያስከትሉ የሚችሉ ስህተቶች-ተጋላጭ ነው።",
+      "section2Title": "ከፍተኛ AI ሰነድ ግንዛቤ",
+      "section2Content": "ዘመናዊ AI ለክፍያ መጠየቂያ ሂደት ዘመናዊ የተፈጥሮ ቋንቋ ሂደት እና የኮምፒውተር vision አቅሞችን ያመጣል። ከባህላዊ OCR ስርዓቶች በተለየ፣ ከፍተኛ AI ዐውደ-ጽሑፍን ሊረዳ፣ የተለያዩ የክፍያ መጠየቂያ ቅርጸቶችን ሊያስተናግድ እና ከደካማ ስካን ወይም ውስብስብ ሰነዶች እንኳን በአስደናቂ ትክክለኛነት መረጃን ማውጣት ይችላል።",
+      "section3Title": "ያለችግር SAP BTP ውህደት",
+      "section3Content": "AI ከSAP BTP ጋር ማዋሃድ ኃይለኛ አውቶሜሽን ቧንቧ ይፈጥራል። ገቢ ክፍያ መጠየቂያዎች በራስ-ሰር ይመረመራሉ፣ ውሂብ ይወጣል እና ይረጋገጣል፣ እና መረጃ ያለ ሰው ጣልቃገብነት ወደ SAP ስርዓቶች በቀጥታ ይፈሳል። ይህ ውህደት የSAP BTP ጠንካራ ግንኙነት እና የስራ ፍሰት አቅሞችን ይጠቀማል።",
+      "section4Title": "ብልህ ልዩ ሁኔታ አያያዝ",
+      "section4Content": "የAI ቁልፍ ጥንካሬዎች አንዱ ልዩ ሁኔታዎችን በብልህነት የማስተናገድ ችሎታው ነው። ያልተለመዱ የክፍያ መጠየቂያ ቅርጸቶች ወይም አሻሚ መረጃ ሲያጋጥመው፣ ስርዓቱ በዝርዝር ማብራሪያዎች አማካይነት ለሰው ግምገማ ንጥሎችን ማመልከት ይችላል፣ ከባህላዊ ህግ-ተኮር ስርዓቶች በበለጠ ልዩ ሁኔታ አያያዝን ውጤታማ ያደርገዋል።",
+      "section5Title": "ሊለካ የሚችል የንግድ ተፅዕኖ",
+      "section5Content": "ለክፍያ መጠየቂያ ሂደት AI የሚተገብሩ ድርጅቶች በተለምዶ ድራማዊ ማሻሻያዎችን ያያሉ: 90% የሂደት ጊዜ ቅነሳ፣ 95% የውሂብ ማስገቢያ ስህተቶች ቅነሳ፣ እና በክፍያ ሂሳብ ስራዎች ላይ ከፍተኛ ወጪ ቁጠባዎች። ምናልባት በጣም አስፈላጊው፣ ሰራተኞች ከተደጋጋሚ ውሂብ ማስገቢያ ይልቅ ስልታዊ ተግባራት ላይ ማተኮር ይችላሉ።",
+      "conclusionTitle": "ማጠቃለያ",
+      "conclusionContent": "ከፍተኛ AI አቅሞች እና የSAP BTP የድርጅት-ደረጃ መሠረተ ልማት ጥምረት ለክፍያ መጠየቂያ ሂደት ለውጥ አምጪ አቀራረብን ይወክላል። ይህን ቴክኖሎጂ የሚቀበሉ ድርጅቶች በተሻሻለ ቅልጥፍና፣ ትክክለኛነት እና ወጪ ቅነሳ ከፍተኛ ተወዳዳሪ ጥቅም ያገኛሉ።"
+    },
+    "fiori": {
+      "title": "በSAP BTP ላይ ዘመናዊ Fiori መተግበሪያዎችን መገንባት",
+      "category": "ልማት",
+      "readTime": "8 ደቂቃ",
+      "seoDescription": "የSAP BTP ኃይለኛ ልማት መሳሪያዎች እና frameworks በመጠቀም ዘመናዊ፣ ምላሽ ሰጪ Fiori መተግበሪያዎችን እንዴት እንደሚገነቡ ይማሩ።",
+      "intro": "SAP Fiori የድርጅት መተግበሪያዎች ወደፊትን ይወክላል፣ በሁሉም መሳሪያዎች እና ዲፕሎይመንት አማራጮች ላይ አንድ ወጥ የተጠቃሚ ልምድ ይሰጣል። በSAP Business Technology Platform (BTP)፣ ዘመናዊ Fiori መተግበሪያዎችን መገንባት ከዚህ በፊት በበለጠ ለስላሳ እና ኃይለኛ ሆኗል።",
+      "section1Title": "ለFiori ልማት የSAP BTP ኃይል",
+      "section1Content": "SAP BTP በተለይ ለFiori መተግበሪያ ልማት የተነደፉ ሁሉን አቀፍ መሳሪያዎች እና አገልግሎቶች ስብስብ ያቀርባል። መድረኩ ከልማት አካባቢዎች እስከ ዲፕሎይመንት መሠረተ ልማት ሁሉንም ያቀርባል፣ ቡድኖች መሠረተ ልማት ከማስተዳደር ይልቅ ልዩ የተጠቃሚ ልምዶችን በመፍጠር ላይ እንዲያተኩሩ ያስችላቸዋል።",
+      "section2Title": "ቁልፍ ባህሪያት እና ምርጥ ልምዶች",
+      "section2Content": "ዘመናዊ Fiori መተግበሪያዎች ወጥነትን የሚያረጋግጡ እና የልማት ጊዜን የሚቀንሱ ቅድመ-የተገነቡ UI ክፍሎች እና ቅጦችን የሚያቀርበውን SAP Fiori elements framework ይጠቀማሉ። እነዚህን ክፍሎች ከብጁ SAPUI5 controls ጋር በማጣመር፣ ገንቢዎች ደረጃውን የጠበቁ እና ለተለያዩ የንግድ ፍላጎቶች የተበጁ መተግበሪያዎችን መፍጠር ይችላሉ።",
+      "section3Title": "ከSAP BTP አገልግሎቶች ጋር ውህደት",
+      "section3Content": "በSAP BTP ላይ Fiori መተግበሪያዎችን የመገንባት ዋና ጥቅሞች አንዱ ከሌሎች መድረክ አገልግሎቶች ጋር ያለችግር ውህደት ነው። ከSAP Cloud Identity Services ማረጋገጫ እና ፈቃድ እስከ SAP HANA Cloud ውሂብ ማከማቻ፣ ገንቢዎች ወደ መተግበሪያዎቻቸው በቀላሉ ሊዋሃዱ ወደሚችሉ የድርጅት-ደረጃ አገልግሎቶች መዳረሻ አላቸው።",
+      "section4Title": "ምላሽ ሰጪ ዲዛይን እና ባለብዙ-መሳሪያ ድጋፍ",
+      "section4Content": "በSAP BTP ላይ የተገነቡ Fiori መተግበሪያዎች በራስ-ሰር ወደ የተለያዩ ስክሪን መጠኖች እና መሳሪያዎች ይስማማሉ፣ ከዴስክቶፕ፣ ታብሌት ወይም ተንቀሳቃሽ ስልክ ሲገባ ወጥ የተጠቃሚ ልምድን ያረጋግጣሉ። ይህ ምላሽ ሰጪ ዲዛይን አቅም በframework ውስጥ ተካቷል፣ ባለብዙ መሳሪያዎችን ለመደገፍ የሚያስፈልገውን ጥረት ይቀንሳል።",
+      "section5Title": "አፈጻጸም ማመቻቸት",
+      "section5Content": "SAP BTP lazy loading፣ bundling እና caching ስልቶችን ጨምሮ Fiori መተግበሪያ አፈጻጸምን ለማመቻቸት የተለያዩ መሳሪያዎች እና ቴክኒኮችን ያቀርባል። እነዚህ ማመቻቸት ቴክኒኮች ትላልቅ datasets ወይም ውስብስብ የንግድ ሎጂክ ሲያስተናግዱ እንኳን መተግበሪያዎች በፍጥነት እንዲጫኑ እና በለስላሳ ምላሽ እንዲሰጡ ያረጋግጣሉ።",
+      "conclusionTitle": "ማጠቃለያ",
+      "conclusionContent": "በSAP BTP ላይ ዘመናዊ Fiori መተግበሪያዎችን መገንባት የድርጅት-ደረጃ መሠረተ ልማት ኃይልን ከዘመናዊ ልማት frameworks ጋር ያጣምራል። የመድረኩን አቅሞች በመጠቀም፣ የልማት ቡድኖች የንግድ ዋጋን የሚያንቀሳቅሱ እና በድርጅቱ ውስጥ ምርታማነትን የሚያሳድጉ የተራቀቁ፣ ለተጠቃሚ ምቹ መተግበሪያዎችን መፍጠር ይችላሉ።"
+    },
+    "pwa": {
+      "title": "ለንግድ ቀጣይነት ከመስመር ውጪ PWA መፍትሄዎች",
+      "category": "አርክቴክቸር",
+      "readTime": "7 ደቂቃ",
+      "seoDescription": "ከመስመር ውጪ አቅሞች ያላቸው ተራማጅ ድር መተግበሪያዎች (PWAs) በማንኛውም ኔትወርክ ሁኔታ የንግድ ቀጣይነት እና ምርታማነትን እንዴት እንደሚያረጋግጡ ያግኙ።",
+      "intro": "በዛሬው የተገናኘ ዓለም ውስጥ የኔትወርክ መቋረጦች የንግድ ስራዎችን ሊያቆሙ ይችላሉ። ከመስመር ውጪ አቅሞች ያላቸው ተራማጅ ድር መተግበሪያዎች (PWAs) የንግድ ቀጣይነትን ለማረጋገጥ ጠንካራ መፍትሄ ይሰጣሉ፣ የኔትወርክ ተገኝነት ምንም ይሁን ምን ተጠቃሚዎች ያለችግር እንዲሰሩ ያስችላቸዋል።",
+      "section1Title": "ከመስመር-ውጪ-መጀመሪያ አርክቴክቸርን መረዳት",
+      "section1Content": "ከመስመር-ውጪ-መጀመሪያ አርክቴክቸር ድር መተግበሪያዎችን በምንገነባበት መንገድ ላይ ፓራዳይም ለውጥን ይወክላል። ከመስመር ውጪ ሁነታን እንደ ድንበር ሁኔታ ከማከም ይልቅ፣ ከመስመር-ውጪ-መጀመሪያ ዲዛይን እሱን ዋና ባህሪ ያደርገዋል። ይህ አቀራረብ የኔትወርክ ግንኙነት አስተማማኝ ያልሆነ ወይም ሙሉ በሙሉ የማይገኝ ቢሆንም እንኳን መተግበሪያዎች ተግባራዊ ሆነው እንዲቆዩ ያረጋግጣል።",
+      "section2Title": "Service Workers: የከመስመር ውጪ PWAs ጀርባ አጥንት",
+      "section2Content": "Service workers ከመስመር ውጪ PWAs ን ሊቻል የሚያደርጉ ቴክኖሎጂ ናቸው። እነዚህ ፕሮግራም ሊደረጉ የሚችሉ ኔትወርክ proxies በመተግበሪያዎ እና በኔትወርክ መካከል ተቀምጠው ጥያቄዎችን እየጠለፉ እና የተራቀቁ caching ስልቶችን ያስቻላሉ። Service workers በመጠቀም፣ መተግበሪያዎች ወሳኝ ምንጮችን እና ውሂብን cache ማድረግ ይችላሉ፣ ከመስመር ውጪ እንኳን ተገኝነትን ያረጋግጣሉ።",
+      "section3Title": "ውሂብ ማመሳሰል ስልቶች",
+      "section3Content": "በከመስመር ውጪ PWAs ውስጥ ዋና ፈተና ግንኙነት ሲመለስ ውሂብ ማመሳሰልን ማስተዳደር ነው። ጠንካራ ግጭት መፍታት ስልቶች እና ብሩህ ዝማኔዎችን መተግበር ውሂብ በመሳሪያዎች እና backend ስርዓቶች ላይ ወጥ መሆኑን ያረጋግጣል። Background sync APIs ኔትወርክ እንደገና ሲገኝ አውቶማቲክ ማመሳሰልን ያስቻላሉ።",
+      "section4Title": "የንግድ ጥቅሞች",
+      "section4Content": "ከመስመር ውጪ PWAs በማንኛውም ኔትወርክ ሁኔታ ምርታማነትን በማረጋገጥ ከፍተኛ የንግድ ዋጋ ያቀርባሉ። የመስክ ሰራተኞች በርቀት ቦታዎች ተግባሮቻቸውን መቀጠል ይችላሉ፣ የሽያጭ ቡድኖች በአቀራረቦች ወቅት ወሳኝ መረጃን ማግኘት ይችላሉ፣ እና ስራዎች በኔትወርክ ችግሮች ወቅት በለስላሳ ይቀጥላሉ። ይህ አስተማማኝነት በቀጥታ ወደ ተሻሻለ የደንበኛ እርካታ እና ስራ ቅልጥፍና ይተረጎማል።",
+      "section5Title": "ከSAP BTP ጋር ትግበራ",
+      "section5Content": "SAP BTP በMobile Services አቅርቦቱ በኩል ከመስመር ውጪ PWAs ለመገንባት ልዩ ድጋፍ ይሰጣል። እነዚህ አገልግሎቶች ከመስመር ውጪ ውሂብ ማመሳሰል፣ ደህንነቱ የተጠበቀ ማከማቻ እና ጠንካራ ከመስመር-ውጪ-ችሎታ ያላቸው መተግበሪያዎች ልማትን የሚያቀሉ ሁሉን አቀፍ APIs ያካትታሉ።",
+      "conclusionTitle": "ማጠቃለያ",
+      "conclusionContent": "ከመስመር ውጪ PWAs ባህላዊ ድር መተግበሪያዎች ሊያሟሉ የማይችሉትን ጥንካሬ እና አስተማማኝነት በማቅረብ የንግድ መተግበሪያዎችን ወደፊት ይወክላሉ። ከመስመር-ውጪ-መጀመሪያ አርክቴክቸርን በመቀበል እና ዘመናዊ ድር ቴክኖሎጂዎችን በመጠቀም፣ ድርጅቶች የኔትወርክ ሁኔታዎች ምንም ይሁን ምን የንግድ ቀጣይነትን ማረጋገጥ እና ምርታማነትን ማስቀጠል ይችላሉ።"
+    }
+  }
+}

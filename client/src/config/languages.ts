@@ -87,6 +87,7 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'tr-TR', name: 'Turkish (Turkey)', nativeName: 'Türkçe', region: 'Middle East' },
   
   // Africa
+  { code: 'am-ET', name: 'Amharic (Ethiopia)', nativeName: 'አማርኛ', region: 'Africa' },
   { code: 'en-KE', name: 'English (Kenya)', nativeName: 'English (Kenya)', region: 'Africa' },
   { code: 'en-ZA', name: 'English (South Africa)', nativeName: 'English (South Africa)', region: 'Africa' },
   { code: 'en-NG', name: 'English (Nigeria)', nativeName: 'English (Nigeria)', region: 'Africa' },
