@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SUPPORTED_LANGUAGES } from "@/config/languages";
 import LanguageRedirect from "@/components/LanguageRedirect";
+import { getBrowserLanguage } from "@/i18n";
 import Home from "@/pages/Home";
 import BTPArchitecture from "@/pages/BTPArchitecture";
 import FioriDevelopment from "@/pages/FioriDevelopment";
@@ -33,14 +34,20 @@ function LanguageSync() {
 
   useEffect(() => {
     const pathSegments = location.split('/').filter(Boolean);
-    let detectedLang = 'en';
+    let detectedLang: string | null = null;
     
+    // First, check if there's a language in the URL path
     if (pathSegments.length > 0) {
       const potentialLang = pathSegments[0];
       const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === potentialLang);
       if (isSupported) {
         detectedLang = potentialLang;
       }
+    }
+    
+    // If no language in URL, use browser language detection (which respects localStorage and browser preferences)
+    if (!detectedLang) {
+      detectedLang = getBrowserLanguage();
     }
     
     if (i18n.language !== detectedLang) {

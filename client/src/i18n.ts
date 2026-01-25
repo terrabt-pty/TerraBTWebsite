@@ -38,43 +38,61 @@ const getTimezoneRegion = (): string | null => {
 };
 
 const getBrowserLanguage = (): string => {
+  // Check localStorage first for user preference
   const storedLang = localStorage.getItem('terrabt-language');
   if (storedLang) {
     const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === storedLang);
     if (isSupported) {
+      console.log('[i18n] Using stored language:', storedLang);
       return storedLang;
     }
   }
   
+  // Get browser languages
   const browserLanguages = navigator.languages || [navigator.language || (navigator as any).userLanguage];
+  console.log('[i18n] Browser languages:', browserLanguages);
   
   for (const browserLang of browserLanguages) {
     const normalizedBrowserLang = browserLang.toLowerCase();
     
+    // First try exact match
     const exactMatch = SUPPORTED_LANGUAGES.find(
       lang => lang.code.toLowerCase() === normalizedBrowserLang
     );
     if (exactMatch) {
+      console.log('[i18n] Exact match found:', exactMatch.code);
       return exactMatch.code;
     }
     
+    // Then try base language match - but prefer English variants for 'en' base
     const baseLang = getBaseLanguage(normalizedBrowserLang);
+    
+    // For English, always return 'en' (international) as the default
+    if (baseLang === 'en') {
+      console.log('[i18n] English base language detected, returning en');
+      return 'en';
+    }
+    
     const baseMatch = SUPPORTED_LANGUAGES.find(
       lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
     );
     if (baseMatch) {
+      console.log('[i18n] Base match found:', baseMatch.code);
       return baseMatch.code;
     }
   }
   
+  // Check timezone as fallback
   const timezoneRegion = getTimezoneRegion();
   if (timezoneRegion) {
     const tzMatch = SUPPORTED_LANGUAGES.find(lang => lang.code === timezoneRegion);
     if (tzMatch) {
+      console.log('[i18n] Timezone match found:', tzMatch.code);
       return tzMatch.code;
     }
   }
   
+  console.log('[i18n] Defaulting to en');
   return 'en';
 };
 
