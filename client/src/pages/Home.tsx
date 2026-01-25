@@ -24,7 +24,7 @@ import {
 
 import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
 import globalImage from "@assets/generated_images/Global_reach_world_map_bb3068a2.png";
-import aiImage from "@assets/generated_images/AI_technology_joule_integration.jpg";
+import aiImage from "@assets/generated_images/AI_technology_integration_visual_7e9469a5.png";
 import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.png";
 import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.png";
 
