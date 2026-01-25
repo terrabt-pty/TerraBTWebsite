@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { t } = useTranslation();
+  const { getLocalizedPath } = useLocalizedPath();
 
   const navLinks = [
     { label: t('nav.home'), href: "#home" },
@@ -28,9 +31,9 @@ export default function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
+          <Link href={getLocalizedPath("/")} className="flex items-center gap-2">
             <Logo className="h-12" data-testid="img-logo" />
-          </div>
+          </Link>
 
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (

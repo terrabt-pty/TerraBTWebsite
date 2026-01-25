@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock } from "lucide-react";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 interface BlogCardProps {
   image: string;
@@ -22,6 +23,7 @@ export default function BlogCard({
   slug,
 }: BlogCardProps) {
   const { t } = useTranslation();
+  const { getLocalizedPath } = useLocalizedPath();
   return (
     <Card className="overflow-hidden hover-elevate transition-all duration-300 group" data-testid={`card-blog-${title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`}>
       <div className="aspect-video overflow-hidden">
@@ -46,7 +48,7 @@ export default function BlogCard({
             <Clock className="h-4 w-4" />
             <span>{readTime}</span>
           </div>
-          <Link href={`/blog/${slug}`}>
+          <Link href={getLocalizedPath(`/blog/${slug}`)}>
             <button
               className="flex items-center gap-1 text-primary font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
               data-testid="button-read-more"

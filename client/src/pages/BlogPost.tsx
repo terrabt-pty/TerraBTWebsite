@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Clock } from "lucide-react";
 import { Link } from "wouter";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 interface BlogPostProps {
   title: string;
@@ -24,6 +25,8 @@ export default function BlogPost({
   content,
   seoDescription,
 }: BlogPostProps) {
+  const { getLocalizedPath } = useLocalizedPath();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -38,7 +41,7 @@ export default function BlogPost({
       
       <article className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/">
+          <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
               Back to Home

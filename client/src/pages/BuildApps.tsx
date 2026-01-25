@@ -8,9 +8,11 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft, CheckCircle, Code, Zap, Users, Layout, Smartphone, Cloud, Workflow, Layers } from "lucide-react";
 import { Link } from "wouter";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function BuildApps() {
   const { t } = useTranslation();
+  const { getLocalizedPath } = useLocalizedPath();
 
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -59,7 +61,7 @@ export default function BuildApps() {
       
       <section className="pt-32 pb-16 bg-gradient-to-br from-chart-1/10 via-primary/5 to-trust/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/">
+          <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {t('common.backToHome')}

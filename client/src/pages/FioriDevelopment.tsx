@@ -8,9 +8,11 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft, CheckCircle, Smartphone, Layout, Zap, Palette, Gauge, Users } from "lucide-react";
 import { Link } from "wouter";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function FioriDevelopment() {
   const { t } = useTranslation();
+  const { getLocalizedPath } = useLocalizedPath();
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
     if (element) {
@@ -64,7 +66,7 @@ export default function FioriDevelopment() {
       
       <section className="pt-32 pb-16 bg-gradient-to-br from-chart-5/10 via-trust/5 to-primary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/">
+          <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {t('common.backToHome')}
@@ -223,7 +225,7 @@ export default function FioriDevelopment() {
             >
               {t('fioriDevelopment.ctaSectionButton1')}
             </Button>
-            <Link href="/">
+            <Link href={getLocalizedPath("/")}>
               <Button 
                 size="lg"
                 variant="secondary"

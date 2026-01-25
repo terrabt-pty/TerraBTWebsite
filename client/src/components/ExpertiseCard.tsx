@@ -1,8 +1,8 @@
-import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
 import { LucideIcon } from "lucide-react";
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 interface ExpertiseCardProps {
   icon: LucideIcon;
@@ -17,8 +17,8 @@ export default function ExpertiseCard({
   description,
   href,
 }: ExpertiseCardProps) {
-  const { i18n } = useTranslation();
-  const localizedHref = i18n.language === 'ja' ? `/ja${href}` : href;
+  const { getLocalizedPath } = useLocalizedPath();
+  const localizedHref = getLocalizedPath(href);
   
   return (
     <Link href={localizedHref}>
