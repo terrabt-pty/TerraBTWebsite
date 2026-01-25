@@ -43,14 +43,12 @@ const getBrowserLanguage = (): string => {
   if (storedLang) {
     const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === storedLang);
     if (isSupported) {
-      console.log('[i18n] Using stored language:', storedLang);
       return storedLang;
     }
   }
   
   // Get browser languages
   const browserLanguages = navigator.languages || [navigator.language || (navigator as any).userLanguage];
-  console.log('[i18n] Browser languages:', browserLanguages);
   
   for (const browserLang of browserLanguages) {
     const normalizedBrowserLang = browserLang.toLowerCase();
@@ -60,7 +58,6 @@ const getBrowserLanguage = (): string => {
       lang => lang.code.toLowerCase() === normalizedBrowserLang
     );
     if (exactMatch) {
-      console.log('[i18n] Exact match found:', exactMatch.code);
       return exactMatch.code;
     }
     
@@ -69,7 +66,6 @@ const getBrowserLanguage = (): string => {
     
     // For English, always return 'en' (international) as the default
     if (baseLang === 'en') {
-      console.log('[i18n] English base language detected, returning en');
       return 'en';
     }
     
@@ -77,7 +73,6 @@ const getBrowserLanguage = (): string => {
       lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
     );
     if (baseMatch) {
-      console.log('[i18n] Base match found:', baseMatch.code);
       return baseMatch.code;
     }
   }
@@ -87,12 +82,10 @@ const getBrowserLanguage = (): string => {
   if (timezoneRegion) {
     const tzMatch = SUPPORTED_LANGUAGES.find(lang => lang.code === timezoneRegion);
     if (tzMatch) {
-      console.log('[i18n] Timezone match found:', tzMatch.code);
       return tzMatch.code;
     }
   }
   
-  console.log('[i18n] Defaulting to en');
   return 'en';
 };
 
