@@ -77,10 +77,6 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'en-BD', name: 'English (Bangladesh)', nativeName: 'English (Bangladesh)', region: 'South Asia' },
   { code: 'en-LK', name: 'English (Sri Lanka)', nativeName: 'English (Sri Lanka)', region: 'South Asia' },
   
-  // Oceania
-  { code: 'en-AU', name: 'English (Australia)', nativeName: 'English (Australia)', region: 'Oceania' },
-  { code: 'en-NZ', name: 'English (New Zealand)', nativeName: 'English (New Zealand)', region: 'Oceania' },
-  
   // Middle East
   { code: 'ar-AE', name: 'Arabic (UAE)', nativeName: 'العربية (الإمارات)', region: 'Middle East' },
   { code: 'ar-SA', name: 'Arabic (Saudi Arabia)', nativeName: 'العربية (السعودية)', region: 'Middle East' },
