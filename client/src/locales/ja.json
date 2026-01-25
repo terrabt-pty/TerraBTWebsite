@@ -182,7 +182,8 @@
     "terms": "利用規約",
     "copyright": "全著作権所有。",
     "deployedOn": "Cloudflareで展開",
-    "serviceRestriction": "オーストラリアおよびニュージーランドではサービスを提供しておりません。"
+    "serviceRestriction": "オーストラリアおよびニュージーランドではサービスを提供しておりません。",
+    "availableLanguages": "お客様の言語でご利用いただけます"
   },
   "common": {
     "learnMore": "詳しく見る",

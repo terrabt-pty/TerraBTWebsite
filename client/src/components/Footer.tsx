@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
+import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -140,14 +141,31 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t space-y-4">
+        <div className="pt-8 border-t space-y-6">
+          <div className="space-y-3">
+            <h4 className="text-xs font-medium text-muted-foreground text-center">{t('footer.availableLanguages')}</h4>
+            <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 max-w-4xl mx-auto">
+              {SUPPORTED_LANGUAGES.map((lang) => (
+                <a
+                  key={lang.code}
+                  href={lang.code === 'en' ? '/' : `/${lang.code}`}
+                  className="text-xs text-muted-foreground/70 hover:text-foreground transition-colors"
+                  hrefLang={lang.code}
+                  data-testid={`link-lang-${lang.code}`}
+                >
+                  {lang.nativeName}
+                </a>
+              ))}
+            </div>
+          </div>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">
               © {currentYear} TerraBT. {t('footer.copyright')}
             </p>
           </div>
           
-          <div className="flex flex-col items-center gap-2 pt-4">
+          <div className="flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
               SAP and SAP Business Technology Platform are trademarks or registered trademarks of SAP SE or its affiliates in Germany and in several other countries. 
               TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE. {t('footer.serviceRestriction')}
