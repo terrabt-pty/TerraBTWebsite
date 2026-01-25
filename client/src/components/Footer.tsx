@@ -150,10 +150,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2 pt-4">
             <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
               SAP and SAP Business Technology Platform are trademarks or registered trademarks of SAP SE or its affiliates in Germany and in several other countries. 
-              TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE.
-            </p>
-            <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
-              {t('footer.serviceRestriction')}
+              TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE. {t('footer.serviceRestriction')}
             </p>
           </div>
         </div>
