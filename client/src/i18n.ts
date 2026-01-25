@@ -9,26 +9,76 @@ const getBaseLanguage = (code: string): string => {
   return code.split('-')[0];
 };
 
+const getTimezoneRegion = (): string | null => {
+  try {
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (timezone.startsWith('Asia/Tokyo') || timezone.startsWith('Japan')) {
+      return 'ja-JP';
+    }
+    if (timezone.startsWith('Europe/Berlin') || timezone.startsWith('Europe/Vienna') || timezone.startsWith('Europe/Zurich')) {
+      return 'de-DE';
+    }
+    if (timezone.startsWith('Europe/Paris')) {
+      return 'fr-FR';
+    }
+    if (timezone.startsWith('Europe/London')) {
+      return 'en-GB';
+    }
+    if (timezone.startsWith('Asia/Singapore')) {
+      return 'en-SG';
+    }
+    if (timezone.startsWith('Australia/')) {
+      return 'en-AU';
+    }
+  } catch {
+    return null;
+  }
+  return null;
+};
+
 const getBrowserLanguage = (): string => {
-  const browserLang = navigator.language || (navigator as any).userLanguage;
-  const normalizedBrowserLang = browserLang.toLowerCase();
-  
-  const exactMatch = SUPPORTED_LANGUAGES.find(
-    lang => lang.code.toLowerCase() === normalizedBrowserLang
-  );
-  if (exactMatch) {
-    return exactMatch.code;
+  const storedLang = localStorage.getItem('terrabt-language');
+  if (storedLang) {
+    const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === storedLang);
+    if (isSupported) {
+      return storedLang;
+    }
   }
   
-  const baseLang = getBaseLanguage(normalizedBrowserLang);
-  const baseMatch = SUPPORTED_LANGUAGES.find(
-    lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
-  );
-  if (baseMatch) {
-    return baseMatch.code;
+  const browserLanguages = navigator.languages || [navigator.language || (navigator as any).userLanguage];
+  
+  for (const browserLang of browserLanguages) {
+    const normalizedBrowserLang = browserLang.toLowerCase();
+    
+    const exactMatch = SUPPORTED_LANGUAGES.find(
+      lang => lang.code.toLowerCase() === normalizedBrowserLang
+    );
+    if (exactMatch) {
+      return exactMatch.code;
+    }
+    
+    const baseLang = getBaseLanguage(normalizedBrowserLang);
+    const baseMatch = SUPPORTED_LANGUAGES.find(
+      lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
+    );
+    if (baseMatch) {
+      return baseMatch.code;
+    }
+  }
+  
+  const timezoneRegion = getTimezoneRegion();
+  if (timezoneRegion) {
+    const tzMatch = SUPPORTED_LANGUAGES.find(lang => lang.code === timezoneRegion);
+    if (tzMatch) {
+      return tzMatch.code;
+    }
   }
   
   return 'en';
+};
+
+const saveBrowserLanguage = (lang: string): void => {
+  localStorage.setItem('terrabt-language', lang);
 };
 
 const getLanguageFromPath = () => {
@@ -46,7 +96,7 @@ const getLanguageFromPath = () => {
   return getBrowserLanguage();
 };
 
-export { getBrowserLanguage, getBaseLanguage };
+export { getBrowserLanguage, getBaseLanguage, saveBrowserLanguage };
 
 const baseTranslations: { [key: string]: any } = {
   'en': enTranslations,

@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/select";
 import { Globe } from "lucide-react";
 import { SUPPORTED_LANGUAGES, getLanguageByCode, getRegions, getLanguagesByRegion } from "@/config/languages";
+import { saveBrowserLanguage } from "@/i18n";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
@@ -20,6 +21,8 @@ export default function LanguageSwitcher() {
     const currentLang = i18n.language;
     
     if (currentLang === newLang) return;
+    
+    saveBrowserLanguage(newLang);
     
     let currentPath = location;
     const currentPrefix = SUPPORTED_LANGUAGES.find(lang => 
