@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Linkedin, Twitter, Cloud } from "lucide-react";
+import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
 
 export default function Footer() {
@@ -141,14 +141,10 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t space-y-4">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">
               © {currentYear} TerraBT. {t('footer.copyright')}
             </p>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Cloud className="h-4 w-4 text-primary" />
-              <span>{t('footer.deployedOn')}</span>
-            </div>
           </div>
           
           <div className="flex flex-col items-center gap-2 pt-4">
