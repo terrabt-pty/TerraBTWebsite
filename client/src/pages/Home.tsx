@@ -259,6 +259,7 @@ export default function Home() {
             ))}
           </div>
 
+{/* Hidden for now
           <div className="text-center">
             <Button
               variant="secondary"
@@ -270,6 +271,7 @@ export default function Home() {
               Explore Knowledge Hub
             </Button>
           </div>
+*/}
         </div>
       </section>
 
