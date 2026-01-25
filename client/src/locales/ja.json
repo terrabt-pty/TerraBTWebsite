@@ -181,7 +181,8 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyright": "全著作権所有。",
-    "deployedOn": "Cloudflareで展開"
+    "deployedOn": "Cloudflareで展開",
+    "serviceRestriction": "オーストラリアおよびニュージーランドではサービスを提供しておりません。"
   },
   "common": {
     "learnMore": "詳しく見る",

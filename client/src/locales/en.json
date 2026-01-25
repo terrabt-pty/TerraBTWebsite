@@ -181,7 +181,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": "All rights reserved.",
-    "deployedOn": "Deployed on Cloudflare"
+    "deployedOn": "Deployed on Cloudflare",
+    "serviceRestriction": "Services are not available in Australia and New Zealand."
   },
   "common": {
     "learnMore": "Learn More",
