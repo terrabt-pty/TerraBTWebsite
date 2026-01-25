@@ -471,7 +471,7 @@
       "99.9% accuracy in automated tasks",
       "Rapid ROI within 3-6 months",
       "Improved compliance and auditability",
-      "24/7 expert support and optimization"
+      "Dedicated implementation support and optimization"
     ],
     "implementation": {
       "step1": {
@@ -605,7 +605,7 @@
       "Reduced implementation time by 40% with proven architecture patterns",
       "Enterprise-grade security compliant with industry standards",
       "Scalable infrastructure that grows with your business",
-      "24/7 monitoring and support for critical systems",
+      "Proactive monitoring capabilities for critical systems",
       "Expert guidance from certified SAP BTP architects"
     ],
     "statistics": {
@@ -622,8 +622,8 @@
         "label": "Countries Served"
       },
       "support": {
-        "value": "24/7",
-        "label": "Support Available"
+        "value": "Global",
+        "label": "Expert Team"
       }
     },
     "whyChooseBadge": "Why Choose TerraBT",
@@ -708,7 +708,7 @@
           "Best practices documentation",
           "Code review and quality assurance",
           "Ongoing maintenance and updates",
-          "24/7 production support"
+          "Comprehensive production handover"
         ]
       }
     },
@@ -932,8 +932,9 @@
       "99.99% uptime with high availability configuration",
       "Reduced storage costs through efficient design",
       "Compliance-ready with built-in security features",
-      "24/7 monitoring and expert support"
+      "Proactive monitoring and expert guidance"
     ],
+    "whyChooseBadge": "Database Excellence",
     "statistics": {
       "uptime": {
         "value": "99.99%",
@@ -948,10 +949,16 @@
         "label": "Data Security"
       },
       "monitoring": {
-        "value": "24/7",
-        "label": "Expert Monitoring"
+        "value": "100%",
+        "label": "Expert Guidance"
       }
-    }
+    },
+    "ctaSectionBadge": "Optimize Your Database Performance",
+    "ctaSectionTitle1": "Ready to Maximize",
+    "ctaSectionTitle2": "Your Database Performance?",
+    "ctaSectionDescription": "Get a free database health check and discover optimization opportunities that could transform your application performance.",
+    "ctaSectionButton1": "Get Free Database Assessment →",
+    "ctaSectionButton2": "Explore All Services"
   },
   "designThinking": {
     "badge": "Innovation & Strategy",
@@ -1140,7 +1147,7 @@
       "Reduced integration costs with cloud-native platform",
       "Enterprise-grade reliability and scalability",
       "Single platform for all integration needs",
-      "24/7 expert support and monitoring"
+      "Dedicated expert consultation and guidance"
     ],
     "statistics": {
       "connectors": {
@@ -1156,10 +1163,17 @@
         "label": "Faster Implementation"
       },
       "support": {
-        "value": "24/7",
-        "label": "Monitoring & Support"
+        "value": "Global",
+        "label": "Expert Team"
       }
-    }
+    },
+    "whyChooseBadge": "Integration Excellence",
+    "ctaSectionBadge": "⚡ Connect Your Enterprise Today",
+    "ctaSectionTitle1": "Ready to Unify",
+    "ctaSectionTitle2": "Your Business Systems?",
+    "ctaSectionDescription": "Let's discuss your integration requirements and create a comprehensive solution that connects all your critical business systems.",
+    "ctaSectionButton1": "Get Integration Consultation →",
+    "ctaSectionButton2": "View All Services"
   },
   "eventMesh": {
     "badge": "Event-Driven Architecture",
@@ -1263,7 +1277,14 @@
         "value": "Global",
         "label": "Multi-Region Distribution"
       }
-    }
+    },
+    "whyChooseBadge": "Event-Driven Excellence",
+    "ctaSectionBadge": "⚡ Build Real-Time Systems",
+    "ctaSectionTitle1": "Ready to Implement",
+    "ctaSectionTitle2": "Event-Driven Architecture?",
+    "ctaSectionDescription": "Transform your business with real-time event processing. Let's discuss how Event Mesh can power your next-generation applications.",
+    "ctaSectionButton1": "Schedule Event Mesh Consultation →",
+    "ctaSectionButton2": "Explore All Technologies"
   },
   "aiInvoice": {
     "badge": "AI & Automation",
@@ -1364,8 +1385,8 @@
         "label": "Cost Savings"
       },
       "availability": {
-        "value": "24/7",
-        "label": "Processing Availability"
+        "value": "100%",
+        "label": "Automated Processing"
       }
     }
   },
