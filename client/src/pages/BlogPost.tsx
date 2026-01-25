@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -25,6 +26,7 @@ export default function BlogPost({
   content,
   seoDescription,
 }: BlogPostProps) {
+  const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
   
   useEffect(() => {
@@ -44,7 +46,7 @@ export default function BlogPost({
           <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Home
+              {t("blogs.backToHome")}
             </Button>
           </Link>
 
