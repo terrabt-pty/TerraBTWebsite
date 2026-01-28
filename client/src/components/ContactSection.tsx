@@ -33,16 +33,13 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">{t('contact.email')}</p>
-                    <a 
-                      href="mailto:contact@terrabt.com" 
+                    <a
+                      href="mailto:contact@terrabt.com"
                       className="text-muted-foreground hover:text-primary transition-colors hover-elevate px-2 py-1 rounded-md inline-block"
                       data-testid="text-email"
                     >
                       contact@terrabt.com
                     </a>
-                    <p className="text-sm text-muted-foreground/80 mt-2 italic">
-                      {t('contact.mentionCountry')}
-                    </p>
                   </div>
                 </div>
 
