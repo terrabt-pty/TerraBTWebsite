@@ -12,15 +12,18 @@ export default function Logo({ className = "h-8" }: LogoProps) {
               font-family: 'Asimovian';
               src: url('/fonts/Asimovian-Regular.woff2') format('woff2');
             }
-            .terra-text {
-              fill: hsl(var(--primary));
+            .font-bold-main {
               font-family: Arial, sans-serif;
               font-weight: bold;
             }
-            .bt-text {
-              fill: hsl(var(--trust));
+            .font-asimovian {
               font-family: 'Asimovian', sans-serif;
-              font-weight: bold;
+            }
+            .color-terra {
+              fill: hsl(var(--primary));
+            }
+            .color-bt {
+              fill: hsl(var(--trust));
             }
             .tagline {
               fill: hsl(var(--muted-foreground));
@@ -32,8 +35,10 @@ export default function Logo({ className = "h-8" }: LogoProps) {
       </defs>
 
       <text x="0" y="16" fontSize="20" letterSpacing="-0.5">
-        <tspan className="terra-text">Terra</tspan>
-        <tspan className="bt-text">BT</tspan>
+        <tspan className="font-bold-main color-terra">T</tspan>
+        <tspan className="font-asimovian color-terra">erra</tspan>
+        <tspan className="font-asimovian color-bt">B</tspan>
+        <tspan className="font-bold-main color-bt">T</tspan>
       </text>
 
       <text x="32" y="25" fontSize="6" className="tagline" textAnchor="middle">SAP BTP Consulting</text>
