@@ -2,1461 +2,1460 @@
   "nav": {
     "home": "Domov",
     "services": "Storitve",
-    "knowledge": "Znanje",
+    "knowledge": "Baza znanja",
     "contact": "Kontakt",
-    "bookConsultation": "Rezerviraj brezplačno svetovanje"
+    "bookConsultation": "Rezervirajte brezplačno svetovanje"
   },
   "hero": {
-    "title": "Preoblikujte svoje podjetje z ekspertnimi rešitvami SAP BTP",
-    "subtitle": "Specializirano svetovanje za implementacije SAP Business Technology Platform",
+    "title": "Transformirajte svoje poslovanje z ekspertno SAP BTP svetovalno ekipo",
+    "subtitle": "Specializirano svetovanje za implementacije SAP Business Technology Platform po vsem svetu",
     "cta": "Začnite danes",
-    "learn": "Raziščite storitve"
+    "learn": "Naše storitve"
   },
   "services": {
-    "title": "Naša Strokovnost",
-    "subtitle": "Celovite rešitve SAP BTP za transformacijo vašega poslovanja",
+    "title": "Naše strokovno področje",
+    "subtitle": "Celovite SAP BTP rešitve za inovativno transformacijo vašega poslovanja",
     "fiori": {
-      "title": "Razvoj Fiori Aplikacij",
-      "description": "Razvoj sodobnih, odzivnih Fiori aplikacij, ki zagotavljajo izjemne izkušnje uporabnikov na vseh napravah."
+      "title": "Razvoj Fiori aplikacij",
+      "description": "Razvoj sodobnih, odzivnih Fiori aplikacij, ki zagotavljajo izjemno uporabniško izkušnjo na vseh napravah."
     },
     "architecture": {
-      "title": "BTP Arhitektura in Oblikovanje",
-      "description": "Strateško načrtovanje arhitekture za skalabilne rešitve SAP BTP, prilagojene vašim poslovnim potrebam."
+      "title": "BTP arhitektura in načrtovanje",
+      "description": "Strateško načrtovanje in projektiranje skalabilnih SAP BTP arhitekturnih rešitev, prilagojenih vašim potrebam."
     },
     "designThinking": {
-      "title": "Oblikovanje v Razmišljanju",
-      "description": "Uporabniško usmerjen pristop k oblikovanju za razvoj inovativnih rešitev, ki rešavajo prave poslovne izzive."
+      "title": "Design Thinking",
+      "description": "Uporabniško usmerjena metodologija načrtovanja za razvoj inovativnih rešitev realnih poslovnih izzivov."
     },
     "pwa": {
-      "title": "Aplikacije Offline PWA",
-      "description": "Progresivne spletne aplikacije z zmožnostmi zunaj interneta za nemoteno izkušnjo uporabnika povsod."
+      "title": "Avtonomne PWA aplikacije",
+      "description": "Progresivne spletne aplikacije s podporo za delo brez povezave (offline), ki zagotavljajo nemoteno delovanje v vseh pogojih."
     },
     "database": {
-      "title": "Upravljanje SAP BTP Podatkovne Baze",
-      "description": "Učinkovit dizajn podatkovne baze, optimizacija in upravljanje za zmogljive BTP aplikacije."
+      "title": "Upravljanje podatkovnih baz na SAP BTP",
+      "description": "Učinkovito načrtovanje, optimizacija in upravljanje podatkovnih baz za visoko zmogljive BTP aplikacije."
     },
     "ai": {
-      "title": "Obdelava Računov s KI",
-      "description": "Inteligentna obdelava računov s pomočjo napredne KI za natančne in učinkovite postopke."
+      "title": "Obdelava računov s pomočjo UI",
+      "description": "Inteligentna avtomatizacija obdelave prejetih računov z uporabo naprednih tehnologij umetne inteligence."
     },
     "integration": {
-      "title": "Paket SAP BTP Integration Suite",
-      "description": "Brezšivne rešitve za integracijo, ki povezujejo vaše SAP sisteme z oblačnimi in lokalnimi aplikacijami."
+      "title": "SAP BTP Integration Suite",
+      "description": "Brezšivne integracijske rešitve za povezovanje vaših SAP sistemov z oblačnimi in lokalnimi aplikacijami."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Izvedba arhitekture, usmerjene v dogodke v realnem času, za odzivne in skalabilne poslovne procese."
+      "description": "Implementacija dogodkovno usmerjene arhitekture v realnem času za prilagodljive in skalabilne poslovne procese."
     },
     "cap": {
-      "title": "Razvoj SAP CAP",
-      "description": "Razvoj sodobnih oblačnih aplikacij s SAP Cloud Application Programming Model za hiter in skalabilen razvoj."
+      "title": "Razvoj na SAP CAP",
+      "description": "Ustvarjanje sodobnih oblačnih aplikacij z uporabo modela SAP Cloud Application Programming za hiter razvoj."
     },
     "buildApps": {
-      "title": "Aplikacije SAP Build",
-      "description": "Ustvarjanje profesionalnih poslovnih aplikacij z orodji brez kode/nizkokodnimi orodji za hitro digitalno transformacijo."
+      "title": "SAP Build Apps",
+      "description": "Ustvarjanje profesionalnih poslovnih aplikacij z orodji no-code/low-code za hitro digitalno transformacijo."
     },
     "buildAutomation": {
-      "title": "Avtomatizacija Procesov SAP Build",
-      "description": "Avtomatizacija poslovnih procesov z inteligentnima tokovoma dela in zmožnostmi avtomatizacije robotskih procesov."
+      "title": "SAP Build Process Automation",
+      "description": "Avtomatizacija poslovnih procesov z uporabo inteligentnih delovnih tokov in robotske avtomatizacije procesov (RPA)."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Naš Fokus",
-      "title": "100-odstotna Posebnost SAP BTP",
-      "description": "Za razliko od splošnih svetovalnih podjetij se osredotočamo izključno na SAP Business Technology Platform in zagotavljamo globoko strokovno znanje ter sodobne rešitve.",
-      "point1": "Namenski tim certificiranih strokovnjakov SAP BTP",
-      "point2": "Vedno posodobljeni z najnovejšimi funkcionalnostmi BTP in najboljšimi praksami",
-      "point3": "Dokazani uspehi v različnih panogah"
+      "badge": "Naša specializacija",
+      "title": "100 % fokus na SAP BTP",
+      "description": "Za razliko od splošnih svetovalnih podjetij smo specializirani izključno za SAP Business Technology Platform, kar zagotavlja globoko strokovno znanje.",
+      "point1": "Ekipa certificiranih strokovnjakov za SAP BTP",
+      "point2": "Uporaba najnovejših funkcij in najboljših praks BTP",
+      "point3": "Številni uspešno izvedeni projekti v različnih panogah"
     },
     "global": {
-      "badge": "Globalni Domet",
-      "title": "Svetovna Oskrba Trgov",
-      "description": "Prinesemo strokovnost SAP BTP na svetovne trge in zagotavljamo vrhunske rešitve ne glede na vašo lokacijo.",
-      "point1": "Oddaljeno svetovanje v vseh časovnih pasovih",
-      "point2": "Večjezični podporni oddelek za mednarodne ekipe",
-      "point3": "Razumevanje regionalnih poslovnih potreb"
+      "badge": "Globalni doseg",
+      "title": "Delujemo po celem svetu",
+      "description": "Naše SAP BTP strokovno znanje nudimo strankam po vsem svetu in zagotavljamo vrhunske rešitve ne glede na vašo lokacijo.",
+      "point1": "Svetovanje na daljavo v vseh časovnih pasovih",
+      "point2": "Večjezična podpora za mednarodne ekipe",
+      "point3": "Globoko razumevanje regionalnih poslovnih zahtev"
     },
     "ai": {
-      "badge": "Sodobna Tehnologija",
-      "title": "Inovacija, Pogonjena z AI",
-      "description": "Uporaba najsodobnejše tehnologije KI za izboljšanje rešitev SAP BTP in vnos avtomatizacije ter inteligence v vaše poslovne procese.",
-      "point1": "Inteligentna avtomatizacija za ponavljajoče se naloge",
-      "point2": "Napredna obdelava in analiza podatkov",
-      "point3": "Brezšivna integracija v obstoječe poteke dela"
+      "badge": "Sodobne tehnologije",
+      "title": "Inovacije na podlagi UI",
+      "description": "Uporaba naprednih tehnologij umetne inteligence za razširitev zmožnosti SAP BTP rešitev.",
+      "point1": "Inteligentna avtomatizacija rutinskih nalog",
+      "point2": "Napredna obdelava in analitika velikih podatkov",
+      "point3": "Brezšivna integracija v obstoječe delovne tokove"
     }
   },
   "knowledge": {
-    "title": "Znanja Prikaza",
-    "subtitle": "Strokovni Vpogled in Najboljše Prakse za Uspeh SAP BTP",
-    "readMore": "Preberi Članek",
+    "title": "Središče znanja",
+    "subtitle": "Strokovni vpogledi in najboljše prakse za vaš uspeh s SAP BTP",
+    "readMore": "Preberite več",
     "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
       "category": "Razvoj",
-      "title": "Razvoj Sodobnih Aplikacij Fiori z SAP BTP",
-      "excerpt": "Odkrijte, kako ustvariti odzivne, uporabniku prijazne Fiori aplikacije, ki izkoristijo polno moč SAP Business Technology Platform.",
+      "title": "Ustvarjanje sodobnih Fiori aplikacij na SAP BTP",
+      "excerpt": "Odkrijte, kako razviti odzivne in uporabniku prijazne Fiori aplikacije z uporabo polnega potenciala SAP BTP platforme.",
       "readTime": "5 min"
     },
     "post2": {
       "category": "Tehnologija",
-      "title": "Offline PWA: Zagotavljanje Kontinuitete Poslovanja Povsod",
-      "excerpt": "Odkrijte, kako lahko progresivne spletne aplikacije s funkcionalnostjo zunaj interneta ohranijo gladko delovanje vaših poslovnih procesov tudi brez interneta.",
+      "title": "Offline PWA: Zagotavljanje neprekinjenega poslovanja",
+      "excerpt": "Raziščite možnosti progresivnih spletnih aplikacij z dostopom brez povezave za stabilno delovanje brez interneta.",
       "readTime": "7 min"
     },
     "post3": {
-      "category": "KI in Avtomatizacija",
-      "title": "KI za Inteligentno Obdelavo Računov",
-      "excerpt": "Raziščite, kako integracija KI s SAP BTP preobrazi obdelavo računov z neprekosljivo natančnostjo in učinkovitostjo.",
+      "category": "UI in avtomatizacija",
+      "title": "Umetna inteligenca za inteligentno obdelavo računov",
+      "excerpt": "Kako integracija UI s SAP BTP transformira procese obdelave računov ter izboljšuje njihovo natančnost in učinkovitost.",
       "readTime": "6 min"
     },
     "post4": {
       "category": "Integracija",
-      "title": "Obvladovanje Paketa SAP BTP Integration Suite",
-      "excerpt": "Celovod za povezovanje vaših poslovnih sistemov s SAP BTP Integration Suite za nemoteno pretakanje podatkov.",
+      "title": "Obvladovanje SAP BTP Integration Suite",
+      "excerpt": "Vodnik za povezovanje poslovnih sistemov s pomočjo SAP BTP Integration Suite za nemoteno izmenjavo podatkov.",
       "readTime": "8 min"
     },
     "post5": {
       "category": "Arhitektura",
-      "title": "Arhitektura Event Mesh za Poslovanje v Realnem Času",
-      "excerpt": "Izvedba arhitekture, usmerjene v dogodke, s SAP Event Mesh za odzivne in skalabilne rešitve.",
+      "title": "Arhitektura Event Mesh za poslovanje v realnem času",
+      "excerpt": "Implementacija dogodkovno usmerjene arhitekture s SAP Event Mesh za ustvarjanje prilagodljivih rešitev.",
       "readTime": "6 min"
     },
     "post6": {
-      "category": "Najboljše Prakse",
-      "title": "Strategije Optimizacije BTP Podatkovne Baze",
-      "excerpt": "Bistvene strategije za optimizacijo zmogljivosti SAP BTP podatkovne baze za hiter in zanesljiv dostop do podatkov, kritičnih za poslovanje.",
+      "category": "Najboljše prakse",
+      "title": "Strategije optimizacije podatkovnih baz na BTP",
+      "excerpt": "Ključne metode za izboljšanje zmogljivosti SAP BTP podatkovnih baz za hiter dostop do kritičnih podatkov.",
       "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Začnite",
-    "title": "Pripravljen, da Spremenite Vaše Podjetje?",
-    "subtitle": "Rezervirajte Brezplačno Svetovanje z Našimi Strokovnjaki SAP BTP",
-    "availability": "Omejena Dosegljivost",
-    "contactInfo": "Podatki za Stik",
-    "email": "E-Pošta",
-    "globalPresence": "Globalna Prisotnost",
-    "servingCountries": "Serviranje Strank v več kot 40 Državah po Svetu",
-    "fastResponse": "Garancija Hitrega Odgovora",
-    "fastResponseDesc": "Pridobite Strokovni Nasvet v 24 Urah. Naši Strokovnjaki SAP BTP so Pripravljeni Vam Pomagati k Uspehu.",
-    "mentionCountry": "Prosimo, Navedite Svojo Državo pri Stiku z Nami",
+    "badge": "Stopite v stik z nami",
+    "title": "Ste pripravljeni na transformacijo vašega poslovanja?",
+    "subtitle": "Rezervirajte brezplačno svetovanje z našimi strokovnjaki za SAP BTP",
+    "availability": "Omejeno število terminov",
+    "contactInfo": "Kontaktni podatki",
+    "email": "E-pošta",
+    "globalPresence": "Globalna prisotnost",
+    "servingCountries": "Stranke servisiramo v več kot 40 državah po svetu",
+    "fastResponse": "Zagotovljen hiter odziv",
+    "fastResponseDesc": "Pridobite strokovni nasvet v roku 24 ur. Naši strokovnjaki so vam pripravljeni pomagati.",
+    "mentionCountry": "Prosimo, da ob stiku navedete svojo državo",
     "form": {
-      "name": "Polno Ime",
-      "email": "Poslovna E-Pošta",
-      "company": "Ime Podjetja",
-      "message": "Povejte nam o Vašem Projektu",
-      "submit": "Dogovori Brezplačno Svetovanje",
-      "submitting": "Pošiljam..."
+      "name": "Ime in priimek",
+      "email": "Poslovni e-naslov",
+      "company": "Ime podjetja",
+      "message": "Opišite vaš projekt",
+      "submit": "Rezervirajte svetovanje",
+      "submitting": "Pošiljanje..."
     },
     "success": {
-      "title": "Sporočilo Poslano!",
-      "description": "Hvala, ker ste se Nas Dotaknili. Odgovorili Vam Bomo v 24 Urah."
+      "title": "Sporočilo poslano!",
+      "description": "Zahvaljujemo se vam za povpraševanje. Kontaktirali vas bomo v roku 24 ur."
     },
     "error": {
-      "title": "Napaka",
-      "description": "Nekaj je Šlo Narobe. Prosimo, Poskusite Znova."
+      "title": "Prišlo je do napake",
+      "description": "Sporočila ni bilo mogoče poslati. Prosimo, poskusite kasneje."
     }
   },
   "footer": {
-    "description": "Specializirano svetovanje SAP BTP z odličnostjo po vsem svetu",
+    "description": "Strokovno SAP BTP svetovanje, ki zagotavlja najvišjo kakovost storitev po vsem svetu",
     "services": "Storitve",
     "fiori": "Razvoj Fiori",
-    "architecture": "Arhitektura BTP",
-    "integration": "Paket Integration Suite",
-    "ai": "Rešitve KI",
-    "knowledge": "Znanje",
-    "blogArticles": "Članki Bloga",
-    "caseStudies": "Študije Primerov",
+    "architecture": "BTP arhitektura",
+    "integration": "Integration Suite",
+    "ai": "UI rešitve",
+    "knowledge": "Koristne povezave",
+    "blogArticles": "Članki v blogu",
+    "caseStudies": "Primeri uspeha",
     "resources": "Viri",
     "company": "Podjetje",
-    "about": "O Nas",
+    "about": "O nas",
     "contact": "Kontakt",
     "careers": "Kariera",
     "blog": "Blog",
     "documentation": "Dokumentacija",
-    "whitepapers": "Tehnična Poročila",
-    "legal": "Pravni Napotki",
-    "privacy": "Politika Zasebnosti",
-    "terms": "Pogoji Uporabe",
+    "whitepapers": "Strokovne objave",
+    "legal": "Pravne informacije",
+    "privacy": "Politika zasebnosti",
+    "terms": "Pogoji uporabe",
     "copyright": "Vse pravice pridržane.",
-    "deployedOn": "Nastavljeno na Cloudflare",
-    "serviceRestriction": "Storitve niso dostopne v Avstraliji in Novi Zelandiji.",
-    "availableLanguages": "Dostopno v Vašem Jeziku"
+    "deployedOn": "Gostuje na Cloudflare",
+    "serviceRestriction": "Storitve niso na voljo v Avstraliji in na Novi Zelandiji.",
+    "availableLanguages": "Na voljo v vašem jeziku"
   },
   "common": {
-    "learnMore": "Izvedi več",
-    "backToHome": "Nazaj domov"
+    "learnMore": "Izvedite več",
+    "backToHome": "Nazaj na domov"
   },
   "capDevelopment": {
-    "badge": "Razvoj Oblačnih Aplikacij",
+    "badge": "Razvoj oblačnih aplikacij",
     "title": "Razvoj SAP CAP",
     "subtitle": "Storitve",
-    "description": "Razvoj sodobnih oblačnih aplikacij s SAP Cloud Application Programming Model za hiter in skalabilen razvoj na SAP BTP.",
-    "cta": "Začnite Svoj CAP Projekt →",
-    "servicesTitle": "Celovite Storitve Razvoja CAP",
-    "servicesSubtitle": "Od modeliranja podatkov do uvajanja - popolna strokovnost CAP za vaše poslovne aplikacije.",
-    "whyChoose": "Zakaj Izbrati TerraBT",
-    "whyChooseTitle": "Strokovni Razvoj CAP, ki Prinaša Rezultate",
-    "whyChooseDescription": "Naši certificirani razvojniki SAP CAP prinašajo leta izkušenj pri razvoju poslovnih aplikacij. Kombiniramo tehnično strokovno znanje s poslovnim razumom, da zagotovimo rešitve, ki dajejo rezultate.",
+    "description": "Ustvarjanje sodobnih oblačnih aplikacij z uporabo SAP Cloud Application Programming Model za hiter in skalabilen razvoj na SAP BTP.",
+    "cta": "Začnite projekt CAP →",
+    "servicesTitle": "Celovite storitve razvoja na CAP",
+    "servicesSubtitle": "Od modeliranja podatkov do uvedbe – popolna CAP ekspertiza za vaše poslovne aplikacije.",
+    "whyChoose": "Zakaj TerraBT?",
+    "whyChooseTitle": "Strokovni razvoj na CAP z zagotovljenimi rezultati",
+    "whyChooseDescription": "Naši certificirani razvijalci imajo dolgoletne izkušnje z ustvarjanjem poslovnih aplikacij. Združujemo tehnično odličnost z razumevanjem poslovnih procesov.",
     "features": {
       "fullStack": {
-        "title": "Celovit Razvoj CAP",
-        "description": "Razvoj aplikacij od konca do konca z okvirjem CAP.",
+        "title": "Full-Stack razvoj na CAP",
+        "description": "Celoten cikel razvoja aplikacij z uporabo CAP ogrodja.",
         "items": [
-          "Modeliranje podatkov CDS in opredelitve entitet",
-          "Opredelitev in izvedba storitve",
+          "CDS modeliranje podatkov in definicija entitete",
+          "Načrtovanje in implementacija storitev",
           "Razvoj lastne poslovne logike",
-          "Ustvarjanje vmesnika Fiori Elements",
-          "Podpora za CAP Node.js in Java runtime"
+          "Generiranje Fiori Elements vmesnikov",
+          "Podpora za Node.js in Java okolja"
         ]
       },
       "database": {
-        "title": "Integracija Podatkovne Baze",
-        "description": "Brezšivna integracija s SAP HANA Cloud in drugimi bazami podatkov.",
+        "title": "Integracija s podatkovnimi bazami",
+        "description": "Brezšivno delovanje s SAP HANA Cloud in drugimi bazami.",
         "items": [
-          "Lastni razvoj SAP HANA Cloud",
-          "Podpora PostgreSQL in SAP ASE",
-          "Migracija baze podatkov in upravljanje shem",
-          "Optimizacija poizvedb in uglaševanje zmogljivosti",
-          "Konfiguracija podatkovne baze z več najemniki"
+          "Native razvoj za SAP HANA Cloud",
+          "Podpora za PostgreSQL in SAP ASE",
+          "Migracija podatkov in upravljanje shem",
+          "Optimizacija poizvedb in zmogljivosti",
+          "Konfiguracija večzakupništva (multi-tenancy)"
         ]
       },
       "security": {
-        "title": "Varnost in Avtorizacija",
-        "description": "Varnost na ravni podjetja za aplikacije CAP.",
+        "title": "Varnost in pooblastila",
+        "description": "Implementacija varnostnih mehanizmov na ravni podjetja.",
         "items": [
-          "Nadzor dostopa na osnovi vloge (RBAC)",
-          "Integracija avtentifikacije (XSUAA, IAS)",
-          "Anotacije in omejitve avtorizacije",
-          "Varnost podatkov in varnost na ravni polja",
-          "Varna upravljanje poverilnic"
+          "Upravljanje dostopa na podlagi vlog (RBAC)",
+          "Integracija avtentikacije (XSUAA, IAS)",
+          "Nastavitve avtorizacijskih anotacij",
+          "Zasebnost na ravni polja",
+          "Varno upravljanje s poverilnicami"
         ]
       },
       "api": {
-        "title": "Razvoj Vmesnika API in Storitev",
-        "description": "Gradnja robustnih API-jev OData in REST s storitvami CAP.",
+        "title": "Razvoj API in storitev",
+        "description": "Ustvarjanje zanesljivih OData in REST API storitev.",
         "items": [
-          "Ustvarjanje storitve OData V2 in V4",
-          "Izvedba REST API",
+          "Razvoj OData V2 in V4 storitev",
+          "Implementacija RESTful API-jev",
           "Lastne akcije in funkcije",
-          "Omogočanje osnutkov za transakcijske aplikacije",
-          "Integracija zunanjih storitev in mashupe"
+          "Podpora za Draft način za transakcijske aplikacije",
+          "Integracija z zunanjimi storitvami"
         ]
       },
       "fiori": {
-        "title": "Integracija Fiori Elements",
-        "description": "Hitro razvoj vmesnika s Fiori Elements in CAP.",
+        "title": "Integracija s Fiori Elements",
+        "description": "Hiter razvoj vmesnikov na podlagi CAP.",
         "items": [
-          "Aplikacije List Report in Object Page",
+          "List Report in Object Page aplikacije",
           "Razvoj Analytical List Page (ALP)",
-          "Integracija aplikacij Freestyle Fiori",
-          "Anotacije vmesnika in prilagajanje",
-          "Odziven in prilagljiv dizajn"
+          "Integracija Freestyle Fiori aplikacij",
+          "UI anotacije in personalizacija",
+          "Odzivno načrtovanje za vse zaslone"
         ]
       },
       "cicd": {
         "title": "CI/CD in DevOps",
-        "description": "Avtomatizirane uvajanje in cevovodi neprekinjenega integriranja.",
+        "description": "Avtomatizacija uvedbe in procesov nadzora kakovosti.",
         "items": [
-          "Cloud Foundry in Kyma uvajanje",
-          "MTA (Multi-Target Application) gradnja",
-          "Avtomatizirano testiranje in vrata kakovosti",
-          "Nastavka cevovoda CI/CD (Jenkins, GitHub Actions)",
-          "Strategije napredovanja v več okoljih"
+          "Uvedba v Cloud Foundry in Kyma",
+          "Gradnja MTA aplikacij",
+          "Avtomatizirano testiranje in Quality Gates",
+          "Nastavitev cevovodov (Jenkins, GitHub Actions)",
+          "Strategije prehoda med okolji"
         ]
       }
     },
     "benefits": [
-      "Pospešen razvoj s dokazanimi vzorci CAP",
-      "Vgrajene najboljše prakse in arhitektura, pripravljena za podjetje",
-      "Skalabilne aplikacije, ki rastejo s vašim poslovanjem",
-      "Brezšivna integracija SAP S/4HANA",
-      "Strokovni vodstvo skozi celoten življenjski cikel razvoja"
+      "Pospešen razvoj s pomočjo CAP vzorcev",
+      "Sledenje najboljšim SAP praksam",
+      "Skalabilnost aplikacij glede na rast poslovanja",
+      "Brezšivna povezava s SAP S/4HANA",
+      "Strokovno spremljanje v vseh fazah"
     ]
   },
   "buildAppsPage": {
-    "badge": "Razvoj Brez Kode/Nizke Kode",
-    "title": "Aplikacije SAP Build",
-    "subtitle": "Storitve Razvoja",
-    "description": "Ustvarjanje profesionalnih poslovnih aplikacij z orodji brez kode/nizke kode za hitro digitalno transformacijo in poslovno agilnost.",
-    "cta": "Začnite Graditi Danes →",
-    "servicesTitle": "Popolne Rešitve SAP Build Apps",
-    "servicesSubtitle": "Od vizualnega razvoja do uvajanja v podjetju - omogočite svojim poslovnim uporabnikom.",
-    "whyChooseTitle": "Hiter Razvoj Aplikacij",
-    "whyChooseDescription": "SAP Build Apps omogoča poslovnim uporabnikom in razvojnikom ustvariti zmogljive aplikacije brez obsežnega kodiranja. Pospešite svojo digitalno transformacijo z orodji vizualnega razvoja.",
-    "implementationTitle": "Pristop k Izvedbi",
+    "badge": "No-code/Low-code razvoj",
+    "title": "SAP Build Apps",
+    "subtitle": "Storitve",
+    "description": "Ustvarjanje profesionalnih aplikacij z orodji no-code/low-code za povečanje agilnosti vašega poslovanja.",
+    "cta": "Začnite z ustvarjanjem aplikacij →",
+    "servicesTitle": "Rešitve na podlagi SAP Build Apps",
+    "servicesSubtitle": "Od vizualnega načrtovanja do industrijske uporabe.",
+    "whyChooseTitle": "Hitra dostava poslovnih aplikacij",
+    "whyChooseDescription": "SAP Build Apps omogoča poslovnim uporabnikom in razvijalcem ustvarjanje močnih orodij brez globokega znanja programiranja. Pospešite inovacije v svojem podjetju.",
+    "implementationTitle": "Naš pristop",
     "features": {
       "visual": {
-        "title": "Vizualni Razvoj",
-        "description": "Vmesnik Drag-and-Drop za hitro gradnjo aplikacij.",
+        "title": "Vizualno načrtovanje",
+        "description": "Drag-and-drop vmesnik za hitro ustvarjanje zaslonov.",
         "items": [
-          "Intuitiven vizualni graditelj strani",
-          "Knjižnica vnaprej zgrajenih komponent vmesnika",
-          "Odziven dizajnCanvas",
-          "Predogled in testiranje v realnem času",
-          "Prilagajanje teme in blagovna znamka"
+          "Intuitiven urejevalnik strani",
+          "Knjižnica vnaprej pripravljenih UI komponent",
+          "Odzivno načrtovanje",
+          "Predogled v realnem času",
+          "Blagovna znamka in teme"
         ]
       },
       "crossPlatform": {
-        "title": "Aplikacije za Več Platform",
-        "description": "Gradite enkrat, nameščajte povsod - splet, iOS in Android.",
+        "title": "Večplatformnost",
+        "description": "Razvoj enotne aplikacije za splet, iOS in Android.",
         "items": [
-          "Podpora Progressive Web App (PWA)",
-          "Ustvarjanje izvirnih mobilnih aplikacij",
-          "Optimizacija tablice in namizja",
-          "Zmožnosti podatkov zunaj interneta",
-          "Podpora za namestitev v trgovini aplikacij"
+          "Podpora PWA tehnologijam",
+          "Generiranje nativnih mobilnih gradenj",
+          "Optimizacija za namizja in tablice",
+          "Možnosti dela brez povezave",
+          "Pomoč pri objavi v App Store / Play Store"
         ]
       },
       "cloudNative": {
-        "title": "Integracija, Naravna za Oblak",
-        "description": "Brezšivna povezava s storitvami SAP BTP in podatki.",
+        "title": "Oblačna integracija",
+        "description": "Povezava s podatki in storitvami SAP BTP.",
         "items": [
-          "Integracija SAP S/4HANA Cloud",
-          "Povezanost storitve OData",
-          "Poraba storitve BTP",
-          "Avtentifikacija in avtorizacija",
+          "Integracija s SAP S/4HANA Cloud",
+          "Povezava OData virov",
+          "Uporaba BTP storitev",
+          "Nastavitve avtentikacije",
           "Sinhronizacija podatkov v realnem času"
         ]
       },
       "rapid": {
-        "title": "Hitro Prototipiranje",
-        "description": "Hitro potrdite ideje in iterirajte na podlagi povratnih informacij.",
+        "title": "Hitro prototipiranje",
+        "description": "Takojšnja preverba hipotez preko MVP.",
         "items": [
-          "Hiter razvoj MVP",
-          "Testiranje uporabnika in zbiranje povratnih informacij",
-          "Iterativno oblikovanje in izboljšave",
-          "Nadzor različic in vrnitev nazaj",
-          "Orodja za sodelovanje za ekipe"
+          "Kratki roki razvoja prve različice",
+          "Zbiranje povratnih informacij uporabnikov",
+          "Iterativno izboljševanje dizajna",
+          "Nadzor različic",
+          "Orodja za timsko delo"
         ]
       },
       "citizen": {
-        "title": "Omogočanje Razvijalca Državljana",
-        "description": "Omogočite poslovnim uporabnikom ustvarjanje aplikacij.",
+        "title": "Citizen Development",
+        "description": "Razvoj s strani poslovnih strokovnjakov.",
         "items": [
-          "Nizka krivulja učenja za razvijalce, ki niso razvijalci",
-          "Usmerjeni delovni tokovi razvoja",
-          "Knjižnica predlog in načrtov",
-          "Nadzor in nadzor kakovosti",
-          "Programi usposabljanja in omogočanja"
+          "Nizek prag vstopa za netehnične osebe",
+          "Navodila po korakih",
+          "Knjižnica predlog",
+          "Nadzor kakovosti in skladnosti",
+          "Programi usposabljanja in mentorstva"
         ]
       },
       "proCode": {
-        "title": "Razširljivost Pro-Code",
-        "description": "Razširite z lastno kodo, ko je to potrebno.",
+        "title": "Razširljivost preko kode",
+        "description": "Dodajanje lastne logike v JavaScriptu.",
         "items": [
-          "Lastna logika JavaScript",
-          "Zmožnosti integracije API",
-          "Razvoj lastne komponente",
-          "Napredne transformacije podatkov",
-          "Integracija knjižnic tretjih oseb"
+          "Lastna logika v jeziku JS",
+          "Kompleksne integracije preko API-jev",
+          "Razvoj lastnih komponent",
+          "Napredna transformacija podatkov",
+          "Povezava s knjižnicami tretjih oseb"
         ]
       }
     },
     "benefits": [
-      "10-krat hitrejši razvoj aplikacij",
-      "Zmanjšajte stroške razvoja za 60%",
-      "Omogočite poslovnim uporabnikom, da inovira",
-      "Brezšivna integracija ekosistema SAP",
-      "Varnost in upravljanje na ravni podjetja"
+      "Desetkratno pospešitev procesa razvoja",
+      "Znižanje stroškov razvoja do 60 %",
+      "Vključevanje poslovnih uporabnikov v inovacije",
+      "Brezšivno delo v SAP ekosistemu",
+      "Varnost na ravni podjetja"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Zahteve in Oblikovanje",
-        "description": "Delavnica za razumevanje poslovnih potreb in načrtovanje strukture aplikacije s projektnimi partnerji."
+        "title": "1. Analiza in načrtovanje",
+        "description": "Delavnica za določitev zahtev in načrtovanje strukture aplikacije."
       },
       "step2": {
-        "title": "2. Vizualni Razvoj",
-        "description": "Gradnja aplikacije s pomočjo vmesnika Drag-and-Drop z vnaprej zgrajenim komponento in predlogami."
+        "title": "2. Vizualni razvoj",
+        "description": "Sestavljanje aplikacije iz pripravljenih blokov in nastavitev logike."
       },
       "step3": {
-        "title": "3. Integracija Podatkov",
-        "description": "Povezava s sistemi SAP in zunanjimi viri podatkov z brezšivno avtentifikacijo."
+        "title": "3. Integracija podatkov",
+        "description": "Povezava s sistemi SAP in zunanjimi viri."
       },
       "step4": {
-        "title": "4. Testiranje in Izpopolnjevanje",
-        "description": "Testiranje sprejema uporabnika in iterativna izboljšanja na podlagi povratnih informacij."
+        "title": "4. Testiranje",
+        "description": "Preverba delovanja in končni popravki."
       },
       "step5": {
-        "title": "5. Uvajanje",
-        "description": "Namestitev na splet, iOS in Android z avtomatiziranim gradnjo in distribucijo."
+        "title": "5. Uvedba",
+        "description": "Objava aplikacije v produkcijsko okolje."
       },
       "step6": {
-        "title": "6. Usposabljanje in Podpora",
-        "description": "Usposabljanje končnih uporabnikov in stalna podpora za neprekinjeno izboljšanje."
+        "title": "6. Usposabljanje",
+        "description": "Usposabljanje osebja za delo z novim orodjem."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Avtomatizacija Procesa",
-    "title": "Avtomatizacija Procesov SAP Build",
+    "badge": "Avtomatizacija procesov",
+    "title": "SAP Build Process Automation",
     "subtitle": "Storitve",
-    "description": "Avtomatizacija poslovnih procesov z inteligentnima tokovoma dela in zmožnostmi avtomatizacije robotskih procesov za povečano učinkovitost.",
-    "cta": "Avtomatizirajte Vaše Procese →",
-    "servicesTitle": "Popolne Rešitve za Avtomatizacijo Procesa",
-    "servicesSubtitle": "Od preprostih tokov dela do kompleksne RPA - celovita strokovnost avtomatizacije.",
-    "whyChooseTitle": "Inteligentna Avtomatizacija Procesa",
-    "whyChooseDescription": "Pretvorite vaše poslovne operacije s SAP Build Process Automation. Združite upravljanje delovnega toka, RPA in KI za odličnost procesa od konca do konca.",
-    "implementationTitle": "Zemljevid Izvajanja",
+    "description": "Optimizacija poslovnih procesov s pomočjo inteligentnih delovnih tokov in RPA tehnologij.",
+    "cta": "Začnite z avtomatizacijo →",
+    "servicesTitle": "Rešitve za avtomatizacijo vašega poslovanja",
+    "servicesSubtitle": "Od enostavnih nalog do kompleksnih robotiziranih procesov.",
+    "whyChooseTitle": "Inteligenten pristop k avtomatizaciji",
+    "whyChooseDescription": "Združite Workflow Management, RPA in umetno inteligenco za doseganje operativne odličnosti.",
+    "implementationTitle": "Načrt izvedbe",
     "features": {
       "workflow": {
-        "title": "Upravljanje Delovnega Toka",
-        "description": "Oblikovanje in orkestracija kompleksnih poslovnih delovnih tokov.",
+        "title": "Upravljanje delovnih tokov",
+        "description": "Načrtovanje kompleksnih verig nalog.",
         "items": [
-          "Vizualni oblikovalnik delovnega toka",
-          "Logika odobravanja in usmerjanja",
-          "Upravljanje človeške naloge",
-          "Vzporedna in sekvencialna obdelava",
-          "Rokovanje z eskalacijo in rokom"
+          "Vizualni urejevalnik delovnih tokov",
+          "Logika potrjevanj in poti",
+          "Upravljanje uporabniških nalog",
+          "Vzporedna obdelava podatkov",
+          "Nadzor rokov in eskalacij"
         ]
       },
       "rpa": {
-        "title": "Avtomatizacija Robotskega Procesa",
-        "description": "Avtomatizacija ponavljajočih se nalog s programsko opremo robotov.",
+        "title": "Robotizacija (RPA)",
+        "description": "Avtomatizacija rutinskih opravil s programskimi roboti.",
         "items": [
-          "Avtomatizacija namizja in spleta",
-          "Preskrabljanje zaslona in pridobivanje podatkov",
-          "Integracija aplikacije brez API-jev",
-          "Obiskani in neobiskani roboti",
-          "Razporeditev in orkestracijo robota"
+          "Avtomatizacija namiznih in spletnih aplikacij",
+          "Zajemanje podatkov z zaslonov (Screen Scraping)",
+          "Delo z aplikacijami brez API-jev",
+          "Vodeni in avtonomni roboti",
+          "Orkestracija in načrtovanje botov"
         ]
       },
       "document": {
-        "title": "Obdelava Dokumentov",
-        "description": "Inteligentna ekstrakcija in klasifikacija dokumentov.",
+        "title": "Obdelava dokumentov",
+        "description": "Inteligentno zajemanje podatkov.",
         "items": [
-          "Ekstrakcija podatkov na podlagi KI",
-          "Klasifikacija in usmerjanje dokumentov",
-          "Obdelava na osnovi predloge",
-          "Podpora več oblik (PDF, slike, skeniranja)",
-          "Pravila za preverjanje in preverjanje"
+          "UI zajemanje informacij",
+          "Klasifikacija prejetih dokumentov",
+          "Delo na podlagi predlog",
+          "Podpora za PDF, slike, skene",
+          "Pravila za validacijo podatkov"
         ]
       },
       "approval": {
-        "title": "Tokovi Dela Odobravanja",
-        "description": "Racionalizacija procesov odobravanja v vaši organizaciji.",
+        "title": "Procesi potrjevanja",
+        "description": "Pospešitev sprejemanja odločitev v organizaciji.",
         "items": [
-          "Veće-stopenjske verige odobravanja",
-          "Logika pogojnega usmerjanja",
-          "Pravila delegiranja in zamenjave",
-          "Zmožnosti mobilnega odobravanja",
-          "Sistem obvestil in opomnikov"
+          "Večstopenjske verige potrjevanja",
+          "Pogojno usmerjanje",
+          "Delegiranje in zamenjava",
+          "Mobilno potrjevanje",
+          "Obvestila in opomniki"
         ]
       },
       "analytics": {
-        "title": "Analitika Procesa",
-        "description": "Pridobite vpoglede v zmogljivost procesa in ozka grla.",
+        "title": "Analitika procesov",
+        "description": "Iskanje ozkih grl in nadzor učinkovitosti.",
         "items": [
-          "Rudarjenje procesov in odkrivanje",
-          "Metriki zmogljivosti in KPI",
-          "Prepoznavanje ozkih grl",
-          "Nadzor skladnosti",
-          "Priporočila za neprekinjeno izboljšanje"
+          "Process Mining in Discovery",
+          "KPI in metrike zmogljivosti",
+          "Vizualizacija ozkih grl",
+          "Nadzor skladnosti s standardi",
+          "Priporočila za izboljšave"
         ]
       },
       "governance": {
-        "title": "Upravljanje in Skladnost",
-        "description": "Zagotovite, da se procesi skladajo s predpisi.",
+        "title": "Upravljanje in komplianca",
+        "description": "Nadzor skladnosti z regulatornimi zahtevami.",
         "items": [
-          "Revizijski sled in beleženje",
-          "Nadzor dostopa in varnost",
-          "Uveljavljanje pravil skladnosti",
-          "Nadzor različic in upravljanje sprememb",
-          "Nadzor in uveljavljanje SLA"
+          "Beleženje in revizija vseh dejanj",
+          "Upravljanje dostopa",
+          "Sledenje pravilnikom",
+          "Upravljanje različic in sprememb",
+          "Nadzor SLA"
         ]
       }
     },
     "benefits": [
-      "70-odstotno zmanjšanje časa ročne obdelave",
-      "99,9-odstotna natančnost pri avtomatiziranih nalogah",
-      "Hiter ROI v 3-6 mesecih",
-      "Izboljšana skladnost in revizijskost",
-      "Namensko podporo implementacije in optimizacijo"
+      "Skrajšanje časa obdelave do 70 %",
+      "99,9 % natančnost avtomatizacije",
+      "Povračilo naložbe (ROI) v 3–6 mesecih",
+      "Popolna preglednost in revizijska sled",
+      "Zmanjšanje operativnih tveganj"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Odkrivanje Procesa",
-        "description": "Analizirajte in dokumentirajte trenutne procese za prepoznavanje priložnosti avtomatizacije."
+        "title": "1. Discovery",
+        "description": "Analiza obstoječih procesov za prepoznavo scenarijev za robote."
       },
       "step2": {
-        "title": "2. Oblikovanje Avtomatizacije",
-        "description": "Zasnujte optimalno rešitev avtomatizacije z kombiniranjem zmožnosti delovnega toka, RPA in KI."
+        "title": "2. Načrtovanje rešitve",
+        "description": "Projektiranje ciljnega stanja z uporabo RPA in Workflow tehnologij."
       },
       "step3": {
-        "title": "3. Razvoj in Konfiguracija",
-        "description": "Gradnja in konfiguracija avtomatizacije z orodji SAP Build Process Automation."
+        "title": "3. Razvoj",
+        "description": "Nastavitev avtomatizacije v SAP Build okolju."
       },
       "step4": {
-        "title": "4. Testiranje in Preverjanje",
-        "description": "Celovito testiranje za zagotovitev natančnosti in zanesljivosti avtomatizacije."
+        "title": "4. Validacija",
+        "description": "Preverba pravilnosti delovanja v testnem okolju."
       },
       "step5": {
-        "title": "5. Uvajanje in Go-Live",
-        "description": "Uvajanje avtomatizacije v proizvodnjo s spremljanjem uvedbe in usposabljanjem uporabnikov."
+        "title": "5. Zagon",
+        "description": "Prehod v produkcijo in podpora uporabnikom."
       },
       "step6": {
-        "title": "6. Nadzor in Optimizacija",
-        "description": "Neprekinjeni nadzor in izboljšave na podlagi analitike zmogljivosti."
+        "title": "6. Optimizacija",
+        "description": "Nenehno izboljševanje na podlagi podatkov o delovanju."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Arhitektura in Oblikovanje",
+    "badge": "Arhitektura in dizajn",
     "title": "Arhitektura SAP BTP",
-    "subtitle": "in Storitve Oblikovanja",
-    "description": "Strateško načrtovanje arhitekture in oblikovanje za skalabilne, varne in visoko zmogljive rešitve SAP BTP. Gradimo okolja oblaka, prilagojene zahtevam vašega podjetja.",
-    "cta": "Razpravljajte o Vaših Potrebah Arhitekture →",
-    "servicesTitle": "Celovite Storitve Arhitekture",
-    "servicesSubtitle": "Od začetnega načrtovanja krajine do izvajanja varnosti pokrivamo vsak vidik vaše arhitekture SAP BTP.",
-    "whyChooseTitle": "Strokovnjak Arhitektura, ki Prinaša Rezultate",
-    "whyChooseDescription": "Naši certificirani arhitekti SAP BTP prinašajo leta izkušenj pri oblikovanju poslovnih rešitev za globalne organizacije. Kombiniramo najboljše prakse z inovacijami, da ustvarimo arhitekture, ki so preizkušene.",
+    "subtitle": "Celovite storitve",
+    "description": "Strateško načrtovanje in projektiranje varnih ter visoko zmogljivih rešitev na SAP BTP.",
+    "cta": "Pogovorite se o projektu →",
+    "servicesTitle": "Arhitekturno svetovanje",
+    "servicesSubtitle": "Od načrtovanja krajine do nastavitev varnosti.",
+    "whyChooseTitle": "Preizkušene izkušnje",
+    "whyChooseDescription": "Naši arhitekti imajo globoko znanje pri načrtovanju sistemov za globalne korporacije.",
     "features": {
       "landscape": {
-        "title": "Oblikovanje Krajine",
-        "description": "Celovita arhitektura krajine BTP, prilagojene vaše poslovne zahteve.",
+        "title": "Načrtovanje krajine",
+        "description": "Projektiranje strukture vašega BTP okolja.",
         "items": [
-          "Nastavka okolja s tremi stopnjami (Dev, Test, Production)",
-          "Struktura podračuna in organizacija",
-          "Dodelitev virov in načrtovanje zmogljivosti",
-          "Konfiguracija Cloud Foundry in Kyma runtime",
-          "Topologija omrežja in načrtovanje povezanosti"
+          "Nastavitve Dev/Test/Prod okolij",
+          "Hierarhija podračunov (subaccounts)",
+          "Kvofiranje virov",
+          "Nastavitve Cloud Foundry in Kyma",
+          "Omrežna topologija"
         ]
       },
       "security": {
-        "title": "Arhitektura Varnosti",
-        "description": "Oblikovanje varnosti na ravni podjetja za zaščito vašega okolja BTP in podatkov.",
+        "title": "Zaščita podatkov",
+        "description": "Zagotavljanje varnosti na ravni podjetja.",
         "items": [
-          "Strategija upravljanja identitete in dostopa (IAM)",
-          "Izvedba nadzora dostopa na osnovi vloge (RBAC)",
-          "Šifriranje podatkov in standardi skladnosti",
-          "Nadzor varnosti in zaznavanje groženj",
-          "Revizijsko beleženje in poročanje skladnosti"
+          "Strategija IAM (Identity & Access Management)",
+          "Vgradnja modela vlog (RBAC)",
+          "Šifriranje podatkov",
+          "Nadzor groženj",
+          "Revizija in poročanje"
         ]
       },
       "highAvailability": {
-        "title": "Visoka Razpoložljivost",
-        "description": "Zasnujte odporne sisteme z minimalnim časom izpada in največjo zanesljivostjo.",
+        "title": "Razpoložljivost",
+        "description": "Zmanjševanje izpadov in zanesljivost sistemov.",
         "items": [
-          "Strategije uvajanja v več regijah",
-          "Rešitve za okrevanje po nesreči in varnostno kopiranje",
-          "Uravnoteženje obremenitve in mehanizmi za prevzem",
-          "Načrtovanje kontinuitete poslovanja",
-          "Nadzor zmogljivosti in optimizacija"
+          "Multi-region strategije",
+          "Disaster Recovery in varnostne kopije",
+          "Uravnoteženje obremenitve",
+          "Načrtovanje neprekinjenega poslovanja",
+          "Optimizacija zmogljivosti"
         ]
       },
       "integrationSetup": {
-        "title": "Nastavka Paketa Integration Suite",
-        "description": "Popolna konfiguracija paketa Integration Suite za brezšivno povezanost sistema.",
+        "title": "Integration Suite",
+        "description": "Povezava vseh sistemov v enotno celoto.",
         "items": [
-          "Cloud Integration (CPI) nastavka in konfiguracija",
-          "Izvedba upravljanja API",
-          "Konfiguracija Odprenih Konektorjev",
-          "Uporaba Svetovalca Integracije",
-          "Uvajanje vnaprej pakirane vsebine integracije"
+          "Nastavitve SAP Integration Suite (CPI)",
+          "Vgradnja API Management",
+          "Open Connectors",
+          "Integration Advisor",
+          "Pripravljena vsebina"
         ]
       },
       "cloudConnector": {
-        "title": "Nastavka SAP Cloud Connector",
-        "description": "Varna povezanost med lokalnim in oblačnimi sistemom za integracijo hibridne krajine.",
+        "title": "SAP Cloud Connector",
+        "description": "Varen most med On-premise in oblakom.",
         "items": [
-          "Namestitev in konfiguracija Cloud Connector",
-          "Vzpostavitev varnega tunela med lokalnim in BTP",
-          "Nadzor dostopa in upravljanje varnostne grupe",
-          "Preslikava sistema in konfiguracija virtualnega gostitelja",
-          "Visoka razpoložljivost in nastavka za prevzem",
-          "Nadzor in odpravljanje težav s povezavami"
+          "Namestitev in Hardening CC",
+          "Tuneliranje podatkov",
+          "Access Control",
+          "Preslikava sistemov",
+          "High Availability za konektor",
+          "Troubleshooting"
         ]
       },
       "eventMeshSetup": {
-        "title": "Nastavka Event Mesh",
-        "description": "Izvedba arhitekture, usmerjene v dogodke za poslovne procese v realnem času.",
+        "title": "Event Mesh",
+        "description": "Dogodkovna interakcija storitev.",
         "items": [
-          "Zagotavljanje Event Mesh instance",
-          "Konfiguracija čakalne vrste in teme",
-          "Nastavka in upravljanje brokereage dogodkov",
-          "Pravila za usmerjanje in filtriranje sporočil",
-          "Nadzor in analitika dogodkov"
+          "Provisioning instanc",
+          "Vrste in teme",
+          "Upravljanje Event Brokerja",
+          "Pravila usmerjanja",
+          "Analitika dogodkov"
         ]
       },
       "ias": {
-        "title": "Nastavka IAS",
-        "description": "Konfiguracija storitve avtentifikacije identitete za varno upravljanje uporabnikov.",
+        "title": "SAP IAS",
+        "description": "Enotna vstopna točka za uporabnike.",
         "items": [
-          "Zagotavljanje in konfiguracija IAS tenant",
-          "Izvedba enotne prijave (SSO)",
-          "Nastavka večfaktorske avtentifikacije (MFA)",
-          "Integracija podjetnega ponudnika identitete",
-          "Zagotavljanje uporabnikov in upravljanje življenjskega cikla"
+          "Nastavitve Identity Authentication",
+          "Implementacija SSO",
+          "Nastavitev MFA",
+          "Integracija s korporativno IdP",
+          "Lifecycle uporabnikov"
         ]
       },
       "userAuth": {
-        "title": "Avtentifikacija Uporabnika in Vloge",
-        "description": "Celovito upravljanje uporabnikov in okvir avtorizacije.",
+        "title": "Avtorizacija",
+        "description": "Upravljanje pravic dostopa.",
         "items": [
-          "Opredelitev in upravljanje lastne vloge",
-          "Oblikovanje modela avtorizacije",
-          "Organizacija uporabniške skupine",
-          "Izvajanje varnosti na ravni aplikacije",
-          "Dodelitev vloge in delovni tokovi delegiranja"
+          "Lastne vloge in zbirke",
+          "Matrika pooblastil",
+          "Uporabniške skupine",
+          "Varnost na ravni aplikacij",
+          "Workflowi za dodeljevanje pravic"
         ]
       }
     },
     "benefits": [
-      "Zmanjšan čas izvajanja za 40% s dokazanimi vzorci arhitekture",
-      "Varnost na ravni podjetja v skladu z industrijski standardi",
-      "Skalabilna infrastruktura, ki raste s vašim poslovanjem",
-      "Proaktivne zmožnosti nadzora za kritične sisteme",
-      "Strokovni vodstvo certificiranih arhitektov SAP BTP"
+      "Pospešitev zagona projektov za 40 %",
+      "Skladnost z globalnimi varnostnimi standardi",
+      "Skalabilnost brez omejitev",
+      "Proaktivni nadzor sistemov",
+      "Podpora certificiranih arhitektov"
     ],
     "statistics": {
       "btpFocus": {
-        "value": "100%",
-        "label": "Osredotočeno na SAP BTP"
+        "value": "100 %",
+        "label": "Fokus na SAP BTP"
       },
       "experience": {
         "value": "15+",
-        "label": "Let Kombinirane Izkušnje"
+        "label": "Let izkušenj"
       },
       "countries": {
         "value": "40+",
-        "label": "Zastopane Države"
+        "label": "Držav prisotnosti"
       },
       "support": {
-        "value": "Globalno",
-        "label": "Ekipa Strokovnjakov"
+        "value": "Global",
+        "label": "Ekspertna mreža"
       }
     },
-    "whyChooseBadge": "Zakaj Izbrati TerraBT",
-    "ctaSectionBadge": "⚡ Začnite Svoj Projekt Danes",
-    "ctaSectionTitle1": "Pripravljen Graditi",
-    "ctaSectionTitle2": "Vašo Arhitekturo SAP BTP?",
-    "ctaSectionDescription": "Dogovorite se za brezplačno svetovanje z našimi arhitekti SAP BTP, da razpravljate o vaših potrebah in raziščete, kako vam lahko pomagamo pri uspehu.",
-    "ctaSectionButton1": "Dogovori Brezplačno Svetovanje →",
-    "ctaSectionButton2": "Oglejte Si Vse Storitve"
+    "whyChooseBadge": "Zakaj TerraBT?",
+    "ctaSectionBadge": "⚡ Začnite danes",
+    "ctaSectionTitle1": "Ste pripravljeni načrtovati",
+    "ctaSectionTitle2": "vašo ciljno arhitekturo?",
+    "ctaSectionDescription": "Stopite v stik za poglobljen pogovor o vaših izzivih na SAP BTP.",
+    "ctaSectionButton1": "Rezervirajte svetovanje →",
+    "ctaSectionButton2": "Vse naše storitve"
   },
   "fioriDevelopment": {
-    "badge": "Razvoj Aplikacij",
-    "title": "Aplikacija SAP Fiori",
-    "subtitle": "Storitve Razvoja",
-    "description": "Razvoj sodobnih, odzivnih aplikacij Fiori, ki zagotavljajo izjemne izkušnje uporabnikov na vseh napravah. Od koncepta do uvajanja ustvarjamo lepe, zmogljive aplikacije z najnovejšimi tehnologijami SAP.",
-    "cta": "Začnite Svoj Projekt Fiori →",
-    "servicesTitle": "Popolne Rešitve za Razvoj Fiori",
-    "servicesSubtitle": "Storitve razvoja Fiori od konca do konca od oblikovanja do uvajanja in naprej.",
-    "whyChooseTitle": "Strokovnjaki Fiori, ki Zagotavljajo Odličnost",
-    "whyChooseDescription": "Naši razvojniki, certificirani s SAP, se specializirajo v gradnji poslovnih aplikacij Fiori. Kombiniramo tehnično strokovno znanje s dizajnom razmišljanja, da ustvarimo aplikacije, ki jih imajo uporabniki radi.",
+    "badge": "Razvoj UI",
+    "title": "Razvoj SAP Fiori",
+    "subtitle": "Storitve",
+    "description": "Ustvarjanje sodobnih vmesnikov. Od koncepta do zagona — visoko zmogljive aplikacije na SAPUI5 skladu.",
+    "cta": "Zaženite Fiori projekt →",
+    "servicesTitle": "Celoten cikel razvoja Fiori",
+    "servicesSubtitle": "Od dizajna do podpore.",
+    "whyChooseTitle": "Mojstri uporabniške izkušnje",
+    "whyChooseDescription": "Ustvarjamo aplikacije, ki poenostavijo delo in povečajo zvestobo uporabnikov.",
     "features": {
       "customDev": {
-        "title": "Razvoj Lastne Aplikacije Fiori",
-        "description": "Gradnja prilagojenih aplikacij Fiori, ki so popolno primerne za vaše poslovne zahteve.",
+        "title": "Custom razvoj",
+        "description": "Aplikacije za vaše edinstvene poslovne primere.",
         "items": [
-          "Strokovnost ogrodja SAPUI5",
-          "Aplikacije Fiori Elements in Freestyle",
-          "Integracija storitve OData",
-          "Odziven dizajn za vse naprave",
-          "Lastni nadzorniki in komponente"
+          "Globoko poznavanje SAPUI5",
+          "Elements & Freestyle pristopi",
+          "OData integracija",
+          "Odzivno načrtovanje",
+          "Lastni kontrolniki"
         ]
       },
       "uiux": {
-        "title": "Oblikovanje Vmesnika/Uporabniške Izkušnje",
-        "description": "Ustvarite intuitivne, lepe vmesnike po smernicah oblikovanja SAP Fiori.",
+        "title": "UI/UX dizajn",
+        "description": "Slogovno dovršeni vmesniki po SAP smernicah.",
         "items": [
-          "Skladnost s smernicami oblikovanja SAP Fiori",
-          "Raziskava uporabnika in razvoj osebe",
-          "Žičnate skice in prototipiranje",
-          "Skladnost dostopnosti (WCAG)",
-          "Prilagajanje teme in blagovna znamka"
+          "Fiori Design Principles",
+          "User Research",
+          "Wireframing",
+          "WCAG (Accessibility)",
+          "Theming & Branding"
         ]
       },
       "performance": {
-        "title": "Optimizacija Zmogljivosti",
-        "description": "Zagotovite, da se vaše aplikacije Fiori hitro nalagajo in gladko delujejo na kateri koli napravi.",
+        "title": "Optimizacija",
+        "description": "Hitrost delovanja je naša prioriteta.",
         "items": [
-          "Optimizacija kode in minifikacija",
-          "Izvedba lenivega nalaganja",
-          "Zmanjšanje velikosti paketa",
-          "Optimizacija zahtevka omrežja",
-          "Nadzor in analitika zmogljivosti"
+          "Minification & Optimization",
+          "Lazy Loading",
+          "Bundle size control",
+          "Network requests tuning",
+          "Obremenitveno testiranje"
         ]
       },
       "mobile": {
-        "title": "Razvoj v Mobilnem Prvem",
-        "description": "Gradite Fiori aplikacije, optimizirane za mobilne uporabnike in scenarije brez interneta.",
+        "title": "Mobile-first",
+        "description": "Delovanje na kateri koli napravi.",
         "items": [
-          "Odziven in prilagljiv dizajn",
-          "Interakcije, optimizirane za dotik",
-          "Značilnosti specifične za mobilne naprave (kamera, GPS)",
-          "Sinhronizacija podatkov zunaj interneta",
-          "Zmožnosti Progressive Web App (PWA)"
+          "Adaptive UX",
+          "Touch optimization",
+          "Integracija kamere/GPS",
+          "Offline način",
+          "PWA možnosti"
         ]
       },
       "integration": {
-        "title": "Integracija in Testiranje",
-        "description": "Brezšivna integracija ozadja s celovito testno pokritostjo.",
+        "title": "Backend povezava",
+        "description": "Integracija z jedrom SAP sistema.",
         "items": [
-          "Ustvarjanje spletnega mesta SAP Gateway in OData",
-          "Integracija sistema ozadja",
-          "Enota in integracijska testiranja",
-          "Avtomatizacija testa od konca do konca",
-          "Stalno integriranje/nameščanje (CI/CD)"
+          "SAP Gateway / OData",
+          "S/4HANA integracija",
+          "Unit & Integration testi",
+          "E2E avtomatizacija",
+          "CI/CD cevovodi"
         ]
       },
       "support": {
-        "title": "Usposabljanje in Podpora",
-        "description": "Omogočite svojemu timu znanje in stalno podporo za vzdrževanje.",
+        "title": "Usposabljanje",
+        "description": "Prenos znanja na vašo ekipo.",
         "items": [
-          "Delavnice za usposabljanje razvijalcev",
-          "Dokumentacija najboljših praks",
-          "Pregled kode in zagotovitev kakovosti",
-          "Tekoče vzdrževanje in posodobitve",
-          "Celovita predaja v proizvodnjo"
+          "Delavnice za razvijalce",
+          "Best Practices priročniki",
+          "Code Review",
+          "Načrtovano vzdrževanje",
+          "Predaja projekta"
         ]
       }
     },
     "benefits": [
-      "Sodobni, intuitivni vmesniki, ki povečajo sprejetost uporabnika",
-      "Hitrejši razvoj s ponovno uporabljavami komponentami in predlogami",
-      "Skladnost med napravami, ki zagotavlja nemoteno izkušnjo",
-      "Razvojniki, certificirani s SAP, s poglobljenim znanjem Fiori",
-      "Zmanjšani stroški usposabljanja z znanim, doslednim UX"
+      "Povečanje produktivnosti uporabnikov",
+      "Pospešitev razvoja s ponovno uporabo komponent",
+      "Enoten UX na vseh napravah",
+      "Certificirani strokovnjaki",
+      "Zmanjšanje stroškov usposabljanja"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Aplikacij Fiori Dostavljeno"
+        "label": "Uspešnih projektov"
       },
       "satisfaction": {
-        "value": "95%",
-        "label": "Stopnja Zadovoljstva Uporabnika"
+        "value": "95 %",
+        "label": "Zadovoljnih strank"
       },
       "timeToMarket": {
-        "value": "30%",
-        "label": "Hitrejši Čas do Trga"
+        "value": "30 %",
+        "label": "Hitrejši zagon"
       },
       "responsive": {
-        "value": "100%",
-        "label": "Odziven Mobile"
+        "value": "100 %",
+        "label": "Mobile ready"
       }
     },
-    "whyChooseBadge": "Zakaj Izbrati TerraBT",
-    "ctaSectionBadge": "⚡ Razpoložljiva Omejena Mesta Razvoja",
-    "ctaSectionTitle1": "Pripravljen Graditi",
-    "ctaSectionTitle2": "Naslednjo Aplikacijo Fiori?",
-    "ctaSectionDescription": "Razpravljajmo o vaših zahtevah in ustvarimo lepo, visoko zmogljivo aplikacijo Fiori, ki jo bodo uporabniki imali radi.",
-    "ctaSectionButton1": "Pridobi Brezplačno Ponudbo →",
-    "ctaSectionButton2": "Raziščite Druge Storitve"
+    "whyChooseBadge": "Prednosti TerraBT",
+    "ctaSectionBadge": "⚡ TerminI so omejeni",
+    "ctaSectionTitle1": "Začnimo z delom na",
+    "ctaSectionTitle2": "vaši novi Fiori aplikaciji?",
+    "ctaSectionDescription": "Pogovorimo se o vaših idejah in jih spremenimo v močno orodje za vaše poslovanje.",
+    "ctaSectionButton1": "Pridobite oceno projekta →",
+    "ctaSectionButton2": "Ostale storitve"
   },
   "offlinePWA": {
-    "badge": "Progresivne Spletne Aplikacije",
-    "title": "Aplikacije Offline PWA",
+    "badge": "Modern Web",
+    "title": "Offline PWA rešitve",
     "subtitle": "za SAP BTP",
-    "description": "Progresivne spletne aplikacije z zmožnostmi brez interneta za nemoteno izkušnjo uporabnika povsod. Gradite aplikacije, ki delujejo popolno bodisi v internetu bodisi brez njega in zagotavljate izkušnje izvirne aplikacije preko spleta.",
-    "cta": "Gradite Vašo PWA →",
-    "servicesTitle": "Popolne Storitve Razvoja PWA",
-    "servicesSubtitle": "Od arhitekture brez interneta do obvestil s potiskom gradimo PWA-je, ki se primerjajo z izvirnimi aplikacijami.",
-    "whyChooseBadge": "Prednost PWA",
-    "whyChooseTitle": "Izvirna Izkušnja, Enostavnost Spleta",
-    "whyChooseDescription": "Progresivne spletne aplikacije kombinirajo najboljše iz spleta in izvirnih aplikacij. Brez odobravanja trgovine aplikacij, takojšnjih posodobitev in delujejo na vseh napravah - vse to s podobno izkušnjo aplikacije.",
+    "description": "Aplikacije, ki delujejo brez interneta. Nativna izkušnja preko brskalnika.",
+    "cta": "Ustvarite PWA →",
+    "servicesTitle": "Razvoj PWA",
+    "servicesSubtitle": "Od offline arhitekture do Push obvestil.",
+    "whyChooseBadge": "Zakaj PWA?",
+    "whyChooseTitle": "Učinkovitost spleta, moč nativnih aplikacij",
+    "whyChooseDescription": "Brez trgovin z aplikacijami, takojšnje posodobitve, delo brez povezave.",
     "features": {
       "offlineFirst": {
-        "title": "Arhitektura Brez Interneta Prvič",
-        "description": "Oblikovanje aplikacij, ki delujejo nemoteno tudi brez povezave do interneta.",
+        "title": "Offline-First",
+        "description": "Delajte tam, kjer ni omrežja.",
         "items": [
-          "Izvedba delavca storitve",
-          "Strategije predpomnjenja podatkov brez interneta",
-          "Upravljanje IndexedDB in lokalnega shranjevanja",
-          "Zmožnosti sinhronizacije ozadja",
-          "Strategije razreševanja konfliktov"
+          "Service Workers",
+          "Pametno predpomnjenje",
+          "IndexedDB shramba",
+          "Background Sync",
+          "Reševanje konfliktov"
         ]
       },
       "dataSync": {
-        "title": "Sinhronizacija Podatkov",
-        "description": "Inteligentni mehanizmi sinhronizacije za ohranitev podatkov, doslednih na napravah.",
+        "title": "Sinhronizacija",
+        "description": "Konsistentnost podatkov ob vzpostavitvi povezave.",
         "items": [
-          "Avtomatična sinhronizacija ozadja",
-          "Delta sinhronizacija za učinkovit prenos podatkov",
-          "Zaznavanje in razreševanje konfliktov",
-          "Optimistični posodobljeni vmesniki",
-          "Mehanizmi ponovitve in obdelava napak"
+          "Samodejni prenos v ozadju",
+          "Delta sinhronizacija",
+          "Zaznava konfliktov",
+          "Optimistic UI",
+          "Retry logika"
         ]
       },
       "pwaFeatures": {
-        "title": "Značilnosti Progresivne Spletne Aplikacije",
-        "description": "Izkušnja, podobna izvirni aplikaciji, s sodobnimi zmožnostmi spleta.",
+        "title": "PWA funkcije",
+        "description": "Vse zmožnosti mobilnih naprav.",
         "items": [
-          "Konfiguracija manifestacije aplikacije",
-          "Dodaj funkcionalnost domačega zaslona",
-          "Podpora obvestil s potiskom",
-          "Integracija kamere in GPS",
-          "Arhitektura lupine aplikacije"
+          "Web App Manifest",
+          "Add to Home Screen",
+          "Push obvestila",
+          "Delo s kamero/GPS",
+          "App Shell model"
         ]
       },
       "performance": {
-        "title": "Optimizacija Zmogljivosti",
-        "description": "Bliskovito hitro nalaganje in gladke prehode brez interneta.",
+        "title": "Hitrost",
+        "description": "Takojšen odziv vmesnika.",
         "items": [
-          "Predpomnjenje kritičnih virov",
-          "Lenivo nalaganje za slike in vsebino",
-          "Delitev kode in pakiranje",
-          "Stiskanje in minifikacija",
-          "Nadzor in analitika zmogljivosti"
+          "Pre-caching virov",
+          "Lazy loading",
+          "Code splitting",
+          "Stiskanje vsebine",
+          "Analitika hitrosti"
         ]
       },
       "security": {
-        "title": "Varnost in Skladnost",
-        "description": "Varno shranjevanje in prenos podatkov brez interneta.",
+        "title": "Zaščita",
+        "description": "Šifriranje podatkov na napravi.",
         "items": [
-          "Šifriranje podatkov v mirovanju",
-          "Varna avtentifikacijska žetona",
-          "Uveljavljanje HTTPS",
-          "Politika varnosti vsebine (CSP)",
-          "Redne revizije varnosti"
+          "Encryption at rest",
+          "Secure Tokens",
+          "HTTPS enforcing",
+          "CSP politike",
+          "Security revizija"
         ]
       },
       "onlineEnhancement": {
-        "title": "Izboljšava V Internetu",
-        "description": "Izboljšana funkcionalnost, če je povezava na razpolago.",
+        "title": "Oblačne funkcije",
+        "description": "Razširjene možnosti ob povezavi v omrežje.",
         "items": [
-          "Posodobljive obvestila in obvestila v realnem času",
-          "Varnostna kopija v oblak in obnovitev",
-          "Sinhronizacija z več napravami",
-          "Analitika in telemetrija",
-          "Zaznavanje značilnosti in progresivna izboljšava"
+          "Real-time posodobitve",
+          "Cloud Backup",
+          "Sinhronizacija med napravami",
+          "Telemetrija",
+          "Progressive Enhancement"
         ]
       }
     },
     "benefits": [
-      "Delujte povsod, kadar koli - tudi brez interneta",
-      "Izboljšana izkušnja uporabnika s takojšnjim nalaganjem",
-      "Zmanjšani stroški strežnika z učinkovitim predpomnjenim",
-      "Višje stopnje pretvorbe iz izkušnje, podobne aplikaciji",
-      "Boljše engagement z obvestili s potiskom"
+      "Delajte kjer koli na svetu",
+      "Takojšen odziv aplikacije",
+      "Varčevanje s podatki",
+      "Rast angažiranosti (Push)",
+      "Enostavno vzdrževanje in posodabljanje"
     ],
     "statistics": {
       "offlineCapability": {
-        "value": "100%",
-        "label": "Zmožnost Brez Interneta"
+        "value": "100 %",
+        "label": "Dostopnost brez povezave"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Hitrejši Čas Nalaganja"
+        "label": "Hitrejše nalaganje"
       },
       "dataReduction": {
-        "value": "50%",
-        "label": "Zmanjšana Poraba Podatkov"
+        "value": "50 %",
+        "label": "Prihranek podatkov"
       },
       "engagement": {
-        "value": "80%",
-        "label": "Višji Engagement"
+        "value": "80 %",
+        "label": "Rast aktivnosti"
       }
     },
-    "ctaSectionBadge": "⚡ Omogočite Zmožnosti Brez Interneta Danes",
-    "ctaSectionTitle1": "Pripravljen Graditi",
-    "ctaSectionTitle2": "Vašo PWA Brez Interneta Prvič?",
-    "ctaSectionDescription": "Ustvarimo progresivno spletno aplikacijo, ki deluje brezhibno brez interneta in zagotavlja izkušnjo izvirne aplikacije vašim uporabnikom.",
-    "ctaSectionButton1": "Začnite Svoj Projekt PWA →",
-    "ctaSectionButton2": "Oglejte Si Vse Storitve"
+    "ctaSectionBadge": "⚡ Offline dostop že danes",
+    "ctaSectionTitle1": "Je vaše poslovanje pripravljeno na",
+    "ctaSectionTitle2": "Offline-First tehnologijo?",
+    "ctaSectionDescription": "Ustvarili bomo rešitev, ki vaših zaposlenih na terenu nikoli ne bo pustila na cedilu.",
+    "ctaSectionButton2": "Seznam storitev"
   },
   "databaseManagement": {
-    "badge": "Upravljanje Podatkov",
-    "title": "Baza Podatkov SAP BTP",
-    "subtitle": "Storitve Upravljanja",
-    "description": "Učinkovit dizajn podatkovne baze, optimizacija in upravljanje za zmogljive aplikacije SAP BTP. Strokovne storitve za podatkovne baze SAP HANA Cloud, PostgreSQL in SAP ASE.",
-    "cta": "Optimizirajte Svojo Bazo Podatkov →",
-    "servicesTitle": "Popolne Rešitve za Upravljanje Podatkovne Baze",
-    "servicesSubtitle": "Od načrtovanja do optimizacije, varnosti do okrevanja - celovita strokovnost baze podatkov.",
+    "badge": "Upravljanje podatkov",
+    "title": "Zbirka podatkov SAP BTP",
+    "subtitle": "Storitve upravljanja",
+    "description": "Učinkovito načrtovanje, optimizacija in upravljanje zbirk podatkov za visoko zmogljive aplikacije SAP BTP. Strokovne storitve za SAP HANA Cloud, PostgreSQL in SAP ASE.",
+    "cta": "Optimizirajte svojo zbirko podatkov →",
+    "servicesTitle": "Celovite rešitve za upravljanje zbirk podatkov",
+    "servicesSubtitle": "Od načrtovanja do optimizacije, varnosti do obnovitve – popolno strokovno znanje o zbirkah podatkov.",
     "whyChooseTitle": "Zmogljivost, Varnost, Zanesljivost",
-    "whyChooseDescription": "Naši strokovnjaki za bazo podatkov prinašajo poglobljeno strokovno znanje tehnologij baze podatkov SAP BTP. Zagotavljamo, da so vaši podatki hitri, varni in vedno dostopni, ko jih potrebujete.",
+    "whyChooseDescription": "Naši specialisti za zbirke podatkov prinašajo globoko znanje o tehnologijah SAP BTP. Zagotavljamo, da so vaši podatki hitri, varni in vedno na voljo.",
     "features": {
       "design": {
-        "title": "Oblikovanje Baze Podatkov in Modeliranje",
-        "description": "Učinkovit dizajn sheme podatkovne baze, optimiziran za aplikacije SAP BTP.",
+        "title": "Načrtovanje in modeliranje zbirk podatkov",
+        "description": "Učinkovita zasnova sheme zbirke podatkov, optimizirana za aplikacije SAP BTP.",
         "items": [
-          "Dizajn baze podatkov SAP HANA Cloud",
+          "Načrtovanje zbirk podatkov SAP HANA Cloud",
           "Konfiguracija PostgreSQL in SAP ASE",
-          "Modeliranje povezav entitet",
+          "Modeliranje odnosov med entitetami",
           "Strategije normalizacije in denormalizacije",
-          "Strategije indeksiranja in delitve"
+          "Strategije indeksiranja in particioniranja"
         ]
       },
       "optimization": {
-        "title": "Optimizacija Zmogljivosti",
-        "description": "Povečajte zmogljivost baze podatkov za bliskovito hitro izvedbo poizvedb.",
+        "title": "Optimizacija zmogljivosti",
+        "description": "Povečajte zmogljivost zbirke podatkov za bliskovito izvajanje poizvedb.",
         "items": [
-          "Optimizacija in uglaševanje poizvedb",
-          "Analiza in priporočila za indeks",
-          "Optimizacija načrta izvedbe",
+          "Optimizacija in prilagajanje poizvedb",
+          "Analiza indeksov in priporočila",
+          "Optimizacija izvedbenih načrtov",
           "Konfiguracija pomnilnika in predpomnilnika",
-          "Nadzor in profiliranje zmogljivosti"
+          "Spremljanje in profiliranje zmogljivosti"
         ]
       },
       "security": {
-        "title": "Varnost in Skladnost",
+        "title": "Varnost in skladnost",
         "description": "Zaščitite svoje podatke z varnostnimi ukrepi na ravni podjetja.",
         "items": [
-          "Šifriranje podatkov v mirovanju in pri prenosu",
-          "Varnost na ravni vrstice in stolpca",
-          "Izvedba revizijskega sleda",
-          "Zahteve GDPR in skladnosti",
-          "Šifriranje varnostne kopije in varno shranjevanje"
+          "Šifriranje podatkov v mirovanju in med prenosom",
+          "Varnost na ravni vrstic in stolpcev",
+          "Implementacija revizijske sledi",
+          "Skladnost z GDPR in drugimi zahtevami",
+          "Šifriranje varnostnih kopij in varno shranjevanje"
         ]
       },
       "backup": {
-        "title": "Varnostna Kopija in Okrevanje",
-        "description": "Celovito načrtovanje okrevanja po nesreči in kontinuitete poslovanja.",
+        "title": "Varnostno kopiranje in obnovitev",
+        "description": "Celovito načrtovanje okrevanja po nesreči in neprekinjenega poslovanja.",
         "items": [
-          "Načrtovana samodejno varnostne kopije",
-          "Zmožnosti okrevanja v času",
+          "Avtomatizirano načrtovanje varnostnega kopiranja",
+          "Zmožnost obnovitve na določeno časovno točko",
           "Postopki okrevanja po nesreči",
           "Konfiguracija visoke razpoložljivosti",
-          "Replikacija v več regijah"
+          "Replikacija v več regij"
         ]
       },
       "migration": {
-        "title": "Migracija Podatkov",
-        "description": "Brezšivna migracija podatkov iz starih sistemov na SAP BTP.",
+        "title": "Migracija podatkov",
+        "description": "Brezšivna migracija podatkov iz starejših sistemov na SAP BTP.",
         "items": [
           "Ekstrakcija in transformacija podatkov",
           "Strategija in načrtovanje migracije",
           "Tehnike migracije brez izpada",
-          "Preverjanje in preverjanje podatkov",
-          "Postopki za vrnitev in testiranje"
+          "Validacija in preverjanje podatkov",
+          "Postopki povrnitve in testiranje"
         ]
       },
       "monitoring": {
-        "title": "Nadzor in Vzdrževanje",
-        "description": "Proaktivni nadzor in vzdrževanje za optimalno zdravje podatkovne baze.",
+        "title": "Spremljanje in vzdrževanje",
+        "description": "Proaktivno spremljanje in vzdrževanje za optimalno zdravje zbirke podatkov.",
         "items": [
-          "Nadzor zmogljivosti v realnem času",
-          "Samodejni alarmi in obvestila",
+          "Spremljanje zmogljivosti v realnem času",
+          "Samodejno obveščanje in opozarjanje",
           "Preverjanje zdravja in diagnostika",
-          "Načrtovanje zmogljivosti in napovedovanje",
-          "Upravljanje popravkov in posodobitve"
+          "Načrtovanje kapacitet in napovedovanje",
+          "Upravljanje popravkov in posodabljanje"
         ]
       }
     },
     "benefits": [
-      "Do 10-krat hitrejša zmogljivost poizvedb z optimizacijo",
-      "99,99-odstotna razpoložljivost z visoko razpoložljivo konfiguracija",
-      "Zmanjšani stroški shranjevanja prek učinkovitega oblikovanja",
-      "Pripravljena skladnost z vgrajenimi varnostnimi zmožnostmi",
-      "Proaktivni nadzor in strokovni vodstvo"
+      "Do 10-krat hitrejše poizvedbe z optimizacijo",
+      "99,99 % razpoložljivost s konfiguracijo HA",
+      "Zmanjšani stroški shranjevanja z učinkovitim načrtovanjem",
+      "Skladnost s standardi z vgrajenimi varnostnimi funkcijami",
+      "Proaktivno spremljanje in strokovno vodenje"
     ],
-    "whyChooseBadge": "Odličnost Baze Podatkov",
+    "whyChooseBadge": "Odličnost v podatkih",
     "statistics": {
       "uptime": {
-        "value": "99,99%",
-        "label": "Garancija Razpoložljivosti"
+        "value": "99,99 %",
+        "label": "Garancija razpoložljivosti"
       },
       "performance": {
         "value": "10x",
-        "label": "Izboljšanje Zmogljivosti"
+        "label": "Izboljšanje zmogljivosti"
       },
       "security": {
-        "value": "100%",
-        "label": "Varnost Podatkov"
+        "value": "100 %",
+        "label": "Varnost podatkov"
       },
       "monitoring": {
-        "value": "100%",
-        "label": "Strokovni Vodstvo"
+        "value": "100 %",
+        "label": "Strokovno vodenje"
       }
     },
-    "ctaSectionBadge": "Optimizirajte Zmogljivost Vaše Baze Podatkov",
-    "ctaSectionTitle1": "Pripravljen Povečati",
-    "ctaSectionTitle2": "Zmogljivost Vaše Baze Podatkov?",
-    "ctaSectionDescription": "Pridobite brezplačno preverko zdravja baze podatkov in odkrijte priložnosti za optimizacijo, ki bi lahko pretvorile zmogljivost vaše aplikacije.",
-    "ctaSectionButton1": "Pridobi Brezplačno Oceno Baze Podatkov →",
-    "ctaSectionButton2": "Raziščite Vse Storitve"
+    "ctaSectionBadge": "Optimizirajte zmogljivost svoje zbirke podatkov",
+    "ctaSectionTitle1": "Ste pripravljeni povečati",
+    "ctaSectionTitle2": "zmogljivost svoje zbirke podatkov?",
+    "ctaSectionDescription": "Zagotovite si brezplačen pregled zdravja zbirke podatkov in odkrijte priložnosti za optimizacijo, ki bi lahko transformirale zmogljivost vaše aplikacije.",
+    "ctaSectionButton1": "Brezplačna ocena zbirke podatkov →",
+    "ctaSectionButton2": "Raziščite vse storitve"
   },
   "designThinking": {
-    "badge": "Inovacija in Strategija",
-    "title": "Oblikovanje v Razmišljanju",
-    "subtitle": "za Inovacijo SAP BTP",
-    "description": "Pristop k oblikovanju, osredotočen na uporabnika, za ustvarjanje inovativnih rešitev SAP BTP, ki rešavajo prave poslovne izzive. Vam pomagamo odkrivati prave probleme, ki jih je treba rešiti in graditi rešitve, ki jih imajo uporabniki radi.",
-    "cta": "Dogovori Oblikovalski Delavnico →",
-    "servicesTitle": "Naš Proces Oblikovanja Razmišljanja",
-    "servicesSubtitle": "Dokazana metodologija za inovacijo in reševanje težav v projektih SAP BTP.",
-    "whyChooseTitle": "Inovacija, ki Ustvari Pravo Vrednost",
-    "whyChooseDescription": "Oblikovanje razmišljanja preoblikuje način, kako pristopite k projektom SAP BTP. S poudarjanjem potreb uporabnika in hitro iteracijo vam pomagamo graditi rešitve, ki zagotavljajo merljivo poslovno vrednost.",
+    "badge": "Inovacije in strategija",
+    "title": "Design Thinking",
+    "subtitle": "za inovacije SAP BTP",
+    "description": "Na uporabnika osredotočen pristop k oblikovanju inovativnih rešitev SAP BTP, ki rešujejo resnične poslovne izzive. Pomagamo vam odkriti prave težave in zgraditi rešitve, ki jih imajo uporabniki radi.",
+    "cta": "Načrtujte Design Thinking delavnico →",
+    "servicesTitle": "Naš postopek Design Thinking",
+    "servicesSubtitle": "Preverjena metodologija za inovacije in reševanje težav v projektih SAP BTP.",
+    "whyChooseTitle": "Inovacije, ki ustvarjajo resnično vrednost",
+    "whyChooseDescription": "Design Thinking spreminja vaš pristop k projektom SAP BTP. Z osredotočanjem na potrebe uporabnikov in hitro ponavljanje vam pomagamo zgraditi rešitve, ki prinašajo merljivo poslovno vrednost.",
     "features": {
       "empathy": {
-        "title": "Raziskava Uporabnika in Empatija",
-        "description": "Globoko razumevanje potreb, težav in motivacij vaših uporabnikov.",
+        "title": "Raziskovanje uporabnikov in empatija",
+        "description": "Globoko razumevanje potreb, težav in motivacije vaših uporabnikov.",
         "items": [
-          "Intervjuji uporabnika in vključitev projektnih partnerjev",
-          "Razvoj osebe in preslikava poti",
-          "Kontekstna preverka in opazovanje",
-          "Prepoznavanje težav in priložnosti",
-          "Delavnice za preslikavo empatije"
+          "Intervjuji z uporabniki in deležniki",
+          "Razvoj person in mapiranje poti",
+          "Kontekstualno poizvedovanje in opazovanje",
+          "Identifikacija težav in priložnosti",
+          "Delavnice mapiranja empatije"
         ]
       },
       "define": {
-        "title": "Opredelitev Problema",
-        "description": "Jasna opredelitev pravih problemov za reševanje za največji vpliv na poslovanje.",
+        "title": "Definicija težave",
+        "description": "Jasno definirajte prave težave za največji poslovni učinek.",
         "items": [
-          "Oblikovanje izjave o problemu",
-          "Okvirje izziva oblikovanja",
-          "Prepoznavanje področja priložnosti",
-          "Opredelitev meril uspeha",
-          "Seje za usklajitev projektnih partnerjev"
+          "Formulacija izjave o težavi",
+          "Uokvirjanje izzivov oblikovanja",
+          "Identifikacija področij priložnosti",
+          "Definicija kriterijev uspeha",
+          "Seje usklajevanja z deležniki"
         ]
       },
       "ideate": {
-        "title": "Delavnice Ideacije",
-        "description": "Generiranje inovativnih rešitev skozi strukturirane kreativne seje.",
+        "title": "Idejne delavnice",
+        "description": "Ustvarite inovativne rešitve s strukturiranimi ustvarjalnimi sejami.",
         "items": [
-          "Vodeni seji možganske nevihte",
+          "Moderirano viharjenje možganov",
           "SCAMPER in tehnike lateralnega razmišljanja",
-          "Sodelovalne delavnice ideacije",
-          "Prioritizacija in izbor idej",
-          "Razvoj in izpopolnitev koncepta"
+          "Sodelovalne idejne delavnice",
+          "Prednostno razvrščanje in izbor idej",
+          "Razvoj in dodelava konceptov"
         ]
       },
       "prototype": {
         "title": "Prototipiranje",
-        "description": "Hitro ustvarjanje opredmetenih predstav idej za preverjanje.",
+        "description": "Hitro ustvarite oprijemljive prikaze idej za validacijo.",
         "items": [
-          "Žičnate skice in skice nizke zvestobe",
-          "Interaktivni klikalniki prototipov",
-          "Mockapi visoke zvestobe",
-          "Razvoj dokaza koncepta",
-          "Oblikovanje MVP (Minimalno Životen Proizvod)"
+          "Žični modeli nizke ločljivosti in skice",
+          "Interaktivni klikljivi prototipi",
+          "Makete visoke ločljivosti",
+          "Razvoj dokaza koncepta (PoC)",
+          "Zasnova MVP (najmanj sprejemljivega produkta)"
         ]
       },
       "test": {
-        "title": "Testiranje in Iteracija",
-        "description": "Potrdite rešitve s pravimi uporabniki in neprekinjeno izboljšavajte.",
+        "title": "Testiranje in ponavljanje",
+        "description": "Preverite rešitve z resničnimi uporabniki in nenehno izboljšujte.",
         "items": [
           "Seje testiranja uporabnosti",
-          "Testiranje A/B in eksperimentiranje",
-          "Zbiranje in analiza povratnih informacij uporabnika",
-          "Iterativno izpopolnjevanje oblikovanja",
-          "Preverjanje v primerjavi s kriteriji uspeha"
+          "A/B testiranje in eksperimentiranje",
+          "Zbiranje in analiza povratnih informacij",
+          "Iterativna dodelava zasnove",
+          "Validacija glede na kriterije uspeha"
         ]
       },
       "implement": {
-        "title": "Podpora pri Izvedbi",
-        "description": "Vodenje vaše ekipe od preverjnega koncepta do uspešne uvedbe.",
+        "title": "Podpora pri implementaciji",
+        "description": "Vodenje vaše ekipe od potrjenega koncepta do uspešnega zagona.",
         "items": [
           "Ocena tehnične izvedljivosti",
-          "Ustvarjanje zemljevida izvajanja",
-          "Načrtovanje Agile Sprint",
-          "Sodelovanje razvojne ekipe",
-          "Nadzor in optimizacija po uvedbi"
+          "Izdelava načrta poti implementacije",
+          "Agilno načrtovanje sprintov",
+          "Sodelovanje z razvojno ekipo",
+          "Spremljanje in optimizacija po zagonu"
         ]
       }
     },
     "benefits": [
-      "Zmanjšajte tveganje z preverjanjem idej pred velikimi naložbami",
-      "Hitrejša inovacija s strukturiranim pristopom reševanja problemov",
-      "Višja sprejetost uporabnika skozi rešitve, osredotočene na uporabnika",
-      "Usklajanje in engagement funkcijsko različnih ekip",
+      "Zmanjšajte tveganje z validacijo idej pred velikimi naložbami",
+      "Hitrejše inovacije s strukturiranim pristopom k reševanju težav",
+      "Višja posvojitev uporabnikov z rešitvami, osredotočenimi na njih",
+      "Usklajenost in sodelovanje medfunkcijskih ekip",
       "Merljivi poslovni rezultati in ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Hitrejša Rešitev Problema"
+        "label": "Hitrejše reševanje težav"
       },
       "waste": {
-        "value": "75%",
-        "label": "Zmanjšana Razvojni Odpad"
+        "value": "75 %",
+        "label": "Zmanjšanje odvečnega razvoja"
       },
       "satisfaction": {
-        "value": "90%",
-        "label": "Zadovoljstvo Projektnih Partnerjev"
+        "value": "90 %",
+        "label": "Zadovoljstvo deležnikov"
       },
       "userCentered": {
-        "value": "100%",
-        "label": "Pristop Osredotočen na Uporabnika"
+        "value": "100 %",
+        "label": "V uporabnika osredotočen pristop"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integracija in Povezanost",
-    "title": "Paket SAP BTP Integration Suite",
+    "badge": "Integracija in povezljivost",
+    "title": "SAP BTP Integration Suite",
     "subtitle": "Storitve",
-    "description": "Brezšivne rešitve za integracijo, ki povezujejo vaše SAP sisteme z oblačnimi in lokalnimi aplikacijami. Strokovni izvedba Cloud Integration, upravljanja API, Odprenih Konektorjev in svetovalca Integracije.",
-    "cta": "Povežite Svoje Sisteme →",
-    "servicesTitle": "Popolna Strokovnost Paketa Integration Suite",
-    "servicesSubtitle": "Od Cloud Integration do upravljanja API - celovite storitve integracije.",
-    "whyChooseTitle": "Brezšivna Povezanost Sistema",
-    "whyChooseDescription": "Paket SAP BTP Integration Suite zagotavlja vse, kar potrebujete za povezovanje vaše podjetja. Naši strokovnjaki zagotavljajo, da so vaše integracije zanesljive, varne in skalabilne.",
+    "description": "Brezšivne integracijske rešitve, ki povezujejo vaše sisteme SAP z oblačnimi in lokalnimi aplikacijami. Strokovna implementacija Cloud Integration, API Management in Open Connectors.",
+    "cta": "Povežite svoje sisteme →",
+    "servicesTitle": "Popolno strokovno znanje o Integration Suite",
+    "servicesSubtitle": "Od integracije v oblaku do upravljanja API-jev – celovite integracijske storitve.",
+    "whyChooseTitle": "Brezšivna sistemska povezljivost",
+    "whyChooseDescription": "SAP BTP Integration Suite ponuja vse, kar potrebujete za povezavo svojega podjetja. Naši strokovnjaki zagotavljajo, da so vaše integracije zanesljive, varne in razširljive.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Povezava oblačnih in lokalnih sistemov z robustnimi delovnimi tokovi integracije.",
+        "description": "Povežite oblačne in lokalne sisteme z robustnimi integracijskimi tokovi.",
         "items": [
-          "Oblikovanje in razvoj toka integracije",
-          "Uporaba vnaprej zgrajene vsebine integracije",
+          "Načrtovanje in razvoj integracijskih tokov",
+          "Uporaba vnaprej pripravljenih integracijskih vsebin",
           "Preslikava in transformacija sporočil",
-          "Obdelava napak in nadzor",
-          "Upravljanje varnostnega artefakta"
+          "Obravnava napak in spremljanje",
+          "Upravljanje varnostnih artefaktov"
         ]
       },
       "apiManagement": {
-        "title": "Upravljanje API",
-        "description": "Oblikovanje, objava in upravljanje API-jev s celovito podporo življenjskega cikla.",
+        "title": "Upravljanje API-jev",
+        "description": "Oblikujte, objavite in upravljajte API-je s celovito podporo življenjskemu ciklu.",
         "items": [
-          "Ustvarjanje in konfiguracija proxy API",
-          "Uveljavljanje politike (varnost, omejitev stopnje)",
+          "Ustvarjanje in konfiguracija API proxyjev",
+          "Uvajanje pravilnikov (varnost, omejevanje hitrosti)",
           "Portal API in dokumentacija za razvijalce",
-          "Analitika in nadzor uporabe",
-          "Monetizacija in upravljanje kvote"
+          "Analitika in spremljanje uporabe",
+          "Monetizacija in upravljanje kvot"
         ]
       },
       "openConnectors": {
-        "title": "Odprti Konektorji",
-        "description": "Vnaprej zgrajeni konektorji za hitro integracijo s sistemimi tretjih oseb.",
+        "title": "Odprti konektorji (Open Connectors)",
+        "description": "Vnaprej pripravljeni konektorji za hitro integracijo s sistemi tretjih oseb.",
         "items": [
-          "150+ vnaprej zgrajenih konektorjev",
-          "Razvoj lastnega konektorja",
-          "Avtentifikacija in avtorizacija",
+          "Več kot 150 vnaprej pripravljenih konektorjev",
+          "Razvoj konektorjev po meri",
+          "Avtentikacija in avtorizacija",
           "Transformacija in normalizacija podatkov",
-          "Integracija na osnovi dogodkov"
+          "Integracija na podlagi dogodkov"
         ]
       },
       "advisor": {
-        "title": "Svetovalec Integracije",
-        "description": "Pospeši razvoj integracije s priporočili na osnovi KI.",
+        "title": "Integration Advisor",
+        "description": "Pospešite razvoj integracij s priporočili na podlagi umetne inteligence.",
         "items": [
-          "Avtomatizirani predlogi za preslikavo",
-          "Vodniki za izvajanje sporočila (MIGs)",
-          "Predloge scenarija B2B integracije",
-          "Predlogi za preslikavo vmesnika",
-          "Priporočila najboljše prakse"
+          "Samodejni predlogi za preslikavo",
+          "Vodnik za implementacijo sporočil (MIG)",
+          "Predloge za B2B integracijske scenarije",
+          "Predlogi za preslikavo vmesnikov",
+          "Priporočila na podlagi najboljših praks"
         ]
       },
       "security": {
-        "title": "Varnost in Upravljanje",
+        "title": "Varnost in upravljanje",
         "description": "Varnost in upravljanje na ravni podjetja za vse integracije.",
         "items": [
-          "Avtentifikacija OAuth in SAML",
+          "Avtentikacija OAuth in SAML",
           "Upravljanje certifikatov in ključev",
-          "Šifriranje na ravni transporta (TLS/SSL)",
-          "Šifriranje na ravni sporočila",
-          "Revizijsko beleženje in skladnost"
+          "Šifriranje na transportni ravni (TLS/SSL)",
+          "Šifriranje na ravni sporočil",
+          "Beleženje revizijskih sledi in skladnost"
         ]
       },
       "monitoring": {
-        "title": "Nadzor in Poslovanje",
-        "description": "Celovit nadzor in odličnost delovanja.",
+        "title": "Spremljanje in operacije",
+        "description": "Celovito spremljanje in operacijska odličnost.",
         "items": [
-          "Nadzor sporočil v realnem času",
-          "Metriki in KPI zmogljivosti",
-          "Nastavka obvestil in obvestil",
-          "Analiza dnevnika in odpravljanje težav",
-          "Načrtovanje in optimizacija zmogljivosti"
+          "Spremljanje sporočil v realnem času",
+          "Metrike zmogljivosti in KPI-ji",
+          "Nastavitev opozarjanja in obveščanja",
+          "Analiza dnevnikov in odpravljanje težav",
+          "Načrtovanje kapacitet in optimizacija"
         ]
       }
     },
     "benefits": [
-      "Hitrejša integracija z vnaprej zgrajeno vsebino in pospešilcem",
-      "Zmanjšani stroški integracije s platformo, naravno za oblak",
-      "Zanesljivost in skalabilnost na ravni podjetja",
-      "Enota platforma za vse potrebe integracije",
-      "Namensko svetovanje strokovnjaka in vodstvo"
+      "Hitrejša integracija z vnaprej pripravljeno vsebino",
+      "Zmanjšani stroški integracije s platformo v oblaku",
+      "Zanesljivost in razširljivost na ravni podjetja",
+      "Enotna platforma za vse integracijske potrebe",
+      "Posebno strokovno svetovanje in vodenje"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vnaprej Zgrajeni Konektorji"
+        "label": "Pripravljenih konektorjev"
       },
       "uptime": {
-        "value": "99,9%",
-        "label": "Razpoložljivost Integracije"
+        "value": "99,9 %",
+        "label": "Razpoložljivost integracij"
       },
       "implementation": {
-        "value": "50%",
-        "label": "Hitrejša Izvedba"
+        "value": "50 %",
+        "label": "Hitrejša implementacija"
       },
       "support": {
-        "value": "Globalno",
-        "label": "Ekipa Strokovnjakov"
+        "value": "Globalna",
+        "label": "Ekipa strokovnjakov"
       }
     },
-    "whyChooseBadge": "Odličnost Integracije",
-    "ctaSectionBadge": "⚡ Povežite Svoje Podjetje Danes",
-    "ctaSectionTitle1": "Pripravljen Poenotiti",
-    "ctaSectionTitle2": "Svoje Poslovne Sisteme?",
-    "ctaSectionDescription": "Razpravljajmo o vaših zahtevah za integracijo in ustvarimo celovito rešitev, ki povezuje vse vaše kritične poslovne sisteme.",
-    "ctaSectionButton1": "Pridobi Svetovanje za Integracijo →",
-    "ctaSectionButton2": "Oglejte Si Vse Storitve"
+    "whyChooseBadge": "Odličnost v integracijah",
+    "ctaSectionBadge": "⚡ Povežite svoje podjetje danes",
+    "ctaSectionTitle1": "Ste pripravljeni poenotiti",
+    "ctaSectionTitle2": "svoje poslovne sisteme?",
+    "ctaSectionDescription": "Pogovorimo se o vaših zahtevah glede integracije in ustvarimo celovito rešitev, ki povezuje vse vaše kritične poslovne sisteme.",
+    "ctaSectionButton1": "Zagotovite si posvet o integraciji →",
+    "ctaSectionButton2": "Oglejte si vse storitve"
   },
   "eventMesh": {
-    "badge": "Arhitektura, Usmerjena v Dogodke",
-    "title": "Mesh Dogodkov SAP",
-    "subtitle": "Storitve Izvedbe",
-    "description": "Izvedba arhitekture, usmerjene v dogodke v realnem času, za odzivne, skalabilne poslovne procese. Gradite porazdeljene sisteme, ki se takojšnje odzivajo na poslovne dogodke s SAP Event Mesh.",
-    "cta": "Gradite Arhitekturo, Usmerjeno v Dogodke →",
-    "servicesTitle": "Popolne Rešitve Event Mesh",
-    "servicesSubtitle": "Od oblikovanja arhitekture do izvedbe - gradite odzivne sisteme, usmerjene v dogodke.",
-    "whyChooseTitle": "Odzivnost Poslovanja v Realnem Času",
-    "whyChooseDescription": "Event Mesh omogoča vašemu podjetju, da se takojšnje odzove na dogodke, ko se pojavijo. Gradite ohlapno povezane, visoko skalabilne sisteme, ki se prilagajajo spreminjajočim se poslovnim potrebam.",
+    "badge": "Dogodkovno vodena arhitektura",
+    "title": "SAP Event Mesh",
+    "subtitle": "Storitve implementacije",
+    "description": "Implementacija v realnem času dogodkovno vodene arhitekture za odzivne poslovne procese. Zgradite sisteme, ki se takoj odzovejo na poslovne dogodke s SAP Event Mesh.",
+    "cta": "Zgradite dogodkovno vodeno arhitekturo →",
+    "servicesTitle": "Celovite rešitve Event Mesh",
+    "servicesSubtitle": "Od načrtovanja arhitekture do implementacije – zgradite odzivne dogodkovno vodene sisteme.",
+    "whyChooseTitle": "Odzivnost poslovanja v realnem času",
+    "whyChooseDescription": "Event Mesh vašemu podjetju omogoča, da se takoj odzove na dogodke, ko se zgodijo. Zgradite ohlapno povezane, visoko razširljive sisteme.",
     "features": {
       "architecture": {
         "title": "Arhitektura Event Mesh",
-        "description": "Oblikovanje in izvedba arhitekture, usmerjene v dogodke v celotnem podjetju.",
+        "description": "Načrtujte in implementirajte dogodkovno vodeno arhitekturo v celotnem podjetju.",
         "items": [
-          "Oblikovanje topologije Event Mesh",
+          "Načrtovanje topologije event mesh",
           "Distribucija dogodkov v več regijah",
-          "Konfiguracija Event Broker",
+          "Konfiguracija posrednika dogodkov",
           "Strategije usmerjanja sporočil",
-          "Vzorci oblikovanja tema in čakalne vrste"
+          "Vzorci načrtovanja tem in vrst"
         ]
       },
       "realTime": {
-        "title": "Obdelava Dogodkov v Realnem Času",
-        "description": "Obdelave in odziv na poslovne dogodke v realnem času.",
+        "title": "Obdelava dogodkov v realnem času",
+        "description": "Obdelujte in se odzivajte na poslovne dogodke v realnem času.",
         "items": [
-          "Izvedba pretakanja dogodkov",
+          "Implementacija pretakanja dogodkov",
           "Kompleksna obdelava dogodkov (CEP)",
           "Filtriranje in transformacija dogodkov",
           "Agregacija in korelacija dogodkov",
-          "Dostava dogodkov z nizko latency"
+          "Dostava dogodkov z nizko zakasnitvijo"
         ]
       },
       "integrations": {
-        "title": "Integracije, Usmerjene v Dogodke",
-        "description": "Sistemska povezava preko asinhrone, na dogodke bazirane komunikacije.",
+        "title": "Dogodkovno vodene integracije",
+        "description": "Povežite sisteme prek asinhronih komunikacij, temelječih na dogodkih.",
         "items": [
-          "Vzorci Publisher/Subscriber",
-          "Mikrostoritve, usmerjene v dogodke",
-          "Integracija spletnega kljuka in povratnega klica",
-          "Ponovitev in okrevanje dogodkov",
-          "Upravljanje vrste črne črte"
+          "Vzorci izdajatelj/naročnik (publisher/subscriber)",
+          "Dogodkovno vodene mikrostoritve",
+          "Integracija webhookov in povratnih klicev",
+          "Ponovno predvajanje in obnovitev dogodkov",
+          "Upravljanje vrst neveljavnih sporočil"
         ]
       },
       "security": {
-        "title": "Varnost in Upravljanje",
-        "description": "Varnost pošiljanja dogodkov s celovitim upravljanjem.",
+        "title": "Varnost in upravljanje",
+        "description": "Varen prenos dogodkov s celovitim upravljanjem.",
         "items": [
-          "Šifriranje dogodkov pri prenosu",
+          "Šifriranje dogodkov med prenosom",
           "Nadzor dostopa in avtorizacija",
-          "Preverjanje sheme dogodkov",
-          "Skladnost in revizijsko beleženje",
-          "Nadzor varnosti podatkov"
+          "Validacija sheme dogodkov",
+          "Skladnost in beleženje revizijskih sledi",
+          "Nadzor nad zasebnostjo podatkov"
         ]
       },
       "multiCloud": {
-        "title": "Več Oblak in Hibrid",
-        "description": "Event Mesh čez ponudnike oblak in lokalne sisteme.",
+        "title": "Multi-Cloud in hibridna okolja",
+        "description": "Event mesh prek ponudnikov storitev v oblaku in lokalnih sistemov.",
         "items": [
-          "Distribucija dogodkov čez oblak",
-          "Povezanost hibridne oblake",
+          "Distribucija dogodkov prek različnih oblakov",
+          "Povezljivost hibridnega oblaka",
           "Redundanca v več regijah",
-          "Usmerjanje dogodkov geografski",
-          "Arhitektura, agnostična oblaka"
+          "Geografsko usmerjanje dogodkov",
+          "Arhitektura, neodvisna od oblaka"
         ]
       },
       "monitoring": {
-        "title": "Nadzor in Analitika",
-        "description": "Celovita vidljivost v vaš ekosistem, usmerjen v dogodke.",
+        "title": "Spremljanje in analitika",
+        "description": "Celovit vpogled v vaš dogodkovno voden ekosistem.",
         "items": [
-          "Nadzor dogodkov v realnem času",
-          "Metriki in SLA zmogljivosti",
-          "Vizualizacija pretoka dogodkov",
-          "Prepoznavanje ozkih grl",
-          "Napovedna načrtovanje zmogljivosti"
+          "Spremljanje dogodkov v realnem času",
+          "Metrike zmogljivosti in SLA-ji",
+          "Vizualizacija toka dogodkov",
+          "Identifikacija ozkih grl",
+          "Predvidljivo načrtovanje kapacitet"
         ]
       }
     },
     "benefits": [
-      "Odjavite sisteme za večjo fleksibilnost in skalabilnost",
-      "Vpogledi v poslovanje v realnem času in takojšnje odzive",
-      "Izboljšana odpornost sistema in toleranca napak",
-      "Zmanjšana kompleksnost integracij točka-točka",
-      "Podpora za sodobne arhitekture, usmerjene v dogodke"
+      "Razklopite sisteme za večjo prilagodljivost in razširljivost",
+      "Poslovni vpogledi v realnem času in takojšen odziv",
+      "Izboljšana odpornost sistema in toleranca na napake",
+      "Zmanjšana kompleksnost integracij od točke do točke",
+      "Podpora za sodobne dogodkovno vodene arhitekture"
     ],
     "statistics": {
       "latency": {
-        "value": "<100ms",
-        "label": "Latency Dostave Dogodka"
+        "value": "<100 ms",
+        "label": "Zakasnitev dostave dogodkov"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Dogodki na Sekundo"
+        "label": "Dogodkov na sekundo"
       },
       "guarantee": {
-        "value": "99,99%",
-        "label": "Garancija za Dostavo Dogodka"
+        "value": "99,99 %",
+        "label": "Garancija dostave dogodkov"
       },
       "distribution": {
-        "value": "Globalno",
-        "label": "Distribucija v Več Regijah"
+        "value": "Globalna",
+        "label": "Distribucija v več regijah"
       }
     },
-    "whyChooseBadge": "Odličnost, Usmerjena v Dogodke",
-    "ctaSectionBadge": "⚡ Gradite Sisteme v Realnem Času",
-    "ctaSectionTitle1": "Pripravljen Izvedti",
-    "ctaSectionTitle2": "Arhitekturo, Usmerjeno v Dogodke?",
-    "ctaSectionDescription": "Pretvorite vaše poslovanje z obdelavo dogodkov v realnem času. Razpravljajmo, kako lahko Event Mesh poganja vaše aplikacije naslednje generacije.",
-    "ctaSectionButton1": "Dogovori Svetovanje za Event Mesh →",
-    "ctaSectionButton2": "Raziščite Vse Tehnologije"
+    "whyChooseBadge": "Odličnost v dogodkovni arhitekturi",
+    "ctaSectionBadge": "⚡ Zgradite sisteme v realnem času",
+    "ctaSectionTitle1": "Ste pripravljeni na implementacijo",
+    "ctaSectionTitle2": "dogodkovno vodene arhitekture?",
+    "ctaSectionDescription": "Transformirajte svoje podjetje z obdelavo dogodkov v realnem času. Pogovorimo se o tem, kako lahko Event Mesh poganja vaše aplikacije naslednje generacije.",
+    "ctaSectionButton1": "Načrtujte posvet o Event Mesh →",
+    "ctaSectionButton2": "Raziščite vse tehnologije"
   },
   "aiInvoice": {
-    "badge": "KI in Avtomatizacija",
-    "title": "Pogonjena s KI",
-    "subtitle": "Obdelava Računov",
-    "description": "Avtomatizacija inteligentne obdelave računov s pomočjo napredne KI za natančne, učinkovite operacije. Spremenite svoj proces plačila računa s sodobno tehnologijo KI, integrirano s SAP BTP.",
-    "cta": "Avtomatizirajte Svoje Račune →",
-    "servicesTitle": "Avtomatizacija Računov s Krmiljenjem KI",
-    "servicesSubtitle": "Izkoriščajte napredne zmožnosti KI za inteligentno obdelavo in avtomatizacijo računov.",
-    "whyChooseTitle": "Spremenite Obdelavo Vaših Računov",
-    "whyChooseDescription": "Napredna KI prinaša razumevanje na ravni človeka na obdelavo računa. Ravnajte s kompleksnimi postavitvami, več jeziki in robnimi primeri, s katerimi se tradicionalni sistemi OCR bori.",
+    "badge": "UI in avtomatizacija",
+    "title": "Obdelava računov",
+    "subtitle": "z umetno inteligenco",
+    "description": "Inteligentna avtomatizacija obdelave računov, ki jo poganja napredna umetna inteligenca za natančno in učinkovito delovanje. Transformirajte svojo finančno službo z najsodobnejšo tehnologijo UI, integrirano s SAP BTP.",
+    "cta": "Avtomatizirajte svoje račune →",
+    "servicesTitle": "Avtomatizacija računov z UI",
+    "servicesSubtitle": "Izkoristite napredne zmožnosti UI za inteligentno obdelavo in avtomatizacijo računov.",
+    "whyChooseTitle": "Transformirajte svojo obdelavo računov",
+    "whyChooseDescription": "Napredna UI prinaša človeško razumevanje v obdelavo računov. Obvladujte kompleksne postavitve, več jezikov in posebne primere, s katerimi imajo tradicionalni sistemi OCR težave.",
     "features": {
       "extraction": {
-        "title": "Inteligentna Ekstrakcija Podatkov",
-        "description": "Ekstrakcija podatkov na osnovi napredne KI s prav tako natančnostjo.",
+        "title": "Inteligentno zajemanje podatkov",
+        "description": "Napredno zajemanje podatkov iz računov s pomočjo UI s stopnjo natančnosti brez primere.",
         "items": [
-          "Obdelava računov v več oblikah (PDF, slike, skeniranja)",
-          "Avtomatsko zaznavanje in ekstrakcija polja",
-          "Prepoznavanje glave in postavke",
-          "Razumevanje tabel in kompleksne postavitve",
-          "Prepoznavanje pisave roko"
+          "Obdelava računov v različnih formatih (PDF, slike, skeni)",
+          "Samodejno zaznavanje in zajemanje polj",
+          "Prepoznavanje glave in postavk računa",
+          "Razumevanje tabel in kompleksnih postavitev",
+          "Prepoznavanje rokopisnega besedila"
         ]
       },
       "integration": {
-        "title": "Integracija SAP BTP",
-        "description": "Brezšivna integracija s storitvami SAP BTP in sistemi ozadja.",
+        "title": "Integracija s SAP BTP",
+        "description": "Brezšivna integracija s storitvami SAP BTP in zalednimi sistemi.",
         "items": [
           "Neposredna integracija s SAP S/4HANA",
-          "Povezava storitve za upravljanje dokumentov SAP",
-          "Sprožilci avtomatizacije delovnega toka",
-          "Preverjanje podatkov v realnem času",
-          "Izvedba lastnega poslovnega pravila"
+          "Povezava s SAP Document Management Service",
+          "Sprožilci za avtomatizacijo delovnega toka",
+          "Validacija podatkov v realnem času",
+          "Implementacija poslovnih pravil po meri"
         ]
       },
       "automation": {
-        "title": "Avtomatizirana Obdelava",
-        "description": "Avtomatizacija od konca do konca z minimalno ročno intervencijo.",
+        "title": "Avtomatizirana obdelava",
+        "description": "Celovita avtomatizacija, ki zmanjša ročne posege skoraj na nič.",
         "items": [
           "Inteligentno usmerjanje in klasifikacija",
-          "Samodejno odobravanje za nizkotvegane račune",
-          "Delovni tokovi obdelave izjeme",
-          "Zaznavanje in preprečitev podvojitve",
-          "Avtomatizacija ujemanja treh smeri"
+          "Samodejno odobritve za račune z nizkim tveganjem",
+          "Delovni tokovi za obravnavo izjem",
+          "Zaznavanje in preprečevanje dvojnikov",
+          "Avtomatizacija tristranskega usklajevanja"
         ]
       },
       "validation": {
-        "title": "Preverjanje in Skladnost",
-        "description": "Zagotovite natančnost in regulativno skladnost pri vsaki transakciji.",
+        "title": "Validacija in skladnost",
+        "description": "Zagotovite natančnost in skladnost s predpisi pri vsaki transakciji.",
         "items": [
-          "Pravila za preverjanje na več ravneh",
-          "Preverjanje izračuna davka",
-          "Preverjanje skladnosti (DDV, GST)",
-          "Revizijski sled in beleženje",
-          "Zasebnost in varnost podatkov (skladna s GDPR)"
+          "Večnivojska pravila validacije",
+          "Preverjanje izračuna davkov",
+          "Preverjanje skladnosti (DDV)",
+          "Revizijska sled in beleženje",
+          "Zasebnost in varnost podatkov (skladno z GDPR)"
         ]
       },
       "analytics": {
-        "title": "Analitika in Vpogledi",
-        "description": "Pridobite dragocene vpoglede iz podatkov obdelave računa.",
+        "title": "Analitika in vpogledi",
+        "description": "Pridobite dragocene vpoglede iz podatkov o obdelavi računov.",
         "items": [
-          "Metriki obdelave in KPI",
-          "Sledenje stopnje natančnosti in napak",
+          "Metrike obdelave in KPI-ji",
+          "Sledenje natančnosti in stopnji napak",
           "Analiza prihrankov stroškov",
-          "Analitika zmogljivosti dobavitelja",
-          "Napovedi vpogledi v pretok gotovine"
+          "Analitika uspešnosti dobaviteljev",
+          "Napovedni vpogledi v denarni tok"
         ]
       },
       "training": {
-        "title": "Usposabljanje in Optimizacija",
-        "description": "Neprekinjeno izboljšanje skozi učenje KI in optimizacijo sistema.",
+        "title": "Učenje in optimizacija",
+        "description": "Nenehno izboljševanje prek učenja UI in optimizacije sistema.",
         "items": [
-          "Usposabljanje lastnega modela za vaše račune",
-          "Neprekinjeno učenje iz popravkov",
-          "Optimizacija obdelave na osnovi predloge",
-          "Izvajanje zanke povratne informacije",
+          "Učenje modelov po meri za vaše račune",
+          "Nenehno učenje na podlagi popravkov",
+          "Optimizacija obdelave na podlagi predlog",
+          "Implementacija povratne zanke",
           "Redne izboljšave natančnosti"
         ]
       }
     },
     "benefits": [
-      "Stopnja natančnosti 95%+ zmanjša ročne popravke",
-      "80-odstotno hitrejši čas obdelave računa",
-      "70-odstotno zmanjšanje stroškov obdelave",
+      "Več kot 95 % natančnost zmanjšuje ročne popravke",
+      "80 % hitrejši čas obdelave računov",
+      "70 % zmanjšanje stroškov obdelave",
       "Skoraj nič napak pri vnosu podatkov",
-      "Vidljivost statusa obdelave v realnem času"
+      "Vidnost statusa obdelave v realnem času"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Stopnja Natančnosti"
+        "label": "Stopnja natančnosti"
       },
       "timeReduction": {
-        "value": "80%",
-        "label": "Zmanjšanje Časa"
+        "value": "80 %",
+        "label": "Skrajšanje časa"
       },
       "costSavings": {
-        "value": "70%",
-        "label": "Varčevanje Stroškov"
+        "value": "70 %",
+        "label": "Prihranek stroškov"
       },
       "availability": {
-        "value": "100%",
-        "label": "Avtomatizirana Obdelava"
+        "value": "100 %",
+        "label": "Avtomatizirana obdelava"
       }
     }
   },
   "blogs": {
-    "backToHome": "Nazaj domov",
+    "backToHome": "Nazaj na domov",
     "claudeAI": {
-      "title": "Revolucija v Obdelavi Računov s KI",
-      "category": "KI/ML",
+      "title": "Revolucija v obdelavi računov s pomočjo UI",
+      "category": "UI/ML",
       "readTime": "6 min",
-      "seoDescription": "Raziščite, kako integracija KI na SAP BTP spremeni obdelavo računov z inteligentno avtomatizacijo in naprednim razumevanjem dokumentov.",
-      "intro": "Obdelava računov je tradicionalno bila dolgotrajnih, napak nagnjena ročna naloga. Integracija napredne KI s SAP BTP revolucionira ta proces in prinaša neprekosljevo avtomatizacijo, natančnost in učinkovitost na operacije plačila računa.",
-      "section1Title": "Izziv Tradicionalne Obdelave Računov",
-      "section1Content": "Organizacije mesečno obdelajo tisoče računov, vsak zahteva ekstrakcijo podatkov, preverjanje in vnos v sisteme ERP. Ročna obdelava je počasna, draga in nagnjena napakam, kar lahko vodi do zamude v plačilu, podvojenih plačil ali zamujenih zgodnjega plačila popustov.",
-      "section2Title": "Razumevanje Dokumenta Napredne KI",
-      "section2Content": "Sodobna KI prinaša najsodobnejše zmožnosti obdelave naravnega jezika in vid računalnika na obdelavo računa. Za razliko od tradicionalnih sistemov OCR, napredna KI lahko razume kontekst, obravnava različne oblike računov in izledi informacije z opazljivo natančnostjo tudi iz slabo skeniranih ali kompleksnih dokumentov.",
-      "section3Title": "Brezšivna Integracija SAP BTP",
-      "section3Content": "Integracija KI s SAP BTP ustvarja zmogljevo avtomatizacijo. Dohodnih računov se avtomatski obdelujejo, podatki se ekstrahira in preverjajo, informacije pa pretečejo neposredno v sisteme SAP brez človeške intervencije. Ta integracija izkoriščaje robustno povezanost in zmožnosti delovnega toka SAP BTP.",
-      "section4Title": "Inteligentna Obdelava Izjem",
-      "section4Content": "Ena od glavnih moči KI je sposobnost inteligentne obdelave izjem. Ko se pojavljajo nenavadne oblike računov ali dvoumne informacije, lahko sistem označuje elemente za človeško pregled s podrobnimi razlagami, kar naredi obdelavo izjem bistveno učinkovitejšo od tradicionalnih pravil-osnovanih sistemov.",
-      "section5Title": "Merljivi Učinek na Poslovanje",
-      "section5Content": "Organizacije, ki izvajajo KI za obdelavo računov, običajno vidijo dramatične izboljšave: 90-odstotno zmanjšanje časa obdelave, 95-odstotno zmanjšanje napak pri vnosu podatkov in velike prihranke stroškov v operacijah plačila. Morda najpomembnije: osebje se lahko osredotoči na strateške dejavnosti namesto na ponavljajoče se vnose podatkov.",
+      "seoDescription": "Raziščite, kako integracija umetne inteligence na SAP BTP platformi transformira obdelavo računov z inteligentno avtomatizacijo.",
+      "intro": "Tradicionalno je bila obdelava računov zamudno opravilo, podvrženo napakam. Integracija napredne umetne inteligence v SAP BTP prinaša revolucijo v ta proces in zagotavlja nepredstavljivo stopnjo avtomatizacije, natančnosti in učinkovitosti v finančnih operacijah.",
+      "section1Title": "Izzivi tradicionalne obdelave računov",
+      "section1Content": "Organizacije mesečno obdelajo tisoče računov, pri čemer vsak zahteva zajem podatkov, validacijo in vnos v ERP sisteme. Ročna obdelava je počasna, draga in tvegana, saj lahko privede do zamud pri plačilih ali glob.",
+      "section2Title": "Inteligentna analiza dokumentov preko UI",
+      "section2Content": "Sodobna umetna inteligenca prinaša zmožnosti računalniškega vida in obdelave naravnega jezika v svet financ. Za razliko od preprostih sistemov za prepoznavanje besedila (OCR), napredna UI razume kontekst, obvladuje različne formate računov in zajema informacije z izjemno natančnostjo, tudi iz manj kakovostnih skenov.",
+      "section3Title": "Brezšivna integracija s SAP BTP",
+      "section3Content": "Združitev UI s SAP BTP ustvarja močan avtomatiziran tok. Prejeti računi se obdelajo samodejno, podatki se takoj preverijo in prenesejo neposredno v SAP sisteme brez ročnega posega. Ta integracija izkorišča zanesljivost in prilagodljivost delovnih tokov platforme.",
+      "section4Title": "Inteligentno upravljanje izjem",
+      "section4Content": "Ena ključnih prednosti UI je njena sposobnost razumnega obravnavanja nestandardnih situacij. Ob pojavu nejasnosti sistem označi elemente za ročni pregled s podrobnimi pojasnili, kar naredi proces upravljanja izjem precej učinkovitejši od tradicionalnih rigidnih algoritmov.",
+      "section5Title": "Merljiv poslovni rezultat",
+      "section5Content": "Podjetja, ki so uvedla UI za obdelavo računov, beležijo izjemne izboljšave: skrajšanje časa obdelave za 90 %, zmanjšanje napak pri vnosu za 95 % in pomembne prihranke. Še pomembneje je, da se zaposleni lahko osredotočijo na strateške naloge namesto na ponavljajoč se vnos podatkov.",
       "conclusionTitle": "Zaključek",
-      "conclusionContent": "Kombinacija naprednih zmožnosti KI in infrastrukture SAP BTP na ravni podjetja predstavlja transformacijski pristop k obdelavi računa. Organizacije, ki sprejmejo to tehnologijo, pridobijo pomembno konkurenčno prednost skozi izboljšano učinkovitost, natančnost in zmanjšanje stroškov."
+      "conclusionContent": "Kombinacija močne umetne inteligence in korporacijske infrastrukture SAP BTP predstavlja transformacijski pristop k upravljanju financ. Organizacije, ki uporabljajo to tehnologijo, pridobijo pomembno konkurenčno prednost z večjo učinkovitostjo in nadzorom stroškov."
     },
     "fiori": {
-      "title": "Gradnja Sodobnih Aplikacij Fiori na SAP BTP",
+      "title": "Razvoj sodobnih Fiori aplikacij na SAP BTP",
       "category": "Razvoj",
       "readTime": "8 min",
-      "seoDescription": "Naučite se, kako graditi sodobne, odzivne aplikacije Fiori z zmogljivimi razvojnimi orodji in ogrodji SAP BTP.",
-      "intro": "SAP Fiori predstavlja prihodnost poslovnih aplikacij in zagotavlja poenoteno uporabnikovo izkušnjo v vseh napravah in možnostih uvajanja. S SAP Business Technology Platform (BTP) je gradnja sodobnih aplikacij Fiori postala bolj racionalizirana in zmogljiva kot kadarkoli prejšnje.",
-      "section1Title": "Moč SAP BTP za Razvoj Fiori",
-      "section1Content": "SAP BTP ponuja celovit nabor orodij in storitev posebej zasnovanih za razvoj aplikacij Fiori. Platforma zagotavlja vse od razvojnih okolij do infrastrukture za uvajanje, kar omogoča ekipam, da se osredotočijo na ustvarjanje izjemnih izkušenj uporabnika namesto upravljanja infrastrukture.",
-      "section2Title": "Ključne Značilnosti in Najboljše Prakse",
-      "section2Content": "Sodobne aplikacije Fiori izkoriščajo okvir SAP Fiori Elements, ki ponuja vnaprej zgrajene komponente vmesnika in vzorce, ki zagotavljajo doslednost in zmanjšajo čas razvoja. Z kombinacijo teh elementov z lastnimi nadzorniki SAPUI5 lahko razvojniki ustvarijo aplikacije, ki so tako standardizirane kot prilagojene specifičnim poslovnim potrebam.",
-      "section3Title": "Integracija s Storitvami SAP BTP",
-      "section3Content": "Ena od glavnih prednosti razvoja aplikacij Fiori na SAP BTP je brezšivna integracija z drugimi storitvami platform. Od avtentifikacije in avtorizacije s storitvami identitete SAP Cloud do shranjevanja podatkov s SAP HANA Cloud imajo razvojniki dostop do storitev na ravni podjetja, ki se lahko enostavno integrirajo v njihove aplikacije.",
-      "section4Title": "Odziven Oblikovanje in Podpora za Več Naprav",
-      "section4Content": "Aplikacije Fiori, zgrajene na SAP BTP, se samodejno prilagajajo različnim velikostim zaslona in napravah, kar zagotavlja doslednost uporabnika bodisi dostopane z namizja, tablice ali mobilnega telefona. Ta zmožnost odzivnega oblikovanja je vgrajena v okvir in zmanjšuje napor, potreben za podporo več naprav.",
-      "section5Title": "Optimizacija Zmogljivosti",
-      "section5Content": "SAP BTP zagotavlja različna orodja in tehnike za optimizacijo zmogljivosti aplikacij Fiori, vključno z lenivim nalaganjem, pakiranjem in strategijami predpomnjenja. Te tehnike optimizacije zagotavljajo, da se aplikacije hitro nalagajo in gladko reagirajo, tudi pri obravnavi velikih nizov podatkov ali kompleksne poslovne logike.",
+      "seoDescription": "Spoznajte, kako ustvarjati sodobne odzivne Fiori aplikacije s pomočjo močnih orodij in ogrodij SAP BTP.",
+      "intro": "SAP Fiori je prihodnost poslovnih aplikacij, ki ponuja enotno uporabniško izkušnjo na vseh napravah. Zahvaljujoč SAP Business Technology Platform (BTP) je razvoj sodobnih Fiori aplikacij postal bolj optimiziran in zmogljiv kot kdaj koli prej.",
+      "section1Title": "Potencial SAP BTP za razvoj Fiori",
+      "section1Content": "SAP BTP nudi celovit nabor orodij in storitev, posebej zasnovanih za ustvarjanje Fiori aplikacij. Platforma nudi vse — od razvojnih okolij do infrastrukture za uvedbo, kar ekipam omogoča fokus na ustvarjanje vrhunskega UX-a namesto upravljanja strežnikov.",
+      "section2Title": "Ključne funkcije in najboljše prakse",
+      "section2Content": "Sodobne Fiori aplikacije uporabljajo ogrodje SAP Fiori Elements, ki nudi pripravljene UI komponente in predloge, ki zagotavljajo konsistentnost in krajšajo čas razvoja. V kombinaciji z lastnimi SAPUI5 kontrolniki razvijalci ustvarjajo rešitve, ki se idealno prilagajajo poslovnim potrebam.",
+      "section3Title": "Integracija s storitvami SAP BTP",
+      "section3Content": "Ena glavnih prednosti razvoja na SAP BTP je brezšivna povezava z drugimi oblačnimi storitvami. Od avtentikacije preko SAP Cloud Identity do shranjevanja podatkov v SAP HANA Cloud — razvijalci imajo dostop do storitev na ravni podjetja že od samega začetka.",
+      "section4Title": "Odzivno načrtovanje in podpora napravam",
+      "section4Content": "Fiori aplikacije na SAP BTP se samodejno prilagodijo vsem velikostim zaslonov, kar zagotavlja enako udobno delo tako na računalniku kot na pametnem telefonu. Ta zmožnost je vgrajena v jedro ogrodja, kar radikalno znižuje stroške podpore mobilnih različic.",
+      "section5Title": "Optimizacija zmogljivosti",
+      "section5Content": "SAP BTP nudi različne tehnike za pospešitev delovanja aplikacij, vključno z Lazy Loadingom, združevanjem (bundling) in strategijami predpomnjenja. To zagotavlja hiter zagon in tekoč odziv vmesnika tudi pri delu z velikimi količinami podatkov.",
       "conclusionTitle": "Zaključek",
-      "conclusionContent": "Gradnja sodobnih aplikacij Fiori na SAP BTP kombinira moč infrastrukture na ravni podjetja s rezalnimi razvojnimi ogrodji. Izkoriščanjem zmožnosti platform lahko razvojne ekipe ustvarijo sofisticirane, uporabniku prijazne aplikacije, ki poganjajo poslovno vrednost in izboljšajo produktivnost v celotni organizaciji."
+      "conclusionContent": "Razvoj sodobnih Fiori aplikacij na SAP BTP združuje moč infrastrukture na ravni podjetja z naprednimi tehnologijami frontend razvoja. Z uporabo možnosti platforme lahko podjetja ustvarijo priročna orodja, ki povečujejo produktivnost celotne organizacije."
     },
     "pwa": {
-      "title": "Rešitve Offline PWA za Kontinuiteto Poslovanja",
+      "title": "Offline PWA rešitve za neprekinjeno poslovanje",
       "category": "Arhitektura",
       "readTime": "7 min",
-      "seoDescription": "Odkrijte, kako progresivne spletne aplikacije (PWA) s funkcionalnostjo brez interneta zagotavljajo kontinuiteto poslovanja in produktivnost v vseh pogojih omrežja.",
-      "intro": "V današnjem povezanem svetu lahko motnje omrežja ustavi poslovanje. Progresivne spletne aplikacije (PWA) s funkcionalnostjo brez interneta ponujajo robustno rešitev za zagotavljanje kontinuitete poslovanja, ki omogoča uporabnikom, da nemoteno delujejo ne glede na razpoložljivost omrežja.",
-      "section1Title": "Razumevanje Arhitekture Brez Interneta Prvič",
-      "section1Content": "Arhitektura brez interneta predstavlja paradigmski premik v tem, kako gradimo spletne aplikacije. Namesto obravnavanja brez interneta kot robnih primerov, oblikovanje brez interneta to naredi kot temeljno lastnost. Ta pristop zagotavlja, da aplikacije ostanejo funkcionalne tudi, kadar je povezanost omrežja nezanesljiva ali popolnoma nedostopna.",
-      "section2Title": "Delavci Storitve: Hrbet Aplikacij Offline PWA",
-      "section2Content": "Delavci storitve so tehnologija, ki omogoča aplikacije offline PWA. Ti programljivi proxy omrežja sedijo med vašo aplikacijo in omrežjem, prestrežejo zahtevke in omogočajo sofisticirane strategije predpomnjenja. Z izkoriščanjem delavcev storitve lahko aplikacije predpomnijo kritične vire in podatke ter zagotovijo razpoložljivost tudi brez interneta.",
-      "section3Title": "Strategije Sinhronizacije Podatkov",
-      "section3Content": "Ključni izziv v aplikacijah offline PWA je upravljanje sinhronizacije podatkov, ko je povezanost obnovljena. Izvajanje robustnih strategij razreševanja konfliktov in optimističnih posodobljenih zagotavlja, da podatki ostanejo dosledni v napravah in sistemih hrbtne strani. API-ji za sinhronizacijo ozadja omogočajo samodejno sinhronizacijo, ko je omrežje spet dostopno.",
-      "section4Title": "Poslovni Koristi",
-      "section4Content": "Aplikacije Offline PWA zagotavljajo izjemno poslovno vrednost z zagotavljanjem produktivnosti v kakršnih koli pogojih omrežja. Terenski delavci lahko nadaljujejo svoje naloge na oddaljenih lokacijah, prodajne ekipe lahko dostopajo do kritičnih informacij med predstavitvami in operacije gladko tečejo med izpadi omrežja. Ta zanesljivost se neposredno prevaja v izboljšano zadovoljstvo kupca in operativno učinkovitost.",
-      "section5Title": "Izvedba z SAP BTP",
-      "section5Content": "SAP BTP zagotavlja odličko podporo za gradnjo aplikacij offline PWA preko svoje storitve Mobile Services. Te storitve vključujejo sinhronizacijo podatkov brez interneta, varno shranjevanje in celovite API-je, ki poenostavljajo razvoj robustnih aplikacij, ki podpirajo izpade interneta.",
+      "seoDescription": "Spoznajte, kako progresivne spletne aplikacije (PWA) z dostopom brez povezave zagotavljajo stabilno delo in produktivnost v vseh omrežnih pogojih.",
+      "intro": "V sodobnem svetu lahko vsak izpad omrežja ustavi poslovne procese. Progresivne spletne aplikacije (PWA) s podporo za delo brez povezave nudijo zanesljivo rešitev za zagotavljanje neprekinjenega delovanja in uporabnikom omogočajo nemoteno delo ne glede na internetno povezavo.",
+      "section1Title": "Filozofija Offline-First v arhitekturi",
+      "section1Content": "Arhitektura Offline-first pomeni menjavo paradigme v razvoju. Namesto da bi pomanjkanje omrežja obravnavali kot redko napako, postane offline način osnovna funkcija. Tak pristop zagotavlja, da aplikacija ostane funkcionalna tudi ob nestabilni povezavi.",
+      "section2Title": "Service Workers: osnova offline delovanja",
+      "section2Content": "Service Workers so tehnologija, ki omogoča PWA. Ti programabilni proksiji delujejo med aplikacijo in omrežjem, prestrezajo zahtevke ter upravljajo predpomnjenje. Zahvaljujoč njim aplikacija varno hrani kritične podatke in vire za delo na terenu.",
+      "section3Title": "Strategije sinhronizacije podatkov",
+      "section3Content": "Glavni izziv za offline aplikacije je sinhronizacija podatkov ob ponovni vzpostavitvi povezave. Implementacija zanesljivih strategij reševanja konfliktov zagotavlja celovitost informacij med napravo in centralnim sistemom. Background Sync API omogoča samodejno izmenjavo podatkov v ozadju.",
+      "section4Title": "Poslovne koristi",
+      "section4Content": "Offline PWA ustvarjajo pomembno vrednost z vzdrževanjem produktivnosti v vseh pogojih. Zaposleni na terenu lahko nadaljujejo z vnosom podatkov na oddaljenih lokacijah, prodajni zastopniki pa imajo dostop do katalogov tudi v kletnih prostorih. Zanesljivost se neposredno odrazi v zvestobi strank in učinkovitosti operacij.",
+      "section5Title": "Implementacija na podlagi SAP BTP",
+      "section5Content": "SAP BTP nudi odlično podporo za ustvarjanje offline PWA preko svojih Mobile Services storitev. Te vključujejo pripravljeno sinhronizacijo, zaščiteno lokalno shrambo in močne API-je, ki poenostavljajo razvoj kompleksnih poslovnih aplikacij.",
       "conclusionTitle": "Zaključek",
-      "conclusionContent": "Aplikacije Offline PWA predstavljajo prihodnost poslovnih aplikacij in zagotavljajo odpornost in zanesljivost, ki jih tradicionalne spletne aplikacije ne morejo ujeti. Z sprejetjem arhitekture brez interneta in izkoriščanjem sodobnih spletnih tehnologij lahko organizacije zagotovijo kontinuiteto poslovanja in ohranijo produktivnost ne glede na pogoje omrežja."
+      "conclusionContent": "Offline PWA so prihodnost korporativne mobilne programske opreme, ki nudijo odpornost, kakršne običajne spletne strani nimajo. Z uporabo sodobnih spletnih standardov lahko organizacije zagotovijo delovanje svojih procesov 24/7, ne glede na zunanje pogoje."
     }
   }
 }

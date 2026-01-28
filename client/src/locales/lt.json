@@ -1,174 +1,174 @@
 {
   "nav": {
-    "home": "Pagrindinis",
+    "home": "Pradžia",
     "services": "Paslaugos",
-    "knowledge": "Žinios",
+    "knowledge": "Žinių bazė",
     "contact": "Kontaktai",
-    "bookConsultation": "Rezervuoti nemokamą konsultaciją"
+    "bookConsultation": "Nemokama konsultacija"
   },
   "hero": {
-    "title": "Transformuokite savo verslą su ekspertiniais SAP BTP sprendimais",
-    "subtitle": "Specializuotos konsultacijos SAP Business Technology Platform diegimams",
-    "cta": "Pradėti šiandien",
-    "learn": "Ištirti paslaugas"
+    "title": "Transformuokite verslą su SAP BTP ekspertais",
+    "subtitle": "Specializuotas konsultavimas diegiant pažangiausius SAP Business Technology Platform sprendimus visame pasaulyje",
+    "cta": "Pradėkite dabar",
+    "learn": "Mūsų paslaugos"
   },
   "services": {
-    "title": "Mūsų patirtis",
-    "subtitle": "Išsamūs SAP BTP sprendimai, skirti transformuoti jūsų verslą",
+    "title": "Mūsų kompetencijos",
+    "subtitle": "Visapusiški SAP BTP sprendimai jūsų verslo skaitmeninei transformacijai",
     "fiori": {
       "title": "Fiori programų kūrimas",
-      "description": "Šiuolaikinių, atsakomųjų Fiori programų kūrimas, suteikiantis puikų naudotojo patirtį visuose įrenginiuose."
+      "description": "Modernių ir adaptyvių Fiori programų kūrimas užtikrinant nepriekaištingą vartotojo patirtį visuose įrenginiuose."
     },
     "architecture": {
       "title": "BTP architektūra ir dizainas",
-      "description": "Strateginė architektūros planavimas ir dizainas tvariems SAP BTP sprendimams, pritaikytiems jūsų verslo poreikiams."
+      "description": "Strateginis planavimas ir skalių SAP BTP architektūrų projektavimas pagal jūsų verslo poreikius."
     },
     "designThinking": {
-      "title": "Dizaino mąstymas",
-      "description": "Naudotojui orientuotas dizaino požiūris inovatyvių sprendimų kūrimui, kurie sprendžia tikrus verslo iššūkius."
+      "title": "Design Thinking",
+      "description": "Vartotojo poreikiais grįstas požiūris kuriant inovatyvius sprendimus realių verslo iššūkių sprendimui."
     },
     "pwa": {
       "title": "Offline PWA programos",
-      "description": "Progresyvios žiniatinklio programos su savaitės funkcijomis užtikrinančios glaudų naudotojo patirtį bet kurioje vietoje."
+      "description": "Progresyvios žiniatinklio programos (PWA) su neprisijungusio režimo funkcija nepertraukiamam darbui."
     },
     "database": {
-      "title": "SAP BTP duomenų bazės valdymas",
-      "description": "Efektyvus duomenų bazės dizainas, optimizavimas ir valdymas aukšto veikimo BTP programoms."
+      "title": "SAP BTP duomenų bazių valdymas",
+      "description": "Efektyvus duomenų bazių projektavimas ir optimizavimas aukšto našumo BTP programoms."
     },
     "ai": {
-      "title": "AI sąskaitos faktūros apdorojimas",
-      "description": "Intelektualus sąskaitos faktūros apdorojimo automatizavimas su išankstiniu AI tikslumo ir efektyvumo."
+      "title": "DI sąskaitų apdorojimas",
+      "description": "Išmanusis sąskaitų faktūrų apdorojimo automatizavimas naudojant pažangų dirbtinį intelektą."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Glaudūs integracijos sprendimai, sujungiantys jūsų SAP sistemas su debesies ir vidaus nuomos programomis."
+      "description": "Sklandūs integracijos sprendimai, jungiantys SAP sistemas su debesijos ir vietinėmis programomis."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Įvykiams veiktas architektūra diegimas reaguojančiems, tvariems verslo procesams."
+      "description": "Įvykiais grįstos architektūros diegimas lankstiems ir skaliems verslo procesams realiuoju laiku."
     },
     "cap": {
       "title": "SAP CAP kūrimas",
-      "description": "Šiuolaikinių debesies programų kūrimas su SAP Cloud Application Programming Model greitam, tvariajam plėtrą."
+      "description": "Debesijos programų kūrimas naudojant SAP Cloud Application Programming Model greitam rezultatui pasiekti."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Profesionalių įmonės programų kūrimas su be kodo/žemo kodo įrankiais greitai skaitmeninei transformacijai."
+      "description": "Profesionalių verslo programų kūrimas naudojant no-code/low-code įrankius greitai transformacijai."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Verslo procesų automatizavimas su intelektualiais darbų srautais ir robotiniu procesnų automatizavimo galimybėmis."
+      "description": "Procesų automatizavimas pasitelkiant išmaniąsias darbo eigas ir robotizaciją (RPA)."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Mūsų dėmesys",
-      "title": "100% SAP BTP specializacija",
-      "description": "Skirtingai nei bendros konsultacijos firmos, mes concentruojamės tik į SAP Business Technology Platform, užtikrinant gilią patirtį ir šiuolaikinius sprendimus.",
-      "point1": "Skirtas sertifikuotų SAP BTP ekspertų komanda",
-      "point2": "Nuolat atnaujinti su naujausiais BTP funkcijomis ir geriausiais praktikos",
-      "point3": "Įrodytus pasiekimus skirtingose pramonės šakose"
+      "badge": "Mūsų kryptis",
+      "title": "100% specializacija SAP BTP",
+      "description": "Priešingai nei bendrojo pobūdžio konsultacinės įmonės, mes orientuojamės tik į SAP Business Technology Platform, užtikrindami aukščiausią kompetenciją.",
+      "point1": "Sertifikuotų SAP BTP ekspertų komanda",
+      "point2": "Naujausių BTP funkcijų ir geriausių praktikų taikymas",
+      "point3": "Sėkmingai įgyvendinti projektai įvairiuose pramonės sektoriuose"
     },
     "global": {
-      "badge": "Pasaulinė aprėptis",
-      "title": "Pasaulinių rinkų aptarnavimas",
-      "description": "Mes atnešame SAP BTP patirtį į pasaulines rinkas, suteikdami pasaulinės klasės sprendimus nepriklausomai nuo jūsų vietos.",
-      "point1": "Nuotolinės konsultacijos visuose laiko juostos",
+      "badge": "Pasaulinis mastas",
+      "title": "Aptarnaujame rinkas visame pasaulyje",
+      "description": "Mes teikiame SAP BTP paslaugas visame pasaulyje, užtikrindami aukščiausios klasės sprendimus nepriklausomai nuo vietos.",
+      "point1": "Nuotolinės konsultacijos visose laiko juostose",
       "point2": "Daugiakalbis palaikymas tarptautinėms komandoms",
-      "point3": "Supratimas apie regioninius verslo reikalavimus"
+      "point3": "Regioninių verslo reikalavimų išmanymas"
     },
     "ai": {
-      "badge": "Šiuolaikiška technologija",
-      "title": "AI supatuota inovacija",
-      "description": "Naudojant pačią naujausią AI technologiją SAP BTP sprendimų patobulinimui ir automatizavimo bei intelekto atneša į jūsų verslo procesus.",
-      "point1": "Intelektualus automatizavimas pasikartojančioms užduotims",
-      "point2": "Išankstytas duomenų apdorojimas ir analizė",
-      "point3": "Glaudus integravimas į esamus darbo srautus"
+      "badge": "Modernios technologijos",
+      "title": "Inovacija per DI",
+      "description": "Naudojame pažangiausią dirbtinį intelektą SAP BTP sprendimams stiprinti ir procesų intelektualumui didinti.",
+      "point1": "Išmanusis pasikartojančių užduočių automatizavimas",
+      "point2": "Pažangus duomenų apdorojimas ir analizė",
+      "point3": "Sklandi integracija į esamas darbo eigas"
     }
   },
   "knowledge": {
     "title": "Žinių centras",
-    "subtitle": "Ekspertų įžvalgos ir geriausios praktikos SAP BTP sėkmei",
-    "readMore": "Skaityti straipsnį",
+    "subtitle": "Ekspertų įžvalgos ir geriausia patirtis jūsų sėkmei su SAP BTP",
+    "readMore": "Skaityti daugiau",
     "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
       "category": "Kūrimas",
-      "title": "Šiuolaikinės Fiori programos kuriamos su SAP BTP",
-      "excerpt": "Sužinokite, kaip kurti atsakomių, naudotojui palanki Fiori programas, kurios išnaudoja pilną SAP Business Technology Platform galią.",
+      "title": "Modernių Fiori programų kūrimas su SAP BTP",
+      "excerpt": "Sužinokite, kaip kurti adaptyvias ir vartotojui patogias Fiori programas išnaudojant visą SAP BTP potencialą.",
       "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologija",
-      "title": "Offline PWA: verslo tęstinumo užtikrinimas bet kurioje vietoje",
-      "excerpt": "Atraskite, kaip progresyvios žiniatinklio programos su savaitės funkcijomis jūsų verslo procesus veikia sklandžiai net be interneto ryšio.",
+      "category": "Technologijos",
+      "title": "Offline PWA: verslo tęstinumo užtikrinimas",
+      "excerpt": "Atraskite, kaip progresyvios žiniatinklio programos užtikrina sklandų darbą net ir be interneto ryšio.",
       "readTime": "7 min"
     },
     "post3": {
-      "category": "AI ir automatizavimas",
-      "title": "AI intelektualaus sąskaitos faktūros apdorojimo",
-      "excerpt": "Naršykite, kaip AI integravimas su SAP BTP transformuoja sąskaitos faktūros apdorojimą be precedento tikslumu ir efektyvumu.",
+      "category": "DI ir automatizavimas",
+      "title": "Išmanusis DI sąskaitų apdorojime",
+      "excerpt": "Kaip DI integravimas į SAP BTP transformuoja finansų operacijas užtikrinant didelį tikslumą ir efektyvumą.",
       "readTime": "6 min"
     },
     "post4": {
       "category": "Integracija",
-      "title": "SAP BTP Integration Suite pagrindimas",
-      "excerpt": "Išsamus vadovas jūsų verslo sistemų sujungimui su SAP BTP Integration Suite glaudaus duomenų srauto.",
+      "title": "SAP BTP Integration Suite įsisavinimas",
+      "excerpt": "Išsamus vadovas, kaip sujungti visas jūsų sistemas sklandžiam duomenų srautui užtikrinti.",
       "readTime": "8 min"
     },
     "post5": {
       "category": "Architektūra",
-      "title": "Event-Mesh architektūra realaus laiko verslo",
-      "excerpt": "Įvykių orientuotos architektūros diegimas su SAP Event Mesh reaguojamų, tvariųjų sprendimų.",
+      "title": "Event Mesh architektūra realaus laiko verslui",
+      "excerpt": "Įvykiais grįstų sprendimų diegimas su SAP Event Mesh lanksčių sistemų kūrimui.",
       "readTime": "6 min"
     },
     "post6": {
-      "category": "Geriausios praktikos",
-      "title": "BTP duomenų bazės optimizavimo strategijos",
-      "excerpt": "Būtina strategija SAP BTP duomenų bazės veikimo optimizavimui greitam, patikimam prieinamumui prie verslo kritinių duomenų.",
+      "category": "Geriausia praktika",
+      "title": "Duomenų bazių optimizavimas BTP aplinkoje",
+      "excerpt": "Pagrindinės strategijos SAP BTP duomenų bazių našumui gerinti ir greitam duomenų prieinamumui.",
       "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Pradėkite",
-    "title": "Pasiruošę transformuoti jūsų verslą?",
-    "subtitle": "Rezervuokite nemokamą konsultaciją su mūsų SAP BTP ekspertais",
-    "availability": "Ribota prieiga",
+    "badge": "Pradėkime",
+    "title": "Pasiruošę transformacijai?",
+    "subtitle": "Užsisakykite nemokamą konsultaciją su SAP BTP ekspertais",
+    "availability": "Ribotas vietų kiekis",
     "contactInfo": "Kontaktinė informacija",
     "email": "El. paštas",
-    "globalPresence": "Pasaulinė buveinė",
-    "servingCountries": "Aptarnaujame klientus 40+ pasaulio šalių",
+    "globalPresence": "Pasaulinis prieinamumas",
+    "servingCountries": "Aptarnaujame klientus daugiau nei 40 šalių",
     "fastResponse": "Greito atsakymo garantija",
-    "fastResponseDesc": "Gauti ekspertų patarimą per 24 valandas. Mūsų SAP BTP specialistai yra pasirengę jums padėti sėkmės.",
-    "mentionCountry": "Praneškite savo šalį kai susisiekiate",
+    "fastResponseDesc": "Gaukite eksperto atsakymą per 24 valandas. Esame pasirengę jums padėti pasiekti sėkmę.",
+    "mentionCountry": "Susisiekdami nurodykite savo šalį",
     "form": {
-      "name": "Visas vardas",
-      "email": "Verslo el. paštas",
+      "name": "Vardas ir pavardė",
+      "email": "Darbo el. paštas",
       "company": "Įmonės pavadinimas",
       "message": "Papasakokite apie savo projektą",
-      "submit": "Planuoti nemokamą konsultaciją",
-      "submitting": "Siuntimas..."
+      "submit": "Užsisakyti konsultaciją",
+      "submitting": "Siunčiama..."
     },
     "success": {
-      "title": "Žinutė išsiųsta!",
-      "description": "Ačiū, kad susisiekėte su mumis. Atsakysime per 24 valandas."
+      "title": "Žinutė gauta!",
+      "description": "Ačiū, kad kreipėtės. Susisieksime su jumis per 24 valandas."
     },
     "error": {
       "title": "Klaida",
-      "description": "Kažkas negerai. Prašome bandyti dar kartą."
+      "description": "Kažkas nepavyko. Bandykite dar kartą vėliau."
     }
   },
   "footer": {
-    "description": "Specializuota SAP BTP konsultacija teikia puikią pasaulyje",
+    "description": "Specializuotos SAP BTP konsultacijos, orientuotos į kokybę ir pasaulinio lygio rezultatus",
     "services": "Paslaugos",
-    "fiori": "Fiori plėtra",
+    "fiori": "Fiori kūrimas",
     "architecture": "BTP architektūra",
     "integration": "Integration Suite",
-    "ai": "AI sprendimai",
-    "knowledge": "Žinios",
-    "blogArticles": "Straipsniai",
-    "caseStudies": "Atvejai",
+    "ai": "DI sprendimai",
+    "knowledge": "Nuorodos",
+    "blogArticles": "Tinklaraščio straipsniai",
+    "caseStudies": "Sėkmės istorijos",
     "resources": "Ištekliai",
     "company": "Įmonė",
     "about": "Apie mus",
@@ -176,1287 +176,1286 @@
     "careers": "Karjera",
     "blog": "Tinklaraštis",
     "documentation": "Dokumentacija",
-    "whitepapers": "Baltieji popieriai",
-    "legal": "Juridinis",
-    "privacy": "Privatumo politika",
-    "terms": "Paslaugų sąlyga",
+    "whitepapers": "Verslo ataskaitos",
+    "legal": "Teisinė informacija",
+    "privacy": "Privatumas",
+    "terms": "Naudojimo sąlygos",
     "copyright": "Visos teisės saugomos.",
-    "deployedOn": "Diegta Cloudflare",
-    "serviceRestriction": "Paslaugos nėra pasiekiamos Australijoje ir Naujojoje Zelandijoje.",
-    "availableLanguages": "Galima jūsų kalba"
+    "deployedOn": "Talpinama Cloudflare",
+    "serviceRestriction": "Paslaugos neteikiamos Australijoje ir Naujojoje Zelandijoje.",
+    "availableLanguages": "Pasiekiama jūsų kalba"
   },
   "common": {
     "learnMore": "Sužinoti daugiau",
     "backToHome": "Grįžti į pradžią"
   },
   "capDevelopment": {
-    "badge": "Debesies programų kūrimas",
+    "badge": "Debesijos programų kūrimas",
     "title": "SAP CAP kūrimas",
     "subtitle": "Paslaugos",
-    "description": "Šiuolaikinių debesies programų kūrimas su SAP Cloud Application Programming Model greitam, tvariajam kūrimui SAP BTP.",
+    "description": "Modernių debesijos sprendimų kūrimas naudojant SAP Cloud Application Programming Model greitam ir skaliems sprendimams SAP BTP aplinkoje.",
     "cta": "Pradėkite savo CAP projektą →",
-    "servicesTitle": "Išsamūs CAP kūrimo paslaugos",
-    "servicesSubtitle": "Nuo duomenų modeliavimo iki diegimo - visapusė CAP patirtis jūsų verslo programoms.",
-    "whyChoose": "Kodėl pasirinkti TerraBT",
-    "whyChooseTitle": "Ekspertinis CAP kūrimas, kuris teikia rezultatus",
-    "whyChooseDescription": "Mūsų sertifikuoti SAP CAP plėtotojai turi ilgametę patirtį kuriančius įmonės programas. Mes deriname techninę žinią su verslo supratimą teikti sprendimus, kurie duoda rezultatus.",
+    "servicesTitle": "Pilnas CAP kūrimo paslaugų ciklas",
+    "servicesSubtitle": "Nuo duomenų modeliavimo iki diegimo – visapusiška kompetencija jūsų verslui.",
+    "whyChoose": "Kodėl TerraBT?",
+    "whyChooseTitle": "Ekspertinis CAP kūrimas su matomais rezultatais",
+    "whyChooseDescription": "Mūsų sertifikuoti kūrėjai turi didelę patirtį kuriant įmonės lygio programas. Jungiame techninį tikslumą su verslo poreikių supratimu.",
     "features": {
       "fullStack": {
         "title": "Full-Stack CAP kūrimas",
-        "description": "End-to-end programų kūrimas naudojant CAP sistemą.",
+        "description": "Visas kūrimo ciklas naudojant CAP sistemą.",
         "items": [
-          "CDS duomenų modeliavimas ir objektų nustatymas",
-          "Paslaugos nustatymas ir diegimas",
-          "Pasirinktinės verslo logikos kūrimas",
-          "Fiori Elements UI generavimas",
-          "CAP Node.js ir Java runtime palaikymas"
+          "CDS duomenų modeliavimas ir objektų apibrėžimas",
+          "Paslaugų projektavimas ir diegimas",
+          "Verslo logikos kūrimas",
+          "UI generavimas per Fiori Elements",
+          "Palaikymas Node.js ir Java aplinkoms"
         ]
       },
       "database": {
-        "title": "Duomenų bazės integravimas",
-        "description": "Glaudus integravimas su SAP HANA Cloud ir kitomis duomenų bazėmis.",
+        "title": "Duomenų bazių integracija",
+        "description": "Efektyvus darbas su SAP HANA Cloud ir kitomis sistemomis.",
         "items": [
-          "SAP HANA Cloud gimtas kūrimas",
+          "Native kūrimas SAP HANA Cloud aplinkoje",
           "PostgreSQL ir SAP ASE palaikymas",
-          "Duomenų bazės migracija ir schemos valdymas",
-          "Užklausi optimizavimas ir veikimo nustatymas",
-          "Kelios nuomininkų duomenų bazės nustatymas"
+          "Duomenų migracija ir schemų valdymas",
+          "Užklausų ir našumo optimizavimas",
+          "Multi-tenancy konfigūravimas"
         ]
       },
       "security": {
-        "title": "Saugumas ir autorizavimas",
-        "description": "Įmonės lygio saugumo diegimas CAP programoms.",
+        "title": "Saugumas ir prieiga",
+        "description": "Įmonės lygio saugumo standartų diegimas.",
         "items": [
-          "Rolėms pagrindinė prieigos kontrolė (RBAC)",
-          "Autentifikavimo integravimas (XSUAA, IAS)",
-          "Autorizavimo anotacijos ir apribojimai",
-          "Duomenų privatumas ir lauko lygio saugumas",
-          "Saugi kredencialų valdymas"
+          "Rolėmis grįsta prieigos kontrolė (RBAC)",
+          "Autentifikavimo integracija (XSUAA, IAS)",
+          "Autorizavimo anotacijų nustatymas",
+          "Duomenų apsauga laukų lygmenyje",
+          "Saugus kredencialų valdymas"
         ]
       },
       "api": {
         "title": "API ir paslaugų kūrimas",
-        "description": "Kurkite tvirtus OData ir REST API su CAP paslaugomis.",
+        "description": "Stabilių OData ir REST API kūrimas.",
         "items": [
-          "OData V2 ir V4 paslaugų sukūrimas",
-          "REST API diegimas",
-          "Pasirinktiniai veiksmai ir funkcijos",
-          "Juodraščio įjungimas sandorių programoms",
-          "Išorinės paslaugos integravimas ir mišiniai"
+          "OData V2 ir V4 paslaugų kūrimas",
+          "RESTful API diegimas",
+          "Pasirinktinių funkcijų kūrimas",
+          "Draft funkcionalumo palaikymas",
+          "Integracija su išorinėmis sistemomis"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements integravimas",
-        "description": "Greita UI plėtra su Fiori Elements ir CAP.",
+        "title": "Fiori Elements integracija",
+        "description": "Greitas sąsajų kūrimas naudojant CAP.",
         "items": [
-          "Sąrašo ataskaitų ir objektų puslapių programos",
-          "Analitinio sąrašo puslapio (ALP) kūrimas",
-          "Laisvosios formos Fiori programos integravimas",
-          "UI anotacijos ir pritaikymas",
-          "Reaguojantis ir pritaikytasis dizainas"
+          "List Report ir Object Page programos",
+          "Analytical List Page (ALP) kūrimas",
+          "Freestyle Fiori programų integracija",
+          "UI anotacijos ir personalizavimas",
+          "Adaptyvus dizainas visiems ekranams"
         ]
       },
       "cicd": {
         "title": "CI/CD ir DevOps",
-        "description": "Automatinis diegimas ir nuolatinio integravimo vamzdynai.",
+        "description": "Automatizuotas diegimas ir kokybės kontrolė.",
         "items": [
-          "Cloud Foundry ir Kyma diegimas",
+          "Diegimas Cloud Foundry ir Kyma aplinkose",
           "MTA (Multi-Target Application) kūrimas",
-          "Automatizuoti testai ir kokybės vartai",
-          "CI/CD vamzdyno sąranka (Jenkins, GitHub Actions)",
-          "Kelių aplinkų tobulinimo strategijos"
+          "Automatizuoti testai ir kokybės patikros",
+          "CI/CD srautų nustatymas (Jenkins, GitHub Actions)",
+          "Aplinkų valdymo strategijos"
         ]
       }
     },
     "benefits": [
-      "Pagreitintas kūrimas su patvirtintais CAP modeliais",
-      "Įmontuoti geriausiais praktikos ir įmonės parengtos architektūros",
-      "Tvarios programos, kurios auga su jūsų verslu",
-      "Glaudus SAP S/4HANA integravimas",
-      "Ekspertinis vadovavimas išdo plėtros ciklo"
+      "Pagreitintas kūrimas naudojant patikrintus modelius",
+      "Geriausių SAP praktikų taikymas",
+      "Skalūs sprendimai, augantys kartu su verslu",
+      "Tiesioginė sąsaja su SAP S/4HANA",
+      "Profesionalus vadovavimas kiekviename etape"
     ]
   },
   "buildAppsPage": {
-    "badge": "Be kodo/Žemo kodo kūrimas",
+    "badge": "No-Code/Low-Code kūrimas",
     "title": "SAP Build Apps",
-    "subtitle": "Kūrimo paslaugos",
-    "description": "Kurkite profesionalias įmonės programas be kodo/žemo kodo įrankiais greitam skaitmeniniam transformavimui ir verslo lankstumui.",
-    "cta": "Pradėkite kurti šiandien →",
-    "servicesTitle": "Pilnos SAP Build Apps sprendimai",
-    "servicesSubtitle": "Nuo vizualinio kūrimo iki įmonės diegimo - suteikite galią savo verslo vartotojams.",
-    "whyChooseTitle": "Greitas programų kūrimas",
-    "whyChooseDescription": "SAP Build Apps leidžia verslo vartotojams ir plėtotojams kurti galingas programas be didžių kodavimo. Pagreitinkite savo skaitmeninę transformaciją naudodami vaizdinius kūrimo įrankius.",
-    "implementationTitle": "Diegimo požiūris",
+    "subtitle": "Paslaugos",
+    "description": "Kurkite verslo programas be sudėtingo kodavimo, užtikrindami didelį organizacijos lankstumą.",
+    "cta": "Pradėkite kurti →",
+    "servicesTitle": "SAP Build Apps sprendimai",
+    "servicesSubtitle": "Nuo vizualaus projektavimo iki visiško įmonės diegimo.",
+    "whyChooseTitle": "Greitas startas rinkoje",
+    "whyChooseDescription": "SAP Build Apps leidžia kurti galingus įrankius be gilaus programavimo žinių. Pagreitinkite inovacijas jau šiandien.",
+    "implementationTitle": "Mūsų metodika",
     "features": {
       "visual": {
-        "title": "Vizualinis kūrimas",
-        "description": "Vilkti ir mesti sąsaja greitam programų kūrimui.",
+        "title": "Vizualinis projektavimas",
+        "description": "Drag-and-drop sąsaja greitam kūrimui.",
         "items": [
-          "Intuityvus vizualinis puslapio tvarkytuvė",
-          "Iš anksto sukurtas UI komponentų biblioteka",
-          "Reaguojantis dizaino drobė",
-          "Realaus laiko peržiūra ir testavimai",
-          "Temos pritaikymas ir brenda"
+          "Intuityvus puslapių kūrimo įrankis",
+          "Paruoštų UI komponentų biblioteka",
+          "Adaptyvi dizaino aplinka",
+          "Peržiūra realiuoju laiku",
+          "Prekės ženklo pritaikymas"
         ]
       },
       "crossPlatform": {
-        "title": "Kryžine platformos programos",
-        "description": "Kurkite kartą, diegkite visur - tinklas, iOS ir Android.",
+        "title": "Kelių platformų palaikymas",
+        "description": "Vienas kūrimas – visos platformos: Web, iOS ir Android.",
         "items": [
-          "Progresyvios žiniatinklio programos (PWA) palaikymas",
-          "Gimtas mobiliųjų programų generavimas",
-          "Planšetinio kompiuterio ir darbalaukio optimizavimas",
-          "Savaitės duomenų galimybės",
-          "Programų parduotuvės diegimo palaikymas"
+          "PWA technologijų palaikymas",
+          "Native mobiliųjų versijų generavimas",
+          "Planšečių ir stalinių kompiuterių optimizavimas",
+          "Darbas neprisijungus (offline)",
+          "Pagalba publikuojant programėlių parduotuvėse"
         ]
       },
       "cloudNative": {
-        "title": "Debesies gimtas integravimas",
-        "description": "Glaudus ryšys su SAP BTP paslaugomis ir duomenimis.",
+        "title": "Integracija debesijoje",
+        "description": "Sklandus ryšys su duomenimis SAP BTP aplinkoje.",
         "items": [
-          "SAP S/4HANA Cloud integravimas",
-          "OData paslaugų ryšys",
-          "BTP paslaugų vartojimas",
-          "Autentifikacija ir autorizavimas",
-          "Realaus laiko duomenų sinchronizavimas"
+          "Integracija su SAP S/4HANA Cloud",
+          "Sąsaja per OData paslaugas",
+          "BTP resursų naudojimas",
+          "Autentifikavimo konfigūravimas",
+          "Duomenų sinchronizavimas realiu laiku"
         ]
       },
       "rapid": {
         "title": "Greitas prototipavimas",
-        "description": "Greitai patvirtinkite idėjas ir kartokite pagal atsiliepimą.",
+        "description": "Idėjų patikrinimas per MVP trumpais terminais.",
         "items": [
-          "Greitas MVP kūrimas",
-          "Vartotojo testavimai ir atsiliepimų rinkimas",
-          "Kartotinas dizainas ir tobulinimas",
-          "Versijos kontrolė ir grąžinimas",
-          "Komandos bendradarbiavimo įrankiai"
+          "Greitas pradinės versijos sukūrimas",
+          "Testavimas su realiais vartotojais",
+          "Iteracinis dizaino tobulinimas",
+          "Versijų valdymas",
+          "Komandinio bendradarbiavimo įrankiai"
         ]
       },
       "citizen": {
-        "title": "Pilietinio plėtotojo sugebinimas",
-        "description": "Suteikite verslo vartotojams galią kurti programas.",
+        "title": "Citizen Development",
+        "description": "Įgalinkite verslo ekspertus kurti sprendimus patiems.",
         "items": [
-          "Žema mokymo kreivė ne-plėtotojams",
-          "Vadovaujami kūrimo darbo srautai",
-          "Šablono ir šablono biblioteka",
-          "Valdymas ir kokybės kontrolė",
-          "Mokymo ir sugebinimo programos"
+          "Lengvas startas neturintiems IT patirties",
+          "Valdomos darbo eigos",
+          "Paruoštų šablonų biblioteka",
+          "Kokybės ir standartų kontrolė",
+          "Mentorystės ir mokymų programos"
         ]
       },
       "proCode": {
-        "title": "Pro-Code išplečiamumas",
-        "description": "Praplėsti pasirinktiniu kodu, kai reikia.",
+        "title": "Profesionalus išplėtimas",
+        "description": "Specifinės logikos pridėjimas per kodą.",
         "items": [
-          "Pasirinktas JavaScript logika",
-          "API integracijos galimybės",
-          "Pasirinktinis komponentų kūrimas",
-          "Pažangūs duomenų transformavimai",
-          "Trečiųjų šalių bibliotekos integravimas"
+          "Individuali JavaScript logika",
+          "Sudėtinga API integracija",
+          "Naujų komponentų kūrimas",
+          "Duomenų transformacijos",
+          "Išorinių bibliotekų prijungimas"
         ]
       }
     },
     "benefits": [
-      "10x greitesnis programų kūrimas",
-      "60% kūrimo sąnaudų sumažinimas",
-      "Verslo vartotojų sugebinimas inovacijai",
-      "Glaudus SAP ekosistemos integravimas",
-      "Įmonės lygio saugumas ir valdymas"
+      "Iki 10 kartų greitesnis kūrimas",
+      "Iki 60% mažesnės kūrimo sąnaudos",
+      "Verslo padalinių įtraukimas į inovacijas",
+      "Visiška dermė su SAP ekosistema",
+      "Aukščiausias saugumas ir valdymas"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Reikalavimai ir dizainas",
-        "description": "Seminaras verslo poreikiams suprasti ir programos struktūrai suprojektuoti su dalyviais."
+        "title": "1. Analizė ir dizainas",
+        "description": "Sesija poreikiams nustatyti ir architektūrai suplanuoti."
       },
       "step2": {
         "title": "2. Vizualinis kūrimas",
-        "description": "Programų kūrimas naudojant vilkti ir mesti sąsaja su iš anksto sukurtais komponentais ir šablonais."
+        "description": "Programos surinkimas iš paruoštų modulių ir logikos."
       },
       "step3": {
-        "title": "3. Duomenų integravimas",
-        "description": "Ryšys su SAP sistemomis ir išoriniais duomenų šaltiniais su glaudžiu autentifikacija."
+        "title": "3. Duomenų integracija",
+        "description": "Sujungimas su jūsų SAP ir išorinėmis sistemomis."
       },
       "step4": {
-        "title": "4. Testavimai ir tobulinimas",
-        "description": "Vartotojo priėmimo testavimai ir kartotinas patobulinimas pagal atsiliepimą."
+        "title": "4. Testavimas",
+        "description": "Funkcionalumo patikra ir galutiniai nustatymai."
       },
       "step5": {
         "title": "5. Diegimas",
-        "description": "Diegimas tinklui, iOS ir Android su automatizuotu kūrimu ir paskirstymu."
+        "description": "Sprendimo paleidimas produkcinėje aplinkoje."
       },
       "step6": {
-        "title": "6. Mokymas ir palaikymas",
-        "description": "Galutinio vartotojo mokymas ir nuolatinis palaikymas nuolatiniam patobulinimui."
+        "title": "6. Mokymai",
+        "description": "Žinių perdavimas komandai darbui su nauju įrankiu."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Procesų automatizavimas",
+    "badge": "Automatizavimas",
     "title": "SAP Build Process Automation",
     "subtitle": "Paslaugos",
-    "description": "Verslo procesų automatizavimas su intelektualiais darbo srautais ir robotiniu proceso automatizavimo galimybėmis padidintu efektyvumui.",
-    "cta": "Automatizuokite savo procesus →",
-    "servicesTitle": "Pilnos proceso automatizavimo sprendimai",
-    "servicesSubtitle": "Nuo paprastų darbo srautų iki sudėtingo RPA - išsami automatizavimo patirtis.",
-    "whyChooseTitle": "Intelektualus procesų automatizavimas",
-    "whyChooseDescription": "Transformuokite savo verslo operacijas su SAP Build Process Automation. Sujunkite darbo srautų valdymą, RPA ir AI galutiniam procesų susimaišymui.",
-    "implementationTitle": "Diegimo keliaskalas",
+    "description": "Verslo procesų optimizavimas pasitelkiant išmanųjį valdymą ir robotizaciją.",
+    "cta": "Automatizuokite dabar →",
+    "servicesTitle": "Efektyvūs automatizavimo sprendimai",
+    "servicesSubtitle": "Nuo paprastų užduočių iki didelio masto robotizuotų procesų.",
+    "whyChooseTitle": "Išmanioji verslo aplinka",
+    "whyChooseDescription": "Apjunkite Workflow, RPA ir DI maksimaliam produktyvumui pasiekti.",
+    "implementationTitle": "Veiksmų planas",
     "features": {
       "workflow": {
-        "title": "Darbo srauto valdymas",
-        "description": "Suprojektuokite ir orchest sudėtingus verslo darbo srautus.",
+        "title": "Darbo eigų valdymas",
+        "description": "Sudėtingų užduočių sekų projektavimas.",
         "items": [
-          "Vizualinis darbo srauto projektavimas",
-          "Patvirtinimo ir keliavimo logika",
-          "Žmogaus užduoties valdymas",
-          "Lygiagrečiai ir nuoseklus apdorojimas",
-          "Eskalacijos ir termino tvarkymas"
+          "Vizualus Workflow dizaineris",
+          "Patvirtinimų ir maršrutizavimo logika",
+          "Užduočių valdymas darbuotojams",
+          "Lygiagretus duomenų apdorojimas",
+          "Terminų ir eskalacijų sekimas"
         ]
       },
       "rpa": {
-        "title": "Robotinis procesų automatizavimas",
-        "description": "Automatizuokite pasikartojančias užduotis su programavimo robotais.",
+        "title": "Robotizacija (RPA)",
+        "description": "Rankinių užduočių pakeitimas programiniais robotais.",
         "items": [
-          "Darbalaukio ir tinklo automatizavimas",
-          "Ekrano nuėmimas ir duomenų ištraukimas",
-          "Programų integravimas be API",
-          "Prižiūrėti ir neprižiūrėti robotai",
-          "Roboto planavimas ir orkestracija"
+          "Stalinių ir interneto veiksmų automatizavimas",
+          "Duomenų nuskaitymas nuo ekrano (Scraping)",
+          "Darbas su programomis be API sąsajos",
+          "Prižiūrimi ir autonominiai robotai",
+          "Botų planavimas ir orkestravimas"
         ]
       },
       "document": {
         "title": "Dokumentų apdorojimas",
-        "description": "Intelektualus dokumentų ištraukimas ir klasifikavimas.",
+        "description": "Išmanusis informacijos atpažinimas.",
         "items": [
-          "AI paremta duomenų ištraukimas",
-          "Dokumentų klasifikavimas ir nukreipimas",
-          "Šablono pagrindu apdorojimas",
-          "Kelių formatų palaikymas (PDF, vaizdai, nuskeidimai)",
-          "Patvirtinimo ir patikrinimo taisyklės"
+          "Duomenų išgavimas naudojant DI modelius",
+          "Automatinė dokumentų klasifikacija",
+          "Darbas pagal šablonus",
+          "PDF, vaizdų ir skenų palaikymas",
+          "Informacijos validavimo taisyklės"
         ]
       },
       "approval": {
-        "title": "Patvirtinimo darbo srautai",
-        "description": "Supaprastinkite patvirtinimo procesus visoje jūsų organizacijoje.",
+        "title": "Patvirtinimo procesai",
+        "description": "Sprendimų priėmimo pagreitinimas.",
         "items": [
-          "Kelių lygių patvirtinimo grandinės",
-          "Sąlyginė keliavimo logika",
-          "Delegavimo ir pakeitimo taisyklės",
-          "Mobiliųjų patvirtinimo galimybės",
-          "Pranešimo ir priminimo sistema"
+          "Daugiaetapės patvirtinimo grandinės",
+          "Sąlyginiai darbo eigos keliai",
+          "Pavadavimo ir delegavimo taisyklės",
+          "Patvirtinimas per mobiliuosius įrenginius",
+          "Automatiniai priminimai ir pranešimai"
         ]
       },
       "analytics": {
-        "title": "Procesų analitika",
-        "description": "Įgaukite įžvalgų į procesų veikimą ir kliūtis.",
+        "title": "Procesų analizė",
+        "description": "Kliūčių nustatymas ir darbo optimizavimas.",
         "items": [
-          "Procesų kasybos ir atradimo",
-          "Veikimo metriko ir KPI",
-          "Kliūties nustatymas",
+          "Process Mining ir diagnostika",
+          "KPI ir metrikų sekimas",
+          "Probleminių vietų vizualizacija",
           "Atitikties stebėjimas",
-          "Nuolatinio patobulinimo rekomendacijos"
+          "Nuolatinio tobulinimo pasiūlymai"
         ]
       },
       "governance": {
-        "title": "Valdymas ir atitiktis",
-        "description": "Užtikrinti, kad procesai atitiktų norminius reikalavimus.",
+        "title": "Valdymas ir kontrolė",
+        "description": "Reglamentų laikymosi užtikrinimas.",
         "items": [
-          "Audito takas ir žurnalas",
-          "Prieigos kontrolė ir saugumas",
-          "Atitikties taisyklės įgyvendinimas",
-          "Versijos kontrolė ir pokyčių valdymas",
-          "SLA stebėjimas ir įgyvendinimas"
+          "Išsamus veiksmų audito sekimas",
+          "Griežta prieigos kontrolė",
+          "Vidaus politikos laikymasis",
+          "Versijų ir pokyčių valdymas",
+          "Aktyvus SLA lygių stebėjimas"
         ]
       }
     },
     "benefits": [
-      "70% rankinės apdorojimo laiko sumažinimas",
-      "99,9% tikslumas automatizuotose užduotyse",
-      "Greitas ROI per 3-6 mėnesius",
-      "Patobulintas atitiktis ir auditovamumas",
-      "Skirtas diegimo palaikymas ir optimizavimas"
+      "Rankinio darbo sumažėjimas iki 70%",
+      "Daugiau nei 99% tikslumas",
+      "ROI (atsipirkimas) per 3–6 mėnesius",
+      "Visiškas skaidrumas ir atskaitomybė",
+      "Mažesnė operacinė rizika"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Procesų atradimas",
-        "description": "Analizuokite ir dokumentuokite dabartinius procesus, kad nustatytumėte automatizavimo galimybes."
+        "title": "1. Discovery etapas",
+        "description": "Analizė tinkamiausiems robotizacijos procesams parinkti."
       },
       "step2": {
-        "title": "2. Automatizavimo dizainas",
-        "description": "Suprojektuokite optimalų automatizavimo sprendimą derinant darbo srautą, RPA ir AI galimybes."
+        "title": "2. Automatizavimo projektas",
+        "description": "Optimalaus modelio rengimas derinant RPA ir Workflow."
       },
       "step3": {
-        "title": "3. Kūrimas ir konfigūracija",
-        "description": "Sukurkite ir skonfigūruokite automatizavimą naudodami SAP Build Process Automation įrankius."
+        "title": "3. Sukūrimas",
+        "description": "Botų ir darbo eigų konfigūravimas SAP Build aplinkoje."
       },
       "step4": {
-        "title": "4. Testavimai ir patikrinimas",
-        "description": "Išsamus testavimai užtikrinant automatizavimo tikslumą ir patikimumą."
+        "title": "4. Validavimas",
+        "description": "Tikslumo ir sklandaus veikimo patikra."
       },
       "step5": {
-        "title": "5. Diegimas ir tiesioginė versija",
-        "description": "Diegimas į gamybą su stebėtu jungčiu ir vartotojo mokymu."
+        "title": "5. Paleidimas",
+        "description": "Sprendimo paleidimas ir vartotojų palaikymas."
       },
       "step6": {
-        "title": "6. Stebėjimas ir optimizavimas",
-        "description": "Nuolatinis stebėjimas ir patobulinimas pagal veikimo analitiką."
+        "title": "6. Optimizavimas",
+        "description": "Nuolatinis tobulinimas remiantis realiais duomenimis."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektūra ir dizainas",
+    "badge": "Architektūra ir projektavimas",
     "title": "SAP BTP architektūra",
-    "subtitle": "ir dizaino paslaugos",
-    "description": "Strateginė architektūros planavimas ir dizainas tvariems, saugiems ir aukšto veikimo SAP BTP sprendimams. Statome įmonės lygio debesies aplinkas pritaikytas jūsų verslo poreikiams.",
-    "cta": "Aptarti jūsų architektūros poreikius →",
-    "servicesTitle": "Išsamūs architektūros paslaugos",
-    "servicesSubtitle": "Nuo pradinio peizažo dizaino iki saugumo diegimo - apimame kiekvieną jūsų SAP BTP architektūros aspektą.",
-    "whyChooseTitle": "Ekspertų architektūra, kuri duoda rezultatus",
-    "whyChooseDescription": "Mūsų sertifikuoti SAP BTP architektai turi ilgametę patirtį kuriančius pasaulinių organizacijų įmonės sprendimus. Mes derinome geriausias praktikas su inovacija kurti architektūras, kurios laiko laiką.",
+    "subtitle": "Visapusiškos paslaugos",
+    "description": "Strateginis atsparių ir saugių debesijos aplinkų projektavimas aukščiausiame įmonės lygmenyje.",
+    "cta": "Aptarkite savo projektą →",
+    "servicesTitle": "Architektūrinis konsultavimas",
+    "servicesSubtitle": "Nuo infrastruktūros planavimo iki visiško saugumo.",
+    "whyChooseTitle": "Kompetencija pasauliniu mastu",
+    "whyChooseDescription": "Mūsų architektai turi patirties kuriant didelio masto sistemas pasaulinėms kompanijoms.",
     "features": {
       "landscape": {
-        "title": "Peizažo dizainas",
-        "description": "Išsami BTP peizažo architektūra pritaikyta jūsų verslo reikalavimams.",
+        "title": "Aplinkos sandara",
+        "description": "BTP infrastruktūros projektavimas.",
         "items": [
-          "Kelių lygių aplinkos sąranka (Dev, Test, Production)",
-          "Subkonto struktūra ir organizacija",
-          "Išteklių paskirstymas ir pajėgumo planavimas",
-          "Cloud Foundry ir Kyma runtime konfigūracija",
-          "Tinklo topologija ir ryšio planavimas"
+          "Dev/Test/Prod aplinkų nustatymas",
+          "Subaccount organizavimas",
+          "Resursų ir kvotų skirstymas",
+          "Kyma ir Cloud Foundry aplinkos",
+          "Tinklų planavimas"
         ]
       },
       "security": {
         "title": "Saugumo architektūra",
-        "description": "Įmonės lygio saugumo dizainas jūsų BTP aplinkos ir duomenų apsaugai.",
+        "description": "Duomenų ir infrastruktūros apsauga.",
         "items": [
-          "Tapatybės ir prieigos valdymo (IAM) strategija",
-          "Rolėms pagrindinės prieigos kontrolės (RBAC) diegimas",
-          "Duomenų šifravimas ir atitikties standartai",
-          "Saugumo stebėjimas ir grėsmės aptikimas",
-          "Audito žurnalo ir atitikties ataskaita"
+          "IAM strategija (Identity & Access Management)",
+          "Rolėmis grįstas modelis (RBAC)",
+          "Informacijos šifravimas",
+          "Grėsmių aptikimas",
+          "Atitikties ataskaitos"
         ]
       },
       "highAvailability": {
-        "title": "Aukšta prieinamumas",
-        "description": "Suprojektuokite atsparios sistemas su minimaliais neprieinamumais ir maksimaliu patikimumu.",
+        "title": "Aukštas prieinamumas",
+        "description": "Nepertraukiamo darbo užtikrinimas.",
         "items": [
-          "Kelių regionų diegimo strategijos",
-          "Katastrofos atsigavimas ir atsarginės kopijos sprendimai",
-          "Apkrovos balansavimas ir nepavykus mechanizmai",
-          "Verslo tęstinumo planavimas",
-          "Veikimo stebėjimas ir optimizavimas"
+          "Multi-region strategijos",
+          "Disaster Recovery ir atsarginės kopijos",
+          "Load balancing sprendimai",
+          "Business Continuity planavimas",
+          "Našumo analizė"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite sąranka",
-        "description": "Pilna Integration Suite konfigūracija glaudžiam sistemos ryšiui.",
+        "title": "Integration Suite",
+        "description": "Visų sistemų sujungimas į bendrą tinklą.",
         "items": [
-          "Cloud Integration (CPI) sąranka ir konfigūracija",
-          "API valdymo diegimas",
-          "Atviro jungtuvo konfigūracija",
-          "Integracijos patarėjo naudojimas",
-          "Iš anksto supakuoto integracijos turinio diegimas"
+          "SAP Integration Suite (CPI) nustatymas",
+          "API Management diegimas",
+          "Open Connectors naudojimas",
+          "Integration Advisor konfigūravimas",
+          "Paruoštas turinys"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector sąranka",
-        "description": "Saugus vidaus nuomos į debesį ryšys hibridinės peizažo integracijos.",
+        "title": "SAP Cloud Connector",
+        "description": "Saugus ryšys tarp vietinės (on-premise) ir debesų aplinkos.",
         "items": [
-          "Cloud Connector diegimas ir konfigūracija",
-          "Saugi tunellio sąranka tarp vidaus nuomos ir BTP",
-          "Prieigos kontrolė ir saugumo grupės valdymas",
-          "Sistemos žemėlapė ir virtualaus vardo serveryno konfigūracija",
-          "Aukšta prieinamumas ir nepavykus sąranka",
-          "Ryšio problemų stebėjimas ir trikdžiai"
+          "Instaliavimas ir saugumo stiprinimas",
+          "Saugus duomenų tunelis",
+          "Access Control taisyklės",
+          "Sistemų susiejimas (mapping)",
+          "High Availability palaikymas",
+          "Diagnostika"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh sąranka",
-        "description": "Įvykio orientuota architektūra diegimas realaus laiko verslo procesams.",
+        "title": "Event Mesh",
+        "description": "Sąveika tarp paslaugų per įvykius.",
         "items": [
-          "Event Mesh pavadinio tiekimas",
-          "Eilutės ir temos konfigūracija",
-          "Įvykio brokerio sąranka ir valdymas",
-          "Žinutės keliavimo ir filtravimo taisyklės",
-          "Įvykio stebėjimas ir analitika"
+          "Instancijų aktyvavimas",
+          "Eilių ir temų valdymas",
+          "Event Broker valdymas",
+          "Filtravimo taisyklės",
+          "Žurnalų analizė"
         ]
       },
       "ias": {
-        "title": "IAS sąranka",
-        "description": "Tapatybės autentifikavimo paslaugos konfigūracija saugiam vartotojo valdymui.",
+        "title": "SAP IAS",
+        "description": "Centralizuotas prisijungimas jūsų vartotojams.",
         "items": [
-          "IAS nuomininko tiekimas ir konfigūracija",
-          "Vieno ženklo įvesties (SSO) diegimas",
-          "Kelių veiksnių autentifikacijos (MFA) sąranka",
-          "Korporacinės tapatybės teikėjo integravimas",
-          "Vartotojo tiekimas ir gyvenimo ciklo valdymas"
+          "Identity Authentication nustatymas",
+          "SSO diegimas",
+          "Daugiafaktorė apsauga (MFA)",
+          "Integracija su įmonės IdP",
+          "Profilio gyvavimo ciklas"
         ]
       },
       "userAuth": {
-        "title": "Vartotojo autentifikacija ir rolės",
-        "description": "Išsami vartotojo valdymo ir autorizavimo sistema.",
+        "title": "Prieigos teisės",
+        "description": "Detalizuotas autorizavimo valdymas.",
         "items": [
-          "Pasirinktinė vaidmens nustatymo ir valdymo",
-          "Autorizavimo modelio dizainas",
-          "Vartotojo grupės organizacija",
-          "Programų lygio saugumo diegimas",
-          "Vaidmens priskyrimas ir delegavimo darbo srautai"
+          "Rolių ir kolekcijų apibrėžimas",
+          "Teisių matrica",
+          "Vartotojų grupės",
+          "Apsauga programų lygmenyje",
+          "Patvirtinimų delegavimas"
         ]
       }
     },
     "benefits": [
-      "40% sumažintas diegimo laikas su patvirtintais architektūros modeliais",
-      "Įmonės lygio saugumas, atitinkantis pramonės standartus",
-      "Tvari infrastruktūra, kuri auga su jūsų verslu",
-      "Proaktyvus stebėjimas kritinėms sistemoms",
-      "Ekspertinis vadovavimas sertifikuotų SAP BTP architektų"
+      "Iki 40% greitesnis startas",
+      "Atitiktis pasauliniams standartams",
+      "Skali struktūra be ribojimų",
+      "Proaktyvus stebėjimas",
+      "Sertifikuotų architektų palaikymas"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP orientuotas"
+        "label": "Fokusas į SAP BTP"
       },
       "experience": {
         "value": "15+",
-        "label": "Metų kombinuota patirtis"
+        "label": "Metų patirties"
       },
       "countries": {
         "value": "40+",
-        "label": "Aptarnautų šalių"
+        "label": "Šalių"
       },
       "support": {
-        "value": "Pasaulinė",
+        "value": "Global",
         "label": "Ekspertų komanda"
       }
     },
-    "whyChooseBadge": "Kodėl pasirinkti TerraBT",
-    "ctaSectionBadge": "⚡ Pradėkite savo projektą šiandien",
-    "ctaSectionTitle1": "Pasiruošę kurti",
-    "ctaSectionTitle2": "Jūsų SAP BTP architektūrą?",
-    "ctaSectionDescription": "Planuokite nemokamą konsultaciją su mūsų SAP BTP architektais aptarti savo reikalavimus ir ištirti, kaip galėtume padėti jums sėkmės.",
-    "ctaSectionButton1": "Planuoti nemokamą konsultaciją →",
-    "ctaSectionButton2": "Peržiūrėti visas paslaugas"
+    "whyChooseBadge": "Kodėl TerraBT?",
+    "ctaSectionBadge": "⚡ Transformuokitės dabar",
+    "ctaSectionTitle1": "Pasiruošę projektuoti",
+    "ctaSectionTitle2": "savo SAP BTP aplinką?",
+    "ctaSectionDescription": "Susisiekite dėl detalios architektūrinės konsultacijos.",
+    "ctaSectionButton1": "Užsisakyti konsultaciją →",
+    "ctaSectionButton2": "Visos paslaugos"
   },
   "fioriDevelopment": {
-    "badge": "Programų kūrimas",
-    "title": "SAP Fiori programa",
-    "subtitle": "Kūrimo paslaugos",
-    "description": "Kurkite šiuolaikinius, atsakomius Fiori programas, teikiančias puikią naudotojo patirtį visuose įrenginiuose. Nuo koncepcijos iki diegimo kuriame gražias, veikias programas naudodami SAP naujausius technologijas.",
-    "cta": "Pradėkite savo Fiori projektą →",
-    "servicesTitle": "Pilnos Fiori kūrimo sprendimai",
-    "servicesSubtitle": "Galutinio iki galo Fiori kūrimo paslaugos nuo dizaino iki diegimo ir toliau.",
-    "whyChooseTitle": "Fiori ekspertai, kurie teikia puikybę",
-    "whyChooseDescription": "Mūsų SAP sertifikuoti plėtotojai specializuojasi kuriančius įmonės lygio Fiori programas. Mes derinome techninę žinią su dizaino mąstymu kurti programas, kurias mėgsta vartotojai.",
+    "badge": "UI kūrimas",
+    "title": "SAP Fiori kūrimas",
+    "subtitle": "Paslaugos",
+    "description": "Modernių sąsajų kūrimas. Nuo idėjos iki paleidimo — aukšto našumo programos SAPUI5 aplinkoje.",
+    "cta": "Pradėkite Fiori projektą →",
+    "servicesTitle": "Pilnas kūrimo ciklas",
+    "servicesSubtitle": "Nuo dizaino iki perdavimo.",
+    "whyChooseTitle": "Vartotojo patirties meistrai",
+    "whyChooseDescription": "Kuriame įrankius, kurie palengvina darbą ir gerina verslo rezultatus.",
     "features": {
       "customDev": {
-        "title": "Pasirinktinė Fiori programų kūrimas",
-        "description": "Kurkite pritaikytas Fiori programas, kurios tobulai atitinka jūsų verslo reikalavimus.",
+        "title": "Custom kūrimas",
+        "description": "Programos jūsų specifiniams poreikiams.",
         "items": [
-          "SAPUI5 sistemų žinios",
-          "Fiori Elements ir Freestyle programos",
-          "OData paslaugų integravimas",
-          "Reaguojantis dizainas visiems įrenginiams",
-          "Pasirinktiniai valdikliai ir komponentai"
+          "Gilios SAPUI5 žinios",
+          "Elements ir Freestyle požiūris",
+          "OData integracija",
+          "Adaptyvus dizainas",
+          "Individualūs komponentai"
         ]
       },
       "uiux": {
         "title": "UI/UX dizainas",
-        "description": "Kurkite intuityviųjų, gražias sąsajas pasekdami SAP Fiori dizaino gaires.",
+        "description": "Sąsajos pagal SAP Fiori taisykles.",
         "items": [
-          "SAP Fiori dizaino principų laikymasis",
-          "Vartotojo tyrimai ir personos kūrimas",
-          "Laidų ir prototipavimas",
-          "Prieigos kompensacijos (WCAG)",
-          "Temos pritaikymas ir brenda"
+          "Fiori dizaino principai",
+          "Vartotojų tyrimai",
+          "Wireframing etapai",
+          "WCAG atitiktis",
+          "Temos ir prekės ženklas"
         ]
       },
       "performance": {
-        "title": "Veikimo optimizavimas",
-        "description": "Užtikrinti, kad jūsų Fiori programos greitai kraunasi ir sklandžiai veikia bet kuriame įrenginyje.",
+        "title": "Optimizavimas",
+        "description": "Greitis yra mūsų prioritetas.",
         "items": [
-          "Kodo optimizavimas ir mažinimas",
-          "Tingaus klaidžiojimo diegimas",
-          "Paketo dydžio sumažinimas",
-          "Tinklo užklauso optimizavimas",
-          "Veikimo stebėjimas ir analitika"
+          "Kodo optimizavimas",
+          "Lazy Loading",
+          "Minimalus paketų dydis",
+          "Tinklo srauto derinimas",
+          "Sisteminės analizės"
         ]
       },
       "mobile": {
-        "title": "Mobilusis pirmasis kūrimas",
-        "description": "Kurkite Fiori programas optimizuotas mobiliųjų vartotojų ir savaitės scenarijams.",
+        "title": "Mobile-first",
+        "description": "Darbas bet kuriame įrenginyje.",
         "items": [
-          "Reaguojantis ir pritaikytasis dizainas",
-          "Jutimo optimizuoti sąveika",
-          "Mobiliųjų specifinės funkcijos (kamera, GPS)",
-          "Savaitės duomenų sinchronizavimas",
-          "Progresyvios žiniatinklio programos (PWA) galimybės"
+          "Adaptyvus UX",
+          "Optimizacija liestimui",
+          "Kameros/GPS integracija",
+          "Offline režimai",
+          "PWA galimybės"
         ]
       },
       "integration": {
-        "title": "Integravimas ir testavimai",
-        "description": "Glaudus apsaugos integravimas su visapuse testų aprėptimi.",
+        "title": "Backend jungtis",
+        "description": "Sujungimas su SAP branduoliu.",
         "items": [
-          "SAP Gateway ir OData paslaugų sukūrimas",
-          "Apsaugos sistemos integravimas",
-          "Vieneto ir integracijos testavimai",
-          "Galutinio iki galo testas automatizavimas",
-          "Nuolatinis integravimas/diegimas (CI/CD)"
+          "SAP Gateway / OData",
+          "S/4HANA integracija",
+          "Unit ir integraciniai testai",
+          "E2E automatizavimas",
+          "CI/CD srautai"
         ]
       },
       "support": {
-        "title": "Mokymas ir palaikymas",
-        "description": "Suteikite savo komandiui žinias ir nuolatinį priežiūros palaikymą.",
+        "title": "Mokymai",
+        "description": "Žinių perdavimas jūsų komandai.",
         "items": [
-          "Plėtotojo mokymo seminai",
-          "Geriausios praktikos dokumentacija",
-          "Kodo peržiūra ir kokybės užtikrinimas",
-          "Nuolatinė priežiūra ir atnaujinimai",
-          "Išsami gamybos perdavimas"
+          "Specializuoti seminarai",
+          "Dokumentacija",
+          "Code review",
+          "Palaikymo planas",
+          "Galutinis perdavimas"
         ]
       }
     },
     "benefits": [
-      "Šiuolaikinės, intuityviųjų sąsajos padidina vartotojo priėmimą",
-      "Greitesnis kūrimas su pakartotinai panaudojamais komponentais ir šablonais",
-      "Įrenginio kompensacijos užtikrinimas glaudžiai patirtis",
-      "SAP sertifikuoti plėtotojai su gilia Fiori žinia",
-      "Sumažinti mokymo sąnaudas dėl žinomų, nuolataus UX"
+      "Didesnis vartotojų įsitraukimas",
+      "Greitas kūrimas per moduliškumą",
+      "Vienoda patirtis visuose ekranuose",
+      "Sertifikuoti specialistai",
+      "Mažesnės mokymų sąnaudos"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori programos pristatytos"
+        "label": "Sėkmingų projektų"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Vartotojo pasitenkinimo norma"
+        "label": "Patenkintų klientų"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Greitesnis laikas į rinką"
+        "label": "Greitesnis startas"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobilusis atsakymas"
+        "label": "Mobili versija"
       }
     },
-    "whyChooseBadge": "Kodėl pasirinkti TerraBT",
-    "ctaSectionBadge": "⚡ Riboti kūrimo lizdai",
-    "ctaSectionTitle1": "Pasiruošę kurti",
-    "ctaSectionTitle2": "Jūsų kitą Fiori programą?",
-    "ctaSectionDescription": "Aptarkime jūsų reikalavimus ir kurkime gražią, aukšto veikimo Fiori programą, kurią jūsų vartotojai mylės.",
-    "ctaSectionButton1": "Gauti nemokamą citatą →",
-    "ctaSectionButton2": "Ištirti kitas paslaugas"
+    "whyChooseBadge": "TerraBT privalumai",
+    "ctaSectionBadge": "⚡ Vietų skaičius ribotas",
+    "ctaSectionTitle1": "Pradėkime kurti",
+    "ctaSectionTitle2": "jūsų naują Fiori programą?",
+    "ctaSectionDescription": "Paversime jūsų idėjas veikiančiu verslo įrankiu.",
+    "ctaSectionButton1": "Kainos užklausa →",
+    "ctaSectionButton2": "Kitos paslaugos"
   },
   "offlinePWA": {
-    "badge": "Progresyvios žiniatinklio programos",
-    "title": "Offline PWA programos",
-    "subtitle": "SAP BTP",
-    "description": "Progresyvios žiniatinklio programos su savaitės funkcijomis užtikrinančios glaudų naudotojo patirtį bet kurioje vietoje. Kurkite programas, kurios tobulai veikia internetu arba neprisijungus, teikdami gimtas programų patirtis per žiniatinklį.",
-    "cta": "Kurkite savo PWA →",
-    "servicesTitle": "Pilnos PWA kūrimo paslaugos",
-    "servicesSubtitle": "Nuo savaitės pirmosios architektūros iki spaudos pranešimų kuriame PWA, kurios konkuruoja su gimtomis programomis.",
-    "whyChooseBadge": "PWA pranašumas",
-    "whyChooseTitle": "Gimta patirtis, žiniatinklio paprastumas",
-    "whyChooseDescription": "Progresyvios žiniatinklio programos derina geriausią iš žiniatinklio ir gimtų programų. Jokios programų parduotuvės aprūpinos, momentiniai atnaujinimai ir darbai visuose įrenginiuose - visa apimant programos panašią patirtį.",
+    "badge": "Modern Web",
+    "title": "Offline PWA sprendimai",
+    "subtitle": "SAP BTP aplinkai",
+    "description": "Programos, veikiančios be interneto. Native patirtis tiesiog naršyklėje.",
+    "cta": "Sukurti PWA →",
+    "servicesTitle": "PWA kūrimas",
+    "servicesSubtitle": "Nuo neprisijungusio režimo architektūros iki Push pranešimų.",
+    "whyChooseBadge": "Kodėl PWA?",
+    "whyChooseTitle": "Web lankstumas, native galia",
+    "whyChooseDescription": "Nereikia programėlių parduotuvių, momentiniai atnaujinimai ir pilnas offline palaikymas.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First architektūra",
-        "description": "Suprojektuokite programas, kurios sklandžiai veikia net be interneto ryšio.",
+        "title": "Offline-First",
+        "description": "Dirbkite ten, kur nėra ryšio.",
         "items": [
-          "Service Worker diegimas",
-          "Offline duomenų talpyklos strategijos",
-          "IndexedDB ir vietinio saugojimo valdymas",
-          "Foninės sinchronizavimo galimybės",
-          "Konfliktų sprendimo strategijos"
+          "Service Workers",
+          "Išmanus talpinimas (caching)",
+          "IndexedDB saugyklos",
+          "Background Sync",
+          "Konfliktų sprendimas"
         ]
       },
       "dataSync": {
-        "title": "Duomenų sinchronizavimas",
-        "description": "Intelektualūs sinchronizavimo mechanizmai konsistentiems duomenims per įrenginius.",
+        "title": "Sinchronizacija",
+        "description": "Duomenų išsaugojimas atsiradus ryšiui.",
         "items": [
-          "Automatinis foninės sinchronizavimas",
-          "Delta sinchronizavimas efektyviam duomenų perdavimui",
-          "Konfliktų aptikimas ir sprendimas",
-          "Optimistinės UI atnaujinimai",
-          "Pakartotinimo mechanizmai ir klaidų tvarkymas"
+          "Fono režimo perdavimas",
+          "Delta sinchronizacija",
+          "Automatinis sujungimas",
+          "Optimistic UI",
+          "Retry mechanizmai"
         ]
       },
       "pwaFeatures": {
-        "title": "Progresyvios žiniatinklio programos funkcijos",
-        "description": "Gimta programų panašia patirtis su šiuolaikinėmis žiniatinklio galimybėmis.",
+        "title": "PWA funkcijos",
+        "description": "Maksimalus įrenginio išnaudojimas.",
         "items": [
-          "Programų pasireiškimo konfigūracija",
-          "Pridėti prie pagrindinio ekrano funkcijos",
-          "Spaudos pranešimų palaikymas",
-          "Kameros ir GPS integravimas",
-          "Programų apvalkalas architektūra"
+          "Web App Manifest",
+          "Add to Home Screen",
+          "Push pranešimai",
+          "Kameros/GPS prieiga",
+          "App Shell modelis"
         ]
       },
-      "performanceOpt": {
-        "title": "Veikimo optimizavimas",
-        "description": "Žaibiškai greiti kraunimo laikas ir sklandūs offline perėjimai.",
+      "performance": {
+        "title": "Greitis",
+        "description": "Momentinė reakcija.",
         "items": [
-          "Kritinių išteklių iš anksto talpykla",
-          "Tingus klaidžiojimas vaizdams ir turinį",
-          "Kodo skaidymas ir pakavimas",
-          "Suspaudimas ir mažinimas",
-          "Veikimo stebėjimas ir analitika"
+          "Resursų pre-caching",
+          "Lazy loading",
+          "Code splitting",
+          "Turinio kompresija",
+          "Greičio analizė"
         ]
       },
       "security": {
-        "title": "Saugumas ir atitiktis",
-        "description": "Saugus offline duomenų saugojimas ir perdavimas.",
+        "title": "Saugumas",
+        "description": "Duomenų šifravimas įrenginyje.",
         "items": [
-          "Duomenų šifravimas ramybės",
-          "Saugūs autentifikavimo žetonai",
-          "HTTPS įgyvendinimas",
-          "Turinio saugumo politika (CSP)",
-          "Reguliarūs saugumo audito"
+          "Encryption at rest",
+          "Secure Tokens",
+          "HTTPS apsauga",
+          "CSP politika",
+          "Saugumo auditas"
         ]
       },
       "onlineEnhancement": {
-        "title": "Interneto gerinimas",
-        "description": "Patobulinta funkcionalybė, kai yra prieinamas ryšys.",
+        "title": "Debesijos galimybės",
+        "description": "Išplėstinės funkcijos esant ryšiui.",
         "items": [
-          "Realaus laiko atnaujinimai ir pranešimai",
-          "Debesies atsarginė kopija ir atkūrimas",
-          "Kelių įrenginių sinchronizavimas",
-          "Analitika ir telemetrija",
-          "Funkcijos aptikimas ir progresyvus patobulinimas"
+          "Real-time atnaujinimai",
+          "Debesų archyvas",
+          "Sinchronizacija tarp įrenginių",
+          "Telemetrija",
+          "Progressive Enhancement"
         ]
       }
     },
     "benefits": [
-      "Dirbti bet kurioje vietoje, bet kuriuo metu - net be interneto",
-      "Patobulinta vartotojo patirtis momentaliu krautimu",
-      "Sumažinti serverio sąnaudos naudojant efektyvią talpyklą",
-      "Aukštesnis konversijos procentas iš programos panašios patirties",
-      "Geriau sutraukimas su spaudos pranešimais"
+      "Darbas be geografinių apribojimų",
+      "Momentinis sąsajos užkrovimas",
+      "Interneto srauto taupymas",
+      "Didesnis vartotojų išlaikymas",
+      "Lengvas palaikymas ir atnaujinimai"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline galimybė"
+        "label": "Offline pasiekiamumas"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Greitesni kraunimo laiką"
+        "label": "Greitesnis užkrovimas"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Sumažinti duomenų naudojimas"
+        "label": "Srauto taupymas"
       },
       "engagement": {
         "value": "80%",
-        "label": "Aukštesnis sutraukimas"
+        "label": "Didesnis aktyvumas"
       }
     },
-    "ctaSectionBadge": "⚡ Savaitės galimybės šiandien",
-    "ctaSectionTitle1": "Pasiruošę kurti",
-    "ctaSectionTitle2": "Jūsų Offline-First PWA?",
-    "ctaSectionDescription": "Kurkime progresyvią žiniatinklio programą, kuri puikiai veikia neprisijungus ir teikia gimtą programų patirtį jūsų vartotojams.",
-    "ctaSectionButton1": "Pradėkite savo PWA projektą →",
-    "ctaSectionButton2": "Peržiūrėti visas paslaugas"
+    "ctaSectionBadge": "⚡ Offline dabar",
+    "ctaSectionTitle1": "Ar jūsų verslas pasiruošęs",
+    "ctaSectionTitle2": "Offline-First evoliucijai?",
+    "ctaSectionDescription": "Sukursime sprendimą, kuris puikiai veiks jūsų komandai „lauko sąlygomis“.",
+    "ctaSectionButton2": "Paslaugų sąrašas"
   },
   "databaseManagement": {
     "badge": "Duomenų valdymas",
     "title": "SAP BTP duomenų bazė",
     "subtitle": "Valdymo paslaugos",
-    "description": "Efektyvus duomenų bazės dizainas, optimizavimas ir valdymas aukšto veikimo SAP BTP programoms. Ekspertų paslaugos SAP HANA Cloud, PostgreSQL ir SAP ASE duomenų bazėms.",
+    "description": "Efektyvus duomenų bazių projektavimas, optimizavimas ir valdymas didelio našumo SAP BTP programoms. Ekspertinės paslaugos SAP HANA Cloud, PostgreSQL ir SAP ASE sistemoms.",
     "cta": "Optimizuokite savo duomenų bazę →",
-    "servicesTitle": "Pilnos duomenų bazės valdymo sprendimai",
-    "servicesSubtitle": "Nuo dizaino iki optimizavimo, apsaugos iki atkūrimo - išsama duomenų bazės patirtis.",
-    "whyChooseTitle": "Veikimas, saugumas, patikimumas",
-    "whyChooseDescription": "Mūsų duomenų bazės specialistai turi gilią patirtį SAP BTP duomenų bazės technologijose. Mes užtikrinti, kad jūsų duomenys bus greitai, saugūs ir visada prieinami, kai jums jų reikia.",
+    "servicesTitle": "Išsamūs duomenų bazių valdymo sprendimai",
+    "servicesSubtitle": "Nuo projektavimo iki optimizavimo, nuo saugumo iki atstatymo – pilna ekspertizė jūsų duomenims.",
+    "whyChooseTitle": "Našumas, Saugumas, Patikimumas",
+    "whyChooseDescription": "Mūsų specialistai turi gilias SAP BTP duomenų bazių technologijų žinias. Užtikriname, kad jūsų duomenys būtų pasiekiami greitai, saugiai ir visada.",
     "features": {
       "design": {
-        "title": "Duomenų bazės dizainas ir modeliavimas",
-        "description": "Efektyvus duomenų bazės schemos dizainas optimizuotas SAP BTP programoms.",
+        "title": "Projektavimas ir modeliavimas",
+        "description": "Efektyvus duomenų bazės schemos kūrimas, optimizuotas SAP BTP programoms.",
         "items": [
-          "SAP HANA Cloud duomenų bazės dizainas",
-          "PostgreSQL ir SAP ASE konfigūracija",
-          "Organizmo santykio modeliavimas",
-          "Normalizavimas ir denormalizavimas strategijos",
-          "Indeksavimas ir skaidymo strategijos"
+          "SAP HANA Cloud projektavimas",
+          "PostgreSQL ir SAP ASE konfiguracija",
+          "Ryšių modeliavimas",
+          "Normalizavimo strategijos",
+          "Indeksavimas ir skaidymas"
         ]
       },
       "optimization": {
-        "title": "Veikimo optimizavimas",
-        "description": "Maksimizuokite duomenų bazės veikimą žaibiškai greitai užklausų vykdymui.",
+        "title": "Našumo optimizavimas",
+        "description": "Maksimalus greitis akimirksniu atliekamoms užklausoms.",
         "items": [
-          "Užklauso optimizavimas ir derinimas",
-          "Indekso analizės ir rekomendacijos",
-          "Vykdymo plano optimizavimas",
-          "Atminties ir talpyklos konfigūracija",
-          "Veikimo stebėjimas ir profiliavimas"
+          "Užklausų optimizavimas ir derinimas",
+          "Indeksų analizė ir rekomendacijos",
+          "Vykdymo planų optimizavimas",
+          "Atminties ir kešavimo nustatymas",
+          "Monitoringas ir profiliavimas"
         ]
       },
       "security": {
-        "title": "Saugumas ir atitiktis",
-        "description": "Apsaugokite savo duomenis naudodami įmonės lygio saugumo priemones.",
+        "title": "Sauga ir atitiktis",
+        "description": "Apsaugokite savo duomenis naudodami verslo lygio priemones.",
         "items": [
-          "Duomenų šifravimas ramybės ir persiuntimą",
-          "Eilutės lygio ir stulpelio lygio saugumas",
-          "Audito takas diegimas",
-          "GDPR ir atitikties reikalavimai",
-          "Atsarginės kopijos šifravimas ir saugus saugojimas"
+          "Duomenų šifravimas (saugykloje ir perduodant)",
+          "Saugumas eilučių ir stulpelių lygiu",
+          "Audito žurnalų diegimas",
+          "Atitiktis GDPR ir reguliavimams",
+          "Atsarginių kopijų šifravimas"
         ]
       },
       "backup": {
-        "title": "Atsarginė kopija ir atkūrimas",
-        "description": "Išsamus katastrofos atkūrimas ir verslo tęstinumo planavimas.",
+        "title": "Kopijavimas ir atstatymas",
+        "description": "Išsamus planavimas avarinio atstatymo ir verslo tęstinumo užtikrinimui.",
         "items": [
-          "Automatizuotas atsarginės kopijos planavimas",
-          "Laiku susigražinimo galimybės",
-          "Katastrofos atkūrimo procedūros",
-          "Aukštos prieinamumo konfigūracija",
-          "Kelių regionų replikacija"
+          "Automatiniai atsarginių kopijų grafikai",
+          "Atstatymas į konkretų laiko momentą (PITR)",
+          "Avarinio atstatymo procedūros",
+          "Aukšto pasiekiamumo (HA) konfiguracija",
+          "Replikacija tarp regionų"
         ]
       },
       "migration": {
         "title": "Duomenų migracija",
-        "description": "Glaudus duomenų migracija iš palikimo sistemų į SAP BTP.",
+        "description": "Sklandus informacijos perkėlimas iš senų sistemų į SAP BTP.",
         "items": [
-          "Duomenų ištraukimas ir transformacija",
-          "Migracijos strategija ir planavimas",
-          "Nulinės prastovos migracijos technikos",
-          "Duomenų patvirtinimas ir patikrinimas",
-          "Grąžinimo procedūros ir testavimai"
+          "Duomenų išgavimas ir transformavimas",
+          "Strateginis migracijos planavimas",
+          "Migracija be prastovų (Zero-downtime)",
+          "Duomenų validavimas ir patikra",
+          "Testavimas ir atšaukimo procedūros"
         ]
       },
       "monitoring": {
-        "title": "Stebėjimas ir priežiūra",
-        "description": "Proaktyvus stebėjimas ir priežiūra optimaliam duomenų bazės sveikatumui.",
+        "title": "Monitoringas ir priežiūra",
+        "description": "Proaktyvi priežiūra jūsų duomenų bazės „sveikatai“ palaikyti.",
         "items": [
-          "Realaus laiko veikimo stebėjimas",
-          "Automatizuoti įspėjimai ir pranešimai",
+          "Monitoringas realiuoju laiku",
+          "Automatiniai įspėjimai ir pranešimai",
           "Sveikatos patikros ir diagnostika",
-          "Pajėgumo planavimas ir prognozavimas",
-          "Pataisos valdymas ir atnaujinimai"
+          "Pajėgumų planavimas",
+          "Atnaujinimų ir pataisų valdymas"
         ]
       }
     },
     "benefits": [
-      "Iki 10x greitesnis užklauso veikimas su optimizavimu",
-      "99,99% prieinamumas su aukštos prieinamumo konfigūracija",
-      "Sumažinti saugojimo sąnaudos naudojant efektyvų dizainą",
-      "Atitiktis paruošti su įmontuotomis apsaugos funkcijomis",
-      "Proaktyvus stebėjimas ir ekspertinis vadovavimas"
+      "Iki 10 kartų greitesnės užklausos per optimizavimą",
+      "99,99% pasiekiamumas per aukšto prieinamumo sprendimus",
+      "Sumažintos saugojimo išlaidos per sumanų projektavimą",
+      "Parengtis auditams su įmontuotomis saugos funkcijomis",
+      "Proaktyvus monitoringas ir ekspertų palaikymas"
     ],
-    "whyChooseBadge": "Duomenų bazės puikybė",
+    "whyChooseBadge": "Duomenų ekspertai",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Prieinamumo garantija"
+        "label": "Pasiekiamumo garantija"
       },
       "performance": {
         "value": "10x",
-        "label": "Veikimo patobulinimas"
+        "label": "Didesnis greitis"
       },
       "security": {
         "value": "100%",
-        "label": "Duomenų saugumas"
+        "label": "Duomenų apsauga"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Ekspertinis vadovavimas"
+        "label": "Ekspertų parama"
       }
     },
-    "ctaSectionBadge": "Optimizuokite savo duomenų bazės veikimą",
-    "ctaSectionTitle1": "Pasiruošę maksimizuoti",
-    "ctaSectionTitle2": "Jūsų duomenų bazės veikimą?",
-    "ctaSectionDescription": "Gauti nemokamą duomenų bazės sveikatos tikrinimą ir atraskite optimizavimo galimybes, kurios galėtų transformuoti jūsų programų veikimą.",
-    "ctaSectionButton1": "Gauti nemokamą duomenų bazės vertinimą →",
-    "ctaSectionButton2": "Ištirti visas paslaugas"
+    "ctaSectionBadge": "Optimizuokite savo DB našumą",
+    "ctaSectionTitle1": "Ar esate pasiruošę maskimaliai",
+    "ctaSectionTitle2": "pagreitinti savo duomenų bazę?",
+    "ctaSectionDescription": "Pasinaudokite nemokama duomenų bazės sveikatos patikra ir atraskite optimizavimo galimybes savo programoms.",
+    "ctaSectionButton1": "Nemokamas duomenų bazės auditas →",
+    "ctaSectionButton2": "Visos paslaugos"
   },
   "designThinking": {
-    "badge": "Inovacija ir strategija",
-    "title": "Dizaino mąstymas",
-    "subtitle": "SAP BTP inovacijos",
-    "description": "Naudotojui orientuotas dizaino požiūris inovatyvių SAP BTP sprendimų kūrimui, kurie sprendžia tikrus verslo iššūkius. Padedame jums atrasti tinkamas problemas spręsti ir kurti sprendimus, kuriuos mėgsta vartotojai.",
-    "cta": "Planuoti dizaino seminarą →",
-    "servicesTitle": "Mūsų dizaino mąstymo procesas",
-    "servicesSubtitle": "Patvirtinta metodika inovacijai ir problemų sprendimui SAP BTP projektuose.",
-    "whyChooseTitle": "Inovacija, kuri sukuria tikrą vertę",
-    "whyChooseDescription": "Dizaino mąstymas transformuoja, kaip jūs priartinate SAP BTP projektus. Sustiprinant naudotojo poreikius ir greitą iteraciją, padedame jums kurti sprendimus, kurie teikia išmatuojamą verslo vertę.",
+    "badge": "Inovacijos ir strategija",
+    "title": "Design Thinking",
+    "subtitle": "SAP BTP inovacijoms",
+    "description": "Į vartotoją orientuotas požiūris kuriant inovatyvius SAP BTP sprendimus. Padedame atrasti tikrąsias problemas ir sukurti produktus, kuriuos žmonės mėgsta.",
+    "cta": "Planuoti Design Thinking sesiją →",
+    "servicesTitle": "Mūsų Design Thinking procesas",
+    "servicesSubtitle": "Patikrinta metodika sudėtingoms užduotims SAP BTP projektuose spręsti.",
+    "whyChooseTitle": "Inovacijos su realia verte",
+    "whyChooseDescription": "Design Thinking keičia jūsų požiūrį į projektus. Susikoncentruodami į žmonių poreikius ir greitus prototipus, padedame sukurti išmatuojamą vertę.",
     "features": {
       "empathy": {
-        "title": "Vartotojo tyrimai ir empatija",
-        "description": "Gilių jūsų vartotojų poreikių, skausmo taško ir motyvacijos supratimas.",
+        "title": "Tyrimai ir Empatija",
+        "description": "Gilus jūsų vartotojų poreikių, problemų ir motyvacijos supratimas.",
         "items": [
-          "Vartotojo pokalbiai ir dalyvių sutraukimas",
-          "Personos kūrimas ir kelionės žemėlapyje",
-          "Kontekstinis tyrimas ir stebėjimas",
-          "Skausmo taško ir galimybės nustatymas",
-          "Empatijos žemėlapyje seminai"
+          "Interviu su vartotojais ir interesantais",
+          "Personų ir CJM žemėlapių kūrimas",
+          "Kontekstiniai tyrimai ir stebėjimai",
+          "„Skaudžiųjų“ taškų nustatymas",
+          "Empatijos workshop'ai"
         ]
       },
       "define": {
-        "title": "Problemos nustatymas",
-        "description": "Jei nusistovėkite tinkamas problemas maksimaliam verslo poveikiui.",
+        "title": "Problemos apibrėžimas",
+        "description": "Aiškus iššūkių formulavimas maksimaliam verslo efektui pasiekti.",
         "items": [
-          "Problemos pareiškimo formulavimas",
-          "Dizaino iššūkio formavimas",
-          "Galimybės srities nustatymas",
-          "Sėkmės kriterijaus nustatymas",
-          "Dalyvio nuoseklumo sėdynės"
+          "Problemos apibrėžimo formulavimas",
+          "Projekto fokuso nubrėžimas",
+          "Galimybių zonų atradimas",
+          "Sėkmės kriterijų nustatymas",
+          "Sinchronizacija su interesantais"
         ]
       },
       "ideate": {
-        "title": "Ideacijos seminai",
-        "description": "Sukurkite inovatyvius sprendimus per susitvarkytas kūrybines sesijas.",
+        "title": "Idėjų generavimas",
+        "description": "Inovatyvių sprendimų kūrimas per struktūrizuotas kūrybines sesijas.",
         "items": [
-          "Moderuoti smegenų audros sėdynės",
-          "SCAMPER ir šoninės galvos technikos",
-          "Bendradarbiavimo ideacijos seminai",
-          "Idėjos prioritizavimas ir pasirinkimas",
-          "Koncepcijos kūrimas ir tobulinimas"
+          "Facilituojamas breinstormingas",
+          "SCAMPER ir lateralinio mąstymo technikos",
+          "Kolaboraciniai workshop'ai",
+          "Idėjų prioritetizavimas ir atranka",
+          "Koncepcijų kūrimas"
         ]
       },
       "prototype": {
         "title": "Prototipavimas",
-        "description": "Greitai kurkite žmogiškus idėjų vaizdavimus patikrinimui.",
+        "description": "Greitas fizinis ar skaitmeninis idėjų vizualizavimas.",
         "items": [
-          "Žemo tikrumo laidai ir eskizai",
-          "Interaktyvūs spustelėjami prototipai",
-          "Aukštos tikrumo mockups",
-          "Proof of concept kūrimas",
-          "MVP (Minimalus žvalgos produktas) dizainas"
+          "Žemo detalumo wireframes ir eskizai",
+          "Interaktyvūs prototipai",
+          "Aukšto detalumo maketai",
+          "Proof of Concept (PoC) kūrimas",
+          "MVP produktų dizainas"
         ]
       },
       "test": {
-        "title": "Testavimai ir iteracija",
-        "description": "Patvirtinkite sprendimus su tikrais vartotojais ir nuolatine gerinimo.",
+        "title": "Testavimas ir iteracija",
+        "description": "Sprendimų validavimas su realiais vartotojais ir nuolatinis tobulinimas.",
         "items": [
-          "Naudojamumas testų sėdynės",
-          "A/B testavimai ir eksperimentai",
-          "Vartotojo atsiliepimų rinkimas ir analizė",
-          "Kartotinas dizaino tobulinimas",
-          "Patvirtinimas prieš sėkmės kriterijų"
+          "Naudojamumo testai",
+          "A/B testavimas ir eksperimentai",
+          "Grįžtamojo ryšio analizė",
+          "Iteratyvios dizaino korekcijos",
+          "Validacija pagal sėkmės kriterijus"
         ]
       },
       "implement": {
-        "title": "Diegimo palaikymas",
-        "description": "Vadinkite savo komandą nuo patvirtinto koncepto iki sėkmingo paleidimo.",
+        "title": "Palaikymas diegiant",
+        "description": "Jūsų komandos vedimas nuo patvirtintos koncepcijos iki sėkmingo paleidimo.",
         "items": [
-          "Techninio galimybės vertinimas",
-          "Diegimo keliaskalo sukūrimas",
-          "Agile sprintu planavimas",
-          "Plėtotojo komandos bendradarbiavimas",
-          "Po paleidimo stebėjimas ir optimizavimas"
+          "Techninio įgyvendinamumo vertinimas",
+          "Projekto kelio žemėlapio sudarymas",
+          "Agilus sprintų planavimas",
+          "Kolaboracija su kūrėjų komanda",
+          "Monitoringas ir optimizavimas po paleidimo"
         ]
       }
     },
     "benefits": [
-      "Sumažinti riziką patvirtinant idėjų prieš didelę investiciją",
-      "Greitesnis inovacija su susitvarkytu problemų sprendimo požiūriu",
-      "Aukštesnis vartotojo priėmimas naudotojui orientuotiems sprendimams",
-      "Kryžaus funkcijos komandos nuoseklumas ir sutraukimas",
+      "Rizikos mažinimas validuojant idėjas prieš dideles investicijas",
+      "Inovacijų pagreitinimas per struktūrizuotą požiūrį",
+      "Aukštas vartotojų priėmimo lygis (adoption)",
+      "Skirtingų skyrių komandų sinchronizacija",
       "Išmatuojami verslo rezultatai ir ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Greitesnis problemos sprendimas"
+        "label": "Greitesnis problemų sprendimas"
       },
       "waste": {
         "value": "75%",
-        "label": "Sumažinti kūrimo švarą"
+        "label": "Mažiau nereikalingo kūrimo"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Dalyvio pasitenkinimas"
+        "label": "Šalių pasitenkinimas"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Naudotojui orientuotas požiūris"
+        "label": "Fokusas į vartotoją"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integracija ir ryšys",
+    "badge": "Integracija ir ryšiai",
     "title": "SAP BTP Integration Suite",
     "subtitle": "Paslaugos",
-    "description": "Glaudūs integracijos sprendimai jūsų SAP sistemų sujungimui su debesies ir vidaus nuomos programomis. Ekspertų diegimas Cloud Integration, API valdymo, Open Connectors ir Integration Advisor.",
-    "cta": "Sujungti savo sistemas →",
-    "servicesTitle": "Pilnos Integration Suite patirtis",
-    "servicesSubtitle": "Nuo Cloud Integration iki API valdymo - išsami integracijos paslaugos.",
-    "whyChooseTitle": "Glaudus sistemos ryšys",
-    "whyChooseDescription": "SAP BTP Integration Suite teikia viską, ko jums reikia jūsų įmonei sujungti. Mūsų ekspertai užtikrinti, kad jūsų integracijos yra patikimos, saugios ir tvarios.",
+    "description": "Sklandūs integracijos sprendimai, jungiantys jūsų SAP sistemas su debesijos ir vietinėmis programomis. Ekspertinis Cloud Integration, API Management ir Open Connectors diegimas.",
+    "cta": "Sujunkite savo sistemas →",
+    "servicesTitle": "Integration Suite ekspertizė",
+    "servicesSubtitle": "Nuo Cloud Integration iki API valdymo – pilnos integracijos paslaugos.",
+    "whyChooseTitle": "Integruota verslo aplinka",
+    "whyChooseDescription": "SAP BTP Integration Suite suteikia viską, ko reikia jūsų įmonės ryšiams užtikrinti. Mūsų ekspertai garantuoja patikimumą, saugumą ir mastelio keitimą.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Sujungti debesies ir vidaus nuomos sistemas su tvirtomis integracijos srautomis.",
+        "description": "Sujunkite debesijos ir vietines sistemas per patikimus duomenų srautus.",
         "items": [
-          "Integracijos srauto dizainas ir kūrimas",
-          "Iš anksto sukurto integracijos turinio naudojimas",
-          "Žinutės žemėlapija ir transformacija",
-          "Klaidų tvarkymas ir stebėjimas",
-          "Apsaugos artefakto valdymas"
+          "Integracijos srautų kūrimas (iFlows)",
+          "Paruošto turinio naudojimas (pre-built content)",
+          "Pranešimų mapingas ir transformavimas",
+          "Monitoringas ir klaidų tvarkymas",
+          "Saugumo sertifikatų valdymas"
         ]
       },
       "apiManagement": {
-        "title": "API valdymas",
-        "description": "Suprojektuokite, publikuokite ir valdykite API su išsama gyvenimo ciklo parama.",
+        "title": "API Management",
+        "description": "API projektavimas, publikavimas ir valdymas per visą jų gyvavimo ciklą.",
         "items": [
-          "API prokuro sukūrimas ir konfigūracija",
-          "Politikos įgyvendinimas (saugumas, norma ribojimas)",
-          "API portalas ir plėtotojo dokumentacija",
-          "Analitika ir naudojimo stebėjimas",
-          "Monetizacija ir kvota valdymas"
+          "API proxy kūrimas ir nustatymas",
+          "Politikų taikymas (sauga, limitai)",
+          "Kūrėjų portalas ir dokumentacija",
+          "Vartojimo analizė ir monitoringas",
+          "Monetizavimas ir kvotų valdymas"
         ]
       },
       "openConnectors": {
-        "title": "Atvirų jungčių",
-        "description": "Iš anksto sukurti jungtynes greitam integravimui su trečiųjų šalių sistemomis.",
+        "title": "Open Connectors",
+        "description": "Paruoštos jungtys greitam susiejimui su trečiųjų šalių sistemomis.",
         "items": [
-          "150+ iš anksto sukurti jungtynes",
-          "Pasirinktinės jungtynes kūrimas",
-          "Autentifikacija ir autorizavimas",
-          "Duomenų transformacija ir normalizacija",
-          "Į įvykius grįstas integravimas"
+          "Daugiau nei 150 paruoštų jungčių",
+          "Custom jungčių kūrimas",
+          "Autentifikavimas ir autorizavimas",
+          "Duomenų normalizavimas",
+          "Integracija įvykių pagrindu"
         ]
       },
       "advisor": {
-        "title": "Integracijos patarėjas",
-        "description": "Pagreitinti integracijos plėtrą naudojant AI paremtus pasiūlymus.",
+        "title": "Integration Advisor",
+        "description": "Kūrimo pagreitinimas pasitelkiant dirbtinio intelekto patarimus.",
         "items": [
-          "Automatizuoti žemėlapyje pasiūlymai",
-          "Žinutės diegimo vadovai (MIG)",
-          "B2B integracijos scenarijos šablonai",
-          "Sąsajo žemėlapyje pasiūlymai",
-          "Geriausios praktikos rekomendacijos"
+          "Automatiniai mapingo pasiūlymai",
+          "Įgyvendinimo gairės (MIGs)",
+          "B2B scenarijų šablonai",
+          "Sąsajų pasiūlymai",
+          "Rekomendacijos geriausios praktikos pagrindu"
         ]
       },
       "security": {
-        "title": "Saugumas ir valdymas",
-        "description": "Įmonės lygio saugumas ir valdymas visoms integracijom.",
+        "title": "Sauga ir Valdymas",
+        "description": "Korporatyvinė sauga visoms jūsų integracijoms.",
         "items": [
-          "OAuth ir SAML autentifikacija",
-          "Sertifikato ir rakto valdymas",
-          "Transporto lygio šifravimas (TLS/SSL)",
-          "Žinutės lygio šifravimas",
-          "Audito žurnalo ir atitiktis"
+          "OAuth ir SAML autentifikavimas",
+          "Raktų ir sertifikatų valdymas",
+          "TLS/SSL šifravimas",
+          "Šifravimas pranešimų lygiu",
+          "Audito žurnalai ir atitiktis"
         ]
       },
       "monitoring": {
-        "title": "Stebėjimas ir operacijos",
-        "description": "Išsama stebėjimas ir operatyvinė puikybė.",
+        "title": "Monitoringas ir Operacijos",
+        "description": "Pilnas matomumas ir operacinė precizika.",
         "items": [
-          "Realaus laiko žinutės stebėjimas",
-          "Veikimo metriko ir KPI",
-          "Įspėjimo ir pranešimo sąranka",
-          "Žurnalo analizė ir trikdžiai",
-          "Pajėgumo planavimas ir optimizavimas"
+          "Pranešimų monitoringas realiuoju laiku",
+          "Našumo metrikos ir KPIs",
+          "Įspėjimų ir pranešimų nustatymas",
+          "Žurnalų analizė",
+          "Pajėgumų planavimas"
         ]
       }
     },
     "benefits": [
-      "Greitesnė integravimas su iš anksto sukurtu turiniu ir greitikių",
-      "Sumažinti integracijos sąnaudos su debesies gimtomis platformomis",
-      "Įmonės lygio patikimumas ir tvarus",
-      "Viena platforma visoms integracijos poreikiams",
-      "Skirtas ekspertų konsultavimas ir vadovavimas"
+      "Greita integracija paruošto turinio dėka",
+      "Išlaidų mažinimas per debesijos platformą",
+      "Enterprise lygio patikimumas",
+      "Viena platforma visiems integracijos poreikiams",
+      "Specializuota ekspertų parama"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Iš anksto sukurti jungtynes"
+        "label": "Paruoštos jungtys"
       },
       "uptime": {
-        "value": "99,9%",
-        "label": "Integracijos prieinamumas"
+        "value": "99.9%",
+        "label": "Veikimo laikas"
       },
       "implementation": {
         "value": "50%",
         "label": "Greitesnis diegimas"
       },
       "support": {
-        "value": "Pasaulinė",
-        "label": "Ekspertų komanda"
+        "value": "Globali",
+        "label": "Ekspertų grupė"
       }
     },
-    "whyChooseBadge": "Integracijos puikybė",
-    "ctaSectionBadge": "⚡ Sujungti savo įmonę šiandien",
-    "ctaSectionTitle1": "Pasiruošę vienodintis",
-    "ctaSectionTitle2": "Jūsų verslo sistemas?",
-    "ctaSectionDescription": "Aptarkime savo integracijos poreikius ir kurkime išsamų sprendimą, kuris sujungia visas jūsų kritines verslo sistemas.",
-    "ctaSectionButton1": "Gauti integracijos konsultaciją →",
-    "ctaSectionButton2": "Peržiūrėti visas paslaugas"
+    "whyChooseBadge": "Integracijos lyderiai",
+    "ctaSectionBadge": "⚡ Sujunkite savo verslą šiandien",
+    "ctaSectionTitle1": "Ar esate pasiruošę suvienyti",
+    "ctaSectionTitle2": "savo verslo sistemas?",
+    "ctaSectionDescription": "Aptarkime jūsų integracijos poreikius ir sukurkime sprendimą, kuris sujungs visus kritinius procesus.",
+    "ctaSectionButton1": "Integracijos konsultacija →",
+    "ctaSectionButton2": "Visos paslaugos"
   },
   "eventMesh": {
-    "badge": "Įvykiams orientuota architektūra",
+    "badge": "Įvykių architektūra",
     "title": "SAP Event Mesh",
-    "subtitle": "Diegimo paslaugos",
-    "description": "Realaus laiko įvykiui orientuota architektūra diegimas reaguojamui, tvariems verslo procesams. Kurkite paskirstytas sistemas, kurios greitai reaguoja į verslo įvykius su SAP Event Mesh.",
-    "cta": "Kurkite įvykiui orientuotą architektūrą →",
-    "servicesTitle": "Pilnos Event Mesh sprendimai",
-    "servicesSubtitle": "Nuo architektūros dizaino iki diegimo - kurkite atsakingus įvykių sisteminius sistemas.",
-    "whyChooseTitle": "Realaus laiko verslo atsako galimybė",
-    "whyChooseDescription": "Event Mesh leidžia jūsų verslui greitai atsakyti į įvykius, kaip jie įvyksta. Kurkite silpnai susietos, aukštos tvarios sistemos, kurios prisitaiko keičiantis verslo poreikiams.",
+    "subtitle": "Diegimas",
+    "description": "Įvykių architektūros (EDA) diegimas adaptyviems ir keičiamo mastelio verslo procesams. Kurkite sistemas, kurios akimirksniu reaguoja į įvykius.",
+    "cta": "Į įvykių architektūrą →",
+    "servicesTitle": "Event Mesh sprendimai",
+    "servicesSubtitle": "Nuo architektūros planavimo iki diegimo – sistemos, varomos įvykių.",
+    "whyChooseTitle": "Verslo reakcija realiuoju laiku",
+    "whyChooseDescription": "Event Mesh leidžia jūsų verslui reaguoti tą akimirką, kai viskas vyksta. Kurkite lanksčias sistemas, kurios lengvai prisitaiko prie pokyčių.",
     "features": {
       "architecture": {
-        "title": "Event Mesh architektūra",
-        "description": "Suprojektuokite ir diekite visą įmonę įvykiui orientuotą architektūrą.",
+        "title": "EDA architektūra",
+        "description": "Korporatyvinio lygio EDA projektavimas ir diegimas.",
         "items": [
-          "Event Mesh topologija dizainas",
-          "Kelių regionų įvykio paskirstymas",
-          "Įvykio brokerio konfigūracija",
-          "Žinutės keliavimo strategijos",
-          "Temos ir eilutės dizaino modeliai"
+          "Įvykių tinklo topologijos dizainas",
+          "Įvykių paskirstymas per kelis regionus",
+          "Įvykių brokerių nustatymas",
+          "Pranešimų maršrutizavimo strategijos",
+          "Topic'ų ir eilių modeliai"
         ]
       },
       "realTime": {
-        "title": "Realaus laiko įvykio apdorojimas",
-        "description": "Apdorokite verslo įvykius ir reaguokite realiu laiku.",
+        "title": "Apdorojimas realiuoju laiku",
+        "description": "Verslo įvykių analizė ir reakcija tą pačią akimirką.",
         "items": [
-          "Įvykio srautų diegimas",
-          "Kompleksinis įvykio apdorojimas (CEP)",
-          "Įvykio filtravimas ir transformacija",
-          "Įvykio sumaišymas ir koreliacija",
-          "Žemo latentiškumo įvykio pristatymas"
+          "Įvykių streamin'o diegimas",
+          "Kompleksinis įvykių apdorojimas (CEP)",
+          "Filtravimas ir transformavimas",
+          "Agregavimas ir koreliacija",
+          "Pristatymas su maža delsa"
         ]
       },
       "integrations": {
-        "title": "Įvykiui orientuotos integracijos",
-        "description": "Sujungti sistemas per asinchroninę įvykiui paremtą komunikaciją.",
+        "title": "Integracija įvykių pagrindu",
+        "description": "Sistemų jungimas per asinchronines komunikacijas.",
         "items": [
-          "Leidėjo/prenumeratoriaus modeliai",
-          "Įvykiui orientuoti mikrotarnybų",
-          "Webhook ir callback integravimas",
-          "Įvykio reprodukcija ir atkūrimas",
-          "Negyvos laiškanešių eilutės valdymas"
+          "Publisher/Subscriber modeliai",
+          "Įvykių valdomos mikropaslaugos",
+          "Integracija per Webhooks",
+          "Įvykių pakartojimas ir atstatymas",
+          "Dead Letter eilių valdymas"
         ]
       },
       "security": {
-        "title": "Saugumas ir valdymas",
-        "description": "Saugūs įvykio perdavimas su išsamu valdymu.",
+        "title": "Sauga ir Valdymas",
+        "description": "Saugus pranešimų perdavimas su pilna kontrole.",
         "items": [
-          "Įvykio šifravimas persiuntimą",
+          "Įvykių šifravimas perduodant",
           "Prieigos kontrolė ir autorizavimas",
-          "Įvykio schemos patikrinimas",
-          "Atitiktis ir audito žurnalo",
+          "Įvykių schemų validavimas",
+          "Audito įrašai",
           "Duomenų privatumo kontrolė"
         ]
       },
       "multiCloud": {
-        "title": "Kelias debesies ir hibrida",
-        "description": "Event Mesh apimant debesies teikėjus ir vidaus nuomos sistemas.",
+        "title": "Multi-cloud ir hibridinės aplinkos",
+        "description": "Įvykių tinklas tarp skirtingų debesų ir vietinių sistemų.",
         "items": [
-          "Debesies skersai įvykio paskirstymas",
-          "Hibridinio debesies ryšys",
-          "Kelių regionų redundancija",
-          "Geografinis įvykio keliavimas",
-          "Debesies agnostinė architektūra"
+          "Cross-cloud paskirstymas",
+          "Ryšiai hibridiniame debesyje",
+          "Redundancija per kelis regionus",
+          "Geografinis maršrutizavimas",
+          "Debesu-nepriklausoma architektūra"
         ]
       },
       "monitoring": {
-        "title": "Stebėjimas ir analitika",
-        "description": "Išsama matomumas į jūsų įvykiui orientuotą ekosistemą.",
+        "title": "Monitoringas ir Analizė",
+        "description": "Pilnas matomumas jūsų įvykių ekosistemoje.",
         "items": [
-          "Realaus laiko įvykio stebėjimas",
-          "Veikimo metriko ir SLA",
-          "Įvykio srauto vizualizacija",
-          "Kliūties nustatymas",
-          "Prielaidiniu pajėgumo planavimas"
+          "Įvykių monitoringas realiuoju laiku",
+          "Našumo metrikos ir SLAs",
+          "Įvykių srautų vizualizacija",
+          "Siaurų vietų nustatymas",
+          "Nuspėjamas pajėgumų planavimas"
         ]
       }
     },
     "benefits": [
-      "Sistemos atsiejimas su didesniais lankstumu ir tvarias",
-      "Realaus laiko verslo įžvalgos ir momentinis atsako",
-      "Patobulintas sistemos atsparumas ir klaidų tolerancija",
-      "Sumažinti taško į tašką integracijos sudėtingumo",
-      "Palaikymas šiuolaikiniam įvykiui orientuotiems architektūra"
+      "Sistemų atskyrimas didesniam lankstumui",
+      "Įžvalgos realiuoju laiku ir momentinė reakcija",
+      "Didesnis atsparumas klaidoms",
+      "Sumažintas sudėtingumas lyginant su „point-to-point“ integracija",
+      "Modernių architektūrinių požiūrių palaikymas"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Įvykio pristatymo latencija"
+        "label": "Pristatymo vėlavimas"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Įvykio per sekundę"
+        "label": "Įvykių per sekundę"
       },
       "guarantee": {
-        "value": "99,99%",
-        "label": "Įvykio pristatymo garantija"
+        "value": "99.99%",
+        "label": "Pristatymo garantija"
       },
       "distribution": {
-        "value": "Pasaulinė",
-        "label": "Kelių regionų paskirstymas"
+        "value": "Global",
+        "label": "Globalus paskirstymas"
       }
     },
-    "whyChooseBadge": "Įvykiui orientuota puikybė",
-    "ctaSectionBadge": "⚡ Kurkite realaus laiko sistemas",
-    "ctaSectionTitle1": "Pasiruošę diegti",
-    "ctaSectionTitle2": "Įvykiui orientuota architektūra?",
-    "ctaSectionDescription": "Transformuokite savo verslą naudojant realaus laiko įvykio apdorojimą. Aptarkime, kaip Event Mesh gali suteikti jūsų kitą kartą programų.",
-    "ctaSectionButton1": "Planuoti Event Mesh konsultaciją →",
-    "ctaSectionButton2": "Ištirti visas technologijas"
+    "whyChooseBadge": "EDA lyderiai",
+    "ctaSectionBadge": "⚡ Kurkite sistemas realiuoju laiku",
+    "ctaSectionTitle1": "Ar esate pasiruošę įdiegti",
+    "ctaSectionTitle2": "įvykių architektūrą?",
+    "ctaSectionDescription": "Transformuokite savo verslą per įvykių apdorojimą realiuoju laiku. Aptarkime, kaip Event Mesh gali sustiprinti jūsų programas.",
+    "ctaSectionButton1": "Event Mesh konsultacija →",
+    "ctaSectionButton2": "Visos technologijos"
   },
   "aiInvoice": {
-    "badge": "AI ir automatizavimas",
-    "title": "AI supatuota",
-    "subtitle": "Sąskaitos faktūros apdorojimas",
-    "description": "Intelektualus sąskaitos faktūros apdorojimo automatizavimas su išankstiniu AI tikslaus, efektyvaus operacijos. Transformuokite savo kreditorių procesą naudojant pačią naujausią AI technologiją integruotą SAP BTP.",
-    "cta": "Automatizuokite savo sąskaitų faktūras →",
-    "servicesTitle": "AI supatuota sąskaitos faktūros automatizavimas",
-    "servicesSubtitle": "Naudojimas iš anksto išankstas AI galimybės intelektualiam sąskaitos faktūros apdorojimui ir automatizavimui.",
-    "whyChooseTitle": "Transformuokite sąskaitos faktūros apdorojimą",
-    "whyChooseDescription": "Iš anksto išankstas AI atnešą žmogaus lygio supratimą sąskaitos faktūros apdorojimui. Tvarkyti sudėtingus maketus, kelias kalbas ir kraštutinnį atveją, kuriame tradicinės OCR sistemos turi sunkumų.",
+    "badge": "DI ir Automatizavimas",
+    "title": "Sąskaitų apdorojimas",
+    "subtitle": "per DI",
+    "description": "Išmanus sąskaitų apdorojimo automatizavimas su pažangiu DI. Transformuokite savo finansų procesus per SAP BTP technologijas.",
+    "cta": "Automatizuoti sąskaitas →",
+    "servicesTitle": "DI sąskaitų automatizavimas",
+    "servicesSubtitle": "Išnaudokite DI galią išmaniam apdorojimui ir automatizuotai dokumentų tėkmei.",
+    "whyChooseTitle": "Pakeiskite sąskaitų apdorojimo būdą",
+    "whyChooseDescription": "Pažangus DI „supranta“ sąskaitas beveik žmogaus lygiu. Sudėtingų šablonų, kalbų ir išimčių valdymas.",
     "features": {
       "extraction": {
-        "title": "Intelektualus duomenų ištraukimas",
-        "description": "Išankstas AI paremtas sąskaitos faktūros duomenų ištraukimas be precedento tikslumu.",
+        "title": "Išmanus duomenų išgavimas",
+        "description": "Duomenų išgavimas iš sąskaitų su išskirtiniu tikslumu per DI.",
         "items": [
-          "Kelių formatų sąskaitos faktūros apdorojimas (PDF, vaizdai, nuskeidimai)",
-          "Automatinis lauko aptikimas ir ištraukimas",
-          "Antraštė ir eilutės elemento pažinimas",
-          "Stalo ir sudėtingo maketo supratimas",
-          "Ranka rašyto teksto pažinimas"
+          "Multi-formatų apdorojimas (PDF, nuotraukos, skenai)",
+          "Automatinis laukų atpažinimas",
+          "Antraščių ir pozicijų atpažinimas",
+          "Sudėtingų lentelių struktūrų suvokimas",
+          "Rankraščio atpažinimas"
         ]
       },
       "integration": {
-        "title": "SAP BTP integravimas",
-        "description": "Glaudus integravimas su SAP BTP paslaugomis ir apsaugos sistemomis.",
+        "title": "Integracija su SAP BTP",
+        "description": "Sklandus ryšys su BTP paslaugomis ir backend sistemomis.",
         "items": [
-          "Tiesioginis integravimas su SAP S/4HANA",
-          "SAP Document Management Service ryšys",
-          "Darbo srauto automatizavimo suaktyvintojai",
-          "Realaus laiko duomenų patvirtinimas",
-          "Pasirinktinės verslo taisyklės diegimas"
+          "Tiesioginė integracija su SAP S/4HANA",
+          "Ryšys su SAP Document Management Service",
+          "Workflow automatizavimo trigeriai",
+          "Duomenų validavimas realiuoju laiku",
+          "Individualios verslo taisyklės"
         ]
       },
       "automation": {
-        "title": "Automatizuota apdorojimas",
-        "description": "Galutinis iki galo automatizavimas sumažinęs rankinį sumaštymą į beveik nulį.",
+        "title": "Automatinis apdorojimas",
+        "description": "End-to-end automatizavimas minimaliam rankiniam darbui.",
         "items": [
-          "Intelektualus keliavimas ir klasifikavimas",
-          "Auto patvirtinimas žemo riziko sąskaitų faktūra",
-          "Išimčių tvarkymo darbo srautai",
-          "Dublikato aptikimas ir prevencija",
-          "Trys kelių atitikties automatizavimas"
+          "Išmanus maršrutizavimas ir klasifikavimas",
+          "Automatinis mažos rizikos sąskaitų patvirtinimas",
+          "Išimčių valdymo procesai",
+          "Dublikatų aptikimas ir prevencija",
+          "Automatinis trišalis suderinimas"
         ]
       },
       "validation": {
-        "title": "Patvirtinimas ir atitiktis",
-        "description": "Užtikrinti tikslumą ir norminę atitiktį kiekvieno sandorio.",
+        "title": "Validavimas ir Atitiktis",
+        "description": "Tikslumas ir taisyklių laikymasis kiekvienoje operacijoje.",
         "items": [
-          "Kelių lygių patvirtinimo taisyklės",
-          "Mokesčio skaičiavimo patvirtinimas",
-          "Atitikties tikrinimas (PVM, GST)",
-          "Audito takas ir žurnalo",
-          "Duomenų privatumas ir saugumas (GDPR derėjų)"
+          "Daugiausiausiavalidavimo taisyklės",
+          "Mokesčių skaičiavimų verifikavimas",
+          "Atitiktis PVM reikalavimams",
+          "Procesų audito žurnalai",
+          "Duomenų apsauga (GDPR atitiktis)"
         ]
       },
       "analytics": {
-        "title": "Analitika ir įžvalgos",
-        "description": "Gauti vertingas įžvalgas iš sąskaitos faktūros apdorojimo duomenų.",
+        "title": "Analizė ir Įžvalgos",
+        "description": "Vertės kūrimas iš sąskaitų duomenų.",
         "items": [
-          "Apdorojimo metriko ir KPI",
-          "Tikslumo ir klaidų norma sekimo",
-          "Sąnaudų taupymo analizė",
-          "Tiekėjo veikimo analitika",
-          "Prognozinis grynųjų pinigų srautų įžvalgos"
+          "Apdorojimo metrikos ir KPIs",
+          "Tikslumo ir klaidų sekimas",
+          "Sutaupymų analizė",
+          "Tiekėjų veiklos analizė",
+          "Pinigų srautų prognozės"
         ]
       },
       "training": {
-        "title": "Mokymas ir optimizavimas",
-        "description": "Nuolatinis patobulinimas per AI mokymą ir sistemos optimizavimą.",
+        "title": "Mokymasis ir Optimizavimas",
+        "description": "Nuolatinis tobulėjimas per mašininį mokymąsi.",
         "items": [
-          "Pasirinktinis modelis treniravimas jūsų sąskaitų faktūrų",
-          "Nuolatinis mokymasis iš pataisų",
-          "Šablono pagrindu apdorojimo optimizavimas",
-          "Atsiliepimo kilpo diegimas",
-          "Reguliarūs tikslumo patobulinimai"
+          "Individualių modelių mokymas jūsų sąskaitoms",
+          "Mokymasis iš atliktų korekcijų",
+          "Optimizavimas pagal šablonus",
+          "Grįžtamojo ryšio diegimas",
+          "Nuolatinis tikslumo augimas"
         ]
       }
     },
     "benefits": [
-      "95%+ tikslumą norma sumažinti rankinius pataisymus",
-      "80% greitesnis sąskaitos faktūros apdorojimas laikas",
-      "70% apdorojimo sąnaudų sumažinimas",
-      "Beveik nulis duomenų įvesties klaidų",
-      "Realaus laiko apdorojimo statusu matomumas"
+      "Tikslumas virš 95% mažina rankinių korekcijų poreikį",
+      "80% greitesnis sąskaitų apdorojimas",
+      "70% apdorojimo išlaidų sutaupymas",
+      "Minimali įvedimo klaidų rizika",
+      "Būsenų matomumas realiuoju laiku"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Tikslumo norma"
+        "label": "Tikslumo lygis"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Laiko sumažinimas"
+        "label": "Mažiau laiko"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Sąnaudų santaupai"
+        "label": "Sutaupytos išlaidos"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatizuota apdorojimas"
+        "label": "Automatizavimas"
       }
     }
   },
   "blogs": {
     "backToHome": "Grįžti į pradžią",
     "claudeAI": {
-      "title": "Revoliucija sąskaitos faktūros apdorojimas su AI",
+      "title": "Sąskaitų apdorojimo revoliucija per DI",
       "category": "AI/ML",
       "readTime": "6 min",
-      "seoDescription": "Naršykite, kaip AI integravimas SAP BTP transformuoja sąskaitos faktūros apdorojimą naudojant intelektualų automatizavimą ir pažangaus dokumento supratimą.",
-      "intro": "Sąskaitos faktūros apdorojimas buvo tradiškai laiko atima, klaidai linkusi rankinio užduoties. Iš anksto išankstas AI integravimas su SAP BTP revoliucija šioje procese atnešant be precedento automatizavimą, tikslumą ir efektyvumą kreditorių operacijas.",
-      "section1Title": "Tradicinės sąskaitos faktūros apdorojimo iššūkis",
-      "section1Content": "Organizacijos tvarko tūkstančius sąskaitų faktūra per mėnesį, kiekvienas reikalinga duomenų ištraukimas, patvirtinimas ir įvesimas į ERP sistemas. Rankinis apdorojimas yra lėtas, brangus ir klaidai linkęs dėl mokėjimo vėlavimo, dublikato mokėjimo ar praleisto ankstyvųjų mokėjimo nuolaidų.",
-      "section2Title": "Iš anksto išankstas AI dokumento supratimas",
-      "section2Content": "Šiuolaikinis AI atnešą naujausius natūralios kalbos apdorojimo ir kompiuterinės vizijos galimybes sąskaitos faktūros apdorojimui. Skirtingai nei tradicinės OCR sistemos, iš anksto išankstas AI gali suprasti kontekstą, tvarkyti skirtingas sąskaitos faktūros formatus ir ištraukti informaciją su nuostabia tikslumu iš net blogai scanintų arba sudėtingų dokumentų.",
-      "section3Title": "Glaudus SAP BTP integravimas",
-      "section3Content": "AI integravimas su SAP BTP sukuria galingą automatizavimo vamzdyną. Gaunamos sąskaitos faktūros yra automatinės tvarkos, duomenys yra ištraukus ir patvirtinus, ir informacija teka tiesiai į SAP sistemas be žmogaus sumaštyhmo. Šis integravimas naudojasi SAP BTP tvirtomis ryšio ir darbo srauto galimybėmis.",
-      "section4Title": "Intelektualus išimčių tvarkymas",
-      "section4Content": "Vienas iš pagrindinių AI stiprybės yra jo gebėjimas intelektualiai tvarkyti išimtis. Kai susidura su nepaprasta sąskaitos faktūros formatais arba dviprasminga informacija, sistema gali pažymėti žmogaus žiūrėjimui su detaliais paaiškinimai, sudarant išimčių tvarkymas daug efektyvesnį nei tradicinės taisyklės pagrindinės sistemos.",
-      "section5Title": "Išmatuojamas verslo poveikis",
-      "section5Content": "Organizacijos, diegusios AI sąskaitos faktūros apdorojimui, paprastai matų dramatingi patobulinimai: 90% apdorojimo laiko sumažinimas, 95% duomenų įvesties klaidų sumažinimas ir reikšmingas santaupos kreditorių operacijas. Galbūt svarbiausia, darbuotojai gali sukoncentruoti strategines veiklas vietoj kartotinų duomenų įvesties.",
+      "seoDescription": "Sužinokite, kaip DI integravimas į SAP BTP transformuoja finansų operacijas per išmanųjį automatizavimą.",
+      "intro": "Tradiciškai sąskaitų faktūrų apdorojimas yra imlus darbui ir klaidoms. Pažangaus dirbtinio intelekto (DI) integravimas į SAP BTP atneša revoliuciją šiame procese, suteikdamas beprecedentį automatizavimo lygį, tikslumą ir efektyvumą.",
+      "section1Title": "Rankinio apdorojimo problemos",
+      "section1Content": "Didelės organizacijos kas mėnesį apdoroja tūkstančius sąskaitų – kiekviena reikalauja duomenų išgavimo, validavimo ir įvedimo į ERP sistemas. Rankinis procesas yra lėtas, brangus ir kelia klaidų riziką, kuri lemia vėluojančius mokėjimus ir nuostolius.",
+      "section2Title": "Išmanioji dokumentų analizė",
+      "section2Content": "Modernus DI į finansus atneša kompiuterinio regėjimo ir natūralios kalbos suvokimo galimybes. Priešingai nei senos OCR sistemos, šiuolaikinis DI supranta kontekstą, atpažįsta skirtingus sąskaitų formatus ir išgauna duomenis itin tiksliai net iš prastos kokybės skenų.",
+      "section3Title": "Sinergija su SAP BTP",
+      "section3Content": "DI susiejimas su SAP BTP sukuria galingą automatizavimo kanalą. Sąskaitos analizuojamos automatiškai, duomenys validuojami ir keliauja tiesiai į SAP aplinką be žmogaus įsikišimo. Šis procesas išnaudoja platformos darbo eigų lankstumą.",
+      "section4Title": "Išmanusis išimčių valdymas",
+      "section4Content": "Viena didžiausių DI stiprybių yra gebėjimas tvarkyti nestandartines situacijas. Esant neaiškumui, sistema pažymi sąskaitą rankinei peržiūrai ir pateikia detalų paaiškinimą. Tai daug greičiau ir tiksliau nei klasikinės sistemos su griežtomis taisyklėmis.",
+      "section5Title": "Išmatuojami verslo rezultatai",
+      "section5Content": "Įmonės, įdiegusios DI sąskaitoms, fiksuoja didelius pokyčius: apdorojimo laiko sutrumpėjimą 90%, 95% mažiau įvedimo klaidų ir rimtus sutaupymus. Svarbiausia – komandos gali susikoncentruoti į svarbias strategines užduotis.",
       "conclusionTitle": "Išvada",
-      "conclusionContent": "Kombinacija iš anksto išankstas AI galimybės ir SAP BTP įmonės lygio infrastruktūros reiškia transformacinį sąskaitos faktūros apdorojimo požiūrį. Organizacijos priimančios šią technologiją gauna reikšmingą konkurencinį pranašumą per patobulintą efektyvumą, tikslumą ir sąnaudų sumažinimą."
+      "conclusionContent": "Galingas DI ir korporatyvinė SAP BTP infrastruktūra nustato naują finansų valdymo standartą. Organizacijos, diegiančios šias technologijas, laimi strateginį pranašumą per didesnį efektyvumą ir sąnaudų kontrolę."
     },
     "fiori": {
-      "title": "Šiuolaikinių Fiori programų kuriamos SAP BTP",
+      "title": "Modernių Fiori programų kūrimas su SAP BTP",
       "category": "Kūrimas",
       "readTime": "8 min",
-      "seoDescription": "Sužinokite, kaip kurti šiuolaikinius, atsakomius Fiori programas naudojant SAP BTP galingas plėtros įrankius ir sistema.",
-      "intro": "SAP Fiori reiškia verslo programų ateitį, suteikdamas vienodą vartotojo patirtį visuose įrenginiuose ir diegimo variantų. Su SAP Business Technology Platform (BTP), šiuolaikinių Fiori programų kūrimas tapo tvirtais ir galingus nei bet kurie ankšti.",
-      "section1Title": "SAP BTP galybė Fiori kūrimui",
-      "section1Content": "SAP BTP siūlo išsamią įrankių ir paslaugų seriją specialiai Fiori programų kūrimui. Platforma teikia viską nuo plėtros aplinkų iki diegimo infrastruktūros, leidžiant komandoms sukoncentruoti kuriančius puikius vartotojo patirtis vietoj infrastruktūros valdymo.",
-      "section2Title": "Pagrindiniai bruožai ir geriausios praktikos",
-      "section2Content": "Šiuolaikinės Fiori programos naudoja SAP Fiori elementų sistemą, kuri teikia iš anksto sukurtus UI komponentus ir modelius, kurie užtikrina nuoseklumą ir sumažina kūrimo laiką. Derinant šiuos elementus su pasirinktais SAPUI5 valdikliais, plėtotojai gali kurti programas, kurios yra standartizuotos ir pritaikytos konkretiems verslo poreikiams.",
-      "section3Title": "Integravimas su SAP BTP paslaugomis",
-      "section3Content": "Vienas iš pagrindinių Fiori programų plėtros SAP BTP pranašumų yra glaudus integravimas su kitomis platformos paslaugomis. Nuo autentifikavimo ir autorizavimo su SAP Cloud Identity Services iki duomenų saugojimo su SAP HANA Cloud, plėtotojai turi prieigą prie įmonės lygio paslaugų, kurias galima lengvai integruoti į jų programas.",
-      "section4Title": "Reaguojantis dizainas ir kelių įrenginio palaikymas",
-      "section4Content": "Fiori programos kuriames SAP BTP automatinė prieiga prie skirtingų ekrano dydžių ir įrenginių, užtikrinant nuoseklią vartotojo patirtį, ar prieiga iš darbalaukio, planšetinio kompiuterio ar mobilaus telefono. Šis reaguojančio dizaino galimybė yra pastatyta į sistemą, sumažinant pastangų reikiamos skirtos keliais įrenginiais.",
-      "section5Title": "Veikimo optimizavimas",
-      "section5Content": "SAP BTP teikia įvairius įrankius ir technikus Fiori programų veikimo optimizavimui, įskaitant tingus klaidžiojimo, pakavimo ir talpyklos strategijas. Šios optimizavimo technikos užtikrina, kad programos greitai kraunasi ir sklandžiai reaguoja, net kai tvarko didelius duomenų rinkimu arba sudėtingą verslo logiką.",
+      "seoDescription": "Sužinokite, kaip kurti modernias ir adaptyvias Fiori programas naudojant SAP BTP įrankius.",
+      "intro": "SAP Fiori yra verslo programinės įrangos ateitis, siūlanti vieningą patirtį visuose įrenginiuose. Per SAP Business Technology Platform (BTP) kūrimo procesas tapo produktyvesnis ir labiau optimizuotas.",
+      "section1Title": "Kodėl SAP BTP Fiori kūrimui",
+      "section1Content": "SAP BTP siūlo specialiai Fiori sukurtų įrankių ir paslaugų rinkinį. Platforma apima viską — nuo programavimo aplinkų iki talpinimo. Tai leidžia komandoms susikoncentruoti į gerą UI/UX, o ne į serverių priežiūrą.",
+      "section2Title": "Pagrindiniai principai ir praktika",
+      "section2Content": "Modernios Fiori programos naudoja SAP Fiori Elements, kurie suteikia paruoštus modulius ir šablonus. Tai užtikrina konsistenciją ir trumpina darbo laiką. Kartu su SAPUI5 kompetencija, kūrėjai sukuria sprendimus, tiksliai atitinkančius verslo poreikius.",
+      "section3Title": "Integracija su BTP paslaugomis",
+      "section3Content": "Vienas pagrindinių privalumų yra lengvas ryšys su kitomis debesijos paslaugomis. Nuo saugumo per SAP Cloud Identity iki duomenų bazių SAP HANA Cloud — kūrėjai turi prieigą prie visko vienoje vietoje.",
+      "section4Title": "Adaptyvus dizainas visiems ekranams",
+      "section4Content": "Programos SAP BTP aplinkoje automatiškai prisitaiko prie monitoriaus, planšetės ar telefono. Šis funkcionalumas yra sistemos branduolyje, todėl drastiškai mažėja mobiliųjų versijų kūrimo sąnaudos.",
+      "section5Title": "Greičio optimizavimas",
+      "section5Content": "SAP BTP suteikia įvairius metodus darbui pagreitinti, įskaitant Lazy Loading ir kešavimą. Tai užtikrina, kad programos startuotų greitai ir veiktų sklandžiai net su dideliais duomenų kiekiais.",
       "conclusionTitle": "Išvada",
-      "conclusionContent": "Šiuolaikinių Fiori programų kūrimas SAP BTP derina įmonės lygio infrastruktūros galybę su krašto plėtros sistemomis. Naudojant platformos galimybes, plėtotojo komandos gali kurti sudėtingas, naudotojui palanki programas, kurios varo verslo vertę ir padidina produktyvumą visoje organizacijoje."
+      "conclusionContent": "Fiori kūrimas SAP BTP aplinkoje sujungia įmonės infrastruktūros galią ir modernias technologijas. Naudodamos šias galimybes, įmonės sukuria įrankius, kurie realiai didina darbuotojų produktyvumą."
     },
     "pwa": {
-      "title": "Offline PWA sprendimai verslo tęstinumui",
+      "title": "Offline PWA sprendimai jūsų verslui",
       "category": "Architektūra",
       "readTime": "7 min",
-      "seoDescription": "Atraskite, kaip Progresyvios žiniatinklio programos (PWA) su savaitės galimybėmis užtikrina verslo tęstinumą ir produktyvumą bet kurioje tinklo sąlygoje.",
-      "intro": "Šiandieninėje sujungtoje pasaulyje tinklo sutrikimas gali sustabdyti verslo operacijas. Progresyvios žiniatinklio programos (PWA) su savaitės galimybėmis teikia tvirtą sprendimą verslo tęstinumui, leidžiant vartotojams sklandžiai dirbti, nepriklausomai nuo tinklo prieinamumo.",
-      "section1Title": "Supratimas Offline-First architektūros",
-      "section1Content": "Offline-First architektūra reiškia paradigmą pasikeitimą, kaip mes kuriame žiniatinklio programas. Vietoj offline režimo kaip kraštutinio atveju, Offline-First dizainas daro tai pagrindinė funkcija. Šis požiūris užtikrina, kad programos lieka funkcingos net kai tinklo ryšys nėra patikimas arba visiškai neprieinamas.",
-      "section2Title": "Service Workers: Offline PWA stuburo",
-      "section2Content": "Service Workers yra technologija, kuri įgalina Offline PWA. Šie programuojami tinklo proxy sėdi tarp jūsų programos ir tinklo, persekantos prašymus ir galintys sudėtingas talpyklos strategijas. Naudodami Service Workers, programos gali talpinti kritinių ištekliai ir duomenis, užtikrinant prieinamumą net ir neprisijungus.",
-      "section3Title": "Duomenų sinchronizavimo strategijos",
-      "section3Content": "Pagrindinė Offline PWA iššūkis yra duomenų sinchronizavimo valdymas, kai ryšys atkūrtas. Diegiami tvirtų konfliktų sprendimo strategiji ir optimistinės atnaujinimai užtikrina, kad duomenys išlieka nuoseklūs įrenginiuose ir apsaugos sistemose. Foninės sinchronizavimo API galina automatinę sinchronizavimas, kai tinklas vėl pasidaro prieinamas.",
-      "section4Title": "Verslo pranašumai",
-      "section4Content": "Offline PWA teikia reikšmingą verslo vertę užtikrinant produktyvumą bet kurioje tinklo sąlygoje. Lauko darbuotojai gali tęsti savo užduotis nutolusiose vietose, pardavimo komandos gali pasiekti kritinę informaciją pristatymuose, o operacijos tęsiasi sklandžiai tinklo nepavykus metu. Šis patikimumas tiesiogiai rezultatai į patobulintą kliento pasitenkinimą ir operacinį efektyvumą.",
-      "section5Title": "Diegimas su SAP BTP",
-      "section5Content": "SAP BTP teikia puikų palaikymą Offline PWA kūrimui per jo Mobilieji paslaugos pasiūlymą. Šios paslaugos apima Offline duomenų sinchronizavimas, saugų saugojimas ir išsamūs API, kurie supaprastina tvirtų Offline gebantis programų kūrimą.",
+      "seoDescription": "Sužinokite, kaip progresyvios programos (PWA) užtikrina stabilų jūsų komandų darbą visomis sąlygomis.",
+      "intro": "Šių dienų dynaamiškame pasaulyje bet koks interneto sutrikimas gali sustabdyti svarbius verslo procesus. Progresyvios žiniatinklio programos (PWA) su offline palaikymu yra teisingas sprendimas, leidžiantis tęsti darbą be pertraukų.",
+      "section1Title": "Offline-First filosofija",
+      "section1Content": "Offline-first architektūra yra naujas mąstymo būdas. Vietoj to, kad ryšio nebuvimą laikytume problema, mes jį numatome kaip pagrindinę funkciją. Tai užtikrina, kad programa liktų visiškai veiksni net atokiose vietovėse.",
+      "section2Title": "Service Workers: offline darbo širdis",
+      "section2Content": "Service Workers yra technologija, stovinti už PWA sprendimų. Jie veikia kaip tarpininkas tarp programos ir tinklo, valdydami duomenų srautus. Jų dėka programa išsaugo kritinius resursus ir juos užkrauna akimirksniu net be ryšio.",
+      "section3Title": "Sinchronizavimo mechanizmai",
+      "section3Content": "Didelis iššūkis — kaip atnaujinti duomenis ryšiui sugrįžus. Modernios strategijos užtikrina, kad informacija nebus prarasta. Background Sync API leidžia tai padaryti vartotojui nepastebimai fone.",
+      "section4Title": "Vertė verslui",
+      "section4Content": "Offline sprendimai teikia realią naudą palaikydami „lauko“ komandų, pardavimų atstovų ir sandėlio aktyvumą bet kokiomis sąlygomis. Patikimumas virsta didesniu darbuotojų ir klientų pasitenkinimu bei mažesnėmis išlaidomis gedimų metu.",
+      "section5Title": "Diegimas per SAP BTP",
+      "section5Content": "SAP BTP teikia visą palaikymą PWA per savo Mobile Services. Tai apima įmontuotą sinchronizaciją, saugų vietinį saugojimą ir galingas API, kurios kūrimo procesą daro suvaldomą ir greitą.",
       "conclusionTitle": "Išvada",
-      "conclusionContent": "Offline PWA reiškia verslo programų ateitį, teikdamos atsparumą ir patikimumą, kurie tradicinės žiniatinklio programos negali suteikti. Priėmus Offline-First architektūrą ir naudojant šiuolaikinius žiniatinklio technologijas, organizacijos gali užtikrinti verslo tęstinumą ir išlaikyti produktyvumą, nepriklausomai nuo tinklo sąlygų."
+      "conclusionContent": "Offline PWA yra verslo mobilumo ateitis, siūlanti patikimumą, kurio neturi paprastos svetainės. Naudodamos šias technologijas, įmonės užtikrina, kad jų procesai veiktų 24/7 nepriklausomai nuo vietos."
     }
   }
 }
