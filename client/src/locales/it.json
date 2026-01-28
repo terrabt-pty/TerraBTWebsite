@@ -13,1450 +13,1450 @@
     "learn": "Esplora i servizi"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "La Nostra Expertise",
+    "subtitle": "Soluzioni SAP BTP complete per trasformare la tua azienda",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Sviluppo di App Fiori",
+      "description": "Sviluppa applicazioni Fiori moderne e responsive che offrono esperienze utente eccezionali su tutti i dispositivi."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "Architettura e Design BTP",
+      "description": "Pianificazione architettonica strategica e design per soluzioni SAP BTP scalabili personalizzate alle tue esigenze aziendali."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Approccio di design incentrato sull'utente per creare soluzioni innovative che risolvono vere sfide aziendali."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "App PWA Offline",
+      "description": "Applicazioni web progressive con funzionalità offline che garantiscono un'esperienza utente senza interruzioni ovunque."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "Gestione Database SAP BTP",
+      "description": "Design efficiente dei database, ottimizzazione e gestione per applicazioni BTP ad alte prestazioni."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Elaborazione Fatture con IA",
+      "description": "Automazione intelligente dell'elaborazione fatture basata su IA avanzata per operazioni precise ed efficienti."
     },
     "integration": {
-      "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "title": "Suite di Integrazione SAP BTP",
+      "description": "Soluzioni di integrazione senza interruzioni per collegare i tuoi sistemi SAP con applicazioni cloud e on-premise."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Implementazione di architettura event-driven in tempo reale per processi aziendali reattivi e scalabili."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "Sviluppo SAP CAP",
+      "description": "Sviluppa applicazioni cloud moderne con il modello di programmazione applicazioni SAP Cloud per uno sviluppo rapido e scalabile."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Crea applicazioni aziendali professionali con strumenti no-code/low-code per una trasformazione digitale rapida."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Automatizza processi aziendali con funzionalità intelligenti di workflow e automazione robotica dei processi."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Il Nostro Focus",
+      "title": "Specializzazione SAP BTP al 100%",
+      "description": "A differenza delle aziende di consulenza generaliste, ci concentriamo esclusivamente su SAP Business Technology Platform, garantendo expertise profonda e soluzioni all'avanguardia.",
+      "point1": "Team dedicato di esperti SAP BTP certificati",
+      "point2": "Sempre aggiornati con le ultime funzionalità BTP e best practice",
+      "point3": "Traccia comprovata tra più settori"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Portata Globale",
+      "title": "Servizio ai Mercati Mondiali",
+      "description": "Portiamo l'expertise SAP BTP nei mercati globali, fornendo soluzioni di classe mondiale indipendentemente dalla tua posizione.",
+      "point1": "Capacità di consulenza remota in tutti i fusi orari",
+      "point2": "Supporto multilingue per team internazionali",
+      "point3": "Comprensione dei requisiti aziendali regionali"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Tecnologia Moderna",
+      "title": "Innovazione Powered by IA",
+      "description": "Sfruttamento della tecnologia IA all'avanguardia per migliorare le soluzioni SAP BTP, portando automazione e intelligenza ai tuoi processi aziendali.",
+      "point1": "Automazione intelligente per attività ripetitive",
+      "point2": "Elaborazione e analisi dati avanzate",
+      "point3": "Integrazione senza interruzioni nei flussi di lavoro esistenti"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Hub della Conoscenza",
+    "subtitle": "Intuizioni di esperti e best practice per il successo di SAP BTP",
+    "readMore": "Leggi Articolo",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Sviluppo",
+      "title": "Costruire Applicazioni Fiori Moderne con SAP BTP",
+      "excerpt": "Scopri come creare applicazioni Fiori responsive e user-friendly che sfruttano tutta la potenza di SAP Business Technology Platform.",
+      "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Tecnologia",
+      "title": "PWA Offline: Garantire la Continuità Aziendale Ovunque",
+      "excerpt": "Scopri come le Progressive Web App con funzionalità offline possono mantenere i tuoi processi aziendali in esecuzione regolare anche senza connettività internet.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "IA & Automazione",
+      "title": "IA per l'Elaborazione Intelligente delle Fatture",
+      "excerpt": "Esplora come l'integrazione dell'IA con SAP BTP trasforma l'elaborazione fatture con precisione ed efficienza senza precedenti.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integrazione",
+      "title": "Padronanza della Suite di Integrazione SAP BTP",
+      "excerpt": "Una guida completa per collegare i tuoi sistemi aziendali utilizzando SAP BTP Integration Suite per un flusso dati senza interruzioni.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Architettura",
+      "title": "Architettura Event Mesh per Aziende in Tempo Reale",
+      "excerpt": "Implementazione di architettura event-driven con SAP Event Mesh per creare soluzioni reattive e scalabili.",
+      "readTime": "6 min"
     },
     "post6": {
       "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "title": "Strategie di Ottimizzazione Database BTP",
+      "excerpt": "Strategie essenziali per ottimizzare le prestazioni del database SAP BTP al fine di garantire accesso rapido e affidabile ai tuoi dati critici.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Inizia",
+    "title": "Pronto a Trasformare la Tua Azienda?",
+    "subtitle": "Prenota una consulenza gratuita con i nostri esperti SAP BTP",
+    "availability": "Disponibilità Limitata",
+    "contactInfo": "Informazioni di Contatto",
+    "email": "Email",
+    "globalPresence": "Presenza Globale",
+    "servingCountries": "Servendo clienti in oltre 40 paesi in tutto il mondo",
+    "fastResponse": "Garanzia di Risposta Veloce",
+    "fastResponseDesc": "Ricevi consulenza di esperti entro 24 ore. I nostri specialisti SAP BTP sono pronti ad aiutarti ad avere successo.",
+    "mentionCountry": "Per favore menziona il tuo paese quando ci contatti",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Nome Completo",
+      "email": "Email Aziendale",
+      "company": "Nome Azienda",
+      "message": "Raccontaci del tuo progetto",
+      "submit": "Programma Consulenza Gratuita",
+      "submitting": "Invio in corso..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Messaggio Inviato!",
+      "description": "Grazie per averci contattato. Ti risponderemo entro 24 ore."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Errore",
+      "description": "Qualcosa è andato storto. Per favore riprova."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
-    "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
+    "description": "Consulenza SAP BTP specializzata che offre eccellenza in tutto il mondo",
+    "services": "Servizi",
+    "fiori": "Sviluppo Fiori",
+    "architecture": "Architettura BTP",
+    "integration": "Suite di Integrazione",
+    "ai": "Soluzioni IA",
+    "knowledge": "Conoscenza",
+    "blogArticles": "Articoli Blog",
+    "caseStudies": "Case Study",
+    "resources": "Risorse",
+    "company": "Azienda",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "careers": "Carriere",
     "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "documentation": "Documentazione",
+    "whitepapers": "Whitepaper",
+    "legal": "Note Legali",
+    "privacy": "Politica sulla Privacy",
+    "terms": "Termini di Servizio",
+    "copyright": "Tutti i diritti riservati.",
+    "deployedOn": "Implementato su Cloudflare",
+    "serviceRestriction": "I servizi non sono disponibili in Australia e Nuova Zelanda.",
+    "availableLanguages": "Disponibile nella Tua Lingua"
   },
   "common": {
     "learnMore": "Scopri di più",
     "backToHome": "Torna alla home"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Sviluppo Applicazioni Cloud",
+    "title": "Sviluppo SAP CAP",
+    "subtitle": "Servizi",
+    "description": "Sviluppa applicazioni cloud moderne con il modello di programmazione applicazioni SAP Cloud per uno sviluppo rapido e scalabile su SAP BTP.",
+    "cta": "Avvia il Tuo Progetto CAP →",
+    "servicesTitle": "Servizi Completi di Sviluppo CAP",
+    "servicesSubtitle": "Dalla modellazione dati alla distribuzione - expertise CAP completa per le tue applicazioni aziendali.",
+    "whyChoose": "Perché Scegliere TerraBT",
+    "whyChooseTitle": "Sviluppo CAP Professionista che Offre Risultati",
+    "whyChooseDescription": "I nostri sviluppatori SAP CAP certificati portano anni di esperienza nello sviluppo di applicazioni aziendali. Combiniamo l'expertise tecnica con la saggezza aziendale per fornire soluzioni che producono risultati.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Sviluppo CAP Full-Stack",
+        "description": "Sviluppo applicazioni end-to-end utilizzando il framework CAP.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "Modellazione dati CDS e definizioni entità",
+          "Definizione e implementazione servizio",
+          "Sviluppo logica aziendale personalizzata",
+          "Generazione UI Fiori Elements",
+          "Supporto runtime CAP Node.js e Java"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Integrazione Database",
+        "description": "Integrazione senza interruzioni con SAP HANA Cloud e altri database.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "Sviluppo nativo SAP HANA Cloud",
+          "Supporto PostgreSQL e SAP ASE",
+          "Migrazione database e gestione schema",
+          "Ottimizzazione query e performance tuning",
+          "Configurazione database multi-tenancy"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Sicurezza e Autorizzazione",
+        "description": "Implementazione di sicurezza di livello enterprise per applicazioni CAP.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Controllo accesso basato su ruoli (RBAC)",
+          "Integrazione autenticazione (XSUAA, IAS)",
+          "Annotazioni autorizzazione e restrizioni",
+          "Sicurezza privacy e dati a livello di campo",
+          "Gestione credenziali sicura"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "Sviluppo API e Servizio",
+        "description": "Sviluppa robusti API OData e REST con servizi CAP.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "Creazione servizio OData V2 e V4",
+          "Implementazione API REST",
+          "Azioni e funzioni personalizzate",
+          "Abilitazione bozza per app transazionali",
+          "Integrazione servizio esterno e mashup"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Integrazione Fiori Elements",
+        "description": "Sviluppo UI rapido con Fiori Elements e CAP.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Applicazioni List Report e Object Page",
+          "Sviluppo Analytical List Page (ALP)",
+          "Integrazione app Fiori Freestyle",
+          "Annotazioni UI e personalizzazione",
+          "Design responsivo e adattivo"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD e DevOps",
+        "description": "Distribuzione automatizzata e pipeline di integrazione continua.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Distribuzione Cloud Foundry e Kyma",
+          "Build MTA (Multi-Target Application)",
+          "Test automatizzati e quality gate",
+          "Setup pipeline CI/CD (Jenkins, GitHub Actions)",
+          "Strategie multi-environment promotion"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Sviluppo accelerato con pattern CAP comprovati",
+      "Best practice integrate e architettura enterprise-ready",
+      "Applicazioni scalabili che crescono con la tua azienda",
+      "Integrazione senza interruzioni SAP S/4HANA",
+      "Consulenza expert durante l'intero ciclo di sviluppo"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "Sviluppo No-Code/Low-Code",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Servizi di Sviluppo",
+    "description": "Crea applicazioni aziendali professionali con strumenti no-code/low-code per una trasformazione digitale rapida e agilità aziendale.",
+    "cta": "Inizia a Costruire Oggi →",
+    "servicesTitle": "Soluzioni Complete SAP Build Apps",
+    "servicesSubtitle": "Dallo sviluppo visuale alla distribuzione enterprise - potenzia i tuoi utenti aziendali.",
+    "whyChooseTitle": "Sviluppo Applicazioni Rapido",
+    "whyChooseDescription": "SAP Build Apps consente ai business user e agli sviluppatori di creare potenti applicazioni senza una programmazione estensiva. Accelera la tua trasformazione digitale con strumenti di sviluppo visuale.",
+    "implementationTitle": "Approccio di Implementazione",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Sviluppo Visuale",
+        "description": "Interfaccia drag-and-drop per la creazione rapida di applicazioni.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Page builder visuale intuitivo",
+          "Libreria componenti UI pre-costruiti",
+          "Canvas design responsivo",
+          "Anteprima e test in tempo reale",
+          "Personalizzazione tema e branding"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "App Cross-Platform",
+        "description": "Crea una volta, distribuisci ovunque - web, iOS e Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Supporto Progressive Web App (PWA)",
+          "Generazione app mobile nativi",
+          "Ottimizzazione tablet e desktop",
+          "Capacità dati offline",
+          "Supporto distribuzione app store"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Integrazione Cloud-Native",
+        "description": "Connessione senza interruzioni ai servizi e dati SAP BTP.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "Integrazione SAP S/4HANA Cloud",
+          "Connettività servizio OData",
+          "Consumo servizio BTP",
+          "Autenticazione e autorizzazione",
+          "Sincronizzazione dati in tempo reale"
         ]
       },
       "rapid": {
         "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "description": "Valida rapidamente le idee e itera in base al feedback.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Sviluppo MVP veloce",
+          "Test utenti e raccolta feedback",
+          "Design iterativo e raffinamento",
+          "Controllo versione e rollback",
+          "Strumenti collaborazione per team"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Abilitazione Citizen Developer",
+        "description": "Potenzia gli utenti aziendali a creare applicazioni.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Curva di apprendimento bassa per non sviluppatori",
+          "Flussi di lavoro sviluppo guidati",
+          "Libreria template e blueprint",
+          "Governance e controlli qualità",
+          "Programmi di formazione e abilitazione"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Estensibilità Pro-Code",
+        "description": "Estendi con codice personalizzato quando necessario.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Logica JavaScript personalizzata",
+          "Capacità integrazione API",
+          "Sviluppo componenti personalizzati",
+          "Trasformazioni dati avanzate",
+          "Integrazione librerie di terze parti"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "Sviluppo applicazioni 10x più veloce",
+      "Riduzione costi sviluppo del 60%",
+      "Potenziamento utenti aziendali per innovare",
+      "Integrazione senza interruzioni ecosistema SAP",
+      "Sicurezza e governance di livello enterprise"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Requisiti e Design",
+        "description": "Workshop per comprendere le esigenze aziendali e progettare la struttura dell'app con i stakeholder."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Sviluppo Visuale",
+        "description": "Costruisci l'app utilizzando interfaccia drag-and-drop con componenti e template pre-costruiti."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Integrazione Dati",
+        "description": "Connetti ai sistemi SAP e fonti dati esterne con autenticazione senza interruzioni."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Test e Raffinamento",
+        "description": "Test accettazione utente e miglioramenti iterativi in base al feedback."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Distribuzione",
+        "description": "Distribuisci su web, iOS e Android con build e distribuzione automatizzati."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Formazione e Support",
+        "description": "Formazione utenti finali e supporto continuativo per il miglioramento continuo."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Automazione Processi",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Servizi",
+    "description": "Automatizza processi aziendali con funzionalità intelligenti di workflow e automazione robotica dei processi per aumentare l'efficienza.",
+    "cta": "Automatizza i Tuoi Processi →",
+    "servicesTitle": "Soluzioni Complete di Automazione Processi",
+    "servicesSubtitle": "Da semplici flussi di lavoro a RPA complessa - expertise automazione completa.",
+    "whyChooseTitle": "Automazione Processi Intelligente",
+    "whyChooseDescription": "Trasforma i tuoi processi aziendali con SAP Build Process Automation. Combina la gestione del flusso di lavoro, RPA e IA per l'eccellenza end-to-end dei processi.",
+    "implementationTitle": "Roadmap di Implementazione",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Gestione Workflow",
+        "description": "Design e orchestrazione di complessi flussi di lavoro aziendali.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Designer di flussi di lavoro visuale",
+          "Logica approvazione e routing",
+          "Gestione attività umane",
+          "Elaborazione parallela e sequenziale",
+          "Gestione escalation e scadenze"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Automazione Robotica dei Processi",
+        "description": "Automatizza attività ripetitive con robot software.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Automazione desktop e web",
+          "Screen scraping ed estrazione dati",
+          "Integrazione applicazioni senza API",
+          "Bot assistiti e non assistiti",
+          "Scheduling e orchestrazione bot"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Elaborazione Documenti",
+        "description": "Estrazione e classificazione intelligente dei documenti.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Estrazione dati powered by IA",
+          "Classificazione e routing documenti",
+          "Elaborazione basata su template",
+          "Supporto multi-formato (PDF, immagini, scansioni)",
+          "Regole validazione e verifica"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Flussi di Lavoro Approvazione",
+        "description": "Ottimizza i processi di approvazione nella tua organizzazione.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Catene approvazione multi-livello",
+          "Logica routing condizionale",
+          "Regole delega e sostituzione",
+          "Capacità approvazione mobile",
+          "Sistema notifiche e promemoria"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Analitiche Processi",
+        "description": "Ottieni insight nelle prestazioni e colli di bottiglia dei processi.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Process mining e discovery",
+          "Metriche prestazioni e KPI",
+          "Identificazione colli di bottiglia",
+          "Monitoraggio compliance",
+          "Raccomandazioni miglioramento continuo"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Governance e Compliance",
+        "description": "Assicura che i processi soddisfino i requisiti normativi.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audit trail e logging",
+          "Controllo accesso e sicurezza",
+          "Enforcement regole compliance",
+          "Controllo versione e change management",
+          "Monitoraggio e enforcement SLA"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "Riduzione del 70% nel tempo di elaborazione manuale",
+      "Accuratezza del 99,9% nelle attività automatizzate",
+      "ROI veloce entro 3-6 mesi",
+      "Compliance e auditabilità migliorate",
+      "Supporto implementazione dedicato e ottimizzazione"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Scoperta Processi",
+        "description": "Analizza e documenta i processi attuali per identificare opportunità di automazione."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Design Automazione",
+        "description": "Progetta la soluzione di automazione ottimale combinando workflow, RPA e capacità IA."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Sviluppo e Configurazione",
+        "description": "Costruisci e configura l'automazione usando gli strumenti SAP Build Process Automation."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Test e Validazione",
+        "description": "Test completo per garantire accuratezza e affidabilità dell'automazione."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Distribuzione e Go-Live",
+        "description": "Distribuisci l'automazione in produzione con rollout monitorato e formazione utenti."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Monitoraggio e Ottimizzazione",
+        "description": "Monitoraggio continuo e miglioramento in base alle analitiche prestazioni."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Architettura e Design",
+    "title": "Architettura SAP BTP",
+    "subtitle": "Servizi di Design",
+    "description": "Pianificazione architettonica strategica e design per soluzioni SAP BTP scalabili, sicure e ad alte prestazioni. Costruiamo ambienti cloud di livello enterprise personalizzati alle tue esigenze aziendali.",
+    "cta": "Discuti le Tue Esigenze Architetturali →",
+    "servicesTitle": "Servizi Architettura Completi",
+    "servicesSubtitle": "Dal design iniziale del paesaggio all'implementazione della sicurezza, copriamo ogni aspetto della tua architettura SAP BTP.",
+    "whyChooseTitle": "Architettura Expert che Offre Risultati",
+    "whyChooseDescription": "I nostri architetti SAP BTP certificati portano anni di esperienza nel design di soluzioni enterprise per organizzazioni globali. Combiniamo best practice con innovazione per creare architetture che resistono alla prova del tempo.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Design del Paesaggio",
+        "description": "Architettura del paesaggio BTP completa personalizzata alle tue esigenze aziendali.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Setup ambiente multi-tier (Dev, Test, Production)",
+          "Struttura e organizzazione subaccount",
+          "Allocazione risorse e pianificazione capacità",
+          "Configurazione runtime Cloud Foundry e Kyma",
+          "Topologia di rete e pianificazione connettività"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Architettura Sicurezza",
+        "description": "Design di sicurezza di livello enterprise per proteggere il tuo ambiente e dati BTP.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Strategia Identity and Access Management (IAM)",
+          "Implementazione controllo accesso basato su ruoli (RBAC)",
+          "Crittografia dati e standard compliance",
+          "Monitoraggio sicurezza e rilevamento minacce",
+          "Logging audit e compliance reporting"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Alta Disponibilità",
+        "description": "Design di sistemi resilienti con downtime minimo e affidabilità massima.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Strategie distribuzione multi-region",
+          "Soluzioni disaster recovery e backup",
+          "Bilanciamento carico e meccanismi failover",
+          "Pianificazione continuità aziendale",
+          "Monitoraggio prestazioni e ottimizzazione"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Setup Integration Suite",
+        "description": "Configurazione completa Integration Suite per connettività sistema senza interruzioni.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Setup e configurazione Cloud Integration (CPI)",
+          "Implementazione API Management",
+          "Configurazione Open Connectors",
+          "Utilizzo Integration Advisor",
+          "Distribuzione contenuti integrazione pre-confezionati"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "Setup SAP Cloud Connector",
+        "description": "Connettività on-premise a cloud sicura per integrazione paesaggio ibrido.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Installazione e configurazione Cloud Connector",
+          "Istituzione tunnel sicuro tra on-premise e BTP",
+          "Controllo accesso e gestione security group",
+          "Mapping sistema e configurazione virtual host",
+          "Setup alta disponibilità e failover",
+          "Monitoraggio e troubleshooting problemi connettività"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Setup Event Mesh",
+        "description": "Implementazione architettura event-driven per processi aziendali real-time.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Provisioning istanza Event Mesh",
+          "Configurazione code e topic",
+          "Setup e gestione event broker",
+          "Message routing e regole filtering",
+          "Monitoraggio evento e analytics"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "Setup IAS",
+        "description": "Configurazione Identity Authentication Service per gestione utenti sicura.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "Provisioning e configurazione tenant IAS",
+          "Implementazione Single Sign-On (SSO)",
+          "Setup autenticazione multi-fattore (MFA)",
+          "Integrazione identity provider aziendale",
+          "Provisioning utenti e gestione ciclo di vita"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Autenticazione Utenti e Ruoli",
+        "description": "Framework completo di gestione utenti e autorizzazione.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Definizione e gestione ruoli personalizzati",
+          "Design modello autorizzazione",
+          "Organizzazione gruppi utenti",
+          "Implementazione sicurezza livello applicazione",
+          "Assegnazione ruoli e flussi di lavoro delegazione"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Tempo implementazione ridotto del 40% con pattern architettura comprovati",
+      "Sicurezza di livello enterprise conforme agli standard industria",
+      "Infrastruttura scalabile che cresce con la tua azienda",
+      "Capacità monitoraggio proattivo per sistemi critici",
+      "Consulenza expert da architetti SAP BTP certificati"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP Focused"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Anni Esperienza Combinata"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Paesi Serviti"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Team Expert"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Perché Scegliere TerraBT",
+    "ctaSectionBadge": "⚡ Avvia il Tuo Progetto Oggi",
+    "ctaSectionTitle1": "Pronto a Costruire",
+    "ctaSectionTitle2": "la Tua Architettura SAP BTP?",
+    "ctaSectionDescription": "Programma una consulenza gratuita con i nostri architetti SAP BTP per discutere i tuoi requisiti ed esplorare come possiamo aiutarti ad avere successo.",
+    "ctaSectionButton1": "Programma Consulenza Gratuita →",
+    "ctaSectionButton2": "Visualizza Tutti i Servizi"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Sviluppo Applicazioni",
+    "title": "App SAP Fiori",
+    "subtitle": "Servizi di Sviluppo",
+    "description": "Sviluppa applicazioni Fiori moderne e responsive che offrono esperienze utente eccezionali su tutti i dispositivi. Dalla concezione alla distribuzione, creiamo app belle e performanti usando le ultime tecnologie SAP.",
+    "cta": "Avvia il Tuo Progetto Fiori →",
+    "servicesTitle": "Soluzioni Complete di Sviluppo Fiori",
+    "servicesSubtitle": "Servizi sviluppo Fiori end-to-end dal design alla distribuzione e oltre.",
+    "whyChooseTitle": "Esperti Fiori che Offrono Eccellenza",
+    "whyChooseDescription": "I nostri sviluppatori certificati SAP si specializzano nello sviluppo di applicazioni Fiori di livello enterprise. Combiniamo expertise tecnico con design thinking per creare app che gli utenti amano.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Sviluppo App Fiori Personalizzati",
+        "description": "Sviluppa applicazioni Fiori personalizzate che corrispondono perfettamente ai tuoi requisiti aziendali.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "Expertise framework SAPUI5",
+          "Applicazioni Fiori Elements e Freestyle",
+          "Integrazione servizio OData",
+          "Design responsive per tutti i dispositivi",
+          "Controlli e componenti personalizzati"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Design UI/UX",
+        "description": "Crea interfacce intuitive e belle seguendo le linee guida di design SAP Fiori.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "Aderenza ai principi di design SAP Fiori",
+          "Ricerca utenti e sviluppo persona",
+          "Wireframing e prototyping",
+          "Conformità accessibilità (WCAG)",
+          "Personalizzazione tema e branding"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Ottimizzazione Prestazioni",
+        "description": "Assicura che le tue app Fiori si carichino velocemente e funzionino fluidamente su qualsiasi dispositivo.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Ottimizzazione codice e minificazione",
+          "Implementazione lazy loading",
+          "Riduzione dimensione bundle",
+          "Ottimizzazione richieste di rete",
+          "Monitoraggio prestazioni e analytics"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Sviluppo Mobile-First",
+        "description": "Sviluppa app Fiori ottimizzate per utenti mobile e scenari offline.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Design responsive e adattivo",
+          "Interazioni ottimizzate per touch",
+          "Funzionalità specifiche mobile (fotocamera, GPS)",
+          "Sincronizzazione dati offline",
+          "Capacità Progressive Web App (PWA)"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integrazione e Test",
+        "description": "Integrazione backend senza interruzioni con copertura test completa.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "Creazione SAP Gateway e servizio OData",
+          "Integrazione sistema backend",
+          "Test unit e integrazione",
+          "Automazione test end-to-end",
+          "Integrazione continua/distribuzione (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Formazione e Support",
+        "description": "Potenzia il tuo team con conoscenza e supporto manutenzione continuo.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Workshop formazione sviluppatore",
+          "Documentazione best practice",
+          "Revisione codice e assicurazione qualità",
+          "Manutenzione continua e aggiornamenti",
+          "Handover produzione completo"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Interfacce moderne e intuitive che aumentano l'adozione utente",
+      "Sviluppo più veloce con componenti e template riutilizzabili",
+      "Compatibilità cross-device per esperienza senza interruzioni",
+      "Sviluppatori certificati SAP con expertise Fiori profonda",
+      "Costi formazione ridotti con UX familiare e coerente"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "App Fiori Consegnate"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Tasso Soddisfazione Utenti"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Time-to-Market Più Veloce"
       },
       "responsive": {
         "value": "100%",
         "label": "Mobile Responsive"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Perché Scegliere TerraBT",
+    "ctaSectionBadge": "⚡ Slot di Sviluppo Limitati Disponibili",
+    "ctaSectionTitle1": "Pronto a Costruire",
+    "ctaSectionTitle2": "la Tua Prossima Applicazione Fiori?",
+    "ctaSectionDescription": "Discutiamo i tuoi requisiti e creiamo una bella app Fiori ad alte prestazioni che i tuoi utenti ameranno.",
+    "ctaSectionButton1": "Ottieni un Preventivo Gratuito →",
+    "ctaSectionButton2": "Esplora Altri Servizi"
   },
   "offlinePWA": {
     "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "title": "App PWA Offline",
+    "subtitle": "per SAP BTP",
+    "description": "Applicazioni web progressive con funzionalità offline che garantiscono un'esperienza utente senza interruzioni ovunque. Sviluppa app che funzionano perfettamente online o offline, fornendo esperienze native tramite il web.",
+    "cta": "Costruisci la Tua PWA →",
+    "servicesTitle": "Servizi Sviluppo PWA Completi",
+    "servicesSubtitle": "Dall'architettura offline-first alle notifiche push, sviluppiamo PWA che rivalizzano con app native.",
+    "whyChooseBadge": "Il Vantaggio PWA",
+    "whyChooseTitle": "Esperienza Nativa, Semplicità Web",
+    "whyChooseDescription": "Le Progressive Web App combinano il meglio del web e delle app native. Niente approvazioni app store, aggiornamenti istantanei e funzionano su tutti i dispositivi - il tutto fornendo un'esperienza simile a un'app.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Architettura Offline-First",
+        "description": "Progetta applicazioni che funzionano senza interruzioni anche senza connettività internet.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Implementazione Service Worker",
+          "Strategie caching dati offline",
+          "Gestione IndexedDB e local storage",
+          "Capacità background sync",
+          "Strategie risoluzione conflitti"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Sincronizzazione Dati",
+        "description": "Meccanismi sync intelligenti per mantenere dati coerenti tra dispositivi.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Sincronizzazione background automatica",
+          "Delta sync per trasferimento dati efficiente",
+          "Rilevamento e risoluzione conflitti",
+          "Aggiornamenti UI ottimistici",
+          "Meccanismi retry e gestione errori"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Funzionalità Progressive Web App",
+        "description": "Esperienza simile a app nativa con capacità web moderne.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Configurazione app manifest",
+          "Funzionalità Aggiungi a schermata home",
+          "Supporto notifiche push",
+          "Integrazione fotocamera e GPS",
+          "Architettura app shell"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Ottimizzazione Prestazioni",
+        "description": "Tempi di caricamento fulminei e transizioni offline fluide.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Pre-caching risorse critiche",
+          "Lazy loading per immagini e contenuti",
+          "Code splitting e bundling",
+          "Compressione e minificazione",
+          "Monitoraggio prestazioni e analytics"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Sicurezza e Compliance",
+        "description": "Storage dati offline sicuro e trasmissione.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
+          "Crittografia dati a riposo",
+          "Token autenticazione sicuri",
+          "Enforcement HTTPS",
           "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Audit di sicurezza regolari"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Miglioramento Online",
+        "description": "Funzionalità potenziata quando la connettività è disponibile.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Aggiornamenti e notifiche real-time",
+          "Cloud backup e restore",
+          "Sincronizzazione multi-dispositivo",
+          "Analytics e telemetry",
+          "Rilevamento funzionalità e miglioramento progressivo"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Lavora ovunque, in qualsiasi momento - anche senza internet",
+      "Esperienza utente migliorata con caricamento istantaneo",
+      "Costi server ridotti con caching efficiente",
+      "Tassi conversione più alti dall'esperienza simile a app",
+      "Engagement migliore con notifiche push"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Capacità Offline"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Tempi di Caricamento Più Veloci"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Utilizzo Dati Ridotto"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Engagement Più Alto"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Abilita Funzionalità Offline Oggi",
+    "ctaSectionTitle1": "Pronto a Costruire",
+    "ctaSectionTitle2": "la Tua PWA Offline-First?",
+    "ctaSectionDescription": "Creiamo una Progressive Web App che funziona perfettamente offline e offre un'esperienza app nativa ai tuoi utenti.",
+    "ctaSectionButton1": "Avvia il Tuo Progetto PWA →",
+    "ctaSectionButton2": "Visualizza Tutti i Servizi"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Gestione Dati",
+    "title": "Database SAP BTP",
+    "subtitle": "Servizi di Gestione",
+    "description": "Design efficiente dei database, ottimizzazione e gestione per applicazioni SAP BTP ad alte prestazioni. Servizi expert per database SAP HANA Cloud, PostgreSQL e SAP ASE.",
+    "cta": "Ottimizza il Tuo Database →",
+    "servicesTitle": "Soluzioni Complete di Gestione Database",
+    "servicesSubtitle": "Dal design all'ottimizzazione, dalla sicurezza al recovery - expertise database completa.",
+    "whyChooseTitle": "Performance, Sicurezza, Affidabilità",
+    "whyChooseDescription": "I nostri specialisti database portano expertise profonda nelle tecnologie database SAP BTP. Assicuriamo che i tuoi dati siano veloci, sicuri e sempre disponibili quando ne hai bisogno.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Design e Modellazione Database",
+        "description": "Design efficiente dello schema database ottimizzato per applicazioni SAP BTP.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "Design database SAP HANA Cloud",
+          "Configurazione PostgreSQL e SAP ASE",
+          "Modellazione entity-relationship",
+          "Strategie normalizzazione e denormalizzazione",
+          "Strategie indexing e partitioning"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Ottimizzazione Prestazioni",
+        "description": "Massimizza le prestazioni database per esecuzione query fulminea.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Ottimizzazione e tuning query",
+          "Analisi indice e raccomandazioni",
+          "Ottimizzazione piano di esecuzione",
+          "Configurazione memoria e cache",
+          "Monitoraggio prestazioni e profiling"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Sicurezza e Compliance",
+        "description": "Proteggi i tuoi dati con misure di sicurezza di livello enterprise.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Crittografia dati a riposo e in transito",
+          "Sicurezza a livello di riga e colonna",
+          "Implementazione audit trail",
+          "Requisiti GDPR e compliance",
+          "Crittografia backup e storage sicuro"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Backup e Recovery",
+        "description": "Pianificazione completa di disaster recovery e continuità aziendale.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Pianificazione backup automatizzato",
+          "Capacità point-in-time recovery",
+          "Procedure disaster recovery",
+          "Configurazione alta disponibilità",
+          "Replica multi-region"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Migrazione Dati",
+        "description": "Migrazione dati senza interruzioni da sistemi legacy a SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Estrazione e trasformazione dati",
+          "Strategia e pianificazione migrazione",
+          "Tecniche migrazione zero-downtime",
+          "Validazione e verifica dati",
+          "Procedure rollback e test"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Monitoraggio e Manutenzione",
+        "description": "Monitoraggio proattivo e manutenzione per salute database ottimale.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Monitoraggio prestazioni real-time",
+          "Avvisi e notifiche automatizzati",
+          "Health check e diagnostica",
+          "Pianificazione capacità e forecast",
+          "Patch management e aggiornamenti"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Prestazioni query fino a 10x più veloce con ottimizzazione",
+      "Disponibilità 99,99% con configurazione alta disponibilità",
+      "Costi storage ridotti attraverso design efficiente",
+      "Compliance-ready con funzionalità sicurezza integrate",
+      "Monitoraggio proattivo e consulenza expert"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Eccellenza Database",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Garanzia Uptime"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Miglioramento Prestazioni"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Sicurezza Dati"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Consulenza Expert"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Ottimizza le Prestazioni del Tuo Database",
+    "ctaSectionTitle1": "Pronto a Massimizzare",
+    "ctaSectionTitle2": "le Prestazioni del Tuo Database?",
+    "ctaSectionDescription": "Ottieni un health check database gratuito e scopri opportunità di ottimizzazione che potrebbero trasformare le prestazioni della tua applicazione.",
+    "ctaSectionButton1": "Ottieni Valutazione Database Gratuita →",
+    "ctaSectionButton2": "Esplora Tutti i Servizi"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Innovazione e Strategia",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "per Innovazione SAP BTP",
+    "description": "Approccio di design incentrato sull'utente per creare soluzioni SAP BTP innovative che risolvono vere sfide aziendali. Ti aiutiamo a scoprire i problemi giusti da risolvere e costruire soluzioni che gli utenti amano.",
+    "cta": "Programma un Workshop di Design →",
+    "servicesTitle": "Il Nostro Processo Design Thinking",
+    "servicesSubtitle": "Una metodologia comprovata per innovazione e risoluzione problemi nei progetti SAP BTP.",
+    "whyChooseTitle": "Innovazione che Crea Valore Reale",
+    "whyChooseDescription": "Design Thinking trasforma il modo in cui affronti i progetti SAP BTP. Focalizzandoci sulle esigenze utenti e l'iterazione rapida, ti aiutiamo a costruire soluzioni che forniscono valore aziendale misurabile.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Ricerca Utenti e Empatia",
+        "description": "Comprensione profonda delle esigenze, punti di dolore e motivazioni dei tuoi utenti.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Interviste utenti e engagement stakeholder",
+          "Sviluppo persona e journey mapping",
+          "Indagine contestuale e osservazione",
+          "Identificazione punti di dolore e opportunità",
+          "Workshop empathy mapping"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Definizione Problema",
+        "description": "Definisci chiaramente i problemi giusti da risolvere per massimo impatto aziendale.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Formulazione dichiarazione problema",
+          "Framing design challenge",
+          "Identificazione area opportunità",
+          "Definizione criteri successo",
+          "Sessioni allineamento stakeholder"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Workshop Ideation",
+        "description": "Genera soluzioni innovative attraverso sessioni creative strutturate.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Sessioni brainstorming facilitate",
+          "Tecniche SCAMPER e pensiero laterale",
+          "Workshop ideation collaborativi",
+          "Priorita zione e selezione idee",
+          "Sviluppo e raffinamento concetti"
         ]
       },
       "prototype": {
         "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "description": "Crea rapidamente rappresentazioni tangibili di idee per la validazione.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Wireframe e schizzi bassa fedeltà",
+          "Prototipi interattivi cliccabili",
+          "Mockup alta fedeltà",
+          "Sviluppo proof of concept",
+          "Design MVP (Minimum Viable Product)"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Test e Iterazione",
+        "description": "Valida soluzioni con utenti reali e migliora continuamente.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Sessioni test usabilità",
+          "Test A/B e esperimenti",
+          "Raccolta e analisi feedback utenti",
+          "Raffinamento design iterativo",
+          "Validazione contro criteri successo"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Supporto Implementazione",
+        "description": "Guida il tuo team dal concetto validato al lancio di successo.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Valutazione fattibilità tecnica",
+          "Creazione roadmap implementazione",
+          "Pianificazione sprint agile",
+          "Collaborazione team sviluppo",
+          "Monitoraggio post-lancio e ottimizzazione"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Riduci il rischio validando le idee prima di grandi investimenti",
+      "Innovazione più veloce con approccio risoluzione problemi strutturato",
+      "Adozione utenti più alta attraverso soluzioni incentrate sull'utente",
+      "Allineamento e engagement team interfunzionali",
+      "Risultati aziendali misurabili e ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Risoluzione Problemi Più Veloce"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Rifiuti Sviluppo Ridotti"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Soddisfazione Stakeholder"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Approccio Incentrato Utente"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
-    "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "badge": "Integrazione e Connettività",
+    "title": "Suite di Integrazione SAP BTP",
+    "subtitle": "Servizi",
+    "description": "Soluzioni di integrazione senza interruzioni per collegare i tuoi sistemi SAP con applicazioni cloud e on-premise. Implementazione expert di Cloud Integration, API Management, Open Connectors e Integration Advisor.",
+    "cta": "Connetti i Tuoi Sistemi →",
+    "servicesTitle": "Expertise Suite di Integrazione Completo",
+    "servicesSubtitle": "Da Cloud Integration ad API Management - servizi integrazione completi.",
+    "whyChooseTitle": "Connettività Sistema Senza Interruzioni",
+    "whyChooseDescription": "SAP BTP Integration Suite fornisce tutto ciò di cui hai bisogno per connettere la tua azienda. I nostri esperti assicurano che le tue integrazioni siano affidabili, sicure e scalabili.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "Connetti sistemi cloud e on-premise con flussi di integrazione robusti.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Design e sviluppo flusso integrazione",
+          "Utilizzo contenuti integrazione pre-costruiti",
+          "Message mapping e trasformazione",
+          "Gestione errori e monitoraggio",
+          "Gestione security artifact"
         ]
       },
       "apiManagement": {
         "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "description": "Design, pubblicazione e gestione API con supporto completo ciclo di vita.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "Creazione e configurazione API proxy",
+          "Enforcement policy (sicurezza, rate limiting)",
+          "API portal e documentazione sviluppatore",
+          "Analytics e monitoraggio utilizzo",
+          "Monetizzazione e gestione quota"
         ]
       },
       "openConnectors": {
         "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "description": "Connettori pre-costruiti per integrazione rapida con sistemi di terze parti.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ connettori pre-costruiti",
+          "Sviluppo connettore personalizzato",
+          "Autenticazione e autorizzazione",
+          "Trasformazione dati e normalizzazione",
+          "Integrazione basata su evento"
         ]
       },
       "advisor": {
         "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "description": "Accelera lo sviluppo integrazione con raccomandazioni powered by IA.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
+          "Suggerimenti mapping automatizzati",
           "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Template scenario integrazione B2B",
+          "Proposte interface mapping",
+          "Raccomandazioni best practice"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Sicurezza e Governance",
+        "description": "Sicurezza di livello enterprise e governance per tutte le integrazioni.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "Autenticazione OAuth e SAML",
+          "Gestione certificato e key",
+          "Crittografia livello trasporto (TLS/SSL)",
+          "Crittografia livello messaggio",
+          "Logging audit e compliance"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Monitoraggio e Operazioni",
+        "description": "Monitoraggio completo e eccellenza operazionale.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Monitoraggio messaggio real-time",
+          "Metriche prestazioni e KPI",
+          "Setup avvisi e notifiche",
+          "Analisi log e troubleshooting",
+          "Pianificazione capacità e ottimizzazione"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Integrazione più veloce con contenuti pre-costruiti e acceleratori",
+      "Costi integrazione ridotti con piattaforma cloud-native",
+      "Affidabilità e scalabilità di livello enterprise",
+      "Piattaforma singola per tutti i bisogni integrazione",
+      "Consulenza expert dedicata e guidance"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Connettori Pre-Costruiti"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Uptime Integrazione"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Implementazione Più Veloce"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Team Expert"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Eccellenza Integrazione",
+    "ctaSectionBadge": "⚡ Connetti la Tua Azienda Oggi",
+    "ctaSectionTitle1": "Pronto a Unificare",
+    "ctaSectionTitle2": "i Tuoi Sistemi Aziendali?",
+    "ctaSectionDescription": "Discutiamo i tuoi requisiti integrazione e creiamo una soluzione completa che connette tutti i tuoi sistemi aziendali critici.",
+    "ctaSectionButton1": "Ottieni Consulenza Integrazione →",
+    "ctaSectionButton2": "Visualizza Tutti i Servizi"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Architettura Event-Driven",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Servizi Implementazione",
+    "description": "Implementazione architettura event-driven in tempo reale per processi aziendali reattivi e scalabili. Costruisci sistemi distribuiti che reagiscono istantaneamente agli eventi aziendali con SAP Event Mesh.",
+    "cta": "Costruisci Architettura Event-Driven →",
+    "servicesTitle": "Soluzioni Complete Event Mesh",
+    "servicesSubtitle": "Dal design architettura all'implementazione - costruisci sistemi event-driven reattivi.",
+    "whyChooseTitle": "Reattività Aziendale in Tempo Reale",
+    "whyChooseDescription": "Event Mesh consente alla tua azienda di reagire istantaneamente agli eventi mentre accadono. Costruisci sistemi debolmente accoppiati e altamente scalabili che si adattano alle mutevoli esigenze aziendali.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Architettura Event Mesh",
+        "description": "Design e implementazione di architettura event-driven enterprise-wide.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Design topologia event mesh",
+          "Distribuzione evento multi-region",
+          "Configurazione event broker",
+          "Strategie message routing",
+          "Pattern design topic e queue"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Elaborazione Evento Real-Time",
+        "description": "Elabora e reagisci agli eventi aziendali in tempo reale.",
         "items": [
-          "Event Streaming Implementierung",
+          "Implementazione event streaming",
           "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Filtraggio e trasformazione evento",
+          "Aggregazione e correlazione evento",
+          "Distribuzione evento bassa latenza"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Integrazioni Event-Driven",
+        "description": "Connetti sistemi tramite comunicazione asincrona basata su evento.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Pattern publisher/subscriber",
+          "Microservizi event-driven",
+          "Integrazione webhook e callback",
+          "Replay e recovery evento",
+          "Gestione dead letter queue"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Sicurezza e Governance",
+        "description": "Trasmissione evento sicura con governance completa.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Crittografia evento in transito",
+          "Controllo accesso e autorizzazione",
+          "Validazione schema evento",
+          "Compliance e logging audit",
+          "Controlli privacy dati"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud e Hybrid",
+        "description": "Event mesh tra provider cloud e sistemi on-premise.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Distribuzione evento cross-cloud",
+          "Connettività hybrid-cloud",
+          "Redundanza multi-region",
+          "Routing evento geografico",
+          "Architettura cloud-agnostica"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Monitoraggio e Analytics",
+        "description": "Visibilità completa nel tuo ecosistema event-driven.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Monitoraggio evento real-time",
+          "Metriche prestazioni e SLA",
+          "Visualizzazione flusso evento",
+          "Identificazione colli di bottiglia",
+          "Pianificazione capacità predittiva"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Disaccoppia sistemi per maggiore flessibilità e scalabilità",
+      "Insight aziendali real-time e reazione immediata",
+      "Resilienza sistema migliorata e fault tolerance",
+      "Complessità integrazione point-to-point ridotta",
+      "Supporto per architetture event-driven moderne"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Latenza Consegna Evento"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Evento al Secondo"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Garanzia Consegna Evento"
       },
       "distribution": {
         "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "label": "Distribuzione Multi-Region"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Eccellenza Event-Driven",
+    "ctaSectionBadge": "⚡ Costruisci Sistemi Real-Time",
+    "ctaSectionTitle1": "Pronto all'Implementazione",
+    "ctaSectionTitle2": "Architettura Event-Driven?",
+    "ctaSectionDescription": "Trasforma la tua azienda con elaborazione evento real-time. Discutiamo come Event Mesh può potenziare le tue applicazioni next-generation.",
+    "ctaSectionButton1": "Programma Consulenza Event Mesh →",
+    "ctaSectionButton2": "Esplora Tutte le Tecnologie"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "IA e Automazione",
+    "title": "Powered by IA",
+    "subtitle": "Elaborazione Fatture",
+    "description": "Automazione intelligente dell'elaborazione fatture basata su IA avanzata per operazioni precise ed efficienti. Trasforma il tuo processo creditori con tecnologia IA all'avanguardia integrata con SAP BTP.",
+    "cta": "Automatizza le Tue Fatture →",
+    "servicesTitle": "Automazione Fatture Powered by IA",
+    "servicesSubtitle": "Sfrutta capacità IA avanzate per elaborazione fattureinteligente e automazione.",
+    "whyChooseTitle": "Trasforma la Tua Elaborazione Fatture",
+    "whyChooseDescription": "L'IA avanzata porta comprensione a livello umano all'elaborazione fatture. Gestisci layout complessi, lingue multiple e casi limite con cui i sistemi OCR tradizionali faticano.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Estrazione Dati Intelligente",
+        "description": "Estrazione powered by IA di dati fatturecon accuratezza senza precedenti.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Elaborazione fattura multi-format (PDF, immagini, scansioni)",
+          "Rilevamento e estrazione campo automatico",
+          "Rilevamento header e line item",
+          "Comprensione tabella e layout complesso",
+          "Riconoscimento testo scritto a mano"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "Integrazione SAP BTP",
+        "description": "Integrazione senza interruzioni con servizi SAP BTP e sistemi backend.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Integrazione diretta con SAP S/4HANA",
+          "Connessione servizio SAP Document Management",
+          "Trigger automazione workflow",
+          "Validazione dati real-time",
+          "Implementazione regole aziendale personalizzate"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Elaborazione Automatizzata",
+        "description": "Automazione end-to-end con intervento manuale minimo.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Routing e classificazione intelligente",
+          "Auto-approvazione per fatture basso rischio",
+          "Flussi di lavoro gestione eccezione",
+          "Rilevamento e prevenzione duplicati",
+          "Automazione three-way matching"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validazione e Compliance",
+        "description": "Assicura accuratezza e compliance normativa in ogni transazione.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Regole validazione multi-livello",
+          "Verifica calcolo tasse",
+          "Controllo compliance (IVA, GST)",
+          "Audit trail e logging",
+          "Privacy dati e sicurezza (GDPR compliant)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analytics e Insights",
+        "description": "Ottieni insight preziosi dai tuoi dati di elaborazione fatture.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Metriche elaborazione e KPI",
+          "Tracking accuratezza e tasso errori",
+          "Analisi economia di costo",
+          "Analytics prestazioni fornitore",
+          "Insight cashflow predittivo"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Formazione e Ottimizzazione",
+        "description": "Miglioramento continuo tramite learning IA e ottimizzazione sistema.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Training modello personalizzato per le tue fatture",
+          "Continuous learning dalle correzioni",
+          "Ottimizzazione elaborazione basata su template",
+          "Implementazione feedback loop",
+          "Miglioramenti accuratezza regolari"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "Tasso accuratezza 95%+ riduce le correzioni manuali",
+      "Elaborazione fatture 80% più veloce",
+      "Riduzione costi elaborazione del 70%",
+      "Errori immissione dati quasi zero",
+      "Visibilità stato elaborazione real-time"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Tasso Accuratezza"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Riduzione Tempo"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Economia di Costo"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Elaborazione Automatizzata"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Torna alla Home",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Rivoluzionare l'Elaborazione Fatture con IA",
+      "category": "IA/ML",
+      "readTime": "6 min",
+      "seoDescription": "Esplora come l'integrazione dell'IA su SAP BTP trasforma l'elaborazione fatture con automazione intelligente e comprensione avanzata dei documenti.",
+      "intro": "L'elaborazione fatture è stata tradizionalmente un compito manuale che consuma tempo ed è soggetto a errori. L'integrazione dell'IA avanzata con SAP BTP sta rivoluzionando questo processo, portando livelli senza precedenti di automazione, accuratezza ed efficienza alle operazioni creditori.",
+      "section1Title": "La Sfida dell'Elaborazione Fatture Tradizionale",
+      "section1Content": "Le organizzazioni elaborano migliaia di fatture mensilmente, ognuna richiedendo estrazione dati, validazione e immissione nei sistemi ERP. L'elaborazione manuale è lenta, costosa e soggetta a errori che possono portare a ritardi di pagamento, pagamenti duplicati o sconti persi.",
+      "section2Title": "Comprensione Documento IA Avanzata",
+      "section2Content": "L'IA moderna porta capacità all'avanguardia di natural language processing e computer vision all'elaborazione fatture. A differenza dei sistemi OCR tradizionali, l'IA avanzata può comprendere il contesto, gestire vari formati di fatture ed estrarre informazioni con accuratezza straordinaria anche da documenti scansionati male o complessi.",
+      "section3Title": "Integrazione SAP BTP Senza Interruzioni",
+      "section3Content": "L'integrazione dell'IA con SAP BTP crea una potente pipeline di automazione. Le fatture in arrivo vengono elaborate automaticamente, i dati vengono estratti e validati e le informazioni fluiscono direttamente nei sistemi SAP senza intervento umano. Questa integrazione sfrutta le robuste capacità di connettività e workflow di SAP BTP.",
+      "section4Title": "Gestione Eccezione Intelligente",
+      "section4Content": "Una delle principali forze dell'IA è la sua capacità di gestire intelligentemente le eccezioni. Quando si incontrano formati di fattura insoliti o informazioni ambigue, il sistema può contrassegnare gli elementi per la revisione umana con spiegazioni dettagliate, rendendo la gestione delle eccezioni molto più efficiente dei sistemi tradizionali basati su regole.",
+      "section5Title": "Impatto Aziendale Misurabile",
+      "section5Content": "Le organizzazioni che implementano l'IA per l'elaborazione fatture in genere vedono miglioramenti drammatici: riduzione del 90% nel tempo di elaborazione, calo del 95% negli errori di immissione dati e significativi risparmi di costo nelle operazioni creditori. Forse ancora più importante: i dipendenti possono concentrarsi su attività strategiche invece che su immissione dati ripetitiva.",
+      "conclusionTitle": "Conclusione",
+      "conclusionContent": "La combinazione di capacità IA avanzate e dell'infrastruttura di livello enterprise di SAP BTP rappresenta un approccio trasformativo all'elaborazione fatture. Le organizzazioni che adottano questa tecnologia ottengono un significativo vantaggio competitivo attraverso efficienza migliorata, accuratezza e riduzione dei costi."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Costruire Applicazioni Fiori Moderne su SAP BTP",
+      "category": "Sviluppo",
+      "readTime": "8 min",
+      "seoDescription": "Scopri come costruire applicazioni Fiori moderne e responsive utilizzando i potenti strumenti e framework di sviluppo di SAP BTP.",
+      "intro": "SAP Fiori rappresenta il futuro delle applicazioni aziendali, fornendo un'esperienza utente unificata su tutti i dispositivi e le opzioni di distribuzione. Con SAP Business Technology Platform (BTP), la costruzione di applicazioni Fiori moderne è diventata più semplificata e potente che mai.",
+      "section1Title": "Il Potere di SAP BTP per lo Sviluppo Fiori",
+      "section1Content": "SAP BTP offre una suite completa di strumenti e servizi specificamente progettati per lo sviluppo di applicazioni Fiori. La piattaforma fornisce tutto, dagli ambienti di sviluppo all'infrastruttura di distribuzione, consentendo ai team di concentrarsi sulla creazione di esperienze utente eccezionali piuttosto che sulla gestione dell'infrastruttura.",
+      "section2Title": "Funzionalità Chiave e Best Practices",
+      "section2Content": "Le moderne applicazioni Fiori sfruttano il framework SAP Fiori elements, che fornisce componenti UI pre-costruiti e pattern che assicurano coerenza e riducono il tempo di sviluppo. Combinando questi elementi con controlli SAPUI5 personalizzati, gli sviluppatori possono creare applicazioni che siano sia standardizzate che personalizzate per esigenze aziendali specifiche.",
+      "section3Title": "Integrazione con Servizi SAP BTP",
+      "section3Content": "Uno dei principali vantaggi dello sviluppo di applicazioni Fiori su SAP BTP è l'integrazione senza interruzioni con altri servizi piattaforma. Dall'autenticazione e autorizzazione con SAP Cloud Identity Services all'archiviazione dati con SAP HANA Cloud, gli sviluppatori hanno accesso a servizi di livello enterprise che possono essere facilmente integrati nelle loro applicazioni.",
+      "section4Title": "Design Responsivo e Supporto Multi-Dispositivo",
+      "section4Content": "Le applicazioni Fiori costruite su SAP BTP si adattano automaticamente a diverse dimensioni di schermo e dispositivi, garantendo un'esperienza utente coerente sia da desktop, tablet che telefono cellulare. Questa capacità di design responsivo è incorporata nel framework, riducendo l'impegno richiesto per supportare più dispositivi.",
+      "section5Title": "Ottimizzazione Prestazioni",
+      "section5Content": "SAP BTP fornisce vari strumenti e tecniche per ottimizzare le prestazioni delle applicazioni Fiori, inclusi lazy loading, bundling e strategie di caching. Queste tecniche di ottimizzazione assicurano che le applicazioni si carichino rapidamente e rispondano fluidamente, anche quando gestiscono grandi dataset o logica aziendale complessa.",
+      "conclusionTitle": "Conclusione",
+      "conclusionContent": "La costruzione di moderne applicazioni Fiori su SAP BTP combina la potenza di un'infrastruttura di livello enterprise con i framework di sviluppo all'avanguardia. Sfruttando le capacità piattaforma, i team di sviluppo possono creare applicazioni sofisticate e user-friendly che guidano il valore aziendale e migliorano la produttività nell'organizzazione."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Soluzioni PWA Offline per la Continuità Aziendale",
+      "category": "Architettura",
+      "readTime": "7 min",
+      "seoDescription": "Scopri come le Progressive Web App (PWA) con capacità offline garantiscono la continuità aziendale e la produttività in qualsiasi condizione di rete.",
+      "intro": "Nel mondo connesso di oggi, le interruzioni di rete possono fermare i processi aziendali. Le Progressive Web App (PWA) con capacità offline offrono una soluzione robusta per garantire la continuità aziendale, consentendo agli utenti di lavorare senza interruzioni indipendentemente dalla disponibilità di rete.",
+      "section1Title": "Comprensione dell'Architettura Offline-First",
+      "section1Content": "L'architettura offline-first rappresenta un cambio di paradigma nel modo in cui costruiamo applicazioni web. Invece di trattare la modalità offline come un caso limite, il design offline-first la rende una funzionalità principale. Questo approccio assicura che le applicazioni rimangono funzionali anche quando la connettività di rete è inaffidabile o completamente non disponibile.",
+      "section2Title": "Service Worker: la Spina Dorsale delle PWA Offline",
+      "section2Content": "I Service Worker sono la tecnologia che rende possibili le PWA offline. Questi proxy di rete programmabili si collocano tra la tua applicazione e la rete, intercettano le richieste e consentono strategie di caching sofisticate. Sfruttando i Service Worker, le applicazioni possono memorizzare in cache le risorse critiche e garantire disponibilità anche offline.",
+      "section3Title": "Strategie di Sincronizzazione Dati",
+      "section3Content": "Una sfida chiave nelle PWA offline è la gestione della sincronizzazione dati quando viene ripristinata la connettività. L'implementazione di robuste strategie di risoluzione conflitti e aggiornamenti ottimistici assicura che i dati rimangono coerenti tra dispositivi e sistemi backend. Le API background sync consentono la sincronizzazione automatica quando la rete diventa nuovamente disponibile.",
+      "section4Title": "Vantaggi Aziendali",
+      "section4Content": "Le PWA offline forniscono valore aziendale significativo garantendo la produttività in qualsiasi condizione di rete. I lavoratori sul campo possono continuare i loro compiti in ubicazioni remote, i team di vendita possono accedere a informazioni critiche durante le presentazioni e le operazioni proseguono regolarmente durante i disservizi di rete. Questa affidabilità si traduce direttamente in soddisfazione cliente migliorata ed efficienza operativa.",
+      "section5Title": "Implementazione con SAP BTP",
+      "section5Content": "SAP BTP fornisce eccellente supporto per la costruzione di PWA offline attraverso la sua offerta Mobile Services. Questi servizi includono sincronizzazione dati offline, archiviazione sicura e API completi che semplificano lo sviluppo di applicazioni offline-capable robuste.",
+      "conclusionTitle": "Conclusione",
+      "conclusionContent": "Le PWA offline rappresentano il futuro delle applicazioni aziendali, fornendo resilienza e affidabilità che le applicazioni web tradizionali non possono uguagliare. Abbracciando l'architettura offline-first e sfruttando le tecnologie web moderne, le organizzazioni possono garantire la continuità aziendale e mantenere la produttività indipendentemente dalle condizioni di rete."
     }
   }
 }

@@ -13,1450 +13,1450 @@
     "learn": "Utforsk tjenester"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Vår ekspertise",
+    "subtitle": "Omfattende SAP BTP-løsninger tilpasset for å transformere din bedrift",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori-apputvikling",
+      "description": "Bygg moderne, responsive Fiori-applikasjoner som gir eksepsjonelle brukeropplevelser på alle enheter."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP-arkitektur og design",
+      "description": "Strategisk arkitekturplanlegging og design for skalerbare SAP BTP-løsninger tilpasset dine forretningsbehov."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Brukersentrert designtilnærming for å skape innovative løsninger som løser virkelige forretningsutfordringer."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline PWA-apper",
+      "description": "Progressive web-applikasjoner med offline-funksjonalitet som sikrer sømløs brukeropplevelse hvor som helst."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP-databaseadministrasjon",
+      "description": "Effektiv databasedesign, optimalisering og administrasjon for høytytende BTP-applikasjoner."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "AI-fakturabelhandling",
+      "description": "Intelligent automatisering av fakturabelhandling med avansert kunstig intelligens for nøyaktige og effektive prosesser."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Sømløse integrasjonsløsninger som forbinder dine SAP-systemer med sky- og på-lokale applikasjoner."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Implementering av hendelsesdrevet realtidsarkitektur for responsive, skalerbare forretningsprosesser."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP-utvikling",
+      "description": "Bygg moderne skytilpassede applikasjoner med SAP Cloud Application Programming Model for rask, skalerbar utvikling."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Lag profesjonelle bedriftsapplikasjoner med no-code/low-code verktøy for rask digital transformasjon."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Automatiser forretningsprosesser med intelligent arbeidsflyt og robotprosessautomatisering."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Vår fokus",
+      "title": "100% SAP BTP-spesialisering",
+      "description": "I motsetning til generalistiske konsulentfirmaer fokuserer vi utelukkende på SAP Business Technology Platform, noe som sikrer dyp ekspertise og banebrytende løsninger for din bedrift.",
+      "point1": "Dedikert team av sertifiserte SAP BTP-eksperter",
+      "point2": "Alltid oppdatert med siste BTP-funksjoner og beste praksis",
+      "point3": "Beviste resultater på tvers av flere bransjer"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Globalt omfang",
+      "title": "Betjening av markeder på verdensplan",
+      "description": "Vi bringer SAP BTP-ekspertise til markeder over hele verden og tilbyr verdensklasse løsninger uavhengig av din lokalisering.",
+      "point1": "Fjernkonsultering på tvers av alle tidssoner",
+      "point2": "Flerspråklig støtte for internasjonale team",
+      "point3": "Forståelse av regionale forretningsbehov"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Moderne teknologi",
+      "title": "AI-drevet innovasjon",
+      "description": "Bruk av banebrytende AI-teknologi for å forbedre SAP BTP-løsninger og bringe automatisering og intelligens til dine forretningsprosesser.",
+      "point1": "Intelligent automatisering for gjentakende oppgaver",
+      "point2": "Avansert databehandling og analyse",
+      "point3": "Sømløs integrasjon med eksisterende arbeidsflyter"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Kunnskapsknutepunkt",
+    "subtitle": "Ekspertinnsikt og beste praksis for SAP BTP-suksess",
+    "readMore": "Les artikkel",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Utvikling",
+      "title": "Bygging av moderne Fiori-applikasjoner med SAP BTP",
+      "excerpt": "Lær hvordan du oppretter responsive, brukervennlige Fiori-applikasjoner som utnytter full kraft av SAP Business Technology Platform.",
+      "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Teknologi",
+      "title": "Offline PWA: Sikring av forretningskontinuitet hvor som helst",
+      "excerpt": "Oppdag hvordan Progressive Web Apps med offline-muligheter holder forretningsprosessene dine i gang uten Internettforbindelse.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI og automatisering",
+      "title": "AI for intelligent fakturabelhandling",
+      "excerpt": "Utforsk hvordan AI-integrasjon med SAP BTP transformerer fakturabelhandling med enestående nøyaktighet og effektivitet.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integrasjon",
+      "title": "Mestring av SAP BTP Integration Suite",
+      "excerpt": "En omfattende veiledning til tilkobling av bedriftssystemene dine med SAP BTP Integration Suite for sømløs datautveksling.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Arkitektur",
+      "title": "Event Mesh-arkitektur for realtidsforretning",
+      "excerpt": "Implementering av hendelsesdrevet arkitektur med SAP Event Mesh for responsive, skalerbare løsninger.",
+      "readTime": "6 min"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Beste praksis",
+      "title": "BTP-databaseoptimaliseringsstrategier",
+      "excerpt": "Essensielle strategier for optimalisering av SAP BTP-databaseytelse for rask, pålitelig tilgang til kritiske forretningsdata.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Kom i gang",
+    "title": "Klar til å transformere din bedrift?",
+    "subtitle": "Book en gratis konsultasjon med våre SAP BTP-eksperter",
+    "availability": "Begrenset tilgjengelighet",
+    "contactInfo": "Kontaktinformasjon",
+    "email": "E-post",
+    "globalPresence": "Global tilstedeværelse",
+    "servingCountries": "Betjening av klienter i over 40 land verden over",
+    "fastResponse": "Garantert rask respons",
+    "fastResponseDesc": "Få ekspertkompetanse innen 24 timer. Våre SAP BTP-spesialister er klar til å hjelpe deg med å lykkes.",
+    "mentionCountry": "Vær vennlig å nevn ditt land når du kontakter oss",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Fullt navn",
+      "email": "Forretnings-e-post",
+      "company": "Bedriftsnavn",
+      "message": "Fortell oss om ditt prosjekt",
+      "submit": "Book gratis konsultasjon",
+      "submitting": "Sender..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Melding sendt!",
+      "description": "Takk for at du kontaktet oss. Vi vil svare innen 24 timer."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Feil",
+      "description": "Noe gikk galt. Vennligst prøv igjen."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "Spesialisert SAP BTP-konsultasjon med utmerket ytelse verden over",
+    "services": "Tjenester",
+    "fiori": "Fiori-utvikling",
+    "architecture": "BTP-arkitektur",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
+    "ai": "AI-løsninger",
+    "knowledge": "Kunnskap",
+    "blogArticles": "Bloggartikler",
+    "caseStudies": "Casestudier",
+    "resources": "Ressurser",
+    "company": "Bedrift",
+    "about": "Om oss",
     "contact": "Kontakt",
     "careers": "Karriere",
-    "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "blog": "Blogg",
+    "documentation": "Dokumentasjon",
+    "whitepapers": "Whitepapere",
+    "legal": "Juridisk",
+    "privacy": "Personvernpolicy",
+    "terms": "Betingelser for bruk",
+    "copyright": "Alle rettigheter reservert.",
+    "deployedOn": "Distribuert på Cloudflare",
+    "serviceRestriction": "Tjenester er ikke tilgjengelige i Australia og New Zealand.",
+    "availableLanguages": "Tilgjengelig på ditt språk"
   },
   "common": {
     "learnMore": "Les mer",
-    "backToHome": "Tilbake til start"
+    "backToHome": "Tilbake til hjem"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Skytilpasset apputvikling",
+    "title": "SAP CAP-utvikling",
+    "subtitle": "Tjenester",
+    "description": "Bygg moderne skytilpassede applikasjoner med SAP Cloud Application Programming Model for rask, skalerbar utvikling på SAP BTP.",
+    "cta": "Start ditt CAP-prosjekt →",
+    "servicesTitle": "Omfattende CAP-utviklingstjenester",
+    "servicesSubtitle": "Fra datamodellering til distribusjon - fullstendig CAP-ekspertise for dine forretningsapplikasjoner.",
+    "whyChoose": "Hvorfor velge TerraBT",
+    "whyChooseTitle": "Profesjonell CAP-utvikling som gir resultater",
+    "whyChooseDescription": "Våre sertifiserte SAP CAP-utviklere har lang erfaring med utvikling av bedriftsapplikasjoner. Vi kombinerer teknisk ekspertise med forretningsinnsikt for å levere løsninger som gir resultater.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Full-stack CAP-utvikling",
+        "description": "End-to-end apputvikling ved hjelp av CAP-rammeverket.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS-datamodellering og enhetsdefinisjon",
+          "Tjenestedefinisjon og implementering",
+          "Utvikling av tilpasset forretningslogikk",
+          "Fiori Elements UI-generering",
+          "CAP Node.js og Java runtime-støtte"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Databaseintegrasjon",
+        "description": "Sømløs integrasjon med SAP HANA Cloud og andre databaser.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud native-utvikling",
+          "PostgreSQL og SAP ASE-støtte",
+          "Databasemigrering og skjemahåndtering",
+          "Spørring-optimalisering og ytelsestilpassing",
+          "Konfigrasjon av multi-leietaker database"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Sikkerhet og autorisasjon",
+        "description": "Sikkerheitsimplementering på bedriftsnivå for CAP-applikasjoner.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Rollebasert tilgangskontroll (RBAC)",
+          "Autentiseringsintegrasjon (XSUAA, IAS)",
+          "Autorisasjonsannotasjoner og begrensninger",
+          "Datasikkerhet og sikkerhet på feltnivå",
+          "Sikker administrasjon av legitimasjon"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API og tjenesteeutvikling",
+        "description": "Utvikling av robuste OData og REST APIer med CAP-tjenester.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2 og V4 tjenesteopprettelse",
+          "REST API-implementering",
+          "Tilpasset handlinger og funksjoner",
+          "Utkastaktivering for transaksjonsapper",
+          "Ekstern tjenesteintegrasjon og mashups"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements-integrasjon",
+        "description": "Rask UI-utvikling med Fiori Elements og CAP.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "List Report og Object Page-applikasjoner",
+          "Analytisk List Page (ALP)-utvikling",
+          "Freestyle Fiori-app-integrasjon",
+          "UI-anmerkninger og tilpassing",
+          "Responsivt og adaptivt design"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD og DevOps",
+        "description": "Automatisert distribusjon og løpende integrasjonslinjer.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry og Kyma-distribusjon",
+          "MTA (Multi-Target Application) bygging",
+          "Automatisert testing og kvalitetsgrinder",
+          "CI/CD-linjeoppstilling (Jenkins, GitHub Actions)",
+          "Strategier for promosjon av flere miljøer"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Akselerert utvikling med beviste CAP-mønstre",
+      "Innebygd beste praksis og bedriftsklar arkitektur",
+      "Skalerbare applikasjoner som vokser med bedriften din",
+      "Sømløs SAP S/4HANA-integrasjon",
+      "Ekspertveiledning gjennom hele utviklingssyklusen"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "No-code/low-code-utvikling",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Utviklingstjenester",
+    "description": "Lag profesjonelle bedriftsapplikasjoner med no-code/low-code verktøy for rask digital transformasjon og forretningsfleksibilitet.",
+    "cta": "Start å bygge i dag →",
+    "servicesTitle": "Komplette SAP Build Apps-løsninger",
+    "servicesSubtitle": "Fra visuell utvikling til bedriftsutplassering - styrk dine forretningsbrukere.",
+    "whyChooseTitle": "Rask apputvikling",
+    "whyChooseDescription": "SAP Build Apps gjør det mulig for forretningsbrukere og utviklere å lage kraftige applikasjoner uten omfattende kodingen. Akseler din digitale transformasjon med visuelle utviklingsverktøy.",
+    "implementationTitle": "Implementeringstilnærming",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Visuell utvikling",
+        "description": "Dra-og-slipp-grensesnitt for rask appbygging.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitivt visuelt sidbygger",
+          "Forhåndsgenerert UI-komponentbibliotek",
+          "Responsiv designlerretet",
+          "Sanntidsforhåndsvisning og testing",
+          "Temaanpassing og merkebygging"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Tverrplattform-apper",
+        "description": "Bygg en gang, distribuer overalt - nett, iOS og Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Progressive Web App (PWA)-støtte",
+          "Generering av innfødt mobilapp",
+          "Optimalisering av nettbrett og skrivebord",
+          "Offline-datafunksjonalitet",
+          "Støtte for appbutikkutplassering"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Skytilpasset integrasjon",
+        "description": "Sømløs tilkobling til SAP BTP-tjenester og data.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA Cloud-integrasjon",
+          "OData-tjenestekonnektivitet",
+          "BTP-tjenestesløsning",
+          "Autentisering og autorisasjon",
+          "Sanntidsdataksynkronisering"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Rask prototyping",
+        "description": "Valider ideer raskt og gjenta basert på tilbakemelding.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Rask MVP-utvikling",
+          "Brukertest og tilbakemeldingsinnsamling",
+          "Iterativ design og raffinering",
+          "Versjonskontroll og tilbakerulling",
+          "Samarbeidverktøy for team"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Empowerment av borgerapputviklere",
+        "description": "Styrk forretningsbrukere til å lage applikasjoner.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Lav læringskurve for ikke-utviklere",
+          "Guidet utviklingsarbeidsflyter",
+          "Mal- og blueprintbibliotek",
+          "Styring og kvalitetskontroller",
+          "Opplæring og enablement-programmer"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Code-utvidelsesmulighet",
+        "description": "Utvid med tilpasset kode når det er nødvendig.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Tilpasset JavaScript-logikk",
+          "API-integreringsmuligheter",
+          "Utvikling av tilpasset komponent",
+          "Avanserte datavending",
+          "Integrasjon av tredjeparts-bibliotek"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10x raskere apputvikling",
+      "Reduser utviklingskostnader med 60%",
+      "Styrk forretningsbrukere til å innovere",
+      "Sømløs SAP-økosystemintegrasjon",
+      "Sikkerhet og styring på bedriftsnivå"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Krav og design",
+        "description": "Workshop for å forstå forretningsbehov og designe appstruktur med interessenter."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Visuell utvikling",
+        "description": "Bygg app ved hjelp av dra-og-slipp-grensesnitt med forhåndsgenererte komponenter og maler."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Dataintegrering",
+        "description": "Koble til SAP-systemer og eksterne datakilder med sømløs autentisering."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Testing og raffinering",
+        "description": "Brukerakstepttesting og iterativ forbedring basert på tilbakemelding."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Utplassering",
+        "description": "Distribuer til nett, iOS og Android med automatisert bygging og distribusjon."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Opplæring og støtte",
+        "description": "Sluttbrukeropplæring og kontinuerlig støtte for kontinuerlig forbedring."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Prosessautomatisering",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Tjenester",
+    "description": "Automatiser forretningsprosesser med intelligent arbeidsflyt og robotprosessautomatiseringsmuligheter for økt effektivitet.",
+    "cta": "Automatiser prosessene dine →",
+    "servicesTitle": "Komplette prosessautomatiseringsløsninger",
+    "servicesSubtitle": "Fra enkle arbeidsflyter til kompleks RPA - omfattende automatiseringskompetanse.",
+    "whyChooseTitle": "Intelligent prosessautomatisering",
+    "whyChooseDescription": "Transformer dine forretningsoperasjoner med SAP Build Process Automation. Kombiner arbeidsflytadministrasjon, RPA og AI for end-to-end-prosesseksellens.",
+    "implementationTitle": "Implementeringsveikart",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Arbeitsflytadministrasjon",
+        "description": "Design og orkestrering av komplekse forretningsarbeidsflyter.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Visuell arbeitsflytdesigner",
+          "Godkjennings- og rutingslogikk",
+          "Administrasjon av menneskeoppgaver",
+          "Parallell og sekvensiell behandling",
+          "Eskalerings- og fristhåndtering"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Robotprosessautomatisering",
+        "description": "Automatiser repetitive oppgaver med programvareroboter.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Skrivebord- og webautomatisering",
+          "Skjermskraping og datautvinning",
+          "Programintegrasjon uten APIer",
+          "Oppmerksom og uovervåket bots",
+          "Botplanlegging og orkestrering"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Dokumentbehandling",
+        "description": "Intelligent dokumentutvinning og klassifisering.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "AI-drevet datautvinning",
+          "Dokumentklassifisering og ruting",
+          "Malbasert behandling",
+          "Multiformatstøtte (PDF, bilder, skan)",
+          "Validerings- og verifikasjonsregler"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Godkjenningsarbeidsflyter",
+        "description": "Strømlin godkjenningsprosesser på tvers av organisasjonen.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Flernivå godkjenningskjeder",
+          "Betinget rutingslogikk",
+          "Delegerings- og stedfortrederregler",
+          "Godkjenningsfunksjonalitet for mobil",
+          "Varslings- og påminnelsessystem"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Prosessanalytikk",
+        "description": "Få innsikt i prosessytelse og flaskehalser.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Prosess mining og oppdagelse",
+          "Ytelsesmålinger og KPIer",
+          "Flaskehalsidentifikasjon",
+          "Samsvarskontroll",
+          "Anbefalinger for kontinuerlig forbedring"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Styring og samsvar",
+        "description": "Sikr at prosesser oppfyller regulatoriske krav.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Revisjonsspor og logging",
+          "Tilgangskontroll og sikkerhet",
+          "Samsvarshåndhevelse",
+          "Versjonskontroll og endringsadministrasjon",
+          "SLA-overvåking og håndhevelse"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% reduksjon i manuell behandlingstid",
+      "99,9% nøyaktighet i automatiserte oppgaver",
+      "Rask ROI innen 3-6 måneder",
+      "Forbedret samsvar og revisjonsevne",
+      "Dedikert implementeringsstøtte og optimalisering"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Prosessoppdagelse",
+        "description": "Analyser og dokumenter gjeldende prosesser for å identifisere automatiseringsmuligheter."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Automatiseringsdesign",
+        "description": "Design optimal automatiseringsløsning kombinerende arbeitsflyt, RPA og AI-muligheter."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Utvikling og konfigurering",
+        "description": "Bygg og konfigurer automatisering ved hjelp av SAP Build Process Automation-verktøy."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Testing og validering",
+        "description": "Omfattende testing for å sikre nøyaktighet og pålitelighet i automatiseringen."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Utplassering og gjennomgang",
+        "description": "Distribuer automatisering til produksjon med overvåket utrulling og brukeropplæring."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Overvåking og optimalisering",
+        "description": "Kontinuerlig overvåking og forbedring basert på ytelsesanalytikk."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Arkitektur og design",
+    "title": "SAP BTP-arkitektur",
+    "subtitle": "og designtjenester",
+    "description": "Strategisk arkitekturplanlegging og design for skalerbare, sikre og høytytende SAP BTP-løsninger. Vi bygger Enterprise-Grade skymiljøer tilpasset dine forretningsbehov.",
+    "cta": "Diskuter dine arkitekturbehov →",
+    "servicesTitle": "Omfattende arkitektuartjenester",
+    "servicesSubtitle": "Fra første landskapsdesign til sikkerhetutsetting dekker vi alle aspekter av SAP BTP-arkitekturen.",
+    "whyChooseTitle": "Profesjonell arkitektur som gir resultater",
+    "whyChooseDescription": "Våre sertifiserte SAP BTP-arkitekter har lang erfaring med utforming av Enterprise-løsninger for globale organisasjoner. Vi kombinerer beste praksis med innovasjon for å skape arkitekturer som tåler tiden.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Landskapsdesign",
+        "description": "Omfattende BTP-landskapsarkitektur tilpasset dine forretningsbehov.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Multi-tier miljøoppsett (Dev, Test, Produksjon)",
+          "Underkontostuktur og organisasjon",
+          "Ressursallokering og kapasitetsplanlegging",
+          "Cloud Foundry og Kyma runtime-konfigurering",
+          "Nettverkstopologi og konnektivitetsplanlegging"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Sikkerhetsarkitektur",
+        "description": "Enterprise-Grade sikkerhetdesign for å beskytte BTP-miljøet og dataene.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Identitets- og tilgangsstyringsstrategier",
+          "Rollebasert implementering av tilgangskontroll (RBAC)",
+          "Datakryptering og samsvarsstandarder",
+          "Sikkerhetsovervåking og trusselsdeteksjon",
+          "Revisjonslogging og samsvarrapportering"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Høy tilgjengelighet",
+        "description": "Design av motstandsdyktige systemer med minimal nedetid og maksimal pålitelighet.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Implementeringsstrategier for flere regioner",
+          "Katastrofeberedskap og sikkerhetskopieløsninger",
+          "Belastningsbalansering og failover-mekanismer",
+          "Kontinuitetsplanlegging for forretninger",
+          "Ytelsesovervåking og optimalisering"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Integration Suite-oppsett",
+        "description": "Komplett Integration Suite-konfigurering for sømløs systemkonnektivitet.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Cloud Integration (CPI) oppsett og konfigurering",
+          "Implementering av API-administrasjon",
+          "Open Connectors-konfigurering",
+          "Integrasjonsrådgivers utnyttelse",
+          "Forhåndsgenerert integrasjonsinhaldsutplassering"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP Cloud Connector-oppsett",
+        "description": "Sikker på-lokale til skykonnektivitet for hybridlandskapintegrasjon.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Cloud Connector-installering og konfigurering",
+          "Sikker tunneletablering mellom på-lokale og BTP",
+          "Tilgangskontroll og sikkerhetsgruppeadministrasjon",
+          "Systemtilordning og virtuell vertskonfigurering",
+          "Høy tilgjengelighet og failover-oppsett",
+          "Overvåking og feilsøking av konnektivitetsproblemer"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Event Mesh-oppsett",
+        "description": "Implementering av hendelsesdrevet arkitektur for sanntidsforretningsprosesser.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Event Mesh-instansutplassering",
+          "Kø- og emnetilordning",
+          "Event Broker-oppsett og administrasjon",
+          "Meldingsruting og filterregler",
+          "Hendelsesovervåking og analytikk"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS-oppsett",
+        "description": "Identitetsautentiseringstjenestekonfigurering for sikker brukeradministrasjon.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS-leieroppsett og konfigurering",
+          "Implementering av Single Sign-On (SSO)",
+          "Oppsett av Multi-Factor Authentication (MFA)",
+          "Integrering av bedriftsidentitetsleverandør",
+          "Brukerforvisning og livssyklusstyring"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Brukerautentisering og roller",
+        "description": "Omfattende brukeradministrasjons- og autorisasjonsrammeverk.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Tilpasset rolldefinisjonen og administrasjon",
+          "Design av autorisasjonsmodell",
+          "Brukergruppering",
+          "Implementering av sikkerhet på applikasjonsnivå",
+          "Rolletilordning og delegasjonsarbeidsflyter"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Redusert implementeringstid med 40% med beviste arkitekturmønstre",
+      "Enterprise-Grade sikkerhet i samsvar med industristandarder",
+      "Skalerbar infrastruktur som vokser med bedriften din",
+      "Proaktive overvåkingsmuligheter for kritiske systemer",
+      "Ekspertveiledning fra sertifiserte SAP BTP-arkitekter"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP-fokusert"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "År kombinert erfaring"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Land betjent"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Ekspertteam"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Hvorfor velge TerraBT",
+    "ctaSectionBadge": "⚡ Start prosjektet ditt i dag",
+    "ctaSectionTitle1": "Klar til å bygge",
+    "ctaSectionTitle2": "SAP BTP-arkitekturen?",
+    "ctaSectionDescription": "Planlegg en gratis konsultasjon med våre SAP BTP-arkitekter for å diskutere kravene dine og utforske hvordan vi kan hjelpe deg med å lykkes.",
+    "ctaSectionButton1": "Book gratis konsultasjon →",
+    "ctaSectionButton2": "Se alle tjenester"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Apputvikling",
+    "title": "SAP Fiori-app",
+    "subtitle": "Utviklingstjenester",
+    "description": "Bygg moderne, responsive Fiori-applikasjoner som gir eksepsjonelle brukeropplevelser på alle enheter. Fra konsept til utplassering lager vi vakre, høytytende apper ved hjelp av SAPs siste teknologier.",
+    "cta": "Start ditt Fiori-prosjekt →",
+    "servicesTitle": "Komplette Fiori-utviklingsløsninger",
+    "servicesSubtitle": "End-to-end Fiori-utviklingstjenester fra design til utplassering og utover.",
+    "whyChooseTitle": "Fiori-eksperter som gir eksellens",
+    "whyChooseDescription": "Våre SAP-sertifiserte utviklere spesialiserer seg i utvikling av Enterprise-Grade Fiori-applikasjoner. Vi kombinerer teknisk ekspertise med designtenkning for å lage apper som brukere elsker.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Tilpasset Fiori-apputvikling",
+        "description": "Bygg skreddersydd Fiori-applikasjoner som passer perfekt til dine forretningskrav.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5-rammeverkkompetanse",
+          "Fiori Elements og Freestyle-applikasjoner",
+          "OData-tjenesteintegrasjon",
+          "Responsivt design for alle enheter",
+          "Tilpasset kontroller og komponenter"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "UI/UX-design",
+        "description": "Lag intuitive, vakre grensesnitt som følger SAP Fiori-designretningslinjer.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "Etterlevelse av SAP Fiori-designprinsipper",
+          "Brukerundersøkelse og personaovergang",
+          "Wireframing og prototyping",
+          "Tilgjengelighetssamsvar (WCAG)",
+          "Temaanpassing og merkebygging"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Ytelsesoptimalisering",
+        "description": "Sikr at Fiori-appene dine lastes raskt og kjører jevnt på alle enheter.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Kodoptimalisering og minifisering",
+          "Treg lastimplementering",
+          "Reduserng av pakkestad",
+          "Optimalisering av nettverksforespørsel",
+          "Ytelsesovervåking og analytikk"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Mobilførst-utvikling",
+        "description": "Bygg Fiori-apper optimalisert for mobilbrukere og offline-scenarier.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Responsiv og adaptiv design",
+          "Berøringsoptimert interaksjon",
+          "Mobilspesifikke funksjoner (kamera, GPS)",
+          "Offline-dataksynkronisering",
+          "Muligheter for progressive web app (PWA)"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integrasjon og testing",
+        "description": "Sømløs backend-integrasjon med omfattende testdekning.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway og OData-tjenesteopprettelse",
+          "Backend-systemintegrasjon",
+          "Enhet- og integrasjonstesting",
+          "Automatisering av end-to-end-testing",
+          "Løpende integrasjon/utplassering (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Opplæring og støtte",
+        "description": "Styrk teamet ditt med kunnskap og vedvarende vedlikeholdsstøtte.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Utvikleropplæringskurs",
+          "Best practices-dokumentasjon",
+          "Kodegransking og kvalitetssikring",
+          "Vedvarende vedlikehold og oppdateringer",
+          "Omfattende produksjonshånding"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Moderne, intuitive grensesnitt som øker brukeradopsjon",
+      "Raskere utvikling med gjenbrukbare komponenter og maler",
+      "Enhetskompatibilitet som sikrer sømløs opplevelse",
+      "SAP-sertifiserte utviklere med dyp Fiori-ekspertise",
+      "Reduserte opplæringskostnader med kjent, konsistent UX"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Fiori-apper levert"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Brukertilfredshetsrate"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Raskere tid til marked"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobil responsiv"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Hvorfor velge TerraBT",
+    "ctaSectionBadge": "⚡ Begrensede utviklingsspor tilgjengelig",
+    "ctaSectionTitle1": "Klar til å bygge",
+    "ctaSectionTitle2": "din neste Fiori-applikasjon?",
+    "ctaSectionDescription": "La oss diskutere kravene dine og lage en vakker, høytytende Fiori-app som brukerne dine vil elske.",
+    "ctaSectionButton1": "Få gratis tilbud →",
+    "ctaSectionButton2": "Utforsk andre tjenester"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progressive web-apper",
+    "title": "Offline PWA-apper",
+    "subtitle": "for SAP BTP",
+    "description": "Progressive web-applikasjoner med offline-muligheter som sikrer sømløs brukeropplevelse hvor som helst. Bygg apper som fungerer perfekt enten du er online eller offline, og lever native app-opplevelser gjennom nettet.",
+    "cta": "Bygg din PWA →",
+    "servicesTitle": "Komplette PWA-utviklingstjenester",
+    "servicesSubtitle": "Fra offline-first-arkitektur til pushvarslinger bygger vi PWAer som konkurrerer med native apper.",
+    "whyChooseBadge": "PWA-fordelen",
+    "whyChooseTitle": "Native opplevelse, webvereinfachung",
+    "whyChooseDescription": "Progressive Web Apps kombinerer det beste fra nett og native apper. Ingen app store-godkjenninger, øyeblikkelige oppdateringer og fungerer på alle enheter - alt mens du gir en app-lignende opplevelse.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Offline-first-arkitektur",
+        "description": "Designapplikasjoner som fungerer sømløst selv uten Internettforbindelse.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Service Worker-implementering",
+          "Offline-datalagringsstrategier",
+          "IndexedDB- og lokallager-administrasjon",
+          "Bakgrunnssync-muligheter",
+          "Konfliktløsningsstrategier"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Dataksynkronisering",
+        "description": "Intelligente synkmekanismer for å holde data konsistent på tvers av enheter.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automatisk bakgrunnssynkronisering",
+          "Delta sync for effektiv dataoverføring",
+          "Konfliktdeteksjon og løsning",
+          "Optimistiske brukergrensesnittoppdateringer",
+          "Mekanismer for forsøk og feilhåndtering"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Progressive Web App-funksjoner",
+        "description": "Native app-lignende opplevelse med moderne webmuligheter.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Appmanifestkonfigurering",
+          "Legg til hjemmeskjermfunksjonalitet",
+          "Pushvarslingstøtte",
+          "Kamera- og GPS-integrasjon",
+          "App shell-arkitektur"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Ytelsesoptimalisering",
+        "description": "Lynrask lastetider og glatte offline-overganger.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Forhåndslagring av kritiske ressurser",
+          "Treg lasting for bilder og innhold",
+          "Kodedeling og bunting",
+          "Komprimering og minifisering",
+          "Ytelsesovervåking og analytikk"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Sikkerhet og samsvar",
+        "description": "Sikker offline-datalagreng og overføring.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
+          "Datakryptering i hvile",
+          "Sikre autentiseringstokener",
+          "HTTPS-fremtvingelse",
           "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Regelmessige sikkerhetsrevisjoner"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Online-forbedring",
+        "description": "Forbedret funksjonalitet når tilkobling er tilgjengelig.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Sanntidsoppdateringer og varsler",
+          "Skyskrubsikringring og gjenoppretting",
+          "Enhetsksynkronisering",
+          "Analytikk og telemetri",
+          "Funktonsoppdagelse og progressiv forbedring"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Arbeid hvor som helst, når som helst - selv uten internett",
+      "Forbedret brukeropplevelse med øyeblikkelig lasting",
+      "Reduserte serverkosten ved effektiv lagring",
+      "Høyere konverteringsrate fra app-lignende opplevelse",
+      "Bedre engasjement med pushvarslinger"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Offline-mulighet"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Raskere lastetider"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Redusert datausage"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Høyere engasjement"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Aktiver offline-muligheter i dag",
+    "ctaSectionTitle1": "Klar til å bygge",
+    "ctaSectionTitle2": "din offline-first PWA?",
+    "ctaSectionDescription": "La oss lage en progressive web app som fungerer feilfritt offline og gir en native app-opplevelse til brukerne dine.",
+    "ctaSectionButton1": "Start ditt PWA-prosjekt →",
+    "ctaSectionButton2": "Se alle tjenester"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Datahåndtering",
+    "title": "SAP BTP-database",
+    "subtitle": "Administrasjonstjenester",
+    "description": "Effektivt databasedesign, optimalisering og administrasjon for høytytende SAP BTP-applikasjoner. Eksperttjenester for SAP HANA Cloud, PostgreSQL og SAP ASE-databaser.",
+    "cta": "Optimaliser databasen din →",
+    "servicesTitle": "Komplette databaseadministrasjonsløsninger",
+    "servicesSubtitle": "Fra design til optimalisering, sikkerhet til gjenoppretting - omfattende databasekompetanse.",
+    "whyChooseTitle": "Ytelse, sikkerhet, pålitelighet",
+    "whyChooseDescription": "Våre databasespesialister har dyp kompetanse innen SAP BTP-databaseteknologier. Vi sikrer at dataene dine er raske, sikre og alltid tilgjengelige når du trenger dem.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Databasedesign og modellering",
+        "description": "Effektivt databaseskjemadesign optimalisert for SAP BTP-applikasjoner.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud-databasedesign",
+          "PostgreSQL og SAP ASE-konfigurering",
+          "Entity-relationship modellering",
+          "Normaliserings- og denormaliseringsstrategier",
+          "Indekserings- og partisjeneringsstrategier"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Ytelsesoptimalisering",
+        "description": "Maksimér databaseytelsen for lynrask spørringskjøring.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Spørringsoptimalisering og tuning",
+          "Indeksanalyse og anbefalinger",
+          "Utførelsesplanoptimalisering",
+          "Lagrings- og hurtigbufferkonfigurering",
+          "Ytelsesovervåking og profilering"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Sikkerhet og samsvar",
+        "description": "Beskytt dataene dine med sikkerhetstiltak på bedriftsnivå.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Datakryptering i hvile og under transport",
+          "Sikkerhet på rad- og kolonnenivå",
+          "Implementering av revisjonsspor",
+          "GDPR og samsvarskrav",
+          "Sikkerhetskopi-kryptering og sikker lagring"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Sikkerhetskopi og gjenoppretting",
+        "description": "Omfattende katastrofeberedskap og kontinuitetsplanlegging for forretninger.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automatisert sikkerhetskopiplanning",
+          "Tidspunktgjenoppretting muligheter",
+          "Katastrofeberedskap-prosedyrer",
+          "Høy tilgjengelighetskonfigurering",
+          "Multi-region-replikering"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Datamigrasjon",
+        "description": "Sømløs datamigrasjon fra eldre systemer til SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Datautvinning og omgjøring",
+          "Migreringsstrategi og planlegging",
+          "Null-nedetidsmigrasjonstekniker",
+          "Datavalidering og -bekreftelse",
+          "Tilbakerullingsprosedyrer og testing"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Overvåking og vedlikehold",
+        "description": "Proaktiv overvåking og vedlikehold for optimal databasehelse.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Sanntidsytelsesovervåking",
+          "Automatiserte advarsler og varsler",
+          "Helsekontroll og diagnostikk",
+          "Kapasitetsplanlegging og prognoser",
+          "Patchadministrasjon og oppdateringer"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Opptil 10x raskere spøringsytelse med optimalisering",
+      "99,99% oppetid med høy tilgjengelighetskonfigurering",
+      "Reduserte lagringskosten gjennom effektivt design",
+      "Samsvarsklar med innebygde sikkerhetsfunksjoner",
+      "Proaktiv overvåking og ekspertveiledning"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Databaseeksellens",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Oppetidsgaranti"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Ytelsesforbb"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Datasikkerhet"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Ekspertveiledning"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Optimaliser databaseytelsen",
+    "ctaSectionTitle1": "Klar til å maksimere",
+    "ctaSectionTitle2": "databaseytelsen?",
+    "ctaSectionDescription": "Få en gratis databasehelsekontroll og oppdag optimaliseringsmuligheter som kunne transformere programytelsen din.",
+    "ctaSectionButton1": "Få gratis databasevurdering →",
+    "ctaSectionButton2": "Utforsk alle tjenester"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Innovasjon og strategi",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "for SAP BTP-innovasjon",
+    "description": "Brukersentrert designtilnærming for å skape innovative SAP BTP-løsninger som løser virkelige forretningsutfordringer. Vi hjelper deg å oppdage de riktige problemene å løse og bygge løsninger brukere elsker.",
+    "cta": "Planlegg designverksted →",
+    "servicesTitle": "Vår Design Thinking-prosess",
+    "servicesSubtitle": "En beviste metodikk for innovasjon og problemløsning i SAP BTP-prosjekter.",
+    "whyChooseTitle": "Innovasjon som skaper reell verdi",
+    "whyChooseDescription": "Design Thinking transformerer hvordan du tilnærmer SAP BTP-prosjekter. Ved å fokusere på brukerbehov og rask gjentakelse hjelper vi deg å bygge løsninger som gir målbar forretningsverdi.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Brukerundersøkelse og empati",
+        "description": "Dyp forståelse av brukernes behov, smertepunkter og motivasjoner.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Brukerintervjuer og interessentengasjement",
+          "Personaovergang og reisekartlegging",
+          "Kontekstuell undersøkelse og observasjon",
+          "Smertepunkt- og mulighetidentifikasjon",
+          "Empatikartkort verksteder"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Problemdefinisjon",
+        "description": "Klart definere riktige problemer for maksimal forretningspåvirkning.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Problemstilformulering",
+          "Design Challenge-raming",
+          "Mulighetensridentifikasjon",
+          "Suksesskriterier definisjon",
+          "Interessents justerings seshjoner"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideation-verksteder",
+        "description": "Generering av innovative løsninger gjennom strukturert kreativ seshjoner.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Modererte brainstormingseshjoner",
+          "SCAMPER- og sideltenkningsteknikker",
+          "Samarbeidsideation-verksteder",
+          "Idépriorisering og utvalg",
+          "Konseptutviklingen og raffinering"
         ]
       },
       "prototype": {
         "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "description": "Raskopprettelse av håndgripelige representasjoner av ideer for validering.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Lavtrohettkabler og skisser",
+          "Interaktive klikkbare prototyper",
+          "Høytrohetsmockuper",
+          "Proof of Concept-utvikling",
+          "MVP (Minimum Viable Product) design"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Testing og gjentakelse",
+        "description": "Valider løsninger med ekte brukere og forbedre kontinuerlig.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Brukbarhetstest-seshjoner",
+          "A/B-testing og eksperimentering",
+          "Brukerens tilbakemeldingsinnsamling og analyse",
+          "Iterativ designraffinering",
+          "Validering mot suksesskriterier"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Implementeringsstøtte",
+        "description": "Guidetelaget ditt fra validert konsept til vellykket lanseringers.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Teknisk mulighetsvurdering",
+          "Implementeringsveikart opprettelse",
+          "Agile sprint-planlegging",
+          "Utviklingsteam-samarbeid",
+          "Post-launch overvåking og optimalisering"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Reduser risiko ved å validere ideer før stora investeringer",
+      "Raskere innovasjon med strukturert problemløsingstilnærming",
+      "Høyere brukeradopsjon gjennom brukersentrert løsninger",
+      "Tverrfunksjonelt team-justering og engasjement",
+      "Målbar forretningsresultater og ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Raskere problemløsning"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Redusert utviklingsavfall"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Interessents tilfredshetsrate"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Brukersentrert tilnærming"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "Integrasjon og konnektivitet",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "Tjenester",
+    "description": "Sømløse integrasjonsløsninger som forbinder SAP-systemene dine med sky- og på-lokale applikasjoner. Ekspertimplementering av Cloud Integration, API Management, Open Connectors og Integration Advisor.",
+    "cta": "Koble systemene dine →",
+    "servicesTitle": "Komplett Integration Suite-ekspertise",
+    "servicesSubtitle": "Fra Cloud Integration til API Management - omfattende integrasjonstjenester.",
+    "whyChooseTitle": "Sømløs systemkonnektivitet",
+    "whyChooseDescription": "SAP BTP Integration Suite gir alt du trenger for å koble bedriften din. Våre eksperter sikrer at integrasjonen er pålitelig, sikker og skalerbar.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "Kople sky- og på-lokale systemer med robuste integrasjonsflyter.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Integrasjonsflytdesign og utvikling",
+          "Bruk av forhåndsgenerert integrasjonsinhold",
+          "Meldingstilordning og transformering",
+          "Feilhåndtering og overvåking",
+          "Sikkerhetsgjenstandadministrasjon"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API-administrasjon",
+        "description": "Design, publiser og administrer APIer med omfattende livssyklus-støtte.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API proxy-opprettelse og -konfigurering",
+          "Policyfordetsetting (sikkerhet, hastighetsbegrensning)",
+          "API-portal og utviklerdokumentasjon",
+          "Analytikk og bruksovervåking",
+          "Monetisering og kvoahåndtering"
         ]
       },
       "openConnectors": {
         "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "description": "Forhåndsgenerert konnektorer for rask integrasjon med tredje partssystemer.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ forhåndsgenererte konnektorer",
+          "Tilpasset konnektor-utvikling",
+          "Autentisering og autorisasjon",
+          "Datatransformering og normalisering",
+          "Hendelsesbasert integrasjon"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "Integrasjonsrådgiver",
+        "description": "Akseler integrasjonsutvikling med AI-drevne anbefalinger.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automatiserte tilordningsforslag",
+          "Meldingsimplementeringsveiledninger (MIGer)",
+          "B2B-integrasjonsscenariemalbar",
+          "Grensesnitt Tilordningsforslag",
+          "Beste praksis-anbefalinger"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Sikkerhet og styring",
+        "description": "Enterprise-Grade sikkerhet og styring for alle integrasjoner.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth og SAML-autentisering",
+          "Sertifikat- og nøkkelhåndtering",
+          "Transport-nivå kryptering (TLS/SSL)",
+          "Meldings-nivå kryptering",
+          "Revisjonsllogging og samsvar"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Overvåking og operasjoner",
+        "description": "Omfattende overvåking og operasjonell eksellens.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Sanntidsmeldingsovervåking",
+          "Ytelsesmålinger og KPIer",
+          "Varslings- og varslingsoppstilling",
+          "Logganalyse og feilsøking",
+          "Kapasitetsplanlegging og optimalisering"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Raskere integrasjon med forhåndsgenerert innhold og akseleratorer",
+      "Redusert integrasjonskostnader med skyinnfødt platform",
+      "Enterprise-Grade pålitelighet og skalerbarhett",
+      "Enkelt platform for alle integrasjonsbehov",
+      "Dedikert ekspertkonsultasjon og veiledning"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Forhåndsgenererte konnektorer"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Integrasjonsoppetid"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Raskere implementering"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Ekspertteam"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Integrasjonseksellens",
+    "ctaSectionBadge": "⚡ Koble bedriften din i dag",
+    "ctaSectionTitle1": "Klar til å forene",
+    "ctaSectionTitle2": "forretningssystemene dine?",
+    "ctaSectionDescription": "La oss diskutere integrasjonskravene dine og lag en omfattende løsning som forbinder alle dine kritiske forretningssystemer.",
+    "ctaSectionButton1": "Få integrasjonskonsultasjon →",
+    "ctaSectionButton2": "Se alle tjenester"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Hendelsesdrevet arkitektur",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Implementeringstjenester",
+    "description": "Sanntidshendelsesdrevet arkitekturimplementering for responsive, skalerbare forretningsprosesser. Bygg distribuerte systemer som reagerer umiddelbart på forretningshendelser med SAP Event Mesh.",
+    "cta": "Bygg hendelsesdrevet arkitektur →",
+    "servicesTitle": "Komplette Event Mesh-løsninger",
+    "servicesSubtitle": "Fra arkitekturdesign til implementering - bygg responsive hendelsesdrevne systemer.",
+    "whyChooseTitle": "Sanntidsforretningsberedskap",
+    "whyChooseDescription": "Event Mesh gjør det mulig for bedriften din å reagere umiddelbart på hendelser når de oppstår. Bygg løst koblet, svært skalerbare systemer som tilpasser seg skiftende forretningsbehov.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh-arkitektur",
+        "description": "Design og implementering av enterprise-wide hendelsesdrevet arkitektur.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Event Mesh topologidesign",
+          "Multi-region hendelsesfordeling",
+          "Event Broker-konfigurering",
+          "Meldingsrutsingsstrategier",
+          "Emne- og kødesign-mønstre"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Sanntidshendelsesbehandling",
+        "description": "Behandle og reager på forretningshendelser i sanntid.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Hendelsesstrøm-implementering",
+          "Kompleks hendelsesbehandling (CEP)",
+          "Hendelsesfiltrering og transformering",
+          "Hendelsessamling og korrelasjon",
+          "Lav-latens hendelseislevering"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Hendelsesdrevne integrasjoner",
+        "description": "Systemtilkobling gjennom asynkron hendelsesbasert kommunikasjon.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Forlag/Abonnent-mønstre",
+          "Hendelsesdrevne mikrotjenester",
+          "Webhook og callback integrasjon",
+          "Hendelsesavspilling og gjenoppretting",
+          "Dead Letter Queue-administrasjon"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Sikkerhet og styring",
+        "description": "Sikker hendelseoverføring med omfattende styring.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Hendelsesskrypering under overføring",
+          "Tilgangskontroll og autorisasjon",
+          "Hendelses skjema-validering",
+          "Samsvar og revisjonsllogging",
+          "Dataprivat kontroller"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud og hybrid",
+        "description": "Event Mesh på tvers av skyleverandører og på-lokale systemer.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Tverr-sky hendelsesfordeling",
+          "Hybrid-sky konnektivitet",
+          "Multi-region redundans",
+          "Geografisk hendelsesruting",
+          "Sky-agnostisk arkitektur"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Overvåking og analytikk",
+        "description": "Omfattende synlighet i ditt hendelsesdrevne økosystem.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Sanntidshendelsesovervåking",
+          "Ytelsesmålinger og SLAer",
+          "Hendelsesflytvisualizer",
+          "Flaskehalsidentifikasjon",
+          "Prediksjon kapasitetsplanlegging"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Dekoblesystemene for større fleksibilitet og skalerbarhett",
+      "Sanntidsforretningsinnsikt og øyeblikkelig reaksjon",
+      "Forbedret systemresiliensskap og fault-toleranse",
+      "Redusert punkt-til-punkt integrasjonskompleksitet",
+      "Støtte for moderne hendelsesdrevne arkitekturer"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Hendelseisleverings latens"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Hendelser per sekund"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Hendelseisleverings garantir"
       },
       "distribution": {
         "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "label": "Multi-region-fordeling"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Hendelsesdrevet eksellens",
+    "ctaSectionBadge": "⚡ Bygg sanntidssystemer",
+    "ctaSectionTitle1": "Klar til å implementere",
+    "ctaSectionTitle2": "hendelsesdrevet arkitektur?",
+    "ctaSectionDescription": "Transform bedriften din med sanntidshendelsesbehandling. La oss diskutere hvordan Event Mesh kan drive neste generations applikasjoner.",
+    "ctaSectionButton1": "Planlegg Event Mesh-konsultasjon →",
+    "ctaSectionButton2": "Utforsk alle teknologier"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI og automatisering",
+    "title": "AI-drevet",
+    "subtitle": "Fakturabelhandling",
+    "description": "Intelligent fakturabelhandlingsautomatisering drevet av avansert AI for nøyaktige, effektive prosesser. Transformer kontoudgiftsprosessen med toppmodern AI-teknologi integrert med SAP BTP.",
+    "cta": "Automatiser fakturaene dine →",
+    "servicesTitle": "AI-drevet fakturautomatisering",
+    "servicesSubtitle": "Bruk avansert AI-funksjonalitet for intelligent fakturabelhandling og automatisering.",
+    "whyChooseTitle": "Transform fakturabelhandlingen",
+    "whyChooseDescription": "Avansert AI bringer menneskelig forståelse til fakturabelhandling. Håndter komplekse layout, flere språk og grensefall som tradisjonelle OCR-systemer sliter med.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Intelligent datautvinning",
+        "description": "Avansert AI-drevet utvinning av fakturadata med enestående nøyaktighet.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Multiformatfakturabelhandling (PDF, bilder, skans)",
+          "Automatisk feltdeteksjon og utvinning",
+          "Hodetekst og linjevareutvinning",
+          "Tabell- og kompleks layout-forståelse",
+          "Håndskriftsgjenkjenning"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP-integrasjon",
+        "description": "Sømløs integrasjon med SAP BTP-tjenester og backend-systemer.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Direkte integrasjon med SAP S/4HANA",
+          "SAP Document Management Service tilkobling",
+          "Arbeitsflytautomatiserings triggerss",
+          "Sanntidsdatavalidering",
+          "Tilpasset forretningsregelutsettelse"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatisert behandling",
+        "description": "End-to-end automatisering med minimal manuell intervensjon.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Intelligent ruting og klassifisering",
+          "Auto-godkjenning for lavrisikofakturaer",
+          "Unntagsbehandlingsarbeidsflyter",
+          "Duplikatdeteksjon og preverenksjon",
+          "Tre-vei-matching automatisering"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validering og samsvar",
+        "description": "Sikr nøyaktighet og regulatorisk samsvar i enhver transaksjon.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Flernivå validéringsregler",
+          "Skattberegnigverifisering",
+          "Samsvarskontroll (MVA, GST)",
+          "Revisjonsspor og logging",
+          "Dataprivat og sikkerhet (GDPR-kompatibel)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analytikk og innsikter",
+        "description": "Få verdifulle innsikter fra fakturabelhandlingsdataene dine.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Behandlingsmålinger og KPIer",
+          "Nøyaktighets- og feilrateoppfølging",
+          "Kostnadsbesparelseanalyse",
+          "Leverandørytelsesanalytikk",
+          "Prediktive kontantstrøminnsikter"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Opplæring og optimalisering",
+        "description": "Kontinuerlig forbedring gjennom AI-læring og systemoptimalisering.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Tilpasset modelltrening for fakturaene dine",
+          "Kontinuerlig læring fra korreksninger",
+          "Malbasert behandlingsoptimalisering",
+          "Tilbakemeldingssløyfe implementering",
+          "Regelmessige nøyaktighetsforbedringer"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ nøyaktighetsrate reduserer manuelle korreksjoni",
+      "80% raskere fakturabelhandlingstid",
+      "70% reduksjon i behandlingskostnader",
+      "Nesten null dataeintastningsfeil",
+      "Sanntidsbehandling statussynlighet"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Nøyaktighetsrate"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Tidsreduksji"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Kostnadsbesparelser"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatisert behandling"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Tilbake til hjem",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Revolusjonering av fakturabelhandling med AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Utforsk hvordan AI-integrasjon på SAP BTP transformer fakturabelhandling med intelligent automatisering og avansert dokumentforståelse.",
+      "intro": "Fakturabelhandling har tradisjonelt vært en tidkrevende, feilmottende manuell oppgave. Integreringen av avansert AI med SAP BTP revolutionerer denne prosessen og bringer enestår automatisering, nøyaktighet og effektivitet til kontoudgiftoperasjoner.",
+      "section1Title": "Utfordringen med tradisjonell fakturabelhandling",
+      "section1Content": "Organisasjoner behandler tusentals fakturaer månedlig, hver krever datautvinning, validering og registrering i ERP-systemer. Manuell behandling er langsom, dyr og feilmottende, noe som fører til betalingsforsinkelser, dupliseringer eller oppgjørde skonti.",
+      "section2Title": "Avansert AI-dokumentforståelse",
+      "section2Content": "Moderne AI bringer state-of-the-art naturlig språkbehandling og computer vision-kapasitet til fakturabelhandling. I motsetning til tradisjonelle OCR-systemer kan avansert AI forstå kontekst, håndtere varierte fakturaformat og utvinne informasjon med bemerkelsesverd nøyaktighet selv fra dårlig skannet eller komplekse dokumenter.",
+      "section3Title": "Sømløs SAP BTP-integrasjon",
+      "section3Content": "Integreringen av AI med SAP BTP skaper en kraftig automatiseringspipeline. Innkommende fakturaer behandles automatisk, data utvinnes og valideres, og informasjon flyter direkte inn i SAP-systemer uten menneskelig intervensjon. Denne integreringen utnytter SAP BTPs robuste konnektivitet og arbeitsflytfunksjonalitet.",
+      "section4Title": "Intelligent unntagsbehandling",
+      "section4Content": "En av AIs nøkkelstyrkere er evnen til å håndtere unntak intelligent. Ved å støte på uvanlige fakturaformat eller tvetydig informasjon kan systemet flagge elementer for menneskelig revisjon med detaljert forklaringer, noe som gjør unntagsbehandling mye mer effektiv enn tradisjonelle regelbaserte systemer.",
+      "section5Title": "Målbar forretningsvirkning",
+      "section5Content": "Organisasjoner som implementerer AI for fakturabelhandling ser typisk dramatiske forbedringer: 90% reduktion i behandlingstid, 95% nedgang i dataeingfeil og betydelige kostnadbesparelser i kontoudgiftoperasjoner. Kanskje viktigst kan ansatte fokusere på strategiske aktiviteter i stedet for repetitiv datainntastning.",
+      "conclusionTitle": "Konklusj",
+      "conclusionContent": "Kombinasjonen av avansert AI-funksjonalitet og SAP BTP'senterprisegrade infrastruktur representerer en transformativ tilnærming til fakturabelhandling. Organisasjoner som innfører denne teknologien oppnår en signifikant konkurransefortsettelse gjennom forbedret effektivitet, nøyaktighet og kostnadsreduksjon."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Bygging av moderne Fiori-applikasjoner på SAP BTP",
+      "category": "Utvikling",
+      "readTime": "8 min",
+      "seoDescription": "Lær hvordan du bygger moderne, responsive Fiori-applikasjoner ved hjelp av SAP BTP-kraftige utviklingsverktøy og rammeverk.",
+      "intro": "SAP Fiori representerer fremtiden for bedriftsapplikasjoner, som gir en enhetlig brukeropplevelse på alle enheter og implementeringsalternativer. Med SAP Business Technology Platform (BTP) er bygging av moderne Fiori-applikasjoner blitt mer strømlinjet og kraftig enn noensinne.",
+      "section1Title": "SAP BTP-kraften for Fiori-utvikling",
+      "section1Content": "SAP BTP tilbyr en omfattende suite av verktøy og tjenester spesielt utformet for Fiori-apputvikling. Plattformen gir alt fra utviklingsmiljøer til implementeringsinfrastruktur, noe som gjør det mulig for team å fokusere på å skape eksepsjonelle brukeropplevelser i stedet for å administrere infrastruktur.",
+      "section2Title": "Nøkkelfunksjoner og beste praksis",
+      "section2Content": "Moderne Fiori-applikasjoner utnytter SAP Fiori Elements-rammeverket, som gir forhåndsgenererte UI-komponenter og mønstre som sikrer konsistens og reduserer utviklingstid. Ved å kombinere disse elementene med tilpasset SAPUI5-kontroller kan utviklere lage applikasjoner som både standardisert og skreddersydd til spesifikke forretningsbehov.",
+      "section3Title": "Integrasjon med SAP BTP-tjenester",
+      "section3Content": "En av de viktigste fordelene med å utvikle Fiori-applikasjoner på SAP BTP er den sømløse integreringen med andre plattformtjenester. Fra autentisering og autorisering med SAP Cloud Identity Services til datalagring med SAP HANA Cloud har utviklere tilgang til Enterprise-Grade tjenester som lett kan integreres i applikasjoner.",
+      "section4Title": "Responsivt design og multi-device-støtte",
+      "section4Content": "Fiori-applikasjoner bygget på SAP BTP tilpasses automatisk til forskjellige skjermstørrelser og enheter, noe som sikrer en konsistent brukeropplevelse enten du får tilgang fra stasjonær, nettbrett eller mobiltelefon. Denne responsive designmuligheten er innebygd i rammeverket og reduserer innsatsen som kreves for å støtte flere enheter.",
+      "section5Title": "Ytelsesoptimalisering",
+      "section5Content": "SAP BTP gir ulike verktøy og teknikker for optimalisering av Fiori-appytelse, inkludert treg lasting, bunting og hurtigbufferstrategi. Disse optimaliseringsteknikker sikrer at applikasjoner lastes raskt og reagerer jevnt, selv når du håndterer store datasett eller kompleks forretningslogikk.",
+      "conclusionTitle": "Konklusjon",
+      "conclusionContent": "Bygging av moderne Fiori-applikasjoner på SAP BTP kombinerer kraft i Enterprise-Grade infrastruktur med toppmoderne utviklingsrammeverk. Ved å utnytte plattformens egenskaper kan utviklingsteam lage sofistikerte, brukervennlige applikasjoner som driver forretningsverdi og øker produktiviteten på tvers av organisasjonen."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Offline PWA-løsninger for forretningskontinuitet",
+      "category": "Arkitektur",
+      "readTime": "7 min",
+      "seoDescription": "Oppdag hvordan Progressive Web Apps (PWAs) med offline-muligheter sikrer forretningskontinuitet og produktivitet under alle nettverksforhold.",
+      "intro": "I dagens tilkoblede verden kan nettverksforstyrrelser bringe forretningsoperasjoner til stillstand. Progressive Web Apps (PWAs) med offline-muligheter tilbyr en robust løsning for å sikre forretningskontinuitet, som gjør det mulig for brukere å fungere sømløst uavhengig av nettverkstilgjengelighet.",
+      "section1Title": "Forstå offline-first-arkitektur",
+      "section1Content": "Offline-first-arkitektur representerer et paradigmeskift i hvordan vi bygger webapplikasjoner. I stedet for å behandle offline-modus som et grensetilfall gjør offline-first design det til en kjernefunksjon. Denne tilnærmingen sikrer at applikasjoner forblir funksjonelle selv når nettverkskonnektiviteten er upålitelig eller fullstendig utilgjengelig.",
+      "section2Title": "Service Workers: Ryggraden på offline-PWAer",
+      "section2Content": "Service Workers er teknologien som gjør offline-PWAer mulige. Disse programmerbare nettverksproxiene sitter mellom applikasjonen og nettverket, avfanger forespørsler og muliggjør sofistikert caching-strategier. Ved å bruke Service Workers kan applikasjoner hurtigbuffre kritiske ressurser og data, noe som sikrer tilgjengelighet selv offline.",
+      "section3Title": "Dataksynkroniseringsstrategier",
+      "section3Content": "En nøkkelutfordring i offline-PWAer er å administrere dataksynkronisering når tilkobling gjenopprettes. Implementering av robuste konfliktløsningsstrategier og optimistiske oppdateringer sikrer at data forblir konsistent på tvers av enheter og backend-systemer. Background Sync APIer muliggjør automatisk sykronisering når nettverket blir tilgjengelig igjen.",
+      "section4Title": "Forretningsfordeler",
+      "section4Content": "Offline-PWAer gir betydelig forretningsverdi ved å sikre produktivitet under alle nettverksbetingelser. Feltarbeidere kan fortsette oppgavene sine på fjerne steder, salsteam kan få tilgang til kritisk informasjon under presentasjoner, og driftene fortsetter jevnt under nettverksforstyrrelser. Denne påliteligheten omgjøres direkte til forbedret kundetilfredshet og operasjonell effektivitet.",
+      "section5Title": "Implementering med SAP BTP",
+      "section5Content": "SAP BTP gir utmerket støtte for å bygge offline-PWAer gjennom sitt Mobile Services-tilbud. Disse tjenestene inkluderer offline-dataksynkronisering, sikker lagring og omfattende APIer som forenkler utviklingen av robuste offline-kapable applikasjoner.",
+      "conclusionTitle": "Konklusjon",
+      "conclusionContent": "Offline-PWAer representerer fremtiden for forretningsapplikasjoner, som gir resiliensskap og pålitelighet som tradisjonelle webapplikasjoner ikke kan oppfylle. Ved å omfavne offline-first-arkitektur og utnytte moderne webteknologier kan organisasjoner sikre forretningskontinuitet og opprettholde produktiviteten uavhengig av nettverksbetingelser."
     }
   }
 }

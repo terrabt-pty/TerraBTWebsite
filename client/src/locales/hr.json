@@ -13,1450 +13,1450 @@
     "learn": "Istražite usluge"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Naša stručnost",
+    "subtitle": "Sveobuhvatna rješenja SAP BTP-a prilagođena transformaciji vašeg poslovanja",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Razvoj Fiori aplikacija",
+      "description": "Razvoj modernih, responsivnih Fiori aplikacija koje pružaju izuzetno iskustvo korisnika na svim uređajima."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP arhitektura i dizajn",
+      "description": "Strateška planiranje arhitekture za skalabilna rješenja SAP BTP-a, prilagođena vašim poslovnim zahtjevima."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Korisnički orijentirani pristup dizajnu za razvoj inovativnih rješenja koja rješavaju stvarne poslovne izazove."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline PWA aplikacije",
+      "description": "Web aplikacije napredne progresivne tehnologije s mogućnostima rada u offline modu za neprekinuto iskustvo korisnika."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "Upravljanje SAP BTP bazom podataka",
+      "description": "Učinkovit dizajn baze podataka, optimizacija i upravljanje za visokoperformantne BTP aplikacije."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "AI obrada računa",
+      "description": "Inteligentna automatizacija obrade računa s naprednom AI tehnologijom za precizne i učinkovite postupke."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Besprijekorni integracijski rješenja koja povezuju vaše SAP sustave s cloud i on-premise aplikacijama."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Implementacija arhitekture vođene događajima u realnom vremenu za brze i skalabilne poslovne procese."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "Razvoj SAP CAP",
+      "description": "Razvoj modernih cloud aplikacija s SAP Cloud Application Programming Model za brz i skalabilan razvoj."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Izrada profesionalnih poslovnih aplikacija s no-code/low-code alatima za brzu digitalnu transformaciju."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Automatizacija poslovnih procesa s inteligentnim workflow-om i funkcijama automatizacije poslovnih procesa."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Naš fokus",
+      "title": "100% specijalizacija SAP BTP-a",
+      "description": "Za razliku od općih konzultantskih tvrtki, fokusiramo se isključivo na SAP Business Technology Platform osiguravajući duboku stručnost i najsuvremenije rješenje.",
+      "point1": "Posvećeni tim certificiranih SAP BTP stručnjaka",
+      "point2": "Uvijek ažurirani s najnovijim BTP funkcijama i najboljim praksama",
+      "point3": "Dokazana iskustva u različitim industrijama"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Globalni doseg",
+      "title": "Služenje tržištima diljem svijeta",
+      "description": "Donosimo SAP BTP stručnost na svjetska tržišta i pružamo rješenja svjetske klase bez obzira gdje se nalazite.",
+      "point1": "Daljinska konzultacija preko svih vremenskih zona",
+      "point2": "Podrška na više jezika za međunarodne timove",
+      "point3": "Razumijevanje regionalnih poslovnih zahtjeva"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Moderna tehnologija",
+      "title": "AI pogonjena inovacija",
+      "description": "Korištenje najsuvremenije AI tehnologije za poboljšanje rješenja SAP BTP-a i unošenje automatizacije i inteligencije u vaše poslovne procese.",
+      "point1": "Inteligentna automatizacija za ponavljajuće zadatke",
+      "point2": "Napredna obrada i analiza podataka",
+      "point3": "Besprijekornu integraciju u postojeće workflow-e"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Centar znanja",
+    "subtitle": "Stručni uvidi i najbolje prakse za uspjeh SAP BTP-a",
+    "readMore": "Pročitaj članak",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Razvoj",
+      "title": "Razvoj modernih Fiori aplikacija s SAP BTP-om",
+      "excerpt": "Saznajte kako krirati responsivne, jednostavne za korištenje Fiori aplikacije koje iskorištavaju punu moć SAP Business Technology Platform-a.",
+      "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Tehnologija",
+      "title": "Offline PWA: Osigurani kontinuitet poslovanja gdje god",
+      "excerpt": "Otkrij kako progresivne web aplikacije s offline mogućnostima održavaju vaše poslovne procese glatko čak i bez interneta.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI i automatizacija",
+      "title": "AI za inteligentnu obradu računa",
+      "excerpt": "Istražite kako integracija AI-ja s SAP BTP-om transformira obradu računa s bezprecedentnom točnošću i učinkovitošću.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integracija",
+      "title": "Savladavanje SAP BTP Integration Suite",
+      "excerpt": "Sveobuhvatni vodič za povezivanje vaših poslovnih sustava s SAP BTP Integration Suite za besprijekorni tok podataka.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Arhitektura",
+      "title": "Event Mesh arhitektura za poslovanje u realnom vremenu",
+      "excerpt": "Implementacija arhitekture vođene događajima s SAP Event Mesh-om za brze, skalabilne rješenja.",
+      "readTime": "6 min"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Najbolje prakse",
+      "title": "BTP strategije optimizacije baze podataka",
+      "excerpt": "Bitne strategije za optimizaciju performansi SAP BTP baze podataka za brz, pouzdan pristup kritičnim poslovnim podacima.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Počni",
+    "title": "Spreman transformirati svoje poslovanje?",
+    "subtitle": "Zakaži besplatnu konzultaciju s našim SAP BTP stručnjacima",
+    "availability": "Ograničena dostupnost",
+    "contactInfo": "Kontaktne informacije",
+    "email": "E-pošta",
+    "globalPresence": "Globalna prisutnost",
+    "servingCountries": "Služimo klijentima u preko 40 zemalja diljem svijeta",
+    "fastResponse": "Garantija brze odgovore",
+    "fastResponseDesc": "Dobij stručni savjet u roku od 24 sata. Naši SAP BTP stručnjaci su spremni pomoći ti da uspijevaš.",
+    "mentionCountry": "Molimo spomeni svoju zemlju kada nas kontaktiraš",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Puno ime",
+      "email": "Poslovna e-pošta",
+      "company": "Naziv tvrtke",
+      "message": "Reci nam o svom projektu",
+      "submit": "Zakaži besplatnu konzultaciju",
+      "submitting": "Slanje..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Poruka poslana!",
+      "description": "Hvala ti što si nas kontaktirao. Odgovorit ćemo ti u roku od 24 sata."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Greška",
+      "description": "Nešto je pošlo naopako. Molimo pokušaj ponovno."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "Specijalizirana SAP BTP konzultacija s izvanrednim performansama diljem svijeta",
+    "services": "Usluge",
+    "fiori": "Razvoj Fiori-ja",
+    "architecture": "BTP arhitektura",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
+    "ai": "AI rješenja",
+    "knowledge": "Znanje",
+    "blogArticles": "Blog članci",
+    "caseStudies": "Studije slučaja",
+    "resources": "Resursi",
+    "company": "Tvrtka",
+    "about": "O nama",
     "contact": "Kontakt",
-    "careers": "Karriere",
+    "careers": "Karijera",
     "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "documentation": "Dokumentacija",
+    "whitepapers": "Bijele knjige",
+    "legal": "Pravno",
+    "privacy": "Politika privatnosti",
+    "terms": "Uvjeti korištenja",
+    "copyright": "Sva prava zadržana.",
+    "deployedOn": "Smješteno na Cloudflare",
+    "serviceRestriction": "Usluge nisu dostupne u Australiji i Novom Zelandu.",
+    "availableLanguages": "Dostupno na vašem jeziku"
   },
   "common": {
-    "learnMore": "Saznajte više",
+    "learnMore": "Saznaj više",
     "backToHome": "Natrag na početnu"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Razvoj Cloud aplikacija",
+    "title": "Razvoj SAP CAP",
+    "subtitle": "Usluge",
+    "description": "Razvoj modernih cloud aplikacija s SAP Cloud Application Programming Model za brz i skalabilan razvoj na SAP BTP.",
+    "cta": "Počni s CAP projektom →",
+    "servicesTitle": "Sveobuhvatne usluge razvoja CAP-a",
+    "servicesSubtitle": "Od modeliranja podataka do implementacije - kompletan CAP stručnost za tvoje poslovne aplikacije.",
+    "whyChoose": "Zašto odabrati TerraBT",
+    "whyChooseTitle": "Stručan razvoj CAP-a koji daje rezultate",
+    "whyChooseDescription": "Naši certificirani SAP CAP razvijatelji donose godine iskustva u razvoju poslovnih aplikacija. Kombiniramo tehničku stručnost s poslovnom inteligencijom kako bi isporučili rješenja koja daju rezultate.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Full-Stack razvoj CAP-a",
+        "description": "Razvoj aplikacije od kraja do kraja koristeći CAP framework.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS modeliranje podataka i definicije entiteta",
+          "Definicija usluge i implementacija",
+          "Razvoj prilagođene poslovne logike",
+          "Generiranje UI-ja Fiori Elements",
+          "CAP Node.js i Java runtime podrška"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Integracija baze podataka",
+        "description": "Besprijekornu integraciju sa SAP HANA Cloud i drugim bazama podataka.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud nativni razvoj",
+          "PostgreSQL i SAP ASE podrška",
+          "Migracija baze podataka i upravljanje shemom",
+          "Optimizacija upita i tuning performansi",
+          "Konfiguracija multi-tenancy baze podataka"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Sigurnost i autorizacija",
+        "description": "Sigurnost na razini poduzeća za CAP aplikacije.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Kontrola pristupa na osnovu uloga (RBAC)",
+          "Integracija autentifikacije (XSUAA, IAS)",
+          "Anotacije autorizacije i ograničenja",
+          "Privatnost podataka i sigurnost na razini polja",
+          "Sigurno upravljanje kredencijalima"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "Razvoj API-ja i usluga",
+        "description": "Razvoj robusnih OData i REST API-ja s CAP uslugama.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "Stvaranje OData V2 i V4 usluga",
+          "Implementacija REST API-ja",
+          "Prilagođene akcije i funkcije",
+          "Omogućavanje skica za aplikacije s transakcijama",
+          "Integracija vanjske usluge i mashups"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Integracija Fiori Elements",
+        "description": "Brz razvoj UI-ja s Fiori Elements i CAP-om.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "List Report i Object Page aplikacije",
+          "Razvoj Analytical List Page (ALP)",
+          "Integracija Freestyle Fiori aplikacije",
+          "UI anotacije i prilagodbe",
+          "Responzivni i adaptivni dizajn"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD i DevOps",
+        "description": "Automatizirana implementacija i cijevi kontinuirane integracije.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry i Kyma implementacija",
+          "MTA (Multi-Target Application) build",
+          "Automatizirana testiranja i quality gates",
+          "CI/CD pipeline setup (Jenkins, GitHub Actions)",
+          "Strategije promocije okruženja"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Ubrzani razvoj s dokazanim CAP obrascima",
+      "Ugrađene najbolje prakse i arhitektura sprema za poduzeće",
+      "Skalabilne aplikacije koje rastu s tvojim poslovanjem",
+      "Besprijekornu integraciju sa SAP S/4HANA",
+      "Stručno vođenje tijekom cijelog životnog ciklusa razvoja"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "Razvoj bez koda/niskokodnog",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Usluge razvoja",
+    "description": "Izrada profesionalnih poslovnih aplikacija s no-code/low-code alatima za brzu digitalnu transformaciju i poslovnu agilnost.",
+    "cta": "Počni s izgradnjom danas →",
+    "servicesTitle": "Kompletan SAP Build Apps rješenja",
+    "servicesSubtitle": "Od vizualnog razvoja do implementacije poduzeća - ojačaj svoje poslovne korisnike.",
+    "whyChooseTitle": "Brz razvoj aplikacija",
+    "whyChooseDescription": "SAP Build Apps omogućava poslovnim korisnicima i razvijateljima da stvaraju moćne aplikacije bez opsežnog kodiranja. Ubrzaj svoju digitalnu transformaciju s alatima za vizualni razvoj.",
+    "implementationTitle": "Pristup implementaciji",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Vizualni razvoj",
+        "description": "Drag-and-drop sučelje za brzu izgradnju aplikacija.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitivan vizualni page builder",
+          "Biblioteka unaprijed izgrađenih UI komponenti",
+          "Responzivno canvas za dizajn",
+          "Prikaz u stvarnom vremenu i testiranje",
+          "Prilagodba teme i branding"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Cross-Platform aplikacije",
+        "description": "Izgradi jednom, implementiraj svugdje - web, iOS i Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Podrška Progressive Web App (PWA)",
+          "Generiranje nativnih mobilnih aplikacija",
+          "Optimizacija tableta i radne površine",
+          "Mogućnosti podataka u offline modu",
+          "Podrška App Store implementacije"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Cloud-Native integracija",
+        "description": "Besprijekornu povezanost sa SAP BTP uslugama i podacima.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "Integracija SAP S/4HANA Cloud",
+          "OData usluga povezanost",
+          "Konzumiranje BTP usluge",
+          "Autentifikacija i autorizacija",
+          "Sinkronizacija podataka u stvarnom vremenu"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Brz prototipski razvoj",
+        "description": "Brzo validiraj ideje i iteriraj na osnovu povratnih informacija.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Brz MVP razvoj",
+          "Korisničko testiranje i prikupljanje povratnih informacija",
+          "Iterativni dizajn i usavršavanje",
+          "Kontrola verzije i vraćanje",
+          "Alati za suradnju za timove"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Omogućavanje Citizen Developer",
+        "description": "Ojačaj poslovne korisnike da kreiraju aplikacije.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Niska krivulja učenja za ne-razvijatelje",
+          "Vođeni workflow-i razvoja",
+          "Biblioteka šablona i blueprint-a",
+          "Governance i kontrole kvalitete",
+          "Programi obuke i omogućavanja"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Code proširivost",
+        "description": "Proširi s prilagođenim kodom kada je potrebno.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Prilagođena JavaScript logika",
+          "Mogućnosti integracije API-ja",
+          "Razvoj prilagođenih komponenti",
+          "Napredne transformacije podataka",
+          "Integracija biblioteke trećih strana"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10x brži razvoj aplikacija",
+      "Smanjenje troškova razvoja za 60%",
+      "Ojačaj poslovne korisnike da inoviraju",
+      "Besprijekornu integraciju SAP ekosistema",
+      "Sigurnost i governance na razini poduzeća"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Zahtjevi i dizajn",
+        "description": "Radionica za razumijevanje poslovnih potreba i dizajn strukture aplikacije sa stakeholderima."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Vizualni razvoj",
+        "description": "Izgradnja aplikacije korištenjem drag-and-drop sučelja s unaprijed izgrađenim komponentama i šablonama."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Integracija podataka",
+        "description": "Povezivanje sa SAP sustavima i vanjskim izvorima podataka s besprijekornom autentifikacijom."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Testiranje i usavršavanje",
+        "description": "Testiranje prihvatljivosti korisnika i iterativna poboljšanja na osnovu povratnih informacija."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Implementacija",
+        "description": "Implementacija na web, iOS i Android s automatiziranom izgradnjom i distribucijom."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Obuka i podrška",
+        "description": "Obuka krajnjih korisnika i kontinuirana podrška za kontinuirano poboljšanje."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Automatizacija procesa",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Usluge",
+    "description": "Automatizacija poslovnih procesa s inteligentnim workflow-om i mogućnostima automatizacije robnih procesa za povećanu učinkovitost.",
+    "cta": "Automatiziraj svoje procese →",
+    "servicesTitle": "Kompletan rješenja za automatizaciju procesa",
+    "servicesSubtitle": "Od jednostavnih workflow-a do kompleksnog RPA - sveobuhvatna stručnost automatizacije.",
+    "whyChooseTitle": "Inteligentna automatizacija procesa",
+    "whyChooseDescription": "Transformiraj svoje poslovne operacije s SAP Build Process Automation. Kombiniraj upravljanje workflow-om, RPA i AI za izvrsnost procesa od kraja do kraja.",
+    "implementationTitle": "Implementacijski roadmap",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Upravljanje workflow-om",
+        "description": "Dizajn i orkestracija kompleksnih poslovnih workflow-a.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Vizualni designer workflow-a",
+          "Odobrenje i logika rutiranja",
+          "Upravljanje ljudskom zadaćom",
+          "Paralelna i sekvencijalna obrada",
+          "Rukovanje eskalacijom i rokovima"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Automatizacija robnih procesa",
+        "description": "Automatizacija ponavljajućih zadataka sa softverskim robotima.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Automatizacija radne površine i weba",
+          "Skrobljenje zaslona i ekstrakcija podataka",
+          "Integracija aplikacije bez API-ja",
+          "Prisustvujući i neprisustvujući botovi",
+          "Raspored i orkestracija bota"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Obrada dokumenata",
+        "description": "Inteligentna ekstrakcija i klasifikacija dokumenata.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Ekstrakcija podataka pogonjena AI-jem",
+          "Klasifikacija i rutiranje dokumenata",
+          "Obrada temeljenja na šablonima",
+          "Podrška za više formata (PDF, slike, skeniranja)",
+          "Pravila validacije i provjere"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Workflow-i odobrenja",
+        "description": "Pojednostavljenje procesa odobrenja u cijeloj organizaciji.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Lanci odobrenja s više razina",
+          "Logika uvjetnog rutiranja",
+          "Pravila delegacije i zamjene",
+          "Mogućnosti odobrenja na mobilnom",
+          "Sustav obavijesti i podsjetnika"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Analitika procesa",
+        "description": "Pronađi uvide u performanse procesa i uska grla.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Rudarenje procesa i otkrivanje",
+          "Metrike performansi i KPI-ji",
+          "Identifikacija uskog grla",
+          "Nadzor usklađenosti",
+          "Preporuke za kontinuirano poboljšanje"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Governance i usklađenost",
+        "description": "Osiguraj da procesi ispunjavaju regulatorne zahtjeve.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audit trail i protokoliranje",
+          "Kontrola pristupa i sigurnost",
+          "Primjena pravila usklađenosti",
+          "Kontrola verzije i upravljanje promjenama",
+          "Nadzor i primjena SLA-a"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% smanjenja vremena ručne obrade",
+      "99,9% točnosti u automatiziranim zadacima",
+      "Brz ROI u roku od 3-6 mjeseci",
+      "Poboljšana usklađenost i revidirano",
+      "Posvećena podrška implementacije i optimizacija"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Otkrivanje procesa",
+        "description": "Analiza i dokumentiranje trenutnih procesa za identifikaciju mogućnosti automatizacije."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Dizajn automatizacije",
+        "description": "Dizajn optimalnog rješenja automatizacije kombiniranjem workflow-a, RPA i AI mogućnosti."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Razvoj i konfiguracija",
+        "description": "Izgradnja i konfiguracija automatizacije korištenjem alata SAP Build Process Automation."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Testiranje i validacija",
+        "description": "Sveobuhvatno testiranje kako bi se osigurala točnost i pouzdanost automatizacije."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Implementacija i Go-Live",
+        "description": "Implementacija u proizvodnju s nadzorom uvoženja i obuka korisnika."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Nadzor i optimizacija",
+        "description": "Kontinuirani nadzor i poboljšanja na osnovu analitike performansi."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Arhitektura i dizajn",
+    "title": "SAP BTP arhitektura",
+    "subtitle": "i usluge dizajna",
+    "description": "Strateško planiranje arhitekture i dizajn za skalabilna, sigurna i visokoperformantna rješenja SAP BTP-a. Gradimo okruženja Cloud razreda poduzeća prilagođena tvojim poslovnim zahtjevima.",
+    "cta": "Raspravi o vašim potrebama arhitekture →",
+    "servicesTitle": "Sveobuhvatne usluge arhitekture",
+    "servicesSubtitle": "Od početnog dizajna krajolika do implementacije sigurnosti, pokrivamo sve aspekte tvoje SAP BTP arhitekture.",
+    "whyChooseTitle": "Stručna arhitektura koja daje rezultate",
+    "whyChooseDescription": "Naši certificirani SAP BTP arhitekti donose godine iskustva u dizajniranju rješenja za poduzeća za globalne organizacije. Kombiniramo najbolje prakse s inovacijom da создamo arhitekture koje vydržavaju test vremena.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Dizajn krajolika",
+        "description": "Sveobuhvatna arhitektura BTP krajolika prilagođena tvojim poslovnim zahtjevima.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Setup okruženja s više razina (Dev, Test, Production)",
+          "Struktura i organizacija subračuna",
+          "Dodjela resursa i planiranje kapaciteta",
+          "Cloud Foundry i Kyma runtime konfiguracija",
+          "Planiranje topologije mreže i povezanosti"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Arhitektura sigurnosti",
+        "description": "Dizajn sigurnosti na razini poduzeća za zaštitu tvog BTP okruženja i podataka.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Strategija upravljanja identitetom i pristupom (IAM)",
+          "Implementacija kontrole pristupa na osnovu uloga (RBAC)",
+          "Šifriranje podataka i standardi usklađenosti",
+          "Nadzor sigurnosti i otkrivanje prijetnji",
+          "Audit logging i izvještavanje o usklađenosti"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Visoka dostupnost",
+        "description": "Dizajn otpornih sustava s minimalnim vremenom isključenosti i maksimalnom pouzdanošću.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Strategije implementacije s više regija",
+          "Rješenja za oporavak od katastrofe i sigurnosne kopije",
+          "Balansiranje opterećenja i mehanizmi failovera",
+          "Planiranje kontinuiteta poslovanja",
+          "Nadzor performansi i optimizacija"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Setup Integration Suite",
+        "description": "Kompletan setup Integration Suite za besprijekornu povezanost sustava.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Cloud Integration (CPI) setup i konfiguracija",
+          "Implementacija upravljanja API-jem",
+          "Konfiguracija Open Connectors",
+          "Korištenje Integration Advisor",
+          "Implementacija unaprijed pripremljenog sadržaja integracije"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "Setup SAP Cloud Connector",
+        "description": "Sigurna povezanost od on-premise do cloud za hibridnu integraciju krajolika.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Instalacija i konfiguracija Cloud Connectora",
+          "Sigurno uspostavljanje tunela između on-premise i BTP",
+          "Upravljanje kontrolom pristupa i sigurnosnom grupom",
+          "Mapiranje sustava i konfiguracija virtualnog domaćina",
+          "Setup visoke dostupnosti i failovera",
+          "Nadzor i rješavanje problema povezanosti"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Setup Event Mesh",
+        "description": "Implementacija arhitekture vođene događajima za poslovne procese u stvarnom vremenu.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Dodjela instance Event Mesh",
+          "Konfiguracija redaka i teme",
+          "Setup i upravljanje Event Broker-om",
+          "Pravila rutiranja poruka i filtriranja",
+          "Nadzor i analitika događaja"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "Setup IAS",
+        "description": "Konfiguracija Identity Authentication Service za sigurno upravljanje korisnicima.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "Dodjela i konfiguracija IAS klijenta",
+          "Implementacija Single Sign-On (SSO)",
+          "Setup višefaktorske autentifikacije (MFA)",
+          "Integracija korporativnog davatelja identiteta",
+          "Dodjela korisnika i upravljanje životnim ciklus"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Autentifikacija i uloge korisnika",
+        "description": "Sveobuhvatna struktura upravljanja korisnicima i autorizacije.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Prilagođena definicija uloga i upravljanja",
+          "Dizajn modela autorizacije",
+          "Organizacija grupe korisnika",
+          "Implementacija sigurnosti na razini aplikacije",
+          "Dodjela uloga i workflow-i delegacije"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Smanjenje vremena implementacije za 40% s dokazanim obrascima arhitekture",
+      "Sigurnost na razini poduzeća u skladu s industrijskim standardima",
+      "Skalabilna infrastruktura koja raste s tvojim poslovanjem",
+      "Proaktivne mogućnosti nadzora za kritične sustave",
+      "Stručno vođenje od certificiranih SAP BTP arhitekata"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "Fokusirano na SAP BTP"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Godina kombiniranog iskustva"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Posluženih zemalja"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Stručni tim"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Zašto odabrati TerraBT",
+    "ctaSectionBadge": "⚡ Počni s projektom danas",
+    "ctaSectionTitle1": "Spreman graditi",
+    "ctaSectionTitle2": "Svoju SAP BTP arhitekturu?",
+    "ctaSectionDescription": "Zakaži besplatnu konzultaciju s našim SAP BTP arhitektima kako bi raspriavio tvoje zahtjeve i istraživao kako možemo pomoći da uspijevaš.",
+    "ctaSectionButton1": "Zakaži besplatnu konzultaciju →",
+    "ctaSectionButton2": "Pogledaj sve usluge"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Razvoj aplikacija",
+    "title": "SAP Fiori aplikacija",
+    "subtitle": "Usluge razvoja",
+    "description": "Razvoj modernih, responsivnih Fiori aplikacija koje pružaju izvanredan korisnički doživljaj na svim uređajima. Od koncepta do implementacije, kreiramo lijepe, visokoperformantne aplikacije koristeći SAP najnovije tehnologije.",
+    "cta": "Počni s Fiori projektom →",
+    "servicesTitle": "Kompletan rješenja razvoja Fiori",
+    "servicesSubtitle": "Razvoj Fiori od kraja do kraja od dizajna do implementacije i dalje.",
+    "whyChooseTitle": "Fiori stručnjaci koji isporučuju izvrsnost",
+    "whyChooseDescription": "Naši SAP certificirani razvijatelji specijaliziraju se za razvoj Fiori aplikacija na razini poduzeća. Kombiniramo tehničku stručnost s dizajnerskim razmišljanjem da kreiramo aplikacije koje korisnici vole.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Razvoj prilagođene Fiori aplikacije",
+        "description": "Razvoj prilagođenih Fiori aplikacija koje savršeno odgovaraju tvojim poslovnim zahtjevima.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5 framework stručnost",
+          "Fiori Elements i Freestyle aplikacije",
+          "Integracija OData usluge",
+          "Responzivni dizajn za sve uređaje",
+          "Prilagođeni kontroli i komponenti"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Dizajn UI/UX",
+        "description": "Kreiraj intuitivno, lijepo sučelje slijedeći SAP Fiori smjernice za dizajn.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "Poštivanje SAP Fiori načela dizajna",
+          "Korisničko istraživanje i razvoj persona",
+          "Žičani okviri i prototipski razvoj",
+          "Usklađenost s pristupačnošću (WCAG)",
+          "Prilagodba teme i branding"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Optimizacija performansi",
+        "description": "Osiguraj da se tvoje Fiori aplikacije brzo učitavaju i glatko izvršavaju na svakom uređaju.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Optimizacija koda i minifikacija",
+          "Implementacija lazy loadinga",
+          "Smanjenje veličine paketa",
+          "Optimizacija mrežnog zahtjeva",
+          "Nadzor performansi i analitika"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Razvoj orijentiran prema mobilnom",
+        "description": "Razvoj Fiori aplikacija optimizirane za mobilne korisnike i offline scenarije.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Responzivni i adaptivni dizajn",
+          "Interakcije optimizirane za dodir",
+          "Mogućnosti specifične za mobilne (kamera, GPS)",
+          "Sinkronizacija podataka u offline modu",
+          "Mogućnosti Progressive Web App (PWA)"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integracija i testiranje",
+        "description": "Besprijekornu integraciju backend-a s sveobuhvatnom pokrivanju testiranja.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway i stvaranje OData usluge",
+          "Integracija sustava backend-a",
+          "Jedinično i integracijsko testiranje",
+          "Automatizacija end-to-end testa",
+          "Kontinuirana integracija/implementacija (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Obuka i podrška",
+        "description": "Ojačaj svoj tim s znanjem i kontinuiranom podrškom održavanja.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Radionice obuke razvijatelja",
+          "Dokumentacija najboljih praksi",
+          "Pregled koda i osiguranje kvalitete",
+          "Kontinuirana održavanja i ažuriranja",
+          "Sveobuhvatna implementacija u produkciju"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Moderno, intuitivno sučelje koje povećava prihvaćanje korisnika",
+      "Brži razvoj s ponovno iskoristivim komponentama i šablonama",
+      "Kompatibilnost na više uređaja za besprijekorno iskustvo",
+      "SAP certificirani razvijatelji s dubokom Fiori stručnošću",
+      "Smanjeni troškovi obuke s poznatim, dosljednim UX"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Isporučene Fiori aplikacije"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Stopa zadovoljstva korisnika"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Brže vrijeme na tržištu"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobilno responzivno"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Zašto odabrati TerraBT",
+    "ctaSectionBadge": "⚡ Dostupna ograničena mjesta razvoja",
+    "ctaSectionTitle1": "Spreman graditi",
+    "ctaSectionTitle2": "Tvoju sljedeću Fiori aplikaciju?",
+    "ctaSectionDescription": "Raspriavio tvoje zahtjeve i kreiraj lijepu, visokoperformantnu Fiori aplikaciju koju će korisnici voljeti.",
+    "ctaSectionButton1": "Dobij besplatan ponudu →",
+    "ctaSectionButton2": "Istražite druge usluge"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progressive Web aplikacije",
+    "title": "Offline PWA aplikacije",
+    "subtitle": "za SAP BTP",
+    "description": "Web aplikacije napredne progresivne tehnologije s mogućnostima rada u offline modu za besprijekorko iskustvo korisnika gdje god. Gradimo aplikacije koje savršeno rade bilo online ili offline, isporučujući nativne doživljaje aplikacija kroz web.",
+    "cta": "Gradimo tvoju PWA →",
+    "servicesTitle": "Kompletan usluge razvoja PWA",
+    "servicesSubtitle": "Od Offline-First arhitekture do push obavijesti, gradimo PWA koje se natječu s nativnih aplikacija.",
+    "whyChooseBadge": "PWA prednost",
+    "whyChooseTitle": "Nativni doživljaj, Web jednostavnost",
+    "whyChooseDescription": "Progressive Web aplikacije kombiniraju najbolje od web i nativnih aplikacija. Bez odobrenja App Store, trenutnih ažuriranja i rada na svim uređajima - sve s app-sličnim iskustvom.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Offline-First arhitektura",
+        "description": "Dizajn aplikacija koje rade besprijekorko čak i bez internetske povezanosti.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Implementacija Service Workera",
+          "Strategije predmemoriranja podataka u offline modu",
+          "Upravljanje IndexedDB i lokalnom pohranom",
+          "Mogućnosti sinkronizacije u pozadini",
+          "Strategije rješavanja sukoba"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Sinkronizacija podataka",
+        "description": "Inteligentni sinkronizacijski mehanizmi za održavanje dosljednih podataka na različitim uređajima.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automatska sinkronizacija u pozadini",
+          "Delta sinkronizacija za učinkovit prijenos podataka",
+          "Otkrivanje i rješavanje sukoba",
+          "Optimistični ažuriranja UI-ja",
+          "Mehanizmi ponovnog pokušaja i rukovanje greškama"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Mogućnosti Progressive Web aplikacije",
+        "description": "Nativna app-slično iskustvo s modernim mogućnostima web-a.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Konfiguracija app manifest",
+          "Dodaj na mogućnost početnog zaslona",
+          "Podrška push obavijesti",
+          "Integracija kamere i GPS",
+          "Arhitektura app shell"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Optimizacija performansi",
+        "description": "Munjevito brzi vremena učitavanja i glatki offline prijelazi.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Pre-predmemoriranje kritičnih resursa",
+          "Lazy loading za slike i sadržaj",
+          "Code splitting i bundling",
+          "Kompresija i minifikacija",
+          "Nadzor performansi i analitika"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Sigurnost i usklađenost",
+        "description": "Sigurna pohrana podataka u offline modu i prijenos.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Šifriranje podataka u mirovanju",
+          "Sigurni tokeni autentifikacije",
+          "Nameta HTTPS",
+          "Politika sigurnosti sadržaja (CSP)",
+          "Redoviti sigurnosni auditi"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Poboljšanja online",
+        "description": "Poboljšana funkcionalnost kada je dostupna povezanost.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Ažuriranja u stvarnom vremenu i obavijesti",
+          "Sigurnosna kopija u oblaku i vraćanje",
+          "Sinkronizacija s više uređaja",
+          "Analitika i telemetrija",
+          "Otkrivanje mogućnosti i progresivno poboljšanje"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Radi gdje god, bilo kada - čak i bez interneta",
+      "Poboljšan korisnički doživljaj s trenutnim učitavanjem",
+      "Smanjeni troškovi poslužitelja s učinkovitom predmemorijom",
+      "Više stopa konverzije iz app-sličnog iskustva",
+      "Bolje angažmane s push obavijestima"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Offline mogućnost"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Brža vremena učitavanja"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Smanjena upotreba podataka"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Veće angažmane"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Omogući offline mogućnosti danas",
+    "ctaSectionTitle1": "Spreman graditi",
+    "ctaSectionTitle2": "Tvoju Offline-First PWA?",
+    "ctaSectionDescription": "Kreirajmo Progressive Web aplikaciju koja radi bez greške u offline modu i isporučuje nativno app iskustvo tvojim korisnicima.",
+    "ctaSectionButton1": "Počni s PWA projektom →",
+    "ctaSectionButton2": "Pogledaj sve usluge"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Upravljanja podataka",
+    "title": "SAP BTP baza podataka",
+    "subtitle": "Usluge upravljanja",
+    "description": "Učinkovit dizajn baze podataka, optimizacija i upravljanje za visokoperformantne SAP BTP aplikacije. Stručne usluge za SAP HANA Cloud, PostgreSQL i SAP ASE baze podataka.",
+    "cta": "Optimiziraj tvoju bazu podataka →",
+    "servicesTitle": "Kompletan rješenja upravljanja bazom podataka",
+    "servicesSubtitle": "Od dizajna do optimizacije, sigurnosti do oporavka - sveobuhvatna stručnost baza podataka.",
+    "whyChooseTitle": "Performanse, sigurnost, pouzdanost",
+    "whyChooseDescription": "Naši stručnjaci baza podataka donose duboku stručnost u SAP BTP tehnologije baza podataka. Osiguravamo da su tvoji podaci brzi, sigurni i uvijek dostupni kada su potrebni.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Dizajn i modeliranje baze podataka",
+        "description": "Učinkovit dizajn sheme baze podataka optimiziran za SAP BTP aplikacije.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "Dizajn SAP HANA Cloud baze podataka",
+          "PostgreSQL i SAP ASE konfiguracija",
+          "Modeliranje entiteta i odnosa",
+          "Strategije normalizacije i denormalizacije",
+          "Strategije indeksiranja i particioniranja"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Optimizacija performansi",
+        "description": "Maksimiziraj performanse baze podataka za munjevito brz izvršenja upita.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Optimizacija i tuning upita",
+          "Analiza indeksa i preporuke",
+          "Optimizacija plana izvršavanja",
+          "Konfiguracija memorije i predmemorije",
+          "Nadzor performansi i profiliranje"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Sigurnost i usklađenost",
+        "description": "Zaštiti svoje podatke s mjerama sigurnosti na razini poduzeća.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Šifriranje podataka u mirovanju i pri prijenosu",
+          "Sigurnost na razini redaka i stupca",
+          "Implementacija audit trail",
+          "GDPR i zahtjevi za usklađenost",
+          "Šifriranje sigurnosne kopije i sigurna pohrana"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Sigurnosna kopija i oporavak",
+        "description": "Sveobuhvatno planiranje oporavka od katastrofe i kontinuiteta poslovanja.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automatiziran raspored sigurnosne kopije",
+          "Mogućnosti oporavka na točku u vremenu",
+          "Postupci oporavka od katastrofe",
+          "Konfiguracija visoke dostupnosti",
+          "Multi-region replikacija"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Migracija podataka",
+        "description": "Besprijekornu migraciju podataka iz legacy sustava u SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Ekstrakcija i transformacija podataka",
+          "Strategija i planiranje migracije",
+          "Tehnike migracije bez vremenske isključenosti",
+          "Validacija i provjera podataka",
+          "Postupci vraćanja i testiranje"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Nadzor i održavanje",
+        "description": "Proaktivni nadzor i održavanje za optimalnog zdravlja baze podataka.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Nadzor performansi u stvarnom vremenu",
+          "Automatizirana upozorenja i obavijesti",
+          "Provjera zdravlja i dijagnostika",
+          "Planiranje kapaciteta i prognoziranje",
+          "Upravljanje zakrvama i ažuriranja"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Do 10x brža performansa upita s optimizacijom",
+      "99,99% dostupnost s konfiguracijom visoke dostupnosti",
+      "Smanjeni troškovi pohrane s učinkovitim dizajnom",
+      "Spreman za usklađenost s ugrađenim sigurnosnim mogućnostima",
+      "Proaktivni nadzor i stručno vođenje"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Izvrsnost baze podataka",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Garantija dostupnosti"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Poboljšanje performansi"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Sigurnost podataka"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Stručno vođenje"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Optimiziraj performanse baze podataka",
+    "ctaSectionTitle1": "Spreman maksimiziraj",
+    "ctaSectionTitle2": "Performanse tvoje baze podataka?",
+    "ctaSectionDescription": "Dobij besplatan pregled zdravlja baze podataka i otkri mogućnosti optimizacije koja bi mogla transformirati performanse tvoje aplikacije.",
+    "ctaSectionButton1": "Dobij besplatu procjenu baze podataka →",
+    "ctaSectionButton2": "Istražite sve usluge"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Inovacija i strategija",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "za SAP BTP inovaciju",
+    "description": "Korisnički orijentirani pristup dizajnu za razvoj inovativnih SAP BTP rješenja koja rješavaju stvarne poslovne izazove. Pomagamo ti otkriti prave probleme za rješavanje i graditi rješenja koja korisnici vole.",
+    "cta": "Zakaži design workshop →",
+    "servicesTitle": "Naš Design Thinking proces",
+    "servicesSubtitle": "Dokazana metodologija za inovaciju i rješavanje problema u SAP BTP projektima.",
+    "whyChooseTitle": "Inovacija koja stvara stvarnu vrijednost",
+    "whyChooseDescription": "Design Thinking transformira kako se prilaziš SAP BTP projektima. Fokusiranjem na potrebe korisnika i brz iteracije, pomagamo ti graditi rješenja koja isporučuju mjerljivu poslovnu vrijednost.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Korisničko istraživanje i empatija",
+        "description": "Duboko razumijevanje potreba, bolnih točaka i motivacija tvojih korisnika.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Korisničkih intervjua i angažmana stakeholdera",
+          "Razvoj persona i mapiranje putovanja",
+          "Kontekstualnih istraživanja i promatranja",
+          "Identifikacija bolnih točaka i mogućnosti",
+          "Empatijske radionice mapiranja"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Definicija problema",
+        "description": "Jasno definiranje pravih problema za rješavanje maksimalnog poslovnog utjecaja.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Formulacija izjave o problemu",
+          "Okvir dizajna izazova",
+          "Identifikacija područja mogućnosti",
+          "Definicija kriterija uspjeha",
+          "Radionice usklađivanja stakeholdera"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideation radionice",
+        "description": "Generiranje inovativnih rješenja kroz strukturne kreativne sesije.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Vođene brainstorm sesije",
+          "SCAMPER i tehnike bočnog razmišljanja",
+          "Kolaborativne ideation radionice",
+          "Prioritizacija i izbor ideja",
+          "Razvoj koncepta i usavršavanje"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototipski razvoj",
+        "description": "Brz pristup stvaranju opipljive reprezentacije ideja za validaciju.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Žičani okviri i skice niske vjernosti",
+          "Interaktivni klikljivi prototipski razvoj",
+          "Visoke vjernosti mockups",
+          "Razvoj dokaza koncepta",
+          "Dizajn MVP (Minimum Viable Product)"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Testiranje i iteracija",
+        "description": "Validacija rješenja s pravim korisnicima i kontinuirano poboljšanje.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Sesije testiranja upotrebljivosti",
+          "A/B testiranje i eksperimentiranje",
+          "Prikupljanje i analiza korisničke povratne informacije",
+          "Iterativno usavršavanje dizajna",
+          "Validacija prema kriterijima uspjeha"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Podrška implementaciji",
+        "description": "Vođenje tvoga tima od validirane koncepta do uspješnog pokretanja.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Procjena tehnička izvedljivosti",
+          "Kreiranje roadmapa implementacije",
+          "Planiranje Agile sprint",
+          "Suradnja tima razvoja",
+          "Post-launch nadzor i optimizacija"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Smanjenje rizika validacijom ideja prije velike investicije",
+      "Brža inovacija s strukturiranim pristupom rješavanju problema",
+      "Viši prihvat korisnika kroz rješenja orijentirana prema korisnicima",
+      "Usklađenost tima s više funkcija i angažman",
+      "Mjerljivi poslovni rezultati i ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Brže rješavanje problema"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Smanjena otpad razvoja"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Zadovoljstvo stakeholdera"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Pristup orijentiran prema korisnicima"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "Integracija i povezanost",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "Usluge",
+    "description": "Besprijekorni integracijski rješenja koja povezuju tvoje SAP sustave s cloud i on-premise aplikacijama. Stručna implementacija Cloud Integration, API Management, Open Connectors i Integration Advisor.",
+    "cta": "Poveži svoje sustave →",
+    "servicesTitle": "Kompletan Integration Suite stručnost",
+    "servicesSubtitle": "Od Cloud Integration do API Management - sveobuhvatne usluge integracije.",
+    "whyChooseTitle": "Besprijekornu sistemsku povezanost",
+    "whyChooseDescription": "SAP BTP Integration Suite pruža sve što trebate za povezivanje vašeg poduzeća. Naši stručnjaci osiguravaju da su tvoje integracije pouzdane, sigurne i skalabilne.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "Povezivanje cloud i on-premise sustava s robusnim integracijski tokovima.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Dizajn i razvoj integracijskih tokova",
+          "Korištenje unaprijed pripremljenog sadržaja integracije",
+          "Mapiranje poruka i transformacija",
+          "Rukovanje greškama i nadzor",
+          "Upravljanje sigurnosnim artefaktima"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "Upravljanje API-jem",
+        "description": "Dizajn, objavljivanje i upravljanja API-ja s sveobuhvatnom podrškom životnog ciklusa.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "Stvaranje i konfiguracija API proxy",
+          "Primjena politika (sigurnost, limitiranje broja)",
+          "API portal i dokumentacija za razvijatelje",
+          "Analitika i nadzor korištenja",
+          "Monetizacija i upravljanja kvotama"
         ]
       },
       "openConnectors": {
         "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "description": "Unaprijed izgrađeni konektori za brzu integraciju s sustavima trećih strana.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ unaprijed izgrađenih konektora",
+          "Razvoj prilagođenih konektora",
+          "Autentifikacija i autorizacija",
+          "Transformacija i normalizacija podataka",
+          "Integracija vođena događajima"
         ]
       },
       "advisor": {
         "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "description": "Ubrzaj razvoj integracije s preporukama pogonjenima AI-jem.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automatizirane prijedloge mapiranja",
+          "Vodiči za primjenu poruka (MIGs)",
+          "Šabloni scenarija B2B integracije",
+          "Prijedlozi mapiranja sučelja",
+          "Preporuke najboljih praksi"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Sigurnost i governance",
+        "description": "Sigurnost i upravljanja na razini poduzeća za sve integracije.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth i SAML autentifikacija",
+          "Upravljanja certifikatima i ključ",
+          "Šifriranje na razini transporta (TLS/SSL)",
+          "Šifriranje na razini poruke",
+          "Audit logging i usklađenost"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Nadzor i operacije",
+        "description": "Sveobuhvatna nadzor i operacijska izvrsnost.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Nadzor poruka u stvarnom vremenu",
+          "Metrike performansi i KPI-ji",
+          "Setup upozorenja i obavijesti",
+          "Analiza dnevnika i rješavanje problema",
+          "Planiranje kapaciteta i optimizacija"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Brža integracija s unaprijed pripremljenim sadržajem i akceleratorima",
+      "Smanjeni troškovi integracije s cloud-nativnom platformom",
+      "Pouzdanost i skalabilnost na razini poduzeća",
+      "Jedina platforma za sve potrebe integracije",
+      "Posvećena konzultacija stručnjaka i vođenje"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Unaprijed izgrađeni konektori"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Dostupnost integracije"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Brža implementacija"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Stručni tim"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Izvrsnost integracije",
+    "ctaSectionBadge": "⚡ Poveži svoje poduzeće danas",
+    "ctaSectionTitle1": "Spreman ujediniti",
+    "ctaSectionTitle2": "Tvoje poslovne sustave?",
+    "ctaSectionDescription": "Raspriavimo tvoje zahtjeve integracije i kreirajmo sveobuhvatna rješenja koja povezuje sve tvoje kritične poslovne sustave.",
+    "ctaSectionButton1": "Dobij konzultacija integracije →",
+    "ctaSectionButton2": "Pogledaj sve usluge"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Event-Driven arhitektura",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Usluge implementacije",
+    "description": "Implementacija arhitekture vođene događajima u realnom vremenu za brze, skalabilne poslovne procese. Gradimo distribuirane sustave koji brzo reagiraju na poslovne događaje s SAP Event Mesh-om.",
+    "cta": "Gradim Event-Driven arhitekturu →",
+    "servicesTitle": "Kompletan Event Mesh rješenja",
+    "servicesSubtitle": "Od dizajna arhitekture do implementacije - gradim brze event-driven sustave.",
+    "whyChooseTitle": "Reaktivnost poslovanja u stvarnom vremenu",
+    "whyChooseDescription": "Event Mesh omogućava tvojim poslovanjem da brzo reagira na događaje kako se pojavljuju. Gradim labavo povezane, visoko skalabilne sustave koji se prilagođavaju promijenjenim poslovnim zahtjevima.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh arhitektura",
+        "description": "Dizajn i implementacija event-driven arhitekture na razini poduzeća.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Dizajn topologije Event Mesh",
+          "Distribucija događaja s više regija",
+          "Konfiguracija Event Broker",
+          "Strategije rutiranja poruka",
+          "Dizajn tema i redaka"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Obrada događaja u stvarnom vremenu",
+        "description": "Obrada i reagiranje na poslovne događaje u stvarnom vremenu.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Implementacija event streaming",
+          "Obrada kompleksnih događaja (CEP)",
+          "Filtriranje i transformacija događaja",
+          "Agregacija i korelacija događaja",
+          "Isporuka događaja s niska kašnjenja"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Event-Driven integracije",
+        "description": "Povezivanje sustava kroz asinkronu komunikaciju temeljenu na događajima.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Obrasci Publisher/Subscriber",
+          "Event-driven microservices",
+          "Webhook i callback integracija",
+          "Event replay i oporavak",
+          "Upravljanja Dead Letter Queue"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Sigurnost i governance",
+        "description": "Sigurna prijenos događaja s sveobuhvatnom upravljanjem.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Šifriranje događaja pri prijenosu",
+          "Kontrola pristupa i autorizacija",
+          "Validacija sheme događaja",
+          "Usklađenost i audit logging",
+          "Kontrole privatnosti podataka"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud i hibridni",
+        "description": "Event mesh preko cloud pružatelja i on-premise sustava.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Distribucija događaja preko oblaka",
+          "Hibridna cloud povezanost",
+          "Multi-region redundancija",
+          "Geografsko rutiranje događaja",
+          "Cloud-agnostic arhitektura"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Nadzor i analitika",
+        "description": "Sveobuhvatna vidljivost u tvoj event-driven ekosistem.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Nadzor događaja u stvarnom vremenu",
+          "Metrike performansi i SLA-ovi",
+          "Vizualizacija toka događaja",
+          "Identifikacija uskog grla",
+          "Prognozno planiranje kapaciteta"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Odvajanje sustava za veću fleksibilnost i skalabilnost",
+      "Uvidi poslovanja u stvarnom vremenu i trenutna reagovanja",
+      "Poboljšana otpornost i tolerancija na greške sustava",
+      "Smanjenja kompleksnosti integracije točka-do-točke",
+      "Podrška za moderne event-driven arhitekture"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Kašnjenja isporuke događaja"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Događaja po sekundi"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Garantija isporuke događaja"
       },
       "distribution": {
         "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "label": "Multi-Region distribucija"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Event-Driven izvrsnost",
+    "ctaSectionBadge": "⚡ Gradim sustave u stvarnom vremenu",
+    "ctaSectionTitle1": "Spreman implementirati",
+    "ctaSectionTitle2": "Event-Driven arhitekturu?",
+    "ctaSectionDescription": "Transformiraj svoje poslovanje s obradom događaja u stvarnom vremenu. Raspriavimo kako Event Mesh može pokrenuti tvoje aplikacije sljedeće generacije.",
+    "ctaSectionButton1": "Zakaži Event Mesh konzultacija →",
+    "ctaSectionButton2": "Istražite sve tehnologije"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI i automatizacija",
+    "title": "AI pogonjena",
+    "subtitle": "Obrada računa",
+    "description": "Inteligentna automatizacija obrade računa pogonjena naprednom AI tehnologijom za precizne, učinkovite operacije. Transformiraj svoj proces plačanja s razmakom s najsuvremenijom AI tehnologijom integrirane s SAP BTP.",
+    "cta": "Automatiziraj svoje račune →",
+    "servicesTitle": "AI pogonjena automatizacija računa",
+    "servicesSubtitle": "Koristi napredne mogućnosti AI za inteligentnu obradu računa i automatizaciju.",
+    "whyChooseTitle": "Transformiraj obrada računa",
+    "whyChooseDescription": "Napredna AI donosi razumijevanje ljudske razine obradi računa. Rukujem kompleksnim rasporedom, više jezika i rubnih slučajeva s kojima se tradicionalni OCR sustavi bore.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Inteligentna ekstrakcija podataka",
+        "description": "Napredna AI pogonjena ekstrakcija podataka računa s bez prethodnom točnošću.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Multi-format obrada računa (PDF, slike, skeniranja)",
+          "Automatska detekcija i ekstrakcija polja",
+          "Prepoznavanje zaglavlja i stavku linije",
+          "Razumijevanje tablica i kompleksnog rasporeda",
+          "Prepoznavanje rukom napisanog teksta"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP integracija",
+        "description": "Besprijekornu integraciju sa SAP BTP uslugama i backend sustavima.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Izravna integracija sa SAP S/4HANA",
+          "Povezanost SAP Document Management Service",
+          "Okidači automatizacije workflow-a",
+          "Validacija podataka u stvarnom vremenu",
+          "Implementacija prilagođenih poslovnih pravila"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatizirana obrada",
+        "description": "Automatizacija od kraja do kraja s minimalnim ručnim intervencijama.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Inteligentno rutiranje i klasifikacija",
+          "Auto-odobrenje za nisko-rizične račune",
+          "Workflow-i rukovanja iznimkama",
+          "Otkrivanja i sprječavanja duplikata",
+          "Automatizacija trostrane provjere"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validacija i usklađenost",
+        "description": "Osiguraj točnosti i regulatorne usklađenosti u svakoj transakciji.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Pravila validacije s više razina",
+          "Provjera izračuna poreza",
+          "Provjera usklađenosti (PDV, GST)",
+          "Audit trail i protokoliranje",
+          "Privatnost podataka i sigurnost (GDPR kompatibilan)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analitika i uvidi",
+        "description": "Pronađi vrijedne uvide iz podataka obrade računa.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Metrike obrade i KPI-ji",
+          "Praćenja točnosti i stope greške",
+          "Analiza ušteda troškova",
+          "Analitika performansi dobavljača",
+          "Uvidi predvidljiva cash flowa"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Obuka i optimizacija",
+        "description": "Kontinuirano poboljšanje kroz AI učenja i optimizaciju sustava.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Prilagođena obuka modela za tvoje račune",
+          "Kontinuirano učenja iz korekcija",
+          "Optimizacija obrade temeljene na šablonima",
+          "Implementacija povratnu spiralu",
+          "Redovita poboljšanja točnosti"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ stopa točnosti smanjuje ručne korekcije",
+      "80% brža vremena obrade računa",
+      "70% smanjenja troškova obrade",
+      "Gotovo nula grešaka pri unosu podataka",
+      "Vidljivost statusa obrade u stvarnom vremenu"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Stopa točnosti"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Smanjenja vremena"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Ušteda troškova"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatizirana obrada"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Natrag na početnu",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Revolucioniranje obrade računa s AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Istražite kako integracija AI na SAP BTP transformira obradu računa s inteligentnom automatizacijom i naprednim razumijevanjem dokumenata.",
+      "intro": "Obrada računa tradicionalno je bila ručna zadaća koja troši vrijeme i je sklona greškama. Integracija napredne AI s SAP BTP revolucionira ovaj proces, donosim bez prethodnu automatizaciju, točnost i učinkovitost u poslovanje plačanja.",
+      "section1Title": "Izazov tradicionalne obrade računa",
+      "section1Content": "Organizacije obrađuju tisuće računa mjesečno, što zahtjeva ekstrakciju podataka, validaciju i unos u ERP sustave. Ručna obrada je spora, skupna i sklona greškama što može dovesti do odgoda plaćanja, dvostrukih plaćanja ili promijenjenih ranih diskontnih mogućnosti.",
+      "section2Title": "Naprednog razumijevanja AI dokumenata",
+      "section2Content": "Moderna AI donosi najsuvremenije mogućnosti obrade prirodnog jezika i vid računala obrada računa. Za razliku od tradicionalnih OCR sustava, napredna AI može razumjeti kontekst, rukovanja različitim oblicima računa i ekstrakcije informacija s izvanrednom točnošću čak i iz loše skeniranih ili kompleksnih dokumenata.",
+      "section3Title": "Besprijekornu SAP BTP integraciju",
+      "section3Content": "Integracija AI s SAP BTP stvara moćnu automation pipeline. Dolazni računi su automatski obrađen, podaci su ekstrahirani i validirani, i informacije teku izravno u SAP sustave bez ljudske intervencije. Ova integracija koristi robusnu povezanost i mogućnosti workflow-a SAP BTP.",
+      "section4Title": "Inteligentno rukovanja iznimkama",
+      "section4Content": "Jednom od glavnih snaga AI je sposobnost da inteligentno rukuje iznimkama. Pri susretu s neobičnim oblicima računa ili dvosmislenim informacijama, sustav može označiti stavke za ljudsku pregled s detaljnim objašnjenjima, čime rukovanje iznimkama postaje puno učinkovitiji od tradicionalnih sustava temeljenih na pravilima.",
+      "section5Title": "Mjerljiv utjecaj na poslovanje",
+      "section5Content": "Organizacije koje primjenjuju AI za obradu računa obično vide dramatske poboljšanja: 90% smanjenja vremena obrade, 95% smanjenja grešaka pri unosu podataka i značajne uštede troškova u poslovanju plačanja. Možda je najvažnije, osoblje može fokusa na strateške aktivnosti umjesto na ponavljajući unos podataka.",
+      "conclusionTitle": "Zaključak",
+      "conclusionContent": "Kombinacija naprednih mogućnosti AI i Enterprise-Grade infrastrukture SAP BTP predstavlja transformativni pristup obrada računa. Organizacije koje primjenjuju ovu tehnologiju dobivaju značajnu konkurentsku prednost kroz poboljšanu učinkovitost, točnost i smanjenje troškova."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Razvoj modernih Fiori aplikacija na SAP BTP",
+      "category": "Razvoj",
+      "readTime": "8 min",
+      "seoDescription": "Saznajte kako razviti moderne, responsivne Fiori aplikacije korištenjem moćnih alata i okvira razvoja SAP BTP.",
+      "intro": "SAP Fiori predstavlja budućnost poslovnih aplikacija, pružajući ujedinjeno iskustvo korisnika na svim uređajima i mogućnostima implementacije. Sa SAP Business Technology Platform (BTP), razvoj modernih Fiori aplikacija postaje omjer i moćniji nego ikad.",
+      "section1Title": "Moć SAP BTP-a za Fiori razvoj",
+      "section1Content": "SAP BTP nudi sveobuhvatan skup alata i usluga specifično dizajnirane za razvoj Fiori aplikacija. Platforma pruža sve od okruženja za razvoj do infrastrukture za implementaciju, omogućujući timima da se fokusa na stvaranje izvanrednog iskustva korisnika umjesto upravljanja infrastrukturom.",
+      "section2Title": "Ključne mogućnosti i najbolje prakse",
+      "section2Content": "Moderne Fiori aplikacije koriste SAP Fiori Elements framework, koji pruža unaprijed izgrađene UI komponente i obrasce koji osiguravaju konzistenciju i smanjuju vrijeme razvoja. Kombinacijom ovih elemenata s prilagođenim SAPUI5 kontrolama, razvijatelji mogu krirati aplikacije koje su i standardizirane i prilagođene specifičnim poslovnim zahtjevima.",
+      "section3Title": "Integracija sa SAP BTP uslugama",
+      "section3Content": "Jedan od glavnih prednosti razvoja Fiori aplikacija na SAP BTP je besprijekornu integraciju s drugim uslugama platforme. Od autentifikacije i autorizacije s SAP Cloud Identity Services do pohrane podataka sa SAP HANA Cloud, razvijatelji imaju pristup Enterprise-Grade uslugama koje se mogu lako integrirati u svoje aplikacije.",
+      "section4Title": "Responzivni dizajn i podrška za više uređaja",
+      "section4Content": "Fiori aplikacije razvijene na SAP BTP se automatski prilagođavaju različitim veličinama zaslona i uređajima, osiguravajući dosljedan korisnički doživljaj bilo da se pristupa s radne površine, tableta ili mobilnog telefona. Ova mogućnost responzivnog dizajna je ugrađena u framework, smanjujući napor potreban za podršku više uređaja.",
+      "section5Title": "Optimizacija performansi",
+      "section5Content": "SAP BTP pruža razne alate i tehnike za optimizaciju performansi Fiori aplikacija, uključujući lazy loading, bundling i caching strategije. Ove tehnike optimizacije osiguravaju da aplikacije brzo učitavaju i glatko reagiraju, čak i pri rukovanju velikim skupovima podataka ili kompleksnom poslovnom logikom.",
+      "conclusionTitle": "Zaključak",
+      "conclusionContent": "Razvoj modernih Fiori aplikacija na SAP BTP kombinira moć Enterprise-Grade infrastrukture s najsuvremenijim okvirima razvoja. Korištenjem mogućnosti platforme, timovi razvoja mogu krirati izuzetne, jednostavne za korištenje aplikacije koje potiču poslovnu vrijednost i poboljšavaju produktivnost u cijeloj organizaciji."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Offline PWA rješenja za kontinuitet poslovanja",
+      "category": "Arhitektura",
+      "readTime": "7 min",
+      "seoDescription": "Otkrijte kako progresivne web aplikacije (PWA) s offline mogućnostima osiguravaju kontinuitet poslovanja i produktivnost pod svim mrežnim uvjetima.",
+      "intro": "U današnjem povezanom svijetu, prekidi mrežne veze mogu zaustaviti poslovne operacije. Progresivne web aplikacije (PWA) s offline mogućnostima pružaju robusna rješenja za osiguranje kontinuiteta poslovanja, omogućujući korisnicima bezproblema rad bez obzira na dostupnost mreže.",
+      "section1Title": "Razumijevanje Offline-First arhitekture",
+      "section1Content": "Offline-First arhitektura predstavlja paradigmatski shift u kako razvijamo web aplikacije. Umjesto tretiranja offline moda kao rubnog slučaja, Offline-First dizajn ga čini jezgrom mogućnosti. Ovaj pristup osigurava da aplikacije ostaju funkcionalne čak i kada je mrežna povezanost nepouzdana ili potpuno nedostupna.",
+      "section2Title": "Service Workers: Leđa Offline PWA",
+      "section2Content": "Service workeri su tehnologija koja omogućava offline PWA. Ovi programabilni mrežni proxy sjedenju između vaše aplikacije i mreže, presretaju zahtjeve i omogućavaju sofisticirane strategije cachiranja. Korištenjem service workera, aplikacije mogu cachirati kritične resurse i podatke, osiguravajući dostupnost čak i offline.",
+      "section3Title": "Strategije sinkronizacije podataka",
+      "section3Content": "Ključni izazov u offline PWA je upravljanja sinkronizacijom podataka kada je spojivost vraćena. Implementacija robusnih strategija rješavanja sukoba i optimistički ažuriranja osigurava da podaci ostaju dosljedni na svim uređajima i backend sustavima. API-ji sinkronizacije u pozadini omogućavaju automatsku sinkronizaciju kada mreža ponovno postane dostupna.",
+      "section4Title": "Poslovne prednosti",
+      "section4Content": "Offline PWA isporučuje značajnu poslovnu vrijednost osiguravanjem produktivnosti pod svim mrežnim uvjetima. Vanjski radnici mogu nastaviti s svojim zadacima na udaljenim lokacijama, prodajni timovi mogu pristupiti kritičnim informacijama tijekom prezentacija, i poslovanje se glatko nastavlja tijekom mrežnih prekida. Ova pouzdanost izravno se prevodi u poboljšanu zadovoljstvo kupaca i operacijsku učinkovitost.",
+      "section5Title": "Implementacija sa SAP BTP",
+      "section5Content": "SAP BTP pruža odličnu podršku za gradnju offline PWA kroz svoju Mobile Services ponudu. Ove usluge uključuju offline sinkronizaciju podataka, sigurnu pohrani i sveobuhvatne API-je koji pojednostavljuju razvoj robusnih Offline-capable aplikacija.",
+      "conclusionTitle": "Zaključak",
+      "conclusionContent": "Offline PWA predstavljaju budućnost poslovnih aplikacija, pružajući otpornost i pouzdanost koju tradicionalne web aplikacije ne mogu ponuditi. Primjenom Offline-First arhitekture i korištenjem moderne web tehnologije, organizacije mogu osigurati kontinuitet poslovanja i održati produktivnost bez obzira na mrežne uvjete."
     }
   }
 }

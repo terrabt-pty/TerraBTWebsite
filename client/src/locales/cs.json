@@ -13,1450 +13,1450 @@
     "learn": "Prozkoumat služby"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Naše odbornost",
+    "subtitle": "Komplexní řešení SAP BTP pro transformaci vašeho podniku",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Vývoj aplikací Fiori",
+      "description": "Vývoj moderních, responzivních aplikací Fiori, které poskytují výjimečné uživatelské prostředí na všech zařízeních."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "Architektura a design BTP",
+      "description": "Strategické plánování architektury a design pro škálovatelná řešení SAP BTP přizpůsobená vašim obchodním potřebám."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Přístup designu orientovaný na uživatele pro vývoj inovativních řešení, která řeší skutečné obchodní výzvy."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline PWA aplikace",
+      "description": "Progresivní webové aplikace s offline funkčností zajišťující bezproblémové uživatelské prostředí kdekoli."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "Správa databází SAP BTP",
+      "description": "Efektivní design databází, optimalizace a správa pro vysoce výkonné aplikace BTP."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Zpracování faktur pomocí AI",
+      "description": "Inteligentní automatizace zpracování faktur poháněná pokročilou AI pro přesné a efektivní operace."
     },
     "integration": {
-      "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "title": "Sada SAP BTP Integration Suite",
+      "description": "Bezproblémová řešení integrace, která propojují vaše systémy SAP s cloudovými a lokálními aplikacemi."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Implementace architektury řízené událostmi v reálném čase pro reaktivní a škálovatelné obchodní procesy."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "Vývoj SAP CAP",
+      "description": "Vývoj moderních cloudových aplikací pomocí SAP Cloud Application Programming Model pro rychlý, škálovatelný vývoj."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Vytváření profesionálních podnikových aplikací pomocí no-code/low-code nástrojů pro rychlou digitální transformaci."
     },
     "buildAutomation": {
-      "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "title": "Automatizace procesů SAP Build",
+      "description": "Automatizace obchodních procesů pomocí inteligentního workflow a funkcí robotické automatizace procesů."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Naše zaměření",
+      "title": "100% specializace na SAP BTP",
+      "description": "Na rozdíl od všeobecných poradenských firem se zaměřujeme výhradně na SAP Business Technology Platform a zajišťujeme hlubokou odbornost a nejmodernější řešení.",
+      "point1": "Vyhrazený tým certifikovaných odborníků na SAP BTP",
+      "point2": "Vždy aktuální s nejnovějšími funkcemi a osvědčenými postupy BTP",
+      "point3": "Prokázaná úspěšnost v různých odvětvích"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Globální dosah",
+      "title": "Obsluha trhů po celém světě",
+      "description": "Přinášíme odbornost SAP BTP na trhy po celém světě a poskytujeme světové řešení bez ohledu na vaši polohu.",
+      "point1": "Vzdálené konzultace přes všechna časová pásma",
+      "point2": "Vícejazčkový support pro mezinárodní týmy",
+      "point3": "Porozumění místním obchodním požadavkům"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Moderní technologie",
+      "title": "Inovace poháněná AI",
+      "description": "Využití nejmodernější technologie AI k vylepšení řešení SAP BTP a zavedení automatizace a inteligence do vašich obchodních procesů.",
+      "point1": "Inteligentní automatizace pro opakující se úkoly",
+      "point2": "Pokročilé zpracování a analýza dat",
+      "point3": "Bezproblémová integrace do existujících pracovních postupů"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Centrum znalostí",
+    "subtitle": "Odborné poznatky a osvědčené postupy pro úspěch SAP BTP",
+    "readMore": "Přečíst článek",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Vývoj",
+      "title": "Vývoj moderních aplikací Fiori s SAP BTP",
+      "excerpt": "Naučte se, jak vytvářet responzivní, uživatelsky přívětivé aplikace Fiori, které plně využívají SAP Business Technology Platform.",
+      "readTime": "5 min"
     },
     "post2": {
       "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "title": "Offline PWA: Zajištění kontinuity obchodu kdekoli",
+      "excerpt": "Zjistěte, jak progresivní webové aplikace s offline funkcemi zajišťují bezproblémový chod vašich obchodních procesů i bez připojení k internetu.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI a automatizace",
+      "title": "AI pro inteligentní zpracování faktur",
+      "excerpt": "Prozkoumejte, jak integrace AI se SAP BTP transformuje zpracování faktur s bezprecedentní přesností a účinností.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integrace",
+      "title": "Zvládnutí sady SAP BTP Integration Suite",
+      "excerpt": "Komplexní průvodce připojením vašich podnikových systémů pomocí SAP BTP Integration Suite pro bezproblémový tok dat.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Architektura",
+      "title": "Architektura Event Mesh pro obchod v reálném čase",
+      "excerpt": "Implementace architektury řízené událostmi s SAP Event Mesh pro reaktivní a škálovatelná řešení.",
+      "readTime": "6 min"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Osvědčené postupy",
+      "title": "Strategie optimalizace databází BTP",
+      "excerpt": "Zásadní strategie pro optimalizaci výkonu databáze SAP BTP zajišťující rychlý a spolehlivý přístup k důležitým obchodním datům.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Začínáme",
+    "title": "Jste připraveni transformovat svůj podnik?",
+    "subtitle": "Zarezervujte si bezplatnou konzultaci s našimi odborníky na SAP BTP",
+    "availability": "Omezená dostupnost",
+    "contactInfo": "Kontaktní informace",
+    "email": "E-mail",
+    "globalPresence": "Globální přítomnost",
+    "servingCountries": "Obsluhujeme klienty ve více než 40 zemích po celém světě",
+    "fastResponse": "Záruka rychlé odpovědi",
+    "fastResponseDesc": "Získejte odborný přístup do 24 hodin. Naši odborníci na SAP BTP jsou připraveni vám pomoci uspět.",
+    "mentionCountry": "Při kontaktu s námi prosím uveďte vaši zemi",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Plné jméno",
+      "email": "Firemní e-mail",
+      "company": "Název společnosti",
+      "message": "Řekněte nám o vašem projektu",
+      "submit": "Zaplanovat bezplatnou konzultaci",
+      "submitting": "Posílání..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Zpráva odeslána!",
+      "description": "Děkujeme za váš kontakt. Ozveme se vám do 24 hodin."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Chyba",
+      "description": "Něco se pokazilo. Prosím zkuste znovu."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
-    "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
+    "description": "Specializované poradenství SAP BTP s vynikajícími výsledky po celém světě",
+    "services": "Služby",
+    "fiori": "Vývoj Fiori",
+    "architecture": "Architektura BTP",
+    "integration": "Integrace Suite",
+    "ai": "Řešení AI",
+    "knowledge": "Znalosti",
+    "blogArticles": "Články blogu",
+    "caseStudies": "Případové studie",
+    "resources": "Zdroje",
+    "company": "Společnost",
+    "about": "O nás",
     "contact": "Kontakt",
-    "careers": "Karriere",
+    "careers": "Kariéra",
     "blog": "Blog",
-    "documentation": "Dokumentation",
+    "documentation": "Dokumentace",
     "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "legal": "Právní informace",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Podmínky používání",
+    "copyright": "Všechna práva vyhrazena.",
+    "deployedOn": "Nasazeno na Cloudflare",
+    "serviceRestriction": "Služby nejsou dostupné v Austrálii a Novém Zélandu.",
+    "availableLanguages": "Dostupné ve vašem jazyce"
   },
   "common": {
     "learnMore": "Zjistit více",
-    "backToHome": "Zpět domů"
+    "backToHome": "Zpět na domovskou stránku"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Vývoj cloudových aplikací",
+    "title": "Vývoj SAP CAP",
+    "subtitle": "Služby",
+    "description": "Vývoj moderních cloudových aplikací pomocí SAP Cloud Application Programming Model pro rychlý a škálovatelný vývoj na SAP BTP.",
+    "cta": "Spusťte svůj projekt CAP →",
+    "servicesTitle": "Komplexní služby vývoje CAP",
+    "servicesSubtitle": "Od modelování dat až po nasazení - kompletní odbornost CAP pro vaše obchodní aplikace.",
+    "whyChoose": "Proč zvolit TerraBT",
+    "whyChooseTitle": "Profesionální vývoj CAP s výsledky",
+    "whyChooseDescription": "Naši certifikovaní vývojáři SAP CAP přinášejí roky zkušeností s vývojem podnikových aplikací. Kombinujeme technickou odbornost s obchodním smyslem, abychom dodali řešení, která přinášejí výsledky.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Vývoj full-stack CAP",
+        "description": "Vývoj aplikací od konce ke konci pomocí frameworku CAP.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "Modelování dat CDS a definice entit",
+          "Definice a implementace služby",
+          "Vývoj vlastní obchodní logiky",
+          "Generování Fiori Elements UI",
+          "Podpora CAP Node.js a Java runtime"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Integrace databází",
+        "description": "Bezproblémová integrace se SAP HANA Cloud a dalšími databázemi.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "Nativní vývoj SAP HANA Cloud",
+          "Podpora PostgreSQL a SAP ASE",
+          "Migrace databází a správa schémat",
+          "Optimalizace dotazů a optimalizace výkonu",
+          "Konfigurace databází s více klienty"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Bezpečnost a autorizace",
+        "description": "Implementace bezpečnosti na podnikové úrovni pro aplikace CAP.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Řízení přístupu na základě rolí (RBAC)",
+          "Integrace autentizace (XSUAA, IAS)",
+          "Anotace autorizace a omezení",
+          "Ochrana dat a zabezpečení na úrovni polí",
+          "Správa zabezpečených přihlašovacích údajů"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "Vývoj API a služeb",
+        "description": "Vývoj robustních OData a REST API pomocí služeb CAP.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "Vytvoření služby OData V2 a V4",
+          "Implementace REST API",
+          "Vlastní akce a funkce",
+          "Aktivace konceptu pro transakční aplikace",
+          "Integrace externí služby a mashups"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Integrace Fiori Elements",
+        "description": "Rychlý vývoj uživatelského rozhraní s Fiori Elements a CAP.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Aplikace List Report a Object Page",
+          "Vývoj Analytical List Page (ALP)",
+          "Integrace aplikace Freestyle Fiori",
+          "Anotace uživatelského rozhraní a přizpůsobení",
+          "Responzivní a adaptivní design"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD a DevOps",
+        "description": "Automatizované nasazení a kanály kontinuální integrace.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry a nasazení Kyma",
+          "Build MTA (Multi-Target Application)",
+          "Automatizované testy a brány kvality",
+          "Nastavení kanálu CI/CD (Jenkins, GitHub Actions)",
+          "Strategie propagace multi-prostředí"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Zrychlený vývoj s osvědčenými vzory CAP",
+      "Vestavěné osvědčené postupy a architektura připravená pro podniky",
+      "Škálovatelné aplikace, které rostou s vaší firmou",
+      "Bezproblémová integrace SAP S/4HANA",
+      "Odborné vedení během celého cyklu vývoje"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "Vývoj bez kódu/s nízkým kódem",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Vývojové služby",
+    "description": "Vytváření profesionálních podnikových aplikací pomocí no-code/low-code nástrojů pro rychlou digitální transformaci a obchodní agilitu.",
+    "cta": "Začněte stavět dnes →",
+    "servicesTitle": "Kompletní řešení SAP Build Apps",
+    "servicesSubtitle": "Od vizuálního vývoje až po nasazení v podniku - umožněte vašim obchodním uživatelům.",
+    "whyChooseTitle": "Rychlý vývoj aplikací",
+    "whyChooseDescription": "SAP Build Apps umožňuje obchodním uživatelům a vývojářům vytvářet výkonné aplikace bez rozsáhlého kódování. Zrychlete digitální transformaci pomocí vizuálních vývojových nástrojů.",
+    "implementationTitle": "Přístup k implementaci",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Vizuální vývoj",
+        "description": "Rozhraní drag-and-drop pro rychlé vytváření aplikací.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitivní vizuální builder stránek",
+          "Knihovna předdefinovaných UI komponent",
+          "Responzivní design canvas",
+          "Náhled a testování v reálném čase",
+          "Přizpůsobení motivu a značka"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Aplikace pro více platforem",
+        "description": "Vytvořte jednou, nasaďte všude - web, iOS a Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Podpora Progressive Web App (PWA)",
+          "Generování nativní mobilní aplikace",
+          "Optimalizace tabletu a desktopu",
+          "Funkce offline dat",
+          "Podpora nasazení App Store"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Integrace nativní pro cloud",
+        "description": "Bezproblémové připojení k službám a datům SAP BTP.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "Integrace SAP S/4HANA Cloud",
+          "Konektivita služby OData",
+          "Spotřeba služby BTP",
+          "Autentizace a autorizace",
+          "Synchronizace dat v reálném čase"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Rychlé prototypování",
+        "description": "Rychle ověřte nápady a iterujte na základě zpětné vazby.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Rychlý vývoj MVP",
+          "Testování uživateli a sběr zpětné vazby",
+          "Iterativní design a vylepšení",
+          "Správa verzí a rollback",
+          "Kolaborační nástroje pro týmy"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Povolení vývojářům občanů",
+        "description": "Umožněte obchodním uživatelům vytvářet aplikace.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Nízká křivka učení pro vývojáře mimo kódování",
+          "Řízené vývojové pracovní toky",
+          "Knihovna šablon a plánů",
+          "Zásady správy a kontroly kvality",
+          "Školící a povolující programy"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Rozšiřitelnost pro kód Pro",
+        "description": "Rozšiřte vlastním kódem, pokud je to nutné.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Vlastní logika JavaScript",
+          "Možnosti integrace API",
+          "Vývoj vlastní komponenty",
+          "Pokročilé transformace dat",
+          "Integrace knihoven třetích stran"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10x rychlejší vývoj aplikací",
+      "Snížení nákladů na vývoj o 60%",
+      "Umožnění obchodním uživatelům inovovat",
+      "Bezproblémová integrace ekosystému SAP",
+      "Zabezpečení a zásady správy na podnikové úrovni"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Požadavky a design",
+        "description": "Workshop k pochopení obchodních potřeb a návrhu struktury aplikace se zúčastněnými stranami."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Vizuální vývoj",
+        "description": "Vytvořte aplikaci pomocí rozhraní drag-and-drop s předdefinovanými komponenty a šablonami."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Integrace dat",
+        "description": "Připojte se k systémům SAP a externím zdrojům dat se bezproblémovou autentizací."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Testování a vylepšení",
+        "description": "Testování přijetí uživatelem a iterativní vylepšení na základě zpětné vazby."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Nasazení",
+        "description": "Nasaďte do webu, iOS a Android s automatizovaným sestavením a distribucí."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Školení a podpora",
+        "description": "Školení koncových uživatelů a průběžná podpora pro neustálé zlepšování."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
-    "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "badge": "Automatizace procesů",
+    "title": "Automatizace procesů SAP Build",
+    "subtitle": "Služby",
+    "description": "Automatizace obchodních procesů s inteligentními workflow a funkce automatizace robotických procesů pro zvýšenou efektivitu.",
+    "cta": "Automatizujte své procesy →",
+    "servicesTitle": "Kompletní řešení automatizace procesů",
+    "servicesSubtitle": "Od jednoduchých pracovních toků až k složitým RPA - komplexní odbornost automatizace.",
+    "whyChooseTitle": "Inteligentní automatizace procesů",
+    "whyChooseDescription": "Transformujte své obchodní operace pomocí SAP Build Process Automation. Kombinujte správu pracovního toku, RPA a AI pro komplexnost procesů od konce ke konci.",
+    "implementationTitle": "Mapa realizace",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Správa pracovního toku",
+        "description": "Návrh a orchestrace složitých obchodních pracovních toků.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Vizuální návrhář pracovního toku",
+          "Logika schvalování a směrování",
+          "Správa úloh člověka",
+          "Paralelní a sekvenční zpracování",
+          "Eskalace a manipulace s termíny"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Automatizace robotických procesů",
+        "description": "Automatizace opakujících se úkolů pomocí softwarových robotů.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Automatizace stolního počítače a webu",
+          "Scraping obrazovky a extrakce dat",
+          "Integrace aplikace bez rozhraní API",
+          "Obsluhovované a neobsluhovávané boty",
+          "Plánování a orchestrace botů"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Zpracování dokumentů",
+        "description": "Inteligentní extrakce a klasifikace dokumentů.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Extrakce dat poháněná AI",
+          "Klasifikace a směrování dokumentů",
+          "Zpracování na základě šablony",
+          "Podpora více formátů (PDF, obrázky, skeny)",
+          "Pravidla ověření a verifikace"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Schvalovací pracovní toky",
+        "description": "Zefektivnění procesů schvalování v rámci organizace.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Vícestupňové řetězce schválení",
+          "Podmíněná logika směrování",
+          "Pravidla delegace a náhrady",
+          "Možnosti schválení mobilního zařízení",
+          "Systém notifikací a připomenutí"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Analýzy procesů",
+        "description": "Získejte přehledy o výkonu procesů a úzkých místech.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Dolování procesů a objev",
+          "Metriky výkonu a KPI",
+          "Identifikace úzkého místa",
+          "Monitoring compliance",
+          "Doporučení pro kontinuální zlepšování"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Zásady správy a dodržování",
+        "description": "Zajistěte, aby procesy splňovaly regulační požadavky.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audit trail a protokolování",
+          "Řízení přístupu a bezpečnost",
+          "Vymáhání pravidel compliance",
+          "Správa verzí a správa změn",
+          "Monitoring a vymáhání SLA"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "Snížení ručního zpracování o 70%",
+      "99,9% přesnost automatizovaných úloh",
+      "Rychlý ROI během 3-6 měsíců",
+      "Vylepšená compliance a auditovatelnost",
+      "Dedikovaná podpora a optimalizace implementace"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Objev procesu",
+        "description": "Analýza a dokumentace současných procesů k identifikaci příležitostí automatizace."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Design automatizace",
+        "description": "Navrhněte optimální řešení automatizace kombinací workflow, RPA a schopností AI."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Vývoj a konfigurace",
+        "description": "Vytvořte a nakonfigurujte automatizaci pomocí nástrojů SAP Build Process Automation."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Testování a ověření",
+        "description": "Komplexní testování pro zajištění přesnosti a spolehlivosti automatizace."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Nasazení a go-live",
+        "description": "Nasazení do produkce s monitorovaným zavedením a školením uživatelů."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Monitoring a optimalizace",
+        "description": "Neustálý monitoring a zlepšování na základě analýz výkonu."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Architektura a design",
+    "title": "Architektura SAP BTP",
+    "subtitle": "a služby designu",
+    "description": "Strategické plánování architektury a design pro škálovatelná, bezpečná a vysoce výkonná řešení SAP BTP. Budujeme cloudová prostředí na podnikové úrovni přizpůsobená vašim obchodním potřebám.",
+    "cta": "Diskutujte o požadavcích na architekturu →",
+    "servicesTitle": "Komplexní architektonické služby",
+    "servicesSubtitle": "Od počátečního návrhu krajiny až po implementaci bezpečnosti pokrýváme každý aspekt vaší architektury SAP BTP.",
+    "whyChooseTitle": "Odborná architektura s výsledky",
+    "whyChooseDescription": "Naši certifikovaní architekti SAP BTP přinášejí roky zkušeností s navrhováním podnikových řešení pro globální organizace. Kombinujeme osvědčené postupy s inovacemi, abychom vytvořili architektury, které obstojí v čase.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Návrh krajiny",
+        "description": "Komplexní architektura krajiny BTP přizpůsobená vašim obchodním požadavkům.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Nastavení prostředí s více vrstvami (vývoj, testování, produkce)",
+          "Struktura dílčích účtů a organizace",
+          "Alokace zdrojů a plánování kapacity",
+          "Konfigurace runtime Cloud Foundry a Kyma",
+          "Topologie sítě a plánování konektivity"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Architektura bezpečnosti",
+        "description": "Design bezpečnosti na podnikové úrovni k ochraně vašeho prostředí BTP a dat.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Strategie správy identit a přístupu (IAM)",
+          "Implementace řízení přístupu na základě rolí (RBAC)",
+          "Šifrování dat a standardy compliance",
+          "Monitoring bezpečnosti a detekce hrozeb",
+          "Audit protokolování a zprávy compliance"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Vysoká dostupnost",
+        "description": "Design odolných systémů s minimální dobou výpadku a maximální spolehlivostí.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Strategie nasazení s více regiony",
+          "Řešení pro zotavení po havárii a zálohování",
+          "Vyrovnávání zátěže a mechanismy failover",
+          "Plánování kontinuity podnikání",
+          "Monitoring výkonu a optimalizace"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Nastavení Integration Suite",
+        "description": "Kompletní konfigurace Integration Suite pro bezproblémovou konektivitu systémů.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Nastavení a konfigurace Cloud Integration (CPI)",
+          "Implementace správy API",
+          "Konfigurace Open Connectors",
+          "Využití Integration Advisoru",
+          "Nasazení předbalených integračních obsahu"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "Nastavení SAP Cloud Connector",
+        "description": "Bezpečná konektivita mezi lokálním a cloudovým prostředím pro integraci hybridní krajiny.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Instalace a konfigurace Cloud Connectoru",
+          "Navázání bezpečného tunelu mezi lokálním a BTP",
+          "Řízení přístupu a správa skupin zabezpečení",
+          "Mapování systému a konfigurace virtuálního hostitele",
+          "Nastavení vysoké dostupnosti a failover",
+          "Monitoring a řešení potíží s konektivitou"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Nastavení Event Mesh",
+        "description": "Implementace architektury řízené událostmi pro obchodní procesy v reálném čase.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Zřizování instancí Event Mesh",
+          "Konfigurace fronty a tématu",
+          "Nastavení a správa zprostředkovatele událostí",
+          "Pravidla směrování a filtrování zpráv",
+          "Monitoring a analýzy událostí"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "Nastavení IAS",
+        "description": "Konfigurace služby Identity Authentication Service pro bezpečnou správu uživatelů.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "Zřizování a konfigurace klienta IAS",
+          "Implementace jednotného přihlášení (SSO)",
+          "Nastavení vícefaktorové autentizace (MFA)",
+          "Integrace podnikového poskytovatele identit",
+          "Zřizování uživatelů a správa životního cyklu"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Ověření a role uživatelů",
+        "description": "Komplexní rámec správy uživatelů a autorizace.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Definice vlastní role a správa",
+          "Návrh modelu autorizace",
+          "Organizace skupin uživatelů",
+          "Implementace zabezpečení na úrovni aplikace",
+          "Přiřazení role a delegování pracovních toků"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Snížení doby implementace o 40% s osvědčenými architektonickými vzory",
+      "Zabezpečení na podnikové úrovni v souladu s průmyslovými standardy",
+      "Škálovatelná infrastruktura, která roste s vaší firmou",
+      "Proaktivní monitoring kritických systémů",
+      "Odborné vedení od certifikovaných architektů SAP BTP"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "Zaměření na SAP BTP"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Let kombinovaných zkušeností"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Obsluhovaných zemí"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globální",
+        "label": "Odborný tým"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Proč zvolit TerraBT",
+    "ctaSectionBadge": "⚡ Spusťte svůj projekt dnes",
+    "ctaSectionTitle1": "Jste připraveni stavět",
+    "ctaSectionTitle2": "vaši architekturu SAP BTP?",
+    "ctaSectionDescription": "Zaplanujte si bezplatnou konzultaci s našimi architekty SAP BTP pro diskuzi o vašich požadavcích a zkoumání toho, jak vám můžeme pomoci uspět.",
+    "ctaSectionButton1": "Zaplanovat bezplatnou konzultaci →",
+    "ctaSectionButton2": "Zobrazit všechny služby"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Vývoj aplikací",
+    "title": "Aplikace SAP Fiori",
+    "subtitle": "Vývojové služby",
+    "description": "Vývoj moderních, responzivních aplikací Fiori, které poskytují výjimečné uživatelské prostředí na všech zařízeních. Od koncepce až po nasazení vytváříme krásné, výkonné aplikace pomocí nejnovějších technologií SAP.",
+    "cta": "Spusťte projekt Fiori →",
+    "servicesTitle": "Kompletní řešení vývoje Fiori",
+    "servicesSubtitle": "Komplexní služby vývoje Fiori od návrhu po nasazení a mimo.",
+    "whyChooseTitle": "Odborníci Fiori, kteří dodávají excelenci",
+    "whyChooseDescription": "Naši certifikovaní vývojáři SAP se specializují na vývoj podnikových aplikací Fiori. Kombinujeme technickou odbornost s design thinkingem, abychom vytvořili aplikace, které si uživatelé zamilují.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Vlastní vývoj aplikací Fiori",
+        "description": "Vývoj personalizovaných aplikací Fiori, které dokonale odpovídají vašim obchodním požadavkům.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "Odbornost frameworku SAPUI5",
+          "Aplikace Fiori Elements a Freestyle",
+          "Integrace služby OData",
+          "Responzivní design pro všechna zařízení",
+          "Vlastní ovládací prvky a komponenty"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Návrh UI/UX",
+        "description": "Vytváření intuitivních, krásných rozhraní podle pokynů pro design Fiori SAP.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "Dodržování principů designu SAP Fiori",
+          "Uživatelský výzkum a vývoj personálie",
+          "Drátování a prototypování",
+          "Compliance přístupnosti (WCAG)",
+          "Přizpůsobení motivu a značka"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Optimalizace výkonu",
+        "description": "Zajistěte, aby vaše aplikace Fiori načítaly rychle a hladce běžely na jakémkoli zařízení.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Optimalizace kódu a minifikace",
+          "Implementace líného načítání",
+          "Snížení velikosti balíčku",
+          "Optimalizace síťových požadavků",
+          "Monitoring výkonu a analýty"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Vývoj orientovaný na mobilní zařízení",
+        "description": "Vývoj aplikací Fiori optimalizovaných pro mobilní uživatele a offline scénáře.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Responzivní a adaptivní design",
+          "Interakce optimalizované na dotek",
+          "Funkce specifické pro mobilní zařízení (kamera, GPS)",
+          "Synchronizace offline dat",
+          "Funkce Progressive Web App (PWA)"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integrace a testování",
+        "description": "Bezproblémová integrace backendu s komplexní pokrytí testování.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "Vytvoření služby SAP Gateway a OData",
+          "Integrace systému backendu",
+          "Testování jednotky a integrace",
+          "Automatizace testů od konce ke konci",
+          "Kontinuální integrace/nasazení (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Školení a podpora",
+        "description": "Umožnění vašeho týmu znalostmi a průběžnou podporu údržby.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Workshopy školení vývojářů",
+          "Dokumentace osvědčených postupů",
+          "Kontrola kódu a zajištění kvality",
+          "Průběžná údržba a aktualizace",
+          "Komplexní předání produkce"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Moderní, intuitivní rozhraní, která zvyšují přijetí uživatelem",
+      "Rychlejší vývoj s opakovaně použitelnými komponenty a šablonami",
+      "Kompatibilita na všech zařízeních zajišťující bezproblémové prostředí",
+      "Certifikovaní vývojáři SAP s hlubokou odborností Fiori",
+      "Snížené náklady na školení se známým, konzistentním UX"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Aplikací Fiori dodáno"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Míra spokojenosti uživatelů"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Rychlejší čas na trh"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobilní responzivní"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Proč zvolit TerraBT",
+    "ctaSectionBadge": "⚡ Dostupné omezené vývojové sloty",
+    "ctaSectionTitle1": "Jste připraveni stavět",
+    "ctaSectionTitle2": "vaši další aplikaci Fiori?",
+    "ctaSectionDescription": "Pojďme diskutovat o vašich požadavcích a vytvořit krásnou, vysoce výkonnou aplikaci Fiori, kterou si budou vaši uživatelé zamilovat.",
+    "ctaSectionButton1": "Získejte bezplatnou nabídku →",
+    "ctaSectionButton2": "Prozkoumat ostatní služby"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progresivní webové aplikace",
+    "title": "Offline PWA aplikace",
+    "subtitle": "pro SAP BTP",
+    "description": "Progresivní webové aplikace s offline funcemi zajišťující bezproblémové uživatelské prostředí kdekoli. Vytvářejte aplikace, které fungují dokonale online i offline, poskytující nativní app zážitky přes web.",
+    "cta": "Vytvořte si svou PWA →",
+    "servicesTitle": "Kompletní služby vývoje PWA",
+    "servicesSubtitle": "Od architektury offline-first po push notifikace, budujeme PWAs, které konkurují nativním aplikacím.",
+    "whyChooseBadge": "Výhoda PWA",
+    "whyChooseTitle": "Nativní zkušenost, jednoduchost webu",
+    "whyChooseDescription": "Progresivní webové aplikace kombinují to nejlepší z webu a nativních aplikací. Žádné schvalování app obchodu, okamžité aktualizace a fungují na všech zařízeních - vše s app-like zážitkem.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Architektura offline-first",
+        "description": "Návrh aplikací, které fungují bezproblémově i bez připojení k internetu.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Implementace Service Workeru",
+          "Strategie cachování offline dat",
+          "Správa IndexedDB a místního úložiště",
+          "Možnosti synchronizace na pozadí",
+          "Strategie řešení konfliktů"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Synchronizace dat",
+        "description": "Inteligentní mechanismy synchronizace udržující data konzistentní v zařízeních.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automatická synchronizace na pozadí",
+          "Delta sync pro efektivní přenos dat",
+          "Detekce a řešení konfliktů",
+          "Optimistické aktualizace uživatelského rozhraní",
+          "Mechanismy opakování a manipulace chybami"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Funkce progresivní webové aplikace",
+        "description": "Nativní app-like zážitek s moderními webovými schopnostmi.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Konfigurace manifestu aplikace",
+          "Přidání na funkci domovské obrazovky",
+          "Podpora push notifikace",
+          "Integrace kamery a GPS",
+          "Architektura app shell"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Optimalizace výkonu",
+        "description": "Bleskurychlá doba načítání a hladké offline přechody.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Předkešování kritických zdrojů",
+          "Líné načítání obrázků a obsahu",
+          "Dělení kódu a balení",
+          "Komprese a minifikace",
+          "Monitoring výkonu a analýty"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Bezpečnost a compliance",
+        "description": "Bezpečné offline úložiště dat a přenos.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Šifrování dat v klidovém stavu",
+          "Bezpečné ověřovací tokeny",
+          "Vynucení HTTPS",
+          "Zásada zabezpečení obsahu (CSP)",
+          "Pravidelné audity bezpečnosti"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Vylepšení online",
+        "description": "Vylepšená funkčnost, když je dostupná konektivita.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Aktualizace a notifikace v reálném čase",
+          "Zálohování v cloudu a obnovení",
+          "Synchronizace více zařízení",
+          "Analýty a telemetrie",
+          "Detekce funkce a progresivní vylepšení"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Pracujte kdekoli, kdykoli - i bez internetu",
+      "Vylepšené uživatelské prostředí s okamžitým načítáním",
+      "Snížené náklady na server efektivním cachingem",
+      "Vyšší konverzní sazby ze zkušenosti podobné aplikaci",
+      "Lepší zapojení s push notifikacemi"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Offline schopnost"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Rychlejší časy načítání"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Snížené používání dat"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Vyšší zapojení"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Povolte offline možnosti dnes",
+    "ctaSectionTitle1": "Jste připraveni stavět",
+    "ctaSectionTitle2": "vaši offline-first PWA?",
+    "ctaSectionDescription": "Pojďme vytvořit progresivní webovou aplikaci, která funguje bezchybně offline a poskytuje nativní app zážitek vašim uživatelům.",
+    "ctaSectionButton1": "Spusťte projekt PWA →",
+    "ctaSectionButton2": "Zobrazit všechny služby"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Správa dat",
+    "title": "Databáze SAP BTP",
+    "subtitle": "Služby správy",
+    "description": "Efektivní design databází, optimalizace a správa pro vysoce výkonné aplikace SAP BTP. Odborné služby pro SAP HANA Cloud, PostgreSQL a databáze SAP ASE.",
+    "cta": "Optimalizujte svou databázi →",
+    "servicesTitle": "Kompletní řešení správy databází",
+    "servicesSubtitle": "Od návrhu po optimalizaci, bezpečnost až zotavení - komplexní odbornost databází.",
+    "whyChooseTitle": "Výkon, bezpečnost, spolehlivost",
+    "whyChooseDescription": "Naši specialisté na databáze přinášejí hlubokou odbornost v technologiích databází SAP BTP. Zajišťujeme, aby vaše data byla rychlá, bezpečná a vždy dostupná, když je potřebujete.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Design a modelování databází",
+        "description": "Efektivní design schématu databází optimalizovaný pro aplikace SAP BTP.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "Design databáze SAP HANA Cloud",
+          "Konfigurace PostgreSQL a SAP ASE",
+          "Modelování vztahu entit",
+          "Strategie normalizace a denormalizace",
+          "Strategie indexování a dělení"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Optimalizace výkonu",
+        "description": "Maximalizace výkonu databází pro bleskurychlé spouštění dotazů.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Optimalizace a ladění dotazů",
+          "Analýza indexu a doporučení",
+          "Optimalizace plánu provedení",
+          "Konfigurace paměti a mezipaměti",
+          "Monitoring výkonu a profilování"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Bezpečnost a compliance",
+        "description": "Ochrana vašich dat pomocí opatření bezpečnosti na podnikové úrovni.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Šifrování dat v klidovém stavu a při přenosu",
+          "Zabezpečení na úrovni řádků a sloupců",
+          "Implementace audit trail",
+          "Požadavky GDPR a compliance",
+          "Šifrování záloh a bezpečné úložiště"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Zálohování a obnovení",
+        "description": "Komplexní zotavení po havárii a plánování kontinuity podnikání.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automatizované plánování záloh",
+          "Možnosti obnovení z konkrétního bodu",
+          "Postupy zotavení po havárii",
+          "Konfigurace vysoké dostupnosti",
+          "Replikace s více regiony"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Migrace dat",
+        "description": "Bezproblémová migrace dat z historických systémů na SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Extrakce a transformace dat",
+          "Strategie a plánování migrace",
+          "Techniky migrace bez výpadku",
+          "Ověření a verifikace dat",
+          "Postupy a testování rollback"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Monitoring a údržba",
+        "description": "Proaktivní monitoring a údržba pro optimální zdraví databází.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Monitoring výkonu v reálném čase",
+          "Automatizované upozornění a notifikace",
+          "Kontrola zdraví a diagnostika",
+          "Plánování kapacity a prognózy",
+          "Správa záplat a aktualizace"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Až 10x rychlejší výkon dotazů optimalizací",
+      "99,99% dostupnost s konfigurací vysoké dostupnosti",
+      "Snížené náklady na úložiště prostřednictvím efektivního návrhu",
+      "Připraveno na compliance se zabudovanými funkcemi zabezpečení",
+      "Proaktivní monitoring a odborné vedení"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Vynikající databáze",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Záruka dostupnosti"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Zlepšení výkonu"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Bezpečnost dat"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Odborné vedení"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Optimalizujte výkon databází",
+    "ctaSectionTitle1": "Jste připraveni maximalizovat",
+    "ctaSectionTitle2": "výkon vaší databáze?",
+    "ctaSectionDescription": "Získejte bezplatnou kontrolu stavu databází a objevte příležitosti optimalizace, které by mohly transformovat výkon vaší aplikace.",
+    "ctaSectionButton1": "Získejte bezplatné posouzení databází →",
+    "ctaSectionButton2": "Prozkoumat všechny služby"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Inovace a strategie",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "pro inovaci SAP BTP",
+    "description": "Přístup designu orientovaný na uživatele pro vytváření inovativních řešení SAP BTP, která řeší skutečné obchodní výzvy. Pomáháme vám objevit správné problémy k řešení a vytvořit řešení, která si uživatelé zamilují.",
+    "cta": "Naplánujte design workshop →",
+    "servicesTitle": "Náš proces Design Thinking",
+    "servicesSubtitle": "Ověřená metodologie pro inovaci a řešení problémů v projektech SAP BTP.",
+    "whyChooseTitle": "Inovace, která vytváří skutečnou hodnotu",
+    "whyChooseDescription": "Design Thinking transformuje, jak přistupujete k projektům SAP BTP. Zaměřením se na potřeby uživatelů a rychlou iteraci vám pomáháme vytvořit řešení, která přinášejí měřitelnou obchodní hodnotu.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Uživatelský výzkum a empatie",
+        "description": "Hluboké pochopení potřeb, bolestivých bodů a motivací vašich uživatelů.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Uživatelské rozhovory a zapojení zúčastněných stran",
+          "Vývoj personálie a mapování cesty",
+          "Kontextový průzkum a pozorování",
+          "Identifikace bolestivého bodu a příležitosti",
+          "Workshopy mapování empatie"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Definice problému",
+        "description": "Jasně definujte správné problémy k řešení pro maximální dopad na podnikání.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Formulování prohlášení o problému",
+          "Zavedení designu výzvy",
+          "Identifikace oblasti příležitostí",
+          "Definice kritérií úspěchu",
+          "Sezení sladění zúčastněných stran"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideační workshopy",
+        "description": "Generujte inovativní řešení prostřednictvím strukturovaných kreativních sezení.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Facilitovaná brainstormingová sezení",
+          "SCAMPER a techniky laterálního myšlení",
+          "Kolaborační ideační workshopy",
+          "Stanovení priorit a výběr ideí",
+          "Vývoj konceptu a vylepšení"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototypování",
+        "description": "Rychle vytvořte hmotné reprezentace nápadů pro ověření.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Nízko věrnostní drátování a skici",
+          "Interaktivní klikací prototypy",
+          "Vysokověrnostní mockupy",
+          "Vývoj proof of concept",
+          "Design MVP (Minimum Viable Product)"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Testování a iterace",
+        "description": "Ověřujte řešení skutečnými uživateli a neustále zlepšujte.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Sezení testování použitelnosti",
+          "A/B testování a experimenty",
+          "Sběr a analýza zpětné vazby uživatelů",
+          "Iterativní vylepšení designu",
+          "Ověření podle kritérií úspěchu"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Podpora implementace",
+        "description": "Vedení vašeho týmu od ověřeného konceptu k úspěšnému spuštění.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Posouzení technické proveditelnosti",
+          "Vytváření mapy realizace",
+          "Plánování agilního sprintu",
+          "Spolupráce vývojového týmu",
+          "Monitoring a optimalizace po spuštění"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Snižte riziko ověřením nápadů před velkými investicemi",
+      "Rychlejší inovace se strukturovaným přístupem k řešení problémů",
+      "Vyšší přijetí uživateli prostřednictvím řešení orientovaných na uživatele",
+      "Sladění a zapojení funkčního týmu",
+      "Měřitelné obchodní výsledky a ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Rychlejší řešení problémů"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Snížený vývojový odpad"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Spokojenost zúčastněných stran"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Přístup orientovaný na uživatele"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
-    "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "badge": "Integrace a konektivita",
+    "title": "Sada SAP BTP Integration Suite",
+    "subtitle": "Služby",
+    "description": "Bezproblémová řešení integrace, která propojují vaše systémy SAP s cloudovými a lokálními aplikacemi. Odborná implementace Cloud Integration, API Management, Open Connectors a Integration Advisor.",
+    "cta": "Propojte své systémy →",
+    "servicesTitle": "Kompletní odbornost Integration Suite",
+    "servicesSubtitle": "Od Cloud Integration po API Management - komplexní integrace služby.",
+    "whyChooseTitle": "Bezproblémová konektivita systému",
+    "whyChooseDescription": "SAP BTP Integration Suite poskytuje vše, co potřebujete k připojení vaší organizace. Naši odborníci zajišťují, aby vaše integrace byly spolehlivé, bezpečné a škálovatelné.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "Propojte cloudové a lokální systémy s robustními integračními toky.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Návrh a vývoj toku integrace",
+          "Využívání předdefinovaného integračního obsahu",
+          "Mapování a transformace zpráv",
+          "Manipulace chybami a monitoring",
+          "Správa bezpečnostních artefaktů"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "Správa API",
+        "description": "Navrhujte, publikujte a spravujte API s komplexní podporou životního cyklu.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "Vytváření a konfigurace proxy API",
+          "Vynucení zásad (bezpečnost, omezení sazby)",
+          "Portál API a dokumentace vývojáře",
+          "Analýty a monitoring používání",
+          "Monetizace a správa kvóty"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "Otevřené konektory",
+        "description": "Předdefinované konektory pro rychlou integraci se systémy třetích stran.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ předdefinovaných konektorů",
+          "Vlastní vývoj konektoru",
+          "Autentizace a autorizace",
+          "Transformace a normalizace dat",
+          "Integrace na základě события"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "Poradce integrace",
+        "description": "Zrychlete vývoj integrace pomocí doporučení poháněných AI.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automatizované návrhy mapování",
+          "Průvodce implementací zpráv (MIG)",
+          "Šablony scénářů integrace B2B",
+          "Návrhy mapování rozhraní",
+          "Doporučení osvědčených postupů"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Bezpečnost a zásady správy",
+        "description": "Zabezpečení na podnikové úrovni a zásady správy pro všechny integrace.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "Autentizace OAuth a SAML",
+          "Správa certifikátů a klíčů",
+          "Šifrování na úrovni přenosu (TLS/SSL)",
+          "Šifrování na úrovni zpráv",
+          "Audit protokolování a compliance"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Monitoring a provoz",
+        "description": "Komplexní monitoring a operační excelence.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Monitoring zpráv v reálném čase",
+          "Metriky výkonu a KPI",
+          "Nastavení upozorňování a notifikací",
+          "Analýza protokolů a řešení potíží",
+          "Plánování kapacity a optimalizace"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Rychlejší integrace s předdefinovaným obsahem a akcelerátory",
+      "Snížené náklady na integraci s cloudovou nativní platformou",
+      "Spolehlivost a škálovatelnost na podnikové úrovni",
+      "Jediná platforma pro všechny potřeby integrace",
+      "Dedikované odborné konzultace a vedení"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Předdefinované konektory"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Dostupnost integrace"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Rychlejší implementace"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globální",
+        "label": "Odborný tým"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Vynikající integrace",
+    "ctaSectionBadge": "⚡ Propojte svůj podnik dnes",
+    "ctaSectionTitle1": "Jste připraveni sjednotit",
+    "ctaSectionTitle2": "vaše obchodní systémy?",
+    "ctaSectionDescription": "Pojďme diskutovat o vašich požadavcích na integraci a vytvořit komplexní řešení, které propojuje všechny vaše kritické obchodní systémy.",
+    "ctaSectionButton1": "Získejte konzultaci integrace →",
+    "ctaSectionButton2": "Zobrazit všechny služby"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
-    "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "badge": "Architektura řízená událostmi",
+    "title": "Sítě událostí SAP",
+    "subtitle": "Služby implementace",
+    "description": "Implementace architektury řízené událostmi v reálném čase pro reaktivní a škálovatelné obchodní procesy. Vytvářejte distribuované systémy, které reagují okamžitě na obchodní události pomocí SAP Event Mesh.",
+    "cta": "Vytvořit architekturu řízenou událostmi →",
+    "servicesTitle": "Kompletní řešení Event Mesh",
+    "servicesSubtitle": "Od návrhu architektury po implementaci - vytvářejte reaktivní systémy řízené událostmi.",
+    "whyChooseTitle": "Reakčnost podniku v reálném čase",
+    "whyChooseDescription": "Event Mesh umožňuje vaší organizaci reagovat okamžitě na události, jak se objevují. Vytvářejte volně vázané, vysoce škálovatelné systémy, které se přizpůsobují měnícím se obchodním potřebám.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Architektura Event Mesh",
+        "description": "Návrh a implementace architektury řízené událostmi na podnikové úrovni.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Návrh topologie sítě událostí",
+          "Distribuce událostí s více regiony",
+          "Konfigurace zprostředkovatele událostí",
+          "Strategie směrování zpráv",
+          "Vzory návrhu tématu a fronty"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Zpracování událostí v reálném čase",
+        "description": "Zpracovávajte a reagujte na obchodní události v reálném čase.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Implementace streamování událostí",
+          "Složité zpracování událostí (CEP)",
+          "Filtrování a transformace událostí",
+          "Agregace a korelace událostí",
+          "Doručování událostí s nízkou latencí"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Integrace řízené událostmi",
+        "description": "Připojte systémy prostřednictvím asynchronní komunikace na základě Event.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Vzory vydavatele/odběratele",
+          "Mikroservisy řízené událostmi",
+          "Integrace webhooku a zpětného volání",
+          "Přehrávání a obnovení událostí",
+          "Správa fronty mrtvých písmen"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Bezpečnost a zásady správy",
+        "description": "Bezpečný přenos událostí s komplexní zásadou správy.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Šifrování událostí při přenosu",
+          "Řízení přístupu a autorizace",
+          "Ověření schématu událostí",
+          "Compliance a audit protokolování",
+          "Kontroly ochrany dat"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud a Hybrid",
+        "description": "Sítě událostí v cloudových poskytovatelích a lokálních systémech.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Distribuce událostí across-cloud",
+          "Konektivita hybridního cloudu",
+          "Redundance s více regiony",
+          "Geografické směrování událostí",
+          "Architektura agnóstická vůči cloudu"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Monitoring a analýty",
+        "description": "Komplexní viditelnost do vašeho ekosystému řízeného událostmi.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Monitoring událostí v reálném čase",
+          "Metriky výkonu a SLA",
+          "Vizualizace toku událostí",
+          "Identifikace úzkého místa",
+          "Prediktivní plánování kapacity"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Odpojte systémy pro větší flexibilitu a škálovatelnost",
+      "Poznatky podniku v reálném čase a okamžitá reakce",
+      "Vylepšená odolnost systému a tolerance chyb",
+      "Snížená složitost integrace bod-bod",
+      "Podpora moderních architektur řízených událostmi"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Latence doručení událostí"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Events za sekundu"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Záruka doručení događostí"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "Globální",
+        "label": "Distribuce s více regiony"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Vynikající řízení událostmi",
+    "ctaSectionBadge": "⚡ Vytvářejte systémy v reálném čase",
+    "ctaSectionTitle1": "Jste připraveni implementovat",
+    "ctaSectionTitle2": "architekturu řízenou událostmi?",
+    "ctaSectionDescription": "Transformujte svůj podnik zpracováním událostí v reálném čase. Pojďme diskutovat o tom, jak Event Mesh může pohánět vaše aplikace příští generace.",
+    "ctaSectionButton1": "Naplánovat konzultaci Event Mesh →",
+    "ctaSectionButton2": "Prozkoumat všechny technologie"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI a automatizace",
+    "title": "Poháněno AI",
+    "subtitle": "Zpracování faktur",
+    "description": "Inteligentní automatizace zpracování faktur poháněná pokročilou AI pro přesné a efektivní operace. Transformujte svůj proces záznamů na stole pomocí nejmodernější technologie AI integrované s SAP BTP.",
+    "cta": "Automatizujte své faktury →",
+    "servicesTitle": "Automatizace faktur poháněna AI",
+    "servicesSubtitle": "Využijte pokročilé schopnosti AI pro inteligentní zpracování faktur a automatizaci.",
+    "whyChooseTitle": "Transformujte zpracování faktur",
+    "whyChooseDescription": "Pokročilá AI přináší pochopení na úrovni člověka do zpracování faktur. Zvládejte složitá rozložení, více jazyků a okrajové případy, které tradičním OCR systémům představují problémy.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Inteligentní extrakce dat",
+        "description": "Pokročilá extrakce dat poháněná AI z faktur s bezprecedentní přesností.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Zpracování faktury s více formáty (PDF, obrázky, skeny)",
+          "Automatická detekce a extrakce polí",
+          "Rozpoznání záhlaví a položky řádku",
+          "Pochopení tabulky a složitých rozložení",
+          "Rozpoznávání psaného textu"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "Integrace SAP BTP",
+        "description": "Bezproblémová integrace se službami SAP BTP a backend systémy.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Přímá integrace se SAP S/4HANA",
+          "Připojení služby SAP Document Management Service",
+          "Pracovní tok automatizace triggerů",
+          "Ověření dat v reálném čase",
+          "Implementace vlastního obchodního pravidla"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatizované zpracování",
+        "description": "Automatizace od konce ke konci s minimální manuální intervencí.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Inteligentní směrování a klasifikace",
+          "Automatické schválení pro faktury nízkého rizika",
+          "Pracovní toky manipulace výjimkami",
+          "Detekce a prevence duplikátů",
+          "Automatizace tříletého párování"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Ověření a compliance",
+        "description": "Zajistěte přesnost a regulační compliance v každé transakci.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Pravidla ověření s více úrovněmi",
+          "Ověření výpočtu daně",
+          "Kontrola compliance (DPH, GST)",
+          "Audit trail a protokolování",
+          "Bezpečnost a ochrana dat (GDPR shodné)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analýty a poznatky",
+        "description": "Ziskejte cenné poznatky z dat zpracování faktur.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Metriky a KPI zpracování",
+          "Tracking přesnosti a chybovosti",
+          "Analýza úspor nákladů",
+          "Analýty výkonu dodavatele",
+          "Prediktivní poznatky toku hotovosti"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Školení a optimalizace",
+        "description": "Neustálé zlepšování prostřednictvím učení AI a optimalizace systému.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Vlastní školení modelů pro vaše faktury",
+          "Kontinuální učení z oprav",
+          "Optimalizace zpracování na základě šablony",
+          "Implementace smyčky zpětné vazby",
+          "Pravidelná zlepšení přesnosti"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ přesnost snižující manuální opravy",
+      "80% rychlejší zpracování faktur",
+      "Snížení nákladů na zpracování o 70%",
+      "Téměř nula chyb zadávání dat",
+      "Viditelnost stavu zpracování v reálném čase"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Míra přesnosti"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Snížení času"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Úspory nákladů"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatizované zpracování"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Zpět na domovskou stránku",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Revolucionalizace zpracování faktur s AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Prozkoumejte, jak integrace AI na SAP BTP transformuje zpracování faktur s inteligentní automatizací a pokročilým porozuměním dokumentům.",
+      "intro": "Zpracování faktur bylo tradičně časově náročným, chybovým manuálním úkolem. Integrace pokročilé AI se SAP BTP revolucionalizuje tento proces a přináší bezprecedentní úrovně automatizace, přesnosti a účinnosti do operací záznamů na stole.",
+      "section1Title": "Výzva tradičního zpracování faktur",
+      "section1Content": "Organizace zpracovávají měsíčně tisíce faktur, každá vyžaduje extrakci dat, ověření a zadání do ERP systémů. Ruční zpracování je pomalé, drahé a náchylné na chyby, které mohou vést ke zpoždění plateb, duplikovaným platbám nebo zmeškaným slevám za časnou platbu.",
+      "section2Title": "Pokročilé pochopení dokumentu AI",
+      "section2Content": "Moderní AI přináší nejmodernější přirozené zpracování jazyka a schopnosti počítačového vidění do zpracování faktur. Na rozdíl od tradičních systémů OCR může pokročilá AI chápat kontext, zvládat různá rozložení faktur a extrahovat informace s pozoruhodnou přesností i ze špatně naskenovaných nebo složitých dokumentů.",
+      "section3Title": "Bezproblémová integrace SAP BTP",
+      "section3Content": "Integrace AI se SAP BTP vytváří výkonný kanál automatizace. Příchozí faktury jsou automaticky zpracovávány, data jsou extrahována a ověřena a informace tečou přímo do systémů SAP bez lidského zásahu. Tato integrace využívá robustní konektivitu a schopnosti pracovních toků SAP BTP.",
+      "section4Title": "Inteligentní manipulace výjimkami",
+      "section4Content": "Jednou z hlavních silných stránek AI je její schopnost inteligentně zvládat výjimky. Když se vyskytnou neobvyklá rozložení faktur nebo nejednoznačné informace, systém může označit položky pro lidský přezkum s podrobnými vysvětleními, díky čemuž je manipulace výjimkami podstatně efektivnější než tradiční systémy založené na pravidlech.",
+      "section5Title": "Měřitelný dopad na podnikání",
+      "section5Content": "Organizace, které implementují AI pro zpracování faktur, obvykle vidí dramatická zlepšení: 90% snížení doby zpracování, 95% pokles chyb při zadávání dat a významné úspory nákladů v operacích záznamů na stole. Možná nejdůležitější: zaměstnanci se mohou zaměřit na strategické aktivity namísto opakované zadávání dat.",
+      "conclusionTitle": "Závěr",
+      "conclusionContent": "Kombinace pokročilých schopností AI a infrastruktury SAP BTP na podnikové úrovni představuje transformativní přístup ke zpracování faktur. Organizace, které tuto technologii přijmou, získají významnou konkurenční výhodu prostřednictvím zlepšené účinnosti, přesnosti a snížení nákladů."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Vytváření moderních aplikací Fiori na SAP BTP",
+      "category": "Vývoj",
+      "readTime": "8 min",
+      "seoDescription": "Naučte se, jak vytvářet moderní, responzivní aplikace Fiori pomocí výkonných vývojových nástrojů a frameworků SAP BTP.",
+      "intro": "SAP Fiori představuje budoucnost podnikových aplikací a poskytuje jednotné uživatelské prostředí na všech zařízeních a možnostech nasazení. Pomocí SAP Business Technology Platform (BTP) se vývoj moderních aplikací Fiori stal zjednodušenějším a výkonnějším než kdy dříve.",
+      "section1Title": "Síla SAP BTP pro vývoj Fiori",
+      "section1Content": "SAP BTP nabízí komplexní sadu nástrojů a služeb speciálně navržených pro vývoj aplikací Fiori. Platforma poskytuje vše od vývojových prostředí až po infrastrukturu nasazení, umožňující týmům zaměřit se na vytváření výjimečných uživatelských prostředí namísto správy infrastruktury.",
+      "section2Title": "Klíčové funkce a osvědčené postupy",
+      "section2Content": "Moderní aplikace Fiori využívají framework SAP Fiori Elements, který poskytuje předdefinované UI komponenty a vzory zajišťující konzistenci a snižující dobu vývoje. Kombinací těchto prvků s vlastními ovládacími prvky SAPUI5 mohou vývojáři vytvořit aplikace, které jsou standardizované a přizpůsobené specifickým obchodním potřebám.",
+      "section3Title": "Integrace se službami SAP BTP",
+      "section3Content": "Jednou z hlavních výhod vývoje aplikací Fiori na SAP BTP je bezproblémová integrace s ostatními službami platformy. Od autentizace a autorizace se službami SAP Cloud Identity po ukládání dat se SAP HANA Cloud mají vývojáři přístup ke službám na podnikové úrovni, které lze snadno integrovat do jejich aplikací.",
+      "section4Title": "Responzivní design a podpora více zařízení",
+      "section4Content": "Aplikace Fiori vytvořené na SAP BTP se automaticky přizpůsobují různým velikostem obrazovky a zařízením, což zajišťuje konzistentní uživatelské prostředí bez ohledu na to, zda se přistupuje z desktopu, tabletu nebo mobilního telefonu. Tato schopnost responzivního designu je integrována do frameworku a snižuje úsilí potřebné k podpoře více zařízení.",
+      "section5Title": "Optimalizace výkonu",
+      "section5Content": "SAP BTP poskytuje různé nástroje a techniky pro optimalizaci výkonu aplikací Fiori, včetně líného načítání, balení a strategií cachování. Tyto optimalizační techniky zajišťují, aby aplikace načítaly rychle a reagovaly plynule, i když zpracovávají velké datové sady nebo složitou obchodní logiku.",
+      "conclusionTitle": "Závěr",
+      "conclusionContent": "Vývoj moderních aplikací Fiori na SAP BTP kombinuje sílu infrastruktury na podnikové úrovni s nejmodernějšími vývojovými frameworky. Využitím schopností platformy mohou vývojové týmy vytvářet sofistikované, uživatelsky přívětivé aplikace, které pokrývají obchodní hodnotu a zvyšují produktivitu v celé organizaci."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Offline řešení PWA pro kontinuitu podnikání",
+      "category": "Architektura",
+      "readTime": "7 min",
+      "seoDescription": "Zjistěte, jak progresivní webové aplikace (PWA) s offline funkcí zajišťují kontinuitu podnikání a produktivitu v jakýchkoli podmínkách sítě.",
+      "intro": "V dnešním propojeném světě mohou výpadky sítě zastavit obchodní operace. Progresivní webové aplikace (PWA) s offline funkcemi nabízejí robustní řešení pro zajištění kontinuity podnikání, což umožňuje uživatelům pracovat bezproblémově bez ohledu na dostupnost sítě.",
+      "section1Title": "Pochopení offline-first architektury",
+      "section1Content": "Offline-first architektura představuje paradigmatický posun v tom, jak budujeme webové aplikace. Namísto zacházení offline režimu jako okrajového případu činí offline-first design základní funkcí. Tento přístup zajišťuje, aby aplikace zůstaly funkční i když je konektivita sítě nespolehlivá nebo zcela nedostupná.",
+      "section2Title": "Pracovní pracovníci služby: páteř offline PWA",
+      "section2Content": "Pracovní pracovníci služby jsou technologie, která umožňuje offline PWA. Tyto programovatelné síťové proxy sedí mezi vaší aplikací a sítí, zachycují požadavky a umožňují sofistikované strategie cachování. Využitím pracovníků služby mohou aplikace ukládat do mezipaměti kritické zdroje a data a zajistit dostupnost i offline.",
+      "section3Title": "Strategie synchronizace dat",
+      "section3Content": "Klíčová výzva v offline PWA je správa synchronizace dat při obnovení konektivity. Implementace robustních strategií řešení konfliktů a optimistických aktualizací zajišťuje, aby data zůstala konzistentní v zařízeních a back-endových systémech. Background sync API umožňují automatickou synchronizaci, když se síť znovu dostupná.",
+      "section4Title": "Obchodní výhody",
+      "section4Content": "Offline PWA poskytují významnou obchodní hodnotu tím, že zajišťují produktivitu v jakýchkoli síťových podmínkách. Pracovníci v terénu mohou pokračovat ve svých úkolech na vzdálených místech, prodejní týmy mohou přistupovat k důležitým informacím během prezentací a operace pokračují hladce během výpadků sítě. Tato spolehlivost se přímo promítá do lepší spokojenosti zákazníků a operační efektivity.",
+      "section5Title": "Implementace s SAP BTP",
+      "section5Content": "SAP BTP poskytuje vynikající podporu pro vytváření offline PWA prostřednictvím svého nabídky Mobile Services. Tyto služby zahrnují synchronizaci offline dat, bezpečné úložiště a komplexní rozhraní API, která zjednodušují vývoj robustních aplikací s offline schopnostmi.",
+      "conclusionTitle": "Závěr",
+      "conclusionContent": "Offline PWA představují budoucnost podnikových aplikací a poskytují odolnost a spolehlivost, kterou nemohou poskytnout tradiční webové aplikace. Přijetím offline-first architektury a využitím moderních webových technologií mohou organizace zajistit kontinuitu podnikání a udržovat produktivitu bez ohledu na síťové podmínky."
     }
   }
 }

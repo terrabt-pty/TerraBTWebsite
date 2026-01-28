@@ -13,1450 +13,1450 @@
     "learn": "Дізнатися про послуги"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Наша експертиза",
+    "subtitle": "Комплексні рішення SAP BTP для трансформації вашого бізнесу",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Розробка Fiori додатків",
+      "description": "Розробка сучасних, адаптивних Fiori-додатків, які забезпечують винятковий користувацький досвід на всіх пристроях."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "Архітектура та дизайн BTP",
+      "description": "Стратегічне планування архітектури для масштабованих рішень SAP BTP, адаптованих до ваших бізнес-потреб."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Підхід, орієнтований на користувача, для розробки інноваційних рішень, які вирішують реальні бізнес-проблеми."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline PWA додатки",
+      "description": "Прогресивні веб-додатки з офлайн-функціями для безперебійного користувацького досвіду де завгодно."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "Управління базами даних SAP BTP",
+      "description": "Ефективний дизайн, оптимізація та управління базами даних для високопродуктивних додатків BTP."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Обробка рахунків з використанням ШІ",
+      "description": "Інтелектуальна автоматизація обробки рахунків із передовою ШІ для точних та ефективних операцій."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Безперебійні рішення для інтеграції, які з'єднують ваші SAP-системи з хмарними та локальними додатками."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Впровадження архітектури, керованої подіями, для чутливих та масштабованих бізнес-процесів у реальному часі."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "Розробка SAP CAP",
+      "description": "Розробка сучасних хмарних додатків із використанням SAP Cloud Application Programming Model для швидкого, масштабованого розвитку."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Створення професійних корпоративних додатків за допомогою no-code/low-code інструментів для швидкої цифрової трансформації."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Автоматизація бізнес-процесів із інтелектуальними функціями управління робочими процесами та автоматизації процесів роботи."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Наш фокус",
+      "title": "100% спеціалізація SAP BTP",
+      "description": "На відміну від консалтингових фірм загального профілю, ми виключно зосереджуємось на SAP Business Technology Platform, забезпечуючи глибоку експертизу та передові рішення.",
+      "point1": "Спеціалізована команда сертифікованих експертів SAP BTP",
+      "point2": "Завжди оновлені останніми функціями BTP та найкращими практиками",
+      "point3": "Доведені успіхи в різних галузях"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Глобальний охоплення",
+      "title": "Обслуговування ринків у всьому світі",
+      "description": "Ми приносимо експертизу SAP BTP на ринки у всьому світі, надаючи рішення світового класу незалежно від вашого місцезнаходження.",
+      "point1": "Дистанційне консультування у всіх часових поясах",
+      "point2": "Багатомовна підтримка для міжнародних команд",
+      "point3": "Розуміння регіональних бізнес-вимог"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Сучасні технології",
+      "title": "Інновація на основі ШІ",
+      "description": "Використання передової ШІ-технології для розширення рішень SAP BTP та впровадження автоматизації та інтелекту у ваші бізнес-процеси.",
+      "point1": "Інтелектуальна автоматизація для повторюваних завдань",
+      "point2": "Передова обробка та аналіз даних",
+      "point3": "Безперебійна інтеграція з існуючими робочими процесами"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Центр знань",
+    "subtitle": "Експертні інсайти та найкращі практики для успіху SAP BTP",
+    "readMore": "Читати статтю",
+    "readTime": "{{time}} хв"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Розробка",
+      "title": "Розробка сучасних Fiori-додатків за допомогою SAP BTP",
+      "excerpt": "Дізнайтеся, як створювати адаптивні, зручні для користувача Fiori-додатки, які використовують повну потужність SAP Business Technology Platform.",
+      "readTime": "5 хв"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Технологія",
+      "title": "Offline PWA: забезпечення безперервності бізнесу де завгодно",
+      "excerpt": "Дослідіть, як прогресивні веб-додатки з офлайн-функціями можуть утримувати ваші бізнес-операції без перебіїв навіть без інтернет-з'єднання.",
+      "readTime": "7 хв"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "ШІ та автоматизація",
+      "title": "ШІ для інтелектуальної обробки рахунків",
+      "excerpt": "Дослідіть, як інтеграція ШІ з SAP BTP трансформує обробку рахунків із неповторною точністю та ефективністю.",
+      "readTime": "6 хв"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Інтеграція",
+      "title": "Опанування SAP BTP Integration Suite",
+      "excerpt": "Комплексний посібник з'єднання ваших корпоративних систем за допомогою SAP BTP Integration Suite для безперебійного потоку даних.",
+      "readTime": "8 хв"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Архітектура",
+      "title": "Архітектура Event Mesh для бізнесу в реальному часі",
+      "excerpt": "Впровадження архітектури, керованої подіями, за допомогою SAP Event Mesh для чутливих, масштабованих рішень.",
+      "readTime": "6 хв"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Найкращі практики",
+      "title": "Стратегії оптимізації баз даних BTP",
+      "excerpt": "Основні стратегії оптимізації продуктивності баз даних SAP BTP для швидкого та надійного доступу до критичних для бізнесу даних.",
+      "readTime": "5 хв"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Почніть",
+    "title": "Готові трансформувати свій бізнес?",
+    "subtitle": "Закажіть безкоштовну консультацію з нашими експертами SAP BTP",
+    "availability": "Обмежена доступність",
+    "contactInfo": "Контактна інформація",
+    "email": "Електронна пошта",
+    "globalPresence": "Глобальна присутність",
+    "servingCountries": "Обслуговування клієнтів у понад 40 країнах світу",
+    "fastResponse": "Гарантія швидкої відповіді",
+    "fastResponseDesc": "Отримайте експертну пораду протягом 24 годин. Наші спеціалісти SAP BTP готові допомогти вам досягти успіху.",
+    "mentionCountry": "Будь ласка, вкажіть вашу країну при контакті з нами",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Повне ім'я",
+      "email": "Бізнес електронна пошта",
+      "company": "Назва компанії",
+      "message": "Розкажіть нам про свій проект",
+      "submit": "Замовити безкоштовну консультацію",
+      "submitting": "Надсилання..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Повідомлення відправлено!",
+      "description": "Дякуємо вам за звернення. Ми зв'яжемось з вами протягом 24 годин."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Помилка",
+      "description": "Щось пішло не так. Будь ласка, спробуйте ще раз."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "Спеціалізований консалтинг SAP BTP з блискучими результатами у всьому світі",
+    "services": "Послуги",
+    "fiori": "Розробка Fiori",
+    "architecture": "Архітектура BTP",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
-    "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "ai": "Рішення ШІ",
+    "knowledge": "Знання",
+    "blogArticles": "Статті блогу",
+    "caseStudies": "Тематичні дослідження",
+    "resources": "Ресурси",
+    "company": "Компанія",
+    "about": "Про нас",
+    "contact": "Контакт",
+    "careers": "Кар'єра",
+    "blog": "Блог",
+    "documentation": "Документація",
+    "whitepapers": "Білі книги",
+    "legal": "Юридичне",
+    "privacy": "Політика конфіденційності",
+    "terms": "Умови надання послуг",
+    "copyright": "Всі права захищені.",
+    "deployedOn": "Розміщено на Cloudflare",
+    "serviceRestriction": "Послуги недоступні в Австралії та Новій Зеландії.",
+    "availableLanguages": "Доступна вашою мовою"
   },
   "common": {
     "learnMore": "Дізнатися більше",
     "backToHome": "Повернутися на головну"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Розробка хмарних додатків",
+    "title": "Розробка SAP CAP",
+    "subtitle": "Послуги",
+    "description": "Розробка сучасних хмарних додатків із використанням SAP Cloud Application Programming Model для швидкого, масштабованого розвитку на SAP BTP.",
+    "cta": "Запустіть свій проект CAP →",
+    "servicesTitle": "Комплексні послуги розробки CAP",
+    "servicesSubtitle": "Від моделювання даних до розгортання - повна експертиза CAP для ваших бізнес-додатків.",
+    "whyChoose": "Чому вибрати TerraBT",
+    "whyChooseTitle": "Експертна розробка CAP, яка дає результати",
+    "whyChooseDescription": "Наші сертифіковані розробники SAP CAP мають багаторічний досвід розробки корпоративних додатків. Ми поєднуємо технічну експертизу з бізнес-розумінням, щоб надати рішення, які дають результати.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Full-Stack розробка CAP",
+        "description": "Розробка додатків від початку до кінця з використанням CAP-фреймворку.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS моделювання даних та визначення сутностей",
+          "Визначення та імплементація сервісів",
+          "Розробка користувацької бізнес-логіки",
+          "Генерація Fiori Elements UI",
+          "Підтримка CAP Node.js та Java runtime"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Інтеграція баз даних",
+        "description": "Безперебійна інтеграція з SAP HANA Cloud та іншими базами даних.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "Розробка SAP HANA Cloud",
+          "Підтримка PostgreSQL та SAP ASE",
+          "Міграція баз даних та управління схемою",
+          "Оптимізація запитів та налаштування продуктивності",
+          "Конфігурація multi-tenancy баз даних"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Безпека та авторизація",
+        "description": "Імплементація безпеки корпоративного рівня для CAP-додатків.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Контроль доступу на основі ролей (RBAC)",
+          "Інтеграція аутентифікації (XSUAA, IAS)",
+          "Анотації авторизації та обмеження",
+          "Приватність даних та безпека рівня полів",
+          "Безпечне управління обліковими даними"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "Розробка API та сервісів",
+        "description": "Розробка надійних OData та REST API із сервісами CAP.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "Створення OData V2 та V4 сервісів",
+          "Імплементація REST API",
+          "Користувацькі дії та функції",
+          "Активація чернеток для транзакційних додатків",
+          "Інтеграція зовнішніх сервісів та mashups"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Інтеграція Fiori Elements",
+        "description": "Швидка розробка UI з Fiori Elements та CAP.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Додатки List Report та Object Page",
+          "Розробка Analytical List Page (ALP)",
+          "Інтеграція Freestyle Fiori додатків",
+          "UI анотації та налаштування",
+          "Адаптивний та responsive дизайн"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD та DevOps",
+        "description": "Автоматизоване розгортання та конвеєри неперервної інтеграції.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Розгортання Cloud Foundry та Kyma",
+          "Складання MTA (Multi-Target Application)",
+          "Автоматизовані тести та гейти якості",
+          "Налаштування CI/CD конвеєру (Jenkins, GitHub Actions)",
+          "Стратегії просування в різні середовища"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Прискорена розробка з перевіреними CAP-паттернами",
+      "Вбудовані найкращі практики та архітектура, готова до корпоративного використання",
+      "Масштабовані додатки, які зростають із вашим бізнесом",
+      "Безперебійна інтеграція SAP S/4HANA",
+      "Експертне керівництво протягом всього циклу розробки"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "Розробка без коду/з низьким кодом",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Послуги розробки",
+    "description": "Створення професійних корпоративних додатків за допомогою no-code/low-code інструментів для швидкої цифрової трансформації та бізнес-гнучкості.",
+    "cta": "Почніть будувати сьогодні →",
+    "servicesTitle": "Повні рішення SAP Build Apps",
+    "servicesSubtitle": "Від візуальної розробки до розгортання на рівні підприємства - розширте можливості своїх бізнес-користувачів.",
+    "whyChooseTitle": "Швидка розробка додатків",
+    "whyChooseDescription": "SAP Build Apps дозволяє бізнес-користувачам та розробникам створювати потужні додатки без великого обсягу кодування. Прискорте вашу цифрову трансформацію за допомогою інструментів візуальної розробки.",
+    "implementationTitle": "Підхід до впровадження",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Візуальна розробка",
+        "description": "Інтерфейс drag-and-drop для швидкого створення додатків.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Інтуїтивний візуальний конструктор сторінок",
+          "Бібліотека готових компонентів UI",
+          "Холст responsive дизайну",
+          "Попередній перегляд та тестування в реальному часі",
+          "Налаштування теми та брендування"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Cross-платформні додатки",
+        "description": "Розробіть один раз, розгорніть скрізь - веб, iOS та Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Підтримка Progressive Web App (PWA)",
+          "Генерація нативних мобільних додатків",
+          "Оптимізація для планшетів та комп'ютерів",
+          "Можливості офлайн-даних",
+          "Підтримка розгортання в app store"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Хмарна інтеграція",
+        "description": "Безперебійне з'єднання з сервісами та даними SAP BTP.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "Інтеграція SAP S/4HANA Cloud",
+          "Підключення сервісів OData",
+          "Споживання сервісів BTP",
+          "Аутентифікація та авторизація",
+          "Синхронізація даних у реальному часі"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Швидке прототипування",
+        "description": "Швидко перевірте ідеї та ітеруйте на основі зворотного зв'язку.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Швидка розробка MVP",
+          "Тестування користувачів та збір зворотного зв'язку",
+          "Ітеративний дизайн та вдосконалення",
+          "Контроль версій та повернення",
+          "Інструменти співпраці для команд"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Розширення можливостей громадянських розробників",
+        "description": "Розширте можливості бізнес-користувачів створювати додатки.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Низька крива навчання для не-розробників",
+          "Керовані робочі процеси розробки",
+          "Бібліотека шаблонів та схем",
+          "Управління та контроль якості",
+          "Програми навчання та розширення можливостей"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Розширюваність Pro-Code",
+        "description": "Розширте користувацьким кодом при необхідності.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Користувацька логіка JavaScript",
+          "Можливості інтеграції API",
+          "Розробка користувацьких компонентів",
+          "Розширені трансформації даних",
+          "Інтеграція бібліотек третіх сторін"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "Розробка додатків у 10 разів швидше",
+      "Зменшення витрат на розробку на 60%",
+      "Розширення можливостей бізнес-користувачів для інновацій",
+      "Безперебійна інтеграція екосистеми SAP",
+      "Безпека та управління корпоративного рівня"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Вимоги та дизайн",
+        "description": "Семінар для розуміння бізнес-потреб та проектування структури додатку зі зацікавленими сторонами."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Візуальна розробка",
+        "description": "Розробіть додаток за допомогою інтерфейсу drag-and-drop із готовими компонентами та шаблонами."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Інтеграція даних",
+        "description": "Підключіться до систем SAP та зовнішніх джерел даних з безперебійною аутентифікацією."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Тестування та вдосконалення",
+        "description": "Тестування прийняття користувачами та ітеративні поліпшення на основі зворотного зв'язку."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Розгортання",
+        "description": "Розгорніть на веб, iOS та Android з автоматизованою розробкою та розповсюдженням."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Навчання та підтримка",
+        "description": "Навчання кінцевих користувачів та постійна підтримка для безперервного поліпшення."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Автоматизація процесів",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Послуги",
+    "description": "Автоматизація бізнес-процесів із інтелектуальними функціями управління робочими процесами та автоматизації процесів роботи для підвищення ефективності.",
+    "cta": "Автоматизуйте свої процеси →",
+    "servicesTitle": "Повні рішення автоматизації процесів",
+    "servicesSubtitle": "Від простих робочих процесів до складної RPA - комплексна експертиза автоматизації.",
+    "whyChooseTitle": "Інтелектуальна автоматизація процесів",
+    "whyChooseDescription": "Трансформуйте ваші бізнес-операції за допомогою SAP Build Process Automation. Комбінуйте управління робочими процесами, RPA та ШІ для комплексної досконалості процесів.",
+    "implementationTitle": "Дорожна карта впровадження",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Управління робочими процесами",
+        "description": "Проектування та оркестрування складних бізнес-робочих процесів.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Візуальний конструктор робочих процесів",
+          "Логіка затвердження та маршрутизації",
+          "Управління людськими завданнями",
+          "Паралельна та послідовна обробка",
+          "Управління ескалацією та термінами"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Автоматизація процесів роботи",
+        "description": "Автоматизація повторювальних завдань із програмними роботами.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Автоматизація на рівні робочого столу та веб-додатків",
+          "Скреймінг екрану та видобування даних",
+          "Інтеграція додатків без API",
+          "Бути присутніми та відсутніми боти",
+          "Розклад та оркестрування ботів"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Обробка документів",
+        "description": "Інтелектуальне видобування та класифікація документів.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Видобування даних з підтримкою ШІ",
+          "Класифікація та маршрутизація документів",
+          "Обробка на основі шаблонів",
+          "Підтримка багаторазових форматів (PDF, зображення, скани)",
+          "Правила перевірки та підтвердження"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Робочі процеси затвердження",
+        "description": "Оптимізуйте процеси затвердження у всій організації.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Ланцюги затвердження з кількома рівнями",
+          "Логіка умовної маршрутизації",
+          "Правила делегування та заміни",
+          "Можливості затвердження на мобільних пристроях",
+          "Система сповіщень та нагадування"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Аналітика процесів",
+        "description": "Отримайте розуміння продуктивності процесів та вузьких місць.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Process Mining та виявлення",
+          "Метрики продуктивності та KPI",
+          "Визначення вузьких місць",
+          "Моніторинг відповідності",
+          "Рекомендації для безперервного поліпшення"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Управління та відповідність",
+        "description": "Переконайтеся, що процеси відповідають нормативним вимогам.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audit trail та логування",
+          "Контроль доступу та безпека",
+          "Забезпечення правил відповідності",
+          "Контроль версій та управління змінами",
+          "Моніторинг та забезпечення SLA"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% скорочення часу ручної обробки",
+      "99,9% точність у автоматизованих завданнях",
+      "Швидкий ROI протягом 3-6 місяців",
+      "Поліпшена відповідність та аудиторськість",
+      "Виділена підтримка впровадження та оптимізація"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Виявлення процесу",
+        "description": "Аналіз та документування поточних процесів для визначення можливостей автоматизації."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Дизайн автоматизації",
+        "description": "Проектування оптимального рішення автоматизації, що поєднує функції робочого процесу, RPA та ШІ."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Розробка та конфігурація",
+        "description": "Розробіть та налаштуйте автоматизацію за допомогою інструментів SAP Build Process Automation."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Тестування та перевірка",
+        "description": "Комплексне тестування для забезпечення точності та надійності автоматизації."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Розгортання та запуск",
+        "description": "Розгортання в продакшн з контрольованим завантаженням та навчанням користувачів."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Моніторинг та оптимізація",
+        "description": "Безперервний моніторинг та поліпшення на основі аналітики продуктивності."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Архітектура та дизайн",
+    "title": "Архітектура SAP BTP",
+    "subtitle": "та послуги дизайну",
+    "description": "Стратегічне планування архітектури та дизайн для масштабованих, безпечних та високопродуктивних рішень SAP BTP. Ми створюємо хмарні середовища корпоративного рівня, адаптовані до ваших бізнес-потреб.",
+    "cta": "Обговоріть потреби вашої архітектури →",
+    "servicesTitle": "Комплексні послуги архітектури",
+    "servicesSubtitle": "Від первинного проектування ландшафту до впровадження безпеки ми охоплюємо кожен аспект вашої архітектури SAP BTP.",
+    "whyChooseTitle": "Експертна архітектура, яка дає результати",
+    "whyChooseDescription": "Наші сертифіковані архітектори SAP BTP мають багаторічний досвід проектування рішень для глобальних організацій. Ми поєднуємо найкращі практики з інновацією для створення архітектур, які витримують тест часу.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Проектування ландшафту",
+        "description": "Комплексна архітектура ландшафту BTP, адаптована до ваших бізнес-вимог.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Багатовідомча архітектура середовища (Dev, Test, Production)",
+          "Структура та організація subaccount",
+          "Розподіл ресурсів та планування потужності",
+          "Конфігурація Cloud Foundry та Kyma runtime",
+          "Топологія мережі та планування підключення"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Архітектура безпеки",
+        "description": "Дизайн безпеки корпоративного рівня для захисту вашого BTP-середовища та даних.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Стратегія управління ідентичністю та доступом (IAM)",
+          "Імплементація контролю доступу на основі ролей (RBAC)",
+          "Шифрування даних та стандарти відповідності",
+          "Моніторинг безпеки та виявлення загроз",
+          "Логування аудиту та звітування про відповідність"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Висока доступність",
+        "description": "Проектування стійких систем з мінімальним часом простою та максимальною надійністю.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Стратегії розгортання в кількох регіонах",
+          "Рішення для відновлення після катастроф та резервного копіювання",
+          "Механізми балансування навантаження та перемикання",
+          "Планування безперервності бізнесу",
+          "Моніторинг та оптимізація продуктивності"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Налаштування Integration Suite",
+        "description": "Повна конфігурація Integration Suite для безперебійного з'єднання систем.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Налаштування та конфігурація Cloud Integration (CPI)",
+          "Імплементація управління API",
+          "Конфігурація Open Connectors",
+          "Використання Integration Advisor",
+          "Розгортання готового вмісту інтеграції"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "Налаштування SAP Cloud Connector",
+        "description": "Безпечне з'єднання від локального до хмари для гібридної інтеграції ландшафту.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Встановлення та конфігурація Cloud Connector",
+          "Встановлення безпечного тунелю між локальним та BTP",
+          "Контроль доступу та управління групою безпеки",
+          "Картографування систем та конфігурація віртуального хоста",
+          "Налаштування висока доступності та перемикання",
+          "Моніторинг та усунення неполадок з підключенням"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Налаштування Event Mesh",
+        "description": "Впровадження архітектури, керованої подіями, для бізнес-процесів у реальному часі.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Надання екземпляра Event Mesh",
+          "Конфігурація черг та тем",
+          "Налаштування та управління broker подій",
+          "Правила маршрутизації та фільтрування повідомлень",
+          "Моніторинг та аналітика подій"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "Налаштування IAS",
+        "description": "Конфігурація Identity Authentication Service для безпечного управління користувачами.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "Надання та конфігурація IAS tenant",
+          "Імплементація Single Sign-On (SSO)",
+          "Налаштування багатофакторної аутентифікації (MFA)",
+          "Інтеграція corporate identity provider",
+          "Надання користувачів та управління життєвим циклом"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Аутентифікація та ролі користувачів",
+        "description": "Комплексна структура управління користувачами та авторизації.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Визначення та управління користувацькими ролями",
+          "Дизайн моделі авторизації",
+          "Організація групи користувачів",
+          "Імплементація безпеки на рівні додатку",
+          "Робочі процеси призначення та делегування ролей"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Скорочений час впровадження на 40% з перевіреними архітектурними паттернами",
+      "Безпека корпоративного рівня у відповідності з промисловими стандартами",
+      "Масштабована інфраструктура, яка зростає із вашим бізнесом",
+      "Проактивні можливості моніторингу для критичних систем",
+      "Експертне керівництво від сертифікованих архітекторів SAP BTP"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "Зосередженість на SAP BTP"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Років комбінованого досвіду"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Обслуговуваних країн"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Команда експертів"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Чому вибрати TerraBT",
+    "ctaSectionBadge": "⚡ Запустіть свій проект сьогодні",
+    "ctaSectionTitle1": "Готові будувати",
+    "ctaSectionTitle2": "вашу архітектуру SAP BTP?",
+    "ctaSectionDescription": "Заплануйте безкоштовну консультацію з нашими архітекторами SAP BTP, щоб обговорити ваші вимоги та дослідити, як ми можемо допомогти вам досягти успіху.",
+    "ctaSectionButton1": "Запланувати безкоштовну консультацію →",
+    "ctaSectionButton2": "Переглянути всі послуги"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Розробка додатків",
+    "title": "Додаток SAP Fiori",
+    "subtitle": "Послуги розробки",
+    "description": "Розробка сучасних, адаптивних Fiori-додатків, які забезпечують винятковий користувацький досвід на всіх пристроях. Від концепції до розгортання ми створюємо красиві, високопродуктивні додатки з використанням найновітніших технологій SAP.",
+    "cta": "Запустіть свій проект Fiori →",
+    "servicesTitle": "Повні рішення розробки Fiori",
+    "servicesSubtitle": "Послуги розробки Fiori від початку до кінця - від дизайну до розгортання та далі.",
+    "whyChooseTitle": "Експерти Fiori, які доставляють досконалість",
+    "whyChooseDescription": "Наші сертифіковані розробники SAP спеціалізуються на розробці корпоративних Fiori-додатків. Ми поєднуємо технічну експертизу з Design Thinking, щоб створювати додатки, які люди люблять.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Користувацька розробка Fiori-додатків",
+        "description": "Розробка адаптованих Fiori-додатків, які ідеально відповідають вашим бізнес-вимогам.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "Експертиза SAPUI5 framework",
+          "Додатки Fiori Elements та Freestyle",
+          "Інтеграція сервісів OData",
+          "Responsive дизайн для всіх пристроїв",
+          "Користувацькі елементи керування та компоненти"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Дизайн UI/UX",
+        "description": "Створення інтуїтивних, красивих інтерфейсів відповідно до рекомендацій дизайну SAP Fiori.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "Дотримання принципів дизайну SAP Fiori",
+          "Дослідження користувачів та розробка персон",
+          "Розробка макетів та прототипів",
+          "Відповідність доступності (WCAG)",
+          "Налаштування теми та брендування"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Оптимізація продуктивності",
+        "description": "Переконайтеся, що ваші Fiori-додатки швидко завантажуються та плавно працюють на будь-якому пристрої.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Оптимізація та мініфікація коду",
+          "Імплементація відкладеного завантаження",
+          "Зменшення розміру пакета",
+          "Оптимізація мережевих запитів",
+          "Моніторинг та аналітика продуктивності"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Розробка з фокусом на мобільне",
+        "description": "Розробка Fiori-додатків, оптимізованих для мобільних користувачів та офлайн-сценаріїв.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Responsive та адаптивний дизайн",
+          "Взаємодія, оптимізована для сенсора",
+          "Мобільно-специфічні функції (камера, GPS)",
+          "Синхронізація даних офлайн",
+          "Можливості Progressive Web App (PWA)"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Інтеграція та тестування",
+        "description": "Безперебійна інтеграція backend із комплексним покриттям тестування.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "Створення сервісів SAP Gateway та OData",
+          "Інтеграція backend-системи",
+          "Модульне та інтеграційне тестування",
+          "Автоматизація наскрізного тестування",
+          "Неперервна інтеграція/розгортання (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Навчання та підтримка",
+        "description": "Розширте можливості своєї команди знаннями та постійною підтримкою обслуговування.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Семінари з навчання розробників",
+          "Документація найкращих практик",
+          "Перевірка коду та забезпечення якості",
+          "Постійне обслуговування та оновлення",
+          "Комплексна передача в продакшн"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Сучасні, інтуїтивні інтерфейси, які підвищують прийняття користувачами",
+      "Швидша розробка з повторно використовуваними компонентами та шаблонами",
+      "Кросс-девайс сумісність забезпечує безперебійний досвід",
+      "Розробники, сертифіковані SAP, з глибокою експертизою Fiori",
+      "Зменшені витрати на навчання з знайомим, узгодженим UX"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Доставлено Fiori додатків"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Рівень задоволення користувачів"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Швидше час до ринку"
       },
       "responsive": {
         "value": "100%",
         "label": "Mobile Responsive"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Чому вибрати TerraBT",
+    "ctaSectionBadge": "⚡ Доступні обмежені слоти розробки",
+    "ctaSectionTitle1": "Готові будувати",
+    "ctaSectionTitle2": "вашу наступну Fiori-програму?",
+    "ctaSectionDescription": "Давайте обговоримо ваші вимоги та створимо красиву, високопродуктивну Fiori-програму, яку люблять ваші користувачі.",
+    "ctaSectionButton1": "Отримайте безкоштовну цитату →",
+    "ctaSectionButton2": "Дослідіть інші послуги"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Прогресивні веб-додатки",
+    "title": "Offline PWA додатки",
+    "subtitle": "для SAP BTP",
+    "description": "Прогресивні веб-додатки з офлайн-можливостями, що забезпечують безперебійний користувацький досвід де завгодно. Розробіть додатки, які працюють ідеально як в мережі, так і без мережі, забезпечуючи нативний досвід додатку через веб.",
+    "cta": "Розбудуйте свою PWA →",
+    "servicesTitle": "Повні послуги розробки PWA",
+    "servicesSubtitle": "Від архітектури офлайн-першості до push-сповіщень ми розробляємо PWA, які конкурують з нативними додатками.",
+    "whyChooseBadge": "Переваги PWA",
+    "whyChooseTitle": "Нативний досвід, веб-простота",
+    "whyChooseDescription": "Прогресивні веб-додатки поєднують найкраще з веб- та нативних додатків. Без затвердження app store, миттєві оновлення та робота на всіх пристроях - все при app-подібному досвіді.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Архітектура офлайн-першості",
+        "description": "Проектування додатків, які безперебійно працюють навіть без інтернет-з'єднання.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Імплементація Service Worker",
+          "Стратегії кешування даних офлайн",
+          "Управління IndexedDB та локальним сховищем",
+          "Можливості синхронізації на фоні",
+          "Стратегії розв'язання конфліктів"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Синхронізація даних",
+        "description": "Інтелектуальні механізми синхронізації для підтримання узгодженості даних на пристроях.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Автоматична синхронізація на фоні",
+          "Delta sync для ефективного передання даних",
+          "Виявлення та розв'язання конфліктів",
+          "Оптимістичні оновлення UI",
+          "Механізми повтору та обробка помилок"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Функції Progressive Web App",
+        "description": "Досвід, подібний до нативного додатку, з сучасними веб-можливостями.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Конфігурація маніфесту додатку",
+          "Функція додавання на домашній екран",
+          "Підтримка push-сповіщень",
+          "Інтеграція камери та GPS",
+          "Архітектура app shell"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Оптимізація продуктивності",
+        "description": "Блискавично швидкий час завантаження та плавні переходи офлайн.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Попереднє кешування критичних ресурсів",
+          "Відкладене завантаження для зображень та вмісту",
+          "Розділення коду та збірка",
+          "Стиснення та мініфікація",
+          "Моніторинг та аналітика продуктивності"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Безпека та відповідність",
+        "description": "Безпечне сховище та передача даних офлайн.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Шифрування даних в спокої",
+          "Безпечні токени аутентифікації",
+          "Забезпечення HTTPS",
+          "Policy безпеки вмісту (CSP)",
+          "Регулярні перевірки безпеки"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Онлайн-розширення",
+        "description": "Розширена функціональність при наявності з'єднання.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Оновлення та сповіщення в реальному часі",
+          "Резервна копія хмари та відновлення",
+          "Синхронізація між пристроями",
+          "Аналітика та телеметрія",
+          "Виявлення функцій та прогресивне поліпшення"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Працюйте де завгодно, коли завгодно - навіть без інтернету",
+      "Поліпший користувацький досвід з миттєвим завантаженням",
+      "Зменшені витрати сервера за допомогою ефективного кешування",
+      "Вищі коефіцієнти конверсії з app-подібним досвідом",
+      "Кращне залучення через push-сповіщення"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Можливість офлайн"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Швидше час завантаження"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Зменшене споживання даних"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Вище залучення"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Активуйте офлайн-можливості сьогодні",
+    "ctaSectionTitle1": "Готові будувати",
+    "ctaSectionTitle2": "вашу PWA офлайн-першості?",
+    "ctaSectionDescription": "Давайте створимо прогресивний веб-додаток, який бездоганно працює офлайн та забезпечує нативний досвід додатку вашим користувачам.",
+    "ctaSectionButton1": "Запустіть свій проект PWA →",
+    "ctaSectionButton2": "Переглянути всі послуги"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Управління даними",
+    "title": "База даних SAP BTP",
+    "subtitle": "Послуги управління",
+    "description": "Ефективний дизайн, оптимізація та управління базою даних для високопродуктивних додатків SAP BTP. Експертні послуги для баз даних SAP HANA Cloud, PostgreSQL та SAP ASE.",
+    "cta": "Оптимізуйте свою базу даних →",
+    "servicesTitle": "Повні рішення управління базами даних",
+    "servicesSubtitle": "Від дизайну до оптимізації, безпеки до відновлення - комплексна експертиза баз даних.",
+    "whyChooseTitle": "Продуктивність, безпека, надійність",
+    "whyChooseDescription": "Наші фахівці з баз даних мають глибоку експертизу в технологіях баз даних SAP BTP. Ми переконуємось, що ваші дані швидкі, безпечні та завжди доступні, коли вам вони потрібні.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Дизайн та моделювання баз даних",
+        "description": "Ефективний дизайн схеми бази даних, оптимізований для додатків SAP BTP.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "Дизайн бази даних SAP HANA Cloud",
+          "Конфігурація PostgreSQL та SAP ASE",
+          "Моделювання зв'язків сутностей",
+          "Стратегії нормалізації та денормалізації",
+          "Стратегії індексування та розділення"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Оптимізація продуктивності",
+        "description": "Максимізуйте продуктивність бази даних для блискавично швидкого виконання запитів.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Оптимізація та налаштування запитів",
+          "Аналіз та рекомендації індексів",
+          "Оптимізація плану виконання",
+          "Конфігурація пам'яті та кешу",
+          "Моніторинг та профілювання продуктивності"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Безпека та відповідність",
+        "description": "Захистіть свої дані за допомогою заходів безпеки корпоративного рівня.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Шифрування даних в спокої та при передачі",
+          "Безпека рівня рядків та стовпців",
+          "Імплементація audit trail",
+          "Вимоги GDPR та відповідності",
+          "Шифрування та безпечне сховище резервних копій"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Резервна копія та відновлення",
+        "description": "Комплексне планування відновлення після катастроф та безперервності бізнесу.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Автоматизована графіка резервного копіювання",
+          "Можливості відновлення в точку часу",
+          "Процедури відновлення після катастроф",
+          "Конфігурація висока доступності",
+          "Реплікація в кількох регіонах"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Міграція даних",
+        "description": "Безперебійна міграція даних із систем спадщини на SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Видобування та трансформація даних",
+          "Стратегія та планування міграції",
+          "Техніки міграції без простоїв",
+          "Перевірка та верифікація даних",
+          "Процедури та тестування повернення"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Моніторинг та обслуговування",
+        "description": "Проактивний моніторинг та обслуговування для оптимального здоров'я бази даних.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Моніторинг продуктивності в реальному часі",
+          "Автоматизовані оповіщення та сповіщення",
+          "Перевірки здоров'я та діагностика",
+          "Планування та прогнозування потужності",
+          "Управління латками та оновлення"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "До 10x швидша продуктивність запитів за допомогою оптимізації",
+      "99,99% доступність з конфігурацією висока доступності",
+      "Зменшені витрати на сховище завдяки ефективному дизайну",
+      "Готовність до відповідності з вбудованими функціями безпеки",
+      "Проактивний моніторинг та експертне керівництво"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Досконалість баз даних",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Гарантія доступності"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Поліпшення продуктивності"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Безпека даних"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Експертне керівництво"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Оптимізуйте продуктивність вашої бази даних",
+    "ctaSectionTitle1": "Готові максимізувати",
+    "ctaSectionTitle2": "продуктивність вашої бази даних?",
+    "ctaSectionDescription": "Отримайте безкоштовну перевірку здоров'я бази даних та відкрийте для себе можливості оптимізації, які можуть трансформувати продуктивність вашого додатку.",
+    "ctaSectionButton1": "Отримайте безкоштовну оцінку бази даних →",
+    "ctaSectionButton2": "Дослідіть всі послуги"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Інновація та стратегія",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "для інновацій SAP BTP",
+    "description": "Підхід, орієнтований на користувача, для розробки інноваційних рішень SAP BTP, які вирішують реальні бізнес-проблеми. Ми допомагаємо вам виявити правильні проблеми для розв'язання та розробити рішення, які люди люблять.",
+    "cta": "Заплануйте дизайн-семінар →",
+    "servicesTitle": "Наш процес Design Thinking",
+    "servicesSubtitle": "Доведена методологія для інновацій та вирішення проблем у проектах SAP BTP.",
+    "whyChooseTitle": "Інновація, яка створює реальну цінність",
+    "whyChooseDescription": "Design Thinking трансформує, як ви підходите до проектів SAP BTP. Зосередивши увагу на потребах користувачів та швидкій ітерації, ми допомагаємо вам розробити рішення, які забезпечують вимірювальну бізнес-цінність.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Дослідження та емпатія користувачів",
+        "description": "Глибоке розуміння потреб, болей та мотивацій ваших користувачів.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Інтерв'ю користувачів та залучення зацікавлених сторін",
+          "Розробка персон та картографування подорожі",
+          "Контекстуальні дослідження та спостереження",
+          "Визначення болів та можливостей",
+          "Семінари з емпатійного картографування"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Визначення проблеми",
+        "description": "Ясне визначення правильних проблем для максимального бізнес-впливу.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Формулювання постановки проблеми",
+          "Формування виклику дизайну",
+          "Визначення простору можливостей",
+          "Визначення критеріїв успіху",
+          "Сесії узгодження зацікавлених сторін"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Семінари ідеаторізації",
+        "description": "Генерація інноваційних рішень через структуровані творчі сесії.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Модеровані сесії мозкового штурму",
+          "Техніки SCAMPER та бічного мислення",
+          "Семінари колаборативної ідеаторізації",
+          "Пріоритизація та відбір ідей",
+          "Розробка та вдосконалення концепції"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Прототипування",
+        "description": "Швидке створення матеріальних представлень ідей для перевірки.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Низько-вірні макети та ескізи",
+          "Інтерактивні кліковані прототипи",
+          "Високо-вірні макети",
+          "Розробка доказу концепції",
+          "Дизайн MVP (Мінімальний життєздатний продукт)"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Тестування та ітерація",
+        "description": "Перевірка рішень з реальними користувачами та безперервне поліпшення.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Сесії тестування зручності",
+          "A/B тестування та експерименти",
+          "Збір та аналіз зворотного зв'язку користувачів",
+          "Ітеративне вдосконалення дизайну",
+          "Перевірка відповідності критеріям успіху"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Підтримка впровадження",
+        "description": "Керівництво вашої команди від перевіреної концепції до успішного запуску.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Оцінка технічної здійсненності",
+          "Створення дорожної карти впровадження",
+          "Планування гнучких спринтів",
+          "Співпраця команди розробників",
+          "Моніторинг та оптимізація після запуску"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Зменшіть ризик шляхом перевірки ідей перед великими інвестиціями",
+      "Швидша інновація за допомогою структурованого підходу до вирішення проблем",
+      "Вище прийняття користувачами за допомогою рішень, орієнтованих на користувача",
+      "Узгодження та залучення функціональної команди",
+      "Вимірювальні бізнес-результати та ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Швидше розв'язання проблеми"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Зменшені витрати на розробку"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Задоволення зацікавлених сторін"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Орієнтований на користувача підхід"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "Інтеграція та підключення",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "Послуги",
+    "description": "Безперебійні рішення для інтеграції, що з'єднують ваші системи SAP з хмарними та локальними додатками. Експертне впровадження Cloud Integration, API Management, Open Connectors та Integration Advisor.",
+    "cta": "Підключіть свої системи →",
+    "servicesTitle": "Повна експертиза Integration Suite",
+    "servicesSubtitle": "Від Cloud Integration до API Management - комплексні послуги інтеграції.",
+    "whyChooseTitle": "Безперебійне з'єднання систем",
+    "whyChooseDescription": "SAP BTP Integration Suite надає все необхідне для з'єднання вашого підприємства. Наші експерти переконуються, що ваші інтеграції надійні, безпечні та масштабовані.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "З'єднання облачних та локальних систем із надійними потоками інтеграції.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Дизайн та розробка потоку інтеграції",
+          "Використання готового вмісту інтеграції",
+          "Картографування та трансформація повідомлень",
+          "Обробка помилок та моніторинг",
+          "Управління артефактами безпеки"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "Управління API",
+        "description": "Дизайн, публікація та управління API з повною підтримкою життєвого циклу.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "Створення та конфігурація проксі API",
+          "Забезпечення політик (безпека, обмеження частоти)",
+          "Портал API та документація розробника",
+          "Аналітика та моніторинг використання",
+          "Монетизація та управління квотою"
         ]
       },
       "openConnectors": {
         "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "description": "Готові конектори для швидкої інтеграції з системами третіх сторін.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ готових конекторів",
+          "Розробка користувацьких конекторів",
+          "Аутентифікація та авторизація",
+          "Трансформація та нормалізація даних",
+          "Інтеграція на основі подій"
         ]
       },
       "advisor": {
         "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "description": "Прискорення розробки інтеграції за допомогою рекомендацій на основі ШІ.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Автоматизовані пропозиції картографування",
+          "Посібники реалізації повідомлень (MIG)",
+          "Шаблони сценаріїв B2B інтеграції",
+          "Пропозиції картографування інтерфейсу",
+          "Рекомендації найкращих практик"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Безпека та управління",
+        "description": "Безпека корпоративного рівня та управління для всіх інтеграцій.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "Аутентифікація OAuth та SAML",
+          "Управління сертифікатом та ключом",
+          "Шифрування на рівні транспорту (TLS/SSL)",
+          "Шифрування на рівні повідомлення",
+          "Логування аудиту та відповідність"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Моніторинг та операції",
+        "description": "Комплексний моніторинг та операційна досконалість.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Моніторинг повідомлень у реальному часі",
+          "Метрики та KPI продуктивності",
+          "Налаштування сповіщень та сповіщень",
+          "Аналіз логів та усунення неполадок",
+          "Планування та оптимізація потужності"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Швидша інтеграція з готовим вмістом та прискорювачами",
+      "Зменшені витрати на інтеграцію за допомогою хмарної платформи",
+      "Надійність та масштабованість корпоративного рівня",
+      "Єдина платформа для всіх потреб інтеграції",
+      "Виділене експертне консультування та керівництво"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Готові конектори"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Доступність інтеграції"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Швидше впровадження"
       },
       "support": {
         "value": "Global",
-        "label": "Expertenteam"
+        "label": "Команда експертів"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Досконалість інтеграції",
+    "ctaSectionBadge": "⚡ Підключіть своє підприємство сьогодні",
+    "ctaSectionTitle1": "Готові об'єднати",
+    "ctaSectionTitle2": "ваші бізнес-системи?",
+    "ctaSectionDescription": "Давайте обговоримо ваші потреби інтеграції та створимо комплексне рішення, яке з'єднує всі ваші критичні бізнес-системи.",
+    "ctaSectionButton1": "Отримайте консультацію з інтеграції →",
+    "ctaSectionButton2": "Переглянути всі послуги"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Архітектура, керована подіями",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Послуги впровадження",
+    "description": "Впровадження архітектури, керованої подіями у реальному часі, для чутливих, масштабованих бізнес-процесів. Розробіть розподілені системи, які миттєво реагують на бізнес-події за допомогою SAP Event Mesh.",
+    "cta": "Розбудуйте архітектуру, керовану подіями →",
+    "servicesTitle": "Повні рішення Event Mesh",
+    "servicesSubtitle": "Від дизайну архітектури до впровадження - розбудуйте чутливі системи, керовані подіями.",
+    "whyChooseTitle": "Чутливість бізнесу до подій у реальному часі",
+    "whyChooseDescription": "Event Mesh дозволяє вашому бізнесу миттєво реагувати на Події, коли вони відбуваються. Розробіть слабко пов'язані, високомасштабовані системи, які адаптуються до змінюваних потреб бізнесу.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Архітектура Event Mesh",
+        "description": "Дизайн та впровадження архітектури, керованої подіями на рівні підприємства.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Дизайн топології Event Mesh",
+          "Розповсюдження подій в кількох регіонах",
+          "Конфігурація broker подій",
+          "Стратегії маршрутизації повідомлень",
+          "Шаблони дизайну тем та черг"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Обробка подій у реальному часі",
+        "description": "Обробка та реагування на бізнес-події в реальному часі.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Впровадження потокування подій",
+          "Обробка складних подій (CEP)",
+          "Фільтрування та трансформація подій",
+          "Агрегація та кореляція подій",
+          "Доставка подій з низькою затримкою"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Інтеграції керовані подіями",
+        "description": "З'єднання систем через асинхронну комунікацію на основі подій.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Шаблони Видавець/Передплатник",
+          "Мікросервіси керовані подіями",
+          "Інтеграція webhook та callback",
+          "Повтор та відновлення подій",
+          "Управління очередю мертвих листів"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Безпека та управління",
+        "description": "Безпечна передача подій з комплексним управлінням.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Шифрування подій при передачі",
+          "Контроль доступу та авторизація",
+          "Перевірка схеми подій",
+          "Логування відповідності та аудиту",
+          "Контроль приватності даних"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Мульти-хмара та гібридна",
+        "description": "Event Mesh на провайдерів хмари та локальних системах.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Розповсюдження подій між хмарами",
+          "Підключення гібридної хмари",
+          "Надмірність мульти-регіону",
+          "Географічна маршрутизація подій",
+          "Архітектура, агностична до хмари"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Моніторинг та аналітика",
+        "description": "Комплексна видимість у ваш екосистем подій.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Моніторинг подій у реальному часі",
+          "Метрики та SLA продуктивності",
+          "Візуалізація потоку подій",
+          "Визначення вузьких місць",
+          "Прогностичне планування потужності"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Розв'яжіть системи для більшої гнучкості та масштабованості",
+      "Розуміння бізнесу в реальному часі та миттєва реакція",
+      "Поліпшена стійкість системи та толерантність до помилок",
+      "Зменшена складність інтеграції точка-точка",
+      "Підтримка сучасних архітектур керованих подіями"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Затримка доставки подій"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Подій на секунду"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Гарантія доставки подій"
       },
       "distribution": {
         "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "label": "Розповсюдження мульти-регіону"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Досконалість керована подіями",
+    "ctaSectionBadge": "⚡ Розбудуйте системи в реальному часі",
+    "ctaSectionTitle1": "Готові впровадити",
+    "ctaSectionTitle2": "архітектуру керовану подіями?",
+    "ctaSectionDescription": "Трансформуйте свій бізнес за допомогою обробки подій у реальному часі. Давайте обговоримо, як Event Mesh може живити ваші додатки наступного покоління.",
+    "ctaSectionButton1": "Запланувати консультацію Event Mesh →",
+    "ctaSectionButton2": "Дослідіть усі технології"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "ШІ та автоматизація",
+    "title": "На основі ШІ",
+    "subtitle": "Обробка рахунків",
+    "description": "Інтелектуальна автоматизація обробки рахунків із передовою ШІ для точних, ефективних операцій. Трансформуйте свій процес кредиторської заборгованості із передовою ШІ-технологією, інтегрованою з SAP BTP.",
+    "cta": "Автоматизуйте свої рахунки →",
+    "servicesTitle": "Автоматизація рахунків на основі ШІ",
+    "servicesSubtitle": "Використовуйте передові можливості ШІ для інтелектуальної обробки та автоматизації рахунків.",
+    "whyChooseTitle": "Трансформуйте обробку рахунків",
+    "whyChooseDescription": "Передова ШІ приносить розуміння на рівні людини до обробки рахунків. Обробіть складні макети, кілька мов та граничні випадки, з якими традиційні системи OCR борються.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Інтелектуальне видобування даних",
+        "description": "Видобування даних рахунків на основі передової ШІ з неповторною точністю.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Обробка рахунків з багаторазовим форматом (PDF, зображення, скани)",
+          "Автоматичне виявлення та видобування полів",
+          "Розпізнавання заголовка та позицій",
+          "Розуміння таблиць та складних макетів",
+          "Розпізнавання рукописного тексту"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "Інтеграція SAP BTP",
+        "description": "Безперебійна інтеграція з сервісами SAP BTP та backend-системами.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Пряма інтеграція з SAP S/4HANA",
+          "Підключення SAP Document Management Service",
+          "Тригери автоматизації робочих процесів",
+          "Перевірка даних у реальному часі",
+          "Імплементація користувацьких бізнес-правил"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Автоматизована обробка",
+        "description": "Автоматизація від початку до кінця з мінімальною ручною інтервенцією.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Інтелектуальна маршрутизація та класифікація",
+          "Автоматичне затвердження для низькоризикових рахунків",
+          "Робочі процеси обробки виключень",
+          "Виявлення та запобігання дублюванню",
+          "Автоматизація тристороннього узгодження"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Перевірка та відповідність",
+        "description": "Забезпечення точності та нормативної відповідності у кожній операції.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Багатовідомчі правила перевірки",
+          "Перевірка розрахунку податків",
+          "Перевірка відповідності (ПДВ, GST)",
+          "Логування та аудит trail",
+          "Приватність даних та безпека (GDPR відповідна)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Аналітика та розуміння",
+        "description": "Отримайте цінні розуміння з ваших даних обробки рахунків.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Метрики та KPI обробки",
+          "Відстеження точності та помилок",
+          "Аналіз економії витрат",
+          "Аналітика продуктивності постачальника",
+          "Розуміння прогностичного потоку грошей"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Навчання та оптимізація",
+        "description": "Безперервне поліпшення через навчання ШІ та оптимізацію системи.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Користувацьке навчання моделей для ваших рахунків",
+          "Безперервне навчання з исправлень",
+          "Оптимізація обробки на основі шаблонів",
+          "Імплементація циклу зворотного зв'язку",
+          "Регулярні покращення точності"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ рівень точності зменшує ручні виправлення",
+      "80% швидша обробка рахунків",
+      "70% скорочення витрат на обробку",
+      "Майже нульові помилки введення даних",
+      "Видимість статусу обробки в реальному часі"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Рівень точності"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Скорочення часу"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Економія витрат"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Автоматизована обробка"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Повернутися на головну",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Революціонізація обробки рахунків за допомогою ШІ",
+      "category": "ШІ/ML",
+      "readTime": "6 хв",
+      "seoDescription": "Дослідіть, як інтеграція ШІ на SAP BTP трансформує обробку рахунків із інтелектуальною автоматизацією та розширеним розумінням документів.",
+      "intro": "Обробка рахунків була традиційно часовитратною, схильною до помилок ручною задачею. Інтеграція передової ШІ з SAP BTP революціонізує цей процес, принісши безпрецедентні рівні автоматизації, точності та ефективності операцій кредиторської заборгованості.",
+      "section1Title": "Виклик традиційної обробки рахунків",
+      "section1Content": "Організації обробляють тисячі рахунків щомісяця, кожна вимагає видобування даних, перевірки та введення в ERP-системи. Ручна обробка повільна, дорога та схильна до помилок, які можуть призвести до затримок платежів, подвійних платежів або пропущених дисконтів.",
+      "section2Title": "Розширене розуміння документів ШІ",
+      "section2Content": "Сучасна ШІ приносить найновіші можливості обробки природної мови та комп'ютерного зору до обробки рахунків. На відміну від традиційних систем OCR, передова ШІ може розуміти контекст, обробляти різні формати рахунків та видобувати інформацію з дивовижною точністю навіть з погано скануваних або складних документів.",
+      "section3Title": "Безперебійна інтеграція SAP BTP",
+      "section3Content": "Інтеграція ШІ з SAP BTP створює потужний конвеєр автоматизації. Вхідні рахунки автоматично обробляються, дані видобуваються та перевіряються, а інформація безпосередньо надходить в SAP-системи без людської інтервенції. Ця інтеграція використовує надійну зв'язність та можливості робочих процесів SAP BTP.",
+      "section4Title": "Інтелектуальна обробка виключень",
+      "section4Content": "Однією з ключових переваг ШІ є її здатність розумно обробляти виключення. Коли зустрічаються незвичайні формати рахунків або двозначна інформація, система може позначити елементи для людського огляду з детальними поясненнями, що робить обробку виключень набагато ефективнішою від традиційних систем на основі правил.",
+      "section5Title": "Вимірювальний бізнес-вплив",
+      "section5Content": "Організації, які впроваджують ШІ для обробки рахунків, зазвичай бачать драматичні поліпшення: 90% скорочення часу обробки, 95% зменшення помилок введення даних та суттєву економію витрат операцій кредиторської заборгованості. Можливо, найважливіше: персонал може сконцентруватися на стратегічних діяльностях замість повторюваного введення даних.",
+      "conclusionTitle": "Висновок",
+      "conclusionContent": "Поєднання передових можливостей ШІ та інфраструктури корпоративного рівня SAP BTP представляє трансформуючий підхід до обробки рахунків. Організації, які приймають цю технологію, отримують значну конкурентну перевагу завдяки поліпшеній ефективності, точності та скорочення витрат."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Розробка сучасних Fiori-програм на SAP BTP",
+      "category": "Розробка",
+      "readTime": "8 хв",
+      "seoDescription": "Дізнайтеся, як розробляти сучасні, адаптивні Fiori-програми за допомогою потужних інструментів розробки та фреймворків SAP BTP.",
+      "intro": "SAP Fiori являє собою майбутнє корпоративних програм, забезпечуючи єдиний користувацький досвід на всіх пристроях та варіантах розгортання. За допомогою SAP Business Technology Platform (BTP) розробка сучасних Fiori-програм стала більш оптимізованою та потужною, ніж коли-либо.",
+      "section1Title": "Потужність SAP BTP для розробки Fiori",
+      "section1Content": "SAP BTP пропонує комплексний набір інструментів та сервісів, спеціально розроблених для розробки програм Fiori. Платформа надає все - від середовищ розробки до інфраструктури розгортання, що дозволяє командам сконцентруватися на створенні винятковихользувацьких досвідів замість управління інфраструктурою.",
+      "section2Title": "Ключові функції та найкращі практики",
+      "section2Content": "Сучасні програми Fiori використовують фреймворк SAP Fiori Elements, який надає готові компоненти UI та шаблони, що забезпечують узгодженість та скорочують час розробки. Поєднуючи ці елементи з користувацькими елементами керування SAPUI5, розробники можуть створювати програми, які є як стандартизованими, так і адаптованими до конкретних бізнес-потреб.",
+      "section3Title": "Інтеграція з сервісами SAP BTP",
+      "section3Content": "Однією з основних переваг розробки програм Fiori на SAP BTP є безперебійна інтеграція з іншими сервісами платформи. Від аутентифікації та авторизації за допомогою SAP Cloud Identity Services до зберігання даних за допомогою SAP HANA Cloud розробники мають доступ до сервісів корпоративного рівня, які легко інтегруються у їхні програми.",
+      "section4Title": "Responsive дизайн та підтримка багатьох пристроїв",
+      "section4Content": "Програми Fiori, розроблені на SAP BTP, автоматично адаптуються до різних розмірів екрану та пристроїв, забезпечуючи узгоджений користувацький досвід незалежно від того, чи здійснюється доступ з робочого столу, планшета чи мобільного телефону. Ця можливість responsive дизайну вбудована у фреймворк, зменшуючи зусилля, необхідні для підтримки кількох пристроїв.",
+      "section5Title": "Оптимізація продуктивності",
+      "section5Content": "SAP BTP надає різні інструменти та методи оптимізації продуктивності програм Fiori, включаючи відкладене завантаження, збірку та стратегії кешування. Ці методи оптимізації гарантують, що програми швидко завантажуються та гладко реагують, навіть при обробці великих наборів даних або складної бізнес-логіки.",
+      "conclusionTitle": "Висновок",
+      "conclusionContent": "Розробка сучасних програм Fiori на SAP BTP поєднує потужність інфраструктури корпоративного рівня з передовими фреймворками розробки. Використовуючи можливості платформи, команди розробників можуть створювати складні, зручні програми, які стимулюють бізнес-цінність та підвищують продуктивність в організації."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Рішення Offline PWA для безперервності бізнесу",
+      "category": "Архітектура",
+      "readTime": "7 хв",
+      "seoDescription": "Дослідіть, як прогресивні веб-програми (PWA) з офлайн-можливостями забезпечують безперервність бізнесу та продуктивність за будь-яких мережевих умов.",
+      "intro": "У сьогоднішньому підключеному світі переривання мережі можуть зупинити бізнес-операції. Прогресивні веб-програми (PWA) з офлайн-можливостями пропонують надійне рішення для забезпечення безперервності бізнесу, дозволяючи користувачам працювати безперебійно незалежно від наявності мережі.",
+      "section1Title": "Розуміння архітектури офлайн-першості",
+      "section1Content": "Архітектура офлайн-першості являє собою зміну парадигми того, як ми розробляємо веб-програми. Замість розгляду режиму офлайн як граничного випадку, дизайн офлайн-першості робить його основною функцією. Цей підхід гарантує, що програми залишаються функціональними навіть коли мережевої зв'язності ненадійна або повністю недоступна.",
+      "section2Title": "Service Workers: основа Offline PWA",
+      "section2Content": "Service Workers - це технологія, яка робить можливими Offline PWA. Ці програмовані мережеві проксі розташовуються між вашою програмою та мережею, перехоплюючи запити та забезпечуючи складні стратегії кешування. Використовуючи Service Workers, програми можуть кешувати критичні ресурси та дані, забезпечуючи доступність навіть офлайн.",
+      "section3Title": "Стратегії синхронізації даних",
+      "section3Content": "Основний виклик у Offline PWA - управління синхронізацією даних коли зв'язність відновлюється. Імплементація надійних стратегій розв'язання конфліктів та оптимістичних оновлень гарантує, що дані залишаються узгодженими на пристроях та backend-системах. API Background Sync дозволяють автоматичну синхронізацію коли мережа стає доступною знову.",
+      "section4Title": "Бізнес-переваги",
+      "section4Content": "Offline PWA доставляють значну бізнес-цінність, забезпечуючи продуктивність за будь-яких мережевих умов. Польові робітники можуть продовжити свої завдання в дальніх місцях, команди продажів можуть отримати доступ до критичної інформації під час презентацій, а операції продовжуються гладко під час мережевих збоїв. Ця надійність безпосередньо перекладається на поліпшене задоволення клієнтів та операційну ефективність.",
+      "section5Title": "Впровадження за допомогою SAP BTP",
+      "section5Content": "SAP BTP надає відмінну підтримку для розробки Offline PWA через своє мобільне пропонування Services. Ці сервіси включають синхронізацію даних офлайн, безпечне сховище та комплексні API, які спрощують розробку надійних програм з офлайн-можливостями.",
+      "conclusionTitle": "Висновок",
+      "conclusionContent": "Offline PWA являють собою майбутнє бізнес-програм, забезпечуючи стійкість та надійність, які традиційні веб-програми не можуть забезпечити. Прийнявши архітектуру офлайн-першості та використовуючи сучасні веб-технології, організації можуть забезпечити безперервність бізнесу та підтримати продуктивність незалежно від умов мережі."
     }
   }
 }

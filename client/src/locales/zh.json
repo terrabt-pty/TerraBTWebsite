@@ -13,1450 +13,1450 @@
     "learn": "探索我们的服务"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "我们的专业知识",
+    "subtitle": "全面的SAP BTP解决方案，帮助您的企业完成转型",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori应用开发",
+      "description": "开发现代、响应式Fiori应用，在所有设备上提供卓越的用户体验。"
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP架构和设计",
+      "description": "战略性的架构规划和设计，提供可扩展的SAP BTP解决方案，完全符合您的业务需求。"
     },
     "designThinking": {
-      "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "title": "设计思维",
+      "description": "以用户为中心的设计方法，开发创新解决方案，解决真实的业务挑战。"
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "离线PWA应用",
+      "description": "具有离线功能的渐进式网络应用，确保任何地方都能提供无缝的用户体验。"
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP数据库管理",
+      "description": "高效的数据库设计、优化和管理，为高性能BTP应用提供支持。"
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "AI发票处理",
+      "description": "采用先进AI技术的智能发票处理自动化，确保精确和高效的运营。"
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "无缝的集成解决方案，将您的SAP系统与云和本地应用相连接。"
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "实现事件驱动的实时架构，为响应迅速、可扩展的业务流程提供支持。"
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP开发",
+      "description": "使用SAP Cloud Application Programming Model开发现代云应用，实现快速、可扩展的开发。"
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "利用无代码/低代码工具创建专业的企业应用，实现快速数字化转型。"
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "使用智能工作流和机器人流程自动化功能实现业务流程自动化。"
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "我们的专长",
+      "title": "100%的SAP BTP专业化",
+      "description": "与一般的咨询公司不同，我们专门专注于SAP Business Technology Platform，确保提供深厚的专业知识和尖端的解决方案。",
+      "point1": "拥有SAP BTP认证专家组成的专业团队",
+      "point2": "始终与最新的BTP功能和最佳实践保持同步",
+      "point3": "在多个行业拥有可证实的成功业绩"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "全球影响力",
+      "title": "全球市场服务",
+      "description": "我们将SAP BTP专业知识带到全球市场，无论您的位置在哪里，都能提供世界一流的解决方案。",
+      "point1": "跨越所有时区的远程咨询能力",
+      "point2": "为国际团队提供多语言支持",
+      "point3": "理解区域性的业务需求"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "现代技术",
+      "title": "AI驱动的创新",
+      "description": "利用尖端AI技术增强SAP BTP解决方案，将自动化和智能融入您的业务流程。",
+      "point1": "针对重复任务的智能自动化",
+      "point2": "先进的数据处理和分析",
+      "point3": "与现有工作流的无缝集成"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "知识中心",
+    "subtitle": "SAP BTP成功所需的专业见解和最佳实践",
+    "readMore": "阅读文章",
+    "readTime": "{{time}} 分钟"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "开发",
+      "title": "使用SAP BTP开发现代Fiori应用",
+      "excerpt": "了解如何创建响应式、用户友好的Fiori应用，充分利用SAP Business Technology Platform的强大功能，提供卓越的用户体验。",
+      "readTime": "5 分钟"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "技术",
+      "title": "离线PWA：确保业务连续性无处不在",
+      "excerpt": "发现具有离线功能的渐进式网络应用如何使您的业务流程即使在没有互联网连接的情况下也能顺畅运行。",
+      "readTime": "7 分钟"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI和自动化",
+      "title": "AI用于智能发票处理",
+      "excerpt": "探索AI与SAP BTP的集成如何以前所未有的精度和效率改变发票处理流程。",
+      "readTime": "6 分钟"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "集成",
+      "title": "掌握SAP BTP Integration Suite",
+      "excerpt": "关于使用SAP BTP Integration Suite连接企业系统以实现无缝数据流和业务流程的综合指南。",
+      "readTime": "8 分钟"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "架构",
+      "title": "用于实时业务的Event Mesh架构",
+      "excerpt": "使用SAP Event Mesh实现事件驱动架构，为现代业务需求创建响应迅速、可扩展的解决方案。",
+      "readTime": "6 分钟"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "最佳实践",
+      "title": "BTP数据库优化策略",
+      "excerpt": "优化SAP BTP数据库性能的必要策略，确保快速、可靠地访问业务关键数据。",
+      "readTime": "5 分钟"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "立即开始",
+    "title": "准备好改变您的业务吗？",
+    "subtitle": "预约与我们的SAP BTP专家进行免费咨询",
+    "availability": "位置有限",
+    "contactInfo": "联系信息",
+    "email": "电子邮件",
+    "globalPresence": "全球影响力",
+    "servingCountries": "在全球40多个国家为客户服务",
+    "fastResponse": "快速回应保证",
+    "fastResponseDesc": "在24小时内获得专家建议。我们的SAP BTP专家已准备好帮助您成功。",
+    "mentionCountry": "联系时请提及您的国家",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "全名",
+      "email": "企业邮箱",
+      "company": "公司名称",
+      "message": "告诉我们您的项目",
+      "submit": "安排免费咨询",
+      "submitting": "发送中..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "消息已发送！",
+      "description": "感谢您的咨询。我们将在24小时内与您取得联系。"
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "错误",
+      "description": "出错了。请重试。"
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "专业的SAP BTP咨询在全球范围内提供卓越服务",
+    "services": "服务",
+    "fiori": "Fiori开发",
+    "architecture": "BTP架构",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
-    "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "ai": "AI解决方案",
+    "knowledge": "知识",
+    "blogArticles": "博客文章",
+    "caseStudies": "案例研究",
+    "resources": "资源",
+    "company": "公司",
+    "about": "关于我们",
+    "contact": "联系",
+    "careers": "职业机会",
+    "blog": "博客",
+    "documentation": "文档",
+    "whitepapers": "白皮书",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "版权所有。",
+    "deployedOn": "部署在Cloudflare上",
+    "serviceRestriction": "服务在澳大利亚和新西兰不可用。",
+    "availableLanguages": "提供您的语言版本"
   },
   "common": {
     "learnMore": "了解更多",
     "backToHome": "返回首页"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "云应用开发",
+    "title": "SAP CAP开发",
+    "subtitle": "服务",
+    "description": "使用SAP Cloud Application Programming Model开发现代云应用，在SAP BTP上实现快速、可扩展的开发。",
+    "cta": "启动您的CAP项目 →",
+    "servicesTitle": "全面的CAP开发服务",
+    "servicesSubtitle": "从数据建模到部署 - 为您的业务应用提供完整的CAP专业知识。",
+    "whyChoose": "为什么选择TerraBT",
+    "whyChooseTitle": "提供成果的专业CAP开发",
+    "whyChooseDescription": "我们经过认证的SAP CAP开发人员拥有多年的企业应用开发经验。我们结合技术专业知识和业务洞察力，提供能够产生成果的解决方案。",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "全栈CAP开发",
+        "description": "使用CAP框架进行端到端应用开发。",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS数据建模和实体定义",
+          "服务定义和实现",
+          "自定义业务逻辑开发",
+          "Fiori Elements UI生成",
+          "CAP Node.js和Java运行时支持"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "数据库集成",
+        "description": "与SAP HANA Cloud和其他数据库的无缝集成。",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud原生开发",
+          "PostgreSQL和SAP ASE支持",
+          "数据库迁移和架构管理",
+          "查询优化和性能调优",
+          "多租户数据库配置"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "安全性和授权",
+        "description": "为CAP应用提供企业级安全实现。",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "基于角色的访问控制（RBAC）",
+          "身份验证集成（XSUAA、IAS）",
+          "授权注解和限制",
+          "数据隐私和字段级安全",
+          "安全凭证管理"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API和服务开发",
+        "description": "使用CAP服务构建强大的OData和REST API。",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2和V4服务创建",
+          "REST API实现",
+          "自定义操作和函数",
+          "事务性应用的草稿启用",
+          "外部服务集成和混合"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements集成",
+        "description": "使用Fiori Elements和CAP进行快速UI开发。",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "列表报告和对象页面应用",
+          "分析列表页面（ALP）开发",
+          "自由格式Fiori应用集成",
+          "UI注解和自定义",
+          "响应式和自适应设计"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD和DevOps",
+        "description": "自动化部署和持续集成管道。",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry和Kyma部署",
+          "MTA（多目标应用）构建",
+          "自动化测试和质量门",
+          "CI/CD管道设置（Jenkins、GitHub Actions）",
+          "多环境推广策略"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "使用经过验证的CAP模式加快开发",
+      "内置最佳实践和企业就绪架构",
+      "可扩展的应用随着您的业务增长而增长",
+      "与SAP S/4HANA的无缝集成",
+      "整个开发生命周期中的专家指导"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "无代码/低代码开发",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "开发服务",
+    "description": "使用无代码/低代码工具创建专业企业应用，实现快速数字化转型和业务敏捷性。",
+    "cta": "立即开始构建 →",
+    "servicesTitle": "完整的SAP Build Apps解决方案",
+    "servicesSubtitle": "从可视化开发到企业部署 - 赋能您的业务用户。",
+    "whyChooseTitle": "快速应用开发",
+    "whyChooseDescription": "SAP Build Apps使业务用户和开发人员能够在无需大量编码的情况下创建强大的应用。使用可视化开发工具加快您的数字化转型。",
+    "implementationTitle": "实施方法",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "可视化开发",
+        "description": "用于快速应用构建的拖放界面。",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "直观的可视化页面生成器",
+          "预构建UI组件库",
+          "响应式设计画布",
+          "实时预览和测试",
+          "主题自定义和品牌塑造"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "跨平台应用",
+        "description": "一次构建，到处部署 - Web、iOS和Android。",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "渐进式网络应用（PWA）支持",
+          "原生移动应用生成",
+          "平板电脑和桌面优化",
+          "离线数据功能",
+          "应用商店部署支持"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "云原生集成",
+        "description": "与SAP BTP服务和数据的无缝连接。",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA云集成",
+          "OData服务连接",
+          "BTP服务消费",
+          "身份验证和授权",
+          "实时数据同步"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "快速原型设计",
+        "description": "快速验证想法并根据反馈进行迭代。",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "快速MVP开发",
+          "用户测试和反馈收集",
+          "迭代设计和完善",
+          "版本控制和回滚",
+          "团队协作工具"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "公民开发人员赋能",
+        "description": "赋权业务用户创建应用。",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "非开发人员的低学习曲线",
+          "指导的开发工作流",
+          "模板和蓝图库",
+          "治理和质量控制",
+          "培训和启用计划"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "专业代码可扩展性",
+        "description": "在需要时使用自定义代码进行扩展。",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "自定义JavaScript逻辑",
+          "API集成功能",
+          "自定义组件开发",
+          "高级数据转换",
+          "第三方库集成"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "应用开发速度提高10倍",
+      "开发成本降低60%",
+      "赋权业务用户进行创新",
+      "与SAP生态系统的无缝集成",
+      "企业级安全和治理"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. 需求和设计",
+        "description": "了解业务需求并与利益相关者一起设计应用结构的研讨会。"
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. 可视化开发",
+        "description": "使用拖放界面以及预构建组件和模板构建应用。"
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. 数据集成",
+        "description": "通过无缝身份验证连接到SAP系统和外部数据源。"
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. 测试和完善",
+        "description": "用户验收测试和基于反馈的迭代改进。"
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. 部署",
+        "description": "通过自动化构建和分发部署到Web、iOS和Android。"
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. 培训和支持",
+        "description": "最终用户培训和持续支持以实现持续改进。"
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "流程自动化",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "服务",
+    "description": "使用智能工作流和机器人流程自动化功能自动化业务流程以提高效率。",
+    "cta": "自动化您的流程 →",
+    "servicesTitle": "完整的流程自动化解决方案",
+    "servicesSubtitle": "从简单工作流到复杂RPA - 全面的自动化专业知识。",
+    "whyChooseTitle": "智能流程自动化",
+    "whyChooseDescription": "使用SAP Build Process Automation改变您的业务流程。结合工作流管理、RPA和AI以实现端到端流程卓越。",
+    "implementationTitle": "实施路线图",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "工作流管理",
+        "description": "设计和编排复杂的业务工作流。",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "可视化工作流设计器",
+          "审批和路由逻辑",
+          "人工任务管理",
+          "并行和顺序处理",
+          "升级和期限处理"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "机器人流程自动化",
+        "description": "使用软件机器人自动化重复任务。",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "桌面和网络自动化",
+          "屏幕抓取和数据提取",
+          "无API的应用集成",
+          "有人和无人值守机器人",
+          "机器人调度和编排"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "文档处理",
+        "description": "智能文档提取和分类。",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "AI驱动的数据提取",
+          "文档分类和路由",
+          "基于模板的处理",
+          "多格式支持（PDF、图像、扫描）",
+          "验证和验证规则"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "审批工作流",
+        "description": "简化整个组织的审批流程。",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "多级审批链",
+          "条件路由逻辑",
+          "委派和替代规则",
+          "移动审批功能",
+          "通知和提醒系统"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "流程分析",
+        "description": "深入了解流程性能和瓶颈。",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "流程挖掘和发现",
+          "性能指标和KPI",
+          "瓶颈识别",
+          "合规性监控",
+          "持续改进建议"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "治理和合规性",
+        "description": "确保流程满足监管要求。",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "审计跟踪和日志记录",
+          "访问控制和安全",
+          "合规规则执行",
+          "版本控制和更改管理",
+          "SLA监控和执行"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "手动处理时间减少70%",
+      "自动化任务准确率99.9%",
+      "3-6个月内快速ROI",
+      "改进的合规性和可审计性",
+      "专业的实施支持和优化"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. 流程发现",
+        "description": "分析和记录当前流程以确定自动化机会。"
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. 自动化设计",
+        "description": "设计最佳自动化解决方案，结合工作流、RPA和AI功能。"
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. 开发和配置",
+        "description": "使用SAP Build Process Automation工具构建和配置自动化。"
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. 测试和验证",
+        "description": "全面测试以确保自动化的准确性和可靠性。"
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. 部署和上线",
+        "description": "通过监控的推出和用户培训部署到生产环境。"
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. 监控和优化",
+        "description": "基于性能分析进行持续监控和改进。"
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "架构和设计",
+    "title": "SAP BTP架构",
+    "subtitle": "和设计服务",
+    "description": "为可扩展、安全、高性能的SAP BTP解决方案进行战略架构规划和设计。我们构建针对您业务需求定制的企业级云环境。",
+    "cta": "讨论您的架构需求 →",
+    "servicesTitle": "全面的架构服务",
+    "servicesSubtitle": "从初始景观设计到安全实施，我们涵盖您的SAP BTP架构的每个方面。",
+    "whyChooseTitle": "提供成果的专业架构",
+    "whyChooseDescription": "我们经过认证的SAP BTP架构师拥有为全球组织设计企业解决方案的多年经验。我们将最佳实践与创新相结合，创建经得起时间考验的架构。",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "景观设计",
+        "description": "针对您的业务需求定制的全面BTP景观架构。",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "多层环境设置（开发、测试、生产）",
+          "子账户结构和组织",
+          "资源分配和容量规划",
+          "Cloud Foundry和Kyma运行时配置",
+          "网络拓扑和连接规划"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "安全架构",
+        "description": "企业级安全设计，保护您的BTP环境和数据。",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "身份和访问管理（IAM）策略",
+          "基于角色的访问控制（RBAC）实现",
+          "数据加密和合规标准",
+          "安全监控和威胁检测",
+          "审计日志和合规报告"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "高可用性",
+        "description": "设计具有最小停机时间和最大可靠性的弹性系统。",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "多区域部署策略",
+          "灾难恢复和备份解决方案",
+          "负载均衡和故障转移机制",
+          "业务连续性规划",
+          "性能监控和优化"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Integration Suite设置",
+        "description": "完整的Integration Suite配置，实现无缝系统连接。",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "云集成（CPI）设置和配置",
+          "API管理实现",
+          "开放连接器配置",
+          "集成顾问利用",
+          "预打包集成内容部署"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP云连接器设置",
+        "description": "用于混合景观集成的本地到云的安全连接。",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "云连接器安装和配置",
+          "在本地和BTP之间建立安全隧道",
+          "访问控制和安全组管理",
+          "系统映射和虚拟主机配置",
+          "高可用性和故障转移设置",
+          "监控和故障排除连接问题"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Event Mesh设置",
+        "description": "用于实时业务流程的事件驱动架构实现。",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Event Mesh实例配置",
+          "队列和主题配置",
+          "事件代理设置和管理",
+          "消息路由和过滤规则",
+          "事件监控和分析"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS设置",
+        "description": "身份认证服务配置用于安全的用户管理。",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS租户配置",
+          "单点登录（SSO）实现",
+          "多因素身份验证（MFA）设置",
+          "企业身份提供商集成",
+          "用户配置和生命周期管理"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "用户身份验证和角色",
+        "description": "全面的用户管理和授权框架。",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "自定义角色定义和管理",
+          "授权模型设计",
+          "用户组织织",
+          "应用级安全实现",
+          "角色分配和委派工作流"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "使用经过验证的架构模式将实施时间缩短40%",
+      "符合行业标准的企业级安全",
+      "可随着业务增长而扩展的基础设施",
+      "关键系统的主动监控功能",
+      "来自认证SAP BTP架构师的专家指导"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP焦点"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "年合并经验"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "国家服务"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "全球",
+        "label": "专家团队"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "为什么选择TerraBT",
+    "ctaSectionBadge": "⚡ 立即启动您的项目",
+    "ctaSectionTitle1": "准备好构建",
+    "ctaSectionTitle2": "您的SAP BTP架构？",
+    "ctaSectionDescription": "安排与我们的SAP BTP架构师进行免费咨询，讨论您的需求并探索我们如何帮助您成功。",
+    "ctaSectionButton1": "安排免费咨询 →",
+    "ctaSectionButton2": "查看所有服务"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "应用开发",
+    "title": "SAP Fiori应用",
+    "subtitle": "开发服务",
+    "description": "开发现代、响应式Fiori应用，在所有设备上提供卓越的用户体验。从概念到部署，我们使用SAP最新技术创建美观、高性能的应用。",
+    "cta": "启动您的Fiori项目 →",
+    "servicesTitle": "完整的Fiori开发解决方案",
+    "servicesSubtitle": "从设计到部署及其他 - 端到端Fiori开发服务。",
+    "whyChooseTitle": "提供卓越服务的Fiori专家",
+    "whyChooseDescription": "我们经过SAP认证的开发人员专门从事企业级Fiori应用开发。我们结合技术专业知识和设计思维来创建用户喜爱的应用。",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "自定义Fiori应用开发",
+        "description": "开发完全符合您业务需求的定制Fiori应用。",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5框架专业知识",
+          "Fiori Elements和自由格式应用",
+          "OData服务集成",
+          "所有设备的响应式设计",
+          "自定义控件和组件"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "UI/UX设计",
+        "description": "创建遵循SAP Fiori设计指南的直观、美观界面。",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "SAP Fiori设计原则遵守",
+          "用户研究和角色开发",
+          "线框和原型设计",
+          "可访问性合规性（WCAG）",
+          "主题自定义和品牌塑造"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "性能优化",
+        "description": "确保您的Fiori应用在任何设备上快速加载和顺畅运行。",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "代码优化和缩小",
+          "延迟加载实现",
+          "捆绑大小减少",
+          "网络请求优化",
+          "性能监控和分析"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "移动优先开发",
+        "description": "构建为移动用户和离线场景优化的Fiori应用。",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "响应式和自适应设计",
+          "触摸优化的交互",
+          "移动特定功能（摄像头、GPS）",
+          "离线数据同步",
+          "渐进式网络应用（PWA）功能"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "集成和测试",
+        "description": "通过全面的测试覆盖实现无缝后端集成。",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP网关和OData服务创建",
+          "后端系统集成",
+          "单元和集成测试",
+          "端到端测试自动化",
+          "持续集成/部署（CI/CD）"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "培训和支持",
+        "description": "通过知识和持续维护支持赋权您的团队。",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "开发人员培训研讨会",
+          "最佳实践文档",
+          "代码审查和质量保证",
+          "持续维护和更新",
+          "全面的生产交接"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "现代、直观的界面增加用户采用率",
+      "使用可重用组件和模板加快开发",
+      "跨设备兼容性确保无缝体验",
+      "拥有深厚Fiori专业知识的SAP认证开发人员",
+      "通过熟悉、一致的UX降低培训成本"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "交付的Fiori应用"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "用户满意度率"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "更快的上市时间"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "移动响应式"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "为什么选择TerraBT",
+    "ctaSectionBadge": "⚡ 有限的开发位置可用",
+    "ctaSectionTitle1": "准备好构建",
+    "ctaSectionTitle2": "您的下一个Fiori应用？",
+    "ctaSectionDescription": "让我们讨论您的需求并创建美观、高性能的Fiori应用，您的用户会喜欢。",
+    "ctaSectionButton1": "获取免费报价 →",
+    "ctaSectionButton2": "探索其他服务"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "渐进式网络应用",
+    "title": "离线PWA应用",
+    "subtitle": "针对SAP BTP",
+    "description": "具有离线功能的渐进式网络应用，确保任何地方都能提供无缝的用户体验。构建完美运行的应用，无论在线还是离线，通过Web提供原生应用体验。",
+    "cta": "构建您的PWA →",
+    "servicesTitle": "完整的PWA开发服务",
+    "servicesSubtitle": "从离线优先架构到推送通知，我们构建与原生应用相媲美的PWA。",
+    "whyChooseBadge": "PWA优势",
+    "whyChooseTitle": "原生体验，Web简洁",
+    "whyChooseDescription": "渐进式网络应用结合了Web和原生应用的最优点。无需应用商店批准、即时更新，适用于所有设备 - 全部都具有应用般的体验。",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "离线优先架构",
+        "description": "设计即使没有互联网连接也能无缝工作的应用。",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Service Worker实现",
+          "离线数据缓存策略",
+          "IndexedDB和本地存储管理",
+          "后台同步功能",
+          "冲突解决策略"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "数据同步",
+        "description": "智能同步机制以保持跨设备数据一致。",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "自动后台同步",
+          "增量同步以实现高效的数据传输",
+          "冲突检测和解决",
+          "乐观UI更新",
+          "重试机制和错误处理"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "渐进式网络应用功能",
+        "description": "具有现代Web功能的原生应用般体验。",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "应用清单配置",
+          "添加到主屏幕功能",
+          "推送通知支持",
+          "相机和GPS集成",
+          "应用程序Shell架构"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "性能优化",
+        "description": "闪电般快速的加载时间和平滑的离线过渡。",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "关键资源的预缓存",
+          "图像和内容的延迟加载",
+          "代码分割和捆绑",
+          "压缩和缩小",
+          "性能监控和分析"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "安全性和合规性",
+        "description": "安全的离线数据存储和传输。",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "静止数据加密",
+          "安全身份验证令牌",
+          "HTTPS执行",
+          "内容安全策略（CSP）",
+          "定期安全审计"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "在线增强",
+        "description": "连接可用时的增强功能。",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "实时更新和通知",
+          "云备份和恢复",
+          "多设备同步",
+          "分析和遥测",
+          "功能检测和渐进式增强"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "随时随地工作 - 甚至没有互联网",
+      "通过即时加载改进用户体验",
+      "通过高效缓存降低服务器成本",
+      "通过应用般体验提高转换率",
+      "通过推送通知增加参与度"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "离线功能"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "更快的加载时间"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "减少的数据使用"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "更高的参与度"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ 立即启用离线功能",
+    "ctaSectionTitle1": "准备好构建",
+    "ctaSectionTitle2": "您的离线优先PWA？",
+    "ctaSectionDescription": "让我们创建一个渐进式网络应用，可以完美地离线工作并为用户提供原生应用体验。",
+    "ctaSectionButton1": "启动您的PWA项目 →",
+    "ctaSectionButton2": "查看所有服务"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "数据管理",
+    "title": "SAP BTP数据库",
+    "subtitle": "管理服务",
+    "description": "高效的数据库设计、优化和管理，为高性能SAP BTP应用提供支持。针对SAP HANA Cloud、PostgreSQL和SAP ASE数据库的专业服务。",
+    "cta": "优化您的数据库 →",
+    "servicesTitle": "完整的数据库管理解决方案",
+    "servicesSubtitle": "从设计到优化、安全到恢复 - 全面的数据库专业知识。",
+    "whyChooseTitle": "性能、安全、可靠性",
+    "whyChooseDescription": "我们的数据库专家拥有SAP BTP数据库技术的深厚专业知识。我们确保您的数据快速、安全且始终在您需要时可用。",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "数据库设计和建模",
+        "description": "为SAP BTP应用优化的高效数据库架构设计。",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud数据库设计",
+          "PostgreSQL和SAP ASE配置",
+          "实体关系建模",
+          "规范化和非规范化策略",
+          "索引和分区策略"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "性能优化",
+        "description": "最大化数据库性能以实现闪电般快速的查询执行。",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "查询优化和调优",
+          "索引分析和建议",
+          "执行计划优化",
+          "内存和缓存配置",
+          "性能监控和分析"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "安全性和合规性",
+        "description": "使用企业级安全措施保护您的数据。",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "静止和传输中的数据加密",
+          "行级和列级安全",
+          "审计跟踪实现",
+          "GDPR和合规要求",
+          "备份加密和安全存储"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "备份和恢复",
+        "description": "全面的灾难恢复和业务连续性规划。",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "自动备份调度",
+          "时间点恢复功能",
+          "灾难恢复程序",
+          "高可用性配置",
+          "多区域复制"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "数据迁移",
+        "description": "从遗留系统到SAP BTP的无缝数据迁移。",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "数据提取和转换",
+          "迁移策略和规划",
+          "零停机迁移技术",
+          "数据验证和验证",
+          "回滚程序和测试"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "监控和维护",
+        "description": "主动监控和维护以保持最佳数据库健康状态。",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "实时性能监控",
+          "自动警报和通知",
+          "健康检查和诊断",
+          "容量规划和预测",
+          "补丁管理和更新"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "通过优化将查询性能提高10倍",
+      "通过高可用性配置实现99.99%的正常运行时间",
+      "通过高效设计降低存储成本",
+      "使用内置安全功能做好合规准备",
+      "主动监控和专家指导"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "数据库卓越",
     "statistics": {
       "uptime": {
-        "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "value": "99.99%",
+        "label": "正常运行时间保证"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "性能改进"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "数据安全"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "专家指导"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "优化您的数据库性能",
+    "ctaSectionTitle1": "准备好最大化",
+    "ctaSectionTitle2": "您的数据库性能？",
+    "ctaSectionDescription": "获取免费数据库健康检查并发现可能改变应用性能的优化机会。",
+    "ctaSectionButton1": "获取免费数据库评估 →",
+    "ctaSectionButton2": "探索所有服务"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
-    "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "badge": "创新和战略",
+    "title": "设计思维",
+    "subtitle": "用于SAP BTP创新",
+    "description": "以用户为中心的设计方法来创建解决真实业务挑战的创新SAP BTP解决方案。我们帮助您发现正确的问题要解决并构建用户喜爱的解决方案。",
+    "cta": "安排设计研讨会 →",
+    "servicesTitle": "我们的设计思维流程",
+    "servicesSubtitle": "SAP BTP项目创新和问题解决的经过验证的方法论。",
+    "whyChooseTitle": "创造真实价值的创新",
+    "whyChooseDescription": "设计思维改变了您对SAP BTP项目的方法。通过关注用户需求和快速迭代，我们帮助您构建能够提供可衡量业务价值的解决方案。",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "用户研究和同理心",
+        "description": "深刻理解您的用户的需求、痛点和动机。",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "用户访谈和利益相关者参与",
+          "角色开发和旅程映射",
+          "语境研究和观察",
+          "痛点和机会识别",
+          "同理心映射研讨会"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "问题定义",
+        "description": "清晰地定义正确的问题以获得最大的业务影响。",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "问题陈述制定",
+          "设计挑战框架",
+          "机会领域识别",
+          "成功标准定义",
+          "利益相关者对齐会议"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "创意研讨会",
+        "description": "通过结构化创意会议生成创新解决方案。",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "主持头脑风暴会议",
+          "SCAMPER和侧向思维技术",
+          "协作创意研讨会",
+          "想法优先排序和选择",
+          "概念开发和完善"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "原型设计",
+        "description": "快速创建想法的有形表示以进行验证。",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "低保真线框和草图",
+          "交互式可点击原型",
+          "高保真模型",
+          "概念验证开发",
+          "MVP（最小可行产品）设计"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "测试和迭代",
+        "description": "与真实用户验证解决方案并持续改进。",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "可用性测试会议",
+          "A/B测试和实验",
+          "用户反馈收集和分析",
+          "迭代设计完善",
+          "针对成功标准的验证"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "实施支持",
+        "description": "指导您的团队从经过验证的概念到成功启动。",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "技术可行性评估",
+          "实施路线图创建",
+          "敏捷冲刺规划",
+          "开发团队协作",
+          "启动后监控和优化"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "通过在大量投资前验证想法来降低风险",
+      "通过结构化问题解决方法加快创新",
+      "通过以用户为中心的解决方案提高用户采用率",
+      "跨职能团队对齐和参与",
+      "可衡量的业务成果和ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "更快的问题解决"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "减少的开发浪费"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "利益相关者满意度"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "以用户为中心的方法"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "集成和连接",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "服务",
+    "description": "无缝的集成解决方案将您的SAP系统与云和本地应用相连接。云集成、API管理、开放连接器和集成顾问的专家实施。",
+    "cta": "连接您的系统 →",
+    "servicesTitle": "完整的Integration Suite专业知识",
+    "servicesSubtitle": "从云集成到API管理 - 全面的集成服务。",
+    "whyChooseTitle": "无缝的系统连接",
+    "whyChooseDescription": "SAP BTP Integration Suite提供连接企业所需的一切。我们的专家确保您的集成可靠、安全且可扩展。",
     "features": {
       "cpi": {
-        "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "title": "云集成（CPI）",
+        "description": "使用强大的集成流连接云和本地系统。",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "集成流设计和开发",
+          "预构建集成内容的利用",
+          "消息映射和转换",
+          "错误处理和监控",
+          "安全工件管理"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API管理",
+        "description": "设计、发布和管理具有全面生命周期支持的API。",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API代理创建和配置",
+          "策略执行（安全、速率限制）",
+          "API门户和开发人员文档",
+          "分析和使用监控",
+          "货币化和配额管理"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "开放连接器",
+        "description": "用于与第三方系统快速集成的预构建连接器。",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+预构建连接器",
+          "自定义连接器开发",
+          "身份验证和授权",
+          "数据转换和规范化",
+          "基于事件的集成"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "集成顾问",
+        "description": "使用AI支持的建议加速集成开发。",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "自动映射建议",
+          "消息实现指南（MIG）",
+          "B2B集成场景模板",
+          "接口映射建议",
+          "最佳实践建议"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "安全性和治理",
+        "description": "所有集成的企业级安全和治理。",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth和SAML身份验证",
+          "证书和密钥管理",
+          "传输级加密（TLS/SSL）",
+          "消息级加密",
+          "审计日志和合规性"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "监控和操作",
+        "description": "全面的监控和操作卓越。",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "实时消息监控",
+          "性能指标和KPI",
+          "警报和通知设置",
+          "日志分析和故障排除",
+          "容量规划和优化"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "使用预构建内容和加速器进行更快的集成",
+      "使用云原生平台降低集成成本",
+      "企业级可靠性和可扩展性",
+      "单一平台满足所有集成需求",
+      "专职专家咨询和指导"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "预构建连接器"
       },
       "uptime": {
-        "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "value": "99.9%",
+        "label": "集成正常运行时间"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "更快的实施"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "全球",
+        "label": "专家团队"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "集成卓越",
+    "ctaSectionBadge": "⚡ 立即连接您的企业",
+    "ctaSectionTitle1": "准备好统一",
+    "ctaSectionTitle2": "您的业务系统？",
+    "ctaSectionDescription": "让我们讨论您的集成要求并创建连接所有关键业务系统的全面解决方案。",
+    "ctaSectionButton1": "获取集成咨询 →",
+    "ctaSectionButton2": "查看所有服务"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "事件驱动架构",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "实施服务",
+    "description": "用于响应迅速、可扩展业务流程的实时事件驱动架构实现。使用SAP Event Mesh构建响应业务事件的分布式系统。",
+    "cta": "构建事件驱动架构 →",
+    "servicesTitle": "完整的Event Mesh解决方案",
+    "servicesSubtitle": "从架构设计到实现 - 构建响应迅速的事件驱动系统。",
+    "whyChooseTitle": "实时业务反应性",
+    "whyChooseDescription": "Event Mesh使您的业务能够在事件发生时立即做出反应。构建松散耦合、高度可扩展的系统，适应不断变化的业务需求。",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh架构",
+        "description": "设计和实现企业范围的事件驱动架构。",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "事件网格拓扑设计",
+          "多区域事件分布",
+          "事件代理配置",
+          "消息路由策略",
+          "主题和队列设计模式"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "实时事件处理",
+        "description": "实时处理和响应业务事件。",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "事件流实现",
+          "复杂事件处理（CEP）",
+          "事件过滤和转换",
+          "事件聚合和关联",
+          "低延迟事件交付"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "事件驱动集成",
+        "description": "通过异步事件通信连接系统。",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "发布/订阅模式",
+          "事件驱动微服务",
+          "Webhook和回调集成",
+          "事件重放和恢复",
+          "死信队列管理"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "安全性和治理",
+        "description": "通过全面治理保护事件传输。",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "传输中的事件加密",
+          "访问控制和授权",
+          "事件架构验证",
+          "合规和审计日志",
+          "数据隐私控制"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "多云和混合",
+        "description": "跨云提供商和本地系统的Event Mesh。",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "跨云事件分布",
+          "混合云连接",
+          "多区域冗余",
+          "地理事件路由",
+          "云无关架构"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "监控和分析",
+        "description": "全面了解您的事件驱动生态系统。",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "实时事件监控",
+          "性能指标和SLA",
+          "事件流可视化",
+          "瓶颈识别",
+          "预测性容量规划"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "解耦系统以获得更大的灵活性和可扩展性",
+      "实时业务洞察和即时反应",
+      "改进的系统弹性和容错性",
+      "减少点对点集成复杂性",
+      "支持现代事件驱动架构"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "事件交付延迟"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "每秒事件"
       },
       "guarantee": {
-        "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "value": "99.99%",
+        "label": "事件交付保证"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "全球",
+        "label": "多区域分布"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "事件驱动卓越",
+    "ctaSectionBadge": "⚡ 构建实时系统",
+    "ctaSectionTitle1": "准备好实施",
+    "ctaSectionTitle2": "事件驱动架构？",
+    "ctaSectionDescription": "使用实时事件处理改变您的业务。让我们讨论Event Mesh如何为您的下一代应用提供动力。",
+    "ctaSectionButton1": "安排Event Mesh咨询 →",
+    "ctaSectionButton2": "探索所有技术"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI和自动化",
+    "title": "AI驱动的",
+    "subtitle": "发票处理",
+    "description": "采用先进AI技术的智能发票处理自动化，确保精确、高效的运营。使用与SAP BTP集成的尖端AI技术改变您的应付账款流程。",
+    "cta": "自动化您的发票 →",
+    "servicesTitle": "AI驱动的发票自动化",
+    "servicesSubtitle": "利用高级AI功能进行智能发票处理和自动化。",
+    "whyChooseTitle": "改变您的发票处理",
+    "whyChooseDescription": "先进的AI为发票处理带来类似人类的理解。处理复杂布局、多种语言和传统OCR系统难以处理的边界情况。",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "智能数据提取",
+        "description": "具有前所未有精度的AI驱动发票数据提取。",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "多格式发票处理（PDF、图像、扫描）",
+          "自动字段检测和提取",
+          "抬头和行项识别",
+          "表格和复杂布局理解",
+          "手写文字识别"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP集成",
+        "description": "与SAP BTP服务和后端系统的无缝集成。",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "与SAP S/4HANA的直接集成",
+          "SAP文档管理服务连接",
+          "工作流自动化触发器",
+          "实时数据验证",
+          "自定义业务规则实现"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "自动化处理",
+        "description": "端到端自动化，最大化减少人工干预。",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "智能路由和分类",
+          "低风险发票的自动批准",
+          "异常处理工作流",
+          "重复项检测和防止",
+          "三向匹配自动化"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "验证和合规性",
+        "description": "确保每个交易的精度和监管合规性。",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "多级验证规则",
+          "税收计算验证",
+          "合规检查（增值税、GST）",
+          "审计跟踪和日志",
+          "数据隐私和安全（GDPR合规）"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "分析和洞察",
+        "description": "从您的发票处理数据中获得宝贵的洞察。",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "处理指标和KPI",
+          "精度和错误率跟踪",
+          "成本节省分析",
+          "供应商性能分析",
+          "预测现金流洞察"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "培训和优化",
+        "description": "通过AI学习和系统优化持续改进。",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "针对您的发票的自定义模型训练",
+          "从更正中持续学习",
+          "基于模板的处理优化",
+          "反馈循环实现",
+          "定期精度改进"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+精度率减少手动更正",
+      "发票处理时间快80%",
+      "处理成本降低70%",
+      "近乎零的数据输入错误",
+      "实时处理状态可见性"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "精度率"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "时间减少"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "成本节省"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "自动化处理"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "返回首页",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "使用AI革新发票处理",
+      "category": "AI/ML",
+      "readTime": "6 分钟",
+      "seoDescription": "探索AI与SAP BTP的集成如何通过智能自动化和高级文档理解改变发票处理。",
+      "intro": "发票处理历来是一项耗时、容易出错的手工任务。先进AI与SAP BTP的集成正在革新这一流程，为应付账款运营带来前所未有的自动化、精度和效率。",
+      "section1Title": "传统发票处理的挑战",
+      "section1Content": "组织每月处理数千份发票，每份都需要数据提取、验证和输入到ERP系统。手工处理速度慢、成本高且容易出错，可能导致付款延迟、重复付款或错过早期付款折扣。",
+      "section2Title": "先进AI文档理解",
+      "section2Content": "现代AI为发票处理带来了最先进的自然语言处理和计算机视觉功能。与传统OCR系统不同，先进AI能够理解背景，处理不同的发票格式，即使从扫描不清或复杂的文档中也能以显著的精度提取信息。",
+      "section3Title": "无缝SAP BTP集成",
+      "section3Content": "AI与SAP BTP的集成创建了强大的自动化管道。传入的发票会自动处理，数据被提取和验证，信息无需人工干预直接流入SAP系统。这种集成利用了SAP BTP强大的连接性和工作流功能。",
+      "section4Title": "智能异常处理",
+      "section4Content": "AI的一个关键优势是其智能处理异常的能力。遇到不寻常的发票格式或模棱两可的信息时，系统可以使用详细的解释将项目标记为人工审查，使异常处理远比传统基于规则的系统更高效。",
+      "section5Title": "可衡量的业务影响",
+      "section5Content": "实施AI进行发票处理的组织通常会看到显着的改进：处理时间减少90%，数据输入错误减少95%，应付账款运营成本大幅节省。也许最重要的是，员工可以专注于战略活动而不是重复的数据输入。",
+      "conclusionTitle": "结论",
+      "conclusionContent": "先进AI功能与SAP BTP企业级基础设施的结合代表了一种对发票处理的变革方法。采用此技术的组织通过改进的效率、精度和成本降低获得了重大竞争优势。"
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "在SAP BTP上构建现代Fiori应用",
+      "category": "开发",
+      "readTime": "8 分钟",
+      "seoDescription": "了解如何使用SAP BTP强大的开发工具和框架构建现代、响应式的Fiori应用。",
+      "intro": "SAP Fiori代表企业应用的未来，在所有设备和部署选项中提供统一的用户体验。使用SAP Business Technology Platform（BTP），构建现代Fiori应用变得比以往任何时候都更加简化和强大。",
+      "section1Title": "SAP BTP对Fiori开发的力量",
+      "section1Content": "SAP BTP提供了一套专门为Fiori应用开发设计的全面工具和服务。该平台提供了从开发环境到部署基础设施的一切，使团队能够专注于创建卓越的用户体验，而不是管理基础设施。",
+      "section2Title": "关键功能和最佳实践",
+      "section2Content": "现代Fiori应用利用SAP Fiori elements框架，该框架提供预构建的UI组件和模式，确保一致性并减少开发时间。通过将这些元素与自定义SAPUI5控件结合，开发人员可以创建既标准化又适合特定业务需求的应用。",
+      "section3Title": "与SAP BTP服务的集成",
+      "section3Content": "在SAP BTP上开发Fiori应用的主要优势之一是与其他平台服务的无缝集成。从SAP Cloud Identity Services的身份验证和授权到SAP HANA Cloud的数据存储，开发人员可以访问可轻松集成到其应用中的企业级服务。",
+      "section4Title": "响应式设计和多设备支持",
+      "section4Content": "在SAP BTP上构建的Fiori应用会自动适应不同的屏幕尺寸和设备，确保无论从桌面、平板电脑还是手机访问，都能提供一致的用户体验。这种响应式设计功能内置于框架中，减少了支持多个设备所需的工作量。",
+      "section5Title": "性能优化",
+      "section5Content": "SAP BTP提供了各种优化Fiori应用性能的工具和技术，包括延迟加载、捆绑和缓存策略。这些优化技术确保应用加载快速并响应流畅，即使处理大型数据集或复杂的业务逻辑。",
+      "conclusionTitle": "结论",
+      "conclusionContent": "在SAP BTP上构建现代Fiori应用结合了企业级基础设施的力量与前沿开发框架。通过利用平台的功能，开发团队可以创建复杂、用户友好的应用，推动业务价值并提高整个组织的生产力。"
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "业务连续性的离线PWA解决方案",
+      "category": "架构",
+      "readTime": "7 分钟",
+      "seoDescription": "发现具有离线功能的渐进式网络应用（PWA）如何确保任何网络条件下的业务连续性和生产力。",
+      "intro": "在今天相互联系的世界中，网络中断可能会使业务运营陷入停顿。具有离线功能的渐进式网络应用（PWA）提供了一个强大的解决方案来确保业务连续性，使用户能够无论网络可用性如何都能无缝工作。",
+      "section1Title": "理解离线优先架构",
+      "section1Content": "离线优先架构代表了我们构建网络应用方式的范式转变。离线优先设计不是将离线模式视为边界情况，而是将其作为核心功能。这种方法确保即使网络连接不可靠或完全不可用，应用也能保持功能。",
+      "section2Title": "Service Workers：离线PWA的支柱",
+      "section2Content": "Service Workers是使离线PWA成为可能的技术。这些可编程的网络代理位于您的应用和网络之间，拦截请求并启用复杂的缓存策略。通过利用Service Workers，应用可以缓存关键资源和数据，即使离线也能确保可用性。",
+      "section3Title": "数据同步策略",
+      "section3Content": "离线PWA中的一个关键挑战是在恢复连接时管理数据同步。实施强大的冲突解决策略和乐观更新确保数据在设备和后端系统间保持一致。后台同步API在网络再次可用时启用自动同步。",
+      "section4Title": "业务效益",
+      "section4Content": "离线PWA通过确保在任何网络条件下的生产力提供重大业务价值。现场工作人员可以在远程位置继续他们的任务，销售团队可以在演示期间访问关键信息，操作可以在网络中断期间顺利继续。这种可靠性直接转化为提高的客户满意度和操作效率。",
+      "section5Title": "使用SAP BTP的实现",
+      "section5Content": "SAP BTP通过其Mobile Services产品为构建离线PWA提供了出色的支持。这些服务包括离线数据同步、安全存储和全面的API，简化了健壮离线应用的开发。",
+      "conclusionTitle": "结论",
+      "conclusionContent": "离线PWA代表业务应用的未来，提供了传统网络应用无法匹配的弹性和可靠性。通过采用离线优先架构并利用现代网络技术，组织可以确保业务连续性并无论网络条件如何都保持生产力。"
     }
   }
 }

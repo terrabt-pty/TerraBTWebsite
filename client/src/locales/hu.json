@@ -13,1450 +13,1450 @@
     "learn": "Fedezze fel szolgáltatásainkat"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Szakértelmünk",
+    "subtitle": "Átfogó SAP BTP-megoldások vállalkozása átalakításához",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori App fejlesztés",
+      "description": "Modern, rugalmas Fiori alkalmazások fejlesztése, amelyek kivételes felhasználói élményt nyújtanak minden eszközön."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP Architektúra & Tervezés",
+      "description": "Stratégiai architektúra tervezés és kialakítás az üzleti igények szerint személyre szabott, skálázható SAP BTP megoldásokhoz."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Felhasználó-központú tervezési megközelítés valós üzleti kihívások megoldásáért innovatív megoldások fejlesztéséhez."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline PWA Alkalmazások",
+      "description": "Progressive Web alkalmazások offline képességekkel a zökkenőmentes felhasználói élmény biztosításához mindenhol."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP Adatbázis Kezelés",
+      "description": "Hatékony adatbázis tervezés, optimalizálás és kezelés a nagy teljesítményű BTP alkalmazások számára."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Mesterséges Intelligencia Számlafeldolgozás",
+      "description": "Intelligens számlafeldolgozás automatizálás fejlett mesterséges intelligenciával precíz és hatékony működéshez."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Zökkenőmentes integrációs megoldások az SAP-rendszerek összekapcsolásához felhő- és on-premise alkalmazásokkal."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Esemény-vezérelt valós idejű architektúra megvalósítása az agilis, skálázható üzleti folyamatok számára."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP Fejlesztés",
+      "description": "Modern felhőalkalmazások fejlesztése az SAP Cloud Application Programming Model-lel gyors, skálázható fejlesztéshez."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Professzionális vállalati alkalmazások létrehozása no-code/low-code eszközökkel gyors digitális átalakuláshoz."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Üzleti folyamatok automatizálása intelligens munkafolyamat és robotikus folyamat automatizálási képességekkel."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Fókuszunk",
+      "title": "100% SAP BTP Specializáció",
+      "description": "Az általános tanácsadó cégekkel ellentétben kizárólag az SAP Business Technology Platform-ra összpontosítunk, így biztosítva a mélyreható szakértelem és a legmodernebb megoldások.",
+      "point1": "Dedikált csapat a tanúsított SAP BTP szakértőkből",
+      "point2": "Mindig naprakész a legújabb BTP-funkciók és ajánlott eljárások tekintetében",
+      "point3": "Bizonyított siker több iparágban"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Globális jelenlét",
+      "title": "Világszintű piaci kiszolgálás",
+      "description": "SAP BTP szakértelmet hozunk a világ piacaira, és világminőségű megoldásokat biztosítunk a hely függvényében.",
+      "point1": "Távkonzultáció minden időzóna között",
+      "point2": "Többnyelvű támogatás a nemzetközi csapatoknak",
+      "point3": "A regionális üzleti követelmények megértése"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Modern technológia",
+      "title": "Mesterséges Intelligencia-alapú innováció",
+      "description": "A legmodernebb mesterséges intelligencia technológia kihasználása az SAP BTP megoldások javítása érdekében és automatizálás valamint intelligencia bevezetése az üzleti folyamataiba.",
+      "point1": "Intelligens automatizálás az ismétlődő feladatok számára",
+      "point2": "Fejlett adatok feldolgozása és elemzése",
+      "point3": "Zökkenőmentes integráció a meglévő munkafolyamatokba"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Tudásközpont",
+    "subtitle": "Szakértői ismeretek és ajánlott eljárások az SAP BTP sikere számára",
+    "readMore": "Cikk olvasása",
+    "readTime": "{{time}} perc"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Fejlesztés",
+      "title": "Modern Fiori alkalmazások fejlesztése SAP BTP-vel",
+      "excerpt": "Ismerje meg, hogyan kell rugalmas, felhasználóbarát Fiori alkalmazásokat létrehozni, amelyek kihasználják az SAP Business Technology Platform teljes erejét.",
+      "readTime": "5 perc"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Technológia",
+      "title": "Offline PWA: Üzleti folyamatosság biztosítása mindenhol",
+      "excerpt": "Fedezze fel, hogyan tarthatják az Progressive Web Apps offline képességeivel az üzleti folyamatokat zökkenőmentesen még internet nélkül is.",
+      "readTime": "7 perc"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "Mesterséges Intelligencia & Automatizálás",
+      "title": "Mesterséges Intelligencia az intelligens számlafeldolgozáshoz",
+      "excerpt": "Fedezze fel, hogy az SAP BTP-vel történő mesterséges intelligencia integráció hogyan alakítja át a számla feldolgozást példátlan pontossággal és hatékonysággal.",
+      "readTime": "6 perc"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integráció",
+      "title": "SAP BTP Integration Suite elsajátítása",
+      "excerpt": "Egy átfogó útmutató a vállalati rendszerek összekapcsolásához az SAP BTP Integration Suite segítségével a zökkenőmentes adatáramláshoz.",
+      "readTime": "8 perc"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Architektúra",
+      "title": "Event Mesh architektúra valós idejű üzlethez",
+      "excerpt": "Esemény-vezérelt architektúra megvalósítása az SAP Event Mesh segítségével az agilis, skálázható megoldások számára.",
+      "readTime": "6 perc"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Ajánlott eljárások",
+      "title": "BTP adatbázis optimalizálási stratégiák",
+      "excerpt": "Alapvető stratégiák az SAP BTP adatbázis teljesítményének optimalizálásához a kritikus fontosságú üzleti adatok gyors és megbízható eléréséhez.",
+      "readTime": "5 perc"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Kezdje el",
+    "title": "Kész vállalkozása átalakítására?",
+    "subtitle": "Foglaljon ingyenes konzultációt SAP BTP szakértőinkkel",
+    "availability": "Korlátozott elérhetőség",
+    "contactInfo": "Kapcsolattartási adatok",
+    "email": "E-mail",
+    "globalPresence": "Globális jelenlét",
+    "servingCountries": "Ügyfeleket szolgáló több mint 40 ország világszerte",
+    "fastResponse": "Gyors válaszgarancia",
+    "fastResponseDesc": "Szereztessen szakértői tanácsot 24 órán belül. SAP BTP szakértőink készen állnak a sikerhez.",
+    "mentionCountry": "Kérjük, említse meg az országot, amikor kapcsolatba lép velünk",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Teljes név",
+      "email": "Üzleti e-mail",
+      "company": "Cég neve",
+      "message": "Szóljon projektjéről",
+      "submit": "Ingyenes konzultáció foglalása",
+      "submitting": "Küldés alatt..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Üzenet elküldve!",
+      "description": "Köszönjük, hogy felvette velünk a kapcsolatot. 24 órán belül válaszolunk."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Hiba",
+      "description": "Valami hiba történt. Kérjük, próbálkozzon újra."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "Speciális SAP BTP konzultáció kiváló teljesítménnyel világszerte",
+    "services": "Szolgáltatások",
+    "fiori": "Fiori fejlesztés",
+    "architecture": "BTP architektúra",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
+    "ai": "Mesterséges Intelligencia megoldások",
+    "knowledge": "Tudás",
+    "blogArticles": "Blog cikkek",
+    "caseStudies": "Esettanulmányok",
+    "resources": "Erőforrások",
+    "company": "Vállalat",
+    "about": "Rólunk",
+    "contact": "Kapcsolat",
+    "careers": "Karrier",
     "blog": "Blog",
-    "documentation": "Dokumentation",
+    "documentation": "Dokumentáció",
     "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "legal": "Jogi tudnivalók",
+    "privacy": "Adatvédelmi szabályzat",
+    "terms": "Felhasználási feltételek",
+    "copyright": "Minden jog fenntartva.",
+    "deployedOn": "A Cloudflare-en üzembe helyezve",
+    "serviceRestriction": "A szolgáltatások Ausztráliában és Új-Zélandon nem érhetőek el.",
+    "availableLanguages": "Elérhető az Ön nyelvén"
   },
   "common": {
     "learnMore": "Tudjon meg többet",
     "backToHome": "Vissza a kezdőlapra"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Felhőalkalmazás fejlesztés",
+    "title": "SAP CAP Fejlesztés",
+    "subtitle": "Szolgáltatások",
+    "description": "Modern felhőalkalmazások fejlesztése az SAP Cloud Application Programming Model segítségével a gyors, skálázható fejlesztéshez az SAP BTP-n.",
+    "cta": "Indítsa el CAP projektjét →",
+    "servicesTitle": "Átfogó CAP fejlesztési szolgáltatások",
+    "servicesSubtitle": "Az adatmodellezéstől az üzembe helyezésig - teljes CAP szakértelem az üzleti alkalmazásokhoz.",
+    "whyChoose": "Miért válassza a TerraBT-t",
+    "whyChooseTitle": "Szakértő CAP fejlesztés, amely eredményeket hoz",
+    "whyChooseDescription": "Tanúsított SAP CAP fejlesztőink hosszú évek tapasztalatával rendelkeznek a vállalati alkalmazások fejlesztésében. Technikai szakértelmet kombinálunk az üzleti érzékkel, hogy olyan megoldásokat nyújtsunk, amelyek eredményeket hoznak.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Full-Stack CAP fejlesztés",
+        "description": "Végponttól végpontig alkalmazásfejlesztés a CAP keretrendszerrel.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS adatmodellezés és entitás definíciók",
+          "Service definíció és megvalósítás",
+          "Egyedi üzleti logika fejlesztés",
+          "Fiori Elements UI generálás",
+          "CAP Node.js és Java futásidő támogatás"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Adatbázis integráció",
+        "description": "Zökkenőmentes integráció az SAP HANA Cloud és más adatbázisokkal.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud natív fejlesztés",
+          "PostgreSQL és SAP ASE támogatás",
+          "Adatbázis migrálás és sémakezelés",
+          "Lekérdezés optimalizálás és teljesítményhangolás",
+          "Multi-Tenancy adatbázis konfiguráció"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Biztonság & Jogosultság",
+        "description": "Vállalati szintű biztonsági megvalósítás a CAP alkalmazások számára.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Szerepkör-alapú hozzáférés-vezérlés (RBAC)",
+          "Hitelesítés integráció (XSUAA, IAS)",
+          "Jogosultság-annotációk és korlátozások",
+          "Adatvédelem és mező szintű biztonság",
+          "Biztonságos hitelesítő adatok kezelés"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API & Service fejlesztés",
+        "description": "Robusztus OData és REST API-k fejlesztése CAP szolgáltatásokkal.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2 és V4 service létrehozás",
+          "REST API megvalósítás",
+          "Egyéni akciók és funkciók",
+          "Draft engedélyezés tranzakciós alkalmazások számára",
+          "Külső service integráció és mashup-ok"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements integráció",
+        "description": "Gyors felhasználói felület fejlesztés a Fiori Elements és CAP segítségével.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Lista jelentés és objektum oldal alkalmazások",
+          "Analitikus lista oldal (ALP) fejlesztés",
+          "Freestyle Fiori app integráció",
+          "Felhasználói felület annotációk és testreszabás",
+          "Rugalmas és adaptív tervezés"
         ]
       },
       "cicd": {
         "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "description": "Automatizált üzembe helyezés és folyamatos integráció csatornák.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry és Kyma üzembe helyezés",
+          "MTA (Multi-Target Application) build",
+          "Automatizált tesztek és minőségi kapuk",
+          "CI/CD csatorna beállítás (Jenkins, GitHub Actions)",
+          "Multi-Environment előléptetési stratégiák"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Gyorsított fejlesztés bevált CAP mintákkal",
+      "Beépített ajánlott eljárások és vállalati készenléti architektúra",
+      "Skálázható alkalmazások, amelyek a vállalkozásával nőnek",
+      "Zökkenőmentes SAP S/4HANA integráció",
+      "Szakértői konzultáció az egész fejlesztési ciklus során"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "No-Code/Low-Code fejlesztés",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Fejlesztési szolgáltatások",
+    "description": "Professzionális vállalati alkalmazások létrehozása no-code/low-code eszközökkel a gyors digitális átalakulás és üzleti rugalmasság érdekében.",
+    "cta": "Kezdje el a építést ma →",
+    "servicesTitle": "Teljes SAP Build Apps megoldások",
+    "servicesSubtitle": "Vizuális fejlesztéstől a vállalati üzembe helyezésig - erősítse meg üzleti felhasználóit.",
+    "whyChooseTitle": "Gyors alkalmazásfejlesztés",
+    "whyChooseDescription": "Az SAP Build Apps lehetővé teszi az üzleti felhasználók és fejlesztők számára, hogy erőteljes alkalmazásokat hozzanak létre kiterjedt programozás nélkül. Gyorsítsa fel digitális átalakulását vizuális fejlesztési eszközökkel.",
+    "implementationTitle": "Megvalósítási megközelítés",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Vizuális fejlesztés",
+        "description": "Drag-and-drop interfész a gyors alkalmazásépítéshez.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitív vizuális oldalkészítő",
+          "Előre elkészített felhasználói felület komponens könyvtár",
+          "Rugalmas tervezés vászon",
+          "Valós idejű előnézet és tesztelés",
+          "Téma testreszabás és márkaépítés"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Több platformú alkalmazások",
+        "description": "Egyszer build, mindenhol üzembe helyezés - web, iOS és Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Progressive Web App (PWA) támogatás",
+          "Natív mobilalkalmazás generálás",
+          "Tablet és asztali optimalizálás",
+          "Offline adatok képességei",
+          "App Store üzembe helyezés támogatás"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Felhő-natív integráció",
+        "description": "Zökkenőmentes kapcsolódás az SAP BTP szolgáltatások és adatok felé.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA Cloud integráció",
+          "OData service összekapcsolódás",
+          "BTP service fogyasztás",
+          "Hitelesítés és jogosultság",
+          "Valós idejű adatsszinkronizálás"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Gyors prototípus elkészítés",
+        "description": "Ötletek gyors validálása és visszajelzés alapján történő iteráció.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Gyors MVP fejlesztés",
+          "Felhasználó tesztelés és visszajelzés gyűjtés",
+          "Iteratív tervezés és finomítás",
+          "Verziókezelés és visszacsévélés",
+          "Kollaborációs eszközök csapatoknak"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Citizen Developer felhatalmazás",
+        "description": "Erősítse meg az üzleti felhasználókat alkalmazások létrehozásához.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Alacsony tanulási görbe nem fejlesztőknek",
+          "Irányított fejlesztési munkafolyamatok",
+          "Sablon és terv könyvtár",
+          "Irányítás és minőség ellenőrzés",
+          "Képzés és felhatalmazási programok"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Code kiterjeszthetőség",
+        "description": "Kiterjesztés egyéni kóddal szükség szerint.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Egyéni JavaScript logika",
+          "API integráció képességek",
+          "Egyéni komponens fejlesztés",
+          "Fejlett adattranszformációk",
+          "Harmadik fél könyvtár integráció"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10x gyorsabb alkalmazásfejlesztés",
+      "Fejlesztési költségek csökkentése 60%-kal",
+      "Erősítse meg az üzleti felhasználókat az innováció érdekében",
+      "Zökkenőmentes SAP ökoszisztéma integráció",
+      "Vállalati szintű biztonság és irányítás"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Követelmények és tervezés",
+        "description": "Workshop az üzleti igények megértéséhez és alkalmazás szerkezet tervezéséhez a stakeholderekkel."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Vizuális fejlesztés",
+        "description": "Alkalmazás felépítése drag-and-drop interfész segítségével előre elkészített komponensekkel és sablonokkal."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Adatok integráció",
+        "description": "Csatlakozás az SAP rendszerekhez és külső adatforrásokhoz zökkenőmentes hitelesítéssel."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Tesztelés és finomítás",
+        "description": "Felhasználó elfogadási tesztelés és iteratív fejlesztések a visszajelzés alapján."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Üzembe helyezés",
+        "description": "Üzembe helyezés webre, iOS-re és Androidra automatizált build és terjesztéssel."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Képzés és támogatás",
+        "description": "Végfelhasználói képzés és folyamatos támogatás a folyamatos fejlesztéshez."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Folyamat automatizálás",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Szolgáltatások",
+    "description": "Üzleti folyamatok automatizálása intelligens munkafolyamat és robotikus folyamat automatizálási képességekkel a fokozott hatékonyság érdekében.",
+    "cta": "Automatizálja a folyamatait →",
+    "servicesTitle": "Teljes folyamat automatizálási megoldások",
+    "servicesSubtitle": "Az egyszerű munkafolyamatoktól az összetett RPA-ig - átfogó automatizálási szakértelem.",
+    "whyChooseTitle": "Intelligens folyamat automatizálás",
+    "whyChooseDescription": "Alakítsa át üzleti operációit az SAP Build Process Automation segítségével. Egyesítse a munkafolyamat kezelést, RPA-t és mesterséges intelligenciát a végponttól végpontig tartó folyamat kiválósághoz.",
+    "implementationTitle": "Megvalósítási ütemterv",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Munkafolyamat kezelés",
+        "description": "Összetett üzleti munkafolyamatok tervezése és összehangolása.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Vizuális munkafolyamat tervező",
+          "Jóváhagyási és útválasztási logika",
+          "Emberi feladat kezelés",
+          "Párhuzamos és szekvenciális feldolgozás",
+          "Eszkalációs és határidő kezelés"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Robotikus folyamat automatizálás",
+        "description": "Ismétlődő feladatok automatizálása szoftvermegoldásokkal.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Asztali és web automatizálás",
+          "Képernyő scraping és adatok kinyerés",
+          "Alkalmazás integráció API-k nélkül",
+          "Megfigyelt és felügyelet nélküli botok",
+          "Bot ütemezés és orkestrálás"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Dokumentum feldolgozás",
+        "description": "Intelligens dokumentum kinyerés és besorolás.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Mesterséges intelligencia-alapú adatok kinyerés",
+          "Dokumentum besorolás és útválasztás",
+          "Sablon-alapú feldolgozás",
+          "Multi-formátum támogatás (PDF, képek, vizsgálatok)",
+          "Validálási és ellenőrzési szabályok"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Jóváhagyási munkafolyamatok",
+        "description": "Egyszerűsítse a jóváhagyási folyamatokat a szervezetben.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Több szintű jóváhagyási láncok",
+          "Feltételes útválasztási logika",
+          "Delegálás és helyettesítési szabályok",
+          "Mobil jóváhagyási képességek",
+          "Értesítés és emlékeztetési rendszer"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Folyamat analitika",
+        "description": "Nyerje meg a folyamat teljesítményt és szűk keresztmetszeteket.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Folyamat bányászat és felderítés",
+          "Teljesítmény mutatók és KPI-k",
+          "Szűk keresztmetszet azonosítás",
+          "Megfelelőségi felügyelet",
+          "Folyamatos fejlesztési ajánlások"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Irányítás és megfelelőség",
+        "description": "Biztosítsa, hogy a folyamatok megfeleljenek a szabályozási követelményeknek.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audit nyomvonal és naplózás",
+          "Hozzáférés-vezérlés és biztonság",
+          "Megfelelőségi szabály érvényesítés",
+          "Verziókezelés és változáskezelés",
+          "SLA felügyelet és érvényesítés"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% csökkentés a kézi feldolgozási időben",
+      "99,9% pontosság az automatizált feladatokban",
+      "Gyors ROI 3-6 hónap alatt",
+      "Javított megfelelőség és auditálhatóság",
+      "Dedikált megvalósítási támogatás és optimalizálás"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Folyamat felfedezése",
+        "description": "Jelenlegi folyamatok elemzése és dokumentálása az automatizálási lehetőségek azonosításához."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Automatizálás tervezése",
+        "description": "Az optimális automatizálási megoldás tervezése a munkafolyamat, RPA és mesterséges intelligencia képességek kombinálásával."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Fejlesztés és konfiguráció",
+        "description": "Az automatizálás felépítése és konfigurálása az SAP Build Process Automation eszközöket használva."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Tesztelés és validáció",
+        "description": "Átfogó tesztelés az automatizálás pontosságának és megbízhatóságának biztosításához."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Üzembe helyezés és go-live",
+        "description": "Az automatizálás üzembe helyezése a termelésben felügyelt bevezetéssel és felhasználói képzéssel."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Felügyelet és optimalizálás",
+        "description": "Folyamatos felügyelet és fejlesztés a teljesítmény analitika alapján."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Architektúra és tervezés",
+    "title": "SAP BTP Architektúra",
+    "subtitle": "és tervezési szolgáltatások",
+    "description": "Stratégiai architektúra tervezés és tervezés a skálázható, biztonságos és nagy teljesítményű SAP BTP megoldások számára. Vállalati szintű felhő környezeteket építünk az üzleti igények szerint személyre szabva.",
+    "cta": "Beszéljék meg az architektúra igényeit →",
+    "servicesTitle": "Átfogó architektúra szolgáltatások",
+    "servicesSubtitle": "A kezdeti tájképtervezéstől a biztonsági megvalósításig az SAP BTP architektúra minden aspektusát lefedünk.",
+    "whyChooseTitle": "Szakértő architektúra, amely eredményeket hoz",
+    "whyChooseDescription": "Tanúsított SAP BTP építészeink hosszú évek tapasztalattal rendelkeznek a globális szervezetek vállalati megoldásainak megtervezésében. Az ajánlott eljárásokat az innovációval kombinálva olyan architektúrákat hozunk létre, amelyek megfelelnek az idő próbájának.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Tájképtervezés",
+        "description": "Átfogó BTP tájkép architektúra az üzleti igények szerint személyre szabva.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Multi-tier környezet beállítás (Dev, Test, Production)",
+          "Subaccount szerkezet és szervezet",
+          "Erőforrás elosztás és kapacitás tervezés",
+          "Cloud Foundry és Kyma futásidő konfiguráció",
+          "Hálózat topológia és összekapcsolódási tervezés"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Biztonsági architektúra",
+        "description": "Vállalati szintű biztonsági tervezés a BTP környezet és adatok védelméhez.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Identitás és hozzáférés kezelés (IAM) stratégia",
+          "Szerepkör-alapú hozzáférés-vezérlés (RBAC) megvalósítás",
+          "Adatok titkosítása és megfelelőségi normák",
+          "Biztonsági felügyelet és veszély felismerés",
+          "Audit naplózás és megfelelőségi jelentéskészítés"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Magas rendelkezésre állás",
+        "description": "Rugalmas rendszerek tervezése minimális leállási idővel és maximális megbízhatósággal.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Multi-region üzembe helyezési stratégiák",
+          "Katasztrófa helyreállítás és biztonsági mentés megoldások",
+          "Terhelésegyensúlyozás és feladatátvételi mechanizmusok",
+          "Üzleti folyamatosság tervezése",
+          "Teljesítmény felügyelet és optimalizálás"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Integration Suite beállítása",
+        "description": "Teljes Integration Suite konfiguráció a zökkenőmentes rendszer összekapcsolódáshoz.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Cloud Integration (CPI) beállítás és konfiguráció",
+          "API kezelés megvalósítása",
+          "Open Connectors konfiguráció",
+          "Integration Advisor felhasználása",
+          "Előre elkészített integráció tartalom üzembe helyezés"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP Cloud Connector beállítása",
+        "description": "Biztonságos on-premise-ből felhőbe összekapcsolódás a hibrid tájkép integrációhoz.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Cloud Connector telepítés és konfiguráció",
+          "Biztonságos alagút létrehozás on-premise és BTP között",
+          "Hozzáférés-vezérlés és biztonsági csoport kezelés",
+          "Rendszer leképezés és virtuális gazdanév konfiguráció",
+          "Magas rendelkezésre állás és feladatátvételi beállítás",
+          "Összekapcsolódási problémák felügyeletének és hibakeresésének"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Event Mesh beállítása",
+        "description": "Esemény-vezérelt architektúra megvalósítása a valós idejű üzleti folyamatok számára.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Event Mesh végzés biztosítás",
+          "Sor és témakör konfiguráció",
+          "Esemény közvetítő beállítás és kezelés",
+          "Üzenet útválasztás és szűrési szabályok",
+          "Esemény felügyelet és analitika"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS beállítása",
+        "description": "Identity Authentication Service konfiguráció a biztonságos felhasználó kezeléshez.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS bérlő biztosítás és konfiguráció",
+          "Single Sign-On (SSO) megvalósítása",
+          "Multi-faktor hitelesítés (MFA) beállítása",
+          "Vállalati identitásprovider integráció",
+          "Felhasználó biztosítás és életciklus kezelés"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Felhasználó hitelesítés és szerepkörök",
+        "description": "Átfogó felhasználó kezelés és jogosultság keretrendszer.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Egyéni szerepkör definíció és kezelés",
+          "Jogosultság modell tervezése",
+          "Felhasználó csoport szervezet",
+          "Alkalmazás szintű biztonsági megvalósítás",
+          "Szerepkör hozzárendelés és delegálás munkafolyamatok"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "40% csökkent megvalósítási idő bevált architektúra mintákkal",
+      "Vállalati szintű biztonság az iparági normáknak megfelelően",
+      "Skálázható infrastruktúra, amely a vállalkozásával nő",
+      "Proaktív felügyelet képességek a kritikus rendszerek számára",
+      "Szakértői konzultáció tanúsított SAP BTP építészektől"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP fókusz"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Év kombinált tapasztalat"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Betöltött országok"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globális",
+        "label": "Szakértő csapat"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Miért válassza a TerraBT-t",
+    "ctaSectionBadge": "⚡ Indítsa el projektjét ma",
+    "ctaSectionTitle1": "Kész az építésre",
+    "ctaSectionTitle2": "Az SAP BTP architektúra?",
+    "ctaSectionDescription": "Ütemezzen egy ingyenes konzultációt az SAP BTP építészekkel az igények megbeszéléséhez és az összekapcsolódás felfedezéséhez.",
+    "ctaSectionButton1": "Ingyenes konzultáció ütemezése →",
+    "ctaSectionButton2": "Összes szolgáltatás megtekintése"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
+    "badge": "Alkalmazásfejlesztés",
     "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "subtitle": "Fejlesztési szolgáltatások",
+    "description": "Modern, rugalmas Fiori alkalmazások fejlesztése, amelyek kivételes felhasználói élményt nyújtanak minden eszközön. A koncepciótól az üzembe helyezésig gyönyörű, nagy teljesítményű alkalmazásokat hozunk létre az SAP legújabb technológiáival.",
+    "cta": "Indítsa el Fiori projektjét →",
+    "servicesTitle": "Teljes Fiori fejlesztési megoldások",
+    "servicesSubtitle": "Végponttól végpontig Fiori fejlesztési szolgáltatások a tervezéstől az üzembe helyezésig és azon túl.",
+    "whyChooseTitle": "Fiori szakértők, akik kiválóságot nyújtanak",
+    "whyChooseDescription": "Az SAP tanúsított fejlesztőink szakosodnak a vállalati szintű Fiori alkalmazások fejlesztésében. A technikai szakértelmet a tervezési gondolkodással kombinálva olyan alkalmazásokat hozunk létre, amelyeket a felhasználók szeretnek.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Egyéni Fiori App fejlesztés",
+        "description": "Egyéni Fiori alkalmazások fejlesztése, amelyek tökéletesen illeszkednek az üzleti igényekhez.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5 keretrendszer szakértelem",
+          "Fiori Elements és Freestyle alkalmazások",
+          "OData service integráció",
+          "Rugalmas tervezés minden eszközre",
+          "Egyéni vezérlők és komponensek"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Felhasználói felület/felhasználói élmény tervezés",
+        "description": "Intuitív, gyönyörű felületek létrehozása az SAP Fiori tervezési irányelveket követve.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "SAP Fiori tervezési elvek betartása",
+          "Felhasználó kutatás és személyiség fejlesztés",
+          "Drótváz és prototípus készítés",
+          "Akadálymentesség megfelelőség (WCAG)",
+          "Téma testreszabás és márkaépítés"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Teljesítmény optimalizálás",
+        "description": "Gondoskodjon arról, hogy a Fiori alkalmazások gyorsan betöltsenek és zökkenőmentesen működjenek.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Kód optimalizálás és minifikálás",
+          "Lusta betöltés megvalósítás",
+          "Köteg méretének csökkentése",
+          "Hálózati kérelem optimalizálás",
+          "Teljesítmény felügyelet és analitika"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Mobil-első fejlesztés",
+        "description": "Fiori alkalmazások fejlesztése mobilfelhasználók és offline forgatókönyvek számára optimalizálva.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Rugalmas és adaptív tervezés",
+          "Érintésre optimalizált interakciók",
+          "Mobil-specifikus funkciók (kamera, GPS)",
+          "Offline adatok szinkronizálása",
+          "Progressive Web App (PWA) képességek"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integráció és tesztelés",
+        "description": "Zökkenőmentes backend integráció átfogó tesztabszolúció.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway és OData service létrehozás",
+          "Backend rendszer integráció",
+          "Unit és integráció tesztelés",
+          "Végponttól végpontig tesztautomatizálás",
+          "Folyamatos integráció/üzembe helyezés (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Képzés és támogatás",
+        "description": "Erősítse meg csapatát tudással és folyamatos karbantartási támogatással.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Fejlesztő képzési műhelyek",
+          "Ajánlott eljárások dokumentáció",
+          "Kód áttekintés és minőség biztosítás",
+          "Folyamatos karbantartás és frissítések",
+          "Átfogó termelési átmenet"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Modern, intuitív felületek, amelyek növelik a felhasználó elfogadást",
+      "Gyorsabb fejlesztés újrafelhasználható komponensekkel és sablonokkal",
+      "Eszközök közötti kompatibilita zökkenőmentes élmény biztosításához",
+      "SAP tanúsított fejlesztők mély Fiori szakértelem",
+      "Redukált képzési költségek ismerős, konzisztens felhasználói felülettel"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Fiori alkalmazások kézbesítve"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Felhasználó elégedettségi arány"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Gyorsabb piacra kerülési idő"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobil rugalmas"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Miért válassza a TerraBT-t",
+    "ctaSectionBadge": "⚡ Korlátozott fejlesztési helyek érhetőek el",
+    "ctaSectionTitle1": "Kész az építésre",
+    "ctaSectionTitle2": "Következő Fiori alkalmazása?",
+    "ctaSectionDescription": "Beszéljük meg az igényeket és hozzunk létre egy gyönyörű, nagy teljesítményű Fiori alkalmazást, amelyet a felhasználók szeretnek.",
+    "ctaSectionButton1": "Ingyenes ajánlatot kérhetünk →",
+    "ctaSectionButton2": "Más szolgáltatások felfedezése"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progressive Web alkalmazások",
+    "title": "Offline PWA alkalmazások",
+    "subtitle": "az SAP BTP számára",
+    "description": "Progressive Web alkalmazások offline képességekkel a zökkenőmentes felhasználói élmény biztosításához mindenhol. Alkalmazások felépítése, amely tökéletesen működik online vagy offline, natív alkalmazás élményt biztosítva a webon keresztül.",
+    "cta": "Építsd meg a PWA-d →",
+    "servicesTitle": "Teljes PWA fejlesztési szolgáltatások",
+    "servicesSubtitle": "Az offline-first architektúrától a push-értesítésekig olyan PWA-kat építünk, amelyek konkurálnak a natív alkalmazásokkal.",
+    "whyChooseBadge": "A PWA előny",
+    "whyChooseTitle": "Natív élmény, web egyszerűség",
+    "whyChooseDescription": "Progressive Web Apps a web és natív alkalmazások legjobbjait kombinálják. Nincs app store jóváhagyás, azonnali frissítések és minden eszközön működik - mind az app-szerű élmény során.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Offline-First architektúra",
+        "description": "Alkalmazások tervezése, amelyek zökkenőmentesen működnek még internet nélkül is.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Service Worker megvalósítás",
+          "Offline adatok gyorsítótár stratégiák",
+          "IndexedDB és helyi tárológépítés kezelés",
+          "Háttér szinkronizálás képességek",
+          "Konfliktus feloldási stratégiák"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Adatok szinkronizálása",
+        "description": "Intelligens szinkronizálási mechanizmusok az adatok konzisztenciájának megőrzéséhez az eszközök között.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automatikus háttér szinkronizálás",
+          "Delta szinkronizálás a hatékony adatátvitelhez",
+          "Konfliktus felismerés és feloldás",
+          "Optimista felhasználói felület frissítések",
+          "Újrapróbálkozási mechanizmusok és hibakezelés"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Progressive Web App funkciók",
+        "description": "Natív app-szerű élmény modern web képességekkel.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "App manifest konfiguráció",
+          "Hozzáadás a kezdőképernyő funkcióhoz",
+          "Push értesítés támogatás",
+          "Kamera és GPS integráció",
+          "App shell architektúra"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Teljesítmény optimalizálás",
+        "description": "Villámgyors betöltési idők és zökkenőmentes offline átmenet.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Kritikus erőforrások előgyorsítótárazása",
+          "Lusta betöltés képekhez és tartalomhoz",
+          "Kód szétválasztás és köteg",
+          "Tömörítés és minifikálás",
+          "Teljesítmény felügyelet és analitika"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Biztonság és megfelelőség",
+        "description": "Biztonságos offline adattárolás és továbbítás.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
+          "Adatok titkosítása nyugalmi állapotban",
+          "Biztonságos hitelesítés tokenek",
+          "HTTPS kényszerítés",
           "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Rendszeres biztonsági auditsz"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Online fejlesztés",
+        "description": "Továbbfejlesztett funkciók, amikor az összekapcsolódás elérhető.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Valós idejű frissítések és értesítések",
+          "Felhő biztonsági mentés és visszaállítás",
+          "Multi-device szinkronizálása",
+          "Analitika és telemetria",
+          "Funkciófelismerés és progresszív fejlesztés"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Dolgozzon mindenhol, bármikor - még internet nélkül is",
+      "Javított felhasználói élmény azonnali betöltésükkel",
+      "Csökkent szerverköltségek hatékony gyorsítótárazáson keresztül",
+      "Magasabb konverziós ráta az app-szerű élménytől",
+      "Jobb elkötelezettség push értesítéseken keresztül"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Offline képesség"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Gyorsabb betöltési idők"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Csökkent adathasználat"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Magasabb elkötelezettség"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Offline képességek engedélyezése ma",
+    "ctaSectionTitle1": "Kész az építésre",
+    "ctaSectionTitle2": "Az offline-first PWA?",
+    "ctaSectionDescription": "Hozzunk létre egy Progressive Web App-ot, amely impeccabily működik offline-ban és natív alkalmazás élményt nyújt a felhasználónak.",
+    "ctaSectionButton1": "A PWA projektet indítsd el →",
+    "ctaSectionButton2": "Összes szolgáltatás megtekintése"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Adatok kezelés",
+    "title": "SAP BTP adatbázis",
+    "subtitle": "Kezelési szolgáltatások",
+    "description": "Hatékony adatbázis tervezés, optimalizálás és kezelés a nagy teljesítményű SAP BTP alkalmazások számára. Szakértői szolgáltatások az SAP HANA Cloud, PostgreSQL és SAP ASE adatbázisokhoz.",
+    "cta": "Optimalizálja az adatbázist →",
+    "servicesTitle": "Teljes adatbázis kezelési megoldások",
+    "servicesSubtitle": "A tervezéstől az optimalizálásig, biztonságtól a helyreállításig - átfogó adatbázis szakértelem.",
+    "whyChooseTitle": "Teljesítmény, biztonság, megbízhatóság",
+    "whyChooseDescription": "Az adatbázis szakértőink mély szakértelmet hoznak az SAP BTP adatbázis technológiákban. Biztosítjuk, hogy az adatok gyorsak, biztonságosak és mindig rendelkezésre állnak, amikor szükséged van rá.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Adatbázis tervezés és modellezés",
+        "description": "Hatékony adatbázis séma tervezés az SAP BTP alkalmazások számára optimalizálva.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud adatbázis tervezés",
+          "PostgreSQL és SAP ASE konfiguráció",
+          "Entity-relationship modellezés",
+          "Normalizálás és denormalizálás stratégiák",
+          "Indexelés és particionálás stratégiák"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Teljesítmény optimalizálás",
+        "description": "Az adatbázis teljesítmény maximalizálása villámgyors lekérdezés végrehajtásához.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Lekérdezés optimalizálás és hangolás",
+          "Index elemzés és ajánlások",
+          "Végrehajtási terv optimalizálás",
+          "Memória és gyorsítótár konfiguráció",
+          "Teljesítmény felügyelet és profilozás"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Biztonság és megfelelőség",
+        "description": "Az adatok védelme vállalati szintű biztonsági intézkedésekkel.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Adatok titkosítása nyugalmi állapotban és továbbításban",
+          "Sor és oszlop szintű biztonság",
+          "Audit nyomvonal megvalósítása",
+          "GDPR és megfelelőségi követelmények",
+          "Biztonsági mentés titkosítása és biztonságos tárolás"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Biztonsági mentés és helyreállítás",
+        "description": "Átfogó katasztrófa helyreállítás és üzleti folyamatosság tervezése.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automatizált biztonsági mentési ütemezés",
+          "Point-in-time helyreállítás képességek",
+          "Katasztrófa helyreállítás eljárások",
+          "Magas rendelkezésre állás konfiguráció",
+          "Multi-region replikáció"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Adatok migrációja",
+        "description": "Zökkenőmentes adatok migrációja öröksége rendszerekből az SAP BTP-be.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Adatok kinyerés és transzformáció",
+          "Migrálás stratégia és tervezés",
+          "Zero-leállási migrálási technikák",
+          "Adatok validálás és ellenőrzés",
+          "Visszacsévélési eljárások és tesztelés"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Felügyelet és karbantartás",
+        "description": "Proaktív felügyelet és karbantartás az optimális adatbázis egészséghez.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Valós idejű teljesítmény felügyelet",
+          "Automatizált riasztások és értesítések",
+          "Egészség ellenőrzés és diagnosztika",
+          "Kapacitás tervezés és előrejelzés",
+          "Javítás kezelés és frissítések"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Akár 10x gyorsabb lekérdezési teljesítmény optimalizálással",
+      "99,99% üzemidő magas rendelkezésre állás konfigurációval",
+      "Csökkent tárolási költségek hatékony tervezésen keresztül",
+      "Megfelelőség-kész beépített biztonsági funkciókkal",
+      "Proaktív felügyelet és szakértői konzultáció"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Adatbázis kiválóság",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Üzemidő garancia"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Teljesítmény javulás"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Adatok biztonság"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Szakértői konzultáció"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Az adatbázis teljesítmény optimalizálása",
+    "ctaSectionTitle1": "Kész a maximalizálásra",
+    "ctaSectionTitle2": "Az adatbázis teljesítménye?",
+    "ctaSectionDescription": "Egy ingyenes adatbázis egészség ellenőrzést, és fedezd fel az optimalizálási lehetőségeket, amelyek átalakulhatnak az alkalmazás teljesítményed.",
+    "ctaSectionButton1": "Ingyenes adatbázis értékelést kapj →",
+    "ctaSectionButton2": "Összes szolgáltatás felfedezése"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Innováció és stratégia",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "az SAP BTP innováció számára",
+    "description": "Felhasználó-központú tervezési megközelítés az innovatív SAP BTP megoldások létrehozásához, amelyek valós üzleti kihívásokat oldanak meg. Segítünk felfedezni a helyes problémákat megoldani és olyan megoldásokat építeni, amelyeket a felhasználók szeretnek.",
+    "cta": "Ütemezze meg a Design műhelyt →",
+    "servicesTitle": "Az Design Thinking folyamat",
+    "servicesSubtitle": "Egy bizonyított módszer az innováció és problémamegoldás számára az SAP BTP projektekben.",
+    "whyChooseTitle": "Innováció, amely valódi értéket teremt",
+    "whyChooseDescription": "A Design Thinking átalakítja, ahogyan megközelíted az SAP BTP projekteket. A felhasználó igények és gyors iteráció fókuszálásával segítünk olyan megoldásokat létrehozni, amelyek mérhető üzleti értéket nyújtanak.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Felhasználó kutatás és empátia",
+        "description": "Mély megértés a felhasználók igényeiről, fájdalompontjairól és motivációiról.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Felhasználó interjúk és stakeholder elkötelezettség",
+          "Személyiség fejlesztés és utazás leképezés",
+          "Kontextuális vizsgálat és megfigyelés",
+          "Fájdalompont és lehetőség azonosítás",
+          "Empátia leképezés műhelyek"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Probléma meghatározása",
+        "description": "Világosan határozza meg a helyes problémákat a maximális üzleti hatás érdekében.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Probléma nyilatkozat megfogalmazása",
+          "Tervezési kihívás keretezés",
+          "Lehetőség terület azonosítása",
+          "Sikerkritérium meghatározása",
+          "Stakeholder összehangolási ülések"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideation műhelyek",
+        "description": "Innovatív megoldások generálása strukturált kreatív üléseken keresztül.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Irányított brainstorming ülések",
+          "SCAMPER és laterális gondolkodás technikák",
+          "Kollaboratív ideáció műhelyek",
+          "Ötlet priorizálás és kiválasztása",
+          "Koncepció fejlesztés és finomítás"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototípus",
+        "description": "Gyorsan hozzon létre érintett reprezentációkat az ötletek ellenőrzéséhez.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Alacsony hűség drótváz és vázlatok",
+          "Interaktív kattintható prototípusok",
+          "Magas hűség mockups",
+          "Proof of concept fejlesztés",
+          "MVP (Minimum Viable Product) tervezés"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Tesztelés és iteráció",
+        "description": "Megoldások validálása valódi felhasználókkal és folyamatos javítás.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Usability tesztelés ülések",
+          "A/B tesztelés és kísérletek",
+          "Felhasználó visszajelzés gyűjtés és elemzés",
+          "Iteratív tervezés finomítás",
+          "Validálás a siker kritériumok ellen"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Megvalósítási támogatás",
+        "description": "Vezesse csapatát a validált koncepciótól a sikeres indításig.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Technikai megvalósíthatóság értékelés",
+          "Megvalósítási útiterv létrehozása",
+          "Agile sprint tervezés",
+          "Fejlesztési csapat kollaboráció",
+          "Post-launch felügyelet és optimalizálás"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Csökkentse a kockázatot az ötletek validálásán előtt nagy beruházások",
+      "Gyorsabb innováció strukturált problémamegoldás megközelítéssel",
+      "Magasabb felhasználó elfogadás felhasználó-központú megoldások révén",
+      "Keresztfunkcionális csapat összehangolás és elkötelezettség",
+      "Mérhető üzleti eredmények és ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Gyorsabb problémamegoldás"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Csökkent fejlesztési hulladék"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Stakeholder elégedettség"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Felhasználó-központú megközelítés"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "Integráció és összekapcsolódás",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "Szolgáltatások",
+    "description": "Zökkenőmentes integrációs megoldások az SAP-rendszerek összekapcsolásához felhő- és on-premise alkalmazásokkal. A Cloud Integration, API Management, Open Connectors és Integration Advisor szakértő megvalósítása.",
+    "cta": "Csatlakoztassa a rendszereit →",
+    "servicesTitle": "Teljes Integration Suite szakértelem",
+    "servicesSubtitle": "Cloud Integrációtól az API kezelésig - átfogó integrációs szolgáltatások.",
+    "whyChooseTitle": "Zökkenőmentes rendszer összekapcsolódás",
+    "whyChooseDescription": "Az SAP BTP Integration Suite szükséges minden a vállalat összekapcsolódásához. Az szakértők biztosítják, hogy az integrációk megbízhatóak, biztonságosak és skálázhatóak.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "A felhő és on-premise rendszerek összekapcsolódása robusztus integrációs folyamatokkal.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Integrációs folyamat tervezés és fejlesztés",
+          "Előre elkészített integráció tartalom felhasználása",
+          "Üzenet leképezés és transzformáció",
+          "Hiba kezelés és felügyelet",
+          "Biztonsági artifact kezelés"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API kezelés",
+        "description": "API-k tervezése, közzététele és kezelése az átfogó életciklus támogatásával.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API proxy létrehozás és konfiguráció",
+          "Szabályzat kényszerítés (biztonság, ráta korlátozás)",
+          "API portál és fejlesztő dokumentáció",
+          "Analitika és használat felügyelet",
+          "Monetizálás és kvóta kezelés"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "Nyitott csatlakozók",
+        "description": "Előre elkészített csatlakozók a harmadik fél rendszerekkel történő gyors integrációhoz.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ előre elkészített csatlakozók",
+          "Egyéni csatlakoztató fejlesztés",
+          "Hitelesítés és jogosultság",
+          "Adatok transzformáció és normalizálás",
+          "Esemény-alapú integráció"
         ]
       },
       "advisor": {
         "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "description": "Gyorsítsa fel az integráció fejlesztést mesterséges intelligencia-alapú ajánlásokkal.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automatizált leképezés javaslatok",
+          "Üzenet megvalósítási útmutatók (MIGs)",
+          "B2B integráció forgatókönyv sablonok",
+          "Interfész leképezés javaslatok",
+          "Ajánlott eljárások ajánlások"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Biztonság és irányítás",
+        "description": "Vállalati szintű biztonság és irányítás az összes integrációhoz.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth és SAML hitelesítés",
+          "Tanúsítvány és kulcs kezelés",
+          "Szállítási szintű titkosítás (TLS/SSL)",
+          "Üzenet szintű titkosítás",
+          "Audit naplózás és megfelelőség"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Felügyelet és működés",
+        "description": "Átfogó felügyelet és operatív kiválóság.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Valós idejű üzenet felügyelet",
+          "Teljesítmény mutatók és KPI-k",
+          "Riasztás és értesítés beállítás",
+          "Log elemzés és hibakeresés",
+          "Kapacitás tervezés és optimalizálás"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Gyorsabb integráció előre elkészített tartalommal és gyorsítókkal",
+      "Csökkent integrációs költségek felhő-natív platformmal",
+      "Vállalati szintű megbízhatóság és skálázhatóság",
+      "Egyetlen platform az összes integráció igények számára",
+      "Dedikált szakértői konzultáció és útmutatás"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Előre elkészített csatlakozók"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Integráció üzemidő"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Gyorsabb megvalósítás"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globális",
+        "label": "Szakértő csapat"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Integráció kiválóság",
+    "ctaSectionBadge": "⚡ Csatlakoztassa a vállalatot ma",
+    "ctaSectionTitle1": "Kész az egyesítésre",
+    "ctaSectionTitle2": "Az üzleti rendszereit?",
+    "ctaSectionDescription": "Beszéljük meg az integráció igényeket és hozzunk létre egy átfogó megoldást, amely az összes kritikus üzleti rendszert összekapcsolja.",
+    "ctaSectionButton1": "Integrációs konzultáció kérni →",
+    "ctaSectionButton2": "Összes szolgáltatás megtekintése"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Esemény-vezérelt architektúra",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Megvalósítási szolgáltatások",
+    "description": "Valós idejű esemény-vezérelt architektúra megvalósítása az agilis, skálázható üzleti folyamatok számára. Felépítés olyan elosztott rendszerek, amelyek azonnal reagálnak az üzleti eseményekre az SAP Event Mesh-sel.",
+    "cta": "Esemény-vezérelt architektúra felépítése →",
+    "servicesTitle": "Teljes Event Mesh megoldások",
+    "servicesSubtitle": "Az architektúra tervezéstől a megvalósításig - felépítés agilis esemény-vezérelt rendszerek.",
+    "whyChooseTitle": "Valós idejű üzleti reagálási képesség",
+    "whyChooseDescription": "Az Event Mesh lehetővé teszi a vállalkozásnak, hogy azonnal reagáljon az eseményekre, amikor megtörténnek. Felépítés lazán kapcsolódott, nagy méretre skálázható rendszerek, amelyek alkalmazkodnak az üzleti igények változásához.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh architektúra",
+        "description": "Vállalati szintű esemény-vezérelt architektúra tervezése és megvalósítása.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Event Mesh topológia tervezés",
+          "Multi-region esemény terjesztés",
+          "Esemény közvetítő konfiguráció",
+          "Üzenet útválasztási stratégiák",
+          "Téma és sor tervezési minták"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Valós idejű esemény feldolgozás",
+        "description": "Üzleti események feldolgozása és reagálása valós időben.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Esemény streaming megvalósítás",
+          "Összetett esemény feldolgozás (CEP)",
+          "Esemény szűrés és transzformáció",
+          "Esemény aggregáció és korrelláció",
+          "Alacsony latencia esemény kézbesítés"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Esemény-vezérelt integrációk",
+        "description": "Rendszerek összekapcsolódása asszinkron esemény-alapú kommunikáción keresztül.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Kiadó/feliratkozó mintái",
+          "Esemény-vezérelt mikroszolgáltatások",
+          "Webhook és callback integráció",
+          "Esemény visszajátszás és helyreállítás",
+          "Dead letter sor kezelés"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Biztonság és irányítás",
+        "description": "Biztonságos esemény továbbítás átfogó irányításon keresztül.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Esemény titkosítás továbbításban",
+          "Hozzáférés-vezérlés és jogosultság",
+          "Esemény séma validálás",
+          "Megfelelőség és audit naplózás",
+          "Adatok adatvédelmi ellenőrzések"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud & hibrid",
+        "description": "Event Mesh felhő szolgáltatók és on-premise rendszerek között.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Kereszt-felhő esemény terjesztés",
+          "Hibrid felhő összekapcsolódás",
+          "Multi-region redundancia",
+          "Földrajzi esemény útválasztás",
+          "Felhő-agnosztikus architektúra"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Felügyelet és analitika",
+        "description": "Átfogó láthatóság az esemény-vezérelt ökoszisztémában.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Valós idejű esemény felügyelet",
+          "Teljesítmény mutatók és SLA-k",
+          "Esemény folyamat vizualizáció",
+          "Szűk keresztmetszet azonosítás",
+          "Prédiktív kapacitás tervezés"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Rendszerek decentralizálása a nagyobb rugalmasság és skálázhatóság érdekében",
+      "Valós idejű üzleti ismeretek és azonnali reagálás",
+      "Javított rendszer rugalmasság és hibatűrés",
+      "Csökkent pont-pont integráció összetettség",
+      "Támogatás a modern esemény-vezérelt architektúrák számára"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Esemény kézbesítés latencia"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Események másodpercenként"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Esemény kézbesítés garancia"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "Globális",
+        "label": "Multi-Region terjesztés"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Esemény-vezérelt kiválóság",
+    "ctaSectionBadge": "⚡ Valós idejű rendszerek felépítése",
+    "ctaSectionTitle1": "Kész a megvalósításra",
+    "ctaSectionTitle2": "Esemény-vezérelt architektúra?",
+    "ctaSectionDescription": "Alakítsa át a vállalatot valós idejű esemény feldolgozásával. Beszéljük meg, hogy az Event Mesh hogyan tudja hajtani a következő generációs alkalmazásaidat.",
+    "ctaSectionButton1": "Event Mesh konzultáció ütemezése →",
+    "ctaSectionButton2": "Összes technológia felfedezése"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "Mesterséges Intelligencia és automatizálás",
+    "title": "Mesterséges Intelligencia-alapú",
+    "subtitle": "Számlafeldolgozás",
+    "description": "Intelligens számlafeldolgozás automatizálás fejlett mesterséges intelligenciával pontos, hatékony működéshez. Alakítsa át a forgalomadó folyamatot a legmodernebb mesterséges intelligencia technológiával integrálva az SAP BTP-vel.",
+    "cta": "Automatizálja a számláid →",
+    "servicesTitle": "Mesterséges Intelligencia-alapú számlafeldolgozás automatizálása",
+    "servicesSubtitle": "A fejlett mesterséges intelligencia képességek kihasználása az intelligens számlafeldolgozáshoz és automatizáláshoz.",
+    "whyChooseTitle": "Alakítsa át a számlafeldolgozást",
+    "whyChooseDescription": "A fejlett mesterséges intelligencia ember-szintű megértést hoz a számlafeldolgozáshoz. Az összetett elrendezések, több nyelvek és határeseteket kezelheti, amelyekre a hagyományos OCR rendszerek küzdenek.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Intelligens adatok kinyerés",
+        "description": "Fejlett mesterséges intelligencia-alapú számlás adatok kinyerés példátlan pontossággal.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Multi-formátum számlafeldolgozás (PDF, képek, vizsgálatok)",
+          "Automatikus mezőfelismerés és kinyerés",
+          "Fejléc és tétel felismerés",
+          "Táblázat és összetett elrendezés megértés",
+          "Kézírás felismerés"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP integráció",
+        "description": "Zökkenőmentes integráció az SAP BTP szolgáltatásokkal és háttérrendszerekkel.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Közvetlen integráció az SAP S/4HANA-val",
+          "SAP Document Management Service kapcsolat",
+          "Munkafolyamat automatizálás triggerek",
+          "Valós idejű adatok validálás",
+          "Egyéni üzleti szabály megvalósítása"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatizált feldolgozás",
+        "description": "Végponttól végpontig automatizálás minimális kézi beavatkozásával.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Intelligens útválasztás és besorolás",
+          "Auto-jóváhagyás alacsony kockázatú számláekhez",
+          "Kivétel kezelés munkafolyamatok",
+          "Duplikátum felismerés és megelőzés",
+          "Három-utas megfelelő automatizálása"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validálás és megfelelőség",
+        "description": "Pontosság és szabályozási megfelelőség biztosítása minden tranzakcióban.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Több szintű validálási szabályok",
+          "Adó szám ellenőrzés",
+          "Megfelelőség ellenőrzés (ÁFA, GST)",
+          "Audit nyomvonal és naplózás",
+          "Adatok adatvédelme és biztonság (GDPR kompatibilis)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analitika és ismeretek",
+        "description": "Értékes ismeretek szerzése számlafeldolgozási adataiból.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Feldolgozási mutatók és KPI-k",
+          "Pontosság és hibaarány követés",
+          "Költségmegtakarítás elemzés",
+          "Szállító teljesítmény analitika",
+          "Prédiktív cash flow ismeretek"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Képzés és optimalizálás",
+        "description": "Folyamatos javulás a mesterséges intelligencia tanulás és rendszeroptimalizálás révén.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Egyéni modell képzés a számláidhoz",
+          "Folyamatos tanulás a javításokból",
+          "Sablon-alapú feldolgozás optimalizálása",
+          "Visszajelzés hurok megvalósítása",
+          "Rendszeres pontossági fejlesztések"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ pontossági arány csökkenti a kézi javítások",
+      "80% gyorsabb számlafeldolgozási idő",
+      "70% csökkentés a feldolgozási költségekben",
+      "Szinte nulla adatbeviteli hibák",
+      "Valós idejű feldolgozás állapot láthatósága"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Pontossági arány"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Idő csökkentés"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Költségmegtakarítás"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatizált feldolgozás"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Vissza a kezdőlapra",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Számlafeldolgozás forradalma a mesterséges intelligenciával",
+      "category": "Mesterséges Intelligencia/Gépi tanulás",
+      "readTime": "6 perc",
+      "seoDescription": "Fedezze fel, hogy az SAP BTP-n történő mesterséges intelligencia integráció hogyan alakítja át a számla feldolgozást intelligens automatizálás és fejlett dokumentum megértéssel.",
+      "intro": "A számlafeldolgozást hagyományosan időigényes, hibalehetőséggel terhes kézi feladat volt. A fejlett mesterséges intelligencia integrációja az SAP BTP-vel forradalmasítja ezt a folyamatot, példátlan szintű automatizálást, pontosságot és hatékonyságot hozva a forgalomadó előfeldolgozási műveletek számára.",
+      "section1Title": "A hagyományos számlafeldolgozás kihívása",
+      "section1Content": "A szervezetek havonta több ezer számlát feldolgozzák, mindegyik adatok kinyerés, validálás és ERP rendszerek bevitele szükséges. A kézi feldolgozás lassú, drága és hibalehetőséggel terhes, ami fizetési késedelemhez, duplikált befizetésekhez vagy korai fizetési kedvezmények meghiúsulásához vezethet.",
+      "section2Title": "Fejlett mesterséges intelligencia dokumentum megértés",
+      "section2Content": "A modern mesterséges intelligencia államot meghaladó természetes nyelv feldolgozási és számítógépes látás képességeket hoz a számlafeldolgozáshoz. A hagyományos OCR rendszerektől eltérően a fejlett mesterséges intelligencia megértheti a kontextust, kezelheti az eltérő számlás formátumokat és információkat nyerhet ki szemrehatóan még a rosszul beszkennelt vagy összetett dokumentumokból.",
+      "section3Title": "Zökkenőmentes SAP BTP integráció",
+      "section3Content": "A mesterséges intelligencia integrációja az SAP BTP-vel erőteljes automatizálási csövet hoz létre. A beérkező számlák automatikusan feldolgozottak, az adatok kinyert és validáltak, az információ közvetlenül az SAP rendszerekbe áramlik emberi beavatkozás nélkül. Ez az integráció kihasználja az SAP BTP robusztus összekapcsolódási és munkafolyamat képességeit.",
+      "section4Title": "Intelligens kivétel kezelés",
+      "section4Content": "A mesterséges intelligencia egyik fő erőssége az intelligens kivétel kezelés képessége. Amikor szokatlan számlás formátumok vagy kétértelmes információ merülnek fel, a rendszer részletekhez rögzíthet olyan elemeket, amely az ember miatt részletes magyarázatokkal rendelkezik, így a kivétel kezelés sokkal hatékonyabb lesz a hagyományos szabály alapú rendszereknél.",
+      "section5Title": "Mérhető üzleti hatás",
+      "section5Content": "A szervezetek, amelyek mesterséges intelligenciát valósítanak meg a számlafeldolgozáshoz, általában drámai javulásokat látnak: 90% csökkentés a feldolgozási időben, 95% csökkent az adatbeviteli hibákat és jelentős költségmegtakarítás a forgalomadó előfeldolgozási műveletek során. Talán a legfontosabb: az alkalmazottak a stratégiai tevékenységekre fókuszálhatnak az ismétlődő adatbevitel helyett.",
+      "conclusionTitle": "Következtetés",
+      "conclusionContent": "A fejlett mesterséges intelligencia képességek és az SAP BTP vállalati szintű infrastruktúrájának kombinációja egy átalakító megközelítést képvisel a számlafeldolgozáshoz. A szervezetek, amelyek ezt a technológiát elfogadják, szignifikáns versenyhátrányokat szereznek a javított hatékonyság, pontosság és költségcsökkentés révén."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Modern Fiori alkalmazások fejlesztése az SAP BTP-n",
+      "category": "Fejlesztés",
+      "readTime": "8 perc",
+      "seoDescription": "Ismerje meg, hogyan kell modern, rugalmas Fiori alkalmazásokat fejleszteni az SAP BTP erőteljes fejlesztési eszközei és keretrendszereivel.",
+      "intro": "Az SAP Fiori a vállalati alkalmazások jövőjét képviseli, amely minden eszköz és üzembe helyezési lehetőség közötti egységes felhasználói élményt biztosít. Az SAP Business Technology Platform (BTP) segítségével a modern Fiori alkalmazások fejlesztése valaha még nem volt olyan racionalizált és hatékony.",
+      "section1Title": "Az SAP BTP hatalom a Fiori fejlesztéshez",
+      "section1Content": "Az SAP BTP átfogó eszköz és szolgáltatások suite-t biztosít kifejezetten a Fiori alkalmazások fejlesztéséhez. A platform fejlesztési környezetektől az üzembe helyezési infrastruktúráig mindent nyújt, amely lehetővé teszi az csapatoknak, hogy az infrastruktúra kezelése helyett az kivételes felhasználói élmény létrehozására összpontosítsanak.",
+      "section2Title": "Kulcsfontosságú funkciók és ajánlott eljárások",
+      "section2Content": "A modern Fiori alkalmazások az SAP Fiori Elements keretrendszert használják, amely előre elkészített felhasználói felület komponenseket és mintákat biztosítanak az összhang biztosítása és fejlesztési idő csökkentése érdekében. Ezek az elemek az egyéni SAPUI5 vezérlőkkel kombinálva a fejlesztők olyan alkalmazásokat hozhatnak létre, amelyek szabványosítottak és az adott üzleti igényekre szabottak.",
+      "section3Title": "Integráció az SAP BTP szolgáltatásokkal",
+      "section3Content": "Az SAP BTP-n fejlesztett Fiori alkalmazások egyik főbb előnye az egyéb platformszolgáltatásokkal való zökkenőmentes integráció. Az SAP Cloud Identity Services hitelesítésétől és meghatalmazásán az SAP HANA Cloud adattárolásáig a fejlesztőknek hozzáféréke van olyan vállalati szintű szolgáltatásokhoz, amelyek könnyen integrálhatók az alkalmazásaikba.",
+      "section4Title": "Rugalmas tervezés és multi-device támogatás",
+      "section4Content": "Az SAP BTP-n fejlesztett Fiori alkalmazások automatikusan alkalmazkodnak a különböző képernyőméretekhez és eszközökhöz, biztosítva az összhang felhasználói élményt az asztali számítógéptől, táblagéptől vagy mobiltelefonról való hozzáféréskor. Ez a rugalmas tervezési képesség beépítve van a keretrendszerbe, és csökkenti a több eszköz támogatásához szükséges erőfeszítéseket.",
+      "section5Title": "Teljesítmény optimalizálása",
+      "section5Content": "Az SAP BTP számos eszközt és technikát biztosít a Fiori alkalmazás teljesítményének optimalizálásához, beleértve a lusta betöltést, kötegeket és gyorsítótárazási stratégiákat. Ezek az optimalizálási technikák biztosítják, hogy az alkalmazások gyorsan betöltsenek és zökkenőmentesen reagáljanak, még akkor is, ha nagy adathalmazokat vagy összetett üzleti logikát kezelnek.",
+      "conclusionTitle": "Következtetés",
+      "conclusionContent": "A modern Fiori alkalmazások fejlesztése az SAP BTP-n az vállalati szintű infrastruktúra erejét a vágott szélű fejlesztési keretrendszerekkel kombinálják. A platformképességek kihasználásával a fejlesztési csapatok összetett, felhasználóbarát alkalmazásokat hozhatnak létre, amelyek üzleti értékeket elősegítenek és a termelékenységet a teljes szervezetben növelik."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Offline PWA megoldások az üzleti folyamatossághoz",
+      "category": "Architektúra",
+      "readTime": "7 perc",
+      "seoDescription": "Fedezze fel, hogy a Progressive Web Apps (PWA) offline képességekkel hogyan biztosítja az üzleti folyamatosságot és produktivitást minden hálózati feltételhez.",
+      "intro": "A mai csatlakoztatott világban a hálózati megszakítások az üzleti műveletek megállásához vezethetnek. A Progressive Web Apps (PWA) offline képességekkel robusztus megoldást kínálnak az üzleti folyamatosság biztosításához, amely lehetővé teszi a felhasználók zökkenőmentes munkavégzéseit a hálózati elérhetőségtől függetlenül.",
+      "section1Title": "Az offline-first architektúra megértése",
+      "section1Content": "Az offline-first architektúra paradigma váltást képvisel a web alkalmazások fejlesztésében. Az offline-mód határesetként kezelése helyett az offline-first tervezés ezt az alapvető funkcióként teszik. Ez a megközelítés biztosítja, hogy az alkalmazások funkcionálisak maradjanak, még ha a hálózati csatlakozás nem megbízható vagy teljesen nem elérhető.",
+      "section2Title": "Service Worker: Az offline PWA gerinc",
+      "section2Content": "A Service Worker az a technológia, amely az offline PWA-kat lehetővé teszi. Ezek a programozható hálózat proxyk az alkalmazása és a hálózat között ülnek, felvetik a kéréseket és kifinomult gyorsítótárazási stratégiákat engedélyeznek. A Service Worker kihasználásával az alkalmazások a kritikus erőforrásokat és adatokat gyorsítótárazhatnak és elérhetőséget biztosíthatnak, még ha offline.",
+      "section3Title": "Adatok szinkronizálási stratégiák",
+      "section3Content": "Az offline PWA-k egyik fő kihívása az adatok szinkronizálás kezelése, amikor az összekapcsolódás helyreállítható. A robusztus konfliktus feloldási stratégiák és az optimista frissítések megvalósítása biztosítja, hogy az adatok a rendszerek és backend rendszerek között konzisztensek maradnak. A háttér szinkronizálási API-k lehetővé teszik az automatikus szinkronizálást, amikor a hálózat újra elérhető lesz.",
+      "section4Title": "Üzleti előnyök",
+      "section4Content": "Az offline PWA-k jelentős üzleti értéket nyújtanak az üzleti folyamatos termelékenység biztosításával. A terepen dolgozó munkaerő a feladatait távoli helyeken folytathatja, az értékesítési csapatok a bemutatók során a kritikus információkhoz férhetnek hozzá, és a műveletek zökkenőmentesen működnek a hálózati kimaradások során. Ez a megbízhatóság közvetlenül az ügyfél elégedettség és operatív hatékonyság javulására fordítódik.",
+      "section5Title": "Megvalósítása az SAP BTP-vel",
+      "section5Content": "Az SAP BTP kiváló támogatást nyújt az offline PWA-k felépítésére a Mobile Services ajánlata révén. Ezek a szolgáltatások az offline adatok szinkronizálást, biztonságos tárolást és átfogó API-kat tartalmaznak, amely leegyszerűsíti a robusztus offline-képes alkalmazások fejlesztését.",
+      "conclusionTitle": "Következtetés",
+      "conclusionContent": "Az offline PWA-k az üzleti alkalmazások jövőjét képviselik, rugalmasság és megbízhatóság biztosítva, amelyeket a hagyományos web alkalmazások nem tudnak nyújtani. Az offline-first architektúra elfogadásán és a modern web technológiák kihasználásán keresztül a szervezetek biztosíthatják az üzleti folyamatosságot és a termelékenységet a hálózati feltételektől függetlenül."
     }
   }
 }

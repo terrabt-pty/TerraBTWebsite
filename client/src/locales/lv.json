@@ -13,1450 +13,1443 @@
     "learn": "Izpētīt pakalpojumus"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Mūsu Kompetence",
+    "subtitle": "Visaptveroši SAP BTP risinājumi jūsu uzņēmuma transformācijai",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori lietotnes izstrāde",
+      "description": "Mūsdienīgu, reaktīvu Fiori lietotņu izstrāde, kas nodrošina izņēmumu lietotāja pieredzi visās ierīcēs."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP arhitektūra un dizains",
+      "description": "Stratēģiska arhitektūras plānošana un dizains skalējamiem SAP BTP risinājumiem, pielāgotiem jūsu biznesa vajadzībām."
     },
     "designThinking": {
-      "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "title": "Dizaina domāšana",
+      "description": "Lietotāju-centrēts dizaina pieejas nodrošinājums inovatīvu risinājumu izstrādei faktiskiem biznesa izaicinājumiem."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Bezsaistes PWA lietotnes",
+      "description": "Progresīvas tīmekļa lietotnes ar bezsaistes funkcijām, nodrošinot nevainojamu lietotāja pieredzi jebkur."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP datu bāzes pārvaldība",
+      "description": "Efektīva datu bāzes dizaina izveide, optimizācija un pārvaldība augstas veiktspējas BTP lietojumprogrammām."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "AI rēķinu apstrāde",
+      "description": "Intelektuāla rēķinu apstrādes automatizācija, ko dod progresīvs AI, nodrošinot precīzu un efektīvu darbību."
     },
     "integration": {
-      "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "title": "SAP BTP integrācijas pakete",
+      "description": "Nevainojami integrācijas risinājumi, kas savieno jūsu SAP sistēmas ar mākoņa un lokālajām lietojumprogrammām."
     },
     "eventMesh": {
-      "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "title": "Notikuma režģis",
+      "description": "Notikumu vadītas reāllaika arhitektūras ieviešana, nodrošinot ātru, skalējamu biznesa procesu izpildi."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP izstrāde",
+      "description": "Mūsdienīgu mākoņa lietotņu izstrāde ar SAP Cloud Application Programming Model ātrākai, skalējamākai izstrādei."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Profesionālu uzņēmuma lietotņu izveide, izmantojot bez-koda/zema-koda rīkus ātrai digitālai transformācijai."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Biznesa procesu automatizācija ar intelektuāliem darbplūsmas un robotu procesu automatizācijas iespējām."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Mūsu fokuss",
+      "title": "100% SAP BTP specializācija",
+      "description": "Atšķirībā no vispārēju konsultāciju uzņēmumiem, mēs fokusējamies tikai uz SAP Business Technology Platform, nodrošinot dziļu ekspertīzi un jaunākos risinājumus.",
+      "point1": "Dedikēta sertificētu SAP BTP ekspertu komanda",
+      "point2": "Vienmēr aktuāli ar jaunākajām BTP funkcijām un labākajām prakses",
+      "point3": "Pierādītas sekmīgās realizācijas vairākās nozarēs"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Globāls pieejamums",
+      "title": "Pasaules tirgus apkalpošana",
+      "description": "Mēs sniedzam SAP BTP ekspertīzi pasaules tirgos, nodrošinot pasaules klases risinājumus neatkarīgi no jūsu atrašanās vietas.",
+      "point1": "Attālas konsultācijas visos laika joslās",
+      "point2": "Daudzvalodīgs atbalsts starptautiskajiem komandām",
+      "point3": "Izpratne par reģionālajām biznesa prasībām"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Mūsdienu tehnoloģija",
+      "title": "AI darbināta inovācija",
+      "description": "Jaunākās AI tehnoloģijas izmantošana SAP BTP risinājumu uzlabošanai un automatizācijas un intelekta ieviešanai jūsu biznesa procesos.",
+      "point1": "Intelektuāla automatizācija atkārtotiem uzdevumiem",
+      "point2": "Progresīva datu apstrāde un analīze",
+      "point3": "Nevainojama integrācija esošajos darbplūsmos"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Zināšanu centrs",
+    "subtitle": "Ekspertu ieskati un labākā prakse SAP BTP sekmei",
+    "readMore": "Lasīt rakstu",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Izstrāde",
+      "title": "Mūsdienīgu Fiori lietotņu veidošana ar SAP BTP",
+      "excerpt": "Uzziniet, kā izveidot reaktīvas, lietotāju draudzīgas Fiori lietotnes, kas izmanto SAP Business Technology Platform pilnu jaudu uzlabotai lietotāja pieredzei.",
+      "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Tehnoloģija",
+      "title": "Bezsaistes PWA: Biznesa nepārtrauktības nodrošinājums jebkur",
+      "excerpt": "Atklājiet, kā progresīvas tīmekļa lietotnes ar bezsaistes iespējām var uzturēt jūsu biznesa darbību vienmērīgi pat bez interneta savienojuma.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI un automatizācija",
+      "title": "AI intelektuālai rēķinu apstrādei",
+      "excerpt": "Izpētiet, kā AI integrācija ar SAP BTP pārveidē rēķinu apstrādi ar bezprecedenta precizitāti un efektivitāti jūsu biznesam.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integrācija",
+      "title": "SAP BTP integrācijas paketes mūs apguves",
+      "excerpt": "Visaptveroša vadlīnija jūsu uzņēmuma sistēmu savienošanai, izmantojot SAP BTP integrācijas paketi nevainojamam datu plūsmam un biznesa procesu izpildei.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Arhitektūra",
+      "title": "Notikuma režģa arhitektūra reāllaika biznesam",
+      "excerpt": "Notikumu vadītas arhitektūras ieviešana ar SAP Event Mesh, lai izveidotu ātras, skalējamas risinājumus modernajām biznesa prasībām.",
+      "readTime": "6 min"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Labākā prakse",
+      "title": "BTP datu bāzes optimizācijas stratēģijas",
+      "excerpt": "Būtiskas stratēģijas SAP BTP datu bāzes veiktspējas optimizācijai, nodrošinot ātru, uzticamu piekļuvi jūsu biznesa kritiskajiem datiem.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Sākt",
+    "title": "Vai esat gatavs pārveidot savu biznesu?",
+    "subtitle": "Rezervējiet bezmaksas konsultāciju ar mūsu SAP BTP ekspertiem",
+    "availability": "Ierobežots pieejamums",
+    "contactInfo": "Kontaktinformācija",
+    "email": "E-pasts",
+    "globalPresence": "Globāla klātbūtne",
+    "servingCountries": "Apkalpojam klientus vairāk nekā 40 valstīs pasaulē",
+    "fastResponse": "Ātras atbildes garantija",
+    "fastResponseDesc": "Saņemiet ekspertu padomu 24 stundās. Mūsu SAP BTP speciālisti ir gatavi jums palīdzēt sekmēt.",
+    "mentionCountry": "Lūdzu, miniet savu valsti, sazinoties ar mums",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Pilns vārds",
+      "email": "Biznesa e-pasts",
+      "company": "Uzņēmuma nosaukums",
+      "message": "Pastāstiet mums par savu projektu",
+      "submit": "Ieplānot bezmaksas konsultāciju",
+      "submitting": "Sūtīšana..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Ziņojums nosūtīts!",
+      "description": "Paldies, ka sazinājāties ar mums. Mēs atbildēsim jums 24 stundu laikā."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Kļūda",
+      "description": "Kaut kas nogāja greizi. Lūdzu mēģiniet vēlreiz."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
-    "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
-    "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "description": "Specializēta SAP BTP konsultēšana, kas sniedz izcilību visā pasaulē",
+    "services": "Pakalpojumi",
+    "fiori": "Fiori izstrāde",
+    "architecture": "BTP arhitektūra",
+    "integration": "Integrācijas pakete",
+    "ai": "AI risinājumi",
+    "knowledge": "Zināšanas",
+    "blogArticles": "Bloga raksti",
+    "caseStudies": "Gadījumu analīzes",
+    "resources": "Resursi",
+    "company": "Uzņēmums",
+    "about": "Par mums",
+    "contact": "Kontakti",
+    "careers": "Karjera",
+    "blog": "Blogs",
+    "documentation": "Dokumentācija",
+    "whitepapers": "Baltie dokumenti",
+    "legal": "Juridisks",
+    "privacy": "Privātuma politika",
+    "terms": "Pakalpojumu noteikumi",
+    "copyright": "Visas tiesības aizsargātas.",
+    "deployedOn": "Izvietots pakalpojumā Cloudflare",
+    "serviceRestriction": "Pakalpojumi nav pieejami Austrālijā un Jaunzēlandē.",
+    "availableLanguages": "Pieejams jūsu valodā"
   },
   "common": {
     "learnMore": "Uzzināt vairāk",
     "backToHome": "Atpakaļ uz sākumu"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Mākoņa lietotnes izstrāde",
+    "title": "SAP CAP izstrāde",
+    "subtitle": "Pakalpojumi",
+    "description": "Mūsdienīgu mākoņa lietotņu izstrāde ar SAP Cloud Application Programming Model ātrai, skalējamākai izstrādei SAP BTP.",
+    "cta": "Sākt savu CAP projektu →",
+    "servicesTitle": "Visaptveroši CAP izstrādes pakalpojumi",
+    "servicesSubtitle": "No datu modelēšanas līdz izvietošanai - pilnīga CAP ekspertīze jūsu biznesa lietojumprogrammām.",
+    "whyChoose": "Kāpēc izvēlēties TerraBT",
+    "whyChooseTitle": "Ekspertu CAP izstrāde, kas nodrošina rezultātus",
+    "whyChooseDescription": "Mūsu sertificēti SAP CAP izstrādātāji nes gadus pieredzes uzņēmuma lietotņu veidošanā. Mēs apvienojam tehnisko ekspertīzi ar biznesa kompetenci risinājumu sniegšanai, kas nodrošina rezultātus.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Pilnsteka CAP izstrāde",
+        "description": "Lietotnes izstrāde no sākuma līdz beigām, izmantojot CAP struktūru.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS datu modelēšana un entītiju definīcijas",
+          "Pakalpojuma definīcija un ieviešana",
+          "Pielāgota biznesa loģika",
+          "Fiori Elements UI ģenerēšana",
+          "CAP Node.js un Java izpildlaika atbalsts"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Datu bāzes integrācija",
+        "description": "Nevainojama integrācija ar SAP HANA Cloud un citām datu bāzēm.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud vietējā izstrāde",
+          "PostgreSQL un SAP ASE atbalsts",
+          "Datu bāzes migrācija un shēmas pārvaldība",
+          "Vaicājuma optimizācija un veiktspējas uzlabošana",
+          "Vairāku nomnieku datu bāzes konfigurācija"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Drošība un autorizācija",
+        "description": "Uzņēmuma klases drošības ieviešana CAP lietojumprogrammām.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Lomas balstīta piekļuves kontrole (RBAC)",
+          "Autentifikācijas integrācija (XSUAA, IAS)",
+          "Autorizācijas anotācijas un ierobežojumi",
+          "Datu privātums un lauka līmeņa drošība",
+          "Draudzīga akredītatīvu pārvaldība"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API un pakalpojumu izstrāde",
+        "description": "Uzticamu OData un REST API izveide ar CAP pakalpojumiem.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2 un V4 pakalpojumu izveide",
+          "REST API ieviešana",
+          "Pielāgoti darbības un funkcijas",
+          "Melnraksta iespējošana transakciju lietojumprogrammām",
+          "Ārēja pakalpojuma integrācija un sajaukumi"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements integrācija",
+        "description": "Ātri UI izstrāde ar Fiori Elements un CAP.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Saraksta pārskata un objekta lapas lietojumprogrammas",
+          "Analītiskā saraksta lapas (ALP) izstrāde",
+          "Brīvstila Fiori lietotnes integrācija",
+          "UI anotācijas un pielāgošana",
+          "Reaktīvs un pielāgojams dizains"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD un DevOps",
+        "description": "Automatizēta izvietošana un nepārtrauktas integrācijas konveijeri.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry un Kyma izvietošana",
+          "MTA (Multi-Target Application) veidošana",
+          "Automatizēti testi un kvalitātes vārti",
+          "CI/CD konvejera iestatīšana (Jenkins, GitHub Actions)",
+          "Vairāku vides paaugstināšanas stratēģijas"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Paātrināta izstrāde ar pierādītiem CAP modeļiem",
+      "Iebūvētas labākās prakses un uzņēmuma gatavā arhitektūra",
+      "Skalējamas lietojumprogrammas, kas aug ar jūsu biznesu",
+      "Nevainojama SAP S/4HANA integrācija",
+      "Ekspertu vadlīnijas visu izstrādes dzīvescikla garumā"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "Bez-koda/zema-koda izstrāde",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Izstrādes pakalpojumi",
+    "description": "Profesionālu uzņēmuma lietotņu izveide ar bez-koda/zema-koda rīkiem ātrai digitālai transformācijai un biznesa elastībai.",
+    "cta": "Sākt veidot šodien →",
+    "servicesTitle": "Pilnīgi SAP Build Apps risinājumi",
+    "servicesSubtitle": "No vizuālās izstrādes līdz uzņēmuma izvietošanai - daudzveidīgojiet savus uzņēmuma lietotājus.",
+    "whyChooseTitle": "Ātra lietotņu izstrāde",
+    "whyChooseDescription": "SAP Build Apps ļauj biznesa lietotājiem un izstrādātājiem veidot jaudīgas lietotnes bez plašas kodēšanas. Paātrini savu digitālo transformāciju ar vizuāliem izstrādes rīkiem.",
+    "implementationTitle": "Ieviešanas pieeja",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Vizuālā izstrāde",
+        "description": "Vilciet un nomestā interfeiss ātrai lietotņu veidošanai.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitīvs vizuāls lapas veidotājs",
+          "Iepriekš veidoti UI komponenti bibliotēka",
+          "Reaktīvs dizaina audekls",
+          "Reāllaika priekskats un testēšana",
+          "Tēmas pielāgošana un zīmolēšana"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Multiplatformu lietotnes",
+        "description": "Vienreiz veidojiet, novieto visur - tīmekļa, iOS un Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Progresīvas tīmekļa lietotnes (PWA) atbalsts",
+          "Vietējās mobilās lietotnes ģenerēšana",
+          "Planšetdatora un darbvirsmas optimizācija",
+          "Bezsaistes datu iespējas",
+          "Lietotnes veikala izvietošanas atbalsts"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Mākoņa vietējā integrācija",
+        "description": "Nevainojama savienojumā ar SAP BTP pakalpojumiem un datiem.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA Cloud integrācija",
+          "OData pakalpojuma savienojamība",
+          "BTP pakalpojuma patēriņš",
+          "Autentifikācija un autorizācija",
+          "Reāllaika datu sinhronizācija"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Ātrs prototipēšana",
+        "description": "Ātri pārbaudiet idejas un atkārtojiet pamatojoties uz atsauksmēm.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Ātra MVP izstrāde",
+          "Lietotāja testēšana un atsauksmju apkopošana",
+          "Iteratīvs dizains un uzlabošana",
+          "Versijas kontrole un atgriešanās",
+          "Sadarbības rīki komandām"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Pilsoņu izstrādātāja iespējošana",
+        "description": "Daudzveidīgojiet biznesa lietotājus lietotņu veidošanai.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Zema mācīšanās līkne ne-izstrādātājiem",
+          "Vadīti izstrādes darbplūsmi",
+          "Šablonu un plāna bibliotēka",
+          "Pārvaldība un kvalitātes kontrole",
+          "Apmācības un iespējošanas programmas"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Code paplašināmība",
+        "description": "Paplašiniet ar pielāgotu kodu, ja nepieciešams.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Pielāgota JavaScript loģika",
+          "API integrācijas iespējas",
+          "Pielāgotu komponentu izstrāde",
+          "Progresīvas datu transformācijas",
+          "Trešās puses bibliotēkas integrācija"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10x ātrāka lietotņu izstrāde",
+      "Samazinājiet izstrādes izmaksas par 60%",
+      "Daudzveidīgojiet biznesa lietotājus inovatīviem risinājumiem",
+      "Nevainojama SAP ekosistēmas integrācija",
+      "Uzņēmuma klases drošība un pārvaldība"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Prasības un dizains",
+        "description": "Darbnīca, lai izprastu biznesa vajadzības un veidotu lietotnes struktūru ar ieinteresētajiem pušu locekļiem."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Vizuālā izstrāde",
+        "description": "Lietotnes veidošana, izmantojot vilciet un nomestā interfeisu ar iepriekš veidotiem komponentiem un šabloniem."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Datu integrācija",
+        "description": "Savienojieties ar SAP sistēmām un ārējiem datu avotiem ar nevainojamu autentifikāciju."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Testēšana un uzlabošana",
+        "description": "Lietotāja pieņemšanas testēšana un atkārtoti uzlabojumi, pamatojoties uz atsauksmēm."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Izvietošana",
+        "description": "Novieto tīmeklī, iOS un Android ar automatizētu veidošanu un izplatīšanu."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Apmācības un atbalsts",
+        "description": "Gala lietotāja apmācība un turpināts atbalsts nepārtrauktiem uzlabojumiem."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Procesu automatizācija",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Pakalpojumi",
+    "description": "Biznesa procesu automatizācija ar intelektuāliem darbplūsmas un robotu procesu automatizācijas iespējām, lai palielinātu efektivitāti.",
+    "cta": "Automatizējiet savus procesus →",
+    "servicesTitle": "Pilnīgi procesu automatizācijas risinājumi",
+    "servicesSubtitle": "No vienkāršiem darbplūsmiem līdz sarežģītam RPA - visaptveroša automatizācijas ekspertīze.",
+    "whyChooseTitle": "Intelektuāla procesu automatizācija",
+    "whyChooseDescription": "Pārveidojiet savu biznesa darbību ar SAP Build Process Automation. Apvienojiet darbplūsmas pārvaldību, RPA un AI pilnas procesu izcilībai.",
+    "implementationTitle": "Ieviešanas ceļš",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Darbplūsmas pārvaldība",
+        "description": "Sarežģītu biznesa darbplūsmu dizains un vadīšana.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Vizuāls darbplūsmas veidotājs",
+          "Apstiprinājuma un maršrutēšanas loģika",
+          "Cilvēka uzdevumu pārvaldība",
+          "Paralēla un secīga apstrāde",
+          "Eskalācija un termiņa apstrāde"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Robotu procesu automatizācija",
+        "description": "Atkārtotu uzdevumu automatizācija ar programmatūras robotiem.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Darbvirsmas un tīmekļa automatizācija",
+          "Ekrāna skrāpēšana un datu ieguve",
+          "Lietotnes integrācija bez API",
+          "Apkalpotie un noapkalpotie boti",
+          "Bota plānošana un vadīšana"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Dokumentu apstrāde",
+        "description": "Intelektuāla dokumentu ieguve un klasifikācija.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "AI ieguves datu izguve",
+          "Dokumentu klasifikācija un maršrutēšana",
+          "Uz šabloniem balstīta apstrāde",
+          "Vairāku formātu atbalsts (PDF, attēli, skenējumi)",
+          "Validācijas un verificēšanas noteikumi"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Apstiprinājuma darbplūsmi",
+        "description": "Apstiprinājuma procesu vienkāršošana jūsu organizācijā.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Vairāk līmeņu apstiprinājuma ķēdes",
+          "Nosacīta maršrutēšanas loģika",
+          "Deleģēšanas un aizstāšanas noteikumi",
+          "Mobilā apstiprinājuma iespējas",
+          "Paziņojumu un atgādinājumu sistēma"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Procesu analītika",
+        "description": "Ieskati procesu veiktspējā un šauruma vietas.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Procesu ieguves un atklāšana",
+          "Veiktspējas metrikas un KPI",
+          "Šauruma vietas identifikācija",
+          "Atbilstības uzraudzība",
+          "Nepārtrauktas uzlabošanas ieteikumi"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Pārvaldība un atbilstība",
+        "description": "Nodrošiniet, ka procesi atbilst normatīvajām prasībām.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Audita pēda un reģistrēšana",
+          "Piekļuves kontrole un drošība",
+          "Atbilstības noteikuma piespiedu izpilde",
+          "Versijas kontrole un izmaiņu pārvaldība",
+          "SLA monitorings un piespiedu izpilde"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% samazinājums manuālās apstrādes laikā",
+      "99,9% precizitāte automatizētos uzdevumos",
+      "Ātra ROI 3-6 mēnešu laikā",
+      "Uzlabota atbilstība un auditējamība",
+      "Dedikēts ieviešanas atbalsts un optimizācija"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Procesu atklāšana",
+        "description": "Analizējiet un dokumentējiet pašreizējos procesus, lai identificētu automatizācijas iespējas."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Automatizācijas dizains",
+        "description": "Optimālās automatizācijas risinājuma dizains, apvienojot darbplūsmas, RPA un AI iespējas."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Izstrāde un konfigurācija",
+        "description": "Automatizācijas veidošana un konfigurēšana, izmantojot SAP Build Process Automation rīkus."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Testēšana un validācija",
+        "description": "Visaptveroša testēšana, lai nodrošinātu automatizācijas precizitāti un uzticamību."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Izvietošana un palaišana",
+        "description": "Automatizācijas izvietošana ražošanā ar uzraudzītu izvietošanu un lietotāja apmācību."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Monitorings un optimizācija",
+        "description": "Nepārtraukts monitorings un uzlabošana, pamatojoties uz veiktspējas analītiku."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Arhitektūra un dizains",
+    "title": "SAP BTP arhitektūra",
+    "subtitle": "un dizaina pakalpojumi",
+    "description": "Stratēģiska arhitektūras plānošana un dizains skalējamiem, drošiem un augstas veiktspējas SAP BTP risinājumiem. Mēs veidojam uzņēmuma klases mākoņa vides, kas pielāgotas jūsu biznesa vajadzībām.",
+    "cta": "Diskutējiet par savu arhitektūras vajadzībām →",
+    "servicesTitle": "Visaptveroši arhitektūras pakalpojumi",
+    "servicesSubtitle": "No sākotnējā ainezīmējuma līdz drošības ieviešanai, mēs pārkrājam katru jūsu SAP BTP arhitektūras aspektu.",
+    "whyChooseTitle": "Ekspertu arhitektūra, kas nodrošina rezultātus",
+    "whyChooseDescription": "Mūsu sertificēti SAP BTP arhitekti nes gadus pieredzes, veidojot uzņēmuma risinājumus globālajām organizācijām. Mēs apvienojam labākās prakses ar inovāciju, lai izveidotu arhitektūras, kas iztur laiku.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Ainezīmējuma dizains",
+        "description": "Visaptveroša BTP ainezīmējuma arhitektūra, pielāgota jūsu biznesa prasībām.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Vairāk līmeņu vides iestatīšana (Dev, Test, Production)",
+          "Apakškonta struktūra un organizācija",
+          "Resursu sadalījums un jaudas plānošana",
+          "Cloud Foundry un Kyma izpildlaika konfigurācija",
+          "Tīkla topoloģija un savienojamības plānošana"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Drošības arhitektūra",
+        "description": "Uzņēmuma klases drošības dizains jūsu BTP vides un datu aizsardzībai.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Identitātes un piekļuves pārvaldības (IAM) stratēģija",
+          "Lomas balstīta piekļuves kontrole (RBAC) ieviešana",
+          "Datu šifrēšana un atbilstības standardi",
+          "Drošības monitorings un draudu detektēšana",
+          "Audita reģistrēšana un atbilstības pārskati"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Augsta pieejamība",
+        "description": "Izturīgu sistēmu dizains ar minimālu dīkstāvi un maksimālu uzticamību.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Vairāk reģionu izvietošanas stratēģijas",
+          "Katastrofas atguvuma un dublēšanas risinājumi",
+          "Slodzes līdzsvarošana un failover mehānismi",
+          "Biznesa nepārtrauktības plānošana",
+          "Veiktspējas monitorings un optimizācija"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Integrācijas paketes iestatīšana",
+        "description": "Pilnīga integrācijas paketes konfigurācija nevainojamam sistēmu savienojumam.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Mākoņa integrācijas (CPI) iestatīšana un konfigurācija",
+          "API pārvaldības ieviešana",
+          "Open Connectors konfigurācija",
+          "Integrācijas konsultanta izmantošana",
+          "Iepriekš iepakotā integrācijas satura izvietošana"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP Cloud Connector iestatīšana",
+        "description": "Draudzīga uz vietas savienojumā ar mākoņa savienojamību hibrīda ainezīmējuma integrācijai.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Cloud Connector instalācija un konfigurācija",
+          "Draudzīgu tuneļa izveide starp uz vietas un BTP",
+          "Piekļuves kontrole un drošības grupas pārvaldība",
+          "Sistēmas kartējums un virtuālā saimnieka konfigurācija",
+          "Augstas pieejamības un failover iestatīšana",
+          "Savienojamības problēmu monitorings un novēršana"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Event Mesh iestatīšana",
+        "description": "Notikumu vadītas arhitektūras ieviešana reāllaika biznesa procesu izpildei.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Event Mesh instances nodrošināšana",
+          "Rindas un tēmas konfigurācija",
+          "Notikuma brokera iestatīšana un pārvaldība",
+          "Ziņojumu maršrutēšanas un filtrēšanas noteikumi",
+          "Notikuma monitorings un analītika"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS iestatīšana",
+        "description": "Identitātes autentifikācijas pakalpojuma konfigurācija draudzīgai lietotāju pārvaldībai.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS nomnieka nodrošināšana un konfigurācija",
+          "Vienotā pierakstīšanās (SSO) ieviešana",
+          "Daudzfaktoru autentifikācijas (MFA) iestatīšana",
+          "Korporatīvā identitātes nodrošinātāja integrācija",
+          "Lietotāja nodrošināšana un dzīvescikla pārvaldība"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Lietotāja autentifikācija un lomas",
+        "description": "Visaptveroša lietotāju pārvaldības un autorizācijas struktūra.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Pielāgota lomas definīcija un pārvaldība",
+          "Autorizācijas modeļa dizains",
+          "Lietotāju grupu organizācija",
+          "Lietojumprogrammas līmeņa drošības ieviešana",
+          "Lomu piešķiršana un deleģēšanas darbplūsmi"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Samazināts ieviešanas laiks par 40% ar pierādītiem arhitektūras modeļiem",
+      "Uzņēmuma klases drošība, kas atbilst nozares standartiem",
+      "Skalējama infrastruktūra, kas aug ar jūsu biznesu",
+      "Proaktīvas uzraudzības iespējas kritiskajām sistēmām",
+      "Ekspertu vadlīnijas no sertificētiem SAP BTP arhitektiem"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP fokusēts"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Gadiem kopēja pieredze"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Valstis, kurās mēs strādājam"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globāls",
+        "label": "Ekspertu komanda"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Kāpēc izvēlēties TerraBT",
+    "ctaSectionBadge": "⚡ Sākt savu projektu šodien",
+    "ctaSectionTitle1": "Vai esat gatavs veidot",
+    "ctaSectionTitle2": "Savu SAP BTP arhitektūru?",
+    "ctaSectionDescription": "Ieplānojiet bezmaksas konsultāciju ar mūsu SAP BTP arhitektiem, lai diskutētu par jūsu prasībām un izprastu, kā mēs varat jums palīdzēt sekmēt.",
+    "ctaSectionButton1": "Ieplānot bezmaksas konsultāciju →",
+    "ctaSectionButton2": "Skatīt visus pakalpojumus"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Lietotņu izstrāde",
+    "title": "SAP Fiori lietotne",
+    "subtitle": "Izstrādes pakalpojumi",
+    "description": "Mūsdienīgu, reaktīvu Fiori lietotņu izstrāde, kas nodrošina izņēmumu lietotāja pieredzi visās ierīcēs. No koncepcijas līdz izvietošanai, mēs veidojam skaistas, augstas veiktspējas lietotnes, izmantojot SAP jaunākās tehnoloģijas.",
+    "cta": "Sākt savu Fiori projektu →",
+    "servicesTitle": "Pilnīgi Fiori izstrādes risinājumi",
+    "servicesSubtitle": "Pilnīga Fiori izstrādes pakalpojumi no dizaina līdz izvietošanai un tālāk.",
+    "whyChooseTitle": "Fiori eksperti, kas nodrošina izcilību",
+    "whyChooseDescription": "Mūsu SAP sertificēti izstrādātāji specializējušies uzņēmuma klases Fiori lietotņu veidošanā. Mēs apvienojam tehnisko ekspertīzi ar dizaina domāšanu, lai izveidotu lietotnes, kas bija iemīļotas lietotāji.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Pielāgota Fiori lietotņu izstrāde",
+        "description": "Ideāli pielāgotu Fiori lietotņu veidošana, kas perfekti atbilst jūsu biznesa prasībām.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5 struktūras ekspertīze",
+          "Fiori Elements un Freestyle lietojumprogrammas",
+          "OData pakalpojuma integrācija",
+          "Reaktīvs dizains visām ierīcēm",
+          "Pielāgoti vadīklas un komponenti"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "UI/UX dizains",
+        "description": "Intuitīvu, skaista interfeisu izveide, ievērojot SAP Fiori dizaina vadlīnijas.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "SAP Fiori dizaina principu ievērošana",
+          "Lietotāju pētniecība un personas izstrāde",
+          "Skices un prototipēšana",
+          "Pieejamības atbilstība (WCAG)",
+          "Tēmas pielāgošana un zīmolēšana"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Veiktspējas optimizācija",
+        "description": "Nodrošiniet, ka jūsu Fiori lietotnes ielādējas ātri un darbojas vienmērīgi jebkurā ierīcē.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Koda optimizācija un minifikācija",
+          "Lenajai ielādes ieviešana",
+          "Iepakošanas izmēra samazināšana",
+          "Tīkla pieprasījuma optimizācija",
+          "Veiktspējas monitorings un analītika"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Mobilā prioritāte izstrāde",
+        "description": "Fiori lietotņu veidošana, optimizēta mobilajiem lietotājiem un bezsaistes scenārijiem.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Reaktīvs un pielāgojams dizains",
+          "Pieskarei optimizētas mijiedarbības",
+          "Mobilajām specifiskas funkcijas (kamera, GPS)",
+          "Bezsaistes datu sinhronizācija",
+          "Progresīvās tīmekļa lietotnes (PWA) iespējas"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integrācija un testēšana",
+        "description": "Nevainojama aizmugures integrācija ar visaptverošu testēšanas pārklājumu.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway un OData pakalpojuma izveide",
+          "Aizmugures sistēmas integrācija",
+          "Vienības un integrācijas testēšana",
+          "Gala gala testa automatizācija",
+          "Nepārtraukta integrācija/izvietošana (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Apmācības un atbalsts",
+        "description": "Daudzveidīgojiet savu komandu ar zināšanām un turpinātu apkopes atbalstu.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Izstrādātāja apmācības darbnīcas",
+          "Labākās prakses dokumentācija",
+          "Koda pārskatīšana un kvalitātes nodrošinājums",
+          "Turpināta apkope un atjauninājumi",
+          "Visaptveroša ražošanas nodošana"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Mūsdienīgi, intuitīvi interfeisi, kas palielina lietotāju pieņemšanu",
+      "Ātrāka izstrāde ar atkārtojamiem komponentiem un šabloniem",
+      "Savstarpējā ierīču saderība, nodrošinot vienmērīgu pieredzi",
+      "SAP sertificēti izstrādātāji ar dziļu Fiori ekspertīzi",
+      "Samazinātas apmācības izmaksas ar pazīstamu, konsekventi UX"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Fiori lietotnes piegādātas"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Lietotāja apmierinātības rādītājs"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Ātrāks laiks tirgū"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobilā reaktīvs"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Kāpēc izvēlēties TerraBT",
+    "ctaSectionBadge": "⚡ Ierobežots izstrādes spēles sloti",
+    "ctaSectionTitle1": "Vai esat gatavs veidot",
+    "ctaSectionTitle2": "Savu nākamo Fiori lietotni?",
+    "ctaSectionDescription": "Diskutējiet par savām prasībām un izveidojiet skaisti, augstas veiktspējas Fiori lietotni, kuru jūsu lietotāji mīl.",
+    "ctaSectionButton1": "Saņemiet bezmaksas piedāvājumu →",
+    "ctaSectionButton2": "Izpētiet citus pakalpojumus"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progresīvas tīmekļa lietotnes",
+    "title": "Bezsaistes PWA lietotnes",
+    "subtitle": "SAP BTP",
+    "description": "Progresīvas tīmekļa lietotnes ar bezsaistes funkcijām, nodrošinot nevainojamu lietotāja pieredzi jebkur. Veidojiet lietotnes, kas darbojas ideāli tiešsaistē vai bezsaistē, nodrošinot vietējās lietotnes pieredzi caur tīmekli.",
+    "cta": "Veidojiet savu PWA →",
+    "servicesTitle": "Pilnīgi PWA izstrādes pakalpojumi",
+    "servicesSubtitle": "No bezsaistes prioritātes arhitektūras līdz push paziņojumiem, mēs veidojam PWA, kas konkurē ar vietējām lietojumprogrammām.",
+    "whyChooseTitle": "Vietējā pieredze, tīmekļa vienkāršība",
+    "whyChooseDescription": "Progresīvas tīmekļa lietotnes apvieno tīmekļa un vietējās lietotnes labāko. Nav lietotņu veikala apstiprināšanas, tūlītēji atjauninājumi un darbojas visos ierīcēs - vienlaikus nodrošinot lietotnes mājā pieredzi.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Bezsaistes prioritāte arhitektūra",
+        "description": "Lietotņu dizains, kas darbojas nevainojami pat bez interneta savienojuma.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Pakalpojuma darbinieka ieviešana",
+          "Bezsaistes datu kešāšanas stratēģijas",
+          "IndexedDB un lokālā uzglabāšana pārvaldība",
+          "Fona sinhronizācijas iespējas",
+          "Konflikta risinājuma stratēģijas"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Datu sinhronizācija",
+        "description": "Intelektuālie sinhronizācijas mehānismi datu konsekvences uzturēšanai visās ierīcēs.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automātiska fona sinhronizācija",
+          "Delta sinhronizācija efektīvam datu pārsūtījumam",
+          "Konflikta detektēšana un risinājums",
+          "Optimālkā UI atjauninājumi",
+          "Mēģinājuma mehānismi un kļūdu apstrāde"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Progresīvās tīmekļa lietotnes funkcijas",
+        "description": "Vietējā lietotne mājā pieredze ar mūsdienu tīmekļa iespējām.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Lietotnes manifesta konfigurācija",
+          "Pievienot mājaslapas sākumu funkcionalitāti",
+          "Push paziņojumu atbalsts",
+          "Kameras un GPS integrācija",
+          "Lietotnes čaukstētā arhitektūra"
         ]
       },
-      "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+      "performanceOpt": {
+        "title": "Veiktspējas optimizācija",
+        "description": "Žaigstošas ielādes laiki un vienmērīgas bezsaistes pārejas.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Kritisko resursu priekš kešāšana",
+          "Lenajai attēlu un satura ielāde",
+          "Koda sadalīšana un iepakošana",
+          "Saspiešana un minifikācija",
+          "Veiktspējas monitorings un analītika"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Drošība un atbilstība",
+        "description": "Draudzīgi bezsaistes datu uzglabāšana un pārraide.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Datu šifrēšana mierā",
+          "Draudzīgi autentifikācijas žetoni",
+          "HTTPS piespiedu izpilde",
+          "Satura drošības politika (CSP)",
+          "Regulāras drošības audits"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Tiešsaistes uzlabojums",
+        "description": "Paaugstinātas funkcionalitātes, kad savienojamība ir pieejama.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Reāllaika atjauninājumi un paziņojumi",
+          "Mākoņa dublēšana un atjaunošana",
+          "Vairāku ierīču sinhronizācija",
+          "Analītika un telemetrija",
+          "Funkciju detektēšana un progresīvs uzlabojums"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Strādājiet jebkur, jebkurā laikā - pat bez interneta",
+      "Uzlabota lietotāja pieredze ar tūlītējām ielādi",
+      "Samazinātas servera izmaksas ar efektīvu kešāšanu",
+      "Augstāki konversijas rādītāji no lietotnes mājā pieredzes",
+      "Labāka iesaiste ar push paziņojumiem"
     ],
     "statistics": {
-      "offlineCapability": {
+      "offline": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Bezsaistes iespēja"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Ātrāki ielādes laiki"
       },
-      "dataReduction": {
+      "dataUsage": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Samazināts datu izmantošana"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Augstāka iesaiste"
       }
-    },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    }
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Datu pārvaldība",
+    "title": "SAP BTP datu bāze",
+    "subtitle": "Pārvaldības pakalpojumi",
+    "description": "Efektīva datu bāzes dizaina izveide, optimizācija un pārvaldība augstas veiktspējas SAP BTP lietojumprogrammām. Ekspertu pakalpojumi SAP HANA Cloud, PostgreSQL un SAP ASE datu bāzēm.",
+    "cta": "Optimizējiet savu datu bāzi →",
+    "servicesTitle": "Pilnīgi datu bāzes pārvaldības risinājumi",
+    "servicesSubtitle": "No dizaina līdz optimizācijai, drošībai līdz atguvumam - visaptveroša datu bāzes ekspertīze.",
+    "whyChooseTitle": "Veiktspēja, drošība, uzticamība",
+    "whyChooseDescription": "Mūsu datu bāzes speciālisti nes dziļu ekspertīzi SAP BTP datu bāzes tehnoloģijās. Mēs nodrošinājam, ka jūsu dati ir ātri, draudzīgi un vienmēr pieejami, kad jums tie nepieciešami.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Datu bāzes dizains un modelēšana",
+        "description": "Efektīva datu bāzes shēmas dizains, optimizēts SAP BTP lietojumprogrammām.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud datu bāzes dizains",
+          "PostgreSQL un SAP ASE konfigurācija",
+          "Entītiju sakarības modelēšana",
+          "Normalizācijas un denormalizācijas stratēģijas",
+          "Indeksēšanas un sadalīšanas stratēģijas"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Veiktspējas optimizācija",
+        "description": "Maksimizējiet datu bāzes veiktspēju zibens ātrajiem vaicājumu izpildījumiem.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Vaicājuma optimizācija un tuning",
+          "Indeksu analīze un ieteikumi",
+          "Izpildlaika plāna optimizācija",
+          "Atmiņas un kešāšanas konfigurācija",
+          "Veiktspējas monitorings un profilēšana"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Drošība un atbilstība",
+        "description": "Aizstāvējiet savus datus ar uzņēmuma klases drošības pasākumiem.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Datu šifrēšana mierā un tranzītā",
+          "Rindas līmeņa un kolonnas līmeņa drošība",
+          "Audita pēdas ieviešana",
+          "GDPR un atbilstības prasības",
+          "Dublēšanas šifrēšana un draudzīga uzglabāšana"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Dublēšana un atguvums",
+        "description": "Visaptveroša katastrofas atguvuma un biznesa nepārtrauktības plānošana.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automātizēta dublēšanas ieplānošana",
+          "Punkta laika atguvuma iespējas",
+          "Katastrofas atguvuma procedūras",
+          "Augstas pieejamības konfigurācija",
+          "Vairāk reģionu replikācija"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Datu migrācija",
+        "description": "Nevainojama datu migrācija no mantotajām sistēmām uz SAP BTP.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Datu ieguve un transformācija",
+          "Migrācijas stratēģija un plānošana",
+          "Nulles dīkstāves migrācijas paņēmieni",
+          "Datu validācija un verifikācija",
+          "Atgriešanās procedūras un testēšana"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Monitorings un apkope",
+        "description": "Proaktīvs monitorings un apkope optimālai datu bāzes veselībai.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Reāllaika veiktspējas monitorings",
+          "Automātizēta brīdinājumi un paziņojumi",
+          "Veselības pārbaude un diagnostika",
+          "Jaudas plānošana un prognozēšana",
+          "Pleistru pārvaldība un atjauninājumi"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Līdz 10x ātrāka vaicājuma veiktspēja ar optimizāciju",
+      "99,99% dīkstāves laiks ar augsts pieejamības konfigurāciju",
+      "Samazinātas uzglabāšanas izmaksas ar efektīvu dizainu",
+      "Atbilstības gatavs ar iebūvētajiem drošības līdzekļiem",
+      "Proaktīvs monitorings un ekspertu vadlīnijas"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Datu bāzes izcilība",
     "statistics": {
       "uptime": {
-        "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "value": "99.99%",
+        "label": "Dīkstāves garantija"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Veiktspējas uzlabojums"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Datu drošība"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Ekspertu vadlīnijas"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Optimizējiet savu datu bāzes veiktspēju",
+    "ctaSectionTitle1": "Vai esat gatavs maksimizēt",
+    "ctaSectionTitle2": "Savu datu bāzes veiktspēju?",
+    "ctaSectionDescription": "Saņemiet bezmaksas datu bāzes veselības pārbaudi un atklājiet optimizācijas iespējas, kas varētu pārveidot jūsu lietojumprogrammas veiktspēju.",
+    "ctaSectionButton1": "Saņemiet bezmaksas datu bāzes novērtējumu →",
+    "ctaSectionButton2": "Izpētiet visus pakalpojumus"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
-    "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "badge": "Inovācija un stratēģija",
+    "title": "Dizaina domāšana",
+    "subtitle": "SAP BTP inovācijai",
+    "description": "Lietotāju-centrēts dizaina pieejas nodrošinājums inovatīvu SAP BTP risinājumu izstrādei, kas risina faktiskus biznesa izaicinājumus. Mēs palīdzam jums atklāt pareizās problēmas, lai atrisinātu un veidotu risinājumus, kurus iemīļojuši lietotāji.",
+    "cta": "Ieplānot dizaina darbnīcu →",
+    "servicesTitle": "Mūsu dizaina domāšanas process",
+    "servicesSubtitle": "Pierādīta metodika inovācijai un problēmu risināšanai SAP BTP projektos.",
+    "whyChooseTitle": "Inovācija, kas rada reālo vērtību",
+    "whyChooseDescription": "Dizaina domāšana pārvērtī jūsu SAP BTP projektu pieeju. Fokusējot uz lietotāju vajadzībām un ātru atkārtošanu, mēs palīdzam jums veidot risinājumus, kas nodrošina izmērāmu biznesa vērtību.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Lietotāju pētniecība un empatija",
+        "description": "Dziļa jūsu lietotāju vajadzību, grūtību un motivācijas izpratne.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Lietotāja intervijas un ieinteresēto pušu iesaiste",
+          "Personas izstrāde un ceļojuma kartēšana",
+          "Kontekstuāla pētniecība un novērojums",
+          "Grūtības punkta un iespējas identifikācija",
+          "Empatijas kartēšanas darbnīcas"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Problēmas definīcija",
+        "description": "Skaidri definējiet pareizās problēmas, lai atrisinātu maksimālai biznesa ieteksmei.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Problēmas paziņojuma formulēšana",
+          "Dizaina izaicinājuma ietvars",
+          "Iespēju apgabala identifikācija",
+          "Sekmīguma kritēriju definīcija",
+          "Ieinteresēto pušu saskaņošanas sesijas"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideju sesijas",
+        "description": "Ģenerējiet inovatīvus risinājumus strukturētu radošu sesiju laikā.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Vienotas brainstorming sesijas",
+          "SCAMPER un sānu domāšanas paņēmieni",
+          "Sadarbības ideju darbnīcas",
+          "Ideju prioritātes un atlase",
+          "Koncepcijas izstrāde un uzlabošana"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototipēšana",
+        "description": "Ātri izveidojiet materiālas ideju pārstāvniecības validācijai.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Zema ticamības skices un skices",
+          "Interaktīvus klikšķojamus prototipi",
+          "Augsta ticamības mockups",
+          "Priekšnoteikuma koncepcijas izstrāde",
+          "MVP (Minimāls dzīvs produkts) dizains"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Testēšana un atkārtošana",
+        "description": "Validējiet risinājumus ar reāliem lietotājiem un nepārtraukti uzlabojiet.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Lietojamības testēšanas sesijas",
+          "A/B testēšana un eksperimentēšana",
+          "Lietotāja atsauksmju apkopošana un analīze",
+          "Iteratīvs dizaina uzlabojums",
+          "Validācija pret sekmīguma kritērijiem"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Ieviešanas atbalsts",
+        "description": "Sava komanda vadīšana no validēta koncepcijas uz sekmīgu palaišanu.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Tehniskās iespējamības novērtējums",
+          "Ieviešanas ceļa izveide",
+          "Agile sprint plānošana",
+          "Izstrādes komandas sadarbība",
+          "Pēc palaišanas monitorings un optimizācija"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Samaziniet risku, validējot idejas pirms lieliem ieguldījumiem",
+      "Ātrāka inovācija ar strukturētu problēmu risināšanas pieeju",
+      "Augstāka lietotāju pieņemšana caur lietotāju centrētas risinājumiem",
+      "Starpfunkcionālo komandu saskaņošana un iesaiste",
+      "Izmērāmi biznesa rezultāti un ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Ātrāka problēmas izšķirtne"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Samazināti izstrādes atkrimi"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Ieinteresēto pušu apmierinātība"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Lietotāju-centrēts pieejas"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
-    "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "badge": "Integrācija un savienojamība",
+    "title": "SAP BTP integrācijas pakete",
+    "subtitle": "Pakalpojumi",
+    "description": "Nevainojami integrācijas risinājumi, kas savieno jūsu SAP sistēmas ar mākoņa un lokālajām lietojumprogrammām. Ekspertu Cloud Integration, API pārvaldības, Open Connectors un integrācijas konsultanta ieviešana.",
+    "cta": "Savienojiet savus sistēmas →",
+    "servicesTitle": "Pilnīga integrācijas paketes ekspertīze",
+    "servicesSubtitle": "No mākoņa integrācijas līdz API pārvaldībai - visaptveroši integrācijas pakalpojumi.",
+    "whyChooseTitle": "Nevainojama sistēmas savienojamība",
+    "whyChooseDescription": "SAP BTP integrācijas pakete nodrošina visu, kas nepieciešams jūsu uzņēmuma savienošanai. Mūsu eksperti nodrošina, ka jūsu integrācijas ir uzticamas, draudzīgas un skalējamas.",
     "features": {
       "cpi": {
-        "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "title": "Mākoņa integrācija (CPI)",
+        "description": "Mākoņa un lokālo sistēmu savienošana ar stabilu integrācijas plūsmām.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Integrācijas plūsmas dizains un izstrāde",
+          "Iepriekš veidota integrācijas satura izmantošana",
+          "Ziņojuma kartēšana un transformācija",
+          "Kļūdu apstrāde un monitorings",
+          "Drošības artefaktu pārvaldība"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API pārvaldība",
+        "description": "API dizains, publicēšana un pārvaldība ar visaptverošu dzīvescikla atbalstu.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API proxy izveide un konfigurācija",
+          "Politikas piespiedu izpilde (drošība, likmes ierobežošana)",
+          "API portāls un izstrādātāju dokumentācija",
+          "Analītika un lietošanas monitorings",
+          "Monetizācija un kvota pārvaldība"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "Atvērtie savienotāji",
+        "description": "Iepriekš veidoti savienotāji ātrākai integrācijai ar trešās puses sistēmām.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ iepriekš veidoti savienotāji",
+          "Pielāgota savienotāja izstrāde",
+          "Autentifikācija un autorizācija",
+          "Datu transformācija un normalizācija",
+          "Notikumu balstīta integrācija"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "Integrācijas konsultants",
+        "description": "Paātrini integrācijas izstrādi ar AI ieteiktiem ieteikumiem.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automātizētas kartēšanas ieteikumi",
+          "Ziņojuma ieviešanas vadlīnijas (MIG)",
+          "B2B integrācijas skata šabloni",
+          "Interfeisa kartēšanas priekšlikumi",
+          "Labākās prakses ieteikumi"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Drošība un pārvaldība",
+        "description": "Uzņēmuma klases drošība un pārvaldība visām integrācijām.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth un SAML autentifikācija",
+          "Sertifikātu un atslēgu pārvaldība",
+          "Transporta līmeņa šifrēšana (TLS/SSL)",
+          "Ziņojuma līmeņa šifrēšana",
+          "Audita reģistrēšana un atbilstība"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Monitorings un darbības",
+        "description": "Visaptveroši monitorings un operacionāla izcilība.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Reāllaika ziņojuma monitorings",
+          "Veiktspējas metrikas un KPI",
+          "Brīdinājumi un paziņojumu iestatīšana",
+          "Žurnāla analīze un problēmu novēršana",
+          "Jaudas plānošana un optimizācija"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Ātrāka integrācija ar iepriekš veidotu satura un akseleratoru",
+      "Samazinātas integrācijas izmaksas ar mākoņa vietu platforma",
+      "Uzņēmuma klases uzticamība un skalējamība",
+      "Viena platforma visām integrācijas prasībām",
+      "Dedikēta ekspertu konsultācija un vadlīnijas"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Iepriekš veidoti savienotāji"
       },
       "uptime": {
-        "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "value": "99.9%",
+        "label": "Integrācijas dīkstāves laiks"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Ātrāka ieviešana"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globāls",
+        "label": "Ekspertu komanda"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Integrācijas izcilība",
+    "ctaSectionBadge": "⚡ Savienojiet savu uzņēmumu šodien",
+    "ctaSectionTitle1": "Vai esat gatavs vienot",
+    "ctaSectionTitle2": "Savus biznesa sistēmas?",
+    "ctaSectionDescription": "Diskutējiet par savām integrācijas prasībām un izveidojiet visaptverošu risinājumu, kas savieno visas jūsu kritiskās biznesa sistēmas.",
+    "ctaSectionButton1": "Saņemiet integrācijas konsultāciju →",
+    "ctaSectionButton2": "Skatīt visus pakalpojumus"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Notikumu vadīta arhitektūra",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Ieviešanas pakalpojumi",
+    "description": "Notikumu vadītas arhitektūras ieviešana reāllaika ātriem, skalējamiem biznesa procesu izpildījumiem. Veidojiet sadalītas sistēmas, kas reaģē uzreiz uz biznesa notikumiem ar SAP Event Mesh.",
+    "cta": "Veidojiet notikumu vadītu arhitektūru →",
+    "servicesTitle": "Pilnīgi Event Mesh risinājumi",
+    "servicesSubtitle": "No arhitektūras dizaina līdz ieviešanai - veidojiet ātrus notikumu vadītus sistēmas.",
+    "whyChooseTitle": "Reāllaika biznesa reaktivitāte",
+    "whyChooseDescription": "Event Mesh ļauj jūsu biznesam reaģēt uzreiz uz notikumiem, kā tie notiek. Veidojiet brīvi savienotas, augstas skalējamības sistēmas, kas pielāgojas mainīgajām biznesa prasībām.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh arhitektūra",
+        "description": "Uzņēmuma mēroga notikumu vadītas arhitektūras dizains un ieviešana.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Notikuma režģa topoloģijas dizains",
+          "Vairāk reģionu notikuma izplatīšana",
+          "Notikuma brokera konfigurācija",
+          "Ziņojuma maršrutēšanas stratēģijas",
+          "Tēmas un rindas dizaina modeļi"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Reāllaika notikuma apstrāde",
+        "description": "Biznesa notikumu apstrāde un reaģēšana reālaikā.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Notikuma straumēšanas ieviešana",
+          "Kompleksa notikuma apstrāde (CEP)",
+          "Notikuma filtrēšana un transformācija",
+          "Notikuma agregācija un korelācija",
+          "Zema latentuma notikuma piegāde"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Notikumu vadītas integrācijas",
+        "description": "Sistēmu savienošana caur asinhronizētu notikumu balstītu komunikāciju.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Izdevēja/abonenta modeļi",
+          "Notikumu vadīti mikroservisi",
+          "Webhook un callback integrācija",
+          "Notikuma atskaņošana un atguvums",
+          "Mirusi burts rindas pārvaldība"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Drošība un pārvaldība",
+        "description": "Draudzīga notikuma pārraide ar visaptverošu pārvaldību.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Notikuma šifrēšana tranzītā",
+          "Piekļuves kontrole un autorizācija",
+          "Notikuma shēmas validācija",
+          "Atbilstības un audita reģistrēšana",
+          "Datu privātuma kontroles"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Vairāk mākoņu un hibrīds",
+        "description": "Notikuma režģis visos mākoņa nodrošinātājos un lokālajās sistēmās.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Starpskara notikuma izplatīšana",
+          "Hibrīdā mākoņa savienojamība",
+          "Vairāk reģionu redundances",
+          "Ģeometriskā notikuma maršrutēšana",
+          "Mākoņa neutrāla arhitektūra"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Monitorings un analītika",
+        "description": "Visaptveroša redzamības nodrošināšana jūsu notikumu vadītajā ekosistēmā.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Reāllaika notikuma monitorings",
+          "Veiktspējas metrikas un SLA",
+          "Notikuma plūsmas vizualizācija",
+          "Šauruma vietas identifikācija",
+          "Paredzamā jaudas plānošana"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Sistēmu atdalīšana lielākai elastībai un skalējamībai",
+      "Reāllaika biznesa ieskati un uzreiz reaģējuma",
+      "Uzlabota sistēmas izturība un kļūdu tolerance",
+      "Samazināta punktu punktu integrācijas sarežģītības",
+      "Atbalsts mūsdienu notikumu vadītajām arhitektūrām"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Notikuma piegādes latentums"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Notikumi sekundē"
       },
       "guarantee": {
-        "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "value": "99.99%",
+        "label": "Notikuma piegādes garantija"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "Globāls",
+        "label": "Vairāk reģionu izplatīšana"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Notikumu vadīta izcilība",
+    "ctaSectionBadge": "⚡ Veidojiet reāllaika sistēmas",
+    "ctaSectionTitle1": "Vai esat gatavs ieviešt",
+    "ctaSectionTitle2": "Notikumu vadītu arhitektūru?",
+    "ctaSectionDescription": "Pārveidojiet savu biznesu ar reāllaika notikuma apstrādi. Diskutējiet, kā Event Mesh var darbināt jūsu nākamās paaudzes lietojumprogrammas.",
+    "ctaSectionButton1": "Ieplānot Event Mesh konsultāciju →",
+    "ctaSectionButton2": "Izpētiet visas tehnoloģijas"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI un automatizācija",
+    "title": "AI-powered",
+    "subtitle": "Rēķinu apstrāde",
+    "description": "Intelektuāla rēķinu apstrādes automatizācija, ko dod progresīvs AI, nodrošinot precīzu un efektīvu darbību. Pārveidojiet savu maksājamo kontu procesu ar jaunāko AI tehnoloģiju, kas integrēta ar SAP BTP.",
+    "cta": "Automatizējiet savus rēķinus →",
+    "servicesTitle": "AI-powered rēķinu automatizācija",
+    "servicesSubtitle": "Izmantojiet progresīvās AI iespējas intelektuālai rēķinu apstrādei un automatizācijai.",
+    "whyChooseTitle": "Pārveidojiet savu rēķinu apstrādi",
+    "whyChooseDescription": "Progresīvs AI nodrošina cilvēkam līdzīgu izpratni rēķinu apstrādē. Apstrādājiet sarežģītus izklādes, vairākās valodas un robežsituācijas, ar kurām tradicionālās OCR sistēmas cīnās.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Intelektuāla datu ieguve",
+        "description": "Progresīvs AI darbināta rēķinu datu ieguve ar bezprecedenta precizitāti.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Vairāk formātu rēķinu apstrāde (PDF, attēli, skenējumi)",
+          "Automātiska lauka detektēšana un ieguve",
+          "Galvenes un rindas vienuma atpazīšana",
+          "Tabulas un sarežģīta izklādes izpratne",
+          "Rokrakstītā teksta atpazīšana"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP integrācija",
+        "description": "Nevainojama integrācija ar SAP BTP pakalpojumiem un aizmugures sistēmām.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Tiešā integrācija ar SAP S/4HANA",
+          "SAP dokumentu pārvaldības pakalpojuma savienojums",
+          "Darbplūsmas automatizācijas sprādziens",
+          "Reāllaika datu validācija",
+          "Pielāgota biznesa noteikuma ieviešana"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatizēta apstrāde",
+        "description": "Gala gala automatizācija, samazinājot manuālo iesaisti gandrīz uz nulli.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Intelektuāla maršrutēšana un klasifikācija",
+          "Automātisks apstiprinājums zema riska rēķiniem",
+          "Izņēmuma apstrādes darbplūsmi",
+          "Dublicējuma detektēšana un novēršana",
+          "Trīs-veidu saskaņošanas automatizācija"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validācija un atbilstība",
+        "description": "Nodrošiniet precizitāti un normatīvo atbilstību katrā transakcijā.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Daudz līmeņu validācijas noteikumi",
+          "Nodokļu aprēķina verifikācija",
+          "Atbilstības pārbaude (VAT, GST)",
+          "Audita pēda un reģistrēšana",
+          "Datu privātums un drošība (GDPR saderīgs)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analītika un ieskati",
+        "description": "Iegūstiet vērtīgus ieskatus no jūsu rēķinu apstrādes datiem.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Apstrādes metrikas un KPI",
+          "Precizitātes un kļūdu likmes izsekošana",
+          "Izmaksu ietaupījuma analīze",
+          "Piegādātāja veiktspējas analītika",
+          "Paredzamā naudas plūsma ieskati"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Apmācības un optimizācija",
+        "description": "Nepārtraukts uzlabojums caur AI mācīšanu un sistēmas optimizāciju.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Pielāgota modeļa apmācības jūsu rēķiniem",
+          "Nepārtraukta mācīšana no korekcijām",
+          "Uz šabloniem balstīta apstrādes optimizācija",
+          "Atsauksmju cilpas ieviešana",
+          "Regulāri precizitātes uzlabojumi"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ precizitātes likme, samazinājot manuālās korekcijas",
+      "80% ātrāka rēķinu apstrādes laiks",
+      "70% samazinājums apstrādes izmaksās",
+      "Gandrīz nulles datu ievades kļūdas",
+      "Reāllaika apstrādes statusa redzamība"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Precizitātes likme"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Laika samazinājums"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Izmaksu ietaupījums"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatizēta apstrāde"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Atpakaļ uz sākumu",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Notikuma Mesh arhitektūra reāllaika biznesam",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Izpētiet, kā AI integrācija ar SAP BTP pārveidē rēķinu apstrādi ar intelektuālu automatizāciju un progresīvu dokumentu izpratni.",
+      "intro": "Rēķinu apstrāde tradicionāli ir bijusi laikietilpīgs, kļūdām pakļauts manuāls uzdevums. Progresīvā AI integrācija ar SAP BTP revolucionizē šo procesu, nodrošinājot bezprecedenta automatizācijas, precizitātes un efektivitātes līmeni norēķinu kontu operācijās.",
+      "section1Title": "Tradicionālās rēķinu apstrādes izaicinājums",
+      "section1Content": "Organizācijas mēnesī apstrādā tūkstošus rēķinu, no kuriem katrs prasa datu ieguve, validāciju un ievadi ERP sistēmās. Manuāla apstrāde ir lēna, dārga un pakļauta kļūdām, kas var novest pie maksājuma aizkavēšanas, dubultiem maksājumiem vai agrīno maksājumu atlaižu nokavēšanas.",
+      "section2Title": "Progresīvs AI dokumentu izpratne",
+      "section2Content": "Mūsdienīgais AI nodrošina mākslas stāvokļa dabisko valodas apstrādi un datora redzes iespējas rēķinu apstrādei. Atšķirībā no tradicionālajām OCR sistēmām, progresīvs AI var izprast kontekstu, apstrādāt dažādos rēķinu formātus un iegūt informāciju ar ievērojamu precizitāti pat no ļoti skenētiem vai sarežģītiem dokumentiem.",
+      "section3Title": "Nevainojama SAP BTP integrācija",
+      "section3Content": "AI integrācija ar SAP BTP izveido jaudīgu automatizācijas konveijeri. Ienākošie rēķini tiek automātiski apstrādāti, dati tiek iegūti un validēti, un informācija tiešā mājā plūst SAP sistēmās bez cilvēka iesaistes. Šī integrācija izmanto SAP BTP stabilo savienojamības un darbplūsmas iespējas.",
+      "section4Title": "Intelektuāla izņēmuma apstrāde",
+      "section4Content": "Viena no AI spēka galvenajām vietām ir tās spēja intelektuāli apstrādāt izņēmumus. Saskaroties ar neparastiem rēķinu formātiem vai dīvainiem informācijām, sistēma var atzīmēt vienumus cilvēka pārskatam ar detalizētiem skaidrojumiem, padara izņēmuma apstrādi daudz efektīvāku nekā tradicionālie uz noteikumiem balstīti sistēmas.",
+      "section5Title": "Izmērāma biznesa ietekme",
+      "section5Content": "Organizācijas, kas ieviešas AI rēķinu apstrādei, parasti redz dramatiskus uzlabojumus: 90% samazinājums apstrādes laikā, 95% samazinājums datu ievades kļūdās un ievērojams izmaksu ietaupījums kontu operācijās. Varbūt svarīgāk, darbinieki var fokusēties uz stratēģiskiem uzdevumiem, nevis uz atkārtotiem datu ievadiem.",
+      "conclusionTitle": "Secinājums",
+      "conclusionContent": "Progresīvo AI iespēju un SAP BTP uzņēmuma klases infrastruktūras kombinācija pārstāv pārveidojošu pieeju rēķinu apstrādei. Organizācijas, kas pieņem šo tehnoloģiju, gūst ievērojamu konkurences priekšrocību caur uzlabotu efektivitāti, precizitāti un izmaksu samazinājumu."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Mūsdienīgu Fiori lietotņu veidošana uz SAP BTP",
+      "category": "Izstrāde",
+      "readTime": "8 min",
+      "seoDescription": "Uzziniet, kā veidot mūsdienīgas, reaktīvas Fiori lietotnes, izmantojot SAP BTP jaudīgus izstrādes rīkus un struktūras.",
+      "intro": "SAP Fiori pārstāv uzņēmuma lietotņu nākotni, nodrošinot vienotu lietotāja pieredzi visos ierīcēs un izvietošanas opcijās. Ar SAP Business Technology Platform (BTP) mūsdienīgu Fiori lietotņu veidošana ir kļuvusi vienkāršāka un spēcīgāka nekā jebkad.",
+      "section1Title": "SAP BTP spēks Fiori izstrādei",
+      "section1Content": "SAP BTP nodrošina visaptveroša rīku un pakalpojumu komplektu, kas īpaši paredzēts Fiori lietotņu izstrādei. Platforma nodrošina visu no izstrādes vidēm līdz izvietošanas infrastruktūrai, ļaujot komandām fokusēties uz izņēmumu lietotāja pieredzes izveidi, nevis infrastruktūras pārvaldību.",
+      "section2Title": "Galvenās iespējas un labākās prakses",
+      "section2Content": "Mūsdienīgas Fiori lietotnes izmanto SAP Fiori elementi struktūru, kas nodrošina iepriekš veidotus UI komponentus un modeļus, kas nodrošina konsekvenci un samazina izstrādes laiku. Apvienojot šos elementus ar pielāgotiem SAPUI5 vadīklas, izstrādātāji var izveidot lietotnes, kas ir gan standartizētas, gan pielāgotas konkrētajām biznesa vajadzībām.",
+      "section3Title": "Integrācija ar SAP BTP pakalpojumiem",
+      "section3Content": "Viens no lielākajiem Fiori lietotņu izstrādes uz SAP BTP priekšrocībām ir nevainojama integrācija ar citiem platformas pakalpojumiem. No autentifikācijas un autorizācijas ar SAP Cloud Identity Services līdz datu uzglabāšanai ar SAP HANA Cloud, izstrādātāji var piekļūt uzņēmuma klases pakalpojumiem, kurus var viegli integrēt savās lietojumprogrammās.",
+      "section4Title": "Reaktīvs dizains un vairāk ierīču atbalsts",
+      "section4Content": "Fiori lietotnes, kas veidotas uz SAP BTP, automātiski pielāgojas dažādiem ekrāna izmēriem un ierīcēm, nodrošinot konsekventi lietotāja pieredzi neatkarīgi no tā, vai tā tiek piekļūta no darbvirsmas, planšetdatora vai mobilā tālruņa. Šī reaktīvā dizaina iespēja ir iebūvēta struktūrā, samazinājot vairāku ierīču atbalstam nepieciešamo pūles.",
+      "section5Title": "Veiktspējas optimizācija",
+      "section5Content": "SAP BTP nodrošina dažādus rīkus un paņēmienus Fiori lietotņu veiktspējas optimizācijai, tostarp lenajai ielādi, iepakošanu un kešāšanas stratēģijas. Šie optimizācijas paņēmieni nodrošina, ka lietotnes ielādējas ātri un reaģē vienmērīgi, pat apstrādājot lielus datu kopumus vai sarežģītu biznesa loģiku.",
+      "conclusionTitle": "Secinājums",
+      "conclusionContent": "Mūsdienīgu Fiori lietotņu veidošana uz SAP BTP apvieno uzņēmuma klases infrastruktūras spēku ar jaunākajiem izstrādes struktūrām. Izmantojot platformas iespējas, izstrādes komandas var izveidot paklausīgas, lietotāju draudzīgas lietotnes, kas virzās biznesa vērtības un produktivitātes palielināšanai visā organizācijā."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Bezsaistes PWA risinājumi biznesa nepārtrauktībai",
+      "category": "Arhitektūra",
+      "readTime": "7 min",
+      "seoDescription": "Atklājiet, kā progresīvas tīmekļa lietotnes (PWA) ar bezsaistes iespējām nodrošina biznesa nepārtrauktību un produktivitāti jebkādos tīkla apstākļos.",
+      "intro": "Mūsdienu savienotajā pasaulē tīkla pārrāvumi var pārstāvēt biznesa darbību piemēram. Progresīvas tīmekļa lietotnes (PWA) ar bezsaistes iespējām nodrošina stabilu risinājumu biznesa nepārtrauktības nodrošināšanai, ļaujot lietotājiem strādāt nevainojami neatkarīgi no tīkla pieejamības.",
+      "section1Title": "Bezsaistes prioritāte arhitektūras izpratne",
+      "section1Content": "Bezsaistes prioritāte arhitektūra pārstāv paradigmas maiņu, kā mēs veidojam tīmekļa lietotnes. Nevis bezsaistes režīmu kā robežlīmeņa gadījumu, bezsaistes prioritāte dizains padarīs to par pamatfunkciju. Šī pieeja nodrošina, ka lietotnes paliek funkcionālas pat tad, kad tīkla savienojamība ir neuzticama vai pilnīgi nepieejama.",
+      "section2Title": "Pakalpojuma darbinieki: bezsaistes PWA mugurkauls",
+      "section2Content": "Pakalpojuma darbinieki ir tehnoloģija, kas padara bezsaistes PWA iespējamas. Šie programmējami tīkla starpniecības sēdējas starp jūsu lietotni un tīklu, pārtverot pieprasījumus un iespējojot sofistikētās kešāšanas stratēģijas. Izmantojot pakalpojuma darbiniekus, lietotnes var kešēt kritiskos resursus un datus, nodrošinot pieejamību pat bezsaistē.",
+      "section3Title": "Datu sinhronizācijas stratēģijas",
+      "section3Content": "Galvenais izaicinājums bezsaistes PWA ir datu sinhronizācijas pārvaldība, kad tīkls tiek atjaunots. Stabila konflikta risinājuma stratēģiju un optimālkā atjauninājumu ieviešana nodrošina, ka dati paliek konsekventi visos ierīcēs un aizmugures sistēmās. Fona sinhronizācijas API ļauj automātiskā sinhronizāciju, kad tīkls kļūst pieejams.",
+      "section4Title": "Biznesa priekšrocības",
+      "section4Content": "Bezsaistes PWA nodrošina ievērojamu biznesa vērtību, nodrošinājot produktivitāti jebkādos tīkla apstākļos. Lauka darbinieki var turpināt savus uzdevumus attālos atrašanās vietās, pārdošanas komandas var piekļūt kritiskai informācijai prezentāciju laikā, un darbības turpinās vienmērīgi tīkla pārrāvumu laikā. Šī uzticamība tiešā mājā pārtulko uzlabotā klientu apmierinājumā un operacionālajā efektivitātē.",
+      "section5Title": "Ieviešana ar SAP BTP",
+      "section5Content": "SAP BTP nodrošina izcilu atbalstu bezsaistes PWA veidošanai caur tā mobilajiem pakalpojumiem. Šie pakalpojumi ietver bezsaistes datu sinhronizāciju, draudzīgus uzglabāšanu un visaptveroša API, kas vienkāršo stabilu bezsaistes spējīgu lietotņu izstrādi.",
+      "conclusionTitle": "Secinājums",
+      "conclusionContent": "Bezsaistes PWA pārstāv biznesa lietotņu nākotni, nodrošinājot izturību un uzticamību, ko tradicionālās tīmekļa lietotnes nespēj pēc. Ņemot savā skaitā bezsaistes prioritāte arhitektūru un modernos tīmekļa tehnoloģijas, organizācijas var nodrošināt biznesa nepārtrauktību un produktivitāti neatkarīgi no tīkla apstākļiem."
     }
   }
 }

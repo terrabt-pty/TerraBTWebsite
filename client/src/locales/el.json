@@ -13,121 +13,121 @@
     "learn": "Εξερευνήστε υπηρεσίες"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Η Δική Μας Εξειδίκευση",
+    "subtitle": "Ολοκληρωμένες λύσεις SAP BTP για τον μετασχηματισμό της επιχείρησής σας",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Ανάπτυξη Εφαρμογών Fiori",
+      "description": "Δημιουργήστε σύγχρονες, responsive εφαρμογές Fiori που παρέχουν εξαιρετικές εμπειρίες χρήστη σε όλες τις συσκευές."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "Αρχιτεκτονική BTP & Σχεδιασμός",
+      "description": "Στρατηγικός σχεδιασμός αρχιτεκτονικής και σχεδιασμός για κλιμακώσιμες λύσεις SAP BTP προσαρμοσμένες στις ανάγκες της επιχείρησής σας."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Προσέγγιση σχεδιασμού με επίκεντρο το χρήστη για την ανάπτυξη καινοτόμων λύσεων που αντιμετωπίζουν πραγματικές προκλήσεις επιχειρήσεων."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Εφαρμογές Offline PWA",
+      "description": "Εφαρμογές Ιστού προχωρημένης τεχνολογίας με δυνατότητες χωρίς σύνδεση για απρόσκοπτη εμπειρία χρήστη παντού."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "Διαχείριση Βάσης Δεδομένων SAP BTP",
+      "description": "Αποδοτικός σχεδιασμός βάσης δεδομένων, βελτιστοποίηση και διαχείριση για εφαρμογές BTP υψηλής απόδοσης."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Επεξεργασία Τιμολογίων με ΤΝ",
+      "description": "Ευφυής αυτοματοποίηση επεξεργασίας τιμολογίων με προηγμένη ΤΝ για ακριβή και αποδοτική λειτουργία."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Απρόσκοπτες λύσεις ολοκλήρωσης για σύνδεση των συστημάτων SAP σας με εφαρμογές cloud και on-premise."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Υλοποίηση αρχιτεκτονικής χρονικής λειτουργίας αρχιτεκτονικής για ανταποκριτικές, κλιμακώσιμες επιχειρηματικές διαδικασίες."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "Ανάπτυξη SAP CAP",
+      "description": "Δημιουργήστε σύγχρονες εφαρμογές cloud με το SAP Cloud Application Programming Model για γρήγορη, κλιμακώσιμη ανάπτυξη."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Δημιουργήστε επαγγελματικές εφαρμογές επιχείρησης με εργαλεία χωρίς κώδικα/χαμηλή κωδικοποίηση για γρήγορο ψηφιακό μετασχηματισμό."
     },
     "buildAutomation": {
-      "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "title": "Αυτοματοποίηση Διαδικασιών SAP Build",
+      "description": "Αυτοματοποιήστε επιχειρηματικές διαδικασίες με ευφυή ροή εργασίας και δυνατότητες αυτοματοποίησης ρομποτικών διαδικασιών."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Η Δική Μας Εστίαση",
+      "title": "100% Εξειδίκευση SAP BTP",
+      "description": "Σε αντίθεση με τις γενικές εταιρείες συμβούλων, εστιάζουμε αποκλειστικά στο SAP Business Technology Platform, διασφαλίζοντας βαθιά τεχνογνωσία και αιχμηρές λύσεις.",
+      "point1": "Ειδικευμένη ομάδα πιστοποιημένων ειδικών SAP BTP",
+      "point2": "Πάντα ενημερωμένοι με τις τελευταίες λειτουργίες και πρακτικές BTP",
+      "point3": "Αποδεδειγμένη επιτυχία σε διάφορες βιομηχανίες"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Παγκόσμια Εμβέλεια",
+      "title": "Εξυπηρέτηση Αγορών Παγκοσμίως",
+      "description": "Φέρνουμε τεχνογνωσία SAP BTP σε αγορές σε όλο τον κόσμο, παρέχοντας λύσεις παγκόσμιας κλάσης ανεξάρτητα από τη θέση σας.",
+      "point1": "Απομακρυσμένη συμβουλευτική σε όλες τις ζώνες ώρας",
+      "point2": "Υποστήριξη πολλών γλωσσών για διεθνή ομάδες",
+      "point3": "Κατανόηση περιφερειακών απαιτήσεων επιχειρήσεων"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Σύγχρονη Τεχνολογία",
+      "title": "Καινοτομία με Τεχνητή Νοημοσύνη",
+      "description": "Χρήση της τελευταίας τεχνολογίας ΤΝ για την ενίσχυση των λύσεων SAP BTP και την εισαγωγή αυτοματοποίησης και νοημοσύνης στις επιχειρηματικές σας διαδικασίες.",
+      "point1": "Ευφυής αυτοματοποίηση για επαναλαμβανόμενες εργασίες",
+      "point2": "Προηγμένη επεξεργασία και ανάλυση δεδομένων",
+      "point3": "Απρόσκοπτη ολοκλήρωση με υπάρχουσες ροές εργασίας"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Κέντρο Γνώσης",
+    "subtitle": "Εξειδικευμένες γνώσεις και βέλτιστες πρακτικές για επιτυχία SAP BTP",
+    "readMore": "Διαβάστε άρθρο",
+    "readTime": "{{time}} λεπ"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Ανάπτυξη",
+      "title": "Δημιουργία Σύγχρονων Εφαρμογών Fiori με SAP BTP",
+      "excerpt": "Μάθετε πώς να δημιουργήσετε ανταποκριτικές, φιλικές προς το χρήστη εφαρμογές Fiori που αξιοποιούν την πλήρη ισχύ της SAP Business Technology Platform.",
+      "readTime": "5 λεπ"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Τεχνολογία",
+      "title": "Offline PWA: Διασφάλιση Συνέχειας Επιχειρήσεων Παντού",
+      "excerpt": "Ανακαλύψτε πώς οι εφαρμογές Progressive Web με δυνατότητες χωρίς σύνδεση διατηρούν τις επιχειρηματικές σας διαδικασίες λειτουργικές χωρίς σύνδεση στο Διαδίκτυο.",
+      "readTime": "7 λεπ"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "ΤΝ & Αυτοματοποίηση",
+      "title": "ΤΝ για Ευφυή Επεξεργασία Τιμολογίων",
+      "excerpt": "Εξερευνήστε πώς η ολοκλήρωση ΤΝ με SAP BTP μετασχηματίζει την επεξεργασία τιμολογίων με άνευ προηγουμένου ακρίβεια και αποδοτικότητα.",
+      "readTime": "6 λεπ"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Ολοκλήρωση",
+      "title": "Κυριάρχηση του SAP BTP Integration Suite",
+      "excerpt": "Ένας ολοκληρωμένος οδηγός σύνδεσης των συστημάτων της επιχείρησης σας με το SAP BTP Integration Suite για απρόσκοπτη ροή δεδομένων.",
+      "readTime": "8 λεπ"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Αρχιτεκτονική",
+      "title": "Αρχιτεκτονική Event Mesh για Επιχείρηση σε Πραγματικό Χρόνο",
+      "excerpt": "Υλοποίηση αρχιτεκτονικής χρονικής λειτουργίας με SAP Event Mesh για ανταποκριτικές, κλιμακώσιμες λύσεις.",
+      "readTime": "6 λεπ"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Βέλτιστες Πρακτικές",
+      "title": "Στρατηγικές Βελτιστοποίησης Βάσης Δεδομένων BTP",
+      "excerpt": "Ουσιαστικές στρατηγικές για βελτιστοποίηση της απόδοσης της βάσης δεδομένων SAP BTP για γρήγορη, αξιόπιστη πρόσβαση σε κρίσιμα δεδομένα επιχειρήσεων.",
+      "readTime": "5 λεπ"
     }
   },
   "contact": {

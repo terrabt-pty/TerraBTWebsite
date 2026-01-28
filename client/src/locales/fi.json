@@ -13,1450 +13,1561 @@
     "learn": "Tutustu palveluihin"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Asiantuntemuksemme",
+    "subtitle": "Kattavat SAP BTP -ratkaisut yrityksesi muuttamiseksi",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori-sovelluskehitys",
+      "description": "Modernien, responsiivisten Fiori-sovellusten kehitys poikkeuksellisille käyttäjäkokemuksille kaikilla laitteilla."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP-arkkitehtuuri ja design",
+      "description": "Strateginen arkkitehtuuri suunnittelu skaalautuville SAP BTP -ratkaisuille, räätälöitynä omille liiketoiminnan tarpeille."
     },
     "designThinking": {
       "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "description": "Käyttäjäkeskeinen suunnittelumetodi innovatiivisten ratkaisujen kehittämiseksi todellisiin liiketoiminnan haasteisiin."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Offline-PWA-sovellukset",
+      "description": "Progressive Web -sovellukset offline-toiminnoilla saumattomille käyttäjäkokemuksille kaikkialla."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP -tietokannan hallinta",
+      "description": "Tehokas tietokantasuunnittelu, optimointi ja hallinta korkeatehoisille BTP-sovelluksille."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "AI-laskunkäsittely",
+      "description": "Älykäs laskunkäsittely kehittyneellä tekoälyllä tarkkuudelle ja tehokkuudelle."
     },
     "integration": {
       "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "description": "Saumattomia integrointiratkaisuja SAP-järjestelmiesi yhdistämiseksi pilvi- ja paikalla oleviin sovelluksiin."
     },
     "eventMesh": {
       "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "description": "Tapahtumapohjaisen reaaliaikaarkkitehtuurin toteuttaminen reaktiivisille, skaalautuville liiketoimintaprosesseille."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP -kehitys",
+      "description": "Modernin cloud-sovelluksien kehitys SAP Cloud Application Programming Model -mallin avulla nopealla, skaalautuvalla kehityksellä."
     },
     "buildApps": {
       "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "description": "Ammattimaisten sovellusten luominen no-code/low-code -työkalujen avulla nopealle digitaaliselle muuttamiselle."
     },
     "buildAutomation": {
       "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "description": "Liiketoimintaprosessien automatisointi älykkäiden workflow- ja robotic-process-automation-toimintojen avulla."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Meidän painopiste",
+      "title": "100% SAP BTP -erikoistuminen",
+      "description": "Toisin kuin yleiset konsultointiyritykset, me keskitymme yksinomaan SAP Business Technology Platform -alustaan ja takaamme syvä asiantuntemus ja modernit ratkaisut.",
+      "point1": "Omistautunut tiimi sertifioituja SAP BTP -asiantuntijoita",
+      "point2": "Aina ajantasalla uusimpien BTP-ominaisuuksien ja parhaiden käytäntöjen kanssa",
+      "point3": "Osoitetut menestykset eri toimialoilla"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Maailmanlaajuinen saavutettavuus",
+      "title": "Markkinoiden palvelu maailmanlaajuisesti",
+      "description": "Tuomme SAP BTP -asiantuntemusta markkinoille maailmanlaajuisesti ja tarjoamme maailmanluokan ratkaisuja sijainnista riippumatta.",
+      "point1": "Etäkonsultointi kaikissa aikavyöhykkeissä",
+      "point2": "Monikielinen tuki kansainvälisille tiimeille",
+      "point3": "Alueiden liiketoiminnan vaatimusten ymmärtäminen"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Moderni teknologia",
+      "title": "AI-pohjainen innovaatio",
+      "description": "Hyödyntää huipputeknista tekoälytekniikkaa SAP BTP -ratkaisujen parantamiseksi ja automatisointi- ja älykkyyttä tuomaan liiketoimintaprosesseihin.",
+      "point1": "Älykäs automatisointi toistuviin tehtäviin",
+      "point2": "Kehittynyt tietojen käsittely ja analyysi",
+      "point3": "Saumaton integrointi olemassa oleviin työnkulkuihin"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Tietokeskus",
+    "subtitle": "Asiantuntijatiedot ja parhaat käytännöt SAP BTP -menestykselle",
+    "readMore": "Lue artikkeli",
+    "readTime": "{{time}} min"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Kehitys",
+      "title": "Modernien Fiori-sovellusten kehittäminen SAP BTP:llä",
+      "excerpt": "Opi kuinka luoda responsiivisia, käyttäjäystävällisiä Fiori-sovelluksia, jotka hyödyntävät SAP Business Technology Platform -alustan täyden voiman.",
+      "readTime": "5 min"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Teknologia",
+      "title": "Offline-PWA: Liiketoiminnan jatkuvuuden varmistaminen kaikkialla",
+      "excerpt": "Tutustu siihen, kuinka Progressive Web Apps offline-toiminnoilla pitävät liiketoimintaprosessit käynnissä sujuvasti jopa ilman internet-yhteyttä.",
+      "readTime": "7 min"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "AI & automatisointi",
+      "title": "AI älykkäälle laskunkäsittelylle",
+      "excerpt": "Tutustu siihen, kuinka AI-integraatio SAP BTP:n kanssa muuttaa laskunkäsittelyä vertaansa vailla olevalla tarkkuudella ja tehokkuudella.",
+      "readTime": "6 min"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Integraatio",
+      "title": "SAP BTP Integration Suite -hallinta",
+      "excerpt": "Kattava opas yrityksen järjestelmien yhdistämisestä SAP BTP Integration Suite -ohjelmiston avulla saumattomalle tiedonvirtaukselle.",
+      "readTime": "8 min"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Arkkitehtuuri",
+      "title": "Event Mesh -arkkitehtuuri reaaliaikaiselle liiketoiminnalle",
+      "excerpt": "Tapahtumapohjaisen arkkitehtuurin toteuttaminen SAP Event Mesh -ohjelmiston avulla reaktiivisille, skaalautuville ratkaisuille.",
+      "readTime": "6 min"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "Parhaat käytännöt",
+      "title": "BTP-tietokannan optimointistrategiat",
+      "excerpt": "Oleelliset strategiat SAP BTP -tietokannan suorituskyvyn optimoimiseksi nopealle, luotettavalle pääsylle liiketoiminnalle kriittisissä tiedoissa.",
+      "readTime": "5 min"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Aloita",
+    "title": "Valmis muuttamaan yrityksesi?",
+    "subtitle": "Varaa ilmainen konsultaatio SAP BTP -asiantuntijoiden kanssa",
+    "availability": "Rajoitettu saatavuus",
+    "contactInfo": "Yhteystiedot",
+    "email": "Sähköposti",
+    "globalPresence": "Maailmanlaajuinen läsnäolo",
+    "servingCountries": "Palvelemme asiakkaita yli 40 maassa maailmanlaajuisesti",
+    "fastResponse": "Nopean vastauksen takuu",
+    "fastResponseDesc": "Saa asiantuntijaneuvo 24 tunnissa. SAP BTP -asiantuntijamme ovat valmiita auttamaan sinua menestyä.",
+    "mentionCountry": "Mainitse maasi kun otat yhteyttä meihin",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Koko nimi",
+      "email": "Liiketoiminnallinen sähköposti",
+      "company": "Yrityksen nimi",
+      "message": "Kerro meille projektistasi",
+      "submit": "Varaa ilmainen konsultaatio",
+      "submitting": "Lähetetään..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Viesti lähetetty!",
+      "description": "Kiitos yhteydenotostasi. Olemme sinuun yhteydessä 24 tunnissa."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Virhe",
+      "description": "Jokin meni pieleen. Yritä uudelleen."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
+    "description": "Erikoistuneet SAP BTP -konsultointi maailmanlaajuisella erinomaisuudella",
+    "services": "Palvelut",
+    "fiori": "Fiori-kehitys",
+    "architecture": "BTP-arkkitehtuuri",
     "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
-    "blog": "Blog",
-    "documentation": "Dokumentation",
+    "ai": "AI-ratkaisut",
+    "knowledge": "Tieto",
+    "blogArticles": "Blogi-artikkelit",
+    "caseStudies": "Tapaustutkimukset",
+    "resources": "Resurssit",
+    "company": "Yritys",
+    "about": "Meistä",
+    "contact": "Yhteystiedot",
+    "careers": "Uratarineet",
+    "blog": "Blogi",
+    "documentation": "Dokumentaatio",
     "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "legal": "Oikeudellinen",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "copyright": "Kaikki oikeudet pidätetään.",
+    "deployedOn": "Otettu käyttöön Cloudflare -palvelussa",
+    "serviceRestriction": "Palvelut eivät ole saatavilla Australiassa ja Uudessa-Seelannissa.",
+    "availableLanguages": "Saatavilla sinun kielellä"
   },
   "common": {
     "learnMore": "Lue lisää",
     "backToHome": "Takaisin etusivulle"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Cloud-sovellusten kehittäminen",
+    "title": "SAP CAP-kehitys",
+    "subtitle": "Palvelut",
+    "description": "Modernien cloud-sovelluksien kehitys SAP Cloud Application Programming Model -mallin avulla nopealle, skaalautuvalle kehitykselle SAP BTP:ssä.",
+    "cta": "Aloita CAP-projektisi →",
+    "servicesTitle": "Kattavat CAP-kehityspalvelut",
+    "servicesSubtitle": "Tietojen mallinnuksesta käyttöönottoon - täydelliset CAP-asiantuntijat liiketoiminnallisille sovelluksillesi.",
+    "whyChoose": "Miksi valita TerraBT",
+    "whyChooseTitle": "Ammattimainen CAP-kehitys, joka tuottaa tuloksia",
+    "whyChooseDescription": "Sertifioidut SAP CAP -kehittäjämme tuovat vuosien kokemusta yrityssovellusten kehittämisestä. Yhdistämme teknisen asiantuntemuksen liiketoiminnan ymmärtämiseen tulosten tuottamiseksi.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Full-Stack CAP-kehitys",
+        "description": "Päästä päähän -sovelluskehitys CAP-kehyksellä.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS-tietojen mallintaminen ja entiteetin määrittelyt",
+          "Palvelun määrittely ja toteutus",
+          "Mukautetun liiketoimintalogiikan kehitys",
+          "Fiori Elements UI -sukupolvi",
+          "CAP Node.js ja Java -runtimen tuki"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Tietokannan integraatio",
+        "description": "Saumaton integraatio SAP HANA Cloud -palveluun ja muihin tietokantapalveluihin.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud -natiivi kehitys",
+          "PostgreSQL ja SAP ASE -tuki",
+          "Tietokannan migraatio ja skeeman hallinta",
+          "Kyselyjen optimointi ja suorituskyvyn säätö",
+          "Multi-tenancy -tietokannan konfiguraatio"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Turvallisuus ja valtuuttaminen",
+        "description": "Enterprise-tason turvallisuuden toteutus CAP-sovelluksille.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Roolipohjainen pääsynvalvonta (RBAC)",
+          "Todennuksen integraatio (XSUAA, IAS)",
+          "Valtuutuksen merkinnät ja rajoitukset",
+          "Tietojen yksityisyys ja kenttätason turvallisuus",
+          "Turvallinen tunnus hallinta"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API- ja palvelun kehitys",
+        "description": "Rakenna robusteja OData- ja REST-sovellusliittymiä CAP-palveluilla.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2 ja V4 -palvelun luominen",
+          "REST API -toteutus",
+          "Mukautetut toiminnot ja funktiot",
+          "Luonnosarvon aktivointi transaktiosovelluksille",
+          "Ulkoisen palvelun integraatio ja mashup-sovellukset"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements -integraatio",
+        "description": "Nopea käyttöliittymän kehitys Fiori Elements -ohjelmiston ja CAP-palvelun kanssa.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Luettelointityökalujen raportin ja kohdesivun sovellukset",
+          "Analytical List Page (ALP) -kehitys",
+          "Freestyle Fiori -sovelluksen integraatio",
+          "Käyttöliittymän merkinnät ja mukauttaminen",
+          "Responsiivinen ja adaptiivinen muotoilu"
         ]
       },
       "cicd": {
-        "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "title": "CI/CD ja DevOps",
+        "description": "Automatisoitu käyttöönotto ja jatkuvan integraation putkilinjat.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry- ja Kyma-käyttöönotto",
+          "MTA (Multi-Target Application) -koonti",
+          "Automatisoitu testaus ja laatuporttit",
+          "CI/CD-putkilinjan asennus (Jenkins, GitHub Actions)",
+          "Multi-ympäristön promoamisen strategiat"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Nopeutettu kehitys todistettujen CAP-mallien avulla",
+      "Sisäänrakennettuja parhaita käytäntöjä ja valmiin yrityksen arkkitehtuuri",
+      "Skaalautuvat sovellukset, jotka kasvavat yrityksesi kanssa",
+      "Saumaton SAP S/4HANA -integraatio",
+      "Asiantuntijan ohjaus koko kehityksen elinkaaren ajan"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
+    "badge": "No-Code/Low-Code -kehitys",
     "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "subtitle": "Kehityspalvelut",
+    "description": "Ammattimaisten sovellusten luominen no-code/low-code -työkalujen avulla nopealle digitaaliselle muuttamiselle ja liiketoiminnan joustavuudelle.",
+    "cta": "Aloita rakentaminen tänään →",
+    "servicesTitle": "Täydelliset SAP Build Apps -ratkaisut",
+    "servicesSubtitle": "Visuaalisesta kehityksestä yrityksen käyttöönottoon - valtuuta liiketoimintasi käyttäjät.",
+    "whyChooseTitle": "Nopea sovelluskehitys",
+    "whyChooseDescription": "SAP Build Apps mahdollistaa liiketoiminnan käyttäjille ja kehittäjille luoda tehokkaita sovelluksia ilman laajaa koodausta. Kiihdytä digitaalista muuttamistasi visuaalisilla kehitystyökaluilla.",
+    "implementationTitle": "Toteutuksen lähestymistapa",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Visuaalinen kehitys",
+        "description": "Vedä ja pudota -käyttöliittymä nopean sovelluksien rakentamisen varten.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Intuitiivinen visuaalinen sivun rakentaja",
+          "Valmiiksi rakennetun käyttöliittymän komponenttikirjasto",
+          "Responsiivinen muotoilupohjio",
+          "Reaaliaikainen esikatselu ja testaus",
+          "Teeman mukauttaminen ja brändäys"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Alustoja ylittävät sovellukset",
+        "description": "Rakenna kerran, ota käyttöön kaikkialla - web, iOS ja Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "Progressive Web App (PWA) -tuki",
+          "Natiivi mobiilisovelluksen sukupolvi",
+          "Tabletin ja työpöydän optimointi",
+          "Offline-tietojen ominaisuudet",
+          "Sovelluskaupaston käyttöönotto tuki"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Cloud-natiivi integraatio",
+        "description": "Saumaton yhteys SAP BTP -palveluihin ja tietoihin.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA Cloud -integraatio",
+          "OData-palvelun yhteys",
+          "BTP-palvelun kulutus",
+          "Todentaminen ja valtuuttaminen",
+          "Reaaliaikainen tietojen synkronointi"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Nopea prototyyppien luominen",
+        "description": "Validoi ideat nopeasti ja toista palautteen perusteella.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Nopea MVP-kehitys",
+          "Käyttäjien testaus ja palautteen kerääminen",
+          "Iteratiivinen muotoilu ja täsmennys",
+          "Versioiden hallinta ja palautus",
+          "Yhteistyötyökalut tiimeille"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Kansalaiskehittäjän valtuuttaminen",
+        "description": "Valtuuta liiketoiminnan käyttäjät sovelluksien luomiseen.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Matala oppimiskäyrä ei-kehittäjille",
+          "Ohjatut kehitystyönkulut",
+          "Mallin ja sinisen kopion kirjasto",
+          "Hallitus ja laatuohjaukset",
+          "Koulutus- ja valtuutusohjelmat"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Code -laajennettavuus",
+        "description": "Laajenna mukautetulla koodilla tarvittaessa.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Mukautettu JavaScript-logiikka",
+          "API-integraation ominaisuudet",
+          "Mukautetun komponentin kehitys",
+          "Kehittyneet tietojen muunnokset",
+          "Kolmannen osapuolen kirjaston integraatio"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10 kertaa nopeampi sovelluskehitys",
+      "Pienennä kehityskuluja 60%",
+      "Valtuuta liiketoiminnan käyttäjät innovoimaan",
+      "Saumaton SAP-ekosysteemi integraatio",
+      "Enterprise-tason turvallisuus ja hallitus"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Vaatimukset ja muotoilu",
+        "description": "Työpaja liiketoiminnan tarpeiden ymmärtämiseen ja sovelluksen rakenteen suunnitteluun sidosryhmien kanssa."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Visuaalinen kehitys",
+        "description": "Rakenna sovellus vedä ja pudota -liittymällä valmiiksi rakennetuilla komponenteilla ja malleilla."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Tietojen integraatio",
+        "description": "Yhdistä SAP-järjestelmiin ja ulkoisiin tietolähteisiin saumattomalla todentamisella."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Testaus ja täsmennys",
+        "description": "Käyttäjän hyväksynnän testaus ja iteratiiviset parannukset palautteen perusteella."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Käyttöönotto",
+        "description": "Ota käyttöön verkkoon, iOS:iin ja Androidiin automatisoitujen rakentamis- ja jakelukanavien avulla."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Koulutus ja tuki",
+        "description": "Loppukäyttäjän koulutus ja jatkuva tuki jatkuvaan parantamiseen."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
+    "badge": "Prosessin automatisointi",
     "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "subtitle": "Palvelut",
+    "description": "Liiketoimintaprosessien automatisointi älykkäiden workflow- ja robotic process automation -toimintojen avulla tehokkuuden lisäämiseksi.",
+    "cta": "Automatisoi prosessisi →",
+    "servicesTitle": "Täydelliset prosessien automatisoinnin ratkaisut",
+    "servicesSubtitle": "Yksinkertaisista työnkuluista monimutkaiseen RPA:han - kattavat automatisoinnin asiantuntijat.",
+    "whyChooseTitle": "Älykäs prosessin automatisointi",
+    "whyChooseDescription": "Muuta liiketoimintasi toimintoja SAP Build Process Automation -ohjelmiston avulla. Yhdistä workflow-hallinta, RPA ja AI päästä päähän -prosessin erinomaisuudelle.",
+    "implementationTitle": "Toteutuksen etenemissuunnitelma",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "Työnkulun hallinta",
+        "description": "Suunnittele ja hallitse monimutkaisia liiketoiminnan työnkulkuja.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Visuaalinen työnkulun suunnittelija",
+          "Hyväksyntä- ja reitityslogiikka",
+          "Ihmisen tehtävien hallinta",
+          "Rinnakkainen ja peräkkäinen käsittely",
+          "Escalation ja aikarajan hallinta"
         ]
       },
       "rpa": {
         "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "description": "Automatisoi toistuvat tehtävät ohjelmistorobottien avulla.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Työpöydän ja verkon automatisointi",
+          "Näytön kaavaaminen ja tietojen poimiminen",
+          "Sovelluksen integraatio ilman sovellusliittymiä",
+          "Osallistuva ja osallistumaton robotit",
+          "Robotin ajoitus ja ohjaus"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Dokumentin käsittely",
+        "description": "Älykäs dokumentin poimiminen ja luokittelu.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "AI-pohjainen tietojen poimiminen",
+          "Dokumentin luokittelu ja reititys",
+          "Mallipohjainen käsittely",
+          "Multi-muoto tuki (PDF, kuvat, skannauksesta)",
+          "Vahvistus- ja vahvistussäännöt"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Hyväksyntä työnkulut",
+        "description": "Virtaviivaista hyväksynnän prosessit koko organisaatiossa.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Monivaiheinen hyväksyntäketjut",
+          "Ehdollinen reitityslogiikka",
+          "Siirtäminen ja korvausten säännöt",
+          "Mobiili hyväksynnän ominaisuudet",
+          "Ilmoitus- ja muistutus järjestelmä"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Prosessin analytiikka",
+        "description": "Saada käsitys prosessin suorituksesta ja pullonkauloista.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Prosessin louhinta ja löytäminen",
+          "Suorituskyvyn mittarit ja KPI:t",
+          "Pullonkaulan tunnistaminen",
+          "Compliance-seuranta",
+          "Jatkuvan parantamisen suositukset"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Hallitus ja compliance",
+        "description": "Varmista, että prosessit täyttävät sääntelyvaatimukset.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Auditin jälki ja lokitys",
+          "Pääsynvalvonta ja turvallisuus",
+          "Compliance-säännön täytäntöönpano",
+          "Versioiden hallinta ja muutoksen hallinta",
+          "SLA-seuranta ja täytäntöönpano"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "70% väheneminen manuaalisen käsittelyn ajassa",
+      "99,9% tarkkuus automatisoituissa tehtävissä",
+      "Nopea sijoitetun pääoman tuotto 3-6 kuukaudessa",
+      "Parantunut compliance ja auditointitoimintoon",
+      "Omistettu toteutuksen tuki ja optimointi"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Prosessin löytäminen",
+        "description": "Analysoi ja dokumentoi nykyiset prosessit automatisointimahdollisuuksien tunnistamiseksi."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Automatisoinnin muotoilu",
+        "description": "Suunnittele optimaalinen automatisoinnin ratkaisu yhdistämällä työnkulkua, RPA:ta ja AI-toimintoja."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Kehitys ja konfiguraatio",
+        "description": "Rakenna ja konfiguroi automatisointi SAP Build Process Automation -työkaluilla."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Testaus ja validointi",
+        "description": "Kattava testaus automatisoinnin tarkkuuden ja luotettavuuden varmistamiseksi."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Käyttöönotto ja käyttöönotto",
+        "description": "Ota automatisointi tuotantoon valvotulla käyttöönotoilla ja käyttäjän koulutuksella."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. Seuranta ja optimointi",
+        "description": "Jatkuva seuranta ja parantaminen suoritusanalytiikan perusteella."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Arkkitehtuuri ja muotoilu",
+    "title": "SAP BTP -arkkitehtuuri",
+    "subtitle": "ja muotoilupalvelut",
+    "description": "Strateginen arkkitehtuuri suunnittelu ja muotoilu skaalautuville, turvallisille ja korkean suorituskyvyn SAP BTP -ratkaisuille. Rakennamme enterprise-tason pilvialustat, jotka on räätälöity liiketoiminnan tarpeisiin.",
+    "cta": "Keskustele arkkitehtuuri vaatimuksistasi →",
+    "servicesTitle": "Kattavat arkkitehtuuri palvelut",
+    "servicesSubtitle": "Alusta maiseman suunnittelusta turvallisuuden toteutukseen - me katamme jokaisen puolen SAP BTP -arkkitehtuurista.",
+    "whyChooseTitle": "Asiantuntijainen arkkitehtuuri, joka tuottaa tuloksia",
+    "whyChooseDescription": "Sertifioidut SAP BTP -arkkitektit tuovat vuosien kokemusta yritysratkaisujen suunnittelusta globaaleille organisaatioille. Yhdistämme parhaat käytännöt innovaatioon luodaksemme arkkitektuureja, jotka kestävät ajan.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Maiseman muotoilu",
+        "description": "Kattava BTP-maiseman arkkitehtuuri, joka on räätälöity omille liiketoiminnan vaatimuksille.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Multi-tier-ympäristön asennus (dev, testi, tuotanto)",
+          "Alitilaustilin rakenne ja organisaatio",
+          "Resurssien kohdistaminen ja kapasiteetin suunnittelu",
+          "Cloud Foundry- ja Kyma-runtime-konfiguraatio",
+          "Verkon topologia ja yhteyden suunnittelu"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Turvallisuus arkkitehtuuri",
+        "description": "Enterprise-tason turvallisuuden muotoilu suojaa BTP-ympäristöä ja tietoja.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Identiteetin ja pääsynhallinnan (IAM) strategia",
+          "Roolipohjainen pääsynvalvonnan (RBAC) toteutus",
+          "Tietojen salaus ja vaatimustenmukaisuusstandardi",
+          "Turvallisuuden seuranta ja uhkien havaitseminen",
+          "Auditin lokitys ja compliance-raportointi"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Korkea saatavuus",
+        "description": "Suunnittele kestäviä järjestelmiä minimaalisella käyttöajalla ja maksimaalisen luotettavuuden kanssa.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Multi-region-käyttöönotto strategiat",
+          "Katastrofin palautus ja varmuuskopiointi ratkaisut",
+          "Kuormitus tasapainottelu ja epäonnistumisen mekanismit",
+          "Liiketoiminnan jatkuvuuden suunnittelu",
+          "Suorituskyvyn seuranta ja optimointi"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Integration Suite -asennus",
+        "description": "Täydellinen Integration Suite -konfiguraatio saumattomalle järjestelmien yhteydetyölle.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Cloud Integration (CPI) -asennus ja -konfiguraatio",
+          "API-hallinnan toteutus",
+          "Avoimien yhdistimien konfiguraatio",
+          "Integration Advisorin hyödyntäminen",
+          "Valmiiksi pakatun integraatiosisällön käyttöönotto"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP Cloud Connector -asennus",
+        "description": "Turvallinen paikalla olevasta pilveen yhteys hybridimaiseman integrointiin.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Cloud Connector -asennus ja -konfiguraatio",
+          "Turvallinen tunneli paikalla olevan ja BTP:n välillä",
+          "Pääsynvalvonta ja suojaryhmän hallinta",
+          "Järjestelmän kartoitus ja virtuaalisen isännän konfiguraatio",
+          "Korkea saatavuus ja epäonnistumisen asennus",
+          "Yhteyden ongelmien seuranta ja vianetsintä"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Event Mesh -asennus",
+        "description": "Tapahtumapohjaisen arkkitehtuurin toteutus reaaliaikaisille liiketoimintaprosesseille.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Event Mesh -esiintymän valmistelu",
+          "Jonon ja aiheen konfiguraatio",
+          "Event välittäjän asennus ja hallinta",
+          "Sanoman reititys ja suodattamisen säännöt",
+          "Tapahtuman seuranta ja analytiikka"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS -asennus",
+        "description": "Identity Authentication Service -konfiguraatio turvalliselle käyttäjien hallinnalle.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS-vuokraajan valmistelu ja -konfiguraatio",
+          "Single Sign-On (SSO) -toteutus",
+          "Multi-faktor-todentamisen (MFA) -asennus",
+          "Yrityksen identiteetin palveluntarjoajan integraatio",
+          "Käyttäjän valmistelu ja elinkaaren hallinta"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Käyttäjän todentaminen ja roolit",
+        "description": "Kattava käyttäjien hallinta ja valtuutuskehys.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Mukautetun roolin määrittely ja hallinta",
+          "Valtuutus mallin muotoilu",
+          "Käyttäjäryhmän organisaatio",
+          "Sovellustason turvallisuuden toteutus",
+          "Roolien tehtävä ja siirtamisen työnkulut"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Vähennetty toteutusaika 40%:lla todistettujen arkkitehtuuri mallien avulla",
+      "Enterprise-tason turvallisuus alan standardien mukaisesti",
+      "Skaalautuva infrastruktuuri, joka kasvaa yrityksesi kanssa",
+      "Ennakoivat seurantakyvyt kriittiset järjestelmät",
+      "Asiantuntijoiden ohjaus sertifioiduilta SAP BTP -arkkitekteilta"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP -keskitys"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Vuotta yhdistettyä kokemusta"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Palvellut maat"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globaalisti",
+        "label": "Asiantuntijatiimi"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Miksi valita TerraBT",
+    "ctaSectionBadge": "⚡ Aloita projektisi tänään",
+    "ctaSectionTitle1": "Valmis rakentamaan",
+    "ctaSectionTitle2": "SAP BTP -arkkitehtuurisi?",
+    "ctaSectionDescription": "Varaa ilmainen konsultaatio SAP BTP -arkkitektejamme kanssa omien vaatimusten ja menestyksen keinoja keskustelemaan.",
+    "ctaSectionButton1": "Varaa ilmainen konsultaatio →",
+    "ctaSectionButton2": "Näytä kaikki palvelut"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Sovelluskehitys",
+    "title": "SAP Fiori -sovellus",
+    "subtitle": "Kehityspalvelut",
+    "description": "Modernien, responsiivisten Fiori-sovellusten rakentaminen, jotka tuottavat poikkeuksellisia käyttäjäkokemuksia kaikilla laitteilla. Konseptista käyttöönottoon luomme kauniita, suorituskykyisiä sovelluksia SAPin uusimmilla teknologioilla.",
+    "cta": "Aloita Fiori-projektisi →",
+    "servicesTitle": "Täydelliset Fiori-kehitysratkaisut",
+    "servicesSubtitle": "Päästä päähän Fiori-kehityspalvelut muotoilusta käyttöönottoon.",
+    "whyChooseTitle": "Fiori-asiantuntijat, jotka toimittavat erinomaisuuden",
+    "whyChooseDescription": "SAP-sertifioidut kehittäjämme erikoistuvat enterprise-tason Fiori-sovellusten rakentamiseen. Yhdistämme teknisen asiantuntemuksen design thinkingin kanssa luodaksemme sovelluksia, joista käyttäjät pitävät.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Mukautettu Fiori-sovelluksen kehitys",
+        "description": "Rakenna räätälöityjä Fiori-sovelluksia, jotka sopivat täydellisesti liiketoiminnan vaatimuksille.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5-kehyksen asiantuntemus",
+          "Fiori Elements ja Freestyle -sovellukset",
+          "OData-palvelun integraatio",
+          "Responsiivinen muotoilu kaikille laitteille",
+          "Mukautetut ohjauslaiteet ja komponentit"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "UI/UX muotoilu",
+        "description": "Luovat intuitiivisia, kauniita käyttöliittymiä SAP Fiori -muotoilun ohjeiden mukaisesti.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "SAP Fiori -muotoilun periaatteiden noudattaminen",
+          "Käyttäjän tutkimus ja persoonan kehitys",
+          "Lankakehykset ja prototyypit",
+          "Saavutettavuuden vaatimuksenmukaisuus (WCAG)",
+          "Teeman mukauttaminen ja brändäys"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Suorituskyvyn optimointi",
+        "description": "Varmista, että Fiori-sovelluksesi latautuvat nopeasti ja toimivat sujuvasti kaikilla laitteilla.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Koodin optimointi ja minifiointi",
+          "Lazy-lataus toteutus",
+          "Bundle-koon vähentäminen",
+          "Verkko-pyynnön optimointi",
+          "Suorituskyvyn seuranta ja analytiikka"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Mobiiliä ensiksi -kehitys",
+        "description": "Rakenna Fiori-sovelluksia, jotka on optimoitu mobiili käyttäjille ja offline-skenaarioille.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Responsiivinen ja adaptiivinen muotoilu",
+          "Kosketuksella optimoidut vuorovaikutukset",
+          "Mobiilikohtaiset ominaisuudet (kamera, GPS)",
+          "Offline-tietojen synkronointi",
+          "Progressive Web App (PWA) -ominaisuudet"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Integraatio ja testaus",
+        "description": "Saumaton back-end -integraatio kattavalla testauksella.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway- ja OData-palvelun luominen",
+          "Backend-järjestelmän integraatio",
+          "Yksikkö ja integrointitestaus",
+          "Päästä päähän -testauksen automatisointi",
+          "Jatkuva integraatio/käyttöönotto (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Koulutus ja tuki",
+        "description": "Valtuuta tiimisi tiedolla ja jatkuvalla ylläpitotuen kanssa.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Kehittäjän koulutusorjat",
+          "Parhaat käytännöt dokumentaatio",
+          "Koodin tarkistus ja laadun varmistus",
+          "Jatkuva ylläpito ja päivitykset",
+          "Kattava tuotannon käyttöönotto"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Modernit, intuitiiviset käyttöliittymät, jotka lisäävät käyttäjien hyväksyntää",
+      "Nopeampi kehitys uudelleenkäytettävien komponenttien ja mallien avulla",
+      "Laitteiden välinen yhteensopivuus saumattomalle kokemukselle",
+      "SAP-sertifioidut kehittäjät syvällä Fiori-asiantuntemuksella",
+      "Vähennetyt koulutuskulut tutulla, johdonmukaisella UX:llä"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Fiori-sovellukset toimitettu"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Käyttäjän tyytyväisyysaste"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Nopeampi aika markkinoille"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobiilista vastaava"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Miksi valita TerraBT",
+    "ctaSectionBadge": "⚡ Rajoitetut kehityksen avaukset saatavilla",
+    "ctaSectionTitle1": "Valmis rakentamaan",
+    "ctaSectionTitle2": "seuraavan Fiori-sovelluksesi?",
+    "ctaSectionDescription": "Keskustellaan omien vaatimuksien ja luodaan kaunis, korkean suorituskyvyn Fiori-sovellus, josta käyttäjät pitävät.",
+    "ctaSectionButton1": "Hanki ilmainen tarjous →",
+    "ctaSectionButton2": "Tutustu muihin palveluihin"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "Progressive Web -sovellukset",
+    "title": "Offline-PWA-sovellukset",
+    "subtitle": "SAP BTP:lle",
+    "description": "Progressive web -sovellukset offline-toiminnoilla, jotka varmistavat saumattoman käyttäjäkokemuksen kaikkialla. Rakenna sovelluksia, jotka toimivat täydellisesti joko verkkoon tai ilman, toimittavat natiivit sovelluksen kokemuksia verkon kautta.",
+    "cta": "Rakenna PWA →",
+    "servicesTitle": "Täydelliset PWA -kehityspalvelut",
+    "servicesSubtitle": "Offline-first-arkkitehtuurista push-ilmoituksiin - rakennamme PWA:ta, jotka kilpailevat natiivien sovellusten kanssa.",
+    "whyChooseBadge": "PWA -etu",
+    "whyChooseTitle": "Natiivi kokemus, verkon yksinkertaisuus",
+    "whyChooseDescription": "Progressive Web -sovellukset yhdistävät verkon ja natiivien sovellusten parhaat puolet. Ei sovelluskaupaston hyväksyntää, välitöntä päivityksiä ja toimiaa kaikilla laitteilla - kaikki samalla sovelluksen kaltaisen kokemuksen kanssa.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Offline-first -arkkitehtuuri",
+        "description": "Suunnittele sovelluksia, jotka toimivat saumattomasti ilman internet-yhteyttäkin.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Service Worker -toteutus",
+          "Offline-tietojen caching-strategiat",
+          "IndexedDB ja paikallinen tallennustila hallinta",
+          "Background sync -ominaisuudet",
+          "Konfliktien ratkaisemisen strategiat"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Tietojen synkronointi",
+        "description": "Älykkäät sync-mekanismit, joilla pidetään tiedot johdonmukaisesti laitteiden välillä.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Automaattinen taustan synkronointi",
+          "Delta-synkronointi tehokkaalle tiedonsiirrolle",
+          "Konfliktien havaitseminen ja ratkaisu",
+          "Optimistiset käyttöliittymän päivitykset",
+          "Uudelleenyritys mekanismit ja virheiden käsittely"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "Progressive Web App -ominaisuudet",
+        "description": "Natiivi sovelluksen kaltainen kokemus modernien web-ominaisuuksien kanssa.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Sovelluksen manifest -konfiguraatio",
+          "Lisää kotinäytön toimintoon",
+          "Push-ilmoituksen tuki",
+          "Kamera- ja GPS-integraatio",
+          "Sovelluksen shell -arkkitehtuuri"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Suorituskyvyn optimointi",
+        "description": "Salama-nopeat latausajat ja sujuvat offline-siirtymät.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Kriittiset resurssit esikäsitellään",
+          "Lazy-lataus kuvista ja sisällöstä",
+          "Koodin jakaminen ja pakkaaminen",
+          "Kompressointi ja minifiointi",
+          "Suorituskyvyn seuranta ja analytiikka"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Turvallisuus ja compliance",
+        "description": "Turvallinen offline-tietojen tallentaminen ja siirtäminen.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Tietojen salaus levossa",
+          "Turvallinen todennus-palvelut",
+          "HTTPS-käytäntöjen täytäntöönpano",
+          "Sisällön turvallisuus politiikka (CSP)",
+          "Säännölliset turvallisuusarvioinnit"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Online-parantaminen",
+        "description": "Parannettu toimintoja kun yhteys on käytettävissä.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Reaaliaikaiset päivitykset ja ilmoitukset",
+          "Pilvi varmuuskopiointi ja palautus",
+          "Multi-device -synkronointi",
+          "Analytiikka ja telemetria",
+          "Ominaisuuksien tunnistaminen ja progressiivinen parantaminen"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Työskentele kaikkialla, milloin tahansa - jopa ilman internetia",
+      "Parantunut käyttäjäkokemus välittömällä latausella",
+      "Vähennetyt palvelimen kulut tehokkaalla välimuistilla",
+      "Korkeampi konversiot sovelluksen kaltaisesta kokemuksesta",
+      "Parempi sitoutuminen push-ilmoitusten avulla"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Offline-ominaisuus"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Nopeammat latausajat"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Vähennetty tietojen käyttö"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Korkeampi sitoutuminen"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Ota offline-toiminnot käyttöön tänään",
+    "ctaSectionTitle1": "Valmis rakentamaan",
+    "ctaSectionTitle2": "Offline-first PWA?",
+    "ctaSectionDescription": "Luodaan Progressive Web App, joka toimii moitteettomasti offline-tilassa ja toimittaa natiiveja sovelluksen kokemuksia käyttäjille.",
+    "ctaSectionButton1": "Aloita PWA-projektisi →",
+    "ctaSectionButton2": "Näytä kaikki palvelut"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Tietojen hallinta",
+    "title": "SAP BTP -tietokanta",
+    "subtitle": "Hallintapalvelut",
+    "description": "Tehokas tietokantasuunnittelu, optimointi ja hallinta SAP BTP -sovellusten korkean suorituskyvyn. Asiantuntijapalvelut SAP HANA Cloud-, PostgreSQL- ja SAP ASE -tietokannoille.",
+    "cta": "Optimisoi tietokantasi →",
+    "servicesTitle": "Täydelliset tietokanthallinnon ratkaisut",
+    "servicesSubtitle": "Suunnittelusta optimointiin, turvallisuudesta palautukseen - kattavat tietokanta-asiantuntijat.",
+    "whyChooseTitle": "Suorituskyky, turvallisuus, luotettavuus",
+    "whyChooseDescription": "Tietokantaan asiantuntijat tuovat syvää asiantuntemusta SAP BTP -tietokantateknologioista. Varmistamme, että tietosi ovat nopeita, turvallisia ja aina käytettävissä kun tarvitset niitä.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Tietokannan muotoilu ja mallintaminen",
+        "description": "Tehokas tietokantaskeeman muotoilu optimoitu SAP BTP -sovelluksille.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud -tietokannan muotoilu",
+          "PostgreSQL ja SAP ASE -konfiguraatio",
+          "Entiteetti-suhde mallintaminen",
+          "Normalisointi ja denormalisoimisen strategiat",
+          "Indeksointi ja osiointistrategiat"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Suorituskyvyn optimointi",
+        "description": "Maksimoi tietokannan suorituskyvyn salaman nopeille kyselyn suorittamiselle.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Kyselyn optimointi ja säätö",
+          "Indeksin analyysi ja suositukset",
+          "Toteutus-suunnitelman optimointi",
+          "Muisti ja välimuistin konfiguraatio",
+          "Suorituskyvyn seuranta ja profilointi"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Turvallisuus ja vaatimuksenmukaisuus",
+        "description": "Suojaa tietosi enterprise-tason turvallisuustoimenpiteillä.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Tietojen salaus levossa ja kuljetuksessa",
+          "Rivin ja sarakkeen tason turvallisuus",
+          "Auditin jälki toteutus",
+          "GDPR ja vaatimuksenmukaisuus vaatimukset",
+          "Varmuuskopion salaus ja turvallinen tallennustila"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Varmuuskopiointi ja palautus",
+        "description": "Kattava katastrofin palautus ja liiketoiminnan jatkuvuuden suunnittelu.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Automatisoitu varmuuskopion ajoitus",
+          "Point-in-time palautus ominaisuudet",
+          "Katastrofin palautus menettelyt",
+          "Korkea saatavuus konfiguraatio",
+          "Multi-region replikointi"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Tietojen migraatio",
+        "description": "Saumaton tietojen migraatio legacy-järjestelmistä SAP BTP:lle.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Tietojen poimiminen ja muuntaminen",
+          "Migraation strategia ja suunnittelu",
+          "Zero-downtime migraatiotekniikka",
+          "Tietojen validointi ja vahvistus",
+          "Palautuksen menettelyt ja testaus"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "Seuranta ja ylläpito",
+        "description": "Ennakoiva seuranta ja ylläpito optimaalisen tietokannan terveydelle.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Reaaliaikainen suorituskyvyn seuranta",
+          "Automatisoitu hälytys ja ilmoitukset",
+          "Terveydentarkistus ja diagnostiikka",
+          "Kapasiteetin suunnittelu ja ennustaminen",
+          "Patch-hallinta ja päivitykset"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Jopa 10x nopeampi kyselyn suorituskyky optimointiin",
+      "99,99% käyttöaika korkean saatavuuden konfiguraatiolla",
+      "Vähennetyt tallennuskulut tehokkaan muotoilun avulla",
+      "Compliance-valmis sisäänrakennetuilla turvallisuus-ominaisuuksilla",
+      "Ennakoiva seuranta ja asiantuntijoiden ohjaus"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Tietokannan erinomaisuus",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Saatavuuden takuu"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Suorituskyvyn parantaminen"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Tietojen turvallisuus"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Asiantuntijoiden ohjaus"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Optimisoi tietokantasi suorituskyky",
+    "ctaSectionTitle1": "Valmis maksimoimaan",
+    "ctaSectionTitle2": "tietokannan suorituskykyä?",
+    "ctaSectionDescription": "Hanki ilmainen tietokannan terveydentarkistus ja löydä optimointikeinot, jotka voisivat muuttaa sovelluksen suorituskykyä.",
+    "ctaSectionButton1": "Hanki ilmainen tietokannan arviointi →",
+    "ctaSectionButton2": "Tutustu kaikkiin palveluihin"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
+    "badge": "Innovaatio ja strategia",
     "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "subtitle": "SAP BTP -innovaatiolle",
+    "description": "Käyttäjäkeskeinen suunnittelumetodi innovatiivisten SAP BTP -ratkaisujen luomiseksi, jotka ratkaisevat todelliset liiketoiminnan haasteet. Autamme sinua löytää oikeat ongelmat ratkaista ja rakentaa ratkaisuja, joista käyttäjät pitävät.",
+    "cta": "Varaa suunnittelutyöpaja →",
+    "servicesTitle": "Meidän Design Thinking -prosessi",
+    "servicesSubtitle": "Todistettu metodologia innovaatiolle ja ongelmanratkaisulle SAP BTP -projekteissa.",
+    "whyChooseTitle": "Innovaatio, joka luo todellista arvoa",
+    "whyChooseDescription": "Design Thinking muuttaa kuinka lähestyt SAP BTP -projekteja. Keskittymällä käyttäjän tarpeisiin ja nopeaan iteraatioon, autamme sinua rakentaa ratkaisuja, jotka toimittavat mitattavaa liiketoiminnan arvoa.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Käyttäjän tutkimus ja empatia",
+        "description": "Syvä ymmärrys käyttäjien tarpeista, kipuista ja motivaatioista.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Käyttäjän haastattelut ja sidosryhmien sitoutuminen",
+          "Persoonan kehitys ja matkan kartoitus",
+          "Kontekstullinen kysely ja havainto",
+          "Kipupisteen ja mahdollisuuksien tunnistaminen",
+          "Empatia-kartoitus työpajat"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Ongelma määritys",
+        "description": "Selvästi määrittele oikeat ongelmat ratkaistavaksi maksimaalisen liiketoiminta vaikutukseen.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Ongelma lauseen muotoilu",
+          "Muotoilu haasteen kehystäminen",
+          "Mahdollisuuden alueen tunnistaminen",
+          "Menestyksen kriteerit määrittely",
+          "Sidosryhmien yhdenmukaistamisen istunnot"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "Ideoin työpajat",
+        "description": "Luo innovatiivisia ratkaisuja rakennettujen luovien istuntojen kautta.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Helpotetut aivot myrskyt istunnot",
+          "SCAMPER ja lateraalin ajattelu tekniikka",
+          "Yhteisen ideointityöpaja",
+          "Idean priorisoiminen ja valinta",
+          "Konseptin kehitys ja täsmennys"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototyypit",
+        "description": "Nopeasti luoda konkreettisia ideoiden esityksiä validoinille.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Matalan tarkkuus lankakehykset ja luonnokset",
+          "Interaktiivinen klikkaamaton prototyypit",
+          "Korkean tarkkuus mockupit",
+          "Proof of concept kehitys",
+          "MVP (Minimum Viable Product) muotoilu"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Testaus ja iteraatio",
+        "description": "Validoi ratkaisut oikeiden käyttäjien kanssa ja jatkuva parantaminen.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Käytettävyyden testaus istunnot",
+          "A/B-testaus ja kokeet",
+          "Käyttäjien palautteen kerääminen ja analyysi",
+          "Iteratiivinen muotoilu täsmennys",
+          "Validointi menestyksen kriteerejä vastaan"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Toteutuksen tuki",
+        "description": "Ohjaa tiimia validoidusta käsitteestä onnistuneeseen käynnistämiseen.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Tekninen toteutettavuuden arviointi",
+          "Toteutus etenemissuunnitelma luominen",
+          "Ketterä sprint suunnittelu",
+          "Kehitystiimin yhteistyö",
+          "Käynnistyksen jälkeinen seuranta ja optimointi"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Pienennä riskiä validoimalla ideat ennen raskasta sijoittamista",
+      "Nopeampi innovaatio rakennetuilla ongelmanratkaisun lähestymistavalla",
+      "Suurempi käyttäjän hyväksyntä käyttäjäkeskeisten ratkaisujen kautta",
+      "Funktio-ylittävä tiimin kohdistaminen ja sitoutuminen",
+      "Mitattava liiketoiminta tulokset ja ROI"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Nopeampi ongelmanratkaisu"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Vähennetty kehityksen jäte"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Sidosryhmän tyytyväisyys"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Käyttäjäkeskeinen lähestymistapa"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
+    "badge": "Integraatio ja yhteys",
     "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "subtitle": "Palvelut",
+    "description": "Saumattomia integrointiratkaisuja SAP-järjestelmiesi yhdistämiseksi pilvi- ja paikalla oleviin sovelluksiin. Cloud Integration -, API Management-, Open Connectors- ja Integration Advisor -toteutus.",
+    "cta": "Yhdistä järjestelmät →",
+    "servicesTitle": "Täydelliset Integration Suite -asiantuntijat",
+    "servicesSubtitle": "Cloud Integration -ohjelmistosta API-hallintaan - kattavat integrointien palvelut.",
+    "whyChooseTitle": "Saumaton järjestelmien yhteys",
+    "whyChooseDescription": "SAP BTP Integration Suite antaa kaiken mitä tarvitset yrityksen yhdistämiseksi. Asiantuntijat varmistaa, että integrointisi ovat luotettavia, turvallisia ja skaalautuvia.",
     "features": {
       "cpi": {
         "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "description": "Yhdistä pilvi ja paikalla olevat järjestelmät robustien integrointivirtauksilla.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Integraatiovirtauksen muotoilu ja kehitys",
+          "Valmiiksi rakennetun integraatiosisällön hyödyntäminen",
+          "Sanoman kartoitus ja muuntaminen",
+          "Virheen käsittely ja seuranta",
+          "Turvallisuus esineen hallinta"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API -hallinta",
+        "description": "Suunnittele, julkaise ja hallita sovellusliittymiä kattavalla elinkaaren tuella.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API-välityspalvelimen luominen ja konfiguraatio",
+          "Politiikan täytäntöönpano (turvallisuus, nopeus rajoitus)",
+          "API-portaali ja kehittäjän dokumentaatio",
+          "Analytiikka ja käytön seuranta",
+          "Monetisoiminen ja kiintiö hallinta"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "Avoimet yhdistimet",
+        "description": "Valmiiksi rakennetut yhdistimet nopealle integroinnille kolmansien osapuolten järjestelmiin.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150+ valmiiksi rakennetut yhdistimet",
+          "Mukautetun yhdistimen kehitys",
+          "Todentaminen ja valtuuttaminen",
+          "Tietojen muuntaminen ja normalisointi",
+          "Tapahtumapohjainen integraatio"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "Integraatio neuvoittelija",
+        "description": "Kiihdytä integraation kehitys AI-pohjaisilla suosituksilla.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Automatisoitu kartoitus ehdotus",
+          "Sanoman toteutus ohjeet (MIGs)",
+          "B2B integraation skenaarion mallit",
+          "Liittymä kartoitus ehdotus",
+          "Parhaat käytännöt suositukset"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Turvallisuus ja hallitus",
+        "description": "Enterprise-tason turvallisuus ja hallitus kaikille integraatioille.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth ja SAML -todentaminen",
+          "Sertifikaatti ja avain hallinta",
+          "Kuljetus taso salaus (TLS/SSL)",
+          "Sanoman taso salaus",
+          "Auditin lokitys ja compliance"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "Seuranta ja toiminta",
+        "description": "Kattava seuranta ja operatiivinen erinomaisuus.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Reaaliaikainen sanoman seuranta",
+          "Suorituskyvyn mittarit ja KPI:t",
+          "Hälytyksen ja ilmoituksen asennus",
+          "Lokin analyysi ja vianetsintä",
+          "Kapasiteetin suunnittelu ja optimointi"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Nopeampi integraatio valmiiksi rakennetulla sisällöllä ja kiihdyttimet",
+      "Vähennetyt integrointien kulut pilvi-natiivilla alustalla",
+      "Enterprise-tason luotettavuus ja skaalautuvuus",
+      "Yksittäinen alusta kaikille integrointien tarpeelle",
+      "Omistettu asiantuntijoiden konsultaatio ja ohjaus"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Valmiiksi rakennetut yhdistimet"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Integraatio käyttöaika"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Nopeampi toteutus"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Globaalisti",
+        "label": "Asiantuntijatiimi"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Integraatio erinomaisuus",
+    "ctaSectionBadge": "⚡ Yhdistä yrityksesi tänään",
+    "ctaSectionTitle1": "Valmis yhdistämään",
+    "ctaSectionTitle2": "liiketoimintosi järjestelmät?",
+    "ctaSectionDescription": "Keskustellaan integrointien vaatimuksista ja luodaan kattava ratkaisu, joka yhdistää kaikki kriittiset liiketoiminta järjestelmät.",
+    "ctaSectionButton1": "Hanki integraatio konsultaatio →",
+    "ctaSectionButton2": "Näytä kaikki palvelut"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
+    "badge": "Tapahtumapohjainen arkkitehtuuri",
     "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "subtitle": "Toteutuspalvelut",
+    "description": "Reaaliaikanen tapahtumapohjaisen arkkitehtuurin toteutus reaktiivisille, skaalautuville liiketoiminta prosesseille. Rakenna hajautetut järjestelmät, jotka reagoivat välittömästi liiketoiminta tapahtumiin SAP Event Mesh -ohjelmistolla.",
+    "cta": "Rakenna tapahtumapohjainen arkkitehtuuri →",
+    "servicesTitle": "Täydelliset Event Mesh -ratkaisut",
+    "servicesSubtitle": "Arkkitehtuuri suunnittelusta toteutukseen - rakenna reaktiivisen tapahtumapohjaisen järjestelmät.",
+    "whyChooseTitle": "Reaaliaikainen liiketoiminta reaktiivisuus",
+    "whyChooseDescription": "Event Mesh mahdollistaa yritykselle reagoida välittömästi tapahtumiin kun ne tapahtuvat. Rakenna heikosti kytkeytyneet, erittäin skaalautuvat järjestelmät, jotka sopeutuvat muuttuviin liiketoiminnan tarpeisiin.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Event Mesh -arkkitehtuuri",
+        "description": "Suunnittele ja toteuta yrityksenlevereitä tapahtumapohjaisen arkkitehtuuri.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Event Mesh topologia muotoilu",
+          "Multi-region tapahtuma jakelu",
+          "Tapahtuma välittäjä konfiguraatio",
+          "Sanoman reititys strategiat",
+          "Aihe ja jono muotoilu mallit"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Reaaliaikainen tapahtuman käsittely",
+        "description": "Käsittele ja reagoi liiketoiminta tapahtumiin reaaliajassa.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Tapahtuma streaming toteutus",
+          "Monimutkainen tapahtuma käsittely (CEP)",
+          "Tapahtuma suodatuksen ja muuntaminen",
+          "Tapahtuma aggregointi ja korrelaatio",
+          "Matala latenssi tapahtuma toimitus"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Tapahtumapohjainen integraatiot",
+        "description": "Järjestelmien yhdistäminen asynkronisen tapahtumapohjaisen viestinnän avulla.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Julkaisija/tilaaja mallit",
+          "Tapahtuma-pohjaisen mikropalvelut",
+          "Webhook ja callback integraatio",
+          "Tapahtuma uudelleen soitto ja palautus",
+          "Kuolleet kirjain jonon hallinta"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Turvallisuus ja hallitus",
+        "description": "Turvallinen tapahtuman siirtäminen kattavalla hallitus.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Tapahtuma salaus kuljetuksessa",
+          "Pääsynvalvonta ja valtuuttaminen",
+          "Tapahtuma skeeman validointi",
+          "Compliance ja auditin lokitys",
+          "Tietojen yksityisyys ohjaimet"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Multi-Cloud ja hybridi",
+        "description": "Event Mesh pilven palveluntarjoajien ja paikalla olevien järjestelmien yli.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Pilvi poikittainen tapahtuma jakelu",
+          "Hybridi-pilvinen yhteys",
+          "Multi-region redundanssi",
+          "Maantieteellisen tapahtuma reititys",
+          "Pilvi-agnostinen arkkitehtuuri"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "Seuranta ja analytiikka",
+        "description": "Kattava näkyvyys tapahtuma-pohjaiseen ekosysteemiin.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Reaaliaikainen tapahtuma seuranta",
+          "Suorituskyvyn mittarit ja SLA:t",
+          "Tapahtuma virtaus visualisointi",
+          "Pullonkaulan tunnistaminen",
+          "Ennakoiva kapasiteetin suunnittelu"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Erottele järjestelmät suuremmalle joustavuudelle ja skaalautuvuudelle",
+      "Reaaliaikainen liiketoiminta näkemys ja välitön reaktio",
+      "Parantunut järjestelmän kestävyys ja virheen sietokyky",
+      "Vähennetty piste-pisteeseen integraation monimutkaisuus",
+      "Tuki moderneille tapahtuma-pohjaisille arkkitehtuureille"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Tapahtuma toimitus latenssi"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Tapahtumaa sekunnissa"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Tapahtuma toimitus takuu"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "Globaalisti",
+        "label": "Multi-region jakelu"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Tapahtuma-pohjainen erinomaisuus",
+    "ctaSectionBadge": "⚡ Rakenna reaaliaikaiset järjestelmät",
+    "ctaSectionTitle1": "Valmis toteutamaan",
+    "ctaSectionTitle2": "tapahtumapohjainen arkkitehtuuri?",
+    "ctaSectionDescription": "Muuta yrityksesi reaaliaikaisella tapahtuman käsittelyllä. Keskustellaan kuinka Event Mesh voi ajaa seuraavan sukupolven sovelluksesi.",
+    "ctaSectionButton1": "Varaa Event Mesh -konsultaatio →",
+    "ctaSectionButton2": "Tutustu kaikkiin teknologioihin"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "AI ja automatisointi",
+    "title": "AI-pohjainen",
+    "subtitle": "laskunkäsittely",
+    "description": "Älykäs laskunkäsittelyn automatisointi kehittyneellä tekoälyllä tarkkuudelle ja tehokkuudelle. Muuta ostovelkojen prosessiä huipputeknisella tekoälytekniikalla integroituna SAP BTP:hen.",
+    "cta": "Automatisoi laskut →",
+    "servicesTitle": "AI-pohjainen laskun automatisointi",
+    "servicesSubtitle": "Hyödyntää kehittyneelle AI-ominaisuuksille älykkäälle laskunkäsittelylle ja automatisoinnille.",
+    "whyChooseTitle": "Muuta laskunkäsittelyä",
+    "whyChooseDescription": "Kehittynyt AI tuo ihmisen tason ymmärrystä laskunkäsittelyyn. Käsittele monimutkaisia asetteluja, useita kieliä ja reunatapauksia, joissa perinteinen OCR-järjestelmät kamppailee.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Älykäs tietojen poimiminen",
+        "description": "Kehittynyt AI-pohjainen laskun tietojen poimiminen vertaansa vailla olevalla tarkkuudella.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Multi-muoto laskun käsittely (PDF, kuvat, skannauksesta)",
+          "Automaattinen kenttä tunnistaminen ja poimiminen",
+          "Otsikko ja rivikohteen tunnistaminen",
+          "Taulukko ja monimutkainen asettelu ymmärtäminen",
+          "Käsinkirjoituksen tunnistaminen"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP -integraatio",
+        "description": "Saumaton integraatio SAP BTP -palveluihin ja back-end järjestelmiin.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "Suora integraatio SAP S/4HANA",
+          "SAP dokumentin hallinta palvelu yhteys",
+          "Työnkulun automatisoinnin liipaisut",
+          "Reaaliaikainen tietojen validointi",
+          "Mukautetun liiketoimintasäännön toteutus"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Automatisoitu käsittely",
+        "description": "Päästä päähän automatisointi vähentämällä manuaalisen väliintulo lähes nollaan.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Älykäs reititys ja luokittelu",
+          "Auto-hyväksyntä matalan riskin laskuille",
+          "Poikkeaman käsittely työnkulut",
+          "Duplikaatti tunnistaminen ja ehkäisy",
+          "Kolmisuuntaisen ottelu automatisointi"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Validointi ja vaatimuksenmukaisuus",
+        "description": "Varmista tarkkuus ja sääntelyvaatimuksien vaatimuksenmukaisuus jokaisessa liiketapahtumassa.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Monivaiheinen validointisäännöt",
+          "Verolaskelman vahvistus",
+          "Compliance-tarkistus (ALV, GST)",
+          "Auditin jälki ja lokitys",
+          "Tietojen yksityisyys ja turvallisuus (GDPR-yhteensopiva)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analytiikka ja näkemykset",
+        "description": "Hanki arvokkaita näkemyksiä laskunkäsittely tiedoista.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "Käsittelyn mittarit ja KPI:t",
+          "Tarkkuus ja virhe koron seuranta",
+          "Kustannuksien säästö analyysi",
+          "Toimittajan suorituksen analytiikka",
+          "Ennakoivat kassavirtaus näkemykset"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Koulutus ja optimointi",
+        "description": "Jatkuva parantaminen AI-oppimisen ja järjestelmän optimoinnin kautta.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Mukautetun mallin koulutus laskuille",
+          "Jatkuva oppiminen korjauksista",
+          "Mallipohjainen käsittely optimointi",
+          "Palautus silmukan toteutus",
+          "Säännölliset tarkkuus parannukset"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "95%+ tarkkuus vähenemällä manuaalisen korjaus",
+      "80% nopeampi laskun käsittely aika",
+      "70% vähentäminen käsittelyn kustannuksissa",
+      "Lähes nolla tietojen sisältö virheet",
+      "Reaaliaikainen käsittelyn tila näkyvyys"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Tarkkuus korko"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Aika vähentäminen"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Kustannus säästö"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Automatisoitu käsittely"
       }
     }
   },
+  "offlinePWA": {
+    "badge": "Progressive Web -sovellukset",
+    "title": "Offline-PWA-sovellukset",
+    "subtitle": "SAP BTP:lle",
+    "description": "Progressive web -sovellukset offline-toiminnoilla, jotka varmistavat saumattoman käyttäjäkokemuksen kaikkialla. Rakenna sovelluksia, jotka toimivat täydellisesti joko verkkoon tai ilman, toimittavat natiivit sovelluksen kokemuksia verkon kautta.",
+    "cta": "Rakenna PWA →",
+    "servicesTitle": "Täydelliset PWA -kehityspalvelut",
+    "servicesSubtitle": "Offline-first-arkkitehtuurista push-ilmoituksiin - rakennamme PWA:ta, jotka kilpailevat natiivien sovellusten kanssa.",
+    "whyChooseBadge": "PWA -etu",
+    "whyChooseTitle": "Natiivi kokemus, verkon yksinkertaisuus",
+    "whyChooseDescription": "Progressive Web -sovellukset yhdistävät verkon ja natiivien sovellusten parhaat puolet. Ei sovelluskaupaston hyväksyntää, välitöntä päivityksiä ja toimiaa kaikilla laitteilla - kaikki samalla sovelluksen kaltaisen kokemuksen kanssa.",
+    "features": {
+      "offlineFirst": {
+        "title": "Offline-first -arkkitehtuuri",
+        "description": "Suunnittele sovelluksia, jotka toimivat saumattomasti ilman internet-yhteyttäkin.",
+        "items": [
+          "Service Worker -toteutus",
+          "Offline-tietojen caching-strategiat",
+          "IndexedDB ja paikallinen tallennustila hallinta",
+          "Background sync -ominaisuudet",
+          "Konfliktien ratkaisemisen strategiat"
+        ]
+      },
+      "dataSync": {
+        "title": "Tietojen synkronointi",
+        "description": "Älykkäät sync-mekanismit, joilla pidetään tiedot johdonmukaisesti laitteiden välillä.",
+        "items": [
+          "Automaattinen taustan synkronointi",
+          "Delta-synkronointi tehokkaalle tiedonsiirrolle",
+          "Konfliktien havaitseminen ja ratkaisu",
+          "Optimistiset käyttöliittymän päivitykset",
+          "Uudelleenyritys mekanismit ja virheiden käsittely"
+        ]
+      },
+      "pwaFeatures": {
+        "title": "Progressive Web App -ominaisuudet",
+        "description": "Natiivi sovelluksen kaltainen kokemus modernien web-ominaisuuksien kanssa.",
+        "items": [
+          "Sovelluksen manifest -konfiguraatio",
+          "Lisää kotinäytön toimintoon",
+          "Push-ilmoituksen tuki",
+          "Kamera- ja GPS-integraatio",
+          "Sovelluksen shell -arkkitehtuuri"
+        ]
+      },
+      "performance": {
+        "title": "Suorituskyvyn optimointi",
+        "description": "Salama-nopeat latausajat ja sujuvat offline-siirtymät.",
+        "items": [
+          "Kriittiset resurssit esikäsitellään",
+          "Lazy-lataus kuvista ja sisällöstä",
+          "Koodin jakaminen ja pakkaaminen",
+          "Kompressointi ja minifiointi",
+          "Suorituskyvyn seuranta ja analytiikka"
+        ]
+      },
+      "security": {
+        "title": "Turvallisuus ja compliance",
+        "description": "Turvallinen offline-tietojen tallentaminen ja siirtäminen.",
+        "items": [
+          "Tietojen salaus levossa",
+          "Turvallinen todennus-palvelut",
+          "HTTPS-käytäntöjen täytäntöönpano",
+          "Sisällön turvallisuus politiikka (CSP)",
+          "Säännölliset turvallisuusarvioinnit"
+        ]
+      },
+      "onlineEnhancement": {
+        "title": "Online-parantaminen",
+        "description": "Parannettu toimintoja kun yhteys on käytettävissä.",
+        "items": [
+          "Reaaliaikaiset päivitykset ja ilmoitukset",
+          "Pilvi varmuuskopiointi ja palautus",
+          "Multi-device -synkronointi",
+          "Analytiikka ja telemetria",
+          "Ominaisuuksien tunnistaminen ja progressiivinen parantaminen"
+        ]
+      }
+    },
+    "benefits": [
+      "Työskentele kaikkialla, milloin tahansa - jopa ilman internetia",
+      "Parantunut käyttäjäkokemus välittömällä latausella",
+      "Vähennetyt palvelimen kulut tehokkaalla välimuistilla",
+      "Korkeampi konversiot sovelluksen kaltaisesta kokemuksesta",
+      "Parempi sitoutuminen push-ilmoitusten avulla"
+    ],
+    "statistics": {
+      "offlineCapability": {
+        "value": "100%",
+        "label": "Offline-ominaisuus"
+      },
+      "loadTime": {
+        "value": "3x",
+        "label": "Nopeammat latausajat"
+      },
+      "dataReduction": {
+        "value": "50%",
+        "label": "Vähennetty tietojen käyttö"
+      },
+      "engagement": {
+        "value": "80%",
+        "label": "Korkeampi sitoutuminen"
+      }
+    },
+    "ctaSectionBadge": "⚡ Ota offline-toiminnot käyttöön tänään",
+    "ctaSectionTitle1": "Valmis rakentamaan",
+    "ctaSectionTitle2": "Offline-first PWA?",
+    "ctaSectionDescription": "Luodaan Progressive Web App, joka toimii moitteettomasti offline-tilassa ja toimittaa natiiveja sovelluksen kokemuksia käyttäjille.",
+    "ctaSectionButton1": "Aloita PWA-projektisi →",
+    "ctaSectionButton2": "Näytä kaikki palvelut"
+  },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Takaisin etusivulle",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Laskunkäsittelyn vallankumous tekoälyllä",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Tutustu kuinka AI-integraatio SAP BTP:ssä muuttaa laskunkäsittelyä älykkäällä automatisoinnilla ja kehittyneellä dokumentin ymmärryksellä.",
+      "intro": "Laskunkäsittely on perinteisesti ollut aikaa vievä, virhealtis manuaalinen tehtävä. Kehittyneen tekoälyn integraatio SAP BTP:n kanssa mullistaa tämän prosessin tuomalla vertaansa vailla olevaa automatisointi, tarkkuus ja tehokkuus ostovelkojen toiminnalle.",
+      "section1Title": "Perinteisen laskunkäsittelyn haaste",
+      "section1Content": "Organisaatiot käsittelevät tuhansia laskuja kuukausittain, jokainen vaatii tietojen poimimisen, validointia ja syöttöä ERP-järjestelmiin. Manuaalinen käsittely on hidasta, kallista ja virhealtista, mikä voi johtaa maksujen viivästymiseen, kaksinkertaisiin maksuihin tai varhaisen maksun alennuksien menettämiseen.",
+      "section2Title": "Kehittynyt AI dokumentin ymmärrys",
+      "section2Content": "Moderni AI tuo huipputeknistä luonnon kielenkäsittely ja tietokoneen näköominaisuuksia laskunkäsittelyyn. Toisin kuin perinteiset OCR-järjestelmät, kehittynyt AI voi ymmärtää kontekstia, käsitellä vaihtelevia laskun formaatteja ja poimia tietoja merkittävällä tarkkuudella jopa huonosti skannatuista tai monimutkaisista asiakirjoista.",
+      "section3Title": "Saumaton SAP BTP -integraatio",
+      "section3Content": "AI:n integrointi SAP BTP:hen luo tehokkaan automatisointi putkilinjan. Saapuvat laskut käsitellään automaattisesti, tiedot poimitaan ja validoidaan, ja tiedot virtaavat suoraan SAP-järjestelmiin ilman ihmisen väliintuloa. Tämä integraatio hyödyntää SAP BTP:n kestävää yhteyyttä ja työnkulun ominaisuuksia.",
+      "section4Title": "Älykäs poikkeaman käsittely",
+      "section4Content": "AI:n yksi keskeinen vahvuus on sen kyky käsitellä poikkeamia älykkäästi. Kun kohtaa epätavallisia laskun formaatteja tai epäselviä tietoja, järjestelmä voi merkitä kohteita ihmisen arviointiin yksityiskohtaisilla selityksillä, mikä tekee poikkeaman käsittelystä paljon tehokkaammin kuin perinteiset sääntöpohjaiset järjestelmät.",
+      "section5Title": "Mitattava liiketoiminnan vaikutus",
+      "section5Content": "Organisaatiot, jotka ottavat AI:n käyttöön laskunkäsittelyyn, näkevät tyypillisesti dramaattisia parannuksia: 90% vähentyminen käsittelyn ajassa, 95% lasku tietojen sisältö virheissä ja merkittävät kustannussäästöt ostovelkojen toiminnassa. Ehkä tärkeintä on, että henkilöstö voi keskittyä strategisiin toimintoihin toistuvien tietojen sisältöjen sijaan.",
+      "conclusionTitle": "Johtopäätös",
+      "conclusionContent": "Kehittyneiden AI-ominaisuuksien ja SAP BTP:n yritysluokan infrastruktuurin yhdistelmä edustaa muuttustavaa lähestymistapaa laskunkäsittelyyn. Organisaatiot, jotka omaksuvat tämän teknologian, saavat merkittävän kilpailuedun parantuneesta tehokkuudesta, tarkkuudesta ja kustannusten vähentämisestä."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "Modernien Fiori-sovellusten kehittäminen SAP BTP:llä",
+      "category": "Kehitys",
+      "readTime": "8 min",
+      "seoDescription": "Opi kuinka rakentaa moderneja, responsiivisia Fiori-sovelluksia käyttämällä SAP BTP:n tehokkaita kehitystyökaluja ja kehyksiä.",
+      "intro": "SAP Fiori edustaa yrityssovellusten tulevaisuutta, tarjoten yhdistetyn käyttäjäkokemuksen kaikilla laitteilla ja käyttöönotto vaihtoehdoilla. SAP Business Technology Platform -alustan (BTP) avulla modernien Fiori-sovellusten rakentaminen on tullut enemmän virtaviivaistettuna ja tehokkaana kuin koskaan.",
+      "section1Title": "SAP BTP:n voima Fiori-kehitykselle",
+      "section1Content": "SAP BTP tarjoaa kattavan työkalujen ja palveluiden sarjan, jotka on erityisesti suunniteltu Fiori-sovelluksien kehitykselle. Alusta tarjoaa kaiken kehitysympäristöistä käyttöönotto infrastruktuuriin, mikä mahdollistaa tiimeille keskittyä poikkeuksellisten käyttäjäkokemusten luomiseen sen sijaan, että hallinnoisivat infrastruktuuria.",
+      "section2Title": "Tärkeät ominaisuudet ja parhaat käytännöt",
+      "section2Content": "Modernit Fiori-sovellukset hyödyntävät SAP Fiori Elements -kehystä, joka tarjoaa valmiiksi rakennettuja käyttöliittymän komponentteja ja malleja, jotka varmistavat johdonmukaisuuden ja vähentävät kehitys aikaa. Yhdistämällä nämä elementit mukautettuihin SAPUI5-ohjaimiin, kehittäjät voivat luoda sovelluksia, jotka ovat sekä standardoituja että räätälöityjä tiettyihin liiketoiminnan tarpeisiin.",
+      "section3Title": "Integraatio SAP BTP -palveluiden kanssa",
+      "section3Content": "Yksi tärkeimmistä eduista Fiori-sovellusten kehittämisestä SAP BTP:ssä on saumaton integraatio muiden alustan palvelujen kanssa. Todentamisesta ja valtuuttamisesta SAP Cloud Identity Services -palvelun kanssa tietojen tallennukseen SAP HANA Cloud -palvelun kanssa, kehittäjillä on pääsy yritystason palveluihin, jotka voidaan helposti integroida sovelluksiin.",
+      "section4Title": "Responsiivinen muotoilu ja usean laitteen tuki",
+      "section4Content": "SAP BTP:ssä rakennetut Fiori-sovellukset mukautuvat automaattisesti erilaisille näytön kooille ja laitteille, mikä varmistaaa johdonmukaisen käyttäjäkokemuksen käytettäessä työpöydältä, tabletilta tai matkapuhelimesta. Tämä responsiivinen muotoilu-ominaisuus on sisäänrakennettu kehykseen, mikä vähentää useiden laitteiden tuen vaatimaa ponnistusta.",
+      "section5Title": "Suorituskyvyn optimointi",
+      "section5Content": "SAP BTP tarjoaa erilaisia työkaluja ja tekniikoita Fiori-sovelluksien suorituskyvyn optimoimiseksi, mukaan lukien lazy-lataus, pakkaaminen ja välimuisti strategiat. Nämä optimointitekniikat varmistavat, että sovellukset latautuvat nopeasti ja reagoivat sujuvasti, jopa kun käsitellään suuria tietoja tai monimutkaista liiketoimintalogiikkaa.",
+      "conclusionTitle": "Johtopäätös",
+      "conclusionContent": "Modernien Fiori-sovellusten rakentaminen SAP BTP:ssä yhdistää yritystason infrastruktuurin voiman huipputeknisiin kehitys kehyksiin. Hyödyntämällä alustan ominaisuuksia kehitys tiimit voivat luoda hienostuneita, käyttäjäystävällisiä sovelluksia, jotka ajaa liiketoiminta arvoa ja parantavat tuottavuutta organisaatiossa."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "Offline-PWA -ratkaisut liiketoiminnan jatkuvuudelle",
+      "category": "Arkkitehtuuri",
+      "readTime": "7 min",
+      "seoDescription": "Tutustu kuinka Progressive Web Apps (PWAs) offline-toiminnoilla varmistavat liiketoiminnan jatkuvuuden ja tuottavuuden missä tahansa verkon olosuhteissa.",
+      "intro": "Nykypäivän yhteydessä olevassa maailmassa verkon katkeamiset voivat pysäyttää liiketoimintaa. Progressive Web Apps (PWAs) offline-toiminnoilla tarjoavat kestävän ratkaisun liiketoiminnan jatkuvuuden varmistaamiseksi, jolloin käyttäjät voivat työskennellä saumattomasti verkon saatavuudesta riippumatta.",
+      "section1Title": "Offline-first -arkkitehtuurin ymmärtäminen",
+      "section1Content": "Offline-first -arkkitehtuuri edustaa paradigman muutosta siinä, kuinka rakennamme web-sovelluksia. Offline-moodin käsittelemisen sijaan reunatapauksen, offline-first -muotoilu tekee siitä ydin-ominaisuuden. Tämä lähestymistapa varmistaaa, että sovellukset pysyvät toiminnallisina jopa silloin kun verkon yhteys on epäluotettava tai täysin saatavilla olematon.",
+      "section2Title": "Service Workers: Offline-PWA:en selkäranka",
+      "section2Content": "Service workers ovat teknologia, joka tekee offline-PWA:t mahdollisiksi. Nämä ohjelmoitavat verkon välityspalvelimet istuvat sovelluksesi ja verkon välillä, sieppaavat pyynnöt ja mahdollistavat hienostuneet välimuistin strategiat. Hyödyntämällä palvelu työntekijöitä, sovellukset voivat välimuistia kriittisiä resursseja ja tietoja, varmistaen saatavuuden jopa offline-tilassa.",
+      "section3Title": "Tietojen synkronointi strategiat",
+      "section3Content": "Offline-PWA:issa tärkeä haaste on tietojen synkronoinnin hallinta yhteyden palauttamisen yhteydessä. Kestävien konfliktien ratkaisemisen strategioiden ja optimististen päivitysten toteuttaminen varmistaa, että tiedot pysyvät johdonmukaisina laitteiden ja back-end järjestelmien välillä. Background-sync-sovellusliittymiä mahdollistavat automatisoitu synkronointi, kun verkko tulee jälleen saatavilla.",
+      "section4Title": "Liiketoiminta edut",
+      "section4Content": "Offline-PWA:t toimittavat merkittävää liiketoimintaa arvoa varmistaen tuottavuuden millä tahansa verkon olosuhteissa. Kenttätyöntekijät voivat jatkaa tehtäviä etäällä olevissa paikoissa, myynti tiimit voivat päästä kriittiset tiedot esitystensä aikana, ja toiminnot jatkuu sujuvasti verkon katkoksien aikana. Tämä luotettavuus käännetään suoraan parantuneen asiakastyytyväisyyden ja operatiivisen tehokkuuden.",
+      "section5Title": "Toteutus SAP BTP:ssä",
+      "section5Content": "SAP BTP tarjoaa erinomaisen tuen offline-PWA:iden rakentamiselle sen Mobile Services -tarjouksen kautta. Nämä palvelut sisältävät offline-tietojen synkronoinnin, turvallisen tallennustilan ja laajat sovellusliittymiä, jotka yksinkertaistavat kestävien offline-kyvyisten sovellusten kehitystä.",
+      "conclusionTitle": "Johtopäätös",
+      "conclusionContent": "Offline-PWA:t edustav liiketoiminta sovellusten tulevaisuutta, tarjoten kestävyyden ja luotettavuuden, jota perinteiset web-sovellukset eivät voi täyttää. Omaksumalla offline-first -arkkitehtuuri ja hyödyntämällä moderneja web-teknologioita, organisaatiot voivat varmistaa liiketoiminnan jatkuvuuden ja ylläpitää tuottavuutta riippumatta verkon olosuhteista."
     }
   }
 }

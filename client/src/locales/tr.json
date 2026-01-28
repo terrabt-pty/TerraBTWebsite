@@ -13,1450 +13,1450 @@
     "learn": "Hizmetleri keşfedin"
   },
   "services": {
-    "title": "Unsere Expertise",
-    "subtitle": "Umfassende SAP BTP-Lösungen zur Transformation Ihres Unternehmens",
+    "title": "Uzmanlığımız",
+    "subtitle": "İşletmenizi dönüştürmek için kapsamlı SAP BTP çözümleri",
     "fiori": {
-      "title": "Fiori-App-Entwicklung",
-      "description": "Entwicklung moderner, responsiver Fiori-Anwendungen für außergewöhnliche Benutzererlebnisse auf allen Geräten."
+      "title": "Fiori Uygulaması Geliştirme",
+      "description": "Tüm cihazlarda istisnai kullanıcı deneyimleri sağlayan modern, duyarlı Fiori uygulamaları geliştirin."
     },
     "architecture": {
-      "title": "BTP-Architektur & Design",
-      "description": "Strategische Architekturplanung für skalierbare SAP BTP-Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen."
+      "title": "BTP Mimarisi & Tasarım",
+      "description": "İşletme gereksinimlerinize uyarlanmış ölçeklenebilir SAP BTP çözümleri için stratejik mimari planlama ve tasarım."
     },
     "designThinking": {
-      "title": "Design Thinking",
-      "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer Lösungen für echte Geschäftsherausforderungen."
+      "title": "Tasarım Düşüncesi",
+      "description": "Gerçek iş sorunlarını çözen yenilikçi çözümler geliştirmek için kullanıcı merkezli tasarım yaklaşımı."
     },
     "pwa": {
-      "title": "Offline-PWA-Apps",
-      "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall."
+      "title": "Çevrimdışı PWA Uygulamaları",
+      "description": "Her yerde sorunsuz kullanıcı deneyimi sağlayan çevrimdışı yeteneklere sahip ilerleme halindeki web uygulamaları."
     },
     "database": {
-      "title": "SAP BTP-Datenbankverwaltung",
-      "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochleistungsfähige BTP-Anwendungen."
+      "title": "SAP BTP Veritabanı Yönetimi",
+      "description": "Yüksek performanslı BTP uygulamaları için etkili veritabanı tasarımı, optimizasyonu ve yönetimi."
     },
     "ai": {
-      "title": "KI-Rechnungsverarbeitung",
-      "description": "Intelligente Rechnungsverarbeitung mit fortschrittlicher KI für präzise und effiziente Abläufe."
+      "title": "Yapay Zeka Fatura İşleme",
+      "description": "Doğru ve verimli operasyonlar için ileri yapay zeka tarafından desteklenen akıllı fatura işleme otomasyonu."
     },
     "integration": {
-      "title": "SAP BTP Integration Suite",
-      "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen."
+      "title": "SAP BTP Entegrasyon Paketi",
+      "description": "SAP sistemlerinizi bulut ve şirket içi uygulamalarla birleştiren sorunsuz entegrasyon çözümleri."
     },
     "eventMesh": {
-      "title": "Event Mesh",
-      "description": "Implementierung ereignisgesteuerter Echtzeitarchitektur für reaktionsschnelle, skalierbare Geschäftsprozesse."
+      "title": "Olay Ağı",
+      "description": "Tepkili, ölçeklenebilir iş süreçleri için olay odaklı gerçek zamanlı mimari uygulama."
     },
     "cap": {
-      "title": "SAP CAP-Entwicklung",
-      "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung."
+      "title": "SAP CAP Geliştirme",
+      "description": "Hızlı, ölçeklenebilir geliştirme için SAP Bulut Uygulama Programlama Modeli ile modern bulut uygulamaları oluşturun."
     },
     "buildApps": {
-      "title": "SAP Build Apps",
-      "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation."
+      "title": "SAP Build Uygulamaları",
+      "description": "Hızlı dijital dönüşüm için kod yazmayan/düşük kodlu araçlarla profesyonel kurumsal uygulamalar oluşturun."
     },
     "buildAutomation": {
-      "title": "SAP Build Process Automation",
-      "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen."
+      "title": "SAP Build Süreç Otomasyonu",
+      "description": "Akıllı iş akışı ve robotic süreç otomasyonu yetenekleri ile iş süreçlerini otomatikleştirin."
     }
   },
   "value": {
     "specialization": {
-      "badge": "Unser Fokus",
-      "title": "100% SAP BTP-Spezialisierung",
-      "description": "Im Gegensatz zu allgemeinen Beratungsunternehmen konzentrieren wir uns ausschließlich auf SAP Business Technology Platform und gewährleisten tiefgreifende Expertise und modernste Lösungen.",
-      "point1": "Dediziertes Team zertifizierter SAP BTP-Experten",
-      "point2": "Stets aktuell mit den neuesten BTP-Funktionen und Best Practices",
-      "point3": "Nachweisliche Erfolge in verschiedenen Branchen"
+      "badge": "Odak Noktamız",
+      "title": "Yüzde 100 SAP BTP Uzmanlaşması",
+      "description": "Genel danışmanlık firmalarından farklı olarak, yalnızca SAP Business Technology Platform'a odaklanıyoruz ve derin uzmanlık ile en son çözümler sunuyoruz.",
+      "point1": "Sertifikalı SAP BTP uzmanlarından oluşan özel ekip",
+      "point2": "En son BTP özellikleri ve en iyi uygulamalarla güncel kalın",
+      "point3": "Çeşitli endüstrilerde kanıtlanmış başarı"
     },
     "global": {
-      "badge": "Globale Reichweite",
-      "title": "Weltweite Marktbetreuung",
-      "description": "Wir bringen SAP BTP-Expertise in Märkte weltweit und bieten erstklassige Lösungen unabhängig von Ihrem Standort.",
-      "point1": "Remote-Beratung über alle Zeitzonen hinweg",
-      "point2": "Mehrsprachiger Support für internationale Teams",
-      "point3": "Verständnis regionaler Geschäftsanforderungen"
+      "badge": "Küresel Erişim",
+      "title": "Dünya Çapında Pazar Hizmetleri",
+      "description": "SAP BTP uzmanlığını dünya pazarlarına getiriyor ve konumundan bağımsız olarak dünya sınıfı çözümler sunuyoruz.",
+      "point1": "Tüm saat dilimleri arasında uzaktan danışmanlık",
+      "point2": "Uluslararası takımlar için çok dilli destek",
+      "point3": "Bölgesel iş gereksinimleri anlayışı"
     },
     "ai": {
-      "badge": "Moderne Technologie",
-      "title": "KI-gestützte Innovation",
-      "description": "Nutzung modernster KI-Technologie zur Verbesserung von SAP BTP-Lösungen und Einbringung von Automatisierung und Intelligenz in Ihre Geschäftsprozesse.",
-      "point1": "Intelligente Automatisierung für wiederkehrende Aufgaben",
-      "point2": "Fortschrittliche Datenverarbeitung und -analyse",
-      "point3": "Nahtlose Integration in bestehende Workflows"
+      "badge": "Modern Teknoloji",
+      "title": "Yapay Zeka Destekli İnovasyon",
+      "description": "SAP BTP çözümlerini iyileştirmek için en son yapay zeka teknolojisinden yararlanıyor ve iş süreçlerinize otomasyon ve zeka getiriyoruz.",
+      "point1": "Tekrarlayan görevler için akıllı otomasyon",
+      "point2": "İleri veri işleme ve analizi",
+      "point3": "Mevcut iş akışlarına sorunsuz entegrasyon"
     }
   },
   "knowledge": {
-    "title": "Wissenszentrum",
-    "subtitle": "Experteneinblicke und Best Practices für SAP BTP-Erfolg",
-    "readMore": "Artikel lesen",
-    "readTime": "{{time}} Min."
+    "title": "Bilgi Merkezi",
+    "subtitle": "SAP BTP başarısı için uzman içgörüler ve en iyi uygulamalar",
+    "readMore": "Makaleyi Oku",
+    "readTime": "{{time}} dakika"
   },
   "blog": {
     "post1": {
-      "category": "Entwicklung",
-      "title": "Moderne Fiori-Anwendungen mit SAP BTP entwickeln",
-      "excerpt": "Erfahren Sie, wie Sie responsive, benutzerfreundliche Fiori-Anwendungen erstellen, die die volle Leistung der SAP Business Technology Platform nutzen.",
-      "readTime": "5 Min."
+      "category": "Geliştirme",
+      "title": "SAP BTP ile Modern Fiori Uygulamaları Geliştirme",
+      "excerpt": "SAP Business Technology Platform'un tam gücünden yararlanan duyarlı, kullanıcı dostu Fiori uygulamaları oluşturmayı öğrenin.",
+      "readTime": "5 dakika"
     },
     "post2": {
-      "category": "Technologie",
-      "title": "Offline-PWA: Geschäftskontinuität überall sicherstellen",
-      "excerpt": "Entdecken Sie, wie Progressive Web Apps mit Offline-Funktionen Ihre Geschäftsprozesse auch ohne Internetverbindung reibungslos am Laufen halten.",
-      "readTime": "7 Min."
+      "category": "Teknoloji",
+      "title": "Çevrimdışı PWA: Her Yerde İş Sürekliliğini Sağlama",
+      "excerpt": "Çevrimdışı yeteneklere sahip İlerleme Halindeki Web Uygulamalarının internet bağlantısı olmadan iş süreçlerinizi nasıl sorunsuz çalıştırmaya devam ettiğini keşfedin.",
+      "readTime": "7 dakika"
     },
     "post3": {
-      "category": "KI & Automatisierung",
-      "title": "KI für intelligente Rechnungsverarbeitung",
-      "excerpt": "Erkunden Sie, wie KI-Integration mit SAP BTP die Rechnungsverarbeitung mit beispielloser Genauigkeit und Effizienz transformiert.",
-      "readTime": "6 Min."
+      "category": "Yapay Zeka & Otomasyon",
+      "title": "Akıllı Fatura İşleme için Yapay Zeka",
+      "excerpt": "Yapay zeka entegrasyonunun SAP BTP ile fatura işlemesini eşi benzeri olmayan doğruluk ve verimlilikle nasıl dönüştürdüğünü keşfedin.",
+      "readTime": "6 dakika"
     },
     "post4": {
-      "category": "Integration",
-      "title": "SAP BTP Integration Suite meistern",
-      "excerpt": "Ein umfassender Leitfaden zur Verbindung Ihrer Unternehmenssysteme mit SAP BTP Integration Suite für nahtlosen Datenfluss.",
-      "readTime": "8 Min."
+      "category": "Entegrasyon",
+      "title": "SAP BTP Entegrasyon Paketinde Uzmanlaşma",
+      "excerpt": "Sorunsuz veri akışı için SAP BTP Entegrasyon Paketi ile kurumsal sistemlerinizi bağlama konusunda kapsamlı bir kılavuz.",
+      "readTime": "8 dakika"
     },
     "post5": {
-      "category": "Architektur",
-      "title": "Event-Mesh-Architektur für Echtzeit-Geschäft",
-      "excerpt": "Implementierung ereignisgesteuerter Architektur mit SAP Event Mesh für reaktionsfähige, skalierbare Lösungen.",
-      "readTime": "6 Min."
+      "category": "Mimari",
+      "title": "Gerçek Zamanlı İşletme için Olay Ağı Mimarisi",
+      "excerpt": "Tepkili, ölçeklenebilir çözümler için SAP Event Mesh ile olay odaklı mimarinin uygulanması.",
+      "readTime": "6 dakika"
     },
     "post6": {
-      "category": "Best Practices",
-      "title": "BTP-Datenbankoptimierungsstrategien",
-      "excerpt": "Wesentliche Strategien zur Optimierung der SAP BTP-Datenbankleistung für schnellen, zuverlässigen Zugriff auf geschäftskritische Daten.",
-      "readTime": "5 Min."
+      "category": "En İyi Uygulamalar",
+      "title": "BTP Veritabanı Optimizasyon Stratejileri",
+      "excerpt": "İş açısından kritik verilere hızlı ve güvenilir erişim için SAP BTP veritabanı performansını optimize etmek için temel stratejiler.",
+      "readTime": "5 dakika"
     }
   },
   "contact": {
-    "badge": "Loslegen",
-    "title": "Bereit, Ihr Unternehmen zu transformieren?",
-    "subtitle": "Buchen Sie eine kostenlose Beratung mit unseren SAP BTP-Experten",
-    "availability": "Begrenzte Verfügbarkeit",
-    "contactInfo": "Kontaktinformationen",
-    "email": "E-Mail",
-    "globalPresence": "Globale Präsenz",
-    "servingCountries": "Betreuung von Kunden in über 40 Ländern weltweit",
-    "fastResponse": "Schnelle Antwortgarantie",
-    "fastResponseDesc": "Erhalten Sie Expertenrat innerhalb von 24 Stunden. Unsere SAP BTP-Spezialisten sind bereit, Ihnen zum Erfolg zu verhelfen.",
-    "mentionCountry": "Bitte geben Sie Ihr Land an, wenn Sie uns kontaktieren",
+    "badge": "Başlayın",
+    "title": "İşletmenizi dönüştürmeye hazır mısınız?",
+    "subtitle": "SAP BTP uzmanlarımızla ücretsiz bir danışma alın",
+    "availability": "Sınırlı Müsaitlik",
+    "contactInfo": "İletişim Bilgileri",
+    "email": "E-posta",
+    "globalPresence": "Küresel Varlık",
+    "servingCountries": "Dünya çapında 40'tan fazla ülkede müşterilere hizmet sunma",
+    "fastResponse": "Hızlı Yanıt Garantisi",
+    "fastResponseDesc": "24 saat içinde uzman tavsiye alın. SAP BTP uzmanlarımız başarınız için yardımcı olmaya hazırlar.",
+    "mentionCountry": "Lütfen bize ulaştığınızda ülkenizi belirtin",
     "form": {
-      "name": "Vollständiger Name",
-      "email": "Geschäftliche E-Mail",
-      "company": "Firmenname",
-      "message": "Erzählen Sie uns von Ihrem Projekt",
-      "submit": "Kostenlose Beratung vereinbaren",
-      "submitting": "Wird gesendet..."
+      "name": "Tam Ad",
+      "email": "İş E-postası",
+      "company": "Şirket Adı",
+      "message": "Bize projeniz hakkında anlatın",
+      "submit": "Ücretsiz Danışma Planlayın",
+      "submitting": "Gönderiliyor..."
     },
     "success": {
-      "title": "Nachricht gesendet!",
-      "description": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      "title": "Mesaj Gönderildi!",
+      "description": "Bizimle iletişim kurduğunuz için teşekkür ederiz. 24 saat içinde sizinle iletişime geçeceğiz."
     },
     "error": {
-      "title": "Fehler",
-      "description": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      "title": "Hata",
+      "description": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin."
     }
   },
   "footer": {
-    "description": "Spezialisierte SAP BTP-Beratung mit exzellenten Leistungen weltweit",
-    "services": "Dienstleistungen",
-    "fiori": "Fiori-Entwicklung",
-    "architecture": "BTP-Architektur",
-    "integration": "Integration Suite",
-    "ai": "KI-Lösungen",
-    "knowledge": "Wissen",
-    "blogArticles": "Blog-Artikel",
-    "caseStudies": "Fallstudien",
-    "resources": "Ressourcen",
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "careers": "Karriere",
+    "description": "Dünya çapında mükemmel performans sunan uzmanlaşmış SAP BTP danışmanlığı",
+    "services": "Hizmetler",
+    "fiori": "Fiori Geliştirme",
+    "architecture": "BTP Mimarisi",
+    "integration": "Entegrasyon Paketi",
+    "ai": "Yapay Zeka Çözümleri",
+    "knowledge": "Bilgi",
+    "blogArticles": "Blog Makaleleri",
+    "caseStudies": "Vaka Çalışmaları",
+    "resources": "Kaynaklar",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "careers": "Kariyer",
     "blog": "Blog",
-    "documentation": "Dokumentation",
-    "whitepapers": "Whitepapers",
-    "legal": "Rechtliches",
-    "privacy": "Datenschutzerklärung",
-    "terms": "Nutzungsbedingungen",
-    "copyright": "Alle Rechte vorbehalten.",
-    "deployedOn": "Bereitgestellt auf Cloudflare",
-    "serviceRestriction": "Dienstleistungen sind in Australien und Neuseeland nicht verfügbar.",
-    "availableLanguages": "In Ihrer Sprache verfügbar"
+    "documentation": "Belgeler",
+    "whitepapers": "Teknik İncelemeler",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "copyright": "Tüm hakları saklıdır.",
+    "deployedOn": "Cloudflare'de Barındırılmaktadır",
+    "serviceRestriction": "Hizmetler Avustralya ve Yeni Zelanda'da kullanılamaz.",
+    "availableLanguages": "Sizin Dilinizde Kullanılabilir"
   },
   "common": {
-    "learnMore": "Daha fazla bilgi",
-    "backToHome": "Ana sayfaya dön"
+    "learnMore": "Daha Fazla Bilgi",
+    "backToHome": "Ana Sayfaya Dön"
   },
   "capDevelopment": {
-    "badge": "Cloud-Anwendungsentwicklung",
-    "title": "SAP CAP-Entwicklung",
-    "subtitle": "Services",
-    "description": "Entwicklung moderner Cloud-Anwendungen mit SAP Cloud Application Programming Model für schnelle, skalierbare Entwicklung auf SAP BTP.",
-    "cta": "Starten Sie Ihr CAP-Projekt →",
-    "servicesTitle": "Umfassende CAP-Entwicklungsservices",
-    "servicesSubtitle": "Von der Datenmodellierung bis zur Bereitstellung - vollständige CAP-Expertise für Ihre Geschäftsanwendungen.",
-    "whyChoose": "Warum TerraBT wählen",
-    "whyChooseTitle": "Professionelle CAP-Entwicklung mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP CAP-Entwickler bringen jahrelange Erfahrung in der Entwicklung von Unternehmensanwendungen mit. Wir kombinieren technisches Fachwissen mit Geschäftssinn, um Lösungen zu liefern, die Ergebnisse erzielen.",
+    "badge": "Bulut Uygulama Geliştirme",
+    "title": "SAP CAP Geliştirme",
+    "subtitle": "Hizmetler",
+    "description": "SAP BTP'de hızlı, ölçeklenebilir geliştirme için SAP Bulut Uygulama Programlama Modeli ile modern bulut uygulamaları geliştirin.",
+    "cta": "CAP Projenizi Başlatın →",
+    "servicesTitle": "Kapsamlı CAP Geliştirme Hizmetleri",
+    "servicesSubtitle": "Veri modellemesinden dağıtıma kadar - iş uygulamalarınız için tam CAP uzmanlığı.",
+    "whyChoose": "Neden TerraBT'yi Seçmeli",
+    "whyChooseTitle": "Sonuçlar Sağlayan Profesyonel CAP Geliştirme",
+    "whyChooseDescription": "Sertifikalı SAP CAP geliştiricilerimiz kurumsal uygulamalar geliştirmede yılların deneyimini getiriyor. Sonuç sağlayan çözümler sunmak için teknik uzmanlığı iş anlayışıyla birleştiriyoruz.",
     "features": {
       "fullStack": {
-        "title": "Full-Stack CAP-Entwicklung",
-        "description": "End-to-End-Anwendungsentwicklung mit dem CAP-Framework.",
+        "title": "Tam Stack CAP Geliştirme",
+        "description": "CAP Framework ile end-to-end uygulama geliştirme.",
         "items": [
-          "CDS-Datenmodellierung und Entity-Definitionen",
-          "Service-Definition und -Implementierung",
-          "Entwicklung individueller Geschäftslogik",
-          "Fiori Elements UI-Generierung",
-          "CAP Node.js und Java Runtime-Support"
+          "CDS veri modellemesi ve varlık tanımları",
+          "Hizmet tanımı ve uygulaması",
+          "Özel iş mantığı geliştirme",
+          "Fiori Elements Kullanıcı Arayüzü oluşturma",
+          "CAP Node.js ve Java çalışma zamanı desteği"
         ]
       },
       "database": {
-        "title": "Datenbankintegration",
-        "description": "Nahtlose Integration mit SAP HANA Cloud und anderen Datenbanken.",
+        "title": "Veritabanı Entegrasyonu",
+        "description": "SAP HANA Cloud ve diğer veritabanlarıyla sorunsuz entegrasyon.",
         "items": [
-          "SAP HANA Cloud native Entwicklung",
-          "PostgreSQL und SAP ASE Support",
-          "Datenbankmigration und Schema-Management",
-          "Query-Optimierung und Performance-Tuning",
-          "Multi-Tenancy Datenbankkonfiguration"
+          "SAP HANA Cloud yerel geliştirme",
+          "PostgreSQL ve SAP ASE desteği",
+          "Veritabanı taşıma ve şema yönetimi",
+          "Sorgu optimizasyonu ve performans ayarı",
+          "Çoklu Kiracılık Veritabanı Yapılandırması"
         ]
       },
       "security": {
-        "title": "Sicherheit & Autorisierung",
-        "description": "Enterprise-Grade Sicherheitsimplementierung für CAP-Anwendungen.",
+        "title": "Güvenlik & Yetkilendirme",
+        "description": "CAP uygulamaları için kurumsal düzey güvenlik uygulaması.",
         "items": [
-          "Rollenbasierte Zugriffskontrolle (RBAC)",
-          "Authentifizierungsintegration (XSUAA, IAS)",
-          "Autorisierungs-Annotationen und Einschränkungen",
-          "Datenschutz und Sicherheit auf Feldebene",
-          "Sichere Credential-Verwaltung"
+          "Rol tabanlı erişim kontrolü (RBAC)",
+          "Kimlik doğrulama entegrasyonu (XSUAA, IAS)",
+          "Yetkilendirme ek açıklamaları ve kısıtlamaları",
+          "Veri gizliliği ve alan düzeyinde güvenlik",
+          "Güvenli kimlik bilgisi yönetimi"
         ]
       },
       "api": {
-        "title": "API & Service-Entwicklung",
-        "description": "Entwicklung robuster OData und REST APIs mit CAP-Services.",
+        "title": "API & Hizmet Geliştirme",
+        "description": "CAP Hizmetleri ile sağlam OData ve REST API'leri geliştirin.",
         "items": [
-          "OData V2 und V4 Service-Erstellung",
-          "REST API-Implementierung",
-          "Benutzerdefinierte Actions und Functions",
-          "Draft-Aktivierung für transaktionale Apps",
-          "Externe Service-Integration und Mashups"
+          "OData V2 ve V4 hizmet oluşturma",
+          "REST API uygulaması",
+          "Özel eylemler ve işlevler",
+          "İşlemsel uygulamalar için taslak etkinleştirme",
+          "Harici hizmet entegrasyonu ve birleşimi"
         ]
       },
       "fiori": {
-        "title": "Fiori Elements Integration",
-        "description": "Schnelle UI-Entwicklung mit Fiori Elements und CAP.",
+        "title": "Fiori Elements Entegrasyonu",
+        "description": "Fiori Elements ve CAP ile hızlı Kullanıcı Arayüzü geliştirme.",
         "items": [
-          "List Report und Object Page Anwendungen",
-          "Analytical List Page (ALP) Entwicklung",
-          "Freestyle Fiori App Integration",
-          "UI-Annotationen und Anpassung",
-          "Responsives und adaptives Design"
+          "Liste Raporu ve Nesne Sayfası uygulamaları",
+          "Analitik Liste Sayfası (ALP) geliştirme",
+          "Serbest biçimli Fiori Uygulaması Entegrasyonu",
+          "Kullanıcı Arayüzü ek açıklamaları ve özelleştirmesi",
+          "Duyarlı ve uyarlanabilir tasarım"
         ]
       },
       "cicd": {
         "title": "CI/CD & DevOps",
-        "description": "Automatisierte Bereitstellung und Continuous Integration Pipelines.",
+        "description": "Otomatikleştirilmiş dağıtım ve Sürekli Entegrasyon Boru Hatları.",
         "items": [
-          "Cloud Foundry und Kyma Deployment",
-          "MTA (Multi-Target Application) Build",
-          "Automatisierte Tests und Quality Gates",
-          "CI/CD Pipeline Setup (Jenkins, GitHub Actions)",
-          "Multi-Environment Promotion-Strategien"
+          "Cloud Foundry ve Kyma dağıtımı",
+          "MTA (Multi-Target Application) derleme",
+          "Otomatikleştirilmiş testler ve kalite kapıları",
+          "CI/CD Boru Hattı Kurulumu (Jenkins, GitHub Actions)",
+          "Çok Ortam Promosyon Stratejileri"
         ]
       }
     },
     "benefits": [
-      "Beschleunigte Entwicklung mit bewährten CAP-Mustern",
-      "Eingebaute Best Practices und unternehmensfertige Architektur",
-      "Skalierbare Anwendungen, die mit Ihrem Unternehmen wachsen",
-      "Nahtlose SAP S/4HANA Integration",
-      "Expertenberatung während des gesamten Entwicklungszyklus"
+      "Kanıtlanmış CAP desenlerine sahip hızlandırılmış geliştirme",
+      "Yerleşik en iyi uygulamalar ve kurumsal hazır mimari",
+      "İşletmenizle büyüyen ölçeklenebilir uygulamalar",
+      "Sorunsuz SAP S/4HANA Entegrasyonu",
+      "Geliştirme yaşam döngüsü boyunca uzman rehberliği"
     ]
   },
   "buildAppsPage": {
-    "badge": "No-Code/Low-Code Entwicklung",
-    "title": "SAP Build Apps",
-    "subtitle": "Entwicklungsservices",
-    "description": "Erstellung professioneller Unternehmensanwendungen mit No-Code/Low-Code-Tools für schnelle digitale Transformation und Geschäftsagilität.",
-    "cta": "Heute mit dem Aufbau beginnen →",
-    "servicesTitle": "Komplette SAP Build Apps Lösungen",
-    "servicesSubtitle": "Von visueller Entwicklung bis zur Unternehmensbereitstellung - befähigen Sie Ihre Geschäftsanwender.",
-    "whyChooseTitle": "Schnelle Anwendungsentwicklung",
-    "whyChooseDescription": "SAP Build Apps ermöglicht es Geschäftsanwendern und Entwicklern, leistungsstarke Anwendungen ohne umfangreiche Programmierung zu erstellen. Beschleunigen Sie Ihre digitale Transformation mit visuellen Entwicklungstools.",
-    "implementationTitle": "Implementierungsansatz",
+    "badge": "Kod Yazmayan/Düşük Kodlu Geliştirme",
+    "title": "SAP Build Uygulamaları",
+    "subtitle": "Geliştirme Hizmetleri",
+    "description": "Hızlı dijital dönüşüm ve işletme çevikliği için kod yazmayan/düşük kodlu araçlarla profesyonel kurumsal uygulamalar oluşturun.",
+    "cta": "Bugün İnşa Etmeye Başlayın →",
+    "servicesTitle": "Tamamlayıcı SAP Build Uygulamaları Çözümleri",
+    "servicesSubtitle": "Görsel geliştirmeden kurumsal dağıtıma kadar - iş kullanıcılarınızı güçlendirin.",
+    "whyChooseTitle": "Hızlı Uygulama Geliştirme",
+    "whyChooseDescription": "SAP Build Uygulamaları, iş kullanıcıları ve geliştiricilerin kapsamlı programlama olmadan güçlü uygulamalar oluşturmasını sağlar. Görsel geliştirme araçlarıyla dijital dönüşümünüzü hızlandırın.",
+    "implementationTitle": "Uygulama Yaklaşımı",
     "features": {
       "visual": {
-        "title": "Visuelle Entwicklung",
-        "description": "Drag-and-Drop-Oberfläche für schnelle Anwendungserstellung.",
+        "title": "Görsel Geliştirme",
+        "description": "Hızlı uygulama oluşturma için sürükle ve bırak arayüzü.",
         "items": [
-          "Intuitiver visueller Page Builder",
-          "Vorgefertigte UI-Komponentenbibliothek",
-          "Responsive Design Canvas",
-          "Echtzeit-Vorschau und Tests",
-          "Theme-Anpassung und Branding"
+          "Sezgisel görsel sayfa oluşturucu",
+          "Önceden oluşturulmuş Kullanıcı Arayüzü bileşen kitaplığı",
+          "Duyarlı tasarım tuvalı",
+          "Gerçek zamanlı önizleme ve test",
+          "Tema özelleştirmesi ve markalama"
         ]
       },
       "crossPlatform": {
-        "title": "Cross-Platform Apps",
-        "description": "Einmal erstellen, überall bereitstellen - Web, iOS und Android.",
+        "title": "Platformlar Arası Uygulamalar",
+        "description": "Bir kez oluşturun, her yerde dağıtın - Web, iOS ve Android.",
         "items": [
-          "Progressive Web App (PWA) Support",
-          "Native Mobile App Generierung",
-          "Tablet und Desktop Optimierung",
-          "Offline-Datenfunktionen",
-          "App Store Deployment Support"
+          "İlerleme Halindeki Web Uygulaması (PWA) Desteği",
+          "Yerel Mobil Uygulaması Oluşturma",
+          "Tablet ve Masaüstü Optimizasyonu",
+          "Çevrimdışı veri özellikleri",
+          "App Store Dağıtım Desteği"
         ]
       },
       "cloudNative": {
-        "title": "Cloud-Native Integration",
-        "description": "Nahtlose Verbindung zu SAP BTP Services und Daten.",
+        "title": "Bulut-Yerel Entegrasyon",
+        "description": "SAP BTP Hizmetleri ve Verilere Sorunsuz Bağlantı.",
         "items": [
-          "SAP S/4HANA Cloud Integration",
-          "OData Service Konnektivität",
-          "BTP Service Consumption",
-          "Authentifizierung und Autorisierung",
-          "Echtzeit-Datensynchronisierung"
+          "SAP S/4HANA Cloud Entegrasyonu",
+          "OData Hizmet Bağlantısı",
+          "BTP Hizmet Tüketimi",
+          "Kimlik doğrulama ve Yetkilendirme",
+          "Gerçek zamanlı Veri Senkronizasyonu"
         ]
       },
       "rapid": {
-        "title": "Rapid Prototyping",
-        "description": "Ideen schnell validieren und basierend auf Feedback iterieren.",
+        "title": "Hızlı Prototip Oluşturma",
+        "description": "Fikirleri hızlı şekilde doğrulayın ve geri bildirimi temel alarak yineleyin.",
         "items": [
-          "Schnelle MVP-Entwicklung",
-          "Benutzertests und Feedback-Erfassung",
-          "Iteratives Design und Verfeinerung",
-          "Versionskontrolle und Rollback",
-          "Kollaborationstools für Teams"
+          "Hızlı MVP Geliştirme",
+          "Kullanıcı testleri ve geri bildirim toplama",
+          "Yinelemeli tasarım ve iyileştirme",
+          "Sürüm kontrol ve geri alma",
+          "Takımlar için işbirliği araçları"
         ]
       },
       "citizen": {
-        "title": "Citizen Developer Enablement",
-        "description": "Befähigen Sie Geschäftsanwender, Anwendungen zu erstellen.",
+        "title": "Vatandaş Geliştirici Etkinleştirmesi",
+        "description": "İş kullanıcılarının uygulamalar oluşturmalarını sağlayın.",
         "items": [
-          "Niedrige Lernkurve für Nicht-Entwickler",
-          "Geführte Entwicklungsworkflows",
-          "Template und Blueprint Bibliothek",
-          "Governance und Qualitätskontrollen",
-          "Schulungs- und Enablement-Programme"
+          "Geliştiricisi olmayanlar için düşük öğrenme eğrisi",
+          "Rehberlik edilen geliştirme iş akışları",
+          "Şablon ve plan kitaplığı",
+          "Yönetişim ve kalite kontrolleri",
+          "Eğitim ve etkinleştirme programları"
         ]
       },
       "proCode": {
-        "title": "Pro-Code Erweiterbarkeit",
-        "description": "Bei Bedarf mit benutzerdefiniertem Code erweitern.",
+        "title": "Pro-Kod Genişletilebilirliği",
+        "description": "Gerektiğinde özel kodla genişletin.",
         "items": [
-          "Benutzerdefinierte JavaScript-Logik",
-          "API-Integrationsmöglichkeiten",
-          "Entwicklung benutzerdefinierter Komponenten",
-          "Erweiterte Datentransformationen",
-          "Integration von Drittanbieter-Bibliotheken"
+          "Özel JavaScript mantığı",
+          "API entegrasyon yetenekleri",
+          "Özel bileşen geliştirme",
+          "Gelişmiş veri dönüştürmeleri",
+          "Üçüncü taraf kitaplık entegrasyonu"
         ]
       }
     },
     "benefits": [
-      "10x schnellere Anwendungsentwicklung",
-      "Reduzierung der Entwicklungskosten um 60%",
-      "Befähigung von Geschäftsanwendern zur Innovation",
-      "Nahtlose SAP-Ökosystem-Integration",
-      "Enterprise-Grade Sicherheit und Governance"
+      "10 kat daha hızlı uygulama geliştirme",
+      "Geliştirme maliyetlerinde yüzde 60 azaltma",
+      "İş kullanıcılarını inovasyona güçlendirme",
+      "Sorunsuz SAP ekosistem entegrasyonu",
+      "Kurumsal düzey güvenlik ve yönetişim"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Anforderungen & Design",
-        "description": "Workshop zum Verständnis der Geschäftsanforderungen und Design der App-Struktur mit Stakeholdern."
+        "title": "1. Gereksinimler & Tasarım",
+        "description": "Paydaşlarla iş gereksinimlerini anlamak ve uygulama yapısını tasarlamak için atölye."
       },
       "step2": {
-        "title": "2. Visuelle Entwicklung",
-        "description": "App-Erstellung mit Drag-and-Drop-Oberfläche mit vorgefertigten Komponenten und Templates."
+        "title": "2. Görsel Geliştirme",
+        "description": "Önceden oluşturulmuş bileşenler ve şablonlarla sürükle ve bırak arayüzü kullanarak uygulama oluşturun."
       },
       "step3": {
-        "title": "3. Datenintegration",
-        "description": "Verbindung zu SAP-Systemen und externen Datenquellen mit nahtloser Authentifizierung."
+        "title": "3. Veri Entegrasyonu",
+        "description": "Sorunsuz kimlik doğrulama ile SAP sistemlerine ve harici veri kaynaklarına bağlanın."
       },
       "step4": {
-        "title": "4. Tests & Verfeinerung",
-        "description": "Benutzerakzeptanztests und iterative Verbesserungen basierend auf Feedback."
+        "title": "4. Test & Iyileştirme",
+        "description": "Kullanıcı kabul testleri ve geri bildirimi temel alarak yinelemeli iyileştirmeler."
       },
       "step5": {
-        "title": "5. Bereitstellung",
-        "description": "Bereitstellung für Web, iOS und Android mit automatisiertem Build und Distribution."
+        "title": "5. Dağıtım",
+        "description": "Web, iOS ve Android'e otomatikleştirilmiş derleme ve dağıtımla dağıtın."
       },
       "step6": {
-        "title": "6. Schulung & Support",
-        "description": "Endanwenderschulung und kontinuierlicher Support für kontinuierliche Verbesserung."
+        "title": "6. Eğitim & Destek",
+        "description": "Son kullanıcı eğitimi ve sürekli iyileştirme için devam eden destek."
       }
     }
   },
   "buildAutomationPage": {
-    "badge": "Prozessautomatisierung",
-    "title": "SAP Build Process Automation",
-    "subtitle": "Services",
-    "description": "Automatisierung von Geschäftsprozessen mit intelligenten Workflow- und Robotic-Process-Automation-Funktionen für gesteigerte Effizienz.",
-    "cta": "Automatisieren Sie Ihre Prozesse →",
-    "servicesTitle": "Komplette Prozessautomatisierungslösungen",
-    "servicesSubtitle": "Von einfachen Workflows bis zu komplexer RPA - umfassende Automatisierungs-Expertise.",
-    "whyChooseTitle": "Intelligente Prozessautomatisierung",
-    "whyChooseDescription": "Transformieren Sie Ihre Geschäftsabläufe mit SAP Build Process Automation. Kombinieren Sie Workflow-Management, RPA und KI für End-to-End-Prozessexzellenz.",
-    "implementationTitle": "Implementierungs-Roadmap",
+    "badge": "Süreç Otomasyonu",
+    "title": "SAP Build Süreç Otomasyonu",
+    "subtitle": "Hizmetler",
+    "description": "Artan verimlilik için akıllı iş akışı ve robotic süreç otomasyonu yetenekleri ile iş süreçlerini otomatikleştirin.",
+    "cta": "Süreçlerinizi Otomatikleştirin →",
+    "servicesTitle": "Tamamlayıcı Süreç Otomasyon Çözümleri",
+    "servicesSubtitle": "Basit iş akışlarından karmaşık RPA'ya kadar - kapsamlı otomasyon uzmanlığı.",
+    "whyChooseTitle": "Akıllı Süreç Otomasyonu",
+    "whyChooseDescription": "SAP Build Süreç Otomasyonu ile iş operasyonlarınızı dönüştürün. İş akışı yönetimi, RPA ve yapay zekayı end-to-end süreç mükemmelliği için birleştirin.",
+    "implementationTitle": "Uygulama Yol Haritası",
     "features": {
       "workflow": {
-        "title": "Workflow-Management",
-        "description": "Design und Orchestrierung komplexer Geschäftsworkflows.",
+        "title": "İş Akışı Yönetimi",
+        "description": "Karmaşık iş iş akışlarının tasarımı ve koordinasyonu.",
         "items": [
-          "Visueller Workflow-Designer",
-          "Genehmigungs- und Routing-Logik",
-          "Human Task Management",
-          "Parallele und sequentielle Verarbeitung",
-          "Eskalations- und Deadline-Handling"
+          "Görsel iş akışı tasarımcısı",
+          "Onay ve yönlendirme mantığı",
+          "İnsan Görev Yönetimi",
+          "Paralel ve sıralı işleme",
+          "Eskalasyon ve son tarih işleme"
         ]
       },
       "rpa": {
-        "title": "Robotic Process Automation",
-        "description": "Automatisierung repetitiver Aufgaben mit Software-Robotern.",
+        "title": "Robotic Süreç Otomasyonu",
+        "description": "Yazılım robotları ile tekrarlayan görevlerin otomasyonu.",
         "items": [
-          "Desktop- und Web-Automatisierung",
-          "Screen Scraping und Datenextraktion",
-          "Anwendungsintegration ohne APIs",
-          "Attended und Unattended Bots",
-          "Bot-Scheduling und Orchestrierung"
+          "Masaüstü ve web otomasyonu",
+          "Ekran kazıma ve veri çıkarma",
+          "API'ler olmadan uygulama entegrasyonu",
+          "İşletilen ve işletilmeyen botlar",
+          "Bot planlama ve orkestrasyonu"
         ]
       },
       "document": {
-        "title": "Dokumentenverarbeitung",
-        "description": "Intelligente Dokumentenextraktion und Klassifizierung.",
+        "title": "Belge İşleme",
+        "description": "Akıllı belge çıkarma ve sınıflandırma.",
         "items": [
-          "KI-gestützte Datenextraktion",
-          "Dokumentenklassifizierung und Routing",
-          "Template-basierte Verarbeitung",
-          "Multi-Format-Support (PDF, Bilder, Scans)",
-          "Validierungs- und Verifizierungsregeln"
+          "Yapay zeka destekli veri çıkarma",
+          "Belge sınıflandırma ve yönlendirme",
+          "Şablon tabanlı işleme",
+          "Çoklu format desteği (PDF, görüntüler, tarama)",
+          "Doğrulama ve doğrulama kuralları"
         ]
       },
       "approval": {
-        "title": "Genehmigungsworkflows",
-        "description": "Optimierung von Genehmigungsprozessen in Ihrer Organisation.",
+        "title": "Onay İş Akışları",
+        "description": "Kuruluşunuz genelinde onay süreçlerini akış.",
         "items": [
-          "Mehrstufige Genehmigungsketten",
-          "Bedingte Routing-Logik",
-          "Delegations- und Vertretungsregeln",
-          "Mobile Genehmigungsfunktionen",
-          "Benachrichtigungs- und Erinnerungssystem"
+          "Çok seviyeli onay zinciri",
+          "Koşullu yönlendirme mantığı",
+          "Delegasyon ve ikame kuralları",
+          "Mobil onay yetenekleri",
+          "Bildirim ve hatırlatma sistemi"
         ]
       },
       "analytics": {
-        "title": "Prozessanalysen",
-        "description": "Einblicke in Prozessleistung und Engpässe gewinnen.",
+        "title": "Süreç Analitiği",
+        "description": "Süreç performansı ve darboğazlara ilişkin içgörü elde edin.",
         "items": [
-          "Process Mining und Discovery",
-          "Performance-Metriken und KPIs",
-          "Engpass-Identifizierung",
-          "Compliance-Überwachung",
-          "Kontinuierliche Verbesserungsempfehlungen"
+          "Süreç madenciliği ve keşfi",
+          "Performans metrikleri ve KPI'lar",
+          "Darboğaz tanımlaması",
+          "Uyum izleme",
+          "Sürekli iyileştirme önerileri"
         ]
       },
       "governance": {
-        "title": "Governance & Compliance",
-        "description": "Sicherstellung, dass Prozesse regulatorische Anforderungen erfüllen.",
+        "title": "Yönetişim & Uyum",
+        "description": "Süreçlerin yasal gereklilikleri karşılamasını sağlayın.",
         "items": [
-          "Audit Trail und Protokollierung",
-          "Zugriffskontrolle und Sicherheit",
-          "Compliance-Regeldurchsetzung",
-          "Versionskontrolle und Change Management",
-          "SLA-Überwachung und -Durchsetzung"
+          "Denetim izi ve günlüğe kaydı",
+          "Erişim kontrol ve güvenlik",
+          "Uyum kuralı uygulama",
+          "Sürüm kontrol ve değişim yönetimi",
+          "SLA izleme ve uygulama"
         ]
       }
     },
     "benefits": [
-      "70% Reduzierung der manuellen Verarbeitungszeit",
-      "99,9% Genauigkeit bei automatisierten Aufgaben",
-      "Schneller ROI innerhalb von 3-6 Monaten",
-      "Verbesserte Compliance und Auditierbarkeit",
-      "Dedizierter Implementierungssupport und Optimierung"
+      "Manuel işleme süresinde yüzde 70 azaltma",
+      "Otomatikleştirilmiş görevlerde yüzde 99,9 doğruluk",
+      "3-6 ay içinde hızlı geri dönüş oranı",
+      "Geliştirilmiş uyum ve denetlenebilirlik",
+      "Adanmış uygulama desteği ve optimizasyon"
     ],
     "implementation": {
       "step1": {
-        "title": "1. Prozess-Discovery",
-        "description": "Analyse und Dokumentation aktueller Prozesse zur Identifizierung von Automatisierungsmöglichkeiten."
+        "title": "1. Süreç Keşfi",
+        "description": "Otomasyon fırsatlarını belirlemek için geçerli süreçleri analiz edin ve belgeleyin."
       },
       "step2": {
-        "title": "2. Automatisierungsdesign",
-        "description": "Design der optimalen Automatisierungslösung durch Kombination von Workflow, RPA und KI-Funktionen."
+        "title": "2. Otomasyon Tasarımı",
+        "description": "İş akışı, RPA ve yapay zeka yeteneklerini birleştiren optimal otomasyon çözümü tasarlayın."
       },
       "step3": {
-        "title": "3. Entwicklung & Konfiguration",
-        "description": "Aufbau und Konfiguration der Automatisierung mit SAP Build Process Automation Tools."
+        "title": "3. Geliştirme & Yapılandırma",
+        "description": "SAP Build Süreç Otomasyonu araçlarını kullanarak otomasyonu oluşturun ve yapılandırın."
       },
       "step4": {
-        "title": "4. Tests & Validierung",
-        "description": "Umfassende Tests zur Gewährleistung von Genauigkeit und Zuverlässigkeit der Automatisierung."
+        "title": "4. Test & Doğrulama",
+        "description": "Otomasyonun doğruluğunu ve güvenilirliğini sağlamak için kapsamlı test."
       },
       "step5": {
-        "title": "5. Bereitstellung & Go-Live",
-        "description": "Produktionsbereitstellung mit überwachtem Rollout und Benutzerschulung."
+        "title": "5. Dağıtım & Go-Live",
+        "description": "İzlenen kullanıma ve kullanıcı eğitimi ile otomasyonu üretime dağıtın."
       },
       "step6": {
-        "title": "6. Überwachung & Optimierung",
-        "description": "Kontinuierliche Überwachung und Verbesserung basierend auf Performance-Analysen."
+        "title": "6. İzleme & Optimizasyon",
+        "description": "Performans analitiğine dayalı sürekli izleme ve iyileştirme."
       }
     }
   },
   "btpArchitecture": {
-    "badge": "Architektur & Design",
-    "title": "SAP BTP-Architektur",
-    "subtitle": "& Design Services",
-    "description": "Strategische Architekturplanung und Design für skalierbare, sichere und hochperformante SAP BTP-Lösungen. Wir erstellen Enterprise-Grade Cloud-Umgebungen maßgeschneidert für Ihre Geschäftsanforderungen.",
-    "cta": "Besprechen Sie Ihre Architekturanforderungen →",
-    "servicesTitle": "Umfassende Architekturservices",
-    "servicesSubtitle": "Vom initialen Landschaftsdesign bis zur Sicherheitsimplementierung decken wir jeden Aspekt Ihrer SAP BTP-Architektur ab.",
-    "whyChooseTitle": "Professionelle Architektur mit Ergebnissen",
-    "whyChooseDescription": "Unsere zertifizierten SAP BTP-Architekten bringen jahrelange Erfahrung im Design von Enterprise-Lösungen für globale Organisationen mit. Wir kombinieren Best Practices mit Innovation, um Architekturen zu schaffen, die der Zeit standhalten.",
+    "badge": "Mimari & Tasarım",
+    "title": "SAP BTP Mimarisi",
+    "subtitle": "& Tasarım Hizmetleri",
+    "description": "Ölçeklenebilir, güvenli ve yüksek performanslı SAP BTP çözümleri için stratejik mimari planlama ve tasarım. İşletme gereksinimlerinize uyarlanmış kurumsal sınıf bulut ortamları oluştururuz.",
+    "cta": "Mimari Gereksinimlerinizi Tartışın →",
+    "servicesTitle": "Kapsamlı Mimari Hizmetleri",
+    "servicesSubtitle": "İlk peyzaj tasarımından güvenlik uygulamasına kadar - SAP BTP mimarinizin her yönünü kapsar.",
+    "whyChooseTitle": "Sonuçlar Sağlayan Uzman Mimari",
+    "whyChooseDescription": "Sertifikalı SAP BTP mimarlarımız küresel kuruluşlar için kurumsal çözümler tasarlamada yılların deneyimini getiriyor. En iyi uygulamaları inovasyon ile birleştirerek zamanın testine dayanacak mimariler oluştururuz.",
     "features": {
       "landscape": {
-        "title": "Landschaftsdesign",
-        "description": "Umfassende BTP-Landschaftsarchitektur maßgeschneidert für Ihre Geschäftsanforderungen.",
+        "title": "Peyzaj Tasarımı",
+        "description": "İşletme gereksinimlerinize uyarlanmış kapsamlı BTP peyzaj mimarisi.",
         "items": [
-          "Multi-Tier Environment Setup (Dev, Test, Production)",
-          "Subaccount-Struktur und Organisation",
-          "Ressourcenzuweisung und Kapazitätsplanung",
-          "Cloud Foundry und Kyma Runtime Konfiguration",
-          "Netzwerktopologie und Konnektivitätsplanung"
+          "Çok katmanlı ortam kurulumu (Dev, Test, Production)",
+          "Alt hesap yapısı ve organizasyonu",
+          "Kaynak tahsisi ve kapasite planlaması",
+          "Cloud Foundry ve Kyma çalışma zamanı yapılandırması",
+          "Ağ topolojisi ve bağlantı planlaması"
         ]
       },
       "security": {
-        "title": "Sicherheitsarchitektur",
-        "description": "Enterprise-Grade Sicherheitsdesign zum Schutz Ihrer BTP-Umgebung und Daten.",
+        "title": "Güvenlik Mimarisi",
+        "description": "BTP ortamınız ve verilerinizi korumak için kurumsal sınıf güvenlik tasarımı.",
         "items": [
-          "Identity and Access Management (IAM) Strategie",
-          "Rollenbasierte Zugriffskontrolle (RBAC) Implementierung",
-          "Datenverschlüsselung und Compliance-Standards",
-          "Sicherheitsüberwachung und Bedrohungserkennung",
-          "Audit-Protokollierung und Compliance-Reporting"
+          "Kimlik ve Erişim Yönetimi (IAM) stratejisi",
+          "Rol tabanlı erişim kontrolü (RBAC) uygulaması",
+          "Veri şifreleme ve uyum standartları",
+          "Güvenlik izleme ve tehdit algılama",
+          "Denetim günlüğü ve uyum raporlaması"
         ]
       },
       "highAvailability": {
-        "title": "Hochverfügbarkeit",
-        "description": "Design resilienter Systeme mit minimaler Ausfallzeit und maximaler Zuverlässigkeit.",
+        "title": "Yüksek Kullanılabilirlik",
+        "description": "Minimum kesinti ve maksimum güvenilirlik ile esnek sistemleri tasarlayın.",
         "items": [
-          "Multi-Region Deployment-Strategien",
-          "Disaster Recovery und Backup-Lösungen",
-          "Load Balancing und Failover-Mechanismen",
-          "Business Continuity Planung",
-          "Performance-Überwachung und Optimierung"
+          "Çok bölgeli dağıtım stratejileri",
+          "Olağanüstü durum kurtarma ve yedekleme çözümleri",
+          "Yük dengeleme ve başarısız alma mekanizmaları",
+          "İşletme sürekliliği planlaması",
+          "Performans izleme ve optimizasyonu"
         ]
       },
       "integrationSetup": {
-        "title": "Integration Suite Setup",
-        "description": "Vollständige Integration Suite Konfiguration für nahtlose Systemkonnektivität.",
+        "title": "Entegrasyon Paketi Kurulumu",
+        "description": "Sorunsuz sistem bağlantısı için tam Entegrasyon Paketi yapılandırması.",
         "items": [
-          "Cloud Integration (CPI) Setup und Konfiguration",
-          "API Management Implementierung",
-          "Open Connectors Konfiguration",
-          "Integration Advisor Nutzung",
-          "Vorgefertigte Integrationsinhalte Deployment"
+          "Bulut Entegrasyonu (CPI) kurulumu ve yapılandırması",
+          "API Yönetim uygulaması",
+          "Açık Konektörler yapılandırması",
+          "Entegrasyon Danışmanı kullanımı",
+          "Önceden paketlenmiş entegrasyon içeriği dağıtımı"
         ]
       },
       "cloudConnector": {
-        "title": "SAP Cloud Connector Setup",
-        "description": "Sichere On-Premise zu Cloud Konnektivität für Hybrid-Landschaftsintegration.",
+        "title": "SAP Bulut Bağlayıcısı Kurulumu",
+        "description": "Hibrit peyzaj entegrasyonu için güvenli şirket içi bulut bağlantısı.",
         "items": [
-          "Cloud Connector Installation und Konfiguration",
-          "Sichere Tunnel-Einrichtung zwischen On-Premise und BTP",
-          "Zugriffskontrolle und Security Group Management",
-          "System-Mapping und Virtual Host Konfiguration",
-          "Hochverfügbarkeit und Failover Setup",
-          "Überwachung und Troubleshooting von Konnektivitätsproblemen"
+          "Bulut Bağlayıcı kurulumu ve yapılandırması",
+          "Şirket içi ile BTP arasında güvenli tünel kurulması",
+          "Erişim kontrol ve güvenlik grubu yönetimi",
+          "Sistem eşlemesi ve sanal ana bilgisayar yapılandırması",
+          "Yüksek kullanılabilirlik ve başarısız alma kurulumu",
+          "Bağlantı sorunlarının izlenmesi ve giderilmesi"
         ]
       },
       "eventMeshSetup": {
-        "title": "Event Mesh Setup",
-        "description": "Event-driven Architecture Implementierung für Echtzeit-Geschäftsprozesse.",
+        "title": "Olay Ağı Kurulumu",
+        "description": "Gerçek zamanlı iş süreçleri için olay odaklı mimari uygulaması.",
         "items": [
-          "Event Mesh Instanz-Bereitstellung",
-          "Queue und Topic Konfiguration",
-          "Event Broker Setup und Management",
-          "Message Routing und Filterregeln",
-          "Event-Überwachung und Analytics"
+          "Olay Ağı örneğinin sağlanması",
+          "Kuyruğu ve Konu yapılandırması",
+          "Olay Aracısı kurulumu ve yönetimi",
+          "İleti yönlendirme ve filtreleme kuralları",
+          "Olay izleme ve analitiği"
         ]
       },
       "ias": {
-        "title": "IAS Setup",
-        "description": "Identity Authentication Service Konfiguration für sichere Benutzerverwaltung.",
+        "title": "IAS Kurulumu",
+        "description": "Güvenli kullanıcı yönetimi için Kimlik Kimlik Doğrulama Hizmeti yapılandırması.",
         "items": [
-          "IAS Tenant Bereitstellung und Konfiguration",
-          "Single Sign-On (SSO) Implementierung",
-          "Multi-Faktor-Authentifizierung (MFA) Setup",
-          "Corporate Identity Provider Integration",
-          "Benutzerbereitstellung und Lifecycle Management"
+          "IAS kiracı sağlanması ve yapılandırması",
+          "Tek Oturum Açma (SSO) uygulaması",
+          "Çok faktörlü kimlik doğrulama (MFA) kurulumu",
+          "Kurumsal kimlik sağlayıcı entegrasyonu",
+          "Kullanıcı sağlanması ve yaşam döngüsü yönetimi"
         ]
       },
       "userAuth": {
-        "title": "Benutzerauthentifizierung & Rollen",
-        "description": "Umfassendes Benutzerverwaltungs- und Autorisierungs-Framework.",
+        "title": "Kullanıcı Kimlik Doğrulama & Roller",
+        "description": "Kapsamlı kullanıcı yönetimi ve yetkilendirme çerçevesi.",
         "items": [
-          "Benutzerdefinierte Rollendefinition und Management",
-          "Autorisierungsmodell-Design",
-          "Benutzergruppenorganisation",
-          "Anwendungsebenen-Sicherheitsimplementierung",
-          "Rollenzuweisung und Delegationsworkflows"
+          "Özel rol tanımı ve yönetimi",
+          "Yetkilendirme modeli tasarımı",
+          "Kullanıcı grubu organizasyonu",
+          "Uygulama seviyesi güvenlik uygulaması",
+          "Rol atama ve delegasyon iş akışları"
         ]
       }
     },
     "benefits": [
-      "Reduzierte Implementierungszeit um 40% mit bewährten Architekturmustern",
-      "Enterprise-Grade Sicherheit konform mit Industriestandards",
-      "Skalierbare Infrastruktur, die mit Ihrem Unternehmen wächst",
-      "Proaktive Überwachungsfähigkeiten für kritische Systeme",
-      "Expertenberatung von zertifizierten SAP BTP-Architekten"
+      "Kanıtlanmış mimari desenlerle yüzde 40 azaltılmış uygulama süresi",
+      "Endüstri standartlarına uyumlu kurumsal sınıf güvenlik",
+      "İşletmenizle büyüyen ölçeklenebilir altyapı",
+      "Kritik sistemler için proaktif izleme yetenekleri",
+      "Sertifikalı SAP BTP mimarlarından uzman rehberliği"
     ],
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Fokussiert"
+        "label": "SAP BTP Odaklı"
       },
       "experience": {
         "value": "15+",
-        "label": "Jahre kombinierte Erfahrung"
+        "label": "Yıl Birleşik Deneyim"
       },
       "countries": {
         "value": "40+",
-        "label": "Betreute Länder"
+        "label": "Hizmet Verilen Ülkeler"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Küresel",
+        "label": "Uzman Ekip"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Starten Sie Ihr Projekt heute",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer SAP BTP-Architektur?",
-    "ctaSectionDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren SAP BTP-Architekten, um Ihre Anforderungen zu besprechen und zu erkunden, wie wir Ihnen zum Erfolg verhelfen können.",
-    "ctaSectionButton1": "Kostenlose Beratung vereinbaren →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Neden TerraBT'yi Seçmeli",
+    "ctaSectionBadge": "⚡ Projenizi Bugün Başlatın",
+    "ctaSectionTitle1": "İnşaatını Başlatmaya Hazır",
+    "ctaSectionTitle2": "SAP BTP Mimariniz?",
+    "ctaSectionDescription": "Gereksinimlerinizi tartışmak ve başarınız için nasıl yardımcı olabileceğimizi keşfetmek için SAP BTP mimarlarımızla ücretsiz bir danışma planlayın.",
+    "ctaSectionButton1": "Ücretsiz Danışma Planlayın →",
+    "ctaSectionButton2": "Tüm Hizmetleri Görüntüle"
   },
   "fioriDevelopment": {
-    "badge": "Anwendungsentwicklung",
-    "title": "SAP Fiori App",
-    "subtitle": "Entwicklungsservices",
-    "description": "Entwicklung moderner, responsiver Fiori-Anwendungen, die außergewöhnliche Benutzererlebnisse auf allen Geräten bieten. Von der Konzeption bis zur Bereitstellung erstellen wir schöne, leistungsstarke Apps mit SAPs neuesten Technologien.",
-    "cta": "Starten Sie Ihr Fiori-Projekt →",
-    "servicesTitle": "Komplette Fiori-Entwicklungslösungen",
-    "servicesSubtitle": "End-to-End Fiori-Entwicklungsservices von Design bis Bereitstellung und darüber hinaus.",
-    "whyChooseTitle": "Fiori-Experten, die Exzellenz liefern",
-    "whyChooseDescription": "Unsere SAP-zertifizierten Entwickler spezialisieren sich auf die Entwicklung von Enterprise-Grade Fiori-Anwendungen. Wir kombinieren technisches Fachwissen mit Design Thinking, um Apps zu erstellen, die Benutzer lieben.",
+    "badge": "Uygulama Geliştirme",
+    "title": "SAP Fiori Uygulaması",
+    "subtitle": "Geliştirme Hizmetleri",
+    "description": "Tüm cihazlarda istisnai kullanıcı deneyimleri sağlayan modern, duyarlı Fiori uygulamaları geliştirin. Konseptten dağıtıma kadar, SAP'nin en son teknolojilerini kullanarak güzel, performanslı uygulamalar oluştururuz.",
+    "cta": "Fiori Projenizi Başlatın →",
+    "servicesTitle": "Tamamlayıcı Fiori Geliştirme Çözümleri",
+    "servicesSubtitle": "Tasarımdan dağıtıma ve ötesine kadar end-to-end Fiori geliştirme hizmetleri.",
+    "whyChooseTitle": "Mükemmelliği Sağlayan Fiori Uzmanları",
+    "whyChooseDescription": "SAP sertifikalı geliştiricilerimiz kurumsal sınıf Fiori uygulamaları geliştirmede uzmanlaşmıştır. Kullanıcıların sevdiği uygulamalar oluşturmak için teknik uzmanlığı tasarım düşüncesi ile birleştiririz.",
     "features": {
       "customDev": {
-        "title": "Benutzerdefinierte Fiori-App-Entwicklung",
-        "description": "Entwicklung maßgeschneiderter Fiori-Anwendungen, die perfekt zu Ihren Geschäftsanforderungen passen.",
+        "title": "Özel Fiori Uygulama Geliştirme",
+        "description": "İşletme gereksinimlerinize mükemmel şekilde uyarlanmış Fiori uygulamalarını geliştirin.",
         "items": [
-          "SAPUI5 Framework Expertise",
-          "Fiori Elements und Freestyle Anwendungen",
-          "OData Service Integration",
-          "Responsives Design für alle Geräte",
-          "Benutzerdefinierte Controls und Komponenten"
+          "SAPUI5 çerçeve uzmanlığı",
+          "Fiori Elements ve Freestyle uygulamaları",
+          "OData hizmet entegrasyonu",
+          "Tüm cihazlar için duyarlı tasarım",
+          "Özel denetimler ve bileşenler"
         ]
       },
       "uiux": {
-        "title": "UI/UX Design",
-        "description": "Erstellung intuitiver, schöner Oberflächen nach SAP Fiori Design-Richtlinien.",
+        "title": "Kullanıcı Arayüzü/Kullanıcı Deneyimi Tasarımı",
+        "description": "SAP Fiori tasarım yönergelerini takip ederek sezgisel, güzel arayüzler oluşturun.",
         "items": [
-          "Einhaltung der SAP Fiori Design-Prinzipien",
-          "Benutzerforschung und Persona-Entwicklung",
-          "Wireframing und Prototyping",
-          "Barrierefreiheits-Compliance (WCAG)",
-          "Theme-Anpassung und Branding"
+          "SAP Fiori tasarım ilkelerine bağlılık",
+          "Kullanıcı araştırması ve persona geliştirme",
+          "Kablolama ve prototip oluşturma",
+          "Erişilebilirlik uyumluluğu (WCAG)",
+          "Tema özelleştirmesi ve markalama"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Gewährleistung, dass Ihre Fiori-Apps schnell laden und reibungslos auf jedem Gerät laufen.",
+        "title": "Performans Optimizasyonu",
+        "description": "Fiori uygulamalarınızın hızlı yüklendiğinden ve herhangi bir cihazda sorunsuz çalıştığından emin olun.",
         "items": [
-          "Code-Optimierung und Minifizierung",
-          "Lazy Loading Implementierung",
-          "Bundle-Größenreduzierung",
-          "Netzwerk-Request-Optimierung",
-          "Performance-Überwachung und Analytics"
+          "Kod optimizasyonu ve minifizasyon",
+          "Tembel yükleme uygulaması",
+          "Paket boyutu azaltma",
+          "Ağ isteği optimizasyonu",
+          "Performans izleme ve analitiği"
         ]
       },
       "mobile": {
-        "title": "Mobile-First Entwicklung",
-        "description": "Entwicklung von Fiori-Apps optimiert für mobile Benutzer und Offline-Szenarien.",
+        "title": "Mobil-İlk Geliştirme",
+        "description": "Mobil kullanıcılar ve çevrimdışı senaryolar için optimize edilmiş Fiori uygulamaları geliştirin.",
         "items": [
-          "Responsives und adaptives Design",
-          "Touch-optimierte Interaktionen",
-          "Mobile-spezifische Features (Kamera, GPS)",
-          "Offline-Datensynchronisierung",
-          "Progressive Web App (PWA) Funktionen"
+          "Duyarlı ve uyarlanabilir tasarım",
+          "Dokunma iyileştirilmiş etkileşimler",
+          "Mobil özel özellikler (kamera, GPS)",
+          "Çevrimdışı veri senkronizasyonu",
+          "İlerleme Halindeki Web Uygulaması (PWA) yetenekleri"
         ]
       },
       "integration": {
-        "title": "Integration & Tests",
-        "description": "Nahtlose Backend-Integration mit umfassender Testabdeckung.",
+        "title": "Entegrasyon & Test",
+        "description": "Kapsamlı test kapsamı ile sorunsuz arka uç entegrasyonu.",
         "items": [
-          "SAP Gateway und OData Service Erstellung",
-          "Backend-System-Integration",
-          "Unit- und Integrationstests",
-          "End-to-End Test-Automatisierung",
-          "Continuous Integration/Deployment (CI/CD)"
+          "SAP Gateway ve OData hizmet oluşturma",
+          "Arka uç sistem entegrasyonu",
+          "Birim ve entegrasyon testleri",
+          "End-to-end test otomasyonu",
+          "Sürekli entegrasyon/dağıtım (CI/CD)"
         ]
       },
       "support": {
-        "title": "Schulung & Support",
-        "description": "Befähigung Ihres Teams mit Wissen und laufendem Wartungssupport.",
+        "title": "Eğitim & Destek",
+        "description": "Bilgi ve devam eden bakım desteği ile takımınızı güçlendirin.",
         "items": [
-          "Entwickler-Schulungsworkshops",
-          "Best Practices Dokumentation",
-          "Code Review und Qualitätssicherung",
-          "Laufende Wartung und Updates",
-          "Umfassende Produktionsübergabe"
+          "Geliştirici eğitim atölyeleri",
+          "En iyi uygulamalar belgelendirmesi",
+          "Kod incelemesi ve kalite güvence",
+          "Devam eden bakım ve güncellemeler",
+          "Kapsamlı üretim teslimi"
         ]
       }
     },
     "benefits": [
-      "Moderne, intuitive Oberflächen, die Benutzerakzeptanz erhöhen",
-      "Schnellere Entwicklung mit wiederverwendbaren Komponenten und Templates",
-      "Geräteübergreifende Kompatibilität für nahtlose Erfahrung",
-      "SAP-zertifizierte Entwickler mit tiefgreifender Fiori-Expertise",
-      "Reduzierte Schulungskosten durch vertraute, konsistente UX"
+      "Modern, sezgisel arayüzler kullanıcı kabul artışı",
+      "Yeniden kullanılabilir bileşenler ve şablonlarla daha hızlı geliştirme",
+      "Sorunsuz deneyim sağlayan cihazlar arası uyumluluk",
+      "Derin Fiori uzmanlığı ile SAP sertifikalı geliştiriciler",
+      "Tanıdık, tutarlı Kullanıcı Deneyimi ile azaltılmış eğitim maliyetleri"
     ],
     "statistics": {
       "appsDelivered": {
         "value": "50+",
-        "label": "Fiori Apps geliefert"
+        "label": "Fiori Uygulamaları Sunuldu"
       },
       "satisfaction": {
         "value": "95%",
-        "label": "Benutzerzufriedenheitsrate"
+        "label": "Kullanıcı Memnuniyet Oranı"
       },
       "timeToMarket": {
         "value": "30%",
-        "label": "Schnellere Time-to-Market"
+        "label": "Daha Hızlı Pazar Zamanı"
       },
       "responsive": {
         "value": "100%",
-        "label": "Mobile Responsive"
+        "label": "Mobil Duyarlı"
       }
     },
-    "whyChooseBadge": "Warum TerraBT wählen",
-    "ctaSectionBadge": "⚡ Begrenzte Entwicklungsplätze verfügbar",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer nächsten Fiori-Anwendung?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Anforderungen besprechen und eine schöne, hochperformante Fiori-App erstellen, die Ihre Benutzer lieben werden.",
-    "ctaSectionButton1": "Kostenloses Angebot erhalten →",
-    "ctaSectionButton2": "Andere Services erkunden"
+    "whyChooseBadge": "Neden TerraBT'yi Seçmeli",
+    "ctaSectionBadge": "⚡ Sınırlı Geliştirme Yuvası Kullanılabilir",
+    "ctaSectionTitle1": "İnşaatını Başlatmaya Hazır",
+    "ctaSectionTitle2": "Sonraki Fiori Uygulamanız?",
+    "ctaSectionDescription": "Gereksinimlerinizi tartışalım ve kullanıcılarınızın sevdiği güzel, yüksek performanslı bir Fiori uygulaması oluşturalım.",
+    "ctaSectionButton1": "Ücretsiz Teklif Alın →",
+    "ctaSectionButton2": "Diğer Hizmetleri Keşfedin"
   },
   "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline-PWA-Apps",
-    "subtitle": "für SAP BTP",
-    "description": "Progressive Web-Anwendungen mit Offline-Funktionen für nahtlose Benutzererlebnisse überall. Entwicklung von Apps, die perfekt funktionieren, ob online oder offline, und native App-Erlebnisse über das Web liefern.",
-    "cta": "Bauen Sie Ihre PWA →",
-    "servicesTitle": "Komplette PWA-Entwicklungsservices",
-    "servicesSubtitle": "Von Offline-First-Architektur bis Push-Benachrichtigungen entwickeln wir PWAs, die mit nativen Apps konkurrieren.",
-    "whyChooseBadge": "Der PWA-Vorteil",
-    "whyChooseTitle": "Native Erfahrung, Web-Einfachheit",
-    "whyChooseDescription": "Progressive Web Apps kombinieren das Beste aus Web und nativen Apps. Keine App Store Genehmigungen, sofortige Updates und funktionieren auf allen Geräten - alles bei app-ähnlicher Erfahrung.",
+    "badge": "İlerleme Halindeki Web Uygulamaları",
+    "title": "Çevrimdışı PWA Uygulamaları",
+    "subtitle": "SAP BTP için",
+    "description": "Çevrimdışı yeteneklere sahip ilerleme halindeki web uygulamaları her yerde sorunsuz kullanıcı deneyimi sağlar. Çevrimiçi veya çevrimdışı olsun mükemmel şekilde çalışan uygulamalar oluşturun ve web üzerinden yerel uygulama deneyimleri sunun.",
+    "cta": "PWA'nızı Oluşturun →",
+    "servicesTitle": "Tamamlayıcı PWA Geliştirme Hizmetleri",
+    "servicesSubtitle": "Çevrimdışı-ilk mimariden push bildirimlerine kadar, yerel uygulamalarla rekabet eden PWA'lar oluştururuz.",
+    "whyChooseBadge": "PWA Avantajı",
+    "whyChooseTitle": "Yerel Deneyim, Web Basitliği",
+    "whyChooseDescription": "İlerleme Halindeki Web Uygulamaları web ve yerel uygulamaların en iyisini birleştirir. Hiçbir uygulama mağazası onayı yok, anında güncellemeler ve tüm cihazlarda çalışır - hepsi uygulama benzeri deneyim sağlarken.",
     "features": {
       "offlineFirst": {
-        "title": "Offline-First Architektur",
-        "description": "Design von Anwendungen, die nahtlos auch ohne Internetverbindung funktionieren.",
+        "title": "Çevrimdışı-İlk Mimari",
+        "description": "İnternet bağlantısı olmadan bile sorunsuz çalışan uygulamaları tasarlayın.",
         "items": [
-          "Service Worker Implementierung",
-          "Offline-Daten-Caching-Strategien",
-          "IndexedDB und Local Storage Management",
-          "Background Sync Funktionen",
-          "Konfliktlösungsstrategien"
+          "Service Worker uygulaması",
+          "Çevrimdışı veri önbelleğe alma stratejileri",
+          "IndexedDB ve yerel depolama yönetimi",
+          "Arka plan senkronizasyonu yetenekleri",
+          "Çatışma çözüm stratejileri"
         ]
       },
       "dataSync": {
-        "title": "Datensynchronisierung",
-        "description": "Intelligente Sync-Mechanismen für konsistente Daten über Geräte hinweg.",
+        "title": "Veri Senkronizasyonu",
+        "description": "Cihazlar arasında verileri tutarlı tutmak için akıllı senkronizasyon mekanizmaları.",
         "items": [
-          "Automatische Hintergrundsynchronisierung",
-          "Delta Sync für effizienten Datentransfer",
-          "Konflikterkennung und -lösung",
-          "Optimistische UI-Updates",
-          "Wiederholungsmechanismen und Fehlerbehandlung"
+          "Otomatik arka plan senkronizasyonu",
+          "Verimli veri aktarımı için Delta senkronizasyonu",
+          "Çatışma algılama ve çözümleme",
+          "İyimser Kullanıcı Arayüzü güncellemeleri",
+          "Yeniden deneme mekanizmaları ve hata işleme"
         ]
       },
       "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-ähnliche Erfahrung mit modernen Web-Funktionen.",
+        "title": "İlerleme Halindeki Web Uygulaması Özellikleri",
+        "description": "Modern web yetenekleri ile yerel uygulama benzeri deneyim.",
         "items": [
-          "App Manifest Konfiguration",
-          "Zum Homescreen hinzufügen Funktion",
-          "Push-Benachrichtigungs-Support",
-          "Kamera- und GPS-Integration",
-          "App Shell Architektur"
+          "Uygulama bildirim yapılandırması",
+          "Ana ekrana ekle işlevselliği",
+          "Push bildirim desteği",
+          "Kamera ve GPS entegrasyonu",
+          "Uygulama kabuğu mimarisi"
         ]
       },
       "performance": {
-        "title": "Performance-Optimierung",
-        "description": "Blitzschnelle Ladezeiten und reibungslose Offline-Übergänge.",
+        "title": "Performans Optimizasyonu",
+        "description": "Yıldırım hızlı yükleme süreleri ve sorunsuz çevrimdışı geçişler.",
         "items": [
-          "Pre-Caching kritischer Ressourcen",
-          "Lazy Loading für Bilder und Inhalte",
-          "Code Splitting und Bundling",
-          "Kompression und Minifizierung",
-          "Performance-Überwachung und Analytics"
+          "Kritik kaynakların ön önbelleğe alınması",
+          "Görüntüler ve içerik için tembel yükleme",
+          "Kod bölünmesi ve paketleme",
+          "Sıkıştırma ve minifizasyon",
+          "Performans izleme ve analitiği"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Sichere Offline-Datenspeicherung und -übertragung.",
+        "title": "Güvenlik & Uyum",
+        "description": "Güvenli çevrimdışı veri depolaması ve iletimi.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand",
-          "Sichere Authentifizierungs-Tokens",
-          "HTTPS-Durchsetzung",
-          "Content Security Policy (CSP)",
-          "Regelmäßige Sicherheitsaudits"
+          "Verilerin şifrelenmesi",
+          "Güvenli kimlik doğrulama belirteçleri",
+          "HTTPS uygulama",
+          "İçerik Güvenlik Politikası (CSP)",
+          "Düzenli güvenlik denetimleri"
         ]
       },
       "onlineEnhancement": {
-        "title": "Online-Verbesserung",
-        "description": "Erweiterte Funktionalität bei verfügbarer Konnektivität.",
+        "title": "Çevrimiçi Geliştirme",
+        "description": "Bağlantı kullanılabilir olduğunda geliştirilmiş işlevsellik.",
         "items": [
-          "Echtzeit-Updates und Benachrichtigungen",
-          "Cloud-Backup und Wiederherstellung",
-          "Multi-Geräte-Synchronisierung",
-          "Analytics und Telemetrie",
-          "Feature-Erkennung und progressive Verbesserung"
+          "Gerçek zamanlı güncellemeler ve bildirimler",
+          "Bulut yedekleme ve geri yükleme",
+          "Çok cihazlı senkronizasyon",
+          "Analitik ve telemetri",
+          "Özellik algılama ve kademeli geliştirme"
         ]
       }
     },
     "benefits": [
-      "Überall arbeiten, jederzeit - auch ohne Internet",
-      "Verbessertes Benutzererlebnis mit sofortigem Laden",
-      "Reduzierte Serverkosten durch effizientes Caching",
-      "Höhere Conversion-Raten durch app-ähnliche Erfahrung",
-      "Besseres Engagement durch Push-Benachrichtigungen"
+      "Her yerde, her zaman çalışın - internet olmasa bile",
+      "Anında yükleme ile geliştirilmiş kullanıcı deneyimi",
+      "Verimli önbelleğe alma ile azaltılmış sunucu maliyetleri",
+      "Uygulama benzeri deneyimden daha yüksek dönüşüm oranları",
+      "Push bildirimlerle daha iyi katılım"
     ],
     "statistics": {
       "offlineCapability": {
         "value": "100%",
-        "label": "Offline-Fähigkeit"
+        "label": "Çevrimdışı Yetenek"
       },
       "loadTime": {
         "value": "3x",
-        "label": "Schnellere Ladezeiten"
+        "label": "Daha Hızlı Yükleme Süreleri"
       },
       "dataReduction": {
         "value": "50%",
-        "label": "Reduzierter Datenverbrauch"
+        "label": "Azaltılmış Veri Kullanımı"
       },
       "engagement": {
         "value": "80%",
-        "label": "Höheres Engagement"
+        "label": "Daha Yüksek Katılım"
       }
     },
-    "ctaSectionBadge": "⚡ Offline-Funktionen heute aktivieren",
-    "ctaSectionTitle1": "Bereit zum Aufbau",
-    "ctaSectionTitle2": "Ihrer Offline-First PWA?",
-    "ctaSectionDescription": "Lassen Sie uns eine Progressive Web App erstellen, die einwandfrei offline funktioniert und Ihren Benutzern ein natives App-Erlebnis bietet.",
-    "ctaSectionButton1": "Ihr PWA-Projekt starten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "ctaSectionBadge": "⚡ Çevrimdışı Yetenekleri Bugün Etkinleştirin",
+    "ctaSectionTitle1": "İnşaatını Başlatmaya Hazır",
+    "ctaSectionTitle2": "Çevrimdışı-İlk PWA'nız?",
+    "ctaSectionDescription": "Çevrimdışı olarak kusursuz çalışan ve kullanıcılarınıza yerel uygulama deneyimi sağlayan bir İlerleme Halindeki Web Uygulaması oluşturalım.",
+    "ctaSectionButton1": "PWA Projenizi Başlatın →",
+    "ctaSectionButton2": "Tüm Hizmetleri Görüntüle"
   },
   "databaseManagement": {
-    "badge": "Datenverwaltung",
-    "title": "SAP BTP-Datenbank",
-    "subtitle": "Verwaltungsservices",
-    "description": "Effizientes Datenbankdesign, Optimierung und Verwaltung für hochperformante SAP BTP-Anwendungen. Expertenservices für SAP HANA Cloud, PostgreSQL und SAP ASE Datenbanken.",
-    "cta": "Optimieren Sie Ihre Datenbank →",
-    "servicesTitle": "Komplette Datenbankverwaltungslösungen",
-    "servicesSubtitle": "Von Design bis Optimierung, Sicherheit bis Recovery - umfassende Datenbank-Expertise.",
-    "whyChooseTitle": "Performance, Sicherheit, Zuverlässigkeit",
-    "whyChooseDescription": "Unsere Datenbankspezialisten bringen tiefgreifende Expertise in SAP BTP-Datenbanktechnologien mit. Wir stellen sicher, dass Ihre Daten schnell, sicher und immer verfügbar sind, wenn Sie sie benötigen.",
+    "badge": "Veri Yönetimi",
+    "title": "SAP BTP Veritabanı",
+    "subtitle": "Yönetim Hizmetleri",
+    "description": "Yüksek performanslı SAP BTP uygulamaları için etkili veritabanı tasarımı, optimizasyonu ve yönetimi. SAP HANA Cloud, PostgreSQL ve SAP ASE veritabanları için uzman hizmetleri.",
+    "cta": "Veritabanınızı Optimize Edin →",
+    "servicesTitle": "Tamamlayıcı Veritabanı Yönetim Çözümleri",
+    "servicesSubtitle": "Tasarımdan optimizasyona, güvenlikten kurtarmaya kadar - kapsamlı veritabanı uzmanlığı.",
+    "whyChooseTitle": "Performans, Güvenlik, Güvenilirlik",
+    "whyChooseDescription": "Veritabanı uzmanlarımız SAP BTP veritabanı teknolojilerinde derin uzmanlık getiriyor. Verilerinizin hızlı, güvenli ve ihtiyaç duyduğunda her zaman kullanılabilir olduğundan emin oluyoruz.",
     "features": {
       "design": {
-        "title": "Datenbankdesign & Modellierung",
-        "description": "Effizientes Datenbankschema-Design optimiert für SAP BTP-Anwendungen.",
+        "title": "Veritabanı Tasarımı & Modelleme",
+        "description": "SAP BTP uygulamaları için optimize edilmiş verimli veritabanı şema tasarımı.",
         "items": [
-          "SAP HANA Cloud Datenbankdesign",
-          "PostgreSQL und SAP ASE Konfiguration",
-          "Entity-Relationship Modellierung",
-          "Normalisierungs- und Denormalisierungsstrategien",
-          "Indexierungs- und Partitionierungsstrategien"
+          "SAP HANA Cloud veritabanı tasarımı",
+          "PostgreSQL ve SAP ASE yapılandırması",
+          "Varlık-İlişki Modelleme",
+          "Normalizasyon ve denormalizasyon stratejileri",
+          "Dizin oluşturma ve bölümlendirme stratejileri"
         ]
       },
       "optimization": {
-        "title": "Performance-Optimierung",
-        "description": "Maximierung der Datenbankperformance für blitzschnelle Query-Ausführung.",
+        "title": "Performans Optimizasyonu",
+        "description": "Yıldırım hızı sorgu yürütmesi için veritabanı performansını en üst düzeye çıkarın.",
         "items": [
-          "Query-Optimierung und Tuning",
-          "Index-Analyse und Empfehlungen",
-          "Ausführungsplan-Optimierung",
-          "Speicher- und Cache-Konfiguration",
-          "Performance-Überwachung und Profiling"
+          "Sorgu optimizasyonu ve ayarı",
+          "Dizin analizi ve önerileri",
+          "Yürütme planı optimizasyonu",
+          "Bellek ve önbellek yapılandırması",
+          "Performans izleme ve profil oluşturma"
         ]
       },
       "security": {
-        "title": "Sicherheit & Compliance",
-        "description": "Schutz Ihrer Daten mit Enterprise-Grade Sicherheitsmaßnahmen.",
+        "title": "Güvenlik & Uyum",
+        "description": "Kurumsal sınıf güvenlik önlemleri ile verilerinizi koruyun.",
         "items": [
-          "Datenverschlüsselung im Ruhezustand und bei Übertragung",
-          "Zeilen- und Spaltenebenen-Sicherheit",
-          "Audit Trail Implementierung",
-          "DSGVO und Compliance-Anforderungen",
-          "Backup-Verschlüsselung und sichere Speicherung"
+          "Verilerin şifrelemesi: aktarım halinde ve transit halinde",
+          "Satır düzeyi ve sütun düzeyi güvenlik",
+          "Denetim izi uygulaması",
+          "GDPR ve uyum gereklilikleri",
+          "Yedekleme şifreleme ve güvenli depolama"
         ]
       },
       "backup": {
-        "title": "Backup & Recovery",
-        "description": "Umfassende Disaster Recovery und Business Continuity Planung.",
+        "title": "Yedekleme & Kurtarma",
+        "description": "Kapsamlı olağanüstü durum kurtarma ve iş sürekliliği planlaması.",
         "items": [
-          "Automatisierte Backup-Planung",
-          "Point-in-Time Recovery Funktionen",
-          "Disaster Recovery Verfahren",
-          "Hochverfügbarkeitskonfiguration",
-          "Multi-Region Replikation"
+          "Otomatikleştirilmiş yedekleme planlama",
+          "Noktaya dönüş kurtarma özellikleri",
+          "Olağanüstü durum kurtarma prosedürleri",
+          "Yüksek kullanılabilirlik yapılandırması",
+          "Çok bölgeli çoğaltma"
         ]
       },
       "migration": {
-        "title": "Datenmigration",
-        "description": "Nahtlose Datenmigration von Legacy-Systemen zu SAP BTP.",
+        "title": "Veri Taşıma",
+        "description": "Eski sistemlerden SAP BTP'ye sorunsuz veri taşıma.",
         "items": [
-          "Datenextraktion und -transformation",
-          "Migrationsstrategie und Planung",
-          "Zero-Downtime Migrationstechniken",
-          "Datenvalidierung und -verifizierung",
-          "Rollback-Verfahren und Tests"
+          "Veri çıkarma ve dönüştürme",
+          "Taşıma stratejisi ve planlaması",
+          "Sıfır kesinti taşıma teknikleri",
+          "Veri doğrulama ve doğrulaması",
+          "Geri alma prosedürleri ve testleri"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Wartung",
-        "description": "Proaktive Überwachung und Wartung für optimale Datenbankgesundheit.",
+        "title": "İzleme & Bakım",
+        "description": "Optimal veritabanı sağlığı için proaktif izleme ve bakım.",
         "items": [
-          "Echtzeit-Performance-Überwachung",
-          "Automatisierte Warnungen und Benachrichtigungen",
-          "Gesundheitschecks und Diagnostik",
-          "Kapazitätsplanung und Prognosen",
-          "Patch-Management und Updates"
+          "Gerçek zamanlı performans izleme",
+          "Otomatikleştirilmiş uyarılar ve bildirimler",
+          "Sağlık kontrol ve teşhis",
+          "Kapasite planlama ve tahmin",
+          "Yama yönetimi ve güncellemeleri"
         ]
       }
     },
     "benefits": [
-      "Bis zu 10x schnellere Query-Performance durch Optimierung",
-      "99,99% Verfügbarkeit mit Hochverfügbarkeitskonfiguration",
-      "Reduzierte Speicherkosten durch effizientes Design",
-      "Compliance-bereit mit eingebauten Sicherheitsfunktionen",
-      "Proaktive Überwachung und Expertenberatung"
+      "Optimizasyon ile 10 kat daha hızlı sorgu performansı",
+      "Yüksek kullanılabilirlik yapılandırması ile yüzde 99,99 aktif kalma süresi",
+      "Verimli tasarım aracılığıyla azaltılmış depolama maliyetleri",
+      "Yerleşik güvenlik özellikleri ile uyum hazır",
+      "Proaktif izleme ve uzman rehberliği"
     ],
-    "whyChooseBadge": "Datenbank-Exzellenz",
+    "whyChooseBadge": "Veritabanı Mükemmelliği",
     "statistics": {
       "uptime": {
         "value": "99,99%",
-        "label": "Verfügbarkeitsgarantie"
+        "label": "Aktif Kalma Süresi Garantisi"
       },
       "performance": {
         "value": "10x",
-        "label": "Performance-Verbesserung"
+        "label": "Performans İyileştirmesi"
       },
       "security": {
         "value": "100%",
-        "label": "Datensicherheit"
+        "label": "Veri Güvenliği"
       },
       "monitoring": {
         "value": "100%",
-        "label": "Expertenberatung"
+        "label": "Uzman Rehberliği"
       }
     },
-    "ctaSectionBadge": "Optimieren Sie Ihre Datenbankperformance",
-    "ctaSectionTitle1": "Bereit zur Maximierung",
-    "ctaSectionTitle2": "Ihrer Datenbankperformance?",
-    "ctaSectionDescription": "Erhalten Sie einen kostenlosen Datenbank-Gesundheitscheck und entdecken Sie Optimierungsmöglichkeiten, die Ihre Anwendungsperformance transformieren könnten.",
-    "ctaSectionButton1": "Kostenlose Datenbank-Bewertung erhalten →",
-    "ctaSectionButton2": "Alle Services erkunden"
+    "ctaSectionBadge": "Veritabanı Performansınızı Optimize Edin",
+    "ctaSectionTitle1": "En Üst Düzeye Çıkarmaya Hazır",
+    "ctaSectionTitle2": "Veritabanı Performansınız?",
+    "ctaSectionDescription": "Ücretsiz bir veritabanı sağlık denetimi alın ve uygulama performansınızı dönüştürebilecek optimizasyon fırsatlarını keşfedin.",
+    "ctaSectionButton1": "Ücretsiz Veritabanı Değerlendirmesi Alın →",
+    "ctaSectionButton2": "Tüm Hizmetleri Keşfedin"
   },
   "designThinking": {
-    "badge": "Innovation & Strategie",
-    "title": "Design Thinking",
-    "subtitle": "für SAP BTP Innovation",
-    "description": "Benutzerzentrierter Designansatz zur Entwicklung innovativer SAP BTP-Lösungen, die echte Geschäftsherausforderungen lösen. Wir helfen Ihnen, die richtigen Probleme zu entdecken und Lösungen zu entwickeln, die Benutzer lieben.",
-    "cta": "Design-Workshop planen →",
-    "servicesTitle": "Unser Design Thinking Prozess",
-    "servicesSubtitle": "Eine bewährte Methodik für Innovation und Problemlösung in SAP BTP-Projekten.",
-    "whyChooseTitle": "Innovation, die echten Wert schafft",
-    "whyChooseDescription": "Design Thinking transformiert, wie Sie SAP BTP-Projekte angehen. Durch Fokus auf Benutzerbedürfnisse und schnelle Iteration helfen wir Ihnen, Lösungen zu entwickeln, die messbaren Geschäftswert liefern.",
+    "badge": "İnovasyon & Strateji",
+    "title": "Tasarım Düşüncesi",
+    "subtitle": "SAP BTP İnovasyonu için",
+    "description": "Gerçek iş sorunlarını çözen yenilikçi SAP BTP çözümleri geliştirmek için kullanıcı merkezli tasarım yaklaşımı. Doğru sorunları keşfetmeniz ve kullanıcıların sevdiği çözümler oluşturmanız konusunda yardımcı oluyoruz.",
+    "cta": "Tasarım Atölyesi Planlayın →",
+    "servicesTitle": "Tasarım Düşüncesi Süreci",
+    "servicesSubtitle": "SAP BTP projelerinde inovasyon ve sorun çözme için kanıtlanmış bir metodoloji.",
+    "whyChooseTitle": "Gerçek Değer Yaratan İnovasyon",
+    "whyChooseDescription": "Tasarım Düşüncesi, SAP BTP projelerine yaklaşma şeklinizi dönüştürür. Kullanıcı ihtiyaçları ve hızlı yinelemeye odaklanarak, ölçülebilir iş değeri sağlayan çözümler oluşturmanız konusunda yardımcı oluyoruz.",
     "features": {
       "empathy": {
-        "title": "Benutzerforschung & Empathie",
-        "description": "Tiefes Verständnis der Bedürfnisse, Schmerzpunkte und Motivationen Ihrer Benutzer.",
+        "title": "Kullanıcı Araştırması & Empati",
+        "description": "Kullanıcılarınızın ihtiyaçlarını, ağrı noktalarını ve motivasyonlarını derinlemesine anlayın.",
         "items": [
-          "Benutzerinterviews und Stakeholder-Engagement",
-          "Persona-Entwicklung und Journey Mapping",
-          "Kontextuelle Untersuchung und Beobachtung",
-          "Schmerzpunkt- und Chancenidentifizierung",
-          "Empathie-Mapping-Workshops"
+          "Kullanıcı görüşmeleri ve paydaş katılımı",
+          "Persona geliştirme ve yolculuk eşlemesi",
+          "İçeriğe dayalı araştırma ve gözlem",
+          "Ağrı noktası ve fırsat tanımlaması",
+          "Empati eşleme atölyeleri"
         ]
       },
       "define": {
-        "title": "Problemdefinition",
-        "description": "Klare Definition der richtigen Probleme für maximale Geschäftswirkung.",
+        "title": "Sorun Tanımı",
+        "description": "Maksimum iş etkisi için doğru sorunları açıkça tanımlayın.",
         "items": [
-          "Problemstellungsformulierung",
-          "Design Challenge Framing",
-          "Chancenbereichs-Identifizierung",
-          "Erfolgskriterien-Definition",
-          "Stakeholder-Abstimmungssitzungen"
+          "Problem ifadesi formülasyonu",
+          "Tasarım Mücadelesi Çerçeveleme",
+          "Fırsat Alanı Tanımlaması",
+          "Başarı Kriterleri Tanımı",
+          "Paydaş Hizalama Oturumları"
         ]
       },
       "ideate": {
-        "title": "Ideation-Workshops",
-        "description": "Generierung innovativer Lösungen durch strukturierte kreative Sitzungen.",
+        "title": "İdeation Atölyeleri",
+        "description": "Yapılandırılmış yaratıcı oturumlar aracılığıyla yenilikçi çözümler oluşturun.",
         "items": [
-          "Moderierte Brainstorming-Sitzungen",
-          "SCAMPER und laterale Denktechniken",
-          "Kollaborative Ideation-Workshops",
-          "Ideen-Priorisierung und Auswahl",
-          "Konzeptentwicklung und Verfeinerung"
+          "Yönetilen beyin fırtınası oturumları",
+          "SCAMPER ve yanal düşünme teknikleri",
+          "İşbirlikçi ideation atölyeleri",
+          "Fikir önceliklendirilmesi ve seçimi",
+          "Konsept geliştirme ve iyileştirme"
         ]
       },
       "prototype": {
-        "title": "Prototyping",
-        "description": "Schnelle Erstellung greifbarer Darstellungen von Ideen zur Validierung.",
+        "title": "Prototip Oluşturma",
+        "description": "Doğrulama için fikirlerin hızlı, somut temsillerini oluşturun.",
         "items": [
-          "Low-Fidelity Wireframes und Skizzen",
-          "Interaktive klickbare Prototypen",
-          "High-Fidelity Mockups",
-          "Proof of Concept Entwicklung",
-          "MVP (Minimum Viable Product) Design"
+          "Düşük sadakatli kablolama ve taslaklar",
+          "İnteraktif tıklanabilir prototipler",
+          "Yüksek sadakatli mockuplar",
+          "Kavram kanıtı geliştirme",
+          "MVP (Minimum Viable Product) tasarımı"
         ]
       },
       "test": {
-        "title": "Tests & Iteration",
-        "description": "Validierung von Lösungen mit echten Benutzern und kontinuierliche Verbesserung.",
+        "title": "Test & Yineleme",
+        "description": "Gerçek kullanıcılarla çözümleri doğrulayın ve sürekli iyileştirin.",
         "items": [
-          "Usability-Test-Sitzungen",
-          "A/B-Tests und Experimente",
-          "Benutzerfeedback-Erfassung und Analyse",
-          "Iterative Design-Verfeinerung",
-          "Validierung gegen Erfolgskriterien"
+          "Kullanılabilirlik testi oturumları",
+          "A/B testleri ve deneyler",
+          "Kullanıcı geri bildirim toplama ve analizi",
+          "Yinelemeli tasarım iyileştirmesi",
+          "Başarı kriterlerine karşı doğrulama"
         ]
       },
       "implement": {
-        "title": "Implementierungssupport",
-        "description": "Führung Ihres Teams vom validierten Konzept zum erfolgreichen Launch.",
+        "title": "Uygulama Desteği",
+        "description": "Doğrulanmış konseptten başarılı başlatmaya kadar ekibinizi yönlendirin.",
         "items": [
-          "Technische Machbarkeitsbewertung",
-          "Implementierungs-Roadmap-Erstellung",
-          "Agile Sprint-Planung",
-          "Entwicklungsteam-Zusammenarbeit",
-          "Post-Launch Überwachung und Optimierung"
+          "Teknik fizibilite değerlendirmesi",
+          "Uygulama yol haritası oluşturma",
+          "Çevik sprint planlama",
+          "Geliştirme ekibi işbirliği",
+          "Başlatma sonrası izleme ve optimizasyon"
         ]
       }
     },
     "benefits": [
-      "Risikoreduktion durch Validierung von Ideen vor großen Investitionen",
-      "Schnellere Innovation mit strukturiertem Problemlösungsansatz",
-      "Höhere Benutzerakzeptanz durch benutzerzentrierte Lösungen",
-      "Funktionsübergreifende Team-Abstimmung und Engagement",
-      "Messbare Geschäftsergebnisse und ROI"
+      "Ağır yatırımdan önce fikirleri doğrulayarak riski azaltın",
+      "Yapılandırılmış sorun çözme yaklaşımı ile daha hızlı inovasyon",
+      "Kullanıcı merkezli çözümler aracılığıyla daha yüksek kullanıcı kabulü",
+      "Fonksiyonlar arası ekip hizalaması ve katılımı",
+      "Ölçülebilir iş sonuçları ve Yatırım Geri Dönüş"
     ],
     "statistics": {
       "resolution": {
         "value": "3x",
-        "label": "Schnellere Problemlösung"
+        "label": "Daha Hızlı Sorun Çözümü"
       },
       "waste": {
         "value": "75%",
-        "label": "Reduzierte Entwicklungsverschwendung"
+        "label": "Azaltılmış Geliştirme Israfı"
       },
       "satisfaction": {
         "value": "90%",
-        "label": "Stakeholder-Zufriedenheit"
+        "label": "Paydaş Memnuniyeti"
       },
       "userCentered": {
         "value": "100%",
-        "label": "Benutzerzentrierter Ansatz"
+        "label": "Kullanıcı Merkezli Yaklaşım"
       }
     }
   },
   "integrationSuite": {
-    "badge": "Integration & Konnektivität",
-    "title": "SAP BTP Integration Suite",
-    "subtitle": "Services",
-    "description": "Nahtlose Integrationslösungen zur Verbindung Ihrer SAP-Systeme mit Cloud- und On-Premise-Anwendungen. Expertenimplementierung von Cloud Integration, API Management, Open Connectors und Integration Advisor.",
-    "cta": "Verbinden Sie Ihre Systeme →",
-    "servicesTitle": "Komplette Integration Suite Expertise",
-    "servicesSubtitle": "Von Cloud Integration bis API Management - umfassende Integrationsservices.",
-    "whyChooseTitle": "Nahtlose Systemkonnektivität",
-    "whyChooseDescription": "SAP BTP Integration Suite bietet alles, was Sie zur Verbindung Ihres Unternehmens benötigen. Unsere Experten stellen sicher, dass Ihre Integrationen zuverlässig, sicher und skalierbar sind.",
+    "badge": "Entegrasyon & Bağlantı",
+    "title": "SAP BTP Entegrasyon Paketi",
+    "subtitle": "Hizmetler",
+    "description": "SAP sistemlerinizi bulut ve şirket içi uygulamalarla birleştiren sorunsuz entegrasyon çözümleri. Cloud Integration, API Management, Open Connectors ve Integration Advisor'ın uzman uygulaması.",
+    "cta": "Sistemlerinizi Bağlayın →",
+    "servicesTitle": "Tamamlayıcı Entegrasyon Paketi Uzmanlığı",
+    "servicesSubtitle": "Bulut Entegrasyonundan API Yönetimine kadar - kapsamlı entegrasyon hizmetleri.",
+    "whyChooseTitle": "Sorunsuz Sistem Bağlantısı",
+    "whyChooseDescription": "SAP BTP Entegrasyon Paketi işletmenizi bağlamak için ihtiyacınız olan her şeyi sağlar. Uzmanlarımız, entegrasyonlarınızın güvenilir, güvenli ve ölçeklenebilir olmasını sağlar.",
     "features": {
       "cpi": {
-        "title": "Cloud Integration (CPI)",
-        "description": "Verbindung von Cloud- und On-Premise-Systemen mit robusten Integrationsflows.",
+        "title": "Bulut Entegrasyonu (CPI)",
+        "description": "Sağlam entegrasyon akışları ile bulut ve şirket içi sistemleri bağlayın.",
         "items": [
-          "Integrationsflow-Design und Entwicklung",
-          "Nutzung vorgefertigter Integrationsinhalte",
-          "Message Mapping und Transformation",
-          "Fehlerbehandlung und Überwachung",
-          "Security Artifact Management"
+          "Entegrasyon akışı tasarımı ve geliştirme",
+          "Önceden oluşturulmuş entegrasyon içeriğinin kullanımı",
+          "İleti haritalama ve dönüştürme",
+          "Hata işleme ve izleme",
+          "Güvenlik Yapıtı Yönetimi"
         ]
       },
       "apiManagement": {
-        "title": "API Management",
-        "description": "Design, Veröffentlichung und Verwaltung von APIs mit umfassendem Lifecycle-Support.",
+        "title": "API Yönetimi",
+        "description": "Kapsamlı yaşam döngüsü desteğini ile API'leri tasarlayın, yayınlayın ve yönetin.",
         "items": [
-          "API Proxy Erstellung und Konfiguration",
-          "Policy-Durchsetzung (Sicherheit, Rate Limiting)",
-          "API-Portal und Entwicklerdokumentation",
-          "Analytics und Nutzungsüberwachung",
-          "Monetarisierung und Quota-Management"
+          "API proxy oluşturma ve yapılandırması",
+          "İlke uygulaması (güvenlik, hız sınırlaması)",
+          "API portalı ve geliştirici belgeleri",
+          "Analitik ve kullanım izleme",
+          "Parasallaştırma ve kota yönetimi"
         ]
       },
       "openConnectors": {
-        "title": "Open Connectors",
-        "description": "Vorgefertigte Konnektoren für schnelle Integration mit Drittsystemen.",
+        "title": "Açık Konektörler",
+        "description": "Üçüncü taraf sistemler ile hızlı entegrasyon için önceden oluşturulmuş konektörler.",
         "items": [
-          "150+ vorgefertigte Konnektoren",
-          "Benutzerdefinierte Konnektor-Entwicklung",
-          "Authentifizierung und Autorisierung",
-          "Datentransformation und Normalisierung",
-          "Event-basierte Integration"
+          "150'den fazla önceden oluşturulmuş konektör",
+          "Özel konektör geliştirme",
+          "Kimlik doğrulama ve yetkilendirme",
+          "Veri dönüştürme ve normalleştirme",
+          "Olay tabanlı entegrasyon"
         ]
       },
       "advisor": {
-        "title": "Integration Advisor",
-        "description": "Beschleunigung der Integrationsentwicklung mit KI-gestützten Empfehlungen.",
+        "title": "Entegrasyon Danışmanı",
+        "description": "Yapay zeka destekli önerilerle entegrasyon geliştirmesini hızlandırın.",
         "items": [
-          "Automatisierte Mapping-Vorschläge",
-          "Message Implementation Guides (MIGs)",
-          "B2B-Integrationsszenario-Templates",
-          "Interface Mapping Vorschläge",
-          "Best Practice Empfehlungen"
+          "Otomatikleştirilmiş eşleme önerileri",
+          "İleti Uygulama Kılavuzları (MIG'ler)",
+          "B2B entegrasyon senaryo şablonları",
+          "Arayüz Haritalama Önerileri",
+          "En iyi uygulama önerileri"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Enterprise-Grade Sicherheit und Governance für alle Integrationen.",
+        "title": "Güvenlik & Yönetişim",
+        "description": "Tüm entegrasyonlar için kurumsal sınıf güvenlik ve yönetişim.",
         "items": [
-          "OAuth und SAML Authentifizierung",
-          "Zertifikat- und Key-Management",
-          "Transport-Level Verschlüsselung (TLS/SSL)",
-          "Message-Level Verschlüsselung",
-          "Audit-Protokollierung und Compliance"
+          "OAuth ve SAML kimlik doğrulama",
+          "Sertifika ve anahtar yönetimi",
+          "Aktarım düzeyi şifreleme (TLS/SSL)",
+          "İleti düzeyi şifreleme",
+          "Denetim günlüğü ve uyum"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Betrieb",
-        "description": "Umfassende Überwachung und operative Exzellenz.",
+        "title": "İzleme & İşlemler",
+        "description": "Kapsamlı izleme ve operasyonel mükemmellik.",
         "items": [
-          "Echtzeit-Message-Überwachung",
-          "Performance-Metriken und KPIs",
-          "Warnungs- und Benachrichtigungs-Setup",
-          "Log-Analyse und Troubleshooting",
-          "Kapazitätsplanung und Optimierung"
+          "Gerçek zamanlı ileti izleme",
+          "Performans metrikleri ve KPI'lar",
+          "Uyarı ve bildirim kurulumu",
+          "Günlük analizi ve sorun giderme",
+          "Kapasite planlama ve optimizasyonu"
         ]
       }
     },
     "benefits": [
-      "Schnellere Integration mit vorgefertigten Inhalten und Beschleunigern",
-      "Reduzierte Integrationskosten mit Cloud-nativer Plattform",
-      "Enterprise-Grade Zuverlässigkeit und Skalierbarkeit",
-      "Einzelne Plattform für alle Integrationsbedürfnisse",
-      "Dedizierte Expertenberatung und Guidance"
+      "Önceden oluşturulmuş içerik ve hızlandırıcılarla daha hızlı entegrasyon",
+      "Bulut yerel platformu ile azaltılmış entegrasyon maliyetleri",
+      "Kurumsal sınıf güvenilirlik ve ölçeklenebilirlik",
+      "Tüm entegrasyon gereksinimleri için tek platform",
+      "Adanmış uzman danışmanlık ve rehberliği"
     ],
     "statistics": {
       "connectors": {
         "value": "150+",
-        "label": "Vorgefertigte Konnektoren"
+        "label": "Önceden Oluşturulmuş Konektörler"
       },
       "uptime": {
         "value": "99,9%",
-        "label": "Integrations-Verfügbarkeit"
+        "label": "Entegrasyon Aktif Kalma Süresi"
       },
       "implementation": {
         "value": "50%",
-        "label": "Schnellere Implementierung"
+        "label": "Daha Hızlı Uygulama"
       },
       "support": {
-        "value": "Global",
-        "label": "Expertenteam"
+        "value": "Küresel",
+        "label": "Uzman Ekip"
       }
     },
-    "whyChooseBadge": "Integrations-Exzellenz",
-    "ctaSectionBadge": "⚡ Verbinden Sie Ihr Unternehmen heute",
-    "ctaSectionTitle1": "Bereit zur Vereinheitlichung",
-    "ctaSectionTitle2": "Ihrer Geschäftssysteme?",
-    "ctaSectionDescription": "Lassen Sie uns Ihre Integrationsanforderungen besprechen und eine umfassende Lösung erstellen, die alle Ihre kritischen Geschäftssysteme verbindet.",
-    "ctaSectionButton1": "Integrationsberatung erhalten →",
-    "ctaSectionButton2": "Alle Services anzeigen"
+    "whyChooseBadge": "Entegrasyon Mükemmelliği",
+    "ctaSectionBadge": "⚡ İşletmenizi Bugün Bağlayın",
+    "ctaSectionTitle1": "Birleştirmeye Hazır",
+    "ctaSectionTitle2": "İşletme Sistemleriniz?",
+    "ctaSectionDescription": "Entegrasyon gereksinimlerinizi tartışalım ve tüm kritik iş sistemlerinizi birleştiren kapsamlı bir çözüm oluşturalım.",
+    "ctaSectionButton1": "Entegrasyon Danışması Alın →",
+    "ctaSectionButton2": "Tüm Hizmetleri Görüntüle"
   },
   "eventMesh": {
-    "badge": "Event-Driven Architecture",
-    "title": "SAP Event Mesh",
-    "subtitle": "Implementierungsservices",
-    "description": "Echtzeit-Event-Driven-Architecture-Implementierung für reaktionsschnelle, skalierbare Geschäftsprozesse. Aufbau verteilter Systeme, die sofort auf Geschäftsereignisse reagieren mit SAP Event Mesh.",
-    "cta": "Event-Driven Architecture aufbauen →",
-    "servicesTitle": "Komplette Event Mesh Lösungen",
-    "servicesSubtitle": "Von Architekturdesign bis Implementierung - Aufbau reaktionsschneller Event-Driven Systeme.",
-    "whyChooseTitle": "Echtzeit-Geschäftsreaktionsfähigkeit",
-    "whyChooseDescription": "Event Mesh ermöglicht es Ihrem Unternehmen, sofort auf Ereignisse zu reagieren, wenn sie auftreten. Aufbau lose gekoppelter, hochskalierbarer Systeme, die sich an veränderte Geschäftsanforderungen anpassen.",
+    "badge": "Olay Odaklı Mimari",
+    "title": "SAP Olay Ağı",
+    "subtitle": "Uygulama Hizmetleri",
+    "description": "Tepkili, ölçeklenebilir iş süreçleri için gerçek zamanlı olay odaklı mimari uygulaması. SAP Event Mesh ile iş etkinliklerine anında tepki veren dağıtılmış sistemler oluşturun.",
+    "cta": "Olay Odaklı Mimari Oluşturun →",
+    "servicesTitle": "Tamamlayıcı Olay Ağı Çözümleri",
+    "servicesSubtitle": "Mimari tasarımdan uygulamaya kadar - duyarlı olay odaklı sistemler oluşturun.",
+    "whyChooseTitle": "Gerçek Zamanlı İşletme Yanıt Yeteneği",
+    "whyChooseDescription": "Olay Ağı, işletmenizin etkinlikler gerçekleştikçe anında tepki vermesini sağlar. Değişen iş gereksinimlerine uyum sağlayan gevşek şekilde bağlı, yüksek ölçeklenebilir sistemler oluşturun.",
     "features": {
       "architecture": {
-        "title": "Event Mesh Architektur",
-        "description": "Design und Implementierung unternehmensweiter Event-Driven Architecture.",
+        "title": "Olay Ağı Mimarisi",
+        "description": "Kurumsal çapta olay odaklı mimarinin tasarımı ve uygulanması.",
         "items": [
-          "Event Mesh Topologie-Design",
-          "Multi-Region Event-Verteilung",
-          "Event Broker Konfiguration",
-          "Message-Routing-Strategien",
-          "Topic und Queue Design-Muster"
+          "Olay Ağı topoloji tasarımı",
+          "Çok bölgeli etkinlik dağıtımı",
+          "Olay Broker yapılandırması",
+          "İleti yönlendirme stratejileri",
+          "Konu ve Kuyruk tasarım desenleri"
         ]
       },
       "realTime": {
-        "title": "Echtzeit-Event-Verarbeitung",
-        "description": "Verarbeitung und Reaktion auf Geschäftsereignisse in Echtzeit.",
+        "title": "Gerçek Zamanlı Olay İşleme",
+        "description": "İş etkinliklerine gerçek zamanlı olarak işlem ve tepki verin.",
         "items": [
-          "Event Streaming Implementierung",
-          "Complex Event Processing (CEP)",
-          "Event-Filterung und Transformation",
-          "Event-Aggregation und Korrelation",
-          "Niedrig-Latenz Event-Zustellung"
+          "Olay Akışı uygulaması",
+          "Karmaşık Olay İşleme (CEP)",
+          "Olay filtreleme ve dönüştürme",
+          "Olay agregasyonu ve korelasyonu",
+          "Düşük gecikmeli olay teslimi"
         ]
       },
       "integrations": {
-        "title": "Event-Driven Integrationen",
-        "description": "Systemverbindung durch asynchrone Event-basierte Kommunikation.",
+        "title": "Olay Odaklı Entegrasyonlar",
+        "description": "Asenkron olay tabanlı iletişim aracılığıyla sistemleri bağlayın.",
         "items": [
-          "Publisher/Subscriber Muster",
-          "Event-Driven Microservices",
-          "Webhook und Callback Integration",
-          "Event Replay und Recovery",
-          "Dead Letter Queue Management"
+          "Yayımcı/Abone desenleri",
+          "Olay Odaklı Microservices",
+          "Web kancası ve Geri Arama Entegrasyonu",
+          "Olay Yeniden Oynatma ve Kurtarma",
+          "Ölü Mektup Kuyruğu Yönetimi"
         ]
       },
       "security": {
-        "title": "Sicherheit & Governance",
-        "description": "Sichere Event-Übertragung mit umfassender Governance.",
+        "title": "Güvenlik & Yönetişim",
+        "description": "Kapsamlı yönetişim ile güvenli olay iletimi.",
         "items": [
-          "Event-Verschlüsselung bei Übertragung",
-          "Zugriffskontrolle und Autorisierung",
-          "Event-Schema-Validierung",
-          "Compliance und Audit-Protokollierung",
-          "Datenschutzkontrollen"
+          "Taşıt sırasında Olay Şifreleme",
+          "Erişim kontrol ve yetkilendirme",
+          "Olay Şema Doğrulama",
+          "Uyum ve Denetim Günlüğü",
+          "Veri Gizliliği Kontrolleri"
         ]
       },
       "multiCloud": {
-        "title": "Multi-Cloud & Hybrid",
-        "description": "Event Mesh über Cloud-Anbieter und On-Premise-Systeme hinweg.",
+        "title": "Çok Bulut & Hibrit",
+        "description": "Bulut sağlayıcıları ve şirket içi sistemler arasında Olay Ağı.",
         "items": [
-          "Cloud-übergreifende Event-Verteilung",
-          "Hybrid-Cloud-Konnektivität",
-          "Multi-Region Redundanz",
-          "Geografisches Event-Routing",
-          "Cloud-agnostische Architektur"
+          "Bulutlar arası olay dağıtımı",
+          "Hibrit bulut bağlantısı",
+          "Çok bölgeli redundansi",
+          "Coğrafi olay yönlendirmesi",
+          "Bulut agnostik mimari"
         ]
       },
       "monitoring": {
-        "title": "Überwachung & Analytics",
-        "description": "Umfassende Sichtbarkeit in Ihr Event-Driven Ökosystem.",
+        "title": "İzleme & Analitik",
+        "description": "Olay odaklı ekosisteminize kapsamlı görünürlük.",
         "items": [
-          "Echtzeit-Event-Überwachung",
-          "Performance-Metriken und SLAs",
-          "Event-Flow-Visualisierung",
-          "Engpass-Identifizierung",
-          "Prädiktive Kapazitätsplanung"
+          "Gerçek zamanlı olay izleme",
+          "Performans metrikleri ve SLA'lar",
+          "Olay akışı görselleştirmesi",
+          "Darboğaz tanımlaması",
+          "Tahmine dayalı kapasite planlama"
         ]
       }
     },
     "benefits": [
-      "Entkopplung von Systemen für größere Flexibilität und Skalierbarkeit",
-      "Echtzeit-Geschäftseinblicke und sofortige Reaktion",
-      "Verbesserte Systemresilienz und Fehlertoleranz",
-      "Reduzierte Punkt-zu-Punkt-Integrationskomplexität",
-      "Unterstützung für moderne Event-Driven Architekturen"
+      "Daha fazla esneklik ve ölçeklenebilirlik için sistemleri çıkarın",
+      "Gerçek zamanlı iş içgörüleri ve anında tepki",
+      "Geliştirilmiş sistem esnekliği ve hata toleransı",
+      "Nokta-nokta entegrasyon karmaşıklığı azalması",
+      "Modern olay odaklı mimariler desteği"
     ],
     "statistics": {
       "latency": {
         "value": "<100ms",
-        "label": "Event-Zustellungslatenz"
+        "label": "Olay Teslim Gecikmesi"
       },
       "throughput": {
         "value": "1M+",
-        "label": "Events pro Sekunde"
+        "label": "Saniye başına Olaylar"
       },
       "guarantee": {
         "value": "99,99%",
-        "label": "Event-Zustellungsgarantie"
+        "label": "Olay Teslim Garantisi"
       },
       "distribution": {
-        "value": "Global",
-        "label": "Multi-Region Verteilung"
+        "value": "Küresel",
+        "label": "Çok Bölgeli Dağıtım"
       }
     },
-    "whyChooseBadge": "Event-Driven Exzellenz",
-    "ctaSectionBadge": "⚡ Echtzeitsysteme aufbauen",
-    "ctaSectionTitle1": "Bereit zur Implementierung",
-    "ctaSectionTitle2": "Event-Driven Architecture?",
-    "ctaSectionDescription": "Transformieren Sie Ihr Unternehmen mit Echtzeit-Event-Verarbeitung. Lassen Sie uns besprechen, wie Event Mesh Ihre Next-Generation-Anwendungen antreiben kann.",
-    "ctaSectionButton1": "Event Mesh Beratung planen →",
-    "ctaSectionButton2": "Alle Technologien erkunden"
+    "whyChooseBadge": "Olay Odaklı Mükemmellik",
+    "ctaSectionBadge": "⚡ Gerçek Zamanlı Sistemler Oluşturun",
+    "ctaSectionTitle1": "Uygulamaya Hazır",
+    "ctaSectionTitle2": "Olay Odaklı Mimari?",
+    "ctaSectionDescription": "İşletmenizi gerçek zamanlı olay işleme ile dönüştürün. Olay Ağının sonraki nesil uygulamalarınızı nasıl güçlendirebileceğini tartışalım.",
+    "ctaSectionButton1": "Olay Ağı Danışması Planlayın →",
+    "ctaSectionButton2": "Tüm Teknolojileri Keşfedin"
   },
   "aiInvoice": {
-    "badge": "KI & Automatisierung",
-    "title": "KI-gestützte",
-    "subtitle": "Rechnungsverarbeitung",
-    "description": "Intelligente Rechnungsverarbeitungsautomatisierung mit fortschrittlicher KI für präzise, effiziente Abläufe. Transformieren Sie Ihren Kreditorenprozess mit modernster KI-Technologie integriert mit SAP BTP.",
-    "cta": "Automatisieren Sie Ihre Rechnungen →",
-    "servicesTitle": "KI-gestützte Rechnungsautomatisierung",
-    "servicesSubtitle": "Nutzung fortschrittlicher KI-Funktionen für intelligente Rechnungsverarbeitung und Automatisierung.",
-    "whyChooseTitle": "Transformieren Sie Ihre Rechnungsverarbeitung",
-    "whyChooseDescription": "Fortschrittliche KI bringt menschenähnliches Verständnis zur Rechnungsverarbeitung. Bewältigung komplexer Layouts, mehrerer Sprachen und Grenzfälle, mit denen traditionelle OCR-Systeme kämpfen.",
+    "badge": "Yapay Zeka & Otomasyon",
+    "title": "Yapay Zeka Destekli",
+    "subtitle": "Fatura İşleme",
+    "description": "Doğru, verimli operasyonlar için ileri yapay zeka tarafından desteklenen akıllı fatura işleme otomasyonu. Borç hesapları sürecinizi SAP BTP ile entegre edilen en son yapay zeka teknolojisi ile dönüştürün.",
+    "cta": "Faturalarınızı Otomatikleştirin →",
+    "servicesTitle": "Yapay Zeka Destekli Fatura Otomasyonu",
+    "servicesSubtitle": "Akıllı fatura işleme ve otomasyonu için ileri yapay zeka yeteneklerinden yararlanın.",
+    "whyChooseTitle": "Fatura İşlemenizi Dönüştürün",
+    "whyChooseDescription": "İleri yapay zeka fatura işlemeye insan benzeri anlayış getiriyor. Karmaşık düzenler, birden fazla dil ve geleneksel OCR sistemlerinin mücadele ettiği uç durumları yönetin.",
     "features": {
       "extraction": {
-        "title": "Intelligente Datenextraktion",
-        "description": "Fortschrittliche KI-gestützte Extraktion von Rechnungsdaten mit beispielloser Genauigkeit.",
+        "title": "Akıllı Veri Çıkarma",
+        "description": "Eşi benzeri olmayan doğrulukla yapay zeka destekli fatura veri çıkarma.",
         "items": [
-          "Multi-Format Rechnungsverarbeitung (PDF, Bilder, Scans)",
-          "Automatische Felderkennung und Extraktion",
-          "Kopf- und Positionserkennung",
-          "Tabellen- und komplexes Layout-Verständnis",
-          "Handschrifterkennung"
+          "Çoklu format fatura işleme (PDF, görüntüler, tarama)",
+          "Otomatik alan algılama ve çıkarma",
+          "Üstbilgi ve satır öğesi tanınması",
+          "Tablo ve karmaşık düzen anlayışı",
+          "El yazısı metni tanıma"
         ]
       },
       "integration": {
-        "title": "SAP BTP Integration",
-        "description": "Nahtlose Integration mit SAP BTP Services und Backend-Systemen.",
+        "title": "SAP BTP Entegrasyonu",
+        "description": "SAP BTP Hizmetleri ve arka uç sistemleri ile sorunsuz entegrasyon.",
         "items": [
-          "Direkte Integration mit SAP S/4HANA",
-          "SAP Document Management Service Verbindung",
-          "Workflow-Automatisierungs-Trigger",
-          "Echtzeit-Datenvalidierung",
-          "Benutzerdefinierte Geschäftsregeln-Implementierung"
+          "SAP S/4HANA ile doğrudan entegrasyon",
+          "SAP Belge Yönetim Hizmeti Bağlantısı",
+          "İş akışı otomasyon tetikleri",
+          "Gerçek zamanlı veri doğrulaması",
+          "Özel iş kuralı uygulaması"
         ]
       },
       "automation": {
-        "title": "Automatisierte Verarbeitung",
-        "description": "End-to-End-Automatisierung mit minimaler manueller Intervention.",
+        "title": "Otomatikleştirilmiş İşleme",
+        "description": "Manuel müdahaleyi neredeyse sıfıra indiren end-to-end otomasyon.",
         "items": [
-          "Intelligentes Routing und Klassifizierung",
-          "Auto-Genehmigung für risikoarme Rechnungen",
-          "Ausnahmebehandlungs-Workflows",
-          "Duplikaterkennung und -vermeidung",
-          "Drei-Wege-Matching-Automatisierung"
+          "Akıllı yönlendirme ve sınıflandırma",
+          "Düşük riskli faturalar için otomatik onay",
+          "İstisna işleme iş akışları",
+          "Yinelenen algılama ve önleme",
+          "Üç taraflı eşleme otomasyonu"
         ]
       },
       "validation": {
-        "title": "Validierung & Compliance",
-        "description": "Gewährleistung von Genauigkeit und regulatorischer Compliance bei jeder Transaktion.",
+        "title": "Doğrulama & Uyum",
+        "description": "Her işlemde doğruluk ve yasal uyumluluğu sağlayın.",
         "items": [
-          "Mehrstufige Validierungsregeln",
-          "Steuerberechnungsverifizierung",
-          "Compliance-Prüfung (MwSt., USt.)",
-          "Audit Trail und Protokollierung",
-          "Datenschutz und Sicherheit (DSGVO-konform)"
+          "Çok seviyeli doğrulama kuralları",
+          "Vergi hesaplama doğrulaması",
+          "Uyum kontrolü (KDV, GST)",
+          "Denetim izi ve günlüğü",
+          "Veri gizliliği ve güvenlik (GDPR uyumlu)"
         ]
       },
       "analytics": {
-        "title": "Analytics & Insights",
-        "description": "Wertvolle Einblicke aus Ihren Rechnungsverarbeitungsdaten gewinnen.",
+        "title": "Analitik & İçgörüler",
+        "description": "Fatura işleme verilerinizden değerli içgörü elde edin.",
         "items": [
-          "Verarbeitungsmetriken und KPIs",
-          "Genauigkeits- und Fehlerquoten-Tracking",
-          "Kosteneinsparungsanalyse",
-          "Lieferanten-Performance-Analytics",
-          "Prädiktive Cashflow-Einblicke"
+          "İşleme metrikleri ve KPI'lar",
+          "Doğruluk ve hata oranı takibi",
+          "Maliyet tasarrufu analizi",
+          "Tedarikçi performans analitiği",
+          "Tahmine dayalı nakit akışı içgörüleri"
         ]
       },
       "training": {
-        "title": "Schulung & Optimierung",
-        "description": "Kontinuierliche Verbesserung durch KI-Lernen und Systemoptimierung.",
+        "title": "Eğitim & Optimizasyon",
+        "description": "Yapay zeka öğrenme ve sistem optimizasyonu aracılığıyla sürekli iyileştirme.",
         "items": [
-          "Benutzerdefiniertes Modelltraining für Ihre Rechnungen",
-          "Kontinuierliches Lernen aus Korrekturen",
-          "Template-basierte Verarbeitungsoptimierung",
-          "Feedback-Loop-Implementierung",
-          "Regelmäßige Genauigkeitsverbesserungen"
+          "Faturalarınız için özel model eğitimi",
+          "Düzeltmelerden sürekli öğrenme",
+          "Şablon tabanlı işleme optimizasyonu",
+          "Geri bildirim döngüsü uygulaması",
+          "Düzenli doğruluk iyileştirmeleri"
         ]
       }
     },
     "benefits": [
-      "95%+ Genauigkeitsrate reduziert manuelle Korrekturen",
-      "80% schnellere Rechnungsverarbeitungszeit",
-      "70% Reduzierung der Verarbeitungskosten",
-      "Nahezu null Dateneingabefehler",
-      "Echtzeit-Verarbeitungsstatus-Sichtbarkeit"
+      "Manuel düzeltmeleri azaltan yüzde 95+ doğruluk oranı",
+      "Yüzde 80 daha hızlı fatura işleme süresi",
+      "İşleme maliyetlerinde yüzde 70 azaltma",
+      "Neredeyse sıfır veri giriş hatası",
+      "Gerçek zamanlı işleme durumu görünürlüğü"
     ],
     "statistics": {
       "accuracy": {
         "value": "95%+",
-        "label": "Genauigkeitsrate"
+        "label": "Doğruluk Oranı"
       },
       "timeReduction": {
         "value": "80%",
-        "label": "Zeitreduktion"
+        "label": "Zaman Azaltma"
       },
       "costSavings": {
         "value": "70%",
-        "label": "Kosteneinsparungen"
+        "label": "Maliyet Tasarrufu"
       },
       "availability": {
         "value": "100%",
-        "label": "Automatisierte Verarbeitung"
+        "label": "Otomatikleştirilmiş İşleme"
       }
     }
   },
   "blogs": {
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Ana Sayfaya Dön",
     "claudeAI": {
-      "title": "Revolutionierung der Rechnungsverarbeitung mit KI",
-      "category": "KI/ML",
-      "readTime": "6 Min.",
-      "seoDescription": "Erkunden Sie, wie KI-Integration auf SAP BTP die Rechnungsverarbeitung mit intelligenter Automatisierung und fortschrittlichem Dokumentenverständnis transformiert.",
-      "intro": "Die Rechnungsverarbeitung war traditionell eine zeitaufwändige, fehleranfällige manuelle Aufgabe. Die Integration fortschrittlicher KI mit SAP BTP revolutioniert diesen Prozess und bringt beispiellose Automatisierung, Genauigkeit und Effizienz in Kreditorenbuchhaltungsabläufe.",
-      "section1Title": "Die Herausforderung traditioneller Rechnungsverarbeitung",
-      "section1Content": "Organisationen verarbeiten monatlich Tausende von Rechnungen, jede erfordert Datenextraktion, Validierung und Eingabe in ERP-Systeme. Manuelle Verarbeitung ist langsam, teuer und fehleranfällig, was zu Zahlungsverzögerungen, Doppelzahlungen oder verpassten Skonti führen kann.",
-      "section2Title": "Fortschrittliches KI-Dokumentenverständnis",
-      "section2Content": "Moderne KI bringt modernste Natural Language Processing und Computer Vision Fähigkeiten zur Rechnungsverarbeitung. Im Gegensatz zu traditionellen OCR-Systemen kann fortschrittliche KI Kontext verstehen, variierende Rechnungsformate handhaben und Informationen mit bemerkenswerter Genauigkeit selbst aus schlecht gescannten oder komplexen Dokumenten extrahieren.",
-      "section3Title": "Nahtlose SAP BTP Integration",
-      "section3Content": "Die Integration von KI mit SAP BTP schafft eine leistungsstarke Automatisierungs-Pipeline. Eingehende Rechnungen werden automatisch verarbeitet, Daten werden extrahiert und validiert, und Informationen fließen direkt in SAP-Systeme ohne menschliche Intervention. Diese Integration nutzt die robuste Konnektivität und Workflow-Funktionen von SAP BTP.",
-      "section4Title": "Intelligente Ausnahmebehandlung",
-      "section4Content": "Eine der Hauptstärken der KI ist ihre Fähigkeit, Ausnahmen intelligent zu behandeln. Wenn ungewöhnliche Rechnungsformate oder mehrdeutige Informationen auftreten, kann das System Elemente zur menschlichen Prüfung mit detaillierten Erklärungen markieren, was die Ausnahmebehandlung wesentlich effizienter macht als traditionelle regelbasierte Systeme.",
-      "section5Title": "Messbarer Geschäftsnutzen",
-      "section5Content": "Organisationen, die KI für die Rechnungsverarbeitung implementieren, sehen typischerweise dramatische Verbesserungen: 90% Reduktion der Verarbeitungszeit, 95% Rückgang der Dateneingabefehler und signifikante Kosteneinsparungen in Kreditorenbuchhaltungsabläufen. Vielleicht am wichtigsten: Mitarbeiter können sich auf strategische Aktivitäten konzentrieren statt auf repetitive Dateneingabe.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Kombination fortschrittlicher KI-Funktionen und der Enterprise-Grade Infrastruktur von SAP BTP repräsentiert einen transformativen Ansatz zur Rechnungsverarbeitung. Organisationen, die diese Technologie einsetzen, erlangen einen signifikanten Wettbewerbsvorteil durch verbesserte Effizienz, Genauigkeit und Kostenreduktion."
+      "title": "Yapay Zeka ile Fatura İşlemesinde Devrim",
+      "category": "Yapay Zeka/Makine Öğrenmesi",
+      "readTime": "6 dakika",
+      "seoDescription": "SAP BTP'de yapay zeka entegrasyonunun akıllı otomasyon ve ileri belge anlaması ile fatura işlemesini nasıl dönüştürdüğünü keşfedin.",
+      "intro": "Fatura işlemesi geleneksel olarak zaman alıcı, hata yapmaya açık bir manuel görev olmuştur. İleri yapay zekanın SAP BTP ile entegrasyonu bu süreci devrim niteliğinde değişiyor ve hesap ödenecek operasyonlarına eşi benzeri olmayan otomasyon, doğruluk ve verimlilik getiriyor.",
+      "section1Title": "Geleneksel Fatura İşlemesinin Zorlugu",
+      "section1Content": "Kuruluşlar aylık binlerce faturayı işler, her biri veri çıkarma, doğrulama ve ERP sistemlerine giriş gerektirir. Manuel işleme yavaş, pahalı ve hata yapmaya açıktır, bu da ödeme gecikmelerine, çift ödemelere veya kaçırılan erken ödeme indirimlerine yol açabilir.",
+      "section2Title": "İleri Yapay Zeka Belge Anlayışı",
+      "section2Content": "Modern yapay zeka, doğal dil işleme ve bilgisayar görüşü yeteneklerinde son teknoloji fatura işlemeye getiriyor. Geleneksel OCR sistemlerinin aksine, ileri yapay zeka bağlamı anlayabilir, değişen fatura biçimlerini işleyebilir ve kötü taranmış veya karmaşık belgelerden bile dikkat çekici doğrulukla bilgi çıkarabilir.",
+      "section3Title": "Sorunsuz SAP BTP Entegrasyonu",
+      "section3Content": "Yapay zekanın SAP BTP ile entegrasyonu güçlü bir otomasyon boru hattı oluşturur. Gelen faturalar otomatik olarak işlenir, veriler çıkarılır ve doğrulanır ve bilgiler insan müdahalesi olmadan doğrudan SAP sistemlerine akar. Bu entegrasyon SAP BTP'nin sağlam bağlantı ve iş akışı yeteneklerinden yararlanır.",
+      "section4Title": "Akıllı İstisna İşleme",
+      "section4Content": "Yapay zekanın ana güçlerinden biri istisnaları akıllı bir şekilde işlemektir. Olağandışı fatura biçimleri veya muğlak bilgilerle karşılaşıldığında, sistem öğeleri ayrıntılı açıklamalarla insan incelemesi için işaretleyebilir, bu da istisna işlemesini geleneksel kural tabanlı sistemlerden çok daha verimli hale getirir.",
+      "section5Title": "Ölçülebilir İşletme Etkisi",
+      "section5Content": "Fatura işlemesi için yapay zeka uygulayan kuruluşlar tipik olarak dramatik iyileştirmeler görür: işleme süresinde yüzde 90 azaltma, veri giriş hatalarında yüzde 95 azaltma ve hesap ödenecek operasyonlarında önemli maliyet tasarrufu. Belki de en önemlisi, personel tekrarlayan veri girişi yerine stratejik aktivitelere odaklanabilir.",
+      "conclusionTitle": "Sonuç",
+      "conclusionContent": "İleri yapay zeka yetenekleri ile SAP BTP'nin kurumsal sınıf altyapısının kombinasyonu fatura işlemesine dönüştürücü bir yaklaşımı temsil eder. Bu teknolojiyi benimseyen kuruluşlar geliştirilmiş verimlilik, doğruluk ve maliyet azaltması yoluyla önemli bir rekabet avantajı elde ederler."
     },
     "fiori": {
-      "title": "Moderne Fiori-Anwendungen auf SAP BTP entwickeln",
-      "category": "Entwicklung",
-      "readTime": "8 Min.",
-      "seoDescription": "Lernen Sie, wie man moderne, responsive Fiori-Anwendungen mit den leistungsstarken Entwicklungstools und Frameworks von SAP BTP entwickelt.",
-      "intro": "SAP Fiori repräsentiert die Zukunft von Unternehmensanwendungen und bietet ein einheitliches Benutzererlebnis über alle Geräte und Bereitstellungsoptionen hinweg. Mit SAP Business Technology Platform (BTP) ist die Entwicklung moderner Fiori-Anwendungen optimierter und leistungsfähiger als je zuvor geworden.",
-      "section1Title": "Die Leistung von SAP BTP für Fiori-Entwicklung",
-      "section1Content": "SAP BTP bietet eine umfassende Suite von Tools und Services speziell für die Fiori-Anwendungsentwicklung. Die Plattform bietet alles von Entwicklungsumgebungen bis zur Bereitstellungsinfrastruktur und ermöglicht es Teams, sich auf die Schaffung außergewöhnlicher Benutzererlebnisse zu konzentrieren statt auf die Verwaltung der Infrastruktur.",
-      "section2Title": "Schlüsselfunktionen und Best Practices",
-      "section2Content": "Moderne Fiori-Anwendungen nutzen das SAP Fiori Elements Framework, das vorgefertigte UI-Komponenten und Muster bietet, die Konsistenz gewährleisten und Entwicklungszeit reduzieren. Durch Kombination dieser Elemente mit benutzerdefinierten SAPUI5-Controls können Entwickler Anwendungen erstellen, die sowohl standardisiert als auch auf spezifische Geschäftsanforderungen zugeschnitten sind.",
-      "section3Title": "Integration mit SAP BTP Services",
-      "section3Content": "Einer der Hauptvorteile der Entwicklung von Fiori-Anwendungen auf SAP BTP ist die nahtlose Integration mit anderen Plattform-Services. Von Authentifizierung und Autorisierung mit SAP Cloud Identity Services bis zur Datenspeicherung mit SAP HANA Cloud haben Entwickler Zugang zu Enterprise-Grade Services, die einfach in ihre Anwendungen integriert werden können.",
-      "section4Title": "Responsives Design und Multi-Geräte-Support",
-      "section4Content": "Auf SAP BTP entwickelte Fiori-Anwendungen passen sich automatisch an verschiedene Bildschirmgrößen und Geräte an und gewährleisten ein konsistentes Benutzererlebnis, ob von Desktop, Tablet oder Mobiltelefon aus zugegriffen wird. Diese Responsive-Design-Fähigkeit ist in das Framework eingebaut und reduziert den Aufwand zur Unterstützung mehrerer Geräte.",
-      "section5Title": "Performance-Optimierung",
-      "section5Content": "SAP BTP bietet verschiedene Tools und Techniken zur Optimierung der Fiori-Anwendungsperformance, einschließlich Lazy Loading, Bundling und Caching-Strategien. Diese Optimierungstechniken stellen sicher, dass Anwendungen schnell laden und flüssig reagieren, selbst bei der Verarbeitung großer Datensätze oder komplexer Geschäftslogik.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Die Entwicklung moderner Fiori-Anwendungen auf SAP BTP kombiniert die Leistung einer Enterprise-Grade Infrastruktur mit modernsten Entwicklungs-Frameworks. Durch Nutzung der Plattformfähigkeiten können Entwicklungsteams anspruchsvolle, benutzerfreundliche Anwendungen erstellen, die Geschäftswert fördern und Produktivität in der gesamten Organisation steigern."
+      "title": "SAP BTP'de Modern Fiori Uygulamaları Geliştirme",
+      "category": "Geliştirme",
+      "readTime": "8 dakika",
+      "seoDescription": "SAP BTP'nin güçlü geliştirme araçları ve çerçeveleriyle modern, duyarlı Fiori uygulamaları nasıl oluşturacağınızı öğrenin.",
+      "intro": "SAP Fiori kurumsal uygulamaların geleceğini temsil eder ve tüm cihazlar ve dağıtım seçenekleri genelinde birleşik bir kullanıcı deneyimi sağlar. SAP Business Technology Platform (BTP) ile Fiori uygulama geliştirme daha önce hiç olmadığından daha basit hale gelmiş ve güçlü hale gelmiştir.",
+      "section1Title": "Fiori Geliştirmesi için SAP BTP'nin Gücü",
+      "section1Content": "SAP BTP, Fiori uygulama geliştirmesi için özel olarak tasarlanmış kapsamlı bir araç ve hizmet paketi sunar. Platform, geliştirme ortamlarından dağıtım altyapısına kadar her şeyi sağlar ve ekiplerin altyapı yönetimi yerine istisnai kullanıcı deneyimleri oluşturmaya odaklanmasını sağlar.",
+      "section2Title": "Anahtar Özellikler ve En İyi Uygulamalar",
+      "section2Content": "Modern Fiori uygulamaları, tutarlılık sağlayan ve geliştirme süresini azaltan önceden oluşturulmuş Kullanıcı Arayüzü bileşenleri ve desenleri sağlayan SAP Fiori Elements çerçevesini kullanır. Bu öğeleri özel SAPUI5 denetimleriyle birleştirerek, geliştiriciler hem standartlaştırılmış hem de belirli iş gereksinimlerine uyarlanmış uygulamalar oluşturabilirler.",
+      "section3Title": "SAP BTP Hizmetleri ile Entegrasyon",
+      "section3Content": "SAP BTP'de Fiori uygulamaları geliştirmenin ana avantajlarından biri diğer platform hizmetleriyle sorunsuz entegrasyondur. SAP Cloud Identity Services ile kimlik doğrulama ve yetkilendirmeden SAP HANA Cloud ile veri depolamaya kadar, geliştiricilerin uygulamalarına kolayca entegre edilebilen kurumsal sınıf hizmetlere erişimi vardır.",
+      "section4Title": "Duyarlı Tasarım ve Çoklu Cihaz Desteği",
+      "section4Content": "SAP BTP'de geliştirilen Fiori uygulamaları farklı ekran boyutlarına ve cihazlara otomatik olarak uyum sağlayarak, masaüstü, tablet veya cep telefonundan erişilip erişilmediğinden bağımsız olarak tutarlı bir kullanıcı deneyimi sağlar. Bu duyarlı tasarım yeteneği çerçeveye yerleştirilmiştir ve birden fazla cihazı destekleme çabası azalır.",
+      "section5Title": "Performans Optimizasyonu",
+      "section5Content": "SAP BTP, tembel yükleme, paketleme ve önbelleğe alma stratejileri dahil olmak üzere Fiori uygulama performansını optimize etmek için çeşitli araçlar ve teknikler sağlar. Bu optimizasyon teknikleri, uygulamaların hızlı yüklendiğini ve büyük veri kümeleri veya karmaşık iş mantığı işlerken sorunsuz bir şekilde yanıt verdiğini sağlar.",
+      "conclusionTitle": "Sonuç",
+      "conclusionContent": "SAP BTP'de modern Fiori uygulamaları geliştirmek kurumsal sınıf altyapısının gücünü en son geliştirme çerçeveleriyle birleştirir. Platform yeteneklerinden yararlanarak geliştirme ekipleri kuruluş genelinde iş değeri artıran ve üretkenliği artıran geliştirilmiş, kullanıcı dostu uygulamalar oluşturabilirler."
     },
     "pwa": {
-      "title": "Offline-PWA-Lösungen für Geschäftskontinuität",
-      "category": "Architektur",
-      "readTime": "7 Min.",
-      "seoDescription": "Entdecken Sie, wie Progressive Web Apps (PWAs) mit Offline-Funktionen Geschäftskontinuität und Produktivität unter allen Netzwerkbedingungen gewährleisten.",
-      "intro": "In der heutigen vernetzten Welt können Netzwerkunterbrechungen Geschäftsprozesse zum Stillstand bringen. Progressive Web Apps (PWAs) mit Offline-Funktionen bieten eine robuste Lösung zur Gewährleistung der Geschäftskontinuität und ermöglichen Benutzern nahtloses Arbeiten unabhängig von der Netzwerkverfügbarkeit.",
-      "section1Title": "Offline-First-Architektur verstehen",
-      "section1Content": "Offline-First-Architektur stellt einen Paradigmenwechsel dar, wie wir Web-Anwendungen entwickeln. Anstatt Offline-Modus als Grenzfall zu behandeln, macht Offline-First-Design es zu einer Kernfunktion. Dieser Ansatz stellt sicher, dass Anwendungen funktional bleiben, selbst wenn Netzwerkkonnektivität unzuverlässig oder vollständig nicht verfügbar ist.",
-      "section2Title": "Service Workers: Das Rückgrat von Offline-PWAs",
-      "section2Content": "Service Workers sind die Technologie, die Offline-PWAs ermöglicht. Diese programmierbaren Netzwerk-Proxies sitzen zwischen Ihrer Anwendung und dem Netzwerk, fangen Anfragen ab und ermöglichen ausgefeilte Caching-Strategien. Durch Nutzung von Service Workers können Anwendungen kritische Ressourcen und Daten cachen und Verfügbarkeit selbst offline gewährleisten.",
-      "section3Title": "Datensynchronisierungsstrategien",
-      "section3Content": "Eine Hauptherausforderung in Offline-PWAs ist die Verwaltung der Datensynchronisierung bei wiederhergestellter Konnektivität. Implementierung robuster Konfliktlösungsstrategien und optimistischer Updates stellt sicher, dass Daten über Geräte und Backend-Systeme hinweg konsistent bleiben. Background-Sync-APIs ermöglichen automatische Synchronisierung, wenn das Netzwerk wieder verfügbar wird.",
-      "section4Title": "Geschäftsvorteile",
-      "section4Content": "Offline-PWAs liefern signifikanten Geschäftswert durch Gewährleistung von Produktivität unter allen Netzwerkbedingungen. Außendienstmitarbeiter können ihre Aufgaben an entlegenen Orten fortsetzen, Vertriebsteams können während Präsentationen auf kritische Informationen zugreifen, und Betriebsabläufe laufen während Netzwerkausfällen reibungslos weiter. Diese Zuverlässigkeit übersetzt sich direkt in verbesserte Kundenzufriedenheit und operative Effizienz.",
-      "section5Title": "Implementierung mit SAP BTP",
-      "section5Content": "SAP BTP bietet exzellenten Support für den Aufbau von Offline-PWAs durch sein Mobile Services Angebot. Diese Services umfassen Offline-Datensynchronisierung, sicheren Speicher und umfassende APIs, die die Entwicklung robuster Offline-fähiger Anwendungen vereinfachen.",
-      "conclusionTitle": "Fazit",
-      "conclusionContent": "Offline-PWAs repräsentieren die Zukunft von Geschäftsanwendungen und bieten Resilienz und Zuverlässigkeit, die traditionelle Web-Anwendungen nicht bieten können. Durch Akzeptanz von Offline-First-Architektur und Nutzung moderner Web-Technologien können Organisationen Geschäftskontinuität gewährleisten und Produktivität unabhängig von Netzwerkbedingungen aufrechterhalten."
+      "title": "İşletme Sürekliliği için Çevrimdışı PWA Çözümleri",
+      "category": "Mimari",
+      "readTime": "7 dakika",
+      "seoDescription": "İlerleme Halindeki Web Uygulamalarının (PWA'lar) çevrimdışı yetenekleri ile iş sürekliliği ve produktiviteyi tüm ağ koşullarında nasıl sağladığını keşfedin.",
+      "intro": "Günümüzün bağlantılı dünyasında, ağ kesintileri iş operasyonlarını durma noktasına getirebilir. Çevrimdışı yeteneklere sahip İlerleme Halindeki Web Uygulamaları (PWA'lar), iş sürekliliğini sağlamak için sağlam bir çözüm sunarak kullanıcıların ağ kullanılabilirliğinden bağımsız olarak sorunsuz bir şekilde çalışmasını sağlar.",
+      "section1Title": "Çevrimdışı-İlk Mimarinin Anlaşılması",
+      "section1Content": "Çevrimdışı-ilk mimari, web uygulamalarını nasıl geliştirdiğimizde bir paradigma değişimine temsil eder. Çevrimdışı modu bir sınır durumu olarak ele almak yerine, çevrimdışı-ilk tasarım bunu temel bir özellik haline getirir. Bu yaklaşım, ağ bağlantısı güvenilmez veya tamamen kullanılamaz olsa bile uygulamaların işlevsel kalmasını sağlar.",
+      "section2Title": "Service Workers: Çevrimdışı PWA'ların Omurgası",
+      "section2Content": "Service Workers, çevrimdışı PWA'ları mümkün kılan teknolojidir. Bu programlanabilir ağ vekilleri uygulamanız ile ağ arasında oturur, istekleri keser ve gelişmiş önbelleğe alma stratejileri sağlar. Service Workers yararlanılarak uygulamalar kritik kaynakları ve verileri önbelleğe alabilir ve çevrimdışı olsa bile kullanılabilirliği garanti edebilir.",
+      "section3Title": "Veri Senkronizasyon Stratejileri",
+      "section3Content": "Çevrimdışı PWA'lardaki temel zorluk, bağlantı geri yüklendiğinde veri senkronizasyonunun yönetimidir. Sağlam çatışma çözüm stratejileri ve iyimser güncellemeler uygulamak, verilerin cihazlar ve arka uç sistemleri arasında tutarlı kalmasını sağlar. Arka Plan Sinkro API'leri, ağ tekrar kullanılabilir hale geldiğinde otomatik senkronizasyonu etkinleştirir.",
+      "section4Title": "İşletme Faydaları",
+      "section4Content": "Çevrimdışı PWA'lar tüm ağ koşullarında üretkenliği sağlayarak önemli iş değeri sağlar. Saha çalışanları uzak konumlarda görevlerine devam edebilir, satış ekipleri sunumlar sırasında kritik bilgilere erişebilir ve ağ kesintileri sırasında operasyonlar sorunsuz devam eder. Bu güvenilirlik doğrudan geliştirilmiş müşteri memnuniyeti ve operasyonel verimlilik çevirir.",
+      "section5Title": "SAP BTP ile Uygulama",
+      "section5Content": "SAP BTP, Mobil Hizmetleri sunum aracılığıyla çevrimdışı PWA'lar oluşturmak için mükemmel destek sağlar. Bu hizmetler, çevrimdışı veri senkronizasyonu, güvenli depolama ve sağlam çevrimdışı yetenekli uygulamalar geliştirmeyi basitleştiren kapsamlı API'ler içerir.",
+      "conclusionTitle": "Sonuç",
+      "conclusionContent": "Çevrimdışı PWA'lar işletme uygulamalarının geleceğini temsil eder ve geleneksel web uygulamalarının sağlayamayacağı esneklik ve güvenilirlik sağlar. Çevrimdışı-ilk mimariye devam ederek ve modern web teknolojilerinden yararlanarak kuruluşlar iş sürekliliğini sağlayabilir ve ağ koşullarından bağımsız olarak üretkenliği koruyabilirler."
     }
   }
 }
