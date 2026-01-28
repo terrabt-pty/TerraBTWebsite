@@ -31,8 +31,8 @@ export default function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href={getLocalizedPath("/")} className="flex items-center gap-2">
-            <Logo className="h-12" data-testid="img-logo" />
+          <Link href={getLocalizedPath("/")} className="flex items-center gap-2 flex-shrink">
+            <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
           <div className="hidden md:flex items-center gap-6">
@@ -56,10 +56,11 @@ export default function Navigation() {
             <LanguageSwitcher />
           </div>
 
-          <div className="md:hidden flex items-center gap-2">
+          <div className="md:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2 flex-shrink-0">
             <LanguageSwitcher />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-1.5 xxs:p-2 text-foreground/80 hover:text-foreground hover:bg-accent rounded-md transition-colors"
               data-testid="button-mobile-menu"
             >
               {mobileMenuOpen ? (

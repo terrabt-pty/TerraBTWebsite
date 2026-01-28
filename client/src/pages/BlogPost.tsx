@@ -28,19 +28,19 @@ export default function BlogPost({
 }: BlogPostProps) {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEOHead 
+      <SEOHead
         title={`${title} - TerraBT Blog`}
         description={seoDescription}
       />
       <Navigation />
-      
+
       <article className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={getLocalizedPath("/")}>
@@ -51,8 +51,8 @@ export default function BlogPost({
           </Link>
 
           <Badge className="mb-4">{category}</Badge>
-          
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground break-words">
             {title}
           </h1>
 

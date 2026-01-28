@@ -10,7 +10,7 @@ export default function ContactSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-chart-5/5 via-transparent to-primary/5" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold break-words">
             <span className="bg-gradient-to-r from-chart-4 via-primary to-urgency bg-clip-text text-transparent">
               {t('contact.title')}
             </span>

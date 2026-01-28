@@ -30,7 +30,7 @@ import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891
 
 export default function Home() {
   const { t } = useTranslation();
-  
+
   const expertiseAreas = [
     {
       icon: Smartphone,
@@ -160,7 +160,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEOHead 
+      <SEOHead
         title="TerraBT - SAP BTP Consulting | 100% Specialized SAP Business Technology Platform"
         description={t('hero.subtitle')}
         path="/"
@@ -171,7 +171,7 @@ export default function Home() {
       <section id="services" className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
               {t('services.title')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -237,7 +237,7 @@ export default function Home() {
       <section id="knowledge" className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
               {t('knowledge.title')}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -259,7 +259,7 @@ export default function Home() {
             ))}
           </div>
 
-{/* Hidden for now
+          {/* Hidden for now
           <div className="text-center">
             <Button
               variant="secondary"

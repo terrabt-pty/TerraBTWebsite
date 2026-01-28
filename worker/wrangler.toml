@@ -1,0 +1,13 @@
+name = "terrabt-language-header"
+main = "index.js"
+compatibility_date = "2026-01-28"
+
+workers_dev = true
+
+[[routes]]
+pattern = "terrabt.com/*"
+zone_name = "terrabt.com"
+
+[[routes]]
+pattern = "www.terrabt.com/*"
+zone_name = "terrabt.com"

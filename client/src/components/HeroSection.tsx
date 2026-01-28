@@ -6,7 +6,7 @@ import heroImage from "@assets/TerraBT Page Background_1762664523373.png";
 
 export default function HeroSection() {
   const { t } = useTranslation();
-  
+
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -26,13 +26,13 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <Badge
-            className="text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30"
+            className="text-xs sm:text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30 whitespace-normal text-center"
             data-testid="badge-specialization"
           >
             🚀 100% SAP BTP Specialized Consulting
           </Badge>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight break-words">
             <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
               {t('hero.title')}
             </span>

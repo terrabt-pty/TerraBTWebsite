@@ -20,30 +20,30 @@ export default function LanguageSwitcher() {
 
   const handleLanguageChange = (newLang: string) => {
     const currentLang = i18n.language;
-    
+
     if (currentLang === newLang) {
       setOpen(false);
       return;
     }
-    
+
     saveBrowserLanguage(newLang);
-    
+
     let currentPath = location;
-    const currentPrefix = SUPPORTED_LANGUAGES.find(lang => 
+    const currentPrefix = SUPPORTED_LANGUAGES.find(lang =>
       currentPath.startsWith(`/${lang.code}`) && lang.code !== 'en'
     );
-    
+
     if (currentPrefix) {
       currentPath = currentPath.replace(new RegExp(`^/${currentPrefix.code}`), '') || '/';
     }
-    
+
     let newPath: string;
     if (newLang === 'en') {
       newPath = currentPath;
     } else {
       newPath = currentPath === '/' ? `/${newLang}` : `/${newLang}${currentPath}`;
     }
-    
+
     setOpen(false);
     setSearchQuery('');
     setLocation(newPath);
@@ -63,7 +63,7 @@ export default function LanguageSwitcher() {
     const query = searchQuery.toLowerCase();
     return regions.map(region => ({
       region,
-      languages: getLanguagesByRegion(region).filter(lang => 
+      languages: getLanguagesByRegion(region).filter(lang =>
         lang.name.toLowerCase().includes(query) ||
         lang.nativeName.toLowerCase().includes(query) ||
         lang.code.toLowerCase().includes(query)
@@ -74,13 +74,14 @@ export default function LanguageSwitcher() {
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <Button 
-          variant="outline" 
-          className="w-[200px] justify-start gap-2"
+        <Button
+          variant="outline"
+          className="w-auto md:w-[200px] justify-start gap-2 px-2 md:px-4"
           data-testid="select-language"
         >
           <Globe className="h-4 w-4 shrink-0" />
-          <span className="truncate">{currentLanguage.nativeName}</span>
+          <span className="hidden sm:inline truncate">{currentLanguage.nativeName}</span>
+          <span className="sm:hidden text-xs font-medium uppercase">{i18n.language.split('-')[0]}</span>
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[320px] p-0" align="end">
