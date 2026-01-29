@@ -128,6 +128,36 @@
       "title": "BTP Database Optimization Strategies",
       "excerpt": "Essential strategies for optimizing your SAP BTP database performance to ensure fast, reliable access to your business-critical data.",
       "readTime": "5 min"
+    },
+    "post7": {
+      "category": "Architecture",
+      "title": "SAP BTP Architecture Best Practices",
+      "excerpt": "A deep dive into designing robust, scalable, and secure architectures on SAP Business Technology Platform for enterprise-grade solutions.",
+      "readTime": "10 min"
+    },
+    "post8": {
+      "category": "Development",
+      "title": "Rapid Development with SAP CAP",
+      "excerpt": "Learn how the Cloud Application Programming Model (CAP) accelerates full-stack development while maintaining enterprise standards on BTP.",
+      "readTime": "8 min"
+    },
+    "post9": {
+      "category": "Technology",
+      "title": "Low-Code Revolution with SAP Build Apps",
+      "excerpt": "Discover how SAP Build Apps empowers both business users and pro-developers to create powerful applications with unprecedented speed.",
+      "readTime": "7 min"
+    },
+    "post10": {
+      "category": "AI & Automation",
+      "title": "Enterprise Automation with SAP Build Process Automation",
+      "excerpt": "Streamline Your Business: Leveraging SAP Build Process Automation for efficient, intelligent, and scalable workflow management.",
+      "readTime": "9 min"
+    },
+    "post11": {
+      "category": "Design",
+      "title": "User-Centered Innovation with Design Thinking",
+      "excerpt": "How to apply Design Thinking principles to your SAP BTP projects to ensure your solutions solve real user problems and drive adoption.",
+      "readTime": "6 min"
     }
   },
   "contact": {
@@ -1391,117 +1421,6 @@
       }
     }
   },
-  "offlinePWA": {
-    "badge": "Progressive Web Apps",
-    "title": "Offline PWA Apps",
-    "subtitle": "for SAP BTP",
-    "description": "Progressive web applications with offline capabilities ensuring seamless user experience anywhere. Build apps that work perfectly whether online or offline, delivering native app experiences through the web.",
-    "cta": "Build Your PWA →",
-    "servicesTitle": "Complete PWA Development Services",
-    "servicesSubtitle": "From offline-first architecture to push notifications, we build PWAs that rival native apps.",
-    "whyChooseBadge": "The PWA Advantage",
-    "whyChooseTitle": "Native Experience, Web Simplicity",
-    "whyChooseDescription": "Progressive Web Apps combine the best of web and native apps. No app store approvals, instant updates, and work across all devices - all while providing an app-like experience.",
-    "features": {
-      "offlineFirst": {
-        "title": "Offline-First Architecture",
-        "description": "Design applications that work seamlessly even without internet connectivity.",
-        "items": [
-          "Service Worker implementation",
-          "Offline data caching strategies",
-          "IndexedDB and local storage management",
-          "Background sync capabilities",
-          "Conflict resolution strategies"
-        ]
-      },
-      "dataSync": {
-        "title": "Data Synchronization",
-        "description": "Intelligent sync mechanisms to keep data consistent across devices.",
-        "items": [
-          "Automatic background synchronization",
-          "Delta sync for efficient data transfer",
-          "Conflict detection and resolution",
-          "Optimistic UI updates",
-          "Retry mechanisms and error handling"
-        ]
-      },
-      "pwaFeatures": {
-        "title": "Progressive Web App Features",
-        "description": "Native app-like experience with modern web capabilities.",
-        "items": [
-          "App manifest configuration",
-          "Add to home screen functionality",
-          "Push notification support",
-          "Camera and GPS integration",
-          "App shell architecture"
-        ]
-      },
-      "performance": {
-        "title": "Performance Optimization",
-        "description": "Lightning-fast load times and smooth offline transitions.",
-        "items": [
-          "Pre-caching critical resources",
-          "Lazy loading for images and content",
-          "Code splitting and bundling",
-          "Compression and minification",
-          "Performance monitoring and analytics"
-        ]
-      },
-      "security": {
-        "title": "Security & Compliance",
-        "description": "Secure offline data storage and transmission.",
-        "items": [
-          "Data encryption at rest",
-          "Secure authentication tokens",
-          "HTTPS enforcement",
-          "Content Security Policy (CSP)",
-          "Regular security audits"
-        ]
-      },
-      "onlineEnhancement": {
-        "title": "Online Enhancement",
-        "description": "Enhanced functionality when connectivity is available.",
-        "items": [
-          "Real-time updates and notifications",
-          "Cloud backup and restore",
-          "Multi-device synchronization",
-          "Analytics and telemetry",
-          "Feature detection and progressive enhancement"
-        ]
-      }
-    },
-    "benefits": [
-      "Work anywhere, anytime - even without internet",
-      "Improved user experience with instant loading",
-      "Reduced server costs with efficient caching",
-      "Higher conversion rates from app-like experience",
-      "Better engagement with push notifications"
-    ],
-    "statistics": {
-      "offlineCapability": {
-        "value": "100%",
-        "label": "Offline Capability"
-      },
-      "loadTime": {
-        "value": "3x",
-        "label": "Faster Load Times"
-      },
-      "dataReduction": {
-        "value": "50%",
-        "label": "Reduced Data Usage"
-      },
-      "engagement": {
-        "value": "80%",
-        "label": "Higher Engagement"
-      }
-    },
-    "ctaSectionBadge": "⚡ Enable Offline Capabilities Today",
-    "ctaSectionTitle1": "Ready to Build",
-    "ctaSectionTitle2": "Your Offline-First PWA?",
-    "ctaSectionDescription": "Let's create a progressive web app that works flawlessly offline and delivers a native app experience to your users.",
-    "ctaSectionButton1": "Start Your PWA Project →",
-    "ctaSectionButton2": "View All Services"
-  },
   "blogs": {
     "backToHome": "Back to Home",
     "claudeAI": {
@@ -1560,6 +1479,158 @@
       "section5Content": "SAP BTP provides excellent support for building offline PWAs through its Mobile Services offering. These services include offline data synchronization, secure storage, and comprehensive APIs that simplify the development of robust offline-capable applications.",
       "conclusionTitle": "Conclusion",
       "conclusionContent": "Offline PWAs represent the future of business applications, providing resilience and reliability that traditional web applications cannot match. By embracing offline-first architecture and leveraging modern web technologies, organizations can ensure business continuity and maintain productivity regardless of network conditions."
+    },
+    "databaseOptimization": {
+      "title": "Database Optimization Strategies for SAP HANA Cloud",
+      "category": "Performance",
+      "readTime": "8 min",
+      "seoDescription": "Discover proven strategies for optimizing SAP HANA Cloud database performance, including indexing, partitioning, and query optimization techniques.",
+      "intro": "SAP HANA Cloud represents a revolutionary approach to database management, combining in-memory processing with advanced analytics capabilities. However, maximizing performance requires understanding and applying appropriate optimization strategies tailored to your specific use cases and workloads.",
+      "section1Title": "Understanding In-Memory Architecture",
+      "section1Content": "SAP HANA's in-memory architecture fundamentally changes how we approach database optimization. Unlike traditional disk-based databases, HANA keeps data in RAM for ultra-fast access. This architecture enables real-time analytics and transaction processing, but requires different optimization strategies focused on memory management and data compression.",
+      "section2Title": "Table Partitioning Strategies",
+      "section2Content": "Partitioning large tables is crucial for maintaining optimal performance in SAP HANA Cloud. Range partitioning based on date fields, hash partitioning for even data distribution, and dynamic range partitioning for growing datasets are all effective strategies. Proper partitioning improves query performance by enabling partition pruning and parallel processing.",
+      "section3Title": "Indexing Best Practices",
+      "section3Content": "While SAP HANA's columnar storage reduces the need for traditional indexes, strategic use of inverted indexes, text indexes, and spatial indexes can significantly improve query performance for specific use cases. Understanding when and how to use different index types is key to optimization without unnecessarily consuming memory.",
+      "section4Title": "Query Optimization Techniques",
+      "section4Content": "Writing efficient SQL for SAP HANA requires understanding the query optimizer's behavior. Techniques include using column engine functions, minimizing data transfers between calculation engine and SQL engine, leveraging SQL hints when necessary, and designing queries that take advantage of HANA's parallel processing capabilities.",
+      "section5Title": "Memory Management",
+      "section5Content": "Effective memory management in SAP HANA Cloud involves monitoring memory consumption, implementing data aging strategies for historical data, using table placement to optimize column vs row store usage, and leveraging Native Storage Extensions (NSE) for managing warm data cost-effectively.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "Optimizing SAP HANA Cloud requires a holistic approach combining proper data modeling, strategic partitioning and indexing, efficient query design, and ongoing performance monitoring. By applying these strategies, organizations can fully leverage HANA Cloud's capabilities for real-time analytics and high-performance transaction processing."
+    },
+    "eventMesh": {
+      "title": "Event Mesh Architecture for Modern Enterprises",
+      "category": "Architecture",
+      "readTime": "9 min",
+      "seoDescription": "Learn how Event Mesh architecture enables real-time, event-driven integration across distributed systems for responsive, scalable business processes.",
+      "intro": "Traditional point-to-point integrations struggle to keep pace with modern business demands for real-time responsiveness and scalability. Event Mesh architecture represents a paradigm shift, enabling organizations to build truly event-driven systems that react instantly to business events across their entire IT landscape.",
+      "section1Title": "Understanding Event Mesh",
+      "section1Content": "An Event Mesh is a dynamic infrastructure layer that enables events from one application to reach any other application, regardless of where these applications are deployed. Unlike traditional message buses, Event Mesh provides a decentralized, distributed event routing layer that scales horizontally and spans multiple cloud and on-premise environments.",
+      "section2Title": "SAP Integration Suite Advanced Event Mesh",
+      "section2Content": "SAP's Advanced Event Mesh provides a robust, enterprise-grade implementation of event mesh architecture. It enables applications to publish and subscribe to events dynamically, supports multiple messaging protocols, and provides features like event filtering, transformation, and guaranteed delivery that are essential for enterprise use cases.",
+      "section3Title": "Event-Driven Architecture Patterns",
+      "section3Content": "Successful event mesh implementations leverage key patterns such as event sourcing, CQRS (Command Query Responsibility Segregation), and saga pattern for distributed transactions. These patterns enable building systems that are loosely coupled, highly scalable, and resilient to failures.",
+      "section4Title": "Real-Time Business Processing",
+      "section4Content": "Event Mesh enables true real-time business processing by eliminating the latency inherent in batch processing and traditional request-response integration patterns. Events propagate instantly across the mesh, enabling immediate reactions to business conditions such as inventory changes, customer orders, or supply chain disruptions.",
+      "section5Title": "Scalability and Performance",
+      "section5Content": "Event Mesh architecture scales naturally with business growth. As new applications or services are added to the mesh, they can immediately participate in event-driven workflows without requiring changes to existing integrations. The distributed nature of Event Mesh ensures that performance remains consistent even as event volumes grow.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "Event Mesh architecture represents the future of enterprise integration, enabling organizations to build responsive, scalable systems that can adapt quickly to changing business requirements. By adopting Event Mesh with SAP BTP, enterprises gain the foundation for true digital transformation and real-time business operations."
+    },
+    "integrationSuite": {
+      "title": "Mastering SAP Integration Suite",
+      "category": "Integration",
+      "readTime": "10 min",
+      "seoDescription": "Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity.",
+      "intro": "Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes.",
+      "section1Title": "The Vision of the Connected Enterprise",
+      "section1Content": "A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise.",
+      "section2Title": "Cloud Integration (CPI)",
+      "section2Content": "Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease.",
+      "section3Title": "API Management",
+      "section3Content": "API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance.",
+      "section4Title": "Open Connectors",
+      "section4Content": "Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation.",
+      "section5Title": "Integration Advisor",
+      "section5Content": "Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."
+    },
+    "btpArchitecture": {
+      "title": "SAP BTP Architecture Best Practices",
+      "category": "Architecture",
+      "readTime": "10 min",
+      "seoDescription": "Learn the best practices for designing scalable, secure, and resilient architectures on SAP Business Technology Platform.",
+      "intro": "A well-designed architecture is the foundation of any successful enterprise application. On SAP BTP, this means balancing scalability, security, and performance while leveraging the platform's diverse services. This guide explores the core principles and best practices for BTP architecture.",
+      "section1Title": "Landscape and Connectivity Strategy",
+      "section1Content": "Designing your BTP landscape involves carefully planning subaccounts, regions, and connectivity to on-premise systems via Cloud Connector. A multi-tier environment strategy (Dev, Test, Prod) is essential for governance and reliable deployment processes.",
+      "section2Title": "Security-First Architecture",
+      "section2Content": "Security on BTP starts with SAP Cloud Identity Services. Implementing Zero Trust principles, using Identity Authentication (IAS) and Identity Provisioning (IPS), and ensuring robust role-based access control (RBAC) are critical for protecting enterprise data.",
+      "section3Title": "High Availability and Resilience",
+      "section3Content": "Designing for failure is key to enterprise-grade solutions. This includes multi-region deployments, automated failover mechanisms, and regular backup strategies. Leveraging BTP's managed services ensures you benefit from SAP's infrastructure resilience.",
+      "section4Title": "Performance and Scalability",
+      "section4Content": "Architecting for performance involves choosing the right runtime (Cloud Foundry vs. Kyma), optimizing database interactions with HANA Cloud, and using caching strategies. Horizontal and vertical scaling should be planned to handle varying business loads efficiently.",
+      "section5Title": "Monitoring and Governance",
+      "section5Content": "Governance is about control without stifling innovation. Implementing SAP BTP Resource consumption monitoring, audit logging, and consistent DevOps practices ensures your architecture remains manageable and cost-effective as it grows.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "BTP Architecture is an evolving discipline. By following these best practices, you create a robust, future-proof foundation that allows your organization to innovate with confidence on the SAP Business Technology Platform."
+    },
+    "capDevelopment": {
+      "title": "Rapid Development with SAP CAP",
+      "category": "Development",
+      "readTime": "8 min",
+      "seoDescription": "Discover how the SAP Cloud Application Programming Model (CAP) accelerates enterprise development while maintaining high standards and best practices.",
+      "intro": "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a 'golden path' of best practices while being open to diverse technologies.",
+      "section1Title": "Core Data Services (CDS) at the Heart",
+      "section1Content": "CDS is the backbone of CAP, allowing you to define data models and service definitions in a concise, declarative way. This 'domain-driven design' approach ensures your application remains clean and focused on business logic from the start.",
+      "section2Title": "Pluggable Cloud Services",
+      "section2Content": "CAP's architecture allows you to easily plug in various services like databases (HANA, PostgreSQL), authentication providers, and identity management. This flexibility allows you to choose the best-of-breed technologies for each specific project requirement.",
+      "section3Title": "OData and Beyond",
+      "section3Content": "CAP automatically generates standard OData V2/V4 services from your CDS definitions, but it's not limited to OData. You can easily implement custom REST or GraphQL endpoints, providing flexibility for different consumer requirements.",
+      "section4Title": "Business Logic in Node.js or Java",
+      "section4Content": "CAP supports both Node.js and Java runtimes, allowing teams to leverage their existing skills. The framework provides powerful hooks to intercept requests and implement complex business logic, validations, and custom side effects with ease.",
+      "section5Title": "Fiori Elements Integration",
+      "section5Content": "CAP and Fiori Elements are a perfect match. By adding UI annotations to your CDS models, you can generate sophisticated Fiori applications with almost no frontend code, drastically reducing the time from model to running application.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "SAP CAP represents a major step forward in enterprise development. By providing a structured yet flexible framework, it allows organizations to build modern, scalable cloud applications faster than ever before on SAP BTP."
+    },
+    "buildApps": {
+      "title": "Low-Code Revolution with SAP Build Apps",
+      "category": "Technology",
+      "readTime": "7 min",
+      "seoDescription": "Explore how SAP Build Apps enables rapid application development through an intuitive no-code/low-code interface without compromising on enterprise-grade capabilities.",
+      "intro": "The demand for digital solutions is outstripping the capacity of professional developers. SAP Build Apps (formerly AppGyver) addresses this by empowering business experts and IT teams to create professional applications visually.",
+      "section1Title": "Visual Development Paradigm",
+      "section1Content": "With its drag-and-drop interface and vast library of pre-built components, SAP Build Apps allows you to build sophisticated user interfaces in a fraction of the time required by traditional coding. The visual logic builder replaces complex code with intuitive flows.",
+      "section2Title": "Enterprise Connectivity",
+      "section2Content": "Low-code doesn't mean isolated. SAP Build Apps integrates seamlessly with SAP BTP services and external APIs via OData and REST. This ensures your no-code apps have access to the same enterprise data as your pro-code applications.",
+      "section3Title": "Cross-Platform by Design",
+      "section3Content": "Apps built with SAP Build are inherently responsive. You can build once and deploy to web, iOS, and Android, providing a consistent experience for users across all their devices without maintaining multiple codebases.",
+      "section4Title": "Extensibility with JavaScript",
+      "section4Content": "When you hit the limits of built-in components, SAP Build Apps allows pro-developers to write custom JavaScript. This ensures that the platform is powerful enough for complex requirements while remaining accessible for simpler tasks.",
+      "section5Title": "Part of the SAP Build Family",
+      "section5Content": "As part of the wider SAP Build family, Apps works in harmony with SAP Build Process Automation and SAP Build Work Zone, providing a unified experience for building, automating, and accessing business applications.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "SAP Build Apps is democratizing innovation. By lowering the barrier to entry, it allows organizations to respond more quickly to business needs while maintaining the security and governance required by the enterprise."
+    },
+    "buildAutomation": {
+      "title": "Enterprise Automation with SAP Build Process Automation",
+      "category": "AI & Automation",
+      "readTime": "9 min",
+      "seoDescription": "Lean how to streamline your business operations by combining workflow management, RPA, and AI with SAP Build Process Automation.",
+      "intro": "Business processes are often fragmented and manual. SAP Build Process Automation combines workflow management, robotic process automation (RPA), and embedded AI to automate complex end-to-end business processes in a single tool.",
+      "section1Title": "Visual Workflow Management",
+      "section1Content": "Design complex approval processes and orchestrate tasks across users and systems using an intuitive visual designer. This allows business process owners to take charge of their own automation without needing deep technical knowledge.",
+      "section2Title": "Intelligent Robotic Process Automation (RPA)",
+      "section2Content": "Automate high-volume, repetitive tasks by recording interactions with desktop and web applications. 'Bots' can handle data entry, screen scraping, and system updates far more quickly and accurately than humans, freeing up staff for more strategic work.",
+      "section3Title": "Embedded AI Capabilities",
+      "section3Content": "Leverage AI to classify documents and extract data automatically. With built-in support for OCR and machine learning models, SAP Build Process Automation can handle unstructured data like invoices and purchase orders with ease.",
+      "section4Title": "Seamless SAP S/4HANA Integration",
+      "section4Content": "Pre-built content and adapters for SAP S/4HANA and other SAP applications allow for rapid implementation of automation for common scenarios like procurement, finance, and human resources tasks.",
+      "section5Title": "Monitoring and Compliance",
+      "section5Content": "The platform provides comprehensive monitoring dashboards to track process performance, find bottlenecks, and ensure all automations are running as expected. Full audit trails ensure compliance with external and internal regulations.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "SAP Build Process Automation is a game-changer for operational efficiency. By unifying diverse automation technologies, it provides a powerful platform for transforming manual processes into lean, intelligent, and automated business workflows."
+    },
+    "designThinking": {
+      "title": "User-Centered Innovation with Design Thinking",
+      "category": "Design",
+      "readTime": "6 min",
+      "seoDescription": "How to apply Design Thinking principles to ensure your SAP BTP solutions solve real user problems and deliver maximum user value.",
+      "intro": "Building great software isn't just about technology; it's about solving human problems. Design Thinking provides a structured approach to innovation that puts the user at the center of the development lifecycle, ensuring that the final product truly meets their needs.",
+      "section1Title": "The Five Stages of Design Thinking",
+      "section1Content": "The process involves five key stages: Empathize with users, Define their needs, Ideate creative solutions, Prototype quickly, and Test with real users. This iterative loop ensures that the project remains focused on the user's actual challenges.",
+      "section2Title": "Empathy: Understanding the 'Why'",
+      "section2Content": "Before writing a single line of code, we spend time with users to understand their workflows, frustrations, and motivations. This deep empathy is the key to identifying the 'hidden' requirements that traditional requirements gathering often misses.",
+      "section3Title": "Ideation and Divergent Thinking",
+      "section3Content": "During ideation, we encourage teams to think outside the box and explore many possible solutions without judgment. This broad range of ideas is then narrowed down to the most promising concepts for prototyping.",
+      "section4Title": "Rapid Prototyping on SAP BTP",
+      "section4Content": "SAP BTP tools like SAP Build Apps and Fiori Elements allow us to build functional prototypes incredibly quickly. These prototypes allow users to 'feel' the solution and provide feedback before significant development effort is invested.",
+      "section5Title": "Testing and Iteration",
+      "section5Content": "Testing with real users often reveals unexpected insights. We use these insights to iterate on our designs, refining the solution until it perfectly matches the user's mental model and optimizes their business process.",
+      "conclusionTitle": "Conclusion",
+      "conclusionContent": "Design Thinking is the bridge between technology and business value. By applying these principles to SAP BTP projects, we ensure that we build solutions that users love and that deliver a clear return on investment."
     }
   }
 }

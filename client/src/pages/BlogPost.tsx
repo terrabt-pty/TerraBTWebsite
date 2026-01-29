@@ -16,6 +16,7 @@ interface BlogPostProps {
   image: string;
   content: JSX.Element;
   seoDescription: string;
+  path: string;
 }
 
 export default function BlogPost({
@@ -25,6 +26,7 @@ export default function BlogPost({
   image,
   content,
   seoDescription,
+  path,
 }: BlogPostProps) {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
@@ -38,6 +40,7 @@ export default function BlogPost({
       <SEOHead
         title={`${title} - TerraBT Blog`}
         description={seoDescription}
+        path={path}
       />
       <Navigation />
 

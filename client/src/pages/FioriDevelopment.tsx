@@ -6,7 +6,7 @@ import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ArrowLeft, CheckCircle, Smartphone, Layout, Zap, Palette, Gauge, Users } from "lucide-react";
+import { ArrowLeft, ArrowRight, CheckCircle, Smartphone, Layout, Zap, Users, Code, Globe, Shield, BookOpen, Palette, Gauge } from "lucide-react";
 import { Link } from "wouter";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
@@ -57,13 +57,13 @@ export default function FioriDevelopment() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEOHead 
+      <SEOHead
         title={`${t('services.fiori.title')} - TerraBT`}
         description={t('services.fiori.description')}
         path="/services/fiori-development"
       />
       <Navigation />
-      
+
       <section className="pt-32 pb-16 bg-gradient-to-br from-chart-5/10 via-trust/5 to-primary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={getLocalizedPath("/")}>
@@ -77,7 +77,7 @@ export default function FioriDevelopment() {
             <Badge className="bg-trust/10 text-trust border-trust/30 mb-6" data-testid="badge-category">
               {t('fioriDevelopment.badge')}
             </Badge>
-            
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
                 {t('fioriDevelopment.title')}
@@ -90,8 +90,8 @@ export default function FioriDevelopment() {
               {t('fioriDevelopment.description')}
             </p>
 
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               onClick={scrollToContact}
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20"
               data-testid="button-start-project"
@@ -117,8 +117,8 @@ export default function FioriDevelopment() {
             {services.map((service, index) => {
               const serviceData = t(`fioriDevelopment.features.${service.key}`, { returnObjects: true }) as { title: string; description: string; items: string[] };
               return (
-                <Card 
-                  key={index} 
+                <Card
+                  key={index}
                   className="p-8 hover-elevate transition-all duration-300 border-l-4 border-l-transparent hover:border-l-primary"
                   data-testid={`card-service-${service.key}`}
                 >
@@ -164,7 +164,7 @@ export default function FioriDevelopment() {
               <p className="text-lg text-muted-foreground mb-8">
                 {t('fioriDevelopment.whyChooseDescription')}
               </p>
-              
+
               <ul className="space-y-4">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -201,6 +201,28 @@ export default function FioriDevelopment() {
         </div>
       </section>
 
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Card className="p-8 border-primary/20 bg-gradient-to-r from-primary/5 to-trust/5">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-4">
+                  <BookOpen className="h-5 w-5 text-primary" />
+                  <Badge variant="outline" className="text-primary border-primary/20">Knowledge Hub</Badge>
+                </div>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">{t('blog.post1.title')}</h3>
+                <p className="text-muted-foreground mb-4 md:mb-0 max-w-2xl">{t('blog.post1.excerpt')}</p>
+              </div>
+              <Link href={getLocalizedPath("/blog/fiori-applications-sap-btp")}>
+                <Button variant="outline" className="shrink-0 border-primary/30 hover:bg-primary/5 group">
+                  {t('blog.readMore')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-trust/10 via-primary/5 to-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="bg-urgency/10 text-urgency border-urgency/30 mb-6">
@@ -217,7 +239,7 @@ export default function FioriDevelopment() {
             {t('fioriDevelopment.ctaSectionDescription')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               onClick={scrollToContact}
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20"
@@ -226,7 +248,7 @@ export default function FioriDevelopment() {
               {t('fioriDevelopment.ctaSectionButton1')}
             </Button>
             <Link href={getLocalizedPath("/")}>
-              <Button 
+              <Button
                 size="lg"
                 variant="secondary"
                 className="bg-trust text-trust-foreground hover:bg-trust"

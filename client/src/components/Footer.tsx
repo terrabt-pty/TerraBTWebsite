@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 import Logo from "@/components/Logo";
 import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
 
@@ -24,20 +24,42 @@ export default function Footer() {
               {t('footer.description')}
             </p>
             <div className="flex items-center gap-3">
-              <button
-                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all"
-                onClick={() => console.log("LinkedIn clicked")}
+              <a
+                href="https://linkedin.com/company/terrabt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
                 data-testid="button-linkedin"
               >
                 <Linkedin className="h-4 w-4" />
-              </button>
-              <button
-                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all"
-                onClick={() => console.log("Twitter clicked")}
+              </a>
+              <a
+                href="https://x.com/terrabt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
                 data-testid="button-twitter"
               >
                 <Twitter className="h-4 w-4" />
-              </button>
+              </a>
+              <a
+                href="https://facebook.com/terrabt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
+                data-testid="button-facebook"
+              >
+                <Facebook className="h-4 w-4" />
+              </a>
+              <a
+                href="https://instagram.com/terrabt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
+                data-testid="button-instagram"
+              >
+                <Instagram className="h-4 w-4" />
+              </a>
             </div>
           </div>
 
@@ -164,10 +186,10 @@ export default function Footer() {
               © {currentYear} TerraBT. {t('footer.copyright')}
             </p>
           </div>
-          
+
           <div className="flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
-              SAP and SAP Business Technology Platform are trademarks or registered trademarks of SAP SE or its affiliates in Germany and in several other countries. 
+              SAP and SAP Business Technology Platform are trademarks or registered trademarks of SAP SE or its affiliates in Germany and in several other countries.
               TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE. {t('footer.serviceRestriction')}
             </p>
           </div>

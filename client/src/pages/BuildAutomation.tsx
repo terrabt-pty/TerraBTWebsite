@@ -6,7 +6,7 @@ import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { ArrowLeft, CheckCircle, Bot, Workflow, Zap, FileCheck, TrendingUp, Shield, Clock, RefreshCw } from "lucide-react";
+import { ArrowLeft, ArrowRight, CheckCircle, Bot, Workflow, Zap, FileCheck, TrendingUp, Shield, Clock, RefreshCw, BookOpen } from "lucide-react";
 import { Link } from "wouter";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
@@ -106,12 +106,13 @@ export default function BuildAutomation() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <SEOHead 
+      <SEOHead
         title={`${t('services.buildAutomation.title')} - TerraBT`}
         description={t('services.buildAutomation.description')}
+        path="/services/build-automation"
       />
       <Navigation />
-      
+
       <section className="pt-32 pb-16 bg-gradient-to-br from-chart-1/10 via-primary/5 to-trust/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={getLocalizedPath("/")}>
@@ -125,7 +126,7 @@ export default function BuildAutomation() {
             <Badge className="bg-primary/10 text-primary border-primary/30 mb-6" data-testid="badge-category">
               {t('buildAutomationPage.badge')}
             </Badge>
-            
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-chart-1 via-primary to-trust bg-clip-text text-transparent">
                 {t('buildAutomationPage.title')}
@@ -138,8 +139,8 @@ export default function BuildAutomation() {
               {t('buildAutomationPage.description')}
             </p>
 
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               onClick={scrollToContact}
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-lg shadow-urgency/20"
               data-testid="button-start-project"
@@ -163,8 +164,8 @@ export default function BuildAutomation() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="p-8 hover-elevate transition-all duration-300 border-l-4 border-l-transparent hover:border-l-primary"
                 data-testid={`card-feature-${feature.title.toLowerCase().replace(/\s+/g, '-')}`}
               >
@@ -259,6 +260,28 @@ export default function BuildAutomation() {
               </div>
             </Card>
           </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Card className="p-8 border-primary/20 bg-gradient-to-r from-primary/5 to-trust/5">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-4">
+                  <BookOpen className="h-5 w-5 text-primary" />
+                  <Badge variant="outline" className="text-primary border-primary/20">Knowledge Hub</Badge>
+                </div>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">{t('blog.post10.title')}</h3>
+                <p className="text-muted-foreground mb-4 md:mb-0 max-w-2xl">{t('blog.post10.excerpt')}</p>
+              </div>
+              <Link href={getLocalizedPath("/blog/enterprise-automation-with-sap-build-process-automation")}>
+                <Button variant="outline" className="shrink-0 border-primary/30 hover:bg-primary/5 group">
+                  {t('blog.readMore')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+            </div>
+          </Card>
         </div>
       </section>
 

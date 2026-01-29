@@ -4,7 +4,7 @@ import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_176932635
 
 export default function ClaudeAIInvoiceProcessing() {
   const { t } = useTranslation();
-  
+
   return (
     <BlogPost
       title={t("blogs.claudeAI.title")}
@@ -12,6 +12,7 @@ export default function ClaudeAIInvoiceProcessing() {
       readTime={t("blogs.claudeAI.readTime")}
       image={aiImage}
       seoDescription={t("blogs.claudeAI.seoDescription")}
+      path="/blog/claude-ai-invoice-processing"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">

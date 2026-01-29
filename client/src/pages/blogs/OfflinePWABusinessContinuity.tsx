@@ -4,7 +4,7 @@ import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891
 
 export default function OfflinePWABusinessContinuity() {
   const { t } = useTranslation();
-  
+
   return (
     <BlogPost
       title={t("blogs.pwa.title")}
@@ -12,6 +12,7 @@ export default function OfflinePWABusinessContinuity() {
       readTime={t("blogs.pwa.readTime")}
       image={pwaImage}
       seoDescription={t("blogs.pwa.seoDescription")}
+      path="/blog/offline-pwa-business-continuity"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">

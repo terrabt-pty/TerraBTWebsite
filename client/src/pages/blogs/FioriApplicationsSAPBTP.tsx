@@ -4,7 +4,7 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 
 export default function FioriApplicationsSAPBTP() {
   const { t } = useTranslation();
-  
+
   return (
     <BlogPost
       title={t("blogs.fiori.title")}
@@ -12,6 +12,7 @@ export default function FioriApplicationsSAPBTP() {
       readTime={t("blogs.fiori.readTime")}
       image={fioriImage}
       seoDescription={t("blogs.fiori.seoDescription")}
+      path="/blog/fiori-applications-sap-btp"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">

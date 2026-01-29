@@ -26,6 +26,11 @@ import ClaudeAIInvoiceProcessing from "@/pages/blogs/ClaudeAIInvoiceProcessing";
 import MasteringIntegrationSuite from "@/pages/blogs/MasteringIntegrationSuite";
 import EventMeshArchitecture from "@/pages/blogs/EventMeshArchitecture";
 import DatabaseOptimizationStrategies from "@/pages/blogs/DatabaseOptimizationStrategies";
+import BTPArchitectureBestPractices from "@/pages/blogs/BTPArchitectureBestPractices";
+import RapidDevelopmentCAP from "@/pages/blogs/RapidDevelopmentCAP";
+import LowCodeRevolutionBuildApps from "@/pages/blogs/LowCodeRevolutionBuildApps";
+import EnterpriseAutomationBuildProcess from "@/pages/blogs/EnterpriseAutomationBuildProcess";
+import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInnovationDesignThinking";
 import NotFound from "@/pages/not-found";
 
 function LanguageSync() {
@@ -35,7 +40,7 @@ function LanguageSync() {
   useEffect(() => {
     const pathSegments = location.split('/').filter(Boolean);
     let detectedLang: string | null = null;
-    
+
     // First, check if there's a language in the URL path
     if (pathSegments.length > 0) {
       const potentialLang = pathSegments[0];
@@ -44,12 +49,12 @@ function LanguageSync() {
         detectedLang = potentialLang;
       }
     }
-    
+
     // If no language in URL, use browser language detection (which respects localStorage and browser preferences)
     if (!detectedLang) {
       detectedLang = getBrowserLanguage();
     }
-    
+
     if (i18n.language !== detectedLang) {
       i18n.changeLanguage(detectedLang);
     }
@@ -61,7 +66,7 @@ function LanguageSync() {
 function Router() {
   const supportedLangCodes = SUPPORTED_LANGUAGES.map(lang => lang.code).filter(code => code !== 'en');
   const langPattern = supportedLangCodes.join('|');
-  
+
   return (
     <Switch>
       {/* English routes (no prefix) */}
@@ -77,7 +82,7 @@ function Router() {
       <Route path="/services/cap-development" component={CAPDevelopment} />
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
-      
+
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
       <Route path="/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
@@ -85,7 +90,12 @@ function Router() {
       <Route path="/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
       <Route path="/blog/event-mesh-architecture" component={EventMeshArchitecture} />
       <Route path="/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />
-      
+      <Route path="/blog/btp-architecture-best-practices" component={BTPArchitectureBestPractices} />
+      <Route path="/blog/rapid-development-with-sap-cap" component={RapidDevelopmentCAP} />
+      <Route path="/blog/low-code-revolution-with-sap-build-apps" component={LowCodeRevolutionBuildApps} />
+      <Route path="/blog/enterprise-automation-with-sap-build-process-automation" component={EnterpriseAutomationBuildProcess} />
+      <Route path="/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
+
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={Home} />
       <Route path="/:lang/services/btp-architecture" component={BTPArchitecture} />
@@ -99,7 +109,7 @@ function Router() {
       <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
       <Route path="/:lang/services/build-apps" component={BuildApps} />
       <Route path="/:lang/services/build-automation" component={BuildAutomation} />
-      
+
       {/* Localized blog post routes */}
       <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
       <Route path="/:lang/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
@@ -107,7 +117,12 @@ function Router() {
       <Route path="/:lang/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
       <Route path="/:lang/blog/event-mesh-architecture" component={EventMeshArchitecture} />
       <Route path="/:lang/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />
-      
+      <Route path="/:lang/blog/btp-architecture-best-practices" component={BTPArchitectureBestPractices} />
+      <Route path="/:lang/blog/rapid-development-with-sap-cap" component={RapidDevelopmentCAP} />
+      <Route path="/:lang/blog/low-code-revolution-with-sap-build-apps" component={LowCodeRevolutionBuildApps} />
+      <Route path="/:lang/blog/enterprise-automation-with-sap-build-process-automation" component={EnterpriseAutomationBuildProcess} />
+      <Route path="/:lang/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
+
       <Route component={NotFound} />
     </Switch>
   );
