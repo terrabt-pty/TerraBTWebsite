@@ -224,7 +224,7 @@ export default function BTPArchitecture() {
               </div>
               <Link href={getLocalizedPath("/blog/btp-architecture-best-practices")}>
                 <Button variant="outline" className="shrink-0 border-primary/30 hover:bg-primary/5 group">
-                  {t('blog.readMore')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  {t('knowledge.readMore')} <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
             </div>
