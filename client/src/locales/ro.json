@@ -182,7 +182,8 @@
     "copyright": "Toate drepturile rezervate.",
     "deployedOn": "Implementat pe Cloudflare",
     "serviceRestriction": "Serviciile nu sunt disponibile în Australia și Noua Zeelandă.",
-    "availableLanguages": "Disponibil în limba dvs."
+    "availableLanguages": "Disponibil în limba dvs.",
+    "liability": "Politica de răspundere limitată"
   },
   "common": {
     "learnMore": "Aflați mai multe",

@@ -181,6 +181,32 @@ export default function Footer() {
             </div>
           </div>
 
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground">
+            <a
+              href="/privacy-policy"
+              className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+              data-testid="link-privacy-policy"
+            >
+              {t('footer.privacy')}
+            </a>
+            <span className="hidden sm:inline">•</span>
+            <a
+              href="/terms-of-service"
+              className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+              data-testid="link-terms-of-service"
+            >
+              {t('footer.terms')}
+            </a>
+            <span className="hidden sm:inline">•</span>
+            <a
+              href="/limited-liability"
+              className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+              data-testid="link-limited-liability"
+            >
+              {t('footer.liability')}
+            </a>
+          </div>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">
               © {currentYear} TerraBT. {t('footer.copyright')}

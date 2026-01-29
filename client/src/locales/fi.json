@@ -182,7 +182,8 @@
     "copyright": "Kaikki oikeudet pidätetään.",
     "deployedOn": "Skaalattu Cloudflarella",
     "serviceRestriction": "Palvelut eivät ole saatavilla Australiassa ja Uudessa-Seelannissa.",
-    "availableLanguages": "Saatavilla omalla kielelläsi"
+    "availableLanguages": "Saatavilla omalla kielelläsi",
+    "liability": "Rajoitetun vastuun käytäntö"
   },
   "common": {
     "learnMore": "Lue lisää",

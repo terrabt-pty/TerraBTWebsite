@@ -182,7 +182,8 @@
     "copyright": "版权所有。",
     "deployedOn": "部署在Cloudflare上",
     "serviceRestriction": "服务在澳大利亚和新西兰不可用。",
-    "availableLanguages": "提供您的语言版本"
+    "availableLanguages": "提供您的语言版本",
+    "liability": "有限责任政策"
   },
   "common": {
     "learnMore": "了解更多",

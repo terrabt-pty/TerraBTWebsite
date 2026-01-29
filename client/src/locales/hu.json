@@ -182,7 +182,8 @@
     "copyright": "Minden jog fenntartva.",
     "deployedOn": "A Cloudflare-en üzembe helyezve",
     "serviceRestriction": "A szolgáltatások Ausztráliában és Új-Zélandon nem érhetőek el.",
-    "availableLanguages": "Elérhető az Ön nyelvén"
+    "availableLanguages": "Elérhető az Ön nyelvén",
+    "liability": "Korlátozott felelősség szabályzat"
   },
   "common": {
     "learnMore": "Tudjon meg többet",

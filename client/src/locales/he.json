@@ -182,7 +182,8 @@
     "copyright": "כל הזכויות שמורות.",
     "deployedOn": "מאוחסן ב-Cloudflare",
     "serviceRestriction": "השירותים אינם זמינים באוסטרליה ובניו זילנד.",
-    "availableLanguages": "זמין בשפתכם"
+    "availableLanguages": "זמין בשפתכם",
+    "liability": "מדיניות אחריות מוגבלת"
   },
   "common": {
     "learnMore": "למידה נוספת",

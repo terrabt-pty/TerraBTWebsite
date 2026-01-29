@@ -182,7 +182,8 @@
     "copyright": "جميع الحقوق محفوظة.",
     "deployedOn": "مستضاف على Cloudflare",
     "serviceRestriction": "الخدمات غير متوفرة في أستراليا ونيوزيلندا.",
-    "availableLanguages": "متوفر بلغتكم"
+    "availableLanguages": "متوفر بلغتكم",
+    "liability": "سياسة المسؤولية المحدودة"
   },
   "common": {
     "learnMore": "تعلم المزيد",

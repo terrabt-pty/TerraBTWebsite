@@ -182,7 +182,8 @@
     "copyright": "모든 권리 보유.",
     "deployedOn": "Cloudflare에 배포됨",
     "serviceRestriction": "호주 및 뉴질랜드에서는 서비스를 이용할 수 없습니다.",
-    "availableLanguages": "귀사의 언어로 제공됨"
+    "availableLanguages": "귀사의 언어로 제공됨",
+    "liability": "제한책임정책"
   },
   "common": {
     "learnMore": "더 알아보기",

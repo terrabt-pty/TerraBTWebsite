@@ -182,7 +182,8 @@
     "copyright": "Tous droits réservés.",
     "deployedOn": "Déployé sur Cloudflare",
     "serviceRestriction": "Les services ne sont pas disponibles en Australie et en Nouvelle-Zélande.",
-    "availableLanguages": "Disponible dans Votre Langue"
+    "availableLanguages": "Disponible dans Votre Langue",
+    "liability": "Politique de Responsabilité Limitée"
   },
   "common": {
     "learnMore": "En Savoir Plus",

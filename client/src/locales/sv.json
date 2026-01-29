@@ -182,7 +182,8 @@
     "copyright": "Med ensamrätt.",
     "deployedOn": "Driftsatt via Cloudflare",
     "serviceRestriction": "Tjänsterna är inte tillgängliga i Australien och Nya Zeeland.",
-    "availableLanguages": "Tillgängligt på ditt språk"
+    "availableLanguages": "Tillgängligt på ditt språk",
+    "liability": "Policy för begränsat ansvar"
   },
   "common": {
     "learnMore": "Läs mer",

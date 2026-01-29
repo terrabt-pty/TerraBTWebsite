@@ -182,7 +182,8 @@
     "copyright": "ሁሉም መብቶች የተጠበቁ ናቸው።",
     "deployedOn": "በCloudflare ላይ ተሰራጭቷል",
     "serviceRestriction": "Services are not available in Australia and New Zealand.",
-    "availableLanguages": "በቋንቋዎ ይገኛል"
+    "availableLanguages": "በቋንቋዎ ይገኛል",
+    "liability": "የተወሰነ ተጠያቂነት ፖሊሲ"
   },
   "common": {
     "learnMore": "ተጨማሪ ይወቁ",

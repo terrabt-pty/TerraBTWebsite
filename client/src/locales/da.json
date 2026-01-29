@@ -182,7 +182,8 @@
     "copyright": "Alle rettigheder forbeholdt.",
     "deployedOn": "Implementeret på Cloudflare",
     "serviceRestriction": "Tjenester er ikke tilgængelige i Australien og New Zealand.",
-    "availableLanguages": "Tilgængelig på dit sprog"
+    "availableLanguages": "Tilgængelig på dit sprog",
+    "liability": "Politik for begrænset ansvar"
   },
   "common": {
     "learnMore": "Læs mere",

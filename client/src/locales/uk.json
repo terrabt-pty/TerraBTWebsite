@@ -182,7 +182,8 @@
     "copyright": "Всі права захищені.",
     "deployedOn": "Розгорнуто на Cloudflare",
     "serviceRestriction": "Послуги недоступні в Австралії та Новій Зеландії.",
-    "availableLanguages": "Доступно Вашою мовою"
+    "availableLanguages": "Доступно Вашою мовою",
+    "liability": "Політика обмеженої відповідальності"
   },
   "common": {
     "learnMore": "Дізнатися більше",

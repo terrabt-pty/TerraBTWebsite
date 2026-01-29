@@ -182,7 +182,8 @@
     "copyright": "Všechna práva vyhrazena.",
     "deployedOn": "Hostováno na Cloudflare",
     "serviceRestriction": "Služby nejsou dostupné v Austrálii a na Novém Zélandu.",
-    "availableLanguages": "Dostupné ve Vašem jazyce"
+    "availableLanguages": "Dostupné ve Vašem jazyce",
+    "liability": "Politika omezené odpovědnosti"
   },
   "common": {
     "learnMore": "Zjistit více",
