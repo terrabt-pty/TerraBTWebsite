@@ -11,6 +11,12 @@ export default function Footer() {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      // Update URL for analytics tracking without jumping
+      history.pushState(null, '', href);
+    } else {
+      // If on another page, go to home then scroll
+      const homePath = `/${href}`; // Basic redirection, ideally use localized path if available or just /
+      window.location.href = href === "#home" ? "/" : `/${href}`;
     }
   };
 

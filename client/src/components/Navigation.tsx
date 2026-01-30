@@ -25,6 +25,8 @@ export default function Navigation() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false);
+      // Update URL for analytics tracking
+      history.pushState(null, '', href);
     } else {
       setMobileMenuOpen(false);
       const homePath = getLocalizedPath("/");
