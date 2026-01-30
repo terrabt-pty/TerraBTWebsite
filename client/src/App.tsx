@@ -31,6 +31,7 @@ import RapidDevelopmentCAP from "@/pages/blogs/RapidDevelopmentCAP";
 import LowCodeRevolutionBuildApps from "@/pages/blogs/LowCodeRevolutionBuildApps";
 import EnterpriseAutomationBuildProcess from "@/pages/blogs/EnterpriseAutomationBuildProcess";
 import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInnovationDesignThinking";
+import TermsOfService from "@/pages/TermsOfService";
 import NotFound from "@/pages/not-found";
 
 function LanguageSync() {
@@ -92,6 +93,9 @@ function Router() {
       <Route path="/services/cap-development" component={CAPDevelopment} />
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
+
+      {/* Legal Pages */}
+      <Route path="/terms-of-service" component={TermsOfService} />
 
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
