@@ -33,6 +33,7 @@ import EnterpriseAutomationBuildProcess from "@/pages/blogs/EnterpriseAutomation
 import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInnovationDesignThinking";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import LimitedLiability from "@/pages/LimitedLiability";
 import NotFound from "@/pages/not-found";
 
 function LanguageSync() {
@@ -98,6 +99,7 @@ function Router() {
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/limited-liability" component={LimitedLiability} />
 
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
