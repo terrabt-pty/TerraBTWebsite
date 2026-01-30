@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
@@ -9,6 +9,7 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [location, setLocation] = useLocation();
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
@@ -24,6 +25,16 @@ export default function Navigation() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false);
+    } else {
+      setMobileMenuOpen(false);
+      const homePath = getLocalizedPath("/");
+      setLocation(homePath);
+      setTimeout(() => {
+        const targetElement = document.querySelector(href);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500);
     }
   };
 

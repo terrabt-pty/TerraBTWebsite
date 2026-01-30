@@ -63,6 +63,16 @@ function LanguageSync() {
   return null;
 }
 
+function ScrollToTop() {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
+
 function Router() {
   const supportedLangCodes = SUPPORTED_LANGUAGES.map(lang => lang.code).filter(code => code !== 'en');
   const langPattern = supportedLangCodes.join('|');
@@ -134,6 +144,7 @@ function App() {
       <TooltipProvider>
         <LanguageRedirect />
         <LanguageSync />
+        <ScrollToTop />
         <Toaster />
         <Router />
       </TooltipProvider>
