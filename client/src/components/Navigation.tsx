@@ -35,7 +35,7 @@ export default function Navigation() {
             <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <button
                 key={link.href}
@@ -56,7 +56,7 @@ export default function Navigation() {
             <LanguageSwitcher />
           </div>
 
-          <div className="md:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2 flex-shrink-0">
+          <div className="lg:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2 flex-shrink-0">
             <LanguageSwitcher />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -74,7 +74,7 @@ export default function Navigation() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden border-t bg-background" data-testid="mobile-menu">
+        <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <button

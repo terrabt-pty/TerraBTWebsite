@@ -76,7 +76,7 @@ export default function LanguageSwitcher() {
       <PopoverTrigger asChild>
         <Button
           variant="outline"
-          className="w-auto md:w-[200px] justify-start gap-2 px-2 md:px-4"
+          className="w-auto lg:w-[200px] justify-start gap-2 px-2 lg:px-4"
           data-testid="select-language"
         >
           <Globe className="h-4 w-4 shrink-0" />
