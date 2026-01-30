@@ -34,7 +34,7 @@ export default function Footer() {
                 <Linkedin className="h-4 w-4" />
               </a>
               <a
-                href="https://x.com/terrabt"
+                href="https://x.com/TerraBTinc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
