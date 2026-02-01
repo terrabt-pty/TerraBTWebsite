@@ -154,16 +154,41 @@ export default {
       }
     }
 
-    const newHeaders = new Headers(response.headers);
-    newHeaders.set("Content-Language", matchedCode);
+    // Use HTMLRewriter to inject the country code into the HTML
+    // This allows the client-side React code to know the user's location
+    // without needing an additional API call.
+    class CountryInjector {
+      constructor(country) {
+        this.country = country;
+      }
+      element(element) {
+        element.append(`<script>window.GEO_COUNTRY = "${this.country || 'UNKNOWN'}";</script>`, { html: true });
+      }
+    }
 
-    // Debugging
+    const contentType = response.headers.get("content-type");
+
+    // Only inject into HTML pages
+    let finalResponse = response;
+    if (contentType && contentType.includes("text/html")) {
+      finalResponse = new HTMLRewriter()
+        .on("head", new CountryInjector(country))
+        .transform(response);
+    }
+
+    // Clone response to be able to modify headers (HTMLRewriter response allows header mutation, standard fetch response might be immutable)
+    // However, HTMLRewriter.transform returns a new response that we can just use.
+    // If we didn't use HTMLRewriter, we need to handle the headers on the original response.
+
+    // We need to ensure we preserve the headers logic from the original code
+    const newHeaders = new Headers(finalResponse.headers);
+    newHeaders.set("Content-Language", matchedCode);
     newHeaders.set("X-Language-Matched", matchedCode);
     newHeaders.set("X-Language-Match-Status", status);
 
-    return new Response(response.body, {
-      status: response.status,
-      statusText: response.statusText,
+    return new Response(finalResponse.body, {
+      status: finalResponse.status,
+      statusText: finalResponse.statusText,
       headers: newHeaders
     });
   }

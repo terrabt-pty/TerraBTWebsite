@@ -35,6 +35,7 @@ import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
 import NotFound from "@/pages/not-found";
+import CookieConsent from "@/components/CookieConsent";
 
 function LanguageSync() {
   const [location] = useLocation();
@@ -154,6 +155,7 @@ function App() {
         <LanguageSync />
         <ScrollToTop />
         <Toaster />
+        <CookieConsent />
         <Router />
       </TooltipProvider>
     </QueryClientProvider>
