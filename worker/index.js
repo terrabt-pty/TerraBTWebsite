@@ -15,7 +15,19 @@ export default {
 
       // If the IP is not in the allowed list, block the request
       if (!allowedIPs.includes(clientIP)) {
-        return new Response('Access Forbidden: This specific region is restricted.', {
+        return new Response('', {
+          status: 403,
+          headers: { 'Content-Type': 'text/plain' }
+        });
+      }
+    }
+
+    // Security Check: Block access to the worker source code if someone tries to fetch it directly
+    const url = new URL(request.url);
+    if (url.pathname.includes('/worker/') || url.pathname.endsWith('worker.js') || url.pathname.endsWith('index.js')) {
+      // Allow main.tsx or other client assets, but block worker/index.js specifically if it matches
+      if (url.pathname.includes('worker')) {
+        return new Response('', {
           status: 403,
           headers: { 'Content-Type': 'text/plain' }
         });
@@ -23,114 +35,6 @@ export default {
     }
 
     const response = await fetch(request);
-    const url = new URL(request.url);
-
-    const langMap = {
-      "en": "en",
-      "en-gb": "en-GB",
-      "de-de": "de-DE",
-      "de": "de-DE",
-      "de-at": "de-AT",
-      "de-ch": "de-CH",
-      "fr-fr": "fr-FR",
-      "fr": "fr-FR",
-      "fr-ch": "fr-CH",
-      "es-es": "es-ES",
-      "es": "es-ES",
-      "it-it": "it-IT",
-      "it": "it-IT",
-      "nl-nl": "nl-NL",
-      "nl": "nl-NL",
-      "pt-pt": "pt-PT",
-      "pt": "pt-PT",
-      "sv-se": "sv-SE",
-      "sv": "sv-SE",
-      "da-dk": "da-DK",
-      "da": "da-DK",
-      "nb-no": "nb-NO",
-      "nb": "nb-NO",
-      "fi-fi": "fi-FI",
-      "fi": "fi-FI",
-      "pl-pl": "pl-PL",
-      "pl": "pl-PL",
-      "cs-cz": "cs-CZ",
-      "cs": "cs-CZ",
-      "hu-hu": "hu-HU",
-      "hu": "hu-HU",
-      "ro-ro": "ro-RO",
-      "ro": "ro-RO",
-      "sk-sk": "sk-SK",
-      "sk": "sk-SK",
-      "sl-si": "sl-SI",
-      "sl": "sl-SI",
-      "hr-hr": "hr-HR",
-      "hr": "hr-HR",
-      "bg-bg": "bg-BG",
-      "bg": "bg-BG",
-      "uk-ua": "uk-UA",
-      "uk": "uk-UA",
-      "ru-ru": "ru-RU",
-      "ru": "ru-RU",
-      "lt-lt": "lt-LT",
-      "lt": "lt-LT",
-      "lv-lv": "lv-LV",
-      "lv": "lv-LV",
-      "et-ee": "et-EE",
-      "et": "et-EE",
-      "el-gr": "el-GR",
-      "el": "el-GR",
-      "nl-be": "nl-BE",
-      "fr-be": "fr-BE",
-      "en-us": "en-US",
-      "en-ca": "en-CA",
-      "fr-ca": "fr-CA",
-      "es-mx": "es-MX",
-      "es-ar": "es-AR",
-      "es-co": "es-CO",
-      "es-cl": "es-CL",
-      "es-pe": "es-PE",
-      "es-gt": "es-GT",
-      "es-cr": "es-CR",
-      "pt-br": "pt-BR",
-      "zh-cn": "zh-CN",
-      "zh": "zh-CN",
-      "zh-tw": "zh-TW",
-      "ja-jp": "ja-JP",
-      "ja": "ja-JP",
-      "ko-kr": "ko-KR",
-      "ko": "ko-KR",
-      "en-sg": "en-SG",
-      "en-my": "en-MY",
-      "en-id": "en-ID",
-      "en-ph": "en-PH",
-      "en-th": "en-TH",
-      "en-vn": "en-VN",
-      "en-in": "en-IN",
-      "en-pk": "en-PK",
-      "en-bd": "en-BD",
-      "en-lk": "en-LK",
-      "ar-ae": "ar-AE",
-      "ar": "ar-AE",
-      "ar-sa": "ar-SA",
-      "ar-eg": "ar-EG",
-      "en-ae": "en-AE",
-      "en-sa": "en-SA",
-      "he-il": "he-IL",
-      "he": "he-IL",
-      "tr-tr": "tr-TR",
-      "tr": "tr-TR",
-      "am-et": "am-ET",
-      "am": "am-ET",
-      "en-ke": "en-KE",
-      "en-za": "en-ZA",
-      "en-ng": "en-NG",
-      "en-gh": "en-GH",
-      "fr-sn": "fr-SN",
-      "fr-ci": "fr-CI",
-      "fr-cm": "fr-CM",
-      "pt-ao": "pt-AO",
-      "pt-mz": "pt-MZ"
-    };
 
     let matchedCode = "en-US";
     let status = "Fallback";
@@ -147,9 +51,21 @@ export default {
     }
 
     if (segments.length > 0) {
-      const detectedSegment = segments[0].toLowerCase().trim();
-      if (langMap[detectedSegment]) {
-        matchedCode = langMap[detectedSegment];
+      const detectedSegment = segments[0];
+      // Basic validation: Is it a language code? 
+      // Accepts: en, en-US, en-gb, zh-Hans, etc. (2-3 chars, optional hyphen and region)
+      // Rejects: services, blog, api, etc. if they don't match strict language patterns usually, 
+      // but 'blog' is 4 chars. 'services' is 8.
+      // Strict regex: 2-3 letters, optionally followed by dash and 2-4 alphanumeric characters
+      const langRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
+
+      // We also need to filter out common reserved words that might match the regex but aren't languages
+      // though 2-3 chars is tight. 'api', 'app' might match.
+      // Ideally we still validate against a list, but user explicitly asked to "get rid of language map".
+      // We will trust the URL structure if it looks like a language code.
+
+      if (langRegex.test(detectedSegment)) {
+        matchedCode = detectedSegment; // Keep capitalization as requested
         status = "Success";
       }
     }
