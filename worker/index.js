@@ -9,9 +9,20 @@ export default {
     const country = request.cf?.country;
     const clientIP = request.headers.get("CF-Connecting-IP");
 
+    // Check for "Magic Link" access token to bypass geo-blocking
+    const url = new URL(request.url);
+    const accessToken = url.searchParams.get("access_token");
+    const cookieHeader = request.headers.get("Cookie") || "";
+
+    // Define your secret token here
+    const SECRET_ACCESS_TOKEN = "TerraBT-Mobile-Access";
+
+    // Check if the user has the bypass cookie
+    const hasBypassCookie = cookieHeader.includes(`terrabt_bypass=${SECRET_ACCESS_TOKEN}`);
+
     // Check if the request is from AU or NZ
-    if (country === 'AU' || country === 'NZ') {
-      const allowedIPs = ['210.50.179.69', '1.145.13.60'];
+    if ((country === 'AU' || country === 'NZ') && !hasBypassCookie && accessToken !== SECRET_ACCESS_TOKEN) {
+      const allowedIPs = ['210.50.179.69'];
 
       // If the IP is not in the allowed list, block the request
       if (!allowedIPs.includes(clientIP)) {
@@ -22,8 +33,15 @@ export default {
       }
     }
 
+    // If the user provided the correct access token in the URL, we need to set the cookie
+    // We will do this by wrapping the final response later, but we need to know if we should set it.
+    let shouldSetBypassCookie = false;
+    if (accessToken === SECRET_ACCESS_TOKEN) {
+      shouldSetBypassCookie = true;
+    }
+
     // Security Check: Block access to the worker source code if someone tries to fetch it directly
-    const url = new URL(request.url);
+    // url is already defined above
     if (url.pathname.includes('/worker/') || url.pathname.endsWith('worker.js') || url.pathname.endsWith('index.js')) {
       // Allow main.tsx or other client assets, but block worker/index.js specifically if it matches
       if (url.pathname.includes('worker')) {
@@ -101,6 +119,11 @@ export default {
     newHeaders.set("Content-Language", matchedCode);
     newHeaders.set("X-Language-Matched", matchedCode);
     newHeaders.set("X-Language-Match-Status", status);
+
+    if (shouldSetBypassCookie) {
+      // Set a persistent cookie for 30 days
+      newHeaders.append("Set-Cookie", `terrabt_bypass=${SECRET_ACCESS_TOKEN}; Path=/; Max-Age=2592000; Secure; HttpOnly; SameSite=Lax`);
+    }
 
     return new Response(finalResponse.body, {
       status: finalResponse.status,
