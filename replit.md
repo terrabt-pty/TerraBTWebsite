@@ -105,7 +105,7 @@ The minimal user schema provides a foundation for future admin authentication or
   - `/services/design-thinking`
   - `/services/offline-pwa`
   - `/services/database-management`
-  - `/services/claude-ai`
+  - `/services/ai`
   - `/services/integration-suite`
   - `/services/event-mesh`
 - 404 handling via NotFound component

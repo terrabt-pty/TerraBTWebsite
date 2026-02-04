@@ -1394,25 +1394,6 @@
   },
   "blogs": {
     "backToHome": "Terug naar home",
-    "claudeAI": {
-      "title": "Revolutionaliseren van factuurverwerking met AI",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Verken hoe AI-integratie op SAP BTP factuurverwerking transformeert met intelligente automatisering en geavanceerde documentbegrip.",
-      "intro": "Factuurverwerking was traditioneel een tijdrovend, foutgevoelig handwerk. De integratie van geavanceerde AI met SAP BTP revolutionair dit proces, brengt ongekende niveaus van automatisering, nauwkeurigheid en efficiëntie naar accounts payable bewerkingen.",
-      "section1Title": "De uitdaging van traditionele factuurverwerking",
-      "section1Content": "Organisaties verwerken duizenden facturen maandelijks, elk vereist data-extractie, validatie en entry in ERP-systemen. Handmatige verwerking is traag, duur en gevoelig voor fouten die kunnen leiden tot betalingsvertragingen, dubbele betalingen of gemiste vroege betalingskortingen.",
-      "section2Title": "Geavanceerd AI Document-begripening",
-      "section2Content": "Moderne AI brengt state-of-the-art natuurlijke taalverwerking en computer vision-mogelijkheden naar factuurverwerking. In tegenstelling tot traditionele OCR-systemen kan geavanceerde AI context begrijpen, uiteenlopende factuurformaten verwerken en informatie extraheren met opvallende nauwkeurigheid, zelfs uit slecht gescande of complexe documenten.",
-      "section3Title": "Naadloze SAP BTP-integratie",
-      "section3Content": "Integratie van AI met SAP BTP creëert een krachtige automatiepijplijn. Binnenkomende facturen worden automatisch verwerkt, gegevens worden geëxtraheerd en gevalideerd, en informatie vloeit rechtstreeks in SAP-systemen zonder menselijke tussenkomst. Deze integratie maakt gebruik van SAP BTP's robuuste connectiviteits- en workflowmogelijkheden.",
-      "section4Title": "Intelligente Exception Handling",
-      "section4Content": "Een van AI's sleutelsterkten is het vermogen om uitzonderingen op intelligente wijze te hanteren. Wanneer het ongewone factuurformaten of ambigue informatie tegenkomt, kan het systeem items markeren voor menselijke beoordeling met gedetailleerde uitleg, waardoor uitzonderingsafhandeling veel efficiënter wordt dan traditionele op regels gebaseerde systemen.",
-      "section5Title": "Meetbare zakelijke impact",
-      "section5Content": "Organisaties die AI voor factuurverwerking implementeren zien doorgaans dramatische verbeteringen: 90% reductie verwerkingstijd, 95% afname data entry fouten en aanzienlijke kostenbesparingen in accounts payable bewerkingen. Misschien nog belangrijker is dat medewerkers zich kunnen richten op strategische activiteiten in plaats van herhaalde data entry.",
-      "conclusionTitle": "Conclusie",
-      "conclusionContent": "De combinatie van geavanceerde AI-mogelijkheden en SAP BTP's enterprise-grade infrastructuur vertegenwoordigt een transformatieve benadering van factuurverwerking. Organisaties die deze technologie aanemen krijgen een significant concurrentieel voordeel door verbeterde efficiëntie, nauwkeurigheid en kostenvermindering."
-    },
     "fiori": {
       "title": "Moderne Fiori-toepassingen bouwen op SAP BTP",
       "category": "Ontwikkeling",
@@ -1450,6 +1431,25 @@
       "section5Content": "SAP BTP biedt uitstekende ondersteuning voor het bouwen van offline PWA's door de Mobile Services-aanbod. Deze services bevatten offline gegevenssynchronisatie, veilige opslag en uitgebreide API's die de ontwikkeling van robuuste offline-capable applicaties vereenvoudigen.",
       "conclusionTitle": "Conclusie",
       "conclusionContent": "Offline PWA's vertegenwoordigen de toekomst van bedrijfstoepassingen, wat veerkracht en betrouwbaarheid biedt die traditionele webapplicaties niet kunnen opbrengen. Door offline-first architectuur omarmen en moderne webtechnologieën in te zetten, kunnen organisaties bedrijfscontinuïteit garanderen en productiviteit behouden, ongeacht netwerkvoorwaarden."
+    },
+    "ai": {
+      "title": "Revolutionaliseren van factuurverwerking met AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Verken hoe AI-integratie op SAP BTP factuurverwerking transformeert met intelligente automatisering en geavanceerde documentbegrip.",
+      "intro": "Factuurverwerking was traditioneel een tijdrovend, foutgevoelig handwerk. De integratie van geavanceerde AI met SAP BTP revolutionair dit proces, brengt ongekende niveaus van automatisering, nauwkeurigheid en efficiëntie naar accounts payable bewerkingen.",
+      "section1Title": "De uitdaging van traditionele factuurverwerking",
+      "section1Content": "Organisaties verwerken duizenden facturen maandelijks, elk vereist data-extractie, validatie en entry in ERP-systemen. Handmatige verwerking is traag, duur en gevoelig voor fouten die kunnen leiden tot betalingsvertragingen, dubbele betalingen of gemiste vroege betalingskortingen.",
+      "section2Title": "Geavanceerd AI Document-begripening",
+      "section2Content": "Moderne AI brengt state-of-the-art natuurlijke taalverwerking en computer vision-mogelijkheden naar factuurverwerking. In tegenstelling tot traditionele OCR-systemen kan geavanceerde AI context begrijpen, uiteenlopende factuurformaten verwerken en informatie extraheren met opvallende nauwkeurigheid, zelfs uit slecht gescande of complexe documenten.",
+      "section3Title": "Naadloze SAP BTP-integratie",
+      "section3Content": "Integratie van AI met SAP BTP creëert een krachtige automatiepijplijn. Binnenkomende facturen worden automatisch verwerkt, gegevens worden geëxtraheerd en gevalideerd, en informatie vloeit rechtstreeks in SAP-systemen zonder menselijke tussenkomst. Deze integratie maakt gebruik van SAP BTP's robuuste connectiviteits- en workflowmogelijkheden.",
+      "section4Title": "Intelligente Exception Handling",
+      "section4Content": "Een van AI's sleutelsterkten is het vermogen om uitzonderingen op intelligente wijze te hanteren. Wanneer het ongewone factuurformaten of ambigue informatie tegenkomt, kan het systeem items markeren voor menselijke beoordeling met gedetailleerde uitleg, waardoor uitzonderingsafhandeling veel efficiënter wordt dan traditionele op regels gebaseerde systemen.",
+      "section5Title": "Meetbare zakelijke impact",
+      "section5Content": "Organisaties die AI voor factuurverwerking implementeren zien doorgaans dramatische verbeteringen: 90% reductie verwerkingstijd, 95% afname data entry fouten en aanzienlijke kostenbesparingen in accounts payable bewerkingen. Misschien nog belangrijker is dat medewerkers zich kunnen richten op strategische activiteiten in plaats van herhaalde data entry.",
+      "conclusionTitle": "Conclusie",
+      "conclusionContent": "De combinatie van geavanceerde AI-mogelijkheden en SAP BTP's enterprise-grade infrastructuur vertegenwoordigt een transformatieve benadering van factuurverwerking. Organisaties die deze technologie aanemen krijgen een significant concurrentieel voordeel door verbeterde efficiëntie, nauwkeurigheid en kostenvermindering."
     }
   }
 }

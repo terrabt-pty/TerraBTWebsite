@@ -1401,25 +1401,6 @@
   },
   "blogs": {
     "backToHome": "Vissza a kezdőlapra",
-    "claudeAI": {
-      "title": "Számlafeldolgozás forradalma a mesterséges intelligenciával",
-      "category": "Mesterséges Intelligencia/Gépi tanulás",
-      "readTime": "6 perc",
-      "seoDescription": "Fedezze fel, hogy az SAP BTP-n történő mesterséges intelligencia integráció hogyan alakítja át a számla feldolgozást intelligens automatizálás és fejlett dokumentum megértéssel.",
-      "intro": "A számlafeldolgozást hagyományosan időigényes, hibalehetőséggel terhes kézi feladat volt. A fejlett mesterséges intelligencia integrációja az SAP BTP-vel forradalmasítja ezt a folyamatot, példátlan szintű automatizálást, pontosságot és hatékonyságot hozva a forgalomadó előfeldolgozási műveletek számára.",
-      "section1Title": "A hagyományos számlafeldolgozás kihívása",
-      "section1Content": "A szervezetek havonta több ezer számlát feldolgozzák, mindegyik adatok kinyerés, validálás és ERP rendszerek bevitele szükséges. A kézi feldolgozás lassú, drága és hibalehetőséggel terhes, ami fizetési késedelemhez, duplikált befizetésekhez vagy korai fizetési kedvezmények meghiúsulásához vezethet.",
-      "section2Title": "Fejlett mesterséges intelligencia dokumentum megértés",
-      "section2Content": "A modern mesterséges intelligencia államot meghaladó természetes nyelv feldolgozási és számítógépes látás képességeket hoz a számlafeldolgozáshoz. A hagyományos OCR rendszerektől eltérően a fejlett mesterséges intelligencia megértheti a kontextust, kezelheti az eltérő számlás formátumokat és információkat nyerhet ki szemrehatóan még a rosszul beszkennelt vagy összetett dokumentumokból.",
-      "section3Title": "Zökkenőmentes SAP BTP integráció",
-      "section3Content": "A mesterséges intelligencia integrációja az SAP BTP-vel erőteljes automatizálási csövet hoz létre. A beérkező számlák automatikusan feldolgozottak, az adatok kinyert és validáltak, az információ közvetlenül az SAP rendszerekbe áramlik emberi beavatkozás nélkül. Ez az integráció kihasználja az SAP BTP robusztus összekapcsolódási és munkafolyamat képességeit.",
-      "section4Title": "Intelligens kivétel kezelés",
-      "section4Content": "A mesterséges intelligencia egyik fő erőssége az intelligens kivétel kezelés képessége. Amikor szokatlan számlás formátumok vagy kétértelmes információ merülnek fel, a rendszer részletekhez rögzíthet olyan elemeket, amely az ember miatt részletes magyarázatokkal rendelkezik, így a kivétel kezelés sokkal hatékonyabb lesz a hagyományos szabály alapú rendszereknél.",
-      "section5Title": "Mérhető üzleti hatás",
-      "section5Content": "A szervezetek, amelyek mesterséges intelligenciát valósítanak meg a számlafeldolgozáshoz, általában drámai javulásokat látnak: 90% csökkentés a feldolgozási időben, 95% csökkent az adatbeviteli hibákat és jelentős költségmegtakarítás a forgalomadó előfeldolgozási műveletek során. Talán a legfontosabb: az alkalmazottak a stratégiai tevékenységekre fókuszálhatnak az ismétlődő adatbevitel helyett.",
-      "conclusionTitle": "Következtetés",
-      "conclusionContent": "A fejlett mesterséges intelligencia képességek és az SAP BTP vállalati szintű infrastruktúrájának kombinációja egy átalakító megközelítést képvisel a számlafeldolgozáshoz. A szervezetek, amelyek ezt a technológiát elfogadják, szignifikáns versenyhátrányokat szereznek a javított hatékonyság, pontosság és költségcsökkentés révén."
-    },
     "fiori": {
       "title": "Modern Fiori alkalmazások fejlesztése az SAP BTP-n",
       "category": "Fejlesztés",
@@ -1457,6 +1438,25 @@
       "section5Content": "Az SAP BTP kiváló támogatást nyújt az offline PWA-k felépítésére a Mobile Services ajánlata révén. Ezek a szolgáltatások az offline adatok szinkronizálást, biztonságos tárolást és átfogó API-kat tartalmaznak, amely leegyszerűsíti a robusztus offline-képes alkalmazások fejlesztését.",
       "conclusionTitle": "Következtetés",
       "conclusionContent": "Az offline PWA-k az üzleti alkalmazások jövőjét képviselik, rugalmasság és megbízhatóság biztosítva, amelyeket a hagyományos web alkalmazások nem tudnak nyújtani. Az offline-first architektúra elfogadásán és a modern web technológiák kihasználásán keresztül a szervezetek biztosíthatják az üzleti folyamatosságot és a termelékenységet a hálózati feltételektől függetlenül."
+    },
+    "ai": {
+      "title": "Számlafeldolgozás forradalma a mesterséges intelligenciával",
+      "category": "Mesterséges Intelligencia/Gépi tanulás",
+      "readTime": "6 perc",
+      "seoDescription": "Fedezze fel, hogy az SAP BTP-n történő mesterséges intelligencia integráció hogyan alakítja át a számla feldolgozást intelligens automatizálás és fejlett dokumentum megértéssel.",
+      "intro": "A számlafeldolgozást hagyományosan időigényes, hibalehetőséggel terhes kézi feladat volt. A fejlett mesterséges intelligencia integrációja az SAP BTP-vel forradalmasítja ezt a folyamatot, példátlan szintű automatizálást, pontosságot és hatékonyságot hozva a forgalomadó előfeldolgozási műveletek számára.",
+      "section1Title": "A hagyományos számlafeldolgozás kihívása",
+      "section1Content": "A szervezetek havonta több ezer számlát feldolgozzák, mindegyik adatok kinyerés, validálás és ERP rendszerek bevitele szükséges. A kézi feldolgozás lassú, drága és hibalehetőséggel terhes, ami fizetési késedelemhez, duplikált befizetésekhez vagy korai fizetési kedvezmények meghiúsulásához vezethet.",
+      "section2Title": "Fejlett mesterséges intelligencia dokumentum megértés",
+      "section2Content": "A modern mesterséges intelligencia államot meghaladó természetes nyelv feldolgozási és számítógépes látás képességeket hoz a számlafeldolgozáshoz. A hagyományos OCR rendszerektől eltérően a fejlett mesterséges intelligencia megértheti a kontextust, kezelheti az eltérő számlás formátumokat és információkat nyerhet ki szemrehatóan még a rosszul beszkennelt vagy összetett dokumentumokból.",
+      "section3Title": "Zökkenőmentes SAP BTP integráció",
+      "section3Content": "A mesterséges intelligencia integrációja az SAP BTP-vel erőteljes automatizálási csövet hoz létre. A beérkező számlák automatikusan feldolgozottak, az adatok kinyert és validáltak, az információ közvetlenül az SAP rendszerekbe áramlik emberi beavatkozás nélkül. Ez az integráció kihasználja az SAP BTP robusztus összekapcsolódási és munkafolyamat képességeit.",
+      "section4Title": "Intelligens kivétel kezelés",
+      "section4Content": "A mesterséges intelligencia egyik fő erőssége az intelligens kivétel kezelés képessége. Amikor szokatlan számlás formátumok vagy kétértelmes információ merülnek fel, a rendszer részletekhez rögzíthet olyan elemeket, amely az ember miatt részletes magyarázatokkal rendelkezik, így a kivétel kezelés sokkal hatékonyabb lesz a hagyományos szabály alapú rendszereknél.",
+      "section5Title": "Mérhető üzleti hatás",
+      "section5Content": "A szervezetek, amelyek mesterséges intelligenciát valósítanak meg a számlafeldolgozáshoz, általában drámai javulásokat látnak: 90% csökkentés a feldolgozási időben, 95% csökkent az adatbeviteli hibákat és jelentős költségmegtakarítás a forgalomadó előfeldolgozási műveletek során. Talán a legfontosabb: az alkalmazottak a stratégiai tevékenységekre fókuszálhatnak az ismétlődő adatbevitel helyett.",
+      "conclusionTitle": "Következtetés",
+      "conclusionContent": "A fejlett mesterséges intelligencia képességek és az SAP BTP vállalati szintű infrastruktúrájának kombinációja egy átalakító megközelítést képvisel a számlafeldolgozáshoz. A szervezetek, amelyek ezt a technológiát elfogadják, szignifikáns versenyhátrányokat szereznek a javított hatékonyság, pontosság és költségcsökkentés révén."
     }
   }
 }

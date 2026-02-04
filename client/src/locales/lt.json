@@ -1400,25 +1400,6 @@
   },
   "blogs": {
     "backToHome": "Grįžti į pradžią",
-    "claudeAI": {
-      "title": "Sąskaitų apdorojimo revoliucija per DI",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Sužinokite, kaip DI integravimas į SAP BTP transformuoja finansų operacijas per išmanųjį automatizavimą.",
-      "intro": "Tradiciškai sąskaitų faktūrų apdorojimas yra imlus darbui ir klaidoms. Pažangaus dirbtinio intelekto (DI) integravimas į SAP BTP atneša revoliuciją šiame procese, suteikdamas beprecedentį automatizavimo lygį, tikslumą ir efektyvumą.",
-      "section1Title": "Rankinio apdorojimo problemos",
-      "section1Content": "Didelės organizacijos kas mėnesį apdoroja tūkstančius sąskaitų – kiekviena reikalauja duomenų išgavimo, validavimo ir įvedimo į ERP sistemas. Rankinis procesas yra lėtas, brangus ir kelia klaidų riziką, kuri lemia vėluojančius mokėjimus ir nuostolius.",
-      "section2Title": "Išmanioji dokumentų analizė",
-      "section2Content": "Modernus DI į finansus atneša kompiuterinio regėjimo ir natūralios kalbos suvokimo galimybes. Priešingai nei senos OCR sistemos, šiuolaikinis DI supranta kontekstą, atpažįsta skirtingus sąskaitų formatus ir išgauna duomenis itin tiksliai net iš prastos kokybės skenų.",
-      "section3Title": "Sinergija su SAP BTP",
-      "section3Content": "DI susiejimas su SAP BTP sukuria galingą automatizavimo kanalą. Sąskaitos analizuojamos automatiškai, duomenys validuojami ir keliauja tiesiai į SAP aplinką be žmogaus įsikišimo. Šis procesas išnaudoja platformos darbo eigų lankstumą.",
-      "section4Title": "Išmanusis išimčių valdymas",
-      "section4Content": "Viena didžiausių DI stiprybių yra gebėjimas tvarkyti nestandartines situacijas. Esant neaiškumui, sistema pažymi sąskaitą rankinei peržiūrai ir pateikia detalų paaiškinimą. Tai daug greičiau ir tiksliau nei klasikinės sistemos su griežtomis taisyklėmis.",
-      "section5Title": "Išmatuojami verslo rezultatai",
-      "section5Content": "Įmonės, įdiegusios DI sąskaitoms, fiksuoja didelius pokyčius: apdorojimo laiko sutrumpėjimą 90%, 95% mažiau įvedimo klaidų ir rimtus sutaupymus. Svarbiausia – komandos gali susikoncentruoti į svarbias strategines užduotis.",
-      "conclusionTitle": "Išvada",
-      "conclusionContent": "Galingas DI ir korporatyvinė SAP BTP infrastruktūra nustato naują finansų valdymo standartą. Organizacijos, diegiančios šias technologijas, laimi strateginį pranašumą per didesnį efektyvumą ir sąnaudų kontrolę."
-    },
     "fiori": {
       "title": "Modernių Fiori programų kūrimas su SAP BTP",
       "category": "Kūrimas",
@@ -1456,6 +1437,25 @@
       "section5Content": "SAP BTP teikia visą palaikymą PWA per savo Mobile Services. Tai apima įmontuotą sinchronizaciją, saugų vietinį saugojimą ir galingas API, kurios kūrimo procesą daro suvaldomą ir greitą.",
       "conclusionTitle": "Išvada",
       "conclusionContent": "Offline PWA yra verslo mobilumo ateitis, siūlanti patikimumą, kurio neturi paprastos svetainės. Naudodamos šias technologijas, įmonės užtikrina, kad jų procesai veiktų 24/7 nepriklausomai nuo vietos."
+    },
+    "ai": {
+      "title": "Sąskaitų apdorojimo revoliucija per DI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Sužinokite, kaip DI integravimas į SAP BTP transformuoja finansų operacijas per išmanųjį automatizavimą.",
+      "intro": "Tradiciškai sąskaitų faktūrų apdorojimas yra imlus darbui ir klaidoms. Pažangaus dirbtinio intelekto (DI) integravimas į SAP BTP atneša revoliuciją šiame procese, suteikdamas beprecedentį automatizavimo lygį, tikslumą ir efektyvumą.",
+      "section1Title": "Rankinio apdorojimo problemos",
+      "section1Content": "Didelės organizacijos kas mėnesį apdoroja tūkstančius sąskaitų – kiekviena reikalauja duomenų išgavimo, validavimo ir įvedimo į ERP sistemas. Rankinis procesas yra lėtas, brangus ir kelia klaidų riziką, kuri lemia vėluojančius mokėjimus ir nuostolius.",
+      "section2Title": "Išmanioji dokumentų analizė",
+      "section2Content": "Modernus DI į finansus atneša kompiuterinio regėjimo ir natūralios kalbos suvokimo galimybes. Priešingai nei senos OCR sistemos, šiuolaikinis DI supranta kontekstą, atpažįsta skirtingus sąskaitų formatus ir išgauna duomenis itin tiksliai net iš prastos kokybės skenų.",
+      "section3Title": "Sinergija su SAP BTP",
+      "section3Content": "DI susiejimas su SAP BTP sukuria galingą automatizavimo kanalą. Sąskaitos analizuojamos automatiškai, duomenys validuojami ir keliauja tiesiai į SAP aplinką be žmogaus įsikišimo. Šis procesas išnaudoja platformos darbo eigų lankstumą.",
+      "section4Title": "Išmanusis išimčių valdymas",
+      "section4Content": "Viena didžiausių DI stiprybių yra gebėjimas tvarkyti nestandartines situacijas. Esant neaiškumui, sistema pažymi sąskaitą rankinei peržiūrai ir pateikia detalų paaiškinimą. Tai daug greičiau ir tiksliau nei klasikinės sistemos su griežtomis taisyklėmis.",
+      "section5Title": "Išmatuojami verslo rezultatai",
+      "section5Content": "Įmonės, įdiegusios DI sąskaitoms, fiksuoja didelius pokyčius: apdorojimo laiko sutrumpėjimą 90%, 95% mažiau įvedimo klaidų ir rimtus sutaupymus. Svarbiausia – komandos gali susikoncentruoti į svarbias strategines užduotis.",
+      "conclusionTitle": "Išvada",
+      "conclusionContent": "Galingas DI ir korporatyvinė SAP BTP infrastruktūra nustato naują finansų valdymo standartą. Organizacijos, diegiančios šias technologijas, laimi strateginį pranašumą per didesnį efektyvumą ir sąnaudų kontrolę."
     }
   }
 }

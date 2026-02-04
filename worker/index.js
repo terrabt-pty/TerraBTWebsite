@@ -52,7 +52,27 @@ export default {
       }
     }
 
-    const response = await fetch(request);
+    let response = await fetch(request);
+
+    // SPA Fallback: If 404 and not an asset, serve index.html
+    // This fixes issues where deep links (like /ar-EG/) return 404s to bots because the static host
+    // doesn't have a directory for them.
+    if (response.status === 404 && request.method === 'GET') {
+      const pathname = new URL(request.url).pathname;
+      // List of file extensions that should definitely return 404 if missing
+      const isAsset = /\.(js|css|png|jpg|jpeg|gif|svg|ico|json|xml|txt|md|woff|woff2|ttf|otf|map)$/i.test(pathname);
+
+      if (!isAsset) {
+        // Try serving index.html
+        const indexRequest = new Request(new URL('/index.html', request.url), request);
+        const indexResponse = await fetch(indexRequest);
+
+        // Only use the fallback if it actually exists
+        if (indexResponse.status === 200) {
+          response = indexResponse;
+        }
+      }
+    }
 
     let matchedCode = "en-US";
     let status = "Fallback";
@@ -88,15 +108,366 @@ export default {
       }
     }
 
-    // Use HTMLRewriter to inject the country code into the HTML
-    // This allows the client-side React code to know the user's location
-    // without needing an additional API call.
-    class CountryInjector {
-      constructor(country) {
+    // SEO Translations Data
+    const SEO_DATA = {
+      "af": {
+        "title": "TerraBT - 100% SAP BTP Spesialisering",
+        "description": "Gespesialiseerde konsultasie wat toonaangewende SAP Business Technology Platform implementerings wêreldwyd lewer",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "af"
+      },
+      "am": {
+        "title": "TerraBT - 100% SAP BTP ልዩ ባለሙያነት",
+        "description": "ዓለም አቀፍ የSAP Business Technology Platform ትግበራዎችን የሚያቀርብ ልዩ የማማከር አገልግሎት",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "am"
+      },
+      "ar": {
+        "title": "TerraBT - متخصصون بنسبة 100% في SAP BTP",
+        "description": "استشارات متخصصة تقدم أحدث تطبيقات SAP Business Technology Platform في جميع أنحاء العالم",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "ar"
+      },
+      "bg": {
+        "title": "TerraBT - 100% специализация в SAP BTP",
+        "description": "Специализирано консултиране за внедряване на SAP Business Technology Platform по целия свят",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "bg"
+      },
+      "cs": {
+        "title": "TerraBT - 100% fokus na SAP BTP",
+        "description": "Specializovaný konclulting pro implementace řešení SAP Business Technology Platform po celém světě",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "cs"
+      },
+      "da": {
+        "title": "TerraBT - 100% SAP BTP-specialisering",
+        "description": "Specialiseret rådgivning i SAP Business Technology Platform implementeringer",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "da"
+      },
+      "de": {
+        "title": "TerraBT - 100% SAP BTP-Spezialisierung",
+        "description": "Spezialisierte Beratung für modernste SAP Business Technology Platform-Implementierungen weltweit",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "de"
+      },
+      "el": {
+        "title": "TerraBT - 100% Εξειδίκευση SAP BTP",
+        "description": "Εξειδικευμένες συμβουλευτικές υπηρεσίες για υλοποιήσεις SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "el"
+      },
+      "en": {
+        "title": "TerraBT - SAP BTP Consulting Experts | 100% BTP Focused Solutions",
+        "description": "TerraBT specializes exclusively in SAP BTP consulting services worldwide. Expert solutions in Fiori development, BTP architecture, PWA apps, AI-powered invoice processing, and integration suite. Serving underserved markets globally.",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "en"
+      },
+      "es": {
+        "title": "TerraBT - 100% Especialización en SAP BTP",
+        "description": "Consultoría especializada en implementaciones SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "es"
+      },
+      "et": {
+        "title": "TerraBT - 100% SAP BTP spetsialiseerumine",
+        "description": "Spetsialiseeritud nõustamine SAP Business Technology Platform juurutustes",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "et"
+      },
+      "fi": {
+        "title": "TerraBT - 100 % keskittyminen SAP BTP -alustaan",
+        "description": "Erikoistunutta konsultointia huipputason SAP Business Technology Platform -toteutuksiin maailmanlaajuisesti",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "fi"
+      },
+      "fr": {
+        "title": "TerraBT - Spécialisation 100% SAP BTP",
+        "description": "Conseil spécialisé livrant des implémentations de plateforme SAP Business Technology Platform de pointe dans le monde entier",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "fr"
+      },
+      "he": {
+        "title": "TerraBT - 100% התמחות ב-SAP BTP",
+        "description": "ייעוץ מומחה ליישום פתרונות SAP Business Technology Platform מתקדמים ברחבי העולם",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "he"
+      },
+      "hr": {
+        "title": "TerraBT - 100% specijalizacija SAP BTP-a",
+        "description": "Specijalizirano savjetovanje za implementacije SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "hr"
+      },
+      "hu": {
+        "title": "TerraBT - 100% SAP BTP Specializáció",
+        "description": "Specializált tanácsadás SAP Business Technology Platform implementációkban",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "hu"
+      },
+      "it": {
+        "title": "TerraBT - Specializzazione SAP BTP al 100%",
+        "description": "Consulenza specializzata in implementazioni SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "it"
+      },
+      "ja": {
+        "title": "TerraBT - 100% SAP BTP専門",
+        "description": "世界中で最先端のSAP Business Technology Platform実装を提供する専門コンサルティング",
+        "keywords": "SAP BTP コンサルティング, SAP Business Technology Platform, Fiori 開発, BTP アーキテクチャ, SAP 統合スイート, AI 請求書処理, PWA アプリ, イベントメッシュ, SAP コンサルティング",
+        "locale": "ja"
+      },
+      "ko": {
+        "title": "TerraBT - 100% SAP BTP 전문화",
+        "description": "SAP Business Technology Platform 구현 전문 컨설팅",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "ko"
+      },
+      "lt": {
+        "title": "TerraBT - 100% specializacija SAP BTP",
+        "description": "Specializuotas konsultavimas diegiant pažangiausius SAP Business Technology Platform sprendimus visame pasaulyje",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "lt"
+      },
+      "lv": {
+        "title": "TerraBT - 100% specializācija SAP BTP",
+        "description": "Specializētas konsultācijas modernāko SAP Business Technology Platform risinājumu ieviešanai visā pasaulē",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "lv"
+      },
+      "nb": {
+        "title": "TerraBT - 100% SAP BTP-spesialisering",
+        "description": "Spesialisert rådgivning i SAP Business Technology Platform implementeringer",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "nb"
+      },
+      "nl": {
+        "title": "TerraBT - 100% SAP BTP-specialisatie",
+        "description": "Gespecialiseerde consulting voor SAP Business Technology Platform implementaties",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "nl"
+      },
+      "pl": {
+        "title": "TerraBT - 100% koncentracji na SAP BTP",
+        "description": "Specjalistyczne doradztwo dostarczające najnowocześniejsze wdrożenia SAP Business Technology Platform na całym świecie",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "pl"
+      },
+      "pt": {
+        "title": "TerraBT - Especialização 100% SAP BTP",
+        "description": "Consultoria especializada em implementações SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "pt"
+      },
+      "ro": {
+        "title": "TerraBT - 100% Specializare SAP BTP",
+        "description": "Consultanță specializată în implementări SAP Business Technology Platform",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "ro"
+      },
+      "ru": {
+        "title": "TerraBT - 100% фокус на SAP BTP",
+        "description": "Специализированный консалтинг по внедрению передовых решений на базе SAP Business Technology Platform по всему миру",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "ru"
+      },
+      "sk": {
+        "title": "TerraBT - 100% zameranie na SAP BTP",
+        "description": "Špecializované poradenstvo poskytujúce špičkové implementácie SAP Business Technology Platform po celom svete",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "sk"
+      },
+      "sl": {
+        "title": "TerraBT - 100 % fokus na SAP BTP",
+        "description": "Specializirano svetovanje za implementacije SAP Business Technology Platform po vsem svetu",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "sl"
+      },
+      "sv": {
+        "title": "TerraBT - 100 % fokus på SAP BTP",
+        "description": "Specialiserad rådgivning som levererar banbrytande implementeringar av SAP Business Technology Platform världen över",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "sv"
+      },
+      "sw": {
+        "title": "TerraBT - Ujuzi Maalum 100% wa SAP BTP",
+        "description": "Ushauri wa kipekee unaoletea utekelezaji wa hali ya juu wa SAP Business Technology Platform duniani kote",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "sw"
+      },
+      "tr": {
+        "title": "TerraBT - %100 SAP BTP Uzmanlığı",
+        "description": "Dünya çapında en son teknoloji SAP İş Teknolojisi Platformu (BTP) uygulamaları sunan uzman danışmanlık",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "tr"
+      },
+      "uk": {
+        "title": "TerraBT - 100% фокус на SAP BTP",
+        "description": "Спеціалізований консалтинг із впровадження передових рішень SAP Business Technology Platform по всьому світу",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "uk"
+      },
+      "zh": {
+        "title": "TerraBT - 100%的SAP BTP专业化",
+        "description": "专业咨询提供前沿的SAP Business Technology Platform实施",
+        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "locale": "zh"
+      }
+    };
+
+    // Helper to get SEO data with fallback
+    const getSeoData = (langCode) => {
+      // Try exact match
+      if (SEO_DATA[langCode]) return SEO_DATA[langCode];
+      // Try base language (e.g. ar-EG -> ar)
+      const base = langCode.split('-')[0];
+      if (SEO_DATA[base]) return SEO_DATA[base];
+      // Fallback
+      return SEO_DATA['en'];
+    };
+
+    const seoData = getSeoData(matchedCode);
+
+    // Rewriters
+    class HeadInjector {
+      constructor(country, lang) {
         this.country = country;
+        this.lang = lang;
       }
       element(element) {
-        element.append(`<script>window.GEO_COUNTRY = "${this.country || 'UNKNOWN'}";</script>`, { html: true });
+        element.append(
+          `<script>
+             window.GEO_COUNTRY = "${this.country || 'UNKNOWN'}";
+             window.DETECTED_LANGUAGE = "${this.lang || 'en-US'}";
+           </script>`,
+          { html: true }
+        );
+      }
+    }
+
+    class HtmlLangInjector {
+      constructor(lang) {
+        this.lang = lang;
+      }
+      element(element) {
+        element.setAttribute("lang", this.lang);
+        // Also set dir="rtl" for Arabic
+        if (this.lang.startsWith('ar')) {
+          element.setAttribute("dir", "rtl");
+        }
+      }
+    }
+
+    class TitleRewriter {
+      constructor(title) {
+        this.title = title;
+      }
+      element(element) {
+        element.setInnerContent(this.title);
+      }
+    }
+
+    class MetaDescriptionRewriter {
+      constructor(description) {
+        this.description = description;
+      }
+      element(element) {
+        element.setAttribute("content", this.description);
+      }
+    }
+
+    class JsonLdRewriter {
+      constructor(seoData, langCode) {
+        this.seoData = seoData;
+        this.langCode = langCode;
+        this.counter = 0;
+      }
+
+      element(element) {
+        this.counter++;
+
+        // 1. Organization Schema
+        if (this.counter === 1) {
+          const orgSchema = {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "TerraBT",
+            "alternateName": "TerraBT SAP BTP Consulting",
+            "url": "https://www.terrabt.com",
+            "email": "contact@terrabt.com",
+            "description": this.seoData.description,
+            "areaServed": "Worldwide",
+            "knowsLanguage": ["en", "ja", "ar", this.langCode], // Explicitly include current lang
+            "serviceType": [
+              "SAP BTP Architecture", "SAP Fiori Development", "SAP CAP Development",
+              "SAP Build Apps", "SAP Build Process Automation", "AI Invoice Processing",
+              "SAP Integration Suite", "SAP Event Mesh", "Offline PWA Applications",
+              "SAP Database Management", "Design Thinking Workshops"
+            ],
+            "sameAs": [
+              "https://linkedin.com/company/terrabt",
+              "https://x.com/TerraBTinc",
+              "https://facebook.com/terrabt",
+              "https://instagram.com/terrabt"
+            ]
+          };
+          element.setInnerContent(JSON.stringify(orgSchema), { html: true });
+        }
+
+        // 2. WebSite Schema
+        if (this.counter === 2) {
+          const webSchema = {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "TerraBT",
+            "url": "https://www.terrabt.com",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.terrabt.com/?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            },
+            "inLanguage": ["en", "ja", "ar", this.langCode]
+          };
+          element.setInnerContent(JSON.stringify(webSchema), { html: true });
+        }
+
+        // 3. ProfessionalService Schema
+        if (this.counter === 3) {
+          const serviceSchema = {
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "TerraBT",
+            "description": this.seoData.description,
+            "url": "https://www.terrabt.com",
+            "email": "contact@terrabt.com",
+            "priceRange": "$$$$",
+            "areaServed": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 0,
+                "longitude": 0
+              },
+              "geoRadius": "20000 km"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "SAP BTP Consulting Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP BTP Architecture & Design",
+                    "description": this.seoData.title // Use title as brief desc key
+                  }
+                }
+              ]
+            }
+          };
+          element.setInnerContent(JSON.stringify(serviceSchema), { html: true });
+        }
       }
     }
 
@@ -106,7 +477,11 @@ export default {
     let finalResponse = response;
     if (contentType && contentType.includes("text/html")) {
       finalResponse = new HTMLRewriter()
-        .on("head", new CountryInjector(country))
+        .on("head", new HeadInjector(country, matchedCode))
+        .on("html", new HtmlLangInjector(matchedCode))
+        .on("title", new TitleRewriter(seoData.title))
+        .on('meta[name="description"]', new MetaDescriptionRewriter(seoData.description))
+        .on('script[type="application/ld+json"]', new JsonLdRewriter(seoData, matchedCode))
         .transform(response);
     }
 

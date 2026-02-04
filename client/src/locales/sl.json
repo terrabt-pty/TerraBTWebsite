@@ -1400,25 +1400,6 @@
   },
   "blogs": {
     "backToHome": "Nazaj na domov",
-    "claudeAI": {
-      "title": "Revolucija v obdelavi računov s pomočjo UI",
-      "category": "UI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Raziščite, kako integracija umetne inteligence na SAP BTP platformi transformira obdelavo računov z inteligentno avtomatizacijo.",
-      "intro": "Tradicionalno je bila obdelava računov zamudno opravilo, podvrženo napakam. Integracija napredne umetne inteligence v SAP BTP prinaša revolucijo v ta proces in zagotavlja nepredstavljivo stopnjo avtomatizacije, natančnosti in učinkovitosti v finančnih operacijah.",
-      "section1Title": "Izzivi tradicionalne obdelave računov",
-      "section1Content": "Organizacije mesečno obdelajo tisoče računov, pri čemer vsak zahteva zajem podatkov, validacijo in vnos v ERP sisteme. Ročna obdelava je počasna, draga in tvegana, saj lahko privede do zamud pri plačilih ali glob.",
-      "section2Title": "Inteligentna analiza dokumentov preko UI",
-      "section2Content": "Sodobna umetna inteligenca prinaša zmožnosti računalniškega vida in obdelave naravnega jezika v svet financ. Za razliko od preprostih sistemov za prepoznavanje besedila (OCR), napredna UI razume kontekst, obvladuje različne formate računov in zajema informacije z izjemno natančnostjo, tudi iz manj kakovostnih skenov.",
-      "section3Title": "Brezšivna integracija s SAP BTP",
-      "section3Content": "Združitev UI s SAP BTP ustvarja močan avtomatiziran tok. Prejeti računi se obdelajo samodejno, podatki se takoj preverijo in prenesejo neposredno v SAP sisteme brez ročnega posega. Ta integracija izkorišča zanesljivost in prilagodljivost delovnih tokov platforme.",
-      "section4Title": "Inteligentno upravljanje izjem",
-      "section4Content": "Ena ključnih prednosti UI je njena sposobnost razumnega obravnavanja nestandardnih situacij. Ob pojavu nejasnosti sistem označi elemente za ročni pregled s podrobnimi pojasnili, kar naredi proces upravljanja izjem precej učinkovitejši od tradicionalnih rigidnih algoritmov.",
-      "section5Title": "Merljiv poslovni rezultat",
-      "section5Content": "Podjetja, ki so uvedla UI za obdelavo računov, beležijo izjemne izboljšave: skrajšanje časa obdelave za 90 %, zmanjšanje napak pri vnosu za 95 % in pomembne prihranke. Še pomembneje je, da se zaposleni lahko osredotočijo na strateške naloge namesto na ponavljajoč se vnos podatkov.",
-      "conclusionTitle": "Zaključek",
-      "conclusionContent": "Kombinacija močne umetne inteligence in korporacijske infrastrukture SAP BTP predstavlja transformacijski pristop k upravljanju financ. Organizacije, ki uporabljajo to tehnologijo, pridobijo pomembno konkurenčno prednost z večjo učinkovitostjo in nadzorom stroškov."
-    },
     "fiori": {
       "title": "Razvoj sodobnih Fiori aplikacij na SAP BTP",
       "category": "Razvoj",
@@ -1456,6 +1437,25 @@
       "section5Content": "SAP BTP nudi odlično podporo za ustvarjanje offline PWA preko svojih Mobile Services storitev. Te vključujejo pripravljeno sinhronizacijo, zaščiteno lokalno shrambo in močne API-je, ki poenostavljajo razvoj kompleksnih poslovnih aplikacij.",
       "conclusionTitle": "Zaključek",
       "conclusionContent": "Offline PWA so prihodnost korporativne mobilne programske opreme, ki nudijo odpornost, kakršne običajne spletne strani nimajo. Z uporabo sodobnih spletnih standardov lahko organizacije zagotovijo delovanje svojih procesov 24/7, ne glede na zunanje pogoje."
+    },
+    "ai": {
+      "title": "Revolucija v obdelavi računov s pomočjo UI",
+      "category": "UI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Raziščite, kako integracija umetne inteligence na SAP BTP platformi transformira obdelavo računov z inteligentno avtomatizacijo.",
+      "intro": "Tradicionalno je bila obdelava računov zamudno opravilo, podvrženo napakam. Integracija napredne umetne inteligence v SAP BTP prinaša revolucijo v ta proces in zagotavlja nepredstavljivo stopnjo avtomatizacije, natančnosti in učinkovitosti v finančnih operacijah.",
+      "section1Title": "Izzivi tradicionalne obdelave računov",
+      "section1Content": "Organizacije mesečno obdelajo tisoče računov, pri čemer vsak zahteva zajem podatkov, validacijo in vnos v ERP sisteme. Ročna obdelava je počasna, draga in tvegana, saj lahko privede do zamud pri plačilih ali glob.",
+      "section2Title": "Inteligentna analiza dokumentov preko UI",
+      "section2Content": "Sodobna umetna inteligenca prinaša zmožnosti računalniškega vida in obdelave naravnega jezika v svet financ. Za razliko od preprostih sistemov za prepoznavanje besedila (OCR), napredna UI razume kontekst, obvladuje različne formate računov in zajema informacije z izjemno natančnostjo, tudi iz manj kakovostnih skenov.",
+      "section3Title": "Brezšivna integracija s SAP BTP",
+      "section3Content": "Združitev UI s SAP BTP ustvarja močan avtomatiziran tok. Prejeti računi se obdelajo samodejno, podatki se takoj preverijo in prenesejo neposredno v SAP sisteme brez ročnega posega. Ta integracija izkorišča zanesljivost in prilagodljivost delovnih tokov platforme.",
+      "section4Title": "Inteligentno upravljanje izjem",
+      "section4Content": "Ena ključnih prednosti UI je njena sposobnost razumnega obravnavanja nestandardnih situacij. Ob pojavu nejasnosti sistem označi elemente za ročni pregled s podrobnimi pojasnili, kar naredi proces upravljanja izjem precej učinkovitejši od tradicionalnih rigidnih algoritmov.",
+      "section5Title": "Merljiv poslovni rezultat",
+      "section5Content": "Podjetja, ki so uvedla UI za obdelavo računov, beležijo izjemne izboljšave: skrajšanje časa obdelave za 90 %, zmanjšanje napak pri vnosu za 95 % in pomembne prihranke. Še pomembneje je, da se zaposleni lahko osredotočijo na strateške naloge namesto na ponavljajoč se vnos podatkov.",
+      "conclusionTitle": "Zaključek",
+      "conclusionContent": "Kombinacija močne umetne inteligence in korporacijske infrastrukture SAP BTP predstavlja transformacijski pristop k upravljanju financ. Organizacije, ki uporabljajo to tehnologijo, pridobijo pomembno konkurenčno prednost z večjo učinkovitostjo in nadzorom stroškov."
     }
   }
 }

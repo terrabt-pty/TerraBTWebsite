@@ -1401,25 +1401,6 @@
   },
   "blogs": {
     "backToHome": "Torna alla Home",
-    "claudeAI": {
-      "title": "Rivoluzionare l'Elaborazione Fatture con IA",
-      "category": "IA/ML",
-      "readTime": "6 min",
-      "seoDescription": "Esplora come l'integrazione dell'IA su SAP BTP trasforma l'elaborazione fatture con automazione intelligente e comprensione avanzata dei documenti.",
-      "intro": "L'elaborazione fatture è stata tradizionalmente un compito manuale che consuma tempo ed è soggetto a errori. L'integrazione dell'IA avanzata con SAP BTP sta rivoluzionando questo processo, portando livelli senza precedenti di automazione, accuratezza ed efficienza alle operazioni creditori.",
-      "section1Title": "La Sfida dell'Elaborazione Fatture Tradizionale",
-      "section1Content": "Le organizzazioni elaborano migliaia di fatture mensilmente, ognuna richiedendo estrazione dati, validazione e immissione nei sistemi ERP. L'elaborazione manuale è lenta, costosa e soggetta a errori che possono portare a ritardi di pagamento, pagamenti duplicati o sconti persi.",
-      "section2Title": "Comprensione Documento IA Avanzata",
-      "section2Content": "L'IA moderna porta capacità all'avanguardia di natural language processing e computer vision all'elaborazione fatture. A differenza dei sistemi OCR tradizionali, l'IA avanzata può comprendere il contesto, gestire vari formati di fatture ed estrarre informazioni con accuratezza straordinaria anche da documenti scansionati male o complessi.",
-      "section3Title": "Integrazione SAP BTP Senza Interruzioni",
-      "section3Content": "L'integrazione dell'IA con SAP BTP crea una potente pipeline di automazione. Le fatture in arrivo vengono elaborate automaticamente, i dati vengono estratti e validati e le informazioni fluiscono direttamente nei sistemi SAP senza intervento umano. Questa integrazione sfrutta le robuste capacità di connettività e workflow di SAP BTP.",
-      "section4Title": "Gestione Eccezione Intelligente",
-      "section4Content": "Una delle principali forze dell'IA è la sua capacità di gestire intelligentemente le eccezioni. Quando si incontrano formati di fattura insoliti o informazioni ambigue, il sistema può contrassegnare gli elementi per la revisione umana con spiegazioni dettagliate, rendendo la gestione delle eccezioni molto più efficiente dei sistemi tradizionali basati su regole.",
-      "section5Title": "Impatto Aziendale Misurabile",
-      "section5Content": "Le organizzazioni che implementano l'IA per l'elaborazione fatture in genere vedono miglioramenti drammatici: riduzione del 90% nel tempo di elaborazione, calo del 95% negli errori di immissione dati e significativi risparmi di costo nelle operazioni creditori. Forse ancora più importante: i dipendenti possono concentrarsi su attività strategiche invece che su immissione dati ripetitiva.",
-      "conclusionTitle": "Conclusione",
-      "conclusionContent": "La combinazione di capacità IA avanzate e dell'infrastruttura di livello enterprise di SAP BTP rappresenta un approccio trasformativo all'elaborazione fatture. Le organizzazioni che adottano questa tecnologia ottengono un significativo vantaggio competitivo attraverso efficienza migliorata, accuratezza e riduzione dei costi."
-    },
     "fiori": {
       "title": "Costruire Applicazioni Fiori Moderne su SAP BTP",
       "category": "Sviluppo",
@@ -1457,6 +1438,25 @@
       "section5Content": "SAP BTP fornisce eccellente supporto per la costruzione di PWA offline attraverso la sua offerta Mobile Services. Questi servizi includono sincronizzazione dati offline, archiviazione sicura e API completi che semplificano lo sviluppo di applicazioni offline-capable robuste.",
       "conclusionTitle": "Conclusione",
       "conclusionContent": "Le PWA offline rappresentano il futuro delle applicazioni aziendali, fornendo resilienza e affidabilità che le applicazioni web tradizionali non possono uguagliare. Abbracciando l'architettura offline-first e sfruttando le tecnologie web moderne, le organizzazioni possono garantire la continuità aziendale e mantenere la produttività indipendentemente dalle condizioni di rete."
+    },
+    "ai": {
+      "title": "Rivoluzionare l'Elaborazione Fatture con IA",
+      "category": "IA/ML",
+      "readTime": "6 min",
+      "seoDescription": "Esplora come l'integrazione dell'IA su SAP BTP trasforma l'elaborazione fatture con automazione intelligente e comprensione avanzata dei documenti.",
+      "intro": "L'elaborazione fatture è stata tradizionalmente un compito manuale che consuma tempo ed è soggetto a errori. L'integrazione dell'IA avanzata con SAP BTP sta rivoluzionando questo processo, portando livelli senza precedenti di automazione, accuratezza ed efficienza alle operazioni creditori.",
+      "section1Title": "La Sfida dell'Elaborazione Fatture Tradizionale",
+      "section1Content": "Le organizzazioni elaborano migliaia di fatture mensilmente, ognuna richiedendo estrazione dati, validazione e immissione nei sistemi ERP. L'elaborazione manuale è lenta, costosa e soggetta a errori che possono portare a ritardi di pagamento, pagamenti duplicati o sconti persi.",
+      "section2Title": "Comprensione Documento IA Avanzata",
+      "section2Content": "L'IA moderna porta capacità all'avanguardia di natural language processing e computer vision all'elaborazione fatture. A differenza dei sistemi OCR tradizionali, l'IA avanzata può comprendere il contesto, gestire vari formati di fatture ed estrarre informazioni con accuratezza straordinaria anche da documenti scansionati male o complessi.",
+      "section3Title": "Integrazione SAP BTP Senza Interruzioni",
+      "section3Content": "L'integrazione dell'IA con SAP BTP crea una potente pipeline di automazione. Le fatture in arrivo vengono elaborate automaticamente, i dati vengono estratti e validati e le informazioni fluiscono direttamente nei sistemi SAP senza intervento umano. Questa integrazione sfrutta le robuste capacità di connettività e workflow di SAP BTP.",
+      "section4Title": "Gestione Eccezione Intelligente",
+      "section4Content": "Una delle principali forze dell'IA è la sua capacità di gestire intelligentemente le eccezioni. Quando si incontrano formati di fattura insoliti o informazioni ambigue, il sistema può contrassegnare gli elementi per la revisione umana con spiegazioni dettagliate, rendendo la gestione delle eccezioni molto più efficiente dei sistemi tradizionali basati su regole.",
+      "section5Title": "Impatto Aziendale Misurabile",
+      "section5Content": "Le organizzazioni che implementano l'IA per l'elaborazione fatture in genere vedono miglioramenti drammatici: riduzione del 90% nel tempo di elaborazione, calo del 95% negli errori di immissione dati e significativi risparmi di costo nelle operazioni creditori. Forse ancora più importante: i dipendenti possono concentrarsi su attività strategiche invece che su immissione dati ripetitiva.",
+      "conclusionTitle": "Conclusione",
+      "conclusionContent": "La combinazione di capacità IA avanzate e dell'infrastruttura di livello enterprise di SAP BTP rappresenta un approccio trasformativo all'elaborazione fatture. Le organizzazioni che adottano questa tecnologia ottengono un significativo vantaggio competitivo attraverso efficienza migliorata, accuratezza e riduzione dei costi."
     }
   }
 }

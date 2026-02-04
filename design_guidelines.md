@@ -72,7 +72,7 @@
   - Service title (font-semibold, text-lg)
   - 2-3 sentence description
   - Subtle hover elevation effect
-- All 8 expertise areas: Fiori App Development, BTP Architecture & Design, Design Thinking, Offline PWA Apps, Database Management, Claude AI Invoice Processing, Integration Suite, Event Mesh
+- All 8 expertise areas: Fiori App Development, BTP Architecture & Design, Design Thinking, Offline PWA Apps, Database Management, AI Invoice Processing, Integration Suite, Event Mesh
 
 ### 4. Value Proposition Section
 - Layout: 2-column alternating (image-text, text-image pattern)

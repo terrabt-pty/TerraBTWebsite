@@ -1401,25 +1401,6 @@
   },
   "blogs": {
     "backToHome": "Înapoi la început",
-    "claudeAI": {
-      "title": "Revoluționarea procesării facturilor cu IA",
-      "category": "IA/ML",
-      "readTime": "6 min",
-      "seoDescription": "Explorați cum integrarea IA pe SAP BTP transformă procesarea facturilor cu automatizare inteligentă și înțelegere avansată a documentelor.",
-      "intro": "Procesarea facturilor a fost în mod tradițional o sarcină manuală consumatoare de timp și predispusă la erori. Integrarea IA avansate cu SAP BTP revoluționează acest proces, aducând nivele fără precedent de automatizare, precizie și eficiență în operațiunile conturi plătibile.",
-      "section1Title": "Provocarea procesării tradiționale facturilor",
-      "section1Content": "Organizațiile procesează mii de facturi lunar, fiecare necesitând extragere date, validare și intrare în sisteme ERP. Procesarea manuală este lentă, scumpă și predispusă la erori care pot duce la întârzieri plăți, plăți duble sau sconturi pierdute.",
-      "section2Title": "Înțelegere avansată a documentelor IA",
-      "section2Content": "IA modernă aduce capacități procesare limbaj natural și viziune computerizată de vârf la procesarea facturilor. Spre deosebire de sistemele OCR tradiționale, IA avansată poate înțelege context, maneja formate de factură variate și extrage informații cu precizie remarcabilă chiar din documente prost scanate sau complexe.",
-      "section3Title": "Integrare continuă SAP BTP",
-      "section3Content": "Integrarea IA cu SAP BTP creează o conductă de automatizare puternică. Facturile primite sunt procesate automat, datele sunt extrase și validate, iar informațiile curg direct în sisteme SAP fără intervenție umană. Această integrare valorifică conectivitate robustă și capabilități flux de lucru SAP BTP.",
-      "section4Title": "Gestionare inteligentă excepții",
-      "section4Content": "Una din punctele forte majore ale IA este abilitatea sa de a maneja excepții inteligent. Când se întâlnesc formate de factură neobișnuite sau informații ambigue, sistemul poate marca elemente pentru revizuire umană cu explicații detaliate, făcând gestionarea excepții mult mai eficientă decât sistemele tradiționale bazate pe reguli.",
-      "section5Title": "Impact de afaceri măsurabil",
-      "section5Content": "Organizațiile care implementează IA pentru procesare factură tipic observă îmbunătățiri dramatice: reducere cu 90% a timpului de procesare, declin cu 95% a erorilor de intrare date și economii semnificative de costuri în operațiunile conturi plătibile. Poate mai important: angajații pot se concentra pe activități strategice în loc de intrare de date repetitivă.",
-      "conclusionTitle": "Concluzie",
-      "conclusionContent": "Combinația capabilităților IA avansate și infrastructurii enterprise-grade SAP BTP reprezintă o abordare transformatoare la procesarea facturilor. Organizațiile care adopță această tehnologie obțin avantaj competitiv semnificativ prin eficiență, precizie și reducere costuri îmbunătățite."
-    },
     "fiori": {
       "title": "Construirea aplicațiilor Fiori moderne pe SAP BTP",
       "category": "Dezvoltare",
@@ -1457,6 +1438,25 @@
       "section5Content": "SAP BTP furnizează suport excelent pentru construire PWA-uri offline prin oferta Mobile Services. Aceste servicii includ sincronizare date offline, stocare securizată și API-uri cuprinzătoare care simplificau dezvoltarea aplicații robust offline-capable.",
       "conclusionTitle": "Concluzie",
       "conclusionContent": "PWA-uri offline reprezintă viitorul aplicațiilor de afaceri, furnizând reziliență și fiabilitate pe care aplicații web tradiționale nu le pot oferi. Prin acceptare arhitectură offline-first și valorificare tehnologiei web moderne, organizații pot asigura continuitate afaceri și menține productivitate indiferent de condiții rețea."
+    },
+    "ai": {
+      "title": "Revoluționarea procesării facturilor cu IA",
+      "category": "IA/ML",
+      "readTime": "6 min",
+      "seoDescription": "Explorați cum integrarea IA pe SAP BTP transformă procesarea facturilor cu automatizare inteligentă și înțelegere avansată a documentelor.",
+      "intro": "Procesarea facturilor a fost în mod tradițional o sarcină manuală consumatoare de timp și predispusă la erori. Integrarea IA avansate cu SAP BTP revoluționează acest proces, aducând nivele fără precedent de automatizare, precizie și eficiență în operațiunile conturi plătibile.",
+      "section1Title": "Provocarea procesării tradiționale facturilor",
+      "section1Content": "Organizațiile procesează mii de facturi lunar, fiecare necesitând extragere date, validare și intrare în sisteme ERP. Procesarea manuală este lentă, scumpă și predispusă la erori care pot duce la întârzieri plăți, plăți duble sau sconturi pierdute.",
+      "section2Title": "Înțelegere avansată a documentelor IA",
+      "section2Content": "IA modernă aduce capacități procesare limbaj natural și viziune computerizată de vârf la procesarea facturilor. Spre deosebire de sistemele OCR tradiționale, IA avansată poate înțelege context, maneja formate de factură variate și extrage informații cu precizie remarcabilă chiar din documente prost scanate sau complexe.",
+      "section3Title": "Integrare continuă SAP BTP",
+      "section3Content": "Integrarea IA cu SAP BTP creează o conductă de automatizare puternică. Facturile primite sunt procesate automat, datele sunt extrase și validate, iar informațiile curg direct în sisteme SAP fără intervenție umană. Această integrare valorifică conectivitate robustă și capabilități flux de lucru SAP BTP.",
+      "section4Title": "Gestionare inteligentă excepții",
+      "section4Content": "Una din punctele forte majore ale IA este abilitatea sa de a maneja excepții inteligent. Când se întâlnesc formate de factură neobișnuite sau informații ambigue, sistemul poate marca elemente pentru revizuire umană cu explicații detaliate, făcând gestionarea excepții mult mai eficientă decât sistemele tradiționale bazate pe reguli.",
+      "section5Title": "Impact de afaceri măsurabil",
+      "section5Content": "Organizațiile care implementează IA pentru procesare factură tipic observă îmbunătățiri dramatice: reducere cu 90% a timpului de procesare, declin cu 95% a erorilor de intrare date și economii semnificative de costuri în operațiunile conturi plătibile. Poate mai important: angajații pot se concentra pe activități strategice în loc de intrare de date repetitivă.",
+      "conclusionTitle": "Concluzie",
+      "conclusionContent": "Combinația capabilităților IA avansate și infrastructurii enterprise-grade SAP BTP reprezintă o abordare transformatoare la procesarea facturilor. Organizațiile care adopță această tehnologie obțin avantaj competitiv semnificativ prin eficiență, precizie și reducere costuri îmbunătățite."
     }
   }
 }

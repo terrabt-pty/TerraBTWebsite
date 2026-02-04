@@ -14,7 +14,7 @@ import FioriDevelopment from "@/pages/FioriDevelopment";
 import DesignThinking from "@/pages/DesignThinking";
 import OfflinePWA from "@/pages/OfflinePWA";
 import DatabaseManagement from "@/pages/DatabaseManagement";
-import ClaudeAI from "@/pages/ClaudeAI";
+import AIProcessing from "@/pages/AIProcessing";
 import IntegrationSuite from "@/pages/IntegrationSuite";
 import EventMesh from "@/pages/EventMesh";
 import CAPDevelopment from "@/pages/CAPDevelopment";
@@ -22,7 +22,7 @@ import BuildApps from "@/pages/BuildApps";
 import BuildAutomation from "@/pages/BuildAutomation";
 import FioriApplicationsSAPBTP from "@/pages/blogs/FioriApplicationsSAPBTP";
 import OfflinePWABusinessContinuity from "@/pages/blogs/OfflinePWABusinessContinuity";
-import ClaudeAIInvoiceProcessing from "@/pages/blogs/ClaudeAIInvoiceProcessing";
+import AIInvoiceProcessing from "@/pages/blogs/AIInvoiceProcessing";
 import MasteringIntegrationSuite from "@/pages/blogs/MasteringIntegrationSuite";
 import EventMeshArchitecture from "@/pages/blogs/EventMeshArchitecture";
 import DatabaseOptimizationStrategies from "@/pages/blogs/DatabaseOptimizationStrategies";
@@ -90,7 +90,7 @@ function Router() {
       <Route path="/services/design-thinking" component={DesignThinking} />
       <Route path="/services/offline-pwa" component={OfflinePWA} />
       <Route path="/services/database-management" component={DatabaseManagement} />
-      <Route path="/services/claude-ai" component={ClaudeAI} />
+      <Route path="/services/ai" component={AIProcessing} />
       <Route path="/services/integration-suite" component={IntegrationSuite} />
       <Route path="/services/event-mesh" component={EventMesh} />
       <Route path="/services/cap-development" component={CAPDevelopment} />
@@ -105,7 +105,7 @@ function Router() {
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
       <Route path="/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
-      <Route path="/blog/claude-ai-invoice-processing" component={ClaudeAIInvoiceProcessing} />
+      <Route path="/blog/ai-invoice-processing" component={AIInvoiceProcessing} />
       <Route path="/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
       <Route path="/blog/event-mesh-architecture" component={EventMeshArchitecture} />
       <Route path="/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />
@@ -122,7 +122,7 @@ function Router() {
       <Route path="/:lang/services/design-thinking" component={DesignThinking} />
       <Route path="/:lang/services/offline-pwa" component={OfflinePWA} />
       <Route path="/:lang/services/database-management" component={DatabaseManagement} />
-      <Route path="/:lang/services/claude-ai" component={ClaudeAI} />
+      <Route path="/:lang/services/ai" component={AIProcessing} />
       <Route path="/:lang/services/integration-suite" component={IntegrationSuite} />
       <Route path="/:lang/services/event-mesh" component={EventMesh} />
       <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
@@ -132,7 +132,7 @@ function Router() {
       {/* Localized blog post routes */}
       <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
       <Route path="/:lang/blog/offline-pwa-business-continuity" component={OfflinePWABusinessContinuity} />
-      <Route path="/:lang/blog/claude-ai-invoice-processing" component={ClaudeAIInvoiceProcessing} />
+      <Route path="/:lang/blog/ai-invoice-processing" component={AIInvoiceProcessing} />
       <Route path="/:lang/blog/mastering-integration-suite" component={MasteringIntegrationSuite} />
       <Route path="/:lang/blog/event-mesh-architecture" component={EventMeshArchitecture} />
       <Route path="/:lang/blog/database-optimization-strategies" component={DatabaseOptimizationStrategies} />

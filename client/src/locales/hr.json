@@ -1401,25 +1401,6 @@
   },
   "blogs": {
     "backToHome": "Natrag na početnu",
-    "claudeAI": {
-      "title": "Revolucioniranje obrade računa s AI",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Istražite kako integracija AI na SAP BTP transformira obradu računa s inteligentnom automatizacijom i naprednim razumijevanjem dokumenata.",
-      "intro": "Obrada računa tradicionalno je bila ručna zadaća koja troši vrijeme i je sklona greškama. Integracija napredne AI s SAP BTP revolucionira ovaj proces, donosim bez prethodnu automatizaciju, točnost i učinkovitost u poslovanje plačanja.",
-      "section1Title": "Izazov tradicionalne obrade računa",
-      "section1Content": "Organizacije obrađuju tisuće računa mjesečno, što zahtjeva ekstrakciju podataka, validaciju i unos u ERP sustave. Ručna obrada je spora, skupna i sklona greškama što može dovesti do odgoda plaćanja, dvostrukih plaćanja ili promijenjenih ranih diskontnih mogućnosti.",
-      "section2Title": "Naprednog razumijevanja AI dokumenata",
-      "section2Content": "Moderna AI donosi najsuvremenije mogućnosti obrade prirodnog jezika i vid računala obrada računa. Za razliku od tradicionalnih OCR sustava, napredna AI može razumjeti kontekst, rukovanja različitim oblicima računa i ekstrakcije informacija s izvanrednom točnošću čak i iz loše skeniranih ili kompleksnih dokumenata.",
-      "section3Title": "Besprijekornu SAP BTP integraciju",
-      "section3Content": "Integracija AI s SAP BTP stvara moćnu automation pipeline. Dolazni računi su automatski obrađen, podaci su ekstrahirani i validirani, i informacije teku izravno u SAP sustave bez ljudske intervencije. Ova integracija koristi robusnu povezanost i mogućnosti workflow-a SAP BTP.",
-      "section4Title": "Inteligentno rukovanja iznimkama",
-      "section4Content": "Jednom od glavnih snaga AI je sposobnost da inteligentno rukuje iznimkama. Pri susretu s neobičnim oblicima računa ili dvosmislenim informacijama, sustav može označiti stavke za ljudsku pregled s detaljnim objašnjenjima, čime rukovanje iznimkama postaje puno učinkovitiji od tradicionalnih sustava temeljenih na pravilima.",
-      "section5Title": "Mjerljiv utjecaj na poslovanje",
-      "section5Content": "Organizacije koje primjenjuju AI za obradu računa obično vide dramatske poboljšanja: 90% smanjenja vremena obrade, 95% smanjenja grešaka pri unosu podataka i značajne uštede troškova u poslovanju plačanja. Možda je najvažnije, osoblje može fokusa na strateške aktivnosti umjesto na ponavljajući unos podataka.",
-      "conclusionTitle": "Zaključak",
-      "conclusionContent": "Kombinacija naprednih mogućnosti AI i Enterprise-Grade infrastrukture SAP BTP predstavlja transformativni pristup obrada računa. Organizacije koje primjenjuju ovu tehnologiju dobivaju značajnu konkurentsku prednost kroz poboljšanu učinkovitost, točnost i smanjenje troškova."
-    },
     "fiori": {
       "title": "Razvoj modernih Fiori aplikacija na SAP BTP",
       "category": "Razvoj",
@@ -1457,6 +1438,25 @@
       "section5Content": "SAP BTP pruža odličnu podršku za gradnju offline PWA kroz svoju Mobile Services ponudu. Ove usluge uključuju offline sinkronizaciju podataka, sigurnu pohrani i sveobuhvatne API-je koji pojednostavljuju razvoj robusnih Offline-capable aplikacija.",
       "conclusionTitle": "Zaključak",
       "conclusionContent": "Offline PWA predstavljaju budućnost poslovnih aplikacija, pružajući otpornost i pouzdanost koju tradicionalne web aplikacije ne mogu ponuditi. Primjenom Offline-First arhitekture i korištenjem moderne web tehnologije, organizacije mogu osigurati kontinuitet poslovanja i održati produktivnost bez obzira na mrežne uvjete."
+    },
+    "ai": {
+      "title": "Revolucioniranje obrade računa s AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Istražite kako integracija AI na SAP BTP transformira obradu računa s inteligentnom automatizacijom i naprednim razumijevanjem dokumenata.",
+      "intro": "Obrada računa tradicionalno je bila ručna zadaća koja troši vrijeme i je sklona greškama. Integracija napredne AI s SAP BTP revolucionira ovaj proces, donosim bez prethodnu automatizaciju, točnost i učinkovitost u poslovanje plačanja.",
+      "section1Title": "Izazov tradicionalne obrade računa",
+      "section1Content": "Organizacije obrađuju tisuće računa mjesečno, što zahtjeva ekstrakciju podataka, validaciju i unos u ERP sustave. Ručna obrada je spora, skupna i sklona greškama što može dovesti do odgoda plaćanja, dvostrukih plaćanja ili promijenjenih ranih diskontnih mogućnosti.",
+      "section2Title": "Naprednog razumijevanja AI dokumenata",
+      "section2Content": "Moderna AI donosi najsuvremenije mogućnosti obrade prirodnog jezika i vid računala obrada računa. Za razliku od tradicionalnih OCR sustava, napredna AI može razumjeti kontekst, rukovanja različitim oblicima računa i ekstrakcije informacija s izvanrednom točnošću čak i iz loše skeniranih ili kompleksnih dokumenata.",
+      "section3Title": "Besprijekornu SAP BTP integraciju",
+      "section3Content": "Integracija AI s SAP BTP stvara moćnu automation pipeline. Dolazni računi su automatski obrađen, podaci su ekstrahirani i validirani, i informacije teku izravno u SAP sustave bez ljudske intervencije. Ova integracija koristi robusnu povezanost i mogućnosti workflow-a SAP BTP.",
+      "section4Title": "Inteligentno rukovanja iznimkama",
+      "section4Content": "Jednom od glavnih snaga AI je sposobnost da inteligentno rukuje iznimkama. Pri susretu s neobičnim oblicima računa ili dvosmislenim informacijama, sustav može označiti stavke za ljudsku pregled s detaljnim objašnjenjima, čime rukovanje iznimkama postaje puno učinkovitiji od tradicionalnih sustava temeljenih na pravilima.",
+      "section5Title": "Mjerljiv utjecaj na poslovanje",
+      "section5Content": "Organizacije koje primjenjuju AI za obradu računa obično vide dramatske poboljšanja: 90% smanjenja vremena obrade, 95% smanjenja grešaka pri unosu podataka i značajne uštede troškova u poslovanju plačanja. Možda je najvažnije, osoblje može fokusa na strateške aktivnosti umjesto na ponavljajući unos podataka.",
+      "conclusionTitle": "Zaključak",
+      "conclusionContent": "Kombinacija naprednih mogućnosti AI i Enterprise-Grade infrastrukture SAP BTP predstavlja transformativni pristup obrada računa. Organizacije koje primjenjuju ovu tehnologiju dobivaju značajnu konkurentsku prednost kroz poboljšanu učinkovitost, točnost i smanjenje troškova."
     }
   }
 }

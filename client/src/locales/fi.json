@@ -1400,25 +1400,6 @@
   },
   "blogs": {
     "backToHome": "Takaisin etusivulle",
-    "claudeAI": {
-      "title": "Laskunkäsittelyn vallankumous tekoälyllä",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Katso, miten tekoälyn integrointi SAP BTP -alustaan uudistaa taloushallinnon prosesseja älykkäällä automaatiolla.",
-      "intro": "Laskunkäsittely on perinteisesti ollut työläs ja virhealtis tehtävä. Kehittyneen tekoälyn (AI) integrointi SAP BTP:hen tuo tähän prosessiin mullistuksen, tarjoten ennennäkemättömän automaation tason, tarkkuuden ja tehokkuuden.",
-      "section1Title": "Manuaalisen käsittelyn haasteet",
-      "section1Content": "Suuret organisaatiot käsittelevät tuhansia laskuja kuukausittain – jokainen vaatii tietojen poimintaa, validointia ja syöttämistä ERP-järjestelmiin. Manuaalinen prosessi on hidas, kallis ja sisältää riskin virheistä, jotka voivat johtaa maksuviivästyksiin ja tappioihin.",
-      "section2Title": "Älykäs dokumenttianalyysi tekoälyllä",
-      "section2Content": "Moderni AI tuo taloushallintoon tietokonenäön ja luonnollisen kielen käsittelyn mahdollisuudet. Toisin kuin vanhat OCR-järjestelmät, nykyaikainen tekoäly ymmärtää kontekstia, tunnistaa eri laskuformaatteja ja poimii tiedot erittäin tarkasti jopa heikkolaatuisista skannauksista.",
-      "section3Title": "Saumaton yhteiselo SAP BTP:n kanssa",
-      "section3Content": "Tekoälyn yhdistäminen SAP BTP -alustaan luo tehokkaan automaatioputken. Laskut analysoidaan automaattisesti, tiedot validoidaan ja ne siirtyvät suoraan SAP-ympäristöön ilman ihmisen väliintuloa. Tämä hyödyntää alustan joustavia työnkulkuominaisuuksia.",
-      "section4Title": "Älykäs poikkeustenhallinta",
-      "section4Content": "Yksi tekoälyn suurimmista vahvuuksista on kyky selviytyä epäselvistä tilanteista. Jos järjestelmä kohtaa epävarmuutta, se merkitsee laskun manuaaliseen tarkistukseen ja antaa yksityiskohtaisen selityksen. Tämä on huomattavasti nopeampaa kuin jäykät sääntöpohjaiset järjestelmät.",
-      "section5Title": "Mitattavat liiketoimintahyödyt",
-      "section5Content": "Yritykset, jotka ovat ottaneet AI:n käyttöön laskutuksessa, raportoivat merkittävistä parannuksista: käsittelyajan lyhentyminen 90 %, tallennusvirheiden väheneminen 95 % ja huomattavat säästöt. Mikä tärkeintä — tiimit voivat keskittyä strategisiin tehtäviin rutiininomaisen tietojen syötön sijaan.",
-      "conclusionTitle": "Johtopäätös",
-      "conclusionContent": "Tehokkaan tekoälyn ja SAP BTP:n yritystason infrastruktuurin yhdistelmä asettaa uuden standardin taloushallinnolle. Organisaatiot, jotka hyödyntävät näitä teknologioita, saavat strategisen edun paremman tehokkuuden ja kustannushallinnan kautta."
-    },
     "fiori": {
       "title": "Modernien Fiori-sovellusten kehitys SAP BTP:llä",
       "category": "Kehitys",
@@ -1456,6 +1437,25 @@
       "section5Content": "SAP BTP tarjoaa täyden tuen PWA-ratkaisuille Mobile Services -palvelun kautta. Se sisältää valmiin synkronoinnin, turvallisen paikallisen tallennuksen ja tehokkaat rajapinnat, jotka tekevät kehityksestä suoraviivaista.",
       "conclusionTitle": "Johtopäätös",
       "conclusionContent": "Offline-PWA:t ovat yritysmobiiliohjelmistojen tulevaisuutta, tarjoten kestävyyttä, jota tavallisilla verkkosivuilla ei ole. Hyödyntämällä näitä teknologioita organisaatiot varmistavat prosessiensa jatkumisen 24/7 paikasta riippumatta."
+    },
+    "ai": {
+      "title": "Laskunkäsittelyn vallankumous tekoälyllä",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Katso, miten tekoälyn integrointi SAP BTP -alustaan uudistaa taloushallinnon prosesseja älykkäällä automaatiolla.",
+      "intro": "Laskunkäsittely on perinteisesti ollut työläs ja virhealtis tehtävä. Kehittyneen tekoälyn (AI) integrointi SAP BTP:hen tuo tähän prosessiin mullistuksen, tarjoten ennennäkemättömän automaation tason, tarkkuuden ja tehokkuuden.",
+      "section1Title": "Manuaalisen käsittelyn haasteet",
+      "section1Content": "Suuret organisaatiot käsittelevät tuhansia laskuja kuukausittain – jokainen vaatii tietojen poimintaa, validointia ja syöttämistä ERP-järjestelmiin. Manuaalinen prosessi on hidas, kallis ja sisältää riskin virheistä, jotka voivat johtaa maksuviivästyksiin ja tappioihin.",
+      "section2Title": "Älykäs dokumenttianalyysi tekoälyllä",
+      "section2Content": "Moderni AI tuo taloushallintoon tietokonenäön ja luonnollisen kielen käsittelyn mahdollisuudet. Toisin kuin vanhat OCR-järjestelmät, nykyaikainen tekoäly ymmärtää kontekstia, tunnistaa eri laskuformaatteja ja poimii tiedot erittäin tarkasti jopa heikkolaatuisista skannauksista.",
+      "section3Title": "Saumaton yhteiselo SAP BTP:n kanssa",
+      "section3Content": "Tekoälyn yhdistäminen SAP BTP -alustaan luo tehokkaan automaatioputken. Laskut analysoidaan automaattisesti, tiedot validoidaan ja ne siirtyvät suoraan SAP-ympäristöön ilman ihmisen väliintuloa. Tämä hyödyntää alustan joustavia työnkulkuominaisuuksia.",
+      "section4Title": "Älykäs poikkeustenhallinta",
+      "section4Content": "Yksi tekoälyn suurimmista vahvuuksista on kyky selviytyä epäselvistä tilanteista. Jos järjestelmä kohtaa epävarmuutta, se merkitsee laskun manuaaliseen tarkistukseen ja antaa yksityiskohtaisen selityksen. Tämä on huomattavasti nopeampaa kuin jäykät sääntöpohjaiset järjestelmät.",
+      "section5Title": "Mitattavat liiketoimintahyödyt",
+      "section5Content": "Yritykset, jotka ovat ottaneet AI:n käyttöön laskutuksessa, raportoivat merkittävistä parannuksista: käsittelyajan lyhentyminen 90 %, tallennusvirheiden väheneminen 95 % ja huomattavat säästöt. Mikä tärkeintä — tiimit voivat keskittyä strategisiin tehtäviin rutiininomaisen tietojen syötön sijaan.",
+      "conclusionTitle": "Johtopäätös",
+      "conclusionContent": "Tehokkaan tekoälyn ja SAP BTP:n yritystason infrastruktuurin yhdistelmä asettaa uuden standardin taloushallinnolle. Organisaatiot, jotka hyödyntävät näitä teknologioita, saavat strategisen edun paremman tehokkuuden ja kustannushallinnan kautta."
     }
   }
 }

@@ -1400,25 +1400,6 @@
   },
   "blogs": {
     "backToHome": "Späť na domovskú stránku",
-    "claudeAI": {
-      "title": "Revolúcia v spracovaní faktúr pomocou AI",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Zistite, ako integrácia AI na SAP BTP transformuje spracovanie faktúr prostredníctvom inteligentnej automatizácie.",
-      "intro": "Spracovanie faktúr bolo tradične časovo náročnou úlohou náchylnou na chyby. Integrácia AI so SAP BTP prináša revolúciu do tohto procesu a zvyšuje efektivitu finančných operácií.",
-      "section1Title": "Problémy tradičného spracovania",
-      "section1Content": "Firmy spracovávajú tisíce faktúr mesačne. Manuálny vstup je pomalý, drahý a chybný, čo vedie k omeškaným platbám.",
-      "section2Title": "Pokročilé porozumenie dokumentom cez AI",
-      "section2Content": "Moderná AI využíva NLP a počítačové videnie. Rozumie kontextu a rôznym formátom lepšie ako klasické OCR systémy.",
-      "section3Title": "Súvislá integrácia SAP BTP",
-      "section3Content": "Prepojenie AI a SAP BTP vytvára výkonný kanál automatizácie. Dáta plynú do systému bez nutnosti ľudského zásahu.",
-      "section4Title": "Inteligentná správa výnimiek",
-      "section4Content": "AI dokáže inteligentne identifikovať nejasnosti a označiť ich na manuálnu kontrolu s detailným vysvetlením.",
-      "section5Title": "Prínosy pre biznis",
-      "section5Content": "Firmy uvádzajú 90% skrátenie času a 95% pokles chýb. Personál sa tak môže venovať strategickejším úlohám.",
-      "conclusionTitle": "Záver",
-      "conclusionContent": "Kombinácia AI a infraštruktúry SAP BTP predstavuje budúcnosť financií, prinášajúc presnosť a zníženie nákladov."
-    },
     "fiori": {
       "title": "Budovanie moderných aplikácií Fiori na SAP BTP",
       "category": "Vývoj",
@@ -1456,6 +1437,25 @@
       "section5Content": "SAP BTP Mobile Services poskytujú nástroje na bezpečné ukladanie dát a ich synchronizáciu.",
       "conclusionTitle": "Záver",
       "conclusionContent": "Offline PWA sú budúcnosťou korporátnych mobilných riešení, ktoré garantujú dostupnosť procesov."
+    },
+    "ai": {
+      "title": "Revolúcia v spracovaní faktúr pomocou AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Zistite, ako integrácia AI na SAP BTP transformuje spracovanie faktúr prostredníctvom inteligentnej automatizácie.",
+      "intro": "Spracovanie faktúr bolo tradične časovo náročnou úlohou náchylnou na chyby. Integrácia AI so SAP BTP prináša revolúciu do tohto procesu a zvyšuje efektivitu finančných operácií.",
+      "section1Title": "Problémy tradičného spracovania",
+      "section1Content": "Firmy spracovávajú tisíce faktúr mesačne. Manuálny vstup je pomalý, drahý a chybný, čo vedie k omeškaným platbám.",
+      "section2Title": "Pokročilé porozumenie dokumentom cez AI",
+      "section2Content": "Moderná AI využíva NLP a počítačové videnie. Rozumie kontextu a rôznym formátom lepšie ako klasické OCR systémy.",
+      "section3Title": "Súvislá integrácia SAP BTP",
+      "section3Content": "Prepojenie AI a SAP BTP vytvára výkonný kanál automatizácie. Dáta plynú do systému bez nutnosti ľudského zásahu.",
+      "section4Title": "Inteligentná správa výnimiek",
+      "section4Content": "AI dokáže inteligentne identifikovať nejasnosti a označiť ich na manuálnu kontrolu s detailným vysvetlením.",
+      "section5Title": "Prínosy pre biznis",
+      "section5Content": "Firmy uvádzajú 90% skrátenie času a 95% pokles chýb. Personál sa tak môže venovať strategickejším úlohám.",
+      "conclusionTitle": "Záver",
+      "conclusionContent": "Kombinácia AI a infraštruktúry SAP BTP predstavuje budúcnosť financií, prinášajúc presnosť a zníženie nákladov."
     }
   }
 }

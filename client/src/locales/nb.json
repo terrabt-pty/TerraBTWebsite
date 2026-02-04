@@ -1401,25 +1401,6 @@
   },
   "blogs": {
     "backToHome": "Tilbake til hjem",
-    "claudeAI": {
-      "title": "Revolusjonering av fakturabelhandling med AI",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Utforsk hvordan AI-integrasjon på SAP BTP transformer fakturabelhandling med intelligent automatisering og avansert dokumentforståelse.",
-      "intro": "Fakturabelhandling har tradisjonelt vært en tidkrevende, feilmottende manuell oppgave. Integreringen av avansert AI med SAP BTP revolutionerer denne prosessen og bringer enestår automatisering, nøyaktighet og effektivitet til kontoudgiftoperasjoner.",
-      "section1Title": "Utfordringen med tradisjonell fakturabelhandling",
-      "section1Content": "Organisasjoner behandler tusentals fakturaer månedlig, hver krever datautvinning, validering og registrering i ERP-systemer. Manuell behandling er langsom, dyr og feilmottende, noe som fører til betalingsforsinkelser, dupliseringer eller oppgjørde skonti.",
-      "section2Title": "Avansert AI-dokumentforståelse",
-      "section2Content": "Moderne AI bringer state-of-the-art naturlig språkbehandling og computer vision-kapasitet til fakturabelhandling. I motsetning til tradisjonelle OCR-systemer kan avansert AI forstå kontekst, håndtere varierte fakturaformat og utvinne informasjon med bemerkelsesverd nøyaktighet selv fra dårlig skannet eller komplekse dokumenter.",
-      "section3Title": "Sømløs SAP BTP-integrasjon",
-      "section3Content": "Integreringen av AI med SAP BTP skaper en kraftig automatiseringspipeline. Innkommende fakturaer behandles automatisk, data utvinnes og valideres, og informasjon flyter direkte inn i SAP-systemer uten menneskelig intervensjon. Denne integreringen utnytter SAP BTPs robuste konnektivitet og arbeitsflytfunksjonalitet.",
-      "section4Title": "Intelligent unntagsbehandling",
-      "section4Content": "En av AIs nøkkelstyrkere er evnen til å håndtere unntak intelligent. Ved å støte på uvanlige fakturaformat eller tvetydig informasjon kan systemet flagge elementer for menneskelig revisjon med detaljert forklaringer, noe som gjør unntagsbehandling mye mer effektiv enn tradisjonelle regelbaserte systemer.",
-      "section5Title": "Målbar forretningsvirkning",
-      "section5Content": "Organisasjoner som implementerer AI for fakturabelhandling ser typisk dramatiske forbedringer: 90% reduktion i behandlingstid, 95% nedgang i dataeingfeil og betydelige kostnadbesparelser i kontoudgiftoperasjoner. Kanskje viktigst kan ansatte fokusere på strategiske aktiviteter i stedet for repetitiv datainntastning.",
-      "conclusionTitle": "Konklusj",
-      "conclusionContent": "Kombinasjonen av avansert AI-funksjonalitet og SAP BTP'senterprisegrade infrastruktur representerer en transformativ tilnærming til fakturabelhandling. Organisasjoner som innfører denne teknologien oppnår en signifikant konkurransefortsettelse gjennom forbedret effektivitet, nøyaktighet og kostnadsreduksjon."
-    },
     "fiori": {
       "title": "Bygging av moderne Fiori-applikasjoner på SAP BTP",
       "category": "Utvikling",
@@ -1457,6 +1438,25 @@
       "section5Content": "SAP BTP gir utmerket støtte for å bygge offline-PWAer gjennom sitt Mobile Services-tilbud. Disse tjenestene inkluderer offline-dataksynkronisering, sikker lagring og omfattende APIer som forenkler utviklingen av robuste offline-kapable applikasjoner.",
       "conclusionTitle": "Konklusjon",
       "conclusionContent": "Offline-PWAer representerer fremtiden for forretningsapplikasjoner, som gir resiliensskap og pålitelighet som tradisjonelle webapplikasjoner ikke kan oppfylle. Ved å omfavne offline-first-arkitektur og utnytte moderne webteknologier kan organisasjoner sikre forretningskontinuitet og opprettholde produktiviteten uavhengig av nettverksbetingelser."
+    },
+    "ai": {
+      "title": "Revolusjonering av fakturabelhandling med AI",
+      "category": "AI/ML",
+      "readTime": "6 min",
+      "seoDescription": "Utforsk hvordan AI-integrasjon på SAP BTP transformer fakturabelhandling med intelligent automatisering og avansert dokumentforståelse.",
+      "intro": "Fakturabelhandling har tradisjonelt vært en tidkrevende, feilmottende manuell oppgave. Integreringen av avansert AI med SAP BTP revolutionerer denne prosessen og bringer enestår automatisering, nøyaktighet og effektivitet til kontoudgiftoperasjoner.",
+      "section1Title": "Utfordringen med tradisjonell fakturabelhandling",
+      "section1Content": "Organisasjoner behandler tusentals fakturaer månedlig, hver krever datautvinning, validering og registrering i ERP-systemer. Manuell behandling er langsom, dyr og feilmottende, noe som fører til betalingsforsinkelser, dupliseringer eller oppgjørde skonti.",
+      "section2Title": "Avansert AI-dokumentforståelse",
+      "section2Content": "Moderne AI bringer state-of-the-art naturlig språkbehandling og computer vision-kapasitet til fakturabelhandling. I motsetning til tradisjonelle OCR-systemer kan avansert AI forstå kontekst, håndtere varierte fakturaformat og utvinne informasjon med bemerkelsesverd nøyaktighet selv fra dårlig skannet eller komplekse dokumenter.",
+      "section3Title": "Sømløs SAP BTP-integrasjon",
+      "section3Content": "Integreringen av AI med SAP BTP skaper en kraftig automatiseringspipeline. Innkommende fakturaer behandles automatisk, data utvinnes og valideres, og informasjon flyter direkte inn i SAP-systemer uten menneskelig intervensjon. Denne integreringen utnytter SAP BTPs robuste konnektivitet og arbeitsflytfunksjonalitet.",
+      "section4Title": "Intelligent unntagsbehandling",
+      "section4Content": "En av AIs nøkkelstyrkere er evnen til å håndtere unntak intelligent. Ved å støte på uvanlige fakturaformat eller tvetydig informasjon kan systemet flagge elementer for menneskelig revisjon med detaljert forklaringer, noe som gjør unntagsbehandling mye mer effektiv enn tradisjonelle regelbaserte systemer.",
+      "section5Title": "Målbar forretningsvirkning",
+      "section5Content": "Organisasjoner som implementerer AI for fakturabelhandling ser typisk dramatiske forbedringer: 90% reduktion i behandlingstid, 95% nedgang i dataeingfeil og betydelige kostnadbesparelser i kontoudgiftoperasjoner. Kanskje viktigst kan ansatte fokusere på strategiske aktiviteter i stedet for repetitiv datainntastning.",
+      "conclusionTitle": "Konklusj",
+      "conclusionContent": "Kombinasjonen av avansert AI-funksjonalitet og SAP BTP'senterprisegrade infrastruktur representerer en transformativ tilnærming til fakturabelhandling. Organisasjoner som innfører denne teknologien oppnår en signifikant konkurransefortsettelse gjennom forbedret effektivitet, nøyaktighet og kostnadsreduksjon."
     }
   }
 }

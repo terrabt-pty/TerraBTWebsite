@@ -66,7 +66,7 @@ export default function Home() {
       icon: Brain,
       title: t('services.ai.title'),
       description: t('services.ai.description'),
-      href: "/services/claude-ai",
+      href: "/services/ai",
     },
     {
       icon: GitBranch,
@@ -123,7 +123,7 @@ export default function Home() {
       title: t('blog.post3.title'),
       excerpt: t('blog.post3.excerpt'),
       readTime: t('blog.post3.readTime'),
-      slug: 'claude-ai-invoice-processing',
+      slug: 'ai-invoice-processing',
     },
     {
       image: globalImage,
