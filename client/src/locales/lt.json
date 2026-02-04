@@ -6,6 +6,12 @@
     "contact": "Kontaktai",
     "bookConsultation": "Nemokama konsultacija"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Konsultavimo Ekspertai | 100% Orientuoti į BTP Sprendimus",
+      "description": "TerraBT specializuojasi tik SAP BTP konsultavimo paslaugose visame pasaulyje. Ekspertų sprendimai Fiori kūrime, BTP architektūroje, PWA programėlėse, AI pagrįstame sąskaitų faktūrų apdorojime ir integracijos rinkinyje. Aptarnaujame nepakankamai aptarnaujamas rinkas visame pasaulyje."
+    }
+  },
   "hero": {
     "title": "Transformuokite verslą su SAP BTP ekspertais",
     "subtitle": "Specializuotas konsultavimas diegiant pažangiausius SAP Business Technology Platform sprendimus visame pasaulyje",

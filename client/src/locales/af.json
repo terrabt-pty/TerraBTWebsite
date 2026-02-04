@@ -6,6 +6,12 @@
     "contact": "Kontak",
     "bookConsultation": "Boek Gratis Konsultasie"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Konsultasie Kundiges | 100% BTP Gefokusde Oplossings",
+      "description": "TerraBT spesialiseer uitsluitlik in SAP BTP konsultasiedienste wêreldwyd. Kundige oplossings in Fiori ontwikkeling, BTP argitektuur, PWA toepassings, AI-aangedrewe faktuurverwerking, en integrasie suite. Dien onderbediende markte wêreldwyd."
+    }
+  },
   "hero": {
     "title": "Transformeer Jou Besigheid met Deskundige SAP BTP Oplossings",
     "subtitle": "Gespesialiseerde konsultasie wat toonaangewende SAP Business Technology Platform implementerings wêreldwyd lewer",

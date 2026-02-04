@@ -6,6 +6,12 @@
     "contact": "İletişim",
     "bookConsultation": "Ücretsiz Danışmanlık Randevusu Alın"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Danışmanlık Uzmanları | %100 BTP Odaklı Çözümler",
+      "description": "TerraBT, dünya çapında yalnızca SAP BTP danışmanlık hizmetlerinde uzmanlaşmıştır. Fiori geliştirme, BTP mimarisi, PWA uygulamaları, AI destekli fatura işleme ve entegrasyon paketi alanlarında uzman çözümler sunar. Küresel olarak yeterince hizmet alamayan pazarlara hizmet vermektedir."
+    }
+  },
   "hero": {
     "title": "İşletmenizi Uzman SAP BTP Çözümleriyle Dönüştürün",
     "subtitle": "Dünya çapında en son teknoloji SAP İş Teknolojisi Platformu (BTP) uygulamaları sunan uzman danışmanlık",

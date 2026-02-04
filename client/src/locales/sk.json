@@ -6,6 +6,12 @@
     "contact": "Kontakt",
     "bookConsultation": "Rezervovať bezplatnú konzultáciu"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - Experti na konzultácie SAP BTP | Riešenia so 100% zameraním na BTP",
+      "description": "TerraBT sa špecializuje výhradne na konzultačné služby SAP BTP po celom svete. Expertné riešenia v oblasti vývoja Fiori, architektúry BTP, PWA aplikácií, spracovania faktúr s umelou inteligenciou a integračného balíka. Obsluhujeme globálne trhy s nedostatkom služieb."
+    }
+  },
   "hero": {
     "title": "Transformujte svoje podnikanie s odbornými riešeniami SAP BTP",
     "subtitle": "Špecializované poradenstvo poskytujúce špičkové implementácie SAP Business Technology Platform po celom svete",

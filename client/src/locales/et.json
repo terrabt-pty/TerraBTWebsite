@@ -6,6 +6,12 @@
     "contact": "Kontakt",
     "bookConsultation": "Broneeri tasuta konsultatsioon"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP konsultatsioonieksperdid | 100% keskendunud BTP lahendused",
+      "description": "TerraBT on spetsialiseerunud eranditult SAP BTP konsultatsiooniteenustele kogu maailmas. Ekspertlahendused Fiori arenduses, BTP arhitektuuris, PWA rakendustes, tehisintellektil põhinevas arvete töötlemises ja integratsiooni paketis. Teenindame alateenindatud turge üle maailma."
+    }
+  },
   "hero": {
     "title": "Muutke oma ettevõtet ekspertsete SAP BTP lahendustega",
     "subtitle": "Spetsialiseeritud nõustamine SAP Business Technology Platform juurutustes",

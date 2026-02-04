@@ -6,6 +6,12 @@
     "contact": "Mawasiliano",
     "bookConsultation": "Weka Nafasi ya Ushauri Bure"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - Wataalamu wa Ushauri wa SAP BTP | Suluhisho Zilizolenga BTP kwa 100%",
+      "description": "TerraBT ina utaalamu wa kipekee katika huduma za ushauri wa SAP BTP duniani kote. Suluhisho za kitaalamu katika uendelezaji wa Fiori, usanifu wa BTP, programu za PWA, uchakataji wa ankara unaoendeshwa na AI, na mfumo wa ujumuishaji. Tunahudumia masoko yaliyopuuzwa duniani."
+    }
+  },
   "hero": {
     "title": "Badilisha Biashara Yako Kwa Mwongozo wa Wataalam wa SAP BTP",
     "subtitle": "Ushauri wa kipekee unaoletea utekelezaji wa hali ya juu wa SAP Business Technology Platform duniani kote",

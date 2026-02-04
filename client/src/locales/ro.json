@@ -6,6 +6,12 @@
     "contact": "Contact",
     "bookConsultation": "Rezervă consultație gratuită"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - Experți Consultanță SAP BTP | Soluții 100% Focusate pe BTP",
+      "description": "TerraBT se specializează exclusiv în servicii de consultanță SAP BTP la nivel mondial. Soluții expert în dezvoltare Fiori, arhitectură BTP, aplicații PWA, procesare facturi bazată pe AI și suita de integrare. Servim piețe subdezvoltate la nivel global."
+    }
+  },
   "hero": {
     "title": "Transformați-vă afacerea cu soluții SAP BTP experte",
     "subtitle": "Consultanță specializată în implementări SAP Business Technology Platform",

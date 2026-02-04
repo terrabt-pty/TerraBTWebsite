@@ -6,6 +6,12 @@
     "contact": "联系",
     "bookConsultation": "预约免费咨询"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP咨询专家 | 100%专注于BTP的解决方案",
+      "description": "TerraBT 专注于全球范围内的SAP BTP咨询服务。在Fiori开发、BTP架构、PWA应用、AI驱动的发票处理和集成套件方面提供专业的解决方案。服务于全球未充分服务的市场。"
+    }
+  },
   "hero": {
     "title": "使用专业的SAP BTP解决方案转型您的业务",
     "subtitle": "专业咨询提供前沿的SAP Business Technology Platform实施",

@@ -6,6 +6,12 @@
     "contact": "お問い合わせ",
     "bookConsultation": "無料相談を予約"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTPコンサルティングのエキスパート | BTPに100%特化したソリューション",
+      "description": "TerraBTは、SAP BTPコンサルティングサービスを世界中で専門的に提供しています。Fiori開発、BTPアーキテクチャ、PWAアプリ、AIによる請求書処理、統合スイートなどの専門的なソリューションを提供。世界中のサービスが行き届いていない市場に貢献します。"
+    }
+  },
   "hero": {
     "title": "SAP BTPソリューションでビジネスを変革",
     "subtitle": "世界中で最先端のSAP Business Technology Platform実装を提供する専門コンサルティング",

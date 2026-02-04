@@ -6,6 +6,12 @@
     "contact": "Kontakt",
     "bookConsultation": "Zarezerwuj bezpłatną konsultację"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - Eksperci w doradztwie SAP BTP | Rozwiązania skupione w 100% na BTP",
+      "description": "TerraBT specjalizuje się wyłącznie w usługach doradczych SAP BTP na całym świecie. Eksperckie rozwiązania w rozwoju Fiori, architekturze BTP, aplikacjach PWA, obsłudze faktur opartej na sztucznej inteligencji i pakiecie integracyjnym. Obsługujemy rynki niedostatecznie nasycone na całym świecie."
+    }
+  },
   "hero": {
     "title": "Transformuj swój biznes dzięki profesjonalnym rozwiązaniom SAP BTP",
     "subtitle": "Specjalistyczne doradztwo dostarczające najnowocześniejsze wdrożenia SAP Business Technology Platform na całym świecie",

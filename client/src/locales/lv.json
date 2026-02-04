@@ -6,6 +6,12 @@
     "contact": "Kontakti",
     "bookConsultation": "Bezmaksas konsultācija"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Konsultāciju Eksperti | 100% BTP Orientēti Risinājumi",
+      "description": "TerraBT specializējas tikai SAP BTP konsultāciju pakalpojumos visā pasaulē. Ekspertu risinājumi Fiori izstrādē, BTP arhitektūrā, PWA lietotnēs, AI darbinātā rēķinu apstrādē un integrācijas komplektā. Apkalpo nepietiekami nodrošinātus tirgus visā pasaulē."
+    }
+  },
   "hero": {
     "title": "Transformējiet savu biznesu ar SAP BTP ekspertu risinājumiem",
     "subtitle": "Specializētas konsultācijas modernāko SAP Business Technology Platform risinājumu ieviešanai visā pasaulē",

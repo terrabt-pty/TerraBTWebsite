@@ -6,6 +6,12 @@
     "contact": "Kapcsolat",
     "bookConsultation": "Ingyenes konzultáció foglalása"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Tanácsadó Szakértők | 100%-ban BTP-re Összpontosító Megoldások",
+      "description": "A TerraBT kizárólag SAP BTP tanácsadási szolgáltatásokra specializálódott világszerte. Szakértői megoldások Fiori fejlesztésben, BTP architektúrában, PWA alkalmazásokban, AI-alapú számlafeldolgozásban és integrációs csomagban. Globálisan kiszolgálja az alulszolgált piacokat."
+    }
+  },
   "hero": {
     "title": "Alakítsa át vállalkozását szakértői SAP BTP megoldásokkal",
     "subtitle": "Specializált tanácsadás SAP Business Technology Platform implementációkban",

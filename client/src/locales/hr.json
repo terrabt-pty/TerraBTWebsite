@@ -6,6 +6,12 @@
     "contact": "Kontakt",
     "bookConsultation": "Rezervirajte besplatnu konsultaciju"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - Stručnjaci za SAP BTP savjetovanje | Rješenja 100% usredotočena na BTP",
+      "description": "TerraBT je specijaliziran isključivo za SAP BTP savjetničke usluge diljem svijeta. Stručna rješenja u Fiori razvoju, BTP arhitekturi, PWA aplikacijama, obradi faktura pomoću umjetne inteligencije i integracijskom paketu. Poslužuje nedovoljno uslužena tržišta diljem svijeta."
+    }
+  },
   "hero": {
     "title": "Transformirajte svoje poslovanje s stručnim SAP BTP rješenjima",
     "subtitle": "Specijalizirano savjetovanje za implementacije SAP Business Technology Platform",

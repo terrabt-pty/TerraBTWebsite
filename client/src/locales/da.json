@@ -6,6 +6,12 @@
     "contact": "Kontakt",
     "bookConsultation": "Book gratis konsultation"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Konsulenteksperter | 100% BTP-fokuserede Løsninger",
+      "description": "TerraBT specialiserer sig udelukkende i SAP BTP konsulentydelser på verdensplan. Ekspertløsninger inden for Fiori-udvikling, BTP-arkitektur, PWA-apps, AI-drevet fakturabehandling og integrationssuite. Betjener underbetjente markeder globalt."
+    }
+  },
   "hero": {
     "title": "Transformer din virksomhed med ekspert SAP BTP-løsninger",
     "subtitle": "Specialiseret rådgivning i SAP Business Technology Platform implementeringer",
