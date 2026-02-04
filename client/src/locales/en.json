@@ -6,6 +6,12 @@
     "contact": "Contact",
     "bookConsultation": "Book Free Consultation"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - SAP BTP Consulting Experts | 100% BTP Focused Solutions",
+      "description": "TerraBT specializes exclusively in SAP BTP consulting services worldwide. Expert solutions in Fiori development, BTP architecture, PWA apps, AI-powered invoice processing, and integration suite. Serving underserved markets globally."
+    }
+  },
   "hero": {
     "title": "Transform Your Business with Expert SAP BTP Solutions",
     "subtitle": "Specialized consulting delivering cutting-edge SAP Business Technology Platform implementations worldwide",

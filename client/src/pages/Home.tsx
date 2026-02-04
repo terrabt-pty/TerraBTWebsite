@@ -161,8 +161,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="TerraBT - SAP BTP Consulting | 100% Specialized SAP Business Technology Platform"
-        description={t('hero.subtitle')}
+        title={t('meta.home.title')}
+        description={t('meta.home.description')}
         path="/"
       />
       <Navigation />

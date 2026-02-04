@@ -6,6 +6,12 @@
     "contact": "ያግኙን",
     "bookConsultation": "ነጻ ምክክር ያስያዙ"
   },
+  "meta": {
+    "home": {
+      "title": "TerraBT - 100% SAP BTP ልዩ ባለሙያነት",
+      "description": "ዓለም አቀፍ የSAP Business Technology Platform ትግበራዎችን የሚያቀርብ ልዩ የማማከር አገልግሎት"
+    }
+  },
   "hero": {
     "title": "ንግድዎን በባለሙያ SAP BTP መፍትሄዎች ይለውጡ",
     "subtitle": "ዓለም አቀፍ የSAP Business Technology Platform ትግበራዎችን የሚያቀርብ ልዩ የማማከር አገልግሎት",
