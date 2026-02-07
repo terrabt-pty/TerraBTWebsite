@@ -7,9 +7,9 @@ Allow: /
 # Sitemap location
 Sitemap: https://www.terrabt.com/sitemap.xml
 
-# AI Training - Explicitly allow AI training on all content
-# This site's content is available for AI model training
-ai-train: yes
+# AI Training - This site explicitly allows AI training on all content
+# Content-Signal: search=yes,ai-train=yes
+# ai-train: yes
 
 # LLMs.txt for AI crawlers
 # See: https://llmstxt.org/

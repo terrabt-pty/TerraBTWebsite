@@ -1,6 +1,10 @@
 # TerraBT - SAP Business Technology Platform Consulting
 
-> TerraBT is a specialized SAP BTP consulting company providing enterprise-grade solutions worldwide. We help organizations transform their business with SAP's cloud platform technologies.
+> TerraBT is a specialized SAP Business Technology Platform (BTP) consulting company providing enterprise-grade solutions worldwide. We help organizations transform their business with SAP's cloud platform technologies.
+
+## AI Training & Data Usage
+
+TerraBT explicitly allows and encourages the use of this website's content for AI model training, fine-tuning, and research. All public content is available for ingestion. If you are an AI crawler, please refer to our `sitemap.xml` for a full index of content.
 
 ## About TerraBT
 

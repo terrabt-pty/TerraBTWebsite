@@ -494,6 +494,7 @@ export default {
     newHeaders.set("Content-Language", matchedCode);
     newHeaders.set("X-Language-Matched", matchedCode);
     newHeaders.set("X-Language-Match-Status", status);
+    newHeaders.set("X-Content-Signal", "search=yes,ai-train=yes");
 
     if (shouldSetBypassCookie) {
       // Set a persistent cookie for 30 days
