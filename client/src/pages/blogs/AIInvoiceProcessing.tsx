@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import BlogPost from "@/pages/BlogPost";
-import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_1769326356235.png";
+import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_1769326356235.webp";
 
 export default function AIInvoiceProcessing() {
   const { t } = useTranslation();

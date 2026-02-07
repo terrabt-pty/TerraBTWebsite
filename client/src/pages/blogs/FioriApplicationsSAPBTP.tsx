@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import BlogPost from "@/pages/BlogPost";
-import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.png";
+import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.webp";
 
 export default function FioriApplicationsSAPBTP() {
   const { t } = useTranslation();

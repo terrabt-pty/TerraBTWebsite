@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import BlogPost from "@/pages/BlogPost";
-import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.png";
+import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.webp";
 
 export default function OfflinePWABusinessContinuity() {
   const { t } = useTranslation();

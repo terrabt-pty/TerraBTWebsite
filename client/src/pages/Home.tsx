@@ -22,11 +22,11 @@ import {
   Bot,
 } from "lucide-react";
 
-import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
-import globalImage from "@assets/generated_images/Global_reach_world_map_bb3068a2.png";
-import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_1769326356235.png";
-import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.png";
-import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.png";
+import teamImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.webp";
+import globalImage from "@assets/generated_images/Global_reach_world_map_bb3068a2.webp";
+import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_1769326356235.webp";
+import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.webp";
+import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.webp";
 
 export default function Home() {
   const { t } = useTranslation();

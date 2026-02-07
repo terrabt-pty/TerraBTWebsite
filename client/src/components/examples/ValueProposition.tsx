@@ -1,5 +1,5 @@
 import ValueProposition from "../ValueProposition";
-import valueImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.png";
+import valueImage from "@assets/generated_images/Team_collaboration_consulting_image_41a26f7b.webp";
 
 export default function ValuePropositionExample() {
   return (

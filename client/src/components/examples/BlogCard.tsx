@@ -1,5 +1,5 @@
 import BlogCard from "../BlogCard";
-import blogImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.png";
+import blogImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.webp";
 
 export default function BlogCardExample() {
   return (
