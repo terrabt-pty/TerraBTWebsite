@@ -32,6 +32,10 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
     }
     metaOgLocale.setAttribute('content', ogLocale);
 
+    // Set text direction
+    const isRtl = fullLangCode.startsWith('ar') || fullLangCode.startsWith('he');
+    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
+
     if (title) {
       document.title = title;
     }

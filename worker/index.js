@@ -426,8 +426,10 @@ export default {
       element(element) {
         element.setAttribute("lang", this.lang);
         // Also set dir="rtl" for Arabic
-        if (this.lang.startsWith('ar')) {
+        if (this.lang.startsWith('ar') || this.lang.startsWith('he')) {
           element.setAttribute("dir", "rtl");
+        } else {
+          element.setAttribute("dir", "ltr");
         }
       }
     }
