@@ -51,12 +51,6 @@
   <meta property="twitter:description"
     content="Specialized SAP BTP consulting services worldwide. Expert solutions in Fiori, architecture, AI integration, and more." />
 
-  <!-- Canonical and Alternate Languages -->
-  <link rel="canonical" href="https://www.terrabt.com/" />
-  <link rel="alternate" hreflang="en" href="https://www.terrabt.com/" />
-  <link rel="alternate" hreflang="ja" href="https://www.terrabt.com/ja/" />
-  <link rel="alternate" hreflang="am" href="https://www.terrabt.com/am/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.terrabt.com/" />
 
   <!-- Sitemap and AI Discovery Files -->
   <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -67,7 +61,24 @@
   <link rel="shortcut icon" href="/favicon.svg?v=3" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  </noscript>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "b8bc209d10f145889b5f1902c2866a33"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+  <script type="module" src="/src/main.tsx"></script>
 
   <!-- Structured Data for AI and Search Engines -->
   <script type="application/ld+json">
@@ -182,15 +193,6 @@
       }
     }
     </script>
-</head>
-
-<body>
-  <div id="root"></div>
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
-    data-cf-beacon='{"token": "b8bc209d10f145889b5f1902c2866a33"}'></script>
-  <!-- End Cloudflare Web Analytics -->
-  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>

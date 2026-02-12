@@ -331,16 +331,89 @@ export default {
 
     // Rewriters
     class HeadInjector {
-      constructor(country, lang) {
+      constructor(country, lang, urlObject) {
         this.country = country;
         this.lang = lang;
+        this.url = urlObject;
       }
+
       element(element) {
+        // 1. Inject Geo/Lang Scripts
         element.append(
           `<script>
              window.GEO_COUNTRY = "${this.country || 'UNKNOWN'}";
              window.DETECTED_LANGUAGE = "${this.lang || 'en-US'}";
            </script>`,
+          { html: true }
+        );
+
+        // 2. Calculate Base Path (removing language prefix if present)
+        const pathname = this.url.pathname;
+        const segments = pathname.split('/').filter(Boolean);
+        const firstSegment = segments[0];
+
+        let basePath = pathname;
+        // Check if the path starts with the current detected language
+        // We use a simple check against the lang code, but we need to be careful with 'en-US' vs 'en' etc.
+        // If this.lang is 'en-US' (default), the URL likely doesn't have it, or it might (if explicitly requested).
+        // If we found a lang code in the URL logic above (matchedCode), use that knowledge.
+        // Re-deriving it here for safety:
+
+        const langRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
+        if (firstSegment && langRegex.test(firstSegment)) {
+          // It's a language prefix, remove it to get base path
+          // But check if it matches our supported languages roughly (or is just a valid lang code)
+          basePath = '/' + segments.slice(1).join('/');
+        } else {
+          // No language prefix, so it's the root or a direct page like /services
+          if (basePath === '/') basePath = ''; // normalize root
+          if (!basePath.startsWith('/')) basePath = '/' + basePath;
+        }
+
+        const origin = this.url.origin;
+
+        // 3. Helper to build URL
+        const buildUrl = (langCode) => {
+          // Check if lang is default (assuming 'en' or 'en-US' is default and sits at root)
+          // The logic in client is: if (lang === 'en') prefix = ''
+          const prefix = (langCode === 'en' || langCode === 'en-US') ? '' : `/${langCode}`;
+          return `${origin}${prefix}${basePath}`;
+        };
+
+        // 4. Canonical Tag (Self-referencing)
+        // We use the DETECTED language (this.lang) to form the canonical
+        // If this.lang is 'en-US', we treat it as 'en' for the URL structure if that's the convention
+        // The client code maps 'en' to '' (root).
+        // matchedCode from main logic is what we want.
+
+        // We need to know if the CURRENT URL is the canonical one.
+        // Ideally we just point to the version corresponding to this.lang.
+        // Note: this.lang passed to constructor comes from 'matchedCode' which is normalized.
+
+        const currentLangCode = this.lang.startsWith('en') ? 'en' : this.lang;
+        const canonicalUrl = buildUrl(currentLangCode);
+
+        element.append(
+          `<link rel="canonical" href="${canonicalUrl}" />`,
+          { html: true }
+        );
+
+        // 5. Hreflang Tags
+        // Iterate over SEO_DATA keys
+        // SEO_DATA keys are like 'en', 'ja', 'ar', 'af'...
+        Object.keys(SEO_DATA).forEach(langCode => {
+          const href = buildUrl(langCode);
+          element.append(
+            `<link rel="alternate" hreflang="${langCode}" href="${href}" />`,
+            { html: true }
+          );
+        });
+
+        // 6. x-default Tag
+        // Points to the default language version (en)
+        const defaultUrl = buildUrl('en');
+        element.append(
+          `<link rel="alternate" hreflang="x-default" href="${defaultUrl}" />`,
           { html: true }
         );
       }
@@ -477,7 +550,7 @@ export default {
     let finalResponse = response;
     if (contentType && contentType.includes("text/html")) {
       finalResponse = new HTMLRewriter()
-        .on("head", new HeadInjector(country, matchedCode))
+        .on("head", new HeadInjector(country, matchedCode, url))
         .on("html", new HtmlLangInjector(matchedCode))
         .on("title", new TitleRewriter(seoData.title))
         .on('meta[name="description"]', new MetaDescriptionRewriter(seoData.description))

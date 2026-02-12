@@ -46,6 +46,19 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
       existingDescription.setAttribute('content', description);
     }
 
+    // Canonical Tag Logic
+    const canonicalPath = path || '';
+    const canonicalUrl = `${baseUrl}${currentLang === 'en' ? '' : `/${currentLang}`}${canonicalPath}`;
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', canonicalUrl);
+
+    // Hreflang Tags Logic
     const existingAlternates = document.querySelectorAll('link[hreflang]');
     existingAlternates.forEach(link => link.remove());
 
@@ -54,11 +67,21 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
       link.setAttribute('rel', 'alternate');
       link.setAttribute('hreflang', language.code);
 
+      // For English (default), no language prefix. For others, append /code
       const prefix = language.code === 'en' ? '' : `/${language.code}`;
       link.setAttribute('href', `${baseUrl}${prefix}${path}`);
 
       document.head.appendChild(link);
     });
+
+    // x-default Hreflang Logic
+    const xDefaultLink = document.createElement('link');
+    xDefaultLink.setAttribute('rel', 'alternate');
+    xDefaultLink.setAttribute('hreflang', 'x-default');
+    // x-default should point to the English version (or whatever your default is)
+    xDefaultLink.setAttribute('href', `${baseUrl}${path}`);
+    document.head.appendChild(xDefaultLink);
+
 
     // Update Structured Data (JSON-LD)
     const updateStructuredData = () => {
@@ -157,11 +180,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
 
     updateStructuredData();
 
-    const defaultLink = document.createElement('link');
-    defaultLink.setAttribute('rel', 'alternate');
-    defaultLink.setAttribute('hreflang', 'x-default');
-    defaultLink.setAttribute('href', `${baseUrl}${path}`);
-    document.head.appendChild(defaultLink);
+
 
   }, [i18n.language, title, description, path]);
 
