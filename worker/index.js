@@ -159,7 +159,7 @@ export default {
         "locale": "el"
       },
       "en": {
-        "title": "TerraBT - SAP BTP Consulting Experts | 100% BTP Focused Solutions",
+        "title": "TerraBT Consulting",
         "description": "TerraBT specializes exclusively in SAP BTP consulting services worldwide. Expert solutions in Fiori development, BTP architecture, PWA apps, AI-powered invoice processing, and integration suite. Serving underserved markets globally.",
         "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
         "locale": "en"

@@ -4,7 +4,7 @@ interface LogoProps {
 
 export default function Logo({ className = "h-8" }: LogoProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" className={className}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" className={className} style={{ direction: 'ltr' }}>
       <defs>
         <style>
           {`
