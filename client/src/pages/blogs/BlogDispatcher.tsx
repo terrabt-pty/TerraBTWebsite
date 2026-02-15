@@ -14,8 +14,8 @@ export default function BlogDispatcher({ slug }: BlogDispatcherProps) {
         const lang = i18n.language;
         const baseLang = lang.split('-')[0];
 
+        // We consolidated folders to base languages only (e.g. 'de' instead of 'de-DE')
         const possiblePaths = [
-            `./${lang}/${slug}.tsx`,
             `./${baseLang}/${slug}.tsx`,
             `./en/${slug}.tsx`
         ];
