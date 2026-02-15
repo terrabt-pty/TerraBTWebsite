@@ -1404,37 +1404,5 @@
         "label": "Automatiseeritud töötlemine"
       }
     }
-  },
-  "blogs": {
-    "backToHome": "Tagasi avalehele",
-    "fiori": {
-      "title": "Kaasaegset Fiori rakenduste ehitamine SAP BTP",
-      "category": "Arendus",
-      "readTime": "8 min",
-      "seoDescription": "Õpi, kuidas ehitada kaasaegset, vastutavat Fiori rakendusi kasutades SAP BTP võimsaid arenduse tööriiste ja raamistikud.",
-      "intro": "SAP Fiori kujutab edasi ettevõtte rakenduste tulevikku, pakkudes ühtselt kasutaja kogemuse kõigi seadmete ja juurutamise valikute üle. SAP Business Technology Platform (BTP) abil on kaasaegset Fiori rakenduste ehitamine muutnud rationaliseeritud ja võimsama kui kunagi varem.",
-      "section1Title": "SAP BTP võimus Fiori arendusele",
-      "section1Content": "SAP BTP pakub terviklikku tööriistade komplekti ja teenuseid, mis on spetsiaalselt kujundatud Fiori rakenduste arendusele. Platvorm pakub kõike arenduse keskkonnast juurutamise infrastruktuurini, võimaldades meeskondadel fokusseeruda erakordse kasutaja kogemuste loomisele asemel infrastruktuuri haldamise."
-    },
-    "pwa": {
-      "title": "Võrguühenduseta PWA lahendused ärikontinuiteedi jaoks",
-      "category": "Arhitektuur",
-      "readTime": "7 min",
-      "seoDescription": "Avastage, kuidas progressiivsed veebirakendustik (PWA) võrguühenduseta võimalustega tagavad ärikontinuiteedi ja produktiivsuse kõikidel võrgu tingimustel.",
-      "intro": "Täna ühendatud maailmas võib võrgu katkestused peatada ärioperatsioone. Progressiivsed veebirakendustid (PWA) võrguühenduseta võimalustega pakuvad jõulist lahendust ärikontinuiteedi tagamiseks, võimaldades kasutajatel töötada sujuvalt sõltumata võrgu kättesaadavusest.",
-      "section1Title": "Mõistmine võrguühenduseta esimene arhitektuur",
-      "section1Content": "Võrguühenduseta esimene arhitektuur kujutab paradigmamuutus kuidas me ehitame veebirakendustik. Selle asemel, et käsitleda võrguühenduseta režiimi serva juhtumit, teeb võrguühenduseta esimesena disain selle tuumafunktsiooniks. Seda lähenemist tagab rakendused jäävad funktsionaalseks, isegi kui võrgu ühenduvus on ebausaldusväärseline või täielikult kättesaamatu."
-    },
-    "ai": {
-      "title": "Arve töötlemise revolutsioniseerimine AI-ga",
-      "category": "AI/ML",
-      "readTime": "6 min",
-      "seoDescription": "Uurige, kuidas AI integreerimine SAP BTP-ga muudab arve töötlemist intelligentse automatiseerimise ja arenenud dokumendi mõistmisega.",
-      "intro": "Arve töötlemine on traditsiooniliselt olnud aeganõudev, vigade oht käsitsi ülesanne. Arenenud AI integreerimine SAP BTP-ga revolutsioneerib seda protsessi, tuues nähtamatu automatiseerimise, täpsuse ja tõhususe arvete maksete operatsioonidesse.",
-      "section1Title": "Traditsiooniline arve töötlemise väljakutse",
-      "section1Content": "Organisatsioonid töötlevad kuus tuhandeid arveid kuus, igaüks nõuab andmete eraldamist, valideerimist ja ERP süsteemidesse sisestamist. Käsitsi töötlemine on aeglane, kallis ja vigade oht, mis võib viia makseviivituste, kaksikule maksele või varajase maksenõudmiste kadumiseni.",
-      "section2Title": "Arenenud AI dokumendi mõistmine",
-      "section2Content": "Kaasaegne AI toob kõige kaasaegse loodud keel töötlemise ja arvutamise nägemine võimaluste arve töötlemisele. Erinevalt traditsioonilisest OCR süsteemist, arenenud AI saab mõista konteksti, käsitleda erinevaid arve formaate ja eraldada teavet märkimisväärse täpsusega isegi halva skannitud või keeruliste dokumentide."
-    }
   }
 }
