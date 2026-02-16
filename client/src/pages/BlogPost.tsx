@@ -49,7 +49,7 @@ export default function BlogPost({
           <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              {t("blogs.backToHome")}
+              {t("common.backToHome")}
             </Button>
           </Link>
 

@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function EventMeshArchitecture() {
   return (
     <BlogPost
-      title={"Event Mesh Architecture for Modern Enterprises"}
-      category={"Architecture"}
+      title={"Event Mesh -arkkitehtuuri modernille yrityksille"}
+      category={"Arkkitehtuuri"}
       readTime={"9 min"}
       image={fioriImage}
-      seoDescription={"Learn how Event Mesh architecture enables real-time, event-driven integration across distributed systems for responsive, scalable business processes."}
+      seoDescription={"Opi kuinka Event Mesh -arkkitehtuuri mahdollistaa reaaliaikaisen, tapahtumapohjaisen integraation hajautettujen järjestelmien välillä reagoivien ja skaalautuvien liiketoimintaprosessien osalta."}
       path="/blog/event-mesh-architecture-for-modern-enterprises"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Traditional point-to-point integrations struggle to keep pace with modern business demands for real-time responsiveness and scalability. Event Mesh architecture represents a paradigm shift, enabling organizations to build truly event-driven systems that react instantly to business events across their entire IT landscape."}
+            {"Perinteinen pisteestä pisteeseen -integraatio ei pysty vastaamaan nykyajan liiketoiminnan vaatimuksiin reaaliaikaisesta reagointikykyisyydestä ja skaalautuvuudesta. Event Mesh -arkkitehtuuri merkitsee paradigman muutosta, jonka avulla organisaatiot voivat rakentaa todella tapahtumapohjaisia järjestelmiä, jotka reagoivat välittömästi liiketoimintatapahtumiin koko IT-maiseman laajuudella."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Understanding Event Mesh"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Event Meshin ymmärtäminen"}</h2>
           <p className="leading-relaxed">
-            {"An Event Mesh is a dynamic infrastructure layer that enables events from one application to reach any other application, regardless of where these applications are deployed. Unlike traditional message buses, Event Mesh provides a decentralized, distributed event routing layer that scales horizontally and spans multiple cloud and on-premise environments."}
+            {"Event Mesh on dynaaminen infrastruktuuritaso, joka mahdollistaa tapahtumien siirtymisen yhdestä sovelluksesta mihin tahansa toiseen sovellukseen riippumatta siitä, mihin nämä sovellukset on otettu käyttöön. Toisin kuin perinteisten viestijonojen, Event Mesh tarjoaa hajautetun, hajautetun tapahtumien reitityslajerin, joka skaalautuu vaakasuoraan ja ulottuu useiden pilvi- ja paikallisten ympäristöjen yli."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"SAP Integration Suite Advanced Event Mesh"}</h2>
           <p className="leading-relaxed">
-            {"SAP's Advanced Event Mesh provides a robust, enterprise-grade implementation of event mesh architecture. It enables applications to publish and subscribe to events dynamically, supports multiple messaging protocols, and provides features like event filtering, transformation, and guaranteed delivery that are essential for enterprise use cases."}
+            {"SAP:n Advanced Event Mesh tarjoaa kattavan, yritystason toteutuksen Event Mesh -arkkitehtuurille. Se mahdollistaa sovellusten dynaamisesti julkaista ja tilata tapahtumia, tukee useita viestiprotokollaa ja tarjoaa ominaisuuksia, kuten tapahtumien suodatus, muuntaminen ja taattu toimitus, jotka ovat välttämättömiä yrityksen käyttötapauksille."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Event-Driven Architecture Patterns"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Tapahtumapohjaiset arkkitehtuurikuviot"}</h2>
           <p className="leading-relaxed">
-            {"Successful event mesh implementations leverage key patterns such as event sourcing, CQRS (Command Query Responsibility Segregation), and saga pattern for distributed transactions. These patterns enable building systems that are loosely coupled, highly scalable, and resilient to failures."}
+            {"Onnistuneet Event Mesh -toteutukset hyödyntävät avainmalleja, kuten tapahtumien toimittaminen, CQRS (Command Query Responsibility Segregation) ja saga-malli hajautetuille transaktioille. Nämä mallit mahdollistavat rakentaa järjestelmiä, jotka ovat löyhästi kytketyt, erittäin skaalautuvat ja vikoja sietävät."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Real-Time Business Processing"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Reaaliaikaiset liiketoimintaprosessit"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh enables true real-time business processing by eliminating the latency inherent in batch processing and traditional request-response integration patterns. Events propagate instantly across the mesh, enabling immediate reactions to business conditions such as inventory changes, customer orders, or supply chain disruptions."}
+            {"Event Mesh mahdollistaa todellisen reaaliaikaisen liiketoimintakäsittelyn poistamalla eräkäsittelyyn ja perinteisiin pyynnön vastaukseen perustuviin integraatiomalleihin liittyvän viiveen. Tapahtumat leviävät välittömästi meshissa, mikä mahdollistaa välittömät reaktiot liiketoimintaolosuhteisiin, kuten varastonmuutoksiin, asiakkaiden tilauksiin tai toimitusketjun häiriöihin."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Scalability and Performance"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Skaalautuvuus ja suorituskyky"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh architecture scales naturally with business growth. As new applications or services are added to the mesh, they can immediately participate in event-driven workflows without requiring changes to existing integrations. The distributed nature of Event Mesh ensures that performance remains consistent even as event volumes grow."}
+            {"Event Mesh -arkkitehtuuri skaalautuu luonnollisesti liiketoiminnan kasvun myötä. Kun uusia sovelluksia tai palveluita lisätään meshiin, ne voivat välittömästi osallistua tapahtumapohjaisten työnkulkujen tarkoitukseen muuttamatta olemassa olevia integrointeja. Event Meshin hajautettu luonne varmistaa, että suorituskyky pysyy johdonmukaisena myös tapahtumamäärien kasvaessa."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Johtopäätös"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh architecture represents the future of enterprise integration, enabling organizations to build responsive, scalable systems that can adapt quickly to changing business requirements. By adopting Event Mesh with SAP BTP, enterprises gain the foundation for true digital transformation and real-time business operations."}
+            {"Event Mesh -arkkitehtuuri edustaa yritysintegraation tulevaisuutta, mikä mahdollistaa organisaatioiden rakentaa reagoivia, skaalautuvia järjestelmiä, jotka voivat sopeutua nopeasti muuttuviin liiketoiminnan vaatimuksiin. Ottamalla käyttöön Event Meshin SAP BTP:n kanssa, yritykset saavat perustan todelliselle digitaaliselle muutokselle ja reaaliaikaisille liiketoimintaoperaatioille."}
           </p>
         </div>
       }

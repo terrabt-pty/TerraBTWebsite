@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function EventMeshArchitecture() {
   return (
     <BlogPost
-      title={"Usanifu wa Mtandao wa Matukio kwa Kaya za Kisasa"}
-      category={"Usanifu"}
+      title={"Kituo cha Event Mesh kwa Biashara za Kisasa"}
+      category={"Kituo"}
       readTime={"dakika 9"}
       image={fioriImage}
-      seoDescription={"Jifunze jinsi Usanifu wa Mtandao wa Matukio unavyowezesha uunganisho wa wakati halisi, unaolenga matukio katika mifumo iliyotengwa kwa ajili ya michakato inayojibu na yenye uwezo wa kupanuka."}
+      seoDescription={"Jifunze jinsi kituo cha Event Mesh kinawawezesha ujumuishaji unaotumia matukio katika wakati halisi kwa mifumo iliyosambazwa kwa ajili ya michakato ya biashara inayojibu haraka na inayoweza kuongezwa."}
       path="/blog/event-mesh-architecture-for-modern-enterprises"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Miunganisho ya uhakika-moja-kwa-uhakika-moja ya kiasili inashindwa kufuata mahitaji ya kisasa ya biashara kwa ajili wa ujibu wa wakati halisi na uwezo wa kupanuka. Usanifu wa Mtandao wa Matukio (Event Mesh) unawakilisha mabadiliko ya kanuni, huku ukiruhusu shirika kujenga mifumo ya kweli yanayolenga matukio yanayojibu mara moja kwa matukio ya biashara katika mandhari yote ya IT."}
+            {"Ujumuishaji wa nukta-kwa-nukta wa jadi unakabiliiana na matatizo ya kusiko na kasi na mahitaji ya kisasa ya biashara kwa ajili ya ushindi katika wakati halisi na uwezo wa kuongezwa. Kituo cha Event Mesh kinachapisha mabadiliko ya paradigm, ikiwezesha shirikisho kujenga mifumo ya matukio halisi ambayo inatenda haraka kwa matukio ya biashara kwa jumla ya mandhari yao ya teknolohia."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Kuelewa Mtandao wa Matukio"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Kuelewa Event Mesh"}</h2>
           <p className="leading-relaxed">
-            {"Mtandao wa Matukio (Event Mesh) ni safu ya miundombinu inayobadilika inayowezesha matukio kutoka kwa programu moja kufikia programu nyingine yoyote, pasipo kuangalia ambapo programu hizi zimepangwa. Tofauti na basi za ujumbe za kawaida, Mtandao wa Matukio hutoa safu ya upelelezi wa tukio iliyotengwa, iliyogawanyika inayopanuka wima na inafunika wingu mingi na mazingira ya 'on-premise'."}
+            {"Event Mesh ni tabaka la miundombinu linayobadilika ambalo linawawezesha matukio kutoka kwa programu moja kufikia programu nyingine yoyote, bila kujali wapi programu hizi zinasambazwa. Tofauti na mabasi ya ujumbe ya jadi, Event Mesh hutoa safu ya uelekezaji wa matukio iliyosambazwa na isiyo na katikati ambayo inakweza kwa mlalo na kuenea katika mazingira mengi ya wingu na mahali."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Kifungu cha Uunganisho cha Juu cha Matukio cha SAP"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"SAP Integration Suite Advanced Event Mesh"}</h2>
           <p className="leading-relaxed">
-            {"Mtandao wa Matukio wa Juu wa SAP hutoa utekelezaji imara, la kiwango cha kaya wa usanifu wa mtandao wa matukio. Inaruhusu programu kuchapisha na kusajili matukio kwa njia ya kubadilika, inasaidi itifadi za ujumbe mingi, na hutoa vipengele kama vile uchujaji wa tukio, mabadiliko, na uwasilishaji unaohakikishiwa ambavyo ni muhimu kwa ajili ya matumizi ya kaya."}
+            {"Event Mesh ya Advanced ya SAP hutoa utekelezaji wenye nguvu wa kiwango cha biashara kwa kituo cha Event Mesh. Ikiwezesha programu kuchapisha na kujibu matukio kwa njia ya mkakati, inasadiki itifaki nyingi za ujumbe, na hutoa sifa kama vile kuchuja matukio, mabadiliko, na utoaji uliopangiliwa ambao ni muhimu kwa matumizi ya kiwango cha biashara."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Mifumo ya Usanifu Unaolenga Matukio"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Ruwaza za Kituo cha Matukio Yaliyotumia"}</h2>
           <p className="leading-relaxed">
-            {"Utekelezaji wa ufanisi wa mtandao wa matukio unatumia mifumo muhimu kama vile chanzo cha tukio, CQRS (Kutengwa Kwa Wajibu wa Amri na Ulizo), na mchoro wa saga kwa ajili ya muamala uliyotengwa. Mifumo hii inaruhusu kujenga mifumo ambayo ni mahusiano yaliyoshindwa, yenye uwezo wa kupanuka sana, na yenye ustahimilivu wa hitilafu."}
+            {"Mitekelezaji ya Event Mesh iliyofanikiwa inatumia ruwaza muhimu kama vile chanzo cha matukio, CQRS (Segregation ya Uwajibaji wa Ombi na Swali), na ruwaza ya saga kwa miamala iliyosambazwa. Ruwaza hizi zinawezesha kujenga mifumo ambayo imeunganishwa kwa ukali, inayoweza kuongezwa kwa safu nyingi, na inayosumbuliwa na kushindwa."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Usindikaji wa Biashara wa Wakati Halisi"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Uchakataji wa Biashara wa Wakati Halisi"}</h2>
           <p className="leading-relaxed">
-            {"Mtandao wa Matukio unawezesha usindikaji wa kweli wa biashara ya wakati halisi kwa kuondoa ulazima uliopo ndani ya usindikaji wa kundi na mifumo ya uunganisho ya ombi-jibu ya kawaida. Matukio hupanuka mara moja katika mtandao, huku ikiruhusu majibu ya mara moja kwa hali za biashara kama vile mabadiliko ya akiba, oda za wateja, au vikwazo vya mnyororo wa usambazaji."}
+            {"Event Mesh inawawezesha uchakataji wa biashara halisi wa wakati halisi kwa kuondoa tafsiri ambayo ina sehemu ya kuchakata kwa makundi na ruwaza za ujumuishaji wa ombi-jibu la jadi. Matukio kueneza kupikika katika taifa, ikiwezesha matendo ya kujibu upesi kwa hali za biashara kama vile mabadiliko ya mali, amri za wateja, au njia za mgogoro wa karibu."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Uwezo wa Kupanuka na Utendaji"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Ongeza na Utendakazi"}</h2>
           <p className="leading-relaxed">
-            {"Usanifu wa Mtandao wa Matukio unapanuka kiasili na ukuaji wa biashara. Kadri programu au huduma mpya zinaongezwa kwenye mtandao, zinaweza kushiriki mara moja katika mtiririko wa kazi unaolenga matukio bila kuhitaji mabadiliko kwa miunganisho iliyopo. Asili iliyogawanyika ya Mtandao wa Matukio huhakikisha kuwa utendaji unabaki thabiti hata wakati wa volamu ya tukio inaongezeka."}
+            {"Kituo cha Event Mesh kinakweza kwa asili na kuongezwa kwa biashara. Kadri programu mpya au huduma zinavyoongezwa kwa taifa, zinaweza kulingana mara moja katika mtiririko wa kazi wa matukio bila kulipiga mabadiliko kwa ujumuishaji wa sasa. Asili ya kusambaza kwa Event Mesh inahakikisha kuwa utendakazi unabaki sawa hata vile kiwango cha matukio kinakweza."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Hitimisho"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Kumalizia"}</h2>
           <p className="leading-relaxed">
-            {"Usanifu wa Mtandao wa Matukio unawakilisha mustakabali wa uunganisho wa kaya, huku ukiruhusu shirika kujenga mifumo inayojibu, inayoweza kupanuka ambayo inaweza kubadilika haraka kulingana na mahitaji ya biashara yanayobadilika. Kwa kuanzisha Mtandao wa Matukio na SAP BTP, kaya hupata msingi wa mabadiliko ya kweli ya kidijitali na shughuli za biashara za wakati halisi."}
+            {"Kituo cha Event Mesh kinachapisha siku za ujumuishaji wa biashara, ikiwezesha shirikisho kujenga mifumo inayojibu haraka na inayoweza kuongezwa ambayo inaweza kubadilika haraka kwa mahitaji ya biashara yabadilika. Kwa kukamatia Event Mesh na SAP BTP, biashara hupatia msingi wa mabadiliko ya dijitali halisi na uendeshaji wa biashara wa wakati halisi."}
           </p>
         </div>
       }

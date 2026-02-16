@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function EventMeshArchitecture() {
   return (
     <BlogPost
-      title={"Event Mesh Architecture for Modern Enterprises"}
-      category={"Architecture"}
+      title={"Architektura Event Mesh pro moderní podniky"}
+      category={"Architektura"}
       readTime={"9 min"}
       image={fioriImage}
-      seoDescription={"Learn how Event Mesh architecture enables real-time, event-driven integration across distributed systems for responsive, scalable business processes."}
+      seoDescription={"Zjistěte, jak architektura Event Mesh umožňuje integraci v reálném čase na základě událostí v distribuovaných systémech pro reagující a škálovatelné obchodní procesy."}
       path="/blog/event-mesh-architecture-for-modern-enterprises"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Traditional point-to-point integrations struggle to keep pace with modern business demands for real-time responsiveness and scalability. Event Mesh architecture represents a paradigm shift, enabling organizations to build truly event-driven systems that react instantly to business events across their entire IT landscape."}
+            {"Tradiční integrace typu bod-bod se potýkají s nároky moderního podnikání na reagování v reálném čase a škálovatelnost. Architektura Event Mesh představuje změnu paradigmatu, která umožňuje organizacím vytvářet skutečně řízené systémy, které okamžitě reagují na obchodní události v celém jejich IT prostředí."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Understanding Event Mesh"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Porozumění Event Mesh"}</h2>
           <p className="leading-relaxed">
-            {"An Event Mesh is a dynamic infrastructure layer that enables events from one application to reach any other application, regardless of where these applications are deployed. Unlike traditional message buses, Event Mesh provides a decentralized, distributed event routing layer that scales horizontally and spans multiple cloud and on-premise environments."}
+            {"Event Mesh je dynamická vrstva infrastruktury, která umožňuje událostem z jedné aplikace dosáhnout jakékoli jiné aplikace, bez ohledu na to, kde jsou tyto aplikace nasazeny. Na rozdíl od tradičních sběrnic zpráv, Event Mesh poskytuje decentralizovanou, distribuovanou vrstvu směrování událostí, která se škáluje horizontálně a охватuje více cloudových a on-premise prostředí."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"SAP Integration Suite Advanced Event Mesh"}</h2>
           <p className="leading-relaxed">
-            {"SAP's Advanced Event Mesh provides a robust, enterprise-grade implementation of event mesh architecture. It enables applications to publish and subscribe to events dynamically, supports multiple messaging protocols, and provides features like event filtering, transformation, and guaranteed delivery that are essential for enterprise use cases."}
+            {"Pokročilá Event Mesh společnosti SAP poskytuje robustní implementaci architektury Event Mesh na úrovni podniku. Umožňuje aplikacím dynamicky publikovat a přihlašovat se k odběru událostí, podporuje více protokolů zasílání zpráv a poskytuje funkce, jako je filtrování, transformace a garantované doručení událostí, což jsou základní rysy pro použití v podniku."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Event-Driven Architecture Patterns"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Vzory architektury řízené událostmi"}</h2>
           <p className="leading-relaxed">
-            {"Successful event mesh implementations leverage key patterns such as event sourcing, CQRS (Command Query Responsibility Segregation), and saga pattern for distributed transactions. These patterns enable building systems that are loosely coupled, highly scalable, and resilient to failures."}
+            {"Úspěšné implementace Event Mesh využívají klíčové vzory, jako je event sourcing, CQRS (Command Query Responsibility Segregation) a saga pattern pro distribuované transakce. Tyto vzory umožňují budování systémů, které jsou volně spojeny, vysoce škálovatelné a odolné vůči selháním."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Real-Time Business Processing"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Zpracování podnikání v reálném čase"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh enables true real-time business processing by eliminating the latency inherent in batch processing and traditional request-response integration patterns. Events propagate instantly across the mesh, enabling immediate reactions to business conditions such as inventory changes, customer orders, or supply chain disruptions."}
+            {"Event Mesh umožňuje skutečné zpracování podnikání v reálném čase odstraněním latence, která je vlastní dávkovému zpracování a tradičním vzorům integrace request-response. Události se šíří okamžitě sítí, což umožňuje okamžité reakce na obchodní podmínky, jako jsou změny inventáře, objednávky zákazníků nebo poruchy v dodavatelském řetězci."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Scalability and Performance"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Škálovatelnost a výkon"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh architecture scales naturally with business growth. As new applications or services are added to the mesh, they can immediately participate in event-driven workflows without requiring changes to existing integrations. The distributed nature of Event Mesh ensures that performance remains consistent even as event volumes grow."}
+            {"Architektura Event Mesh se přirozeně škáluje s růstem podnikání. Když se do sítě přidají nové aplikace nebo služby, mohou okamžitě participovat na pracovních tocích řízených událostmi bez nutnosti změn v existujících integracích. Distribuovaná povaha Event Mesh zajišťuje, že výkon zůstane konzistentní i s rostoucím objemem událostí."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Závěr"}</h2>
           <p className="leading-relaxed">
-            {"Event Mesh architecture represents the future of enterprise integration, enabling organizations to build responsive, scalable systems that can adapt quickly to changing business requirements. By adopting Event Mesh with SAP BTP, enterprises gain the foundation for true digital transformation and real-time business operations."}
+            {"Architektura Event Mesh představuje budoucnost podnikové integrace a umožňuje organizacím vytvářet reagující, škálovatelné systémy, které se mohou rychle přizpůsobit měnícím se obchodním požadavkům. Přijetím Event Mesh s SAP BTP získají podniky základnu pro skutečnou digitální transformaci a operace v reálném čase."}
           </p>
         </div>
       }
