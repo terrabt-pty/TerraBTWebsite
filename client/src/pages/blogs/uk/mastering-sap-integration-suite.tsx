@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function MasteringIntegrationSuite() {
   return (
     <BlogPost
-      title={"Mastering SAP Integration Suite"}
-      category={"Integration"}
+      title={"Оволодіння SAP Integration Suite"}
+      category={"Інтеграція"}
       readTime={"10 min"}
       image={fioriImage}
-      seoDescription={"Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity."}
+      seoDescription={"Оволодійте SAP Integration Suite за допомогою нашого всеосяжного посібника з Cloud Integration, API Management та Open Connectors для безперебійного підключення підприємства."}
       path="/blog/mastering-sap-integration-suite"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes."}
+            {"Підключення різнорідних систем - це фундаментальна задача цифрової трансформації. SAP Integration Suite надає універсальну платформу інтеграції на рівні підприємства як послугу (iPaaS), яка спрощує підключення та забезпечує безперебійні бізнес-процеси в гібридних та багатохмарних середовищах."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"The Vision of the Connected Enterprise"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Видіння підключеного підприємства"}</h2>
           <p className="leading-relaxed">
-            {"A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise."}
+            {"Підключене підприємство - це більше, ніж просто системи, які спілкуються одна з одною; це безперебійний потік даних, який керує бізнес-рішеннями та покращує операційну ефективність. SAP Integration Suite знаходиться в серці цього видіння, надаючи інструменти, необхідні для підключення застосунків SAP та не-SAP, незалежно від того, чи вони в хмарі чи на місці."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Хмарна інтеграція (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Хмарна інтеграція, раніше відома як CPI, є основною можливістю набору. Вона дозволяє розробникам створювати та запускати потоки інтеграції, які підключають різні системи, використовуючи широкий спектр адаптерів. З такими функціями, як зіставлення повідомлень, трансформація та маршрутизація, CPI може легко справляються зі складними сценаріями інтеграції."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Управління API"}</h2>
           <p className="leading-relaxed">
-            {"API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance."}
+            {"Управління API дозволяє організаціям відкривати свої бізнес-сервіси як безпечні, керовані API. Це дозволяє внутрішнім та зовнішнім розробникам створювати програми, які використовують ці сервіси, при цьому забезпечуючи повну видимість та контроль над використанням API, безпекою та продуктивністю."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Open Connectors"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Відкриті сполучники"}</h2>
           <p className="leading-relaxed">
-            {"Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation."}
+            {"Відкриті сполучники надають попередньо побудовані сполучники для більш ніж 170 застосунків, що не є SAP, такі як Salesforce, SharePoint та Google Drive. Це значно зменшує час та зусилля, необхідні для інтеграції систем SAP з програмним забезпеченням третіх осіб, що дозволяє прискорити інновації та цифрову трансформацію."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Integration Advisor"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Порадник з інтеграції"}</h2>
           <p className="leading-relaxed">
-            {"Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently."}
+            {"Порадник з інтеграції використовує штучний інтелект та накопичені знання для спрощення створення зіставлень інтеграції B2B та A2A. Надаючи розумні рекомендації для структур повідомлень та зіставлень, він допомагає фахівцям з інтеграції більш ефективно створювати та підтримувати інтеграції."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Висновок"}</h2>
           <p className="leading-relaxed">
-            {"Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."}
+            {"Оволодіння SAP Integration Suite необхідне для будь-якої організації, яка прагне досягти успіху в цифровій економіці. Використовуючи його потужні можливості, підприємства можуть створити міцну основу для інтеграції, яка забезпечує гнучкість, інновації та довгостроковий бізнес-успіх."}
           </p>
         </div>
       }

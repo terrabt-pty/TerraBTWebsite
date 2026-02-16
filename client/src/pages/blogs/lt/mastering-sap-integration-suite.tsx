@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function MasteringIntegrationSuite() {
   return (
     <BlogPost
-      title={"Mastering SAP Integration Suite"}
-      category={"Integration"}
+      title={"SAP Integration Suite valdymas"}
+      category={"Integracija"}
       readTime={"10 min"}
       image={fioriImage}
-      seoDescription={"Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity."}
+      seoDescription={"Valdykite SAP Integration Suite su mūsų išsamiu vadovu apie Cloud Integration, API Management ir Open Connectors sklandžiam įmonės ryšiui."}
       path="/blog/mastering-sap-integration-suite"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes."}
+            {"Skirtingų sistemų sujungimas yra pagrindinė skaitmeninės transformacijos išduotis. SAP Integration Suite suteikia universalią įmonės lygio integraciją kaip paslaugą (iPaaS), kuri supaprastina ryšį ir leidžia sklandžius verslo procesus hibridinėje ir daugiacloud aplinkoje."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"The Vision of the Connected Enterprise"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Sujungtos įmonės vizija"}</h2>
           <p className="leading-relaxed">
-            {"A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise."}
+            {"Suiungta įmonė yra ne tik sistemos, kurios viena su kita kalba; tai apie sklandžią duomenų srautą, kuris varomis verslo sprendimais ir padidina operacinį efektyvumą. SAP Integration Suite yra šios vizijos širdyje, teikdamas įrankius, reikalingus SAP ir ne-SAP programoms sujungti, nepaisant to, ar jos yra debesyje ar vietoje."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Cloud Integration, anksčiau žinomas kaip CPI, yra komplekto pagrindinė galimybė. Tai leidžia kūrėjams kurti ir paleisti integracijos srautus, kurie sujungia įvairias sistemas naudojant plačią adapterių seriją. Naudojant tokias funkcijas kaip pranešimų kartografavimas, transformacija ir maršrutavimas, CPI gali lengvai valdyti sudėtingus integracijų scenarijus."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"API valdymas"}</h2>
           <p className="leading-relaxed">
-            {"API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance."}
+            {"API valdymas leidžia organizacijoms atidaryti savo verslo paslaugas kaip saugias, valdomas API. Tai leidžia vidiniam ir išoriniam kūrėjams kurti programas, kurios naudoja šias paslaugas, teikiant pilną matomumą ir kontrolę API naudojimui, saugumui ir našumui."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Open Connectors"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Atviri konektoriai"}</h2>
           <p className="leading-relaxed">
-            {"Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation."}
+            {"Atviri konektoriai teikia iš anksto sukurtus konektorius daugiau nei 170 ne-SAP programų, tokių kaip Salesforce, SharePoint ir Google Drive. Tai žymiai sumažina laiką ir pastangas, reikalingus SAP sistemoms sujungti su trečiųjų šalių programine įranga, leidžiant greičiau inovuoti ir skaitmenizuoti."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Integration Advisor"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Integrацijas patarėjas"}</h2>
           <p className="leading-relaxed">
-            {"Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently."}
+            {"Integracijų patarėjas naudoja dirbtinį intelektą ir minios žinias, kad supaprastintų B2B ir A2A integracijos kartografavimo kūrimą. Teikdamas išmantriausius pasiūlymus pranešimų struktūroms ir kartografavimams, jis padeda integracijos specialistams efektyviau kurti ir prižiūrėti integraciją."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Išvada"}</h2>
           <p className="leading-relaxed">
-            {"Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."}
+            {"SAP Integration Suite valdymas yra būtinas bet kuriai organizacijai, norinti sėkmingai veikti skaitmeninėje ekonomikoje. Pasinaudojant jos galingomis galimybėmis, įmonės gali sukurti tvirtą integracijos pagrindą, kuris leidžia lankstumo, inovacijos ir ilgalaikės verslo sėkmės."}
           </p>
         </div>
       }

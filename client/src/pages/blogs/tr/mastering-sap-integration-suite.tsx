@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function MasteringIntegrationSuite() {
   return (
     <BlogPost
-      title={"Mastering SAP Integration Suite"}
-      category={"Integration"}
+      title={"SAP Integration Suite'i Mastering"}
+      category={"Entegrasyon"}
       readTime={"10 min"}
       image={fioriImage}
-      seoDescription={"Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity."}
+      seoDescription={"SAP Integration Suite'i Cloud Integration, API Management ve Open Connectors'ı kapsamlı rehberimizle sorunsuz kurumsal bağlantı için master yapın."}
       path="/blog/mastering-sap-integration-suite"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes."}
+            {"Farklı sistemlerin bağlanması, dijital dönüşümün temel zorlayıcısıdır. SAP Integration Suite, hibrid ve çok bulutlu ortamlarda bağlantıyı basitleştiren ve sorunsuz iş süreçlerini sağlayan evrensel bir kurumsal düzeyde entegrasyon platformu (iPaaS) sağlar."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"The Vision of the Connected Enterprise"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Bağlı Kurumun Vizyonu"}</h2>
           <p className="leading-relaxed">
-            {"A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise."}
+            {"Bağlı kurum, sadece birbirleriyle iletişim kuran sistemlerden daha fazlasıdır; iş kararlarını yönlendiren ve operasyonel verimliliği artıran sorunsuz veri akışı hakkındadır. SAP Integration Suite bu vizyonun merkezinde, buluta veya şirket içine yerleştirilmiş olsun, SAP ve SAP dışı uygulamaları bağlamak için gereken araçları sağlayan."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Bulut Entegrasyonu (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Bulut Entegrasyonu, daha önce CPI olarak bilinir, paketteki temel yetenektir. Geliştiricilerin geniş bir dizi adaptör kullanarak çeşitli sistemleri bağlayan entegrasyon akışları oluşturmasını ve çalıştırmasını sağlar. İleti eşleme, dönüştürme ve yönlendirme gibi özelliklerle CPI, karmaşık entegrasyon senaryolarını kolaylıkla ele alabilir."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"API Yönetimi"}</h2>
           <p className="leading-relaxed">
-            {"API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance."}
+            {"API Yönetimi, kuruluşlara iş hizmetlerini güvenli, yönetilen API'ler olarak sunmasını sağlar. Bu, dahili ve dış geliştiricilerin bu hizmetleri kullanan uygulamalar oluşturmasını sağlarken, API kullanımı, güvenliği ve performansı üzerinde tam görünürlük ve kontrol sağlar."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Open Connectors"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Açık Bağlayıcılar"}</h2>
           <p className="leading-relaxed">
-            {"Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation."}
+            {"Açık Bağlayıcılar, Salesforce, SharePoint ve Google Drive gibi 170'den fazla SAP dışı uygulamaya önceden oluşturulmuş bağlayıcılar sağlar. Bu, SAP sistemlerini üçüncü taraf yazılımlarla entegre etmek için gereken zaman ve çabayı önemli ölçüde azaltır, daha hızlı inovasyonu ve dijital dönüşümü sağlar."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Integration Advisor"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Entegrasyon Danışmanı"}</h2>
           <p className="leading-relaxed">
-            {"Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently."}
+            {"Entegrasyon Danışmanı, B2B ve A2A entegrasyon eşlemelerinin oluşturulmasını basitleştirmek için yapay zeka ve kitlesel bilgi kullanır. İleti yapıları ve eşlemeler için akıllı öneriler sağlayarak, entegrasyon uzmanlarının entegrasyonları daha verimli bir şekilde oluşturmasına ve bakmasına yardımcı olur."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Sonuç"}</h2>
           <p className="leading-relaxed">
-            {"Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."}
+            {"SAP Integration Suite'i Mastering, dijital ekonomide başarılı olmak isteyen herhangi bir kuruluş için gereklidir. Güçlü yeteneklerinden yararlanarak, işletmeler çeviklik, inovasyonu ve uzun vadeli iş başarısını sağlayan entegrasyon için sağlam bir temel oluşturabilir."}
           </p>
         </div>
       }

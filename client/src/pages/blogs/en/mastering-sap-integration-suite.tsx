@@ -22,7 +22,7 @@ export default function MasteringIntegrationSuite() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. It enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
           <p className="leading-relaxed">

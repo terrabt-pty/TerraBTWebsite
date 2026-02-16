@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function MasteringIntegrationSuite() {
   return (
     <BlogPost
-      title={"Mastering SAP Integration Suite"}
-      category={"Integration"}
+      title={"Zvládnutie SAP Integration Suite"}
+      category={"Integrácia"}
       readTime={"10 min"}
       image={fioriImage}
-      seoDescription={"Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity."}
+      seoDescription={"Zvládnite SAP Integration Suite s našou komplexnou príručkou k Cloud Integration, API Management a Open Connectors pre bezproblémové podnikové prepojenie."}
       path="/blog/mastering-sap-integration-suite"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes."}
+            {"Prepájanie rôznych systémov je základnou výzvou digitálnej transformácie. SAP Integration Suite je všestranná integračná platforma na podnikovej úrovni ako služba (iPaaS), ktorá zjednodušuje konektivitu a umožňuje bezproblémové obchodné procesy v hybridných a multi-cloudových prostrediach."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"The Vision of the Connected Enterprise"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Vízia prepojeného podniku"}</h2>
           <p className="leading-relaxed">
-            {"A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise."}
+            {"Prepojený podnik je viac ako len systémy, ktoré spolu hovoria; ide o bezproblémový tok dát, ktorý riadi obchodné rozhodnutia a zlepšuje prevádzkovú efektivitu. SAP Integration Suite je srdcom tejto vízii a poskytuje nástroje potrebné na prepojenie aplikácií SAP a ostatných dodávateľov, či už sú v cloude alebo v miestnom prostredí."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Cloud Integration, predtým známa ako CPI, je základnou schopnosťou balíka. Umožňuje vývojárom vytvárať a spúšťať integračné toky, ktoré spájajú rôzne systémy pomocou širokej škály adaptérov. S funkciami ako mapovanie správ, transformácia a smerovanie, CPI dokáže bez problémov zvládnuť zložité scenáre integrácie."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
           <p className="leading-relaxed">
-            {"API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance."}
+            {"API Management umožňuje organizáciám odhaliť ich obchodné služby ako zabezpečené, spravované API. To umožňuje interným a externým vývojárom vytvárať aplikácie, ktoré tieto služby konzumujú, a zároveň poskytuje úplnú viditeľnosť a kontrolu nad využitím API, bezpečnosťou a výkonom."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Open Connectors"}</h2>
           <p className="leading-relaxed">
-            {"Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation."}
+            {"Open Connectors poskytuje vopred zostavené konektory k viac ako 170 aplikáciám bez SAP, ako napríklad Salesforce, SharePoint a Google Drive. To výrazne skracuje čas a úsilie potrebné na integráciu systémov SAP s softvérom tretích strán, čo umožňuje rýchlejšiu inováciu a digitálnu transformáciu."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integration Advisor"}</h2>
           <p className="leading-relaxed">
-            {"Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently."}
+            {"Integration Advisor používa umelú inteligenciu a znalosti pochádzajúce z komunity na zjednodušenie vytvorenia mapovaní integrácie B2B a A2A. Poskytovaním inteligentných odporúčaní na štruktúry správ a mapovanie pomáha integrační špecialisti efektívnejšie budovať a udržiavať integrácie."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Záver"}</h2>
           <p className="leading-relaxed">
-            {"Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."}
+            {"Zvládnutie SAP Integration Suite je nevyhnutné pre každú organizáciu, ktorá chce prosperovať v digitálnej ekonomike. Využitím svojich výkonných schopností môžu podniky vytvoriť pevný základ pre integráciu, ktorý umožňuje agilitu, inováciu a dlhodobý obchodný úspech."}
           </p>
         </div>
       }

@@ -4,41 +4,41 @@ import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb
 export default function MasteringIntegrationSuite() {
   return (
     <BlogPost
-      title={"Mastering SAP Integration Suite"}
-      category={"Integration"}
-      readTime={"10 min"}
+      title={"שליטה בתוך SAP Integration Suite"}
+      category={"שילוב"}
+      readTime={"10 דקות"}
       image={fioriImage}
-      seoDescription={"Master SAP Integration Suite with our comprehensive guide to Cloud Integration, API Management, and Open Connectors for seamless enterprise connectivity."}
+      seoDescription={"שלוט ב- SAP Integration Suite באמצעות המדריך המקיף שלנו לשילוב ענן, ניהול API ו- Open Connectors לקישוריות ארגונית חלקה."}
       path="/blog/mastering-sap-integration-suite"
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Connecting disparate systems is the fundamental challenge of digital transformation. SAP Integration Suite provides a versatile, enterprise-grade integration platform as a service (iPaaS) that simplifies connectivity and enables seamless business processes across hybrid and multi-cloud landscapes."}
+            {"חיבור מערכות שונות הוא האתגר הבסיסי של הטרנספורמציה הדיגיטלית. SAP Integration Suite מספקת פלטפורמה לשילוב רבת-תכלית ברמת ארגון כשירות (iPaaS) המפשטת קישוריות ומאפשרת תהליכי עסקים חלקים על פני נופים היברידיים וענן מרובים."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"The Vision of the Connected Enterprise"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"חזון הארגון המחובר"}</h2>
           <p className="leading-relaxed">
-            {"A connected enterprise is more than just systems talking to each other; it's about seamless data flow that drives business decisions and improves operational efficiency. SAP Integration Suite is at the heart of this vision, providing the tools needed to connect SAP and non-SAP applications, whether they are in the cloud or on-premise."}
+            {"ארגון מחובר הוא יותר מאשר מערכות המדברות זו לזו; זה לגבי זרימת נתונים חלקה המניעה החלטות עסקיות ומשפרת יעילות תפעולית. SAP Integration Suite נמצאת בלב החזון הזה, ומספקת את הכלים הדרושים לחיבור יישומי SAP ואפליקציות שאינן SAP, בין אם הם בענן או בתוך הבניין."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Cloud Integration (CPI)"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"שילוב ענן (CPI)"}</h2>
           <p className="leading-relaxed">
-            {"Cloud Integration, formerly known as CPI, is the core capability of the suite. it enables developers to build and run integration flows that connect various systems using a wide range of adapters. With features like message mapping, transformation, and routing, CPI can handle complex integration scenarios with ease."}
+            {"Cloud Integration, שנודעה בעבר בשם CPI, היא היכולת הבסיסית של הסוויטה. היא מאפשרת למפתחים לבנות ולהפעיל זרימות שילוב המחברות מערכות שונות באמצעות מגוון רחב של מתאמים. עם תכונות כמו מיפוי הודעות, טרנספורמציה וניתוב, CPI יכולה להתמודד עם תרחישי שילוב מורכבים בקלות."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"API Management"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"ניהול API"}</h2>
           <p className="leading-relaxed">
-            {"API Management allows organizations to expose their business services as secure, managed APIs. This enables internal and external developers to build applications that consume these services, while providing full visibility and control over API usage, security, and performance."}
+            {"ניהול API מאפשר ארגונים לחשוף את שירותי העסקים שלהם כ- API מאובטחים וניהוליים. זה מאפשר למפתחים פנימיים וחיצוניים לבנות יישומים המצרכים את השירותים הללו, תוך מתן ראות מלאה ובקרה על שימוש, אבטחה וביצועי ה- API."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Open Connectors"}</h2>
           <p className="leading-relaxed">
-            {"Open Connectors provides pre-built connectors to over 170 non-SAP applications, such as Salesforce, SharePoint, and Google Drive. This significantly reduces the time and effort required to integrate SAP systems with third-party software, enabling faster innovation and digital transformation."}
+            {"Open Connectors מספקת מחברים מובנים מראש ליותר מ -170 יישומי שאינם SAP, כגון Salesforce, SharePoint ו- Google Drive. זה מקטין משמעותית את הזמן והמאמץ הנדרשים לשילוב מערכות SAP עם תוכנות של צד שלישי, מה שמאפשר חדשנות וטרנספורמציה דיגיטלית מהר יותר."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integration Advisor"}</h2>
           <p className="leading-relaxed">
-            {"Integration Advisor uses AI and crowd-sourced knowledge to simplify the creation of B2B and A2A integration mappings. By providing intelligent recommendations for message structures and mappings, it helps integration specialists build and maintain integrations more efficiently."}
+            {"Integration Advisor משתמשת בבינה מלאכותית ובידע מצבור קהל כדי לפשט את יצירת מיפויי שילוב B2B ו- A2A. על ידי מתן המלצות חכמות למבנים ומיפויים של הודעות, היא עוזרת למומחי שילוב לבנות ולתחזוק שילובים ביעילות רבה יותר."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"סיכום"}</h2>
           <p className="leading-relaxed">
-            {"Mastering SAP Integration Suite is essential for any organization looking to thrive in the digital economy. By leveraging its powerful capabilities, enterprises can build a robust foundation for integration that enables agility, innovation, and long-term business success."}
+            {"שליטה ב- SAP Integration Suite חיוני עבור כל ארגון המחפש לשגשג בכלכלה דיגיטלית. על ידי ניצול היכולות החזקות שלה, יכלו ארגונים לבנות בסיס חזק לשילוב המאפשר רשיתות, חדשנות והצלחה עסקית לטווח ארוך."}
           </p>
         </div>
       }
