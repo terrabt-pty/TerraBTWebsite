@@ -34,8 +34,7 @@ import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInno
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
-import Products from "@/pages/Products";
-import BtpXid from "@/pages/products/BtpXid";
+import BTPxIDProduct from "@/pages/BTPxIDProduct";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -99,11 +98,8 @@ function Router() {
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
 
-      {/* Products */}
-      <Route path="/products" component={Products} />
-      <Route path="/products/btp-xid" component={BtpXid} />
-      <Route path="/:lang/products" component={Products} />
-      <Route path="/:lang/products/btp-xid" component={BtpXid} />
+      {/* Product Pages */}
+      <Route path="/products/btp-xid" component={BTPxIDProduct} />
 
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />
@@ -136,6 +132,9 @@ function Router() {
       <Route path="/:lang/services/cap-development" component={CAPDevelopment} />
       <Route path="/:lang/services/build-apps" component={BuildApps} />
       <Route path="/:lang/services/build-automation" component={BuildAutomation} />
+
+      {/* Localized product pages */}
+      <Route path="/:lang/products/btp-xid" component={BTPxIDProduct} />
 
       {/* Localized blog post routes */}
       <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />

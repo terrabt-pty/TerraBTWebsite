@@ -1,13 +1,14 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import BTPxIDAnnouncement from "@/components/BTPxIDAnnouncement";
 import ExpertiseCard from "@/components/ExpertiseCard";
 import ValueProposition from "@/components/ValueProposition";
 import BlogCard from "@/components/BlogCard";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
-import { Button } from "@/components/ui/button";
 import {
   Smartphone,
   Layers,
@@ -151,13 +152,6 @@ export default function Home() {
     },
   ];
 
-  const scrollToKnowledge = () => {
-    const element = document.querySelector("#knowledge");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
@@ -166,6 +160,7 @@ export default function Home() {
         path="/"
       />
       <Navigation />
+      <BTPxIDAnnouncement />
       <HeroSection />
 
       <section id="services" className="py-20 md:py-24">
@@ -258,20 +253,6 @@ export default function Home() {
               />
             ))}
           </div>
-
-          {/* Hidden for now
-          <div className="text-center">
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-trust text-trust-foreground hover:bg-trust"
-              onClick={scrollToKnowledge}
-              data-testid="button-view-all-articles"
-            >
-              Explore Knowledge Hub
-            </Button>
-          </div>
-*/}
         </div>
       </section>
 

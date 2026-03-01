@@ -13,21 +13,18 @@ export default function Navigation() {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
-  const navLinks = [
+  const scrollLinks = [
     { label: t('nav.home'), href: "#home" },
     { label: t('nav.services'), href: "#services" },
     { label: t('nav.knowledge'), href: "#knowledge" },
     { label: t('nav.contact'), href: "#contact" },
   ];
 
-  const productsPath = getLocalizedPath("/products");
-
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false);
-      // Update URL for analytics tracking
       history.pushState(null, '', href);
     } else {
       setMobileMenuOpen(false);
@@ -42,6 +39,13 @@ export default function Navigation() {
     }
   };
 
+  const goToBTPxID = () => {
+    setMobileMenuOpen(false);
+    setLocation(getLocalizedPath("/products/btp-xid"));
+  };
+
+  const isOnBTPxID = location.includes("/products/btp-xid");
+
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,7 +55,29 @@ export default function Navigation() {
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
-            {navLinks.map((link) => (
+            <button
+              onClick={() => scrollToSection("#home")}
+              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              data-testid="link-home"
+            >
+              {t('nav.home')}
+            </button>
+
+            {/* BTP xID — highlighted nav item */}
+            <button
+              onClick={goToBTPxID}
+              className="nav-btpxid-link"
+              data-testid="link-btpxid"
+            >
+              <span className="nav-btpxid-label">
+                BTP{" "}
+                <span className="nav-btpxid-x">x</span>
+                <span className="nav-btpxid-id">ID</span>
+              </span>
+              <span className="nav-btpxid-new">NEW</span>
+            </button>
+
+            {scrollLinks.filter(l => l.href !== "#home").map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
@@ -61,13 +87,7 @@ export default function Navigation() {
                 {link.label}
               </button>
             ))}
-            <Link
-              href={productsPath}
-              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-              data-testid="link-products"
-            >
-              Products
-            </Link>
+
             <Button
               onClick={() => scrollToSection("#contact")}
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
@@ -98,7 +118,29 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
-            {navLinks.map((link) => (
+            <button
+              onClick={() => scrollToSection("#home")}
+              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              data-testid="mobile-link-home"
+            >
+              {t('nav.home')}
+            </button>
+
+            {/* BTP xID — mobile highlighted */}
+            <button
+              onClick={goToBTPxID}
+              className="nav-btpxid-mobile"
+              data-testid="mobile-link-btpxid"
+            >
+              <span className="nav-btpxid-label">
+                BTP{" "}
+                <span className="nav-btpxid-x">x</span>
+                <span className="nav-btpxid-id">ID</span>
+              </span>
+              <span className="nav-btpxid-new">NEW</span>
+            </button>
+
+            {scrollLinks.filter(l => l.href !== "#home").map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
@@ -108,14 +150,7 @@ export default function Navigation() {
                 {link.label}
               </button>
             ))}
-            <Link
-              href={productsPath}
-              onClick={() => setMobileMenuOpen(false)}
-              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
-              data-testid="mobile-link-products"
-            >
-              Products
-            </Link>
+
             <Button
               className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
               onClick={() => scrollToSection("#contact")}

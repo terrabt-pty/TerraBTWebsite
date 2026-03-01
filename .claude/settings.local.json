@@ -32,7 +32,26 @@
       "Bash(then echo \"$file\")",
       "Bash(fi)",
       "Bash(node -e:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(/tmp/update_all_blogs.js:*)",
+      "Bash(__NEW_LINE_a550c7784eed28aa__ node /tmp/update_all_blogs.js)",
+      "Bash(/tmp/merge_integration.js:*)",
+      "Bash(__NEW_LINE_db78abfde21d2263__ node /tmp/merge_integration.js)",
+      "Bash(/tmp/update_integration_blogs.js:*)",
+      "Bash(__NEW_LINE_32032d067f9aaa3f__ node /tmp/update_integration_blogs.js)",
+      "Bash(/tmp/fix_integration_structure.js:*)",
+      "Bash(__NEW_LINE_1c96fed782e3d1bc__ node /tmp/fix_integration_structure.js)",
+      "Bash(node:*)",
+      "Bash(/tmp/fix_batch3_structure.js:*)",
+      "Bash(__NEW_LINE_abd61a063e8dc1ae__ node /tmp/fix_batch3_structure.js)",
+      "Bash(/tmp/fix_batch4_structure.js:*)",
+      "Bash(__NEW_LINE_d5312cef13e4c7dc__ node /tmp/fix_batch4_structure.js)",
+      "Bash(/tmp/remerge_integration.js:*)",
+      "Bash(__NEW_LINE_bfd68681137b5b41__ node /tmp/remerge_integration.js)",
+      "Bash(/tmp/fix_batch2_structure.js:*)",
+      "Bash(__NEW_LINE_6be8c206e2eab443__ node /tmp/fix_batch2_structure.js)",
+      "Bash(/tmp/final_merge.js:*)",
+      "Bash(__NEW_LINE_91b0e7749afedb28__ node /tmp/final_merge.js)"
     ]
   }
 }
