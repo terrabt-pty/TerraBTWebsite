@@ -108,6 +108,9 @@ The minimal user schema provides a foundation for future admin authentication or
   - `/services/ai`
   - `/services/integration-suite`
   - `/services/event-mesh`
+- Products: `/products` - Product listing page (add new products here as cards)
+  - `/products/btp-xid` - BTP xID desktop app page (features, pricing, download)
+  - Future products: add a new entry in `Products.tsx` `products` array + new route + page in `client/src/pages/products/`
 - 404 handling via NotFound component
 
 **Navigation Pattern**

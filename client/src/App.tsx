@@ -35,6 +35,7 @@ import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
 import Products from "@/pages/Products";
+import BtpXid from "@/pages/products/BtpXid";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -100,7 +101,9 @@ function Router() {
 
       {/* Products */}
       <Route path="/products" component={Products} />
+      <Route path="/products/btp-xid" component={BtpXid} />
       <Route path="/:lang/products" component={Products} />
+      <Route path="/:lang/products/btp-xid" component={BtpXid} />
 
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />
