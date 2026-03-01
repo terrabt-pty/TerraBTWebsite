@@ -34,6 +34,7 @@ import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInno
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
+import Products from "@/pages/Products";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -96,6 +97,10 @@ function Router() {
       <Route path="/services/cap-development" component={CAPDevelopment} />
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
+
+      {/* Products */}
+      <Route path="/products" component={Products} />
+      <Route path="/:lang/products" component={Products} />
 
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />

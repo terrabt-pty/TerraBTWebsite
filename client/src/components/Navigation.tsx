@@ -20,6 +20,8 @@ export default function Navigation() {
     { label: t('nav.contact'), href: "#contact" },
   ];
 
+  const productsPath = getLocalizedPath("/products");
+
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -59,6 +61,13 @@ export default function Navigation() {
                 {link.label}
               </button>
             ))}
+            <Link
+              href={productsPath}
+              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              data-testid="link-products"
+            >
+              Products
+            </Link>
             <Button
               onClick={() => scrollToSection("#contact")}
               className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
@@ -99,6 +108,14 @@ export default function Navigation() {
                 {link.label}
               </button>
             ))}
+            <Link
+              href={productsPath}
+              onClick={() => setMobileMenuOpen(false)}
+              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              data-testid="mobile-link-products"
+            >
+              Products
+            </Link>
             <Button
               className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
               onClick={() => scrollToSection("#contact")}

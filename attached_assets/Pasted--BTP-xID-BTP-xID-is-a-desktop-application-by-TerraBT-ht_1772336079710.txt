@@ -1,0 +1,156 @@
+# BTP xID
+
+**BTP xID** is a desktop application by [TerraBT](https://terrabt.com) that gives IT administrators a single interface to manage users across an entire SAP Business Technology Platform (BTP) landscape — multiple global accounts, subaccounts, Cloud Foundry orgs, and spaces — without switching between browser tabs or running CLI commands manually.
+
+Built with Electron, React, TypeScript, and Tailwind CSS.
+
+---
+
+## Features
+
+### Connections
+
+**SAP BTP**
+- Connect a Global Account via browser SSO using the SAP BTP CLI (subdomain-based)
+- View all connected accounts with live status (connected / error)
+- Manually refresh the connection status for any account
+- Disconnect a Global Account — clears all associated CF tokens and logs out of the BTP CLI when no accounts remain
+
+**Cloud Foundry**
+- Auto-discover CF environments after connecting a Global Account
+- Authenticate per CF region using the UAA passcode flow (passcode page opens in the system browser)
+- Log out of a CF region independently
+- Connection status polling and background CF region re-discovery on every app start
+
+---
+
+### Guided Onboarding
+
+Step-by-step wizard for first-time setup:
+
+1. **Connect SAP BTP** — enter your Global Account subdomain, with a contextual hint showing where to find it in BTP Cockpit; BTP CLI install check with instructions if not found
+2. **Connect Cloud Foundry** — select a CF region discovered from your account and authenticate via UAA passcode
+
+Auto-triggered from the Dashboard when no Global Accounts are connected.
+
+---
+
+### Dashboard
+
+- Landscape overview: total Global Accounts and CF Environments (clickable, navigate to Connections)
+- SAP BTP connections panel with live status per account and manual refresh
+- Cloud Foundry panel with auth status per discovered region
+- Global Refresh button for instant data reload
+
+---
+
+### User List
+
+Hierarchical view of all users across the full landscape: **Global Account → Subaccount → CF Org → CF Space**
+
+**Loading & Display**
+- Live streaming — users appear as they are discovered without waiting for the full dataset
+- Stream progress indicator
+- Expand All / Collapse All tree controls with per-node collapsible sections
+- Manual refresh button
+
+**Search & Filtering**
+- Real-time text search across all user fields
+- Scope-level filter buttons (GA / SA / CF Org / CF Space) to focus on one level
+- Live user count display
+
+**Role Management**
+Click any user row to open the Roles panel:
+- View the user's email, display name, and origin
+- Assign role collections (BTP scopes) or CF roles (CF Org / CF Space scopes) — role list is auto-fetched from the landscape
+- Remove a single role from the user
+- **Deactivate User** (GA / SA only) — strips all role assignments but keeps the user entity in the system
+- **Remove User** — deletes the user's membership from that scope entirely
+- Confirmation dialogs for all destructive actions
+- Pending spinner on the affected row during mutations and through the background refetch
+
+**Add User**
+Per-scope Add User buttons at each hierarchy level open a scoped dialog:
+- **Global Account** — email(s) + role collection selection
+- **Subaccount** — email(s) + role collection selection (role list auto-fetched)
+- **CF Org** — email(s) + CF org role (OrgManager / OrgAuditor / OrgUser)
+- **CF Space** — email(s) + CF space role (SpaceManager / SpaceDeveloper / SpaceAuditor / SpaceSupporter)
+- All dialogs support bulk email input (multiple addresses at once)
+- Per-user success / failure result display
+
+---
+
+### User Lookup
+
+Search for a single user across the entire connected landscape:
+
+- Email or user ID input; field is disabled while a search is in progress
+- Results shown in the same hierarchical tree as User List
+- Shows all scopes where the user has assignments — including users registered in BTP with no role collections yet
+- Full role management in results: assign, remove, deactivate, delete — identical to User List
+- Error-gated display: stale results are hidden if a background re-fetch returns an error (e.g. the user was just deleted)
+- "No user found" empty state when the user has no assignments anywhere
+
+---
+
+### System API Users
+
+Manage service keys and platform API credentials across the landscape.
+
+Hierarchical view: **Global Account → Subaccount → CF Org → Service Type → Service Instance**
+
+- Service instance grouping with plan badge — keys from multiple instances of the same service type are shown separately
+- Per-key status badge: active / expiring (within 30 days) / expired
+- Created and expiration date display
+
+**Key Actions**
+- **View credentials** — JSON credential display with sensitive fields masked; copy to clipboard for non-sensitive values
+- **Rotate credentials** — generate new credentials and revoke the old ones
+- **Disable** a system user
+- **Delete** a service key or API credential
+- Per-row spinner during delete, shown until the full background list refresh completes
+
+---
+
+### Settings
+
+- Session timeout — configurable (15 min / 30 min / 1 hour)
+- App version display
+- License status with expiration date
+- Software updates: check, download (with progress), install and restart
+
+---
+
+### Help
+
+- Built-in documentation browser organized by category
+- Full-text search across articles
+
+---
+
+## Requirements
+
+- macOS (Apple Silicon or Intel)
+- [SAP BTP CLI](https://tools.hana.ondemand.com/#cloud) (`btp`) installed and on your PATH
+  - Install via Homebrew: `brew install btp`
+- An SAP BTP Global Account you have administrator access to
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Shell | Electron |
+| UI | React + TypeScript + Tailwind CSS 4 |
+| State | Zustand + TanStack Query 5 |
+| Database | SQLite (better-sqlite3) |
+| BTP Integration | SAP BTP CLI (`btp`) |
+| CF Integration | CF UAA passcode flow (undici HTTP client) |
+| Build | Vite + electron-builder |
+
+---
+
+## Publisher
+
+**TerraBT Pty Ltd** — [terrabt.com](https://terrabt.com)
