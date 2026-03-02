@@ -23,21 +23,35 @@ import {
 } from "lucide-react";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
-type OS = "windows" | "macos-silicon" | "macos-intel" | "linux";
+type OS = "windows" | "macos-silicon" | "macos-intel";
 
 interface DownloadOption {
   id: OS;
   label: string;
   sublabel: string;
-  url: string;
 }
 
 const downloadOptions: DownloadOption[] = [
-  { id: "windows", label: "Windows", sublabel: "Windows 10 / 11", url: "#download-windows" },
-  { id: "macos-silicon", label: "macOS Apple Silicon", sublabel: "M1, M2, M3, M4", url: "#download-macos-silicon" },
-  { id: "macos-intel", label: "macOS Intel", sublabel: "Intel x64", url: "#download-macos-intel" },
-  { id: "linux", label: "Linux", sublabel: "AppImage / .deb", url: "#download-linux" },
+  { id: "windows", label: "Windows", sublabel: "Windows 10 / 11" },
+  { id: "macos-silicon", label: "macOS Apple Silicon", sublabel: "M1, M2, M3, M4" },
+  { id: "macos-intel", label: "macOS Intel", sublabel: "Intel x64" },
 ];
+
+const R2_BASE = "https://updates.terrabt.com/btp-xid";
+
+interface VersionInfo {
+  version: string;
+  mac: { arm64: string; x64: string };
+  win: { x64: string };
+}
+
+function buildDownloadUrl(os: OS, v: VersionInfo): string {
+  switch (os) {
+    case "macos-silicon": return `${R2_BASE}/${encodeURIComponent(v.mac.arm64)}`;
+    case "macos-intel":   return `${R2_BASE}/${encodeURIComponent(v.mac.x64)}`;
+    case "windows":       return `${R2_BASE}/${encodeURIComponent(v.win.x64)}`;
+  }
+}
 
 const screenshots = [
   { src: userListImg, caption: "User List — hierarchical view across Global Account → Subaccount → CF Org → CF Space" },
@@ -169,34 +183,46 @@ function detectOS(): OS {
   const ua = navigator.userAgent.toLowerCase();
   if (ua.includes("win")) return "windows";
   if (ua.includes("mac")) {
-    // Detect Apple Silicon via canvas/platform heuristics
-    // navigator.platform is deprecated but still works; userAgentData is ideal
+    // Apple Silicon Macs report "arm" architecture via userAgentData in Chrome/Edge.
+    // Safari doesn't support userAgentData, so fall back to Intel as safe default
+    // (Silicon Macs can run Intel builds via Rosetta — the user can switch manually).
     const nav = navigator as any;
-    if (nav.userAgentData?.platform) {
-      return "macos-silicon";
-    }
+    const arch = nav.userAgentData?.platform === "macOS"
+      ? undefined  // can't detect arch synchronously; user switches if needed
+      : undefined;
+    if (arch) return "macos-silicon";
+    // Heuristic: M-series Macs on Chrome report no CPU in UA string
+    if (!ua.includes("intel")) return "macos-silicon";
     return "macos-intel";
   }
-  if (ua.includes("linux")) return "linux";
   return "windows";
 }
 
 export default function Products() {
   const { getLocalizedPath } = useLocalizedPath();
   const [selectedOS, setSelectedOS] = useState<OS>("windows");
+  const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
 
   useEffect(() => {
     setSelectedOS(detectOS());
   }, []);
 
+  useEffect(() => {
+    fetch(`${R2_BASE}/version.json`)
+      .then((r) => r.json())
+      .then((data: VersionInfo) => setVersionInfo(data))
+      .catch(() => { /* version stays null — download button disabled */ });
+  }, []);
+
   const selectedDownload = downloadOptions.find((o) => o.id === selectedOS)!;
+  const downloadUrl = versionInfo ? buildDownloadUrl(selectedOS, versionInfo) : null;;
 
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead
         title="BTP xID — SAP BTP User Management Desktop App | TerraBT Products"
-        description="BTP xID is a desktop application that gives IT administrators a single interface to manage users across an entire SAP BTP landscape. Available for Windows, macOS, and Linux."
+        description="BTP xID is a desktop application that gives IT administrators a single interface to manage users across an entire SAP BTP landscape. Available for Windows and macOS."
         path="/products/btp-xid"
       />
       <Navigation />
@@ -417,17 +443,21 @@ export default function Products() {
             ))}
           </div>
 
-          <a
-            href={selectedDownload.url}
-            data-testid="button-download-main"
-          >
-            <Button size="lg" className="gap-2 w-full sm:w-auto px-12">
+          {downloadUrl ? (
+            <a href={downloadUrl} data-testid="button-download-main">
+              <Button size="lg" className="gap-2 w-full sm:w-auto px-12">
+                <Download className="h-5 w-5" />
+                Download for {selectedDownload.label}
+              </Button>
+            </a>
+          ) : (
+            <Button size="lg" className="gap-2 w-full sm:w-auto px-12" disabled>
               <Download className="h-5 w-5" />
-              Download for {selectedDownload.label}
+              {versionInfo === null ? "Loading..." : "Download for " + selectedDownload.label}
             </Button>
-          </a>
+          )}
           <p className="text-xs text-muted-foreground mt-3">
-            {selectedDownload.sublabel} · Free 90-day trial
+            {versionInfo ? `v${versionInfo.version} · ` : ""}{selectedDownload.sublabel} · Free 90-day trial
           </p>
 
           <div className="mt-10 p-4 rounded-md bg-muted/50 border text-left text-sm text-muted-foreground" data-testid="card-install-info">
