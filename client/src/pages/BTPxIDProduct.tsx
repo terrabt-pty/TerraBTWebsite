@@ -239,21 +239,21 @@ export default function BTPxIDProduct() {
                   className="btpxid-dot"
                   style={{ background: "#4CAF50" }}
                 />
-                Global Account · 3 subs
+                Global Accounts
               </div>
               <div className="btpxid-float-card btpxid-fc-2">
                 <span
                   className="btpxid-dot"
                   style={{ background: "#1E5099" }}
                 />
-                CF Org · Production
+                Subaccounts & CF Spaces
               </div>
               <div className="btpxid-float-card btpxid-fc-3">
                 <span
                   className="btpxid-dot"
                   style={{ background: "#2A7088" }}
                 />
-                12 Service Users
+                Bulk Operations
               </div>
               <div className="btpxid-float-card btpxid-fc-4">
                 <span
@@ -323,19 +323,19 @@ export default function BTPxIDProduct() {
               <ul className="btpxid-plan-features">
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>SAP BTP User Management</span>
+                  <span>User management across Global Account, Subaccounts, CF Orgs & Spaces</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Up to 10 BTP accounts</span>
+                  <span>Up to 10 Global Accounts</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Bulk user provisioning</span>
+                  <span>Bulk add & remove users</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Audit log & reporting</span>
+                  <span>Reverse user lookup</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
@@ -374,19 +374,19 @@ export default function BTPxIDProduct() {
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>SAP BTP Backup & Restore</span>
+                  <span>Unlimited Global Accounts</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Unlimited BTP accounts</span>
+                  <span>Time-based user automation — auto-remove, auto-deactivate, auto-assign roles</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Scheduled automation</span>
+                  <span>Export user list to Excel</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Emergency access console</span>
+                  <span>Clean up by last login or missing roles</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />

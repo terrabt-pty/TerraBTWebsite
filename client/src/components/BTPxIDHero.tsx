@@ -90,21 +90,21 @@ export default function BTPxIDHero() {
                 className="btpxid-dot"
                 style={{ background: "#4CAF50" }}
               />
-              Global Account · 3 subs
+              Global Accounts
             </div>
             <div className="btpxid-float-card btpxid-fc-2">
               <span
                 className="btpxid-dot"
                 style={{ background: "#1E5099" }}
               />
-              CF Org · Production
+              Subaccounts & CF Spaces
             </div>
             <div className="btpxid-float-card btpxid-fc-3">
               <span
                 className="btpxid-dot"
                 style={{ background: "#2A7088" }}
               />
-              12 Service Users
+              Bulk Operations
             </div>
             <div className="btpxid-float-card btpxid-fc-4">
               <span

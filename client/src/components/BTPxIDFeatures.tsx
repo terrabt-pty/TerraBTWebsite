@@ -36,11 +36,11 @@ export default function BTPxIDFeatures() {
         "Add, remove, or update users across multiple accounts and spaces in a single action.",
     },
     {
-      icon: "📊",
+      icon: "🔐",
       colorClass: "btpxid-fi-teal",
-      title: "Audit & Compliance",
+      title: "Role Management",
       description:
-        "Complete visibility into who has access to what. Export reports for compliance reviews.",
+        "Assign and remove role collections across every scope — Global Account, Subaccount, CF Org, and CF Space — in a few clicks.",
     },
   ];
 
