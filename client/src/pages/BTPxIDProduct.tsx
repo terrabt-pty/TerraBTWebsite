@@ -126,9 +126,6 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
 export default function BTPxIDProduct() {
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
-  const [billingInterval, setBillingInterval] = useState<"monthly" | "annual">(
-    "annual"
-  );
   const [showAllDownloads, setShowAllDownloads] = useState(false);
   const { getLocalizedPath } = useLocalizedPath();
 
@@ -282,64 +279,47 @@ export default function BTPxIDProduct() {
               Simple, transparent pricing
             </h2>
             <p className="btpxid-showcase-sub">
-              Start with a free trial. Upgrade when you're ready.
+              Start free for 90 days. No credit card required.
             </p>
           </div>
 
-          {/* Billing toggle */}
-          <div className="btpxid-billing-toggle">
-            <button
-              onClick={() => setBillingInterval("monthly")}
-              className={`btpxid-billing-btn ${billingInterval === "monthly" ? "btpxid-billing-active" : ""}`}
-            >
-              Monthly
-            </button>
-            <button
-              onClick={() => setBillingInterval("annual")}
-              className={`btpxid-billing-btn ${billingInterval === "annual" ? "btpxid-billing-active" : ""}`}
-            >
-              Annual
-              <span className="btpxid-save-badge">Save 17%</span>
-            </button>
-          </div>
-
           <div className="btpxid-pricing-grid">
-            {/* Pro Plan */}
+            {/* Free Plan */}
             <div className="btpxid-plan-card">
               <div className="btpxid-plan-header">
-                <h3 className="btpxid-plan-name">Pro</h3>
+                <h3 className="btpxid-plan-name">Free</h3>
                 <p className="btpxid-plan-desc">
-                  For teams managing up to 10 BTP accounts
+                  Try BTP xID free for 90 days — no credit card required
                 </p>
               </div>
               <div className="btpxid-plan-price">
-                <span className="btpxid-price-amount">
-                  ${billingInterval === "monthly" ? "99" : "990"}
-                </span>
-                <span className="btpxid-price-period">
-                  AUD / {billingInterval === "monthly" ? "month" : "year"}
-                </span>
+                <span className="btpxid-price-amount">$0</span>
+                <span className="btpxid-price-period">/ 90 days</span>
               </div>
               <ul className="btpxid-plan-features">
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>User management across Global Account, Subaccounts, CF Orgs & Spaces</span>
+                  <span>User management across Global Account, Subaccount, CF Org, CF Space and directories</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Up to 10 Global Accounts</span>
+                  <span>Single Global Account</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Bulk add & remove users</span>
+                  <span>Reverse Lookup</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Reverse user lookup</span>
+                  <span>Mass add & edit users</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Email support</span>
+                  <span>Service Key Management</span>
+                </li>
+                <li>
+                  <CheckCircle className="h-4 w-4" />
+                  <span>Assign users across multiple accounts in one click</span>
                 </li>
               </ul>
               <button
@@ -350,55 +330,54 @@ export default function BTPxIDProduct() {
               </button>
             </div>
 
-            {/* Advanced Plan */}
+            {/* Basic Plan */}
             <div className="btpxid-plan-card btpxid-plan-featured">
-              <div className="btpxid-plan-popular">Most Popular</div>
+              <div className="btpxid-plan-popular">Full Access</div>
               <div className="btpxid-plan-header">
-                <h3 className="btpxid-plan-name">Advanced</h3>
+                <h3 className="btpxid-plan-name">Basic</h3>
                 <p className="btpxid-plan-desc">
-                  For enterprises with unlimited BTP accounts
+                  Ongoing access for SAP BTP administrators
                 </p>
               </div>
               <div className="btpxid-plan-price">
-                <span className="btpxid-price-amount">
-                  ${billingInterval === "monthly" ? "199" : "1,990"}
-                </span>
-                <span className="btpxid-price-period">
-                  AUD / {billingInterval === "monthly" ? "month" : "year"}
-                </span>
+                <span className="btpxid-price-amount">$200</span>
+                <span className="btpxid-price-period">/ month</span>
               </div>
               <ul className="btpxid-plan-features">
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Everything in Pro, plus:</span>
+                  <span>User management across Global Account, Subaccount, CF Org, CF Space and directories</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Unlimited Global Accounts</span>
+                  <span>Single Global Account</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Time-based user automation — auto-remove, auto-deactivate, auto-assign roles</span>
+                  <span>Reverse Lookup</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Export user list to Excel</span>
+                  <span>Mass add & edit users</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Clean up by last login or missing roles</span>
+                  <span>Service Key Management</span>
                 </li>
                 <li>
                   <CheckCircle className="h-4 w-4" />
-                  <span>Priority support</span>
+                  <span>Assign users across multiple accounts in one click</span>
                 </li>
               </ul>
-              <button
-                onClick={() => scrollToSection("#download")}
-                className="btpxid-plan-btn btpxid-plan-btn-primary"
+              <a
+                href="http://account.terrabt.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Start Free Trial
-              </button>
+                <button className="btpxid-plan-btn btpxid-plan-btn-primary">
+                  Subscribe
+                </button>
+              </a>
             </div>
           </div>
         </div>
