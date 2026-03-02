@@ -11,7 +11,6 @@ import {
   Download,
   ArrowLeft,
   Check,
-  Monitor,
   Users,
   Search,
   Shield,
@@ -20,7 +19,9 @@ import {
   Star,
   Building2,
   Zap,
+  Monitor,
 } from "lucide-react";
+import { FaApple, FaWindows } from "react-icons/fa6";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
 type OS = "windows" | "macos-silicon" | "macos-intel";
@@ -29,12 +30,13 @@ interface DownloadOption {
   id: OS;
   label: string;
   sublabel: string;
+  Icon: React.ComponentType<{ className?: string }>;
 }
 
 const downloadOptions: DownloadOption[] = [
-  { id: "windows", label: "Windows", sublabel: "Windows 10 / 11" },
-  { id: "macos-silicon", label: "macOS Apple Silicon", sublabel: "M1, M2, M3, M4" },
-  { id: "macos-intel", label: "macOS Intel", sublabel: "Intel x64" },
+  { id: "windows",       label: "Windows",             sublabel: "Windows 10 / 11", Icon: FaWindows },
+  { id: "macos-silicon", label: "MacOS Apple Silicon",  sublabel: "M1, M2, M3, M4", Icon: FaApple  },
+  { id: "macos-intel",   label: "MacOS Intel",          sublabel: "Intel x64",       Icon: FaApple  },
 ];
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
@@ -222,7 +224,7 @@ export default function Products() {
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead
         title="BTP xID — SAP BTP User Management Desktop App | TerraBT Products"
-        description="BTP xID is a desktop application that gives IT administrators a single interface to manage users across an entire SAP BTP landscape. Available for Windows and macOS."
+        description="BTP xID is a desktop application that gives IT administrators a single interface to manage users across an entire SAP BTP landscape. Available for Windows and MacOS."
         path="/products/btp-xid"
       />
       <Navigation />
@@ -432,6 +434,7 @@ export default function Products() {
                 }`}
                 data-testid={`button-os-${option.id}`}
               >
+                <option.Icon className={`h-5 w-5 ${selectedOS === option.id ? "text-primary" : "text-muted-foreground"}`} />
                 <span className="font-semibold">{option.label}</span>
                 <span className="text-xs font-normal text-muted-foreground">{option.sublabel}</span>
                 {selectedOS === option.id && (
@@ -444,13 +447,13 @@ export default function Products() {
           {downloadUrl ? (
             <a href={downloadUrl} data-testid="button-download-main">
               <Button size="lg" className="gap-2 w-full sm:w-auto px-12">
-                <Download className="h-5 w-5" />
+                <selectedDownload.Icon className="h-5 w-5" />
                 Download for {selectedDownload.label}
               </Button>
             </a>
           ) : (
             <Button size="lg" className="gap-2 w-full sm:w-auto px-12" disabled>
-              <Download className="h-5 w-5" />
+              <selectedDownload.Icon className="h-5 w-5" />
               {versionInfo === null ? "Loading..." : "Download for " + selectedDownload.label}
             </Button>
           )}

@@ -10,12 +10,11 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   ArrowRight,
   Download,
-  Apple,
-  Monitor,
   CheckCircle,
   ArrowLeft,
   Shield,
 } from "lucide-react";
+import { FaApple, FaWindows, FaLinux } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
@@ -54,16 +53,16 @@ function detectArch(): "arm64" | "x64" {
 }
 
 const OS_LABELS: Record<OSType, string> = {
-  mac: "macOS",
+  mac: "MacOS",
   windows: "Windows",
   linux: "Linux",
   unknown: "your platform",
 };
 
-const OS_ICONS: Record<OSType, typeof Apple> = {
-  mac: Apple,
-  windows: Monitor,
-  linux: Monitor,
+const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
+  mac: FaApple,
+  windows: FaWindows,
+  linux: FaLinux,
   unknown: Download,
 };
 
@@ -77,14 +76,14 @@ interface DownloadOption {
 
 const ALL_DOWNLOADS: DownloadOption[] = [
   {
-    label: "macOS (Apple Silicon)",
+    label: "MacOS (Apple Silicon)",
     description: "DMG for M1, M2, M3, M4 Macs",
     fileName: "BTP-xID-mac-arm64.dmg",
     os: "mac",
     arch: "arm64",
   },
   {
-    label: "macOS (Intel)",
+    label: "MacOS (Intel)",
     description: "DMG for Intel-based Macs",
     fileName: "BTP-xID-mac-x64.dmg",
     os: "mac",
@@ -462,31 +461,35 @@ export default function BTPxIDProduct() {
           {/* All download options */}
           {showAllDownloads && (
             <div className="btpxid-download-grid">
-              {ALL_DOWNLOADS.map((dl) => (
-                <button
-                  key={dl.fileName}
-                  onClick={() => {
-                    /* TODO: actual download URL */
-                  }}
-                  className="btpxid-download-option"
-                >
-                  <div>
-                    <div className="btpxid-download-option-label">
-                      {dl.label}
+              {ALL_DOWNLOADS.map((dl) => {
+                const PlatformIcon = OS_ICONS[dl.os];
+                return (
+                  <button
+                    key={dl.fileName}
+                    onClick={() => {
+                      /* TODO: actual download URL */
+                    }}
+                    className="btpxid-download-option"
+                  >
+                    <PlatformIcon className="h-5 w-5 flex-shrink-0 text-muted-foreground" />
+                    <div className="flex-1 text-left">
+                      <div className="btpxid-download-option-label">
+                        {dl.label}
+                      </div>
+                      <div className="btpxid-download-option-desc">
+                        {dl.description}
+                      </div>
                     </div>
-                    <div className="btpxid-download-option-desc">
-                      {dl.description}
-                    </div>
-                  </div>
-                  <Download className="h-4 w-4 flex-shrink-0" />
-                </button>
-              ))}
+                    <Download className="h-4 w-4 flex-shrink-0" />
+                  </button>
+                );
+              })}
             </div>
           )}
 
           <div className="btpxid-download-info">
             <p>
-              Version 1.0.0 · Requires macOS 12+, Windows 10+, or Ubuntu 20.04+
+              Version 1.0.0 · Requires MacOS 12+, Windows 10+, or Ubuntu 20.04+
             </p>
             <p>
               By downloading, you agree to the{" "}
