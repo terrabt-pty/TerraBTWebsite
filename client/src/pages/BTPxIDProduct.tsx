@@ -19,14 +19,14 @@ import {
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
-const BADGE_MESSAGES = [
-  "The world's first SAP BTP user management desktop app",
-  "Stop ex-employees from retaining access after they leave",
-  "Spot over-privileged users before your next security audit",
-  "One app. Every user. Every scope. No cockpit tabs.",
-  "Remove a user fully — from Global Account to CF Space — in one action",
-  "Ghost accounts and shadow users don't hide from BTP xID",
-  "Know exactly who can access what, before your auditor asks",
+const VALUE_PROPS = [
+  { text: "World's first BTP user mgmt app", dot: "#4CAF50" },
+  { text: "Ex-employee still has access?",   dot: "#E8A838" },
+  { text: "Over-privileged users — exposed", dot: "#E8A838" },
+  { text: "One app. Every user. All scopes", dot: "#4CAF50" },
+  { text: "Ghost accounts — made visible",   dot: "#E8A838" },
+  { text: "Know who has what — before audits", dot: "#2A7088" },
+  { text: "SAP OAuth — nothing stored",      dot: "#4CAF50" },
 ];
 
 type OSType = "mac" | "windows" | "linux" | "unknown";
@@ -140,8 +140,8 @@ export default function BTPxIDProduct() {
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
-  const [badgeIdx, setBadgeIdx] = useState(0);
-  const [badgeFading, setBadgeFading] = useState(false);
+  const [cardRound, setCardRound] = useState(0);
+  const [cardsFading, setCardsFading] = useState(false);
   const { getLocalizedPath } = useLocalizedPath();
 
   useEffect(() => {
@@ -151,10 +151,10 @@ export default function BTPxIDProduct() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setBadgeFading(true);
+      setCardsFading(true);
       setTimeout(() => {
-        setBadgeIdx((i) => (i + 1) % BADGE_MESSAGES.length);
-        setBadgeFading(false);
+        setCardRound((r) => r + 1);
+        setCardsFading(false);
       }, 300);
     }, 4000);
     return () => clearInterval(interval);
@@ -188,16 +188,6 @@ export default function BTPxIDProduct() {
 
         <div className="btpxid-hero-inner">
           <div className="btpxid-hero-content">
-            <div className="btpxid-badge">
-              <span className="btpxid-badge-dot" />
-              <span
-                className="btpxid-badge-text"
-                style={{ opacity: badgeFading ? 0 : 1, transition: "opacity 0.3s ease" }}
-              >
-                {BADGE_MESSAGES[badgeIdx]}
-              </span>
-            </div>
-
             <h1 className="btpxid-title">
               One app.
               <br />
@@ -231,26 +221,6 @@ export default function BTPxIDProduct() {
               </button>
             </div>
 
-            <div className="btpxid-trust-bar">
-              <div className="btpxid-trust-item">
-                <span className="btpxid-trust-number">1st</span>
-                <span className="btpxid-trust-label">
-                  SAP BTP User Management App
-                </span>
-              </div>
-              <div className="btpxid-trust-divider" />
-              <div className="btpxid-trust-item">
-                <span className="btpxid-trust-number">100%</span>
-                <span className="btpxid-trust-label">SAP BTP Specialized</span>
-              </div>
-              <div className="btpxid-trust-divider" />
-              <div className="btpxid-trust-item">
-                <span className="btpxid-trust-number">3</span>
-                <span className="btpxid-trust-label">
-                  Platforms Supported
-                </span>
-              </div>
-            </div>
           </div>
 
           <div className="btpxid-visual">
@@ -269,23 +239,20 @@ export default function BTPxIDProduct() {
                 </div>
               </div>
 
-              {/* Floating annotation cards */}
-              <div className="btpxid-float-card btpxid-fc-1">
-                <span className="btpxid-dot" style={{ background: "#E8A838" }} />
-                User left — still has access
-              </div>
-              <div className="btpxid-float-card btpxid-fc-2">
-                <span className="btpxid-dot" style={{ background: "#4CAF50" }} />
-                Removed from all scopes
-              </div>
-              <div className="btpxid-float-card btpxid-fc-3">
-                <span className="btpxid-dot" style={{ background: "#2A7088" }} />
-                Reverse lookup — any user
-              </div>
-              <div className="btpxid-float-card btpxid-fc-4">
-                <span className="btpxid-dot" style={{ background: "#1E5099" }} />
-                GA → Subaccount → CF Space
-              </div>
+              {/* Floating value-prop cards — cycle through all messages */}
+              {[0, 2, 4, 6].map((offset, i) => {
+                const prop = VALUE_PROPS[(cardRound + offset) % VALUE_PROPS.length];
+                return (
+                  <div
+                    key={i}
+                    className={`btpxid-float-card btpxid-fc-${i + 1}`}
+                    style={{ opacity: cardsFading ? 0 : 1, transition: "opacity 0.3s ease" }}
+                  >
+                    <span className="btpxid-dot" style={{ background: prop.dot }} />
+                    {prop.text}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
