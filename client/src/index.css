@@ -654,10 +654,10 @@
   flex-shrink: 0;
 }
 
-.btpxid-fc-1 { top: -20px; right: -60px; animation-delay: -1s; }
-.btpxid-fc-2 { bottom: 40px; left: -80px; animation-delay: -3s; }
-.btpxid-fc-3 { bottom: -10px; right: -40px; animation-delay: -5s; }
-.btpxid-fc-4 { top: 50px; left: -60px; animation-delay: -2s; }
+.btpxid-fc-1 { top: -16px; right: -90px; animation-delay: -1s; }
+.btpxid-fc-2 { bottom: 80px; left: -120px; animation-delay: -3s; }
+.btpxid-fc-3 { bottom: -16px; right: -80px; animation-delay: -5s; }
+.btpxid-fc-4 { top: 80px; left: -120px; animation-delay: -2s; }
 
 /* ===== BTP xID Features Section ===== */
 .btpxid-features {
@@ -1685,6 +1685,42 @@
   .btpxid-download {
     padding: 60px 0 80px;
   }
+}
+
+/* ===== HERO SCREENSHOT FRAME ===== */
+.btpxid-screenshot-frame {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  animation: btpxid-iconFloat 6s ease-in-out infinite;
+  max-width: 520px;
+  width: 100%;
+}
+
+.btpxid-screenshot-main {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btpxid-shield-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(8, 12, 26, 0.92);
+  border: 1px solid rgba(76, 175, 80, 0.5);
+  border-radius: 8px;
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #4CAF50;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
 }
 
 /* ===== SECURITY SECTION ===== */

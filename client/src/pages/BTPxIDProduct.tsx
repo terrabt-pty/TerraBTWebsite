@@ -13,8 +13,10 @@ import {
   Monitor,
   CheckCircle,
   ArrowLeft,
+  Shield,
 } from "lucide-react";
 import btpxidIcon from "@assets/btp-xid-icon.png";
+import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
 const BADGE_MESSAGES = [
   "The world's first SAP BTP user management desktop app",
@@ -252,40 +254,36 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-visual">
             <div className="btpxid-icon-showcase">
-              <img
-                src={btpxidIcon}
-                alt="BTP xID App Icon"
-                className="btpxid-icon-main"
-                width={200}
-                height={200}
-              />
-              <div className="btpxid-float-card btpxid-fc-1">
-                <span
-                  className="btpxid-dot"
-                  style={{ background: "#4CAF50" }}
+              {/* Product screenshot — the actual app */}
+              <div className="btpxid-screenshot-frame">
+                <img
+                  src={userListImg}
+                  alt="BTP xID — User management across all SAP BTP scopes"
+                  className="btpxid-screenshot-main"
                 />
-                Global Accounts
+                {/* Shield security trust badge overlaid on screenshot */}
+                <div className="btpxid-shield-badge">
+                  <Shield className="h-3 w-3" />
+                  SAP OAuth · No credentials stored
+                </div>
+              </div>
+
+              {/* Floating annotation cards */}
+              <div className="btpxid-float-card btpxid-fc-1">
+                <span className="btpxid-dot" style={{ background: "#E8A838" }} />
+                User left — still has access
               </div>
               <div className="btpxid-float-card btpxid-fc-2">
-                <span
-                  className="btpxid-dot"
-                  style={{ background: "#1E5099" }}
-                />
-                Subaccounts & CF Spaces
+                <span className="btpxid-dot" style={{ background: "#4CAF50" }} />
+                Removed from all scopes
               </div>
               <div className="btpxid-float-card btpxid-fc-3">
-                <span
-                  className="btpxid-dot"
-                  style={{ background: "#2A7088" }}
-                />
-                Bulk Operations
+                <span className="btpxid-dot" style={{ background: "#2A7088" }} />
+                Reverse lookup — any user
               </div>
               <div className="btpxid-float-card btpxid-fc-4">
-                <span
-                  className="btpxid-dot"
-                  style={{ background: "#E8A838" }}
-                />
-                Reverse Search
+                <span className="btpxid-dot" style={{ background: "#1E5099" }} />
+                GA → Subaccount → CF Space
               </div>
             </div>
           </div>
