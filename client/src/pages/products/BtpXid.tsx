@@ -17,17 +17,11 @@ import {
   Shield,
   Key,
   RefreshCw,
-  ChevronLeft,
-  ChevronRight,
   Star,
   Building2,
   Zap,
 } from "lucide-react";
-import dashboardImg from "@assets/BTP_xID_Dashboard_1772336098798.png";
-import connectionsImg from "@assets/BTP_xID_Connections_1772336098798.png";
-import addConnectionImg from "@assets/BTP_xID_Add_New_Connections_1772336098798.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
-import settingsImg from "@assets/BTP_xID_Settings_Page_1772336098798.png";
 
 type OS = "windows" | "macos-silicon" | "macos-intel" | "linux";
 
@@ -46,11 +40,7 @@ const downloadOptions: DownloadOption[] = [
 ];
 
 const screenshots = [
-  { src: dashboardImg, caption: "Dashboard — landscape overview of all connected accounts and CF environments" },
-  { src: connectionsImg, caption: "Connections — manage SAP BTP Global Accounts and Cloud Foundry regions" },
-  { src: addConnectionImg, caption: "Guided Onboarding — step-by-step wizard for first-time setup" },
   { src: userListImg, caption: "User List — hierarchical view across Global Account → Subaccount → CF Org → CF Space" },
-  { src: settingsImg, caption: "Settings — session timeout, license status, and software updates" },
 ];
 
 const features = [
@@ -194,7 +184,6 @@ function detectOS(): OS {
 export default function Products() {
   const { getLocalizedPath } = useLocalizedPath();
   const [selectedOS, setSelectedOS] = useState<OS>("windows");
-  const [screenshotIndex, setScreenshotIndex] = useState(0);
 
   useEffect(() => {
     setSelectedOS(detectOS());
@@ -202,10 +191,6 @@ export default function Products() {
 
   const selectedDownload = downloadOptions.find((o) => o.id === selectedOS)!;
 
-  const prevScreenshot = () =>
-    setScreenshotIndex((i) => (i === 0 ? screenshots.length - 1 : i - 1));
-  const nextScreenshot = () =>
-    setScreenshotIndex((i) => (i === screenshots.length - 1 ? 0 : i + 1));
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -273,42 +258,16 @@ export default function Products() {
           <div className="relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl border bg-card">
               <img
-                src={screenshots[screenshotIndex].src}
-                alt={screenshots[screenshotIndex].caption}
+                src={screenshots[0].src}
+                alt={screenshots[0].caption}
                 className="w-full h-auto"
                 data-testid="img-hero-screenshot"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3">
                 <p className="text-white text-sm" data-testid="text-screenshot-caption">
-                  {screenshots[screenshotIndex].caption}
+                  {screenshots[0].caption}
                 </p>
               </div>
-            </div>
-            <div className="flex items-center justify-between mt-3">
-              <button
-                onClick={prevScreenshot}
-                className="p-2 rounded-md hover-elevate text-muted-foreground hover:text-foreground transition-colors"
-                data-testid="button-screenshot-prev"
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </button>
-              <div className="flex gap-1.5" data-testid="screenshot-dots">
-                {screenshots.map((_, i) => (
-                  <button
-                    key={i}
-                    onClick={() => setScreenshotIndex(i)}
-                    className={`h-1.5 rounded-full transition-all ${i === screenshotIndex ? "w-6 bg-primary" : "w-1.5 bg-muted-foreground/30"}`}
-                    data-testid={`dot-screenshot-${i}`}
-                  />
-                ))}
-              </div>
-              <button
-                onClick={nextScreenshot}
-                className="p-2 rounded-md hover-elevate text-muted-foreground hover:text-foreground transition-colors"
-                data-testid="button-screenshot-next"
-              >
-                <ChevronRight className="h-5 w-5" />
-              </button>
             </div>
           </div>
         </div>
@@ -340,26 +299,6 @@ export default function Products() {
               </Card>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Screenshots Gallery */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-        <h2 className="text-3xl font-bold mb-8 text-center" data-testid="text-screenshots-heading">See It In Action</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {screenshots.map((s, i) => (
-            <button
-              key={i}
-              onClick={() => {
-                setScreenshotIndex(i);
-                document.getElementById("hero-screenshot")?.scrollIntoView({ behavior: "smooth" });
-              }}
-              className={`rounded-lg overflow-hidden border transition-all hover-elevate ${i === screenshotIndex ? "ring-2 ring-primary" : ""}`}
-              data-testid={`img-screenshot-${i}`}
-            >
-              <img src={s.src} alt={s.caption} className="w-full h-auto" />
-            </button>
-          ))}
         </div>
       </section>
 
