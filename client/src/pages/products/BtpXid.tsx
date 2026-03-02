@@ -90,7 +90,7 @@ const features = [
   },
 ];
 
-const SUBSCRIBE_URL = "http://account.terrabt.com/login";
+const SUBSCRIBE_URL = "https://accounts.terrabt.com/auth/login";
 
 interface PricingTier {
   name: string;
@@ -386,8 +386,6 @@ export default function Products() {
                   </ul>
                   <a
                     href={SUBSCRIBE_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     data-testid={`button-subscribe-${tier.name.toLowerCase()}`}
                   >
                     <Button
@@ -404,9 +402,9 @@ export default function Products() {
 
           <div className="mt-8 text-center">
             <p className="text-sm text-muted-foreground mb-3">Manage your subscription and account at any time</p>
-            <a href={SUBSCRIBE_URL} target="_blank" rel="noopener noreferrer" data-testid="link-manage-account">
+            <a href={SUBSCRIBE_URL} data-testid="link-manage-account">
               <Button variant="outline" size="sm">
-                Manage Account at account.terrabt.com
+                Manage Account at accounts.terrabt.com
               </Button>
             </a>
           </div>
@@ -418,7 +416,7 @@ export default function Products() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-3" data-testid="text-download-heading">Download BTP xID</h2>
           <p className="text-muted-foreground mb-10">
-            Install the desktop app, then log in through the app — authentication is handled securely via account.terrabt.com.
+            Install the desktop app, then log in through the app — authentication is handled securely via accounts.terrabt.com.
           </p>
 
           {/* OS selector */}
@@ -465,7 +463,7 @@ export default function Products() {
             <ol className="list-decimal list-inside space-y-1">
               <li>Download and install BTP xID on your desktop</li>
               <li>Open the app and click <strong>Login</strong></li>
-              <li>You'll be authenticated securely via <strong>account.terrabt.com</strong></li>
+              <li>You'll be authenticated securely via <strong>accounts.terrabt.com</strong></li>
               <li>Connect your SAP BTP Global Account subdomain</li>
               <li>Start managing users across your entire landscape</li>
             </ol>

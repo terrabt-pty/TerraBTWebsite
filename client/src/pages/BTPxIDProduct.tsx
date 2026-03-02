@@ -406,9 +406,7 @@ export default function BTPxIDProduct() {
                 </li>
               </ul>
               <a
-                href="http://account.terrabt.com/login"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://accounts.terrabt.com/auth/login"
               >
                 <button className="btpxid-plan-btn btpxid-plan-btn-primary">
                   Subscribe
