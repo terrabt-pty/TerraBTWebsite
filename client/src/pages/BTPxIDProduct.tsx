@@ -16,6 +16,16 @@ import {
 } from "lucide-react";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 
+const BADGE_MESSAGES = [
+  "The world's first SAP BTP user management desktop app",
+  "Stop ex-employees from retaining access after they leave",
+  "Spot over-privileged users before your next security audit",
+  "One app. Every user. Every scope. No cockpit tabs.",
+  "Remove a user fully — from Global Account to CF Space — in one action",
+  "Ghost accounts and shadow users don't hide from BTP xID",
+  "Know exactly who can access what, before your auditor asks",
+];
+
 type OSType = "mac" | "windows" | "linux" | "unknown";
 
 function detectOS(): OSType {
@@ -127,11 +137,24 @@ export default function BTPxIDProduct() {
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
+  const [badgeIdx, setBadgeIdx] = useState(0);
+  const [badgeFading, setBadgeFading] = useState(false);
   const { getLocalizedPath } = useLocalizedPath();
 
   useEffect(() => {
     setOS(detectOS());
     setArch(detectArch());
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBadgeFading(true);
+      setTimeout(() => {
+        setBadgeIdx((i) => (i + 1) % BADGE_MESSAGES.length);
+        setBadgeFading(false);
+      }, 300);
+    }, 4000);
+    return () => clearInterval(interval);
   }, []);
 
   const primaryDownload = getPrimaryDownload(os, arch);
@@ -164,7 +187,12 @@ export default function BTPxIDProduct() {
           <div className="btpxid-hero-content">
             <div className="btpxid-badge">
               <span className="btpxid-badge-dot" />
-              The World's First SAP BTP User Management App
+              <span
+                className="btpxid-badge-text"
+                style={{ opacity: badgeFading ? 0 : 1, transition: "opacity 0.3s ease" }}
+              >
+                {BADGE_MESSAGES[badgeIdx]}
+              </span>
             </div>
 
             <h1 className="btpxid-title">
@@ -269,6 +297,45 @@ export default function BTPxIDProduct() {
 
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />
+
+      {/* ===== SECURITY ===== */}
+      <section className="btpxid-security">
+        <div className="btpxid-security-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-security-shield-icon">🛡️</div>
+            <div className="btpxid-features-label">Security</div>
+            <h2 className="btpxid-showcase-title">
+              Built for admins who take security seriously.
+            </h2>
+            <p className="btpxid-showcase-sub">
+              BTP xID connects to your SAP BTP landscape using standard SAP APIs and SAP's own authentication.
+              We never see, store, or touch your credentials — ever.
+            </p>
+          </div>
+          <div className="btpxid-security-grid">
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🔒</div>
+              <h3>No credentials stored</h3>
+              <p>BTP xID never stores your SAP BTP passwords, tokens, or service keys. Authentication flows directly through SAP's own OAuth infrastructure — not through our servers.</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🖥️</div>
+              <h3>Your data stays on your machine</h3>
+              <p>This is a local desktop app. Your user lists, session data, and account details never leave your machine. TerraBT has no visibility into your BTP landscape.</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🔑</div>
+              <h3>SAP authentication</h3>
+              <p>Log in with your existing SAP identity. BTP xID uses the same secure API channels SAP provides to every platform administrator — no new accounts, no new passwords.</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">👁️</div>
+              <h3>See what SAP Cockpit hides</h3>
+              <p>Ghost IDs, shadow users, and orphaned accounts accumulate silently across subaccounts. BTP xID surfaces every user across every scope — including the ones your standard cockpit view misses.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ===== PRICING ===== */}
       <section className="btpxid-pricing" id="pricing">
