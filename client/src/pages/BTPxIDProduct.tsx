@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
 import BTPxIDShowcase from "@/components/BTPxIDShowcase";
+import SecurityShield from "@/components/SecurityShield";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -300,7 +301,7 @@ export default function BTPxIDProduct() {
       <section className="btpxid-security">
         <div className="btpxid-security-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-security-shield-icon">🛡️</div>
+            <SecurityShield className="btpxid-security-shield-icon" />
             <div className="btpxid-features-label">Security</div>
             <h2 className="btpxid-showcase-title">
               Built for admins who take security seriously.

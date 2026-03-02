@@ -11,14 +11,10 @@ export default function BTPxIDShowcase() {
             By SAP BTP experts.
           </h2>
           <p className="btpxid-showcase-sub">
-            The only desktop app purpose-built for SAP BTP user management.
+            The only desktop app purpose-built for SAP BTP user management —
+            view every user across global accounts, sub-accounts, CF orgs, and CF spaces in one unified list.
           </p>
         </div>
-
-        {/* Description */}
-        <p className="btpxid-showcase-desc">
-          View every user across all scopes — global accounts, sub-accounts, CF orgs, and CF spaces — in one unified list.
-        </p>
 
         {/* Screenshot */}
         <div className="btpxid-screenshot-wrap">
