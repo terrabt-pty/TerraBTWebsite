@@ -211,19 +211,27 @@ export default function BTPxIDProduct() {
             </p>
 
             <div className="btpxid-actions">
-              {primaryDownloadUrl ? (
-                <a href={primaryDownloadUrl} className="btpxid-btn-primary">
-                  <Download className="h-4 w-4" />
-                  <span>Download for {OS_LABELS[os]}</span>
-                  <ArrowRight className="h-4 w-4" />
-                </a>
-              ) : (
-                <button disabled className="btpxid-btn-primary" style={{ opacity: 0.7 }}>
-                  <Download className="h-4 w-4" />
-                  <span>Loading...</span>
-                  <ArrowRight className="h-4 w-4" />
+              <div className="btpxid-download-group">
+                {primaryDownloadUrl ? (
+                  <a href={primaryDownloadUrl} className="btpxid-btn-primary">
+                    <Download className="h-4 w-4" />
+                    <span>Download for {OS_LABELS[os]}</span>
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
+                ) : (
+                  <button disabled className="btpxid-btn-primary" style={{ opacity: 0.7 }}>
+                    <Download className="h-4 w-4" />
+                    <span>Loading...</span>
+                    <ArrowRight className="h-4 w-4" />
+                  </button>
+                )}
+                <button
+                  onClick={() => scrollToSection("#download")}
+                  className="btpxid-hero-all-downloads-link"
+                >
+                  Show all download options
                 </button>
-              )}
+              </div>
               <button
                 onClick={() => scrollToSection("#pricing")}
                 className="btpxid-btn-secondary"
