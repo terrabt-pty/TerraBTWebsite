@@ -34,7 +34,7 @@ import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInno
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
-import BTPxIDProduct from "@/pages/BTPxIDProduct";
+import BTPxIDProduct from "@/pages/products/BtpXid";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
