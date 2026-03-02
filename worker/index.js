@@ -24,8 +24,27 @@ export default {
     if ((country === 'AU' || country === 'NZ') && !hasBypassCookie && accessToken !== SECRET_ACCESS_TOKEN) {
       const allowedIPs = ['210.50.179.69'];
 
-      // If the IP is not in the allowed list, block the request
-      if (!allowedIPs.includes(clientIP)) {
+      // Paths that ANZ users may always access, regardless of geo-block.
+      // Handles plain paths (/products/btp-xid) AND language-prefixed paths (/en/products/btp-xid).
+      const ANZ_ALLOWED_PATHS = [
+        '/products/btp-xid',
+        // TODO: add the real BTP xID download URL here once known, e.g. '/downloads/btp-xid'
+      ];
+
+      // Strip a leading language prefix (e.g. /en/ or /ja-JP/) so the check works for all locales.
+      const pathSegments = url.pathname.split('/').filter(Boolean);
+      const firstSegment = pathSegments[0] ?? '';
+      const langPrefixRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
+      const normalizedPath = langPrefixRegex.test(firstSegment)
+        ? '/' + pathSegments.slice(1).join('/')
+        : url.pathname;
+
+      const isAnzAllowed = ANZ_ALLOWED_PATHS.some(
+        (allowed) => normalizedPath === allowed || normalizedPath.startsWith(allowed + '/')
+      );
+
+      // If the IP is not in the allowed list and the path is not ANZ-exempt, block the request
+      if (!isAnzAllowed && !allowedIPs.includes(clientIP)) {
         return new Response('', {
           status: 403,
           headers: { 'Content-Type': 'text/plain' }

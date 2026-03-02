@@ -20,7 +20,7 @@ import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
 const VALUE_PROPS = [
-  { text: "World's first BTP user mgmt app", dot: "#4CAF50" },
+  { text: "Only BTP user mgmt app you'll ever need", dot: "#4CAF50" },
   { text: "Ex-employee still has access?",   dot: "#E8A838" },
   { text: "Over-privileged users — exposed", dot: "#E8A838" },
   { text: "One app. Every user. All scopes", dot: "#4CAF50" },
@@ -188,6 +188,9 @@ export default function BTPxIDProduct() {
 
         <div className="btpxid-hero-inner">
           <div className="btpxid-hero-content">
+            <div className="btpxid-app-icon-wrap">
+              <img src={btpxidIcon} alt="BTP xID" className="btpxid-app-icon" />
+            </div>
             <h1 className="btpxid-title">
               One app.
               <br />
