@@ -5,12 +5,19 @@
  */
 export default {
   async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    // Pass through all requests to updates.terrabt.com without geo-blocking or HTML rewriting.
+    // This allows ANZ users (and everyone else) to download BTP xID files directly.
+    if (url.hostname === 'updates.terrabt.com') {
+      return fetch(request);
+    }
+
     // Geo-blocking logic for Australia and New Zealand
     const country = request.cf?.country;
     const clientIP = request.headers.get("CF-Connecting-IP");
 
     // Check for "Magic Link" access token to bypass geo-blocking
-    const url = new URL(request.url);
     const accessToken = url.searchParams.get("access_token");
     const cookieHeader = request.headers.get("Cookie") || "";
 
@@ -28,7 +35,6 @@ export default {
       // Handles plain paths (/products/btp-xid) AND language-prefixed paths (/en/products/btp-xid).
       const ANZ_ALLOWED_PATHS = [
         '/products/btp-xid',
-        // TODO: add the real BTP xID download URL here once known, e.g. '/downloads/btp-xid'
       ];
 
       // Strip a leading language prefix (e.g. /en/ or /ja-JP/) so the check works for all locales.

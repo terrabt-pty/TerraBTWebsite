@@ -11,3 +11,7 @@ zone_name = "terrabt.com"
 [[routes]]
 pattern = "www.terrabt.com/*"
 zone_name = "terrabt.com"
+
+[[routes]]
+pattern = "updates.terrabt.com/*"
+zone_name = "terrabt.com"
