@@ -111,10 +111,10 @@ const ALL_DOWNLOADS: DownloadOption[] = [
 
 function getDownloadUrl(id: DownloadOption["id"], v: VersionInfo): string {
   const map: Record<DownloadOption["id"], string> = {
-    "mac-arm64":     `${R2_BASE}/${encodeURIComponent(v.mac.arm64)}`,
-    "mac-x64":       `${R2_BASE}/${encodeURIComponent(v.mac.x64)}`,
-    "win-installer": `${R2_BASE}/${encodeURIComponent(v.win.x64)}`,
-    "win-portable":  `${R2_BASE}/${encodeURIComponent(v.win.portable)}`,
+    "mac-arm64":     `${R2_BASE}/${v.mac.arm64}`,
+    "mac-x64":       `${R2_BASE}/${v.mac.x64}`,
+    "win-installer": `${R2_BASE}/${v.win.x64}`,
+    "win-portable":  `${R2_BASE}/${v.win.portable}`,
   };
   return map[id];
 }
