@@ -81,14 +81,14 @@ interface DownloadOption {
 const ALL_DOWNLOADS: DownloadOption[] = [
   {
     id: "mac-arm64",
-    label: "macOS Apple Silicon",
+    label: "MacOS Apple Silicon",
     description: "DMG for M1, M2, M3, M4 Macs",
     os: "mac",
     arch: "arm64",
   },
   {
     id: "mac-x64",
-    label: "macOS Intel",
+    label: "MacOS Intel",
     description: "DMG for Intel-based Macs",
     os: "mac",
     arch: "x64",
@@ -179,7 +179,7 @@ export default function BTPxIDProduct() {
     <div className="min-h-screen">
       <SEOHead
         title="BTP xID — SAP BTP User Management | TerraBT"
-        description="The world's first desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place. Available for Windows and macOS."
+        description="The world's first desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place. Available for Windows and MacOS."
         path="/products/btp-xid"
       />
       <Navigation />
@@ -501,7 +501,7 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-download-info">
             <p>
-              {versionInfo ? `Version ${versionInfo.version}` : "Loading version..."} · Requires macOS 12+ or Windows 10+
+              {versionInfo ? `Version ${versionInfo.version}` : "Loading version..."} · Requires MacOS 12+ or Windows 10+
             </p>
             <p>
               By downloading, you agree to the{" "}
