@@ -14,7 +14,7 @@ import {
   ArrowLeft,
   Shield,
 } from "lucide-react";
-import { FaApple, FaWindows, FaLinux } from "react-icons/fa6";
+import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
@@ -28,20 +28,26 @@ const VALUE_PROPS = [
   { text: "SAP OAuth — nothing stored",      dot: "#4CAF50" },
 ];
 
-type OSType = "mac" | "windows" | "linux" | "unknown";
+const R2_BASE = "https://updates.terrabt.com/btp-xid";
+
+interface VersionInfo {
+  version: string;
+  mac: { arm64: string; x64: string };
+  win: { x64: string; portable: string };
+}
+
+type OSType = "mac" | "windows" | "unknown";
 
 function detectOS(): OSType {
   const ua = navigator.userAgent.toLowerCase();
   if (ua.includes("mac")) return "mac";
   if (ua.includes("win")) return "windows";
-  if (ua.includes("linux")) return "linux";
   return "unknown";
 }
 
 function detectArch(): "arm64" | "x64" {
   const ua = navigator.userAgent.toLowerCase();
   if (ua.includes("arm") || ua.includes("aarch64")) return "arm64";
-  // Apple Silicon Macs report as Intel in user agent but we can check platform
   if (
     typeof navigator !== "undefined" &&
     // @ts-expect-error userAgentData is not in all browsers
@@ -55,69 +61,63 @@ function detectArch(): "arm64" | "x64" {
 const OS_LABELS: Record<OSType, string> = {
   mac: "MacOS",
   windows: "Windows",
-  linux: "Linux",
   unknown: "your platform",
 };
 
 const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
   mac: FaApple,
   windows: FaWindows,
-  linux: FaLinux,
   unknown: Download,
 };
 
 interface DownloadOption {
+  id: "mac-arm64" | "mac-x64" | "win-installer" | "win-portable";
   label: string;
   description: string;
-  fileName: string;
   os: OSType;
   arch?: string;
 }
 
 const ALL_DOWNLOADS: DownloadOption[] = [
   {
-    label: "MacOS (Apple Silicon)",
+    id: "mac-arm64",
+    label: "macOS Apple Silicon",
     description: "DMG for M1, M2, M3, M4 Macs",
-    fileName: "BTP-xID-mac-arm64.dmg",
     os: "mac",
     arch: "arm64",
   },
   {
-    label: "MacOS (Intel)",
+    id: "mac-x64",
+    label: "macOS Intel",
     description: "DMG for Intel-based Macs",
-    fileName: "BTP-xID-mac-x64.dmg",
     os: "mac",
     arch: "x64",
   },
   {
+    id: "win-installer",
     label: "Windows Installer",
     description: "NSIS installer for Windows 10/11",
-    fileName: "BTP-xID-Setup.exe",
     os: "windows",
     arch: "x64",
   },
   {
+    id: "win-portable",
     label: "Windows Portable",
     description: "No installation required",
-    fileName: "BTP-xID-Portable.exe",
     os: "windows",
-    arch: "x64",
-  },
-  {
-    label: "Linux AppImage",
-    description: "Runs on most Linux distributions",
-    fileName: "BTP-xID.AppImage",
-    os: "linux",
-    arch: "x64",
-  },
-  {
-    label: "Linux DEB",
-    description: "For Ubuntu, Debian, and derivatives",
-    fileName: "BTP-xID.deb",
-    os: "linux",
     arch: "x64",
   },
 ];
+
+function getDownloadUrl(id: DownloadOption["id"], v: VersionInfo): string {
+  const map: Record<DownloadOption["id"], string> = {
+    "mac-arm64":     `${R2_BASE}/${encodeURIComponent(v.mac.arm64)}`,
+    "mac-x64":       `${R2_BASE}/${encodeURIComponent(v.mac.x64)}`,
+    "win-installer": `${R2_BASE}/${encodeURIComponent(v.win.x64)}`,
+    "win-portable":  `${R2_BASE}/${encodeURIComponent(v.win.portable)}`,
+  };
+  return map[id];
+}
 
 function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
   if (os === "mac") {
@@ -127,10 +127,7 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
     );
   }
   if (os === "windows") {
-    return ALL_DOWNLOADS.find((d) => d.os === "windows" && !d.fileName.includes("Portable"))!;
-  }
-  if (os === "linux") {
-    return ALL_DOWNLOADS.find((d) => d.os === "linux" && d.fileName.includes("AppImage"))!;
+    return ALL_DOWNLOADS.find((d) => d.id === "win-installer")!;
   }
   return ALL_DOWNLOADS[0];
 }
@@ -141,6 +138,7 @@ export default function BTPxIDProduct() {
   const [showAllDownloads, setShowAllDownloads] = useState(false);
   const [cardRound, setCardRound] = useState(0);
   const [cardsFading, setCardsFading] = useState(false);
+  const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const { getLocalizedPath } = useLocalizedPath();
 
   useEffect(() => {
@@ -159,8 +157,16 @@ export default function BTPxIDProduct() {
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    fetch(`${R2_BASE}/version.json`)
+      .then((r) => r.json())
+      .then((data: VersionInfo) => setVersionInfo(data))
+      .catch(() => { /* stays null — buttons remain in loading state */ });
+  }, []);
+
   const primaryDownload = getPrimaryDownload(os, arch);
   const PrimaryIcon = OS_ICONS[os];
+  const primaryDownloadUrl = versionInfo ? getDownloadUrl(primaryDownload.id, versionInfo) : null;
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -173,7 +179,7 @@ export default function BTPxIDProduct() {
     <div className="min-h-screen">
       <SEOHead
         title="BTP xID — SAP BTP User Management | TerraBT"
-        description="The world's first desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place."
+        description="The world's first desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place. Available for Windows and macOS."
         path="/products/btp-xid"
       />
       <Navigation />
@@ -205,16 +211,19 @@ export default function BTPxIDProduct() {
             </p>
 
             <div className="btpxid-actions">
-              <button
-                onClick={() => {
-                  /* TODO: actual download URL */
-                }}
-                className="btpxid-btn-primary"
-              >
-                <Download className="h-4 w-4" />
-                <span>Download for {OS_LABELS[os]}</span>
-                <ArrowRight className="h-4 w-4" />
-              </button>
+              {primaryDownloadUrl ? (
+                <a href={primaryDownloadUrl} className="btpxid-btn-primary">
+                  <Download className="h-4 w-4" />
+                  <span>Download for {OS_LABELS[os]}</span>
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              ) : (
+                <button disabled className="btpxid-btn-primary" style={{ opacity: 0.7 }}>
+                  <Download className="h-4 w-4" />
+                  <span>Loading...</span>
+                  <ArrowRight className="h-4 w-4" />
+                </button>
+              )}
               <button
                 onClick={() => scrollToSection("#pricing")}
                 className="btpxid-btn-secondary"
@@ -404,9 +413,7 @@ export default function BTPxIDProduct() {
                   <span>Assign users across multiple accounts in one click</span>
                 </li>
               </ul>
-              <a
-                href="https://accounts.terrabt.com/auth/login"
-              >
+              <a href="https://accounts.terrabt.com/auth/login">
                 <button className="btpxid-plan-btn btpxid-plan-btn-primary">
                   Subscribe
                 </button>
@@ -432,23 +439,31 @@ export default function BTPxIDProduct() {
 
           {/* Primary OS download */}
           <div className="btpxid-download-primary">
-            <button
-              onClick={() => {
-                /* TODO: actual download URL */
-              }}
-              className="btpxid-download-btn"
-            >
-              <PrimaryIcon className="h-6 w-6" />
-              <div className="btpxid-download-btn-text">
-                <span className="btpxid-download-btn-title">
-                  Download for {primaryDownload.label}
-                </span>
-                <span className="btpxid-download-btn-desc">
-                  {primaryDownload.description}
-                </span>
-              </div>
-              <Download className="h-5 w-5" />
-            </button>
+            {primaryDownloadUrl ? (
+              <a href={primaryDownloadUrl} className="btpxid-download-btn">
+                <PrimaryIcon className="h-6 w-6" />
+                <div className="btpxid-download-btn-text">
+                  <span className="btpxid-download-btn-title">
+                    Download for {primaryDownload.label}
+                  </span>
+                  <span className="btpxid-download-btn-desc">
+                    {primaryDownload.description}
+                  </span>
+                </div>
+                <Download className="h-5 w-5" />
+              </a>
+            ) : (
+              <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
+                <PrimaryIcon className="h-6 w-6" />
+                <div className="btpxid-download-btn-text">
+                  <span className="btpxid-download-btn-title">Loading...</span>
+                  <span className="btpxid-download-btn-desc">
+                    {primaryDownload.description}
+                  </span>
+                </div>
+                <Download className="h-5 w-5" />
+              </button>
+            )}
 
             <button
               onClick={() => setShowAllDownloads(!showAllDownloads)}
@@ -462,23 +477,20 @@ export default function BTPxIDProduct() {
           {showAllDownloads && (
             <div className="btpxid-download-grid">
               {ALL_DOWNLOADS.map((dl) => {
-                const PlatformIcon = OS_ICONS[dl.os];
-                return (
-                  <button
-                    key={dl.fileName}
-                    onClick={() => {
-                      /* TODO: actual download URL */
-                    }}
-                    className="btpxid-download-option"
-                  >
-                    <PlatformIcon className="h-5 w-5 flex-shrink-0 text-muted-foreground" />
-                    <div className="flex-1 text-left">
-                      <div className="btpxid-download-option-label">
-                        {dl.label}
-                      </div>
-                      <div className="btpxid-download-option-desc">
-                        {dl.description}
-                      </div>
+                const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
+                return url ? (
+                  <a key={dl.id} href={url} className="btpxid-download-option">
+                    <div>
+                      <div className="btpxid-download-option-label">{dl.label}</div>
+                      <div className="btpxid-download-option-desc">{dl.description}</div>
+                    </div>
+                    <Download className="h-4 w-4 flex-shrink-0" />
+                  </a>
+                ) : (
+                  <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
+                    <div>
+                      <div className="btpxid-download-option-label">{dl.label}</div>
+                      <div className="btpxid-download-option-desc">{dl.description}</div>
                     </div>
                     <Download className="h-4 w-4 flex-shrink-0" />
                   </button>
@@ -489,7 +501,7 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-download-info">
             <p>
-              Version 1.0.0 · Requires MacOS 12+, Windows 10+, or Ubuntu 20.04+
+              {versionInfo ? `Version ${versionInfo.version}` : "Loading version..."} · Requires macOS 12+ or Windows 10+
             </p>
             <p>
               By downloading, you agree to the{" "}
