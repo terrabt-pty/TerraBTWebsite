@@ -16,8 +16,6 @@ export default function Navigation() {
   const scrollLinks = [
     { label: t('nav.home'), href: "#home" },
     { label: t('nav.services'), href: "#services" },
-    { label: t('nav.knowledge'), href: "#knowledge" },
-    { label: t('nav.contact'), href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -87,6 +85,13 @@ export default function Navigation() {
               </button>
             ))}
 
+            <Button
+              onClick={() => scrollToSection("#contact")}
+              className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
+              data-testid="button-schedule-consultation"
+            >
+              {t('nav.bookConsultation')}
+            </Button>
             <a
               href="https://accounts.terrabt.com/auth/login"
               className="flex items-center gap-1.5 text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
@@ -95,13 +100,6 @@ export default function Navigation() {
               <UserCircle className="h-4 w-4" />
               {t('nav.signIn')}
             </a>
-            <Button
-              onClick={() => scrollToSection("#contact")}
-              className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
-              data-testid="button-schedule-consultation"
-            >
-              {t('nav.bookConsultation')}
-            </Button>
             <LanguageSwitcher />
           </div>
 
@@ -158,6 +156,13 @@ export default function Navigation() {
               </button>
             ))}
 
+            <Button
+              className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
+              onClick={() => scrollToSection("#contact")}
+              data-testid="button-mobile-consultation"
+            >
+              {t('nav.bookConsultation')}
+            </Button>
             <a
               href="https://accounts.terrabt.com/auth/login"
               className="flex items-center gap-2 w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
@@ -166,13 +171,6 @@ export default function Navigation() {
               <UserCircle className="h-4 w-4" />
               {t('nav.signIn')}
             </a>
-            <Button
-              className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
-              onClick={() => scrollToSection("#contact")}
-              data-testid="button-mobile-consultation"
-            >
-              {t('nav.bookConsultation')}
-            </Button>
           </div>
         </div>
       )}
