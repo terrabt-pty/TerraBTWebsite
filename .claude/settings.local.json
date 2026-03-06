@@ -51,7 +51,8 @@
       "Bash(/tmp/fix_batch2_structure.js:*)",
       "Bash(__NEW_LINE_6be8c206e2eab443__ node /tmp/fix_batch2_structure.js)",
       "Bash(/tmp/final_merge.js:*)",
-      "Bash(__NEW_LINE_91b0e7749afedb28__ node /tmp/final_merge.js)"
+      "Bash(__NEW_LINE_91b0e7749afedb28__ node /tmp/final_merge.js)",
+      "WebSearch"
     ]
   }
 }

@@ -4,7 +4,8 @@
     "services": "Services",
     "knowledge": "Knowledge",
     "contact": "Contact",
-    "bookConsultation": "Book Free Consultation"
+    "bookConsultation": "Book Free Consultation",
+    "signIn": "Sign In"
   },
   "meta": {
     "home": {
@@ -207,6 +208,7 @@
     "resources": "Resources",
     "company": "Company",
     "about": "About Us",
+    "myAccount": "My Account",
     "contact": "Contact",
     "careers": "Careers",
     "blog": "Blog",

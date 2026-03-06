@@ -157,6 +157,15 @@ export default function Footer() {
                 </button>
               </li>
               <li>
+                <a
+                  href="https://accounts.terrabt.com/auth/login"
+                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+                  data-testid="link-my-account"
+                >
+                  {t('footer.myAccount')}
+                </a>
+              </li>
+              <li>
                 <button
                   onClick={() => scrollToSection("#contact")}
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
