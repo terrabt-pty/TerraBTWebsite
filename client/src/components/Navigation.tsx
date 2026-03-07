@@ -92,15 +92,15 @@ export default function Navigation() {
             >
               {t('nav.bookConsultation')}
             </Button>
+            <LanguageSwitcher />
             <a
               href="https://accounts.terrabt.com/auth/login"
-              className="flex items-center gap-1.5 text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              className="text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
               data-testid="link-sign-in"
+              aria-label={t('nav.signIn')}
             >
-              <UserCircle className="h-4 w-4" />
-              {t('nav.signIn')}
+              <UserCircle className="h-5 w-5" />
             </a>
-            <LanguageSwitcher />
           </div>
 
           <div className="lg:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2 flex-shrink-0">
@@ -171,6 +171,7 @@ export default function Navigation() {
               <UserCircle className="h-4 w-4" />
               {t('nav.signIn')}
             </a>
+
           </div>
         </div>
       )}
