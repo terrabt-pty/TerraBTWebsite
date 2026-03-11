@@ -143,39 +143,39 @@
   --elevate-1: rgba(255, 255, 255, .04);
   --elevate-2: rgba(255, 255, 255, .09);
 
-  --background: 210 8% 10%;
+  --background: 224 54% 7%;
 
-  --foreground: 210 6% 92%;
+  --foreground: 220 20% 92%;
 
-  --border: 210 6% 20%;
+  --border: 224 35% 18%;
 
-  --card: 210 6% 13%;
+  --card: 224 42% 10%;
 
-  --card-foreground: 210 6% 92%;
+  --card-foreground: 220 20% 92%;
 
-  --card-border: 210 6% 18%;
+  --card-border: 224 35% 16%;
 
-  --sidebar: 210 6% 15%;
+  --sidebar: 224 40% 12%;
 
-  --sidebar-foreground: 210 6% 92%;
+  --sidebar-foreground: 220 20% 92%;
 
-  --sidebar-border: 210 6% 22%;
+  --sidebar-border: 224 35% 20%;
 
   --sidebar-primary: 132 68% 58%;
 
   --sidebar-primary-foreground: 0 0% 100%;
 
-  --sidebar-accent: 210 8% 20%;
+  --sidebar-accent: 224 38% 18%;
 
-  --sidebar-accent-foreground: 210 6% 88%;
+  --sidebar-accent-foreground: 220 15% 88%;
 
   --sidebar-ring: 132 68% 58%;
 
-  --popover: 210 6% 18%;
+  --popover: 224 40% 12%;
 
-  --popover-foreground: 210 6% 92%;
+  --popover-foreground: 220 20% 92%;
 
-  --popover-border: 210 6% 24%;
+  --popover-border: 224 35% 20%;
 
   --primary: 132 70% 56%;
 
@@ -185,9 +185,9 @@
 
   --secondary-foreground: 0 0% 100%;
 
-  --muted: 210 8% 20%;
+  --muted: 224 38% 16%;
 
-  --muted-foreground: 210 6% 68%;
+  --muted-foreground: 224 18% 62%;
 
   --accent: 28 94% 58%;
 
@@ -1879,4 +1879,17 @@
   .btpxid-security-inner {
     padding: 0 20px;
   }
+}
+
+/* ===== Hero CTA gradient button — main site ===== */
+.hero-cta-gradient {
+  background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099) !important;
+  color: white !important;
+  border: none !important;
+  transition: transform 0.2s, box-shadow 0.3s !important;
+}
+
+.hero-cta-gradient:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 32px rgba(76, 175, 80, 0.3), 0 2px 8px rgba(76, 175, 80, 0.2) !important;
 }

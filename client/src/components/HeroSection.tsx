@@ -32,7 +32,7 @@ export default function HeroSection() {
             🚀 100% SAP BTP Specialized Consulting
           </Badge>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight break-words">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight break-words">
             <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
               {t('hero.title')}
             </span>
@@ -45,7 +45,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button
               size="lg"
-              className="w-full sm:w-auto text-base px-8 h-12 shadow-lg shadow-primary/20"
+              className="w-full sm:w-auto text-base px-8 h-12 shadow-lg shadow-primary/20 hero-cta-gradient"
               onClick={() => scrollToSection("#contact")}
               data-testid="button-get-started"
             >
