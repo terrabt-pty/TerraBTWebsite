@@ -4,7 +4,8 @@
     "services": "Services",
     "knowledge": "Connaissances",
     "contact": "Contact",
-    "bookConsultation": "Réserver une Consultation Gratuite"
+    "bookConsultation": "Réserver une Consultation Gratuite",
+    "pricing": "Tarifs"
   },
   "meta": {
     "home": {

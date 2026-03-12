@@ -4,7 +4,8 @@
     "services": "Palvelut",
     "knowledge": "Tietopankki",
     "contact": "Ota yhteyttä",
-    "bookConsultation": "Varaa ilmainen konsultointi"
+    "bookConsultation": "Varaa ilmainen konsultointi",
+    "pricing": "Hinnoittelu"
   },
   "meta": {
     "home": {

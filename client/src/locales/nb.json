@@ -4,7 +4,8 @@
     "services": "Tjenester",
     "knowledge": "Kunnskap",
     "contact": "Kontakt",
-    "bookConsultation": "Bestill gratis konsultasjon"
+    "bookConsultation": "Bestill gratis konsultasjon",
+    "pricing": "Priser"
   },
   "meta": {
     "home": {

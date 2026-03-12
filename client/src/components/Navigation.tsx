@@ -12,12 +12,19 @@ export default function Navigation() {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
-  const scrollLinks = [
-    { label: t('nav.home'), href: "#home" },
-    { label: t('nav.services'), href: "#services" },
-    { label: t('nav.knowledge'), href: "#knowledge" },
-    { label: t('nav.contact'), href: "#contact" },
-  ];
+  const scrollLinks = isOnBTPxID
+    ? [
+        { label: t('nav.home'), href: "#home" },
+        { label: t('nav.services'), href: "#services" },
+        { label: t('nav.knowledge'), href: "#knowledge" },
+        { label: t('nav.pricing'), href: "#pricing" },
+      ]
+    : [
+        { label: t('nav.home'), href: "#home" },
+        { label: t('nav.services'), href: "#services" },
+        { label: t('nav.knowledge'), href: "#knowledge" },
+        { label: t('nav.contact'), href: "#contact" },
+      ];
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);

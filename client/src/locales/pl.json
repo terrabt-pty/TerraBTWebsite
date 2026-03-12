@@ -4,7 +4,8 @@
     "services": "Usługi",
     "knowledge": "Baza wiedzy",
     "contact": "Kontakt",
-    "bookConsultation": "Zarezerwuj bezpłatną konsultację"
+    "bookConsultation": "Zarezerwuj bezpłatną konsultację",
+    "pricing": "Cennik"
   },
   "meta": {
     "home": {

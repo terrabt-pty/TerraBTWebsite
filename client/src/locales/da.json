@@ -4,7 +4,8 @@
     "services": "Tjenester",
     "knowledge": "Viden",
     "contact": "Kontakt",
-    "bookConsultation": "Book gratis konsultation"
+    "bookConsultation": "Book gratis konsultation",
+    "pricing": "Priser"
   },
   "meta": {
     "home": {

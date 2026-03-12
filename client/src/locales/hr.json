@@ -4,7 +4,8 @@
     "services": "Usluge",
     "knowledge": "Znanje",
     "contact": "Kontakt",
-    "bookConsultation": "Rezervirajte besplatnu konsultaciju"
+    "bookConsultation": "Rezervirajte besplatnu konsultaciju",
+    "pricing": "Cijene"
   },
   "meta": {
     "home": {

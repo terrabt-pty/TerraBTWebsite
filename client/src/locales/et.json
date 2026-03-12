@@ -4,7 +4,8 @@
     "services": "Teenused",
     "knowledge": "Teadmised",
     "contact": "Kontakt",
-    "bookConsultation": "Broneeri tasuta konsultatsioon"
+    "bookConsultation": "Broneeri tasuta konsultatsioon",
+    "pricing": "Hinnad"
   },
   "meta": {
     "home": {

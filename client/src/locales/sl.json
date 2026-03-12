@@ -4,7 +4,8 @@
     "services": "Storitve",
     "knowledge": "Baza znanja",
     "contact": "Kontakt",
-    "bookConsultation": "Rezervirajte brezplačno svetovanje"
+    "bookConsultation": "Rezervirajte brezplačno svetovanje",
+    "pricing": "Cene"
   },
   "meta": {
     "home": {
