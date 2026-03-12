@@ -16,6 +16,7 @@ export default function Navigation() {
     { label: t('nav.home'), href: "#home" },
     { label: t('nav.services'), href: "#services" },
     { label: t('nav.knowledge'), href: "#knowledge" },
+    { label: t('nav.contact'), href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
