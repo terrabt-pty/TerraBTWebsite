@@ -224,12 +224,11 @@ export default function BTPxIDProduct() {
   }, []);
 
   useEffect(() => {
-    fetch("https://accounts.terrabt.com/api/catalog/packages")
+    fetch("https://accounts.terrabt.com/api/catalog/packages?product=SAPBTPUserManagement")
       .then((r) => r.json())
       .then((products: Array<{ name: string; packages: PricingPackage[] }>) => {
-        const userMgmt = products.find((p) => p.name === "SAPBTPUserManagement");
-        if (userMgmt && userMgmt.packages.length > 0) {
-          setPackages(userMgmt.packages);
+        if (products.length > 0 && products[0].packages.length > 0) {
+          setPackages(products[0].packages);
         }
       })
       .catch(() => { /* fallback stays */ });
