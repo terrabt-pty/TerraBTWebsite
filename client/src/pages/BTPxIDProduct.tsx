@@ -69,6 +69,13 @@ const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
   unknown: Download,
 };
 
+const DL_ICONS: Record<DownloadOption["id"], React.ComponentType<{ className?: string }>> = {
+  "mac-arm64":     FaApple,
+  "mac-x64":       FaApple,
+  "win-installer": FaWindows,
+  "win-portable":  FaWindows,
+};
+
 interface DownloadOption {
   id: "mac-arm64" | "mac-x64" | "win-installer" | "win-portable";
   label: string;
@@ -231,36 +238,11 @@ export default function BTPxIDProduct() {
               )}
 
               <button
-                onClick={() => setShowAllDownloads(!showAllDownloads)}
+                onClick={() => scrollToSection("#download")}
                 className="btpxid-download-other"
               >
-                {showAllDownloads ? "Hide" : "Show"} all download options
+                Show all download options
               </button>
-
-              {showAllDownloads && (
-                <div className="btpxid-download-grid">
-                  {ALL_DOWNLOADS.map((dl) => {
-                    const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
-                    return url ? (
-                      <a key={dl.id} href={url} className="btpxid-download-option">
-                        <div>
-                          <div className="btpxid-download-option-label">{dl.label}</div>
-                          <div className="btpxid-download-option-desc">{dl.description}</div>
-                        </div>
-                        <Download className="h-4 w-4 flex-shrink-0" />
-                      </a>
-                    ) : (
-                      <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
-                        <div>
-                          <div className="btpxid-download-option-label">{dl.label}</div>
-                          <div className="btpxid-download-option-desc">{dl.description}</div>
-                        </div>
-                        <Download className="h-4 w-4 flex-shrink-0" />
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
             </div>
 
           </div>
@@ -509,13 +491,14 @@ export default function BTPxIDProduct() {
             <div className="btpxid-download-grid">
               {ALL_DOWNLOADS.map((dl) => {
                 const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
+                const DlIcon = DL_ICONS[dl.id];
                 return url ? (
                   <a key={dl.id} href={url} className="btpxid-download-option">
                     <div>
                       <div className="btpxid-download-option-label">{dl.label}</div>
                       <div className="btpxid-download-option-desc">{dl.description}</div>
                     </div>
-                    <Download className="h-4 w-4 flex-shrink-0" />
+                    <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </a>
                 ) : (
                   <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
@@ -523,7 +506,7 @@ export default function BTPxIDProduct() {
                       <div className="btpxid-download-option-label">{dl.label}</div>
                       <div className="btpxid-download-option-desc">{dl.description}</div>
                     </div>
-                    <Download className="h-4 w-4 flex-shrink-0" />
+                    <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </button>
                 );
               })}
