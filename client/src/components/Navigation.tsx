@@ -12,6 +12,8 @@ export default function Navigation() {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
+  const isOnBTPxID = location.includes("/products/btp-xid");
+
   const scrollLinks = isOnBTPxID
     ? [
         { label: t('nav.home'), href: "#home" },
@@ -48,8 +50,6 @@ export default function Navigation() {
     setMobileMenuOpen(false);
     setLocation(getLocalizedPath("/products/btp-xid"));
   };
-
-  const isOnBTPxID = location.includes("/products/btp-xid");
 
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
