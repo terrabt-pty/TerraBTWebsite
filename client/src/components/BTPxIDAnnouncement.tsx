@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
-import dashboardImg from "@assets/btpxid-screenshot-dashboard.png";
+import dashboardImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
 export default function BTPxIDAnnouncement() {
   const { getLocalizedPath } = useLocalizedPath();
