@@ -138,6 +138,76 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
   return ALL_DOWNLOADS[0];
 }
 
+interface PricingPackage {
+  id: string;
+  name: string;
+  description: string;
+  features: string[];
+  displayPriceMonthly: number;
+  displayPriceAnnual: number;
+  displayCurrency: string;
+  isFeatured: boolean;
+  featuredLabel: string | null;
+  ctaLabel: string | null;
+  ctaUrl: string | null;
+  contactEmail: string | null;
+  pricePeriodLabel: string | null;
+}
+
+const FALLBACK_PACKAGES: PricingPackage[] = [
+  {
+    id: "free",
+    name: "Free",
+    description: "Try BTP xID free for 90 days — no credit card required",
+    features: [
+      "User management across Global Account, Subaccount, CF Org, CF Space and directories",
+      "Single Global Account",
+      "Reverse Lookup",
+      "Mass add & edit users",
+      "Service Key Management",
+      "Assign users across multiple accounts in one click",
+    ],
+    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "AUD",
+    isFeatured: false, featuredLabel: null,
+    ctaLabel: "Start Free Trial", ctaUrl: "#download",
+    contactEmail: null, pricePeriodLabel: "/ 90 days",
+  },
+  {
+    id: "basic",
+    name: "Basic",
+    description: "Ongoing access for SAP BTP administrators",
+    features: [
+      "User management across Global Account, Subaccount, CF Org, CF Space and directories",
+      "Single Global Account",
+      "Reverse Lookup",
+      "Mass add & edit users",
+      "Service Key Management",
+      "Assign users across multiple accounts in one click",
+    ],
+    displayPriceMonthly: 20000, displayPriceAnnual: 200000, displayCurrency: "AUD",
+    isFeatured: true, featuredLabel: "Full Access",
+    ctaLabel: "Subscribe", ctaUrl: "https://accounts.terrabt.com/auth/login",
+    contactEmail: null, pricePeriodLabel: "/ month",
+  },
+  {
+    id: "enterprise",
+    name: "Enterprise",
+    description: "Custom solutions for large-scale SAP BTP deployments",
+    features: [
+      "Everything in Basic",
+      "Multiple Global Accounts",
+      "Dedicated support & onboarding",
+      "Custom integrations",
+      "SLA guarantees",
+      "Volume licensing",
+    ],
+    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "AUD",
+    isFeatured: false, featuredLabel: null,
+    ctaLabel: "Contact Sales", ctaUrl: null,
+    contactEmail: "sales@terrabt.com", pricePeriodLabel: null,
+  },
+];
+
 export default function BTPxIDProduct() {
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
@@ -145,11 +215,24 @@ export default function BTPxIDProduct() {
   const [cardRound, setCardRound] = useState(0);
   const [cardsFading, setCardsFading] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
+  const [packages, setPackages] = useState<PricingPackage[]>(FALLBACK_PACKAGES);
   const { getLocalizedPath } = useLocalizedPath();
 
   useEffect(() => {
     setOS(detectOS());
     setArch(detectArch());
+  }, []);
+
+  useEffect(() => {
+    fetch("https://accounts.terrabt.com/api/catalog/packages")
+      .then((r) => r.json())
+      .then((products: Array<{ name: string; packages: PricingPackage[] }>) => {
+        const userMgmt = products.find((p) => p.name === "SAPBTPUserManagement");
+        if (userMgmt && userMgmt.packages.length > 0) {
+          setPackages(userMgmt.packages);
+        }
+      })
+      .catch(() => { /* fallback stays */ });
   }, []);
 
   useEffect(() => {
@@ -341,97 +424,61 @@ export default function BTPxIDProduct() {
           </div>
 
           <div className="btpxid-pricing-grid">
-            {/* Free Plan */}
-            <div className="btpxid-plan-card">
-              <div className="btpxid-plan-header">
-                <h3 className="btpxid-plan-name">Free</h3>
-                <p className="btpxid-plan-desc">
-                  Try BTP xID free for 90 days — no credit card required
-                </p>
-              </div>
-              <div className="btpxid-plan-price">
-                <span className="btpxid-price-amount">$0</span>
-                <span className="btpxid-price-period">/ 90 days</span>
-              </div>
-              <ul className="btpxid-plan-features">
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>User management across Global Account, Subaccount, CF Org, CF Space and directories</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Single Global Account</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Reverse Lookup</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Mass add & edit users</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Service Key Management</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Assign users across multiple accounts in one click</span>
-                </li>
-              </ul>
-              <button
-                onClick={() => scrollToSection("#download")}
-                className="btpxid-plan-btn"
+            {packages.map((pkg) => (
+              <div
+                key={pkg.id}
+                className={`btpxid-plan-card${pkg.isFeatured ? " btpxid-plan-featured" : ""}`}
               >
-                Start Free Trial
-              </button>
-            </div>
-
-            {/* Basic Plan */}
-            <div className="btpxid-plan-card btpxid-plan-featured">
-              <div className="btpxid-plan-popular">Full Access</div>
-              <div className="btpxid-plan-header">
-                <h3 className="btpxid-plan-name">Basic</h3>
-                <p className="btpxid-plan-desc">
-                  Ongoing access for SAP BTP administrators
-                </p>
+                {pkg.featuredLabel && (
+                  <div className="btpxid-plan-popular">{pkg.featuredLabel}</div>
+                )}
+                <div className="btpxid-plan-header">
+                  <h3 className="btpxid-plan-name">{pkg.name}</h3>
+                  <p className="btpxid-plan-desc">{pkg.description}</p>
+                </div>
+                <div className="btpxid-plan-price">
+                  {pkg.contactEmail ? (
+                    <span className="btpxid-price-amount btpxid-price-contact">Custom</span>
+                  ) : (
+                    <>
+                      <span className="btpxid-price-amount">
+                        ${Math.round(pkg.displayPriceMonthly / 100)}
+                      </span>
+                      {pkg.pricePeriodLabel && (
+                        <span className="btpxid-price-period">{pkg.pricePeriodLabel}</span>
+                      )}
+                    </>
+                  )}
+                </div>
+                <ul className="btpxid-plan-features">
+                  {(pkg.features as string[]).map((feature, i) => (
+                    <li key={i}>
+                      <CheckCircle className="h-4 w-4" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                {pkg.contactEmail ? (
+                  <a href={`mailto:${pkg.contactEmail}`} className="btpxid-plan-btn">
+                    {pkg.ctaLabel || "Contact Sales"}
+                  </a>
+                ) : pkg.ctaUrl?.startsWith("#") ? (
+                  <button
+                    onClick={() => scrollToSection(pkg.ctaUrl!)}
+                    className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
+                  >
+                    {pkg.ctaLabel || "Get Started"}
+                  </button>
+                ) : (
+                  <a
+                    href={pkg.ctaUrl || "#"}
+                    className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
+                  >
+                    {pkg.ctaLabel || "Get Started"}
+                  </a>
+                )}
               </div>
-              <div className="btpxid-plan-price">
-                <span className="btpxid-price-amount">$200</span>
-                <span className="btpxid-price-period">/ month</span>
-              </div>
-              <ul className="btpxid-plan-features">
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>User management across Global Account, Subaccount, CF Org, CF Space and directories</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Single Global Account</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Reverse Lookup</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Mass add & edit users</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Service Key Management</span>
-                </li>
-                <li>
-                  <CheckCircle className="h-4 w-4" />
-                  <span>Assign users across multiple accounts in one click</span>
-                </li>
-              </ul>
-              <a href="https://accounts.terrabt.com/auth/login">
-                <button className="btpxid-plan-btn btpxid-plan-btn-primary">
-                  Subscribe
-                </button>
-              </a>
-            </div>
+            ))}
           </div>
         </div>
       </section>

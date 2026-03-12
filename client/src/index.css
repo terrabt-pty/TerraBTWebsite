@@ -1420,7 +1420,7 @@
 
 .btpxid-pricing-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -1494,6 +1494,10 @@
   line-height: 1;
 }
 
+.btpxid-price-contact {
+  font-size: 2.25rem;
+}
+
 .btpxid-price-period {
   font-size: 0.875rem;
   color: #4A5678;
@@ -1525,6 +1529,7 @@
 }
 
 .btpxid-plan-btn {
+  display: block;
   width: 100%;
   padding: 0.875rem 1.5rem;
   border-radius: 0.75rem;
@@ -1535,6 +1540,8 @@
   transition: all 0.2s;
   background: transparent;
   color: #E8ECF4;
+  text-decoration: none;
+  text-align: center;
   border: 1px solid #2A3660;
 }
 
@@ -1554,10 +1561,13 @@
   box-shadow: 0 8px 32px rgba(76, 175, 80, 0.3);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 960px) {
   .btpxid-pricing-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 700px) {
 
   .btpxid-pricing-inner {
     padding: 0 24px;
