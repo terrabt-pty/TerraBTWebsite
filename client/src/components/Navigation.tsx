@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
-import { Button } from "@/components/ui/button";
 import { Menu, X, UserCircle } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -85,13 +84,6 @@ export default function Navigation() {
               </button>
             ))}
 
-            <Button
-              onClick={() => scrollToSection("#contact")}
-              className="bg-urgency text-urgency-foreground hover:bg-urgency shadow-md shadow-urgency/20"
-              data-testid="button-schedule-consultation"
-            >
-              {t('nav.bookConsultation')}
-            </Button>
             <LanguageSwitcher />
             <a
               href="https://accounts.terrabt.com/auth/login"
@@ -156,13 +148,6 @@ export default function Navigation() {
               </button>
             ))}
 
-            <Button
-              className="w-full bg-urgency text-urgency-foreground hover:bg-urgency"
-              onClick={() => scrollToSection("#contact")}
-              data-testid="button-mobile-consultation"
-            >
-              {t('nav.bookConsultation')}
-            </Button>
             <a
               href="https://accounts.terrabt.com/auth/login"
               className="flex items-center gap-2 w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
