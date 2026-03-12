@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
-  ArrowRight,
   Download,
   CheckCircle,
   ArrowLeft,
@@ -210,34 +209,58 @@ export default function BTPxIDProduct() {
               any user instantly.
             </p>
 
-            <div className="btpxid-actions">
-              <div className="btpxid-download-group">
-                {primaryDownloadUrl ? (
-                  <a href={primaryDownloadUrl} className="btpxid-btn-primary">
-                    <Download className="h-4 w-4" />
-                    <span>Download for {OS_LABELS[os]}</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </a>
-                ) : (
-                  <button disabled className="btpxid-btn-primary" style={{ opacity: 0.7 }}>
-                    <Download className="h-4 w-4" />
-                    <span>Loading...</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </button>
-                )}
-                <button
-                  onClick={() => scrollToSection("#download")}
-                  className="btpxid-hero-all-downloads-link"
-                >
-                  Show all download options
+            <div className="btpxid-hero-dl">
+              {primaryDownloadUrl ? (
+                <a href={primaryDownloadUrl} className="btpxid-download-btn">
+                  <PrimaryIcon className="h-6 w-6" />
+                  <div className="btpxid-download-btn-text">
+                    <span className="btpxid-download-btn-title">Download for {primaryDownload.label}</span>
+                    <span className="btpxid-download-btn-desc">{primaryDownload.description}</span>
+                  </div>
+                  <Download className="h-5 w-5" />
+                </a>
+              ) : (
+                <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
+                  <PrimaryIcon className="h-6 w-6" />
+                  <div className="btpxid-download-btn-text">
+                    <span className="btpxid-download-btn-title">Loading...</span>
+                    <span className="btpxid-download-btn-desc">{primaryDownload.description}</span>
+                  </div>
+                  <Download className="h-5 w-5" />
                 </button>
-              </div>
+              )}
+
               <button
-                onClick={() => scrollToSection("#pricing")}
-                className="btpxid-btn-secondary"
+                onClick={() => setShowAllDownloads(!showAllDownloads)}
+                className="btpxid-download-other"
               >
-                <span>View Pricing</span>
+                {showAllDownloads ? "Hide" : "Show"} all download options
               </button>
+
+              {showAllDownloads && (
+                <div className="btpxid-download-grid">
+                  {ALL_DOWNLOADS.map((dl) => {
+                    const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
+                    return url ? (
+                      <a key={dl.id} href={url} className="btpxid-download-option">
+                        <div>
+                          <div className="btpxid-download-option-label">{dl.label}</div>
+                          <div className="btpxid-download-option-desc">{dl.description}</div>
+                        </div>
+                        <Download className="h-4 w-4 flex-shrink-0" />
+                      </a>
+                    ) : (
+                      <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
+                        <div>
+                          <div className="btpxid-download-option-label">{dl.label}</div>
+                          <div className="btpxid-download-option-desc">{dl.description}</div>
+                        </div>
+                        <Download className="h-4 w-4 flex-shrink-0" />
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
             </div>
 
           </div>

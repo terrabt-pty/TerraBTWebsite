@@ -1881,6 +1881,25 @@
   }
 }
 
+/* ===== BTP xID hero download block — left-aligned variant of btpxid-download-primary ===== */
+.btpxid-hero-dl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+.btpxid-hero-dl .btpxid-download-btn {
+  max-width: 400px;
+}
+
+.btpxid-hero-dl .btpxid-download-grid {
+  width: 100%;
+  max-width: 400px;
+  grid-template-columns: 1fr;
+}
+
 /* ===== Hero CTA gradient button — main site ===== */
 .hero-cta-gradient {
   background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099) !important;
