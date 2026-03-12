@@ -1891,12 +1891,12 @@
 }
 
 .btpxid-hero-dl .btpxid-download-btn {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .btpxid-hero-dl .btpxid-download-grid {
   width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   grid-template-columns: 1fr;
 }
 
