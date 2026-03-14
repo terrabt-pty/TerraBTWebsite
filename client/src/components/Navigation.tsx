@@ -96,11 +96,12 @@ export default function Navigation() {
             <LanguageSwitcher />
             <a
               href="https://accounts.terrabt.com/auth/login"
-              className="text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
+              className="flex flex-col items-center text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
               data-testid="link-sign-in"
               aria-label={t('nav.signIn')}
             >
               <UserCircle className="h-5 w-5" />
+              <span className="text-[10px] leading-tight mt-0.5">{t('nav.signIn')}</span>
             </a>
           </div>
 
