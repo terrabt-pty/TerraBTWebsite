@@ -52,7 +52,7 @@ export default function BTPxIDAnnouncement() {
 
           <div className="btpxid-announce-cta">
             <Sparkles className="h-4 w-4" />
-            <span>Download</span>
+            <span>Download Now</span>
             <ArrowRight className="h-4 w-4 btpxid-arrow-bounce" />
           </div>
         </div>
