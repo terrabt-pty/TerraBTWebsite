@@ -266,7 +266,7 @@ export default function BTPxIDProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="BTP xID — SAP BTP User Management | TerraBT"
+        title="BTP xID - SAP BTP User Management | TerraBT"
         description="The world's first desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place. Available for Windows and MacOS."
         path="/products/btp-xid"
       />

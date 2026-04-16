@@ -42,7 +42,7 @@ export default function Products() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead
-        title="Products — SAP BTP Tools by TerraBT"
+        title="Products - SAP BTP Tools by TerraBT"
         description="TerraBT products for SAP BTP administrators. Download desktop apps and tools to manage your SAP BTP landscape more efficiently."
         path="/products"
       />
