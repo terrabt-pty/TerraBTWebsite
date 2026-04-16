@@ -29,13 +29,12 @@ export default function Navigation() {
       ];
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setMobileMenuOpen(false);
-    } else {
-      setMobileMenuOpen(false);
-      const homePath = getLocalizedPath("/");
+    setMobileMenuOpen(false);
+    const homePath = getLocalizedPath("/");
+    const onHomePage = location === "/" || location === homePath || location === homePath.replace(/\/$/, "");
+
+    if (!onHomePage) {
+      // On a sub-page — navigate to homepage first, then scroll to section
       setLocation(homePath);
       setTimeout(() => {
         const targetElement = document.querySelector(href);
@@ -43,6 +42,12 @@ export default function Navigation() {
           targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }, 500);
+      return;
+    }
+
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
