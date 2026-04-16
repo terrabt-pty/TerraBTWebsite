@@ -185,7 +185,7 @@ const FALLBACK_PACKAGES: PricingPackage[] = [
       "Assign users across multiple accounts in one click",
     ],
     displayPriceMonthly: 20000, displayPriceAnnual: 200000, displayCurrency: "AUD",
-    isFeatured: true, featuredLabel: "Full Access",
+    isFeatured: true, featuredLabel: null,
     ctaLabel: "Subscribe", ctaUrl: "https://accounts.terrabt.com/auth/login",
     contactEmail: null, pricePeriodLabel: "/ month",
   },
