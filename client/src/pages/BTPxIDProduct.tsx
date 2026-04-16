@@ -304,7 +304,7 @@ export default function BTPxIDProduct() {
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
                     <span className="btpxid-download-btn-title">Download for {primaryDownload.label}</span>
-                    <span className="btpxid-download-btn-desc">{primaryDownload.description}</span>
+                    <span className="btpxid-download-btn-desc">{primaryDownload.description} · v{versionInfo!.version}</span>
                   </div>
                   <Download className="h-5 w-5" />
                 </a>
@@ -506,7 +506,7 @@ export default function BTPxIDProduct() {
                     Download for {primaryDownload.label}
                   </span>
                   <span className="btpxid-download-btn-desc">
-                    {primaryDownload.description}
+                    {primaryDownload.description} · v{versionInfo!.version}
                   </span>
                 </div>
                 <Download className="h-5 w-5" />
