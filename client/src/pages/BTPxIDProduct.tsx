@@ -320,7 +320,7 @@ export default function BTPxIDProduct() {
               )}
 
               <button
-                onClick={() => scrollToSection("#download")}
+                onClick={() => { setShowAllDownloads(true); scrollToSection("#download"); }}
                 className="btpxid-download-other"
               >
                 Show all download options
