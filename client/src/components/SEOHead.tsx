@@ -115,9 +115,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
         ],
         "sameAs": [
           "https://linkedin.com/company/terrabt",
-          "https://x.com/TerraBTinc",
-          "https://facebook.com/terrabt",
-          "https://instagram.com/terrabt"
+          "https://x.com/TerraBTinc"
         ]
       };
 

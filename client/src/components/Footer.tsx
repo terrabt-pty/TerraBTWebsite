@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
 import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
 
@@ -47,24 +47,6 @@ export default function Footer() {
                 data-testid="button-twitter"
               >
                 <Twitter className="h-4 w-4" />
-              </a>
-              <a
-                href="https://facebook.com/terrabt"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
-                data-testid="button-facebook"
-              >
-                <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="https://instagram.com/terrabt"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="h-9 w-9 rounded-md border hover-elevate flex items-center justify-center transition-all hover:bg-primary/5"
-                data-testid="button-instagram"
-              >
-                <Instagram className="h-4 w-4" />
               </a>
             </div>
           </div>
