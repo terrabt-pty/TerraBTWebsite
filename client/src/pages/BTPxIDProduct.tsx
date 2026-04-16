@@ -102,7 +102,7 @@ const ALL_DOWNLOADS: DownloadOption[] = [
   {
     id: "win-installer",
     label: "Windows Installer",
-    description: "NSIS installer for Windows 10/11",
+    description: "Installer for Windows 10/11",
     os: "windows",
     arch: "x64",
   },
