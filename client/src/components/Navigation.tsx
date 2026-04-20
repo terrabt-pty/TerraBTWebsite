@@ -80,8 +80,8 @@ export default function Navigation() {
               {t('nav.home')}
             </button>
 
-            {/* BTP xID — highlighted nav item (hidden when already on the page) */}
-            {!isOnBTPxID && (
+            {/* BTP xID — highlighted nav item (hidden when already on the page, except for ANZ users) */}
+            {(!isOnBTPxID || isANZ) && (
               <button
                 onClick={goToBTPxID}
                 className="nav-btpxid-link"
@@ -147,8 +147,8 @@ export default function Navigation() {
               {t('nav.home')}
             </button>
 
-            {/* BTP xID — mobile highlighted (hidden when already on the page) */}
-            {!isOnBTPxID && (
+            {/* BTP xID — mobile highlighted (hidden when already on the page, except for ANZ users) */}
+            {(!isOnBTPxID || isANZ) && (
               <button
                 onClick={goToBTPxID}
                 className="nav-btpxid-mobile"
