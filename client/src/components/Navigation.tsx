@@ -6,6 +6,10 @@ import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
+declare global {
+  interface Window { GEO_COUNTRY?: string; }
+}
+
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [location, setLocation] = useLocation();
@@ -13,6 +17,8 @@ export default function Navigation() {
   const { getLocalizedPath } = useLocalizedPath();
 
   const isOnBTPxID = location.includes("/products/btp-xid");
+  const isANZ = ["AU", "NZ"].includes(window.GEO_COUNTRY ?? "");
+  const homePath = getLocalizedPath(isANZ ? "/products/btp-xid" : "/");
 
   const btpxidScrollLinks = [
     { label: t('nav.features'), href: "#features" },
@@ -31,12 +37,12 @@ export default function Navigation() {
 
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);
-    const homePath = getLocalizedPath("/");
-    const onHomePage = location === "/" || location === homePath || location === homePath.replace(/\/$/, "");
+    const mainHomePath = getLocalizedPath("/");
+    const onHomePage = location === "/" || location === mainHomePath || location === mainHomePath.replace(/\/$/, "");
 
     if (!onHomePage && !isOnBTPxID) {
       // On a sub-page — navigate to homepage first, then scroll to section
-      setLocation(homePath);
+      setLocation(mainHomePath);
       setTimeout(() => {
         const targetElement = document.querySelector(href);
         if (targetElement) {
@@ -61,20 +67,18 @@ export default function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href={getLocalizedPath(isOnBTPxID ? "/products/btp-xid" : "/")} className="flex items-center gap-2 flex-shrink">
+          <Link href={homePath} className="flex items-center gap-2 flex-shrink">
             <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
-            {!isOnBTPxID && (
-              <button
-                onClick={() => scrollToSection("#home")}
-                className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-                data-testid="link-home"
-              >
-                {t('nav.home')}
-              </button>
-            )}
+            <button
+              onClick={() => isANZ ? setLocation(homePath) : scrollToSection("#home")}
+              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              data-testid="link-home"
+            >
+              {t('nav.home')}
+            </button>
 
             {/* BTP xID — highlighted nav item (hidden when already on the page) */}
             {!isOnBTPxID && (
@@ -135,15 +139,13 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
-            {!isOnBTPxID && (
-              <button
-                onClick={() => scrollToSection("#home")}
-                className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
-                data-testid="mobile-link-home"
-              >
-                {t('nav.home')}
-              </button>
-            )}
+            <button
+              onClick={() => { setMobileMenuOpen(false); isANZ ? setLocation(homePath) : scrollToSection("#home"); }}
+              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              data-testid="mobile-link-home"
+            >
+              {t('nav.home')}
+            </button>
 
             {/* BTP xID — mobile highlighted (hidden when already on the page) */}
             {!isOnBTPxID && (
