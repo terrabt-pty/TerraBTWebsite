@@ -5,7 +5,9 @@
     "knowledge": "Tietopankki",
     "contact": "Ota yhteyttä",
     "bookConsultation": "Varaa ilmainen konsultointi",
-    "pricing": "Hinnoittelu"
+    "pricing": "Hinnoittelu",
+    "features": "Ominaisuudet",
+    "downloads": "Lataukset"
   },
   "meta": {
     "home": {

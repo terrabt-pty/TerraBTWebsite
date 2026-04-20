@@ -14,13 +14,14 @@ export default function Navigation() {
 
   const isOnBTPxID = location.includes("/products/btp-xid");
 
+  const btpxidScrollLinks = [
+    { label: t('nav.features'), href: "#features" },
+    { label: t('nav.downloads'), href: "#download" },
+    { label: t('nav.pricing'), href: "#pricing" },
+  ];
+
   const scrollLinks = isOnBTPxID
-    ? [
-        { label: t('nav.home'), href: "#home" },
-        { label: t('nav.services'), href: "#services" },
-        { label: t('nav.knowledge'), href: "#knowledge" },
-        { label: t('nav.pricing'), href: "#pricing" },
-      ]
+    ? btpxidScrollLinks
     : [
         { label: t('nav.home'), href: "#home" },
         { label: t('nav.services'), href: "#services" },
@@ -33,7 +34,7 @@ export default function Navigation() {
     const homePath = getLocalizedPath("/");
     const onHomePage = location === "/" || location === homePath || location === homePath.replace(/\/$/, "");
 
-    if (!onHomePage) {
+    if (!onHomePage && !isOnBTPxID) {
       // On a sub-page — navigate to homepage first, then scroll to section
       setLocation(homePath);
       setTimeout(() => {
@@ -60,34 +61,38 @@ export default function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href={getLocalizedPath("/")} className="flex items-center gap-2 flex-shrink">
+          <Link href={getLocalizedPath(isOnBTPxID ? "/products/btp-xid" : "/")} className="flex items-center gap-2 flex-shrink">
             <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
-            <button
-              onClick={() => scrollToSection("#home")}
-              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-              data-testid="link-home"
-            >
-              {t('nav.home')}
-            </button>
+            {!isOnBTPxID && (
+              <button
+                onClick={() => scrollToSection("#home")}
+                className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                data-testid="link-home"
+              >
+                {t('nav.home')}
+              </button>
+            )}
 
-            {/* BTP xID — highlighted nav item */}
-            <button
-              onClick={goToBTPxID}
-              className="nav-btpxid-link"
-              data-testid="link-btpxid"
-            >
-              <span className="nav-btpxid-label">
-                BTP{" "}
-                <span className="nav-btpxid-x">x</span>
-                <span className="nav-btpxid-id">ID</span>
-              </span>
-              <span className="nav-btpxid-new">NEW</span>
-            </button>
+            {/* BTP xID — highlighted nav item (hidden when already on the page) */}
+            {!isOnBTPxID && (
+              <button
+                onClick={goToBTPxID}
+                className="nav-btpxid-link"
+                data-testid="link-btpxid"
+              >
+                <span className="nav-btpxid-label">
+                  BTP{" "}
+                  <span className="nav-btpxid-x">x</span>
+                  <span className="nav-btpxid-id">ID</span>
+                </span>
+                <span className="nav-btpxid-new">NEW</span>
+              </button>
+            )}
 
-            {scrollLinks.filter(l => l.href !== "#home").map((link) => (
+            {scrollLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
@@ -130,29 +135,33 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
-            <button
-              onClick={() => scrollToSection("#home")}
-              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
-              data-testid="mobile-link-home"
-            >
-              {t('nav.home')}
-            </button>
+            {!isOnBTPxID && (
+              <button
+                onClick={() => scrollToSection("#home")}
+                className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+                data-testid="mobile-link-home"
+              >
+                {t('nav.home')}
+              </button>
+            )}
 
-            {/* BTP xID — mobile highlighted */}
-            <button
-              onClick={goToBTPxID}
-              className="nav-btpxid-mobile"
-              data-testid="mobile-link-btpxid"
-            >
-              <span className="nav-btpxid-label">
-                BTP{" "}
-                <span className="nav-btpxid-x">x</span>
-                <span className="nav-btpxid-id">ID</span>
-              </span>
-              <span className="nav-btpxid-new">NEW</span>
-            </button>
+            {/* BTP xID — mobile highlighted (hidden when already on the page) */}
+            {!isOnBTPxID && (
+              <button
+                onClick={goToBTPxID}
+                className="nav-btpxid-mobile"
+                data-testid="mobile-link-btpxid"
+              >
+                <span className="nav-btpxid-label">
+                  BTP{" "}
+                  <span className="nav-btpxid-x">x</span>
+                  <span className="nav-btpxid-id">ID</span>
+                </span>
+                <span className="nav-btpxid-new">NEW</span>
+              </button>
+            )}
 
-            {scrollLinks.filter(l => l.href !== "#home").map((link) => (
+            {scrollLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
