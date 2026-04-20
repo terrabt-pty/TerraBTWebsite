@@ -1404,5 +1404,83 @@
         "label": "Automatizace"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Jedna aplikace.",
+      "title2": "Každý uživatel.",
+      "title3": "Všechny účty.",
+      "description": "Spravujte uživatele v globálních účtech, podúčtech, organizacích a prostorech Cloud Foundry — vše z jednoho přehledu. Okamžité zpětné vyhledání libovolného uživatele."
+    },
+    "valueProps": {
+      "0": "Jediná aplikace pro správu uživatelů BTP, kterou budete kdy potřebovat",
+      "1": "Má bývalý zaměstnanec stále přístup?",
+      "2": "Uživatelé s nadměrnými oprávněními — odhaleni",
+      "3": "Jedna aplikace. Každý uživatel. Všechny obory",
+      "4": "Účty-přízraky — zviditelněny",
+      "5": "Vědět, kdo má co — před audity",
+      "6": "SAP OAuth — nic neuloženo"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "vaše platforma"
+    },
+    "download": {
+      "label": "Stáhnout",
+      "title": "Připraveni začít?",
+      "subtitle": "Stáhněte BTP xID zdarma. Není vyžadována kreditní karta. Plán si vyberte později.",
+      "primaryButton": "Stáhnout pro {{label}}",
+      "loading": "Načítání...",
+      "showAll": "Zobrazit všechny možnosti stahování",
+      "hideAll": "Skrýt všechny možnosti stahování",
+      "versionLine": "Verze {{version}} · Vyžaduje MacOS 12+ nebo Windows 10+",
+      "legal": "Stažením souhlasíte s",
+      "termsOfService": "Podmínkami služby",
+      "and": "a",
+      "privacyPolicy": "Zásadami ochrany osobních údajů",
+      "smartscreen": {
+        "title": "Varování Windows SmartScreen",
+        "description": "Při spuštění instalátoru může systém Windows zobrazit varování SmartScreen. Pokud chcete pokračovat:",
+        "step1": "Klikněte na <1>Více informací</1> v dialogovém okně SmartScreen",
+        "step2": "Klikněte na <1>Přesto spustit</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG pro Macy M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG pro Macy s procesorem Intel",
+      "winInstallerLabel": "Instalátor Windows",
+      "winInstallerDesc": "Instalátor pro Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Nevyžaduje instalaci"
+    },
+    "security": {
+      "label": "Zabezpečení",
+      "title": "Vytvořeno pro správce, kteří berou bezpečnost vážně.",
+      "description": "BTP xID se připojuje k vašemu prostředí SAP BTP pomocí standardních rozhraní API SAP a vlastního ověřování SAP. Vaše přihlašovací údaje nikdy nevidíme, neukládáme ani se jich nedotýkáme — nikdy.",
+      "noCredentials": {
+        "title": "Žádné uložené přihlašovací údaje",
+        "description": "Vaše přihlašovací údaje SAP nikdy neopustí vaše zařízení. BTP xID používá vlastní tok OAuth SAP — žádná hesla, žádné tokeny uložené na serveru."
+      },
+      "localData": {
+        "title": "Vaše data zůstávají na vašem počítači",
+        "description": "Seznamy uživatelů a data účtů jsou načítány živě a nikdy se neukládají do mezipaměti na našich serverech. Zavřete aplikaci — vše zmizí."
+      },
+      "sapAuth": {
+        "title": "Ověřování SAP",
+        "description": "Používáme standardní ověřování OAuth 2.0 SAP — stejný mechanismus, který používá SAP Cockpit. Žádné vlastní ověřovací vrstvy, žádné zkratky."
+      },
+      "hiddenData": {
+        "title": "Zjistěte, co SAP Cockpit skrývá",
+        "description": "Zobrazte uživatele ve všech oborech — včetně těch viditelných pouze prostřednictvím API — bez nutnosti přístupu správce SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "Ceník",
+      "title": "Jednoduché, transparentní ceny",
+      "subtitle": "Začněte zdarma na 90 dní. Není vyžadována kreditní karta."
+    }
   }
 }

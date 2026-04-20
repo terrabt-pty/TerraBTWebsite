@@ -1404,5 +1404,83 @@
         "label": "אוטומציה"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "אפליקציה אחת.",
+      "title2": "כל משתמש.",
+      "title3": "כל החשבונות.",
+      "description": "נהל משתמשים בחשבונות גלובליים, תת-חשבונות, ארגונים ומרחבים של Cloud Foundry — הכל ממסך אחד. חיפוש הפוך של כל משתמש באופן מיידי."
+    },
+    "valueProps": {
+      "0": "האפליקציה היחידה לניהול משתמשי BTP שתצטרך",
+      "1": "לעובד לשעבר עדיין יש גישה?",
+      "2": "משתמשים עם הרשאות מוגזמות — נחשפו",
+      "3": "אפליקציה אחת. כל משתמש. כל ההיקפים",
+      "4": "חשבונות רפאים — הפכו לגלויים",
+      "5": "דע מי מחזיק במה — לפני ביקורות",
+      "6": "SAP OAuth — לא נשמר דבר"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "הפלטפורמה שלך"
+    },
+    "download": {
+      "label": "הורדה",
+      "title": "מוכן להתחיל?",
+      "subtitle": "הורד את BTP xID בחינם. אין צורך בכרטיס אשראי. בחר את התוכנית שלך מאוחר יותר.",
+      "primaryButton": "הורד עבור {{label}}",
+      "loading": "טוען...",
+      "showAll": "הצג את כל אפשרויות ההורדה",
+      "hideAll": "הסתר את כל אפשרויות ההורדה",
+      "versionLine": "גרסה {{version}} · דורש MacOS 12+ או Windows 10+",
+      "legal": "בהורדה, אתה מסכים ל",
+      "termsOfService": "תנאי השירות",
+      "and": "ול",
+      "privacyPolicy": "מדיניות הפרטיות",
+      "smartscreen": {
+        "title": "אזהרת Windows SmartScreen",
+        "description": "Windows עשוי להציג אזהרת SmartScreen בעת הפעלת המתקין. כדי להמשיך:",
+        "step1": "לחץ על <1>מידע נוסף</1> בתיבת הדו-שיח של SmartScreen",
+        "step2": "לחץ על <1>הפעל בכל זאת</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG עבור Mac מסדרות M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG עבור Mac מבוסס Intel",
+      "winInstallerLabel": "מתקין Windows",
+      "winInstallerDesc": "מתקין עבור Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "אין צורך בהתקנה"
+    },
+    "security": {
+      "label": "אבטחה",
+      "title": "בנוי עבור מנהלי מערכת שלוקחים אבטחה ברצינות.",
+      "description": "BTP xID מתחבר לסביבת SAP BTP שלך באמצעות ממשקי API סטנדרטיים של SAP ואימות מובנה של SAP. אנחנו לעולם לא רואים, מאחסנים או נוגעים באישורים שלך — לעולם לא.",
+      "noCredentials": {
+        "title": "אין אישורים שמורים",
+        "description": "אישורי ה-SAP שלך לעולם לא יוצאים מהמכשיר שלך. BTP xID משתמש בזרימת ה-OAuth הנוכחית של SAP — ללא סיסמאות, ללא אסימונים מאוחסנים בצד השרת."
+      },
+      "localData": {
+        "title": "הנתונים שלך נשארים על המחשב שלך",
+        "description": "רשימות המשתמשים ונתוני החשבונות מוחזרים בזמן אמת ולעולם אינם נשמרים במטמון בשרתים שלנו. סגור את האפליקציה — הכל נעלם."
+      },
+      "sapAuth": {
+        "title": "אימות SAP",
+        "description": "אנו משתמשים באימות OAuth 2.0 הסטנדרטי של SAP — אותו מנגנון שמשתמש בו SAP Cockpit. ללא שכבות אימות מותאמות אישית, ללא קיצורי דרך."
+      },
+      "hiddenData": {
+        "title": "ראה מה SAP Cockpit מסתיר",
+        "description": "חשוף משתמשים בכל ההיקפים — כולל אלה הנראים רק דרך ה-API — מבלי להזדקק להרשאות מנהל SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "תמחור",
+      "title": "תמחור פשוט ושקוף",
+      "subtitle": "התחל בחינם למשך 90 יום. אין צורך בכרטיס אשראי."
+    }
   }
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation, Trans } from "react-i18next";
 import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
@@ -17,15 +18,7 @@ import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
 
-const VALUE_PROPS = [
-  { text: "Only BTP user mgmt app you'll ever need", dot: "#4CAF50" },
-  { text: "Ex-employee still has access?",   dot: "#E8A838" },
-  { text: "Over-privileged users — exposed", dot: "#E8A838" },
-  { text: "One app. Every user. All scopes", dot: "#4CAF50" },
-  { text: "Ghost accounts — made visible",   dot: "#E8A838" },
-  { text: "Know who has what — before audits", dot: "#2A7088" },
-  { text: "SAP OAuth — nothing stored",      dot: "#4CAF50" },
-];
+const VALUE_PROP_DOTS = ["#4CAF50", "#E8A838", "#E8A838", "#4CAF50", "#E8A838", "#2A7088", "#4CAF50"];
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
 
@@ -57,11 +50,6 @@ function detectArch(): "arm64" | "x64" {
   return "x64";
 }
 
-const OS_LABELS: Record<OSType, string> = {
-  mac: "MacOS",
-  windows: "Windows",
-  unknown: "your platform",
-};
 
 const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
   mac: FaApple,
@@ -78,8 +66,8 @@ const DL_ICONS: Record<DownloadOption["id"], React.ComponentType<{ className?: s
 
 interface DownloadOption {
   id: "mac-arm64" | "mac-x64" | "win-installer" | "win-portable";
-  label: string;
-  description: string;
+  labelKey: string;
+  descKey: string;
   os: OSType;
   arch?: string;
 }
@@ -87,29 +75,29 @@ interface DownloadOption {
 const ALL_DOWNLOADS: DownloadOption[] = [
   {
     id: "mac-arm64",
-    label: "MacOS Apple Silicon",
-    description: "DMG for M1, M2, M3, M4 Macs",
+    labelKey: "btpxidProduct.downloadOptions.macArm64Label",
+    descKey: "btpxidProduct.downloadOptions.macArm64Desc",
     os: "mac",
     arch: "arm64",
   },
   {
     id: "mac-x64",
-    label: "MacOS Intel",
-    description: "DMG for Intel-based Macs",
+    labelKey: "btpxidProduct.downloadOptions.macX64Label",
+    descKey: "btpxidProduct.downloadOptions.macX64Desc",
     os: "mac",
     arch: "x64",
   },
   {
     id: "win-installer",
-    label: "Windows Installer",
-    description: "Installer for Windows 10/11",
+    labelKey: "btpxidProduct.downloadOptions.winInstallerLabel",
+    descKey: "btpxidProduct.downloadOptions.winInstallerDesc",
     os: "windows",
     arch: "x64",
   },
   {
     id: "win-portable",
-    label: "Windows Portable",
-    description: "No installation required",
+    labelKey: "btpxidProduct.downloadOptions.winPortableLabel",
+    descKey: "btpxidProduct.downloadOptions.winPortableDesc",
     os: "windows",
     arch: "x64",
   },
@@ -209,6 +197,7 @@ const FALLBACK_PACKAGES: PricingPackage[] = [
 ];
 
 export default function BTPxIDProduct() {
+  const { t } = useTranslation();
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
@@ -218,6 +207,11 @@ export default function BTPxIDProduct() {
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const [packages, setPackages] = useState<PricingPackage[]>(FALLBACK_PACKAGES);
   const { getLocalizedPath } = useLocalizedPath();
+
+  const VALUE_PROPS = VALUE_PROP_DOTS.map((dot, i) => ({
+    text: t(`btpxidProduct.valueProps.${i}`),
+    dot,
+  }));
 
   useEffect(() => {
     setOS(detectOS());
@@ -254,6 +248,8 @@ export default function BTPxIDProduct() {
   }, []);
 
   const primaryDownload = getPrimaryDownload(os, arch);
+  const primaryDownloadLabel = t(primaryDownload.labelKey);
+  const primaryDownloadDesc = t(primaryDownload.descKey);
   const PrimaryIcon = OS_ICONS[os];
   const primaryDownloadUrl = versionInfo ? getDownloadUrl(primaryDownload.id, versionInfo) : null;
 
@@ -286,17 +282,15 @@ export default function BTPxIDProduct() {
               <img src={btpxidIcon} alt="BTP xID" className="btpxid-app-icon" />
             </div>
             <h1 className="btpxid-title">
-              One app.
+              {t('btpxidProduct.hero.title1')}
               <br />
-              Every <span className="btpxid-highlight">user</span>.
+              <span className="btpxid-highlight">{t('btpxidProduct.hero.title2')}</span>
               <br />
-              All <span className="btpxid-highlight">accounts</span>.
+              <span className="btpxid-highlight">{t('btpxidProduct.hero.title3')}</span>
             </h1>
 
             <p className="btpxid-subtitle">
-              Manage users across global accounts, sub-accounts, Cloud Foundry
-              orgs and spaces — all from a single pane of glass. Reverse search
-              any user instantly.
+              {t('btpxidProduct.hero.description')}
             </p>
 
             <div className="btpxid-hero-dl">
@@ -304,8 +298,8 @@ export default function BTPxIDProduct() {
                 <a href={primaryDownloadUrl} className="btpxid-download-btn">
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
-                    <span className="btpxid-download-btn-title">Download for {primaryDownload.label}</span>
-                    <span className="btpxid-download-btn-desc">{primaryDownload.description} · v{versionInfo!.version}</span>
+                    <span className="btpxid-download-btn-title">{t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}</span>
+                    <span className="btpxid-download-btn-desc">{primaryDownloadDesc} · v{versionInfo!.version}</span>
                   </div>
                   <Download className="h-5 w-5" />
                 </a>
@@ -313,8 +307,8 @@ export default function BTPxIDProduct() {
                 <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
-                    <span className="btpxid-download-btn-title">Loading...</span>
-                    <span className="btpxid-download-btn-desc">{primaryDownload.description}</span>
+                    <span className="btpxid-download-btn-title">{t('btpxidProduct.download.loading')}</span>
+                    <span className="btpxid-download-btn-desc">{primaryDownloadDesc}</span>
                   </div>
                   <Download className="h-5 w-5" />
                 </button>
@@ -324,7 +318,7 @@ export default function BTPxIDProduct() {
                 onClick={() => { setShowAllDownloads(true); scrollToSection("#download"); }}
                 className="btpxid-download-other"
               >
-                Show all download options
+                {t('btpxidProduct.download.showAll')}
               </button>
             </div>
 
@@ -376,35 +370,34 @@ export default function BTPxIDProduct() {
         <div className="btpxid-security-inner">
           <div className="btpxid-showcase-header">
             <SecurityShield className="btpxid-security-shield-icon" />
-            <div className="btpxid-features-label">Security</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.security.label')}</div>
             <h2 className="btpxid-showcase-title">
-              Built for admins who take security seriously.
+              {t('btpxidProduct.security.title')}
             </h2>
             <p className="btpxid-showcase-sub">
-              BTP xID connects to your SAP BTP landscape using standard SAP APIs and SAP's own authentication.
-              We never see, store, or touch your credentials — ever.
+              {t('btpxidProduct.security.description')}
             </p>
           </div>
           <div className="btpxid-security-grid">
             <div className="btpxid-security-card">
               <div className="btpxid-security-icon">🔒</div>
-              <h3>No credentials stored</h3>
-              <p>BTP xID never stores your SAP BTP passwords, tokens, or service keys. Authentication flows directly through SAP's own OAuth infrastructure — not through our servers.</p>
+              <h3>{t('btpxidProduct.security.noCredentials.title')}</h3>
+              <p>{t('btpxidProduct.security.noCredentials.description')}</p>
             </div>
             <div className="btpxid-security-card">
               <div className="btpxid-security-icon">🖥️</div>
-              <h3>Your data stays on your machine</h3>
-              <p>This is a local desktop app. Your user lists, session data, and account details never leave your machine. TerraBT has no visibility into your BTP landscape.</p>
+              <h3>{t('btpxidProduct.security.localData.title')}</h3>
+              <p>{t('btpxidProduct.security.localData.description')}</p>
             </div>
             <div className="btpxid-security-card">
               <div className="btpxid-security-icon">🔑</div>
-              <h3>SAP authentication</h3>
-              <p>Log in with your existing SAP identity. BTP xID uses the same secure API channels SAP provides to every platform administrator — no new accounts, no new passwords.</p>
+              <h3>{t('btpxidProduct.security.sapAuth.title')}</h3>
+              <p>{t('btpxidProduct.security.sapAuth.description')}</p>
             </div>
             <div className="btpxid-security-card">
               <div className="btpxid-security-icon">👁️</div>
-              <h3>See what SAP Cockpit hides</h3>
-              <p>Ghost IDs, shadow users, and orphaned accounts accumulate silently across subaccounts. BTP xID surfaces every user across every scope — including the ones your standard cockpit view misses.</p>
+              <h3>{t('btpxidProduct.security.hiddenData.title')}</h3>
+              <p>{t('btpxidProduct.security.hiddenData.description')}</p>
             </div>
           </div>
         </div>
@@ -414,12 +407,12 @@ export default function BTPxIDProduct() {
       <section className="btpxid-pricing" id="pricing">
         <div className="btpxid-pricing-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">Pricing</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.pricing.label')}</div>
             <h2 className="btpxid-showcase-title">
-              Simple, transparent pricing
+              {t('btpxidProduct.pricing.title')}
             </h2>
             <p className="btpxid-showcase-sub">
-              Start free for 90 days. No credit card required.
+              {t('btpxidProduct.pricing.subtitle')}
             </p>
           </div>
 
@@ -487,13 +480,12 @@ export default function BTPxIDProduct() {
       <section className="btpxid-download" id="download">
         <div className="btpxid-download-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">Download</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.download.label')}</div>
             <h2 className="btpxid-showcase-title">
-              Ready to get started?
+              {t('btpxidProduct.download.title')}
             </h2>
             <p className="btpxid-showcase-sub">
-              Download BTP xID for free. No credit card required. Choose your
-              plan later.
+              {t('btpxidProduct.download.subtitle')}
             </p>
           </div>
 
@@ -508,10 +500,10 @@ export default function BTPxIDProduct() {
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="btpxid-download-btn-text">
                   <span className="btpxid-download-btn-title">
-                    Download for {primaryDownload.label}
+                    {t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}
                   </span>
                   <span className="btpxid-download-btn-desc">
-                    {primaryDownload.description} · v{versionInfo!.version}
+                    {primaryDownloadDesc} · v{versionInfo!.version}
                   </span>
                 </div>
                 <Download className="h-5 w-5" />
@@ -520,9 +512,9 @@ export default function BTPxIDProduct() {
               <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="btpxid-download-btn-text">
-                  <span className="btpxid-download-btn-title">Loading...</span>
+                  <span className="btpxid-download-btn-title">{t('btpxidProduct.download.loading')}</span>
                   <span className="btpxid-download-btn-desc">
-                    {primaryDownload.description}
+                    {primaryDownloadDesc}
                   </span>
                 </div>
                 <Download className="h-5 w-5" />
@@ -537,7 +529,7 @@ export default function BTPxIDProduct() {
               }}
               className="btpxid-download-other"
             >
-              {showAllDownloads ? "Hide" : "Show"} all download options
+              {showAllDownloads ? t('btpxidProduct.download.hideAll') : t('btpxidProduct.download.showAll')}
             </button>
           </div>
 
@@ -547,19 +539,21 @@ export default function BTPxIDProduct() {
               {ALL_DOWNLOADS.map((dl) => {
                 const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
                 const DlIcon = DL_ICONS[dl.id];
+                const dlLabel = t(dl.labelKey);
+                const dlDesc = t(dl.descKey);
                 return url ? (
                   <a key={dl.id} href={url} className="btpxid-download-option">
                     <div>
-                      <div className="btpxid-download-option-label">{dl.label}</div>
-                      <div className="btpxid-download-option-desc">{dl.description}</div>
+                      <div className="btpxid-download-option-label">{dlLabel}</div>
+                      <div className="btpxid-download-option-desc">{dlDesc}</div>
                     </div>
                     <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </a>
                 ) : (
                   <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
                     <div>
-                      <div className="btpxid-download-option-label">{dl.label}</div>
-                      <div className="btpxid-download-option-desc">{dl.description}</div>
+                      <div className="btpxid-download-option-label">{dlLabel}</div>
+                      <div className="btpxid-download-option-desc">{dlDesc}</div>
                     </div>
                     <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </button>
@@ -580,26 +574,39 @@ export default function BTPxIDProduct() {
               </button>
               <div className="btpxid-smartscreen-notice-title">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                Windows SmartScreen Warning
+                {t('btpxidProduct.download.smartscreen.title')}
               </div>
               <p>
-                Windows may show a SmartScreen warning when you run the installer. To proceed:
+                {t('btpxidProduct.download.smartscreen.description')}
               </p>
               <ol>
-                <li>Click <strong>More info</strong> in the SmartScreen dialog</li>
-                <li>Click <strong>Run anyway</strong></li>
+                <li>
+                  <Trans
+                    i18nKey="btpxidProduct.download.smartscreen.step1"
+                    components={{ 1: <strong /> }}
+                  />
+                </li>
+                <li>
+                  <Trans
+                    i18nKey="btpxidProduct.download.smartscreen.step2"
+                    components={{ 1: <strong /> }}
+                  />
+                </li>
               </ol>
             </div>
           )}
 
           <div className="btpxid-download-info">
             <p>
-              {versionInfo ? `Version ${versionInfo.version}` : "Loading version..."} · Requires MacOS 12+ or Windows 10+
+              {versionInfo
+                ? t('btpxidProduct.download.versionLine', { version: versionInfo.version })
+                : t('btpxidProduct.download.loading')}
             </p>
             <p>
-              By downloading, you agree to the{" "}
-              <a href="/terms-of-service">Terms of Service</a> and{" "}
-              <a href="/privacy-policy">Privacy Policy</a>
+              {t('btpxidProduct.download.legal')}{" "}
+              <a href={getLocalizedPath("/terms-of-service")}>{t('btpxidProduct.download.termsOfService')}</a>{" "}
+              {t('btpxidProduct.download.and')}{" "}
+              <a href={getLocalizedPath("/privacy-policy")}>{t('btpxidProduct.download.privacyPolicy')}</a>
             </p>
           </div>
         </div>

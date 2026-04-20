@@ -1405,5 +1405,83 @@
         "label": "自动化处理"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "一款应用。",
+      "title2": "每位用户。",
+      "title3": "所有账户。",
+      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理用户——一切尽在一个界面。即时反向搜索任何用户。"
+    },
+    "valueProps": {
+      "0": "您所需的唯一 BTP 用户管理应用",
+      "1": "前员工还有访问权限？",
+      "2": "权限过大的用户——已曝光",
+      "3": "一款应用。每位用户。所有范围",
+      "4": "幽灵账户——已使其可见",
+      "5": "在审计前了解谁拥有什么",
+      "6": "SAP OAuth——不存储任何内容"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "您的平台"
+    },
+    "download": {
+      "label": "下载",
+      "title": "准备好开始了吗？",
+      "subtitle": "免费下载 BTP xID。无需信用卡。稍后选择您的计划。",
+      "primaryButton": "下载 {{label}} 版",
+      "loading": "加载中...",
+      "showAll": "显示所有下载选项",
+      "hideAll": "隐藏所有下载选项",
+      "versionLine": "版本 {{version}} · 需要 MacOS 12+ 或 Windows 10+",
+      "legal": "下载即表示您同意",
+      "termsOfService": "服务条款",
+      "and": "和",
+      "privacyPolicy": "隐私政策",
+      "smartscreen": {
+        "title": "Windows SmartScreen 警告",
+        "description": "运行安装程序时，Windows 可能会显示 SmartScreen 警告。要继续：",
+        "step1": "在 SmartScreen 对话框中点击 <1>更多信息</1>",
+        "step2": "点击 <1>仍要运行</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "适用于 M1、M2、M3、M4 Mac 的 DMG",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "适用于 Intel Mac 的 DMG",
+      "winInstallerLabel": "Windows 安装程序",
+      "winInstallerDesc": "适用于 Windows 10/11 的安装程序",
+      "winPortableLabel": "Windows 便携版",
+      "winPortableDesc": "无需安装"
+    },
+    "security": {
+      "label": "安全",
+      "title": "专为认真对待安全的管理员构建。",
+      "description": "BTP xID 使用标准 SAP API 和 SAP 自身的身份验证连接到您的 SAP BTP 环境。我们绝不查看、存储或触碰您的凭据——永远不会。",
+      "noCredentials": {
+        "title": "不存储任何凭据",
+        "description": "您的 SAP 凭据永远不会离开您的设备。BTP xID 使用 SAP 自己的 OAuth 流程——无需密码，无需在服务器端存储令牌。"
+      },
+      "localData": {
+        "title": "您的数据保留在本机",
+        "description": "用户列表和账户数据实时获取，绝不会缓存到我们的服务器。关闭应用——一切消失。"
+      },
+      "sapAuth": {
+        "title": "SAP 身份验证",
+        "description": "我们使用 SAP 标准 OAuth 2.0 身份验证——与 SAP Cockpit 使用的机制相同。无自定义身份验证层，无快捷方式。"
+      },
+      "hiddenData": {
+        "title": "查看 SAP Cockpit 隐藏的内容",
+        "description": "在所有范围内显示用户——包括仅通过 API 可见的用户——无需 SAP Cockpit 管理员访问权限。"
+      }
+    },
+    "pricing": {
+      "label": "定价",
+      "title": "简单、透明的定价",
+      "subtitle": "免费使用 90 天。无需信用卡。"
+    }
   }
 }

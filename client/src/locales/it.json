@@ -1405,5 +1405,83 @@
         "label": "Elaborazione Automatizzata"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Un'app.",
+      "title2": "Ogni utente.",
+      "title3": "Tutti gli account.",
+      "description": "Gestisci gli utenti in account globali, sub-account, organizzazioni e spazi Cloud Foundry — tutto da un unico pannello. Ricerca inversa immediata di qualsiasi utente."
+    },
+    "valueProps": {
+      "0": "L'unica app di gestione utenti BTP di cui avrai mai bisogno",
+      "1": "Un ex dipendente ha ancora accesso?",
+      "2": "Utenti con privilegi eccessivi — scoperti",
+      "3": "Un'app. Ogni utente. Tutti gli ambiti",
+      "4": "Account fantasma — resi visibili",
+      "5": "Sapere chi ha cosa — prima degli audit",
+      "6": "SAP OAuth — niente archiviato"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "la tua piattaforma"
+    },
+    "download": {
+      "label": "Download",
+      "title": "Pronto per iniziare?",
+      "subtitle": "Scarica BTP xID gratuitamente. Nessuna carta di credito richiesta. Scegli il tuo piano in seguito.",
+      "primaryButton": "Scarica per {{label}}",
+      "loading": "Caricamento...",
+      "showAll": "Mostra tutte le opzioni di download",
+      "hideAll": "Nascondi tutte le opzioni di download",
+      "versionLine": "Versione {{version}} · Richiede MacOS 12+ o Windows 10+",
+      "legal": "Scaricando, accetti i",
+      "termsOfService": "Termini di servizio",
+      "and": "e la",
+      "privacyPolicy": "Informativa sulla privacy",
+      "smartscreen": {
+        "title": "Avviso Windows SmartScreen",
+        "description": "Windows potrebbe mostrare un avviso SmartScreen quando si esegue il programma di installazione. Per procedere:",
+        "step1": "Clicca su <1>Ulteriori informazioni</1> nella finestra di dialogo SmartScreen",
+        "step2": "Clicca su <1>Esegui comunque</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG per Mac M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG per Mac basati su Intel",
+      "winInstallerLabel": "Installatore Windows",
+      "winInstallerDesc": "Installatore per Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Nessuna installazione richiesta"
+    },
+    "security": {
+      "label": "Sicurezza",
+      "title": "Progettato per gli amministratori che prendono la sicurezza sul serio.",
+      "description": "BTP xID si connette al tuo panorama SAP BTP usando le API SAP standard e l'autenticazione nativa di SAP. Non vediamo, archiviamo o tocchiamo mai le tue credenziali — mai.",
+      "noCredentials": {
+        "title": "Nessuna credenziale archiviata",
+        "description": "Le tue credenziali SAP non lasciano mai il tuo dispositivo. BTP xID usa il flusso OAuth di SAP — nessuna password, nessun token archiviato lato server."
+      },
+      "localData": {
+        "title": "I tuoi dati restano sul tuo computer",
+        "description": "Le liste utenti e i dati degli account vengono recuperati in tempo reale e non vengono mai memorizzati sui nostri server. Chiudi l'app — sparisce tutto."
+      },
+      "sapAuth": {
+        "title": "Autenticazione SAP",
+        "description": "Usiamo l'autenticazione standard OAuth 2.0 di SAP — lo stesso meccanismo usato da SAP Cockpit. Nessun livello di autenticazione personalizzato, nessuna scorciatoia."
+      },
+      "hiddenData": {
+        "title": "Scopri cosa nasconde SAP Cockpit",
+        "description": "Visualizza gli utenti in tutti gli ambiti — inclusi quelli visibili solo tramite API — senza necessità di accesso amministratore a SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "Prezzi",
+      "title": "Prezzi semplici e trasparenti",
+      "subtitle": "Inizia gratis per 90 giorni. Nessuna carta di credito richiesta."
+    }
   }
 }

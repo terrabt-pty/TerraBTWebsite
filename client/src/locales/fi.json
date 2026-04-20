@@ -1404,5 +1404,83 @@
         "label": "Automaatio"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Yksi sovellus.",
+      "title2": "Jokainen käyttäjä.",
+      "title3": "Kaikki tilit.",
+      "description": "Hallitse käyttäjiä globaaleissa tileissä, alatileissä, Cloud Foundry -organisaatioissa ja -tiloissa — kaikki yhdestä näkymästä. Etsi mikä tahansa käyttäjä välittömästi käänteishakuna."
+    },
+    "valueProps": {
+      "0": "Ainoa BTP-käyttäjänhallintasovellus, jota tarvitset",
+      "1": "Onko entisellä työntekijällä vielä pääsy?",
+      "2": "Liiaksi oikeutetut käyttäjät — paljastettu",
+      "3": "Yksi sovellus. Jokainen käyttäjä. Kaikki laajuudet",
+      "4": "Haamutunnukset — tehty näkyviksi",
+      "5": "Tiedä kuka omistaa mitäkin — ennen tarkastuksia",
+      "6": "SAP OAuth — ei tallenneta mitään"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "alustasi"
+    },
+    "download": {
+      "label": "Lataa",
+      "title": "Valmis aloittamaan?",
+      "subtitle": "Lataa BTP xID ilmaiseksi. Luottokorttia ei tarvita. Valitse suunnitelmasi myöhemmin.",
+      "primaryButton": "Lataa {{label}}:lle",
+      "loading": "Ladataan...",
+      "showAll": "Näytä kaikki latausvaihtoehdot",
+      "hideAll": "Piilota kaikki latausvaihtoehdot",
+      "versionLine": "Versio {{version}} · Vaatii MacOS 12+ tai Windows 10+",
+      "legal": "Lataamalla hyväksyt",
+      "termsOfService": "Palveluehdot",
+      "and": "ja",
+      "privacyPolicy": "Tietosuojakäytännön",
+      "smartscreen": {
+        "title": "Windows SmartScreen -varoitus",
+        "description": "Windows saattaa näyttää SmartScreen-varoituksen, kun suoritat asennusohjelman. Jatkaaksesi:",
+        "step1": "Napsauta <1>Lisätietoja</1> SmartScreen-valintaikkunassa",
+        "step2": "Napsauta <1>Suorita joka tapauksessa</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG M1, M2, M3, M4 Maceille",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG Intel-pohjaisille Maceille",
+      "winInstallerLabel": "Windows-asennusohjelma",
+      "winInstallerDesc": "Asennusohjelma Windows 10/11:lle",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Ei asennusta tarvita"
+    },
+    "security": {
+      "label": "Tietoturva",
+      "title": "Rakennettu järjestelmänvalvojille, jotka ottavat tietoturvan vakavasti.",
+      "description": "BTP xID yhdistyy SAP BTP -ympäristöösi vakio-SAP-rajapintojen ja SAP:n oman todennuksen avulla. Emme koskaan näe, tallenna tai kosketa tunnistetietojasi — ei koskaan.",
+      "noCredentials": {
+        "title": "Tunnistetietoja ei tallenneta",
+        "description": "SAP-tunnistetietosi eivät koskaan poistu laitteeltasi. BTP xID käyttää SAP:n omaa OAuth-virtaa — ei salasanoja, ei palvelimelle tallennettuja tunnuksia."
+      },
+      "localData": {
+        "title": "Tietosi pysyvät koneellasi",
+        "description": "Käyttäjäluettelot ja tilitiedot haetaan reaaliajassa eikä niitä koskaan välimuistita palvelimillemme. Sulje sovellus — kaikki katoaa."
+      },
+      "sapAuth": {
+        "title": "SAP-todennus",
+        "description": "Käytämme SAP:n vakio-OAuth 2.0 -todennusta — samaa mekanismia, jota SAP Cockpit käyttää. Ei mukautettuja todennuskerroksia, ei oikoteitä."
+      },
+      "hiddenData": {
+        "title": "Katso, mitä SAP Cockpit piilottaa",
+        "description": "Tuo esiin käyttäjiä kaikilla laajuuksilla — mukaan lukien ne, jotka ovat näkyvissä vain API:n kautta — ilman SAP Cockpit -järjestelmänvalvojan käyttöoikeutta."
+      }
+    },
+    "pricing": {
+      "label": "Hinnoittelu",
+      "title": "Yksinkertainen ja läpinäkyvä hinnoittelu",
+      "subtitle": "Aloita ilmaiseksi 90 päiväksi. Luottokorttia ei tarvita."
+    }
   }
 }

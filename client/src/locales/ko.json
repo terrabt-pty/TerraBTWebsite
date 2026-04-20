@@ -1405,5 +1405,83 @@
         "label": "자동화된 처리"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "하나의 앱.",
+      "title2": "모든 사용자.",
+      "title3": "모든 계정.",
+      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 사용자를 하나의 화면에서 관리하세요. 모든 사용자를 즉시 역방향 검색합니다."
+    },
+    "valueProps": {
+      "0": "필요한 유일한 BTP 사용자 관리 앱",
+      "1": "퇴직한 직원이 아직도 접근 권한이 있나요?",
+      "2": "과도한 권한을 가진 사용자 — 발각",
+      "3": "하나의 앱. 모든 사용자. 모든 범위",
+      "4": "유령 계정 — 가시화",
+      "5": "감사 전에 누가 무엇을 가졌는지 파악",
+      "6": "SAP OAuth — 아무것도 저장하지 않음"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "귀하의 플랫폼"
+    },
+    "download": {
+      "label": "다운로드",
+      "title": "시작할 준비가 됐나요?",
+      "subtitle": "BTP xID를 무료로 다운로드하세요. 신용카드가 필요 없습니다. 나중에 플랜을 선택하세요.",
+      "primaryButton": "{{label}}용 다운로드",
+      "loading": "로딩 중...",
+      "showAll": "모든 다운로드 옵션 표시",
+      "hideAll": "모든 다운로드 옵션 숨기기",
+      "versionLine": "버전 {{version}} · MacOS 12+ 또는 Windows 10+ 필요",
+      "legal": "다운로드하면 다음에 동의하는 것입니다:",
+      "termsOfService": "서비스 약관",
+      "and": "및",
+      "privacyPolicy": "개인정보 처리방침",
+      "smartscreen": {
+        "title": "Windows SmartScreen 경고",
+        "description": "설치 프로그램을 실행할 때 Windows에서 SmartScreen 경고가 표시될 수 있습니다. 계속하려면:",
+        "step1": "SmartScreen 대화 상자에서 <1>추가 정보</1>를 클릭합니다",
+        "step2": "<1>그래도 실행</1>을 클릭합니다"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "M1, M2, M3, M4 Mac용 DMG",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "Intel 기반 Mac용 DMG",
+      "winInstallerLabel": "Windows 설치 프로그램",
+      "winInstallerDesc": "Windows 10/11용 설치 프로그램",
+      "winPortableLabel": "Windows 포터블",
+      "winPortableDesc": "설치 불필요"
+    },
+    "security": {
+      "label": "보안",
+      "title": "보안을 진지하게 생각하는 관리자를 위해 만들어졌습니다.",
+      "description": "BTP xID는 표준 SAP API와 SAP 자체 인증을 사용하여 SAP BTP 환경에 연결합니다. 우리는 귀하의 자격 증명을 절대 보거나 저장하거나 건드리지 않습니다 — 절대로.",
+      "noCredentials": {
+        "title": "저장된 자격 증명 없음",
+        "description": "귀하의 SAP 자격 증명은 절대 기기를 떠나지 않습니다. BTP xID는 SAP 자체 OAuth 흐름을 사용합니다 — 비밀번호 없음, 서버 측에 저장된 토큰 없음."
+      },
+      "localData": {
+        "title": "데이터는 귀하의 컴퓨터에 남아 있습니다",
+        "description": "사용자 목록과 계정 데이터는 실시간으로 가져오며 서버에 캐시되지 않습니다. 앱을 닫으면 — 모두 사라집니다."
+      },
+      "sapAuth": {
+        "title": "SAP 인증",
+        "description": "SAP 표준 OAuth 2.0 인증을 사용합니다 — SAP Cockpit이 사용하는 것과 동일한 메커니즘입니다. 맞춤형 인증 레이어 없음, 지름길 없음."
+      },
+      "hiddenData": {
+        "title": "SAP Cockpit이 숨기는 것을 보세요",
+        "description": "SAP Cockpit 관리자 액세스 없이도 API를 통해서만 볼 수 있는 사용자를 포함하여 모든 범위의 사용자를 표시합니다."
+      }
+    },
+    "pricing": {
+      "label": "가격",
+      "title": "간단하고 투명한 가격",
+      "subtitle": "90일 동안 무료로 시작하세요. 신용카드가 필요 없습니다."
+    }
   }
 }

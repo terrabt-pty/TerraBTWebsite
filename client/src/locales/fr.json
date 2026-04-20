@@ -1398,5 +1398,83 @@
         "label": "Traitement Automatisé"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Une seule app.",
+      "title2": "Chaque utilisateur.",
+      "title3": "Tous les comptes.",
+      "description": "Gérez les utilisateurs dans les comptes globaux, les sous-comptes, les organisations et espaces Cloud Foundry — depuis une seule interface. Recherche inversée instantanée d'un utilisateur."
+    },
+    "valueProps": {
+      "0": "La seule app de gestion des utilisateurs BTP dont vous aurez besoin",
+      "1": "Un ancien employé a encore accès ?",
+      "2": "Utilisateurs sur-privilégiés — exposés",
+      "3": "Une app. Chaque utilisateur. Tous les périmètres",
+      "4": "Comptes fantômes — rendus visibles",
+      "5": "Savoir qui a quoi — avant les audits",
+      "6": "SAP OAuth — rien de stocké"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "votre plateforme"
+    },
+    "download": {
+      "label": "Téléchargement",
+      "title": "Prêt à commencer ?",
+      "subtitle": "Téléchargez BTP xID gratuitement. Aucune carte de crédit requise. Choisissez votre plan plus tard.",
+      "primaryButton": "Télécharger pour {{label}}",
+      "loading": "Chargement...",
+      "showAll": "Afficher toutes les options de téléchargement",
+      "hideAll": "Masquer toutes les options de téléchargement",
+      "versionLine": "Version {{version}} · Nécessite MacOS 12+ ou Windows 10+",
+      "legal": "En téléchargeant, vous acceptez les",
+      "termsOfService": "Conditions d'utilisation",
+      "and": "et la",
+      "privacyPolicy": "Politique de confidentialité",
+      "smartscreen": {
+        "title": "Avertissement Windows SmartScreen",
+        "description": "Windows peut afficher un avertissement SmartScreen lors de l'exécution du programme d'installation. Pour continuer :",
+        "step1": "Cliquez sur <1>Plus d'informations</1> dans la boîte de dialogue SmartScreen",
+        "step2": "Cliquez sur <1>Exécuter quand même</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG pour les Macs M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG pour les Macs basés sur Intel",
+      "winInstallerLabel": "Installateur Windows",
+      "winInstallerDesc": "Installateur pour Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Aucune installation requise"
+    },
+    "security": {
+      "label": "Sécurité",
+      "title": "Conçu pour les administrateurs qui prennent la sécurité au sérieux.",
+      "description": "BTP xID se connecte à votre paysage SAP BTP en utilisant des API SAP standard et l'authentification native de SAP. Nous ne voyons, ne stockons ni ne touchons jamais vos identifiants — jamais.",
+      "noCredentials": {
+        "title": "Aucun identifiant stocké",
+        "description": "Vos identifiants SAP ne quittent jamais votre appareil. BTP xID utilise le flux OAuth de SAP — aucun mot de passe, aucun jeton stocké côté serveur."
+      },
+      "localData": {
+        "title": "Vos données restent sur votre machine",
+        "description": "Les listes d'utilisateurs et les données de compte sont récupérées en direct et ne sont jamais mises en cache sur nos serveurs. Fermez l'app — tout disparaît."
+      },
+      "sapAuth": {
+        "title": "Authentification SAP",
+        "description": "Nous utilisons l'authentification standard OAuth 2.0 de SAP — le même mécanisme utilisé par SAP Cockpit. Aucune couche d'authentification personnalisée, aucun raccourci."
+      },
+      "hiddenData": {
+        "title": "Voyez ce que SAP Cockpit cache",
+        "description": "Visualisez les utilisateurs dans tous les périmètres — y compris ceux visibles uniquement via l'API — sans avoir besoin d'un accès administrateur SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "Tarifs",
+      "title": "Tarification simple et transparente",
+      "subtitle": "Commencez gratuitement pendant 90 jours. Aucune carte de crédit requise."
+    }
   }
 }

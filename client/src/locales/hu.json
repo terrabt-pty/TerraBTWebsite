@@ -1405,5 +1405,83 @@
         "label": "Automatizált feldolgozás"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Egy alkalmazás.",
+      "title2": "Minden felhasználó.",
+      "title3": "Minden fiók.",
+      "description": "Kezelje a felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely felhasználó azonnali fordított keresése."
+    },
+    "valueProps": {
+      "0": "Az egyetlen BTP felhasználókezelő alkalmazás, amelyre valaha szüksége lesz",
+      "1": "Egy korábbi alkalmazottnak még mindig van hozzáférése?",
+      "2": "Túlzott jogosultságú felhasználók — leleplezve",
+      "3": "Egy alkalmazás. Minden felhasználó. Minden hatókör",
+      "4": "Szellemfiókok — láthatóvá téve",
+      "5": "Tudja, ki mivel rendelkezik — az auditok előtt",
+      "6": "SAP OAuth — semmi nem tárolódik"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "az Ön platformja"
+    },
+    "download": {
+      "label": "Letöltés",
+      "title": "Készen áll a kezdésre?",
+      "subtitle": "Töltse le a BTP xID-t ingyen. Nincs szükség hitelkártyára. Válassza ki a csomagját később.",
+      "primaryButton": "Letöltés {{label}} számára",
+      "loading": "Betöltés...",
+      "showAll": "Összes letöltési lehetőség megjelenítése",
+      "hideAll": "Összes letöltési lehetőség elrejtése",
+      "versionLine": "{{version}} verzió · MacOS 12+ vagy Windows 10+ szükséges",
+      "legal": "A letöltéssel elfogadja a",
+      "termsOfService": "Szolgáltatási feltételeket",
+      "and": "és az",
+      "privacyPolicy": "Adatvédelmi szabályzatot",
+      "smartscreen": {
+        "title": "Windows SmartScreen figyelmeztetés",
+        "description": "A Windows SmartScreen figyelmeztetést jeleníthet meg a telepítő futtatásakor. A folytatáshoz:",
+        "step1": "Kattintson a <1>Továbbiak</1> elemre a SmartScreen párbeszédpanelen",
+        "step2": "Kattintson a <1>Futtatás mindenképpen</1> elemre"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG M1, M2, M3, M4 Mac-ekhez",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG Intel alapú Mac-ekhez",
+      "winInstallerLabel": "Windows telepítő",
+      "winInstallerDesc": "Telepítő Windows 10/11-hez",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Nem igényel telepítést"
+    },
+    "security": {
+      "label": "Biztonság",
+      "title": "A biztonságot komolyan vevő rendszergazdák számára készítve.",
+      "description": "A BTP xID szabványos SAP API-k és a SAP saját hitelesítése segítségével csatlakozik az SAP BTP-környezetéhez. Soha nem látjuk, tároljuk vagy érintjük a hitelesítési adatait — soha.",
+      "noCredentials": {
+        "title": "Nincs tárolt hitelesítési adat",
+        "description": "Az SAP hitelesítési adatai soha nem hagyják el az eszközét. A BTP xID a SAP saját OAuth-folyamatát használja — nincsenek jelszavak, nincsenek szerveren tárolt tokenek."
+      },
+      "localData": {
+        "title": "Az adatai a gépén maradnak",
+        "description": "A felhasználói listák és a fiókadatok élőben kerülnek lekérdezésre, és soha nem kerülnek gyorsítótárba a szervereinkre. Zárja be az alkalmazást — minden eltűnik."
+      },
+      "sapAuth": {
+        "title": "SAP hitelesítés",
+        "description": "A SAP szabványos OAuth 2.0 hitelesítését használjuk — ugyanazt a mechanizmust, amelyet az SAP Cockpit használ. Nincsenek egyéni hitelesítési rétegek, nincsenek parancsikonok."
+      },
+      "hiddenData": {
+        "title": "Lássa, amit az SAP Cockpit elrejt",
+        "description": "Tárja fel a felhasználókat minden hatókörben — beleértve azokat is, amelyek csak API-n keresztül láthatók — anélkül, hogy SAP Cockpit rendszergazdai hozzáférésre lenne szüksége."
+      }
+    },
+    "pricing": {
+      "label": "Árazás",
+      "title": "Egyszerű, átlátható árazás",
+      "subtitle": "Kezdje ingyenesen 90 napig. Nincs szükség hitelkártyára."
+    }
   }
 }

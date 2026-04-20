@@ -1434,5 +1434,83 @@
         "label": "自動処理"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "1つのアプリ。",
+      "title2": "すべてのユーザー。",
+      "title3": "すべてのアカウント。",
+      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のユーザーを1つの画面で管理。任意のユーザーを瞬時に逆引き検索。"
+    },
+    "valueProps": {
+      "0": "必要なBTPユーザー管理アプリはこれ1つだけ",
+      "1": "退職した社員がまだアクセス権を持っていませんか？",
+      "2": "過剰な権限を持つユーザー — 発覚",
+      "3": "1つのアプリ。すべてのユーザー。すべてのスコープ",
+      "4": "ゴーストアカウント — 可視化",
+      "5": "監査前に誰が何を持っているか把握",
+      "6": "SAP OAuth — 何も保存しない"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "お使いのプラットフォーム"
+    },
+    "download": {
+      "label": "ダウンロード",
+      "title": "始める準備はできましたか？",
+      "subtitle": "BTP xIDを無料でダウンロード。クレジットカード不要。プランは後で選択。",
+      "primaryButton": "{{label}}用にダウンロード",
+      "loading": "読み込み中...",
+      "showAll": "すべてのダウンロードオプションを表示",
+      "hideAll": "すべてのダウンロードオプションを非表示",
+      "versionLine": "バージョン {{version}} · MacOS 12+またはWindows 10+が必要",
+      "legal": "ダウンロードすることで、以下に同意したものとみなします：",
+      "termsOfService": "利用規約",
+      "and": "および",
+      "privacyPolicy": "プライバシーポリシー",
+      "smartscreen": {
+        "title": "Windows SmartScreen警告",
+        "description": "インストーラーを実行するとWindows SmartScreenの警告が表示される場合があります。続行するには：",
+        "step1": "SmartScreenダイアログで <1>詳細情報</1> をクリック",
+        "step2": "<1>実行</1> をクリック"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "M1、M2、M3、M4 Mac用DMG",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "Intel搭載Mac用DMG",
+      "winInstallerLabel": "Windowsインストーラー",
+      "winInstallerDesc": "Windows 10/11用インストーラー",
+      "winPortableLabel": "Windowsポータブル版",
+      "winPortableDesc": "インストール不要"
+    },
+    "security": {
+      "label": "セキュリティ",
+      "title": "セキュリティを真剣に考える管理者のために構築。",
+      "description": "BTP xIDは標準SAP APIとSAP独自の認証を使用してSAP BTP環境に接続します。お客様の認証情報を見たり、保存したり、触れたりすることは一切ありません — 永遠に。",
+      "noCredentials": {
+        "title": "認証情報を保存しない",
+        "description": "SAP認証情報がお使いのデバイスから離れることはありません。BTP xIDはSAP独自のOAuthフローを使用します — パスワードなし、サーバー側にトークンを保存しない。"
+      },
+      "localData": {
+        "title": "データはお使いのマシンに保持",
+        "description": "ユーザーリストとアカウントデータはライブで取得され、弊社サーバーにキャッシュされることはありません。アプリを閉じれば — すべて消えます。"
+      },
+      "sapAuth": {
+        "title": "SAP認証",
+        "description": "SAP標準OAuth 2.0認証を使用します — SAP Cockpitが使用するのと同じメカニズムです。カスタム認証レイヤーなし、ショートカットなし。"
+      },
+      "hiddenData": {
+        "title": "SAP Cockpitが隠しているものを表示",
+        "description": "SAP Cockpit管理者アクセスなしに、APIからのみ表示可能なユーザーを含む全スコープのユーザーを表示します。"
+      }
+    },
+    "pricing": {
+      "label": "料金",
+      "title": "シンプルで透明な料金体系",
+      "subtitle": "90日間無料でお試し。クレジットカード不要。"
+    }
   }
 }

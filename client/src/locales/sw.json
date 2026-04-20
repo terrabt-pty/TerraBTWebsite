@@ -1428,5 +1428,83 @@
         "label": "Usindikaji Oto"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Programu moja.",
+      "title2": "Kila mtumiaji.",
+      "title3": "Akaunti zote.",
+      "description": "Simamia watumiaji katika akaunti za kimataifa, akaunti ndogo, shirika na nafasi za Cloud Foundry — yote kutoka sehemu moja. Tafuta mtumiaji yeyote mara moja kwa utafutaji wa nyuma."
+    },
+    "valueProps": {
+      "0": "Programu pekee ya usimamizi wa watumiaji wa BTP utakayohitaji",
+      "1": "Mfanyakazi wa zamani bado ana ufikiaji?",
+      "2": "Watumiaji wenye mamlaka kupita kiasi — wamefichuka",
+      "3": "Programu moja. Kila mtumiaji. Maeneo yote",
+      "4": "Akaunti za kivuli — zimeonekana",
+      "5": "Jua nani ana nini — kabla ya ukaguzi",
+      "6": "SAP OAuth — hakuna kinachohifadhiwa"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "jukwaa lako"
+    },
+    "download": {
+      "label": "Pakua",
+      "title": "Uko tayari kuanza?",
+      "subtitle": "Pakua BTP xID bila malipo. Hakuna kadi ya mkopo inayohitajika. Chagua mpango wako baadaye.",
+      "primaryButton": "Pakua kwa {{label}}",
+      "loading": "Inapakia...",
+      "showAll": "Onyesha chaguo zote za kupakua",
+      "hideAll": "Ficha chaguo zote za kupakua",
+      "versionLine": "Toleo {{version}} · Inahitaji MacOS 12+ au Windows 10+",
+      "legal": "Kwa kupakua, unakubaliana na",
+      "termsOfService": "Masharti ya Huduma",
+      "and": "na",
+      "privacyPolicy": "Sera ya Faragha",
+      "smartscreen": {
+        "title": "Onyo la Windows SmartScreen",
+        "description": "Windows inaweza kuonyesha onyo la SmartScreen unapoendesha msanidi. Ili kuendelea:",
+        "step1": "Bonyeza <1>Maelezo zaidi</1> katika kisanduku cha mazungumzo cha SmartScreen",
+        "step2": "Bonyeza <1>Endesha hata hivyo</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG kwa Mac M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG kwa Mac zenye Intel",
+      "winInstallerLabel": "Msanidi wa Windows",
+      "winInstallerDesc": "Msanidi kwa Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Haihitaji usakinishaji"
+    },
+    "security": {
+      "label": "Usalama",
+      "title": "Imejengwa kwa wasimamizi wanaochukua usalama kwa uzito.",
+      "description": "BTP xID inaunganika na mazingira yako ya SAP BTP kwa kutumia API za kawaida za SAP na uthibitishaji wa SAP mwenyewe. Hatuwahi kuona, kuhifadhi, au kugusa vitambulisho vyako — kamwe.",
+      "noCredentials": {
+        "title": "Hakuna vitambulisho vilivyohifadhiwa",
+        "description": "Vitambulisho vyako vya SAP haviacha kifaa chako kamwe. BTP xID hutumia mtiririko wa OAuth wa SAP mwenyewe — hakuna nywila, hakuna tokeni zilizohifadhiwa upande wa seva."
+      },
+      "localData": {
+        "title": "Data yako inabaki kwenye mashine yako",
+        "description": "Orodha za watumiaji na data za akaunti zinapatikana moja kwa moja na hazihifadhiwi kamwe kwenye seva zetu. Funga programu — kila kitu kinatoweka."
+      },
+      "sapAuth": {
+        "title": "Uthibitishaji wa SAP",
+        "description": "Tunatumia uthibitishaji wa kawaida wa OAuth 2.0 wa SAP — mfumo huo huo unaotumika na SAP Cockpit. Hakuna tabaka maalum za uthibitishaji, hakuna mkato."
+      },
+      "hiddenData": {
+        "title": "Ona kinachofichwa na SAP Cockpit",
+        "description": "Gundua watumiaji katika maeneo yote — ikiwa ni pamoja na wale wanaoonekana kupitia API pekee — bila kuhitaji ufikiaji wa msimamizi wa SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "Bei",
+      "title": "Bei rahisi na wazi",
+      "subtitle": "Anza bila malipo kwa siku 90. Hakuna kadi ya mkopo inayohitajika."
+    }
   }
 }

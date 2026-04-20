@@ -1405,5 +1405,83 @@
         "label": "አውቶማቲክ ሂደት"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "አንድ መተግበሪያ።",
+      "title2": "እያንዳንዱ ተጠቃሚ።",
+      "title3": "ሁሉም መለያዎች።",
+      "description": "በዓለም አቀፍ መለያዎች፣ ንዑስ መለያዎች፣ Cloud Foundry ድርጅቶች እና ቦታዎች ውስጥ ያሉ ተጠቃሚዎችን ከአንድ ምስክርነት ያስተዳድሩ። ማንኛውንም ተጠቃሚ ወዲያውኑ በተቃራኒ ፍለጋ ያግኙ።"
+    },
+    "valueProps": {
+      "0": "ለዘለዓለም የሚያስፈልጎት ብቸኛ BTP ተጠቃሚ አስተዳደር መተግበሪያ",
+      "1": "የቀድሞ ሠራተኛ አሁንም ዳሰሳ አለው?",
+      "2": "ከልክ ያለፈ መብት ያላቸው ተጠቃሚዎች — ተጋልጠዋል",
+      "3": "አንድ መተግበሪያ። እያንዳንዱ ተጠቃሚ። ሁሉም ወሰኖች",
+      "4": "የምስጋና መለያዎች — ታይተዋል",
+      "5": "ኦዲቶች ከመጀመሩ በፊት 누가 ምን እንዳለው ይወቁ",
+      "6": "SAP OAuth — ምንም አይቀመጥም"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "የእርስዎ መድረክ"
+    },
+    "download": {
+      "label": "አውርድ",
+      "title": "ለመጀመር ዝግጁ ነዎት?",
+      "subtitle": "BTP xIDን በነጻ ያውርዱ። ክሬዲት ካርድ አያስፈልግም። ፕላኑን በኋላ ይምረጡ።",
+      "primaryButton": "ለ{{label}} አውርድ",
+      "loading": "በመጫን ላይ...",
+      "showAll": "ሁሉም የማውረጃ አማራጮችን አሳይ",
+      "hideAll": "ሁሉም የማውረጃ አማራጮችን ደብቅ",
+      "versionLine": "ስሪት {{version}} · MacOS 12+ ወይም Windows 10+ ያስፈልጋል",
+      "legal": "በማውረድ፣ ከሚከተሉት ጋር ተስማምተዋል:",
+      "termsOfService": "የአገልግሎት ውሎች",
+      "and": "እና",
+      "privacyPolicy": "የግላዊነት ፖሊሲ",
+      "smartscreen": {
+        "title": "የWindows SmartScreen ማስጠንቀቂያ",
+        "description": "ጫሪዎን ሲያሄዱ Windows የSmartScreen ማስጠንቀቂያ ሊያሳይ ይችላል። ለመቀጠል:",
+        "step1": "በSmartScreen ንግግር ውስጥ <1>ተጨማሪ መረጃ</1>ን ጠቅ ያድርጉ",
+        "step2": "<1>በሆነ ሁኔታ አሂድ</1>ን ጠቅ ያድርጉ"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "ለM1፣ M2፣ M3፣ M4 Mac DMG",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "ለIntel-ዋስትና Mac DMG",
+      "winInstallerLabel": "Windows ጫሪ",
+      "winInstallerDesc": "ለWindows 10/11 ጫሪ",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "ጭነት አያስፈልግም"
+    },
+    "security": {
+      "label": "ደህንነት",
+      "title": "ደህንነትን በቁም ለሚያስቡ አስተዳዳሪዎች የተሰራ።",
+      "description": "BTP xID ከSAP BTP አካባቢዎ ጋር ደረጃ SAP APIዎችን እና SAP ራሱ ያለውን ማረጋገጫ ተጠቅሞ ይገናኛል። የእርስዎን ምስክርነቶች አናይም፣ አናስቀምጥም ወይም አንዳጋጥምም — ፈጽሞ።",
+      "noCredentials": {
+        "title": "ምስክርነቶች አይቀመጡም",
+        "description": "የSAP ምስክርነቶችዎ መሣሪያዎን አይለቁም። BTP xID የSAP ራሱ OAuth ፍሰት ይጠቀማል — ምንም የይለፍ ቃሎች የሉም፣ ምንም ምልክቶች በአገልጋዩ ጎን አይቀመጡም።"
+      },
+      "localData": {
+        "title": "ውሂብዎ በእርስዎ ማሽን ላይ ይቆያል",
+        "description": "የተጠቃሚ ዝርዝሮች እና የመለያ ውሂብ በቀጥታ ይሰበሰቡ እና በእኛ አገልጋዮች ላይ አይከማቹም። መተግበሪያን ዝጉ — ሁሉም ይጠፋል።"
+      },
+      "sapAuth": {
+        "title": "SAP ማረጋገጫ",
+        "description": "SAP Cockpit የሚጠቀምበትን ተመሳሳይ ዘዴ — SAP ደረጃ OAuth 2.0 ማረጋገጫ — ተጠቅሰናል። ምንም ልዩ ማረጋገጫ ንብርብሮች የሉም፣ ምንም አቋራጭ መንገዶች የሉም።"
+      },
+      "hiddenData": {
+        "title": "SAP Cockpit የሚደብቀውን ይመልከቱ",
+        "description": "SAP Cockpit አስተዳዳሪ ዳሰሳ ሳያስፈልግ፣ APIን ብቻ የሚታዩ ተጠቃሚዎችን ጨምሮ በሁሉም ወሰኖች ያሉ ተጠቃሚዎችን ያሳዩ።"
+      }
+    },
+    "pricing": {
+      "label": "ዋጋ",
+      "title": "ቀላል እና ግልጽ ዋጋ",
+      "subtitle": "ለ90 ቀናት በነጻ ይጀምሩ። ክሬዲት ካርድ አያስፈልግም።"
+    }
   }
 }

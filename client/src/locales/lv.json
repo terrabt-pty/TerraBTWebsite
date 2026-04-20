@@ -1396,5 +1396,83 @@
         "label": "Automatizācija"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Viena lietotne.",
+      "title2": "Katrs lietotājs.",
+      "title3": "Visi konti.",
+      "description": "Pārvaldiet lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram lietotājam."
+    },
+    "valueProps": {
+      "0": "Vienīgā BTP lietotāju pārvaldības lietotne, kas jums jebkad būs nepieciešama",
+      "1": "Bijušajam darbiniekam joprojām ir piekļuve?",
+      "2": "Lietotāji ar pārmērīgām privilēģijām — atklāti",
+      "3": "Viena lietotne. Katrs lietotājs. Visi aptvērumi",
+      "4": "Spoku konti — padarīti redzami",
+      "5": "Ziniet, kam kas ir — pirms revīzijām",
+      "6": "SAP OAuth — nekas netiek saglabāts"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "jūsu platforma"
+    },
+    "download": {
+      "label": "Lejupielāde",
+      "title": "Gatavs sākt?",
+      "subtitle": "Lejupielādējiet BTP xID bez maksas. Kredītkarte nav nepieciešama. Izvēlieties plānu vēlāk.",
+      "primaryButton": "Lejupielādēt {{label}}",
+      "loading": "Ielādē...",
+      "showAll": "Rādīt visas lejupielādes iespējas",
+      "hideAll": "Slēpt visas lejupielādes iespējas",
+      "versionLine": "Versija {{version}} · Nepieciešams MacOS 12+ vai Windows 10+",
+      "legal": "Lejupielādējot jūs piekrītat",
+      "termsOfService": "Pakalpojumu noteikumiem",
+      "and": "un",
+      "privacyPolicy": "Privātuma politikai",
+      "smartscreen": {
+        "title": "Windows SmartScreen brīdinājums",
+        "description": "Palaižot instalētāju, Windows var parādīt SmartScreen brīdinājumu. Lai turpinātu:",
+        "step1": "SmartScreen dialoglodziņā noklikšķiniet uz <1>Papildinformācija</1>",
+        "step2": "Noklikšķiniet uz <1>Tik un tā palaist</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG M1, M2, M3, M4 Mac datoriem",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG Intel bāzes Mac datoriem",
+      "winInstallerLabel": "Windows instalētājs",
+      "winInstallerDesc": "Instalētājs Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Instalācija nav nepieciešama"
+    },
+    "security": {
+      "label": "Drošība",
+      "title": "Veidots administratoriem, kuri nopietni izturas pret drošību.",
+      "description": "BTP xID pieslēdzas jūsu SAP BTP videi, izmantojot standarta SAP API un SAP pašu autentifikāciju. Mēs nekad neredzam, nesaglabājam vai nepieskaramies jūsu akreditācijas datiem — nekad.",
+      "noCredentials": {
+        "title": "Saglabāti akreditācijas dati nav",
+        "description": "Jūsu SAP akreditācijas dati nekad neatstāj jūsu ierīci. BTP xID izmanto SAP pašu OAuth plūsmu — nav paroļu, nav servera pusē saglabātu pilnvaru."
+      },
+      "localData": {
+        "title": "Jūsu dati paliek jūsu datorā",
+        "description": "Lietotāju saraksti un konta dati tiek iegūti tiešraidē un nekad netiek saglabāti mūsu serveru kešatmiņā. Aizveriet lietotni — viss pazūd."
+      },
+      "sapAuth": {
+        "title": "SAP autentifikācija",
+        "description": "Mēs izmantojam SAP standarta OAuth 2.0 autentifikāciju — to pašu mehānismu, ko izmanto SAP Cockpit. Nav pielāgotu autentifikācijas slāņu, nav īsceļu."
+      },
+      "hiddenData": {
+        "title": "Skatiet, ko SAP Cockpit slēpj",
+        "description": "Atklājiet lietotājus visos aptvērumos — ieskaitot tos, kas redzami tikai ar API — bez nepieciešamības pēc SAP Cockpit administratora piekļuves."
+      }
+    },
+    "pricing": {
+      "label": "Cenas",
+      "title": "Vienkārša, pārskatāma cenu noteikšana",
+      "subtitle": "Sāciet bez maksas 90 dienas. Kredītkarte nav nepieciešama."
+    }
   }
 }

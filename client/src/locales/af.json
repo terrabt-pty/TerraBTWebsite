@@ -1428,5 +1428,83 @@
         "label": "Geoutomatiseerde Verwerking"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Een toepassing.",
+      "title2": "Elke gebruiker.",
+      "title3": "Alle rekeninge.",
+      "description": "Bestuur gebruikers oor globale rekeninge, subrekeninge, Cloud Foundry-organisasies en -ruimtes — alles vanuit een enkele oorsig. Soek enige gebruiker onmiddellik deur omgekeerde soektog."
+    },
+    "valueProps": {
+      "0": "Die enigste BTP-gebruikerbestuurtoepassing wat u ooit sal nodig hê",
+      "1": "Het 'n vorige werknemer nog steeds toegang?",
+      "2": "Gebruikers met buitensporige voorregte — ontbloot",
+      "3": "Een toepassing. Elke gebruiker. Alle omvangs",
+      "4": "Spookrrekeninge — sigbaar gemaak",
+      "5": "Weet wie wat het — voor oudits",
+      "6": "SAP OAuth — niks word gestoor nie"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "u platform"
+    },
+    "download": {
+      "label": "Laai af",
+      "title": "Gereed om te begin?",
+      "subtitle": "Laai BTP xID gratis af. Geen kredietkaart nodig nie. Kies u plan later.",
+      "primaryButton": "Laai af vir {{label}}",
+      "loading": "Laai...",
+      "showAll": "Wys alle aflaai-opsies",
+      "hideAll": "Verberg alle aflaai-opsies",
+      "versionLine": "Weergawe {{version}} · Vereis MacOS 12+ of Windows 10+",
+      "legal": "Deur af te laai, stem u in met die",
+      "termsOfService": "Diensvoorwaardes",
+      "and": "en die",
+      "privacyPolicy": "Privaatheidsbeleid",
+      "smartscreen": {
+        "title": "Windows SmartScreen-waarskuwing",
+        "description": "Windows mag 'n SmartScreen-waarskuwing wys wanneer u die installeerder uitvoer. Om voort te gaan:",
+        "step1": "Klik op <1>Meer inligting</1> in die SmartScreen-dialoog",
+        "step2": "Klik op <1>Hardloop tog</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG vir M1, M2, M3, M4 Mac-rekenaars",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG vir Intel-gebaseerde Mac-rekenaars",
+      "winInstallerLabel": "Windows-installeerder",
+      "winInstallerDesc": "Installeerder vir Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Geen installasie nodig nie"
+    },
+    "security": {
+      "label": "Sekuriteit",
+      "title": "Gebou vir administrateurs wat sekuriteit ernstig opneem.",
+      "description": "BTP xID koppel aan u SAP BTP-landskap deur standaard SAP API's en SAP se eie verifikasie te gebruik. Ons sien, stoor of raak nooit u geloofsbriewe aan nie — nooit.",
+      "noCredentials": {
+        "title": "Geen gestoorde geloofsbriewe nie",
+        "description": "U SAP-geloofsbriewe verlaat nooit u toestel nie. BTP xID gebruik SAP se eie OAuth-vloei — geen wagwoorde, geen tokens aan die bedienerkant gestoor nie."
+      },
+      "localData": {
+        "title": "U data bly op u masjien",
+        "description": "Gebruikerlyste en rekeningdata word regstreeks opgehaal en nooit in ons bedieners se kas gestoor nie. Maak die toepassing toe — dit verdwyn alles."
+      },
+      "sapAuth": {
+        "title": "SAP-verifikasie",
+        "description": "Ons gebruik SAP se standaard OAuth 2.0-verifikasie — dieselfde meganisme wat SAP Cockpit gebruik. Geen gepasmaakte verifikasielae, geen kortpaaie nie."
+      },
+      "hiddenData": {
+        "title": "Sien wat SAP Cockpit wegsteek",
+        "description": "Bring gebruikers oor alle omvangs te voorskyn — insluitend dié wat slegs deur die API sigbaar is — sonder om SAP Cockpit-administrateurtoegang te benodig."
+      }
+    },
+    "pricing": {
+      "label": "Pryse",
+      "title": "Eenvoudige, deursigtige prysstelling",
+      "subtitle": "Begin gratis vir 90 dae. Geen kredietkaart nodig nie."
+    }
   }
 }

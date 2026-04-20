@@ -1404,5 +1404,83 @@
         "label": "Avtomatizirana obdelava"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Ena aplikacija.",
+      "title2": "Vsak uporabnik.",
+      "title3": "Vsi računi.",
+      "description": "Upravljajte uporabnike v globalnih računih, podračunih, organizacijah in prostorih Cloud Foundry — vse iz enega pregleda. Takojšnje obratno iskanje katerega koli uporabnika."
+    },
+    "valueProps": {
+      "0": "Edina aplikacija za upravljanje uporabnikov BTP, ki jo boste kdaj potrebovali",
+      "1": "Ali ima bivši zaposleni še vedno dostop?",
+      "2": "Preveč privilegirani uporabniki — razkriti",
+      "3": "Ena aplikacija. Vsak uporabnik. Vsi obsegi",
+      "4": "Računi-duhovi — postali vidni",
+      "5": "Vedite, kdo ima kaj — pred revizijami",
+      "6": "SAP OAuth — nič ni shranjeno"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "vaša platforma"
+    },
+    "download": {
+      "label": "Prenos",
+      "title": "Pripravljeni za začetek?",
+      "subtitle": "Prenesite BTP xID brezplačno. Kreditna kartica ni potrebna. Izberite načrt pozneje.",
+      "primaryButton": "Prenos za {{label}}",
+      "loading": "Nalaganje...",
+      "showAll": "Prikaži vse možnosti prenosa",
+      "hideAll": "Skrij vse možnosti prenosa",
+      "versionLine": "Različica {{version}} · Zahteva MacOS 12+ ali Windows 10+",
+      "legal": "S prenosom se strinjate z",
+      "termsOfService": "Pogoji storitve",
+      "and": "in",
+      "privacyPolicy": "Politiko zasebnosti",
+      "smartscreen": {
+        "title": "Opozorilo Windows SmartScreen",
+        "description": "Windows lahko prikaže opozorilo SmartScreen, ko zaženete namestitveni program. Če želite nadaljevati:",
+        "step1": "Kliknite <1>Več informacij</1> v pogovornem oknu SmartScreen",
+        "step2": "Kliknite <1>Vseeno zaženi</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG za Mac M1, M2, M3, M4",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG za Mac z Intelom",
+      "winInstallerLabel": "Namestitveni program Windows",
+      "winInstallerDesc": "Namestitveni program za Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Namestitev ni potrebna"
+    },
+    "security": {
+      "label": "Varnost",
+      "title": "Zgrajeno za skrbnike, ki jemljejo varnost resno.",
+      "description": "BTP xID se poveže z vašim okoljem SAP BTP z uporabo standardnih SAP API-jev in lastnega preverjanja pristnosti SAP. Vaših poverilnic nikoli ne vidimo, shranjujemo ali se jih dotikamo — nikoli.",
+      "noCredentials": {
+        "title": "Brez shranjenih poverilnic",
+        "description": "Vaše poverilnice SAP nikoli ne zapustijo vaše naprave. BTP xID uporablja lastni tok OAuth SAP — brez gesel, brez žetonov, shranjenih na strežniku."
+      },
+      "localData": {
+        "title": "Vaši podatki ostanejo na vaši napravi",
+        "description": "Seznami uporabnikov in podatki o računu se pridobivajo v živo in se nikoli ne predpomnijo na naših strežnikih. Zaprite aplikacijo — vse izgine."
+      },
+      "sapAuth": {
+        "title": "Preverjanje pristnosti SAP",
+        "description": "Uporabljamo standardno preverjanje pristnosti OAuth 2.0 SAP — isti mehanizem, ki ga uporablja SAP Cockpit. Brez prilagojenih plasti preverjanja pristnosti, brez bližnjic."
+      },
+      "hiddenData": {
+        "title": "Poglejte, kaj skriva SAP Cockpit",
+        "description": "Razkrijte uporabnike v vseh obsegih — vključno s tistimi, ki so vidni samo prek API-ja — brez potrebe po skrbniškem dostopu do SAP Cockpit."
+      }
+    },
+    "pricing": {
+      "label": "Cene",
+      "title": "Preproste, pregledne cene",
+      "subtitle": "Začnite brezplačno za 90 dni. Kreditna kartica ni potrebna."
+    }
   }
 }

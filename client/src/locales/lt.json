@@ -1404,5 +1404,83 @@
         "label": "Automatizavimas"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Viena programa.",
+      "title2": "Kiekvienas vartotojas.",
+      "title3": "Visos paskyros.",
+      "description": "Valdykite vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį vartotoją atvirkštiniu paieška."
+    },
+    "valueProps": {
+      "0": "Vienintelė BTP vartotojų valdymo programa, kurios kada nors prireiks",
+      "1": "Buvęs darbuotojas vis dar turi prieigą?",
+      "2": "Vartotojai su pertekliniais privilegijomis — atskleisti",
+      "3": "Viena programa. Kiekvienas vartotojas. Visos apimtys",
+      "4": "Vaiduokliškos paskyros — padarytos matomos",
+      "5": "Žinokite, kas ką turi — prieš auditus",
+      "6": "SAP OAuth — nieko nesaugoma"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "jūsų platforma"
+    },
+    "download": {
+      "label": "Atsisiųsti",
+      "title": "Pasiruošę pradėti?",
+      "subtitle": "Atsisiųskite BTP xID nemokamai. Kreditinė kortelė nereikalinga. Pasirinkite planą vėliau.",
+      "primaryButton": "Atsisiųsti {{label}}",
+      "loading": "Kraunama...",
+      "showAll": "Rodyti visas atsisiuntimo parinktis",
+      "hideAll": "Slėpti visas atsisiuntimo parinktis",
+      "versionLine": "Versija {{version}} · Reikalauja MacOS 12+ arba Windows 10+",
+      "legal": "Atsisiųsdami sutinkate su",
+      "termsOfService": "Paslaugų teikimo sąlygomis",
+      "and": "ir",
+      "privacyPolicy": "Privatumo politika",
+      "smartscreen": {
+        "title": "Windows SmartScreen įspėjimas",
+        "description": "Paleidus diegimo programą Windows gali parodyti SmartScreen įspėjimą. Norėdami tęsti:",
+        "step1": "Spustelėkite <1>Daugiau informacijos</1> SmartScreen dialogo lange",
+        "step2": "Spustelėkite <1>Vykdyti vis tiek</1>"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "DMG M1, M2, M3, M4 Mac kompiuteriams",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "DMG Intel pagrindu veikiantiems Mac",
+      "winInstallerLabel": "Windows diegimo programa",
+      "winInstallerDesc": "Diegimo programa Windows 10/11",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Diegimas nereikalingas"
+    },
+    "security": {
+      "label": "Saugumas",
+      "title": "Sukurta administratoriams, kurie rimtai žiūri į saugumą.",
+      "description": "BTP xID jungiasi prie jūsų SAP BTP aplinkos naudodama standartinius SAP API ir SAP nuosavą autentifikaciją. Mes niekada nematome, nesaugome ir neliečiame jūsų prisijungimo duomenų — niekada.",
+      "noCredentials": {
+        "title": "Jokių saugomų prisijungimo duomenų",
+        "description": "Jūsų SAP prisijungimo duomenys niekada nepalieka jūsų įrenginio. BTP xID naudoja SAP nuosavą OAuth srautą — jokių slaptažodžių, jokių serverio pusėje saugomų žetonų."
+      },
+      "localData": {
+        "title": "Jūsų duomenys lieka jūsų kompiuteryje",
+        "description": "Vartotojų sąrašai ir paskyros duomenys gaunami tiesiogiai ir niekada nesaugomi mūsų serverių talpykloje. Uždarykite programą — viskas dingsta."
+      },
+      "sapAuth": {
+        "title": "SAP autentifikacija",
+        "description": "Naudojame SAP standartinę OAuth 2.0 autentifikaciją — tą patį mechanizmą, kurį naudoja SAP Cockpit. Jokių pasirinktinių autentifikacijos sluoksnių, jokių sparčiųjų klavišų."
+      },
+      "hiddenData": {
+        "title": "Žiūrėkite, ką slepia SAP Cockpit",
+        "description": "Atskleiskite vartotojus visose apimtyse — įskaitant matomus tik per API — nereikalaudami SAP Cockpit administratoriaus prieigos."
+      }
+    },
+    "pricing": {
+      "label": "Kainos",
+      "title": "Paprasta ir skaidri kainodara",
+      "subtitle": "Pradėkite nemokamai 90 dienų. Kreditinė kortelė nereikalinga."
+    }
   }
 }

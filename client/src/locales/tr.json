@@ -1404,5 +1404,83 @@
         "label": "Otomasyon"
       }
     }
+  },
+  "btpxidProduct": {
+    "hero": {
+      "title1": "Tek uygulama.",
+      "title2": "Her kullanıcı.",
+      "title3": "Tüm hesaplar.",
+      "description": "Küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarındaki kullanıcıları tek bir görünümden yönetin. Herhangi bir kullanıcıyı anında ters arama ile bulun."
+    },
+    "valueProps": {
+      "0": "İhtiyaç duyacağınız tek BTP kullanıcı yönetimi uygulaması",
+      "1": "Eski bir çalışanın hâlâ erişimi var mı?",
+      "2": "Aşırı ayrıcalıklı kullanıcılar — ortaya çıkarıldı",
+      "3": "Tek uygulama. Her kullanıcı. Tüm kapsamlar",
+      "4": "Hayalet hesaplar — görünür hale getirildi",
+      "5": "Denetimlerden önce kimin ne sahibi olduğunu bilin",
+      "6": "SAP OAuth — hiçbir şey saklanmaz"
+    },
+    "osLabels": {
+      "mac": "MacOS",
+      "windows": "Windows",
+      "unknown": "platformunuz"
+    },
+    "download": {
+      "label": "İndir",
+      "title": "Başlamaya hazır mısınız?",
+      "subtitle": "BTP xID'yi ücretsiz indirin. Kredi kartı gerekmez. Planınızı daha sonra seçin.",
+      "primaryButton": "{{label}} için İndir",
+      "loading": "Yükleniyor...",
+      "showAll": "Tüm indirme seçeneklerini göster",
+      "hideAll": "Tüm indirme seçeneklerini gizle",
+      "versionLine": "Sürüm {{version}} · MacOS 12+ veya Windows 10+ gerektirir",
+      "legal": "İndirerek kabul etmiş olursunuz:",
+      "termsOfService": "Hizmet Şartları",
+      "and": "ve",
+      "privacyPolicy": "Gizlilik Politikası",
+      "smartscreen": {
+        "title": "Windows SmartScreen Uyarısı",
+        "description": "Yükleyiciyi çalıştırdığınızda Windows bir SmartScreen uyarısı gösterebilir. Devam etmek için:",
+        "step1": "SmartScreen iletişim kutusunda <1>Daha fazla bilgi</1> seçeneğine tıklayın",
+        "step2": "<1>Yine de çalıştır</1> seçeneğine tıklayın"
+      }
+    },
+    "downloadOptions": {
+      "macArm64Label": "MacOS Apple Silicon",
+      "macArm64Desc": "M1, M2, M3, M4 Mac'ler için DMG",
+      "macX64Label": "MacOS Intel",
+      "macX64Desc": "Intel tabanlı Mac'ler için DMG",
+      "winInstallerLabel": "Windows Yükleyicisi",
+      "winInstallerDesc": "Windows 10/11 için yükleyici",
+      "winPortableLabel": "Windows Portable",
+      "winPortableDesc": "Kurulum gerektirmez"
+    },
+    "security": {
+      "label": "Güvenlik",
+      "title": "Güvenliği ciddiye alan yöneticiler için tasarlandı.",
+      "description": "BTP xID, SAP BTP ortamınıza standart SAP API'leri ve SAP'ın kendi kimlik doğrulaması aracılığıyla bağlanır. Kimlik bilgilerinizi hiçbir zaman görmüyor, saklamıyor veya dokunmuyoruz — asla.",
+      "noCredentials": {
+        "title": "Kimlik bilgileri saklanmaz",
+        "description": "SAP kimlik bilgileriniz cihazınızdan asla ayrılmaz. BTP xID, SAP'ın kendi OAuth akışını kullanır — parola yok, sunucu tarafında saklanan token yok."
+      },
+      "localData": {
+        "title": "Verileriniz makinenizde kalır",
+        "description": "Kullanıcı listeleri ve hesap verileri canlı olarak alınır ve sunucularımızda asla önbelleğe alınmaz. Uygulamayı kapatın — hepsi gider."
+      },
+      "sapAuth": {
+        "title": "SAP kimlik doğrulama",
+        "description": "SAP'ın standart OAuth 2.0 kimlik doğrulamasını kullanıyoruz — SAP Cockpit'in kullandığı mekanizmanın aynısı. Özel kimlik doğrulama katmanı yok, kısayol yok."
+      },
+      "hiddenData": {
+        "title": "SAP Cockpit'in gizlediklerini görün",
+        "description": "Tüm kapsamlardaki kullanıcıları — yalnızca API aracılığıyla görülebilenleri de dahil olmak üzere — SAP Cockpit yönetici erişimine ihtiyaç duymadan ortaya çıkarın."
+      }
+    },
+    "pricing": {
+      "label": "Fiyatlandırma",
+      "title": "Basit, şeffaf fiyatlandırma",
+      "subtitle": "90 gün boyunca ücretsiz başlayın. Kredi kartı gerekmez."
+    }
   }
 }
