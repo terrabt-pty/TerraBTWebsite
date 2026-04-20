@@ -66,12 +66,13 @@ export default function Navigation() {
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="grid grid-cols-[auto_1fr_auto] items-center h-16 gap-4">
           <Link href={homePath} className="flex items-center gap-2 flex-shrink">
             <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
-          <div className="hidden lg:flex items-center gap-6">
+          {/* Centre column — main nav links */}
+          <div className="hidden lg:flex items-center justify-center gap-6">
             <button
               onClick={() => { setMobileMenuOpen(false); setLocation(homePath); }}
               className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
@@ -106,34 +107,39 @@ export default function Navigation() {
                 {link.label}
               </button>
             ))}
-
-            <LanguageSwitcher />
-            <a
-              href="https://accounts.terrabt.com/auth/login"
-              className="flex flex-col items-center text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
-              data-testid="link-sign-in"
-              aria-label={t('nav.signIn')}
-            >
-              <UserCircle className="h-5 w-5" />
-              <span className="text-[10px] leading-tight mt-0.5">{t('nav.signIn')}</span>
-            </a>
           </div>
 
-          <div className="lg:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2 flex-shrink-0">
-            <LanguageSwitcher />
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-1.5 xxs:p-2 text-foreground/80 hover:text-foreground hover:bg-accent rounded-md transition-colors"
-              data-testid="button-mobile-menu"
-            >
-              {mobileMenuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </button>
-          </div>
-        </div>
+          {/* Right column — utility icons + mobile toggle */}
+          <div className="flex items-center gap-0.5 xxs:gap-1 sm:gap-2 justify-end">
+            <div className="hidden lg:flex items-center gap-2">
+              <LanguageSwitcher />
+              <a
+                href="https://accounts.terrabt.com/auth/login"
+                className="flex flex-col items-center text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
+                data-testid="link-sign-in"
+                aria-label={t('nav.signIn')}
+              >
+                <UserCircle className="h-5 w-5" />
+                <span className="text-[10px] leading-tight mt-0.5">{t('nav.signIn')}</span>
+              </a>
+            </div>
+
+            <div className="lg:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2">
+              <LanguageSwitcher />
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="p-1.5 xxs:p-2 text-foreground/80 hover:text-foreground hover:bg-accent rounded-md transition-colors"
+                data-testid="button-mobile-menu"
+              >
+                {mobileMenuOpen ? (
+                  <X className="h-6 w-6" />
+                ) : (
+                  <Menu className="h-6 w-6" />
+                )}
+              </button>
+            </div>
+          </div>{/* end right column */}
+        </div>{/* end grid */}
       </div>
 
       {mobileMenuOpen && (

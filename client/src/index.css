@@ -1336,9 +1336,10 @@
 .nav-btpxid-mobile {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   width: 100%;
-  text-align: left;
+  text-align: center;
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   background: linear-gradient(135deg, rgba(76, 175, 80, 0.06), rgba(30, 80, 153, 0.06));
