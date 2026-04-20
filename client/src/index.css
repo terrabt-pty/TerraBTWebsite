@@ -1695,6 +1695,45 @@
   font-weight: 400;
 }
 
+.btpxid-smartscreen-notice {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: #0E1428;
+  border: 1px solid #2A3660;
+  border-radius: 0.75rem;
+  color: #A8B4D0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.btpxid-smartscreen-notice-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #C8D4E8;
+  margin-bottom: 0.625rem;
+}
+
+.btpxid-smartscreen-notice p {
+  margin-bottom: 0.375rem;
+}
+
+.btpxid-smartscreen-notice ol {
+  margin: 0.375rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.btpxid-smartscreen-notice ol li {
+  margin-bottom: 0.2rem;
+}
+
+.btpxid-smartscreen-notice strong {
+  color: #E8ECF4;
+  font-weight: 600;
+}
+
 .btpxid-download-info {
   text-align: center;
   margin-top: 2rem;

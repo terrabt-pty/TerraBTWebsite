@@ -559,6 +559,23 @@ export default function BTPxIDProduct() {
             </div>
           )}
 
+          {/* Windows SmartScreen notice */}
+          {(os === "windows" || showAllDownloads) && (
+            <div className="btpxid-smartscreen-notice">
+              <div className="btpxid-smartscreen-notice-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Windows SmartScreen Warning
+              </div>
+              <p>
+                Windows may show a SmartScreen warning when you run the installer. To proceed:
+              </p>
+              <ol>
+                <li>Click <strong>More info</strong> in the SmartScreen dialog</li>
+                <li>Click <strong>Run anyway</strong></li>
+              </ol>
+            </div>
+          )}
+
           <div className="btpxid-download-info">
             <p>
               {versionInfo ? `Version ${versionInfo.version}` : "Loading version..."} · Requires MacOS 12+ or Windows 10+
