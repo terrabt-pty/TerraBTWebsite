@@ -7,9 +7,9 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // Pass through all requests to updates.terrabt.com without geo-blocking or HTML rewriting.
-    // This allows ANZ users (and everyone else) to download BTP xID files directly.
-    if (url.hostname === 'updates.terrabt.com') {
+    // Pass through updates.terrabt.com (downloads) and accounts.terrabt.com (app login/registration)
+    // without geo-blocking or HTML rewriting.
+    if (url.hostname === 'updates.terrabt.com' || url.hostname === 'accounts.terrabt.com') {
       return fetch(request);
     }
 
@@ -49,12 +49,10 @@ export default {
         (allowed) => normalizedPath === allowed || normalizedPath.startsWith(allowed + '/')
       );
 
-      // If the IP is not in the allowed list and the path is not ANZ-exempt, block the request
+      // If the IP is not in the allowed list and the path is not ANZ-exempt,
+      // redirect to the BTP xID product page instead of blocking.
       if (!isAnzAllowed && !allowedIPs.includes(clientIP)) {
-        return new Response('', {
-          status: 403,
-          headers: { 'Content-Type': 'text/plain' }
-        });
+        return Response.redirect('https://www.terrabt.com/products/btp-xid', 302);
       }
     }
 
