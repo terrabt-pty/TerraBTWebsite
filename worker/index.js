@@ -33,11 +33,15 @@ export default {
 
       // Paths that ANZ users may always access, regardless of geo-block.
       // Handles plain paths (/products/btp-xid) AND language-prefixed paths (/en/products/btp-xid).
+      // NOTE: /index.html and / must be included so the SPA fallback can fetch index.html
+      // without being redirected — otherwise the worker's own subrequest loops and returns 404.
       const ANZ_ALLOWED_PATHS = [
         '/products/btp-xid',
         '/terms-of-service',
         '/privacy-policy',
         '/limited-liability',
+        '/index.html',
+        '/',
       ];
 
       // Strip a leading language prefix (e.g. /en/ or /ja-JP/) so the check works for all locales.
