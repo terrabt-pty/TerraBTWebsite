@@ -35,6 +35,9 @@ export default {
       // Handles plain paths (/products/btp-xid) AND language-prefixed paths (/en/products/btp-xid).
       const ANZ_ALLOWED_PATHS = [
         '/products/btp-xid',
+        '/terms-of-service',
+        '/privacy-policy',
+        '/limited-liability',
       ];
 
       // Strip a leading language prefix (e.g. /en/ or /ja-JP/) so the check works for all locales.
