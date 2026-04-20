@@ -1696,14 +1696,38 @@
 }
 
 .btpxid-smartscreen-notice {
+  position: relative;
   margin-bottom: 1.5rem;
-  padding: 1rem 1.25rem;
+  padding: 1rem 2.5rem 1rem 1.25rem;
   background: #0E1428;
   border: 1px solid #2A3660;
   border-radius: 0.75rem;
   color: #A8B4D0;
   font-size: 0.8125rem;
   line-height: 1.6;
+}
+
+.btpxid-smartscreen-notice-close {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+  border: none;
+  color: #4A5678;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: color 0.15s, background 0.15s;
+  padding: 0;
+}
+
+.btpxid-smartscreen-notice-close:hover {
+  color: #E8ECF4;
+  background: #1A2340;
 }
 
 .btpxid-smartscreen-notice-title {

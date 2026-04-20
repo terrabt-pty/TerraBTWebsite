@@ -212,6 +212,7 @@ export default function BTPxIDProduct() {
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
+  const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [cardRound, setCardRound] = useState(0);
   const [cardsFading, setCardsFading] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
@@ -499,7 +500,11 @@ export default function BTPxIDProduct() {
           {/* Primary OS download */}
           <div className="btpxid-download-primary">
             {primaryDownloadUrl ? (
-              <a href={primaryDownloadUrl} className="btpxid-download-btn">
+              <a
+                href={primaryDownloadUrl}
+                className="btpxid-download-btn"
+                onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+              >
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="btpxid-download-btn-text">
                   <span className="btpxid-download-btn-title">
@@ -525,7 +530,11 @@ export default function BTPxIDProduct() {
             )}
 
             <button
-              onClick={() => setShowAllDownloads(!showAllDownloads)}
+              onClick={() => {
+                const next = !showAllDownloads;
+                setShowAllDownloads(next);
+                if (next && os === "windows") setShowSmartScreenNotice(true);
+              }}
               className="btpxid-download-other"
             >
               {showAllDownloads ? "Hide" : "Show"} all download options
@@ -560,8 +569,15 @@ export default function BTPxIDProduct() {
           )}
 
           {/* Windows SmartScreen notice */}
-          {(os === "windows" || showAllDownloads) && (
+          {showSmartScreenNotice && (
             <div className="btpxid-smartscreen-notice">
+              <button
+                className="btpxid-smartscreen-notice-close"
+                onClick={() => setShowSmartScreenNotice(false)}
+                aria-label="Dismiss"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
               <div className="btpxid-smartscreen-notice-title">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
                 Windows SmartScreen Warning
