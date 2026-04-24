@@ -28,7 +28,10 @@ export default {
     const hasBypassCookie = cookieHeader.includes(`terrabt_bypass=${SECRET_ACCESS_TOKEN}`);
 
     // Check if the request is from AU or NZ
-    if ((country === 'AU' || country === 'NZ') && !hasBypassCookie && accessToken !== SECRET_ACCESS_TOKEN) {
+    // Never geo-block static assets — they are required to render any allowed page.
+    const isStaticAsset = /\.(js|css|woff|woff2|ttf|otf|png|jpg|jpeg|gif|svg|ico|webp|json|xml|txt|map)$/i.test(url.pathname);
+
+    if (!isStaticAsset && (country === 'AU' || country === 'NZ') && !hasBypassCookie && accessToken !== SECRET_ACCESS_TOKEN) {
       const allowedIPs = ['210.50.179.69'];
 
       // Paths that ANZ users may always access, regardless of geo-block.
