@@ -206,6 +206,7 @@ export default function BTPxIDProduct() {
   const [cardsFading, setCardsFading] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const [packages, setPackages] = useState<PricingPackage[]>(FALLBACK_PACKAGES);
+  const [billingInterval, setBillingInterval] = useState<"monthly" | "annual">("monthly");
   const { getLocalizedPath } = useLocalizedPath();
 
   const VALUE_PROPS = VALUE_PROP_DOTS.map((dot, i) => ({
@@ -416,6 +417,23 @@ export default function BTPxIDProduct() {
             </p>
           </div>
 
+          {/* Billing interval toggle */}
+          <div className="btpxid-billing-toggle">
+            <button
+              className={`btpxid-billing-option${billingInterval === "monthly" ? " btpxid-billing-active" : ""}`}
+              onClick={() => setBillingInterval("monthly")}
+            >
+              Monthly
+            </button>
+            <button
+              className={`btpxid-billing-option${billingInterval === "annual" ? " btpxid-billing-active" : ""}`}
+              onClick={() => setBillingInterval("annual")}
+            >
+              Annual
+              <span className="btpxid-billing-save">Save 17%</span>
+            </button>
+          </div>
+
           <div className="btpxid-pricing-grid">
             {packages.map((pkg) => (
               <div
@@ -429,16 +447,25 @@ export default function BTPxIDProduct() {
                   <h3 className="btpxid-plan-name">{pkg.name}</h3>
                   <p className="btpxid-plan-desc">{pkg.description}</p>
                 </div>
-                <div className="btpxid-plan-price">
-                  {pkg.contactEmail ? null : (
-                    <>
-                      <span className="btpxid-price-amount">
-                        ${Math.round(pkg.displayPriceMonthly / 100)}
-                      </span>
-                      {pkg.pricePeriodLabel && (
-                        <span className="btpxid-price-period">{pkg.pricePeriodLabel}</span>
-                      )}
-                    </>
+                <div className="btpxid-plan-price-wrap">
+                  <div className="btpxid-plan-price">
+                    {pkg.contactEmail ? null : pkg.displayPriceMonthly === 0 ? (
+                      <span className="btpxid-price-amount">Free</span>
+                    ) : (
+                      <>
+                        <span className="btpxid-price-amount">
+                          ${billingInterval === "monthly"
+                            ? Math.round(pkg.displayPriceMonthly / 100)
+                            : Math.round(pkg.displayPriceAnnual / 100 / 12)}
+                        </span>
+                        <span className="btpxid-price-period">/mo</span>
+                      </>
+                    )}
+                  </div>
+                  {!pkg.contactEmail && pkg.displayPriceMonthly > 0 && billingInterval === "annual" && (
+                    <div className="btpxid-price-annual-note">
+                      billed annually (${Math.round(pkg.displayPriceAnnual / 100)}/yr)
+                    </div>
                   )}
                 </div>
                 <ul className="btpxid-plan-features">

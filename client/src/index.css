@@ -1419,6 +1419,68 @@
   border: 1px solid rgba(76, 175, 80, 0.25);
 }
 
+.btpxid-billing-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 9999px;
+  padding: 4px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btpxid-billing-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  border: none;
+  background: transparent;
+  color: #6B7280;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btpxid-billing-option:hover {
+  color: #E8ECF4;
+}
+
+.btpxid-billing-active {
+  background: rgba(255,255,255,0.1);
+  color: #E8ECF4;
+}
+
+.btpxid-billing-save {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #5AC765;
+  background: rgba(76, 175, 80, 0.15);
+  border: 1px solid rgba(76, 175, 80, 0.25);
+  border-radius: 9999px;
+  padding: 0.1rem 0.4rem;
+}
+
+.btpxid-plan-price-wrap {
+  margin-bottom: 2rem;
+}
+
+.btpxid-plan-price-wrap .btpxid-plan-price {
+  margin-bottom: 0.25rem;
+}
+
+.btpxid-price-annual-note {
+  font-size: 0.8rem;
+  color: #4A5678;
+  margin-top: 0.1rem;
+}
+
 .btpxid-pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1481,7 +1543,7 @@
 }
 
 .btpxid-plan-price {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
