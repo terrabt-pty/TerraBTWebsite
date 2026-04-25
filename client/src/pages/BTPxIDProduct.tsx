@@ -430,9 +430,7 @@ export default function BTPxIDProduct() {
                   <p className="btpxid-plan-desc">{pkg.description}</p>
                 </div>
                 <div className="btpxid-plan-price">
-                  {pkg.contactEmail ? (
-                    <span className="btpxid-price-amount btpxid-price-contact">Custom</span>
-                  ) : (
+                  {pkg.contactEmail ? null : (
                     <>
                       <span className="btpxid-price-amount">
                         ${Math.round(pkg.displayPriceMonthly / 100)}
