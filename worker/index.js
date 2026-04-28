@@ -512,7 +512,7 @@ export default {
             "name": "TerraBT",
             "alternateName": "TerraBT SAP BTP Consulting",
             "url": "https://www.terrabt.com",
-            "email": "contact@terrabt.com",
+            "email": "support@terrabt.com",
             "description": this.seoData.description,
             "areaServed": "Worldwide",
             "knowsLanguage": ["en", "ja", "ar", this.langCode], // Explicitly include current lang
@@ -557,7 +557,7 @@ export default {
             "name": "TerraBT",
             "description": this.seoData.description,
             "url": "https://www.terrabt.com",
-            "email": "contact@terrabt.com",
+            "email": "support@terrabt.com",
             "priceRange": "$$$$",
             "areaServed": {
               "@type": "GeoCircle",

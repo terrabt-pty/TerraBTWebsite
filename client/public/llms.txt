@@ -48,7 +48,7 @@ User-centered design approach to identify innovative SAP BTP solutions that solv
 ## Contact Information
 
 - Website: https://www.terrabt.com
-- Email: contact@terrabt.com
+- Email: support@terrabt.com
 - Languages: English, Japanese (日本語)
 
 ## Technical Expertise

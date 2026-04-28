@@ -86,7 +86,7 @@ export default function TermsOfService() {
                         </p>
                         <div className="mt-4 p-4 bg-muted/30 rounded-lg">
 
-                            <p className="mt-2">Email: <a href="mailto:contact@terrabt.com" className="text-primary hover:underline">contact@terrabt.com</a></p>
+                            <p className="mt-2">Email: <a href="mailto:support@terrabt.com" className="text-primary hover:underline">support@terrabt.com</a></p>
                         </div>
                     </section>
                 </div>
