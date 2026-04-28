@@ -40,7 +40,6 @@ export default function Navigation() {
     : isOnClaudeCLI
     ? claudeCliScrollLinks
     : [
-        { label: t('nav.home'), href: "#home" },
         { label: t('nav.services'), href: "#services" },
         { label: t('nav.knowledge'), href: "#knowledge" },
         { label: t('nav.contact'), href: "#contact" },
