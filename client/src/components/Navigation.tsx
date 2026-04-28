@@ -17,8 +17,11 @@ export default function Navigation() {
   const { getLocalizedPath } = useLocalizedPath();
 
   const isOnBTPxID = location.includes("/products/btp-xid");
+  const isOnClaudeCLI = location.includes("/products/claude-cli");
+  const isOnProductPage = isOnBTPxID || isOnClaudeCLI;
   const isANZ = ["AU", "NZ"].includes(window.GEO_COUNTRY ?? "");
   const homePath = getLocalizedPath(isANZ ? "/products/btp-xid" : "/");
+  const productsPath = getLocalizedPath("/products");
 
   const btpxidScrollLinks = [
     { label: t('nav.features'), href: "#features" },
@@ -26,8 +29,16 @@ export default function Navigation() {
     { label: t('nav.pricing'), href: "#pricing" },
   ];
 
+  // Claude CLI page has no pricing section (it's free) — surface only Features and Downloads.
+  const claudeCliScrollLinks = [
+    { label: t('nav.features'), href: "#features" },
+    { label: t('nav.downloads'), href: "#download" },
+  ];
+
   const scrollLinks = isOnBTPxID
     ? btpxidScrollLinks
+    : isOnClaudeCLI
+    ? claudeCliScrollLinks
     : [
         { label: t('nav.home'), href: "#home" },
         { label: t('nav.services'), href: "#services" },
@@ -40,7 +51,7 @@ export default function Navigation() {
     const mainHomePath = getLocalizedPath("/");
     const onHomePage = location === "/" || location === mainHomePath || location === mainHomePath.replace(/\/$/, "");
 
-    if (!onHomePage && !isOnBTPxID) {
+    if (!onHomePage && !isOnProductPage) {
       // On a sub-page — navigate to homepage first, then scroll to section
       setLocation(mainHomePath);
       setTimeout(() => {
@@ -63,6 +74,11 @@ export default function Navigation() {
     setLocation(getLocalizedPath("/products/btp-xid"));
   };
 
+  const goToProducts = () => {
+    setMobileMenuOpen(false);
+    setLocation(productsPath);
+  };
+
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,6 +95,15 @@ export default function Navigation() {
               data-testid="link-home"
             >
               {t('nav.home')}
+            </button>
+
+            {/* Products — plain nav link to the catalog page, always visible */}
+            <button
+              onClick={goToProducts}
+              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              data-testid="link-products"
+            >
+              Products
             </button>
 
             {/* BTP xID — highlighted nav item (hidden when already on the page, except for ANZ users) */}
@@ -151,6 +176,15 @@ export default function Navigation() {
               data-testid="mobile-link-home"
             >
               {t('nav.home')}
+            </button>
+
+            {/* Products — plain mobile link to the catalog page */}
+            <button
+              onClick={goToProducts}
+              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              data-testid="mobile-link-products"
+            >
+              Products
             </button>
 
             {/* BTP xID — mobile highlighted (hidden when already on the page, except for ANZ users) */}

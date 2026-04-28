@@ -16,7 +16,14 @@ interface Product {
   description: string;
   category: string;
   status: string;
-  previewImage: string;
+  previewImage: string | null;
+  /**
+   * Optional placeholder gradient (CSS `background` value) used when previewImage is null.
+   * Lets each product carry its own colour identity in the listing grid.
+   */
+  placeholderGradient?: string;
+  /** Optional short label shown inside the placeholder tile (defaults to product name). */
+  placeholderLabel?: string;
   startingPrice: string;
   path: string;
 }
@@ -33,6 +40,21 @@ const products: Product[] = [
     previewImage: dashboardImg,
     startingPrice: "Free",
     path: "/products/btp-xid",
+  },
+  {
+    id: "claude-cli",
+    name: "Claude CLI Backup & Viewer",
+    tagline: "Your Claude CLI conversations, backed up and searchable.",
+    description:
+      "A desktop app to back up, view, search, and export your Claude CLI conversations with smart delta sync, message filtering, and JSON export.",
+    category: "Desktop App",
+    status: "Free",
+    previewImage: null,
+    placeholderGradient:
+      "linear-gradient(135deg, #1E1B4B 0%, #4C1D95 45%, #7C3AED 100%)",
+    placeholderLabel: "Claude CLI Backup",
+    startingPrice: "Free",
+    path: "/products/claude-cli",
   },
 ];
 
@@ -67,14 +89,33 @@ export default function Products() {
                 className="group h-full cursor-pointer hover-elevate overflow-visible"
                 data-testid={`card-product-${product.id}`}
               >
-                {/* Screenshot preview */}
+                {/* Screenshot preview — falls back to a styled placeholder when no image is available */}
                 <div className="relative rounded-t-md overflow-hidden border-b aspect-video bg-muted">
-                  <img
-                    src={product.previewImage}
-                    alt={product.name}
-                    className="w-full h-full object-cover object-top"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                  {product.previewImage ? (
+                    <>
+                      <img
+                        src={product.previewImage}
+                        alt={product.name}
+                        className="w-full h-full object-cover object-top"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                    </>
+                  ) : (
+                    <div
+                      className="w-full h-full flex items-center justify-center"
+                      style={{
+                        background:
+                          product.placeholderGradient ??
+                          "linear-gradient(135deg, hsl(var(--muted)), hsl(var(--accent)))",
+                      }}
+                      data-testid={`placeholder-product-${product.id}`}
+                    >
+                      <span className="text-white text-xl font-bold tracking-tight drop-shadow-md">
+                        {product.placeholderLabel ?? product.name}
+                      </span>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                    </div>
+                  )}
                 </div>
 
                 <CardContent className="pt-5 pb-6 flex flex-col gap-3">
