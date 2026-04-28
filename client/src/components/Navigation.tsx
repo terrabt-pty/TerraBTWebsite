@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
-import { Menu, X, UserCircle } from "lucide-react";
+import { Menu, X, UserCircle, ChevronDown } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -10,8 +10,27 @@ declare global {
   interface Window { GEO_COUNTRY?: string; }
 }
 
+const PRODUCTS = [
+  {
+    id: "btp-xid",
+    name: "BTP xID",
+    tagline: "SAP BTP user management",
+    path: "/products/btp-xid",
+    badge: "NEW",
+  },
+  {
+    id: "claude-cli",
+    name: "Claude CLI Backup & Viewer",
+    tagline: "Back up & search conversations",
+    path: "/products/claude-cli",
+    badge: null,
+  },
+];
+
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [location, setLocation] = useLocation();
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
@@ -21,7 +40,6 @@ export default function Navigation() {
   const isOnProductPage = isOnBTPxID || isOnClaudeCLI;
   const isANZ = ["AU", "NZ"].includes(window.GEO_COUNTRY ?? "");
   const homePath = getLocalizedPath(isANZ ? "/products/btp-xid" : "/");
-  const productsPath = getLocalizedPath("/products");
 
   const btpxidScrollLinks = [
     { label: t('nav.features'), href: "#features" },
@@ -29,7 +47,6 @@ export default function Navigation() {
     { label: t('nav.pricing'), href: "#pricing" },
   ];
 
-  // Claude CLI page has no pricing section (it's free) — surface only Features and Downloads.
   const claudeCliScrollLinks = [
     { label: t('nav.features'), href: "#features" },
     { label: t('nav.downloads'), href: "#download" },
@@ -51,31 +68,20 @@ export default function Navigation() {
     const onHomePage = location === "/" || location === mainHomePath || location === mainHomePath.replace(/\/$/, "");
 
     if (!onHomePage && !isOnProductPage) {
-      // On a sub-page — navigate to homepage first, then scroll to section
       setLocation(mainHomePath);
       setTimeout(() => {
-        const targetElement = document.querySelector(href);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: "smooth" });
-        }
+        document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
       }, 500);
       return;
     }
 
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const goToBTPxID = () => {
+  const goToProduct = (path: string) => {
+    setProductsOpen(false);
     setMobileMenuOpen(false);
-    setLocation(getLocalizedPath("/products/btp-xid"));
-  };
-
-  const goToProducts = () => {
-    setMobileMenuOpen(false);
-    setLocation(productsPath);
+    setLocation(getLocalizedPath(path));
   };
 
   return (
@@ -86,40 +92,59 @@ export default function Navigation() {
             <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
           </Link>
 
-          {/* Centre column — main nav links */}
+          {/* Centre column */}
           <div className="hidden lg:flex items-center justify-center gap-6">
             <button
-              onClick={() => { setMobileMenuOpen(false); setLocation(homePath); }}
+              onClick={() => { setLocation(homePath); }}
               className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
               data-testid="link-home"
             >
               {t('nav.home')}
             </button>
 
-            {/* Products — plain nav link to the catalog page, always visible */}
-            <button
-              onClick={goToProducts}
-              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-              data-testid="link-products"
+            {/* Products dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setProductsOpen(true)}
+              onMouseLeave={() => setProductsOpen(false)}
             >
-              Products
-            </button>
-
-            {/* BTP xID — highlighted nav item (hidden when already on the page, except for ANZ users) */}
-            {(!isOnBTPxID || isANZ) && (
               <button
-                onClick={goToBTPxID}
-                className="nav-btpxid-link"
-                data-testid="link-btpxid"
+                className="flex items-center gap-1 text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                data-testid="link-products"
+                aria-expanded={productsOpen}
               >
-                <span className="nav-btpxid-label">
-                  BTP{" "}
-                  <span className="nav-btpxid-x">x</span>
-                  <span className="nav-btpxid-id">ID</span>
-                </span>
-                <span className="nav-btpxid-new">NEW</span>
+                Products
+                <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`} />
               </button>
-            )}
+
+              {productsOpen && (
+                <div
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-64 rounded-lg border bg-background shadow-lg py-1.5 z-50"
+                  data-testid="dropdown-products"
+                >
+                  {PRODUCTS.map((p) => (
+                    <button
+                      key={p.id}
+                      onClick={() => goToProduct(p.path)}
+                      className="w-full text-left px-4 py-2.5 hover:bg-accent transition-colors group"
+                      data-testid={`dropdown-product-${p.id}`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium text-foreground group-hover:text-foreground">
+                          {p.name}
+                        </span>
+                        {p.badge && (
+                          <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">
+                            {p.badge}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
 
             {scrollLinks.map((link) => (
               <button
@@ -133,7 +158,7 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Right column — utility icons + mobile toggle */}
+          {/* Right column */}
           <div className="flex items-center gap-0.5 xxs:gap-1 sm:gap-2 justify-end">
             <div className="hidden lg:flex items-center gap-2">
               <LanguageSwitcher />
@@ -155,15 +180,11 @@ export default function Navigation() {
                 className="p-1.5 xxs:p-2 text-foreground/80 hover:text-foreground hover:bg-accent rounded-md transition-colors"
                 data-testid="button-mobile-menu"
               >
-                {mobileMenuOpen ? (
-                  <X className="h-6 w-6" />
-                ) : (
-                  <Menu className="h-6 w-6" />
-                )}
+                {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
             </div>
-          </div>{/* end right column */}
-        </div>{/* end grid */}
+          </div>
+        </div>
       </div>
 
       {mobileMenuOpen && (
@@ -177,30 +198,39 @@ export default function Navigation() {
               {t('nav.home')}
             </button>
 
-            {/* Products — plain mobile link to the catalog page */}
-            <button
-              onClick={goToProducts}
-              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
-              data-testid="mobile-link-products"
-            >
-              Products
-            </button>
-
-            {/* BTP xID — mobile highlighted (hidden when already on the page, except for ANZ users) */}
-            {(!isOnBTPxID || isANZ) && (
+            {/* Products — expandable on mobile */}
+            <div>
               <button
-                onClick={goToBTPxID}
-                className="nav-btpxid-mobile"
-                data-testid="mobile-link-btpxid"
+                onClick={() => setMobileProductsOpen((v) => !v)}
+                className="flex items-center justify-between w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+                data-testid="mobile-link-products"
               >
-                <span className="nav-btpxid-label">
-                  BTP{" "}
-                  <span className="nav-btpxid-x">x</span>
-                  <span className="nav-btpxid-id">ID</span>
-                </span>
-                <span className="nav-btpxid-new">NEW</span>
+                Products
+                <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${mobileProductsOpen ? "rotate-180" : ""}`} />
               </button>
-            )}
+              {mobileProductsOpen && (
+                <div className="ml-3 mt-1 space-y-1 border-l pl-3">
+                  {PRODUCTS.map((p) => (
+                    <button
+                      key={p.id}
+                      onClick={() => goToProduct(p.path)}
+                      className="block w-full text-left px-3 py-2 hover:bg-accent rounded-md transition-colors"
+                      data-testid={`mobile-product-${p.id}`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium text-foreground">{p.name}</span>
+                        {p.badge && (
+                          <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">
+                            {p.badge}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
 
             {scrollLinks.map((link) => (
               <button
@@ -221,7 +251,6 @@ export default function Navigation() {
               <UserCircle className="h-4 w-4" />
               {t('nav.signIn')}
             </a>
-
           </div>
         </div>
       )}

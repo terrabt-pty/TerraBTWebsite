@@ -4,7 +4,7 @@ interface LogoProps {
 
 export default function Logo({ className = "h-8" }: LogoProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" className={className} style={{ direction: 'ltr' }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" className={className} style={{ direction: 'ltr' }}>
       <defs>
         <style>
           {`
@@ -41,7 +41,6 @@ export default function Logo({ className = "h-8" }: LogoProps) {
         <tspan className="font-bold-main color-bt">T</tspan>
       </text>
 
-      <text x="32" y="25" fontSize="6" className="tagline" textAnchor="middle">SAP BTP Consulting</text>
     </svg>
   );
 }
