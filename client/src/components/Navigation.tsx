@@ -39,7 +39,7 @@ export default function Navigation() {
   const isOnClaudeCLI = location.includes("/products/claude-cli");
   const isOnProductPage = isOnBTPxID || isOnClaudeCLI;
   const isANZ = ["AU", "NZ"].includes(window.GEO_COUNTRY ?? "");
-  const homePath = getLocalizedPath(isANZ ? "/products/btp-xid" : "/");
+  const homePath = getLocalizedPath("/");
 
   const btpxidScrollLinks = [
     { label: t('nav.features'), href: "#features" },
