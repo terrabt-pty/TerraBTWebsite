@@ -190,6 +190,7 @@
     "terms": "Uvjeti korištenja",
     "copyright": "Sva prava zadržana.",
     "deployedOn": "Smješteno na Cloudflare",
+    "serviceRestriction": "Usluge nisu dostupne u Australiji i Novom Zelandu.",
     "availableLanguages": "Dostupno na vašem jeziku",
     "liability": "Politika ograničene odgovornosti"
   },

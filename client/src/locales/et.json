@@ -190,6 +190,7 @@
     "terms": "Kasutustingimused",
     "copyright": "Kõik õigused reserveeritud.",
     "deployedOn": "Juurutatud Cloudflare'il",
+    "serviceRestriction": "Teenused ei ole Austraalias ja Uus-Meremaal saadaval.",
     "availableLanguages": "Teie keeles saadaval",
     "liability": "Piiratud vastutuse poliitika"
   },

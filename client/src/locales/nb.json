@@ -190,6 +190,7 @@
     "terms": "Betingelser for bruk",
     "copyright": "Alle rettigheter reservert.",
     "deployedOn": "Distribuert på Cloudflare",
+    "serviceRestriction": "Tjenester er ikke tilgjengelige i Australia og New Zealand.",
     "availableLanguages": "Tilgjengelig på ditt språk",
     "liability": "Begrenset ansvarspolise"
   },
