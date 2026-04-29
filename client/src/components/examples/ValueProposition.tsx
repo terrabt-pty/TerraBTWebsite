@@ -7,7 +7,7 @@ export default function ValuePropositionExample() {
       <ValueProposition
         image={valueImage}
         badge="Our Focus"
-        title="100% SAP BTP Specialization"
+        title="Deep SAP BTP Expertise"
         description="Unlike generalist consulting firms, we exclusively focus on SAP Business Technology Platform, ensuring deep expertise and cutting-edge solutions."
         points={[
           "Dedicated team of certified SAP BTP experts",

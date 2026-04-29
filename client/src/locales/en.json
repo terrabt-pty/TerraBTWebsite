@@ -12,13 +12,13 @@
   },
   "meta": {
     "home": {
-      "title": "TerraBT - SAP BTP Consulting Experts | 100% BTP Focused Solutions",
+      "title": "TerraBT - SAP BTP Experts | Products & Solutions",
       "description": "TerraBT specializes exclusively in SAP BTP consulting services worldwide. Expert solutions in Fiori development, BTP architecture, PWA apps, AI-powered invoice processing, and integration suite. Serving underserved markets globally."
     }
   },
   "hero": {
     "title": "Transform Your Business with Expert SAP BTP Solutions",
-    "subtitle": "100% SAP BTP focused products delivering cutting-edge SAP Business Technology Platform implementations worldwide",
+    "subtitle": "Expert SAP BTP products and solutions, delivering cutting-edge implementations worldwide",
     "cta": "Get Started Today",
     "learn": "Explore Our Services"
   },
@@ -73,7 +73,7 @@
   "value": {
     "specialization": {
       "badge": "Our Focus",
-      "title": "100% SAP BTP Specialization",
+      "title": "Deep SAP BTP Expertise",
       "description": "Unlike generalist consulting firms, we exclusively focus on SAP Business Technology Platform, ensuring deep expertise and cutting-edge solutions for your business.",
       "point1": "Dedicated team of certified SAP BTP experts",
       "point2": "Up-to-date with latest BTP features and best practices",
@@ -199,7 +199,7 @@
     }
   },
   "footer": {
-    "description": "100% SAP BTP focused products delivering excellence worldwide",
+    "description": "SAP BTP experts and products delivering excellence worldwide",
     "services": "Services",
     "fiori": "Fiori Development",
     "architecture": "BTP Architecture",
@@ -654,7 +654,7 @@
     "statistics": {
       "btpFocus": {
         "value": "100%",
-        "label": "SAP BTP Focused"
+        "label": "SAP BTP Experts"
       },
       "experience": {
         "value": "15+",
