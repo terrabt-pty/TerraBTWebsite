@@ -30,7 +30,7 @@ export default function ClaudeCliAnnouncement() {
         <div className="ccv-announce-content">
           <div className="ccv-announce-new-badge">
             <Sparkles className="h-3 w-3" />
-            <span>FREE</span>
+            <span>NEW</span>
           </div>
 
           <div className="ccv-announce-text">
@@ -48,7 +48,7 @@ export default function ClaudeCliAnnouncement() {
 
           <div className="ccv-announce-cta">
             <Sparkles className="h-4 w-4" />
-            <span>Download Free</span>
+            <span>Download Now</span>
             <ArrowRight className="h-4 w-4 ccv-arrow-bounce" />
           </div>
         </div>

@@ -12,7 +12,7 @@ declare global {
 
 const PRODUCTS = [
   { id: "btp-xid",     name: "BTP xID",                    tagline: "SAP BTP user management",        path: "/products/btp-xid",    badge: "NEW" },
-  { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  tagline: "Back up & search conversations", path: "/products/claude-cli", badge: null  },
+  { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  tagline: "Back up & search conversations", path: "/products/claude-cli", badge: "NEW"  },
 ];
 
 const HOME_scrollLinks = [

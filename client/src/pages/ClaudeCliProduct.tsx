@@ -144,7 +144,7 @@ const VALUE_PROPS: Array<{ text: string; dot: string }> = [
   { text: "Works offline · 100% local", dot: "#C4B5FD" },
   { text: "Export as Markdown", dot: "#8B5CF6" },
   { text: "Light & dark themes", dot: "#A78BFA" },
-  { text: "Free, forever", dot: "#7C3AED" },
+  { text: "Works offline · 100% local", dot: "#7C3AED" },
 ];
 
 const FEATURES: Array<{
@@ -244,8 +244,8 @@ export default function ClaudeCliProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="Claude CLI Backup & Viewer — Free desktop app by TerraBT"
-        description="A free desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, Markdown export. macOS and Windows."
+        title="Claude CLI Backup & Viewer — Desktop app by TerraBT"
+        description="A desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, Markdown export. macOS and Windows."
         path="/products/claude-cli"
       />
       <Navigation />
@@ -523,7 +523,7 @@ export default function ClaudeCliProduct() {
               Get the app.
             </h2>
             <p className="ccv-features-sub">
-              Free on macOS and Windows. No account required.
+              Available on macOS and Windows. No account required.
             </p>
           </div>
 

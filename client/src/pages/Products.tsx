@@ -48,12 +48,12 @@ const products: Product[] = [
     description:
       "A desktop app to back up, view, search, and export your Claude CLI conversations with smart delta sync, message filtering, and JSON export.",
     category: "Desktop App",
-    status: "Free",
+    status: "New",
     previewImage: null,
     placeholderGradient:
       "linear-gradient(135deg, #1E1B4B 0%, #4C1D95 45%, #7C3AED 100%)",
     placeholderLabel: "Claude CLI Backup",
-    startingPrice: "Free",
+    startingPrice: "Download",
     path: "/products/claude-cli",
   },
 ];
