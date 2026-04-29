@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "Transform Your Business with Expert SAP BTP Solutions",
-    "subtitle": "100% SAP BTP focused consulting delivering cutting-edge SAP Business Technology Platform implementations worldwide",
+    "subtitle": "100% SAP BTP focused products delivering cutting-edge SAP Business Technology Platform implementations worldwide",
     "cta": "Get Started Today",
     "learn": "Explore Our Services"
   },
@@ -199,7 +199,7 @@
     }
   },
   "footer": {
-    "description": "100% SAP BTP focused consulting delivering excellence worldwide",
+    "description": "100% SAP BTP focused products delivering excellence worldwide",
     "services": "Services",
     "fiori": "Fiori Development",
     "architecture": "BTP Architecture",
