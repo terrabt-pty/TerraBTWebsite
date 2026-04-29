@@ -68,7 +68,7 @@ export default function BTPxIDHero() {
             <div className="btpxid-trust-divider" />
             <div className="btpxid-trust-item">
               <span className="btpxid-trust-number">100%</span>
-              <span className="btpxid-trust-label">SAP BTP Specialized</span>
+              <span className="btpxid-trust-label">SAP BTP Focused</span>
             </div>
           </div>
         </div>

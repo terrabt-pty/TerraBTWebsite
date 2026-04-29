@@ -29,7 +29,7 @@ export default function HeroSection() {
             className="text-xs sm:text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30 whitespace-normal text-center"
             data-testid="badge-specialization"
           >
-            🚀 100% SAP BTP Specialized Consulting
+            🚀 100% SAP BTP Focused Consulting
           </Badge>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight break-words">
