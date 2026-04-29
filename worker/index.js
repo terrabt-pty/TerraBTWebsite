@@ -8,70 +8,12 @@ export default {
     const url = new URL(request.url);
 
     // Pass through updates.terrabt.com (downloads) and accounts.terrabt.com (app login/registration)
-    // without geo-blocking or HTML rewriting.
+    // without HTML rewriting.
     if (url.hostname === 'updates.terrabt.com' || url.hostname === 'accounts.terrabt.com') {
       return fetch(request);
     }
 
-    // Geo-blocking logic for Australia and New Zealand
     const country = request.cf?.country;
-    const clientIP = request.headers.get("CF-Connecting-IP");
-
-    // Check for "Magic Link" access token to bypass geo-blocking
-    const accessToken = url.searchParams.get("access_token");
-    const cookieHeader = request.headers.get("Cookie") || "";
-
-    // Define your secret token here
-    const SECRET_ACCESS_TOKEN = "TerraBT-Mobile-Access";
-
-    // Check if the user has the bypass cookie
-    const hasBypassCookie = cookieHeader.includes(`terrabt_bypass=${SECRET_ACCESS_TOKEN}`);
-
-    // Check if the request is from AU or NZ
-    // Never geo-block static assets — they are required to render any allowed page.
-    const isStaticAsset = /\.(js|css|woff|woff2|ttf|otf|png|jpg|jpeg|gif|svg|ico|webp|json|xml|txt|map)$/i.test(url.pathname);
-
-    if (!isStaticAsset && (country === 'AU' || country === 'NZ') && !hasBypassCookie && accessToken !== SECRET_ACCESS_TOKEN) {
-      const allowedIPs = ['210.50.179.69'];
-
-      // Paths that ANZ users may always access, regardless of geo-block.
-      // Handles plain paths (/products/btp-xid) AND language-prefixed paths (/en/products/btp-xid).
-      // NOTE: /index.html and / must be included so the SPA fallback can fetch index.html
-      // without being redirected — otherwise the worker's own subrequest loops and returns 404.
-      const ANZ_ALLOWED_PATHS = [
-        '/products/btp-xid',
-        '/terms-of-service',
-        '/privacy-policy',
-        '/limited-liability',
-        '/index.html',
-        '/',
-      ];
-
-      // Strip a leading language prefix (e.g. /en/ or /ja-JP/) so the check works for all locales.
-      const pathSegments = url.pathname.split('/').filter(Boolean);
-      const firstSegment = pathSegments[0] ?? '';
-      const langPrefixRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
-      const normalizedPath = langPrefixRegex.test(firstSegment)
-        ? '/' + pathSegments.slice(1).join('/')
-        : url.pathname;
-
-      const isAnzAllowed = ANZ_ALLOWED_PATHS.some(
-        (allowed) => normalizedPath === allowed || normalizedPath.startsWith(allowed + '/')
-      );
-
-      // If the IP is not in the allowed list and the path is not ANZ-exempt,
-      // redirect to the BTP xID product page instead of blocking.
-      if (!isAnzAllowed && !allowedIPs.includes(clientIP)) {
-        return Response.redirect('https://www.terrabt.com/products/btp-xid', 302);
-      }
-    }
-
-    // If the user provided the correct access token in the URL, we need to set the cookie
-    // We will do this by wrapping the final response later, but we need to know if we should set it.
-    let shouldSetBypassCookie = false;
-    if (accessToken === SECRET_ACCESS_TOKEN) {
-      shouldSetBypassCookie = true;
-    }
 
     // Security Check: Block access to the worker source code if someone tries to fetch it directly
     // url is already defined above
@@ -613,11 +555,6 @@ export default {
     newHeaders.set("X-Language-Matched", matchedCode);
     newHeaders.set("X-Language-Match-Status", status);
     newHeaders.set("X-Content-Signal", "search=yes,ai-train=yes");
-
-    if (shouldSetBypassCookie) {
-      // Set a persistent cookie for 30 days
-      newHeaders.append("Set-Cookie", `terrabt_bypass=${SECRET_ACCESS_TOKEN}; Path=/; Max-Age=2592000; Secure; HttpOnly; SameSite=Lax`);
-    }
 
     return new Response(finalResponse.body, {
       status: finalResponse.status,
