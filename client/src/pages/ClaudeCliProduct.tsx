@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import claudeCliIcon from "@assets/claude-cli-icon.png";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -260,9 +261,7 @@ export default function ClaudeCliProduct() {
         <div className="ccv-hero-inner">
           <div className="ccv-hero-content">
             <div className="ccv-app-icon-wrap">
-              <div className="ccv-app-icon" aria-hidden="true">
-                <Sparkles className="ccv-app-icon-glyph" />
-              </div>
+              <img src={claudeCliIcon} alt="Claude CLI Backup & Viewer" className="ccv-app-icon" />
             </div>
 
 
