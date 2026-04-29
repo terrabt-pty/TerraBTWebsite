@@ -265,10 +265,6 @@ export default function ClaudeCliProduct() {
               </div>
             </div>
 
-            <div className="ccv-badge" data-testid="badge-ccv-free">
-              <span className="ccv-badge-dot" />
-              Free for everyone · v{versionInfo?.version ?? "2.1.0"}
-            </div>
 
             <h1 className="ccv-title" data-testid="text-ccv-hero-title">
               Your Claude CLI conversations,
