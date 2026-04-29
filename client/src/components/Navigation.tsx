@@ -15,9 +15,14 @@ const PRODUCTS = [
   { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  tagline: "Back up & search conversations", path: "/products/claude-cli", badge: null  },
 ];
 
-const SCROLL_LINKS = [
+const HOME_scrollLinks = [
+  { labelKey: "nav.services", href: "#services" },
+  { labelKey: "nav.contact",  href: "#contact"  },
+];
+
+const BTPXID_scrollLinks = [
   { labelKey: "nav.services",  href: "#services"  },
-  { labelKey: "nav.knowledge", href: "#knowledge" },
+  { labelKey: "nav.pricing",   href: "#pricing"   },
   { labelKey: "nav.contact",   href: "#contact"   },
 ];
 
@@ -30,12 +35,16 @@ export default function Navigation() {
   const { getLocalizedPath } = useLocalizedPath();
 
   const homePath = getLocalizedPath("/");
+  const btpxidPath = getLocalizedPath("/products/btp-xid");
+  const isOnBTPxID = location === btpxidPath || location === btpxidPath.replace(/\/$/, "");
+  const scrollLinks = isOnBTPxID ? BTPXID_scrollLinks : HOME_scrollLinks;
 
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);
     const mainHomePath = getLocalizedPath("/");
     const onHomePage = location === "/" || location === mainHomePath || location === mainHomePath.replace(/\/$/, "");
-    if (!onHomePage) {
+    const sectionExistsOnPage = !!document.querySelector(href);
+    if (!onHomePage && !sectionExistsOnPage) {
       setLocation(mainHomePath);
       setTimeout(() => document.querySelector(href)?.scrollIntoView({ behavior: "smooth" }), 500);
       return;
@@ -98,7 +107,7 @@ export default function Navigation() {
             </div>
 
             {/* Fixed scroll links — same on every page */}
-            {SCROLL_LINKS.map((link) => (
+            {scrollLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
@@ -175,7 +184,7 @@ export default function Navigation() {
               )}
             </div>
 
-            {SCROLL_LINKS.map((link) => (
+            {scrollLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}

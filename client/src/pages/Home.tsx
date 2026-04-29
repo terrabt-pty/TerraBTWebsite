@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BTPxIDAnnouncement from "@/components/BTPxIDAnnouncement";
+import ClaudeCliAnnouncement from "@/components/ClaudeCliAnnouncement";
 import ExpertiseCard from "@/components/ExpertiseCard";
 import ValueProposition from "@/components/ValueProposition";
 import BlogCard from "@/components/BlogCard";
@@ -161,6 +162,7 @@ export default function Home() {
       />
       <Navigation />
       <BTPxIDAnnouncement />
+      <ClaudeCliAnnouncement />
       <HeroSection />
 
       <section id="services" className="py-20 md:py-24">
