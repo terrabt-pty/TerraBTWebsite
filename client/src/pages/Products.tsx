@@ -51,7 +51,7 @@ const products: Product[] = [
     status: "New",
     previewImage: null,
     placeholderGradient:
-      "linear-gradient(135deg, #1E1B4B 0%, #4C1D95 45%, #7C3AED 100%)",
+      "linear-gradient(135deg, #080C1A 0%, #0E1830 45%, #2A7088 100%)",
     placeholderLabel: "Claude CLI Backup",
     startingPrice: "Download",
     path: "/products/claude-cli",

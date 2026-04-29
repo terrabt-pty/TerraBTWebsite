@@ -25,7 +25,7 @@ import { FaApple, FaWindows } from "react-icons/fa6";
    and trustworthy — the user is handing us their conversation history,
    so every visual cue should reassure rather than alarm.
 
-   Visual identity: violet/indigo accents (different from BTP xID green)
+   Visual identity: green/teal accents (same family as BTP xID)
    to evoke the AI/Claude family of tools — distinct yet harmonious
    with the rest of the TerraBT product family.
    =================================================================== */
@@ -138,13 +138,13 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
 
 /* --- Floating value-prop messages — cycled in the hero visual --- */
 const VALUE_PROPS: Array<{ text: string; dot: string }> = [
-  { text: "Smart delta backup", dot: "#8B5CF6" },
-  { text: "Search every conversation", dot: "#A78BFA" },
-  { text: "Filter by message type", dot: "#7C3AED" },
-  { text: "Works offline · 100% local", dot: "#C4B5FD" },
-  { text: "Export as Markdown", dot: "#8B5CF6" },
-  { text: "Light & dark themes", dot: "#A78BFA" },
-  { text: "Works offline · 100% local", dot: "#7C3AED" },
+  { text: "Smart delta backup", dot: "#5AC765" },
+  { text: "Search every conversation", dot: "#4CAF50" },
+  { text: "Filter by message type", dot: "#2A7088" },
+  { text: "Works offline · 100% local", dot: "#E8A838" },
+  { text: "Export as Markdown", dot: "#5AC765" },
+  { text: "Light & dark themes", dot: "#1E5099" },
+  { text: "Works offline · 100% local", dot: "#4CAF50" },
 ];
 
 const FEATURES: Array<{
@@ -155,42 +155,42 @@ const FEATURES: Array<{
 }> = [
   {
     Icon: ArrowDownToLine,
-    colorClass: "ccv-fi-violet",
+    colorClass: "ccv-fi-green",
     title: "One-touch delta backup",
     description:
       "Smart incremental sync. New conversations get a full copy; existing ones only append the new messages. Backups stay fast and your disk stays light.",
   },
   {
     Icon: MessageSquare,
-    colorClass: "ccv-fi-indigo",
+    colorClass: "ccv-fi-blue",
     title: "Browse live projects",
     description:
       "See every active Claude CLI conversation in real time, organised by project. No more digging through hidden folders.",
   },
   {
     Icon: Search,
-    colorClass: "ccv-fi-purple",
+    colorClass: "ccv-fi-teal",
     title: "Powerful search",
     description:
       "Find that one thing you said three weeks ago. Search within a single conversation or across every conversation you have ever had — instantly.",
   },
   {
     Icon: Filter,
-    colorClass: "ccv-fi-violet",
+    colorClass: "ccv-fi-green",
     title: "Message filtering",
     description:
       "Toggle visibility of User, Claude, Thinking, Tool Use, and Tool Result messages. See exactly what you need, hide the rest.",
   },
   {
     Icon: FileJson,
-    colorClass: "ccv-fi-indigo",
+    colorClass: "ccv-fi-blue",
     title: "Export & copy",
     description:
       "Save any conversation as formatted JSON for archiving, sharing, or pipelines. Copy single messages or whole threads to the clipboard.",
   },
   {
     Icon: Sun,
-    colorClass: "ccv-fi-purple",
+    colorClass: "ccv-fi-teal",
     title: "Light & dark themes",
     description:
       "Switch between light and full dark mode at any time. Comfortable to read at 9am or at midnight, on any monitor.",
