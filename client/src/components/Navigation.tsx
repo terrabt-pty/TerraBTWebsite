@@ -81,16 +81,18 @@ export default function Navigation() {
                 <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`} />
               </button>
               {productsOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-64 rounded-lg border bg-background shadow-lg py-1.5 z-50" data-testid="dropdown-products">
-                  {PRODUCTS.map((p) => (
-                    <button key={p.id} onClick={() => goToProduct(p.path)} className="w-full text-left px-4 py-2.5 hover:bg-accent transition-colors group" data-testid={`dropdown-product-${p.id}`}>
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm font-medium text-foreground">{p.name}</span>
-                        {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
-                      </div>
-                      <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
-                    </button>
-                  ))}
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-64 pt-1 z-50" data-testid="dropdown-products">
+                  <div className="rounded-lg border bg-background shadow-lg py-1.5">
+                    {PRODUCTS.map((p) => (
+                      <button key={p.id} onClick={() => goToProduct(p.path)} className="w-full text-left px-4 py-2.5 hover:bg-accent transition-colors group" data-testid={`dropdown-product-${p.id}`}>
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium text-foreground">{p.name}</span>
+                          {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
+                        </div>
+                        <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
+                      </button>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
