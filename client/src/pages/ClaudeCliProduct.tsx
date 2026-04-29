@@ -142,7 +142,7 @@ const VALUE_PROPS: Array<{ text: string; dot: string }> = [
   { text: "Search every conversation", dot: "#A78BFA" },
   { text: "Filter by message type", dot: "#7C3AED" },
   { text: "Works offline · 100% local", dot: "#C4B5FD" },
-  { text: "Export as JSON", dot: "#8B5CF6" },
+  { text: "Export as Markdown", dot: "#8B5CF6" },
   { text: "Light & dark themes", dot: "#A78BFA" },
   { text: "Free, forever", dot: "#7C3AED" },
 ];
@@ -245,7 +245,7 @@ export default function ClaudeCliProduct() {
     <div className="min-h-screen">
       <SEOHead
         title="Claude CLI Backup & Viewer — Free desktop app by TerraBT"
-        description="A free desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, JSON export. macOS and Windows."
+        description="A free desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, Markdown export. macOS and Windows."
         path="/products/claude-cli"
       />
       <Navigation />
@@ -463,7 +463,7 @@ export default function ClaudeCliProduct() {
               <h3>Search, filter, export</h3>
               <p>
                 Browse, search across everything, filter by message type, and
-                export anything you want as JSON or copy to your clipboard.
+                export anything you want as Markdown or copy to your clipboard.
               </p>
             </div>
           </div>
