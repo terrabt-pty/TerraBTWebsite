@@ -285,7 +285,13 @@ export default function ClaudeCliProduct() {
                   href={primaryDownloadUrl}
                   className="ccv-download-btn"
                   data-testid="link-ccv-hero-download"
-                  onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+                  onClick={(e) => {
+                    if (os === "windows") {
+                      e.preventDefault();
+                      setShowSmartScreenNotice(true);
+                      scrollToSection("#download");
+                    }
+                  }}
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="ccv-download-btn-text">
