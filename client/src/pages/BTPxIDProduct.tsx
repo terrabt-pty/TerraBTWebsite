@@ -296,7 +296,17 @@ export default function BTPxIDProduct() {
 
             <div className="btpxid-hero-dl">
               {primaryDownloadUrl ? (
-                <a href={primaryDownloadUrl} className="btpxid-download-btn">
+                <a
+                  href={primaryDownloadUrl}
+                  className="btpxid-download-btn"
+                  onClick={(e) => {
+                    if (os === "windows") {
+                      e.preventDefault();
+                      setShowSmartScreenNotice(true);
+                      scrollToSection("#download");
+                    }
+                  }}
+                >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
                     <span className="btpxid-download-btn-title">{t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}</span>
