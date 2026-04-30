@@ -2077,6 +2077,35 @@
   font-weight: 400;
 }
 
+.btpxid-smartscreen-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(4, 8, 20, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 1rem;
+}
+
+.btpxid-smartscreen-modal {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+  background: rgba(14, 20, 40, 0.72);
+  border: 1px solid rgba(90, 120, 200, 0.25);
+  border-radius: 1rem;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #A8B4D0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
 .btpxid-smartscreen-notice {
   position: relative;
   margin-bottom: 1.5rem;
@@ -3187,6 +3216,35 @@
   font-size: 0.75rem;
   color: #4A6A7A;
   font-weight: 400;
+}
+
+.ccv-smartscreen-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(4, 8, 20, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 1rem;
+}
+
+.ccv-smartscreen-modal {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+  background: rgba(8, 12, 26, 0.72);
+  border: 1px solid rgba(42, 112, 136, 0.3);
+  border-radius: 1rem;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #A8B4D0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
 }
 
 .ccv-smartscreen-notice {

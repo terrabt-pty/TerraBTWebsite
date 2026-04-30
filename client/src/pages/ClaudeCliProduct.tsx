@@ -285,13 +285,7 @@ export default function ClaudeCliProduct() {
                   href={primaryDownloadUrl}
                   className="ccv-download-btn"
                   data-testid="link-ccv-hero-download"
-                  onClick={(e) => {
-                    if (os === "windows") {
-                      e.preventDefault();
-                      setShowSmartScreenNotice(true);
-                      scrollToSection("#download");
-                    }
-                  }}
+                  onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="ccv-download-btn-text">
@@ -619,30 +613,32 @@ export default function ClaudeCliProduct() {
             </div>
           )}
 
-          {/* Windows SmartScreen notice — same calm, reassuring pattern as BTP xID */}
+          {/* Windows SmartScreen notice — glass modal overlay */}
           {showSmartScreenNotice && (
-            <div className="ccv-smartscreen-notice" data-testid="notice-ccv-smartscreen">
-              <button
-                className="ccv-smartscreen-notice-close"
-                onClick={() => setShowSmartScreenNotice(false)}
-                aria-label="Dismiss notice"
-                data-testid="button-ccv-smartscreen-close"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-              </button>
-              <div className="ccv-smartscreen-notice-title">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                A quick note for Windows users
+            <div className="ccv-smartscreen-overlay" data-testid="notice-ccv-smartscreen" onClick={() => setShowSmartScreenNotice(false)}>
+              <div className="ccv-smartscreen-modal" onClick={(e) => e.stopPropagation()}>
+                <button
+                  className="ccv-smartscreen-notice-close"
+                  onClick={() => setShowSmartScreenNotice(false)}
+                  aria-label="Dismiss notice"
+                  data-testid="button-ccv-smartscreen-close"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                <div className="ccv-smartscreen-notice-title">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                  A quick note for Windows users
+                </div>
+                <p>
+                  Windows SmartScreen may show a warning the first time you open the
+                  app. This is normal for new desktop apps — the certificate just
+                  hasn't built up reputation yet. To proceed safely:
+                </p>
+                <ol>
+                  <li>Click <strong>More info</strong> on the SmartScreen prompt.</li>
+                  <li>Then click <strong>Run anyway</strong> to launch the app.</li>
+                </ol>
               </div>
-              <p>
-                Windows SmartScreen may show a warning the first time you open the
-                app. This is normal for new desktop apps — the certificate just
-                hasn't built up reputation yet. To proceed safely:
-              </p>
-              <ol>
-                <li>Click <strong>More info</strong> on the SmartScreen prompt.</li>
-                <li>Then click <strong>Run anyway</strong> to launch the app.</li>
-              </ol>
             </div>
           )}
 

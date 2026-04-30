@@ -299,13 +299,7 @@ export default function BTPxIDProduct() {
                 <a
                   href={primaryDownloadUrl}
                   className="btpxid-download-btn"
-                  onClick={(e) => {
-                    if (os === "windows") {
-                      e.preventDefault();
-                      setShowSmartScreenNotice(true);
-                      scrollToSection("#download");
-                    }
-                  }}
+                  onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
@@ -597,37 +591,39 @@ export default function BTPxIDProduct() {
             </div>
           )}
 
-          {/* Windows SmartScreen notice */}
+          {/* Windows SmartScreen notice — glass modal overlay */}
           {showSmartScreenNotice && (
-            <div className="btpxid-smartscreen-notice">
-              <button
-                className="btpxid-smartscreen-notice-close"
-                onClick={() => setShowSmartScreenNotice(false)}
-                aria-label="Dismiss"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-              </button>
-              <div className="btpxid-smartscreen-notice-title">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                {t('btpxidProduct.download.smartscreen.title')}
+            <div className="btpxid-smartscreen-overlay" onClick={() => setShowSmartScreenNotice(false)}>
+              <div className="btpxid-smartscreen-modal" onClick={(e) => e.stopPropagation()}>
+                <button
+                  className="btpxid-smartscreen-notice-close"
+                  onClick={() => setShowSmartScreenNotice(false)}
+                  aria-label="Dismiss"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+                <div className="btpxid-smartscreen-notice-title">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                  {t('btpxidProduct.download.smartscreen.title')}
+                </div>
+                <p>
+                  {t('btpxidProduct.download.smartscreen.description')}
+                </p>
+                <ol>
+                  <li>
+                    <Trans
+                      i18nKey="btpxidProduct.download.smartscreen.step1"
+                      components={{ 1: <strong /> }}
+                    />
+                  </li>
+                  <li>
+                    <Trans
+                      i18nKey="btpxidProduct.download.smartscreen.step2"
+                      components={{ 1: <strong /> }}
+                    />
+                  </li>
+                </ol>
               </div>
-              <p>
-                {t('btpxidProduct.download.smartscreen.description')}
-              </p>
-              <ol>
-                <li>
-                  <Trans
-                    i18nKey="btpxidProduct.download.smartscreen.step1"
-                    components={{ 1: <strong /> }}
-                  />
-                </li>
-                <li>
-                  <Trans
-                    i18nKey="btpxidProduct.download.smartscreen.step2"
-                    components={{ 1: <strong /> }}
-                  />
-                </li>
-              </ol>
             </div>
           )}
 
