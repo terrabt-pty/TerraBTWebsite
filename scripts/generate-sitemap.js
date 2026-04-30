@@ -9,6 +9,13 @@ const OUTPUT_FILE = path.join(__dirname, '../client/public/sitemap.xml');
 // Routes (extracted from App.tsx)
 const ROUTES = [
     "", // Home
+
+    // Products
+    "/products",
+    "/products/btp-xid",
+    "/products/claude-cli",
+
+    // Services
     "/services/btp-architecture",
     "/services/fiori-development",
     "/services/design-thinking",
@@ -20,6 +27,13 @@ const ROUTES = [
     "/services/cap-development",
     "/services/build-apps",
     "/services/build-automation",
+
+    // Legal
+    "/terms-of-service",
+    "/privacy-policy",
+    "/limited-liability",
+
+    // Blog
     "/blog/fiori-applications-sap-btp",
     "/blog/offline-pwa-business-continuity",
     "/blog/ai-invoice-processing",
@@ -30,7 +44,7 @@ const ROUTES = [
     "/blog/rapid-development-with-sap-cap",
     "/blog/low-code-revolution-with-sap-build-apps",
     "/blog/enterprise-automation-with-sap-build-process-automation",
-    "/blog/user-centered-innovation-with-design-thinking"
+    "/blog/user-centered-innovation-with-design-thinking",
 ];
 
 // Helper to read languages
