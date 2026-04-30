@@ -31,7 +31,7 @@ export default function Navigation() {
   const [productsOpen, setProductsOpen] = useState(false);
   const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [location, setLocation] = useLocation();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
   const homePath = getLocalizedPath("/");
@@ -124,7 +124,7 @@ export default function Navigation() {
             <div className="hidden lg:flex items-center gap-2">
               <LanguageSwitcher />
               <a
-                href="https://accounts.terrabt.com/auth/login"
+                href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
                 className="flex flex-col items-center text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
                 data-testid="link-sign-in"
                 aria-label={t('nav.signIn')}
@@ -196,7 +196,7 @@ export default function Navigation() {
             ))}
 
             <a
-              href="https://accounts.terrabt.com/auth/login"
+              href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
               className="flex items-center gap-2 w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
               data-testid="mobile-link-sign-in"
             >

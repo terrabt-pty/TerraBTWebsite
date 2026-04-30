@@ -4,7 +4,7 @@ import Logo from "@/components/Logo";
 import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (href: string) => {
@@ -140,7 +140,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://accounts.terrabt.com/auth/login"
+                  href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-my-account"
                 >

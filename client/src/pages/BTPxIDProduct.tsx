@@ -197,7 +197,7 @@ const FALLBACK_PACKAGES: PricingPackage[] = [
 ];
 
 export default function BTPxIDProduct() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
@@ -493,7 +493,7 @@ export default function BTPxIDProduct() {
                   </button>
                 ) : (
                   <a
-                    href={pkg.ctaUrl || "#"}
+                    href={pkg.ctaUrl ? `${pkg.ctaUrl}?lang=${i18n.language}` : "#"}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
