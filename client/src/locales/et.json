@@ -146,10 +146,6 @@
     "availability": "Piiratud kättesaadavus",
     "contactInfo": "Kontaktteave",
     "email": "E-post",
-    "globalPresence": "Globaalne kohalolek",
-    "servingCountries": "Teenused rohkem kui 40 riigis kogu maailmas",
-    "fastResponse": "Kiire vastuse garantii",
-    "fastResponseDesc": "Saa eksperditeadvis 24 tunni jooksul. Meie SAP BTP spetsialistid on valmis sind aitama.",
     "form": {
       "name": "Täielik nimi",
       "email": "Äri e-post",

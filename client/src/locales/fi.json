@@ -146,10 +146,6 @@
     "availability": "Rajoitettu määrä aikoja",
     "contactInfo": "Yhteystiedot",
     "email": "Sähköposti",
-    "globalPresence": "Globaali läsnäolo",
-    "servingCountries": "Palvelemme asiakkaita yli 40 maassa ympäri maailmaa",
-    "fastResponse": "Nopean vastauksen takuu",
-    "fastResponseDesc": "Saat asiantuntijan vastauksen 24 tunnin sisällä. Olemme täällä auttamassa sinua menestymään.",
     "form": {
       "name": "Koko nimi",
       "email": "Työsähköposti",

@@ -146,10 +146,6 @@
     "availability": "제한된 가용성",
     "contactInfo": "연락처 정보",
     "email": "이메일",
-    "globalPresence": "글로벌 입지",
-    "servingCountries": "40개 이상의 국가에서 고객 서비스",
-    "fastResponse": "빠른 응답 보장",
-    "fastResponseDesc": "24시간 이내에 전문 조언을 받으세요. SAP BTP 전문가들이 성공을 위해 준비되어 있습니다.",
     "form": {
       "name": "전체 이름",
       "email": "비즈니스 이메일",

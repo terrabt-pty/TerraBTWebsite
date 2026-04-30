@@ -146,10 +146,6 @@
     "availability": "Begränsad tillgänglighet",
     "contactInfo": "Kontaktinformation",
     "email": "E-post",
-    "globalPresence": "Global närvaro",
-    "servingCountries": "Vi betjänar kunder i över 40 länder världen över",
-    "fastResponse": "Snabb svarsgaranti",
-    "fastResponseDesc": "Få expertråd inom 24 timmar. Våra SAP BTP-specialister är redo att hjälpa dig att lyckas.",
     "form": {
       "name": "Namn",
       "email": "E-post (arbete)",

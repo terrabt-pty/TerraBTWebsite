@@ -146,10 +146,6 @@
     "availability": "位置有限",
     "contactInfo": "联系信息",
     "email": "电子邮件",
-    "globalPresence": "全球影响力",
-    "servingCountries": "在全球40多个国家为客户服务",
-    "fastResponse": "快速回应保证",
-    "fastResponseDesc": "在24小时内获得专家建议。我们的SAP BTP专家已准备好帮助您成功。",
     "form": {
       "name": "全名",
       "email": "企业邮箱",

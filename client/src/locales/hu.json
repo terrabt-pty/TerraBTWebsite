@@ -146,10 +146,6 @@
     "availability": "Korlátozott elérhetőség",
     "contactInfo": "Kapcsolattartási adatok",
     "email": "E-mail",
-    "globalPresence": "Globális jelenlét",
-    "servingCountries": "Ügyfeleket szolgáló több mint 40 ország világszerte",
-    "fastResponse": "Gyors válaszgarancia",
-    "fastResponseDesc": "Szereztessen szakértői tanácsot 24 órán belül. SAP BTP szakértőink készen állnak a sikerhez.",
     "form": {
       "name": "Teljes név",
       "email": "Üzleti e-mail",

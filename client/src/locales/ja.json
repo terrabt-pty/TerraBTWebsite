@@ -146,10 +146,6 @@
     "availability": "限定受付中",
     "contactInfo": "お問い合わせ情報",
     "email": "メールアドレス",
-    "globalPresence": "グローバル展開",
-    "servingCountries": "世界40カ国以上にサービスを提供",
-    "fastResponse": "迅速な対応保証",
-    "fastResponseDesc": "24時間以内に専門家のアドバイスを受けられます。SAP BTPスペシャリストがお客様の成功をサポートします。",
     "form": {
       "name": "お名前",
       "email": "ビジネスメールアドレス",

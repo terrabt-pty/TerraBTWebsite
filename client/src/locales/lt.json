@@ -146,10 +146,6 @@
     "availability": "Ribotas vietų kiekis",
     "contactInfo": "Kontaktinė informacija",
     "email": "El. paštas",
-    "globalPresence": "Pasaulinis prieinamumas",
-    "servingCountries": "Aptarnaujame klientus daugiau nei 40 šalių",
-    "fastResponse": "Greito atsakymo garantija",
-    "fastResponseDesc": "Gaukite eksperto atsakymą per 24 valandas. Esame pasirengę jums padėti pasiekti sėkmę.",
     "form": {
       "name": "Vardas ir pavardė",
       "email": "Darbo el. paštas",

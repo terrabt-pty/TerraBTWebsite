@@ -146,10 +146,6 @@
     "availability": "Disponibilidad Limitada",
     "contactInfo": "Información de Contacto",
     "email": "Correo Electrónico",
-    "globalPresence": "Presencia Global",
-    "servingCountries": "Sirviendo clientes en más de 40 países en todo el mundo",
-    "fastResponse": "Garantía de Respuesta Rápida",
-    "fastResponseDesc": "Obtén asesoría de expertos en 24 horas. Nuestros especialistas en SAP BTP están listos para ayudarte a tener éxito.",
     "form": {
       "name": "Nombre Completo",
       "email": "Correo Electrónico Empresarial",
