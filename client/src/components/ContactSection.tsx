@@ -34,11 +34,11 @@ export default function ContactSection() {
                   <div>
                     <p className="font-medium text-foreground">{t('contact.email')}</p>
                     <a
-                      href="mailto:support@terrabt.com"
+                      href="mailto:sales@terrabt.com"
                       className="text-muted-foreground hover:text-primary transition-colors hover-elevate px-2 py-1 rounded-md inline-block"
                       data-testid="text-email"
                     >
-                      support@terrabt.com
+                      sales@terrabt.com
                     </a>
                   </div>
                 </div>
