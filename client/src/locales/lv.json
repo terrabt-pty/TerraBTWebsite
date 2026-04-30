@@ -1399,12 +1399,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "JAUNUMS",
+    "introducing": "Iepazīstinām ar",
+    "description": "Pirmā pasaulē darbvirsmas lietotne SAP BTP lietotāju pārvaldībai. Pārvaldiet lietotājus visos globālajos kontos, subkontos un CF telpās no vienas pārvaldības paneļa.",
+    "cta": "Lejupielādēt tagad",
+    "imageAlt": "BTP xID pārvaldības panelis"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "JAUNUMS",
+    "introducing": "Iepazīstinām ar",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Dublējiet visas Claude sarunas lokāli. Pilna teksta meklēšana, marķēšana un organizēšana – jūsu AI vēsture, jūsu uz visiem laikiem.",
+    "cta": "Lejupielādēt tagad",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Meklēt sarunas…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Darbvirsmas lietotne Claude CLI sarunu dublēšanai, apskatei, meklēšanai un eksportēšanai. Viedā delta sinhronizācija, jaudīga meklēšana, ziņojumu filtrēšana, eksportēšana uz Markdown. macOS un Windows."
+    },
+    "hero": {
+      "title1": "Jūsu Claude CLI sarunas,",
+      "title2": "dublētas",
+      "title3": "un meklējamas.",
+      "description": "Mierīga, lokālā darbvirsmas lietotne, kas klusi dublē katru Claude CLI sarunu un ļauj tās meklēt, filtrēt un eksportēt.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Skatīt visas lejupielādes (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Viedā delta dublēšana",
+      "1": "Meklēt katrā sarunā",
+      "2": "Filtrēt pēc ziņojuma veida",
+      "3": "Darbojas bezsaistē · 100% lokāli",
+      "4": "Eksportēt uz Markdown",
+      "5": "Gaišās un tumšās tēmas",
+      "6": "Darbojas bezsaistē · 100% lokāli"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Meklēt sarunas…",
+      "userLabel": "Jūs",
+      "claudeLabel": "Claude",
+      "toolLabel": "Rīka izmantošana"
+    },
+    "features": {
+      "label": "Ko tas dara",
+      "title1": "Klusu rūpīgs.",
+      "title2": "Pārsteidzoši ātrs.",
+      "subtitle": "Sešas mazas funkcijas, kas kopā nodrošina, ka nekad nezaudēsiet Claude CLI sarunu.",
+      "deltaBackup": {
+        "title": "Delta dublēšana ar vienu pieskārienu",
+        "description": "Viedā pakāpeniskā sinhronizācija. Jaunās sarunas saņem pilnu kopiju; esošās tikai pievieno jaunus ziņojumus."
+      },
+      "browse": {
+        "title": "Pārlūkot aktīvos projektus",
+        "description": "Skatiet katru aktīvo Claude CLI sarunu reāllaikā, organizētu pēc projekta."
+      },
+      "search": {
+        "title": "Jaudīga meklēšana",
+        "description": "Atrodiet to, ko teicāt pirms trim nedēļām. Meklējiet vienā vai visās sarunās – uzreiz."
+      },
+      "filtering": {
+        "title": "Ziņojumu filtrēšana",
+        "description": "Ieslēdziet un izslēdziet Lietotāja, Claude, Domāšanas, Rīka izmantošanas un Rīka rezultāta ziņojumu redzamību."
+      },
+      "export": {
+        "title": "Eksportēšana un kopēšana",
+        "description": "Saglabājiet jebkuru sarunu kā formatētu JSON arhivēšanai, kopīgošanai vai konveijeriem."
+      },
+      "themes": {
+        "title": "Gaišās un tumšās tēmas",
+        "description": "Jebkurā laikā pārslēdzieties starp gaišo un pilnīgi tumšo režīmu."
+      }
+    },
+    "howitworks": {
+      "label": "Kā tas darbojas",
+      "title": "Trīs soļi. Tas viss.",
+      "step1": {
+        "title": "Instalēt un atvērt",
+        "description": "Lejupielādēt vienreiz, instalēt sekundēs. Lietotne automātiski atrod jūsu Claude CLI sarunas."
+      },
+      "step2": {
+        "title": "Dublēt ar vienu klikšķi",
+        "description": "Nospiediet dublēšanas pogu. Viedā delta sinhronizācija kopē tikai jaunizveidoto."
+      },
+      "step3": {
+        "title": "Meklēt, filtrēt, eksportēt",
+        "description": "Pārlūkojiet, meklējiet visu, filtrējiet pēc ziņojuma veida un eksportējiet visu nepieciešamo."
+      }
+    },
+    "trust": {
+      "label": "Veidots ar rūpību",
+      "title": "Vispirms lokālais. Privāts pēc noklusējuma.",
+      "subtitle": "Jūsu sarunas nepameta jūsu datoru, ja vien neizlemsiet tās eksportēt. Lietotne nesazinās ar mājas serveri, nekrāj telemetriju.",
+      "local": {
+        "title": "100% lokāli",
+        "description": "Visi dublējumi atrodas jūsu datorā. Nekas nekur netiek augšupielādēts."
+      },
+      "telemetry": {
+        "title": "Nav telemetrijas",
+        "description": "Lietotne neseko lietošanai, nekrāj analītiku un darbam nav nepieciešams konts."
+      },
+      "control": {
+        "title": "Jūs paliekat kontrolē",
+        "description": "Atveriet dublējumus jebkurā teksta redaktorā. Formāts ir standarta JSON."
+      },
+      "darkMode": {
+        "title": "Veidots vēlajām naktīm",
+        "description": "Pilnīgi tumšais režīms, kas nenogurdina acis, meklējot 1 naktī."
+      }
+    },
+    "download": {
+      "label": "Lejupielāde",
+      "title": "Iegūstiet lietotni.",
+      "subtitle": "Pieejams macOS un Windows. Konts nav nepieciešams.",
+      "primaryButton": "Lejupielādēt {{label}}",
+      "loading": "Sagatavo lejupielādi…",
+      "showAll": "Rādīt visas lejupielādes",
+      "hideAll": "Slēpt citas lejupielādes",
+      "versionLine": "Pašreizējā versija: v{{version}} · macOS 11+ un Windows 10+",
+      "legal": "Lejupielādējot jūs piekrītat mūsu",
+      "termsOfService": "Pakalpojumu sniegšanas noteikumiem",
+      "and": "un",
+      "privacyPolicy": "Privātuma politiku"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · priekš M1, M2, M3 un jaunākiem Mac",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · priekš vecākiem Intel Mac",
+      "winInstallerLabel": "Windows — Instalētājs",
+      "winInstallerDesc": "NSIS instalētājs · ieteicams lielākajai daļai lietotāju",
+      "winPortableLabel": "Windows — Pārnēsājamā versija",
+      "winPortableDesc": "Viens .exe · bez instalēšanas"
+    },
+    "smartscreen": {
+      "title": "Īsa piezīme Windows lietotājiem",
+      "description": "Windows SmartScreen var parādīt brīdinājumu, pirmo reizi atverot lietotni. Tas ir normāli jaunām darbvirsmas lietotnēm.",
+      "step1": "SmartScreen uzvednē noklikšķiniet <1>Vairāk informācijas</1>.",
+      "step2": "Pēc tam noklikšķiniet <1>Tik un tā palaist</1>, lai palaistu lietotni."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Viena lietotne.",
       "title2": "Katrs lietotājs.",
       "title3": "Visi konti.",
-      "description": "Pārvaldiet lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram lietotājam."
+      "description": "Pārvaldiet lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram lietotājam.",
+      "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti"
     },
     "valueProps": {
       "0": "Vienīgā BTP lietotāju pārvaldības lietotne, kas jums jebkad būs nepieciešama",
@@ -1474,7 +1619,17 @@
     "pricing": {
       "label": "Cenas",
       "title": "Vienkārša, pārskatāma cenu noteikšana",
-      "subtitle": "Sāciet bez maksas 90 dienas. Kredītkarte nav nepieciešama."
+      "subtitle": "Sāciet bez maksas 90 dienas. Kredītkarte nav nepieciešama.",
+      "free": "Bezmaksas",
+      "perMonth": "/mēn",
+      "billedAnnually": "rēķinās reizi gadā (${{amount}}/gadā)",
+      "contactSales": "Sazināties ar pārdošanu",
+      "getStarted": "Sākt"
+    },
+    "billing": {
+      "monthly": "Ikmēneša",
+      "annual": "Ikgadēja",
+      "save": "Ietaupiet 17%"
     }
   }
 }

@@ -1401,12 +1401,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOUVEAU",
+    "introducing": "Présentation",
+    "description": "La première application de bureau au monde pour la gestion des utilisateurs SAP BTP. Gérez les utilisateurs dans tous les comptes globaux, sous-comptes et espaces CF depuis un seul endroit.",
+    "cta": "Télécharger",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOUVEAU",
+    "introducing": "Présentation",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Sauvegardez toutes vos conversations Claude localement. Recherche en texte intégral, étiquetage et organisation — votre historique IA, vôtre pour toujours.",
+    "cta": "Télécharger",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Rechercher des conversations…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Une application de bureau pour sauvegarder, visualiser, rechercher et exporter vos conversations Claude CLI. Synchronisation delta intelligente, recherche puissante, filtrage des messages, export Markdown. macOS et Windows."
+    },
+    "hero": {
+      "title1": "Vos conversations Claude CLI,",
+      "title2": "sauvegardées",
+      "title3": "et consultables.",
+      "description": "Une application de bureau locale et calme qui sauvegarde silencieusement chaque conversation Claude CLI, puis vous permet de les rechercher, filtrer et exporter quand vous en avez besoin.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Voir tous les téléchargements (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Sauvegarde delta intelligente",
+      "1": "Rechercher dans chaque conversation",
+      "2": "Filtrer par type de message",
+      "3": "Fonctionne hors ligne · 100% local",
+      "4": "Exporter en Markdown",
+      "5": "Thèmes clair et sombre",
+      "6": "Fonctionne hors ligne · 100% local"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Rechercher des conversations…",
+      "userLabel": "Vous",
+      "claudeLabel": "Claude",
+      "toolLabel": "Utilisation des outils"
+    },
+    "features": {
+      "label": "Ce qu'il fait",
+      "title1": "Silencieusement minutieux.",
+      "title2": "Étonnamment rapide.",
+      "subtitle": "Six petites fonctionnalités qui, ensemble, signifient que vous ne perdrez plus jamais une conversation Claude CLI.",
+      "deltaBackup": {
+        "title": "Sauvegarde delta en un clic",
+        "description": "Synchronisation incrémentale intelligente. Les nouvelles conversations reçoivent une copie complète ; les existantes ne reçoivent que les nouveaux messages. Les sauvegardes restent rapides et votre disque léger."
+      },
+      "browse": {
+        "title": "Parcourir les projets actifs",
+        "description": "Consultez chaque conversation Claude CLI active en temps réel, organisée par projet. Fini de chercher dans les dossiers cachés."
+      },
+      "search": {
+        "title": "Recherche puissante",
+        "description": "Trouvez cette chose que vous avez dite il y a trois semaines. Recherchez dans une seule conversation ou dans toutes vos conversations — instantanément."
+      },
+      "filtering": {
+        "title": "Filtrage des messages",
+        "description": "Activez la visibilité des messages Utilisateur, Claude, Réflexion, Utilisation d'outil et Résultat d'outil. Voyez exactement ce dont vous avez besoin, masquez le reste."
+      },
+      "export": {
+        "title": "Exporter et copier",
+        "description": "Enregistrez n'importe quelle conversation au format JSON pour l'archivage, le partage ou les pipelines. Copiez des messages individuels ou des fils entiers dans le presse-papiers."
+      },
+      "themes": {
+        "title": "Thèmes clair et sombre",
+        "description": "Basculez entre le mode clair et le mode sombre complet à tout moment. Agréable à lire à 9h ou à minuit, sur n'importe quel écran."
+      }
+    },
+    "howitworks": {
+      "label": "Comment ça marche",
+      "title": "Trois étapes. C'est tout.",
+      "step1": {
+        "title": "Installer et ouvrir",
+        "description": "Téléchargez une fois, installez en quelques secondes. L'application trouve automatiquement vos conversations Claude CLI — sans configuration."
+      },
+      "step2": {
+        "title": "Sauvegarder en un clic",
+        "description": "Appuyez sur le bouton de sauvegarde. La synchronisation delta intelligente ne copie que ce qui est nouveau, donc la deuxième sauvegarde est bien plus rapide que la première."
+      },
+      "step3": {
+        "title": "Rechercher, filtrer, exporter",
+        "description": "Parcourez, recherchez partout, filtrez par type de message et exportez tout en Markdown ou copiez dans le presse-papiers."
+      }
+    },
+    "trust": {
+      "label": "Construit avec soin",
+      "title": "Local en premier. Privé par défaut.",
+      "subtitle": "Vos conversations ne quitteront jamais votre ordinateur, sauf si vous choisissez de les exporter. L'application ne se connecte pas à des serveurs externes, ne collecte pas de télémétrie et fonctionne sans connexion Internet.",
+      "local": {
+        "title": "100% local",
+        "description": "Toutes les sauvegardes sont sur votre machine, dans un dossier que vous choisissez. Rien n'est téléchargé nulle part."
+      },
+      "telemetry": {
+        "title": "Aucune télémétrie",
+        "description": "L'application ne suit pas l'utilisation, ne collecte pas d'analyses et n'a pas besoin d'un compte pour fonctionner."
+      },
+      "control": {
+        "title": "Vous restez aux commandes",
+        "description": "Ouvrez les sauvegardes dans n'importe quel éditeur de texte. Le format est du JSON standard — vos données, entre vos mains, pour toujours."
+      },
+      "darkMode": {
+        "title": "Conçu pour les nuits tardives",
+        "description": "Mode sombre complet qui ne fatiguera pas vos yeux quand vous cherchez à 1h du matin ce que vous avez dit la semaine dernière."
+      }
+    },
+    "download": {
+      "label": "Télécharger",
+      "title": "Obtenez l'application.",
+      "subtitle": "Disponible sur macOS et Windows. Aucun compte requis.",
+      "primaryButton": "Télécharger pour {{label}}",
+      "loading": "Préparation du téléchargement…",
+      "showAll": "Afficher tous les téléchargements",
+      "hideAll": "Masquer les autres téléchargements",
+      "versionLine": "Version actuelle : v{{version}} · macOS 11+ et Windows 10+",
+      "legal": "En téléchargeant, vous acceptez nos",
+      "termsOfService": "Conditions d'utilisation",
+      "and": "et",
+      "privacyPolicy": "Politique de confidentialité"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · pour M1, M2, M3 et Macs plus récents",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · pour les anciens Macs Intel",
+      "winInstallerLabel": "Windows — Installateur",
+      "winInstallerDesc": "Installateur NSIS · recommandé pour la plupart des utilisateurs",
+      "winPortableLabel": "Windows — Portable",
+      "winPortableDesc": "Fichier .exe unique · aucune installation requise"
+    },
+    "smartscreen": {
+      "title": "Une note rapide pour les utilisateurs Windows",
+      "description": "Windows SmartScreen peut afficher un avertissement la première fois que vous ouvrez l'application. C'est normal pour les nouvelles applications de bureau — le certificat n'a pas encore acquis de réputation. Pour continuer en toute sécurité :",
+      "step1": "Cliquez sur <1>Plus d'informations</1> dans l'invite SmartScreen.",
+      "step2": "Cliquez ensuite sur <1>Exécuter quand même</1> pour lancer l'application."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Une seule app.",
       "title2": "Chaque utilisateur.",
       "title3": "Tous les comptes.",
-      "description": "Gérez les utilisateurs dans les comptes globaux, les sous-comptes, les organisations et espaces Cloud Foundry — depuis une seule interface. Recherche inversée instantanée d'un utilisateur."
+      "description": "Gérez les utilisateurs dans les comptes globaux, les sous-comptes, les organisations et espaces Cloud Foundry — depuis une seule interface. Recherche inversée instantanée d'un utilisateur.",
+      "shieldBadge": "SAP OAuth · Aucune donnée d'identification stockée"
     },
     "valueProps": {
       "0": "La seule app de gestion des utilisateurs BTP dont vous aurez besoin",
@@ -1476,7 +1621,17 @@
     "pricing": {
       "label": "Tarifs",
       "title": "Tarification simple et transparente",
-      "subtitle": "Commencez gratuitement pendant 90 jours. Aucune carte de crédit requise."
+      "subtitle": "Commencez gratuitement pendant 90 jours. Aucune carte de crédit requise.",
+      "free": "Gratuit",
+      "perMonth": "/mo",
+      "billedAnnually": "facturé annuellement (${{amount}}/an)",
+      "contactSales": "Contacter les ventes",
+      "getStarted": "Commencer"
+    },
+    "billing": {
+      "monthly": "Mensuel",
+      "annual": "Annuel",
+      "save": "Économisez 17%"
     }
   }
 }

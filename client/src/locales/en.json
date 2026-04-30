@@ -1433,12 +1433,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NEW",
+    "introducing": "Introducing",
+    "description": "The world's first SAP BTP User Management desktop app. Manage users across all global accounts, sub-accounts, and CF spaces from a single pane of glass.",
+    "cta": "Download Now",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NEW",
+    "introducing": "Introducing",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Back up all your Claude conversations locally. Full-text search, tag & organise — your AI history, yours to keep, forever.",
+    "cta": "Download Now",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Search conversations…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "A desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, Markdown export. macOS and Windows."
+    },
+    "hero": {
+      "title1": "Your Claude CLI conversations,",
+      "title2": "backed up",
+      "title3": "and searchable.",
+      "description": "A calm, local-first desktop app that quietly backs up every Claude CLI conversation, then lets you search, filter, and export them whenever you need to find something.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "See all downloads (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Smart delta backup",
+      "1": "Search every conversation",
+      "2": "Filter by message type",
+      "3": "Works offline · 100% local",
+      "4": "Export as Markdown",
+      "5": "Light & dark themes",
+      "6": "Works offline · 100% local"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Search conversations…",
+      "userLabel": "You",
+      "claudeLabel": "Claude",
+      "toolLabel": "Tool use"
+    },
+    "features": {
+      "label": "What it does",
+      "title1": "Quietly thorough.",
+      "title2": "Surprisingly fast.",
+      "subtitle": "Six small features that, together, mean you never lose a Claude CLI conversation again.",
+      "deltaBackup": {
+        "title": "One-touch delta backup",
+        "description": "Smart incremental sync. New conversations get a full copy; existing ones only append the new messages. Backups stay fast and your disk stays light."
+      },
+      "browse": {
+        "title": "Browse live projects",
+        "description": "See every active Claude CLI conversation in real time, organised by project. No more digging through hidden folders."
+      },
+      "search": {
+        "title": "Powerful search",
+        "description": "Find that one thing you said three weeks ago. Search within a single conversation or across every conversation you have ever had — instantly."
+      },
+      "filtering": {
+        "title": "Message filtering",
+        "description": "Toggle visibility of User, Claude, Thinking, Tool Use, and Tool Result messages. See exactly what you need, hide the rest."
+      },
+      "export": {
+        "title": "Export & copy",
+        "description": "Save any conversation as formatted JSON for archiving, sharing, or pipelines. Copy single messages or whole threads to the clipboard."
+      },
+      "themes": {
+        "title": "Light & dark themes",
+        "description": "Switch between light and full dark mode at any time. Comfortable to read at 9am or at midnight, on any monitor."
+      }
+    },
+    "howitworks": {
+      "label": "How it works",
+      "title": "Three steps. That's the whole thing.",
+      "step1": {
+        "title": "Install & open",
+        "description": "Download once, install in seconds. The app finds your Claude CLI conversations automatically — no setup, no configuration."
+      },
+      "step2": {
+        "title": "Back up with one click",
+        "description": "Press the backup button. Smart delta sync only copies what's new, so the second backup is dramatically faster than the first."
+      },
+      "step3": {
+        "title": "Search, filter, export",
+        "description": "Browse, search across everything, filter by message type, and export anything you want as Markdown or copy to your clipboard."
+      }
+    },
+    "trust": {
+      "label": "Built with care",
+      "title": "Local-first. Private by default.",
+      "subtitle": "Your conversations never leave your computer unless you choose to export them. The app does not phone home, does not collect telemetry, and works without an internet connection.",
+      "local": {
+        "title": "100% local",
+        "description": "All backups live on your machine, in a folder you choose. Nothing is uploaded anywhere."
+      },
+      "telemetry": {
+        "title": "No telemetry",
+        "description": "The app does not track usage, doesn't collect analytics, and doesn't need an account to work."
+      },
+      "control": {
+        "title": "You stay in control",
+        "description": "Open backups in any text editor. The format is standard JSON — your data, in your hands, forever."
+      },
+      "darkMode": {
+        "title": "Made for late nights",
+        "description": "Full dark mode that won't tire your eyes when you're searching at 1am for that thing you said last week."
+      }
+    },
+    "download": {
+      "label": "Download",
+      "title": "Get the app.",
+      "subtitle": "Available on macOS and Windows. No account required.",
+      "primaryButton": "Download for {{label}}",
+      "loading": "Preparing download…",
+      "showAll": "Show all downloads",
+      "hideAll": "Hide other downloads",
+      "versionLine": "Current version: v{{version}} · macOS 11+ and Windows 10+",
+      "legal": "By downloading you agree to our",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · for M1, M2, M3 and newer Macs",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · for older Intel-based Macs",
+      "winInstallerLabel": "Windows — Installer",
+      "winInstallerDesc": "NSIS installer · recommended for most users",
+      "winPortableLabel": "Windows — Portable",
+      "winPortableDesc": "Single .exe · no installation required"
+    },
+    "smartscreen": {
+      "title": "A quick note for Windows users",
+      "description": "Windows SmartScreen may show a warning the first time you open the app. This is normal for new desktop apps — the certificate just hasn't built up reputation yet. To proceed safely:",
+      "step1": "Click <1>More info</1> on the SmartScreen prompt.",
+      "step2": "Then click <1>Run anyway</1> to launch the app."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "One app.",
       "title2": "Every user.",
       "title3": "All accounts.",
-      "description": "Manage users across global accounts, sub-accounts, Cloud Foundry orgs and spaces — all from a single pane of glass. Reverse search any user instantly."
+      "description": "Manage users across global accounts, sub-accounts, Cloud Foundry orgs and spaces — all from a single pane of glass. Reverse search any user instantly.",
+      "shieldBadge": "SAP OAuth · No credentials stored"
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
@@ -1505,10 +1650,20 @@
         "description": "Surface users across all scopes — including those only visible via API — without needing SAP Cockpit admin access."
       }
     },
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "save": "Save 17%"
+    },
     "pricing": {
       "label": "Pricing",
       "title": "Simple, transparent pricing",
-      "subtitle": "Start free for 90 days. No credit card required."
+      "subtitle": "Start free for 90 days. No credit card required.",
+      "free": "Free",
+      "perMonth": "/mo",
+      "billedAnnually": "billed annually (${{amount}}/yr)",
+      "contactSales": "Contact Sales",
+      "getStarted": "Get Started"
     }
   }
 }

@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "新品",
+    "introducing": "全新推出",
+    "description": "全球首款 SAP BTP 用户管理桌面应用。从单一界面管理所有全局账户、子账户和 CF 空间的用户。",
+    "cta": "立即下载",
+    "imageAlt": "BTP xID 控制台"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "新品",
+    "introducing": "全新推出",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "在本地备份您所有的 Claude 对话。全文搜索、标签与整理——您的 AI 历史，永久归您所有。",
+    "cta": "立即下载",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "搜索对话…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "一款用于备份、查看、搜索和导出 Claude CLI 对话的桌面应用。智能增量同步、强大搜索、消息过滤、Markdown 导出。支持 macOS 和 Windows。"
+    },
+    "hero": {
+      "title1": "您的 Claude CLI 对话，",
+      "title2": "已备份",
+      "title3": "且可搜索。",
+      "description": "一款平静的本地优先桌面应用，静默备份每一条 Claude CLI 对话，随时让您搜索、筛选和导出。",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "查看全部下载（macOS Intel、Windows Portable）"
+    },
+    "valueProps": {
+      "0": "智能增量备份",
+      "1": "搜索每条对话",
+      "2": "按消息类型过滤",
+      "3": "离线可用 · 100% 本地",
+      "4": "导出为 Markdown",
+      "5": "明暗主题",
+      "6": "离线可用 · 100% 本地"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "搜索对话…",
+      "userLabel": "您",
+      "claudeLabel": "Claude",
+      "toolLabel": "工具调用"
+    },
+    "features": {
+      "label": "功能介绍",
+      "title1": "安静而彻底。",
+      "title2": "出乎意料地快速。",
+      "subtitle": "六项小功能，合力确保您再也不会丢失任何一条 Claude CLI 对话。",
+      "deltaBackup": {
+        "title": "一键增量备份",
+        "description": "智能增量同步。新对话获得完整副本，已有对话仅追加新消息，备份既快速又节省磁盘空间。"
+      },
+      "browse": {
+        "title": "浏览活跃项目",
+        "description": "实时查看每一条活跃的 Claude CLI 对话，按项目分类整理，无需翻找隐藏目录。"
+      },
+      "search": {
+        "title": "强大搜索",
+        "description": "找回三周前说过的那句话。在单条或全部对话中即时搜索。"
+      },
+      "filtering": {
+        "title": "消息过滤",
+        "description": "自由切换用户、Claude、思考、工具调用和工具结果消息的显示状态，只看您需要的内容。"
+      },
+      "export": {
+        "title": "导出与复制",
+        "description": "将任意对话保存为格式化 JSON，用于归档、分享或流水线处理；也可复制单条或整段对话。"
+      },
+      "themes": {
+        "title": "明暗主题",
+        "description": "随时切换浅色与全暗模式，无论清晨还是深夜都清晰舒适。"
+      }
+    },
+    "howitworks": {
+      "label": "使用方式",
+      "title": "三步搞定，仅此而已。",
+      "step1": {
+        "title": "安装并打开",
+        "description": "下载一次，几秒完成安装。应用会自动找到您的 Claude CLI 对话，无需任何配置。"
+      },
+      "step2": {
+        "title": "一键备份",
+        "description": "点击备份按钮。智能增量同步只复制新内容，第二次备份速度远快于第一次。"
+      },
+      "step3": {
+        "title": "搜索、过滤、导出",
+        "description": "浏览、全局搜索、按消息类型过滤，导出为 Markdown 或复制到剪贴板，随心所欲。"
+      }
+    },
+    "trust": {
+      "label": "用心打造",
+      "title": "本地优先。默认私密。",
+      "subtitle": "除非您主动导出，否则对话永远不会离开您的电脑。应用不会回传数据，不收集遥测信息，无需网络连接即可运行。",
+      "local": {
+        "title": "100% 本地",
+        "description": "所有备份存储在您选定的文件夹中，不上传任何内容。"
+      },
+      "telemetry": {
+        "title": "零遥测",
+        "description": "应用不追踪使用情况，不收集分析数据，无需账户即可运行。"
+      },
+      "control": {
+        "title": "数据由您掌控",
+        "description": "可用任意文本编辑器打开备份文件，格式为标准 JSON——您的数据，永远在您手中。"
+      },
+      "darkMode": {
+        "title": "为深夜而生",
+        "description": "全暗模式，深夜一点搜索时也不会刺眼疲劳。"
+      }
+    },
+    "download": {
+      "label": "下载",
+      "title": "获取应用。",
+      "subtitle": "支持 macOS 和 Windows，无需账户。",
+      "primaryButton": "下载 {{label}} 版本",
+      "loading": "正在准备下载…",
+      "showAll": "显示全部下载",
+      "hideAll": "收起其他下载",
+      "versionLine": "当前版本：v{{version}} · macOS 11+ 及 Windows 10+",
+      "legal": "下载即表示您同意我们的",
+      "termsOfService": "服务条款",
+      "and": "和",
+      "privacyPolicy": "隐私政策"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · 适用于 M1、M2、M3 及更新款 Mac",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · 适用于较旧的 Intel Mac",
+      "winInstallerLabel": "Windows — 安装程序",
+      "winInstallerDesc": "NSIS 安装程序 · 推荐大多数用户使用",
+      "winPortableLabel": "Windows — 便携版",
+      "winPortableDesc": "单个 .exe · 无需安装"
+    },
+    "smartscreen": {
+      "title": "Windows 用户的温馨提示",
+      "description": "首次打开应用时，Windows SmartScreen 可能会显示警告。这对新桌面应用来说是正常现象——证书尚未积累足够声誉。安全操作步骤如下：",
+      "step1": "在 SmartScreen 提示中点击<1>更多信息</1>。",
+      "step2": "然后点击<1>仍要运行</1>以启动应用。"
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "一款应用。",
       "title2": "每位用户。",
       "title3": "所有账户。",
-      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理用户——一切尽在一个界面。即时反向搜索任何用户。"
+      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理用户——一切尽在一个界面。即时反向搜索任何用户。",
+      "shieldBadge": "SAP OAuth · 不存储凭据"
     },
     "valueProps": {
       "0": "您所需的唯一 BTP 用户管理应用",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "定价",
       "title": "简单、透明的定价",
-      "subtitle": "免费使用 90 天。无需信用卡。"
+      "subtitle": "免费使用 90 天。无需信用卡。",
+      "free": "免费",
+      "perMonth": "/月",
+      "billedAnnually": "按年计费（${{amount}}/年）",
+      "contactSales": "联系销售",
+      "getStarted": "立即开始"
+    },
+    "billing": {
+      "monthly": "按月",
+      "annual": "按年",
+      "save": "节省 17%"
     }
   }
 }

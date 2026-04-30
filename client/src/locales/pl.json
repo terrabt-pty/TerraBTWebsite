@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOWE",
+    "introducing": "Nowość",
+    "description": "Pierwsza na świecie aplikacja desktopowa do zarządzania użytkownikami SAP BTP. Zarządzaj użytkownikami we wszystkich kontach globalnych, subkontach i przestrzeniach CF z jednego miejsca.",
+    "cta": "Pobierz teraz",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOWE",
+    "introducing": "Nowość",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Twórz lokalne kopie zapasowe wszystkich rozmów z Claude. Wyszukiwanie pełnotekstowe, tagowanie i organizowanie — Twoja historia AI, Twoja na zawsze.",
+    "cta": "Pobierz teraz",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Szukaj rozmów…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Aplikacja desktopowa do tworzenia kopii zapasowych, przeglądania, wyszukiwania i eksportowania rozmów z Claude CLI. Inteligentna synchronizacja delta, zaawansowane wyszukiwanie, filtrowanie wiadomości, eksport Markdown. macOS i Windows."
+    },
+    "hero": {
+      "title1": "Twoje rozmowy z Claude CLI,",
+      "title2": "zarchiwizowane",
+      "title3": "i przeszukiwalne.",
+      "description": "Spokojna aplikacja lokalna, która cicho tworzy kopie zapasowe każdej rozmowy z Claude CLI, a następnie pozwala wyszukiwać, filtrować i eksportować je w dowolnym momencie.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Zobacz wszystkie pliki do pobrania (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Inteligentna synchronizacja delta",
+      "1": "Przeszukuj każdą rozmowę",
+      "2": "Filtruj wiadomości według typu",
+      "3": "Działa offline · 100% lokalnie",
+      "4": "Eksportuj jako Markdown",
+      "5": "Jasne i ciemne motywy",
+      "6": "Działa offline · 100% lokalnie"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Szukaj rozmów…",
+      "userLabel": "Ty",
+      "claudeLabel": "Claude",
+      "toolLabel": "Użycie narzędzia"
+    },
+    "features": {
+      "label": "Co robi",
+      "title1": "Spokojnie dokładna.",
+      "title2": "Zaskakująco szybka.",
+      "subtitle": "Sześć małych funkcji, które razem sprawiają, że nigdy nie stracisz rozmowy z Claude CLI.",
+      "deltaBackup": {
+        "title": "Kopia zapasowa delta jednym dotknięciem",
+        "description": "Inteligentna synchronizacja przyrostowa. Nowe rozmowy otrzymują pełną kopię; istniejące są uzupełniane tylko o nowe wiadomości. Kopie pozostają szybkie, a dysk lekki."
+      },
+      "browse": {
+        "title": "Przeglądaj aktywne projekty",
+        "description": "Zobacz każdą aktywną rozmowę z Claude CLI w czasie rzeczywistym, zorganizowaną według projektu. Koniec z przeglądaniem ukrytych folderów."
+      },
+      "search": {
+        "title": "Zaawansowane wyszukiwanie",
+        "description": "Znajdź to jedno zdanie, które powiedziałeś trzy tygodnie temu. Szukaj w jednej rozmowie lub we wszystkich rozmowach jednocześnie — natychmiast."
+      },
+      "filtering": {
+        "title": "Filtrowanie wiadomości",
+        "description": "Przełączaj widoczność wiadomości: Użytkownika, Claude, Myśli, Użycia narzędzia i Wyników narzędzia. Widz dokładnie to, czego potrzebujesz, ukryj resztę."
+      },
+      "export": {
+        "title": "Eksportuj i kopiuj",
+        "description": "Zapisz dowolną rozmowę jako sformatowany JSON do archiwizacji, udostępniania lub potoków. Kopiuj pojedyncze wiadomości lub całe wątki do schowka."
+      },
+      "themes": {
+        "title": "Jasne i ciemne motywy",
+        "description": "Przełączaj między jasnym i pełnym ciemnym trybem w dowolnym momencie. Wygodny do czytania o 9 rano i o północy na każdym monitorze."
+      }
+    },
+    "howitworks": {
+      "label": "Jak to działa",
+      "title": "Trzy kroki. To wszystko.",
+      "step1": {
+        "title": "Zainstaluj i otwórz",
+        "description": "Pobierz raz, zainstaluj w sekundy. Aplikacja automatycznie znajdzie Twoje rozmowy z Claude CLI — bez konfiguracji."
+      },
+      "step2": {
+        "title": "Utwórz kopię zapasową jednym kliknięciem",
+        "description": "Naciśnij przycisk kopii zapasowej. Inteligentna synchronizacja delta kopiuje tylko nowe treści, więc druga kopia jest znacznie szybsza od pierwszej."
+      },
+      "step3": {
+        "title": "Szukaj, filtruj, eksportuj",
+        "description": "Przeglądaj, przeszukuj wszystko, filtruj według typu wiadomości i eksportuj wszystko jako Markdown lub kopiuj do schowka."
+      }
+    },
+    "trust": {
+      "label": "Zbudowana z troską",
+      "title": "Lokalnie. Prywatnie domyślnie.",
+      "subtitle": "Twoje rozmowy nigdy nie opuszczają Twojego komputera, chyba że zdecydujesz się je wyeksportować. Aplikacja nie łączy się z zewnętrznymi serwerami, nie zbiera telemetrii i działa bez połączenia z Internetem.",
+      "local": {
+        "title": "100% lokalnie",
+        "description": "Wszystkie kopie zapasowe przechowywane są na Twoim komputerze, w wybranym przez Ciebie folderze. Nic nie jest przesyłane."
+      },
+      "telemetry": {
+        "title": "Brak telemetrii",
+        "description": "Aplikacja nie śledzi użycia, nie zbiera analityki i nie wymaga konta do działania."
+      },
+      "control": {
+        "title": "Ty masz kontrolę",
+        "description": "Otwieraj kopie zapasowe w dowolnym edytorze tekstu. Format to standardowy JSON — Twoje dane, w Twoich rękach, na zawsze."
+      },
+      "darkMode": {
+        "title": "Stworzona na późne noce",
+        "description": "Pełny ciemny tryb, który nie zmęczy Twoich oczu, gdy o 1 w nocy szukasz czegoś, co powiedziałeś w zeszłym tygodniu."
+      }
+    },
+    "download": {
+      "label": "Pobierz",
+      "title": "Pobierz aplikację.",
+      "subtitle": "Dostępna na macOS i Windows. Konto nie jest wymagane.",
+      "primaryButton": "Pobierz dla {{label}}",
+      "loading": "Przygotowywanie pobierania…",
+      "showAll": "Pokaż wszystkie pliki do pobrania",
+      "hideAll": "Ukryj inne pliki do pobrania",
+      "versionLine": "Bieżąca wersja: v{{version}} · macOS 11+ i Windows 10+",
+      "legal": "Pobierając, akceptujesz nasze",
+      "termsOfService": "Warunki usługi",
+      "and": "i",
+      "privacyPolicy": "Politykę prywatności"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · dla M1, M2, M3 i nowszych Maców",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · dla starszych Maców z procesorem Intel",
+      "winInstallerLabel": "Windows — Instalator",
+      "winInstallerDesc": "Instalator NSIS · zalecany dla większości użytkowników",
+      "winPortableLabel": "Windows — Przenośna",
+      "winPortableDesc": "Pojedynczy plik .exe · instalacja nie jest wymagana"
+    },
+    "smartscreen": {
+      "title": "Krótka uwaga dla użytkowników Windows",
+      "description": "Windows SmartScreen może wyświetlić ostrzeżenie przy pierwszym uruchomieniu aplikacji. Jest to normalne dla nowych aplikacji desktopowych — certyfikat nie zbudował jeszcze reputacji. Aby bezpiecznie kontynuować:",
+      "step1": "Kliknij <1>Więcej informacji</1> w oknie SmartScreen.",
+      "step2": "Następnie kliknij <1>Uruchom mimo to</1>, aby uruchomić aplikację."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Jedna aplikacja.",
       "title2": "Każdy użytkownik.",
       "title3": "Wszystkie konta.",
-      "description": "Zarządzaj użytkownikami w kontach globalnych, podkontach, organizacjach i przestrzeniach Cloud Foundry — wszystko z jednego miejsca. Wyszukiwanie odwrotne dowolnego użytkownika w mgnieniu oka."
+      "description": "Zarządzaj użytkownikami w kontach globalnych, podkontach, organizacjach i przestrzeniach Cloud Foundry — wszystko z jednego miejsca. Wyszukiwanie odwrotne dowolnego użytkownika w mgnieniu oka.",
+      "shieldBadge": "SAP OAuth · Brak przechowywanych danych logowania"
     },
     "valueProps": {
       "0": "Jedyna aplikacja do zarządzania użytkownikami BTP, której będziesz potrzebować",
@@ -1482,7 +1627,17 @@
     "pricing": {
       "label": "Cennik",
       "title": "Prosta i przejrzysta wycena",
-      "subtitle": "Zacznij za darmo przez 90 dni. Nie wymagana karta kredytowa."
+      "subtitle": "Zacznij za darmo przez 90 dni. Nie wymagana karta kredytowa.",
+      "free": "Bezpłatnie",
+      "perMonth": "/mo",
+      "billedAnnually": "rozliczane rocznie (${{amount}}/rok)",
+      "contactSales": "Kontakt ze sprzedażą",
+      "getStarted": "Zacznij teraz"
+    },
+    "billing": {
+      "monthly": "Miesięczny",
+      "annual": "Roczny",
+      "save": "Oszczędź 17%"
     }
   }
 }

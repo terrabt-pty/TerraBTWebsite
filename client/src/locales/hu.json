@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "ÚJ",
+    "introducing": "Bemutatjuk",
+    "description": "A világ első SAP BTP felhasználókezelő asztali alkalmazása. Kezelheti a felhasználókat az összes globális fiókban, alfiókban és CF-területen egyetlen nézetből.",
+    "cta": "Letöltés most",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "ÚJ",
+    "introducing": "Bemutatjuk",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Mentse el az összes Claude-beszélgetést helyben. Teljes szöveges keresés, címkézés és rendszerezés — az AI-előzményei, örökre az Öné.",
+    "cta": "Letöltés most",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Beszélgetések keresése…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Asztali alkalmazás Claude CLI-beszélgetések mentésére, megtekintésére, keresésére és exportálására. Intelligens delta szinkronizálás, hatékony keresés, üzenetszűrés, Markdown-export. macOS és Windows."
+    },
+    "hero": {
+      "title1": "Claude CLI-beszélgetései,",
+      "title2": "elmentve",
+      "title3": "és kereshetők.",
+      "description": "Egy nyugodt, helyi asztali alkalmazás, amely csendesen menti az összes Claude CLI-beszélgetést, majd bármikor lehetővé teszi a keresést, szűrést és exportálást.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Összes letöltés megtekintése (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Intelligens delta mentés",
+      "1": "Keressen minden beszélgetésben",
+      "2": "Szűrés üzenettípus szerint",
+      "3": "Offline is működik · 100% helyi",
+      "4": "Exportálás Markdown-ként",
+      "5": "Világos és sötét témák",
+      "6": "Offline is működik · 100% helyi"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Beszélgetések keresése…",
+      "userLabel": "Ön",
+      "claudeLabel": "Claude",
+      "toolLabel": "Eszközhasználat"
+    },
+    "features": {
+      "label": "Mit csinál",
+      "title1": "Csendesen alapos.",
+      "title2": "Meglepően gyors.",
+      "subtitle": "Hat kis funkció, amelyek együttesen azt jelentik, hogy soha többé nem veszít el Claude CLI-beszélgetést.",
+      "deltaBackup": {
+        "title": "Egyérintéses delta mentés",
+        "description": "Intelligens növekményes szinkronizálás. Az új beszélgetések teljes másolatot kapnak; a meglévőkhöz csak az új üzenetek kerülnek. A mentések gyorsak maradnak, a lemez sem telik meg."
+      },
+      "browse": {
+        "title": "Böngészés az aktív projektekben",
+        "description": "Tekintse meg az összes aktív Claude CLI-beszélgetést valós időben, projekt szerint rendezve. Nincs több rejtett mappák turkálása."
+      },
+      "search": {
+        "title": "Hatékony keresés",
+        "description": "Találja meg azt az egy dolgot, amelyet három héttel ezelőtt mondott. Keressen egy beszélgetésen belül, vagy az összes között egyszerre — azonnal."
+      },
+      "filtering": {
+        "title": "Üzenetszűrés",
+        "description": "Kapcsolja be/ki a Felhasználó, Claude, Gondolkodás, Eszközhasználat és Eszközeredmény üzenetek láthatóságát. Pontosan azt látja, amire szüksége van, a többit elrejti."
+      },
+      "export": {
+        "title": "Exportálás és másolás",
+        "description": "Mentse el bármelyik beszélgetést formázott JSON-ként archiváláshoz, megosztáshoz vagy adatcsatornákhoz. Másoljon egyes üzeneteket vagy teljes szálakat a vágólapra."
+      },
+      "themes": {
+        "title": "Világos és sötét témák",
+        "description": "Váltson a világos és a teljes sötét mód között bármikor. Kényelmes olvasni reggel 9-kor és éjfélkor, bármilyen monitoron."
+      }
+    },
+    "howitworks": {
+      "label": "Hogyan működik",
+      "title": "Három lépés. Ez az egész.",
+      "step1": {
+        "title": "Telepítés és megnyitás",
+        "description": "Töltse le egyszer, telepítse másodpercek alatt. Az alkalmazás automatikusan megtalálja Claude CLI-beszélgetéseit — nincs beállítás, nincs konfiguráció."
+      },
+      "step2": {
+        "title": "Mentés egy kattintással",
+        "description": "Nyomja meg a mentés gombot. Az intelligens delta szinkronizálás csak az újat másolja, így a második mentés lényegesen gyorsabb az elsőnél."
+      },
+      "step3": {
+        "title": "Keresés, szűrés, exportálás",
+        "description": "Böngésszen, keressen mindenhol, szűrjön üzenettípus szerint, és exportáljon mindent Markdown-ként, vagy másolja a vágólapra."
+      }
+    },
+    "trust": {
+      "label": "Gondossággal készítve",
+      "title": "Helyi első. Alapértelmezetten privát.",
+      "subtitle": "Beszélgetései soha nem hagyják el a számítógépét, kivéve, ha Ön úgy dönt. Az alkalmazás nem kapcsolódik külső szerverekhez, nem gyűjt telemetriát, és internetkapcsolat nélkül is működik.",
+      "local": {
+        "title": "100% helyi",
+        "description": "Az összes mentés a saját gépén tárolódik, egy Ön által kiválasztott mappában. Semmi sem kerül feltöltésre."
+      },
+      "telemetry": {
+        "title": "Nincs telemetria",
+        "description": "Az alkalmazás nem nyomkövet, nem gyűjt analitikát, és nem igényel fiókot a működéshez."
+      },
+      "control": {
+        "title": "Ön irányít",
+        "description": "Nyissa meg a mentéseket bármilyen szövegszerkesztővel. A formátum szabványos JSON — az adatai, az Ön kezében, örökre."
+      },
+      "darkMode": {
+        "title": "Késő estékre tervezve",
+        "description": "Teljes sötét mód, amely nem fárasztja a szemét, amikor hajnali 1-kor azt keresi, amit múlt héten mondott."
+      }
+    },
+    "download": {
+      "label": "Letöltés",
+      "title": "Töltse le az alkalmazást.",
+      "subtitle": "Elérhető macOS és Windows rendszeren. Fiók nem szükséges.",
+      "primaryButton": "Letöltés: {{label}}",
+      "loading": "Letöltés előkészítése…",
+      "showAll": "Összes letöltés megjelenítése",
+      "hideAll": "Többi letöltés elrejtése",
+      "versionLine": "Aktuális verzió: v{{version}} · macOS 11+ és Windows 10+",
+      "legal": "A letöltéssel elfogadja",
+      "termsOfService": "Felhasználási feltételeinket",
+      "and": "és",
+      "privacyPolicy": "Adatvédelmi szabályzatunkat"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1, M2, M3 és újabb Mac-ekhez",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · régebbi Intel-alapú Mac-ekhez",
+      "winInstallerLabel": "Windows — Telepítő",
+      "winInstallerDesc": "NSIS telepítő · legtöbb felhasználónak ajánlott",
+      "winPortableLabel": "Windows — Hordozható",
+      "winPortableDesc": "Egyetlen .exe fájl · telepítés nem szükséges"
+    },
+    "smartscreen": {
+      "title": "Gyors megjegyzés Windows-felhasználóknak",
+      "description": "A Windows SmartScreen figyelmeztetést jeleníthet meg az alkalmazás első megnyitásakor. Ez normális az új asztali alkalmazásoknál — a tanúsítvány még nem szerzett elég reputációt. A biztonságos folytatáshoz:",
+      "step1": "Kattintson a <1>További információ</1> elemre a SmartScreen-párbeszédablakban.",
+      "step2": "Ezután kattintson a <1>Futtatás mindenképpen</1> elemre az alkalmazás elindításához."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Egy alkalmazás.",
       "title2": "Minden felhasználó.",
       "title3": "Minden fiók.",
-      "description": "Kezelje a felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely felhasználó azonnali fordított keresése."
+      "description": "Kezelje a felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely felhasználó azonnali fordított keresése.",
+      "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat"
     },
     "valueProps": {
       "0": "Az egyetlen BTP felhasználókezelő alkalmazás, amelyre valaha szüksége lesz",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "Árazás",
       "title": "Egyszerű, átlátható árazás",
-      "subtitle": "Kezdje ingyenesen 90 napig. Nincs szükség hitelkártyára."
+      "subtitle": "Kezdje ingyenesen 90 napig. Nincs szükség hitelkártyára.",
+      "free": "Ingyenes",
+      "perMonth": "/mo",
+      "billedAnnually": "éves számlázás (${{amount}}/év)",
+      "contactSales": "Értékesítés",
+      "getStarted": "Kezdés"
+    },
+    "billing": {
+      "monthly": "Havi",
+      "annual": "Éves",
+      "save": "Megtakarítás 17%"
     }
   }
 }

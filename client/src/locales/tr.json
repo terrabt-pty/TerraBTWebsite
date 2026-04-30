@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "YENİ",
+    "introducing": "Tanıtıyoruz",
+    "description": "Dünyanın ilk SAP BTP Kullanıcı Yönetimi masaüstü uygulaması. Tüm küresel hesaplar, alt hesaplar ve CF alanlarındaki kullanıcıları tek bir ekrandan yönetin.",
+    "cta": "Hemen İndirin",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "YENİ",
+    "introducing": "Tanıtıyoruz",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Tüm Claude konuşmalarınızı yerel olarak yedekleyin. Tam metin arama, etiketleme ve düzenleme — yapay zeka geçmişiniz, sonsuza kadar sizin.",
+    "cta": "Hemen İndirin",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Konuşmalarda ara…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Claude CLI konuşmalarınızı yedeklemenizi, görüntülemenizi, aramanızı ve dışa aktarmanızı sağlayan bir masaüstü uygulaması. Akıllı delta senkronizasyonu, güçlü arama, mesaj filtreleme, Markdown dışa aktarma. macOS ve Windows."
+    },
+    "hero": {
+      "title1": "Claude CLI konuşmalarınız,",
+      "title2": "yedeklendi",
+      "title3": "ve aranabilir.",
+      "description": "Her Claude CLI konuşmasını sessizce yedekleyen, ardından bir şey bulmanız gerektiğinde arama, filtreleme ve dışa aktarma yapmanıza olanak tanıyan sakin, yerel öncelikli bir masaüstü uygulaması.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Tüm indirmeleri görün (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Akıllı delta yedekleme",
+      "1": "Her konuşmada arama",
+      "2": "Mesaj türüne göre filtrele",
+      "3": "Çevrimdışı çalışır · %100 yerel",
+      "4": "Markdown olarak dışa aktar",
+      "5": "Açık ve koyu temalar",
+      "6": "Çevrimdışı çalışır · %100 yerel"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Konuşmalarda ara…",
+      "userLabel": "Siz",
+      "claudeLabel": "Claude",
+      "toolLabel": "Araç kullanımı"
+    },
+    "features": {
+      "label": "Ne yapar",
+      "title1": "Sessizce kapsamlı.",
+      "title2": "Şaşırtıcı derecede hızlı.",
+      "subtitle": "Birlikte hiçbir Claude CLI konuşmasını bir daha kaybetmemenizi sağlayan altı küçük özellik.",
+      "deltaBackup": {
+        "title": "Tek dokunuşla delta yedekleme",
+        "description": "Akıllı artımlı senkronizasyon. Yeni konuşmalar tam kopya alır; mevcut olanlara yalnızca yeni mesajlar eklenir. Yedeklemeler hızlı kalır, diskiniz hafif kalır."
+      },
+      "browse": {
+        "title": "Canlı projelere göz atın",
+        "description": "Projeye göre düzenlenmiş her aktif Claude CLI konuşmasını gerçek zamanlı olarak görün. Artık gizli klasörleri karıştırmak yok."
+      },
+      "search": {
+        "title": "Güçlü arama",
+        "description": "Üç hafta önce söylediğiniz o şeyi bulun. Tek bir konuşmada veya hiç sahip olduğunuz her konuşmada arama yapın — anında."
+      },
+      "filtering": {
+        "title": "Mesaj filtreleme",
+        "description": "Kullanıcı, Claude, Düşünme, Araç Kullanımı ve Araç Sonucu mesajlarının görünürlüğünü açıp kapatın. Tam olarak ihtiyacınız olanı görün, gerisini gizleyin."
+      },
+      "export": {
+        "title": "Dışa aktar ve kopyala",
+        "description": "Herhangi bir konuşmayı arşivleme, paylaşma veya hattlar için biçimlendirilmiş JSON olarak kaydedin. Tek mesajları veya tüm konuşma dizilerini panoya kopyalayın."
+      },
+      "themes": {
+        "title": "Açık ve koyu temalar",
+        "description": "İstediğiniz zaman açık ve tam koyu mod arasında geçiş yapın. Sabah 9'da veya gece yarısında, herhangi bir monitörde okumak rahattır."
+      }
+    },
+    "howitworks": {
+      "label": "Nasıl çalışır",
+      "title": "Üç adım. Hepsi bu.",
+      "step1": {
+        "title": "Yükle ve aç",
+        "description": "Bir kez indirin, saniyeler içinde kurun. Uygulama Claude CLI konuşmalarınızı otomatik bulur — kurulum yok, yapılandırma yok."
+      },
+      "step2": {
+        "title": "Tek tıkla yedekle",
+        "description": "Yedekleme düğmesine basın. Akıllı delta senkronizasyonu yalnızca yeni olanları kopyalar, bu nedenle ikinci yedekleme birincisinden önemli ölçüde daha hızlıdır."
+      },
+      "step3": {
+        "title": "Ara, filtrele, dışa aktar",
+        "description": "Göz atın, her şeyde arama yapın, mesaj türüne göre filtreleyin ve istediğiniz her şeyi Markdown olarak dışa aktarın veya panonuza kopyalayın."
+      }
+    },
+    "trust": {
+      "label": "Özenle yapılmış",
+      "title": "Yerel öncelikli. Varsayılan olarak gizli.",
+      "subtitle": "Konuşmalarınız, dışa aktarmayı seçmediğiniz sürece bilgisayarınızdan hiçbir zaman ayrılmaz. Uygulama eve telefon etmez, telemetri toplamaz ve internet bağlantısı olmadan çalışır.",
+      "local": {
+        "title": "%100 yerel",
+        "description": "Tüm yedeklemeler, seçtiğiniz bir klasörde makinenizde bulunur. Hiçbir şey hiçbir yere yüklenmez."
+      },
+      "telemetry": {
+        "title": "Telemetri yok",
+        "description": "Uygulama kullanımı takip etmez, analitik toplamaz ve çalışmak için bir hesaba ihtiyaç duymaz."
+      },
+      "control": {
+        "title": "Kontrolü siz elinizde tutarsınız",
+        "description": "Yedeklemeleri herhangi bir metin düzenleyicide açın. Biçim standart JSON'dur — verileriniz, ellerinizde, sonsuza kadar."
+      },
+      "darkMode": {
+        "title": "Geç geceler için yapılmış",
+        "description": "Geçen hafta söylediğiniz o şey için gece 1'de arama yaparken gözlerinizi yormayacak tam koyu mod."
+      }
+    },
+    "download": {
+      "label": "İndir",
+      "title": "Uygulamayı edinin.",
+      "subtitle": "macOS ve Windows'ta kullanılabilir. Hesap gerekmez.",
+      "primaryButton": "{{label}} için İndir",
+      "loading": "İndirme hazırlanıyor…",
+      "showAll": "Tüm indirmeleri göster",
+      "hideAll": "Diğer indirmeleri gizle",
+      "versionLine": "Mevcut sürüm: v{{version}} · macOS 11+ ve Windows 10+",
+      "legal": "İndirerek kabul etmiş olursunuz",
+      "termsOfService": "Kullanım Koşullarını",
+      "and": "ve",
+      "privacyPolicy": "Gizlilik Politikasını"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1, M2, M3 ve daha yeni Mac'ler için",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · eski Intel tabanlı Mac'ler için",
+      "winInstallerLabel": "Windows — Yükleyici",
+      "winInstallerDesc": "NSIS yükleyici · çoğu kullanıcı için önerilen",
+      "winPortableLabel": "Windows — Portable",
+      "winPortableDesc": "Tek .exe · kurulum gerekmez"
+    },
+    "smartscreen": {
+      "title": "Windows kullanıcıları için kısa bir not",
+      "description": "Windows SmartScreen, uygulamayı ilk açtığınızda bir uyarı gösterebilir. Bu, yeni masaüstü uygulamaları için normaldir — sertifika henüz itibar kazanmamıştır. Güvenle devam etmek için:",
+      "step1": "SmartScreen isteminde <1>Daha fazla bilgi</1> seçeneğine tıklayın.",
+      "step2": "Ardından uygulamayı başlatmak için <1>Yine de çalıştır</1> seçeneğine tıklayın."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Tek uygulama.",
       "title2": "Her kullanıcı.",
       "title3": "Tüm hesaplar.",
-      "description": "Küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarındaki kullanıcıları tek bir görünümden yönetin. Herhangi bir kullanıcıyı anında ters arama ile bulun."
+      "description": "Küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarındaki kullanıcıları tek bir görünümden yönetin. Herhangi bir kullanıcıyı anında ters arama ile bulun.",
+      "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz"
     },
     "valueProps": {
       "0": "İhtiyaç duyacağınız tek BTP kullanıcı yönetimi uygulaması",
@@ -1479,10 +1624,20 @@
         "description": "Tüm kapsamlardaki kullanıcıları — yalnızca API aracılığıyla görülebilenleri de dahil olmak üzere — SAP Cockpit yönetici erişimine ihtiyaç duymadan ortaya çıkarın."
       }
     },
+    "billing": {
+      "monthly": "Aylık",
+      "annual": "Yıllık",
+      "save": "%17 tasarruf edin"
+    },
     "pricing": {
       "label": "Fiyatlandırma",
       "title": "Basit, şeffaf fiyatlandırma",
-      "subtitle": "90 gün boyunca ücretsiz başlayın. Kredi kartı gerekmez."
+      "subtitle": "90 gün boyunca ücretsiz başlayın. Kredi kartı gerekmez.",
+      "free": "Ücretsiz",
+      "perMonth": "/ay",
+      "billedAnnually": "yıllık faturalandırılır (${{amount}}/yıl)",
+      "contactSales": "Satışla İletişime Geçin",
+      "getStarted": "Başlayın"
     }
   }
 }

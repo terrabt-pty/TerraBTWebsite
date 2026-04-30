@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "UUSI",
+    "introducing": "Esittelemme",
+    "description": "Maailman ensimmäinen SAP BTP -käyttäjänhallintasovellus työpöydälle. Hallitse käyttäjiä kaikissa globaaleissa tileissä, alatileissä ja CF-tiloissa yhdestä näkymästä.",
+    "cta": "Lataa nyt",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "UUSI",
+    "introducing": "Esittelemme",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Varmuuskopioi kaikki Claude-keskustelusi paikallisesti. Kokotekstihaun, tagien ja järjestelyn avulla — tekoälyhistoriasi, sinun pidettäväksesi, ikuisesti.",
+    "cta": "Lataa nyt",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Hae keskusteluista…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Työpöytäsovellus Claude CLI -keskustelujen varmuuskopiointiin, katseluun, hakuun ja vientiin. Älykäs delta-synkronointi, tehokas haku, viestien suodatus, Markdown-vienti. macOS ja Windows."
+    },
+    "hero": {
+      "title1": "Claude CLI -keskustelusi,",
+      "title2": "varmuuskopioitu",
+      "title3": "ja haettavissa.",
+      "description": "Rauhallinen, paikallinen työpöytäsovellus, joka varmuuskopioi hiljaa jokaisen Claude CLI -keskustelun ja antaa sinun hakea, suodattaa ja viedä ne aina kun tarvitset löytää jotain.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Näytä kaikki lataukset (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Älykäs delta-varmuuskopiointi",
+      "1": "Hae kaikista keskusteluista",
+      "2": "Suodata viestityypin mukaan",
+      "3": "Toimii offline · 100 % paikallinen",
+      "4": "Vie Markdownina",
+      "5": "Vaalea ja tumma teema",
+      "6": "Toimii offline · 100 % paikallinen"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Hae keskusteluista…",
+      "userLabel": "Sinä",
+      "claudeLabel": "Claude",
+      "toolLabel": "Työkalun käyttö"
+    },
+    "features": {
+      "label": "Mitä se tekee",
+      "title1": "Hiljaa perusteellinen.",
+      "title2": "Yllättävän nopea.",
+      "subtitle": "Kuusi pientä ominaisuutta, jotka yhdessä tarkoittavat, ettet enää koskaan menetä Claude CLI -keskustelua.",
+      "deltaBackup": {
+        "title": "Yhdellä napauksella delta-varmuuskopiointi",
+        "description": "Älykäs inkrementaalinen synkronointi. Uudet keskustelut saavat täydellisen kopion; olemassa oleviin lisätään vain uudet viestit. Varmuuskopiointi pysyy nopeana ja levytila kevyenä."
+      },
+      "browse": {
+        "title": "Selaa aktiivisia projekteja",
+        "description": "Näe jokainen aktiivinen Claude CLI -keskustelu reaaliajassa projektin mukaan järjestettynä. Ei enää kaivamista piilotettujen kansioiden läpi."
+      },
+      "search": {
+        "title": "Tehokas haku",
+        "description": "Löydä se asia, jonka sanoit kolme viikkoa sitten. Hae yhdestä keskustelusta tai kaikista keskusteluistasi — välittömästi."
+      },
+      "filtering": {
+        "title": "Viestien suodatus",
+        "description": "Vaihda käyttäjän, Clauden, ajattelun, työkalun käytön ja työkalutuloksen viestien näkyvyyttä. Näe täsmälleen mitä tarvitset, piilota loput."
+      },
+      "export": {
+        "title": "Vie ja kopioi",
+        "description": "Tallenna mikä tahansa keskustelu muotoiltuna JSON:na arkistointia, jakamista tai putkistoja varten. Kopioi yksittäisiä viestejä tai kokonaisia viestiketjuja leikepöydälle."
+      },
+      "themes": {
+        "title": "Vaalea ja tumma teema",
+        "description": "Vaihda vaalean ja täyden tumman tilan välillä milloin tahansa. Mukava lukea klo 9 tai keskiyöllä, millä tahansa näytöllä."
+      }
+    },
+    "howitworks": {
+      "label": "Miten se toimii",
+      "title": "Kolme vaihetta. Siinä kaikki.",
+      "step1": {
+        "title": "Asenna ja avaa",
+        "description": "Lataa kerran, asenna sekunneissa. Sovellus löytää Claude CLI -keskustelusi automaattisesti — ei asetuksia, ei konfigurointia."
+      },
+      "step2": {
+        "title": "Varmuuskopioi yhdellä napsautuksella",
+        "description": "Paina varmuuskopiointipainiketta. Älykäs delta-synkronointi kopioi vain uudet, joten toinen varmuuskopiointi on huomattavasti nopeampi kuin ensimmäinen."
+      },
+      "step3": {
+        "title": "Hae, suodata, vie",
+        "description": "Selaa, hae kaikesta, suodata viestityypin mukaan ja vie mitä tahansa Markdownina tai kopioi leikepöydälle."
+      }
+    },
+    "trust": {
+      "label": "Huolella rakennettu",
+      "title": "Paikallinen ensin. Yksityinen oletuksena.",
+      "subtitle": "Keskustelusi eivät koskaan poistu tietokoneeltasi, ellet valitse viedä niitä. Sovellus ei soita kotiin, ei kerää telemetriaa eikä vaadi internet-yhteyttä.",
+      "local": {
+        "title": "100 % paikallinen",
+        "description": "Kaikki varmuuskopiot sijaitsevat koneellasi valitsemassasi kansiossa. Mitään ei ladata minnekään."
+      },
+      "telemetry": {
+        "title": "Ei telemetriaa",
+        "description": "Sovellus ei seuraa käyttöä, ei kerää analytiikkaa eikä tarvitse tiliä toimiakseen."
+      },
+      "control": {
+        "title": "Pysyt hallinnassa",
+        "description": "Avaa varmuuskopiot missä tahansa tekstieditorissa. Muoto on vakio-JSON — tietosi, käsissäsi, ikuisesti."
+      },
+      "darkMode": {
+        "title": "Tehty myöhäisiä öitä varten",
+        "description": "Täysi tumma tila, joka ei rasita silmiäsi, kun haet klo 1 yöllä sitä asiaa, jonka sanoit viime viikolla."
+      }
+    },
+    "download": {
+      "label": "Lataa",
+      "title": "Hanki sovellus.",
+      "subtitle": "Saatavilla macOS- ja Windows-käyttöjärjestelmille. Ei tiliä tarvita.",
+      "primaryButton": "Lataa {{label}}:lle",
+      "loading": "Valmistellaan latausta…",
+      "showAll": "Näytä kaikki lataukset",
+      "hideAll": "Piilota muut lataukset",
+      "versionLine": "Nykyinen versio: v{{version}} · macOS 11+ ja Windows 10+",
+      "legal": "Lataamalla hyväksyt",
+      "termsOfService": "Käyttöehdot",
+      "and": "ja",
+      "privacyPolicy": "Tietosuojakäytäntö"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1-, M2-, M3- ja uudemmille Maceille",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · vanhemmille Intel-pohjaisille Maceille",
+      "winInstallerLabel": "Windows — Asennusohjelma",
+      "winInstallerDesc": "NSIS-asennusohjelma · suositellaan useimmille käyttäjille",
+      "winPortableLabel": "Windows — Portable",
+      "winPortableDesc": "Yksittäinen .exe · asennusta ei tarvita"
+    },
+    "smartscreen": {
+      "title": "Pieni huomio Windows-käyttäjille",
+      "description": "Windows SmartScreen saattaa näyttää varoituksen, kun avaat sovelluksen ensimmäistä kertaa. Tämä on normaalia uusille työpöytäsovelluksille — sertifikaatti ei ole vielä kerännyt mainetta. Jatkaaksesi turvallisesti:",
+      "step1": "Napsauta <1>Lisätietoja</1> SmartScreen-kehotteessa.",
+      "step2": "Napsauta sitten <1>Suorita joka tapauksessa</1> käynnistääksesi sovelluksen."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Yksi sovellus.",
       "title2": "Jokainen käyttäjä.",
       "title3": "Kaikki tilit.",
-      "description": "Hallitse käyttäjiä globaaleissa tileissä, alatileissä, Cloud Foundry -organisaatioissa ja -tiloissa — kaikki yhdestä näkymästä. Etsi mikä tahansa käyttäjä välittömästi käänteishakuna."
+      "description": "Hallitse käyttäjiä globaaleissa tileissä, alatileissä, Cloud Foundry -organisaatioissa ja -tiloissa — kaikki yhdestä näkymästä. Etsi mikä tahansa käyttäjä välittömästi käänteishakuna.",
+      "shieldBadge": "SAP OAuth · Ei tallennettuja tunnistetietoja"
     },
     "valueProps": {
       "0": "Ainoa BTP-käyttäjänhallintasovellus, jota tarvitset",
@@ -1479,10 +1624,20 @@
         "description": "Tuo esiin käyttäjiä kaikilla laajuuksilla — mukaan lukien ne, jotka ovat näkyvissä vain API:n kautta — ilman SAP Cockpit -järjestelmänvalvojan käyttöoikeutta."
       }
     },
+    "billing": {
+      "monthly": "Kuukausittain",
+      "annual": "Vuosittain",
+      "save": "Säästä 17 %"
+    },
     "pricing": {
       "label": "Hinnoittelu",
       "title": "Yksinkertainen ja läpinäkyvä hinnoittelu",
-      "subtitle": "Aloita ilmaiseksi 90 päiväksi. Luottokorttia ei tarvita."
+      "subtitle": "Aloita ilmaiseksi 90 päiväksi. Luottokorttia ei tarvita.",
+      "free": "Ilmainen",
+      "perMonth": "/kk",
+      "billedAnnually": "laskutetaan vuosittain (${{amount}}/v)",
+      "contactSales": "Ota yhteyttä myyntiin",
+      "getStarted": "Aloita"
     }
   }
 }

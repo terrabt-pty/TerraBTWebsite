@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOVÉ",
+    "introducing": "Představujeme",
+    "description": "První světová desktopová aplikace pro správu uživatelů SAP BTP. Spravujte uživatele ve všech globálních účtech, podúčtech a prostorech CF z jednoho místa.",
+    "cta": "Stáhnout nyní",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOVÉ",
+    "introducing": "Představujeme",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Zálohujte lokálně všechny konverzace s Claudem. Fulltextové vyhledávání, označování a organizace — vaše AI historie, navždy vaše.",
+    "cta": "Stáhnout nyní",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Hledat konverzace…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Desktopová aplikace pro zálohování, prohlížení, vyhledávání a export konverzací s Claude CLI. Inteligentní delta synchronizace, výkonné vyhledávání, filtrování zpráv, export Markdown. macOS a Windows."
+    },
+    "hero": {
+      "title1": "Vaše konverzace s Claude CLI,",
+      "title2": "zazálohované",
+      "title3": "a prohledávatelné.",
+      "description": "Klidná lokální desktopová aplikace, která tiše zálohuje každou konverzaci s Claude CLI a umožňuje vám je prohledávat, filtrovat a exportovat kdykoli potřebujete.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Zobrazit všechna stažení (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Inteligentní delta záloha",
+      "1": "Prohledejte každou konverzaci",
+      "2": "Filtrujte podle typu zprávy",
+      "3": "Funguje offline · 100% lokálně",
+      "4": "Export jako Markdown",
+      "5": "Světlá a tmavá témata",
+      "6": "Funguje offline · 100% lokálně"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Hledat konverzace…",
+      "userLabel": "Vy",
+      "claudeLabel": "Claude",
+      "toolLabel": "Použití nástroje"
+    },
+    "features": {
+      "label": "Co dělá",
+      "title1": "Klidně důkladná.",
+      "title2": "Překvapivě rychlá.",
+      "subtitle": "Šest malých funkcí, které dohromady znamenají, že nikdy neztratíte konverzaci s Claude CLI.",
+      "deltaBackup": {
+        "title": "Delta záloha jedním dotykem",
+        "description": "Inteligentní přírůstková synchronizace. Nové konverzace získají úplnou kopii; stávající jsou doplněny pouze o nové zprávy. Zálohy zůstávají rychlé a disk nenáročný."
+      },
+      "browse": {
+        "title": "Procházejte aktivní projekty",
+        "description": "Sledujte každou aktivní konverzaci s Claude CLI v reálném čase, uspořádanou podle projektu. Žádné prohledávání skrytých složek."
+      },
+      "search": {
+        "title": "Výkonné vyhledávání",
+        "description": "Najděte tu jednu věc, kterou jste řekli před třemi týdny. Hledejte v jedné konverzaci nebo ve všech konverzacích najednou — okamžitě."
+      },
+      "filtering": {
+        "title": "Filtrování zpráv",
+        "description": "Přepínejte viditelnost zpráv: Uživatel, Claude, Přemýšlení, Použití nástroje a Výsledek nástroje. Zobrazte přesně to, co potřebujete, skryjte zbytek."
+      },
+      "export": {
+        "title": "Export a kopírování",
+        "description": "Uložte jakoukoli konverzaci jako formátovaný JSON pro archivaci, sdílení nebo kanály. Kopírujte jednotlivé zprávy nebo celá vlákna do schránky."
+      },
+      "themes": {
+        "title": "Světlá a tmavá témata",
+        "description": "Přepínejte mezi světlým a plně tmavým režimem kdykoli. Příjemné čtení v 9 ráno i o půlnoci na jakémkoli monitoru."
+      }
+    },
+    "howitworks": {
+      "label": "Jak to funguje",
+      "title": "Tři kroky. To je vše.",
+      "step1": {
+        "title": "Instalace a spuštění",
+        "description": "Stáhněte jednou, instalujte za sekundy. Aplikace automaticky najde vaše konverzace s Claude CLI — žádné nastavení, žádná konfigurace."
+      },
+      "step2": {
+        "title": "Záloha jedním kliknutím",
+        "description": "Stiskněte tlačítko zálohy. Inteligentní delta synchronizace kopíruje pouze nový obsah, takže druhá záloha je výrazně rychlejší než první."
+      },
+      "step3": {
+        "title": "Vyhledávání, filtrování, export",
+        "description": "Procházejte, prohledávejte vše, filtrujte podle typu zprávy a exportujte cokoli jako Markdown nebo zkopírujte do schránky."
+      }
+    },
+    "trust": {
+      "label": "Vytvořeno s péčí",
+      "title": "Lokálně první. Soukromé ve výchozím nastavení.",
+      "subtitle": "Vaše konverzace nikdy neopustí váš počítač, pokud se nerozhodnete je exportovat. Aplikace se nepřipojuje k externím serverům, neshromažďuje telemetrii a funguje bez připojení k internetu.",
+      "local": {
+        "title": "100% lokálně",
+        "description": "Všechny zálohy jsou uloženy na vašem počítači, ve složce, kterou si vyberete. Nic není nahráváno."
+      },
+      "telemetry": {
+        "title": "Žádná telemetrie",
+        "description": "Aplikace nesleduje používání, neshromažďuje analytiku a nevyžaduje účet k fungování."
+      },
+      "control": {
+        "title": "Vy máte kontrolu",
+        "description": "Otevírejte zálohy v libovolném textovém editoru. Formát je standardní JSON — vaše data, ve vašich rukou, navždy."
+      },
+      "darkMode": {
+        "title": "Vytvořeno pro pozdní noci",
+        "description": "Plný tmavý režim, který neunaví vaše oči, když ve 1 v noci hledáte to, co jste řekli minulý týden."
+      }
+    },
+    "download": {
+      "label": "Stáhnout",
+      "title": "Získejte aplikaci.",
+      "subtitle": "Dostupné pro macOS a Windows. Není potřeba účet.",
+      "primaryButton": "Stáhnout pro {{label}}",
+      "loading": "Příprava stahování…",
+      "showAll": "Zobrazit všechna stažení",
+      "hideAll": "Skrýt ostatní stažení",
+      "versionLine": "Aktuální verze: v{{version}} · macOS 11+ a Windows 10+",
+      "legal": "Stažením souhlasíte s našimi",
+      "termsOfService": "Podmínkami služby",
+      "and": "a",
+      "privacyPolicy": "Zásadami ochrany soukromí"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · pro M1, M2, M3 a novější Macy",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · pro starší Macy s procesorem Intel",
+      "winInstallerLabel": "Windows — Instalátor",
+      "winInstallerDesc": "Instalátor NSIS · doporučeno pro většinu uživatelů",
+      "winPortableLabel": "Windows — Přenosný",
+      "winPortableDesc": "Jeden soubor .exe · instalace není vyžadována"
+    },
+    "smartscreen": {
+      "title": "Krátká poznámka pro uživatele Windows",
+      "description": "Windows SmartScreen může zobrazit varování při prvním otevření aplikace. Je to normální pro nové desktopové aplikace — certifikát ještě nezískal reputaci. Jak bezpečně pokračovat:",
+      "step1": "Klikněte na <1>Více informací</1> ve výzvě SmartScreen.",
+      "step2": "Poté klikněte na <1>Přesto spustit</1> pro spuštění aplikace."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Jedna aplikace.",
       "title2": "Každý uživatel.",
       "title3": "Všechny účty.",
-      "description": "Spravujte uživatele v globálních účtech, podúčtech, organizacích a prostorech Cloud Foundry — vše z jednoho přehledu. Okamžité zpětné vyhledání libovolného uživatele."
+      "description": "Spravujte uživatele v globálních účtech, podúčtech, organizacích a prostorech Cloud Foundry — vše z jednoho přehledu. Okamžité zpětné vyhledání libovolného uživatele.",
+      "shieldBadge": "SAP OAuth · Žádné přihlašovací údaje nejsou uloženy"
     },
     "valueProps": {
       "0": "Jediná aplikace pro správu uživatelů BTP, kterou budete kdy potřebovat",
@@ -1482,7 +1627,17 @@
     "pricing": {
       "label": "Ceník",
       "title": "Jednoduché, transparentní ceny",
-      "subtitle": "Začněte zdarma na 90 dní. Není vyžadována kreditní karta."
+      "subtitle": "Začněte zdarma na 90 dní. Není vyžadována kreditní karta.",
+      "free": "Zdarma",
+      "perMonth": "/mo",
+      "billedAnnually": "účtováno ročně (${{amount}}/rok)",
+      "contactSales": "Kontaktovat obchod",
+      "getStarted": "Začít"
+    },
+    "billing": {
+      "monthly": "Měsíčně",
+      "annual": "Ročně",
+      "save": "Ušetřete 17 %"
     }
   }
 }

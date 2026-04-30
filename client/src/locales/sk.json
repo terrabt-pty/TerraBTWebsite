@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOVINKA",
+    "introducing": "Predstavujeme",
+    "description": "Prvá desktopová aplikácia na svete pre správu používateľov SAP BTP. Spravujte používateľov naprieč všetkými globálnymi účtami, podúčtami a CF priestormi z jedného miesta.",
+    "cta": "Stiahnuť teraz",
+    "imageAlt": "Prehľad BTP xID"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOVINKA",
+    "introducing": "Predstavujeme",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Zálohujte si všetky konverzácie Claude lokálne. Fulltextové vyhľadávanie, označovanie a organizovanie – vaša AI história, vaša navždy.",
+    "cta": "Stiahnuť teraz",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Hľadať konverzácie…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Desktopová aplikácia na zálohovanie, prezeranie, vyhľadávanie a export konverzácií Claude CLI. Inteligentná delta synchronizácia, výkonné vyhľadávanie, filtrovanie správ, export do Markdown. macOS a Windows."
+    },
+    "hero": {
+      "title1": "Vaše konverzácie Claude CLI,",
+      "title2": "zálohované",
+      "title3": "a prehľadávateľné.",
+      "description": "Pokojná, lokálna desktopová aplikácia, ktorá ticho zálohuje každú konverzáciu Claude CLI a umožňuje vám ich vyhľadávať, filtrovať a exportovať.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Zobraziť všetky stiahnutia (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Inteligentná delta záloha",
+      "1": "Prehľadávanie každej konverzácie",
+      "2": "Filtrovanie podľa typu správy",
+      "3": "Funguje offline · 100% lokálne",
+      "4": "Export do Markdown",
+      "5": "Svetlé a tmavé motívy",
+      "6": "Funguje offline · 100% lokálne"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Hľadať konverzácie…",
+      "userLabel": "Vy",
+      "claudeLabel": "Claude",
+      "toolLabel": "Použitie nástroja"
+    },
+    "features": {
+      "label": "Čo robí",
+      "title1": "Ticho dôkladné.",
+      "title2": "Prekvapivo rýchle.",
+      "subtitle": "Šesť malých funkcií, ktoré dohromady zaistia, že nikdy nestratíte konverzáciu Claude CLI.",
+      "deltaBackup": {
+        "title": "Delta záloha jedným dotykom",
+        "description": "Inteligentná prírastková synchronizácia. Nové konverzácie dostanú úplnú kópiu; existujúce len priložia nové správy."
+      },
+      "browse": {
+        "title": "Prezeranie živých projektov",
+        "description": "Zobrazenie každej aktívnej konverzácie Claude CLI v reálnom čase, organizovanej podľa projektu."
+      },
+      "search": {
+        "title": "Výkonné vyhľadávanie",
+        "description": "Nájdite to, čo ste hovorili pred tromi týždňami. Vyhľadávajte v jednej alebo vo všetkých konverzáciách – okamžite."
+      },
+      "filtering": {
+        "title": "Filtrovanie správ",
+        "description": "Prepínajte viditeľnosť správ Používateľa, Clauda, Myslenia, Použitia nástroja a Výsledku nástroja."
+      },
+      "export": {
+        "title": "Export a kopírovanie",
+        "description": "Uložte ľubovoľnú konverzáciu ako formátovaný JSON na archiváciu, zdieľanie alebo pipelines."
+      },
+      "themes": {
+        "title": "Svetlé a tmavé motívy",
+        "description": "Prepínajte medzi svetlým a tmavým režimom kedykoľvek."
+      }
+    },
+    "howitworks": {
+      "label": "Ako to funguje",
+      "title": "Tri kroky. To je celé.",
+      "step1": {
+        "title": "Nainštalovať a otvoriť",
+        "description": "Stiahnuť raz, nainštalovať za pár sekúnd. Aplikácia nájde vaše konverzácie Claude CLI automaticky."
+      },
+      "step2": {
+        "title": "Zálohovať jedným kliknutím",
+        "description": "Stlačte tlačidlo zálohy. Inteligentná delta synchronizácia kopíruje len to nové."
+      },
+      "step3": {
+        "title": "Vyhľadávať, filtrovať, exportovať",
+        "description": "Prezerajte, vyhľadávajte, filtrujte podľa typu správy a exportujte čokoľvek."
+      }
+    },
+    "trust": {
+      "label": "Vytvorené s starostlivosťou",
+      "title": "Lokálne prvé. Súkromné štandardne.",
+      "subtitle": "Vaše konverzácie neopustia váš počítač, pokiaľ si neželáte exportovať. Aplikácia sa nepýta domov, nezbiera telemetriu.",
+      "local": {
+        "title": "100% lokálne",
+        "description": "Všetky zálohy sú na vašom stroji. Nič sa nikam nenahrá."
+      },
+      "telemetry": {
+        "title": "Žiadna telemetria",
+        "description": "Aplikácia nesleduje používanie, nezbiera analytiku a na fungovanie nepotrebuje účet."
+      },
+      "control": {
+        "title": "Vy ostávate pod kontrolou",
+        "description": "Otvorte zálohy v ľubovoľnom textovom editore. Formát je štandardný JSON."
+      },
+      "darkMode": {
+        "title": "Stvorené pre neskoré noci",
+        "description": "Plný tmavý režim, ktorý unavuje oči, keď o 1:00 vyhľadávate."
+      }
+    },
+    "download": {
+      "label": "Stiahnutie",
+      "title": "Získajte aplikáciu.",
+      "subtitle": "Dostupné pre macOS a Windows. Nie je potrebný žiadny účet.",
+      "primaryButton": "Stiahnuť pre {{label}}",
+      "loading": "Príprava stiahnutia…",
+      "showAll": "Zobraziť všetky stiahnutia",
+      "hideAll": "Skryť ostatné stiahnutia",
+      "versionLine": "Aktuálna verzia: v{{version}} · macOS 11+ a Windows 10+",
+      "legal": "Stiahnutím súhlasíte s našimi",
+      "termsOfService": "Podmienkami používania",
+      "and": "a",
+      "privacyPolicy": "Zásadami ochrany osobných údajov"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · pre M1, M2, M3 a novšie Macy",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · pre staršie Intel Macy",
+      "winInstallerLabel": "Windows — Inštalátor",
+      "winInstallerDesc": "NSIS inštalátor · odporúčané pre väčšinu používateľov",
+      "winPortableLabel": "Windows — Prenosná verzia",
+      "winPortableDesc": "Jednoduchý .exe · bez inštalácie"
+    },
+    "smartscreen": {
+      "title": "Krátka poznámka pre používateľov Windows",
+      "description": "Windows SmartScreen môže pri prvom otvorení aplikácie zobraziť upozornenie. Toto je normálne pre nové desktopové aplikácie.",
+      "step1": "Kliknite na <1>Ďalšie informácie</1> v SmartScreen výzve.",
+      "step2": "Potom kliknite na <1>Spustiť napriek tomu</1> na spustenie aplikácie."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Jedna aplikácia.",
       "title2": "Každý používateľ.",
       "title3": "Všetky účty.",
-      "description": "Spravujte používateľov v globálnych účtoch, podúčtoch, organizáciách a priestoroch Cloud Foundry — všetko z jedného prehľadu. Okamžité spätné vyhľadanie ľubovoľného používateľa."
+      "description": "Spravujte používateľov v globálnych účtoch, podúčtoch, organizáciách a priestoroch Cloud Foundry — všetko z jedného prehľadu. Okamžité spätné vyhľadanie ľubovoľného používateľa.",
+      "shieldBadge": "SAP OAuth · Žiadne uložené prihlasovanie"
     },
     "valueProps": {
       "0": "Jediná aplikácia pre správu používateľov BTP, ktorú budete kedy potrebovať",
@@ -1482,7 +1627,17 @@
     "pricing": {
       "label": "Cenník",
       "title": "Jednoduché, transparentné ceny",
-      "subtitle": "Začnite zadarmo na 90 dní. Nevyžaduje sa kreditná karta."
+      "subtitle": "Začnite zadarmo na 90 dní. Nevyžaduje sa kreditná karta.",
+      "free": "Zadarmo",
+      "perMonth": "/mes",
+      "billedAnnually": "účtované ročne (${{amount}}/rok)",
+      "contactSales": "Kontaktovať predaj",
+      "getStarted": "Začať"
+    },
+    "billing": {
+      "monthly": "Mesačne",
+      "annual": "Ročne",
+      "save": "Ušetriť 17 %"
     }
   }
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation, Trans } from "react-i18next";
 import claudeCliIcon from "@assets/claude-cli-icon.png";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -11,24 +12,14 @@ import {
   Filter,
   FileJson,
   Sun,
-  Moon,
   Eye,
-  Sparkles,
   MessageSquare,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 
 /* ===================================================================
    Claude CLI Conversation Backup & Viewer — Product Landing Page
-
-   A purpose-built desktop app to back up, browse, search, and export
-   your Claude CLI conversations. Designed to feel calm, considered,
-   and trustworthy — the user is handing us their conversation history,
-   so every visual cue should reassure rather than alarm.
-
    Visual identity: green/teal accents (same family as BTP xID)
-   to evoke the AI/Claude family of tools — distinct yet harmonious
-   with the rest of the TerraBT product family.
    =================================================================== */
 
 const R2_BASE = "https://updates.terrabt.com/claudecli-backup-tool";
@@ -57,7 +48,7 @@ function detectArch(): "arm64" | "x64" {
     // @ts-expect-error userAgentData is not in all browsers
     navigator.userAgentData?.platform === "macOS"
   ) {
-    return "arm64"; // Most modern Macs are Apple Silicon
+    return "arm64";
   }
   return "x64";
 }
@@ -70,8 +61,8 @@ const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
 
 interface DownloadOption {
   id: "mac-arm64" | "mac-x64" | "win-installer" | "win-portable";
-  label: string;
-  desc: string;
+  labelKey: string;
+  descKey: string;
   os: OSType;
   arch?: string;
 }
@@ -86,29 +77,29 @@ const DL_ICONS: Record<DownloadOption["id"], React.ComponentType<{ className?: s
 const ALL_DOWNLOADS: DownloadOption[] = [
   {
     id: "mac-arm64",
-    label: "macOS — Apple Silicon",
-    desc: "DMG · for M1, M2, M3 and newer Macs",
+    labelKey: "claudeCliProduct.downloadOptions.macArm64Label",
+    descKey:  "claudeCliProduct.downloadOptions.macArm64Desc",
     os: "mac",
     arch: "arm64",
   },
   {
     id: "mac-x64",
-    label: "macOS — Intel",
-    desc: "DMG · for older Intel-based Macs",
+    labelKey: "claudeCliProduct.downloadOptions.macX64Label",
+    descKey:  "claudeCliProduct.downloadOptions.macX64Desc",
     os: "mac",
     arch: "x64",
   },
   {
     id: "win-installer",
-    label: "Windows — Installer",
-    desc: "NSIS installer · recommended for most users",
+    labelKey: "claudeCliProduct.downloadOptions.winInstallerLabel",
+    descKey:  "claudeCliProduct.downloadOptions.winInstallerDesc",
     os: "windows",
     arch: "x64",
   },
   {
     id: "win-portable",
-    label: "Windows — Portable",
-    desc: "Single .exe · no installation required",
+    labelKey: "claudeCliProduct.downloadOptions.winPortableLabel",
+    descKey:  "claudeCliProduct.downloadOptions.winPortableDesc",
     os: "windows",
     arch: "x64",
   },
@@ -137,68 +128,23 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
   return ALL_DOWNLOADS[0];
 }
 
-/* --- Floating value-prop messages — cycled in the hero visual --- */
-const VALUE_PROPS: Array<{ text: string; dot: string }> = [
-  { text: "Smart delta backup", dot: "#5AC765" },
-  { text: "Search every conversation", dot: "#4CAF50" },
-  { text: "Filter by message type", dot: "#2A7088" },
-  { text: "Works offline · 100% local", dot: "#E8A838" },
-  { text: "Export as Markdown", dot: "#5AC765" },
-  { text: "Light & dark themes", dot: "#1E5099" },
-  { text: "Works offline · 100% local", dot: "#4CAF50" },
-];
+const VALUE_PROP_DOTS = ["#5AC765", "#4CAF50", "#2A7088", "#E8A838", "#5AC765", "#1E5099", "#4CAF50"];
 
-const FEATURES: Array<{
+const FEATURE_DEFS: Array<{
   Icon: React.ComponentType<{ className?: string }>;
   colorClass: string;
-  title: string;
-  description: string;
+  key: string;
 }> = [
-  {
-    Icon: ArrowDownToLine,
-    colorClass: "ccv-fi-green",
-    title: "One-touch delta backup",
-    description:
-      "Smart incremental sync. New conversations get a full copy; existing ones only append the new messages. Backups stay fast and your disk stays light.",
-  },
-  {
-    Icon: MessageSquare,
-    colorClass: "ccv-fi-blue",
-    title: "Browse live projects",
-    description:
-      "See every active Claude CLI conversation in real time, organised by project. No more digging through hidden folders.",
-  },
-  {
-    Icon: Search,
-    colorClass: "ccv-fi-teal",
-    title: "Powerful search",
-    description:
-      "Find that one thing you said three weeks ago. Search within a single conversation or across every conversation you have ever had — instantly.",
-  },
-  {
-    Icon: Filter,
-    colorClass: "ccv-fi-green",
-    title: "Message filtering",
-    description:
-      "Toggle visibility of User, Claude, Thinking, Tool Use, and Tool Result messages. See exactly what you need, hide the rest.",
-  },
-  {
-    Icon: FileJson,
-    colorClass: "ccv-fi-blue",
-    title: "Export & copy",
-    description:
-      "Save any conversation as formatted JSON for archiving, sharing, or pipelines. Copy single messages or whole threads to the clipboard.",
-  },
-  {
-    Icon: Sun,
-    colorClass: "ccv-fi-teal",
-    title: "Light & dark themes",
-    description:
-      "Switch between light and full dark mode at any time. Comfortable to read at 9am or at midnight, on any monitor.",
-  },
+  { Icon: ArrowDownToLine, colorClass: "ccv-fi-green",  key: "deltaBackup" },
+  { Icon: MessageSquare,   colorClass: "ccv-fi-blue",   key: "browse"      },
+  { Icon: Search,          colorClass: "ccv-fi-teal",   key: "search"      },
+  { Icon: Filter,          colorClass: "ccv-fi-green",  key: "filtering"   },
+  { Icon: FileJson,        colorClass: "ccv-fi-blue",   key: "export"      },
+  { Icon: Sun,             colorClass: "ccv-fi-teal",   key: "themes"      },
 ];
 
 export default function ClaudeCliProduct() {
+  const { t } = useTranslation();
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
@@ -207,6 +153,18 @@ export default function ClaudeCliProduct() {
   const [cardsFading, setCardsFading] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const { getLocalizedPath } = useLocalizedPath();
+
+  const VALUE_PROPS = VALUE_PROP_DOTS.map((dot, i) => ({
+    text: t(`claudeCliProduct.valueProps.${i}`),
+    dot,
+  }));
+
+  const FEATURES = FEATURE_DEFS.map(({ Icon, colorClass, key }) => ({
+    Icon,
+    colorClass,
+    title: t(`claudeCliProduct.features.${key}.title`),
+    description: t(`claudeCliProduct.features.${key}.description`),
+  }));
 
   useEffect(() => {
     setOS(detectOS());
@@ -232,6 +190,8 @@ export default function ClaudeCliProduct() {
   }, []);
 
   const primaryDownload = getPrimaryDownload(os, arch);
+  const primaryDownloadLabel = t(primaryDownload.labelKey);
+  const primaryDownloadDesc = t(primaryDownload.descKey);
   const PrimaryIcon = OS_ICONS[os];
   const primaryDownloadUrl = versionInfo ? getDownloadUrl(primaryDownload.id, versionInfo) : null;
 
@@ -246,7 +206,7 @@ export default function ClaudeCliProduct() {
     <div className="min-h-screen">
       <SEOHead
         title="Claude CLI Backup & Viewer — Desktop app by TerraBT"
-        description="A desktop app to back up, view, search, and export your Claude CLI conversations. Smart delta sync, powerful search, message filtering, Markdown export. macOS and Windows."
+        description={t('claudeCliProduct.meta.description')}
         path="/products/claude-cli"
       />
       <Navigation />
@@ -261,22 +221,19 @@ export default function ClaudeCliProduct() {
         <div className="ccv-hero-inner">
           <div className="ccv-hero-content">
             <div className="ccv-app-icon-wrap">
-              <img src={claudeCliIcon} alt="Claude CLI Backup & Viewer" className="ccv-app-icon" />
+              <img src={claudeCliIcon} alt={t('claudeCliProduct.hero.appIconAlt')} className="ccv-app-icon" />
             </div>
 
-
             <h1 className="ccv-title" data-testid="text-ccv-hero-title">
-              Your Claude CLI conversations,
+              {t('claudeCliProduct.hero.title1')}
               <br />
-              <span className="ccv-highlight">backed up</span>
+              <span className="ccv-highlight">{t('claudeCliProduct.hero.title2')}</span>
               <br />
-              <span className="ccv-highlight">and searchable.</span>
+              <span className="ccv-highlight">{t('claudeCliProduct.hero.title3')}</span>
             </h1>
 
             <p className="ccv-subtitle">
-              A calm, local-first desktop app that quietly backs up every Claude CLI
-              conversation, then lets you search, filter, and export them whenever
-              you need to find something.
+              {t('claudeCliProduct.hero.description')}
             </p>
 
             <div className="ccv-hero-dl">
@@ -290,10 +247,10 @@ export default function ClaudeCliProduct() {
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="ccv-download-btn-text">
                     <span className="ccv-download-btn-title">
-                      Download for {primaryDownload.label}
+                      {t('claudeCliProduct.download.primaryButton', { label: primaryDownloadLabel })}
                     </span>
                     <span className="ccv-download-btn-desc">
-                      {primaryDownload.desc} · v{versionInfo!.version}
+                      {primaryDownloadDesc} · v{versionInfo!.version}
                     </span>
                   </div>
                   <Download className="h-5 w-5" />
@@ -307,8 +264,8 @@ export default function ClaudeCliProduct() {
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="ccv-download-btn-text">
-                    <span className="ccv-download-btn-title">Preparing download…</span>
-                    <span className="ccv-download-btn-desc">{primaryDownload.desc}</span>
+                    <span className="ccv-download-btn-title">{t('claudeCliProduct.download.loading')}</span>
+                    <span className="ccv-download-btn-desc">{primaryDownloadDesc}</span>
                   </div>
                   <Download className="h-5 w-5" />
                 </button>
@@ -319,26 +276,25 @@ export default function ClaudeCliProduct() {
                 className="ccv-download-other"
                 data-testid="link-ccv-hero-show-all"
               >
-                See all downloads (macOS Intel, Windows Portable)
+                {t('claudeCliProduct.hero.showAll')}
               </button>
             </div>
           </div>
 
           <div className="ccv-visual" aria-hidden="true">
             <div className="ccv-icon-showcase">
-              {/* CSS-only mock window — a calm, abstract preview while no screenshot exists */}
               <div className="ccv-window-frame" data-testid="visual-ccv-window">
                 <div className="ccv-window-bar">
                   <span className="ccv-window-dot ccv-window-dot-r" />
                   <span className="ccv-window-dot ccv-window-dot-y" />
                   <span className="ccv-window-dot ccv-window-dot-g" />
-                  <span className="ccv-window-title">Claude CLI Backup</span>
+                  <span className="ccv-window-title">{t('claudeCliProduct.mockup.windowTitle')}</span>
                 </div>
                 <div className="ccv-window-body">
                   <div className="ccv-window-sidebar">
                     <div className="ccv-window-search">
                       <Search className="ccv-window-search-icon" />
-                      <span className="ccv-window-search-text">Search conversations…</span>
+                      <span className="ccv-window-search-text">{t('claudeCliProduct.mockup.searchPlaceholder')}</span>
                     </div>
                     <div className="ccv-window-list">
                       <div className="ccv-window-list-item ccv-window-list-active">
@@ -361,25 +317,24 @@ export default function ClaudeCliProduct() {
                   </div>
                   <div className="ccv-window-main">
                     <div className="ccv-window-msg ccv-window-msg-user">
-                      <div className="ccv-window-msg-meta">You</div>
+                      <div className="ccv-window-msg-meta">{t('claudeCliProduct.mockup.userLabel')}</div>
                       <div className="ccv-window-msg-line ccv-w-90" />
                       <div className="ccv-window-msg-line ccv-w-70" />
                     </div>
                     <div className="ccv-window-msg ccv-window-msg-assistant">
-                      <div className="ccv-window-msg-meta ccv-window-msg-meta-claude">Claude</div>
+                      <div className="ccv-window-msg-meta ccv-window-msg-meta-claude">{t('claudeCliProduct.mockup.claudeLabel')}</div>
                       <div className="ccv-window-msg-line ccv-w-95" />
                       <div className="ccv-window-msg-line ccv-w-85" />
                       <div className="ccv-window-msg-line ccv-w-60" />
                     </div>
                     <div className="ccv-window-msg ccv-window-msg-tool">
-                      <div className="ccv-window-msg-meta ccv-window-msg-meta-tool">Tool use</div>
+                      <div className="ccv-window-msg-meta ccv-window-msg-meta-tool">{t('claudeCliProduct.mockup.toolLabel')}</div>
                       <div className="ccv-window-msg-line ccv-w-50" />
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Floating value-prop cards — cycle through all messages */}
               {[0, 2, 4, 6].map((offset, i) => {
                 const prop = VALUE_PROPS[(cardRound + offset) % VALUE_PROPS.length];
                 return (
@@ -401,15 +356,14 @@ export default function ClaudeCliProduct() {
       {/* ===== FEATURES ===== */}
       <section className="ccv-features" id="features" data-testid="section-ccv-features">
         <div className="ccv-features-header">
-          <div className="ccv-features-label">What it does</div>
+          <div className="ccv-features-label">{t('claudeCliProduct.features.label')}</div>
           <h2 className="ccv-features-title">
-            Quietly thorough.
+            {t('claudeCliProduct.features.title1')}
             <br />
-            Surprisingly fast.
+            {t('claudeCliProduct.features.title2')}
           </h2>
           <p className="ccv-features-sub">
-            Six small features that, together, mean you never lose a Claude CLI
-            conversation again.
+            {t('claudeCliProduct.features.subtitle')}
           </p>
         </div>
 
@@ -430,84 +384,74 @@ export default function ClaudeCliProduct() {
         </div>
       </section>
 
-      {/* ===== HOW IT WORKS — three calm steps ===== */}
+      {/* ===== HOW IT WORKS ===== */}
       <section className="ccv-howitworks" data-testid="section-ccv-howitworks">
         <div className="ccv-howitworks-inner">
           <div className="ccv-features-header">
-            <div className="ccv-features-label">How it works</div>
+            <div className="ccv-features-label">{t('claudeCliProduct.howitworks.label')}</div>
             <h2 className="ccv-features-title">
-              Three steps. That's the whole thing.
+              {t('claudeCliProduct.howitworks.title')}
             </h2>
           </div>
 
           <div className="ccv-steps">
             <div className="ccv-step">
               <div className="ccv-step-num">1</div>
-              <h3>Install &amp; open</h3>
-              <p>
-                Download once, install in seconds. The app finds your Claude CLI
-                conversations automatically — no setup, no configuration.
-              </p>
+              <h3>{t('claudeCliProduct.howitworks.step1.title')}</h3>
+              <p>{t('claudeCliProduct.howitworks.step1.description')}</p>
             </div>
             <div className="ccv-step">
               <div className="ccv-step-num">2</div>
-              <h3>Back up with one click</h3>
-              <p>
-                Press the backup button. Smart delta sync only copies what's new,
-                so the second backup is dramatically faster than the first.
-              </p>
+              <h3>{t('claudeCliProduct.howitworks.step2.title')}</h3>
+              <p>{t('claudeCliProduct.howitworks.step2.description')}</p>
             </div>
             <div className="ccv-step">
               <div className="ccv-step-num">3</div>
-              <h3>Search, filter, export</h3>
-              <p>
-                Browse, search across everything, filter by message type, and
-                export anything you want as Markdown or copy to your clipboard.
-              </p>
+              <h3>{t('claudeCliProduct.howitworks.step3.title')}</h3>
+              <p>{t('claudeCliProduct.howitworks.step3.description')}</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ===== TRUST / WHY YOU CAN TRUST IT ===== */}
+      {/* ===== TRUST ===== */}
       <section className="ccv-trust" data-testid="section-ccv-trust">
         <div className="ccv-trust-inner">
           <div className="ccv-features-header">
-            <div className="ccv-features-label">Built with care</div>
+            <div className="ccv-features-label">{t('claudeCliProduct.trust.label')}</div>
             <h2 className="ccv-features-title">
-              Local-first. Private by default.
+              {t('claudeCliProduct.trust.title')}
             </h2>
             <p className="ccv-features-sub">
-              Your conversations never leave your computer unless you choose to
-              export them. The app does not phone home, does not collect telemetry,
-              and works without an internet connection.
+              {t('claudeCliProduct.trust.subtitle')}
             </p>
           </div>
 
           <div className="ccv-trust-grid">
             <div className="ccv-trust-card">
               <div className="ccv-trust-icon">🔒</div>
-              <h3>100% local</h3>
-              <p>All backups live on your machine, in a folder you choose. Nothing is uploaded anywhere.</p>
+              <h3>{t('claudeCliProduct.trust.local.title')}</h3>
+              <p>{t('claudeCliProduct.trust.local.description')}</p>
             </div>
             <div className="ccv-trust-card">
               <div className="ccv-trust-icon">📡</div>
-              <h3>No telemetry</h3>
-              <p>The app does not track usage, doesn't collect analytics, and doesn't need an account to work.</p>
+              <h3>{t('claudeCliProduct.trust.telemetry.title')}</h3>
+              <p>{t('claudeCliProduct.trust.telemetry.description')}</p>
             </div>
             <div className="ccv-trust-card">
               <div className="ccv-trust-icon">
                 <Eye className="h-5 w-5" />
               </div>
-              <h3>You stay in control</h3>
-              <p>Open backups in any text editor. The format is standard JSON — your data, in your hands, forever.</p>
+              <h3>{t('claudeCliProduct.trust.control.title')}</h3>
+              <p>{t('claudeCliProduct.trust.control.description')}</p>
             </div>
             <div className="ccv-trust-card">
               <div className="ccv-trust-icon">
-                <Moon className="h-5 w-5" />
+                <Eye className="h-5 w-5" style={{ display: "none" }} />
+                🌙
               </div>
-              <h3>Made for late nights</h3>
-              <p>Full dark mode that won't tire your eyes when you're searching at 1am for that thing you said last week.</p>
+              <h3>{t('claudeCliProduct.trust.darkMode.title')}</h3>
+              <p>{t('claudeCliProduct.trust.darkMode.description')}</p>
             </div>
           </div>
         </div>
@@ -517,12 +461,12 @@ export default function ClaudeCliProduct() {
       <section className="ccv-download" id="download" data-testid="section-ccv-download">
         <div className="ccv-download-inner">
           <div className="ccv-features-header">
-            <div className="ccv-features-label">Download</div>
+            <div className="ccv-features-label">{t('claudeCliProduct.download.label')}</div>
             <h2 className="ccv-features-title">
-              Get the app.
+              {t('claudeCliProduct.download.title')}
             </h2>
             <p className="ccv-features-sub">
-              Available on macOS and Windows. No account required.
+              {t('claudeCliProduct.download.subtitle')}
             </p>
           </div>
 
@@ -538,10 +482,10 @@ export default function ClaudeCliProduct() {
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="ccv-download-btn-text">
                   <span className="ccv-download-btn-title">
-                    Download for {primaryDownload.label}
+                    {t('claudeCliProduct.download.primaryButton', { label: primaryDownloadLabel })}
                   </span>
                   <span className="ccv-download-btn-desc">
-                    {primaryDownload.desc} · v{versionInfo!.version}
+                    {primaryDownloadDesc} · v{versionInfo!.version}
                   </span>
                 </div>
                 <Download className="h-5 w-5" />
@@ -555,8 +499,8 @@ export default function ClaudeCliProduct() {
               >
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="ccv-download-btn-text">
-                  <span className="ccv-download-btn-title">Preparing download…</span>
-                  <span className="ccv-download-btn-desc">{primaryDownload.desc}</span>
+                  <span className="ccv-download-btn-title">{t('claudeCliProduct.download.loading')}</span>
+                  <span className="ccv-download-btn-desc">{primaryDownloadDesc}</span>
                 </div>
                 <Download className="h-5 w-5" />
               </button>
@@ -571,7 +515,7 @@ export default function ClaudeCliProduct() {
               className="ccv-download-other"
               data-testid="button-ccv-toggle-all"
             >
-              {showAllDownloads ? "Hide other downloads" : "Show all downloads"}
+              {showAllDownloads ? t('claudeCliProduct.download.hideAll') : t('claudeCliProduct.download.showAll')}
             </button>
           </div>
 
@@ -581,6 +525,8 @@ export default function ClaudeCliProduct() {
               {ALL_DOWNLOADS.map((dl) => {
                 const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
                 const DlIcon = DL_ICONS[dl.id];
+                const dlLabel = t(dl.labelKey);
+                const dlDesc = t(dl.descKey);
                 return url ? (
                   <a
                     key={dl.id}
@@ -589,8 +535,8 @@ export default function ClaudeCliProduct() {
                     data-testid={`link-ccv-download-${dl.id}`}
                   >
                     <div>
-                      <div className="ccv-download-option-label">{dl.label}</div>
-                      <div className="ccv-download-option-desc">{dl.desc}</div>
+                      <div className="ccv-download-option-label">{dlLabel}</div>
+                      <div className="ccv-download-option-desc">{dlDesc}</div>
                     </div>
                     <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </a>
@@ -603,8 +549,8 @@ export default function ClaudeCliProduct() {
                     data-testid={`button-ccv-download-${dl.id}-loading`}
                   >
                     <div>
-                      <div className="ccv-download-option-label">{dl.label}</div>
-                      <div className="ccv-download-option-desc">{dl.desc}</div>
+                      <div className="ccv-download-option-label">{dlLabel}</div>
+                      <div className="ccv-download-option-desc">{dlDesc}</div>
                     </div>
                     <DlIcon className="h-4 w-4 flex-shrink-0" />
                   </button>
@@ -627,16 +573,22 @@ export default function ClaudeCliProduct() {
                 </button>
                 <div className="ccv-smartscreen-notice-title">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                  A quick note for Windows users
+                  {t('claudeCliProduct.smartscreen.title')}
                 </div>
-                <p>
-                  Windows SmartScreen may show a warning the first time you open the
-                  app. This is normal for new desktop apps — the certificate just
-                  hasn't built up reputation yet. To proceed safely:
-                </p>
+                <p>{t('claudeCliProduct.smartscreen.description')}</p>
                 <ol>
-                  <li>Click <strong>More info</strong> on the SmartScreen prompt.</li>
-                  <li>Then click <strong>Run anyway</strong> to launch the app.</li>
+                  <li>
+                    <Trans
+                      i18nKey="claudeCliProduct.smartscreen.step1"
+                      components={{ 1: <strong /> }}
+                    />
+                  </li>
+                  <li>
+                    <Trans
+                      i18nKey="claudeCliProduct.smartscreen.step2"
+                      components={{ 1: <strong /> }}
+                    />
+                  </li>
                 </ol>
               </div>
             </div>
@@ -645,14 +597,14 @@ export default function ClaudeCliProduct() {
           <div className="ccv-download-info">
             <p>
               {versionInfo
-                ? `Current version: v${versionInfo.version} · macOS 11+ and Windows 10+`
-                : "Loading version information…"}
+                ? t('claudeCliProduct.download.versionLine', { version: versionInfo.version })
+                : t('claudeCliProduct.download.loading')}
             </p>
             <p>
-              By downloading you agree to our{" "}
-              <a href={getLocalizedPath("/terms-of-service")} data-testid="link-ccv-terms">Terms of Service</a>{" "}
-              and{" "}
-              <a href={getLocalizedPath("/privacy-policy")} data-testid="link-ccv-privacy">Privacy Policy</a>.
+              {t('claudeCliProduct.download.legal')}{" "}
+              <a href={getLocalizedPath("/terms-of-service")} data-testid="link-ccv-terms">{t('claudeCliProduct.download.termsOfService')}</a>{" "}
+              {t('claudeCliProduct.download.and')}{" "}
+              <a href={getLocalizedPath("/privacy-policy")} data-testid="link-ccv-privacy">{t('claudeCliProduct.download.privacyPolicy')}</a>.
             </p>
           </div>
         </div>

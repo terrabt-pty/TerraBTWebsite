@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NY",
+    "introducing": "Vi presenterar",
+    "description": "Världens första SAP BTP-användarhanteringsapp för skrivbordet. Hantera användare i alla globala konton, underkonton och CF-utrymmen från en enda vy.",
+    "cta": "Ladda ned nu",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NY",
+    "introducing": "Vi presenterar",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Säkerhetskopiera alla dina Claude-konversationer lokalt. Fulltextsökning, taggning och organisering — din AI-historik, din att behålla, för alltid.",
+    "cta": "Ladda ned nu",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Sök i konversationer…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "En skrivbordsapp för att säkerhetskopiera, visa, söka och exportera dina Claude CLI-konversationer. Smart delta-synkronisering, kraftfull sökning, meddelandefiltrering, Markdown-export. macOS och Windows."
+    },
+    "hero": {
+      "title1": "Dina Claude CLI-konversationer,",
+      "title2": "säkerhetskopierade",
+      "title3": "och sökbara.",
+      "description": "En lugn, lokal-first skrivbordsapp som tyst säkerhetskopierar varje Claude CLI-konversation och låter dig söka, filtrera och exportera dem när du behöver hitta något.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Se alla nedladdningar (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Smart delta-säkerhetskopiering",
+      "1": "Sök i alla konversationer",
+      "2": "Filtrera efter meddelandetyp",
+      "3": "Fungerar offline · 100 % lokalt",
+      "4": "Exportera som Markdown",
+      "5": "Ljust och mörkt tema",
+      "6": "Fungerar offline · 100 % lokalt"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Sök i konversationer…",
+      "userLabel": "Du",
+      "claudeLabel": "Claude",
+      "toolLabel": "Verktygsbrug"
+    },
+    "features": {
+      "label": "Vad den gör",
+      "title1": "Stilla noggrann.",
+      "title2": "Förvånansvärt snabb.",
+      "subtitle": "Sex små funktioner som tillsammans innebär att du aldrig förlorar en Claude CLI-konversation igen.",
+      "deltaBackup": {
+        "title": "En-trycks delta-säkerhetskopiering",
+        "description": "Smart inkrementell synkronisering. Nya konversationer får en fullständig kopia; befintliga lägger bara till de nya meddelandena. Säkerhetskopieringar förblir snabba och din disk förblir lätt."
+      },
+      "browse": {
+        "title": "Bläddra i aktiva projekt",
+        "description": "Se varje aktiv Claude CLI-konversation i realtid, organiserad efter projekt. Slut på att gräva igenom dolda mappar."
+      },
+      "search": {
+        "title": "Kraftfull sökning",
+        "description": "Hitta den sak du sa för tre veckor sedan. Sök i en enstaka konversation eller i alla konversationer du någonsin haft — omedelbart."
+      },
+      "filtering": {
+        "title": "Meddelandefiltrering",
+        "description": "Växla synlighet för Användare-, Claude-, Tanke-, Verktygsbrug- och Verktygresultat-meddelanden. Se exakt vad du behöver, dölj resten."
+      },
+      "export": {
+        "title": "Exportera och kopiera",
+        "description": "Spara valfri konversation som formaterad JSON för arkivering, delning eller pipelines. Kopiera enstaka meddelanden eller hela trådar till urklipp."
+      },
+      "themes": {
+        "title": "Ljust och mörkt tema",
+        "description": "Växla mellan ljust och fullt mörkt läge när som helst. Bekvämt att läsa kl. 9 eller vid midnatt, på vilken skärm som helst."
+      }
+    },
+    "howitworks": {
+      "label": "Hur det fungerar",
+      "title": "Tre steg. Det är allt.",
+      "step1": {
+        "title": "Installera och öppna",
+        "description": "Ladda ned en gång, installera på sekunder. Appen hittar dina Claude CLI-konversationer automatiskt — ingen inställning, ingen konfiguration."
+      },
+      "step2": {
+        "title": "Säkerhetskopiera med ett klick",
+        "description": "Tryck på säkerhetskopieringsknappen. Smart delta-synkronisering kopierar bara det nya, så den andra säkerhetskopieringen är dramatiskt snabbare än den första."
+      },
+      "step3": {
+        "title": "Sök, filtrera, exportera",
+        "description": "Bläddra, sök i allt, filtrera efter meddelandetyp och exportera vad du vill som Markdown eller kopiera till urklipp."
+      }
+    },
+    "trust": {
+      "label": "Byggt med omsorg",
+      "title": "Lokalt först. Privat som standard.",
+      "subtitle": "Dina konversationer lämnar aldrig din dator om du inte väljer att exportera dem. Appen ringer inte hem, samlar inte in telemetri och fungerar utan internetanslutning.",
+      "local": {
+        "title": "100 % lokalt",
+        "description": "Alla säkerhetskopior finns på din dator, i en mapp du väljer. Inget laddas upp någonstans."
+      },
+      "telemetry": {
+        "title": "Ingen telemetri",
+        "description": "Appen spårar inte användning, samlar inte in analyser och behöver inget konto för att fungera."
+      },
+      "control": {
+        "title": "Du förblir i kontroll",
+        "description": "Öppna säkerhetskopior i valfri textredigerare. Formatet är standard-JSON — dina data, i dina händer, för alltid."
+      },
+      "darkMode": {
+        "title": "Gjord för sena nätter",
+        "description": "Fullt mörkt läge som inte tröttar dina ögon när du söker kl. 1 på natten efter det du sa förra veckan."
+      }
+    },
+    "download": {
+      "label": "Ladda ned",
+      "title": "Hämta appen.",
+      "subtitle": "Tillgänglig på macOS och Windows. Inget konto krävs.",
+      "primaryButton": "Ladda ned för {{label}}",
+      "loading": "Förbereder nedladdning…",
+      "showAll": "Visa alla nedladdningar",
+      "hideAll": "Dölj andra nedladdningar",
+      "versionLine": "Nuvarande version: v{{version}} · macOS 11+ och Windows 10+",
+      "legal": "Genom att ladda ned godkänner du våra",
+      "termsOfService": "Användarvillkor",
+      "and": "och",
+      "privacyPolicy": "Integritetspolicy"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · för M1, M2, M3 och nyare Mac",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · för äldre Intel-baserade Mac",
+      "winInstallerLabel": "Windows — Installationsprogram",
+      "winInstallerDesc": "NSIS-installationsprogram · rekommenderas för de flesta användare",
+      "winPortableLabel": "Windows — Portable",
+      "winPortableDesc": "Enkel .exe · ingen installation krävs"
+    },
+    "smartscreen": {
+      "title": "En snabb notering för Windows-användare",
+      "description": "Windows SmartScreen kan visa en varning första gången du öppnar appen. Det är normalt för nya skrivbordsappar — certifikatet har ännu inte byggt upp ett rykte. Så här fortsätter du säkert:",
+      "step1": "Klicka på <1>Mer info</1> i SmartScreen-prompten.",
+      "step2": "Klicka sedan på <1>Kör ändå</1> för att starta appen."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "En app.",
       "title2": "Varje användare.",
       "title3": "Alla konton.",
-      "description": "Hantera användare i globala konton, underkonton, Cloud Foundry-organisationer och -utrymmen — allt från en enda vy. Sök omvänt på valfri användare direkt."
+      "description": "Hantera användare i globala konton, underkonton, Cloud Foundry-organisationer och -utrymmen — allt från en enda vy. Sök omvänt på valfri användare direkt.",
+      "shieldBadge": "SAP OAuth · Inga inloggningsuppgifter lagras"
     },
     "valueProps": {
       "0": "Den enda BTP-användarhanteringsappen du någonsin behöver",
@@ -1479,10 +1624,20 @@
         "description": "Visa användare i alla scope — inklusive de som bara är synliga via API — utan att behöva SAP Cockpit-administratörsåtkomst."
       }
     },
+    "billing": {
+      "monthly": "Månadsvis",
+      "annual": "Årsvis",
+      "save": "Spara 17 %"
+    },
     "pricing": {
       "label": "Priser",
       "title": "Enkel och transparent prissättning",
-      "subtitle": "Börja gratis i 90 dagar. Inget kreditkort krävs."
+      "subtitle": "Börja gratis i 90 dagar. Inget kreditkort krävs.",
+      "free": "Gratis",
+      "perMonth": "/mån",
+      "billedAnnually": "faktureras årsvis (${{amount}}/år)",
+      "contactSales": "Kontakta sälj",
+      "getStarted": "Kom igång"
     }
   }
 }

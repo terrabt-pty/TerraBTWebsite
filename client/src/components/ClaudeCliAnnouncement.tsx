@@ -1,8 +1,10 @@
 import { Link } from "wouter";
 import { ArrowRight, Sparkles, MessageSquare } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function ClaudeCliAnnouncement() {
+  const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
   return (
@@ -30,25 +32,24 @@ export default function ClaudeCliAnnouncement() {
         <div className="ccv-announce-content">
           <div className="ccv-announce-new-badge">
             <Sparkles className="h-3 w-3" />
-            <span>NEW</span>
+            <span>{t('claudeCliAnnouncement.badge')}</span>
           </div>
 
           <div className="ccv-announce-text">
             <h2 className="ccv-announce-title">
-              Introducing{" "}
+              {t('claudeCliAnnouncement.introducing')}{" "}
               <span className="ccv-announce-brand ccv-shimmer">
-                Claude CLI Backup & Viewer
+                {t('claudeCliAnnouncement.productName')}
               </span>
             </h2>
             <p className="ccv-announce-desc">
-              Back up all your Claude conversations locally. Full-text search,
-              tag &amp; organise — your AI history, yours to keep, forever.
+              {t('claudeCliAnnouncement.description')}
             </p>
           </div>
 
           <div className="ccv-announce-cta">
             <Sparkles className="h-4 w-4" />
-            <span>Download Now</span>
+            <span>{t('claudeCliAnnouncement.cta')}</span>
             <ArrowRight className="h-4 w-4 ccv-arrow-bounce" />
           </div>
         </div>
@@ -59,12 +60,12 @@ export default function ClaudeCliAnnouncement() {
               <span className="ccv-dot ccv-dot-red" />
               <span className="ccv-dot ccv-dot-yellow" />
               <span className="ccv-dot ccv-dot-green" />
-              <span className="ccv-mockup-title">Claude CLI Backup</span>
+              <span className="ccv-mockup-title">{t('claudeCliAnnouncement.mockup.title')}</span>
             </div>
             <div className="ccv-mockup-body">
               <div className="ccv-mockup-search">
                 <span className="ccv-mockup-search-icon">⌕</span>
-                <span className="ccv-mockup-search-text">Search conversations…</span>
+                <span className="ccv-mockup-search-text">{t('claudeCliAnnouncement.mockup.searchPlaceholder')}</span>
               </div>
               <div className="ccv-mockup-list">
                 <div className="ccv-mockup-item ccv-item-active">

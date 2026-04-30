@@ -341,7 +341,7 @@ export default function BTPxIDProduct() {
                 {/* Shield security trust badge overlaid on screenshot */}
                 <div className="btpxid-shield-badge">
                   <Shield className="h-3 w-3" />
-                  SAP OAuth · No credentials stored
+                  {t('btpxidProduct.hero.shieldBadge')}
                 </div>
               </div>
 
@@ -427,14 +427,14 @@ export default function BTPxIDProduct() {
               className={`btpxid-billing-option${billingInterval === "monthly" ? " btpxid-billing-active" : ""}`}
               onClick={() => setBillingInterval("monthly")}
             >
-              Monthly
+              {t('btpxidProduct.billing.monthly')}
             </button>
             <button
               className={`btpxid-billing-option${billingInterval === "annual" ? " btpxid-billing-active" : ""}`}
               onClick={() => setBillingInterval("annual")}
             >
-              Annual
-              <span className="btpxid-billing-save">Save 17%</span>
+              {t('btpxidProduct.billing.annual')}
+              <span className="btpxid-billing-save">{t('btpxidProduct.billing.save')}</span>
             </button>
           </div>
 
@@ -454,7 +454,7 @@ export default function BTPxIDProduct() {
                 <div className="btpxid-plan-price-wrap">
                   <div className="btpxid-plan-price">
                     {pkg.contactEmail ? null : pkg.displayPriceMonthly === 0 ? (
-                      <span className="btpxid-price-amount">Free</span>
+                      <span className="btpxid-price-amount">{t('btpxidProduct.pricing.free')}</span>
                     ) : (
                       <>
                         <span className="btpxid-price-amount">
@@ -462,13 +462,13 @@ export default function BTPxIDProduct() {
                             ? Math.round(pkg.displayPriceMonthly / 100)
                             : Math.round(pkg.displayPriceAnnual / 100 / 12)}
                         </span>
-                        <span className="btpxid-price-period">/mo</span>
+                        <span className="btpxid-price-period">{t('btpxidProduct.pricing.perMonth')}</span>
                       </>
                     )}
                   </div>
                   {!pkg.contactEmail && pkg.displayPriceMonthly > 0 && billingInterval === "annual" && (
                     <div className="btpxid-price-annual-note">
-                      billed annually (${Math.round(pkg.displayPriceAnnual / 100)}/yr)
+                      {t('btpxidProduct.pricing.billedAnnually', { amount: Math.round(pkg.displayPriceAnnual / 100) })}
                     </div>
                   )}
                 </div>
@@ -482,21 +482,21 @@ export default function BTPxIDProduct() {
                 </ul>
                 {pkg.contactEmail ? (
                   <a href={`mailto:${pkg.contactEmail}`} className="btpxid-plan-btn">
-                    {pkg.ctaLabel || "Contact Sales"}
+                    {pkg.ctaLabel || t('btpxidProduct.pricing.contactSales')}
                   </a>
                 ) : pkg.ctaUrl?.startsWith("#") ? (
                   <button
                     onClick={() => scrollToSection(pkg.ctaUrl!)}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
-                    {pkg.ctaLabel || "Get Started"}
+                    {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
                   </button>
                 ) : (
                   <a
                     href={pkg.ctaUrl || "#"}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
-                    {pkg.ctaLabel || "Get Started"}
+                    {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
                   </a>
                 )}
               </div>

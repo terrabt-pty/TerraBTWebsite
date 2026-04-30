@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOU",
+    "introducing": "Prezentăm",
+    "description": "Prima aplicație desktop din lume pentru gestionarea utilizatorilor SAP BTP. Gestionați utilizatorii din toate conturile globale, sub-conturile și spațiile CF dintr-un singur loc.",
+    "cta": "Descarcă acum",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOU",
+    "introducing": "Prezentăm",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Faceți copii de rezervă locale ale tuturor conversațiilor cu Claude. Căutare în text complet, etichetare și organizare — istoricul AI, al dumneavoastră pentru totdeauna.",
+    "cta": "Descarcă acum",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Caută conversații…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "O aplicație desktop pentru salvarea, vizualizarea, căutarea și exportarea conversațiilor Claude CLI. Sincronizare delta inteligentă, căutare puternică, filtrarea mesajelor, export Markdown. macOS și Windows."
+    },
+    "hero": {
+      "title1": "Conversațiile dvs. Claude CLI,",
+      "title2": "salvate",
+      "title3": "și căutabile.",
+      "description": "O aplicație desktop locală calmă care salvează tăcut fiecare conversație Claude CLI, permițând apoi căutarea, filtrarea și exportarea lor oricând aveți nevoie.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Vezi toate descărcările (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Copie de rezervă delta inteligentă",
+      "1": "Caută în fiecare conversație",
+      "2": "Filtrează după tipul mesajului",
+      "3": "Funcționează offline · 100% local",
+      "4": "Export ca Markdown",
+      "5": "Teme luminoase și întunecate",
+      "6": "Funcționează offline · 100% local"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Caută conversații…",
+      "userLabel": "Tu",
+      "claudeLabel": "Claude",
+      "toolLabel": "Utilizare instrument"
+    },
+    "features": {
+      "label": "Ce face",
+      "title1": "Liniștit de detaliat.",
+      "title2": "Surprinzător de rapid.",
+      "subtitle": "Șase funcții mici care, împreună, înseamnă că nu vei mai pierde niciodată o conversație Claude CLI.",
+      "deltaBackup": {
+        "title": "Copie de rezervă delta cu o atingere",
+        "description": "Sincronizare incrementală inteligentă. Conversațiile noi primesc o copie completă; cele existente sunt completate doar cu mesaje noi. Copiile rămân rapide și discul ușor."
+      },
+      "browse": {
+        "title": "Răsfoiți proiectele active",
+        "description": "Vedeți fiecare conversație Claude CLI activă în timp real, organizată pe proiecte. Nu mai căutați prin foldere ascunse."
+      },
+      "search": {
+        "title": "Căutare puternică",
+        "description": "Găsiți acel lucru pe care l-ați spus acum trei săptămâni. Căutați într-o singură conversație sau în toate conversațiile — instant."
+      },
+      "filtering": {
+        "title": "Filtrarea mesajelor",
+        "description": "Comutați vizibilitatea mesajelor de Utilizator, Claude, Gândire, Utilizare instrument și Rezultat instrument. Vedeți exact ce aveți nevoie, ascundeți restul."
+      },
+      "export": {
+        "title": "Export și copiere",
+        "description": "Salvați orice conversație ca JSON formatat pentru arhivare, partajare sau pipeline-uri. Copiați mesaje individuale sau fire întregi în clipboard."
+      },
+      "themes": {
+        "title": "Teme luminoase și întunecate",
+        "description": "Comutați între modul luminos și cel întunecat oricând. Confortabil de citit la 9 dimineața sau la miezul nopții, pe orice monitor."
+      }
+    },
+    "howitworks": {
+      "label": "Cum funcționează",
+      "title": "Trei pași. Atât.",
+      "step1": {
+        "title": "Instalare și deschidere",
+        "description": "Descărcați o dată, instalați în secunde. Aplicația găsește automat conversațiile Claude CLI — fără configurare."
+      },
+      "step2": {
+        "title": "Copie de rezervă cu un clic",
+        "description": "Apăsați butonul de copie de rezervă. Sincronizarea delta inteligentă copiază doar ce este nou, astfel că a doua copie este mult mai rapidă."
+      },
+      "step3": {
+        "title": "Căutare, filtrare, export",
+        "description": "Răsfoiți, căutați în orice, filtrați după tipul mesajului și exportați orice ca Markdown sau copiați în clipboard."
+      }
+    },
+    "trust": {
+      "label": "Construit cu grijă",
+      "title": "Local mai întâi. Privat implicit.",
+      "subtitle": "Conversațiile nu vă vor părăsi niciodată computerul, dacă nu alegeți să le exportați. Aplicația nu se conectează la servere externe, nu colectează telemetrie și funcționează fără conexiune la internet.",
+      "local": {
+        "title": "100% local",
+        "description": "Toate copiile de rezervă sunt stocate pe calculatorul dvs., într-un folder ales de dvs. Nimic nu este încărcat nicăieri."
+      },
+      "telemetry": {
+        "title": "Fără telemetrie",
+        "description": "Aplicația nu urmărește utilizarea, nu colectează analize și nu necesită un cont pentru a funcționa."
+      },
+      "control": {
+        "title": "Dvs. rămâneți în control",
+        "description": "Deschideți copiile de rezervă în orice editor de text. Formatul este JSON standard — datele dvs., în mâinile dvs., pentru totdeauna."
+      },
+      "darkMode": {
+        "title": "Creat pentru nopțile târzii",
+        "description": "Mod întunecat complet care nu vă va obosi ochii când căutați la ora 1 noaptea ce ați spus săptămâna trecută."
+      }
+    },
+    "download": {
+      "label": "Descarcă",
+      "title": "Obțineți aplicația.",
+      "subtitle": "Disponibil pe macOS și Windows. Nu este necesar un cont.",
+      "primaryButton": "Descarcă pentru {{label}}",
+      "loading": "Se pregătește descărcarea…",
+      "showAll": "Arată toate descărcările",
+      "hideAll": "Ascunde alte descărcări",
+      "versionLine": "Versiunea curentă: v{{version}} · macOS 11+ și Windows 10+",
+      "legal": "Prin descărcare, acceptați",
+      "termsOfService": "Termenii serviciului",
+      "and": "și",
+      "privacyPolicy": "Politica de confidențialitate"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · pentru M1, M2, M3 și Mac-uri mai noi",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · pentru Mac-uri Intel mai vechi",
+      "winInstallerLabel": "Windows — Instalator",
+      "winInstallerDesc": "Instalator NSIS · recomandat pentru majoritatea utilizatorilor",
+      "winPortableLabel": "Windows — Portabil",
+      "winPortableDesc": "Un singur fișier .exe · nu necesită instalare"
+    },
+    "smartscreen": {
+      "title": "O notă rapidă pentru utilizatorii Windows",
+      "description": "Windows SmartScreen poate afișa un avertisment la prima deschidere a aplicației. Acesta este normal pentru aplicațiile noi — certificatul nu și-a construit încă reputația. Pentru a continua în siguranță:",
+      "step1": "Faceți clic pe <1>Mai multe informații</1> în fereastra SmartScreen.",
+      "step2": "Apoi faceți clic pe <1>Rulați oricum</1> pentru a lansa aplicația."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "O singură aplicație.",
       "title2": "Fiecare utilizator.",
       "title3": "Toate conturile.",
-      "description": "Gestionați utilizatorii în conturi globale, subconturi, organizații și spații Cloud Foundry — totul dintr-un singur panou. Căutare inversă a oricărui utilizator instantaneu."
+      "description": "Gestionați utilizatorii în conturi globale, subconturi, organizații și spații Cloud Foundry — totul dintr-un singur panou. Căutare inversă a oricărui utilizator instantaneu.",
+      "shieldBadge": "SAP OAuth · Nicio acreditare stocată"
     },
     "valueProps": {
       "0": "Singura aplicație de gestionare a utilizatorilor BTP de care veți avea nevoie",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "Prețuri",
       "title": "Prețuri simple și transparente",
-      "subtitle": "Începeți gratuit timp de 90 de zile. Nu este necesar cardul de credit."
+      "subtitle": "Începeți gratuit timp de 90 de zile. Nu este necesar cardul de credit.",
+      "free": "Gratuit",
+      "perMonth": "/mo",
+      "billedAnnually": "facturat anual (${{amount}}/an)",
+      "contactSales": "Contactați vânzări",
+      "getStarted": "Începeți"
+    },
+    "billing": {
+      "monthly": "Lunar",
+      "annual": "Anual",
+      "save": "Economisiți 17%"
     }
   }
 }

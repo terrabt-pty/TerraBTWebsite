@@ -1437,12 +1437,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "新着",
+    "introducing": "新登場",
+    "description": "世界初の SAP BTP ユーザー管理デスクトップアプリ。すべてのグローバルアカウント、サブアカウント、CF スペースのユーザーを一元管理。",
+    "cta": "今すぐダウンロード",
+    "imageAlt": "BTP xID ダッシュボード"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "新着",
+    "introducing": "新登場",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "すべての Claude の会話をローカルにバックアップ。全文検索、タグ付け・整理——あなたの AI 履歴を永久に手元に。",
+    "cta": "今すぐダウンロード",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "会話を検索…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Claude CLI の会話をバックアップ・閲覧・検索・エクスポートするデスクトップアプリ。スマートなデルタ同期、強力な検索、メッセージフィルタリング、Markdown エクスポート。macOS・Windows 対応。"
+    },
+    "hero": {
+      "title1": "あなたの Claude CLI の会話を、",
+      "title2": "バックアップして",
+      "title3": "検索可能に。",
+      "description": "すべての Claude CLI の会話を静かにバックアップし、いつでも検索・フィルタリング・エクスポートできる、落ち着いたローカルファーストのデスクトップアプリ。",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "すべてのダウンロードを表示（macOS Intel、Windows Portable）"
+    },
+    "valueProps": {
+      "0": "スマートなデルタバックアップ",
+      "1": "すべての会話を検索",
+      "2": "メッセージタイプでフィルタリング",
+      "3": "オフライン対応 · 100% ローカル",
+      "4": "Markdown でエクスポート",
+      "5": "ライト・ダークテーマ",
+      "6": "オフライン対応 · 100% ローカル"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "会話を検索…",
+      "userLabel": "あなた",
+      "claudeLabel": "Claude",
+      "toolLabel": "ツール使用"
+    },
+    "features": {
+      "label": "機能紹介",
+      "title1": "静かに、徹底的に。",
+      "title2": "驚くほど速く。",
+      "subtitle": "Claude CLI の会話を二度と失わないための6つの小さな機能。",
+      "deltaBackup": {
+        "title": "ワンタッチでデルタバックアップ",
+        "description": "スマートな増分同期。新しい会話は完全コピーを取得し、既存の会話には新しいメッセージのみ追記。"
+      },
+      "browse": {
+        "title": "アクティブなプロジェクトを閲覧",
+        "description": "プロジェクト別に整理されたすべてのアクティブな Claude CLI の会話をリアルタイムで表示。"
+      },
+      "search": {
+        "title": "強力な検索",
+        "description": "3週間前に言ったあのことを探せます。1件または全件の会話から即座に検索。"
+      },
+      "filtering": {
+        "title": "メッセージフィルタリング",
+        "description": "ユーザー・Claude・思考・ツール使用・ツール結果の表示/非表示を自由に切り替え。"
+      },
+      "export": {
+        "title": "エクスポートとコピー",
+        "description": "任意の会話をアーカイブ・共有・パイプライン用にフォーマット済み JSON で保存。"
+      },
+      "themes": {
+        "title": "ライト・ダークテーマ",
+        "description": "いつでもライトモードとフルダークモードを切り替え可能。"
+      }
+    },
+    "howitworks": {
+      "label": "使い方",
+      "title": "3ステップ、それだけ。",
+      "step1": {
+        "title": "インストールして開く",
+        "description": "1回ダウンロードして数秒でインストール。アプリが Claude CLI の会話を自動的に検出します。"
+      },
+      "step2": {
+        "title": "ワンクリックでバックアップ",
+        "description": "バックアップボタンを押すだけ。スマートなデルタ同期が新しい内容だけをコピーします。"
+      },
+      "step3": {
+        "title": "検索・フィルタリング・エクスポート",
+        "description": "閲覧・全文検索・メッセージタイプでフィルタリング・Markdown でエクスポートが自由自在。"
+      }
+    },
+    "trust": {
+      "label": "丁寧に作られた",
+      "title": "ローカルファースト。デフォルトでプライベート。",
+      "subtitle": "エクスポートを選択しない限り、会話はお使いのコンピュータから出ません。アプリはホームサーバーへの通信もテレメトリの収集も行いません。",
+      "local": {
+        "title": "100% ローカル",
+        "description": "すべてのバックアップはお使いのマシンに保存されます。どこにもアップロードされません。"
+      },
+      "telemetry": {
+        "title": "テレメトリなし",
+        "description": "アプリは使用状況の追跡も、分析データの収集も行わず、動作にアカウントも不要です。"
+      },
+      "control": {
+        "title": "あなたが管理権を持つ",
+        "description": "任意のテキストエディタでバックアップを開けます。形式は標準的な JSON です。"
+      },
+      "darkMode": {
+        "title": "深夜のために作られた",
+        "description": "深夜1時に検索しても目が疲れない、フルダークモード。"
+      }
+    },
+    "download": {
+      "label": "ダウンロード",
+      "title": "アプリを入手する。",
+      "subtitle": "macOS・Windows に対応。アカウント不要。",
+      "primaryButton": "{{label}} 版をダウンロード",
+      "loading": "ダウンロードを準備中…",
+      "showAll": "すべてのダウンロードを表示",
+      "hideAll": "他のダウンロードを隠す",
+      "versionLine": "現在のバージョン: v{{version}} · macOS 11+ および Windows 10+",
+      "legal": "ダウンロードすることで当社の",
+      "termsOfService": "利用規約",
+      "and": "および",
+      "privacyPolicy": "プライバシーポリシーに同意したことになります"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1、M2、M3 以降の Mac 用",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · 旧式 Intel Mac 用",
+      "winInstallerLabel": "Windows — インストーラー",
+      "winInstallerDesc": "NSIS インストーラー · ほとんどのユーザーにお勧め",
+      "winPortableLabel": "Windows — ポータブル版",
+      "winPortableDesc": "単一の .exe · インストール不要"
+    },
+    "smartscreen": {
+      "title": "Windows ユーザーへのご案内",
+      "description": "アプリを初めて開いた際、Windows SmartScreen の警告が表示される場合があります。これは新しいデスクトップアプリでは通常のことです。",
+      "step1": "SmartScreen のプロンプトで<1>詳細情報</1>をクリックします。",
+      "step2": "次に<1>実行</1>をクリックしてアプリを起動します。"
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "1つのアプリ。",
       "title2": "すべてのユーザー。",
       "title3": "すべてのアカウント。",
-      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のユーザーを1つの画面で管理。任意のユーザーを瞬時に逆引き検索。"
+      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のユーザーを1つの画面で管理。任意のユーザーを瞬時に逆引き検索。",
+      "shieldBadge": "SAP OAuth · 認証情報は保存されません"
     },
     "valueProps": {
       "0": "必要なBTPユーザー管理アプリはこれ1つだけ",
@@ -1512,7 +1657,17 @@
     "pricing": {
       "label": "料金",
       "title": "シンプルで透明な料金体系",
-      "subtitle": "90日間無料でお試し。クレジットカード不要。"
+      "subtitle": "90日間無料でお試し。クレジットカード不要。",
+      "free": "無料",
+      "perMonth": "/月",
+      "billedAnnually": "年払い（${{amount}}/年）",
+      "contactSales": "営業に問い合わせ",
+      "getStarted": "始める"
+    },
+    "billing": {
+      "monthly": "月払い",
+      "annual": "年払い",
+      "save": "17% お得"
     }
   }
 }

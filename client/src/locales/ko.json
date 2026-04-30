@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "신규",
+    "introducing": "소개합니다",
+    "description": "세계 최초 SAP BTP 사용자 관리 데스크톱 앱. 모든 글로벌 계정, 하위 계정 및 CF 스페이스의 사용자를 단일 화면에서 관리하세요.",
+    "cta": "지금 다운로드",
+    "imageAlt": "BTP xID 대시보드"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "신규",
+    "introducing": "소개합니다",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "모든 Claude 대화를 로컬에 백업하세요. 전문 검색, 태그 및 정리 — 당신의 AI 기록, 영원히 당신 것.",
+    "cta": "지금 다운로드",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "대화 검색…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Claude CLI 대화를 백업, 보기, 검색, 내보내기 위한 데스크톱 앱. 스마트 델타 동기화, 강력한 검색, 메시지 필터링, Markdown 내보내기. macOS 및 Windows."
+    },
+    "hero": {
+      "title1": "당신의 Claude CLI 대화,",
+      "title2": "백업됨",
+      "title3": "그리고 검색 가능.",
+      "description": "모든 Claude CLI 대화를 조용히 백업하고 언제든지 검색, 필터링, 내보내기를 할 수 있는 차분한 로컬 우선 데스크톱 앱.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "모든 다운로드 보기 (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "스마트 델타 백업",
+      "1": "모든 대화 검색",
+      "2": "메시지 유형별 필터링",
+      "3": "오프라인 작동 · 100% 로컬",
+      "4": "Markdown으로 내보내기",
+      "5": "라이트 & 다크 테마",
+      "6": "오프라인 작동 · 100% 로컬"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "대화 검색…",
+      "userLabel": "나",
+      "claudeLabel": "Claude",
+      "toolLabel": "도구 사용"
+    },
+    "features": {
+      "label": "기능",
+      "title1": "조용하고 철저하게.",
+      "title2": "놀랍도록 빠르게.",
+      "subtitle": "Claude CLI 대화를 절대 잃지 않도록 하는 여섯 가지 소기능.",
+      "deltaBackup": {
+        "title": "원터치 델타 백업",
+        "description": "스마트 증분 동기화. 새 대화는 전체 복사본을 받고 기존 대화는 새 메시지만 추가합니다."
+      },
+      "browse": {
+        "title": "활성 프로젝트 탐색",
+        "description": "프로젝트별로 정리된 모든 활성 Claude CLI 대화를 실시간으로 확인하세요."
+      },
+      "search": {
+        "title": "강력한 검색",
+        "description": "3주 전에 말했던 내용을 찾아보세요. 단일 대화나 모든 대화에서 즉시 검색."
+      },
+      "filtering": {
+        "title": "메시지 필터링",
+        "description": "사용자, Claude, 생각, 도구 사용, 도구 결과 메시지의 표시를 자유롭게 전환."
+      },
+      "export": {
+        "title": "내보내기 및 복사",
+        "description": "보관, 공유 또는 파이프라인용으로 모든 대화를 형식화된 JSON으로 저장."
+      },
+      "themes": {
+        "title": "라이트 & 다크 테마",
+        "description": "언제든지 라이트와 풀 다크 모드 전환 가능."
+      }
+    },
+    "howitworks": {
+      "label": "사용 방법",
+      "title": "세 단계. 그게 전부.",
+      "step1": {
+        "title": "설치 및 열기",
+        "description": "한 번 다운로드하여 몇 초 만에 설치. 앱이 Claude CLI 대화를 자동으로 찾습니다."
+      },
+      "step2": {
+        "title": "원클릭 백업",
+        "description": "백업 버튼을 누르세요. 스마트 델타 동기화가 새로운 것만 복사합니다."
+      },
+      "step3": {
+        "title": "검색, 필터링, 내보내기",
+        "description": "탐색하고, 전체 검색하고, 메시지 유형별로 필터링하고, 원하는 것을 내보내세요."
+      }
+    },
+    "trust": {
+      "label": "신중하게 제작됨",
+      "title": "로컬 우선. 기본적으로 프라이빗.",
+      "subtitle": "내보내기를 선택하지 않는 한 대화는 컴퓨터를 떠나지 않습니다. 앱은 홈서버에 연락하지 않고 텔레메트리를 수집하지 않습니다.",
+      "local": {
+        "title": "100% 로컬",
+        "description": "모든 백업은 내 기기에 있습니다. 어디에도 업로드되지 않습니다."
+      },
+      "telemetry": {
+        "title": "텔레메트리 없음",
+        "description": "앱은 사용 현황을 추적하지 않고, 분석 데이터를 수집하지 않으며, 작동에 계정이 필요 없습니다."
+      },
+      "control": {
+        "title": "당신이 통제권 유지",
+        "description": "백업을 텍스트 편집기에서 열어보세요. 형식은 표준 JSON입니다."
+      },
+      "darkMode": {
+        "title": "늦은 밤을 위해 제작됨",
+        "description": "새벽 1시에 검색할 때도 눈이 피로하지 않은 풀 다크 모드."
+      }
+    },
+    "download": {
+      "label": "다운로드",
+      "title": "앱을 받으세요.",
+      "subtitle": "macOS 및 Windows에서 사용 가능. 계정 불필요.",
+      "primaryButton": "{{label}}용 다운로드",
+      "loading": "다운로드 준비 중…",
+      "showAll": "모든 다운로드 보기",
+      "hideAll": "다른 다운로드 숨기기",
+      "versionLine": "현재 버전: v{{version}} · macOS 11+ 및 Windows 10+",
+      "legal": "다운로드하면 당사의",
+      "termsOfService": "서비스 약관",
+      "and": "및",
+      "privacyPolicy": "개인정보 처리방침에 동의하는 것입니다"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1, M2, M3 이상 Mac용",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · 구형 Intel Mac용",
+      "winInstallerLabel": "Windows — 설치 프로그램",
+      "winInstallerDesc": "NSIS 설치 프로그램 · 대부분의 사용자에게 권장",
+      "winPortableLabel": "Windows — 포터블 버전",
+      "winPortableDesc": "단일 .exe · 설치 불필요"
+    },
+    "smartscreen": {
+      "title": "Windows 사용자를 위한 참고사항",
+      "description": "앱을 처음 열 때 Windows SmartScreen 경고가 표시될 수 있습니다. 이는 새 데스크톱 앱에서 정상적인 현상입니다.",
+      "step1": "SmartScreen 프롬프트에서 <1>추가 정보</1>를 클릭하세요.",
+      "step2": "그런 다음 <1>실행</1>을 클릭하여 앱을 실행하세요."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "하나의 앱.",
       "title2": "모든 사용자.",
       "title3": "모든 계정.",
-      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 사용자를 하나의 화면에서 관리하세요. 모든 사용자를 즉시 역방향 검색합니다."
+      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 사용자를 하나의 화면에서 관리하세요. 모든 사용자를 즉시 역방향 검색합니다.",
+      "shieldBadge": "SAP OAuth · 자격 증명 미저장"
     },
     "valueProps": {
       "0": "필요한 유일한 BTP 사용자 관리 앱",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "가격",
       "title": "간단하고 투명한 가격",
-      "subtitle": "90일 동안 무료로 시작하세요. 신용카드가 필요 없습니다."
+      "subtitle": "90일 동안 무료로 시작하세요. 신용카드가 필요 없습니다.",
+      "free": "무료",
+      "perMonth": "/월",
+      "billedAnnually": "연간 청구 (${{amount}}/년)",
+      "contactSales": "영업팀 문의",
+      "getStarted": "시작하기"
+    },
+    "billing": {
+      "monthly": "월간",
+      "annual": "연간",
+      "save": "17% 절약"
     }
   }
 }

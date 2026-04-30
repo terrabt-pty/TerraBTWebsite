@@ -1401,12 +1401,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NIEUW",
+    "introducing": "Nieuw",
+    "description": "De eerste SAP BTP-gebruiksbeheertool ter wereld. Beheer gebruikers in alle globale accounts, subaccounts en CF-spaces vanuit één overzicht.",
+    "cta": "Nu downloaden",
+    "imageAlt": "BTP xID Dashboard"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NIEUW",
+    "introducing": "Nieuw",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Maak lokaal een back-up van al uw Claude-gesprekken. Zoek op volledige tekst, tag en organiseer — uw AI-geschiedenis, voor altijd van u.",
+    "cta": "Nu downloaden",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Gesprekken zoeken…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Een desktopapp voor het back-uppen, bekijken, zoeken en exporteren van uw Claude CLI-gesprekken. Slimme delta-synchronisatie, krachtig zoeken, berichtfiltering, Markdown-export. macOS en Windows."
+    },
+    "hero": {
+      "title1": "Uw Claude CLI-gesprekken,",
+      "title2": "geback-upt",
+      "title3": "en doorzoekbaar.",
+      "description": "Een rustige, lokale desktopapp die elke Claude CLI-conversatie stilletjes back-upt en u vervolgens laat zoeken, filteren en exporteren wanneer u iets wilt terugvinden.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Alle downloads bekijken (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Slimme delta-back-up",
+      "1": "Doorzoek elk gesprek",
+      "2": "Filter op berichttype",
+      "3": "Werkt offline · 100% lokaal",
+      "4": "Exporteren als Markdown",
+      "5": "Licht en donker thema",
+      "6": "Werkt offline · 100% lokaal"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Gesprekken zoeken…",
+      "userLabel": "U",
+      "claudeLabel": "Claude",
+      "toolLabel": "Toolgebruik"
+    },
+    "features": {
+      "label": "Wat het doet",
+      "title1": "Rustig grondig.",
+      "title2": "Verrassend snel.",
+      "subtitle": "Zes kleine functies die samen betekenen dat u nooit meer een Claude CLI-gesprek kwijtraakt.",
+      "deltaBackup": {
+        "title": "Één-klik delta-back-up",
+        "description": "Slimme incrementele synchronisatie. Nieuwe gesprekken krijgen een volledige kopie; bestaande worden alleen aangevuld met nieuwe berichten. Back-ups blijven snel en uw schijf blijft licht."
+      },
+      "browse": {
+        "title": "Blader door actieve projecten",
+        "description": "Bekijk elk actief Claude CLI-gesprek in realtime, georganiseerd per project. Geen gespit meer in verborgen mappen."
+      },
+      "search": {
+        "title": "Krachtig zoeken",
+        "description": "Vind dat ene ding dat u drie weken geleden zei. Zoek binnen één gesprek of door alle gesprekken die u ooit heeft gehad — direct."
+      },
+      "filtering": {
+        "title": "Berichtfiltering",
+        "description": "Schakel de zichtbaarheid in van Gebruiker-, Claude-, Denk-, Toolgebruik- en Toolresultaatberichten. Zie precies wat u nodig heeft, verberg de rest."
+      },
+      "export": {
+        "title": "Exporteren en kopiëren",
+        "description": "Sla elk gesprek op als geformatteerde JSON voor archivering, delen of pipelines. Kopieer enkele berichten of volledige threads naar het klembord."
+      },
+      "themes": {
+        "title": "Licht en donker thema",
+        "description": "Schakel op elk moment tussen licht en volledig donker thema. Comfortabel te lezen om 9 uur 's ochtends of om middernacht, op elk scherm."
+      }
+    },
+    "howitworks": {
+      "label": "Hoe het werkt",
+      "title": "Drie stappen. Dat is alles.",
+      "step1": {
+        "title": "Installeren en openen",
+        "description": "Eenmalig downloaden, in seconden installeren. De app vindt uw Claude CLI-gesprekken automatisch — geen instellingen, geen configuratie."
+      },
+      "step2": {
+        "title": "Back-up met één klik",
+        "description": "Druk op de back-upknop. Slimme delta-synchronisatie kopieert alleen het nieuwe, zodat de tweede back-up veel sneller is dan de eerste."
+      },
+      "step3": {
+        "title": "Zoeken, filteren, exporteren",
+        "description": "Blader, zoek door alles, filter op berichttype en exporteer alles wat u wilt als Markdown of kopieer naar uw klembord."
+      }
+    },
+    "trust": {
+      "label": "Gebouwd met zorg",
+      "title": "Lokaal eerst. Standaard privé.",
+      "subtitle": "Uw gesprekken verlaten uw computer nooit, tenzij u ervoor kiest ze te exporteren. De app belt niet naar huis, verzamelt geen telemetrie en werkt zonder internetverbinding.",
+      "local": {
+        "title": "100% lokaal",
+        "description": "Alle back-ups staan op uw computer, in een map die u kiest. Niets wordt ergens geüpload."
+      },
+      "telemetry": {
+        "title": "Geen telemetrie",
+        "description": "De app houdt geen gebruik bij, verzamelt geen analyses en heeft geen account nodig om te werken."
+      },
+      "control": {
+        "title": "U blijft in controle",
+        "description": "Open back-ups in elke teksteditor. Het formaat is standaard JSON — uw gegevens, in uw handen, voor altijd."
+      },
+      "darkMode": {
+        "title": "Gemaakt voor late avonden",
+        "description": "Volledig donker thema dat uw ogen niet vermoeit wanneer u om 1 uur 's nachts op zoek bent naar dat ding dat u vorige week zei."
+      }
+    },
+    "download": {
+      "label": "Downloaden",
+      "title": "Haal de app.",
+      "subtitle": "Beschikbaar voor macOS en Windows. Geen account vereist.",
+      "primaryButton": "Downloaden voor {{label}}",
+      "loading": "Download voorbereiden…",
+      "showAll": "Alle downloads tonen",
+      "hideAll": "Andere downloads verbergen",
+      "versionLine": "Huidige versie: v{{version}} · macOS 11+ en Windows 10+",
+      "legal": "Door te downloaden gaat u akkoord met onze",
+      "termsOfService": "Servicevoorwaarden",
+      "and": "en",
+      "privacyPolicy": "Privacybeleid"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · voor M1, M2, M3 en nieuwere Macs",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · voor oudere Intel-Macs",
+      "winInstallerLabel": "Windows — Installatieprogramma",
+      "winInstallerDesc": "NSIS-installatieprogramma · aanbevolen voor de meeste gebruikers",
+      "winPortableLabel": "Windows — Draagbaar",
+      "winPortableDesc": "Enkel .exe-bestand · geen installatie vereist"
+    },
+    "smartscreen": {
+      "title": "Een korte opmerking voor Windows-gebruikers",
+      "description": "Windows SmartScreen kan een waarschuwing tonen de eerste keer dat u de app opent. Dit is normaal voor nieuwe desktopapps — het certificaat heeft nog geen reputatie opgebouwd. Om veilig door te gaan:",
+      "step1": "Klik op <1>Meer info</1> in het SmartScreen-venster.",
+      "step2": "Klik vervolgens op <1>Toch uitvoeren</1> om de app te starten."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Één app.",
       "title2": "Elke gebruiker.",
       "title3": "Alle accounts.",
-      "description": "Beheer gebruikers in globale accounts, subaccounts, Cloud Foundry-organisaties en -ruimtes — alles vanuit één overzicht. Zoek direct omgekeerd naar elke gebruiker."
+      "description": "Beheer gebruikers in globale accounts, subaccounts, Cloud Foundry-organisaties en -ruimtes — alles vanuit één overzicht. Zoek direct omgekeerd naar elke gebruiker.",
+      "shieldBadge": "SAP OAuth · Geen inloggegevens opgeslagen"
     },
     "valueProps": {
       "0": "De enige BTP gebruikersbeheer-app die u ooit nodig zult hebben",
@@ -1476,7 +1621,17 @@
     "pricing": {
       "label": "Prijzen",
       "title": "Eenvoudige, transparante prijsstelling",
-      "subtitle": "Begin 90 dagen gratis. Geen creditcard vereist."
+      "subtitle": "Begin 90 dagen gratis. Geen creditcard vereist.",
+      "free": "Gratis",
+      "perMonth": "/mo",
+      "billedAnnually": "jaarlijks gefactureerd (${{amount}}/jr)",
+      "contactSales": "Neem contact op",
+      "getStarted": "Aan de slag"
+    },
+    "billing": {
+      "monthly": "Maandelijks",
+      "annual": "Jaarlijks",
+      "save": "Bespaar 17%"
     }
   }
 }

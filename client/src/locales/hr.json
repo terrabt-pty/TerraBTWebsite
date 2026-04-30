@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NOVO",
+    "introducing": "Predstavljamo",
+    "description": "Prva namizna aplikacija na svijetu za upravljanje korisnicima SAP BTP-a. Upravljajte korisnicima u svim globalnim računima, podračunima i CF prostorima s jednog mjesta.",
+    "cta": "Preuzmi odmah",
+    "imageAlt": "Nadzorna ploča BTP xID"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NOVO",
+    "introducing": "Predstavljamo",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Sigurnosno kopirajte sve razgovore s Claudeom lokalno. Pretraživanje punog teksta, označavanje i organiziranje – vaša AI povijest, vaša zauvijek.",
+    "cta": "Preuzmi odmah",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Pretraži razgovore…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Namizna aplikacija za sigurnosno kopiranje, pregled, pretraživanje i izvoz razgovora Claude CLI. Pametna delta sinkronizacija, snažno pretraživanje, filtriranje poruka, izvoz u Markdown. macOS i Windows."
+    },
+    "hero": {
+      "title1": "Vaši razgovori Claude CLI,",
+      "title2": "sigurnosno kopirani",
+      "title3": "i pretraživi.",
+      "description": "Mirna, lokalno usmjerena namizna aplikacija koja tiho sigurnosno kopira svaki razgovor Claude CLI i omogućuje vam pretraživanje, filtriranje i izvoz.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Prikaži sva preuzimanja (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Pametno delta sigurnosno kopiranje",
+      "1": "Pretraži svaki razgovor",
+      "2": "Filtriraj po vrsti poruke",
+      "3": "Radi bez interneta · 100% lokalno",
+      "4": "Izvoz u Markdown",
+      "5": "Svijetla i tamna tema",
+      "6": "Radi bez interneta · 100% lokalno"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Pretraži razgovore…",
+      "userLabel": "Vi",
+      "claudeLabel": "Claude",
+      "toolLabel": "Korištenje alata"
+    },
+    "features": {
+      "label": "Što radi",
+      "title1": "Tiho temeljito.",
+      "title2": "Iznenađujuće brzo.",
+      "subtitle": "Šest malih značajki koje zajedno osiguravaju da nikad ne izgubite razgovor Claude CLI.",
+      "deltaBackup": {
+        "title": "Delta sigurnosna kopija jednim dodirom",
+        "description": "Pametna inkrementalna sinkronizacija. Novi razgovori dobivaju punu kopiju; postojeći samo dodaju nove poruke."
+      },
+      "browse": {
+        "title": "Pregledavaj aktivne projekte",
+        "description": "Pregledajte svaki aktivni razgovor Claude CLI u stvarnom vremenu, organiziran po projektu."
+      },
+      "search": {
+        "title": "Snažno pretraživanje",
+        "description": "Pronađite ono što ste rekli prije tri tjedna. Pretražujte u jednom ili svim razgovorima – odmah."
+      },
+      "filtering": {
+        "title": "Filtriranje poruka",
+        "description": "Uključite/isključite vidljivost poruka Korisnika, Claudea, Razmišljanja, Korištenja alata i Rezultata alata."
+      },
+      "export": {
+        "title": "Izvoz i kopiranje",
+        "description": "Spremi bilo koji razgovor kao formatiran JSON za arhiviranje, dijeljenje ili pipeline."
+      },
+      "themes": {
+        "title": "Svijetla i tamna tema",
+        "description": "Prebacujte između svijetle i pune tamne teme u bilo koje vrijeme."
+      }
+    },
+    "howitworks": {
+      "label": "Kako radi",
+      "title": "Tri koraka. To je sve.",
+      "step1": {
+        "title": "Instaliraj i otvori",
+        "description": "Preuzmi jednom, instaliraj za nekoliko sekundi. Aplikacija automatski pronalazi vaše razgovore Claude CLI."
+      },
+      "step2": {
+        "title": "Sigurnosno kopiraj jednim klikom",
+        "description": "Pritisni gumb za sigurnosno kopiranje. Pametna delta sinkronizacija kopira samo novo."
+      },
+      "step3": {
+        "title": "Pretraži, filtriraj, izvezi",
+        "description": "Pregledavaj, pretražuj po svemu, filtriraj po vrsti poruke i izvezi što god želiš."
+      }
+    },
+    "trust": {
+      "label": "Izgrađeno s pažnjom",
+      "title": "Lokalno prvo. Privatno prema zadanim postavkama.",
+      "subtitle": "Vaši razgovori ne napuštaju vaše računalo osim ako ne odlučite izvesti. Aplikacija se ne javlja kući, ne prikuplja telemetriju.",
+      "local": {
+        "title": "100% lokalno",
+        "description": "Sve sigurnosne kopije su na vašem uređaju. Ništa se ne učitava nigdje."
+      },
+      "telemetry": {
+        "title": "Bez telemetrije",
+        "description": "Aplikacija ne prati korištenje, ne prikuplja analitiku i ne treba račun za rad."
+      },
+      "control": {
+        "title": "Vi ste ti koji kontroliraju",
+        "description": "Otvorite sigurnosne kopije u bilo kojem uređivaču teksta. Format je standardni JSON."
+      },
+      "darkMode": {
+        "title": "Napravljeno za kasne noći",
+        "description": "Puni tamni način koji ne zamara oči kad u 1 ujutro tražite."
+      }
+    },
+    "download": {
+      "label": "Preuzimanje",
+      "title": "Preuzmite aplikaciju.",
+      "subtitle": "Dostupno za macOS i Windows. Nije potreban račun.",
+      "primaryButton": "Preuzmi za {{label}}",
+      "loading": "Priprema preuzimanja…",
+      "showAll": "Prikaži sva preuzimanja",
+      "hideAll": "Sakrij ostala preuzimanja",
+      "versionLine": "Trenutna verzija: v{{version}} · macOS 11+ i Windows 10+",
+      "legal": "Preuzimanjem pristajete na naše",
+      "termsOfService": "Uvjete korištenja",
+      "and": "i",
+      "privacyPolicy": "Pravila privatnosti"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · za M1, M2, M3 i novije Mace",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · za starije Mac računala s Intelom",
+      "winInstallerLabel": "Windows — Instalacijski program",
+      "winInstallerDesc": "NSIS instalacijski program · preporučeno za većinu korisnika",
+      "winPortableLabel": "Windows — Prijenosna verzija",
+      "winPortableDesc": "Jednostruki .exe · bez instalacije"
+    },
+    "smartscreen": {
+      "title": "Kratka napomena za korisnike Windows",
+      "description": "Windows SmartScreen može prikazati upozorenje pri prvom otvaranju aplikacije. To je normalno za nove namizne aplikacije.",
+      "step1": "Kliknite <1>Više informacija</1> u upitu SmartScreen.",
+      "step2": "Zatim kliknite <1>Svejedno pokreni</1> za pokretanje aplikacije."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Jedna aplikacija.",
       "title2": "Svaki korisnik.",
       "title3": "Svi računi.",
-      "description": "Upravljajte korisnicima u globalnim računima, podračunima, organizacijama i prostorima Cloud Foundry — sve iz jednog prikaza. Trenutačna obrnuta pretraga bilo kojeg korisnika."
+      "description": "Upravljajte korisnicima u globalnim računima, podračunima, organizacijama i prostorima Cloud Foundry — sve iz jednog prikaza. Trenutačna obrnuta pretraga bilo kojeg korisnika.",
+      "shieldBadge": "SAP OAuth · Bez pohranjenih vjerodajnica"
     },
     "valueProps": {
       "0": "Jedina BTP aplikacija za upravljanje korisnicima koja vam je ikad potrebna",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "Cijene",
       "title": "Jednostavne, transparentne cijene",
-      "subtitle": "Počnite besplatno 90 dana. Nije potrebna kreditna kartica."
+      "subtitle": "Počnite besplatno 90 dana. Nije potrebna kreditna kartica.",
+      "free": "Besplatno",
+      "perMonth": "/mj",
+      "billedAnnually": "naplaćeno godišnje (${{amount}}/god)",
+      "contactSales": "Kontaktirajte prodaju",
+      "getStarted": "Počnite"
+    },
+    "billing": {
+      "monthly": "Mjesečno",
+      "annual": "Godišnje",
+      "save": "Uštedite 17 %"
     }
   }
 }

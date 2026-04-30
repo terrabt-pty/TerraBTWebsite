@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "UUS",
+    "introducing": "Tutvustame",
+    "description": "Maailma esimene töölaua rakendus SAP BTP kasutajate haldamiseks. Hallake kasutajaid kõigis globaalsetes kontodes, alamkontodes ja CF ruumides ühest vaatest.",
+    "cta": "Laadi alla kohe",
+    "imageAlt": "BTP xID armatuurlaud"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "UUS",
+    "introducing": "Tutvustame",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Varundage kõik Claude vestlused kohalikult. Täistekstiotsing, märgistamine ja korraldamine – teie AI ajalugu, teie igaveseks.",
+    "cta": "Laadi alla kohe",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Otsi vestlusi…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Töölaua rakendus Claude CLI vestluste varundamiseks, vaatamiseks, otsimiseks ja eksportimiseks. Nutikas delta sünkroniseerimine, võimas otsing, sõnumite filtreerimine, eksportimine Markdowni. macOS ja Windows."
+    },
+    "hero": {
+      "title1": "Teie Claude CLI vestlused,",
+      "title2": "varundatud",
+      "title3": "ja otsitavad.",
+      "description": "Rahulik, kohalik töölaua rakendus, mis varundab vaikselt iga Claude CLI vestluse ja laseb teil neid otsida, filtreerida ja eksportida.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Kuva kõik allalaadimised (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Nutikas delta varundamine",
+      "1": "Otsimine igast vestlusest",
+      "2": "Filtreerimine sõnumi tüübi järgi",
+      "3": "Töötab võrguühenduseta · 100% kohalik",
+      "4": "Eksportimine Markdowni",
+      "5": "Heledad ja tumedad teemad",
+      "6": "Töötab võrguühenduseta · 100% kohalik"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Otsi vestlusi…",
+      "userLabel": "Teie",
+      "claudeLabel": "Claude",
+      "toolLabel": "Tööriista kasutamine"
+    },
+    "features": {
+      "label": "Mida see teeb",
+      "title1": "Vaikselt põhjalik.",
+      "title2": "Üllatavalt kiire.",
+      "subtitle": "Kuus väikest funktsiooni, mis koos tagavad, et te ei kaota kunagi Claude CLI vestlust.",
+      "deltaBackup": {
+        "title": "Delta varundamine ühe puudutusega",
+        "description": "Nutikas suurenduslik sünkroniseerimine. Uued vestlused saavad täieliku koopia; olemasolevad lisavad ainult uued sõnumid."
+      },
+      "browse": {
+        "title": "Sirvi aktiivseid projekte",
+        "description": "Vaadake iga aktiivset Claude CLI vestlust reaalajas, projektide kaupa korraldatuna."
+      },
+      "search": {
+        "title": "Võimas otsing",
+        "description": "Leidke see, mida ütlesite kolm nädalat tagasi. Otsige ühest või kõigist vestlustest – kohe."
+      },
+      "filtering": {
+        "title": "Sõnumite filtreerimine",
+        "description": "Lülitage kasutaja, Claude, mõtlemise, tööriista kasutamise ja tööriista tulemuse sõnumite nähtavust."
+      },
+      "export": {
+        "title": "Eksportimine ja kopeerimine",
+        "description": "Salvestage mis tahes vestlus vormindatud JSON-ina arhiveerimiseks, jagamiseks või konveieriteks."
+      },
+      "themes": {
+        "title": "Heledad ja tumedad teemad",
+        "description": "Lülitage igal ajal heleda ja täieliku tumeda režiimi vahel."
+      }
+    },
+    "howitworks": {
+      "label": "Kuidas see töötab",
+      "title": "Kolm sammu. See on kõik.",
+      "step1": {
+        "title": "Installige ja avage",
+        "description": "Laadige alla korra, installige sekunditega. Rakendus leiab teie Claude CLI vestlused automaatselt."
+      },
+      "step2": {
+        "title": "Varundage ühe klõpsuga",
+        "description": "Vajutage varundamisnuppu. Nutikas delta sünkroniseerimine kopeerib ainult uue."
+      },
+      "step3": {
+        "title": "Otsige, filtreerige, eksportige",
+        "description": "Sirvige, otsige kõigest, filtreerige sõnumi tüübi järgi ja eksportige kõike vajalikku."
+      }
+    },
+    "trust": {
+      "label": "Loodud hoolivusega",
+      "title": "Kohalik esmalt. Privaatne vaikimisi.",
+      "subtitle": "Teie vestlused ei lahku teie arvutist, välja arvatud juhul, kui otsustate eksportida. Rakendus ei suhtlemata kodu serveriga, ei kogu telemeetriat.",
+      "local": {
+        "title": "100% kohalik",
+        "description": "Kõik varukoopiad on teie masinas. Midagi ei laadita kuhugi üles."
+      },
+      "telemetry": {
+        "title": "Telemeetria puudub",
+        "description": "Rakendus ei jälgi kasutamist, ei kogu analüütikat ega vaja töötamiseks kontot."
+      },
+      "control": {
+        "title": "Teie jääte kontrolli all",
+        "description": "Avage varukoopiad mis tahes tekstiredaktoris. Vorming on standardne JSON."
+      },
+      "darkMode": {
+        "title": "Tehtud hiliste öödeks",
+        "description": "Täielik tume režiim, mis ei väsi silmi, kui otsid kell 1 öösel."
+      }
+    },
+    "download": {
+      "label": "Allalaadimine",
+      "title": "Hankige rakendus.",
+      "subtitle": "Saadaval macOS ja Windows jaoks. Kontot pole vaja.",
+      "primaryButton": "Laadi alla {{label}} jaoks",
+      "loading": "Ettevalmistamine…",
+      "showAll": "Kuva kõik allalaadimised",
+      "hideAll": "Peida muud allalaadimised",
+      "versionLine": "Praegune versioon: v{{version}} · macOS 11+ ja Windows 10+",
+      "legal": "Allalaadimisega nõustute meie",
+      "termsOfService": "Teenuse tingimustega",
+      "and": "ja",
+      "privacyPolicy": "Privaatsuspoliitikaga"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · M1, M2, M3 ja uuemate Macide jaoks",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · vanemate Inteli Macide jaoks",
+      "winInstallerLabel": "Windows — Installija",
+      "winInstallerDesc": "NSIS installija · soovitatav enamikule kasutajatele",
+      "winPortableLabel": "Windows — Kaasaskantav versioon",
+      "winPortableDesc": "Üks .exe · ilma installatsioonita"
+    },
+    "smartscreen": {
+      "title": "Lühike märkus Windows kasutajatele",
+      "description": "Windows SmartScreen võib rakenduse esimesel avamisel kuvada hoiatuse. See on tavaliste uute töölauarakenduste puhul normaalne.",
+      "step1": "Klõpsake SmartScreen viipas <1>Lisateave</1>.",
+      "step2": "Seejärel klõpsake <1>Käivita siiski</1>, et rakendus käivitada."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Üks rakendus.",
       "title2": "Iga kasutaja.",
       "title3": "Kõik kontod.",
-      "description": "Hallake kasutajaid globaalsetes kontodes, alakontodes, Cloud Foundry organisatsioonides ja ruumides — kõik ühest vaatest. Leidke iga kasutaja koheselt pöördotsingu abil."
+      "description": "Hallake kasutajaid globaalsetes kontodes, alakontodes, Cloud Foundry organisatsioonides ja ruumides — kõik ühest vaatest. Leidke iga kasutaja koheselt pöördotsingu abil.",
+      "shieldBadge": "SAP OAuth · Mandaate ei salvestata"
     },
     "valueProps": {
       "0": "Ainus BTP kasutajahalduse rakendus, mida kunagi vajate",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "Hinnad",
       "title": "Lihtne ja läbipaistev hinnakujundus",
-      "subtitle": "Alustage tasuta 90 päeva. Krediitkaart pole vajalik."
+      "subtitle": "Alustage tasuta 90 päeva. Krediitkaart pole vajalik.",
+      "free": "Tasuta",
+      "perMonth": "/kuu",
+      "billedAnnually": "arveldatakse aastaselt (${{amount}}/aastas)",
+      "contactSales": "Võtke müügiga ühendust",
+      "getStarted": "Alustage"
+    },
+    "billing": {
+      "monthly": "Igakuine",
+      "annual": "Iga-aastane",
+      "save": "Säästa 17%"
     }
   }
 }

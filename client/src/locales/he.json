@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "חדש",
+    "introducing": "מציגים",
+    "description": "האפליקציה הראשונה בעולם לניהול משתמשי SAP BTP. נהל משתמשים בכל החשבונות הגלובליים, תת-החשבונות ומרחבי ה-CF ממסך אחד.",
+    "cta": "הורד עכשיו",
+    "imageAlt": "לוח הבקרה של BTP xID"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "חדש",
+    "introducing": "מציגים",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "גבה את כל שיחות Claude שלך מקומית. חיפוש טקסט מלא, תיוג וארגון — היסטוריית ה-AI שלך, שלך לנצח.",
+    "cta": "הורד עכשיו",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "חיפוש שיחות…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "אפליקציית שולחן עבודה לגיבוי, צפייה, חיפוש וייצוא שיחות Claude CLI. סנכרון דלתא חכם, חיפוש עוצמתי, סינון הודעות, ייצוא ל-Markdown. macOS ו-Windows."
+    },
+    "hero": {
+      "title1": "שיחות Claude CLI שלך,",
+      "title2": "מגובות",
+      "title3": "וניתנות לחיפוש.",
+      "description": "אפליקציית שולחן עבודה שקטה ומקומית שמגבה בשקט כל שיחת Claude CLI ומאפשרת לחפש, לסנן ולייצא בכל עת.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "הצג את כל ההורדות (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "גיבוי דלתא חכם",
+      "1": "חפש בכל שיחה",
+      "2": "סינון לפי סוג הודעה",
+      "3": "עובד במצב לא מקוון · 100% מקומי",
+      "4": "ייצוא ל-Markdown",
+      "5": "ערכות נושא בהירות וכהות",
+      "6": "עובד במצב לא מקוון · 100% מקומי"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "חיפוש שיחות…",
+      "userLabel": "אתה",
+      "claudeLabel": "Claude",
+      "toolLabel": "שימוש בכלי"
+    },
+    "features": {
+      "label": "מה זה עושה",
+      "title1": "שקט ויסודי.",
+      "title2": "מהיר להפתיע.",
+      "subtitle": "שש תכונות קטנות שיחד מבטיחות שלעולם לא תאבד שיחת Claude CLI.",
+      "deltaBackup": {
+        "title": "גיבוי דלתא בנגיעה אחת",
+        "description": "סנכרון מצטבר חכם. שיחות חדשות מקבלות עותק מלא; שיחות קיימות רק מוסיפות הודעות חדשות."
+      },
+      "browse": {
+        "title": "עיין בפרויקטים פעילים",
+        "description": "ראה כל שיחת Claude CLI פעילה בזמן אמת, מאורגנת לפי פרויקט."
+      },
+      "search": {
+        "title": "חיפוש עוצמתי",
+        "description": "מצא את מה שאמרת לפני שלושה שבועות. חפש בשיחה אחת או בכולן — מיידית."
+      },
+      "filtering": {
+        "title": "סינון הודעות",
+        "description": "הפעל וכבה את הנראות של הודעות משתמש, Claude, חשיבה, שימוש בכלי ותוצאת כלי."
+      },
+      "export": {
+        "title": "ייצוא והעתקה",
+        "description": "שמור כל שיחה כ-JSON מפורמט לארכיון, שיתוף או pipelines."
+      },
+      "themes": {
+        "title": "ערכות נושא בהירות וכהות",
+        "description": "עבור בין מצב בהיר לכהה מלא בכל עת."
+      }
+    },
+    "howitworks": {
+      "label": "איך זה עובד",
+      "title": "שלושה שלבים. זה הכל.",
+      "step1": {
+        "title": "התקן ופתח",
+        "description": "הורד פעם אחת, התקן תוך שניות. האפליקציה מוצאת את שיחות Claude CLI שלך אוטומטית."
+      },
+      "step2": {
+        "title": "גבה בלחיצה אחת",
+        "description": "לחץ על כפתור הגיבוי. סנכרון דלתא חכם מעתיק רק את החדש."
+      },
+      "step3": {
+        "title": "חפש, סנן, ייצא",
+        "description": "עיין, חפש בהכל, סנן לפי סוג הודעה וייצא מה שאתה צריך."
+      }
+    },
+    "trust": {
+      "label": "נבנה בקפידה",
+      "title": "מקומי קודם. פרטי כברירת מחדל.",
+      "subtitle": "השיחות שלך לא יוצאות מהמחשב אלא אם תבחר לייצא. האפליקציה לא מתקשרת עם שרת ביתי ולא אוספת טלמטריה.",
+      "local": {
+        "title": "100% מקומי",
+        "description": "כל הגיבויים על המחשב שלך. שום דבר לא מועלה לשום מקום."
+      },
+      "telemetry": {
+        "title": "ללא טלמטריה",
+        "description": "האפליקציה לא עוקבת אחר שימוש, לא אוספת נתונים אנליטיים ולא דורשת חשבון לעבוד."
+      },
+      "control": {
+        "title": "אתה נשאר בשליטה",
+        "description": "פתח גיבויים בכל עורך טקסט. הפורמט הוא JSON סטנדרטי."
+      },
+      "darkMode": {
+        "title": "נוצר ללילות מאוחרים",
+        "description": "מצב כהה מלא שלא מעייף את העיניים כשאתה מחפש בשעה 1 לפנות בוקר."
+      }
+    },
+    "download": {
+      "label": "הורדה",
+      "title": "קבל את האפליקציה.",
+      "subtitle": "זמין ל-macOS ו-Windows. לא נדרש חשבון.",
+      "primaryButton": "הורד עבור {{label}}",
+      "loading": "מכין הורדה…",
+      "showAll": "הצג את כל ההורדות",
+      "hideAll": "הסתר הורדות אחרות",
+      "versionLine": "גרסה נוכחית: v{{version}} · macOS 11+ ו-Windows 10+",
+      "legal": "בהורדה אתה מסכים ל",
+      "termsOfService": "תנאי השירות",
+      "and": "וה",
+      "privacyPolicy": "מדיניות הפרטיות"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · עבור M1, M2, M3 ו-Mac חדשים יותר",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · עבור Mac ישן עם Intel",
+      "winInstallerLabel": "Windows — מתקין",
+      "winInstallerDesc": "מתקין NSIS · מומלץ לרוב המשתמשים",
+      "winPortableLabel": "Windows — גרסה ניידת",
+      "winPortableDesc": "קובץ .exe יחיד · ללא התקנה"
+    },
+    "smartscreen": {
+      "title": "הערה קצרה למשתמשי Windows",
+      "description": "Windows SmartScreen עשוי להציג אזהרה בפתיחה הראשונה של האפליקציה. זה נורמלי לאפליקציות שולחן עבודה חדשות.",
+      "step1": "לחץ על <1>מידע נוסף</1> בהנחיית SmartScreen.",
+      "step2": "לאחר מכן לחץ על <1>הפעל בכל זאת</1> להפעלת האפליקציה."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "אפליקציה אחת.",
       "title2": "כל משתמש.",
       "title3": "כל החשבונות.",
-      "description": "נהל משתמשים בחשבונות גלובליים, תת-חשבונות, ארגונים ומרחבים של Cloud Foundry — הכל ממסך אחד. חיפוש הפוך של כל משתמש באופן מיידי."
+      "description": "נהל משתמשים בחשבונות גלובליים, תת-חשבונות, ארגונים ומרחבים של Cloud Foundry — הכל ממסך אחד. חיפוש הפוך של כל משתמש באופן מיידי.",
+      "shieldBadge": "SAP OAuth · אישורים לא נשמרים"
     },
     "valueProps": {
       "0": "האפליקציה היחידה לניהול משתמשי BTP שתצטרך",
@@ -1482,7 +1627,17 @@
     "pricing": {
       "label": "תמחור",
       "title": "תמחור פשוט ושקוף",
-      "subtitle": "התחל בחינם למשך 90 יום. אין צורך בכרטיס אשראי."
+      "subtitle": "התחל בחינם למשך 90 יום. אין צורך בכרטיס אשראי.",
+      "free": "חינם",
+      "perMonth": "/חודש",
+      "billedAnnually": "חיוב שנתי (${{amount}}/שנה)",
+      "contactSales": "צור קשר עם מכירות",
+      "getStarted": "התחל"
+    },
+    "billing": {
+      "monthly": "חודשי",
+      "annual": "שנתי",
+      "save": "חסוך 17%"
     }
   }
 }

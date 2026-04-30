@@ -1407,12 +1407,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NAUJIENA",
+    "introducing": "Pristatome",
+    "description": "Pirmoji pasaulyje darbalaukio programa SAP BTP vartotojų valdymui. Tvarkykite vartotojus visuose pasaulinėse paskyrose, sub-paskyrose ir CF erdvėse iš vieno stiklo.",
+    "cta": "Atsisiųsti dabar",
+    "imageAlt": "BTP xID valdymo skydelis"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NAUJIENA",
+    "introducing": "Pristatome",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Kurkite visų Claude pokalbių atsargines kopijas vietoje. Visatekstė paieška, žymėjimas ir tvarkymas – jūsų AI istorija, jūsų amžiams.",
+    "cta": "Atsisiųsti dabar",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Ieškoti pokalbių…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Darbalaukio programa Claude CLI pokalbių atsarginiam kopijavimui, peržiūrai, paieškai ir eksportavimui. Protinga delta sinchronizacija, galinga paieška, žinučių filtravimas, eksportavimas į Markdown. macOS ir Windows."
+    },
+    "hero": {
+      "title1": "Jūsų Claude CLI pokalbiai,",
+      "title2": "sukurta atsarginė kopija",
+      "title3": "ir galima ieškoti.",
+      "description": "Rami, vietinė darbalaukio programa, kuri tyliai kuria atsargines kiekvieno Claude CLI pokalbio kopijas ir leidžia jums jų ieškoti, filtruoti ir eksportuoti.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Rodyti visus atsisiuntimus (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Protingas delta kopijavimas",
+      "1": "Ieškoti kiekviename pokalbyje",
+      "2": "Filtruoti pagal žinutės tipą",
+      "3": "Veikia neprisijungus · 100% vietinė",
+      "4": "Eksportuoti į Markdown",
+      "5": "Šviesios ir tamsios temos",
+      "6": "Veikia neprisijungus · 100% vietinė"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Ieškoti pokalbių…",
+      "userLabel": "Jūs",
+      "claudeLabel": "Claude",
+      "toolLabel": "Įrankio naudojimas"
+    },
+    "features": {
+      "label": "Ką tai daro",
+      "title1": "Tyliai kruopštu.",
+      "title2": "Stebėtinai greita.",
+      "subtitle": "Šešios mažos funkcijos, kurios kartu užtikrina, kad niekada neprarasite Claude CLI pokalbio.",
+      "deltaBackup": {
+        "title": "Delta kopijavimas vienu prisilietimu",
+        "description": "Protinga inkrementinė sinchronizacija. Nauji pokalbiai gauna pilną kopiją; esami tik prideda naujas žinutes."
+      },
+      "browse": {
+        "title": "Naršyti aktyvius projektus",
+        "description": "Žiūrėkite kiekvieną aktyvų Claude CLI pokalbį realiuoju laiku, sutvarkytą pagal projektą."
+      },
+      "search": {
+        "title": "Galinga paieška",
+        "description": "Raskite tai, ką sakėte prieš tris savaites. Ieškokite viename ar visuose pokalbiuose – akimirksniu."
+      },
+      "filtering": {
+        "title": "Žinučių filtravimas",
+        "description": "Junkite ir išjunkite Vartotojo, Claude, Mąstymo, Įrankio naudojimo ir Įrankio rezultato žinučių matomumą."
+      },
+      "export": {
+        "title": "Eksportavimas ir kopijavimas",
+        "description": "Išsaugokite bet kurį pokalbį kaip suformatuotą JSON archyvavimui, dalinimusi ar konvejeriais."
+      },
+      "themes": {
+        "title": "Šviesios ir tamsios temos",
+        "description": "Bet kada perjunkite tarp šviesos ir visiško tamsos režimo."
+      }
+    },
+    "howitworks": {
+      "label": "Kaip tai veikia",
+      "title": "Trys žingsniai. Tiek.",
+      "step1": {
+        "title": "Įdiekite ir atidarykite",
+        "description": "Atsisiųskite vieną kartą, įdiekite per sekundes. Programa automatiškai randa jūsų Claude CLI pokalbius."
+      },
+      "step2": {
+        "title": "Kurkite atsarginę kopiją vienu paspaudimu",
+        "description": "Paspauskite atsarginio kopijavimo mygtuką. Protinga delta sinchronizacija kopijuoja tik nauja."
+      },
+      "step3": {
+        "title": "Ieškokite, filtruokite, eksportuokite",
+        "description": "Naršykite, ieškokite visur, filtruokite pagal žinutės tipą ir eksportuokite viską, ko reikia."
+      }
+    },
+    "trust": {
+      "label": "Sukurta su rūpesčiu",
+      "title": "Vietinė pirma. Privatu pagal numatytuosius nustatymus.",
+      "subtitle": "Jūsų pokalbiai nepalieka jūsų kompiuterio, nebent nuspręsite eksportuoti. Programa nesusisiekia su namų serveriu, nerenka telemetrijos.",
+      "local": {
+        "title": "100% vietinė",
+        "description": "Visos atsarginės kopijos yra jūsų kompiuteryje. Nieko niekur neįkeliama."
+      },
+      "telemetry": {
+        "title": "Jokios telemetrijos",
+        "description": "Programa neseka naudojimo, nerenka analizės ir nereikalauja paskyros veikimui."
+      },
+      "control": {
+        "title": "Jūs liekate valdantys",
+        "description": "Atidarykite atsargines kopijas bet kuriame teksto redaktoriuje. Formatas yra standartinis JSON."
+      },
+      "darkMode": {
+        "title": "Sukurta vėlyvosioms naktims",
+        "description": "Pilnas tamsus režimas, kuris nepavargina akių ieškant 1 nakties."
+      }
+    },
+    "download": {
+      "label": "Atsisiuntimas",
+      "title": "Gaukite programą.",
+      "subtitle": "Prieinama macOS ir Windows. Paskyra nereikalinga.",
+      "primaryButton": "Atsisiųsti {{label}}",
+      "loading": "Ruošiamas atsisiuntimas…",
+      "showAll": "Rodyti visus atsisiuntimus",
+      "hideAll": "Slėpti kitus atsisiuntimus",
+      "versionLine": "Dabartinė versija: v{{version}} · macOS 11+ ir Windows 10+",
+      "legal": "Atsisiųsdami sutinkate su mūsų",
+      "termsOfService": "Paslaugų teikimo sąlygomis",
+      "and": "ir",
+      "privacyPolicy": "Privatumo politika"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · skirta M1, M2, M3 ir naujesniems Mac",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · skirta senesnėms Intel Mac",
+      "winInstallerLabel": "Windows — Diegimo programa",
+      "winInstallerDesc": "NSIS diegimo programa · rekomenduojama daugumai vartotojų",
+      "winPortableLabel": "Windows — Nešiojama versija",
+      "winPortableDesc": "Vienas .exe · be diegimo"
+    },
+    "smartscreen": {
+      "title": "Trumpa pastaba Windows vartotojams",
+      "description": "Windows SmartScreen gali parodyti įspėjimą pirmą kartą atidarant programą. Tai normalu naujoms darbalaukio programoms.",
+      "step1": "SmartScreen raginime spustelėkite <1>Daugiau informacijos</1>.",
+      "step2": "Tada spustelėkite <1>Vykdyti vis tiek</1>, kad paleistumėte programą."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Viena programa.",
       "title2": "Kiekvienas vartotojas.",
       "title3": "Visos paskyros.",
-      "description": "Valdykite vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį vartotoją atvirkštiniu paieška."
+      "description": "Valdykite vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį vartotoją atvirkštiniu paieška.",
+      "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi"
     },
     "valueProps": {
       "0": "Vienintelė BTP vartotojų valdymo programa, kurios kada nors prireiks",
@@ -1482,7 +1627,17 @@
     "pricing": {
       "label": "Kainos",
       "title": "Paprasta ir skaidri kainodara",
-      "subtitle": "Pradėkite nemokamai 90 dienų. Kreditinė kortelė nereikalinga."
+      "subtitle": "Pradėkite nemokamai 90 dienų. Kreditinė kortelė nereikalinga.",
+      "free": "Nemokamai",
+      "perMonth": "/mėn",
+      "billedAnnually": "apmokama kasmet (${{amount}}/metus)",
+      "contactSales": "Susisiekti su pardavimais",
+      "getStarted": "Pradėti"
+    },
+    "billing": {
+      "monthly": "Mėnesinis",
+      "annual": "Metinis",
+      "save": "Sutaupykite 17%"
     }
   }
 }

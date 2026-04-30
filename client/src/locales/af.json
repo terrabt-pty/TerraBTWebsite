@@ -1431,12 +1431,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "NUUT",
+    "introducing": "Stel voor",
+    "description": "Die wêreld se eerste rekenaarprogram vir SAP BTP-gebruikerbestuur. Bestuur gebruikers oor alle globale rekeninge, sub-rekeninge en CF-ruimtes vanuit een paneelbord.",
+    "cta": "Laai nou af",
+    "imageAlt": "BTP xID-paneelbord"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "NUUT",
+    "introducing": "Stel voor",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Maak rugsteunkopieë van al jou Claude-gesprekke plaaslik. Volteks-soektog, merk en organiseer — jou KI-geskiedenis, joune vir altyd.",
+    "cta": "Laai nou af",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Soek gesprekke…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Rekenaarprogramm om Claude CLI-gesprekke te rugsteun, te bekyk, te soek en uit te voer. Slim delta-sinkronisering, kragtige soektog, boodskapfiltrering, uitvoer na Markdown. macOS en Windows."
+    },
+    "hero": {
+      "title1": "Jou Claude CLI-gesprekke,",
+      "title2": "gerugsteun",
+      "title3": "en deursoekbaar.",
+      "description": "'n Rustige, plaaslik-eerste program wat elke Claude CLI-gesprek stil rugsteun en jou toelaat om te soek, te filtreer en uit te voer.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Wys alle afladings (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Slim delta-rugsteun",
+      "1": "Soek in elke gesprek",
+      "2": "Filtreer per boodskagtipe",
+      "3": "Werk vanlyn · 100% plaaslik",
+      "4": "Uitvoer na Markdown",
+      "5": "Lig- en donkertemas",
+      "6": "Werk vanlyn · 100% plaaslik"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Soek gesprekke…",
+      "userLabel": "Jy",
+      "claudeLabel": "Claude",
+      "toolLabel": "Gereedskap gebruik"
+    },
+    "features": {
+      "label": "Wat dit doen",
+      "title1": "Stil en deeglik.",
+      "title2": "Verbasend vinnig.",
+      "subtitle": "Ses klein funksies wat saam verseker dat jy nooit 'n Claude CLI-gesprek verloor nie.",
+      "deltaBackup": {
+        "title": "Delta-rugsteun met een aanraking",
+        "description": "Slim inkrementele sinkronisering. Nuwe gesprekke kry 'n volledige kopie; bestaandes voeg slegs nuwe boodskappe by."
+      },
+      "browse": {
+        "title": "Blaai deur aktiewe projekte",
+        "description": "Bekyk elke aktiewe Claude CLI-gesprek intyds, per projek georganiseer."
+      },
+      "search": {
+        "title": "Kragtige soektog",
+        "description": "Vind dit wat jy drie weke gelede gesê het. Soek in een of alle gesprekke — dadelik."
+      },
+      "filtering": {
+        "title": "Boodskapfiltrering",
+        "description": "Skakel sigbaarheid van Gebruiker, Claude, Denke, Gereedskap gebruik en Gereedskap resultaat boodskappe."
+      },
+      "export": {
+        "title": "Uitvoer en kopieer",
+        "description": "Stoor enige gesprek as geformateerde JSON vir argief, deel of pypelyne."
+      },
+      "themes": {
+        "title": "Lig- en donkertemas",
+        "description": "Skakel enige tyd tussen lig- en donkermodus."
+      }
+    },
+    "howitworks": {
+      "label": "Hoe dit werk",
+      "title": "Drie stappe. Dit is alles.",
+      "step1": {
+        "title": "Installeer en maak oop",
+        "description": "Laai een keer af, installeer in sekondes. Die program vind jou Claude CLI-gesprekke outomaties."
+      },
+      "step2": {
+        "title": "Rugsteun met een klik",
+        "description": "Druk die rugsteunknoppie. Slim delta-sinkronisering kopieer slegs die nuwe."
+      },
+      "step3": {
+        "title": "Soek, filtreer, voer uit",
+        "description": "Blaai, soek deur alles, filtreer per boodskagtipe en voer enigiets uit."
+      }
+    },
+    "trust": {
+      "label": "Gebou met sorg",
+      "title": "Plaaslik eerste. Privaat by verstek.",
+      "subtitle": "Jou gesprekke verlaat nie jou rekenaar nie, tensy jy kies om uit te voer. Die program skakel nie terug met 'n bediener nie en versamel nie telemetrie nie.",
+      "local": {
+        "title": "100% plaaslik",
+        "description": "Alle rugsteun is op jou masjien. Niks word iewers opgelaai nie."
+      },
+      "telemetry": {
+        "title": "Geen telemetrie nie",
+        "description": "Die program spoor gebruik nie na nie, versamel nie ontledings nie en benodig nie 'n rekening om te werk nie."
+      },
+      "control": {
+        "title": "Jy bly in beheer",
+        "description": "Maak rugsteun oop in enige teksredigeerder. Die formaat is standaard JSON."
+      },
+      "darkMode": {
+        "title": "Gemaak vir laat nagte",
+        "description": "Volle donkermodus wat nie jou oë moeg maak as jy om 1 vm soek nie."
+      }
+    },
+    "download": {
+      "label": "Aflaai",
+      "title": "Kry die program.",
+      "subtitle": "Beskikbaar vir macOS en Windows. Geen rekening benodig nie.",
+      "primaryButton": "Laai af vir {{label}}",
+      "loading": "Berei aflaai voor…",
+      "showAll": "Wys alle afladings",
+      "hideAll": "Versteek ander afladings",
+      "versionLine": "Huidige weergawe: v{{version}} · macOS 11+ en Windows 10+",
+      "legal": "Deur af te laai stem jy in met ons",
+      "termsOfService": "Diensbepalings",
+      "and": "en",
+      "privacyPolicy": "Privaatheidsbeleid"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · vir M1, M2, M3 en nuwer Macs",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · vir ouer Intel Macs",
+      "winInstallerLabel": "Windows — Installeerder",
+      "winInstallerDesc": "NSIS-installeerder · aanbeveel vir meeste gebruikers",
+      "winPortableLabel": "Windows — Draagbare weergawe",
+      "winPortableDesc": "Enkele .exe · geen installasie benodig nie"
+    },
+    "smartscreen": {
+      "title": "Kort nota vir Windows-gebruikers",
+      "description": "Windows SmartScreen kan 'n waarskuwing wys die eerste keer wat jy die program oopmaak. Dit is normaal vir nuwe programme.",
+      "step1": "Klik <1>Meer inligting</1> in die SmartScreen-versoek.",
+      "step2": "Klik dan <1>Hardloop tog</1> om die program te begin."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Een toepassing.",
       "title2": "Elke gebruiker.",
       "title3": "Alle rekeninge.",
-      "description": "Bestuur gebruikers oor globale rekeninge, subrekeninge, Cloud Foundry-organisasies en -ruimtes — alles vanuit een enkele oorsig. Soek enige gebruiker onmiddellik deur omgekeerde soektog."
+      "description": "Bestuur gebruikers oor globale rekeninge, subrekeninge, Cloud Foundry-organisasies en -ruimtes — alles vanuit een enkele oorsig. Soek enige gebruiker onmiddellik deur omgekeerde soektog.",
+      "shieldBadge": "SAP OAuth · Geen gestoorde geloofsbriewe"
     },
     "valueProps": {
       "0": "Die enigste BTP-gebruikerbestuurtoepassing wat u ooit sal nodig hê",
@@ -1506,7 +1651,17 @@
     "pricing": {
       "label": "Pryse",
       "title": "Eenvoudige, deursigtige prysstelling",
-      "subtitle": "Begin gratis vir 90 dae. Geen kredietkaart nodig nie."
+      "subtitle": "Begin gratis vir 90 dae. Geen kredietkaart nodig nie.",
+      "free": "Gratis",
+      "perMonth": "/mnd",
+      "billedAnnually": "jaarliks gefaktureer (${{amount}}/jr)",
+      "contactSales": "Kontak verkope",
+      "getStarted": "Begin"
+    },
+    "billing": {
+      "monthly": "Maandeliks",
+      "annual": "Jaarliks",
+      "save": "Spaar 17%"
     }
   }
 }

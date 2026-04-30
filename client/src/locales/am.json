@@ -1408,12 +1408,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "አዲስ",
+    "introducing": "እናቀርባለን",
+    "description": "የ SAP BTP ተጠቃሚ አያያዝ ዴስክቶፕ መተግበሪያ ዓለምን ለመጀመሪያ ጊዜ። ሁሉንም ዓለም አቀፍ ሒሳቦች፣ ንዑስ ሒሳቦች እና የ CF ቦታዎች ተጠቃሚዎችን ከአንድ ቦታ ያስተዳድሩ።",
+    "cta": "አሁን ያውርዱ",
+    "imageAlt": "የ BTP xID ዳሽቦርድ"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "አዲስ",
+    "introducing": "እናቀርባለን",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "ሁሉንም የ Claude ውይይቶችዎን በአካባቢ ምትኬ ያስቀምጡ። የሙሉ ጽሑፍ ፍለጋ፣ መለያ ማድረግ እና ማደራጀት — የ AI ታሪክዎ፣ ለዘለዓለም የእርስዎ።",
+    "cta": "አሁን ያውርዱ",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "ውይይቶችን ፈልጉ…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "የ Claude CLI ውይይቶችን ለምትኬ፣ ለመመልከት፣ ለፍለጋ እና ለማስወጣት ዴስክቶፕ መተግበሪያ። ብልህ ዴልታ ማመሳሰል፣ ኃይለኛ ፍለጋ፣ መልዕክት ማጣራት፣ ወደ Markdown ማስወጣት። macOS እና Windows።"
+    },
+    "hero": {
+      "title1": "የ Claude CLI ውይይቶችዎ፣",
+      "title2": "ምትኬ ተደርጎላቸዋል",
+      "title3": "እና ሊፈለጉ ይችላሉ።",
+      "description": "ሁሉንም የ Claude CLI ውይይቶች በፀጥታ ምትኬ የሚያደርግ እና እርስዎ መፈለግ፣ ማጣራት እና ማስወጣት እንዲችሉ የሚያስችል ሰላማዊ የአካባቢ ዴስክቶፕ መተግበሪያ።",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "ሁሉንም ውርዶች ይመልከቱ (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "ብልህ ዴልታ ምትኬ",
+      "1": "በእያንዳንዱ ውይይት ፈልጉ",
+      "2": "በመልዕክት ዓይነት ያጣሩ",
+      "3": "ያለ ኢንተርኔት ይሠራል · 100% አካባቢያዊ",
+      "4": "ወደ Markdown ያስወጡ",
+      "5": "ብሩህ እና ጨለማ ገጽታዎች",
+      "6": "ያለ ኢንተርኔት ይሠራል · 100% አካባቢያዊ"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "ውይይቶችን ፈልጉ…",
+      "userLabel": "እርስዎ",
+      "claudeLabel": "Claude",
+      "toolLabel": "የመሣሪያ አጠቃቀም"
+    },
+    "features": {
+      "label": "ምን ያደርጋል",
+      "title1": "በፀጥታ ጥልቅ።",
+      "title2": "በሚያስደንቅ ሁኔታ ፈጣን።",
+      "subtitle": "ስድስት ትናንሽ ባህሪያት የ Claude CLI ውይይት ፈጽሞ እንዳያጡ ያደርጋሉ።",
+      "deltaBackup": {
+        "title": "በአንድ ንካ ዴልታ ምትኬ",
+        "description": "ብልህ ቅርጸ ማመሳሰል። አዲስ ውይይቶች ሙሉ ቅጂ ያገኛሉ፤ ያሉት አዲስ መልዕክቶችን ብቻ ያክላሉ።"
+      },
+      "browse": {
+        "title": "ንቁ ፕሮጀክቶችን ያስሱ",
+        "description": "እያንዳንዱን ንቁ የ Claude CLI ውይይት በፕሮጀክት ደርድሮ በቀጥታ ይመልከቱ።"
+      },
+      "search": {
+        "title": "ኃይለኛ ፍለጋ",
+        "description": "ሶስት ሳምንት በፊት የተናገሩትን ፈልጉ። በአንድ ወይም በሁሉም ውይይቶች ፈልጉ — ወዲያውኑ።"
+      },
+      "filtering": {
+        "title": "መልዕክት ማጣራት",
+        "description": "የተጠቃሚ፣ Claude፣ ማሰብ፣ የመሣሪያ አጠቃቀም እና የመሣሪያ ውጤት መልዕክቶች ታይነት ቀይሩ።"
+      },
+      "export": {
+        "title": "ማስወጣት እና መቅዳት",
+        "description": "ማንኛውንም ውይይት ለማቆያ፣ ለማጋራት ወይም ለቧንቧ ቅርጸ JSON ሆኖ ያስቀምጡ።"
+      },
+      "themes": {
+        "title": "ብሩህ እና ጨለማ ገጽታዎች",
+        "description": "በማንኛውም ጊዜ በብሩህ እና ሙሉ ጨለማ ሁነታ ቀይሩ።"
+      }
+    },
+    "howitworks": {
+      "label": "እንዴት ይሠራል",
+      "title": "ሶስት ደረጃዎች። ያ ሁሉ ነው።",
+      "step1": {
+        "title": "ጫን እና ክፈት",
+        "description": "አንድ ጊዜ ያውርዱ፣ በሰከንዶች ጫን። መተግበሪያው የ Claude CLI ውይይቶችዎን ራሱ ያገኛል።"
+      },
+      "step2": {
+        "title": "በአንድ ጠቅ ምትኬ ያድርጉ",
+        "description": "የምትኬ ቁልፍ ይጫኑ። ብልህ ዴልታ ማመሳሰል አዲሱን ብቻ ይቀዳል።"
+      },
+      "step3": {
+        "title": "ፈልጉ፣ አጣሩ፣ አስወጡ",
+        "description": "ያስሱ፣ ሁሉን ፈልጉ፣ በመልዕክት ዓይነት ያጣሩ እና የሚፈልጉትን ያስወጡ።"
+      }
+    },
+    "trust": {
+      "label": "በጥንቃቄ ተሠርቷል",
+      "title": "አካባቢያዊ ቅድሚያ። በነባሪ ሚስጥራዊ።",
+      "subtitle": "ውይይቶችዎ ማስወጣት ካልፈለጉ በቀር ኮምፒዩተርዎን አይሸሹም። መተግበሪያው ወደ ቤት አገልጋይ አይደውልም ወይም ቴሌሜትሪ አይሰበስብም።",
+      "local": {
+        "title": "100% አካባቢያዊ",
+        "description": "ሁሉም ምትኬዎች በእርስዎ ማሽን ላይ ናቸው። ምንም ቦታ አይሰቀልም።"
+      },
+      "telemetry": {
+        "title": "ምንም ቴሌሜትሪ የለም",
+        "description": "መተግበሪያው አጠቃቀምን አይከታተልም፣ ትንታኔ አይሰበስብም እና ለመሥራት ሒሳብ አያስፈልግም።"
+      },
+      "control": {
+        "title": "እርስዎ ቁጥጥር ያደርጋሉ",
+        "description": "ምትኬዎችን በማንኛውም የጽሑፍ አዘጋጅ ክፈቱ። ቅርጸቱ መደበኛ JSON ነው።"
+      },
+      "darkMode": {
+        "title": "ለዘገዩ ምሽቶች ተሠርቷል",
+        "description": "ሌሊቱ 1 ሰዓት ሲፈልጉ ዓይኖችዎን የማያደክም ሙሉ ጨለማ ሁነታ።"
+      }
+    },
+    "download": {
+      "label": "ውርድ",
+      "title": "መተግበሪያውን ያግኙ።",
+      "subtitle": "ለ macOS እና Windows ይገኛል። ሒሳብ አያስፈልግም።",
+      "primaryButton": "ለ {{label}} ያውርዱ",
+      "loading": "ውርድ እያዘጋጀ ነው…",
+      "showAll": "ሁሉንም ውርዶች አሳይ",
+      "hideAll": "ሌሎች ውርዶችን ደብቅ",
+      "versionLine": "የአሁኑ ስሪት: v{{version}} · macOS 11+ እና Windows 10+",
+      "legal": "በማውረድ ከእኛ ጋር ይስማሙ",
+      "termsOfService": "የአገልግሎት ውሎች",
+      "and": "እና",
+      "privacyPolicy": "የግላዊነት ፖሊሲ"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · ለ M1, M2, M3 እና አዲስ Mac",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · ለድሮ Intel Mac",
+      "winInstallerLabel": "Windows — ጫኝ",
+      "winInstallerDesc": "NSIS ጫኝ · ለብዙ ተጠቃሚዎች ይመከራል",
+      "winPortableLabel": "Windows — ተንቀሳቃሽ ስሪት",
+      "winPortableDesc": "አንድ .exe · ጫን አያስፈልግም"
+    },
+    "smartscreen": {
+      "title": "ለ Windows ተጠቃሚዎች አጭር ማስታወሻ",
+      "description": "መተግበሪያውን ለመጀመሪያ ጊዜ ሲከፍቱ Windows SmartScreen ማስጠንቀቂያ ሊያሳይ ይችላል። ለአዲስ ዴስክቶፕ መተግበሪያዎች ይህ ተፈጥሯዊ ነው።",
+      "step1": "በ SmartScreen ጥያቄ ላይ <1>ተጨማሪ መረጃ</1> ጠቅ ያድርጉ።",
+      "step2": "ከዚያ መተግበሪያውን ለማስጀመር <1>ይጀምሩ</1> ጠቅ ያድርጉ።"
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "አንድ መተግበሪያ።",
       "title2": "እያንዳንዱ ተጠቃሚ።",
       "title3": "ሁሉም መለያዎች።",
-      "description": "በዓለም አቀፍ መለያዎች፣ ንዑስ መለያዎች፣ Cloud Foundry ድርጅቶች እና ቦታዎች ውስጥ ያሉ ተጠቃሚዎችን ከአንድ ምስክርነት ያስተዳድሩ። ማንኛውንም ተጠቃሚ ወዲያውኑ በተቃራኒ ፍለጋ ያግኙ።"
+      "description": "በዓለም አቀፍ መለያዎች፣ ንዑስ መለያዎች፣ Cloud Foundry ድርጅቶች እና ቦታዎች ውስጥ ያሉ ተጠቃሚዎችን ከአንድ ምስክርነት ያስተዳድሩ። ማንኛውንም ተጠቃሚ ወዲያውኑ በተቃራኒ ፍለጋ ያግኙ።",
+      "shieldBadge": "SAP OAuth · ምስክርነቶች አይቀመጡም"
     },
     "valueProps": {
       "0": "ለዘለዓለም የሚያስፈልጎት ብቸኛ BTP ተጠቃሚ አስተዳደር መተግበሪያ",
@@ -1483,7 +1628,17 @@
     "pricing": {
       "label": "ዋጋ",
       "title": "ቀላል እና ግልጽ ዋጋ",
-      "subtitle": "ለ90 ቀናት በነጻ ይጀምሩ። ክሬዲት ካርድ አያስፈልግም።"
+      "subtitle": "ለ90 ቀናት በነጻ ይጀምሩ። ክሬዲት ካርድ አያስፈልግም።",
+      "free": "ነፃ",
+      "perMonth": "/ወር",
+      "billedAnnually": "በዓመት ሲከፈል (${{amount}}/ዓመት)",
+      "contactSales": "ሽያጭን ያነጋግሩ",
+      "getStarted": "ጀምሩ"
+    },
+    "billing": {
+      "monthly": "ወርሃዊ",
+      "annual": "ዓመታዊ",
+      "save": "17% ይቆጥቡ"
     }
   }
 }

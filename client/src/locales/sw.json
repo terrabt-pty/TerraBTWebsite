@@ -1431,12 +1431,157 @@
       }
     }
   },
+  "btpxidAnnouncement": {
+    "badge": "MPYA",
+    "introducing": "Tunawasilisha",
+    "description": "Programu ya kwanza duniani ya usimamizi wa watumiaji wa SAP BTP kwenye kompyuta. Simamia watumiaji kwenye akaunti zote za kimataifa, akaunti ndogo, na nafasi za CF kutoka sehemu moja.",
+    "cta": "Pakua Sasa",
+    "imageAlt": "Dashibodi ya BTP xID"
+  },
+  "claudeCliAnnouncement": {
+    "badge": "MPYA",
+    "introducing": "Tunawasilisha",
+    "productName": "Claude CLI Backup & Viewer",
+    "description": "Hifadhi nakala za mazungumzo yako yote ya Claude kienyeji. Utafutaji wa maandishi kamili, kuweka lebo na kupanga — historia yako ya AI, yako milele.",
+    "cta": "Pakua Sasa",
+    "mockup": {
+      "title": "Claude CLI Backup",
+      "searchPlaceholder": "Tafuta mazungumzo…"
+    }
+  },
+  "claudeCliProduct": {
+    "meta": {
+      "description": "Programu ya kompyuta ya kuhifadhi nakala, kutazama, kutafuta na kuhamisha mazungumzo ya Claude CLI. Usawazishaji wa delta wa akili, utafutaji wenye nguvu, uchujaji wa ujumbe, uhamishaji wa Markdown. macOS na Windows."
+    },
+    "hero": {
+      "title1": "Mazungumzo yako ya Claude CLI,",
+      "title2": "yakihifadhiwa nakala",
+      "title3": "na yanayotafutika.",
+      "description": "Programu ya kompyuta ya amani inayohifadhi nakala za kila mazungumzo ya Claude CLI kimya kimya na kukuruhusu kutafuta, kuchuja na kuhamisha.",
+      "appIconAlt": "Claude CLI Backup & Viewer",
+      "showAll": "Angalia upakuaji wote (macOS Intel, Windows Portable)"
+    },
+    "valueProps": {
+      "0": "Hifadhi nakala ya delta ya akili",
+      "1": "Tafuta kila mazungumzo",
+      "2": "Chuja kwa aina ya ujumbe",
+      "3": "Inafanya kazi bila mtandao · 100% ya ndani",
+      "4": "Hamisha kwa Markdown",
+      "5": "Mandhari ya mwanga na giza",
+      "6": "Inafanya kazi bila mtandao · 100% ya ndani"
+    },
+    "mockup": {
+      "windowTitle": "Claude CLI Backup",
+      "searchPlaceholder": "Tafuta mazungumzo…",
+      "userLabel": "Wewe",
+      "claudeLabel": "Claude",
+      "toolLabel": "Matumizi ya zana"
+    },
+    "features": {
+      "label": "Inachofanya",
+      "title1": "Kimya na makini.",
+      "title2": "Haraka ya kushangaza.",
+      "subtitle": "Vipengele sita vidogo ambavyo pamoja vinahakikisha hutapoteza mazungumzo yoyote ya Claude CLI.",
+      "deltaBackup": {
+        "title": "Hifadhi nakala ya delta kwa mguso mmoja",
+        "description": "Usawazishaji wa hatua kwa hatua wa akili. Mazungumzo mapya hupata nakala kamili; yaliyopo huongeza ujumbe mpya tu."
+      },
+      "browse": {
+        "title": "Vinjari miradi inayofanya kazi",
+        "description": "Angalia kila mazungumzo ya Claude CLI yanayofanya kazi kwa wakati halisi, yaliyopangwa kwa mradi."
+      },
+      "search": {
+        "title": "Utafutaji wenye nguvu",
+        "description": "Pata ulichosema miaka mitatu iliyopita. Tafuta katika mazungumzo moja au yote — mara moja."
+      },
+      "filtering": {
+        "title": "Uchujaji wa ujumbe",
+        "description": "Badilisha uonekano wa ujumbe wa Mtumiaji, Claude, Mawazo, Matumizi ya zana na Matokeo ya zana."
+      },
+      "export": {
+        "title": "Uhamishaji na kunakili",
+        "description": "Hifadhi mazungumzo yoyote kama JSON iliyopangwa kwa ufilisi, kushiriki au mabomba."
+      },
+      "themes": {
+        "title": "Mandhari ya mwanga na giza",
+        "description": "Badilisha kati ya hali ya mwanga na giza kamili wakati wowote."
+      }
+    },
+    "howitworks": {
+      "label": "Jinsi inavyofanya kazi",
+      "title": "Hatua tatu. Hiyo ndiyo yote.",
+      "step1": {
+        "title": "Sakinisha na ufungue",
+        "description": "Pakua mara moja, sakinisha kwa sekunde. Programu hupata mazungumzo yako ya Claude CLI otomatiki."
+      },
+      "step2": {
+        "title": "Hifadhi nakala kwa kubonyeza mara moja",
+        "description": "Bonyeza kitufe cha hifadhi nakala. Usawazishaji wa delta wa akili hunakili kipya tu."
+      },
+      "step3": {
+        "title": "Tafuta, chuja, hamisha",
+        "description": "Vinjari, tafuta kila kitu, chuja kwa aina ya ujumbe na uhamisha unachotaka."
+      }
+    },
+    "trust": {
+      "label": "Imetengenezwa kwa makini",
+      "title": "Ya ndani kwanza. Binafsi kwa chaguo-msingi.",
+      "subtitle": "Mazungumzo yako hayaacha kompyuta yako isipokuwa ukichagua kuhamisha. Programu haiwasiliani na seva ya nyumbani wala kukusanya data ya kipimo.",
+      "local": {
+        "title": "100% ya ndani",
+        "description": "Nakala zote za hifadhi ziko kwenye mashine yako. Hakuna kilichopakiwa mahali popote."
+      },
+      "telemetry": {
+        "title": "Bila data ya kipimo",
+        "description": "Programu haifuatilii matumizi, haikusanyi takwimu na haihitaji akaunti kufanya kazi."
+      },
+      "control": {
+        "title": "Unabaki na udhibiti",
+        "description": "Fungua hifadhi nakala katika kihariri chochote cha maandishi. Muundo ni JSON ya kawaida."
+      },
+      "darkMode": {
+        "title": "Imetengenezwa kwa usiku wa marehemu",
+        "description": "Hali ya giza kamili ambayo haichoshi macho unapotafuta saa saba usiku."
+      }
+    },
+    "download": {
+      "label": "Pakua",
+      "title": "Pata programu.",
+      "subtitle": "Inapatikana kwenye macOS na Windows. Akaunti haihitajiki.",
+      "primaryButton": "Pakua kwa {{label}}",
+      "loading": "Inaandaa upakuaji…",
+      "showAll": "Onyesha upakuaji wote",
+      "hideAll": "Ficha upakuaji mwingine",
+      "versionLine": "Toleo la sasa: v{{version}} · macOS 11+ na Windows 10+",
+      "legal": "Kwa kupakua unakubali",
+      "termsOfService": "Masharti ya Huduma",
+      "and": "na",
+      "privacyPolicy": "Sera ya Faragha"
+    },
+    "downloadOptions": {
+      "macArm64Label": "macOS — Apple Silicon",
+      "macArm64Desc": "DMG · kwa M1, M2, M3 na Mac mpya zaidi",
+      "macX64Label": "macOS — Intel",
+      "macX64Desc": "DMG · kwa Mac za zamani za Intel",
+      "winInstallerLabel": "Windows — Kisakinishi",
+      "winInstallerDesc": "Kisakinishi cha NSIS · inapendekezwa kwa watumiaji wengi",
+      "winPortableLabel": "Windows — Toleo la kubebeka",
+      "winPortableDesc": "Faili moja .exe · bila usakinishaji"
+    },
+    "smartscreen": {
+      "title": "Kumbuka kwa watumiaji wa Windows",
+      "description": "Windows SmartScreen inaweza kuonyesha onyo mara ya kwanza unafungua programu. Hii ni kawaida kwa programu mpya za kompyuta.",
+      "step1": "Bonyeza <1>Maelezo zaidi</1> kwenye kidokezo cha SmartScreen.",
+      "step2": "Kisha bonyeza <1>Endesha hata hivyo</1> kuanzisha programu."
+    }
+  },
   "btpxidProduct": {
     "hero": {
       "title1": "Programu moja.",
       "title2": "Kila mtumiaji.",
       "title3": "Akaunti zote.",
-      "description": "Simamia watumiaji katika akaunti za kimataifa, akaunti ndogo, shirika na nafasi za Cloud Foundry — yote kutoka sehemu moja. Tafuta mtumiaji yeyote mara moja kwa utafutaji wa nyuma."
+      "description": "Simamia watumiaji katika akaunti za kimataifa, akaunti ndogo, shirika na nafasi za Cloud Foundry — yote kutoka sehemu moja. Tafuta mtumiaji yeyote mara moja kwa utafutaji wa nyuma.",
+      "shieldBadge": "SAP OAuth · Hakuna vitambulisho vilivyohifadhiwa"
     },
     "valueProps": {
       "0": "Programu pekee ya usimamizi wa watumiaji wa BTP utakayohitaji",
@@ -1506,7 +1651,17 @@
     "pricing": {
       "label": "Bei",
       "title": "Bei rahisi na wazi",
-      "subtitle": "Anza bila malipo kwa siku 90. Hakuna kadi ya mkopo inayohitajika."
+      "subtitle": "Anza bila malipo kwa siku 90. Hakuna kadi ya mkopo inayohitajika.",
+      "free": "Bure",
+      "perMonth": "/mwezi",
+      "billedAnnually": "inayolipiwa kila mwaka (${{amount}}/mwaka)",
+      "contactSales": "Wasiliana na mauzo",
+      "getStarted": "Anza"
+    },
+    "billing": {
+      "monthly": "Kila mwezi",
+      "annual": "Kila mwaka",
+      "save": "Okoa 17%"
     }
   }
 }
