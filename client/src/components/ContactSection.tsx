@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function ContactSection() {
   const { t } = useTranslation();
@@ -43,28 +43,7 @@ export default function ContactSection() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">{t('contact.globalPresence')}</p>
-                    <p className="text-muted-foreground" data-testid="text-location">
-                      {t('contact.servingCountries')}
-                    </p>
-                  </div>
-                </div>
               </div>
-            </div>
-
-            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-trust/10 border border-primary/20">
-              <h4 className="font-semibold text-foreground mb-2 flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-                {t('contact.fastResponse')}
-              </h4>
-              <p className="text-foreground/80 text-sm font-medium">
-                {t('contact.fastResponseDesc')}
-              </p>
             </div>
           </div>
         </div>

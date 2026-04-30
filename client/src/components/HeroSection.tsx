@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Globe, Target } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import heroImage from "@assets/TerraBT Page Background_1762664523373.webp";
 
 export default function HeroSection() {
@@ -25,13 +24,6 @@ export default function HeroSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <Badge
-            className="text-xs sm:text-sm font-semibold px-4 py-2 bg-urgency/10 text-urgency border-urgency/30 whitespace-normal text-center"
-            data-testid="badge-specialization"
-          >
-            🚀 Pure-Play SAP BTP Experts
-          </Badge>
-
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight break-words">
             <span className="bg-gradient-to-r from-chart-5 via-chart-3 to-primary bg-clip-text text-transparent">
               {t('hero.title')}
@@ -63,24 +55,6 @@ export default function HeroSection() {
             </Button>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 pt-8 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
-                <Globe className="h-4 w-4 text-primary" />
-              </div>
-              <span className="font-semibold text-foreground" data-testid="text-countries">
-                {t('value.global.point1')}
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-full bg-trust/10 flex items-center justify-center">
-                <Target className="h-4 w-4 text-trust" />
-              </div>
-              <span className="font-semibold text-foreground" data-testid="text-focus">
-                {t('value.specialization.title')}
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
