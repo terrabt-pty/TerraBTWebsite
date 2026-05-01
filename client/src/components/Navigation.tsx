@@ -72,7 +72,7 @@ export default function Navigation() {
           {/* Centre — desktop nav */}
           <div className="hidden lg:flex items-center justify-center gap-6">
             <button
-              onClick={() => setLocation(homePath)}
+              onClick={() => { setLocation(homePath); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
               className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
               data-testid="link-home"
             >
@@ -152,7 +152,7 @@ export default function Navigation() {
         <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
             <button
-              onClick={() => { setMobileMenuOpen(false); setLocation(homePath); }}
+              onClick={() => { setMobileMenuOpen(false); setLocation(homePath); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
               className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
               data-testid="mobile-link-home"
             >
