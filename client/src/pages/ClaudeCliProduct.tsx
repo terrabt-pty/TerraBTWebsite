@@ -225,6 +225,11 @@ export default function ClaudeCliProduct() {
               <img src={claudeCliIcon} alt={t('claudeCliProduct.hero.appIconAlt')} className="ccv-app-icon" />
             </div>
 
+            <div className="ccv-badge">
+              <span className="ccv-badge-dot" />
+              Beta
+            </div>
+
             <h1 className="ccv-title" data-testid="text-ccv-hero-title">
               {t('claudeCliProduct.hero.title1')}
               <br />
