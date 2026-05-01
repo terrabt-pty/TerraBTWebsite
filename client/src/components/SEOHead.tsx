@@ -18,11 +18,11 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
     // Get the full language-region code from SUPPORTED_LANGUAGES if it exists
     const fullLangCode = SUPPORTED_LANGUAGES.find(l => l.code === currentLang)?.code || currentLang;
 
-    // Use the language code directly — 'en' is valid BCP 47 for international English
-    const htmlLang = fullLangCode;
+    // Standardize lang code for HTML (e.g., en-US)
+    const htmlLang = fullLangCode.includes('-') ? fullLangCode : (fullLangCode === 'en' ? 'en-US' : fullLangCode);
     document.documentElement.lang = htmlLang;
 
-    // Update og:locale meta tag (format: en_US); 'en' without region is fine for og:locale too
+    // Update og:locale meta tag (format: en_US)
     const ogLocale = htmlLang.replace('-', '_');
     let metaOgLocale = document.querySelector('meta[property="og:locale"]');
     if (!metaOgLocale) {

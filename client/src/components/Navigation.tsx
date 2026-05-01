@@ -6,6 +6,10 @@ import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
+declare global {
+  interface Window { GEO_COUNTRY?: string; }
+}
+
 const PRODUCTS = [
   { id: "btp-xid",     name: "BTP xID",                    taglineKey: "nav.btpxidTagline",    path: "/products/btp-xid",    badge: "NEW" },
   { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  taglineKey: "nav.claudeCliTagline", path: "/products/claude-cli", badge: "NEW"  },
