@@ -81,16 +81,8 @@ const getBrowserLanguage = (): string => {
   
   for (const browserLang of browserLanguages) {
     const normalizedBrowserLang = browserLang.toLowerCase();
-    const baseLang = getBaseLanguage(normalizedBrowserLang);
 
-    // For any English variant (en-US, en-AU, etc.) always use international English.
-    // Must be checked before exact-match because 'en-US' etc. exist in SUPPORTED_LANGUAGES
-    // and would otherwise produce a region-specific code for users who never chose one.
-    if (baseLang === 'en') {
-      return 'en';
-    }
-
-    // Exact match for non-English
+    // Exact match first (e.g. browser 'en-US' → 'en-US', 'de-DE' → 'de-DE')
     const exactMatch = SUPPORTED_LANGUAGES.find(
       lang => lang.code.toLowerCase() === normalizedBrowserLang
     );
@@ -98,7 +90,15 @@ const getBrowserLanguage = (): string => {
       return exactMatch.code;
     }
 
-    // Base language fallback (e.g. browser says 'de', we have 'de-DE')
+    const baseLang = getBaseLanguage(normalizedBrowserLang);
+
+    // For English variants not in our list (e.g. 'en-AU', 'en-NZ'), fall back to international English
+    if (baseLang === 'en') {
+      return 'en';
+    }
+
+    // For other languages, find the closest supported variant by base code
+    // (e.g. browser 'ar-OM' → no exact match → base 'ar' → 'ar-AE')
     const baseMatch = SUPPORTED_LANGUAGES.find(
       lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
     );
