@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "wouter";
+import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
 import BTPxIDShowcase from "@/components/BTPxIDShowcase";
@@ -299,7 +300,7 @@ export default function BTPxIDProduct() {
                 <a
                   href={primaryDownloadUrl}
                   className="btpxid-download-btn"
-                  onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+                  onClick={() => { trackDownload('btp-xid', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="btpxid-download-btn-text">
@@ -524,7 +525,7 @@ export default function BTPxIDProduct() {
               <a
                 href={primaryDownloadUrl}
                 className="btpxid-download-btn"
-                onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+                onClick={() => { trackDownload('btp-xid', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
               >
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="btpxid-download-btn-text">
@@ -571,7 +572,7 @@ export default function BTPxIDProduct() {
                 const dlLabel = t(dl.labelKey);
                 const dlDesc = t(dl.descKey);
                 return url ? (
-                  <a key={dl.id} href={url} className="btpxid-download-option">
+                  <a key={dl.id} href={url} className="btpxid-download-option" onClick={() => trackDownload('btp-xid', versionInfo!.version, dl.id)}>
                     <div>
                       <div className="btpxid-download-option-label">{dlLabel}</div>
                       <div className="btpxid-download-option-desc">{dlDesc}</div>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import claudeCliIcon from "@assets/claude-cli-icon.png";
+import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -242,7 +243,7 @@ export default function ClaudeCliProduct() {
                   href={primaryDownloadUrl}
                   className="ccv-download-btn"
                   data-testid="link-ccv-hero-download"
-                  onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+                  onClick={() => { trackDownload('claude-cli', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
                 >
                   <PrimaryIcon className="h-6 w-6" />
                   <div className="ccv-download-btn-text">
@@ -476,7 +477,7 @@ export default function ClaudeCliProduct() {
               <a
                 href={primaryDownloadUrl}
                 className="ccv-download-btn"
-                onClick={() => { if (os === "windows") setShowSmartScreenNotice(true); }}
+                onClick={() => { trackDownload('claude-cli', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
                 data-testid="link-ccv-download-primary"
               >
                 <PrimaryIcon className="h-6 w-6" />
@@ -533,6 +534,7 @@ export default function ClaudeCliProduct() {
                     href={url}
                     className="ccv-download-option"
                     data-testid={`link-ccv-download-${dl.id}`}
+                    onClick={() => trackDownload('claude-cli', versionInfo!.version, dl.id)}
                   >
                     <div>
                       <div className="ccv-download-option-label">{dlLabel}</div>
