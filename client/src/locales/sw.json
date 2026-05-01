@@ -7,7 +7,11 @@
     "bookConsultation": "Weka Nafasi ya Ushauri Bure",
     "pricing": "Bei",
     "features": "Vipengele",
-    "downloads": "Vipakuliwa"
+    "downloads": "Vipakuliwa",
+    "signIn": "Ingia",
+    "products": "Bidhaa",
+    "btpxidTagline": "Usimamizi wa watumiaji wa SAP BTP",
+    "claudeCliTagline": "Kufanya backup na kutafuta mazungumzo"
   },
   "meta": {
     "home": {
@@ -1658,6 +1662,24 @@
       "monthly": "Kila mwezi",
       "annual": "Kila mwaka",
       "save": "Okoa 17%"
+    },
+    "features": {
+      "label": "Uwezo",
+      "title1": "Kila kitu unachohitaji.",
+      "title2": "Hakuna kile usichohitaji.",
+      "subtitle": "Imejengwa na wataalamu wa SAP BTP waliochoka kusambaza vivinyo vya cockpit.",
+      "0": { "title": "Akaunti za Kimataifa Nyingi", "description": "Unganisha na simamia akaunti za kimataifa nyingi kwa wakati mmoja. Hakuna kubadilisha kati ya cockpits tena." },
+      "1": { "title": "Mtazamo wa Mtumiaji Umeingiliana", "description": "Tazama kila mtumiaji katika akaunti ndogo, CF orgs, CF spaces, na watumiaji wa huduma — yote kwenye skrini moja." },
+      "2": { "title": "Utafutaji Unaobadilika", "description": "Tafuta mtumiaji yeyote na uone mara moja mahali polepole wanaongezwa. Hakuna kushangilia zaidi." },
+      "3": { "title": "Usimamizi wa Mtumiaji wa Huduma", "description": "Simamia watumiaji wa huduma pamoja na watumiaji wa jukwaa. Udhibiti wa mzunguko kamili kutoka mahali pamoja." },
+      "4": { "title": "Operesheni za Kumbuka", "description": "Ongeza, ondoa, au sasisha watumiaji katika akaunti na nafasi nyingi katika kitendo moja." },
+      "5": { "title": "Usimamizi wa Jukumu", "description": "Gawa na ondoa mkutanishi wa jukumu katika kila wigo — Akaunti ya Kimataifa, Akaunti ndogo, CF Org, na CF Space — katika dakika michache." }
+    },
+    "showcase": {
+      "label": "Ona Kina",
+      "title1": "Imejengwa kwa wasimamizi wa SAP BTP.",
+      "title2": "Na wataalamu wa SAP BTP.",
+      "subtitle": "Programu pekee ya desktop iliyotengana kwa usimamizi wa watumiaji wa SAP BTP — tazama kila mtumiaji katika akaunti za kimataifa, akaunti ndogo, CF orgs, na CF spaces katika orodha moja iliyoingiliana."
     }
   }
 }

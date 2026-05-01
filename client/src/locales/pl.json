@@ -7,7 +7,11 @@
     "bookConsultation": "Zarezerwuj bezpłatną konsultację",
     "pricing": "Cennik",
     "features": "Funkcje",
-    "downloads": "Pobieranie"
+    "downloads": "Pobieranie",
+    "signIn": "Zaloguj się",
+    "products": "Produkty",
+    "btpxidTagline": "SAP BTP zarządzanie użytkownikami",
+    "claudeCliTagline": "Twórz kopie zapasowe i przeszukuj rozmowy"
   },
   "meta": {
     "home": {
@@ -1634,6 +1638,24 @@
       "monthly": "Miesięczny",
       "annual": "Roczny",
       "save": "Oszczędź 17%"
+    },
+    "features": {
+      "label": "Możliwości",
+      "title1": "Wszystko co potrzebujesz.",
+      "title2": "Nic czego nie potrzebujesz.",
+      "subtitle": "Zbudowane przez ekspertów SAP BTP zmęczonych żonglerką zakładkami cockpitu.",
+      "0": { "title": "Multi-Global Account", "description": "Połącz i zarządzaj wieloma globalnymi kontami jednocześnie. Bez więcej przełączania się między cockpitami." },
+      "1": { "title": "Unified User View", "description": "Zobacz każdego użytkownika we wszystkich podkontach, organizacjach CF, przestrzeniach CF i użytkownikach usług — wszystko na jednym ekranie." },
+      "2": { "title": "Reverse Search", "description": "Znajdź każdego użytkownika i natychmiast zobacz wszędzie tam, gdzie są dodani. Koniec ze zgadywaniem." },
+      "3": { "title": "Service User Management", "description": "Zarządzaj użytkownikami usług obok użytkowników platformy. Pełna kontrola cyklu życia z jednego miejsca." },
+      "4": { "title": "Bulk Operations", "description": "Dodawaj, usuwaj lub aktualizuj użytkowników zbiorowo w wielu kontach i przestrzeniach w jednej akcji." },
+      "5": { "title": "Role Management", "description": "Przypisz i usuń kolekcje ról w każdym zakresie — Global Account, Subaccount, CF Org i CF Space — w kilka kliknięć." }
+    },
+    "showcase": {
+      "label": "Zobacz w akcji",
+      "title1": "Zbudowane dla administratorów SAP BTP.",
+      "title2": "Przez ekspertów SAP BTP.",
+      "subtitle": "Jedyna aplikacja desktopowa stworzona specjalnie do zarządzania użytkownikami SAP BTP — zobacz każdego użytkownika na kontach globalnych, podkontach, organizacjach CF i przestrzeniach CF na jednej ujednoliconej liście."
     }
   }
 }

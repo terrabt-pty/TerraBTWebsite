@@ -7,7 +7,11 @@
     "bookConsultation": "Rezervovať bezplatnú konzultáciu",
     "pricing": "Ceny",
     "features": "Funkcie",
-    "downloads": "Stiahnutia"
+    "downloads": "Stiahnutia",
+    "signIn": "Prihlásiť sa",
+    "products": "Produkty",
+    "btpxidTagline": "Správa používateľov SAP BTP",
+    "claudeCliTagline": "Zálohovať a vyhľadávať konverzácie"
   },
   "meta": {
     "home": {
@@ -1634,6 +1638,24 @@
       "monthly": "Mesačne",
       "annual": "Ročne",
       "save": "Ušetriť 17 %"
+    },
+    "features": {
+      "label": "Schopnosti",
+      "title1": "Všetko, čo potrebuješ.",
+      "title2": "Nič, čo nepotrebuješ.",
+      "subtitle": "Postavené tímom SAP BTP expertov, ktorí sa unavili prepínať medzi záložkami cockpitu.",
+      "0": { "title": "Viacnásobný globálny účet", "description": "Pripojte a spravujte viaceré globálne účty zároveň. Žiadne viac prepínanie medzi cockpitmi." },
+      "1": { "title": "Jednotný prehľad používateľov", "description": "Zobrazite každého používateľa naprieč podúčtami, CF orgami, CF priestormi a servismi - všetko na jednej obrazovke." },
+      "2": { "title": "Spätné hľadanie", "description": "Nájdite ľubovoľného používateľa a okamžite pozrite, kde je pridaný. Žiadne viac hádania." },
+      "3": { "title": "Správa servisných používateľov", "description": "Spravujte servisných používateľov paralelne s platformovými používateľmi. Plná kontrola životného cyklu z jedného miesta." },
+      "4": { "title": "Hromadné operácie", "description": "Pridávajte, odstraňujte alebo aktualizujte používateľov naprieč viacerými účtami a priestormi v jednej akcii." },
+      "5": { "title": "Správa rolí", "description": "Priraďujte a odstraňujte zbierky rolí naprieč každým rozsahom — globálny účet, podúčet, CF organizácia a CF priestor — v pár klikoch." }
+    },
+    "showcase": {
+      "label": "Pozrite si to v akcii",
+      "title1": "Postavené pre správcov SAP BTP.",
+      "title2": "Od expertov na SAP BTP.",
+      "subtitle": "Jediná desktopová aplikácia špeciálne navrhnutá pre správu používateľov SAP BTP — zobraziť každého používateľa naprieč globálnymi účtami, podúčtami, CF orgami a CF priestormi v jednom zjednotenom zozname."
     }
   }
 }

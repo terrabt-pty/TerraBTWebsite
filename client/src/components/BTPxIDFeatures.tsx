@@ -1,71 +1,33 @@
+import { useTranslation } from "react-i18next";
+
+const FEATURE_ICONS = ["🌐", "👤", "🔍", "⚙️", "🛡️", "🔐"];
+const FEATURE_COLORS = ["btpxid-fi-green", "btpxid-fi-blue", "btpxid-fi-teal", "btpxid-fi-green", "btpxid-fi-blue", "btpxid-fi-teal"];
+
 export default function BTPxIDFeatures() {
-  const features = [
-    {
-      icon: "🌐",
-      colorClass: "btpxid-fi-green",
-      title: "Multi-Global Account",
-      description:
-        "Connect and manage multiple global accounts simultaneously. No more switching between cockpits.",
-    },
-    {
-      icon: "👤",
-      colorClass: "btpxid-fi-blue",
-      title: "Unified User View",
-      description:
-        "See every user across sub-accounts, CF orgs, CF spaces, and service users — all in one screen.",
-    },
-    {
-      icon: "🔍",
-      colorClass: "btpxid-fi-teal",
-      title: "Reverse Search",
-      description:
-        "Find any user and instantly see everywhere they're added. No more guesswork.",
-    },
-    {
-      icon: "⚙️",
-      colorClass: "btpxid-fi-green",
-      title: "Service User Management",
-      description:
-        "Manage service users alongside platform users. Full lifecycle control from one place.",
-    },
-    {
-      icon: "🛡️",
-      colorClass: "btpxid-fi-blue",
-      title: "Bulk Operations",
-      description:
-        "Add, remove, or update users across multiple accounts and spaces in a single action.",
-    },
-    {
-      icon: "🔐",
-      colorClass: "btpxid-fi-teal",
-      title: "Role Management",
-      description:
-        "Assign and remove role collections across every scope — Global Account, Subaccount, CF Org, and CF Space — in a few clicks.",
-    },
-  ];
+  const { t } = useTranslation();
 
   return (
     <section className="btpxid-features" id="features">
       <div className="btpxid-features-header">
-        <div className="btpxid-features-label">Capabilities</div>
+        <div className="btpxid-features-label">{t('btpxidProduct.features.label')}</div>
         <h2 className="btpxid-features-title">
-          Everything you need.
+          {t('btpxidProduct.features.title1')}
           <br />
-          Nothing you don't.
+          {t('btpxidProduct.features.title2')}
         </h2>
         <p className="btpxid-features-sub">
-          Built by SAP BTP experts who were tired of juggling cockpit tabs.
+          {t('btpxidProduct.features.subtitle')}
         </p>
       </div>
 
       <div className="btpxid-features-grid">
-        {features.map((feature) => (
-          <div key={feature.title} className="btpxid-feature-card">
-            <div className={`btpxid-feature-icon ${feature.colorClass}`}>
-              {feature.icon}
+        {[0, 1, 2, 3, 4, 5].map((i) => (
+          <div key={i} className="btpxid-feature-card">
+            <div className={`btpxid-feature-icon ${FEATURE_COLORS[i]}`}>
+              {FEATURE_ICONS[i]}
             </div>
-            <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
+            <h3>{t(`btpxidProduct.features.${i}.title`)}</h3>
+            <p>{t(`btpxidProduct.features.${i}.description`)}</p>
           </div>
         ))}
       </div>

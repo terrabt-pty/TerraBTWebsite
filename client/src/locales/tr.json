@@ -7,7 +7,11 @@
     "bookConsultation": "Ücretsiz Danışmanlık Randevusu Alın",
     "pricing": "Fiyatlar",
     "features": "Özellikler",
-    "downloads": "İndirmeler"
+    "downloads": "İndirmeler",
+    "signIn": "Giriş Yap",
+    "products": "Ürünler",
+    "btpxidTagline": "SAP BTP kullanıcı yönetimi",
+    "claudeCliTagline": "Konuşmaları yedekleyin ve arayın"
   },
   "meta": {
     "home": {
@@ -1624,6 +1628,24 @@
       "monthly": "Aylık",
       "annual": "Yıllık",
       "save": "%17 tasarruf edin"
+    },
+    "features": {
+      "label": "Yetenekler",
+      "title1": "İhtiyacınız olan her şey.",
+      "title2": "İstemediğiniz hiçbir şey değil.",
+      "subtitle": "SAP BTP uzmanları tarafından tasarlanan, kontrol panelinde gezinmekten bıkıp yapılmış.",
+      "0": { "title": "Çoklu Global Hesap", "description": "Birden fazla global hesabı aynı anda bağlayın ve yönetin. Artık kontrol panelleri arasında geçiş yapmanıza gerek yok." },
+      "1": { "title": "Birleştirilmiş Kullanıcı Görünümü", "description": "Alt hesaplar, CF kuruluşları, CF alanları ve hizmet kullanıcıları arasında her kullanıcıyı görmek - hepsi tek bir ekranda." },
+      "2": { "title": "Ters Arama", "description": "Herhangi bir kullanıcıyı bulun ve anında nerede eklendiğini görün. Artık tahmin yok." },
+      "3": { "title": "Hizmet Kullanıcı Yönetimi", "description": "Hizmet kullanıcılarını platform kullanıcılarıyla birlikte yönetin. Tek bir yerden tam yaşam döngüsü kontrolü." },
+      "4": { "title": "Toplu İşlemler", "description": "Birden fazla hesap ve alan arasında kullanıcıları tek bir işlemde ekleyin, kaldırın veya güncelleyin." },
+      "5": { "title": "Rol Yönetimi", "description": "Global Hesap, Alt Hesap, CF Kuruluşu ve CF Alanı gibi her kapsamda rol koleksiyonları atayın ve kaldırın." }
+    },
+    "showcase": {
+      "label": "Uygulamada Görmek",
+      "title1": "SAP BTP yöneticileri için.",
+      "title2": "SAP BTP uzmanları tarafından.",
+      "subtitle": "SAP BTP kullanıcı yönetimi için tasarlanmış tek masaüstü uygulaması — global hesaplar, alt hesaplar, CF kuruluşları ve CF alanları arasında her kullanıcıyı tek birleştirilmiş listede görün."
     },
     "pricing": {
       "label": "Fiyatlandırma",

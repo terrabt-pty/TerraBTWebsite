@@ -7,7 +7,11 @@
     "bookConsultation": "Rezervă consultație gratuită",
     "pricing": "Prețuri",
     "features": "Funcționalități",
-    "downloads": "Descărcări"
+    "downloads": "Descărcări",
+    "signIn": "Conectare",
+    "products": "Produse",
+    "btpxidTagline": "SAP BTP gestionare utilizatori",
+    "claudeCliTagline": "Faceți copii de rezervă și căutați în conversații"
   },
   "meta": {
     "home": {
@@ -1635,6 +1639,24 @@
       "monthly": "Lunar",
       "annual": "Anual",
       "save": "Economisiți 17%"
+    },
+    "features": {
+      "label": "Capabilități",
+      "title1": "Tot ce aveți nevoie.",
+      "title2": "Nimic de care nu aveți nevoie.",
+      "subtitle": "Construit de experții SAP BTP care au fost obosiți de jongleria cu file cockpit.",
+      "0": { "title": "Multi-Global Account", "description": "Conectați și gestionați mai multe conturi globale simultan. Nu mai sunt schimburi între cockpit-uri." },
+      "1": { "title": "Unified User View", "description": "Vedeți fiecare utilizator în toate sub-conturile, organizațiile CF, spațiile CF și utilizatorii serviciilor — totul pe un singur ecran." },
+      "2": { "title": "Reverse Search", "description": "Găsiți orice utilizator și vedeți instant oriunde au fost adăugați. Nu mai rămâne la bănuială." },
+      "3": { "title": "Service User Management", "description": "Gestionați utilizatorii serviciilor alături de utilizatorii platformei. Control complet al ciclului de viață dintr-un singur loc." },
+      "4": { "title": "Bulk Operations", "description": "Adăugați, eliminați sau actualizați utilizatorii în masă în mai multe conturi și spații într-o singură acțiune." },
+      "5": { "title": "Role Management", "description": "Alocați și eliminați colecții de roluri în fiecare domeniu — Cont Global, Subcont, Org CF și Spațiu CF — în câteva clicuri." }
+    },
+    "showcase": {
+      "label": "Vedeți-o în acțiune",
+      "title1": "Construită pentru administratorii SAP BTP.",
+      "title2": "De experții SAP BTP.",
+      "subtitle": "Singura aplicație de birou construită special pentru gestionarea utilizatorilor SAP BTP — vedeți fiecare utilizator în conturile globale, sub-conturile, organizațiile CF și spațiile CF într-o singură listă unificată."
     }
   }
 }

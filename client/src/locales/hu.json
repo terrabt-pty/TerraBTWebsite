@@ -7,7 +7,11 @@
     "bookConsultation": "Ingyenes konzultáció foglalása",
     "pricing": "Árak",
     "features": "Funkciók",
-    "downloads": "Letöltések"
+    "downloads": "Letöltések",
+    "signIn": "Bejelentkezés",
+    "products": "Termékek",
+    "btpxidTagline": "SAP BTP felhasználó kezelés",
+    "claudeCliTagline": "Biztonsági mentés és beszélgetések keresése"
   },
   "meta": {
     "home": {
@@ -1635,6 +1639,24 @@
       "monthly": "Havi",
       "annual": "Éves",
       "save": "Megtakarítás 17%"
+    },
+    "features": {
+      "label": "Képességek",
+      "title1": "Minden, amire szüksége van.",
+      "title2": "Semmi, amire nincs szüksége.",
+      "subtitle": "Az SAP BTP szakértői által készítve, akik elegük voltak a cockpit fülek zsonglőzésétől.",
+      "0": { "title": "Multi-Global Account", "description": "Csatlakozzon és kezeljen több globális fiókot egyidejűleg. Nincs több cockpitok közötti váltogatás." },
+      "1": { "title": "Unified User View", "description": "Lássa az összes felhasználót az összes alfiók, CF szervezet, CF tér és szolgáltatás felhasználó között — mind egy képernyőn." },
+      "2": { "title": "Reverse Search", "description": "Keresse meg bármelyik felhasználót és rögtön lássa, hol lettek hozzáadva. Nincs több találgatás." },
+      "3": { "title": "Service User Management", "description": "Kezelje a szolgáltatás felhasználókat a platform felhasználók mellett. Teljes életciklus vezérlés egy helyről." },
+      "4": { "title": "Bulk Operations", "description": "Adjon hozzá, távolítson el vagy frissítsen felhasználókat tömeggel több fiók és tér között egyetlen művelettel." },
+      "5": { "title": "Role Management", "description": "Rendeljen hozzá és távolítson el szerepköri gyűjteményeket minden hatókörben — Global Account, Subaccount, CF Org és CF Space — néhány kattintással." }
+    },
+    "showcase": {
+      "label": "Nézze meg akcióban",
+      "title1": "Az SAP BTP rendszergazdák számára készítve.",
+      "title2": "Az SAP BTP szakértői által.",
+      "subtitle": "Az egyetlen kifejezetten az SAP BTP felhasználókezeléshez készített asztali alkalmazás — nézze meg az összes felhasználót a globális fiókok, alfiókok, CF szervezetek és CF terek között egy egyesített listában."
     }
   }
 }

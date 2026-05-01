@@ -11,8 +11,8 @@ declare global {
 }
 
 const PRODUCTS = [
-  { id: "btp-xid",     name: "BTP xID",                    tagline: "SAP BTP user management",        path: "/products/btp-xid",    badge: "NEW" },
-  { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  tagline: "Back up & search conversations", path: "/products/claude-cli", badge: "NEW"  },
+  { id: "btp-xid",     name: "BTP xID",                    taglineKey: "nav.btpxidTagline",    path: "/products/btp-xid",    badge: "NEW" },
+  { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  taglineKey: "nav.claudeCliTagline", path: "/products/claude-cli", badge: "NEW"  },
 ];
 
 const HOME_scrollLinks = [
@@ -86,7 +86,7 @@ export default function Navigation() {
                 data-testid="link-products"
                 aria-expanded={productsOpen}
               >
-                Products
+                {t('nav.products')}
                 <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`} />
               </button>
               {productsOpen && (
@@ -98,7 +98,7 @@ export default function Navigation() {
                           <span className="text-sm font-medium text-foreground">{p.name}</span>
                           {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
                         </div>
-                        <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
+                        <p className="text-xs text-muted-foreground mt-0.5">{t(p.taglineKey)}</p>
                       </button>
                     ))}
                   </div>
@@ -166,7 +166,7 @@ export default function Navigation() {
                 className="flex items-center justify-between w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
                 data-testid="mobile-link-products"
               >
-                Products
+                {t('nav.products')}
                 <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${mobileProductsOpen ? "rotate-180" : ""}`} />
               </button>
               {mobileProductsOpen && (
@@ -177,7 +177,7 @@ export default function Navigation() {
                         <span className="text-sm font-medium text-foreground">{p.name}</span>
                         {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
                       </div>
-                      <p className="text-xs text-muted-foreground mt-0.5">{p.tagline}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">{t(p.taglineKey)}</p>
                     </button>
                   ))}
                 </div>

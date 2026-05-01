@@ -7,7 +7,11 @@
     "bookConsultation": "Kostenlose Beratung buchen",
     "pricing": "Preise",
     "features": "Funktionen",
-    "downloads": "Downloads"
+    "downloads": "Downloads",
+    "signIn": "Anmelden",
+    "products": "Produkte",
+    "btpxidTagline": "SAP BTP Benutzerverwaltung",
+    "claudeCliTagline": "Sichern und durchsuchen Sie Gespräche"
   },
   "meta": {
     "home": {
@@ -1635,6 +1639,24 @@
       "monthly": "Monatlich",
       "annual": "Jährlich",
       "save": "17% sparen"
+    },
+    "features": {
+      "label": "Fähigkeiten",
+      "title1": "Alles, was Sie brauchen.",
+      "title2": "Nichts, was Sie nicht brauchen.",
+      "subtitle": "Entwickelt von SAP BTP-Experten, die es satt waren, zwischen Cockpit-Tabs zu jonglieren.",
+      "0": { "title": "Multi-Global Account", "description": "Verbinden und verwalten Sie mehrere globale Konten gleichzeitig. Kein Cockpit-Wechsel mehr." },
+      "1": { "title": "Einheitliche Benutzeransicht", "description": "Sehen Sie jeden Benutzer in Unterkonten, CF-Organisationen, CF-Bereichen und Service-Benutzern — alles auf einem Bildschirm." },
+      "2": { "title": "Rückwärtssuche", "description": "Finden Sie jeden Benutzer und sehen Sie sofort überall, wo er hinzugefügt wurde. Kein Rätselraten mehr." },
+      "3": { "title": "Service-Benutzerverwaltung", "description": "Verwalten Sie Service-Benutzer neben Plattform-Benutzern. Vollständige Lebenszyklussteuerung an einem Ort." },
+      "4": { "title": "Massenoperationen", "description": "Fügen Sie Benutzer hinzu, entfernen Sie sie oder aktualisieren Sie sie in mehreren Konten und Bereichen in einer Aktion." },
+      "5": { "title": "Rollenverwaltung", "description": "Weisen Sie Rollenkollektionen über alle Bereiche zu und entfernen Sie sie — Global Account, Unterkonto, CF Org und CF Space — in wenigen Klicks." }
+    },
+    "showcase": {
+      "label": "In Aktion sehen",
+      "title1": "Gebaut für SAP BTP Administratoren.",
+      "title2": "Von SAP BTP Experten.",
+      "subtitle": "Die einzige Desktop-App speziell für SAP BTP-Benutzerverwaltung — sehen Sie jeden Benutzer in globalen Konten, Unterkonten, CF-Organisationen und CF-Bereichen in einer einheitlichen Liste."
     }
   }
 }

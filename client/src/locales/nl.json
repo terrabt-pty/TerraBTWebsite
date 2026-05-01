@@ -7,7 +7,11 @@
     "bookConsultation": "Gratis consultatie boeken",
     "pricing": "Prijzen",
     "features": "Functies",
-    "downloads": "Downloads"
+    "downloads": "Downloads",
+    "signIn": "Aanmelden",
+    "products": "Producten",
+    "btpxidTagline": "SAP BTP-gebruikersbeheer",
+    "claudeCliTagline": "Back-up en zoeken in gesprekken"
   },
   "meta": {
     "home": {
@@ -1628,6 +1632,24 @@
       "monthly": "Maandelijks",
       "annual": "Jaarlijks",
       "save": "Bespaar 17%"
+    },
+    "features": {
+      "label": "Mogelijkheden",
+      "title1": "Alles wat u nodig hebt.",
+      "title2": "Niets wat u niet nodig hebt.",
+      "subtitle": "Gebouwd door SAP BTP-experts die het beu waren cockpit-tabs te jongleren.",
+      "0": { "title": "Multi-Global Account", "description": "Verbind en beheer meerdere globale accounts tegelijk. Geen gedoe meer met het schakelen tussen cockpits." },
+      "1": { "title": "Unified User View", "description": "Zie elke gebruiker in alle sub-accounts, CF orgs, CF spaces en service users — allemaal in één scherm." },
+      "2": { "title": "Reverse Search", "description": "Vind elke gebruiker en zie direct overal waar ze zijn toegevoegd. Geen gissen meer." },
+      "3": { "title": "Service User Management", "description": "Beheer service users naast platform users. Volledige lifecycle controle vanaf één plek." },
+      "4": { "title": "Bulk Operations", "description": "Voeg gebruikers in bulk toe, verwijder of update ze in meerdere accounts en spaces in één actie." },
+      "5": { "title": "Role Management", "description": "Wijs role collections toe en verwijder ze in elk bereik — Global Account, Subaccount, CF Org en CF Space — in enkele kliks." }
+    },
+    "showcase": {
+      "label": "Zie het in actie",
+      "title1": "Gebouwd voor SAP BTP admins.",
+      "title2": "Door SAP BTP experts.",
+      "subtitle": "De enige desktop app speciaal gebouwd voor SAP BTP-gebruikersbeheer — bekijk elke gebruiker in globale accounts, sub-accounts, CF orgs en CF spaces in één uniforme lijst."
     }
   }
 }

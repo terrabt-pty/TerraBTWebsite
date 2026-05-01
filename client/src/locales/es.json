@@ -7,7 +7,11 @@
     "bookConsultation": "Reservar consulta gratuita",
     "pricing": "Precios",
     "features": "Características",
-    "downloads": "Descargas"
+    "downloads": "Descargas",
+    "signIn": "Iniciar sesión",
+    "products": "Productos",
+    "btpxidTagline": "Gestión de usuarios de SAP BTP",
+    "claudeCliTagline": "Respalda y busca conversaciones"
   },
   "meta": {
     "home": {
@@ -1634,6 +1638,24 @@
       "monthly": "Mensual",
       "annual": "Anual",
       "save": "Ahorre 17%"
+    },
+    "features": {
+      "label": "Capacidades",
+      "title1": "Todo lo que necesitas.",
+      "title2": "Nada que no necesites.",
+      "subtitle": "Construido por expertos en SAP BTP cansados de hacer malabarismos con pestañas de cockpit.",
+      "0": { "title": "Cuenta Global Múltiple", "description": "Conecte y administre varias cuentas globales simultáneamente. Sin más cambios entre cockpits." },
+      "1": { "title": "Vista Unificada de Usuarios", "description": "Vea cada usuario en todas las subcuentas, organizaciones CF, espacios CF y usuarios de servicio — todo en una sola pantalla." },
+      "2": { "title": "Búsqueda Inversa", "description": "Encuentre cualquier usuario y vea instantáneamente en todas partes donde fue agregado. Sin más conjeturas." },
+      "3": { "title": "Gestión de Usuarios de Servicio", "description": "Administre usuarios de servicio junto con usuarios de plataforma. Control completo del ciclo de vida desde un solo lugar." },
+      "4": { "title": "Operaciones en Masa", "description": "Agregue, elimine o actualice usuarios en múltiples cuentas y espacios en una sola acción." },
+      "5": { "title": "Gestión de Roles", "description": "Asigne y elimine colecciones de funciones en todos los ámbitos — Cuenta Global, Subcuenta, Organización CF y Espacio CF — en unos pocos clics." }
+    },
+    "showcase": {
+      "label": "Míralo en Acción",
+      "title1": "Construido para administradores de SAP BTP.",
+      "title2": "Por expertos en SAP BTP.",
+      "subtitle": "La única aplicación de escritorio diseñada específicamente para la gestión de usuarios de SAP BTP — vea cada usuario en cuentas globales, subcuentas, organizaciones CF y espacios CF en una lista unificada."
     }
   }
 }

@@ -8,7 +8,10 @@
     "signIn": "Sign In",
     "pricing": "Pricing",
     "features": "Features",
-    "downloads": "Downloads"
+    "downloads": "Downloads",
+    "products": "Products",
+    "btpxidTagline": "SAP BTP user management",
+    "claudeCliTagline": "Back up & search conversations"
   },
   "meta": {
     "home": {
@@ -1660,6 +1663,42 @@
       "billedAnnually": "billed annually (${{amount}}/yr)",
       "contactSales": "Contact Sales",
       "getStarted": "Get Started"
+    },
+    "features": {
+      "label": "Capabilities",
+      "title1": "Everything you need.",
+      "title2": "Nothing you don't.",
+      "subtitle": "Built by SAP BTP experts who were tired of juggling cockpit tabs.",
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Connect and manage multiple global accounts simultaneously. No more switching between cockpits."
+      },
+      "1": {
+        "title": "Unified User View",
+        "description": "See every user across sub-accounts, CF orgs, CF spaces, and service users — all in one screen."
+      },
+      "2": {
+        "title": "Reverse Search",
+        "description": "Find any user and instantly see everywhere they're added. No more guesswork."
+      },
+      "3": {
+        "title": "Service User Management",
+        "description": "Manage service users alongside platform users. Full lifecycle control from one place."
+      },
+      "4": {
+        "title": "Bulk Operations",
+        "description": "Add, remove, or update users across multiple accounts and spaces in a single action."
+      },
+      "5": {
+        "title": "Role Management",
+        "description": "Assign and remove role collections across every scope — Global Account, Subaccount, CF Org, and CF Space — in a few clicks."
+      }
+    },
+    "showcase": {
+      "label": "See It In Action",
+      "title1": "Built for SAP BTP admins.",
+      "title2": "By SAP BTP experts.",
+      "subtitle": "The only desktop app purpose-built for SAP BTP user management — view every user across global accounts, sub-accounts, CF orgs, and CF spaces in one unified list."
     }
   }
 }

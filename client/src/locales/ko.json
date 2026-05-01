@@ -7,7 +7,11 @@
     "bookConsultation": "무료 상담 예약",
     "pricing": "가격",
     "features": "기능",
-    "downloads": "다운로드"
+    "downloads": "다운로드",
+    "signIn": "로그인",
+    "products": "제품",
+    "btpxidTagline": "SAP BTP 사용자 관리",
+    "claudeCliTagline": "대화 백업 및 검색"
   },
   "meta": {
     "home": {
@@ -1630,6 +1634,24 @@
       "billedAnnually": "연간 청구 (${{amount}}/년)",
       "contactSales": "영업팀 문의",
       "getStarted": "시작하기"
+    },
+    "features": {
+      "label": "기능",
+      "title1": "필요한 모든 것.",
+      "title2": "필요하지 않은 것은 없습니다.",
+      "subtitle": "승인표 전환에 지쳐있던 SAP BTP 전문가들이 만들었습니다.",
+      "0": { "title": "다중 글로벌 계정", "description": "여러 글로벌 계정을 동시에 연결하고 관리하세요. 승인표 사이를 전환할 필요 없음." },
+      "1": { "title": "통합 사용자 보기", "description": "서브 계정, CF 조직, CF 공간 및 서비스 사용자 전체에서 모든 사용자를 한 화면에서 확인하세요." },
+      "2": { "title": "역검색", "description": "모든 사용자를 찾고 그들이 추가된 곳을 즉시 확인하세요. 더 이상 추측할 필요 없습니다." },
+      "3": { "title": "서비스 사용자 관리", "description": "플랫폼 사용자와 함께 서비스 사용자를 관리하세요. 한 곳에서 완전한 생명 주기 제어." },
+      "4": { "title": "일괄 작업", "description": "한 번의 작업으로 여러 계정 및 공간에 걸쳐 사용자를 추가, 제거 또는 업데이트하세요." },
+      "5": { "title": "역할 관리", "description": "글로벌 계정, 서브 계정, CF 조직 및 CF 공간의 모든 범위에서 역할 컬렉션을 할당하고 제거하세요 — 몇 번의 클릭으로." }
+    },
+    "showcase": {
+      "label": "실제 사용",
+      "title1": "SAP BTP 관리자를 위해 만들어졌습니다.",
+      "title2": "SAP BTP 전문가들이 개발했습니다.",
+      "subtitle": "SAP BTP 사용자 관리를 위해 특별히 제작된 유일한 데스크톱 앱 — 모든 글로벌 계정, 서브 계정, CF 조직 및 CF 공간의 모든 사용자를 하나의 통합 목록에서 보세요."
     },
     "billing": {
       "monthly": "월간",

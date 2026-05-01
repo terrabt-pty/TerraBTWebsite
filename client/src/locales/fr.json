@@ -7,7 +7,11 @@
     "bookConsultation": "Réserver une Consultation Gratuite",
     "pricing": "Tarifs",
     "features": "Fonctionnalités",
-    "downloads": "Téléchargements"
+    "downloads": "Téléchargements",
+    "signIn": "Se connecter",
+    "products": "Produits",
+    "btpxidTagline": "Gestion des utilisateurs SAP BTP",
+    "claudeCliTagline": "Sauvegardez et recherchez les conversations"
   },
   "meta": {
     "home": {
@@ -1628,6 +1632,24 @@
       "monthly": "Mensuel",
       "annual": "Annuel",
       "save": "Économisez 17%"
+    },
+    "features": {
+      "label": "Capacités",
+      "title1": "Tout ce qu'il vous faut.",
+      "title2": "Rien que vous n'avez pas besoin.",
+      "subtitle": "Créé par des experts SAP BTP fatigués de jongler avec les onglets du cockpit.",
+      "0": { "title": "Compte Global Multiples", "description": "Connectez et gérez plusieurs comptes globaux simultanément. Plus besoin de basculer entre les cockpits." },
+      "1": { "title": "Vue Utilisateur Unifiée", "description": "Voyez chaque utilisateur dans les sous-comptes, les organisations CF, les espaces CF et les utilisateurs de service — tout sur un seul écran." },
+      "2": { "title": "Recherche Inverse", "description": "Trouvez n'importe quel utilisateur et voyez instantanément partout où il a été ajouté. Plus de conjecture." },
+      "3": { "title": "Gestion des Utilisateurs de Service", "description": "Gérez les utilisateurs de service aux côtés des utilisateurs de plateforme. Contrôle complet du cycle de vie à partir d'un seul endroit." },
+      "4": { "title": "Opérations en Masse", "description": "Ajoutez, supprimez ou mettez à jour des utilisateurs sur plusieurs comptes et espaces en une seule action." },
+      "5": { "title": "Gestion des Rôles", "description": "Attribuez et supprimez les collections de rôles dans tous les périmètres — Compte Global, Sous-Compte, Organisation CF et Espace CF — en quelques clics." }
+    },
+    "showcase": {
+      "label": "Voir en Action",
+      "title1": "Construit pour les administrateurs SAP BTP.",
+      "title2": "Par des experts SAP BTP.",
+      "subtitle": "La seule application de bureau spécialement conçue pour la gestion des utilisateurs SAP BTP — visualisez chaque utilisateur dans les comptes globaux, les sous-comptes, les organisations CF et les espaces CF dans une liste unifiée."
     }
   }
 }

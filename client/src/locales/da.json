@@ -7,7 +7,11 @@
     "bookConsultation": "Book gratis konsultation",
     "pricing": "Priser",
     "features": "Funktioner",
-    "downloads": "Downloads"
+    "downloads": "Downloads",
+    "signIn": "Log ind",
+    "products": "Produkter",
+    "btpxidTagline": "SAP BTP brugeradministration",
+    "claudeCliTagline": "Sikkerhedskopier og søg i samtaler"
   },
   "meta": {
     "home": {
@@ -1625,6 +1629,24 @@
       "monthly": "Månedligt",
       "annual": "Årligt",
       "save": "Spar 17 %"
+    },
+    "features": {
+      "label": "Funktioner",
+      "title1": "Alt du har brug for.",
+      "title2": "Intet du ikke har.",
+      "subtitle": "Bygget af SAP BTP-eksperter, der var trætte af at navigere mellem cockpit-faner.",
+      "0": { "title": "Multi-Global Account", "description": "Forbind og administrer flere globale konti samtidigt. Ikke mere skift mellem cockpits." },
+      "1": { "title": "Ensartet brugeroversigt", "description": "Se alle brugere på tværs af underkonti, CF-organisationer, CF-rum og servicebrugere — alt på ét skærmbillede." },
+      "2": { "title": "Omvendt søgning", "description": "Find en bruger og se øjeblikkeligt overalt, hvor de er tilføjet. Ikke mere gætteri." },
+      "3": { "title": "Administration af servicebrugere", "description": "Administrer servicebrugere sammen med platformbrugere. Fuld livscyklushendelsesstryring fra ét sted." },
+      "4": { "title": "Bulkoperationer", "description": "Tilføj, fjern eller opdater brugere på tværs af flere konti og rum i en enkelt handling." },
+      "5": { "title": "Rollehåndtering", "description": "Tildel og fjern rollesamlinger på tværs af alle områder — Global Account, Underkonto, CF Org og CF Space — på få klik." }
+    },
+    "showcase": {
+      "label": "Se det i aktion",
+      "title1": "Bygget til SAP BTP-administratorer.",
+      "title2": "Af SAP BTP-eksperter.",
+      "subtitle": "Det eneste skrivebordsprogram designet specielt til SAP BTP-brugeradministration — se alle brugere på tværs af globale konti, underkonti, CF-organisationer og CF-rum på én samlet liste."
     },
     "pricing": {
       "label": "Priser",
