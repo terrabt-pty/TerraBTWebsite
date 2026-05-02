@@ -19,8 +19,9 @@ export default function LanguageRedirect() {
       
       if (detectedLang !== 'en') {
         saveBrowserLanguage(detectedLang);
+        const search = window.location.search;
         const newPath = location === '/' ? `/${detectedLang}` : `/${detectedLang}${location}`;
-        setLocation(newPath);
+        setLocation(`${newPath}${search}`);
       }
     }
   }, []);
