@@ -156,7 +156,7 @@ const FALLBACK_PACKAGES: PricingPackage[] = [
       "Service Key Management",
       "Assign users across multiple accounts in one click",
     ],
-    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "AUD",
+    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "USD",
     isFeatured: false, featuredLabel: null,
     ctaLabel: "Start Free Trial", ctaUrl: "#download",
     contactEmail: null, pricePeriodLabel: "/ 90 days",
@@ -173,7 +173,7 @@ const FALLBACK_PACKAGES: PricingPackage[] = [
       "Service Key Management",
       "Assign users across multiple accounts in one click",
     ],
-    displayPriceMonthly: 20000, displayPriceAnnual: 200000, displayCurrency: "AUD",
+    displayPriceMonthly: 20000, displayPriceAnnual: 200000, displayCurrency: "USD",
     isFeatured: true, featuredLabel: null,
     ctaLabel: "Subscribe", ctaUrl: "https://accounts.terrabt.com/auth/login",
     contactEmail: null, pricePeriodLabel: "/ month",
@@ -485,16 +485,16 @@ export default function BTPxIDProduct() {
                   <a href={`mailto:${pkg.contactEmail}`} className="btpxid-plan-btn">
                     {pkg.ctaLabel || t('btpxidProduct.pricing.contactSales')}
                   </a>
-                ) : pkg.ctaUrl?.startsWith("#") ? (
-                  <button
-                    onClick={() => scrollToSection(pkg.ctaUrl!)}
+                ) : pkg.displayPriceMonthly === 0 && pkg.displayPriceAnnual === 0 ? (
+                  <a
+                    href={`https://accounts.terrabt.com/auth/register?lang=${i18n.language}`}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
-                  </button>
+                  </a>
                 ) : (
                   <a
-                    href={pkg.ctaUrl ? `${pkg.ctaUrl}?lang=${i18n.language}` : "#"}
+                    href={`https://accounts.terrabt.com/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}`}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
