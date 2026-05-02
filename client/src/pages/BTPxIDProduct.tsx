@@ -210,6 +210,11 @@ export default function BTPxIDProduct() {
   const [billingInterval, setBillingInterval] = useState<"monthly" | "annual">("monthly");
   const { getLocalizedPath } = useLocalizedPath();
 
+  // ?portal=test routes to accounts-test for internal testing without real payments
+  const portalBase = new URLSearchParams(window.location.search).get("portal") === "test"
+    ? "https://accounts-test.terrabt.com"
+    : "https://accounts.terrabt.com";
+
   const VALUE_PROPS = VALUE_PROP_DOTS.map((dot, i) => ({
     text: t(`btpxidProduct.valueProps.${i}`),
     dot,
@@ -221,7 +226,7 @@ export default function BTPxIDProduct() {
   }, []);
 
   useEffect(() => {
-    fetch("https://accounts.terrabt.com/api/catalog/packages?product=SAPBTPUserManagement")
+    fetch(`${portalBase}/api/catalog/packages?product=SAPBTPUserManagement`)
       .then((r) => r.json())
       .then((products: Array<{ name: string; packages: PricingPackage[] }>) => {
         if (products.length > 0 && products[0].packages.length > 0) {
@@ -229,7 +234,7 @@ export default function BTPxIDProduct() {
         }
       })
       .catch(() => { /* fallback stays */ });
-  }, []);
+  }, [portalBase]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -487,14 +492,14 @@ export default function BTPxIDProduct() {
                   </a>
                 ) : pkg.displayPriceMonthly === 0 && pkg.displayPriceAnnual === 0 ? (
                   <a
-                    href={`https://accounts.terrabt.com/auth/register?lang=${i18n.language}`}
+                    href={`${portalBase}/auth/register?lang=${i18n.language}`}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
                   </a>
                 ) : (
                   <a
-                    href={`https://accounts.terrabt.com/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}`}
+                    href={`${portalBase}/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}`}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
