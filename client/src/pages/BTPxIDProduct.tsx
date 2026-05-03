@@ -499,7 +499,7 @@ export default function BTPxIDProduct() {
                   </a>
                 ) : (
                   <a
-                    href={`${portalBase}/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}`}
+                    href={`${portalBase}/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}&returnUrl=${encodeURIComponent(window.location.href.split('?')[0])}`}
                     className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
                   >
                     {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
