@@ -5,6 +5,7 @@ import heroImage from "@assets/TerraBT Page Background_1762664523373.webp";
 
 export default function HeroSection() {
   const { t } = useTranslation();
+  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -34,7 +35,7 @@ export default function HeroSection() {
             {t('hero.subtitle')}
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+          {!isANZ && <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button
               size="lg"
               className="w-full sm:w-auto text-base px-8 h-12 shadow-lg shadow-primary/20 hero-cta-gradient"
@@ -53,7 +54,7 @@ export default function HeroSection() {
             >
               {t('hero.learn')}
             </Button>
-          </div>
+          </div>}
 
         </div>
       </div>

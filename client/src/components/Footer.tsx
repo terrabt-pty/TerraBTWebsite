@@ -24,7 +24,7 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className={`grid grid-cols-1 gap-8 mb-8 ${isANZ ? 'md:grid-cols-2' : 'md:grid-cols-4'}`}>
+        {!isANZ && <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <Logo className="h-10" data-testid="img-footer-logo" />
             <p className="text-sm text-muted-foreground">
@@ -159,7 +159,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
+        </div>}
 
         <div className="pt-8 border-t space-y-6">
           <div className="space-y-3">
