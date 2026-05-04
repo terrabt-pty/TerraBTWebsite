@@ -78,7 +78,7 @@
       "badge": "Odak Noktamız",
       "title": "%100 SAP BTP Uzmanlığı",
       "description": "Genel danışmanlık firmalarının aksine, sadece SAP İş Teknolojisi Platformu'na odaklanarak işletmeniz için derin uzmanlık ve en son teknoloji çözümler sunuyoruz.",
-      "point1": "Sertifikalı SAP BTP uzmanlarından oluşan özel ekip",
+      "point1": "Adanmış SAP BTP uzmanlar ekibi",
       "point2": "En son BTP özellikleri ve en iyi uygulamalarla güncel kalma",
       "point3": "Çeşitli sektörlerde kanıtlanmış başarı geçmişi"
     },
@@ -1634,12 +1634,30 @@
       "title1": "İhtiyacınız olan her şey.",
       "title2": "İstemediğiniz hiçbir şey değil.",
       "subtitle": "SAP BTP uzmanları tarafından tasarlanan, kontrol panelinde gezinmekten bıkıp yapılmış.",
-      "0": { "title": "Çoklu Global Hesap", "description": "Birden fazla global hesabı aynı anda bağlayın ve yönetin. Artık kontrol panelleri arasında geçiş yapmanıza gerek yok." },
-      "1": { "title": "Birleştirilmiş Kullanıcı Görünümü", "description": "Alt hesaplar, CF kuruluşları, CF alanları ve hizmet kullanıcıları arasında her kullanıcıyı görmek - hepsi tek bir ekranda." },
-      "2": { "title": "Ters Arama", "description": "Herhangi bir kullanıcıyı bulun ve anında nerede eklendiğini görün. Artık tahmin yok." },
-      "3": { "title": "Hizmet Kullanıcı Yönetimi", "description": "Hizmet kullanıcılarını platform kullanıcılarıyla birlikte yönetin. Tek bir yerden tam yaşam döngüsü kontrolü." },
-      "4": { "title": "Toplu İşlemler", "description": "Birden fazla hesap ve alan arasında kullanıcıları tek bir işlemde ekleyin, kaldırın veya güncelleyin." },
-      "5": { "title": "Rol Yönetimi", "description": "Global Hesap, Alt Hesap, CF Kuruluşu ve CF Alanı gibi her kapsamda rol koleksiyonları atayın ve kaldırın." }
+      "0": {
+        "title": "Çoklu Global Hesap",
+        "description": "Birden fazla global hesabı aynı anda bağlayın ve yönetin. Artık kontrol panelleri arasında geçiş yapmanıza gerek yok."
+      },
+      "1": {
+        "title": "Birleştirilmiş Kullanıcı Görünümü",
+        "description": "Alt hesaplar, CF kuruluşları, CF alanları ve hizmet kullanıcıları arasında her kullanıcıyı görmek - hepsi tek bir ekranda."
+      },
+      "2": {
+        "title": "Ters Arama",
+        "description": "Herhangi bir kullanıcıyı bulun ve anında nerede eklendiğini görün. Artık tahmin yok."
+      },
+      "3": {
+        "title": "Hizmet Kullanıcı Yönetimi",
+        "description": "Hizmet kullanıcılarını platform kullanıcılarıyla birlikte yönetin. Tek bir yerden tam yaşam döngüsü kontrolü."
+      },
+      "4": {
+        "title": "Toplu İşlemler",
+        "description": "Birden fazla hesap ve alan arasında kullanıcıları tek bir işlemde ekleyin, kaldırın veya güncelleyin."
+      },
+      "5": {
+        "title": "Rol Yönetimi",
+        "description": "Global Hesap, Alt Hesap, CF Kuruluşu ve CF Alanı gibi her kapsamda rol koleksiyonları atayın ve kaldırın."
+      }
     },
     "showcase": {
       "label": "Uygulamada Görmek",

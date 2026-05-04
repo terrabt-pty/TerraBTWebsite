@@ -78,7 +78,7 @@
       "badge": "Nuestro Enfoque",
       "title": "100% Especialización en SAP BTP",
       "description": "A diferencia de las empresas de consultoría generalistas, nos enfocamos exclusivamente en SAP Business Technology Platform, garantizando experiencia profunda y soluciones de vanguardia para su negocio.",
-      "point1": "Equipo dedicado de expertos certificados en SAP BTP",
+      "point1": "Equipo dedicado de expertos en SAP BTP",
       "point2": "Actualizado con las últimas características y mejores prácticas de BTP",
       "point3": "Historial comprobado en múltiples industrias"
     },
@@ -1644,12 +1644,30 @@
       "title1": "Todo lo que necesitas.",
       "title2": "Nada que no necesites.",
       "subtitle": "Construido por expertos en SAP BTP cansados de hacer malabarismos con pestañas de cockpit.",
-      "0": { "title": "Cuenta Global Múltiple", "description": "Conecte y administre varias cuentas globales simultáneamente. Sin más cambios entre cockpits." },
-      "1": { "title": "Vista Unificada de Usuarios", "description": "Vea cada usuario en todas las subcuentas, organizaciones CF, espacios CF y usuarios de servicio — todo en una sola pantalla." },
-      "2": { "title": "Búsqueda Inversa", "description": "Encuentre cualquier usuario y vea instantáneamente en todas partes donde fue agregado. Sin más conjeturas." },
-      "3": { "title": "Gestión de Usuarios de Servicio", "description": "Administre usuarios de servicio junto con usuarios de plataforma. Control completo del ciclo de vida desde un solo lugar." },
-      "4": { "title": "Operaciones en Masa", "description": "Agregue, elimine o actualice usuarios en múltiples cuentas y espacios en una sola acción." },
-      "5": { "title": "Gestión de Roles", "description": "Asigne y elimine colecciones de funciones en todos los ámbitos — Cuenta Global, Subcuenta, Organización CF y Espacio CF — en unos pocos clics." }
+      "0": {
+        "title": "Cuenta Global Múltiple",
+        "description": "Conecte y administre varias cuentas globales simultáneamente. Sin más cambios entre cockpits."
+      },
+      "1": {
+        "title": "Vista Unificada de Usuarios",
+        "description": "Vea cada usuario en todas las subcuentas, organizaciones CF, espacios CF y usuarios de servicio — todo en una sola pantalla."
+      },
+      "2": {
+        "title": "Búsqueda Inversa",
+        "description": "Encuentre cualquier usuario y vea instantáneamente en todas partes donde fue agregado. Sin más conjeturas."
+      },
+      "3": {
+        "title": "Gestión de Usuarios de Servicio",
+        "description": "Administre usuarios de servicio junto con usuarios de plataforma. Control completo del ciclo de vida desde un solo lugar."
+      },
+      "4": {
+        "title": "Operaciones en Masa",
+        "description": "Agregue, elimine o actualice usuarios en múltiples cuentas y espacios en una sola acción."
+      },
+      "5": {
+        "title": "Gestión de Roles",
+        "description": "Asigne y elimine colecciones de funciones en todos los ámbitos — Cuenta Global, Subcuenta, Organización CF y Espacio CF — en unos pocos clics."
+      }
     },
     "showcase": {
       "label": "Míralo en Acción",

@@ -78,7 +78,7 @@
       "badge": "Vår fokus",
       "title": "100% SAP BTP-spesialisering",
       "description": "I motsetning til generalistiske konsulentfirmaer fokuserer vi utelukkende på SAP Business Technology Platform, noe som sikrer dyp ekspertise og banebrytende løsninger for din bedrift.",
-      "point1": "Dedikert team av sertifiserte SAP BTP-eksperter",
+      "point1": "Dedikert team av SAP BTP-eksperter",
       "point2": "Alltid oppdatert med siste BTP-funksjoner og beste praksis",
       "point3": "Beviste resultater på tvers av flere bransjer"
     },
@@ -1635,12 +1635,30 @@
       "title1": "Alt du trenger.",
       "title2": "Ingenting du ikke gjør.",
       "subtitle": "Bygget av SAP BTP-eksperter som var lei av å navigere mellom cockpit-faner.",
-      "0": { "title": "Multi-Global Account", "description": "Koble til og håndter flere globale kontoer samtidig. Ikke flere bytte mellom cockpits." },
-      "1": { "title": "Enhetlig brukeroversikt", "description": "Se alle brukere på tvers av underkontoer, CF-organisasjoner, CF-rom og tjenestebrukere — alt på en skjerm." },
-      "2": { "title": "Omvendt søk", "description": "Finn enhver bruker og se øyeblikkelig overalt de er lagt til. Ikke mer gjetting." },
-      "3": { "title": "Håndtering av tjenestbrukere", "description": "Håndter tjenestebrukere sammen med plattformbrukere. Full livssykluskontroll fra ett sted." },
-      "4": { "title": "Masseoperasjoner", "description": "Legg til, fjern eller oppdater brukere på tvers av flere kontoer og rom i en enkelt handling." },
-      "5": { "title": "Rollehåndtering", "description": "Tilordne og fjern rollesamlinger på tvers av alle omfang — Global Account, Underkonto, CF Org og CF Space — på noen få klikk." }
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Koble til og håndter flere globale kontoer samtidig. Ikke flere bytte mellom cockpits."
+      },
+      "1": {
+        "title": "Enhetlig brukeroversikt",
+        "description": "Se alle brukere på tvers av underkontoer, CF-organisasjoner, CF-rom og tjenestebrukere — alt på en skjerm."
+      },
+      "2": {
+        "title": "Omvendt søk",
+        "description": "Finn enhver bruker og se øyeblikkelig overalt de er lagt til. Ikke mer gjetting."
+      },
+      "3": {
+        "title": "Håndtering av tjenestbrukere",
+        "description": "Håndter tjenestebrukere sammen med plattformbrukere. Full livssykluskontroll fra ett sted."
+      },
+      "4": {
+        "title": "Masseoperasjoner",
+        "description": "Legg til, fjern eller oppdater brukere på tvers av flere kontoer og rom i en enkelt handling."
+      },
+      "5": {
+        "title": "Rollehåndtering",
+        "description": "Tilordne og fjern rollesamlinger på tvers av alle omfang — Global Account, Underkonto, CF Org og CF Space — på noen få klikk."
+      }
     },
     "showcase": {
       "label": "Se det i aksjon",

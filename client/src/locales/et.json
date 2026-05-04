@@ -78,7 +78,7 @@
       "badge": "Meie fookus",
       "title": "100% SAP BTP spetsialiseerumine",
       "description": "Erinevalt üldistest konsultatsioonifirmadest spetsialiseerume välistult SAP Business Technology Platformile, tagades sügava teadmiste ja uusimate lahenduste.",
-      "point1": "Detsentraliseeritud sertifitseeritud SAP BTP ekspertide meeskond",
+      "point1": "Pühendatud SAP BTP ekspertide meeskond",
       "point2": "Alati kursis uusimate BTP funktsioonide ja parimaid praktikate",
       "point3": "Tõestatud edud erinevates tööstusharudes"
     },
@@ -1630,12 +1630,30 @@
       "title1": "Kõik, mida vajate.",
       "title2": "Midagi, mida te ei vaja.",
       "subtitle": "Loodud SAP BTP ekspertide poolt, kes olid väsinud cockpiti vahekaartide vahetamisest.",
-      "0": { "title": "Mitu Global Account", "description": "Ühendage ja hallake mitut globaalset kontot korraga. Pole enam vaja cockpiti vaheldada." },
-      "1": { "title": "Ühtne kasutajate vaade", "description": "Vaadake kõiki kasutajaid kõigis alamkontodes, CF org, CF space ja teenuste kasutajates — kõik ühel ekraanil." },
-      "2": { "title": "Pöördotsing", "description": "Leidke iga kasutaja ja näe kohe, kuhu ta on lisatud. Pole enam arvamist." },
-      "3": { "title": "Teenuste kasutajate haldamine", "description": "Hallake teenuste kasutajaid koos platvormikasutajatega. Täielik elutsükli kontroll ühest kohast." },
-      "4": { "title": "Masskeskkondade operatsioonid", "description": "Lisage, eemaldage või värskendage kasutajaid üle mitme konto ja ruumi ühe toiminguga." },
-      "5": { "title": "Rollide haldamine", "description": "Määrake ja eemaldage role collections kõigis ulatustes — Global Account, Subaccount, CF Org ja CF Space — paari klõpsuga." }
+      "0": {
+        "title": "Mitu Global Account",
+        "description": "Ühendage ja hallake mitut globaalset kontot korraga. Pole enam vaja cockpiti vaheldada."
+      },
+      "1": {
+        "title": "Ühtne kasutajate vaade",
+        "description": "Vaadake kõiki kasutajaid kõigis alamkontodes, CF org, CF space ja teenuste kasutajates — kõik ühel ekraanil."
+      },
+      "2": {
+        "title": "Pöördotsing",
+        "description": "Leidke iga kasutaja ja näe kohe, kuhu ta on lisatud. Pole enam arvamist."
+      },
+      "3": {
+        "title": "Teenuste kasutajate haldamine",
+        "description": "Hallake teenuste kasutajaid koos platvormikasutajatega. Täielik elutsükli kontroll ühest kohast."
+      },
+      "4": {
+        "title": "Masskeskkondade operatsioonid",
+        "description": "Lisage, eemaldage või värskendage kasutajaid üle mitme konto ja ruumi ühe toiminguga."
+      },
+      "5": {
+        "title": "Rollide haldamine",
+        "description": "Määrake ja eemaldage role collections kõigis ulatustes — Global Account, Subaccount, CF Org ja CF Space — paari klõpsuga."
+      }
     },
     "showcase": {
       "label": "Vaadake toimel",

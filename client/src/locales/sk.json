@@ -78,7 +78,7 @@
       "badge": "Naša špecializácia",
       "title": "100% zameranie na SAP BTP",
       "description": "Na rozdiel od všeobecných poradenských firiem sa zameriavame výhradne na SAP Business Technology Platform, čím zabezpečujeme hlbokú odbornosť a špičkové riešenia.",
-      "point1": "Dedikovaný tím certifikovaných expertov na SAP BTP",
+      "point1": "Dedikovaný tím experti SAP BTP",
       "point2": "Aktuálny prehľad o najnovších funkciách a postupoch v BTP",
       "point3": "Preukázateľné úspechy v rôznych odvetviach"
     },
@@ -1644,12 +1644,30 @@
       "title1": "Všetko, čo potrebuješ.",
       "title2": "Nič, čo nepotrebuješ.",
       "subtitle": "Postavené tímom SAP BTP expertov, ktorí sa unavili prepínať medzi záložkami cockpitu.",
-      "0": { "title": "Viacnásobný globálny účet", "description": "Pripojte a spravujte viaceré globálne účty zároveň. Žiadne viac prepínanie medzi cockpitmi." },
-      "1": { "title": "Jednotný prehľad používateľov", "description": "Zobrazite každého používateľa naprieč podúčtami, CF orgami, CF priestormi a servismi - všetko na jednej obrazovke." },
-      "2": { "title": "Spätné hľadanie", "description": "Nájdite ľubovoľného používateľa a okamžite pozrite, kde je pridaný. Žiadne viac hádania." },
-      "3": { "title": "Správa servisných používateľov", "description": "Spravujte servisných používateľov paralelne s platformovými používateľmi. Plná kontrola životného cyklu z jedného miesta." },
-      "4": { "title": "Hromadné operácie", "description": "Pridávajte, odstraňujte alebo aktualizujte používateľov naprieč viacerými účtami a priestormi v jednej akcii." },
-      "5": { "title": "Správa rolí", "description": "Priraďujte a odstraňujte zbierky rolí naprieč každým rozsahom — globálny účet, podúčet, CF organizácia a CF priestor — v pár klikoch." }
+      "0": {
+        "title": "Viacnásobný globálny účet",
+        "description": "Pripojte a spravujte viaceré globálne účty zároveň. Žiadne viac prepínanie medzi cockpitmi."
+      },
+      "1": {
+        "title": "Jednotný prehľad používateľov",
+        "description": "Zobrazite každého používateľa naprieč podúčtami, CF orgami, CF priestormi a servismi - všetko na jednej obrazovke."
+      },
+      "2": {
+        "title": "Spätné hľadanie",
+        "description": "Nájdite ľubovoľného používateľa a okamžite pozrite, kde je pridaný. Žiadne viac hádania."
+      },
+      "3": {
+        "title": "Správa servisných používateľov",
+        "description": "Spravujte servisných používateľov paralelne s platformovými používateľmi. Plná kontrola životného cyklu z jedného miesta."
+      },
+      "4": {
+        "title": "Hromadné operácie",
+        "description": "Pridávajte, odstraňujte alebo aktualizujte používateľov naprieč viacerými účtami a priestormi v jednej akcii."
+      },
+      "5": {
+        "title": "Správa rolí",
+        "description": "Priraďujte a odstraňujte zbierky rolí naprieč každým rozsahom — globálny účet, podúčet, CF organizácia a CF priestor — v pár klikoch."
+      }
     },
     "showcase": {
       "label": "Pozrite si to v akcii",

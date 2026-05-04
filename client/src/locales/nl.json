@@ -78,7 +78,7 @@
       "badge": "Onze Aandacht",
       "title": "100% SAP BTP-specialisatie",
       "description": "In tegenstelling tot generalistische consultancybedrijven richten wij ons uitsluitend op SAP Business Technology Platform, wat diepgaande expertise en geavanceerde oplossingen garandeert.",
-      "point1": "Dedicated team van gecertificeerde SAP BTP-experts",
+      "point1": "Dedicated team van SAP BTP-experts",
       "point2": "Altijd up-to-date met de nieuwste BTP-functies en best practices",
       "point3": "Bewezen track record in meerdere industrieën"
     },
@@ -1638,12 +1638,30 @@
       "title1": "Alles wat u nodig hebt.",
       "title2": "Niets wat u niet nodig hebt.",
       "subtitle": "Gebouwd door SAP BTP-experts die het beu waren cockpit-tabs te jongleren.",
-      "0": { "title": "Multi-Global Account", "description": "Verbind en beheer meerdere globale accounts tegelijk. Geen gedoe meer met het schakelen tussen cockpits." },
-      "1": { "title": "Unified User View", "description": "Zie elke gebruiker in alle sub-accounts, CF orgs, CF spaces en service users — allemaal in één scherm." },
-      "2": { "title": "Reverse Search", "description": "Vind elke gebruiker en zie direct overal waar ze zijn toegevoegd. Geen gissen meer." },
-      "3": { "title": "Service User Management", "description": "Beheer service users naast platform users. Volledige lifecycle controle vanaf één plek." },
-      "4": { "title": "Bulk Operations", "description": "Voeg gebruikers in bulk toe, verwijder of update ze in meerdere accounts en spaces in één actie." },
-      "5": { "title": "Role Management", "description": "Wijs role collections toe en verwijder ze in elk bereik — Global Account, Subaccount, CF Org en CF Space — in enkele kliks." }
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Verbind en beheer meerdere globale accounts tegelijk. Geen gedoe meer met het schakelen tussen cockpits."
+      },
+      "1": {
+        "title": "Unified User View",
+        "description": "Zie elke gebruiker in alle sub-accounts, CF orgs, CF spaces en service users — allemaal in één scherm."
+      },
+      "2": {
+        "title": "Reverse Search",
+        "description": "Vind elke gebruiker en zie direct overal waar ze zijn toegevoegd. Geen gissen meer."
+      },
+      "3": {
+        "title": "Service User Management",
+        "description": "Beheer service users naast platform users. Volledige lifecycle controle vanaf één plek."
+      },
+      "4": {
+        "title": "Bulk Operations",
+        "description": "Voeg gebruikers in bulk toe, verwijder of update ze in meerdere accounts en spaces in één actie."
+      },
+      "5": {
+        "title": "Role Management",
+        "description": "Wijs role collections toe en verwijder ze in elk bereik — Global Account, Subaccount, CF Org en CF Space — in enkele kliks."
+      }
     },
     "showcase": {
       "label": "Zie het in actie",

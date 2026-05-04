@@ -70,7 +70,7 @@
       "badge": "Mūsu fokuss",
       "title": "100% specializācija SAP BTP",
       "description": "Atšķirībā no vispārēja profila konsultāciju uzņēmumiem, mēs koncentrējamies tikai uz SAP Business Technology Platform, nodrošinot augstāko kompetenci.",
-      "point1": "Sertificētu SAP BTP ekspertu komanda",
+      "point1": "Veltīta SAP BTP ekspertu komanda",
       "point2": "Aktuālākās BTP funkcijas un labākā prakse",
       "point3": "Sekmīgi realizēti projekti dažādās nozarēs visā pasaulē"
     },
@@ -1621,12 +1621,30 @@
       "title1": "Viss, kas jums nepieciešams.",
       "title2": "Nekas, kas jums nav nepieciešams.",
       "subtitle": "Izveidots SAP BTP ekspertu, kuri bija noguruši pārslēgt cockpit cilnes.",
-      "0": { "title": "Vairāki Global Account", "description": "Savienojiet un pārvaldiet vairākus globālos kontus vienlaikus. Vairs nav jāpārslēdz cockpit." },
-      "1": { "title": "Vienotais lietotāju skats", "description": "Skatiet katru lietotāju visos apakškontos, CF org, CF space un pakalpojumu lietotājos — vienā ekrānā." },
-      "2": { "title": "Reversā meklēšana", "description": "Atrodiet jebkuru lietotāju un uzreiz skatiet, kur viņš ir pievienots. Bez minējumiem." },
-      "3": { "title": "Pakalpojumu lietotāju pārvaldība", "description": "Pārvaldiet pakalpojumu lietotājus līdzās platformas lietotājiem. Pilna dzīves cikla kontrole no vienas vietas." },
-      "4": { "title": "Masveidīgas operācijas", "description": "Pievienojiet, noņemiet vai atjauniniet lietotājus visos kontos un telpās vienā darbībā." },
-      "5": { "title": "Lomu pārvaldība", "description": "Piešķiriet un noņemiet role collections visos aptvērumos — Global Account, Subaccount, CF Org un CF Space — dažas klikšķa." }
+      "0": {
+        "title": "Vairāki Global Account",
+        "description": "Savienojiet un pārvaldiet vairākus globālos kontus vienlaikus. Vairs nav jāpārslēdz cockpit."
+      },
+      "1": {
+        "title": "Vienotais lietotāju skats",
+        "description": "Skatiet katru lietotāju visos apakškontos, CF org, CF space un pakalpojumu lietotājos — vienā ekrānā."
+      },
+      "2": {
+        "title": "Reversā meklēšana",
+        "description": "Atrodiet jebkuru lietotāju un uzreiz skatiet, kur viņš ir pievienots. Bez minējumiem."
+      },
+      "3": {
+        "title": "Pakalpojumu lietotāju pārvaldība",
+        "description": "Pārvaldiet pakalpojumu lietotājus līdzās platformas lietotājiem. Pilna dzīves cikla kontrole no vienas vietas."
+      },
+      "4": {
+        "title": "Masveidīgas operācijas",
+        "description": "Pievienojiet, noņemiet vai atjauniniet lietotājus visos kontos un telpās vienā darbībā."
+      },
+      "5": {
+        "title": "Lomu pārvaldība",
+        "description": "Piešķiriet un noņemiet role collections visos aptvērumos — Global Account, Subaccount, CF Org un CF Space — dažas klikšķa."
+      }
     },
     "showcase": {
       "label": "Skatīt darbībā",

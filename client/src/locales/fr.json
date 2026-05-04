@@ -78,7 +78,7 @@
       "badge": "Notre Focus",
       "title": "Spécialisation 100% SAP BTP",
       "description": "Contrairement aux cabinets de conseil généralistes, nous nous concentrons exclusivement sur la plateforme SAP Business Technology Platform, garantissant une expertise approfondie et des solutions de pointe.",
-      "point1": "Équipe dédiée d'experts SAP BTP certifiés",
+      "point1": "Équipe dédiée d'experts SAP BTP",
       "point2": "Toujours à jour avec les dernières fonctionnalités BTP et les meilleures pratiques",
       "point3": "Antécédents éprouvés dans plusieurs secteurs d'activité"
     },
@@ -1638,12 +1638,30 @@
       "title1": "Tout ce qu'il vous faut.",
       "title2": "Rien que vous n'avez pas besoin.",
       "subtitle": "Créé par des experts SAP BTP fatigués de jongler avec les onglets du cockpit.",
-      "0": { "title": "Compte Global Multiples", "description": "Connectez et gérez plusieurs comptes globaux simultanément. Plus besoin de basculer entre les cockpits." },
-      "1": { "title": "Vue Utilisateur Unifiée", "description": "Voyez chaque utilisateur dans les sous-comptes, les organisations CF, les espaces CF et les utilisateurs de service — tout sur un seul écran." },
-      "2": { "title": "Recherche Inverse", "description": "Trouvez n'importe quel utilisateur et voyez instantanément partout où il a été ajouté. Plus de conjecture." },
-      "3": { "title": "Gestion des Utilisateurs de Service", "description": "Gérez les utilisateurs de service aux côtés des utilisateurs de plateforme. Contrôle complet du cycle de vie à partir d'un seul endroit." },
-      "4": { "title": "Opérations en Masse", "description": "Ajoutez, supprimez ou mettez à jour des utilisateurs sur plusieurs comptes et espaces en une seule action." },
-      "5": { "title": "Gestion des Rôles", "description": "Attribuez et supprimez les collections de rôles dans tous les périmètres — Compte Global, Sous-Compte, Organisation CF et Espace CF — en quelques clics." }
+      "0": {
+        "title": "Compte Global Multiples",
+        "description": "Connectez et gérez plusieurs comptes globaux simultanément. Plus besoin de basculer entre les cockpits."
+      },
+      "1": {
+        "title": "Vue Utilisateur Unifiée",
+        "description": "Voyez chaque utilisateur dans les sous-comptes, les organisations CF, les espaces CF et les utilisateurs de service — tout sur un seul écran."
+      },
+      "2": {
+        "title": "Recherche Inverse",
+        "description": "Trouvez n'importe quel utilisateur et voyez instantanément partout où il a été ajouté. Plus de conjecture."
+      },
+      "3": {
+        "title": "Gestion des Utilisateurs de Service",
+        "description": "Gérez les utilisateurs de service aux côtés des utilisateurs de plateforme. Contrôle complet du cycle de vie à partir d'un seul endroit."
+      },
+      "4": {
+        "title": "Opérations en Masse",
+        "description": "Ajoutez, supprimez ou mettez à jour des utilisateurs sur plusieurs comptes et espaces en une seule action."
+      },
+      "5": {
+        "title": "Gestion des Rôles",
+        "description": "Attribuez et supprimez les collections de rôles dans tous les périmètres — Compte Global, Sous-Compte, Organisation CF et Espace CF — en quelques clics."
+      }
     },
     "showcase": {
       "label": "Voir en Action",

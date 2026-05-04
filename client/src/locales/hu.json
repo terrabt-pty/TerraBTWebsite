@@ -78,7 +78,7 @@
       "badge": "Fókuszunk",
       "title": "100% SAP BTP Specializáció",
       "description": "Az általános tanácsadó cégekkel ellentétben kizárólag az SAP Business Technology Platform-ra összpontosítunk, így biztosítva a mélyreható szakértelem és a legmodernebb megoldások.",
-      "point1": "Dedikált csapat a tanúsított SAP BTP szakértőkből",
+      "point1": "Dedikált SAP BTP-szakértői csapat",
       "point2": "Mindig naprakész a legújabb BTP-funkciók és ajánlott eljárások tekintetében",
       "point3": "Bizonyított siker több iparágban"
     },
@@ -1645,12 +1645,30 @@
       "title1": "Minden, amire szüksége van.",
       "title2": "Semmi, amire nincs szüksége.",
       "subtitle": "Az SAP BTP szakértői által készítve, akik elegük voltak a cockpit fülek zsonglőzésétől.",
-      "0": { "title": "Multi-Global Account", "description": "Csatlakozzon és kezeljen több globális fiókot egyidejűleg. Nincs több cockpitok közötti váltogatás." },
-      "1": { "title": "Unified User View", "description": "Lássa az összes felhasználót az összes alfiók, CF szervezet, CF tér és szolgáltatás felhasználó között — mind egy képernyőn." },
-      "2": { "title": "Reverse Search", "description": "Keresse meg bármelyik felhasználót és rögtön lássa, hol lettek hozzáadva. Nincs több találgatás." },
-      "3": { "title": "Service User Management", "description": "Kezelje a szolgáltatás felhasználókat a platform felhasználók mellett. Teljes életciklus vezérlés egy helyről." },
-      "4": { "title": "Bulk Operations", "description": "Adjon hozzá, távolítson el vagy frissítsen felhasználókat tömeggel több fiók és tér között egyetlen művelettel." },
-      "5": { "title": "Role Management", "description": "Rendeljen hozzá és távolítson el szerepköri gyűjteményeket minden hatókörben — Global Account, Subaccount, CF Org és CF Space — néhány kattintással." }
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Csatlakozzon és kezeljen több globális fiókot egyidejűleg. Nincs több cockpitok közötti váltogatás."
+      },
+      "1": {
+        "title": "Unified User View",
+        "description": "Lássa az összes felhasználót az összes alfiók, CF szervezet, CF tér és szolgáltatás felhasználó között — mind egy képernyőn."
+      },
+      "2": {
+        "title": "Reverse Search",
+        "description": "Keresse meg bármelyik felhasználót és rögtön lássa, hol lettek hozzáadva. Nincs több találgatás."
+      },
+      "3": {
+        "title": "Service User Management",
+        "description": "Kezelje a szolgáltatás felhasználókat a platform felhasználók mellett. Teljes életciklus vezérlés egy helyről."
+      },
+      "4": {
+        "title": "Bulk Operations",
+        "description": "Adjon hozzá, távolítson el vagy frissítsen felhasználókat tömeggel több fiók és tér között egyetlen művelettel."
+      },
+      "5": {
+        "title": "Role Management",
+        "description": "Rendeljen hozzá és távolítson el szerepköri gyűjteményeket minden hatókörben — Global Account, Subaccount, CF Org és CF Space — néhány kattintással."
+      }
     },
     "showcase": {
       "label": "Nézze meg akcióban",

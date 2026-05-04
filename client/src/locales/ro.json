@@ -78,7 +78,7 @@
       "badge": "Focusul nostru",
       "title": "100% Specializare SAP BTP",
       "description": "Spre deosebire de firmele de consultanță generalistă, ne concentrăm exclusiv pe SAP Business Technology Platform, asigurând o expertiză profundă și soluții de vârf.",
-      "point1": "Echipă dedicată de experți certificați SAP BTP",
+      "point1": "Echipă dedicată de experți SAP BTP",
       "point2": "Întotdeauna la curent cu cele mai noi caracteristici și bune practici BTP",
       "point3": "Antecedente dovedite în mai multe industrii"
     },
@@ -1645,12 +1645,30 @@
       "title1": "Tot ce aveți nevoie.",
       "title2": "Nimic de care nu aveți nevoie.",
       "subtitle": "Construit de experții SAP BTP care au fost obosiți de jongleria cu file cockpit.",
-      "0": { "title": "Multi-Global Account", "description": "Conectați și gestionați mai multe conturi globale simultan. Nu mai sunt schimburi între cockpit-uri." },
-      "1": { "title": "Unified User View", "description": "Vedeți fiecare utilizator în toate sub-conturile, organizațiile CF, spațiile CF și utilizatorii serviciilor — totul pe un singur ecran." },
-      "2": { "title": "Reverse Search", "description": "Găsiți orice utilizator și vedeți instant oriunde au fost adăugați. Nu mai rămâne la bănuială." },
-      "3": { "title": "Service User Management", "description": "Gestionați utilizatorii serviciilor alături de utilizatorii platformei. Control complet al ciclului de viață dintr-un singur loc." },
-      "4": { "title": "Bulk Operations", "description": "Adăugați, eliminați sau actualizați utilizatorii în masă în mai multe conturi și spații într-o singură acțiune." },
-      "5": { "title": "Role Management", "description": "Alocați și eliminați colecții de roluri în fiecare domeniu — Cont Global, Subcont, Org CF și Spațiu CF — în câteva clicuri." }
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Conectați și gestionați mai multe conturi globale simultan. Nu mai sunt schimburi între cockpit-uri."
+      },
+      "1": {
+        "title": "Unified User View",
+        "description": "Vedeți fiecare utilizator în toate sub-conturile, organizațiile CF, spațiile CF și utilizatorii serviciilor — totul pe un singur ecran."
+      },
+      "2": {
+        "title": "Reverse Search",
+        "description": "Găsiți orice utilizator și vedeți instant oriunde au fost adăugați. Nu mai rămâne la bănuială."
+      },
+      "3": {
+        "title": "Service User Management",
+        "description": "Gestionați utilizatorii serviciilor alături de utilizatorii platformei. Control complet al ciclului de viață dintr-un singur loc."
+      },
+      "4": {
+        "title": "Bulk Operations",
+        "description": "Adăugați, eliminați sau actualizați utilizatorii în masă în mai multe conturi și spații într-o singură acțiune."
+      },
+      "5": {
+        "title": "Role Management",
+        "description": "Alocați și eliminați colecții de roluri în fiecare domeniu — Cont Global, Subcont, Org CF și Spațiu CF — în câteva clicuri."
+      }
     },
     "showcase": {
       "label": "Vedeți-o în acțiune",

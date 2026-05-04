@@ -78,7 +78,7 @@
       "badge": "Mūsų kryptis",
       "title": "100% specializacija SAP BTP",
       "description": "Priešingai nei bendrojo pobūdžio konsultacinės įmonės, mes orientuojamės tik į SAP Business Technology Platform, užtikrindami aukščiausią kompetenciją.",
-      "point1": "Sertifikuotų SAP BTP ekspertų komanda",
+      "point1": "Pasiaukojusi SAP BTP ekspertų komanda",
       "point2": "Naujausių BTP funkcijų ir geriausių praktikų taikymas",
       "point3": "Sėkmingai įgyvendinti projektai įvairiuose pramonės sektoriuose"
     },
@@ -1629,12 +1629,30 @@
       "title1": "Viskas, ko reikia.",
       "title2": "Nieko, ko nereikia.",
       "subtitle": "Sukūrta SAP BTP ekspertų, nuobodžius perjungti cockpit skirtukus.",
-      "0": { "title": "Kelios Global Account", "description": "Prijunkite ir valdykite kelias globalines paskyras vienu metu. Nebereikia perjungti cockpit." },
-      "1": { "title": "Vienybė naudotojų vaizdas", "description": "Pamatyti kiekvieną vartotoją visuose subpaskyrose, CF org, CF space ir paslaugų vartotojuose — viso to vienoje ekrane." },
-      "2": { "title": "Atvirkštinis paieška", "description": "Raskite bet kurį vartotoją ir akimirksniu pamatykite, kur jis buvo įtrauktas. Nebereikia spėlioti." },
-      "3": { "title": "Paslaugų naudotojų valdymas", "description": "Valdykite paslaugų naudotojus kartu su platformos naudotojais. Visas gyvavimo ciklo kontrolė iš vieno vietos." },
-      "4": { "title": "Masinės operacijos", "description": "Pridėkite, pašalinkite ar atnaujinkite naudotojus per kelis akauntus ir erdves vienu veiksmu." },
-      "5": { "title": "Vaidmens valdymas", "description": "Priskirkite ir pašalinkite role collections visose srityse — Global Account, Subaccount, CF Org ir CF Space — per kelias akimirkas." }
+      "0": {
+        "title": "Kelios Global Account",
+        "description": "Prijunkite ir valdykite kelias globalines paskyras vienu metu. Nebereikia perjungti cockpit."
+      },
+      "1": {
+        "title": "Vienybė naudotojų vaizdas",
+        "description": "Pamatyti kiekvieną vartotoją visuose subpaskyrose, CF org, CF space ir paslaugų vartotojuose — viso to vienoje ekrane."
+      },
+      "2": {
+        "title": "Atvirkštinis paieška",
+        "description": "Raskite bet kurį vartotoją ir akimirksniu pamatykite, kur jis buvo įtrauktas. Nebereikia spėlioti."
+      },
+      "3": {
+        "title": "Paslaugų naudotojų valdymas",
+        "description": "Valdykite paslaugų naudotojus kartu su platformos naudotojais. Visas gyvavimo ciklo kontrolė iš vieno vietos."
+      },
+      "4": {
+        "title": "Masinės operacijos",
+        "description": "Pridėkite, pašalinkite ar atnaujinkite naudotojus per kelis akauntus ir erdves vienu veiksmu."
+      },
+      "5": {
+        "title": "Vaidmens valdymas",
+        "description": "Priskirkite ir pašalinkite role collections visose srityse — Global Account, Subaccount, CF Org ir CF Space — per kelias akimirkas."
+      }
     },
     "showcase": {
       "label": "Žiūrėti veikime",

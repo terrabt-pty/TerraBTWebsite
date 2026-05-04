@@ -78,7 +78,7 @@
       "badge": "Nasza specjalizacja",
       "title": "100% koncentracji na SAP BTP",
       "description": "W przeciwieństwie do ogólnych firm doradczych, skupiamy się wyłącznie na SAP Business Technology Platform, zapewniając głęboką wiedzę i najnowocześniejsze rozwiązania dla Twojej firmy.",
-      "point1": "Dedykowany zespół certyfikowanych ekspertów SAP BTP",
+      "point1": "Dedykowany zespół ekspertów SAP BTP",
       "point2": "Na bieżąco z najnowszymi funkcjami BTP i najlepszymi praktykami",
       "point3": "Udowodnione sukcesy w wielu branżach"
     },
@@ -1644,12 +1644,30 @@
       "title1": "Wszystko co potrzebujesz.",
       "title2": "Nic czego nie potrzebujesz.",
       "subtitle": "Zbudowane przez ekspertów SAP BTP zmęczonych żonglerką zakładkami cockpitu.",
-      "0": { "title": "Multi-Global Account", "description": "Połącz i zarządzaj wieloma globalnymi kontami jednocześnie. Bez więcej przełączania się między cockpitami." },
-      "1": { "title": "Unified User View", "description": "Zobacz każdego użytkownika we wszystkich podkontach, organizacjach CF, przestrzeniach CF i użytkownikach usług — wszystko na jednym ekranie." },
-      "2": { "title": "Reverse Search", "description": "Znajdź każdego użytkownika i natychmiast zobacz wszędzie tam, gdzie są dodani. Koniec ze zgadywaniem." },
-      "3": { "title": "Service User Management", "description": "Zarządzaj użytkownikami usług obok użytkowników platformy. Pełna kontrola cyklu życia z jednego miejsca." },
-      "4": { "title": "Bulk Operations", "description": "Dodawaj, usuwaj lub aktualizuj użytkowników zbiorowo w wielu kontach i przestrzeniach w jednej akcji." },
-      "5": { "title": "Role Management", "description": "Przypisz i usuń kolekcje ról w każdym zakresie — Global Account, Subaccount, CF Org i CF Space — w kilka kliknięć." }
+      "0": {
+        "title": "Multi-Global Account",
+        "description": "Połącz i zarządzaj wieloma globalnymi kontami jednocześnie. Bez więcej przełączania się między cockpitami."
+      },
+      "1": {
+        "title": "Unified User View",
+        "description": "Zobacz każdego użytkownika we wszystkich podkontach, organizacjach CF, przestrzeniach CF i użytkownikach usług — wszystko na jednym ekranie."
+      },
+      "2": {
+        "title": "Reverse Search",
+        "description": "Znajdź każdego użytkownika i natychmiast zobacz wszędzie tam, gdzie są dodani. Koniec ze zgadywaniem."
+      },
+      "3": {
+        "title": "Service User Management",
+        "description": "Zarządzaj użytkownikami usług obok użytkowników platformy. Pełna kontrola cyklu życia z jednego miejsca."
+      },
+      "4": {
+        "title": "Bulk Operations",
+        "description": "Dodawaj, usuwaj lub aktualizuj użytkowników zbiorowo w wielu kontach i przestrzeniach w jednej akcji."
+      },
+      "5": {
+        "title": "Role Management",
+        "description": "Przypisz i usuń kolekcje ról w każdym zakresie — Global Account, Subaccount, CF Org i CF Space — w kilka kliknięć."
+      }
     },
     "showcase": {
       "label": "Zobacz w akcji",
