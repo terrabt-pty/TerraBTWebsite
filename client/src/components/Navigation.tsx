@@ -37,7 +37,11 @@ export default function Navigation() {
   const homePath = getLocalizedPath("/");
   const btpxidPath = getLocalizedPath("/products/btp-xid");
   const isOnBTPxID = location === btpxidPath || location === btpxidPath.replace(/\/$/, "");
-  const scrollLinks = isOnBTPxID ? BTPXID_scrollLinks : HOME_scrollLinks;
+  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+  const rawScrollLinks = isOnBTPxID ? BTPXID_scrollLinks : HOME_scrollLinks;
+  const scrollLinks = isANZ
+    ? rawScrollLinks.filter(l => l.href !== '#services' && l.href !== '#contact')
+    : rawScrollLinks;
 
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);

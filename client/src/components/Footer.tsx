@@ -6,6 +6,7 @@ import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/
 export default function Footer() {
   const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
+  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -23,7 +24,7 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className={`grid grid-cols-1 gap-8 mb-8 ${isANZ ? 'md:grid-cols-2' : 'md:grid-cols-4'}`}>
           <div className="space-y-4">
             <Logo className="h-10" data-testid="img-footer-logo" />
             <p className="text-sm text-muted-foreground">
@@ -51,7 +52,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          {!isANZ && <div>
             <h3 className="font-semibold text-foreground mb-4">{t('footer.services')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -91,9 +92,9 @@ export default function Footer() {
                 </button>
               </li>
             </ul>
-          </div>
+          </div>}
 
-          <div>
+          {!isANZ && <div>
             <h3 className="font-semibold text-foreground mb-4">{t('footer.knowledge')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -124,7 +125,7 @@ export default function Footer() {
                 </button>
               </li>
             </ul>
-          </div>
+          </div>}
 
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('footer.company')}</h3>

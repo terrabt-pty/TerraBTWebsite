@@ -153,6 +153,8 @@ export default function Home() {
     },
   ];
 
+  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
@@ -165,7 +167,7 @@ export default function Home() {
       <ClaudeCliAnnouncement />
       <HeroSection />
 
-      <section id="services" className="py-12 md:py-16">
+      {!isANZ && <section id="services" className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
@@ -188,9 +190,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section>}
 
-      <section className="py-20 md:py-24 bg-gradient-to-b from-trust/5 via-background to-primary/5">
+      {!isANZ && <section className="py-20 md:py-24 bg-gradient-to-b from-trust/5 via-background to-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
@@ -229,9 +231,9 @@ export default function Home() {
             ]}
           />
         </div>
-      </section>
+      </section>}
 
-      <section id="knowledge" className="py-20 md:py-24">
+      {!isANZ && <section id="knowledge" className="py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
@@ -256,9 +258,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section>}
 
-      <ContactSection />
+      {!isANZ && <ContactSection />}
       <Footer />
     </div>
   );
