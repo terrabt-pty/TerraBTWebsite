@@ -2274,6 +2274,196 @@
   white-space: nowrap;
 }
 
+/* ===== SAP NOTE 3249765 SECTION ===== */
+.btpxid-sapnote {
+  background: #060A16;
+  border-top: 1px solid #1A2340;
+  border-bottom: 1px solid #1A2340;
+  padding: 4rem 0;
+}
+
+.btpxid-sapnote-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.btpxid-sapnote-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.btpxid-sapnote-badge {
+  display: inline-block;
+  background: rgba(76, 175, 80, 0.12);
+  border: 1px solid rgba(76, 175, 80, 0.35);
+  color: #4CAF50;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
+  border-radius: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.btpxid-sapnote-title {
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  font-weight: 700;
+  color: #E8EDF5;
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
+}
+
+.btpxid-sapnote-sub {
+  color: #8892A4;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.btpxid-sapnote-link {
+  color: #4CAF50;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.btpxid-inline-code {
+  font-family: monospace;
+  background: rgba(255,255,255,0.07);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.875em;
+  color: #E8EDF5;
+}
+
+.btpxid-sapnote-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.btpxid-sapnote-card {
+  background: #0E1428;
+  border: 1px solid #1A2340;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.btpxid-sapnote-card-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.btpxid-sapnote-manual .btpxid-sapnote-card-label {
+  color: #E8A838;
+}
+
+.btpxid-sapnote-xid .btpxid-sapnote-card-label {
+  color: #4CAF50;
+}
+
+.btpxid-sapnote-steps {
+  color: #8892A4;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  padding-left: 1.25rem;
+  margin: 0 0 1.5rem;
+}
+
+.btpxid-sapnote-steps li {
+  margin-bottom: 0.35rem;
+}
+
+.btpxid-sapnote-steps li:last-child {
+  color: #E8A838;
+}
+
+.btpxid-sapnote-code {
+  background: #080C1A;
+  border: 1px solid #1A2340;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #8892A4;
+  line-height: 1.6;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.btpxid-sapnote-oneclick {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.btpxid-sapnote-oneclick-num {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: rgba(76, 175, 80, 0.15);
+  border: 1px solid rgba(76, 175, 80, 0.4);
+  color: #4CAF50;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btpxid-sapnote-oneclick-text strong {
+  display: block;
+  color: #E8EDF5;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.btpxid-sapnote-oneclick-text p {
+  color: #8892A4;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.btpxid-sapnote-xid-note {
+  color: #8892A4;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1A2340;
+}
+
+.btpxid-sapnote-ref {
+  display: block;
+  font-size: 0.8rem;
+  color: #4CAF50;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+
+.btpxid-sapnote-ref:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .btpxid-sapnote-grid {
+    grid-template-columns: 1fr;
+  }
+  .btpxid-sapnote-inner {
+    padding: 0 1.5rem;
+  }
+}
+
 /* ===== SECURITY SECTION ===== */
 .btpxid-security {
   background: #060A16;

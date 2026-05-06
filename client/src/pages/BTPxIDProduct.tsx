@@ -370,6 +370,66 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
+      {/* ===== SAP NOTE 3249765 ===== */}
+      <section className="btpxid-sapnote">
+        <div className="btpxid-sapnote-inner">
+          <div className="btpxid-sapnote-header">
+            <span className="btpxid-sapnote-badge">SAP Note 3249765</span>
+            <h2 className="btpxid-sapnote-title">One click instead of seven steps</h2>
+            <p className="btpxid-sapnote-sub">
+              When your Cloud Foundry Org Manager is unavailable,{" "}
+              <a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" className="btpxid-sapnote-link">
+                SAP Note 3249765
+              </a>{" "}
+              documents the recovery process — and it requires navigating a service update wizard, hand-crafting a JSON payload, and then running the whole thing again with <code className="btpxid-inline-code">{"{}"}</code> to clean up, or future updates will fail.
+            </p>
+          </div>
+
+          <div className="btpxid-sapnote-grid">
+            <div className="btpxid-sapnote-card btpxid-sapnote-manual">
+              <div className="btpxid-sapnote-card-label">The manual way</div>
+              <ol className="btpxid-sapnote-steps">
+                <li>Go to Services → Instances and Subscriptions</li>
+                <li>Find the Cloud Foundry Runtime entry</li>
+                <li>Open the ··· menu and click Update</li>
+                <li>Click through the wizard to the Parameters screen</li>
+                <li>Construct and paste a JSON payload with the user's email and ID</li>
+                <li>Submit and wait for the update to complete</li>
+                <li>Repeat with <code className="btpxid-inline-code">{"{}"}</code> to clear the config or all future updates will error</li>
+              </ol>
+              <pre className="btpxid-sapnote-code">{`{
+  "usersToAdd": [{
+    "email": "user@example.com",
+    "id": "I999999"
+  }]
+}`}</pre>
+            </div>
+
+            <div className="btpxid-sapnote-card btpxid-sapnote-xid">
+              <div className="btpxid-sapnote-card-label">With BTP xID</div>
+              <div className="btpxid-sapnote-oneclick">
+                <div className="btpxid-sapnote-oneclick-num">1</div>
+                <div className="btpxid-sapnote-oneclick-text">
+                  <strong>Select the user. Assign Org Manager. Done.</strong>
+                  <p>No JSON, no service update wizard, no cleanup step. BTP xID handles the Cloud Foundry API calls behind the scenes — the same operations the SAP note walks you through manually, in a single action.</p>
+                </div>
+              </div>
+              <p className="btpxid-sapnote-xid-note">
+                Works for both default SAP IDS and custom IdP origins. Add or remove Org Managers across all your Cloud Foundry orgs from one place, without touching a service instance.
+              </p>
+              <a
+                href="https://me.sap.com/notes/3249765"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btpxid-sapnote-ref"
+              >
+                Reference: SAP Note 3249765 — How to add an Org Manager to a Cloud Foundry org →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== FEATURES ===== */}
       <BTPxIDFeatures />
 
