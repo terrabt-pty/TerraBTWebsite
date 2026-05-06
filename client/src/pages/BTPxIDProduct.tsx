@@ -421,11 +421,7 @@ export default function BTPxIDProduct() {
             <span className="btpxid-sapnote-badge">SAP Note 3249765</span>
             <h2 className="btpxid-sapnote-title">One click instead of seven steps</h2>
             <p className="btpxid-sapnote-sub">
-              When your Cloud Foundry Org Manager is unavailable,{" "}
-              <a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" className="btpxid-sapnote-link">
-                SAP Note 3249765
-              </a>{" "}
-              documents the recovery process — and it requires navigating a service update wizard and hand-crafting a JSON payload. With BTP xID, you do it in a single click.
+              When your Cloud Foundry Org Manager is unavailable, SAP Note 3249765 documents the recovery process — and it requires navigating a service update wizard and hand-crafting a JSON payload. With BTP xID, you do it in a single click.
             </p>
           </div>
 
