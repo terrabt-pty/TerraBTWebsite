@@ -435,7 +435,6 @@ export default function BTPxIDProduct() {
                 <li>Click through the wizard to the Parameters screen</li>
                 <li>Construct and paste a JSON payload with the user's email and ID</li>
                 <li>Submit and wait for the update to complete</li>
-                <li>Repeat with <code className="btpxid-inline-code">{"{}"}</code> to clear the config or all future updates will error</li>
               </ol>
               <pre className="btpxid-sapnote-code">{`{
   "usersToAdd": [{
