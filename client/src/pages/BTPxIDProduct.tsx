@@ -5,7 +5,6 @@ import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
 import BTPxIDShowcase from "@/components/BTPxIDShowcase";
-import SecurityShield from "@/components/SecurityShield";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -434,43 +433,6 @@ export default function BTPxIDProduct() {
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />
 
-      {/* ===== SECURITY ===== */}
-      <section className="btpxid-security">
-        <div className="btpxid-security-inner">
-          <div className="btpxid-showcase-header">
-            <SecurityShield className="btpxid-security-shield-icon" />
-            <div className="btpxid-features-label">{t('btpxidProduct.security.label')}</div>
-            <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.security.title')}
-            </h2>
-            <p className="btpxid-showcase-sub">
-              {t('btpxidProduct.security.description')}
-            </p>
-          </div>
-          <div className="btpxid-security-grid">
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🔒</div>
-              <h3>{t('btpxidProduct.security.noCredentials.title')}</h3>
-              <p>{t('btpxidProduct.security.noCredentials.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🖥️</div>
-              <h3>{t('btpxidProduct.security.localData.title')}</h3>
-              <p>{t('btpxidProduct.security.localData.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🔑</div>
-              <h3>{t('btpxidProduct.security.sapAuth.title')}</h3>
-              <p>{t('btpxidProduct.security.sapAuth.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">👁️</div>
-              <h3>{t('btpxidProduct.security.hiddenData.title')}</h3>
-              <p>{t('btpxidProduct.security.hiddenData.description')}</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ===== PRICING ===== */}
       <section className="btpxid-pricing" id="pricing">
