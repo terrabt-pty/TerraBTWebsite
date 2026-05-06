@@ -425,7 +425,7 @@ export default function BTPxIDProduct() {
               <a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" className="btpxid-sapnote-link">
                 SAP Note 3249765
               </a>{" "}
-              documents the recovery process — and it requires navigating a service update wizard, hand-crafting a JSON payload, and then running the whole thing again with <code className="btpxid-inline-code">{"{}"}</code> to clean up, or future updates will fail.
+              documents the recovery process — and it requires navigating a service update wizard and hand-crafting a JSON payload. With BTP xID, you do it in a single click.
             </p>
           </div>
 
