@@ -373,47 +373,6 @@ export default function BTPxIDProduct() {
       {/* ===== FEATURES ===== */}
       <BTPxIDFeatures />
 
-      {/* ===== SCREENSHOT SHOWCASE ===== */}
-      <BTPxIDShowcase />
-
-      {/* ===== SECURITY ===== */}
-      <section className="btpxid-security">
-        <div className="btpxid-security-inner">
-          <div className="btpxid-showcase-header">
-            <SecurityShield className="btpxid-security-shield-icon" />
-            <div className="btpxid-features-label">{t('btpxidProduct.security.label')}</div>
-            <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.security.title')}
-            </h2>
-            <p className="btpxid-showcase-sub">
-              {t('btpxidProduct.security.description')}
-            </p>
-          </div>
-          <div className="btpxid-security-grid">
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🔒</div>
-              <h3>{t('btpxidProduct.security.noCredentials.title')}</h3>
-              <p>{t('btpxidProduct.security.noCredentials.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🖥️</div>
-              <h3>{t('btpxidProduct.security.localData.title')}</h3>
-              <p>{t('btpxidProduct.security.localData.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">🔑</div>
-              <h3>{t('btpxidProduct.security.sapAuth.title')}</h3>
-              <p>{t('btpxidProduct.security.sapAuth.description')}</p>
-            </div>
-            <div className="btpxid-security-card">
-              <div className="btpxid-security-icon">👁️</div>
-              <h3>{t('btpxidProduct.security.hiddenData.title')}</h3>
-              <p>{t('btpxidProduct.security.hiddenData.description')}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ===== SAP NOTE 3249765 ===== */}
       <section className="btpxid-sapnote">
         <div className="btpxid-sapnote-inner">
@@ -468,6 +427,47 @@ export default function BTPxIDProduct() {
               >
                 Reference: SAP Note 3249765 — How to add an Org Manager to a Cloud Foundry org →
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== SCREENSHOT SHOWCASE ===== */}
+      <BTPxIDShowcase />
+
+      {/* ===== SECURITY ===== */}
+      <section className="btpxid-security">
+        <div className="btpxid-security-inner">
+          <div className="btpxid-showcase-header">
+            <SecurityShield className="btpxid-security-shield-icon" />
+            <div className="btpxid-features-label">{t('btpxidProduct.security.label')}</div>
+            <h2 className="btpxid-showcase-title">
+              {t('btpxidProduct.security.title')}
+            </h2>
+            <p className="btpxid-showcase-sub">
+              {t('btpxidProduct.security.description')}
+            </p>
+          </div>
+          <div className="btpxid-security-grid">
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🔒</div>
+              <h3>{t('btpxidProduct.security.noCredentials.title')}</h3>
+              <p>{t('btpxidProduct.security.noCredentials.description')}</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🖥️</div>
+              <h3>{t('btpxidProduct.security.localData.title')}</h3>
+              <p>{t('btpxidProduct.security.localData.description')}</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">🔑</div>
+              <h3>{t('btpxidProduct.security.sapAuth.title')}</h3>
+              <p>{t('btpxidProduct.security.sapAuth.description')}</p>
+            </div>
+            <div className="btpxid-security-card">
+              <div className="btpxid-security-icon">👁️</div>
+              <h3>{t('btpxidProduct.security.hiddenData.title')}</h3>
+              <p>{t('btpxidProduct.security.hiddenData.description')}</p>
             </div>
           </div>
         </div>
