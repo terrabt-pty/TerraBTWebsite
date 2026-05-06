@@ -2404,12 +2404,28 @@
   margin-bottom: 1.5rem;
 }
 
-.btpxid-sapnote-oneclick-icon {
+.btpxid-sapnote-oneclick-logo-wrap {
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btpxid-sapnote-oneclick-icon {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.5rem;
   object-fit: contain;
+}
+
+.btpxid-sapnote-step-count {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #4CAF50;
+  white-space: nowrap;
 }
 
 .btpxid-sapnote-oneclick-text strong {
