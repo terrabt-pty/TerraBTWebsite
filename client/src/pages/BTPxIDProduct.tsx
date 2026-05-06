@@ -448,7 +448,7 @@ export default function BTPxIDProduct() {
             <div className="btpxid-sapnote-card btpxid-sapnote-xid">
               <div className="btpxid-sapnote-card-label">With BTP xID</div>
               <div className="btpxid-sapnote-oneclick">
-                <div className="btpxid-sapnote-oneclick-num">1</div>
+                <img src={btpxidIcon} alt="BTP xID" className="btpxid-sapnote-oneclick-icon" />
                 <div className="btpxid-sapnote-oneclick-text">
                   <strong>Select the user. Assign Org Manager. Done.</strong>
                   <p>No JSON, no service update wizard, no cleanup step. BTP xID handles the Cloud Foundry API calls behind the scenes — the same operations the SAP note walks you through manually, in a single action.</p>
