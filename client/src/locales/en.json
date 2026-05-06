@@ -1435,7 +1435,7 @@
   "btpxidAnnouncement": {
     "badge": "NEW",
     "introducing": "Introducing",
-    "description": "The world's first SAP BTP User Management desktop app. Manage users across all global accounts, sub-accounts, and CF spaces from a single pane of glass.",
+    "description": "A desktop app for SAP BTP User Management. Manage users across all global accounts, sub-accounts, and CF spaces from a single pane of glass.",
     "cta": "Download Now",
     "imageAlt": "BTP xID Dashboard"
   },
@@ -1581,7 +1581,7 @@
       "title1": "One app.",
       "title2": "Every user.",
       "title3": "All accounts.",
-      "description": "Manage users across global accounts, sub-accounts, Cloud Foundry orgs and spaces — all from a single pane of glass. Reverse search any user instantly.",
+      "description": "Manage SAP BTP users across global accounts, sub-accounts, Cloud Foundry orgs and spaces — all from a single pane of glass. Reverse search any SAP BTP user instantly.",
       "shieldBadge": "SAP OAuth · No credentials stored"
     },
     "valueProps": {
