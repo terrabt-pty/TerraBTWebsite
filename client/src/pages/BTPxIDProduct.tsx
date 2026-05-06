@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
-import userListImg from "@assets/BTP_xID_User_List_1772336098799.png";
+import userListImg from "@assets/BTP_xID_User_List_1772336098799.webp";
 
 const VALUE_PROP_DOTS = ["#4CAF50", "#E8A838", "#E8A838", "#4CAF50", "#E8A838", "#2A7088", "#4CAF50"];
 
