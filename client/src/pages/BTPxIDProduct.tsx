@@ -421,7 +421,7 @@ export default function BTPxIDProduct() {
             <span className="btpxid-sapnote-badge">SAP Note 3249765</span>
             <h2 className="btpxid-sapnote-title">One click instead of seven steps</h2>
             <p className="btpxid-sapnote-sub">
-              When your Cloud Foundry Org Manager is unavailable, SAP Note 3249765 documents the recovery process — and it requires navigating a service update wizard and hand-crafting a JSON payload. With BTP xID, you do it in a single click.
+              When your Cloud Foundry Org Manager is unavailable, SAP Note 3249765 documents the recovery process — and it requires navigating a service update wizard, hand-crafting a JSON payload, and then running the whole thing again with <code className="btpxid-inline-code">{"{}"}</code> to clean up, or future updates will fail. With BTP xID, you do it in a single click.
             </p>
           </div>
 
@@ -435,6 +435,7 @@ export default function BTPxIDProduct() {
                 <li>Click through the wizard to the Parameters screen</li>
                 <li>Construct and paste a JSON payload with the user's email and ID</li>
                 <li>Submit and wait for the update to complete</li>
+                <li>Repeat with <code className="btpxid-inline-code">{"{}"}</code> to clear the config or all future updates will error</li>
               </ol>
               <pre className="btpxid-sapnote-code">{`{
   "usersToAdd": [{
