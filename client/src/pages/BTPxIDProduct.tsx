@@ -385,7 +385,7 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-sapnote-grid">
             <div className="btpxid-sapnote-card btpxid-sapnote-manual">
-              <div className="btpxid-sapnote-card-label">The manual way</div>
+              <div className="btpxid-sapnote-card-label">Before BTP xID</div>
               <ol className="btpxid-sapnote-steps">
                 <li>Go to Services → Instances and Subscriptions</li>
                 <li>Find the Cloud Foundry Runtime entry</li>
