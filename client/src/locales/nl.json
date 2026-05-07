@@ -1550,7 +1550,7 @@
       "title1": "Één app.",
       "title2": "Elke gebruiker.",
       "title3": "Alle accounts.",
-      "description": "Beheer gebruikers in globale accounts, subaccounts, Cloud Foundry-organisaties en -ruimtes — alles vanuit één overzicht. Zoek direct omgekeerd naar elke gebruiker.",
+      "description": "Beheer SAP BTP-gebruikers in globale accounts, subaccounts, Cloud Foundry-organisaties en -ruimtes — alles vanuit één overzicht. Zoek direct omgekeerd naar elke SAP BTP-gebruiker.",
       "shieldBadge": "SAP OAuth · Geen inloggegevens opgeslagen"
     },
     "valueProps": {

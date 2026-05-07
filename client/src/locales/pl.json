@@ -1556,7 +1556,7 @@
       "title1": "Jedna aplikacja.",
       "title2": "Każdy użytkownik.",
       "title3": "Wszystkie konta.",
-      "description": "Zarządzaj użytkownikami w kontach globalnych, podkontach, organizacjach i przestrzeniach Cloud Foundry — wszystko z jednego miejsca. Wyszukiwanie odwrotne dowolnego użytkownika w mgnieniu oka.",
+      "description": "Zarządzaj użytkownikami SAP BTP w kontach globalnych, podkontach, organizacjach i przestrzeniach Cloud Foundry — wszystko z jednego miejsca. Wyszukiwanie odwrotne dowolnego użytkownika SAP BTP w mgnieniu oka.",
       "shieldBadge": "SAP OAuth · Brak przechowywanych danych logowania"
     },
     "valueProps": {

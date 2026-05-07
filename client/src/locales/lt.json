@@ -1556,7 +1556,7 @@
       "title1": "Viena programa.",
       "title2": "Kiekvienas vartotojas.",
       "title3": "Visos paskyros.",
-      "description": "Valdykite vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį vartotoją atvirkštiniu paieška.",
+      "description": "Valdykite SAP BTP vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį SAP BTP vartotoją atvirkštiniu paieška.",
       "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi"
     },
     "valueProps": {

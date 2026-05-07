@@ -1548,7 +1548,7 @@
       "title1": "Viena lietotne.",
       "title2": "Katrs lietotājs.",
       "title3": "Visi konti.",
-      "description": "Pārvaldiet lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram lietotājam.",
+      "description": "Pārvaldiet SAP BTP lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram SAP BTP lietotājam.",
       "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti"
     },
     "valueProps": {

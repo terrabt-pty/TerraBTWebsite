@@ -1557,7 +1557,7 @@
       "title1": "Eine App.",
       "title2": "Jeder Benutzer.",
       "title3": "Alle Konten.",
-      "description": "Verwalten Sie Benutzer in globalen Konten, Unterkonten, Cloud Foundry-Organisationen und -Bereichen — alles in einer einzigen Übersicht. Benutzer sofort per Rückwärtssuche finden.",
+      "description": "Verwalten Sie SAP BTP-Benutzer in globalen Konten, Unterkonten, Cloud Foundry-Organisationen und -Bereichen — alles in einer einzigen Übersicht. SAP BTP-Benutzer sofort per Rückwärtssuche finden.",
       "shieldBadge": "SAP OAuth · Keine Anmeldedaten gespeichert"
     },
     "valueProps": {

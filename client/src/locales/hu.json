@@ -1557,7 +1557,7 @@
       "title1": "Egy alkalmazás.",
       "title2": "Minden felhasználó.",
       "title3": "Minden fiók.",
-      "description": "Kezelje a felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely felhasználó azonnali fordított keresése.",
+      "description": "Kezelje az SAP BTP felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely SAP BTP felhasználó azonnali fordított keresése.",
       "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat"
     },
     "valueProps": {

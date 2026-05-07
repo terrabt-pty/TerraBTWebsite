@@ -1556,7 +1556,7 @@
       "title1": "Una app.",
       "title2": "Cada usuario.",
       "title3": "Todas las cuentas.",
-      "description": "Gestione usuarios en cuentas globales, subcuentas, organizaciones y espacios de Cloud Foundry — todo desde un único panel. Búsqueda inversa de cualquier usuario al instante.",
+      "description": "Gestione usuarios de SAP BTP en cuentas globales, subcuentas, organizaciones y espacios de Cloud Foundry — todo desde un único panel. Búsqueda inversa de cualquier usuario de SAP BTP al instante.",
       "shieldBadge": "SAP OAuth · Sin credenciales almacenadas"
     },
     "valueProps": {

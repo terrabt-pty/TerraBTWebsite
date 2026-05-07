@@ -1557,7 +1557,7 @@
       "title1": "Jedna aplikacija.",
       "title2": "Svaki korisnik.",
       "title3": "Svi računi.",
-      "description": "Upravljajte korisnicima u globalnim računima, podračunima, organizacijama i prostorima Cloud Foundry — sve iz jednog prikaza. Trenutačna obrnuta pretraga bilo kojeg korisnika.",
+      "description": "Upravljajte korisnicima SAP BTP u globalnim računima, podračunima, organizacijama i prostorima Cloud Foundry — sve iz jednog prikaza. Trenutačna obrnuta pretraga bilo kojeg korisnika SAP BTP.",
       "shieldBadge": "SAP OAuth · Bez pohranjenih vjerodajnica"
     },
     "valueProps": {

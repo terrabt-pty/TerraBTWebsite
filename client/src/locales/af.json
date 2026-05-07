@@ -1580,7 +1580,7 @@
       "title1": "Een toepassing.",
       "title2": "Elke gebruiker.",
       "title3": "Alle rekeninge.",
-      "description": "Bestuur gebruikers oor globale rekeninge, subrekeninge, Cloud Foundry-organisasies en -ruimtes — alles vanuit een enkele oorsig. Soek enige gebruiker onmiddellik deur omgekeerde soektog.",
+      "description": "Bestuur SAP BTP-gebruikers oor globale rekeninge, subrekeninge, Cloud Foundry-organisasies en -ruimtes — alles vanuit een enkele oorsig. Soek enige SAP BTP-gebruiker onmiddellik deur omgekeerde soektog.",
       "shieldBadge": "SAP OAuth · Geen gestoorde geloofsbriewe"
     },
     "valueProps": {

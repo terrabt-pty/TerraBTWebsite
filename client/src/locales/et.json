@@ -1557,7 +1557,7 @@
       "title1": "Üks rakendus.",
       "title2": "Iga kasutaja.",
       "title3": "Kõik kontod.",
-      "description": "Hallake kasutajaid globaalsetes kontodes, alakontodes, Cloud Foundry organisatsioonides ja ruumides — kõik ühest vaatest. Leidke iga kasutaja koheselt pöördotsingu abil.",
+      "description": "Hallake SAP BTP kasutajaid globaalsetes kontodes, alakontodes, Cloud Foundry organisatsioonides ja ruumides — kõik ühest vaatest. Leidke iga SAP BTP kasutaja koheselt pöördotsingu abil.",
       "shieldBadge": "SAP OAuth · Mandaate ei salvestata"
     },
     "valueProps": {

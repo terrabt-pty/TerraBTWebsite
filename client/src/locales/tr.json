@@ -1556,7 +1556,7 @@
       "title1": "Tek uygulama.",
       "title2": "Her kullanıcı.",
       "title3": "Tüm hesaplar.",
-      "description": "Küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarındaki kullanıcıları tek bir görünümden yönetin. Herhangi bir kullanıcıyı anında ters arama ile bulun.",
+      "description": "SAP BTP kullanıcılarını küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarında tek bir görünümden yönetin. Herhangi bir SAP BTP kullanıcısını anında ters arama ile bulun.",
       "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz"
     },
     "valueProps": {

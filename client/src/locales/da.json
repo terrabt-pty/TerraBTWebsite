@@ -1557,7 +1557,7 @@
       "title1": "Én app.",
       "title2": "Hver bruger.",
       "title3": "Alle konti.",
-      "description": "Administrer brugere på tværs af globale konti, underkonti, Cloud Foundry-organisationer og -rum — alt fra ét samlet overblik. Omvendt søgning efter enhver bruger øjeblikkeligt.",
+      "description": "Administrer SAP BTP-brugere på tværs af globale konti, underkonti, Cloud Foundry-organisationer og -rum — alt fra ét samlet overblik. Omvendt søgning efter enhver SAP BTP-bruger øjeblikkeligt.",
       "shieldBadge": "SAP OAuth · Ingen gemte legitimationsoplysninger"
     },
     "valueProps": {

@@ -1557,7 +1557,7 @@
       "title1": "O singură aplicație.",
       "title2": "Fiecare utilizator.",
       "title3": "Toate conturile.",
-      "description": "Gestionați utilizatorii în conturi globale, subconturi, organizații și spații Cloud Foundry — totul dintr-un singur panou. Căutare inversă a oricărui utilizator instantaneu.",
+      "description": "Gestionați utilizatorii SAP BTP în conturi globale, subconturi, organizații și spații Cloud Foundry — totul dintr-un singur panou. Căutare inversă a oricărui utilizator SAP BTP instantaneu.",
       "shieldBadge": "SAP OAuth · Nicio acreditare stocată"
     },
     "valueProps": {

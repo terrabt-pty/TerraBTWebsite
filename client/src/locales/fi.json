@@ -1556,7 +1556,7 @@
       "title1": "Yksi sovellus.",
       "title2": "Jokainen käyttäjä.",
       "title3": "Kaikki tilit.",
-      "description": "Hallitse käyttäjiä globaaleissa tileissä, alatileissä, Cloud Foundry -organisaatioissa ja -tiloissa — kaikki yhdestä näkymästä. Etsi mikä tahansa käyttäjä välittömästi käänteishakuna.",
+      "description": "Hallitse SAP BTP-käyttäjiä globaaleissa tileissä, alatileissä, Cloud Foundry -organisaatioissa ja -tiloissa — kaikki yhdestä näkymästä. Etsi mikä tahansa SAP BTP-käyttäjä välittömästi käänteishakuna.",
       "shieldBadge": "SAP OAuth · Ei tallennettuja tunnistetietoja"
     },
     "valueProps": {

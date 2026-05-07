@@ -1586,7 +1586,7 @@
       "title1": "1つのアプリ。",
       "title2": "すべてのユーザー。",
       "title3": "すべてのアカウント。",
-      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のユーザーを1つの画面で管理。任意のユーザーを瞬時に逆引き検索。",
+      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のSAP BTPユーザーを1つの画面で管理。任意のSAP BTPユーザーを瞬時に逆引き検索。",
       "shieldBadge": "SAP OAuth · 認証情報は保存されません"
     },
     "valueProps": {

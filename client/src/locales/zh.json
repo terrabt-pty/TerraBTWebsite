@@ -1557,7 +1557,7 @@
       "title1": "一款应用。",
       "title2": "每位用户。",
       "title3": "所有账户。",
-      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理用户——一切尽在一个界面。即时反向搜索任何用户。",
+      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理 SAP BTP 用户——一切尽在一个界面。即时反向搜索任何 SAP BTP 用户。",
       "shieldBadge": "SAP OAuth · 不存储凭据"
     },
     "valueProps": {

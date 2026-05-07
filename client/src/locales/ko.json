@@ -1557,7 +1557,7 @@
       "title1": "하나의 앱.",
       "title2": "모든 사용자.",
       "title3": "모든 계정.",
-      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 사용자를 하나의 화면에서 관리하세요. 모든 사용자를 즉시 역방향 검색합니다.",
+      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 SAP BTP 사용자를 하나의 화면에서 관리하세요. 모든 SAP BTP 사용자를 즉시 역방향 검색합니다.",
       "shieldBadge": "SAP OAuth · 자격 증명 미저장"
     },
     "valueProps": {

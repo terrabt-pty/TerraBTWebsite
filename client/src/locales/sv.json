@@ -1556,7 +1556,7 @@
       "title1": "En app.",
       "title2": "Varje användare.",
       "title3": "Alla konton.",
-      "description": "Hantera användare i globala konton, underkonton, Cloud Foundry-organisationer och -utrymmen — allt från en enda vy. Sök omvänt på valfri användare direkt.",
+      "description": "Hantera SAP BTP-användare i globala konton, underkonton, Cloud Foundry-organisationer och -utrymmen — allt från en enda vy. Sök omvänt på valfri SAP BTP-användare direkt.",
       "shieldBadge": "SAP OAuth · Inga inloggningsuppgifter lagras"
     },
     "valueProps": {

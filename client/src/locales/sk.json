@@ -1556,7 +1556,7 @@
       "title1": "Jedna aplikácia.",
       "title2": "Každý používateľ.",
       "title3": "Všetky účty.",
-      "description": "Spravujte používateľov v globálnych účtoch, podúčtoch, organizáciách a priestoroch Cloud Foundry — všetko z jedného prehľadu. Okamžité spätné vyhľadanie ľubovoľného používateľa.",
+      "description": "Spravujte používateľov SAP BTP v globálnych účtoch, podúčtoch, organizáciách a priestoroch Cloud Foundry — všetko z jedného prehľadu. Okamžité spätné vyhľadanie ľubovoľného používateľa SAP BTP.",
       "shieldBadge": "SAP OAuth · Žiadne uložené prihlasovanie"
     },
     "valueProps": {
