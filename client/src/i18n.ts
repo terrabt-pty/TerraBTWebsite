@@ -66,60 +66,60 @@ const getTimezoneRegion = (): string | null => {
   return null;
 };
 
+// Helper: read terrabt_lang cookie (set by Worker or by saveBrowserLanguage)
+const getCookieLang = (): string | null => {
+  const m = document.cookie.match(/(?:^|;\s*)terrabt_lang=([^;]+)/);
+  return m ? decodeURIComponent(m[1]) : null;
+};
+
+const matchSupported = (code: string | null | undefined): string | null => {
+  if (!code) return null;
+  const lower = code.toLowerCase();
+  const exact = SUPPORTED_LANGUAGES.find(l => l.code.toLowerCase() === lower);
+  if (exact) return exact.code;
+  const base = getBaseLanguage(lower);
+  const baseMatch = SUPPORTED_LANGUAGES.find(l => getBaseLanguage(l.code).toLowerCase() === base);
+  return baseMatch ? baseMatch.code : null;
+};
+
+declare global {
+  interface Window { DETECTED_LANGUAGE?: string; LANG_SOURCE?: string; }
+}
+
 const getBrowserLanguage = (): string => {
-  // Check localStorage first for user preference
-  const storedLang = localStorage.getItem('terrabt-language');
-  if (storedLang) {
-    const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === storedLang);
-    if (isSupported) {
-      return storedLang;
-    }
-  }
-  
-  // Get browser languages
+  // 1. Cookie (set by Worker on ?lang= or by user choice in app)
+  const cookieLang = matchSupported(getCookieLang());
+  if (cookieLang) return cookieLang;
+
+  // 2. Worker-detected language (already considered URL/Accept-Language/country)
+  const detected = matchSupported(typeof window !== 'undefined' ? window.DETECTED_LANGUAGE : null);
+  if (detected) return detected;
+
+  // 3. Legacy localStorage (back-compat for users who picked a language before cookies)
+  const storedLang = matchSupported(localStorage.getItem('terrabt-language'));
+  if (storedLang) return storedLang;
+
+  // 4. Browser navigator.languages — defensive parse
   const browserLanguages = navigator.languages || [navigator.language || (navigator as any).userLanguage];
-  
   for (const browserLang of browserLanguages) {
-    const normalizedBrowserLang = browserLang.toLowerCase();
-    
-    // First try exact match
-    const exactMatch = SUPPORTED_LANGUAGES.find(
-      lang => lang.code.toLowerCase() === normalizedBrowserLang
-    );
-    if (exactMatch) {
-      return exactMatch.code;
-    }
-    
-    // Then try base language match - but prefer English variants for 'en' base
-    const baseLang = getBaseLanguage(normalizedBrowserLang);
-    
-    // For English, always return 'en' (international) as the default
-    if (baseLang === 'en') {
-      return 'en';
-    }
-    
-    const baseMatch = SUPPORTED_LANGUAGES.find(
-      lang => getBaseLanguage(lang.code).toLowerCase() === baseLang
-    );
-    if (baseMatch) {
-      return baseMatch.code;
-    }
+    const m = matchSupported(browserLang);
+    if (m) return m;
   }
-  
-  // Check timezone as fallback
-  const timezoneRegion = getTimezoneRegion();
-  if (timezoneRegion) {
-    const tzMatch = SUPPORTED_LANGUAGES.find(lang => lang.code === timezoneRegion);
-    if (tzMatch) {
-      return tzMatch.code;
-    }
+
+  // 5. Timezone hint
+  const tzRegion = getTimezoneRegion();
+  if (tzRegion) {
+    const tzMatch = matchSupported(tzRegion);
+    if (tzMatch) return tzMatch;
   }
-  
+
   return 'en';
 };
 
 const saveBrowserLanguage = (lang: string): void => {
   localStorage.setItem('terrabt-language', lang);
+  // Also set a year-long first-party cookie so the Worker and future visits see it
+  document.cookie = `terrabt_lang=${encodeURIComponent(lang)}; Path=/; Max-Age=31536000; Secure; SameSite=Lax`;
 };
 
 const getLanguageFromPath = () => {

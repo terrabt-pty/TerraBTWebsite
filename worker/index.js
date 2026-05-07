@@ -107,37 +107,131 @@ export default {
       }
     }
 
+    // Language detection — layered priority:
+    //   1. ?lang= query param   (explicit, used by emails)
+    //   2. URL path prefix       (e.g. /de/products/)
+    //   3. terrabt_lang cookie   (returning user)
+    //   4. Accept-Language       (parsed with q values)
+    //   5. CF-IPCountry          (country → language map)
+    //   6. en-US fallback
     let matchedCode = "en-US";
     let status = "Fallback";
 
-    // 1. Check URL Path
-    let segments = url.pathname.split("/").filter(Boolean);
+    const SUPPORTED_LANGS = new Set([
+      "en","de","fr","es","it","pt","nl","sv","da","nb","fi","pl","cs","hu","ro","sk","sl","hr",
+      "bg","uk","ru","lt","lv","et","el","tr","zh","ko","ja","ar","he","af","sw","am"
+    ]);
 
-    // 2. Check Query String (for SPA patterns)
-    if (segments.length === 0 && url.search) {
-      // Decode URI component to handle encoded segments like %2F (forward slash)
-      const decodedSearch = decodeURIComponent(url.search);
-      const searchPath = decodedSearch.replace(/^[?]/, "").replace(/^[\/]/, "");
-      segments = searchPath.split("/").filter(Boolean);
+    // Map a candidate code (e.g. "de-CH", "zh-Hans") to a supported code
+    const matchSupported = (code) => {
+      if (!code) return null;
+      const lower = code.toLowerCase();
+      if (SUPPORTED_LANGS.has(lower)) return lower;
+      const base = lower.split("-")[0];
+      if (SUPPORTED_LANGS.has(base)) return base;
+      return null;
+    };
+
+    // 1. ?lang= query param
+    const langParam = url.searchParams.get("lang");
+    const langFromParam = matchSupported(langParam);
+    if (langFromParam) {
+      matchedCode = langFromParam;
+      status = "url-param";
     }
 
-    if (segments.length > 0) {
-      const detectedSegment = segments[0];
-      // Basic validation: Is it a language code? 
-      // Accepts: en, en-US, en-gb, zh-Hans, etc. (2-3 chars, optional hyphen and region)
-      // Rejects: services, blog, api, etc. if they don't match strict language patterns usually, 
-      // but 'blog' is 4 chars. 'services' is 8.
-      // Strict regex: 2-3 letters, optionally followed by dash and 2-4 alphanumeric characters
-      const langRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
+    // 2. URL path prefix (existing logic, kept for back-compat)
+    if (status === "Fallback") {
+      let segments = url.pathname.split("/").filter(Boolean);
+      if (segments.length === 0 && url.search) {
+        const decodedSearch = decodeURIComponent(url.search);
+        const searchPath = decodedSearch.replace(/^[?]/, "").replace(/^[\/]/, "");
+        segments = searchPath.split("/").filter(Boolean);
+      }
+      if (segments.length > 0) {
+        const langRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
+        if (langRegex.test(segments[0])) {
+          const fromPath = matchSupported(segments[0]);
+          if (fromPath) {
+            matchedCode = fromPath;
+            status = "url-path";
+          }
+        }
+      }
+    }
 
-      // We also need to filter out common reserved words that might match the regex but aren't languages
-      // though 2-3 chars is tight. 'api', 'app' might match.
-      // Ideally we still validate against a list, but user explicitly asked to "get rid of language map".
-      // We will trust the URL structure if it looks like a language code.
+    // 3. terrabt_lang cookie
+    if (status === "Fallback") {
+      const cookieMatch = cookieHeader.match(/(?:^|;\s*)terrabt_lang=([^;]+)/);
+      const fromCookie = matchSupported(cookieMatch?.[1]);
+      if (fromCookie) {
+        matchedCode = fromCookie;
+        status = "cookie";
+      }
+    }
 
-      if (langRegex.test(detectedSegment)) {
-        matchedCode = detectedSegment; // Keep capitalization as requested
-        status = "Success";
+    // 4. Accept-Language header (parsed with quality values)
+    if (status === "Fallback") {
+      const acceptLang = request.headers.get("Accept-Language") || "";
+      const candidates = acceptLang
+        .split(",")
+        .map((part) => {
+          const [tag, ...params] = part.trim().split(";");
+          const q = params.find((p) => p.trim().startsWith("q="));
+          const quality = q ? parseFloat(q.split("=")[1]) : 1.0;
+          return { tag: tag.trim(), q: isNaN(quality) ? 1.0 : quality };
+        })
+        .filter((c) => c.tag && c.tag !== "*")
+        .sort((a, b) => b.q - a.q);
+
+      for (const c of candidates) {
+        const m = matchSupported(c.tag);
+        if (m) { matchedCode = m; status = "accept-language"; break; }
+      }
+    }
+
+    // 5. CF-IPCountry → language map
+    if (status === "Fallback") {
+      const COUNTRY_LANG = {
+        DE: "de", AT: "de", CH: "de", LI: "de",
+        FR: "fr", BE: "fr", LU: "fr", MC: "fr",
+        ES: "es", AR: "es", MX: "es", CL: "es", CO: "es", PE: "es", VE: "es", UY: "es",
+        IT: "it", SM: "it", VA: "it",
+        PT: "pt", BR: "pt", AO: "pt", MZ: "pt",
+        NL: "nl",
+        SE: "sv",
+        DK: "da",
+        NO: "nb",
+        FI: "fi",
+        PL: "pl",
+        CZ: "cs",
+        HU: "hu",
+        RO: "ro", MD: "ro",
+        SK: "sk",
+        SI: "sl",
+        HR: "hr",
+        BG: "bg",
+        UA: "uk",
+        RU: "ru", BY: "ru",
+        LT: "lt",
+        LV: "lv",
+        EE: "et",
+        GR: "el", CY: "el",
+        TR: "tr",
+        CN: "zh", TW: "zh", HK: "zh", SG: "zh",
+        KR: "ko", KP: "ko",
+        JP: "ja",
+        SA: "ar", AE: "ar", EG: "ar", IQ: "ar", JO: "ar", LB: "ar", LY: "ar",
+        MA: "ar", OM: "ar", QA: "ar", SY: "ar", TN: "ar", YE: "ar", DZ: "ar", BH: "ar", KW: "ar",
+        IL: "he",
+        ZA: "af", NA: "af",
+        KE: "sw", TZ: "sw", UG: "sw",
+        ET: "am", ER: "am",
+      };
+      const fromCountry = matchSupported(COUNTRY_LANG[country]);
+      if (fromCountry) {
+        matchedCode = fromCountry;
+        status = "country";
       }
     }
 
@@ -364,10 +458,11 @@ export default {
 
     // Rewriters
     class HeadInjector {
-      constructor(country, lang, urlObject) {
+      constructor(country, lang, urlObject, source) {
         this.country = country;
         this.lang = lang;
         this.url = urlObject;
+        this.source = source;
       }
 
       element(element) {
@@ -376,6 +471,7 @@ export default {
           `<script>
              window.GEO_COUNTRY = "${this.country || 'UNKNOWN'}";
              window.DETECTED_LANGUAGE = "${this.lang || 'en-US'}";
+             window.LANG_SOURCE = "${this.source || 'fallback'}";
            </script>`,
           { html: true }
         );
@@ -594,7 +690,7 @@ export default {
     let finalResponse = response;
     if (contentType && contentType.includes("text/html")) {
       finalResponse = new HTMLRewriter()
-        .on("head", new HeadInjector(country, matchedCode, url))
+        .on("head", new HeadInjector(country, matchedCode, url, status))
         .on("html", new HtmlLangInjector(matchedCode))
         .on("title", new TitleRewriter(seoData.title))
         .on('meta[name="description"]', new MetaDescriptionRewriter(seoData.description))
@@ -617,6 +713,12 @@ export default {
     if (shouldSetBypassCookie) {
       // Set a persistent cookie for 30 days
       newHeaders.append("Set-Cookie", `terrabt_bypass=${SECRET_ACCESS_TOKEN}; Path=/; Max-Age=2592000; Secure; HttpOnly; SameSite=Lax`);
+    }
+
+    // Persist explicit ?lang= choice as a cookie so future visits skip detection.
+    // Not HttpOnly — the React app needs to read/update it on language switch.
+    if (status === "url-param" && langFromParam) {
+      newHeaders.append("Set-Cookie", `terrabt_lang=${langFromParam}; Path=/; Max-Age=31536000; Secure; SameSite=Lax`);
     }
 
     return new Response(finalResponse.body, {
