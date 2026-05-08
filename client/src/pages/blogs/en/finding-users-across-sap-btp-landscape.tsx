@@ -10,6 +10,8 @@ export default function FindingUsersAcrossSAPBTPLandscape() {
       image={teamImage}
       seoDescription={"When a user leaves, can you tell every Sub-Account, CF Org and Space they have access to? For most SAP BTP teams, the honest answer is no. Here's why — and how to fix it."}
       path="/blog/finding-users-across-sap-btp-landscape"
+      backTo="/products/btp-xid"
+      backToLabel="Back to BTP xID"
       content={
         <div className="space-y-6 text-foreground [&_strong]:text-foreground [&_em]:text-foreground [&_li]:text-foreground [&_p]:text-foreground">
           <p className="text-lg leading-relaxed">

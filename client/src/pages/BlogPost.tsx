@@ -17,6 +17,8 @@ interface BlogPostProps {
   content: JSX.Element;
   seoDescription: string;
   path: string;
+  backTo?: string;
+  backToLabel?: string;
 }
 
 export default function BlogPost({
@@ -27,6 +29,8 @@ export default function BlogPost({
   content,
   seoDescription,
   path,
+  backTo,
+  backToLabel,
 }: BlogPostProps) {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
@@ -46,10 +50,10 @@ export default function BlogPost({
 
       <article className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href={getLocalizedPath("/")}>
+          <Link href={getLocalizedPath(backTo ?? "/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              {t("common.backToHome")}
+              {backToLabel ?? t("common.backToHome")}
             </Button>
           </Link>
 
