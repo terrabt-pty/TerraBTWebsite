@@ -2273,6 +2273,94 @@
   white-space: nowrap;
 }
 
+/* ===== WHY BTP xID — LANDSCAPE-WIDE LOOKUP ===== */
+.btpxid-why {
+  background: linear-gradient(180deg, #0B1326 0%, #0A1124 100%);
+  padding: 4rem 0;
+  border-top: 1px solid #1A2340;
+}
+.btpxid-why-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+.btpxid-why-header { text-align: center; margin-bottom: 2.5rem; }
+.btpxid-why-eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #4CAF50;
+  margin-bottom: 0.75rem;
+}
+.btpxid-why-title {
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  font-weight: 700;
+  color: #F0F4FF;
+  line-height: 1.2;
+  margin: 0 auto 1rem;
+  max-width: 760px;
+}
+.btpxid-why-accent { color: #4CAF50; }
+.btpxid-why-question {
+  font-size: 1rem;
+  color: #B8C2D8;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.btpxid-why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.btpxid-why-card {
+  border-radius: 12px;
+  padding: 1.75rem;
+  border: 1px solid #1A2340;
+}
+.btpxid-why-problem {
+  background: rgba(232, 168, 56, 0.04);
+  border-color: rgba(232, 168, 56, 0.2);
+}
+.btpxid-why-solution {
+  background: rgba(76, 175, 80, 0.04);
+  border-color: rgba(76, 175, 80, 0.25);
+}
+.btpxid-why-card-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+.btpxid-why-problem .btpxid-why-card-label { color: #E8A838; }
+.btpxid-why-solution .btpxid-why-card-label { color: #4CAF50; }
+.btpxid-why-card p {
+  font-size: 0.95rem;
+  color: #C9D1E5;
+  line-height: 1.65;
+  margin: 0 0 0.75rem;
+}
+.btpxid-why-card p:last-child { margin-bottom: 0; }
+.btpxid-why-card strong { color: #F0F4FF; font-weight: 600; }
+.btpxid-why-cta { text-align: center; }
+.btpxid-why-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4CAF50;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.btpxid-why-link:hover { background: rgba(76, 175, 80, 0.08); }
+
+@media (max-width: 720px) {
+  .btpxid-why-grid { grid-template-columns: 1fr; }
+}
+
 /* ===== SAP NOTE 3249765 SECTION ===== */
 .btpxid-sapnote {
   background: #060A16;

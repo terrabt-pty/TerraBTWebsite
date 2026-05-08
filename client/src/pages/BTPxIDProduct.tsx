@@ -372,6 +372,47 @@ export default function BTPxIDProduct() {
       {/* ===== FEATURES ===== */}
       <BTPxIDFeatures />
 
+      {/* ===== WHY BTP xID — THE LANDSCAPE-WIDE LOOKUP STORY ===== */}
+      <section className="btpxid-why">
+        <div className="btpxid-why-inner">
+          <div className="btpxid-why-header">
+            <span className="btpxid-why-eyebrow">{t('btpxidProduct.why.eyebrow')}</span>
+            <h2 className="btpxid-why-title">
+              <Trans
+                i18nKey="btpxidProduct.why.title"
+                components={{ accent: <span className="btpxid-why-accent" /> }}
+              />
+            </h2>
+            <p className="btpxid-why-question">{t('btpxidProduct.why.question')}</p>
+          </div>
+
+          <div className="btpxid-why-grid">
+            <div className="btpxid-why-card btpxid-why-problem">
+              <div className="btpxid-why-card-label">{t('btpxidProduct.why.problemLabel')}</div>
+              <p>{t('btpxidProduct.why.problem')}</p>
+              <p>{t('btpxidProduct.why.iasNote')}</p>
+            </div>
+
+            <div className="btpxid-why-card btpxid-why-solution">
+              <div className="btpxid-why-card-label">{t('btpxidProduct.why.solutionLabel')}</div>
+              <p>
+                <Trans
+                  i18nKey="btpxidProduct.why.solution"
+                  components={{ b: <strong /> }}
+                />
+              </p>
+              <p>{t('btpxidProduct.why.solutionExtra')}</p>
+            </div>
+          </div>
+
+          <div className="btpxid-why-cta">
+            <Link href={getLocalizedPath("/blog/finding-users-across-sap-btp-landscape")} className="btpxid-why-link">
+              {t('btpxidProduct.why.readMore')} →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ===== SAP NOTE 3249765 ===== */}
       <section className="btpxid-sapnote">
         <div className="btpxid-sapnote-inner">
