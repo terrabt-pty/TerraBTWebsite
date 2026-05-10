@@ -782,11 +782,11 @@
   padding: 4rem 3rem;
   max-width: 1200px;
   margin: 0 auto;
-  background: #080C1A;
+  background: #FFFFFF;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Make the features section full-width dark bg */
+/* Make the features section full-width light bg */
 .btpxid-features {
   max-width: none;
   padding-left: 0;
@@ -819,14 +819,14 @@
   font-weight: 700;
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
-  color: #E8ECF4;
+  color: #0F172A;
   overflow-wrap: normal;
   hyphens: none;
 }
 
 .btpxid-features-sub {
   font-size: 1rem;
-  color: #7A8AAE;
+  color: #475569;
   font-weight: 300;
   max-width: 500px;
   margin: 0 auto;
@@ -839,8 +839,8 @@
 }
 
 .btpxid-feature-card {
-  background: #0E1428;
-  border: 1px solid #1A2340;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 1rem;
   padding: 2.25rem 1.75rem;
   transition: all 0.3s ease;
@@ -859,9 +859,10 @@
 }
 
 .btpxid-feature-card:hover {
-  border-color: #2A3660;
-  background: #131A32;
-  transform: translateY(-0.25rem);
+  border-color: #94A3B8;
+  background: #F8FAFC;
+  transform: translateY(-0.125rem);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .btpxid-feature-card:hover::before { opacity: 1; }
@@ -876,23 +877,23 @@
   margin-bottom: 1.25rem;
 }
 
-.btpxid-fi-green { background: rgba(76, 175, 80, 0.1); border: 1px solid rgba(76, 175, 80, 0.15); }
-.btpxid-fi-blue { background: rgba(30, 80, 153, 0.15); border: 1px solid rgba(30, 80, 153, 0.2); }
-.btpxid-fi-teal { background: rgba(42, 112, 136, 0.12); border: 1px solid rgba(42, 112, 136, 0.18); }
+.btpxid-fi-green { background: rgba(76, 175, 80, 0.08); border: 1px solid rgba(76, 175, 80, 0.2); }
+.btpxid-fi-blue { background: rgba(30, 80, 153, 0.07); border: 1px solid rgba(30, 80, 153, 0.18); }
+.btpxid-fi-teal { background: rgba(42, 112, 136, 0.07); border: 1px solid rgba(42, 112, 136, 0.15); }
 
 .btpxid-feature-card h3 {
   font-size: 1.0625rem;
   font-weight: 600;
   margin-bottom: 0.625rem;
   letter-spacing: -0.01em;
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 .btpxid-feature-card p {
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #7A8AAE;
-  font-weight: 300;
+  color: #475569;
+  font-weight: 400;
 }
 
 /* ===== BTP xID Responsive ===== */
@@ -978,7 +979,7 @@
 
 /* ===== BTP xID Showcase / Screenshots Section ===== */
 .btpxid-showcase {
-  background: #080C1A;
+  background: #FAFAFA;
   padding: 4rem 0 5rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -999,15 +1000,15 @@
   font-weight: 700;
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
-  color: #E8ECF4;
+  color: #0F172A;
   overflow-wrap: normal;
   hyphens: none;
 }
 
 .btpxid-showcase-sub {
   font-size: 1rem;
-  color: #7A8AAE;
-  font-weight: 300;
+  color: #475569;
+  font-weight: 400;
   max-width: 560px;
   margin: 0 auto;
 }
@@ -1026,28 +1027,28 @@
   font-weight: 500;
   font-family: inherit;
   background: transparent;
-  color: #7A8AAE;
-  border: 1px solid #1A2340;
+  color: #475569;
+  border: 1px solid #E2E8F0;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .btpxid-tab:hover {
-  border-color: #2A3660;
-  color: #E8ECF4;
+  border-color: #94A3B8;
+  color: #0F172A;
 }
 
 .btpxid-tab-active {
-  background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(30, 80, 153, 0.15));
-  border-color: rgba(76, 175, 80, 0.3);
-  color: #5AC765;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.08), rgba(30, 80, 153, 0.08));
+  border-color: rgba(76, 175, 80, 0.35);
+  color: #3A9A6A;
 }
 
 .btpxid-showcase-desc {
   text-align: center;
   font-size: 0.9375rem;
-  color: #7A8AAE;
-  font-weight: 300;
+  color: #475569;
+  font-weight: 400;
   max-width: 600px;
   margin: 0 auto 2.5rem;
   line-height: 1.6;
@@ -1057,11 +1058,11 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid #1A2340;
+  border: 1px solid #E2E8F0;
   box-shadow:
-    0 0 0 1px rgba(76, 175, 80, 0.05),
-    0 20px 80px rgba(0, 0, 0, 0.5),
-    0 4px 20px rgba(22, 59, 120, 0.2);
+    0 0 0 1px rgba(76, 175, 80, 0.04),
+    0 20px 60px rgba(0, 0, 0, 0.08),
+    0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .btpxid-screenshot {
@@ -1760,7 +1761,7 @@
 
 /* ===== BTP xID Pricing Section ===== */
 .btpxid-pricing {
-  background: #060A16;
+  background: #F8FAFC;
   padding: 4rem 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -1776,8 +1777,8 @@
   justify-content: center;
   gap: 0.25rem;
   margin-bottom: 3rem;
-  background: #0E1428;
-  border: 1px solid #1A2340;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 0.75rem;
   padding: 0.25rem;
   width: fit-content;
@@ -1792,7 +1793,7 @@
   font-weight: 500;
   font-family: inherit;
   background: transparent;
-  color: #7A8AAE;
+  color: #475569;
   border: none;
   cursor: pointer;
   transition: all 0.2s;
@@ -1802,19 +1803,19 @@
 }
 
 .btpxid-billing-btn:hover {
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 .btpxid-billing-active {
-  background: #1A2340;
-  color: #E8ECF4;
+  background: #F1F5F9;
+  color: #0F172A;
 }
 
 .btpxid-save-badge {
   font-size: 0.6875rem;
   font-weight: 600;
-  background: rgba(76, 175, 80, 0.15);
-  color: #5AC765;
+  background: rgba(76, 175, 80, 0.1);
+  color: #3A9A6A;
   padding: 0.125rem 0.5rem;
   border-radius: 6.25rem;
   border: 1px solid rgba(76, 175, 80, 0.25);
@@ -1824,8 +1825,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 2.5rem;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 9999px;
   padding: 4px;
   width: fit-content;
@@ -1841,7 +1842,7 @@
   border-radius: 9999px;
   border: none;
   background: transparent;
-  color: #6B7280;
+  color: #475569;
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
@@ -1850,19 +1851,19 @@
 }
 
 .btpxid-billing-option:hover {
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 .btpxid-billing-active {
-  background: rgba(255,255,255,0.1);
-  color: #E8ECF4;
+  background: #F1F5F9;
+  color: #0F172A;
 }
 
 .btpxid-billing-save {
   font-size: 0.7rem;
   font-weight: 600;
-  color: #5AC765;
-  background: rgba(76, 175, 80, 0.15);
+  color: #3A9A6A;
+  background: rgba(76, 175, 80, 0.1);
   border: 1px solid rgba(76, 175, 80, 0.25);
   border-radius: 9999px;
   padding: 0.1rem 0.4rem;
@@ -1878,7 +1879,7 @@
 
 .btpxid-price-annual-note {
   font-size: 0.8rem;
-  color: #4A5678;
+  color: #94A3B8;
   margin-top: 0.1rem;
 }
 
@@ -1889,27 +1890,29 @@
 }
 
 .btpxid-plan-card {
-  background: #0E1428;
-  border: 1px solid #1A2340;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 1.25rem;
   padding: 2.25rem 2rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .btpxid-plan-card:hover {
-  border-color: #2A3660;
+  border-color: #94A3B8;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 .btpxid-plan-featured {
-  border-color: rgba(76, 175, 80, 0.3);
-  background: linear-gradient(180deg, rgba(76, 175, 80, 0.05) 0%, #0E1428 40%);
+  border-color: #94A3B8;
+  background: #FFFFFF;
 }
 
 .btpxid-plan-featured:hover {
-  border-color: rgba(76, 175, 80, 0.5);
+  border-color: #64748B;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
 .btpxid-plan-popular {
@@ -1933,14 +1936,14 @@
 .btpxid-plan-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #E8ECF4;
+  color: #0F172A;
   margin-bottom: 0.375rem;
 }
 
 .btpxid-plan-desc {
   font-size: 0.875rem;
-  color: #7A8AAE;
-  font-weight: 300;
+  color: #475569;
+  font-weight: 400;
 }
 
 .btpxid-plan-price {
@@ -1953,7 +1956,7 @@
 .btpxid-price-amount {
   font-size: 3rem;
   font-weight: 800;
-  color: #E8ECF4;
+  color: #0F172A;
   letter-spacing: -0.03em;
   line-height: 1;
 }
@@ -1964,7 +1967,7 @@
 
 .btpxid-price-period {
   font-size: 0.875rem;
-  color: #4A5678;
+  color: #94A3B8;
   font-weight: 400;
 }
 
@@ -1983,7 +1986,7 @@
   align-items: center;
   gap: 0.625rem;
   font-size: 0.875rem;
-  color: #7A8AAE;
+  color: #475569;
   font-weight: 400;
 }
 
@@ -2003,15 +2006,16 @@
   cursor: pointer;
   transition: all 0.2s;
   background: transparent;
-  color: #E8ECF4;
+  color: #475569;
   text-decoration: none;
   text-align: center;
-  border: 1px solid #2A3660;
+  border: 1px solid #E2E8F0;
 }
 
 .btpxid-plan-btn:hover {
-  border-color: #7A8AAE;
-  background: rgba(255, 255, 255, 0.03);
+  border-color: #94A3B8;
+  background: #F8FAFC;
+  color: #0F172A;
 }
 
 .btpxid-plan-btn-primary {
@@ -2044,7 +2048,7 @@
 
 /* ===== BTP xID Download Section ===== */
 .btpxid-download {
-  background: #080C1A;
+  background: #FFFFFF;
   padding: 6.25rem 0 7.5rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -2105,7 +2109,7 @@
 .btpxid-download-other {
   font-size: 0.875rem;
   font-weight: 500;
-  color: #7A8AAE;
+  color: #475569;
   background: none;
   border: none;
   cursor: pointer;
@@ -2116,7 +2120,7 @@
 }
 
 .btpxid-download-other:hover {
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 .btpxid-download-grid {
@@ -2131,31 +2135,31 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.25rem;
-  background: #0E1428;
-  border: 1px solid #1A2340;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 0.75rem;
   cursor: pointer;
   transition: all 0.2s;
   font-family: inherit;
   text-align: left;
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 .btpxid-download-option:hover {
-  border-color: #2A3660;
-  background: #131A32;
+  border-color: #94A3B8;
+  background: #F8FAFC;
 }
 
 .btpxid-download-option-label {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #E8ECF4;
+  color: #0F172A;
   margin-bottom: 0.125rem;
 }
 
 .btpxid-download-option-desc {
   font-size: 0.75rem;
-  color: #4A5678;
+  color: #94A3B8;
   font-weight: 400;
 }
 
@@ -2166,7 +2170,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(4, 8, 20, 0.55);
+  background: rgba(15, 23, 42, 0.4);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   padding: 1rem;
@@ -2177,13 +2181,13 @@
   width: 100%;
   max-width: 420px;
   padding: 1.5rem 2.5rem 1.5rem 1.5rem;
-  background: rgba(14, 20, 40, 0.72);
-  border: 1px solid rgba(90, 120, 200, 0.25);
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #E2E8F0;
   border-radius: 1rem;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15), 0 4px 16px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  color: #A8B4D0;
+  color: #475569;
   font-size: 0.8125rem;
   line-height: 1.6;
 }
@@ -2192,10 +2196,10 @@
   position: relative;
   margin-bottom: 1.5rem;
   padding: 1rem 2.5rem 1rem 1.25rem;
-  background: #0E1428;
-  border: 1px solid #2A3660;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
   border-radius: 0.75rem;
-  color: #A8B4D0;
+  color: #475569;
   font-size: 0.8125rem;
   line-height: 1.6;
 }
@@ -2211,7 +2215,7 @@
   height: 1.5rem;
   background: none;
   border: none;
-  color: #4A5678;
+  color: #94A3B8;
   cursor: pointer;
   border-radius: 0.25rem;
   transition: color 0.15s, background 0.15s;
@@ -2219,8 +2223,8 @@
 }
 
 .btpxid-smartscreen-notice-close:hover {
-  color: #E8ECF4;
-  background: #1A2340;
+  color: #0F172A;
+  background: #F1F5F9;
 }
 
 .btpxid-smartscreen-notice-title {
@@ -2229,7 +2233,7 @@
   gap: 0.4rem;
   font-size: 0.875rem;
   font-weight: 600;
-  color: #C8D4E8;
+  color: #0F172A;
   margin-bottom: 0.625rem;
 }
 
@@ -2247,7 +2251,7 @@
 }
 
 .btpxid-smartscreen-notice strong {
-  color: #E8ECF4;
+  color: #0F172A;
   font-weight: 600;
 }
 
@@ -2258,20 +2262,20 @@
 
 .btpxid-download-info p {
   font-size: 0.75rem;
-  color: #4A5678;
+  color: #94A3B8;
   margin-bottom: 0.5rem;
   font-weight: 400;
 }
 
 .btpxid-download-info a {
-  color: #7A8AAE;
+  color: #475569;
   text-decoration: underline;
   text-underline-offset: 0.125rem;
   transition: color 0.2s;
 }
 
 .btpxid-download-info a:hover {
-  color: #E8ECF4;
+  color: #0F172A;
 }
 
 @media (max-width: 700px) {
@@ -2358,9 +2362,9 @@
 
 /* ===== WHY BTP xID — LANDSCAPE-WIDE LOOKUP ===== */
 .btpxid-why {
-  background: linear-gradient(180deg, #0B1326 0%, #0A1124 100%);
+  background: #FFFFFF;
   padding: 4rem 0;
-  border-top: 1px solid #1A2340;
+  border-top: 1px solid #E2E8F0;
 }
 .btpxid-why-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
 .btpxid-why-header { text-align: center; margin-bottom: 2.5rem; }
@@ -2376,7 +2380,7 @@
 .btpxid-why-title {
   font-size: clamp(1.6rem, 3vw, 2.25rem);
   font-weight: 700;
-  color: #F0F4FF;
+  color: #0F172A;
   line-height: 1.2;
   margin: 0 auto 1rem;
   max-width: 760px;
@@ -2384,7 +2388,7 @@
 .btpxid-why-accent { color: #4CAF50; }
 .btpxid-why-question {
   font-size: 1rem;
-  color: #B8C2D8;
+  color: #475569;
   max-width: 720px;
   margin: 0 auto;
   line-height: 1.6;
@@ -2398,15 +2402,15 @@
 .btpxid-why-card {
   border-radius: 12px;
   padding: 1.75rem;
-  border: 1px solid #1A2340;
+  border: 1px solid #E2E8F0;
 }
 .btpxid-why-problem {
-  background: rgba(232, 168, 56, 0.04);
-  border-color: rgba(232, 168, 56, 0.2);
+  background: rgba(232, 168, 56, 0.06);
+  border-color: #FDE68A;
 }
 .btpxid-why-solution {
-  background: rgba(76, 175, 80, 0.04);
-  border-color: rgba(76, 175, 80, 0.25);
+  background: rgba(76, 175, 80, 0.06);
+  border-color: #A7F3D0;
 }
 .btpxid-why-card-label {
   font-size: 0.7rem;
@@ -2415,16 +2419,16 @@
   text-transform: uppercase;
   margin-bottom: 0.75rem;
 }
-.btpxid-why-problem .btpxid-why-card-label { color: #E8A838; }
+.btpxid-why-problem .btpxid-why-card-label { color: #B45309; }
 .btpxid-why-solution .btpxid-why-card-label { color: #4CAF50; }
 .btpxid-why-card p {
   font-size: 0.95rem;
-  color: #C9D1E5;
+  color: #475569;
   line-height: 1.65;
   margin: 0 0 0.75rem;
 }
 .btpxid-why-card p:last-child { margin-bottom: 0; }
-.btpxid-why-card strong { color: #F0F4FF; font-weight: 600; }
+.btpxid-why-card strong { color: #0F172A; font-weight: 600; }
 .btpxid-why-cta { text-align: center; }
 .btpxid-why-link {
   display: inline-flex;
@@ -2446,9 +2450,9 @@
 
 /* ===== SAP NOTE 3249765 SECTION ===== */
 .btpxid-sapnote {
-  background: #060A16;
-  border-top: 1px solid #1A2340;
-  border-bottom: 1px solid #1A2340;
+  background: #FAFAFA;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
   padding: 4rem 0;
 }
 
@@ -2480,13 +2484,13 @@
 .btpxid-sapnote-title {
   font-size: clamp(1.6rem, 3vw, 2.25rem);
   font-weight: 700;
-  color: #E8EDF5;
+  color: #0F172A;
   margin: 0 0 1rem;
   letter-spacing: -0.02em;
 }
 
 .btpxid-sapnote-sub {
-  color: #8892A4;
+  color: #475569;
   font-size: 1rem;
   line-height: 1.7;
   max-width: 720px;
@@ -2501,11 +2505,12 @@
 
 .btpxid-inline-code {
   font-family: monospace;
-  background: rgba(255,255,255,0.07);
+  background: #F1F5F9;
   border-radius: 0.25rem;
   padding: 0.1rem 0.4rem;
   font-size: 0.875em;
-  color: #E8EDF5;
+  color: #475569;
+  border: 1px solid #E2E8F0;
 }
 
 .btpxid-sapnote-grid {
@@ -2516,8 +2521,8 @@
 }
 
 .btpxid-sapnote-card {
-  background: #0E1428;
-  border: 1px solid #1A2340;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
   border-radius: 1rem;
   padding: 2rem;
 }
@@ -2530,8 +2535,18 @@
   margin-bottom: 1.25rem;
 }
 
+.btpxid-sapnote-manual {
+  background: #FFFBEB;
+  border-color: #FDE68A;
+}
+
+.btpxid-sapnote-xid {
+  background: #F0FDF4;
+  border-color: #A7F3D0;
+}
+
 .btpxid-sapnote-manual .btpxid-sapnote-card-label {
-  color: #E8A838;
+  color: #B45309;
 }
 
 .btpxid-sapnote-xid .btpxid-sapnote-card-label {
@@ -2539,7 +2554,7 @@
 }
 
 .btpxid-sapnote-steps {
-  color: #8892A4;
+  color: #475569;
   font-size: 0.9rem;
   line-height: 1.75;
   padding-left: 0;
@@ -2562,10 +2577,10 @@
   top: 0;
   width: 1.4rem;
   height: 1.4rem;
-  background: rgba(232, 168, 56, 0.12);
-  border: 1px solid rgba(232, 168, 56, 0.3);
+  background: rgba(180, 83, 9, 0.08);
+  border: 1px solid rgba(180, 83, 9, 0.2);
   border-radius: 50%;
-  color: #E8A838;
+  color: #B45309;
   font-size: 0.7rem;
   font-weight: 700;
   display: flex;
@@ -2575,17 +2590,17 @@
 }
 
 .btpxid-sapnote-steps li:last-child {
-  color: #E8A838;
+  color: #B45309;
 }
 
 .btpxid-sapnote-code {
-  background: #080C1A;
-  border: 1px solid #1A2340;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
   border-radius: 0.5rem;
   padding: 1rem 1.25rem;
   font-family: monospace;
   font-size: 0.8rem;
-  color: #8892A4;
+  color: #334155;
   line-height: 1.6;
   overflow-x: auto;
   margin: 0;
@@ -2618,31 +2633,34 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #4CAF50;
+  background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   white-space: nowrap;
 }
 
 .btpxid-sapnote-oneclick-text strong {
   display: block;
-  color: #E8EDF5;
+  color: #0F172A;
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
 .btpxid-sapnote-oneclick-text p {
-  color: #8892A4;
+  color: #475569;
   font-size: 0.9rem;
   line-height: 1.65;
   margin: 0;
 }
 
 .btpxid-sapnote-xid-note {
-  color: #8892A4;
+  color: #475569;
   font-size: 0.875rem;
   line-height: 1.65;
   margin: 0 0 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid #1A2340;
+  border-top: 1px solid #D1FAE5;
 }
 
 .btpxid-sapnote-ref {

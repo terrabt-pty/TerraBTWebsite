@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
-import userListImg from "@assets/BTP_xID_User_List_1772336098799.webp";
+import userLookupImg from "@assets/UserSearchScreenshot.webp";
 
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
@@ -294,8 +294,8 @@ export default function BTPxIDProduct() {
           <div className="btpxid-hero-visual">
             <div className="btpxid-hero-screenshot-frame">
               <img
-                src={userListImg}
-                alt="BTP xID — User management across all SAP BTP scopes"
+                src={userLookupImg}
+                alt="BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space"
                 className="btpxid-hero-screenshot-img"
               />
               <div className="btpxid-shield-badge">
