@@ -65,7 +65,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
+    <nav className="sticky top-0 z-50 border-b border-slate-200" style={{ background: "#F1F5F9" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-[auto_1fr_auto] items-center h-16 gap-4">
 
@@ -78,7 +78,10 @@ export default function Navigation() {
           <div className="hidden lg:flex items-center justify-center gap-6">
             <button
               onClick={() => { setLocation(homePath); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-              className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
               data-testid="link-home"
             >
               {t('nav.home')}
@@ -87,7 +90,10 @@ export default function Navigation() {
             {/* Products dropdown */}
             <div className="relative" onMouseEnter={() => setProductsOpen(true)} onMouseLeave={() => setProductsOpen(false)}>
               <button
-                className="flex items-center gap-1 text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                className="flex items-center gap-1 font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
                 data-testid="link-products"
                 aria-expanded={productsOpen}
               >
@@ -96,7 +102,7 @@ export default function Navigation() {
               </button>
               {productsOpen && (
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-80 pt-1 z-50" data-testid="dropdown-products">
-                  <div className="rounded-lg border bg-background shadow-lg py-1.5">
+                  <div className="rounded-lg border border-slate-200 shadow-lg py-1.5" style={{ background: "#FFFFFF" }}>
                     {PRODUCTS.map((p) => (
                       <button key={p.id} onClick={() => goToProduct(p.path)} className="w-full text-left px-4 py-2.5 hover:bg-accent transition-colors group" data-testid={`dropdown-product-${p.id}`}>
                         <div className="flex items-center gap-2">
@@ -116,7 +122,10 @@ export default function Navigation() {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="text-foreground/80 hover:text-foreground font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
                 data-testid={`link-${link.href.replace('#', '')}`}
               >
                 {t(link.labelKey)}
@@ -130,7 +139,10 @@ export default function Navigation() {
               <LanguageSwitcher />
               <a
                 href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
-                className="flex flex-col items-center text-foreground/80 hover:text-foreground transition-colors hover-elevate p-2 rounded-md"
+                className="flex flex-col items-center transition-colors hover-elevate p-2 rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
                 data-testid="link-sign-in"
                 aria-label={t('nav.signIn')}
               >
@@ -142,7 +154,8 @@ export default function Navigation() {
               <LanguageSwitcher />
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-1.5 xxs:p-2 text-foreground/80 hover:text-foreground hover:bg-accent rounded-md transition-colors"
+                className="p-1.5 xxs:p-2 hover:bg-slate-200 rounded-md transition-colors"
+                style={{ color: "#475569" }}
                 data-testid="button-mobile-menu"
               >
                 {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -154,11 +167,14 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t bg-background" data-testid="mobile-menu">
+        <div className="lg:hidden border-t border-slate-200" style={{ background: "#F1F5F9" }} data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
             <button
               onClick={() => { setMobileMenuOpen(false); setLocation(homePath); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-              className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
               data-testid="mobile-link-home"
             >
               {t('nav.home')}
@@ -168,7 +184,10 @@ export default function Navigation() {
             <div>
               <button
                 onClick={() => setMobileProductsOpen((v) => !v)}
-                className="flex items-center justify-between w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+                className="flex items-center justify-between w-full px-3 py-2 font-medium hover-elevate rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
                 data-testid="mobile-link-products"
               >
                 {t('nav.products')}
@@ -193,7 +212,10 @@ export default function Navigation() {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="block w-full text-left px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+                className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
                 data-testid={`mobile-link-${link.href.replace('#', '')}`}
               >
                 {t(link.labelKey)}
@@ -202,7 +224,10 @@ export default function Navigation() {
 
             <a
               href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
-              className="flex items-center gap-2 w-full px-3 py-2 text-foreground/80 hover:text-foreground font-medium hover-elevate rounded-md"
+              className="flex items-center gap-2 w-full px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
               data-testid="mobile-link-sign-in"
             >
               <UserCircle className="h-4 w-4" />

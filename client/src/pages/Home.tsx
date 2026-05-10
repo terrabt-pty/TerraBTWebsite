@@ -4,7 +4,6 @@ import { isANZ as checkIsANZ } from "@/lib/anz";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BTPxIDAnnouncement from "@/components/BTPxIDAnnouncement";
-import ClaudeCliAnnouncement from "@/components/ClaudeCliAnnouncement";
 import ExpertiseCard from "@/components/ExpertiseCard";
 import ValueProposition from "@/components/ValueProposition";
 import BlogCard from "@/components/BlogCard";
@@ -165,7 +164,6 @@ export default function Home() {
       />
       <Navigation />
       <BTPxIDAnnouncement />
-      <ClaudeCliAnnouncement />
       <HeroSection />
 
       {!isANZ && <section id="services" className="py-12 md:py-16" style={{ background: "#FFFFFF" }}>
