@@ -11,7 +11,6 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Download,
   CheckCircle,
-  Shield,
   ChevronDown,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
@@ -259,7 +258,7 @@ export default function BTPxIDProduct() {
       {/* ===== HERO ===== */}
       <section className="btpxid-hero" id="home">
         <div className="btpxid-hero-inner">
-          {/* Left column — text content */}
+          {/* Text block — centered, stacked */}
           <div className="btpxid-hero-content">
             {/* Wordmark */}
             <div className="btpxid-hero-wordmark">
@@ -290,7 +289,7 @@ export default function BTPxIDProduct() {
             </button>
           </div>
 
-          {/* Right column — screenshot */}
+          {/* Screenshot — full-width block below text */}
           <div className="btpxid-hero-visual">
             <div className="btpxid-hero-screenshot-frame">
               <img
@@ -298,10 +297,6 @@ export default function BTPxIDProduct() {
                 alt="BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space"
                 className="btpxid-hero-screenshot-img"
               />
-              <div className="btpxid-shield-badge">
-                <Shield className="h-3 w-3" />
-                {t('btpxidProduct.hero.shieldBadge')}
-              </div>
             </div>
           </div>
         </div>

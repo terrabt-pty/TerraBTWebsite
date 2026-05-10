@@ -29,9 +29,6 @@ export default function BTPxIDFeatures() {
           <br />
           {t('btpxidProduct.features.title2')}
         </h2>
-        <p className="btpxid-features-sub">
-          {t('btpxidProduct.features.subtitle')}
-        </p>
       </div>
 
       <div className="btpxid-features-grid">
