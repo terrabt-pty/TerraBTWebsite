@@ -113,7 +113,7 @@ export default function BuildAutomation() {
       />
       <Navigation />
 
-      <section className="pt-32 pb-16 bg-gradient-to-br from-chart-1/10 via-primary/5 to-trust/10">
+      <section className="pt-32 pb-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
@@ -197,7 +197,7 @@ export default function BuildAutomation() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-trust/5 via-background to-primary/5">
+      <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -265,7 +265,7 @@ export default function BuildAutomation() {
 
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="p-8 border-primary/20 bg-gradient-to-r from-primary/5 to-trust/5">
+          <Card className="p-8 border-slate-200 bg-slate-50">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-4">

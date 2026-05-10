@@ -51,7 +51,7 @@ const products: Product[] = [
     status: "New",
     previewImage: null,
     placeholderGradient:
-      "linear-gradient(135deg, #080C1A 0%, #0E1830 45%, #2A7088 100%)",
+      "linear-gradient(135deg, #4CAF50 0%, #3A9A6A 50%, #1E5099 100%)",
     placeholderLabel: "Claude CLI Backup",
     startingPrice: "Download",
     path: "/products/claude-cli",
@@ -62,7 +62,7 @@ export default function Products() {
   const { getLocalizedPath } = useLocalizedPath();
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen" style={{ background: "#FFFFFF", color: "#0F172A" }}>
       <SEOHead
         title="Products - SAP BTP Tools by TerraBT"
         description="TerraBT products for SAP BTP administrators. Download desktop apps and tools to manage your SAP BTP landscape more efficiently."
@@ -73,10 +73,10 @@ export default function Products() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl font-bold mb-3" data-testid="text-products-heading">
+          <h1 className="text-4xl font-bold mb-3" style={{ color: "#0F172A" }} data-testid="text-products-heading">
             Products
           </h1>
-          <p className="text-muted-foreground text-lg max-w-2xl">
+          <p className="text-lg max-w-2xl" style={{ color: "#475569" }}>
             Purpose-built tools for SAP BTP administrators. Download, install, and manage your landscape more efficiently.
           </p>
         </div>

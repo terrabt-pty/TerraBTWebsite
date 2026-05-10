@@ -167,13 +167,13 @@ export default function Home() {
       <ClaudeCliAnnouncement />
       <HeroSection />
 
-      {!isANZ && <section id="services" className="py-12 md:py-16">
+      {!isANZ && <section id="services" className="py-12 md:py-16" style={{ background: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold break-words" style={{ color: "#0F172A" }}>
               {t('services.title')}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg max-w-2xl mx-auto" style={{ color: "#475569" }}>
               {t('services.subtitle')}
             </p>
           </div>
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
       </section>}
 
-      {!isANZ && <section className="py-20 md:py-24 bg-gradient-to-b from-trust/5 via-background to-primary/5">
+      {!isANZ && <section className="py-20 md:py-24" style={{ background: "#F8FAFC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
@@ -233,13 +233,13 @@ export default function Home() {
         </div>
       </section>}
 
-      {!isANZ && <section id="knowledge" className="py-20 md:py-24">
+      {!isANZ && <section id="knowledge" className="py-20 md:py-24" style={{ background: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground break-words">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold break-words" style={{ color: "#0F172A" }}>
               {t('knowledge.title')}
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg max-w-2xl mx-auto" style={{ color: "#475569" }}>
               {t('knowledge.subtitle')}
             </p>
           </div>

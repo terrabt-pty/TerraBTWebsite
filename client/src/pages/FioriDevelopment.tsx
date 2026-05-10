@@ -64,7 +64,7 @@ export default function FioriDevelopment() {
       />
       <Navigation />
 
-      <section className="pt-32 pb-16 bg-gradient-to-br from-chart-5/10 via-trust/5 to-primary/10">
+      <section className="pt-32 pb-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={getLocalizedPath("/")}>
             <Button variant="ghost" className="mb-8 hover-elevate" data-testid="button-back">
@@ -151,7 +151,7 @@ export default function FioriDevelopment() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-trust/5 via-background to-primary/5">
+      <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -177,7 +177,7 @@ export default function FioriDevelopment() {
               </ul>
             </div>
 
-            <Card className="p-8 bg-gradient-to-br from-card to-card/50">
+            <Card className="p-8 bg-white">
               <div className="space-y-6">
                 <div>
                   <div className="text-4xl font-bold text-primary mb-2">{t('fioriDevelopment.statistics.appsDelivered.value')}</div>
@@ -203,7 +203,7 @@ export default function FioriDevelopment() {
 
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="p-8 border-primary/20 bg-gradient-to-r from-primary/5 to-trust/5">
+          <Card className="p-8 border-slate-200 bg-slate-50">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-4">
@@ -223,7 +223,7 @@ export default function FioriDevelopment() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-trust/10 via-primary/5 to-background">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="bg-urgency/10 text-urgency border-urgency/30 mb-6">
             {t('fioriDevelopment.ctaSectionBadge')}
