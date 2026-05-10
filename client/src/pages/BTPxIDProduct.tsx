@@ -11,7 +11,6 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Download,
   CheckCircle,
-  ChevronDown,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
@@ -277,16 +276,6 @@ export default function BTPxIDProduct() {
 
             {/* Description */}
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.description')}</p>
-
-            {/* Scroll hint */}
-            <button
-              type="button"
-              onClick={() => scrollToSection("#features")}
-              className="btpxid-hero-scroll-hint"
-              aria-label="Scroll to learn more"
-            >
-              <ChevronDown className="btpxid-hero-scroll-icon" />
-            </button>
           </div>
 
           {/* Screenshot — full-width block below text */}
