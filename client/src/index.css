@@ -401,8 +401,7 @@
   padding: min(96px, 12vh) 3rem;
   position: relative;
   overflow: hidden;
-  background: #FAFAFA;
-  background-image: radial-gradient(circle at top left, rgba(76, 175, 80, 0.05), transparent 50%);
+  background: #FFFFFF;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
