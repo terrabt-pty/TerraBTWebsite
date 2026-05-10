@@ -41,7 +41,7 @@ export default function Navigation() {
   const isANZ = checkIsANZ();
   const rawScrollLinks = isOnBTPxID ? BTPXID_scrollLinks : HOME_scrollLinks;
   const scrollLinks = isANZ
-    ? rawScrollLinks.filter(l => l.href !== '#services' && l.href !== '#contact')
+    ? rawScrollLinks.filter(l => l.href !== '#services')
     : rawScrollLinks;
 
   const scrollToSection = (href: string) => {

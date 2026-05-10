@@ -259,7 +259,7 @@ export default function Home() {
         </div>
       </section>}
 
-      {!isANZ && <ContactSection />}
+      <ContactSection />
       <Footer />
     </div>
   );
