@@ -5,6 +5,7 @@ import { Menu, X, UserCircle, ChevronDown } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import { isANZ as checkIsANZ } from "@/lib/anz";
 
 declare global {
   interface Window { GEO_COUNTRY?: string; }
@@ -37,7 +38,7 @@ export default function Navigation() {
   const homePath = getLocalizedPath("/");
   const btpxidPath = getLocalizedPath("/products/btp-xid");
   const isOnBTPxID = location === btpxidPath || location === btpxidPath.replace(/\/$/, "");
-  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+  const isANZ = checkIsANZ();
   const rawScrollLinks = isOnBTPxID ? BTPXID_scrollLinks : HOME_scrollLinks;
   const scrollLinks = isANZ
     ? rawScrollLinks.filter(l => l.href !== '#services' && l.href !== '#contact')

@@ -2,11 +2,12 @@ import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
 import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
+import { isANZ as checkIsANZ } from "@/lib/anz";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
-  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+  const isANZ = checkIsANZ();
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);

@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { isANZ as checkIsANZ } from "@/lib/anz";
 
 export default function HeroSection() {
   const { t } = useTranslation();
-  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+  const isANZ = checkIsANZ();
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);

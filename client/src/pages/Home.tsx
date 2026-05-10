@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
+import { isANZ as checkIsANZ } from "@/lib/anz";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BTPxIDAnnouncement from "@/components/BTPxIDAnnouncement";
@@ -153,7 +154,7 @@ export default function Home() {
     },
   ];
 
-  const isANZ = window.GEO_COUNTRY === 'AU' || window.GEO_COUNTRY === 'NZ';
+  const isANZ = checkIsANZ();
 
   return (
     <div className="min-h-screen bg-background">
