@@ -2328,15 +2328,6 @@
 }
 .btpxid-why-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
 .btpxid-why-header { text-align: center; margin-bottom: 2.5rem; }
-.btpxid-why-eyebrow {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #4CAF50;
-  margin-bottom: 0.75rem;
-}
 .btpxid-why-title {
   font-size: clamp(1.6rem, 3vw, 2.25rem);
   font-weight: 700;

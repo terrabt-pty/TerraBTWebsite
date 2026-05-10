@@ -298,7 +298,6 @@ export default function BTPxIDProduct() {
       <section className="btpxid-why">
         <div className="btpxid-why-inner">
           <div className="btpxid-why-header">
-            <span className="btpxid-why-eyebrow">{t('btpxidProduct.why.eyebrow')}</span>
             <h2 className="btpxid-why-title">
               <Trans
                 i18nKey="btpxidProduct.why.title"
