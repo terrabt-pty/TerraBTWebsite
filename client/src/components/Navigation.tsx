@@ -65,7 +65,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-slate-200" style={{ background: "#F1F5F9" }}>
+    <nav className="sticky top-0 z-50 border-b border-slate-200" style={{ background: "#FFFFFF" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-[auto_1fr_auto] items-center h-16 gap-4">
 
@@ -167,7 +167,7 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-slate-200" style={{ background: "#F1F5F9" }} data-testid="mobile-menu">
+        <div className="lg:hidden border-t border-slate-200" style={{ background: "#FFFFFF" }} data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
             <button
               onClick={() => { setMobileMenuOpen(false); setLocation(homePath); window.scrollTo({ top: 0, behavior: 'smooth' }); }}

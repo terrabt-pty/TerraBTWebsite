@@ -77,6 +77,7 @@ export default function LanguageSwitcher() {
         <Button
           variant="outline"
           className="w-auto lg:w-[200px] justify-start gap-2 px-2 lg:px-4"
+          style={{ color: "#475569" }}
           data-testid="select-language"
         >
           <Globe className="h-4 w-4 shrink-0" />
