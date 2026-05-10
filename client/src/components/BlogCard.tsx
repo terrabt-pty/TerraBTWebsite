@@ -1,9 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
-import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock } from "lucide-react";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import { useState } from "react";
 
 interface BlogCardProps {
   image: string;
@@ -24,9 +23,23 @@ export default function BlogCard({
 }: BlogCardProps) {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <Card className="overflow-hidden hover-elevate transition-all duration-300 group" data-testid={`card-blog-${title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`}>
-      <div className="aspect-video overflow-hidden">
+    <div
+      className="overflow-hidden transition-all duration-300 group"
+      style={{
+        background: "#FFFFFF",
+        border: hovered ? "1px solid #CBD5E1" : "1px solid #E2E8F0",
+        borderRadius: "12px",
+        transform: hovered ? "translateY(-2px)" : "translateY(0)",
+        boxShadow: hovered ? "0 8px 24px rgba(0, 0, 0, 0.06)" : "none",
+      }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      data-testid={`card-blog-${title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`}
+    >
+      <div className="aspect-video overflow-hidden" style={{ borderRadius: "12px 12px 0 0" }}>
         <img
           src={image}
           alt={title}
@@ -34,23 +47,32 @@ export default function BlogCard({
         />
       </div>
       <div className="p-6 space-y-4">
-        <Badge variant="secondary" className="text-xs font-semibold">
+        <span
+          className="inline-block text-xs font-semibold px-2.5 py-1 rounded-full"
+          style={{
+            background: "rgba(76, 175, 80, 0.1)",
+            color: "#3A9A6A",
+          }}
+        >
           {category}
-        </Badge>
-        <h3 className="text-xl font-semibold text-foreground line-clamp-2">
+        </span>
+        <h3 className="text-xl font-semibold line-clamp-2" style={{ color: "#0F172A" }}>
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm line-clamp-3 leading-relaxed">
+        <p className="text-sm line-clamp-3" style={{ color: "#475569", lineHeight: "1.65" }}>
           {excerpt}
         </p>
         <div className="flex items-center justify-between pt-2">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <div className="flex items-center gap-2 text-sm" style={{ color: "#94A3B8" }}>
             <Clock className="h-4 w-4" />
             <span>{readTime}</span>
           </div>
           <Link href={getLocalizedPath(`/blog/${slug}`)}>
             <button
-              className="flex items-center gap-1 text-primary font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
+              className="flex items-center gap-1 font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
+              style={{ color: "#3A9A6A" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#2D7A53")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#3A9A6A")}
               data-testid="button-read-more"
             >
               {t('knowledge.readMore')}
@@ -59,6 +81,6 @@ export default function BlogCard({
           </Link>
         </div>
       </div>
-    </Card>
+    </div>
   );
 }

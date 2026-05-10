@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
-import { Menu, X, UserCircle, ChevronDown } from "lucide-react";
+import { Menu, X, UserCircle } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -10,11 +10,6 @@ import { isANZ as checkIsANZ } from "@/lib/anz";
 declare global {
   interface Window { GEO_COUNTRY?: string; }
 }
-
-const PRODUCTS = [
-  { id: "btp-xid",     name: "BTP xID",                    taglineKey: "nav.btpxidTagline",    path: "/products/btp-xid",    badge: "NEW" },
-  { id: "claude-cli",  name: "Claude CLI Backup & Viewer",  taglineKey: "nav.claudeCliTagline", path: "/products/claude-cli", badge: "NEW"  },
-];
 
 const HOME_scrollLinks = [
   { labelKey: "nav.services", href: "#services" },
@@ -29,8 +24,6 @@ const BTPXID_scrollLinks = [
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [productsOpen, setProductsOpen] = useState(false);
-  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [location, setLocation] = useLocation();
   const { t, i18n } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
@@ -58,9 +51,7 @@ export default function Navigation() {
   };
 
   const goToProduct = (path: string) => {
-    setProductsOpen(false);
     setMobileMenuOpen(false);
-    setMobileProductsOpen(false);
     setLocation(getLocalizedPath(path));
   };
 
@@ -87,35 +78,17 @@ export default function Navigation() {
               {t('nav.home')}
             </button>
 
-            {/* Products dropdown */}
-            <div className="relative" onMouseEnter={() => setProductsOpen(true)} onMouseLeave={() => setProductsOpen(false)}>
-              <button
-                className="flex items-center gap-1 font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-                style={{ color: "#475569" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-                data-testid="link-products"
-                aria-expanded={productsOpen}
-              >
-                {t('nav.products')}
-                <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`} />
-              </button>
-              {productsOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 w-80 pt-1 z-50" data-testid="dropdown-products">
-                  <div className="rounded-lg border border-slate-200 shadow-lg py-1.5" style={{ background: "#FFFFFF" }}>
-                    {PRODUCTS.map((p) => (
-                      <button key={p.id} onClick={() => goToProduct(p.path)} className="w-full text-left px-4 py-2.5 hover:bg-accent transition-colors group" data-testid={`dropdown-product-${p.id}`}>
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-medium text-foreground">{p.name}</span>
-                          {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
-                        </div>
-                        <p className="text-xs text-muted-foreground mt-0.5">{t(p.taglineKey)}</p>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
+            {/* SAP BTP User Management direct link */}
+            <button
+              onClick={() => goToProduct("/products/btp-xid")}
+              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={(e) => e.currentTarget.style.color = "#0F172A"}
+              onMouseLeave={(e) => e.currentTarget.style.color = "#475569"}
+              data-testid="link-sap-btp-user-management"
+            >
+              {t('nav.sapBtpUserManagement')}
+            </button>
 
             {/* Fixed scroll links — same on every page */}
             {scrollLinks.map((link) => (
@@ -180,33 +153,15 @@ export default function Navigation() {
               {t('nav.home')}
             </button>
 
-            {/* Products — expandable */}
-            <div>
-              <button
-                onClick={() => setMobileProductsOpen((v) => !v)}
-                className="flex items-center justify-between w-full px-3 py-2 font-medium hover-elevate rounded-md"
-                style={{ color: "#475569" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-                data-testid="mobile-link-products"
-              >
-                {t('nav.products')}
-                <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${mobileProductsOpen ? "rotate-180" : ""}`} />
-              </button>
-              {mobileProductsOpen && (
-                <div className="ml-3 mt-1 space-y-1 border-l pl-3">
-                  {PRODUCTS.map((p) => (
-                    <button key={p.id} onClick={() => goToProduct(p.path)} className="block w-full text-left px-3 py-2 hover:bg-accent rounded-md transition-colors" data-testid={`mobile-product-${p.id}`}>
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm font-medium text-foreground">{p.name}</span>
-                        {p.badge && <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary leading-none">{p.badge}</span>}
-                      </div>
-                      <p className="text-xs text-muted-foreground mt-0.5">{t(p.taglineKey)}</p>
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+            {/* SAP BTP User Management direct link */}
+            <button
+              onClick={() => goToProduct("/products/btp-xid")}
+              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              data-testid="mobile-link-sap-btp-user-management"
+            >
+              {t('nav.sapBtpUserManagement')}
+            </button>
 
             {scrollLinks.map((link) => (
               <button
