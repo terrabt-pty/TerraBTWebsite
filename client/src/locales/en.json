@@ -1436,7 +1436,7 @@
     "badge": "NEW",
     "introducing": "Introducing",
     "description": "A desktop app for SAP BTP User Management. Manage users across all global accounts, sub-accounts, and CF spaces from a single pane of glass.",
-    "cta": "Download Now",
+    "cta": "Read more",
     "imageAlt": "BTP xID Dashboard"
   },
   "claudeCliAnnouncement": {
