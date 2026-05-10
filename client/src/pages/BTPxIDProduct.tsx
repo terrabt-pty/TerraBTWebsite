@@ -11,14 +11,13 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Download,
   CheckCircle,
-  ArrowLeft,
+  ArrowRight,
   Shield,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userListImg from "@assets/BTP_xID_User_List_1772336098799.webp";
 
-const VALUE_PROP_DOTS = ["#4CAF50", "#E8A838", "#E8A838", "#4CAF50", "#E8A838", "#2A7088", "#4CAF50"];
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
 
@@ -202,8 +201,6 @@ export default function BTPxIDProduct() {
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
   const [showAllDownloads, setShowAllDownloads] = useState(false);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
-  const [cardRound, setCardRound] = useState(0);
-  const [cardsFading, setCardsFading] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const [packages, setPackages] = useState<PricingPackage[]>(FALLBACK_PACKAGES);
   const [billingInterval, setBillingInterval] = useState<"monthly" | "annual">("monthly");
@@ -213,11 +210,6 @@ export default function BTPxIDProduct() {
   const portalBase = new URLSearchParams(window.location.search).get("portal") === "test"
     ? "https://accounts-test.terrabt.com"
     : "https://accounts.terrabt.com";
-
-  const VALUE_PROPS = VALUE_PROP_DOTS.map((dot, i) => ({
-    text: t(`btpxidProduct.valueProps.${i}`),
-    dot,
-  }));
 
   useEffect(() => {
     setOS(detectOS());
@@ -234,17 +226,6 @@ export default function BTPxIDProduct() {
       })
       .catch(() => { /* fallback stays */ });
   }, [portalBase]);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCardsFading(true);
-      setTimeout(() => {
-        setCardRound((r) => r + 1);
-        setCardsFading(false);
-      }, 300);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, []);
 
   useEffect(() => {
     fetch(`${R2_BASE}/version.json`)
@@ -275,95 +256,64 @@ export default function BTPxIDProduct() {
       />
       <Navigation />
 
-      {/* ===== HERO WITH DOWNLOAD ===== */}
+      {/* ===== HERO ===== */}
       <section className="btpxid-hero" id="home">
-        <div className="btpxid-grid" />
-        <div className="btpxid-orb btpxid-orb-1" />
-        <div className="btpxid-orb btpxid-orb-2" />
-        <div className="btpxid-orb btpxid-orb-3" />
-
         <div className="btpxid-hero-inner">
+          {/* Left column — text content */}
           <div className="btpxid-hero-content">
-            <div className="btpxid-app-icon-wrap">
-              <img src={btpxidIcon} alt="BTP xID" className="btpxid-app-icon" />
+            {/* Wordmark */}
+            <div className="btpxid-hero-wordmark">
+              <img src={btpxidIcon} alt="BTP xID icon" className="btpxid-hero-wordmark-icon" />
+              <span className="btpxid-hero-wordmark-text">
+                <span className="btpxid-hero-wordmark-btp">BTP</span>
+                <span className="btpxid-hero-wordmark-xid"> xID</span>
+              </span>
             </div>
-            <h1 className="btpxid-title">
-              {t('btpxidProduct.hero.title1')}
-              <br />
-              <span className="btpxid-highlight">{t('btpxidProduct.hero.title2')}</span>
-              <br />
-              <span className="btpxid-highlight">{t('btpxidProduct.hero.title3')}</span>
-            </h1>
 
-            <p className="btpxid-subtitle">
-              {t('btpxidProduct.hero.description')}
-            </p>
+            {/* Tagline */}
+            <p className="btpxid-hero-tagline">{t('btpxidProduct.hero.tagline')}</p>
 
-            <div className="btpxid-hero-dl">
-              {primaryDownloadUrl ? (
-                <a
-                  href={primaryDownloadUrl}
-                  className="btpxid-download-btn"
-                  onClick={() => { trackDownload('btp-xid', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
-                >
-                  <PrimaryIcon className="h-6 w-6" />
-                  <div className="btpxid-download-btn-text">
-                    <span className="btpxid-download-btn-title">{t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}</span>
-                    <span className="btpxid-download-btn-desc">{primaryDownloadDesc} · v{versionInfo!.version}</span>
-                  </div>
-                  <Download className="h-5 w-5" />
-                </a>
-              ) : (
-                <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
-                  <PrimaryIcon className="h-6 w-6" />
-                  <div className="btpxid-download-btn-text">
-                    <span className="btpxid-download-btn-title">{t('btpxidProduct.download.loading')}</span>
-                    <span className="btpxid-download-btn-desc">{primaryDownloadDesc}</span>
-                  </div>
-                  <Download className="h-5 w-5" />
-                </button>
-              )}
+            {/* Headline */}
+            <h1 className="btpxid-hero-title">{t('btpxidProduct.hero.title')}</h1>
 
+            {/* Description */}
+            <p className="btpxid-hero-desc">{t('btpxidProduct.hero.description')}</p>
+
+            {/* Trust line */}
+            <p className="btpxid-hero-trust">{t('btpxidProduct.hero.trustLine')}</p>
+
+            {/* CTAs */}
+            <div className="btpxid-hero-ctas">
               <button
-                onClick={() => { setShowAllDownloads(true); scrollToSection("#download"); }}
-                className="btpxid-download-other"
+                className="btpxid-hero-cta-primary"
+                onClick={() => scrollToSection("#features")}
               >
-                {t('btpxidProduct.download.showAll')}
+                {t('btpxidProduct.hero.primaryCta')}
+              </button>
+              <button
+                className="btpxid-hero-cta-secondary"
+                onClick={() => scrollToSection("#download")}
+              >
+                {t('btpxidProduct.hero.secondaryCta', {
+                  os: os === "mac" ? "Mac" : os === "windows" ? "Windows" : "your platform",
+                })}
+                <ArrowRight className="btpxid-hero-cta-arrow" aria-hidden="true" />
               </button>
             </div>
-
           </div>
 
-          <div className="btpxid-visual">
-            <div className="btpxid-icon-showcase">
-              {/* Product screenshot — the actual app */}
-              <div className="btpxid-screenshot-frame">
-                <img
-                  src={userListImg}
-                  alt="BTP xID — User management across all SAP BTP scopes"
-                  className="btpxid-screenshot-main"
-                />
-                {/* Shield security trust badge overlaid on screenshot */}
-                <div className="btpxid-shield-badge">
-                  <Shield className="h-3 w-3" />
-                  {t('btpxidProduct.hero.shieldBadge')}
-                </div>
+          {/* Right column — screenshot */}
+          <div className="btpxid-hero-visual">
+            <div className="btpxid-hero-screenshot-frame">
+              <img
+                src={userListImg}
+                alt="BTP xID — User management across all SAP BTP scopes"
+                className="btpxid-hero-screenshot-img"
+              />
+              <div className="btpxid-shield-badge">
+                <Shield className="h-3 w-3" />
+                {t('btpxidProduct.hero.shieldBadge')}
               </div>
-
-              {/* Floating value-prop cards — cycle through all messages */}
-              {[0, 2, 4, 6].map((offset, i) => {
-                const prop = VALUE_PROPS[(cardRound + offset) % VALUE_PROPS.length];
-                return (
-                  <div
-                    key={i}
-                    className={`btpxid-float-card btpxid-fc-${i + 1}`}
-                    style={{ opacity: cardsFading ? 0 : 1, transition: "opacity 0.3s ease" }}
-                  >
-                    <span className="btpxid-dot" style={{ background: prop.dot }} />
-                    {prop.text}
-                  </div>
-                );
-              })}
             </div>
           </div>
         </div>

@@ -1578,10 +1578,12 @@
   },
   "btpxidProduct": {
     "hero": {
-      "title1": "One app.",
-      "title2": "Every user.",
-      "title3": "All accounts.",
-      "description": "Manage SAP BTP users across global accounts, sub-accounts, Cloud Foundry orgs and spaces — all from a single pane of glass. Reverse search any SAP BTP user instantly.",
+      "tagline": "Identity & Access Visibility for SAP BTP",
+      "title": "See every user, in every corner of your SAP BTP landscape.",
+      "description": "Type a user's email. See every Global Account, sub-account, Cloud Foundry org and space they have access to — with their roles. Off-board across the whole landscape with one click.",
+      "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
+      "primaryCta": "See how it works",
+      "secondaryCta": "Download for {{os}}",
       "shieldBadge": "SAP OAuth · No credentials stored"
     },
     "valueProps": {
