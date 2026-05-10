@@ -11,7 +11,6 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Download,
   CheckCircle,
-  ArrowRight,
   Shield,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
@@ -279,9 +278,6 @@ export default function BTPxIDProduct() {
             {/* Description */}
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.description')}</p>
 
-            {/* Trust line */}
-            <p className="btpxid-hero-trust">{t('btpxidProduct.hero.trustLine')}</p>
-
             {/* CTAs */}
             <div className="btpxid-hero-ctas">
               <button
@@ -289,15 +285,6 @@ export default function BTPxIDProduct() {
                 onClick={() => scrollToSection("#features")}
               >
                 {t('btpxidProduct.hero.primaryCta')}
-              </button>
-              <button
-                className="btpxid-hero-cta-secondary"
-                onClick={() => scrollToSection("#download")}
-              >
-                {t('btpxidProduct.hero.secondaryCta', {
-                  os: os === "mac" ? "Mac" : os === "windows" ? "Windows" : "your platform",
-                })}
-                <ArrowRight className="btpxid-hero-cta-arrow" aria-hidden="true" />
               </button>
             </div>
           </div>
