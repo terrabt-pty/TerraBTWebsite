@@ -264,7 +264,7 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Role assignments across all Global Accounts, sub-accounts & directories",
+            "User Management & Role assignment across GA, SA, Directories, CF Org and CF Space in a single unified interface",
             "Bulk user management across your entire BTP landscape",
             "Cloud Foundry Org & Space manager assignments — no JSON wizardry",
             "Landscape-wide visibility: who has access to what, across every account",
