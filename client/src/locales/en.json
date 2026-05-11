@@ -199,7 +199,7 @@
     }
   },
   "footer": {
-    "description": "Purpose-built tools for modern enterprises",
+    "description": "Purpose-built products for modern enterprises",
     "services": "Services",
     "fiori": "Fiori Development",
     "architecture": "BTP Architecture",
@@ -1581,7 +1581,7 @@
     "hero": {
       "tagline": "Identity & Access Management for SAP BTP",
       "title": "See every user, in every corner of your SAP BTP landscape.",
-      "description": "Govern user access across your SAP BTP landscape — Global Accounts, Directories, sub-accounts, Cloud Foundry orgs and spaces. Easily onboard & offboard users with a single click across your SAP BTP landscape.",
+      "description": "Govern every BTP user, role, and service key across your landscape. Catch the ghost access SAP IAS leaves behind. Cut the offboarding gap that lets contractors keep working credentials for months.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
@@ -1604,7 +1604,7 @@
     "download": {
       "label": "Find Out More",
       "title": "Ready to get started?",
-      "subtitle": "Download BTP xID and experience a smarter way to manage user access across your entire SAP BTP landscape.",
+      "subtitle": "Download BTP xID and bring every BTP user, role and service key under one auditable control plane.",
       "primaryButton": "Download for {{label}}",
       "loading": "Loading...",
       "showAll": "Show all download options",
@@ -1685,8 +1685,8 @@
         "description": "Find any user and instantly see everywhere they're added. No more guesswork."
       },
       "3": {
-        "title": "Service User Management",
-        "description": "Manage service users alongside platform users. Full lifecycle control from one place."
+        "title": "Service Key Management",
+        "description": "List, audit, and revoke OAuth service keys across every Global Account, Sub-account, CF Org and Space. The long-lived credentials SAP doesn't help you track — in one place."
       },
       "4": {
         "title": "Bulk Operations",

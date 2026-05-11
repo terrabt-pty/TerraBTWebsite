@@ -2765,6 +2765,167 @@
   }
 }
 
+/* ===== CISO Risks section ─ "What you might be missing right now" ───────── */
+.btpxid-risks {
+  background: #FFFFFF;
+  padding: 80px 0;
+  border-top: 1px solid #E2E8F0;
+}
+.btpxid-risks-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.btpxid-risks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 3rem;
+}
+.btpxid-risk-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-top: 4px solid #DC2626;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.btpxid-risk-card-label {
+  color: #0F172A;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.btpxid-risk-card-body {
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  margin: 0;
+  flex: 1;
+}
+.btpxid-risk-card-source {
+  color: #94A3B8;
+  font-size: 0.75rem;
+  margin: 0;
+  padding-top: 8px;
+  border-top: 1px solid #F1F5F9;
+}
+.btpxid-risk-card-source a {
+  color: #3A9A6A;
+  text-decoration: none;
+}
+.btpxid-risk-card-source a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .btpxid-risks-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Trust strip (download section) ──────────────────────────────────── */
+.btpxid-trust-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 2rem auto 2.5rem;
+  padding: 20px 24px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.btpxid-trust-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+.btpxid-trust-item strong {
+  display: block;
+  color: #0F172A;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 2px;
+}
+.btpxid-trust-item span:not(.btpxid-trust-icon) {
+  color: #64748B;
+}
+.btpxid-trust-icon {
+  flex-shrink: 0;
+  color: #3A9A6A;
+  font-size: 0.6rem;
+  margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+  .btpxid-trust-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Roadmap section ─ "What's coming" ───────────────────────────────── */
+.btpxid-roadmap {
+  background: #F8FAFC;
+  padding: 72px 0;
+  border-top: 1px solid #E2E8F0;
+}
+.btpxid-roadmap-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.btpxid-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 2.5rem;
+}
+.btpxid-roadmap-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 22px 24px;
+  position: relative;
+}
+.btpxid-roadmap-card-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1E5099;
+  background: rgba(30, 80, 153, 0.08);
+  border: 1px solid rgba(30, 80, 153, 0.2);
+  border-radius: 100px;
+  padding: 3px 9px;
+  margin-bottom: 10px;
+}
+.btpxid-roadmap-card-title {
+  color: #0F172A;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+.btpxid-roadmap-card-body {
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .btpxid-roadmap-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== SECURITY SECTION ===== */
 .btpxid-security {
   background: #F8FAFC;

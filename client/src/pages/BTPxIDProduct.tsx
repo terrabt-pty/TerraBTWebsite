@@ -264,12 +264,12 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
+            "Close the ghost-access gap — remove a user from IAS and their Cloud Foundry Org and Space memberships stay active. BTP xID removes them in one action",
+            "Find and revoke service keys across the landscape — OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
             "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
-            "Bulk user management across your entire BTP landscape",
             "Cloud Foundry Org & Space manager assignments",
-            "Service Key management across Global Accounts, Sub-accounts, Cloud Foundry Orgs and Spaces in one place",
+            "Bulk user management across your entire BTP landscape",
             "Landscape-wide visibility: who has access to what, across every account",
-            "Complete offboarding: revoke all BTP entitlements in one action",
             "Governance for custom IdP users — not just SAP ID Service accounts",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
@@ -286,10 +286,54 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Together, SAP IAS and BTP xID give you complete <strong>identity and access governance</strong> for SAP BTP — authentication handled, entitlements governed.
+      SAP publishes a knowledge base entry (<a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>) confirming users remain in BTP subaccounts after IDP deletion. The cockpit doesn't show their CF role assignments. The service keys they created keep working. <strong>BTP xID is built to find them.</strong>
     </div>
   </div>
 </section>
+
+      {/* ===== CISO ANCHOR — WHAT YOU MIGHT BE MISSING ===== */}
+      <section className="btpxid-risks">
+        <div className="btpxid-risks-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">What you might be missing right now</div>
+            <h2 className="btpxid-showcase-title">
+              Three things SAP itself documents,<br />that your cockpit doesn't show you.
+            </h2>
+          </div>
+
+          <div className="btpxid-risks-grid">
+            <div className="btpxid-risk-card">
+              <div className="btpxid-risk-card-label">Ghost users in BTP</div>
+              <p className="btpxid-risk-card-body">
+                When a user is deleted from your identity provider, their record can remain in your BTP subaccounts with their Cloud Foundry role assignments intact. SAP confirms this behaviour in its own knowledge base.
+              </p>
+              <p className="btpxid-risk-card-source">
+                Source: <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer">SAP KB 3220053</a>
+              </p>
+            </div>
+
+            <div className="btpxid-risk-card">
+              <div className="btpxid-risk-card-label">Long-lived service keys</div>
+              <p className="btpxid-risk-card-body">
+                Any Space Developer can create an OAuth service key against HANA Cloud, a Destination, or any other bound service. By default these credentials do not expire and are not visible in subaccount-level user audits. 43% of high-privilege cloud secrets exposed in 2025 fit exactly this profile.
+              </p>
+              <p className="btpxid-risk-card-source">
+                Source: Verizon DBIR 2025
+              </p>
+            </div>
+
+            <div className="btpxid-risk-card">
+              <div className="btpxid-risk-card-label">A Space Developer reads every credential bound to that space</div>
+              <p className="btpxid-risk-card-body">
+                The Space Developer role grants direct access to environment variables containing plaintext credentials for every bound service — HANA Cloud, Destinations, Object Store — plus SSH access to every running application in that space. One mistaken role assignment is one mistake too many.
+              </p>
+              <p className="btpxid-risk-card-source">
+                Source: <a href="https://help.sap.com/docs/btp/sap-business-technology-platform/about-roles-in-cloud-foundry-environment" target="_blank" rel="noopener noreferrer">SAP role documentation</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ===== WHY BTP xID — THE LANDSCAPE-WIDE LOOKUP STORY ===== */}
       <section className="btpxid-why">
@@ -389,8 +433,51 @@ export default function BTPxIDProduct() {
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />
 
+      {/* ===== ROADMAP — capabilities BTP doesn't have, that we are building ===== */}
+      <section className="btpxid-roadmap">
+        <div className="btpxid-roadmap-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">On the roadmap</div>
+            <h2 className="btpxid-showcase-title">
+              Built for what BTP doesn't have yet.
+            </h2>
+            <p className="btpxid-showcase-sub">
+              The capabilities below are on our near-term roadmap. They reflect the requests our enterprise customers raise most often — and the gaps SAP BTP itself does not yet address.
+            </p>
+          </div>
 
-      {/* ===== PRICING ===== */}
+          <div className="btpxid-roadmap-grid">
+            <div className="btpxid-roadmap-card">
+              <span className="btpxid-roadmap-card-badge">Coming</span>
+              <p className="btpxid-roadmap-card-title">Time-bound role assignments</p>
+              <p className="btpxid-roadmap-card-body">
+                Give a contractor a Space Developer role for 30 days, and BTP xID revokes it automatically when the period ends. No follow-up tickets, no expired-access reviews. The validity-date controls BTP itself does not offer.
+              </p>
+            </div>
+            <div className="btpxid-roadmap-card">
+              <span className="btpxid-roadmap-card-badge">Coming</span>
+              <p className="btpxid-roadmap-card-title">Emergency firefighter IDs</p>
+              <p className="btpxid-roadmap-card-body">
+                Provision break-glass access with a hard expiration. The pattern your GRC team already uses for S/4HANA, brought natively to BTP — with logging and automatic revocation.
+              </p>
+            </div>
+            <div className="btpxid-roadmap-card">
+              <span className="btpxid-roadmap-card-badge">Coming</span>
+              <p className="btpxid-roadmap-card-title">Role and role collection authoring</p>
+              <p className="btpxid-roadmap-card-body">
+                Create and edit BTP role collections directly from BTP xID. One workflow for design, assignment, and review — instead of the BTP cockpit's role-template-then-collection split.
+              </p>
+            </div>
+            <div className="btpxid-roadmap-card">
+              <span className="btpxid-roadmap-card-badge">Coming</span>
+              <p className="btpxid-roadmap-card-title">Continuous access reviews</p>
+              <p className="btpxid-roadmap-card-body">
+                Surface dormant accounts, unused role collections, and stale service keys for your quarterly review — without your team building a single SQL query or PowerShell script.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ===== DOWNLOAD ===== */}
       <section className="btpxid-download" id="download">
@@ -403,6 +490,31 @@ export default function BTPxIDProduct() {
             <p className="btpxid-showcase-sub">
               {t('btpxidProduct.download.subtitle')}
             </p>
+          </div>
+
+          {/* Trust strip — answers the first three CISO questions */}
+          <div className="btpxid-trust-strip">
+            <div className="btpxid-trust-item">
+              <span className="btpxid-trust-icon">●</span>
+              <div>
+                <strong>Runs locally</strong>
+                <span>on macOS &amp; Windows — no data leaves your machine</span>
+              </div>
+            </div>
+            <div className="btpxid-trust-item">
+              <span className="btpxid-trust-icon">●</span>
+              <div>
+                <strong>Direct to BTP APIs</strong>
+                <span>no proxy, no relay, no third-party cloud</span>
+              </div>
+            </div>
+            <div className="btpxid-trust-item">
+              <span className="btpxid-trust-icon">●</span>
+              <div>
+                <strong>Your credentials, your auth</strong>
+                <span>signs in with your existing BTP login</span>
+              </div>
+            </div>
           </div>
 
           {/* Primary OS download */}
