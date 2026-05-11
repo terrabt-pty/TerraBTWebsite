@@ -11,7 +11,19 @@ export default function BTPAccessManagementPage() {
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
-        <article style={{ maxWidth: "780px", margin: "0 auto", padding: "60px 24px 80px" }}>
+        <article style={{ maxWidth: "780px", margin: "0 auto", padding: "40px 24px 80px" }}>
+
+          {/* Breadcrumb */}
+          <nav style={{ marginBottom: "32px" }}>
+            <a
+              href="/"
+              style={{ color: "#3A9A6A", fontSize: "0.875rem", fontWeight: 500, textDecoration: "none" }}
+              onMouseEnter={e => (e.currentTarget.style.textDecoration = "underline")}
+              onMouseLeave={e => (e.currentTarget.style.textDecoration = "none")}
+            >
+              ← Back to BTP xID
+            </a>
+          </nav>
 
           {/* Eyebrow */}
           <p style={{ color: "#3A9A6A", fontSize: "0.8rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "12px" }}>
