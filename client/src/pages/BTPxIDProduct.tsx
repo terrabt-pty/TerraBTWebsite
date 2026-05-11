@@ -335,131 +335,44 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
-      {/* ===== API KEYS — SERVICE KEYS ARE API KEYS ===== */}
-      <section className="btpxid-keys">
-        <div className="btpxid-keys-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">Service keys are API keys</div>
-            <h2 className="btpxid-showcase-title">
-              Find every API key.<br />In one place. Finally.
+      {/* ===== API CREDENTIALS — service keys at every level ===== */}
+      <section className="btpxid-why" style={{ background: "#FFFFFF" }}>
+        <div className="btpxid-why-inner">
+          <div className="btpxid-why-header">
+            <h2 className="btpxid-why-title">
+              See every <span className="btpxid-why-accent">API credential</span>, including the ones BTP hides
             </h2>
-            <p className="btpxid-showcase-sub">
-              SAP calls them "service keys". Functionally they are long-lived OAuth API credentials your developers create against HANA Cloud, Destinations, the Connectivity Service, XSUAA, and every other bound service. They do not expire. They are not visible in the BTP cockpit's user view. Until BTP xID, there was no way in SAP BTP to see them all in one screen.
+            <p className="btpxid-why-question">
+              Service keys in SAP BTP are API credentials. They exist at every level — Global Account, Sub-account, Cloud Foundry Org and Space — and the BTP cockpit does not put them in one screen. Some, like Global Account API credentials, are not in the cockpit at all.
             </p>
           </div>
 
-          <div className="btpxid-keys-compare">
-            {/* LEFT — BTP today, nested */}
-            <div className="btpxid-keys-col btpxid-keys-col-before">
-              <div className="btpxid-keys-col-header">
-                <span className="btpxid-keys-badge btpxid-keys-badge-before">BTP today</span>
-                <h3 className="btpxid-keys-col-title">Buried under nesting</h3>
-              </div>
-              <div className="btpxid-keys-tree">
-                <div className="btpxid-keys-tree-node" style={{ paddingLeft: "0" }}>
-                  <span className="btpxid-keys-tree-bullet" />
-                  <span className="btpxid-keys-tree-label">Global Account</span>
-                  <span className="btpxid-keys-tree-count">1</span>
-                </div>
-                <div className="btpxid-keys-tree-node" style={{ paddingLeft: "24px" }}>
-                  <span className="btpxid-keys-tree-bullet" />
-                  <span className="btpxid-keys-tree-label">Sub-accounts</span>
-                  <span className="btpxid-keys-tree-count">× 20</span>
-                </div>
-                <div className="btpxid-keys-tree-node" style={{ paddingLeft: "48px" }}>
-                  <span className="btpxid-keys-tree-bullet" />
-                  <span className="btpxid-keys-tree-label">Cloud Foundry Orgs</span>
-                  <span className="btpxid-keys-tree-count">× 60+</span>
-                </div>
-                <div className="btpxid-keys-tree-node" style={{ paddingLeft: "72px" }}>
-                  <span className="btpxid-keys-tree-bullet" />
-                  <span className="btpxid-keys-tree-label">Cloud Foundry Spaces</span>
-                  <span className="btpxid-keys-tree-count">× 300+</span>
-                </div>
-                <div className="btpxid-keys-tree-node btpxid-keys-tree-node-leaf" style={{ paddingLeft: "96px" }}>
-                  <span className="btpxid-keys-tree-bullet btpxid-keys-tree-bullet-leaf" />
-                  <span className="btpxid-keys-tree-label"><strong>Service Keys</strong> (API keys)</span>
-                  <span className="btpxid-keys-tree-count btpxid-keys-tree-count-leaf">× thousands</span>
-                </div>
-              </div>
-              <p className="btpxid-keys-col-footer">
-                Click through every branch. One. By. One.<br />
-                And there is no native view that aggregates them.
+          <div className="btpxid-why-grid">
+            <div className="btpxid-why-card btpxid-why-problem">
+              <div className="btpxid-why-card-label">In SAP BTP today</div>
+              <p>
+                The cockpit's user view shows users — not API credentials. Sub-account service keys are hidden inside individual service instances, behind layers of clicks. <strong>Global Account-level API credentials have no cockpit UI at all</strong> — they can only be viewed via the BTP CLI, which means most security teams don't know they exist.
+              </p>
+              <p>
+                There is no consolidated view. A Fortune 500 BTP landscape can hold thousands of service keys across hundreds of Cloud Foundry spaces — and the only way to inventory them is space by space, instance by instance.
               </p>
             </div>
 
-            {/* RIGHT — BTP xID flat */}
-            <div className="btpxid-keys-col btpxid-keys-col-after">
-              <div className="btpxid-keys-col-header">
-                <span className="btpxid-keys-badge btpxid-keys-badge-after">With BTP xID</span>
-                <h3 className="btpxid-keys-col-title">One auditable screen</h3>
-              </div>
-              <div className="btpxid-keys-list">
-                <div className="btpxid-keys-list-header">
-                  <span>Service Key</span>
-                  <span>Sub-account</span>
-                  <span>Space</span>
-                </div>
-                {[
-                  ["hana-prod-admin", "prod-eu10", "billing"],
-                  ["destination-uat", "uat-eu10", "integration"],
-                  ["xsuaa-admin", "prod-us10", "workzone"],
-                  ["connectivity-onprem", "prod-eu10", "shared"],
-                  ["objectstore-backups", "prod-eu10", "archive"],
-                ].map(([key, sub, space]) => (
-                  <div key={key} className="btpxid-keys-list-row">
-                    <span className="btpxid-keys-mono">{key}</span>
-                    <span>{sub}</span>
-                    <span>{space}</span>
-                  </div>
-                ))}
-                <div className="btpxid-keys-list-more">
-                  + thousands more across your landscape
-                </div>
-              </div>
-              <p className="btpxid-keys-col-footer">
-                Every service key, every account, every space.<br />
-                Filter, audit, rotate, revoke.
+            <div className="btpxid-why-card btpxid-why-solution">
+              <div className="btpxid-why-card-label">With BTP xID</div>
+              <p>
+                One screen. Every API credential across the landscape — <strong>including the Global Account-level credentials the cockpit hides</strong>. Filter by sub-account, by service type, by age, by creator. Spot the ones created by people who no longer work for you.
+              </p>
+              <p>
+                Revoke any of them with one click. The visibility your access reviews have been missing.
               </p>
             </div>
           </div>
 
-          {/* What each BTP service key actually unlocks */}
-          <div className="btpxid-keys-breaches">
-            <p className="btpxid-keys-breaches-intro">
-              What a single leaked BTP service key actually unlocks:
-            </p>
-            <div className="btpxid-keys-breaches-grid">
-              <div className="btpxid-keys-breach-card">
-                <div className="btpxid-keys-breach-year">HANA Cloud service key</div>
-                <div className="btpxid-keys-breach-title">Direct database access</div>
-                <p className="btpxid-keys-breach-body">
-                  A HANA Cloud service key contains a JDBC URL, a username and a plaintext password. The HANA Cloud SQL endpoint is public on port 443 — no VPN, no Cloud Connector. Anyone holding the key connects directly to the database with whatever grants that user has.
-                </p>
-              </div>
-              <div className="btpxid-keys-breach-card">
-                <div className="btpxid-keys-breach-year">Destination service key</div>
-                <div className="btpxid-keys-breach-title">Every backend you've ever connected</div>
-                <p className="btpxid-keys-breach-body">
-                  One Destination service key returns the full configuration of every destination in the sub-account — S/4HANA, SuccessFactors, Ariba, third-party APIs — including the stored credentials. A single leaked Destination key is effectively a credential vault dump of every backend system your BTP apps can call.
-                </p>
-              </div>
-              <div className="btpxid-keys-breach-card">
-                <div className="btpxid-keys-breach-year">Connectivity service key</div>
-                <div className="btpxid-keys-breach-title">A passage past your firewall</div>
-                <p className="btpxid-keys-breach-body">
-                  The Connectivity service tunnels traffic from BTP into your on-premise network via the Cloud Connector. Combined with a Destination key, a Connectivity service key gives the holder a route into the corporate network — past the perimeter you paid to harden.
-                </p>
-              </div>
-            </div>
-            <p style={{ textAlign: "center", fontSize: "0.875rem", color: "#475569", lineHeight: 1.7, marginTop: "2rem", maxWidth: "780px", marginLeft: "auto", marginRight: "auto" }}>
-              These keys are created by any Space Developer. They do not expire by default — SAP's own guidance recommends 90-day rotation, but no rotation is enforced. They are not visible in the BTP cockpit's user view. And when the developer who created them leaves your company, the keys keep working.
-            </p>
-            <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
-              <a href="/blog/btp-service-keys-api-credentials" style={{ color: "#3A9A6A", fontSize: "0.9rem", fontWeight: 500, textDecoration: "none" }}>
-                Read the full breakdown: every BTP service, what its key contains, and what it unlocks →
-              </a>
-            </div>
+          <div className="btpxid-why-cta">
+            <a href="/blog/btp-service-keys-api-credentials" className="btpxid-why-link">
+              The full breakdown: every BTP service, what its key contains, what it unlocks →
+            </a>
           </div>
         </div>
       </section>
