@@ -361,7 +361,7 @@ export default function BTPxIDProduct() {
                 One screen. Every service key across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
               </p>
               <p>
-                Identify keys created by people who no longer work at your company. Take action in seconds.
+                Set expiry dates on new keys and have them revoke automatically. Surface the keys that should have been rotated months ago. Hand your auditor a single export instead of a week's work.
               </p>
             </div>
           </div>
