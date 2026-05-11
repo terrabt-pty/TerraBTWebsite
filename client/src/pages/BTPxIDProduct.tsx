@@ -233,7 +233,8 @@ export default function BTPxIDProduct() {
         <ul className="btpxid-ias-list">
           {[
             "Assigns sub-account role collections at login via SAML group mapping",
-            "Role assignments only exist in the session token — they don't show in the BTP cockpit",
+            "Role assignments via IAS don't appear under the user's profile in the BTP cockpit",
+            "Cannot manage Global Account roles or user assignments",
             "Has no reach into Cloud Foundry Orgs or CF Spaces",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
@@ -262,6 +263,7 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
+            "Manages Global Account roles and user assignments",
             "Manages CF Org and Space roles — the part IAS cannot reach",
             "Shows every access right across your landscape in one screen, including what IAS assigned",
             "Full offboarding in one action — removing someone from IAS leaves their CF Org and Space memberships intact; BTP xID removes everything",
