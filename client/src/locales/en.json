@@ -1581,7 +1581,7 @@
     "hero": {
       "tagline": "API Credential & Access Management for SAP BTP",
       "title": "See every API key, every user, in every corner of your SAP BTP landscape.",
-      "description": "Govern every BTP user, role, and service key across your landscape. Catch the ghost access SAP IAS leaves behind. Cut the offboarding gap that lets contractors keep working credentials for months.",
+      "description": "Govern every BTP user, role, and API credential across your landscape. Catch the ghost access SAP IAS leaves behind. Cut the offboarding gap that lets contractors keep working credentials for months.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
@@ -1604,7 +1604,7 @@
     "download": {
       "label": "Find Out More",
       "title": "Ready to get started?",
-      "subtitle": "Download BTP xID and bring every BTP user, role and service key under one auditable control plane.",
+      "subtitle": "Download BTP xID and bring every BTP user, role and API credential under one auditable control plane.",
       "primaryButton": "Download for {{label}}",
       "loading": "Loading...",
       "showAll": "Show all download options",
@@ -1678,15 +1678,15 @@
       },
       "1": {
         "title": "Unified User View",
-        "description": "See every user across sub-accounts, CF orgs, CF spaces, and service users — all in one screen."
+        "description": "See every user across sub-accounts, CF orgs, and CF spaces — all in one screen."
       },
       "2": {
         "title": "Reverse Search",
         "description": "Find any user and instantly see everywhere they're added. No more guesswork."
       },
       "3": {
-        "title": "Service Key Management",
-        "description": "List, audit, and revoke OAuth service keys across every Global Account, Sub-account, CF Org and Space. The long-lived credentials SAP doesn't help you track — in one place."
+        "title": "API Credential Management",
+        "description": "List, audit, and revoke OAuth API credentials across every Global Account, Sub-account, CF Org and Space. The long-lived credentials in one place."
       },
       "4": {
         "title": "Bulk Operations",

@@ -265,7 +265,7 @@ export default function BTPxIDProduct() {
         <ul className="btpxid-ias-list">
           {[
             "Close the ghost-access gap — remove a user from IAS and their Cloud Foundry Org and Space memberships stay active. BTP xID removes them in one action",
-            "Find and revoke service keys across the landscape — OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
+            "Find and revoke API credentials across the landscape — long-lived OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
             "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
             "Cloud Foundry Org & Space manager assignments",
             "Bulk user management across your entire BTP landscape",
@@ -286,7 +286,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      SAP publishes a knowledge base entry (<a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>) confirming users remain in BTP subaccounts after IDP deletion. The cockpit doesn't show their CF role assignments. The service keys they created keep working. <strong>BTP xID is built to find them.</strong>
+      SAP publishes a knowledge base entry (<a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>) confirming users remain in BTP subaccounts after IDP deletion. The cockpit doesn't show their CF role assignments. The API credentials they created keep working. <strong>BTP xID is built to find them.</strong>
     </div>
   </div>
 </section>
@@ -313,9 +313,9 @@ export default function BTPxIDProduct() {
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Maintaining a service-key inventory</div>
+              <div className="btpxid-risk-card-label">Maintaining an API credential inventory</div>
               <p className="btpxid-risk-card-body">
-                Service keys are created by Space Developers and live inside each service instance. SAP's recommended rotation cadence is 90 days. Across a landscape with many Cloud Foundry spaces, maintaining that cadence is easier with a single inventory view — which is what BTP xID provides.
+                API credentials are created by Space Developers and live inside each service instance. SAP's recommended rotation cadence is 90 days. Across a landscape with many Cloud Foundry spaces, maintaining that cadence is easier with a single inventory view — which is what BTP xID provides.
               </p>
               <p className="btpxid-risk-card-source">
                 Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">SAP — Service Instance Secrets</a>
@@ -343,7 +343,7 @@ export default function BTPxIDProduct() {
               A single view of every <span className="btpxid-why-accent">API credential</span> in your BTP landscape
             </h2>
             <p className="btpxid-why-question">
-              SAP BTP issues service keys at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP surface. BTP xID brings them together in one auditable view.
+              SAP BTP issues API credentials at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP surface. BTP xID brings them together in one auditable view.
             </p>
           </div>
 
@@ -351,14 +351,14 @@ export default function BTPxIDProduct() {
             <div className="btpxid-why-card btpxid-why-problem">
               <div className="btpxid-why-card-label">In SAP BTP today</div>
               <p>
-                Service keys are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. There is no single SAP surface that consolidates them all.
+                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. There is no single SAP surface that consolidates them all.
               </p>
             </div>
 
             <div className="btpxid-why-card btpxid-why-solution">
               <div className="btpxid-why-card-label">With BTP xID</div>
               <p>
-                One screen. Every service key across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
+                One screen. Every API credential across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
               </p>
               <p>
                 Set expiry dates on new keys and have them revoke automatically. Surface the keys that should have been rotated months ago. Hand your auditor a single export instead of a week's work.
@@ -511,7 +511,7 @@ export default function BTPxIDProduct() {
               <span className="btpxid-roadmap-card-badge">Coming</span>
               <p className="btpxid-roadmap-card-title">Continuous access reviews</p>
               <p className="btpxid-roadmap-card-body">
-                Surface dormant accounts, unused role collections, and stale service keys for your quarterly review — without your team building a single SQL query or PowerShell script.
+                Surface dormant accounts, unused role collections, and stale API credentials for your quarterly review — without your team building a single SQL query or PowerShell script.
               </p>
             </div>
           </div>
