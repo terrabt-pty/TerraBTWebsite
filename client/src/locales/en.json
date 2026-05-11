@@ -1602,7 +1602,7 @@
       "unknown": "your platform"
     },
     "download": {
-      "label": "Download",
+      "label": "Find Out More",
       "title": "Ready to get started?",
       "subtitle": "Download BTP xID for free. No credit card required. Choose your plan later.",
       "primaryButton": "Download for {{label}}",

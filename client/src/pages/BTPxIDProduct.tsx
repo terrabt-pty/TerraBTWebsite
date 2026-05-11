@@ -5,6 +5,7 @@ import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
 import BTPxIDShowcase from "@/components/BTPxIDShowcase";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -447,6 +448,8 @@ export default function BTPxIDProduct() {
           </div>
         </div>
       </section>
+
+      <ContactSection />
 
       <Footer />
     </div>
