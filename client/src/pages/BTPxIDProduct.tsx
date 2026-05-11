@@ -264,8 +264,7 @@ export default function BTPxIDProduct() {
           {[
             "Manages CF Org and Space roles — the part IAS cannot reach",
             "Shows every access right across your landscape in one screen, including what IAS assigned",
-            "Removes access immediately — IAS changes wait for next login; BTP xID acts now",
-            "Full offboarding in one action — sub-account role collections and CF memberships together",
+            "Full offboarding in one action — removing someone from IAS leaves their CF Org and Space memberships intact; BTP xID removes everything",
             "Works without IAS — connects directly to BTP regardless of your identity setup",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
