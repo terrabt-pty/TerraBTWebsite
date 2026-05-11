@@ -123,75 +123,6 @@ function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
   return ALL_DOWNLOADS[0];
 }
 
-interface PricingPackage {
-  id: string;
-  name: string;
-  description: string;
-  features: string[];
-  displayPriceMonthly: number;
-  displayPriceAnnual: number;
-  displayCurrency: string;
-  isFeatured: boolean;
-  featuredLabel: string | null;
-  ctaLabel: string | null;
-  ctaUrl: string | null;
-  contactEmail: string | null;
-  pricePeriodLabel: string | null;
-}
-
-const FALLBACK_PACKAGES: PricingPackage[] = [
-  {
-    id: "free",
-    name: "Free",
-    description: "Try BTP xID free for 90 days — no credit card required",
-    features: [
-      "User management across Global Account, Subaccount, CF Org, CF Space and directories",
-      "Single Global Account",
-      "Reverse Lookup",
-      "Mass add & edit users",
-      "Service Key Management",
-      "Assign users across multiple accounts in one click",
-    ],
-    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "USD",
-    isFeatured: false, featuredLabel: null,
-    ctaLabel: "Start Free Trial", ctaUrl: "#download",
-    contactEmail: null, pricePeriodLabel: "/ 90 days",
-  },
-  {
-    id: "basic",
-    name: "Basic",
-    description: "Ongoing access for SAP BTP administrators",
-    features: [
-      "User management across Global Account, Subaccount, CF Org, CF Space and directories",
-      "Single Global Account",
-      "Reverse Lookup",
-      "Mass add & edit users",
-      "Service Key Management",
-      "Assign users across multiple accounts in one click",
-    ],
-    displayPriceMonthly: 20000, displayPriceAnnual: 200000, displayCurrency: "USD",
-    isFeatured: true, featuredLabel: null,
-    ctaLabel: "Subscribe", ctaUrl: "https://accounts.terrabt.com/auth/login",
-    contactEmail: null, pricePeriodLabel: "/ month",
-  },
-  {
-    id: "enterprise",
-    name: "Enterprise",
-    description: "Custom solutions for large-scale SAP BTP deployments",
-    features: [
-      "Everything in Basic",
-      "Multiple Global Accounts",
-      "Dedicated support & onboarding",
-      "Custom integrations",
-      "SLA guarantees",
-      "Volume licensing",
-    ],
-    displayPriceMonthly: 0, displayPriceAnnual: 0, displayCurrency: "AUD",
-    isFeatured: false, featuredLabel: null,
-    ctaLabel: "Contact Sales", ctaUrl: null,
-    contactEmail: "sales@terrabt.com", pricePeriodLabel: null,
-  },
-];
 
 export default function BTPxIDProduct() {
   const { t, i18n } = useTranslation();
@@ -200,8 +131,6 @@ export default function BTPxIDProduct() {
   const [showAllDownloads, setShowAllDownloads] = useState(false);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
-  const [packages, setPackages] = useState<PricingPackage[]>(FALLBACK_PACKAGES);
-  const [billingInterval, setBillingInterval] = useState<"monthly" | "annual">("monthly");
   const { getLocalizedPath } = useLocalizedPath();
 
   // ?portal=test routes to accounts-test for internal testing without real payments
@@ -213,17 +142,6 @@ export default function BTPxIDProduct() {
     setOS(detectOS());
     setArch(detectArch());
   }, []);
-
-  useEffect(() => {
-    fetch(`${portalBase}/api/catalog/packages?product=SAPBTPUserManagement`)
-      .then((r) => r.json())
-      .then((products: Array<{ name: string; packages: PricingPackage[] }>) => {
-        if (products.length > 0 && products[0].packages.length > 0) {
-          setPackages(products[0].packages);
-        }
-      })
-      .catch(() => { /* fallback stays */ });
-  }, [portalBase]);
 
   useEffect(() => {
     fetch(`${R2_BASE}/version.json`)
@@ -391,101 +309,6 @@ export default function BTPxIDProduct() {
 
 
       {/* ===== PRICING ===== */}
-      <section className="btpxid-pricing" id="pricing">
-        <div className="btpxid-pricing-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.pricing.label')}</div>
-            <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.pricing.title')}
-            </h2>
-            <p className="btpxid-showcase-sub">
-              {t('btpxidProduct.pricing.subtitle')}
-            </p>
-          </div>
-
-          {/* Billing interval toggle */}
-          <div className="btpxid-billing-toggle">
-            <button
-              className={`btpxid-billing-option${billingInterval === "monthly" ? " btpxid-billing-active" : ""}`}
-              onClick={() => setBillingInterval("monthly")}
-            >
-              {t('btpxidProduct.billing.monthly')}
-            </button>
-            <button
-              className={`btpxid-billing-option${billingInterval === "annual" ? " btpxid-billing-active" : ""}`}
-              onClick={() => setBillingInterval("annual")}
-            >
-              {t('btpxidProduct.billing.annual')}
-              <span className="btpxid-billing-save">{t('btpxidProduct.billing.save')}</span>
-            </button>
-          </div>
-
-          <div className="btpxid-pricing-grid">
-            {packages.map((pkg) => (
-              <div
-                key={pkg.id}
-                className={`btpxid-plan-card${pkg.isFeatured ? " btpxid-plan-featured" : ""}`}
-              >
-                {pkg.featuredLabel && (
-                  <div className="btpxid-plan-popular">{pkg.featuredLabel}</div>
-                )}
-                <div className="btpxid-plan-header">
-                  <h3 className="btpxid-plan-name">{pkg.name}</h3>
-                  <p className="btpxid-plan-desc">{pkg.description}</p>
-                </div>
-                <div className="btpxid-plan-price-wrap">
-                  <div className="btpxid-plan-price">
-                    {pkg.contactEmail ? null : pkg.displayPriceMonthly === 0 ? (
-                      <span className="btpxid-price-amount">{t('btpxidProduct.pricing.free')}</span>
-                    ) : (
-                      <>
-                        <span className="btpxid-price-amount">
-                          ${billingInterval === "monthly"
-                            ? Math.round(pkg.displayPriceMonthly / 100)
-                            : Math.round(pkg.displayPriceAnnual / 100 / 12)}
-                        </span>
-                        <span className="btpxid-price-period">{t('btpxidProduct.pricing.perMonth')}</span>
-                      </>
-                    )}
-                  </div>
-                  {!pkg.contactEmail && pkg.displayPriceMonthly > 0 && billingInterval === "annual" && (
-                    <div className="btpxid-price-annual-note">
-                      {t('btpxidProduct.pricing.billedAnnually', { amount: Math.round(pkg.displayPriceAnnual / 100) })}
-                    </div>
-                  )}
-                </div>
-                <ul className="btpxid-plan-features">
-                  {(pkg.features as string[]).map((feature, i) => (
-                    <li key={i}>
-                      <CheckCircle className="h-4 w-4" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                {pkg.contactEmail ? (
-                  <a href={`mailto:${pkg.contactEmail}`} className="btpxid-plan-btn">
-                    {pkg.ctaLabel || t('btpxidProduct.pricing.contactSales')}
-                  </a>
-                ) : pkg.displayPriceMonthly === 0 && pkg.displayPriceAnnual === 0 ? (
-                  <a
-                    href={`${portalBase}/auth/register?lang=${i18n.language}`}
-                    className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
-                  >
-                    {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
-                  </a>
-                ) : (
-                  <a
-                    href={`${portalBase}/checkout/start?packageId=${pkg.id}&interval=${billingInterval}&lang=${i18n.language}&returnUrl=${encodeURIComponent(window.location.href.split('?')[0])}`}
-                    className={`btpxid-plan-btn${pkg.isFeatured ? " btpxid-plan-btn-primary" : ""}`}
-                  >
-                    {pkg.ctaLabel || t('btpxidProduct.pricing.getStarted')}
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ===== DOWNLOAD ===== */}
       <section className="btpxid-download" id="download">

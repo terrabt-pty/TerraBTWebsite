@@ -18,7 +18,6 @@ const HOME_scrollLinks = [
 
 const BTPXID_scrollLinks = [
   { labelKey: "nav.services",  href: "#services"  },
-  { labelKey: "nav.pricing",   href: "#pricing"   },
   { labelKey: "nav.contact",   href: "#contact"   },
 ];
 
