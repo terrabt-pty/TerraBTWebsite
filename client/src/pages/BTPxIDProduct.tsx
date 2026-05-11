@@ -214,12 +214,12 @@ export default function BTPxIDProduct() {
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">IAS, IPS &amp; BTP xID</div>
+      <div className="btpxid-features-label">SAP IAS &amp; BTP xID</div>
       <h2 className="btpxid-showcase-title">
         IAS secures identity.<br />BTP xID governs access.
       </h2>
       <p className="btpxid-showcase-sub">
-        SAP IAS + IPS handles authentication and can partially automate role collection assignments — but CF Org and Space roles, landscape-wide visibility, and cross-account bulk operations remain outside its reach. BTP xID fills that gap, and works with or without IAS.
+        SAP IAS handles authentication — who can log in and via which identity provider. BTP xID handles what they can access once inside: CF Org and Space roles, landscape-wide visibility, and cross-account bulk operations. Works with or without IAS.
       </p>
     </div>
 
@@ -229,15 +229,13 @@ export default function BTPxIDProduct() {
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
           <h3 className="btpxid-ias-col-title">Identity &amp; Authentication</h3>
-          <p className="btpxid-ias-col-sub">Secures the front door.</p>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Federated SSO: authenticates users via your corporate IdP (SAML / OIDC proxy)",
-            "SAML group-to-role-collection mapping — configured separately per sub-account",
-            "User provisioning into sub-accounts via Identity Provisioning Service (IPS)",
+            "Federated SSO — authenticates users via your corporate IdP (SAML / OIDC proxy)",
+            "SAML group-to-role-collection mapping at login, configured per sub-account",
             "MFA and risk-based authentication policies",
-            "CF org/space role assignment via IPS — requires one IPS target per CF org and GUID-based group naming",
+            "Manages who can log in — not what they can access once inside BTP",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -262,7 +260,6 @@ export default function BTPxIDProduct() {
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
           <h3 className="btpxid-ias-col-title">Access Governance</h3>
-          <p className="btpxid-ias-col-sub">Controls what they can reach.</p>
         </div>
         <ul className="btpxid-ias-list">
           {[
@@ -287,7 +284,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Whether your BTP landscape has IAS deployed or not, BTP xID gives you centralised access governance across every account, org, and space — no GUID-based group naming, no per-org IPS configurations, no sub-account-by-sub-account management.
+      Whether your BTP landscape has IAS deployed or not, BTP xID gives you centralised access governance across every account, org, and space — with a single view of who has access to what, and the ability to act on it.
     </div>
     <div style={{ textAlign: "center", marginTop: "16px" }}>
       <a
