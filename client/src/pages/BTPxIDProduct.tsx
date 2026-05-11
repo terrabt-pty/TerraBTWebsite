@@ -434,30 +434,30 @@ export default function BTPxIDProduct() {
                 <div className="btpxid-keys-breach-year">HANA Cloud service key</div>
                 <div className="btpxid-keys-breach-title">Direct database access</div>
                 <p className="btpxid-keys-breach-body">
-                  A HANA Cloud service key contains a JDBC URL, a database username and a plaintext password. Anyone holding the key can connect directly to the database as that user. No additional authentication. Full read access to whatever the user's grants allow — customer PII, financial records, any schema the binding can reach.
+                  A HANA Cloud service key contains a JDBC URL, a username and a plaintext password. The HANA Cloud SQL endpoint is public on port 443 — no VPN, no Cloud Connector. Anyone holding the key connects directly to the database with whatever grants that user has.
                 </p>
               </div>
               <div className="btpxid-keys-breach-card">
                 <div className="btpxid-keys-breach-year">Destination service key</div>
-                <div className="btpxid-keys-breach-title">Your backend SAP systems</div>
+                <div className="btpxid-keys-breach-title">Every backend you've ever connected</div>
                 <p className="btpxid-keys-breach-body">
-                  The Destination service stores credentials for backend systems — S/4HANA, ECC, third-party APIs. A leaked Destination service key lets the holder call any configured destination using the credentials your team already stored there. They never need to authenticate to your backend systems directly.
+                  One Destination service key returns the full configuration of every destination in the sub-account — S/4HANA, SuccessFactors, Ariba, third-party APIs — including the stored credentials. A single leaked Destination key is effectively a credential vault dump of every backend system your BTP apps can call.
                 </p>
               </div>
               <div className="btpxid-keys-breach-card">
                 <div className="btpxid-keys-breach-year">Connectivity service key</div>
-                <div className="btpxid-keys-breach-title">A passage into your network</div>
+                <div className="btpxid-keys-breach-title">A passage past your firewall</div>
                 <p className="btpxid-keys-breach-body">
-                  The Connectivity service tunnels BTP traffic into your on-premise network via the Cloud Connector. A leaked Connectivity service key effectively grants the holder a route into your corporate network — for any system the Cloud Connector is configured to expose.
+                  The Connectivity service tunnels traffic from BTP into your on-premise network via the Cloud Connector. Combined with a Destination key, a Connectivity service key gives the holder a route into the corporate network — past the perimeter you paid to harden.
                 </p>
               </div>
             </div>
             <p style={{ textAlign: "center", fontSize: "0.875rem", color: "#475569", lineHeight: 1.7, marginTop: "2rem", maxWidth: "780px", marginLeft: "auto", marginRight: "auto" }}>
-              These keys are created by Space Developers. They do not expire by default. They are not visible in the BTP cockpit's user view. And when the developer who created them leaves your company, the keys keep working.
+              These keys are created by any Space Developer. They do not expire by default — SAP's own guidance recommends 90-day rotation, but no rotation is enforced. They are not visible in the BTP cockpit's user view. And when the developer who created them leaves your company, the keys keep working.
             </p>
             <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
               <a href="/blog/btp-service-keys-api-credentials" style={{ color: "#3A9A6A", fontSize: "0.9rem", fontWeight: 500, textDecoration: "none" }}>
-                Read the full story: service keys, API keys, and the BTP visibility problem →
+                Read the full breakdown: every BTP service, what its key contains, and what it unlocks →
               </a>
             </div>
           </div>

@@ -6,8 +6,8 @@ export default function BTPServiceKeysAPICredentialsPage() {
   return (
     <>
       <SEOHead
-        title="Service Keys Are API Keys: The SAP BTP Visibility Problem | TerraBT"
-        description="In SAP BTP, service keys are functionally API keys — long-lived OAuth credentials. They sit at the bottom of a nested hierarchy (Global Account → Sub-account → CF Org → CF Space) and are not aggregated in any cockpit view. Real-world breaches show what that means."
+        title="SAP BTP Service Keys: What Each Key Unlocks and Why It Matters | TerraBT"
+        description="A service-by-service breakdown of SAP BTP Cloud Foundry service keys: HANA Cloud, Destination, XSUAA, Connectivity, Object Store, Integration Suite. What each key contains, what an attacker holding one can reach, and why BTP service keys are uniquely dangerous in a Fortune 500 landscape."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -26,94 +26,155 @@ export default function BTPServiceKeysAPICredentialsPage() {
           </nav>
 
           <p style={{ color: "#3A9A6A", fontSize: "0.8rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "12px" }}>
-            Service Keys in SAP BTP
+            SAP BTP Service Keys
           </p>
 
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            Service keys are API keys. SAP just calls them something different.
+            What each SAP BTP service key actually unlocks
           </h1>
 
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
-            If you ask a SAP BTP administrator what a service key is, they'll explain it as a credential bound to a service instance. If you ask a security architect what an API key is, they'll describe the same thing. The terminology is different. The risk is identical. And in BTP today, there is no single screen that shows you all of them.
+            "Service key" is SAP's term for what the rest of the world calls an API key: a JSON blob containing credentials, returned by <code style={codeStyle}>cf create-service-key</code>. The contents differ per service, the danger differs per service, and the BTP cockpit aggregates none of it. This is a service-by-service look at what's actually inside, and what an attacker holding one can reach.
           </p>
 
-          {/* Section: What service keys are */}
-          <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>What a service key actually is</h2>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              When a developer in a Cloud Foundry space runs <code style={codeStyle}>cf create-service-key</code> against a HANA Cloud instance, BTP returns a JSON blob. Inside that blob: an OAuth <code style={codeStyle}>clientid</code>, an OAuth <code style={codeStyle}>clientsecret</code>, a JDBC URL, a username and a plaintext password. Any process holding that JSON can authenticate to your HANA database as long as the credentials remain valid.
+          {/* What they are */}
+          <section style={{ marginBottom: "40px" }}>
+            <h2 style={hh2}>The mechanics, in one paragraph</h2>
+            <p style={p}>
+              Every service key in SAP BTP is one of three things: an OAuth <code style={codeStyle}>clientid</code> + <code style={codeStyle}>clientsecret</code> pair, a database user and password, or hyperscaler-native credentials (S3 access key, Azure key, etc.). They are created by anyone holding the Cloud Foundry <strong>Space Developer</strong> role — the same role required to deploy an application. SAP's own documentation confirms: <em>"the secret remains valid as long as the binding or the service key exists."</em> There is no expiry by default, and no automatic revocation when the user who created it is removed from the platform.
             </p>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              For a Destination service, the same operation returns endpoint URLs and credentials for your on-premise systems. For XSUAA, OAuth credentials that can mint tokens for any role bound to the instance. For the Object Store, S3-compatible access keys.
-            </p>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: 0 }}>
-              SAP's own Cloud SDK guidance acknowledges the risk: <em>"the use of clientsecret has an inherent risk of these credentials being leaked, especially as they are not frequently rotated. Leaking these credentials into the hands of an attacker can cause a lot of harm and stay long unnoticed."</em>
+            <p style={smallSrc}>
+              Source: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer" style={a}>SAP docs — Service Instance Secrets</a>
             </p>
           </section>
 
-          {/* Section: Where they live */}
-          <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Where they live — and why you can't see them all</h2>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              Service keys do not live at the Global Account level. They do not live at the sub-account level. They live inside specific service instances, inside specific Cloud Foundry spaces. To find every service key your organisation has issued, an admin must:
-            </p>
-            <ol style={{ color: "#475569", lineHeight: 1.9, paddingLeft: "24px", marginBottom: "16px" }}>
-              <li>Open each <strong style={{ color: "#0F172A" }}>Global Account</strong></li>
-              <li>Open each <strong style={{ color: "#0F172A" }}>Sub-account</strong> within it (typically dozens, often more)</li>
-              <li>Open the <strong style={{ color: "#0F172A" }}>Cloud Foundry environment</strong> for each sub-account</li>
-              <li>Open each <strong style={{ color: "#0F172A" }}>CF Org</strong>, then each <strong style={{ color: "#0F172A" }}>CF Space</strong> (an enterprise can easily have hundreds of spaces)</li>
-              <li>Open each <strong style={{ color: "#0F172A" }}>service instance</strong> in that space, and list its keys</li>
+          {/* Per-service breakdown */}
+          <section style={{ marginBottom: "40px" }}>
+            <h2 style={hh2}>What each service key contains, and what it unlocks</h2>
+
+            <ServiceCard
+              service="SAP HANA Cloud"
+              contents="JDBC URL · username · plaintext password · schema · certificate"
+              unlocks="Direct database connection over port 443, public on the internet — no VPN, no Cloud Connector. Whatever grants the bound user has are now the attacker's. If the binding uses a DBADMIN-derived role, that is effectively root on the HANA tenant: customer PII, financial postings, ML features, every schema the user can read."
+              source={{ label: "SAP HANA Cloud — Connect via JDBC", url: "https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/connect-to-sap-hana-database-in-sap-hana-cloud-via-jdbc" }}
+            />
+
+            <ServiceCard
+              service="SAP Destination Service"
+              contents="clientid · clientsecret · destination-service URI · XSUAA token URL"
+              unlocks="The full Destination Service REST API for the sub-account. The attacker calls GET /destination-configuration/v1/destinations and receives the configuration of every destination the customer has registered — S/4HANA, SuccessFactors, Ariba, third-party APIs — including the stored Basic-auth passwords, OAuth client secrets, and Cloud-Connector ProxyAuthorization headers in plain readable form. A single Destination key is a credential vault dump of every backend system the BTP apps can call."
+              source={{ label: "SAP Cloud SDK — Destinations", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/destinations" }}
+            />
+
+            <ServiceCard
+              service="SAP Authorization & Trust Management (XSUAA)"
+              contents="clientid · clientsecret · OAuth URL · api URL · tenant ID · subaccount ID"
+              unlocks="Depends on the service plan. The application plan grants token-minting for the bound app's scopes. The apiaccess plan is the dangerous one — SAP's own community documentation describes it as the way to programmatically manage roles, role collections, and users. A leaked apiaccess key lets an attacker mint themselves a token, create a role collection containing admin scopes, and grant themselves that collection — a full privilege escalation inside the sub-account."
+              source={{ label: "SAP Community — XSUAA REST API", url: "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-btp-security-how-to-use-rest-api-of-xsuaa-to-programmatically-manage/ba-p/13540720" }}
+            />
+
+            <ServiceCard
+              service="SAP Connectivity Service"
+              contents="clientid · clientsecret · onpremise_proxy_host · onpremise_proxy_port · token service URL"
+              unlocks="The Cloud Connector tunnel. The proxy is reachable from inside the CF space, but combined with a compromised app or a Destination key, the attacker routes arbitrary HTTP requests through the Cloud Connector tunnel into the on-premise network. Cloud SDK documentation describes the flow plainly: the connectivity service brokers requests that pass via the Cloud Connector to on-premise S/4HANA. A leaked Connectivity key is a passage past the corporate firewall."
+              source={{ label: "SAP Cloud SDK — On-premise Connectivity", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/on-premise" }}
+            />
+
+            <ServiceCard
+              service="SAP Object Store"
+              contents="access_key_id · secret_access_key · region · bucket (or Azure / GCS equivalents)"
+              unlocks="Real hyperscaler IAM credentials behind the scenes — direct S3 (or Azure Blob, GCS) API access to the customer's bucket. Read, write, delete, list. Object Store is where SAP AI Core grounding data, SAP Build Apps backups, and CAP app uploads typically land. The kicker: object-level access through the hyperscaler API does not show in the BTP Audit Log Service. Detection requires the hyperscaler's own logging, which many customers do not pipe to their SOC."
+              source={{ label: "SAP Object Store FAQ", url: "https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/frequently-asked-questions" }}
+            />
+
+            <ServiceCard
+              service="SAP Integration Suite (Cloud Integration / CPI)"
+              contents="clientid · clientsecret · token URL · tenant runtime URL (or x.509 certificate variant)"
+              unlocks="With the integration-flow plan: ability to invoke any deployed iFlow endpoint the instance is scoped to. With the api management plan: list every deployed iFlow, download its full definition (revealing mapping logic, hard-coded usernames, partner endpoints), and deploy new ones — including a malicious iFlow that exfiltrates every message passing through. CPI tenants typically broker B2B / EDI / payroll between S/4HANA, SuccessFactors, banks and Ariba; the message contents in flight include invoices, employee PII, and payment instructions."
+              source={{ label: "SAP Help — Cloud Integration Service Key Types", url: "https://help.sap.com/docs/cloud-integration/sap-cloud-integration/service-key-types" }}
+            />
+
+            <ServiceCard
+              service="SAP Build Work Zone"
+              contents="clientid · clientsecret · workzone tenant URL"
+              unlocks="The SCIM API (enumerate site users) and the content-management API (modify the launchpad). The launchpad is high-value for credential phishing because users implicitly trust the corporate portal — an attacker can change a tile to point at an attacker-controlled URL and harvest credentials from inside the customer's own branded UI."
+              source={{ label: "SAP Help — Work Zone Solution Architecture", url: "https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/solution-architecture-and-authentication-details" }}
+            />
+          </section>
+
+          {/* What makes BTP service keys uniquely dangerous */}
+          <section style={{ marginBottom: "40px", background: "#F8FAFC", borderRadius: "12px", padding: "32px", border: "1px solid #E2E8F0" }}>
+            <h2 style={hh2}>What makes BTP service keys uniquely dangerous</h2>
+            <ol style={{ ...p, paddingLeft: "20px", margin: 0 }}>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>They are credential bundles, not single credentials.</strong> A Destination key contains, by design, the credentials for every other system in the sub-account. This is a force multiplier no AWS or Azure access key offers.
+              </li>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>They route past the corporate firewall.</strong> A Connectivity key paired with any CF app gives an attacker a tunnel through the Cloud Connector into the on-premise data centre.
+              </li>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>They outlive the people.</strong> Removing the user who created them has zero effect on the key. SAP KBA <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={a}>3220053</a> documents the related shadow-user behaviour — keys created by employees who left two years ago remain fully functional.
+              </li>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>The rotation default is "never."</strong> SAP's published recommendation is 90 days, but the technical default is open-ended. Only X.509 service keys have built-in expiry (7 days default), and most customers use client-secret because it's the path of least resistance.
+              </li>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>Audit retention is 90 days by default.</strong> A key created and used in month 1 of a year-long campaign has its creation event aged out of the BTP Audit Log before the customer notices. Premium retention is a separate paid SKU.
+              </li>
+              <li style={{ marginBottom: "12px" }}>
+                <strong style={strong}>Detection is asymmetric.</strong> HANA Cloud SQL access and Object Store object-level access are not captured by the BTP Audit Log Service. An attacker holding a HANA service key can <code style={codeStyle}>SELECT *</code> for months and the BTP audit log shows nothing.
+              </li>
+              <li style={{ marginBottom: 0 }}>
+                <strong style={strong}>The Space Developer role is over-broad.</strong> Anyone who can deploy a CF app can also create service keys for any service instance in that space. The platform conflates "I need to push code" with "I need permanent extractable credentials to every downstream system."
+              </li>
             </ol>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              The BTP cockpit does not aggregate this. The cockpit's user view does not show it. Standard access reviews do not surface it. In an enterprise BTP landscape with a hundred CF spaces, asking "show me every service key in production" is a multi-day exercise — and it relies on the admin remembering every space they have ever opened.
-            </p>
-            <p style={{ color: "#475569", lineHeight: 1.7, margin: 0 }}>
-              BTP xID does this in one screen. That is the gap it was built to close.
-            </p>
           </section>
 
-          {/* Section: Why this matters */}
-          <section style={{ marginBottom: "48px", background: "#F8FAFC", borderRadius: "12px", padding: "32px", border: "1px solid #E2E8F0" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>The orphaned credential problem</h2>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              When a developer leaves the company, their corporate identity is disabled. Their IAS account is removed. Their CF role assignments may eventually be cleaned up. But the service keys they created continue to authenticate against your HANA databases and bound services until someone explicitly deletes them.
-            </p>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: 0 }}>
-              The 2025 Verizon Data Breach Investigations Report attributes <strong style={{ color: "#0F172A" }}>22% of all breaches to stolen credentials</strong> as the initial access vector, and finds that <strong style={{ color: "#0F172A" }}>43% of cloud secrets exposed in public repositories are high-privilege, long-lived credentials</strong> — exactly the profile of a BTP service key. The examples below show what happens when those credentials are not tracked.
-            </p>
+          {/* Real incidents */}
+          <section style={{ marginBottom: "40px" }}>
+            <h2 style={hh2}>Two documented incidents that hit SAP BTP directly</h2>
+
+            <div style={incidentCard}>
+              <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px", flexWrap: "wrap" }}>
+                <span style={incidentYear}>Jan – May 2024</span>
+                <h3 style={incidentTitle}>SAPwned (Wiz Research)</h3>
+              </div>
+              <p style={{ ...p, marginBottom: "10px" }}>
+                Wiz researchers exploited a tenant-isolation failure in SAP AI Core (a BTP service) to extract customer service-key material from neighbouring tenants. The report describes obtaining other customers' AWS credentials (for S3 data access), SAP HANA Cloud credentials (for Data Lake access), and Docker Hub credentials — plus cluster admin on the AI Core Kubernetes cluster, write access to SAP's internal container registry, and write access to SAP's Artifactory. SAP confirmed and patched between January and May 2024.
+              </p>
+              <p style={p}>
+                The lesson for a BTP CISO: a single leaked BTP service key, paired with a tenant-isolation bug in any BTP-managed service, can leak <em>other</em> customers' service keys. This is a risk vector that has no AWS or GCP equivalent.
+              </p>
+              <p style={smallSrc}>
+                Source: <a href="https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security" target="_blank" rel="noopener noreferrer" style={a}>Wiz — SAPwned</a> · <a href="https://www.securityweek.com/sap-ai-core-vulnerabilities-allowed-service-takeover-customer-data-access/" target="_blank" rel="noopener noreferrer" style={a}>SecurityWeek</a>
+              </p>
+            </div>
+
+            <div style={incidentCard}>
+              <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px", flexWrap: "wrap" }}>
+                <span style={incidentYear}>April 2026</span>
+                <h3 style={incidentTitle}>Mini Shai-Hulud — SAP npm supply-chain compromise</h3>
+              </div>
+              <p style={{ ...p, marginBottom: "10px" }}>
+                A worm embedded in four official SAP npm packages (<code style={codeStyle}>mbt</code>, <code style={codeStyle}>@cap-js/sqlite</code>, <code style={codeStyle}>@cap-js/postgres</code>, <code style={codeStyle}>@cap-js/db-service</code>) executed a hidden preinstall script that read in-memory secrets from CI environments — GitHub Actions secrets, AWS credential files, Azure Key Vault references, GCP Secret Manager, and Kubernetes service-account JSON. Stolen credentials were uploaded to over 1,200 public GitHub repositories. A significant portion of the stolen tokens were BTP service-binding JSON.
+              </p>
+              <p style={p}>
+                The lesson: BTP service keys do not just leak through your own developers' mistakes. They leak through the SAP-published packages your developers depend on.
+              </p>
+              <p style={smallSrc}>
+                Source: <a href="https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm" target="_blank" rel="noopener noreferrer" style={a}>Wiz — Mini Shai-Hulud SAP npm</a> · <a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank" rel="noopener noreferrer" style={a}>BleepingComputer</a>
+              </p>
+            </div>
           </section>
 
-          {/* Section: Real-world examples */}
-          <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "20px" }}>Six breaches caused by long-lived API credentials</h2>
-
-            <BreachItem year="2017 (breach 2016)" title="Uber — AWS access key committed to GitHub" body="Attackers used a credential-spraying script against GitHub and found valid developer credentials at Uber. From a private repo they extracted an AWS access key, accessed an S3 bucket, and exfiltrated data on 57 million riders and 7 million drivers. The company paid the attackers $100,000 disguised as a bug bounty and concealed the breach for over a year. Final cost: $148 million multi-state settlement and the criminal conviction of the CSO for obstruction." source="https://techcrunch.com/2017/11/21/uber-data-breach-from-2016-affected-57-million-riders-and-drivers/" sourceLabel="TechCrunch" />
-
-            <BreachItem year="2022" title="Toyota — hardcoded key public for five years" body="A subcontractor pushed source code containing a data-server access key to a public GitHub repository in December 2017. It went undiscovered until September 2022 — almost five years of public exposure. 296,019 customer email addresses and management numbers were potentially accessed during that window. Toyota could not rule out exfiltration because the key was live the entire time, with no monitoring." source="https://www.bleepingcomputer.com/news/security/toyota-discloses-data-leak-after-access-key-exposed-on-github/" sourceLabel="BleepingComputer" />
-
-            <BreachItem year="2021" title="Codecov — supply-chain credential theft" body="Attackers exploited a flaw in Codecov's Docker image build process to extract the credential needed to modify the Bash Uploader script. They added one line that exfiltrated every CI environment variable — AWS keys, GitHub tokens, GCP service-account JSON — from every customer build to an attacker-controlled server. Undetected for two months. Codecov had roughly 29,000 customers; HashiCorp, Twilio, Rapid7 and Confluent publicly disclosed downstream compromises." source="https://about.codecov.io/apr-2021-post-mortem/" sourceLabel="Codecov post-mortem" />
-
-            <BreachItem year="2023" title="Microsoft Storm-0558 — orphaned signing key" body="A Microsoft signing system crashed in April 2021. A race condition caused the cryptographic key material to be inadvertently included in the crash dump. The key was never rotated. Two years later, the Chinese threat actor Storm-0558 acquired it and used it to forge authentication tokens against Exchange Online, breaching approximately 25 organisations including the US Department of State (60,000 emails exfiltrated) and the Department of Commerce. The US Cyber Safety Review Board called the incident 'preventable' and demanded Microsoft overhaul its security culture." source="https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/" sourceLabel="Microsoft MSRC" />
-
-            <BreachItem year="2023" title="Microsoft AI Research — 38 TB exposed via SAS token" body="Microsoft AI researchers published open-source training data on GitHub, sharing an Azure Storage SAS token alongside it. The token was misconfigured to grant full-control access to the entire storage account, not just the intended folder. It never expired. Discovered by Wiz researchers three years later, in June 2023. Exposed 38 TB of internal data: disk backups of two employees' workstations, 30,000+ internal Teams messages, private SSH and GPG keys, Microsoft service passwords, and Azure storage keys." source="https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers" sourceLabel="Wiz Research" />
-
-            <BreachItem year="2024" title="Sisense — secret store cascade" body="Attackers compromised Sisense's self-hosted GitLab instance, found a token in the repository, and used it to access a customer secret store on S3 containing access tokens, API keys, database passwords and TLS certificates for over 2,000 enterprise customers — including Verizon, Nasdaq and Air Canada. CISA issued a named-vendor advisory (April 11, 2024) urging every Sisense customer to rotate every credential they had ever exposed to the platform." source="https://www.cisa.gov/news-events/alerts/2024/04/11/compromise-sisense-customer-data" sourceLabel="CISA Advisory" />
-          </section>
-
-          {/* What BTP xID does */}
-          <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>What BTP xID does about it</h2>
-            <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              BTP xID connects directly to the BTP and Cloud Foundry APIs and enumerates every service key in your landscape — across every Global Account, every Sub-account, every CF Org, every CF Space — into one screen.
+          {/* Where they live */}
+          <section style={{ marginBottom: "40px" }}>
+            <h2 style={hh2}>And the BTP cockpit shows you none of them in one place</h2>
+            <p style={p}>
+              Service keys do not live at the Global Account level. They do not live at the sub-account level. They live inside specific service instances, inside specific Cloud Foundry spaces. To inventory every service key, an admin must open every Global Account, every sub-account, every CF environment, every org, every space, every service instance — and run <code style={codeStyle}>cf service-keys</code> against each one. A Fortune 500 BTP landscape typically has hundreds of CF spaces; the inventory exercise is a multi-day project that no native cockpit feature accelerates.
             </p>
-            <ul style={{ color: "#475569", lineHeight: 1.9, paddingLeft: "24px", marginBottom: "16px" }}>
-              <li><strong style={{ color: "#0F172A" }}>See them all.</strong> One auditable view. Filter by sub-account, by service type, by space, by age.</li>
-              <li><strong style={{ color: "#0F172A" }}>See what they contain.</strong> View the full credential JSON without re-navigating the cockpit.</li>
-              <li><strong style={{ color: "#0F172A" }}>Revoke instantly.</strong> Delete keys directly through the CF V3 API. No manual per-space cleanup.</li>
-              <li><strong style={{ color: "#0F172A" }}>Find the orphans.</strong> Cross-reference service keys with current users — surface keys whose creators are no longer with the company.</li>
-            </ul>
-            <p style={{ color: "#475569", lineHeight: 1.7, margin: 0 }}>
-              That is the visibility your access reviews have been missing.
+            <p style={p}>
+              BTP xID does this in one screen, by calling the BTP and Cloud Foundry APIs directly. It aggregates every service key, surfaces the contents, lets you filter by sub-account or service type, and lets you delete keys instantly through the same APIs.
             </p>
           </section>
 
@@ -140,6 +201,7 @@ export default function BTPServiceKeysAPICredentialsPage() {
   );
 }
 
+// ─── styles ──────────────────────────────────────────────────────────────────
 const codeStyle: React.CSSProperties = {
   background: "#F8FAFC",
   border: "1px solid #E2E8F0",
@@ -149,19 +211,36 @@ const codeStyle: React.CSSProperties = {
   color: "#0F172A",
   fontFamily: "'SF Mono', Monaco, monospace",
 };
+const hh2: React.CSSProperties = { color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" };
+const p: React.CSSProperties = { color: "#475569", lineHeight: 1.7, marginBottom: "16px" };
+const smallSrc: React.CSSProperties = { color: "#94A3B8", fontSize: "0.8125rem", margin: "8px 0 0" };
+const a: React.CSSProperties = { color: "#3A9A6A", textDecoration: "none" };
+const strong: React.CSSProperties = { color: "#0F172A" };
+const incidentCard: React.CSSProperties = {
+  marginBottom: "20px",
+  padding: "22px 26px",
+  background: "#FFFFFF",
+  border: "1px solid #E2E8F0",
+  borderRadius: "12px",
+  borderLeft: "4px solid #DC2626",
+};
+const incidentYear: React.CSSProperties = { fontSize: "0.7rem", fontWeight: 700, color: "#94A3B8", letterSpacing: "0.08em", textTransform: "uppercase" };
+const incidentTitle: React.CSSProperties = { color: "#0F172A", fontSize: "1.0625rem", fontWeight: 700, margin: 0 };
 
-function BreachItem({ year, title, body, source, sourceLabel }: { year: string; title: string; body: string; source: string; sourceLabel: string }) {
+function ServiceCard({ service, contents, unlocks, source }: { service: string; contents: string; unlocks: string; source: { label: string; url: string } }) {
   return (
-    <div style={{ marginBottom: "24px", padding: "20px 24px", background: "#FFFFFF", border: "1px solid #E2E8F0", borderRadius: "12px" }}>
-      <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px", flexWrap: "wrap" }}>
-        <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "#94A3B8", letterSpacing: "0.08em", textTransform: "uppercase" }}>{year}</span>
-        <h3 style={{ color: "#0F172A", fontSize: "1.0625rem", fontWeight: 700, margin: 0 }}>{title}</h3>
-      </div>
-      <p style={{ color: "#475569", lineHeight: 1.7, fontSize: "0.9375rem", margin: "0 0 10px" }}>
-        {body}
+    <div style={{ marginBottom: "20px", padding: "22px 26px", background: "#FFFFFF", border: "1px solid #E2E8F0", borderRadius: "12px" }}>
+      <h3 style={{ color: "#0F172A", fontSize: "1.0625rem", fontWeight: 700, margin: "0 0 8px" }}>
+        {service}
+      </h3>
+      <p style={{ margin: "0 0 10px", fontSize: "0.8125rem", color: "#64748B" }}>
+        <span style={{ fontWeight: 700, color: "#0F172A" }}>Contains:</span> <code style={{ ...codeStyle, fontSize: "0.8125rem" }}>{contents}</code>
       </p>
-      <p style={{ fontSize: "0.75rem", margin: 0 }}>
-        Source: <a href={source} target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>{sourceLabel}</a>
+      <p style={{ ...p, marginBottom: "10px" }}>
+        <span style={{ fontWeight: 700, color: "#0F172A" }}>What it unlocks:</span> {unlocks}
+      </p>
+      <p style={smallSrc}>
+        Source: <a href={source.url} target="_blank" rel="noopener noreferrer" style={a}>{source.label}</a>
       </p>
     </div>
   );
