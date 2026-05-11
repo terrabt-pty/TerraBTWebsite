@@ -291,59 +291,59 @@ export default function BTPxIDProduct() {
   </div>
 </section>
 
-      {/* ===== CISO ANCHOR — WHAT YOU MIGHT BE MISSING ===== */}
+      {/* ===== THREE CONSIDERATIONS AT SCALE ===== */}
       <section className="btpxid-risks">
         <div className="btpxid-risks-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">What you might be missing right now</div>
+            <div className="btpxid-features-label">Three considerations for BTP at scale</div>
             <h2 className="btpxid-showcase-title">
-              Three things SAP itself documents,<br />that your cockpit doesn't show you.
+              SAP BTP gives you the platform.<br />BTP xID adds the day-to-day visibility large landscapes need.
             </h2>
           </div>
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Ghost users in BTP</div>
+              <div className="btpxid-risk-card-label">Cleaning up after a user leaves</div>
               <p className="btpxid-risk-card-body">
-                When a user is deleted from your identity provider, their record can remain in your BTP subaccounts with their Cloud Foundry role assignments intact. SAP confirms this behaviour in its own knowledge base.
+                When a user is removed from the upstream identity provider, the shadow user record and any Cloud Foundry role assignments are cleaned up separately in each sub-account — SAP documents this in KB 3220053. BTP xID consolidates that cleanup into a single action, across every sub-account, org and space at once.
               </p>
               <p className="btpxid-risk-card-source">
-                Source: <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer">SAP KB 3220053</a>
+                Reference: <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer">SAP KB 3220053</a>
               </p>
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Long-lived service keys</div>
+              <div className="btpxid-risk-card-label">Maintaining a service-key inventory</div>
               <p className="btpxid-risk-card-body">
-                Any Space Developer can create an OAuth service key against HANA Cloud, a Destination, or any other bound service. By default these credentials do not expire and are not visible in subaccount-level user audits. 43% of high-privilege cloud secrets exposed in 2025 fit exactly this profile.
+                Service keys are created by Space Developers and live inside each service instance. SAP's recommended rotation cadence is 90 days. Across a landscape with many Cloud Foundry spaces, maintaining that cadence is easier with a single inventory view — which is what BTP xID provides.
               </p>
               <p className="btpxid-risk-card-source">
-                Source: Verizon DBIR 2025
+                Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">SAP — Service Instance Secrets</a>
               </p>
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">A Space Developer reads every credential bound to that space</div>
+              <div className="btpxid-risk-card-label">Cloud Foundry Space Developer scope</div>
               <p className="btpxid-risk-card-body">
-                The Space Developer role grants direct access to environment variables containing plaintext credentials for every bound service — HANA Cloud, Destinations, Object Store — plus SSH access to every running application in that space. One mistaken role assignment is one mistake too many.
+                The Space Developer role is intentionally broad — it grants the deployment and operations rights developers need, including read access to bound credentials. Knowing exactly who holds this role across every space is essential for an enterprise access review. BTP xID surfaces that view across the entire landscape.
               </p>
               <p className="btpxid-risk-card-source">
-                Source: <a href="https://help.sap.com/docs/btp/sap-business-technology-platform/about-roles-in-cloud-foundry-environment" target="_blank" rel="noopener noreferrer">SAP role documentation</a>
+                Reference: <a href="https://help.sap.com/docs/btp/sap-business-technology-platform/about-roles-in-cloud-foundry-environment" target="_blank" rel="noopener noreferrer">SAP — Cloud Foundry Roles</a>
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ===== API CREDENTIALS — service keys at every level ===== */}
+      {/* ===== API CREDENTIALS — a single view across every level ===== */}
       <section className="btpxid-why" style={{ background: "#FFFFFF" }}>
         <div className="btpxid-why-inner">
           <div className="btpxid-why-header">
             <h2 className="btpxid-why-title">
-              See every <span className="btpxid-why-accent">API credential</span>, including the ones BTP hides
+              A single view of every <span className="btpxid-why-accent">API credential</span> in your BTP landscape
             </h2>
             <p className="btpxid-why-question">
-              Service keys in SAP BTP are API credentials. They exist at every level — Global Account, Sub-account, Cloud Foundry Org and Space — and the BTP cockpit does not put them in one screen. Some, like Global Account API credentials, are not in the cockpit at all.
+              SAP BTP issues service keys at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP surface. BTP xID brings them together in one auditable view.
             </p>
           </div>
 
@@ -351,20 +351,20 @@ export default function BTPxIDProduct() {
             <div className="btpxid-why-card btpxid-why-problem">
               <div className="btpxid-why-card-label">In SAP BTP today</div>
               <p>
-                The cockpit's user view shows users — not API credentials. Sub-account service keys are hidden inside individual service instances, behind layers of clicks. <strong>Global Account-level API credentials have no cockpit UI at all</strong> — they can only be viewed via the BTP CLI, which means most security teams don't know they exist.
+                Service keys are presented inside the service instance they're bound to. To inventory keys across a large landscape, an admin navigates each sub-account, each Cloud Foundry org, each space, and each service instance individually.
               </p>
               <p>
-                There is no consolidated view. A Fortune 500 BTP landscape can hold thousands of service keys across hundreds of Cloud Foundry spaces — and the only way to inventory them is space by space, instance by instance.
+                Global Account-level API credentials are managed through the BTP CLI rather than the cockpit. Both surfaces work well at their level — combining them across a Fortune 500 landscape is what takes time.
               </p>
             </div>
 
             <div className="btpxid-why-card btpxid-why-solution">
               <div className="btpxid-why-card-label">With BTP xID</div>
               <p>
-                One screen. Every API credential across the landscape — <strong>including the Global Account-level credentials the cockpit hides</strong>. Filter by sub-account, by service type, by age, by creator. Spot the ones created by people who no longer work for you.
+                One screen. Every service key across the landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter by sub-account, by service type, by age, by creator.
               </p>
               <p>
-                Revoke any of them with one click. The visibility your access reviews have been missing.
+                Spot keys created by people who no longer work for you. Revoke any of them with one click. The single-pane visibility your access reviews benefit from.
               </p>
             </div>
           </div>
