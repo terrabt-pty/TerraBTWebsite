@@ -214,28 +214,28 @@ export default function BTPxIDProduct() {
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">SAP IAS &amp; BTP xID</div>
+      <div className="btpxid-features-label">Who is BTP xID for?</div>
       <h2 className="btpxid-showcase-title">
-        IAS secures identity.<br />BTP xID governs access.
+        Whether you use IAS or not,<br />BTP xID has you covered.
       </h2>
       <p className="btpxid-showcase-sub">
-        If your organisation uses IAS, it handles authentication and auto-assigns sub-account role collections at login. That covers sub-account access. It does not cover Cloud Foundry Orgs and Spaces — those have always been managed separately, with no IAS integration.
+        BTP access management looks different depending on how your organisation is set up. Both paths leave gaps. BTP xID fills them.
       </p>
     </div>
 
     <div className="btpxid-ias-columns">
-      {/* IAS column */}
+      {/* Without IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-ias">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
-          <h3 className="btpxid-ias-col-title">Identity &amp; Authentication</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-ias">Without IAS</span>
+          <h3 className="btpxid-ias-col-title">Managing BTP directly</h3>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Assigns sub-account role collections at login via SAML group mapping",
-            "Role assignments via IAS don't appear under the user's profile in the BTP cockpit",
-            "Cannot manage Global Account roles or user assignments",
-            "Has no reach into Cloud Foundry Orgs or CF Spaces",
+            "User and access management is done account by account in the BTP cockpit",
+            "No single view of who has access to what across your landscape",
+            "Cloud Foundry Orgs and Spaces are managed separately from everything else",
+            "BTP xID centralises all of it — Global Accounts, sub-accounts, CF Orgs and Spaces — in one place",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -248,26 +248,25 @@ export default function BTPxIDProduct() {
         </ul>
       </div>
 
-      {/* Plus divider */}
+      {/* OR divider */}
       <div className="btpxid-ias-plus">
         <div className="btpxid-ias-plus-line" />
-        <span className="btpxid-ias-plus-sign">+</span>
+        <span className="btpxid-ias-plus-sign" style={{ fontSize: "0.75rem", letterSpacing: "0.05em" }}>OR</span>
         <div className="btpxid-ias-plus-line" />
       </div>
 
-      {/* BTP xID column */}
+      {/* With IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-xid">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
-          <h3 className="btpxid-ias-col-title">Access Governance</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-xid">With IAS</span>
+          <h3 className="btpxid-ias-col-title">IAS configured for BTP</h3>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Manages Global Account roles and user assignments",
-            "Manages CF Org and Space roles — the part IAS cannot reach",
-            "Shows every access right across your landscape in one screen, including what IAS assigned",
-            "Full offboarding in one action — removing someone from IAS leaves their CF Org and Space memberships intact; BTP xID removes everything",
-            "Works without IAS — connects directly to BTP regardless of your identity setup",
+            "IAS manages authentication and sub-account access well",
+            "Global Account roles and user assignments remain outside IAS's scope",
+            "Cloud Foundry Orgs and Spaces are not managed by IAS",
+            "BTP xID complements IAS by covering the access it cannot reach — without replacing anything",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -281,7 +280,7 @@ export default function BTPxIDProduct() {
       </div>
     </div>
 
-    {/* CISO callout — CF governance gap */}
+    {/* Callout */}
     <div style={{
       margin: "2rem 0 1.5rem",
       padding: "20px 28px",
@@ -290,13 +289,12 @@ export default function BTPxIDProduct() {
       borderRadius: "0 10px 10px 0",
     }}>
       <p style={{ color: "#475569", fontSize: "0.875rem", lineHeight: 1.7, margin: 0 }}>
-        Remove someone from IAS. Their sub-account role collections will be gone at next login. Their Cloud Foundry Org Manager or Space Developer access? Still there. IAS doesn't touch CF memberships, and neither does the BTP cockpit's Security section. That access stays until someone removes it manually — if they know to look.
+        Remove someone from IAS. Their sub-account access will be revoked. Their Cloud Foundry Org and Space access? Still active. IAS does not manage CF memberships, and neither does the BTP cockpit. That access stays until someone removes it manually — if they know to look.
       </p>
     </div>
 
-    {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access.
+      Either way, BTP xID gives you one place to see and manage all BTP access — Global Accounts, sub-accounts, CF Orgs and Spaces.
     </div>
     <div style={{ textAlign: "center", marginTop: "16px" }}>
       <a
@@ -305,7 +303,7 @@ export default function BTPxIDProduct() {
         onMouseEnter={e => (e.currentTarget.style.textDecoration = "underline")}
         onMouseLeave={e => (e.currentTarget.style.textDecoration = "none")}
       >
-        Read the full breakdown: BTP access management with and without IAS →
+        Read the full breakdown →
       </a>
     </div>
   </div>
