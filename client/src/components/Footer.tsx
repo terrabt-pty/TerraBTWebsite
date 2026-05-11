@@ -1,23 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
-import { SUPPORTED_LANGUAGES, getRegions, getLanguagesByRegion } from "@/config/languages";
-import { isANZ as checkIsANZ } from "@/lib/anz";
+import { SUPPORTED_LANGUAGES } from "@/config/languages";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
-  const isANZ = checkIsANZ();
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      // Update URL for analytics tracking without jumping
       history.pushState(null, '', href);
     } else {
-      // If on another page, go to home then scroll
-      const homePath = `/${href}`; // Basic redirection, ideally use localized path if available or just /
       window.location.href = href === "#home" ? "/" : `/${href}`;
     }
   };
@@ -25,7 +20,7 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {!isANZ && <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="space-y-4">
             <Logo className="h-10" data-testid="img-footer-logo" />
             <p className="text-sm text-muted-foreground">
@@ -52,81 +47,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
-          {!isANZ && <div>
-            <h3 className="font-semibold text-foreground mb-4">{t('footer.services')}</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <button
-                  onClick={() => scrollToSection("#services")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-fiori"
-                >
-                  {t('footer.fiori')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("#services")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-architecture"
-                >
-                  {t('footer.architecture')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("#services")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-integration"
-                >
-                  {t('footer.integration')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("#services")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-ai-solutions"
-                >
-                  {t('footer.ai')}
-                </button>
-              </li>
-            </ul>
-          </div>}
-
-          {!isANZ && <div>
-            <h3 className="font-semibold text-foreground mb-4">{t('footer.knowledge')}</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <button
-                  onClick={() => scrollToSection("#knowledge")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-blog"
-                >
-                  {t('footer.blogArticles')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("#knowledge")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-case-studies"
-                >
-                  {t('footer.caseStudies')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("#knowledge")}
-                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
-                  data-testid="link-resources"
-                >
-                  {t('footer.resources')}
-                </button>
-              </li>
-            </ul>
-          </div>}
 
           <div>
             <h3 className="font-semibold text-foreground mb-4">{t('footer.company')}</h3>
@@ -160,7 +80,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>}
+        </div>
 
         <div className="pt-8 border-t space-y-6">
           <div className="space-y-3">
@@ -215,7 +135,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
               SAP and SAP Business Technology Platform are trademarks or registered trademarks of SAP SE or its affiliates in Germany and in several other countries.
-              TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE.{!isANZ && ` ${t('footer.serviceRestriction')}`}
+              TerraBT is an independent consulting company and is not affiliated with, endorsed by, or sponsored by SAP SE.
             </p>
           </div>
         </div>

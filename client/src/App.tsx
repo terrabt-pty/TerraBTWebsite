@@ -104,7 +104,7 @@ function Router() {
   return (
     <Switch>
       {/* English routes (no prefix) */}
-      <Route path="/" component={Home} />
+      <Route path="/" component={BTPxIDProduct} />
       <Route path="/services/btp-architecture" component={BTPArchitecture} />
       <Route path="/services/fiori-development" component={FioriDevelopment} />
       <Route path="/services/design-thinking" component={DesignThinking} />
@@ -142,7 +142,7 @@ function Router() {
       <Route path="/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
 
       {/* Localized routes for all supported languages */}
-      <Route path="/:lang" component={Home} />
+      <Route path="/:lang" component={BTPxIDProduct} />
       <Route path="/:lang/services/btp-architecture" component={BTPArchitecture} />
       <Route path="/:lang/services/fiori-development" component={FioriDevelopment} />
       <Route path="/:lang/services/design-thinking" component={DesignThinking} />
