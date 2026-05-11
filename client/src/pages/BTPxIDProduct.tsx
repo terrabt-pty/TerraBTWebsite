@@ -214,12 +214,12 @@ export default function BTPxIDProduct() {
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">Who is BTP xID for?</div>
+      <div className="btpxid-features-label">Built for your BTP setup</div>
       <h2 className="btpxid-showcase-title">
-        Whether you use IAS or not,<br />BTP xID has you covered.
+        Two paths to the same outcome:<br />complete control of BTP access.
       </h2>
       <p className="btpxid-showcase-sub">
-        BTP access management looks different depending on how your organisation is set up. Both paths leave gaps. BTP xID fills them.
+        Whether your organisation runs IAS or not, BTP xID gives you the control plane you need to manage every user, every role, and every Cloud Foundry environment from one place.
       </p>
     </div>
 
@@ -227,20 +227,23 @@ export default function BTPxIDProduct() {
       {/* Without IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-ias">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-ias">Without IAS</span>
-          <h3 className="btpxid-ias-col-title">Managing BTP directly</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-ias">If you don't use IAS</span>
+          <h3 className="btpxid-ias-col-title">BTP xID is your access platform</h3>
+          <p style={{ color: "#64748B", fontSize: "0.875rem", margin: "8px 0 0" }}>
+            One tool to manage everything — no IAS setup required.
+          </p>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "User and access management is done account by account in the BTP cockpit",
-            "No single view of who has access to what across your landscape",
-            "Cloud Foundry Orgs and Spaces are managed separately from everything else",
-            "BTP xID centralises all of it — Global Accounts, sub-accounts, CF Orgs and Spaces — in one place",
+            "One screen for every BTP account, sub-account, CF Org and Space",
+            "Onboard or offboard a user across your entire landscape in seconds",
+            "See exactly who has access to what — at every level",
+            "Works with SAP ID Service or any identity setup you already have",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
-                <circle cx="8" cy="8" r="8" fill="#E2E8F0"/>
-                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#64748B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
+                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
               <span>{item}</span>
             </li>
@@ -251,22 +254,25 @@ export default function BTPxIDProduct() {
       {/* OR divider */}
       <div className="btpxid-ias-plus">
         <div className="btpxid-ias-plus-line" />
-        <span className="btpxid-ias-plus-sign" style={{ fontSize: "0.75rem", letterSpacing: "0.05em" }}>OR</span>
+        <span className="btpxid-ias-plus-sign" style={{ fontSize: "0.75rem", letterSpacing: "0.08em" }}>OR</span>
         <div className="btpxid-ias-plus-line" />
       </div>
 
       {/* With IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-xid">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-xid">With IAS</span>
-          <h3 className="btpxid-ias-col-title">IAS configured for BTP</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-xid">If you already use IAS</span>
+          <h3 className="btpxid-ias-col-title">BTP xID extends what IAS gives you</h3>
+          <p style={{ color: "#64748B", fontSize: "0.875rem", margin: "8px 0 0" }}>
+            Keep IAS where it shines. Close the gaps it leaves behind.
+          </p>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "IAS manages authentication and sub-account access well",
-            "Global Account roles and user assignments remain outside IAS's scope",
-            "Cloud Foundry Orgs and Spaces are not managed by IAS",
-            "BTP xID complements IAS by covering the access it cannot reach — without replacing anything",
+            "Manage Global Account roles and user assignments — outside IAS's reach",
+            "Govern Cloud Foundry Org and Space access — not covered by IAS",
+            "One unified view, including the access IAS already assigned",
+            "Close the offboarding gap: remove IAS access AND CF memberships in one step",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -289,12 +295,12 @@ export default function BTPxIDProduct() {
       borderRadius: "0 10px 10px 0",
     }}>
       <p style={{ color: "#475569", fontSize: "0.875rem", lineHeight: 1.7, margin: 0 }}>
-        Remove someone from IAS. Their sub-account access will be revoked. Their Cloud Foundry Org and Space access? Still active. IAS does not manage CF memberships, and neither does the BTP cockpit. That access stays until someone removes it manually — if they know to look.
+        Remove someone from IAS. Their sub-account access is revoked. Their Cloud Foundry Org and Space access? Still active. IAS does not manage CF memberships, and neither does the BTP cockpit. That access stays until someone removes it manually — if they know to look.
       </p>
     </div>
 
     <div className="btpxid-ias-footer">
-      Either way, BTP xID gives you one place to see and manage all BTP access — Global Accounts, sub-accounts, CF Orgs and Spaces.
+      One control plane for every BTP user, every role, every environment.
     </div>
     <div style={{ textAlign: "center", marginTop: "16px" }}>
       <a
