@@ -34,6 +34,7 @@ import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInno
 import FindingUsersAcrossSAPBTPLandscape from "@/pages/blogs/FindingUsersAcrossSAPBTPLandscape";
 import BTPAccessManagementPage from "@/pages/blogs/BTPAccessManagementPage";
 import BTPControlBeforeAfterPage from "@/pages/blogs/BTPControlBeforeAfterPage";
+import BTPServiceKeysAPICredentialsPage from "@/pages/blogs/BTPServiceKeysAPICredentialsPage";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
@@ -144,6 +145,7 @@ function Router() {
       <Route path="/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
       <Route path="/blog/btp-access-management" component={BTPAccessManagementPage} />
       <Route path="/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
+      <Route path="/blog/btp-service-keys-api-credentials" component={BTPServiceKeysAPICredentialsPage} />
 
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={BTPxIDProduct} />
@@ -179,6 +181,7 @@ function Router() {
       <Route path="/:lang/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
       <Route path="/:lang/blog/btp-access-management" component={BTPAccessManagementPage} />
       <Route path="/:lang/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
+      <Route path="/:lang/blog/btp-service-keys-api-credentials" component={BTPServiceKeysAPICredentialsPage} />
 
       <Route component={NotFound} />
     </Switch>
