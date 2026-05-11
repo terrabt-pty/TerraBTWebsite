@@ -216,10 +216,10 @@ export default function BTPxIDProduct() {
     <div className="btpxid-showcase-header">
       <div className="btpxid-features-label">SAP IAS &amp; BTP xID</div>
       <h2 className="btpxid-showcase-title">
-        IAS handles authentication<br />and sub-account roles. BTP xID covers the rest.
+        IAS secures identity.<br />BTP xID governs access.
       </h2>
       <p className="btpxid-showcase-sub">
-        SAP IAS authenticates your users and can automatically assign BTP sub-account role collections at login via SAML group mapping — one configuration per sub-account. But the moment you need to manage Cloud Foundry Org and Space roles, see a unified view of who has access to what, or act across multiple accounts at once, IAS has no answer. That's where BTP xID comes in.
+        If your organisation uses IAS, it handles authentication and auto-assigns sub-account role collections at login. That covers sub-account access. It does not cover Cloud Foundry Orgs and Spaces — those have always been managed separately, with no IAS integration.
       </p>
     </div>
 
@@ -232,9 +232,9 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Assigns BTP sub-account role collections at login via SAML group mapping — one config per sub-account",
-            "Role assignments are session-based and invisible in the BTP cockpit — not stored as auditable user records",
-            "Cannot manage SAP BTP Cloud Foundry Orgs and CF Spaces",
+            "Assigns sub-account role collections at login via SAML group mapping",
+            "Role assignments only exist in the session token — they don't show in the BTP cockpit",
+            "Has no reach into Cloud Foundry Orgs or CF Spaces",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -262,11 +262,11 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "IAS cannot manage SAP BTP Cloud Foundry Orgs and CF Spaces — BTP xID does",
-            "Full access visibility — IAS-assigned roles don't appear in the BTP cockpit; BTP xID shows every role across all sub-accounts, orgs, and spaces in one view",
-            "Immediate access revocation — IAS group changes only take effect at the user's next login; BTP xID removes access now, across role collections and CF Orgs and Spaces simultaneously",
-            "Complete offboarding — IAS group removal affects role collections only; CF Org and Space memberships need separate action. BTP xID removes everything in one step",
-            "Works without IAS — BTP xID provides access governance regardless of which identity provider your organisation uses",
+            "Manages CF Org and Space roles — the part IAS cannot reach",
+            "Shows every access right across your landscape in one screen, including what IAS assigned",
+            "Removes access immediately — IAS changes wait for next login; BTP xID acts now",
+            "Full offboarding in one action — sub-account role collections and CF memberships together",
+            "Works without IAS — connects directly to BTP regardless of your identity setup",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -288,17 +288,14 @@ export default function BTPxIDProduct() {
       backgroundColor: "rgba(220, 38, 38, 0.03)",
       borderRadius: "0 10px 10px 0",
     }}>
-      <p style={{ color: "#0F172A", fontWeight: 700, fontSize: "0.9375rem", margin: "0 0 6px" }}>
-        A gap most security teams don't know exists
-      </p>
       <p style={{ color: "#475569", fontSize: "0.875rem", lineHeight: 1.7, margin: 0 }}>
-        SAP has no native tool — not IAS, not the BTP cockpit — that answers: <em>"Who has access to which Cloud Foundry Org and Space across my entire BTP landscape?"</em> A user can hold Org Manager or Space Developer access to production workloads, and that access will not appear in IAS, will not show in the BTP cockpit's Security section, and will survive an IAS deprovisioning. BTP xID is the only tool that surfaces and controls this access.
+        Remove someone from IAS. Their sub-account role collections will be gone at next login. Their Cloud Foundry Org Manager or Space Developer access? Still there. IAS doesn't touch CF memberships, and neither does the BTP cockpit's Security section. That access stays until someone removes it manually — if they know to look.
       </p>
     </div>
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Whether you have IAS deployed or not, BTP xID gives you a complete, auditable picture of who can access what across your entire BTP landscape — and the ability to change it in one place.
+      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access.
     </div>
     <div style={{ textAlign: "center", marginTop: "16px" }}>
       <a
