@@ -232,10 +232,9 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Federated SSO via corporate IdP (SAML / OIDC proxy)",
             "Assigns BTP sub-account role collections at login via SAML group mapping — one config per sub-account",
-            "MFA and risk-based authentication policies",
             "Role assignments are session-based and invisible in the BTP cockpit — not stored as auditable user records",
+            "Cannot manage SAP BTP Cloud Foundry Orgs and CF Spaces",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
