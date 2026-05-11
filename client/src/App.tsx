@@ -32,6 +32,7 @@ import LowCodeRevolutionBuildApps from "@/pages/blogs/LowCodeRevolutionBuildApps
 import EnterpriseAutomationBuildProcess from "@/pages/blogs/EnterpriseAutomationBuildProcess";
 import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInnovationDesignThinking";
 import FindingUsersAcrossSAPBTPLandscape from "@/pages/blogs/FindingUsersAcrossSAPBTPLandscape";
+import BTPAccessManagementPage from "@/pages/blogs/BTPAccessManagementPage";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
@@ -140,6 +141,7 @@ function Router() {
       <Route path="/blog/enterprise-automation-with-sap-build-process-automation" component={EnterpriseAutomationBuildProcess} />
       <Route path="/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
       <Route path="/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
+      <Route path="/blog/btp-access-management" component={BTPAccessManagementPage} />
 
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={BTPxIDProduct} />
@@ -173,6 +175,7 @@ function Router() {
       <Route path="/:lang/blog/enterprise-automation-with-sap-build-process-automation" component={EnterpriseAutomationBuildProcess} />
       <Route path="/:lang/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
       <Route path="/:lang/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
+      <Route path="/:lang/blog/btp-access-management" component={BTPAccessManagementPage} />
 
       <Route component={NotFound} />
     </Switch>
