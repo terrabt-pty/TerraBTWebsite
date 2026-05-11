@@ -356,12 +356,6 @@ export default function BTPxIDProduct() {
                 <li>Submit and wait for the update to complete</li>
                 <li>Repeat with <code className="btpxid-inline-code">{"{}"}</code> to clear the config or all future updates will error</li>
               </ol>
-              <pre className="btpxid-sapnote-code">{`{
-  "usersToAdd": [{
-    "email": "user@example.com",
-    "id": "I999999"
-  }]
-}`}</pre>
             </div>
 
             <div className="btpxid-sapnote-card btpxid-sapnote-xid">
