@@ -219,7 +219,7 @@ export default function BTPxIDProduct() {
         IAS secures identity.<br />BTP xID governs access.
       </h2>
       <p className="btpxid-showcase-sub">
-        SAP IAS handles authentication — who can log in and via which identity provider. BTP xID handles what they can access once inside: CF Org and Space roles, landscape-wide visibility, and cross-account bulk operations. Works with or without IAS.
+        SAP IAS authenticates users and can assign BTP sub-account role collections at login via SAML group mapping. But CF Org and Space roles sit in a completely separate authorization system — IAS has no effect on them. And because IAS role assignments are session-based, they're invisible in the BTP cockpit — you can't audit who has what. BTP xID fills both gaps, and works with or without IAS.
       </p>
     </div>
 
@@ -233,9 +233,9 @@ export default function BTPxIDProduct() {
         <ul className="btpxid-ias-list">
           {[
             "Federated SSO — authenticates users via your corporate IdP (SAML / OIDC proxy)",
-            "SAML group-to-role-collection mapping at login, configured per sub-account",
+            "Assigns BTP sub-account role collections at login via SAML group mapping",
             "MFA and risk-based authentication policies",
-            "Manages who can log in — not what they can access once inside BTP",
+            "Role assignments via IAS are invisible in the BTP cockpit — not auditable from the Users screen",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
