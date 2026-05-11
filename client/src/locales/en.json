@@ -1436,7 +1436,7 @@
   "btpxidAnnouncement": {
     "badge": "NEW",
     "introducing": "Introducing",
-    "description": "A desktop app for SAP BTP User Management. Manage users across all global accounts, sub-accounts, and CF spaces from a single pane of glass.",
+    "description": "Centralised identity governance for SAP BTP. Enforce least-privilege access across every Global Account, sub-account, directory, and Cloud Foundry space — with full visibility and audit-ready control.",
     "cta": "Read more",
     "imageAlt": "BTP xID Dashboard"
   },
