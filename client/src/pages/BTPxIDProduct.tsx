@@ -265,7 +265,7 @@ export default function BTPxIDProduct() {
           {[
             "IAS cannot manage SAP BTP Cloud Foundry Orgs and CF Spaces — BTP xID does",
             "Full access visibility — IAS-assigned roles don't appear in the BTP cockpit; BTP xID shows every role across all sub-accounts, orgs, and spaces in one view",
-            "Cross-account bulk operations — IAS must be configured per sub-account; BTP xID assigns or revokes access across all accounts at once",
+            "Immediate access revocation — IAS group changes only take effect at the user's next login; BTP xID removes access now, across role collections and CF Orgs and Spaces simultaneously",
             "Complete offboarding — IAS group removal affects role collections only; CF Org and Space memberships need separate action. BTP xID removes everything in one step",
             "Works without IAS — BTP xID provides access governance regardless of which identity provider your organisation uses",
           ].map((item) => (
