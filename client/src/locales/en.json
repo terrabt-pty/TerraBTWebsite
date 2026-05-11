@@ -1604,7 +1604,7 @@
     "download": {
       "label": "Find Out More",
       "title": "Ready to get started?",
-      "subtitle": "Download BTP xID for free. No credit card required. Choose your plan later.",
+      "subtitle": "Download BTP xID and experience a smarter way to manage user access across your entire SAP BTP landscape.",
       "primaryButton": "Download for {{label}}",
       "loading": "Loading...",
       "showAll": "Show all download options",
