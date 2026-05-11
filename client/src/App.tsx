@@ -33,6 +33,7 @@ import EnterpriseAutomationBuildProcess from "@/pages/blogs/EnterpriseAutomation
 import UserCenteredInnovationDesignThinking from "@/pages/blogs/UserCenteredInnovationDesignThinking";
 import FindingUsersAcrossSAPBTPLandscape from "@/pages/blogs/FindingUsersAcrossSAPBTPLandscape";
 import BTPAccessManagementPage from "@/pages/blogs/BTPAccessManagementPage";
+import BTPControlBeforeAfterPage from "@/pages/blogs/BTPControlBeforeAfterPage";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
@@ -142,6 +143,7 @@ function Router() {
       <Route path="/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
       <Route path="/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
       <Route path="/blog/btp-access-management" component={BTPAccessManagementPage} />
+      <Route path="/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
 
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={BTPxIDProduct} />
@@ -176,6 +178,7 @@ function Router() {
       <Route path="/:lang/blog/user-centered-innovation-with-design-thinking" component={UserCenteredInnovationDesignThinking} />
       <Route path="/:lang/blog/finding-users-across-sap-btp-landscape" component={FindingUsersAcrossSAPBTPLandscape} />
       <Route path="/:lang/blog/btp-access-management" component={BTPAccessManagementPage} />
+      <Route path="/:lang/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
 
       <Route component={NotFound} />
     </Switch>

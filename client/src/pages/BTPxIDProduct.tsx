@@ -228,7 +228,7 @@ export default function BTPxIDProduct() {
       <div className="btpxid-ias-col btpxid-ias-col-ias">
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
-          <h3 className="btpxid-ias-col-title">Identity &amp; Authentication</h3>
+          <h3 className="btpxid-ias-col-title">Identity, Authentication &amp; Partial Access Governance</h3>
         </div>
         <ul className="btpxid-ias-list">
           {[
@@ -260,13 +260,14 @@ export default function BTPxIDProduct() {
       <div className="btpxid-ias-col btpxid-ias-col-xid">
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
-          <h3 className="btpxid-ias-col-title">Access Governance</h3>
+          <h3 className="btpxid-ias-col-title">Full Access Governance</h3>
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "User Management & Role assignment across GA, SA, Directories, CF Org and CF Space in a single unified interface",
+            "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
             "Bulk user management across your entire BTP landscape",
-            "Cloud Foundry Org & Space manager assignments — no JSON wizardry",
+            "Cloud Foundry Org & Space manager assignments",
+            "Service Key management across Global Accounts, Sub-accounts, Cloud Foundry Orgs and Spaces in one place",
             "Landscape-wide visibility: who has access to what, across every account",
             "Complete offboarding: revoke all BTP entitlements in one action",
             "Governance for custom IdP users — not just SAP ID Service accounts",
