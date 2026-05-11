@@ -229,7 +229,6 @@ export default function BTPxIDProduct() {
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
           <h3 className="btpxid-ias-col-title">Identity &amp; Authentication</h3>
-          <p className="btpxid-ias-col-sub">Secures the front door.</p>
         </div>
         <ul className="btpxid-ias-list">
           {[
@@ -262,7 +261,6 @@ export default function BTPxIDProduct() {
         <div className="btpxid-ias-col-header">
           <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
           <h3 className="btpxid-ias-col-title">Access Governance</h3>
-          <p className="btpxid-ias-col-sub">Controls what they can reach.</p>
         </div>
         <ul className="btpxid-ias-list">
           {[
