@@ -305,6 +305,88 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
+      {/* ===== IAS COMPLEMENT ===== */}
+<section className="btpxid-ias" id="services">
+  <div className="btpxid-ias-inner">
+    <div className="btpxid-showcase-header">
+      <div className="btpxid-features-label">Works With SAP IAS</div>
+      <h2 className="btpxid-showcase-title">
+        IAS secures identity.<br />BTP xID governs access.
+      </h2>
+      <p className="btpxid-showcase-sub">
+        SAP Identity Authentication Service controls who can authenticate. BTP xID controls what they can access across your BTP landscape — the access governance layer IAS was never designed to provide.
+      </p>
+    </div>
+
+    <div className="btpxid-ias-columns">
+      {/* IAS column */}
+      <div className="btpxid-ias-col btpxid-ias-col-ias">
+        <div className="btpxid-ias-col-header">
+          <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
+          <h3 className="btpxid-ias-col-title">Identity &amp; Authentication</h3>
+          <p className="btpxid-ias-col-sub">Secures the front door.</p>
+        </div>
+        <ul className="btpxid-ias-list">
+          {[
+            "Single sign-on & multi-factor authentication",
+            "Corporate IdP federation (SAML / OIDC)",
+            "User provisioning via SCIM",
+            "Risk-based authentication policies",
+            "Authentication audit logs",
+          ].map((item) => (
+            <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
+              <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="#E2E8F0"/>
+                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#64748B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Plus divider */}
+      <div className="btpxid-ias-plus">
+        <div className="btpxid-ias-plus-line" />
+        <span className="btpxid-ias-plus-sign">+</span>
+        <div className="btpxid-ias-plus-line" />
+      </div>
+
+      {/* BTP xID column */}
+      <div className="btpxid-ias-col btpxid-ias-col-xid">
+        <div className="btpxid-ias-col-header">
+          <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
+          <h3 className="btpxid-ias-col-title">Access Governance</h3>
+          <p className="btpxid-ias-col-sub">Controls what they can reach.</p>
+        </div>
+        <ul className="btpxid-ias-list">
+          {[
+            "Role assignments across all Global Accounts, sub-accounts & directories",
+            "Bulk user management across your entire BTP landscape",
+            "Cloud Foundry Org & Space manager assignments — no JSON wizardry",
+            "Landscape-wide visibility: who has access to what, across every account",
+            "Complete offboarding: revoke all BTP entitlements in one action",
+            "Governance for custom IdP users — not just SAP ID Service accounts",
+          ].map((item) => (
+            <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
+              <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
+                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    {/* Footer callout */}
+    <div className="btpxid-ias-footer">
+      Together, SAP IAS and BTP xID give you complete <strong>identity and access governance</strong> for SAP BTP — authentication handled, entitlements governed.
+    </div>
+  </div>
+</section>
+
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />
 
