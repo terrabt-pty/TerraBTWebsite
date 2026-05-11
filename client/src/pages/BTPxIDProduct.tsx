@@ -351,20 +351,17 @@ export default function BTPxIDProduct() {
             <div className="btpxid-why-card btpxid-why-problem">
               <div className="btpxid-why-card-label">In SAP BTP today</div>
               <p>
-                Service keys are presented inside the service instance they're bound to. To inventory keys across a large landscape, an admin navigates each sub-account, each Cloud Foundry org, each space, and each service instance individually.
-              </p>
-              <p>
-                Global Account-level API credentials are managed through the BTP CLI rather than the cockpit. Both surfaces work well at their level — combining them across a Fortune 500 landscape is what takes time.
+                Service keys are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. There is no single SAP surface that consolidates them all.
               </p>
             </div>
 
             <div className="btpxid-why-card btpxid-why-solution">
               <div className="btpxid-why-card-label">With BTP xID</div>
               <p>
-                One screen. Every service key across the landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter by sub-account, by service type, by age, by creator.
+                One screen. Every service key across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
               </p>
               <p>
-                Spot keys created by people who no longer work for you. Revoke any of them with one click. The single-pane visibility your access reviews benefit from.
+                Identify keys created by people who no longer work at your company. Take action in seconds.
               </p>
             </div>
           </div>
