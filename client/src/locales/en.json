@@ -1580,7 +1580,7 @@
   "btpxidProduct": {
     "hero": {
       "tagline": "Identity & Access Management for SAP BTP",
-      "title": "See every user, in every corner of your SAP BTP landscape.",
+      "title": "See every API key, every user, in every corner of your SAP BTP landscape.",
       "description": "Govern every BTP user, role, and service key across your landscape. Catch the ghost access SAP IAS leaves behind. Cut the offboarding gap that lets contractors keep working credentials for months.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
