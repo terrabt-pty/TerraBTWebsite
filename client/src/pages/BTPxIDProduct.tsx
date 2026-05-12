@@ -223,22 +223,6 @@ export default function BTPxIDProduct() {
       </p>
     </div>
 
-    {/* Prominent finding */}
-    <div style={{
-      margin: "0 0 2.5rem",
-      padding: "20px 32px",
-      background: "#0F172A",
-      borderRadius: "12px",
-      textAlign: "center",
-    }}>
-      <p style={{ margin: 0, fontSize: "1.1875rem", fontWeight: 700, color: "#FFFFFF", lineHeight: 1.4 }}>
-        Deactivating a user in IAS doesn't stop their Cloud Foundry access.
-      </p>
-      <p style={{ margin: "8px 0 0", fontSize: "0.875rem", color: "#94A3B8" }}>
-        CF authenticates via SAP ID Service. BTP xID gives you the visibility and control to manage the complete picture.
-      </p>
-    </div>
-
     <div className="btpxid-ias-columns">
       {/* IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-ias">
@@ -263,6 +247,15 @@ export default function BTPxIDProduct() {
             </li>
           ))}
         </ul>
+        <div style={{
+          marginTop: "16px",
+          paddingTop: "14px",
+          borderTop: "1px solid #E2E8F0",
+        }}>
+          <p style={{ margin: 0, fontSize: "0.8125rem", color: "#64748B", lineHeight: 1.6 }}>
+            <strong style={{ color: "#0F172A" }}>Note:</strong> Deactivating a user in IAS doesn't stop their Cloud Foundry access. CF authenticates via SAP ID Service. BTP xID gives you the visibility and control to manage the complete picture.
+          </p>
+        </div>
       </div>
 
       {/* Plus divider */}
