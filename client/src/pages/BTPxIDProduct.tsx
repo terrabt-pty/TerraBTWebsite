@@ -219,7 +219,7 @@ export default function BTPxIDProduct() {
         IAS secures identity.<br />BTP xID governs access.
       </h2>
       <p className="btpxid-showcase-sub">
-        SAP Identity Authentication Service controls who can authenticate. BTP xID controls what they can access across your BTP landscape — the access governance layer IAS was never designed to provide.
+        SAP IAS handles authentication. BTP xID handles what comes after — who can access what, across every account, org, and space in your BTP landscape.
       </p>
     </div>
 
@@ -286,7 +286,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      SAP publishes a knowledge base entry (<a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>) confirming users remain in BTP subaccounts after IDP deletion. The cockpit doesn't show their CF role assignments. The API credentials they created keep working. <strong>BTP xID is built to find them.</strong>
+      When a user is removed from the identity provider, their BTP shadow user record and CF role assignments are cleaned up separately — SAP documents this behaviour in <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>. Any API credentials they created remain active until explicitly revoked. <strong>BTP xID surfaces both — and removes them in one action.</strong>
     </div>
   </div>
 </section>
@@ -351,7 +351,7 @@ export default function BTPxIDProduct() {
             <div className="btpxid-why-card btpxid-why-problem">
               <div className="btpxid-why-card-label">In SAP BTP today</div>
               <p>
-                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. There is no single SAP surface that consolidates them all.
+                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. Each surface works well — BTP xID is the single screen that consolidates both.
               </p>
             </div>
 
@@ -472,13 +472,13 @@ export default function BTPxIDProduct() {
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />
 
-      {/* ===== ROADMAP — capabilities BTP doesn't have, that we are building ===== */}
+      {/* ===== ROADMAP ===== */}
       <section className="btpxid-roadmap">
         <div className="btpxid-roadmap-inner">
           <div className="btpxid-showcase-header">
             <div className="btpxid-features-label">On the roadmap</div>
             <h2 className="btpxid-showcase-title">
-              Built for what BTP doesn't have yet.
+              Capabilities we are bringing next.
             </h2>
             <p className="btpxid-showcase-sub">
               The capabilities below are on our near-term roadmap. They reflect the requests our enterprise customers raise most often — and the gaps SAP BTP itself does not yet address.

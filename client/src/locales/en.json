@@ -1708,7 +1708,7 @@
       "title": "Find <accent>anyone</accent>, anywhere, in your SAP BTP landscape",
       "question": "If a user leaves your company tomorrow, can you tell — in under a minute — every Sub-Account, Cloud Foundry Org and Space they have access to across your SAP BTP landscape?",
       "problemLabel": "The problem",
-      "problem": "For most SAP BTP teams, the honest answer is no. There's no native way to do it. You end up clicking through every sub-account, CF Org and Space, one by one, hoping you haven't missed one. It's a real audit and security risk, and it's nearly impossible to do reliably at scale.",
+      "problem": "For most SAP BTP teams, the honest answer is no. The cockpit is built around accounts — not around the person. Answering that question means navigating every sub-account, every CF Org and Space, one by one, and reconciling the results manually.",
       "iasNote": "And SAP IAS doesn't fix this either. IAS handles authentication and can map groups to Role Collections, but it doesn't assign Cloud Foundry Org or Space roles, and it can't tell you where a user actually sits across your sub-accounts, CF Orgs and Spaces.",
       "solutionLabel": "With BTP xID",
       "solution": "Type a user's email, and you instantly see <b>every Global Account, Sub-Account, Cloud Foundry Org and Space</b> they exist in across your SAP BTP landscape — with their roles.",
