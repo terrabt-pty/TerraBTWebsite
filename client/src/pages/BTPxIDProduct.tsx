@@ -223,6 +223,22 @@ export default function BTPxIDProduct() {
       </p>
     </div>
 
+    {/* Prominent finding */}
+    <div style={{
+      margin: "0 0 2.5rem",
+      padding: "20px 32px",
+      background: "#0F172A",
+      borderRadius: "12px",
+      textAlign: "center",
+    }}>
+      <p style={{ margin: 0, fontSize: "1.1875rem", fontWeight: 700, color: "#FFFFFF", lineHeight: 1.4 }}>
+        Deactivating a user in IAS doesn't stop their Cloud Foundry access.
+      </p>
+      <p style={{ margin: "8px 0 0", fontSize: "0.875rem", color: "#94A3B8" }}>
+        CF authenticates via SAP ID Service, not IAS — the assumption most BTP teams are operating on is wrong.
+      </p>
+    </div>
+
     <div className="btpxid-ias-columns">
       {/* IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-ias">
