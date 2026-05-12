@@ -315,7 +315,6 @@ export default function BTPxIDProduct() {
             "Deactivating a user in IAS does not remove CF access — CF authenticates via SAP ID Service, not IAS. A deactivated user can still cf login and act as Org Manager. BTP xID removes all CF role assignments in one action.",
             "Find and revoke API credentials across the landscape — long-lived OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
             "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
-            "Cloud Foundry Org & Space manager assignments",
             "Bulk user management across your entire BTP landscape",
             "Landscape-wide visibility: who has access to what, across every account",
             "Governance for custom IdP users — not just SAP ID Service accounts",
@@ -328,6 +327,13 @@ export default function BTPxIDProduct() {
               <span>{item}</span>
             </li>
           ))}
+          <li className="btpxid-ias-list-item btpxid-ias-list-item-xid">
+            <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
+              <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <span>Cloud Foundry Org &amp; Space manager assignments — including Org Manager force-add in one click, without service update wizards or JSON payloads (<a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>SAP Note 3249765</a>)</span>
+          </li>
         </ul>
       </div>
     </div>
@@ -351,12 +357,12 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Deactivating a user in IAS doesn't stop their Cloud Foundry access</div>
+              <div className="btpxid-risk-card-label">A deactivated or deleted user in your sub-account may still have access to all your API credentials</div>
               <p className="btpxid-risk-card-body">
-                CF authenticates via SAP ID Service, not IAS. A user removed from a sub-account loses cockpit access — but can still <code style={{ background: "#F1F5F9", padding: "1px 5px", borderRadius: "4px", fontSize: "0.85em" }}>cf login</code> via the CLI and retain every org and space role they held. We verified this in a live landscape.
+                API credentials in SAP BTP reside at the Cloud Foundry space level — not the sub-account level. Removing a user from a sub-account does not remove their CF Org or Space roles. As long as those roles exist, the user can still log in to CF, list every service instance in that space, and read, create, modify or delete any API credential bound to it.
               </p>
               <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                BTP xID removes CF role assignments across every org and space as part of offboarding — not just the sub-account record.
+                BTP xID removes the user and their roles from every Cloud Foundry org and space as part of offboarding — not just from the sub-account.
               </p>
             </div>
 
@@ -426,57 +432,7 @@ export default function BTPxIDProduct() {
       {/* ===== FEATURES ===== */}
       <BTPxIDFeatures />
 
-      {/* ===== SAP NOTE 3249765 ===== */}
-      <section className="btpxid-sapnote">
-        <div className="btpxid-sapnote-inner">
-          <div className="btpxid-sapnote-header">
-            <h2 className="btpxid-sapnote-title">Add Org Manager in One Button Click</h2>
-            <p className="btpxid-sapnote-sub">
-              When your Cloud Foundry Org Manager is unavailable, SAP Note 3249765 documents the recovery process — and it requires navigating a service update wizard, hand-crafting a JSON payload, and then running the whole thing again with <code className="btpxid-inline-code">{"{}"}</code> to clean up, or future updates will fail. With BTP xID, you do it in a single click.
-            </p>
-          </div>
 
-          <div className="btpxid-sapnote-grid">
-            <div className="btpxid-sapnote-card btpxid-sapnote-manual">
-              <div className="btpxid-sapnote-card-label">Before BTP xID</div>
-              <ol className="btpxid-sapnote-steps">
-                <li>Go to Services → Instances and Subscriptions</li>
-                <li>Find the Cloud Foundry Runtime entry</li>
-                <li>Open the ··· menu and click Update</li>
-                <li>Click through the wizard to the Parameters screen</li>
-                <li>Construct and paste a JSON payload with the user's email and ID</li>
-                <li>Submit and wait for the update to complete</li>
-                <li>Repeat with <code className="btpxid-inline-code">{"{}"}</code> to clear the config or all future updates will error</li>
-              </ol>
-            </div>
-
-            <div className="btpxid-sapnote-card btpxid-sapnote-xid">
-              <div className="btpxid-sapnote-card-label">With BTP xID</div>
-              <div className="btpxid-sapnote-oneclick">
-                <div className="btpxid-sapnote-oneclick-logo-wrap">
-                  <img src={btpxidIcon} alt="BTP xID" className="btpxid-sapnote-oneclick-icon" />
-                  <span className="btpxid-sapnote-step-count">1 step</span>
-                </div>
-                <div className="btpxid-sapnote-oneclick-text">
-                  <strong>Select the user. Assign Org Manager. Done.</strong>
-                  <p>No JSON, no service update wizard, no cleanup step. BTP xID handles the Cloud Foundry API calls behind the scenes — the same operations the SAP note walks you through manually, in a single action.</p>
-                </div>
-              </div>
-              <p className="btpxid-sapnote-xid-note">
-                Works for both default SAP IDS and custom IdP origins. Add or remove Org Managers across all your Cloud Foundry orgs from one place, without touching a service instance.
-              </p>
-              <a
-                href="https://me.sap.com/notes/3249765"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btpxid-sapnote-ref"
-              >
-                Reference: SAP Note 3249765 — How to add an Org Manager to a Cloud Foundry org →
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ===== SCREENSHOT SHOWCASE ===== */}
       <BTPxIDShowcase />

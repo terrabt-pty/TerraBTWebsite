@@ -40,7 +40,6 @@ import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
 import BTPxIDProduct from "@/pages/BTPxIDProduct";
 import ClaudeCliProduct from "@/pages/ClaudeCliProduct";
-import Products from "@/pages/Products";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -120,8 +119,8 @@ function Router() {
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
 
-      {/* Product Pages */}
-      <Route path="/products" component={Products} />
+      {/* Product Pages — /products redirects to home */}
+      <Route path="/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/products/claude-cli" component={ClaudeCliProduct} />
 
@@ -161,8 +160,8 @@ function Router() {
       <Route path="/:lang/services/build-apps" component={BuildApps} />
       <Route path="/:lang/services/build-automation" component={BuildAutomation} />
 
-      {/* Localized product pages */}
-      <Route path="/:lang/products" component={Products} />
+      {/* Localized product pages — /:lang/products redirects to home */}
+      <Route path="/:lang/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/:lang/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/:lang/products/claude-cli" component={ClaudeCliProduct} />
 
