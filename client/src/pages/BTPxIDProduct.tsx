@@ -286,7 +286,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      When a user is removed from the identity provider, their BTP shadow user record and CF role assignments are cleaned up separately — SAP documents this behaviour in <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>KB 3220053</a>. Any API credentials they created remain active until explicitly revoked. <strong>BTP xID surfaces both — and removes them in one action.</strong>
+      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access — Global Accounts, sub-accounts, CF Orgs and Spaces.
     </div>
   </div>
 </section>
