@@ -235,7 +235,7 @@ export default function BTPxIDProduct() {
         Deactivating a user in IAS doesn't stop their Cloud Foundry access.
       </p>
       <p style={{ margin: "8px 0 0", fontSize: "0.875rem", color: "#94A3B8" }}>
-        CF authenticates via SAP ID Service, not IAS — the assumption most BTP teams are operating on is wrong.
+        CF authenticates via SAP ID Service. BTP xID gives you the visibility and control to manage the complete picture.
       </p>
     </div>
 
