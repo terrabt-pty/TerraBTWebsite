@@ -35,12 +35,12 @@ export default function ContactSection() {
                   <div>
                     <p className="font-medium" style={{ color: "#0F172A" }}>{t('contact.email')}</p>
                     <a
-                      href="mailto:sales@terrabt.com"
+                      href="mailto:contact@terrabt.com"
                       className="hover:text-primary transition-colors hover-elevate px-2 py-1 rounded-md inline-block"
                       style={{ color: "#475569" }}
                       data-testid="text-email"
                     >
-                      sales@terrabt.com
+                      contact@terrabt.com
                     </a>
                   </div>
                 </div>

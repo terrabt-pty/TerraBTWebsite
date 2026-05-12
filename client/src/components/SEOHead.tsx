@@ -103,7 +103,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
         "name": "TerraBT",
         "alternateName": "TerraBT SAP BTP Consulting",
         "url": "https://www.terrabt.com",
-        "email": "sales@terrabt.com",
+        "email": "contact@terrabt.com",
         "description": metaDescription,
         "areaServed": "Worldwide",
         "knowsLanguage": ["en", "ja", "ar", langCode],
@@ -140,7 +140,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
         "name": "TerraBT",
         "description": metaDescription,
         "url": "https://www.terrabt.com",
-        "email": "sales@terrabt.com",
+        "email": "contact@terrabt.com",
         "priceRange": "$$$$",
         "areaServed": {
           "@type": "GeoCircle",

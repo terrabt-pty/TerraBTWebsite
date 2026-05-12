@@ -1580,7 +1580,7 @@
   "btpxidProduct": {
     "hero": {
       "tagline": "API Credential & Access Management for SAP BTP",
-      "title": "See every API key, every user, in every corner of your SAP BTP landscape.",
+      "title": "Complete API credential management for your SAP BTP landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape — from a single screen. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
