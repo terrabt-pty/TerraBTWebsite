@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
-import { isANZ as checkIsANZ } from "@/lib/anz";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BTPxIDAnnouncement from "@/components/BTPxIDAnnouncement";
@@ -153,7 +152,6 @@ export default function Home() {
     },
   ];
 
-  const isANZ = checkIsANZ();
 
   return (
     <div className="min-h-screen bg-background">
@@ -166,7 +164,7 @@ export default function Home() {
       <BTPxIDAnnouncement />
       <HeroSection />
 
-      {!isANZ && <section id="services" className="py-12 md:py-16" style={{ background: "#FFFFFF" }}>
+      <section id="services" className="py-12 md:py-16" style={{ background: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold break-words" style={{ color: "#0F172A" }}>
@@ -189,9 +187,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>}
+      </section>
 
-      {!isANZ && <section className="py-20 md:py-24" style={{ background: "#F8FAFC" }}>
+      <section className="py-20 md:py-24" style={{ background: "#F8FAFC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           <ValueProposition
             image={teamImage}
@@ -230,9 +228,9 @@ export default function Home() {
             ]}
           />
         </div>
-      </section>}
+      </section>
 
-      {!isANZ && <section id="knowledge" className="py-20 md:py-24" style={{ background: "#FFFFFF" }}>
+      <section id="knowledge" className="py-20 md:py-24" style={{ background: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold break-words" style={{ color: "#0F172A" }}>
@@ -257,7 +255,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>}
+      </section>
 
       <ContactSection />
       <Footer />

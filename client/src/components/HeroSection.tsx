@@ -1,11 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { isANZ as checkIsANZ } from "@/lib/anz";
 
 export default function HeroSection() {
   const { t } = useTranslation();
-  const isANZ = checkIsANZ();
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -41,7 +39,7 @@ export default function HeroSection() {
             {t('hero.subtitle')}
           </p>
 
-          {!isANZ && <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Button
               size="lg"
               className="w-full sm:w-auto text-base px-8 h-12 hero-cta-gradient"
@@ -65,7 +63,7 @@ export default function HeroSection() {
             >
               {t('hero.learn')}
             </Button>
-          </div>}
+          </div>
 
         </div>
       </div>
