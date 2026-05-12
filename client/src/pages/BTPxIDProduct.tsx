@@ -264,7 +264,7 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Close the ghost-access gap — remove a user from IAS and their Cloud Foundry Org and Space memberships stay active. BTP xID removes them in one action",
+            "Deactivating a user in IAS does not remove CF access — CF authenticates via SAP ID Service, not IAS. A deactivated user can still cf login and act as Org Manager. BTP xID removes all CF role assignments in one action.",
             "Find and revoke API credentials across the landscape — long-lived OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
             "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
             "Cloud Foundry Org & Space manager assignments",
@@ -303,12 +303,12 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Cleaning up after a user leaves</div>
+              <div className="btpxid-risk-card-label">Deactivating a user in IAS does not remove their Cloud Foundry access</div>
               <p className="btpxid-risk-card-body">
-                When a user is removed from the upstream identity provider, the shadow user record and any Cloud Foundry role assignments are cleaned up separately in each sub-account — SAP documents this in KB 3220053. BTP xID consolidates that cleanup into a single action, across every sub-account, org and space at once.
+                CF authentication goes through SAP ID Service, not IAS. A user deactivated in IAS but still active in SAP ID Service can <code style={{ background: "#F1F5F9", padding: "1px 5px", borderRadius: "4px", fontSize: "0.85em" }}>cf login</code> via the CLI and retain every org and space role they held — with no access to the BTP cockpit to make it visible.
               </p>
-              <p className="btpxid-risk-card-source">
-                Reference: <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer">SAP KB 3220053</a>
+              <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
+                We verified this in a live BTP landscape: removed the user from the sub-account entirely, confirmed cockpit access was gone — then logged in via the CF CLI with the same credentials and had full Org Manager rights. CF role assignments persist as independent data. BTP xID removes them in one action.
               </p>
             </div>
 
