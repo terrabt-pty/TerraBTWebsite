@@ -303,12 +303,15 @@ export default function BTPxIDProduct() {
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Deactivating a user in IAS does not remove their Cloud Foundry access</div>
+              <div className="btpxid-risk-card-label">Deactivating a user in IAS does not stop their Cloud Foundry access</div>
               <p className="btpxid-risk-card-body">
-                CF authentication goes through SAP ID Service, not IAS. A user deactivated in IAS but still active in SAP ID Service can <code style={{ background: "#F1F5F9", padding: "1px 5px", borderRadius: "4px", fontSize: "0.85em" }}>cf login</code> via the CLI and retain every org and space role they held — with no access to the BTP cockpit to make it visible.
+                CF authentication doesn't go through IAS — it goes through SAP ID Service, which is what the CF UAA endpoint trusts in a standard BTP setup. Every user in a CF Org or Space is listed against <code style={{ background: "#F1F5F9", padding: "1px 5px", borderRadius: "4px", fontSize: "0.85em" }}>sap.ids</code>, not IAS. A user deactivated in IAS but still active in SAP ID Service can log in to CF via the CLI and retain every role they held.
               </p>
-              <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                We verified this in a live BTP landscape: removed the user from the sub-account entirely, confirmed cockpit access was gone — then logged in via the CF CLI with the same credentials and had full Org Manager rights. CF role assignments persist as independent data. BTP xID removes them in one action.
+              <p className="btpxid-risk-card-body" style={{ marginTop: "10px" }}>
+                We tested this in a live BTP sub-account: removed the user entirely, confirmed BTP cockpit access was gone — then logged in via the CF CLI using an S-user. With no sub-account access whatsoever, we could query the CF environment, create and delete OAuth service keys, and add, change or remove any user in every org and space we held roles in.
+              </p>
+              <p className="btpxid-risk-card-body" style={{ marginTop: "10px" }}>
+                BTP xID removes CF role assignments as part of offboarding — across every org and space in your landscape, in one action.
               </p>
             </div>
 
