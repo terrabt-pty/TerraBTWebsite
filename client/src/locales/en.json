@@ -177,7 +177,7 @@
   "contact": {
     "badge": "Get Started",
     "title": "Get in touch",
-    "subtitle": "Speak with our SAP BTP architects about your access governance requirements.",
+    "subtitle": "Speak with our team about your SAP BTP access governance requirements.",
     "availability": "Limited Availability",
     "contactInfo": "Contact Information",
     "email": "Email",
@@ -1581,7 +1581,7 @@
     "hero": {
       "tagline": "API Credential & Access Management for SAP BTP",
       "title": "Complete API credential management for your SAP BTP landscape.",
-      "description": "Govern every BTP user, role, and API credential across your landscape — from a single screen. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
+      "description": "Govern every BTP user, role, and API credential across your landscape — from a single app. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",

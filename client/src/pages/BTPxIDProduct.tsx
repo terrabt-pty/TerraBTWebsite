@@ -226,7 +226,7 @@ export default function BTPxIDProduct() {
             <div className="btpxid-why-card btpxid-why-problem">
               <div className="btpxid-why-card-label">In SAP BTP today</div>
               <p>
-                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. Each surface works well — BTP xID is the single screen that consolidates both.
+                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. Each surface works well — BTP xID is the single app that consolidates both.
               </p>
             </div>
 
@@ -236,7 +236,7 @@ export default function BTPxIDProduct() {
                 One screen. Every API credential across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
               </p>
               <p>
-                Set expiry dates on new keys and have them revoke automatically. Surface the keys that should have been rotated months ago. Hand your auditor a single export instead of a week's work.
+                Surface every API credential in your landscape — including the ones only visible via the BTP CLI. Filter, audit, revoke. Hand your auditor a single export instead of a week's work.
               </p>
             </div>
           </div>
@@ -276,6 +276,7 @@ export default function BTPxIDProduct() {
             "User provisioning via SCIM",
             "Risk-based authentication policies",
             "Authentication audit logs",
+            "User and role assignment at SAP BTP Global and Sub-account level",
           ].map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
@@ -286,15 +287,6 @@ export default function BTPxIDProduct() {
             </li>
           ))}
         </ul>
-        <div style={{
-          marginTop: "16px",
-          paddingTop: "14px",
-          borderTop: "1px solid #E2E8F0",
-        }}>
-          <p style={{ margin: 0, fontSize: "0.8125rem", color: "#64748B", lineHeight: 1.6 }}>
-            <strong style={{ color: "#0F172A" }}>Note:</strong> Deactivating a user in IAS doesn't stop their Cloud Foundry access. CF authenticates via SAP ID Service. BTP xID gives you the visibility and control to manage the complete picture.
-          </p>
-        </div>
       </div>
 
       {/* Plus divider */}
@@ -312,8 +304,7 @@ export default function BTPxIDProduct() {
         </div>
         <ul className="btpxid-ias-list">
           {[
-            "Deactivating a user in IAS does not remove CF access — CF authenticates via SAP ID Service, not IAS. A deactivated user can still cf login and act as Org Manager. BTP xID removes all CF role assignments in one action.",
-            "Find and revoke API credentials across the landscape — long-lived OAuth credentials created by developers don't expire and aren't visible in the cockpit's user view",
+            "Service API Credential Management across every Global Account, Sub-account, Cloud Foundry Org and Space — list, audit and revoke OAuth credentials in one place",
             "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
             "Bulk user management across your entire BTP landscape",
             "Landscape-wide visibility: who has access to what, across every account",
@@ -349,27 +340,27 @@ export default function BTPxIDProduct() {
       <section className="btpxid-risks">
         <div className="btpxid-risks-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">Three considerations for BTP at scale</div>
+            <div className="btpxid-features-label">Three steps to secure your API credentials in SAP BTP</div>
             <h2 className="btpxid-showcase-title">
-              SAP BTP gives you the platform.<br />BTP xID adds the day-to-day visibility large landscapes need.
+              What every SAP BTP admin<br />needs to know about API credentials.
             </h2>
           </div>
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">A deactivated or deleted user in your sub-account may still have access to all your API credentials</div>
+              <div className="btpxid-risk-card-label">1. Secure access to CF Orgs and Spaces</div>
               <p className="btpxid-risk-card-body">
-                API credentials in SAP BTP reside at the Cloud Foundry space level — not the sub-account level. Removing a user from a sub-account does not remove their CF Org or Space roles. As long as those roles exist, the user can still log in to CF, list every service instance in that space, and read, create, modify or delete any API credential bound to it.
+                API credentials in SAP BTP live at the Cloud Foundry space level. We verified this ourselves: we removed a user from a sub-account entirely, confirmed their BTP cockpit access was gone — then logged into CF via the CLI with the same credentials. We had full access to every API credential in every org and space we previously held roles in.
               </p>
               <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                BTP xID removes the user and their roles from every Cloud Foundry org and space as part of offboarding — not just from the sub-account.
+                BTP xID removes the user and their CF roles across every org and space as part of offboarding — closing the gap between sub-account removal and actual access termination.
               </p>
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Maintaining an API credential inventory</div>
+              <div className="btpxid-risk-card-label">2. Audit, revoke and track API credentials across the landscape</div>
               <p className="btpxid-risk-card-body">
-                API credentials are created by Space Developers and live inside each service instance. SAP's recommended rotation cadence is 90 days. Across a landscape with many Cloud Foundry spaces, maintaining that cadence is easier with a single inventory view — which is what BTP xID provides.
+                API credentials don't expire by default. SAP recommends rotating them every 90 days, but there is no native BTP view that shows all credentials across your entire landscape. BTP xID surfaces every credential — across every sub-account, CF org and space — so you can audit, revoke and track them from one place.
               </p>
               <p className="btpxid-risk-card-source">
                 Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">SAP — Service Instance Secrets</a>
@@ -377,12 +368,9 @@ export default function BTPxIDProduct() {
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">Cloud Foundry Space Developer scope</div>
+              <div className="btpxid-risk-card-label">3. Find and remove ghost API credentials</div>
               <p className="btpxid-risk-card-body">
-                The Space Developer role is intentionally broad — it grants the deployment and operations rights developers need, including read access to bound credentials. Knowing exactly who holds this role across every space is essential for an enterprise access review. BTP xID surfaces that view across the entire landscape.
-              </p>
-              <p className="btpxid-risk-card-source">
-                Reference: <a href="https://help.sap.com/docs/btp/sap-business-technology-platform/about-roles-in-cloud-foundry-environment" target="_blank" rel="noopener noreferrer">SAP — Cloud Foundry Roles</a>
+                Global Account-level API credentials exist in SAP BTP and are not visible anywhere in the BTP cockpit. They can only be retrieved via the BTP CLI — which means most teams don't know they exist. BTP xID surfaces these hidden credentials alongside all others, giving you a complete picture of what has access to your landscape.
               </p>
             </div>
           </div>
