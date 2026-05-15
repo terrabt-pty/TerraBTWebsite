@@ -7,7 +7,7 @@ export default function BTPControlBeforeAfterPage() {
     <>
       <SEOHead
         title="Before and After BTP xID: BTP User Management and Control Compared | TerraBT"
-        description="A side-by-side comparison of what it takes to manage users, roles and Cloud Foundry access in SAP BTP — before and after BTP xID. Onboarding, auditing, offboarding, bulk changes, all compared."
+        description="A side-by-side comparison of what it takes to manage users, roles, API credentials and Cloud Foundry access in SAP BTP — before and after BTP xID. Onboarding, auditing, offboarding, bulk changes, all compared."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -32,12 +32,12 @@ export default function BTPControlBeforeAfterPage() {
 
           {/* Title */}
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            Before and After BTP xID: a real look at BTP user management and control
+            Before and After BTP xID: a real look at BTP user, API credential management and control
           </h1>
 
           {/* Lead */}
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
-            Most BTP teams have learned to live with how the platform handles users. Click through every sub-account. Switch between BTP cockpit and Cloud Foundry. Keep a spreadsheet so nothing falls through the cracks. The work gets done, but it gets done slowly — and security questions about <em>who actually has access to what</em> often go unanswered for hours or days.
+            Most BTP teams have learned to live with how the platform handles users and API credentials. Click through every sub-account. Switch between BTP cockpit and Cloud Foundry. Track API credentials across hundreds of CF spaces with no single inventory view. Keep a spreadsheet so nothing falls through the cracks. The work gets done, but it gets done slowly — and security questions about <em>who has access to what, and which credentials are still active</em> often go unanswered for hours or days.
             <br /><br />
             Here is what changes when BTP xID sits in the middle of that picture.
           </p>

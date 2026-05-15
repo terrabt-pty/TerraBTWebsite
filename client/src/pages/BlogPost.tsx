@@ -95,15 +95,8 @@ export default function BlogPost({
             <img src={image} alt={title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
 
-          {/* Content — override dark-mode CSS variables so text-foreground resolves to readable slate */}
-          <div style={{
-            color: "#334155",
-            fontSize: "1rem",
-            lineHeight: 1.8,
-            ["--foreground" as string]: "30 41 59",
-            ["--muted-foreground" as string]: "71 85 105",
-            ["--card-foreground" as string]: "15 23 42",
-          }}>
+          {/* Content — blog-light-content overrides dark-mode Tailwind CSS vars */}
+          <div className="blog-light-content">
             {content}
           </div>
 

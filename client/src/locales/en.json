@@ -10,7 +10,7 @@
     "features": "Features",
     "downloads": "Downloads",
     "products": "Products",
-    "btpxidTagline": "SAP BTP user management",
+    "btpxidTagline": "SAP BTP API credential & user management",
     "claudeCliTagline": "Back up & search conversations",
     "sapBtpUserManagement": "SAP BTP User Management"
   },
@@ -1701,11 +1701,11 @@
       "label": "See It In Action",
       "title1": "Built for SAP BTP admins.",
       "title2": "By SAP BTP experts.",
-      "subtitle": "The only desktop app purpose-built for SAP BTP user management — view every user across global accounts, sub-accounts, CF orgs, and CF spaces in one unified list."
+      "subtitle": "The only desktop app purpose-built for SAP BTP API credential and user management — view every user and every API credential across global accounts, sub-accounts, CF orgs, and CF spaces in one unified app."
     },
     "why": {
       "eyebrow": "The Real Reason BTP xID Exists",
-      "title": "Find <accent>anyone</accent>, anywhere, in your SAP BTP landscape",
+      "title": "Find <accent>anyone</accent> and any API key, anywhere, in your SAP BTP landscape",
       "question": "If a user leaves your company tomorrow, can you tell — in under a minute — every Sub-Account, Cloud Foundry Org and Space they have access to across your SAP BTP landscape?",
       "problemLabel": "The problem",
       "problem": "For most SAP BTP teams, the honest answer is no. The cockpit is built around accounts — not around the person. Answering that question means navigating every sub-account, every CF Org and Space, one by one, and reconciling the results manually.",

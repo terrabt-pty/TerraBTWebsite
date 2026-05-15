@@ -3157,6 +3157,48 @@
   }
 }
 
+/* ===== Blog post content — light theme override ========================= */
+/* Overrides dark-mode Tailwind CSS variables so blog body text is readable */
+.blog-light-content {
+  --foreground: 222.2 84% 4.9%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --border: 214.3 31.8% 91.4%;
+  color: #334155;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.blog-light-content p,
+.blog-light-content li,
+.blog-light-content em,
+.blog-light-content span {
+  color: #475569;
+}
+.blog-light-content strong,
+.blog-light-content b {
+  color: #0F172A;
+}
+.blog-light-content h1,
+.blog-light-content h2,
+.blog-light-content h3,
+.blog-light-content h4 {
+  color: #0F172A;
+  font-weight: 700;
+}
+.blog-light-content a {
+  color: #3A9A6A;
+}
+.blog-light-content code {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.875em;
+  color: #0F172A;
+}
+
 /* ===== SECURITY SECTION ===== */
 .btpxid-security {
   background: #F8FAFC;

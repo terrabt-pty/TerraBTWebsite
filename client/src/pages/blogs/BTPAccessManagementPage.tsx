@@ -7,7 +7,7 @@ export default function BTPAccessManagementPage() {
     <>
       <SEOHead
         title="SAP BTP Access Management: With IAS, Without IAS, and What Neither Covers | TerraBT"
-        description="A technical breakdown of what SAP IAS and Identity Provisioning handle in BTP, where they stop, and how BTP xID fills the Cloud Foundry and cross-landscape governance gap."
+        description="A technical breakdown of what SAP IAS handles in BTP, where it stops, and how BTP xID fills the Cloud Foundry, API credential, and cross-landscape governance gap."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -107,7 +107,7 @@ export default function BTPAccessManagementPage() {
           <section style={{ marginBottom: "48px" }}>
             <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>What BTP xID Provides</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              BTP xID connects to BTP's platform APIs and the Cloud Foundry API to give administrators a single interface that spans all four levels of the BTP access model: Global Account, Directory, Subaccount, and Cloud Foundry org and space.
+              BTP xID connects to BTP's platform APIs and the Cloud Foundry API to give administrators a single interface that spans all four levels of the BTP access model — Global Account, Directory, Subaccount, and Cloud Foundry org and space — and surfaces every API credential across all of them.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
               {[
@@ -115,6 +115,7 @@ export default function BTPAccessManagementPage() {
                 { title: "Landscape-Wide Visibility", body: "See every role a user holds across all subaccounts, Global Accounts, directories, CF orgs, and CF spaces in one view. Reverse lookup: start from any resource and see who has access." },
                 { title: "Bulk Operations", body: "Add or remove a user across multiple subaccounts in a single action. Onboard a team across your entire landscape without repeating the same steps for each account." },
                 { title: "Complete Offboarding", body: "Remove all BTP access — role collections and CF memberships — across every account and org in one action. Reduces the risk of dormant access after a user departure." },
+                { title: "API Credential Visibility", body: "List and revoke every API credential across your landscape — including Global Account-level credentials not visible in the BTP cockpit. One screen, complete picture." },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: "#FFFFFF", border: "1px solid #E2E8F0", borderRadius: "10px", padding: "20px" }}>
                   <p style={{ color: "#0F172A", fontWeight: 600, fontSize: "0.9375rem", marginBottom: "8px" }}>{title}</p>

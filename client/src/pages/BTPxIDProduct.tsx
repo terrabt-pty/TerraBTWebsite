@@ -218,7 +218,7 @@ export default function BTPxIDProduct() {
               A single view of every <span className="btpxid-why-accent">API credential</span> in your BTP landscape
             </h2>
             <p className="btpxid-why-question">
-              SAP BTP issues API credentials at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP surface. BTP xID brings them together in one auditable view.
+              SAP BTP issues API credentials at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP screen. BTP xID brings them together in one auditable view.
             </p>
           </div>
 
@@ -331,7 +331,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access — Global Accounts, sub-accounts, CF Orgs and Spaces.
+      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access — users, roles, and API credentials across Global Accounts, sub-accounts, CF Orgs and Spaces.
     </div>
   </div>
 </section>
@@ -360,7 +360,10 @@ export default function BTPxIDProduct() {
             <div className="btpxid-risk-card">
               <div className="btpxid-risk-card-label">2. Audit, revoke and track API credentials across the landscape</div>
               <p className="btpxid-risk-card-body">
-                API credentials don't expire by default. SAP recommends rotating them every 90 days, but there is no native BTP view that shows all credentials across your entire landscape. BTP xID surfaces every credential — across every sub-account, CF org and space — so you can audit, revoke and track them from one place.
+                API credentials don't expire by default. Anyone who has ever viewed, generated or worked with a credential has effectively seen its secret. When team members change roles or leave, those credentials need to be revoked and new ones issued — but without a landscape-wide inventory, most teams don't even know which credentials exist, let alone who created them.
+              </p>
+              <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
+                SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential — across every sub-account, CF org and space — so you can audit, revoke and track them from one place.
               </p>
               <p className="btpxid-risk-card-source">
                 Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">SAP — Service Instance Secrets</a>
