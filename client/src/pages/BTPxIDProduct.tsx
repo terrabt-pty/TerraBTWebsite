@@ -4,7 +4,6 @@ import { Link } from "wouter";
 import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 import BTPxIDFeatures from "@/components/BTPxIDFeatures";
-import BTPxIDShowcase from "@/components/BTPxIDShowcase";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -425,8 +424,6 @@ export default function BTPxIDProduct() {
 
 
 
-      {/* ===== SCREENSHOT SHOWCASE ===== */}
-      <BTPxIDShowcase />
 
       {/* ===== ROADMAP ===== */}
       <section className="btpxid-roadmap">
