@@ -214,7 +214,7 @@ export default function BTPxIDProduct() {
         <div className="btpxid-why-inner">
           <div className="btpxid-why-header">
             <h2 className="btpxid-why-title">
-              A single view of every <span className="btpxid-why-accent">API credential</span> in your BTP landscape
+              Every <span className="btpxid-why-accent">API Credential</span> and Every User in your BTP landscape — one view
             </h2>
             <p className="btpxid-why-question">
               SAP BTP issues API credentials at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP screen. BTP xID brings them together in one auditable view.
@@ -352,7 +352,7 @@ export default function BTPxIDProduct() {
                 API credentials in SAP BTP live at the Cloud Foundry space level. We verified this ourselves: we removed a user from a sub-account entirely, confirmed their BTP cockpit access was gone — then logged into CF via the CLI with the same credentials. We had full access to every API credential in every org and space we previously held roles in.
               </p>
               <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                BTP xID removes the user and their CF roles across every org and space as part of offboarding — closing the gap between sub-account removal and actual access termination.
+                BTP xID removes the user and their role assignments across every org and space as part of offboarding — closing the gap between sub-account removal and actual access termination.
               </p>
             </div>
 

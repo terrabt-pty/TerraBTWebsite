@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Pradėkime",
-    "title": "Pasiruošę transformacijai?",
-    "subtitle": "Užsisakykite nemokamą konsultaciją su SAP BTP ekspertais",
+    "title": "Susisiekite su mumis",
+    "subtitle": "Kalbinkite mūsų komandą apie SAP BTP prieigos valdymo reikalavimus.",
     "availability": "Ribotas vietų kiekis",
     "contactInfo": "Kontaktinė informacija",
     "email": "El. paštas",
@@ -1556,7 +1556,7 @@
       "title1": "Viena programa.",
       "title2": "Kiekvienas vartotojas.",
       "title3": "Visos paskyros.",
-      "description": "Valdykite SAP BTP vartotojus globaliose paskyrose, subpaskyrose, Cloud Foundry organizacijose ir erdvėse — visa tai iš vieno vaizdo. Akimirksniu raskite bet kurį SAP BTP vartotoją atvirkštiniu paieška.",
+      "description": "Valdykite kiekvieną BTP vartotoją, vaidmenį ir API kredencialą per visą jūsų aplinką - iš vienos programos. Pilnas matomumas, pilna kontrolė, visame Global Account, paskyros dalyje ir Cloud Foundry aplinkoje, kurią paleitate.",
       "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi"
     },
     "valueProps": {
@@ -1674,6 +1674,17 @@
       "monthly": "Mėnesinis",
       "annual": "Metinis",
       "save": "Sutaupykite 17%"
+    },
+    "why": {
+      "eyebrow": "Tikroji priežastis, kodėl BTP xID egzistuoja",
+      "question": "Jei vartotojas rytoj paliktų jūsų bendrovę, ar galėtumėte pasakyti - per mažiau nei minutę - kiekvieną Sub-Account, Cloud Foundry Org ir Space, prie kurio jis turi prieigą per visą SAP BTP aplinką?",
+      "problemLabel": "Problema",
+      "problem": "Daugumai SAP BTP komandų sąžininga atsakymo yra ne. Kabina yra pastatyta aplink sąskaitas - ne aplink žmogų. Į šį klausimą atsakyti reiškia naviguoti per kiekvieną paskyros dalį, kiekvieną CF Org ir Space po vieną ir rankiniu būdu suderinti rezultatus.",
+      "iasNote": "Ir SAP IAS to neišsprendžia. IAS tvarko autentifikaciją ir gali susieti grupes su Role Collections, tačiau nepriskiria Cloud Foundry Org ar Space vaidmenų ir negali pasakyti, kur vartotojas iš tikrųjų yra jūsų paskyros dalyse, CF Orgs ir Spaces.",
+      "solutionLabel": "Su BTP xID",
+      "solution": "Įveskite vartotojo el. paštą ir nedelsiant matysite <b>kiekvieną Global Account, Sub-Account, Cloud Foundry Org ir Space</b>, kur jie egzistuoja per visą SAP BTP aplinką - su jų vaidmenimis. Ieškokite API kredencialų pagal egzemplioriaus pavadinimą, rakto pavadinimą, kūrėją ar pabaigos datą visoje aplinkoje.",
+      "solutionExtra": "Ta pati aplikacija tvarko įregistravimą ir išregistravimą vienu spustelėjimu bei Cloud Foundry Org Manager priverstinį pridėjimą pagal SAP Note 3249765.",
+      "readMore": "Perskaitykite visą istoriją"
     }
   }
 }

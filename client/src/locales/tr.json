@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Hemen Başlayın",
-    "title": "İşletmenizi Dönüştürmeye Hazır mısınız?",
-    "subtitle": "SAP BTP uzmanlarımızla ücretsiz bir danışmanlık randevusu alın",
+    "title": "İletişime geçin",
+    "subtitle": "SAP BTP erişim yönetimi gereksinimleriniz hakkında ekibimizle konuşun.",
     "availability": "Sınırlı Kontenjan",
     "contactInfo": "İletişim Bilgileri",
     "email": "E-posta",
@@ -1556,7 +1556,7 @@
       "title1": "Tek uygulama.",
       "title2": "Her kullanıcı.",
       "title3": "Tüm hesaplar.",
-      "description": "SAP BTP kullanıcılarını küresel hesaplar, alt hesaplar, Cloud Foundry organizasyonları ve alanlarında tek bir görünümden yönetin. Herhangi bir SAP BTP kullanıcısını anında ters arama ile bulun.",
+      "description": "BTP kullanıcılarının her birini, rolünü ve API kimlik bilgilerini ortamınız genelinde yönetin - tek bir uygulamadan. Tam görünürlük, tam kontrol, çalıştırdığınız her Global Account, alt hesap ve Cloud Foundry ortamı üzerinde.",
       "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz"
     },
     "valueProps": {
@@ -1674,6 +1674,17 @@
       "billedAnnually": "yıllık faturalandırılır (${{amount}}/yıl)",
       "contactSales": "Satışla İletişime Geçin",
       "getStarted": "Başlayın"
+    },
+    "why": {
+      "eyebrow": "BTP xID'nin Var Olmasının Gerçek Nedeni",
+      "question": "Bir kullanıcı yarın şirketinizi terk ederse, tüm SAP BTP ortamınızda erişebildikleri her Sub-Account, Cloud Foundry Org ve Space'i bir dakikadan kısa sürede söyleyebilir misiniz?",
+      "problemLabel": "Sorun",
+      "problem": "Çoğu SAP BTP ekibi için dürüst cevap hayırdır. Kokpit hesaplar etrafında inşa edilmiştir - kişinin etrafında değil. Bu soruyu cevaplamak, her alt hesaptan, her CF Org ve Space'den birer birer geçmek ve sonuçları manuel olarak uzlaştırmak anlamına gelir.",
+      "iasNote": "Ve SAP IAS bunu da çözmez. IAS kimlik doğrulamasını işler ve grupları Role Collections'a eşleyebilir, ancak Cloud Foundry Org veya Space rollerini atamaz ve bir kullanıcının alt hesaplarınız, CF Orgs ve Spaces'da nerede bulunduğunu size söyleyemez.",
+      "solutionLabel": "BTP xID ile",
+      "solution": "Kullanıcının e-postasını yazın ve anında tüm SAP BTP ortamınızda bulunduğu <b>her Global Account, Sub-Account, Cloud Foundry Org ve Space</b>'i görmüş olursunuz - rolleriyle birlikte. API kimlik bilgilerini tüm ortamda örnek adı, anahtar adı, oluşturucu veya sona erme tarihi ile arayın.",
+      "solutionExtra": "Aynı uygulama ekleme ve kaldırmayı tek tıkla gerçekleştirir ve Cloud Foundry Org Manager SAP Not 3249765 başına eklemeyi zorlar.",
+      "readMore": "Tam hikayeyi oku"
     }
   }
 }

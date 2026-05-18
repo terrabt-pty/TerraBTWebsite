@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "ይጀምሩ",
-    "title": "ንግድዎን ለመለወጥ ዝግጁ ነዎት?",
-    "subtitle": "ከSAP BTP ባለሙያዎቻችን ጋር ነጻ ምክክር ያስያዙ",
+    "title": "ለእኛ ይንቀሳቀሱ",
+    "subtitle": "ስለ SAP BTP ድረ-ገጽ አቅም ያለ ታላላቅ ዴክ ክሌኖን ጋር ይተወው።",
     "availability": "ውስን ቅድመ-ቀጠሮ",
     "contactInfo": "የእውቂያ መረጃ",
     "email": "ኢሜይል",
@@ -1557,7 +1557,7 @@
       "title1": "አንድ መተግበሪያ።",
       "title2": "እያንዳንዱ ተጠቃሚ።",
       "title3": "ሁሉም መለያዎች።",
-      "description": "በዓለም አቀፍ መለያዎች፣ ንዑስ መለያዎች፣ Cloud Foundry ድርጅቶች እና ቦታዎች ውስጥ ያሉ SAP BTP ተጠቃሚዎችን ከአንድ ምስክርነት ያስተዳድሩ። ማንኛውንም SAP BTP ተጠቃሚ ወዲያውኑ በተቃራኒ ፍለጋ ያግኙ።",
+      "description": "ሁሉንም BTP ተጠቃሚ፣ ሚና እና API ደብዳቤ ከአንደበት ላይ ቁጥጥር ያድርጉ — ከአንድ መተግበሪያ። ሙሉ ሥለላ፣ ሙሉ ቁጥጥር፣ እሱ ሰርዓተ ሂሳብ ጂ ልዩ ስሪት ሙሉ ላይ።",
       "shieldBadge": "SAP OAuth · ምስክርነቶች አይቀመጡም"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "title1": "ለSAP BTP አስተዳዳሪዎች የተሰራ።",
       "title2": "በSAP BTP ባለሙያዎች።",
       "subtitle": "SAP BTP ተጠቃሚ አስተዳደር ​​ላይ በተለይ የተሰራ ብቸኛ ዴስክቶፕ መተግበሪያ — በዓለም አቀፍ መለያዎች, ንዑስ-መለያዎች, CF orgs, እና CF spaces ውስጥ ያለውን እያንዳንዱ ተጠቃሚ በአንድ አንድ ርስt ዝርዝር ይመልከቱ።"
+    },
+    "why": {
+      "eyebrow": "BTP xID የሚኖርበት ትክክለኛ ምክንያት",
+      "question": "አንድ ተጠቃሚ ነገ ስራህን ከተወ፣ በአንድ ደቂቃ ውስጥ የሚችል ይሆን - በአንደበት ላይ ያላቸውን ሁሉንም Sub-Account፣ Cloud Foundry Org እና Space ለአንድ ሙሉ SAP BTP tanzania መናገር?",
+      "problemLabel": "ችግሩ",
+      "problem": "ለአብዛኛው SAP BTP ቡድን ፍትሃዊ መልስ አይ ነው። ኮክፒት በሂሳብ ዙሪያ ተሰርዖ ነበር - በሰው ዙሪያ ሳይሆን። ያንን ጥያቄ መመለስ ማለት ሁሉንም ንዑስ-ሂሳብ፣ ሁሉንም CF Org እና Space አንድ በአንድ መሰናሰል እና ውጤቱን በእጅ ማስተካከል ማለት ነው።",
+      "iasNote": "ከዚህም በላይ SAP IAS ይህንንም አይፈታም። IAS ተቃውሞ ይቋቋምና ቡድኖችን ወደ Role Collections መቅረጽ ይችላል፣ ነገር ግን Cloud Foundry Org ወይም Space ሚና አይሰጥም፣ እና ተጠቃሚ በአንደበት ላይ ወዴት ይተኛል ብሎ ማወቅ አይችልም።",
+      "solutionLabel": "BTP xID ጋር",
+      "solution": "የተጠቃሚውን ኢሜይል ተይብ ፣ እና በእንግዲህ ታዩ <b>ሁሉም Global Account ፣ Sub-Account ፣ Cloud Foundry Org እና Space</b> ከአንደበት ላይ ተሞክሮ - ከሚናቸው ጋር። API ደብዳቤዎችን በአጋጣሚ ስም፣ ቁልፍ ስም፣ ፈጠራ ወይም ጊዜ ያለበት ቀን በላይ ያለው ሙሉ አንደበት ላይ ፈልግ።",
+      "solutionExtra": "ተመሳሳይ መተግበሪያ በአንድ ጥቅል ውስጥ onboarding እና off-boarding ይናገራል ፣ እና Cloud Foundry Org Manager SAP Note 3249765 በአንድ ምክንያት ይጨምር።",
+      "readMore": "ሙሉውን ታሪክ ያንብቡ"
     }
   }
 }

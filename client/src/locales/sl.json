@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Stopite v stik z nami",
-    "title": "Ste pripravljeni na transformacijo vašega poslovanja?",
-    "subtitle": "Rezervirajte brezplačno svetovanje z našimi strokovnjaki za SAP BTP",
+    "title": "Kontaktirajte nas",
+    "subtitle": "Pogovorite se z našo ekipo o vaših zahtevah za upravljanje dostopa SAP BTP.",
     "availability": "Omejeno število terminov",
     "contactInfo": "Kontaktni podatki",
     "email": "E-pošta",
@@ -1556,7 +1556,7 @@
       "title1": "Ena aplikacija.",
       "title2": "Vsak uporabnik.",
       "title3": "Vsi računi.",
-      "description": "Upravljajte uporabnike SAP BTP v globalnih računih, podračunih, organizacijah in prostorih Cloud Foundry — vse iz enega pregleda. Takojšnje obratno iskanje katerega koli uporabnika SAP BTP.",
+      "description": "Upravljajte vsakega uporabnika BTP, vlogo in poverilnico API po celotnem vašem pokrajino - iz ene same aplikacije. Popolna vidljivost, popoln nadzor, nad vsakim Global Account, podračunom in Cloud Foundry okoljem, ki ga zaženete.",
       "shieldBadge": "SAP OAuth · Brez shranjenih poverilnic"
     },
     "valueProps": {
@@ -1674,6 +1674,17 @@
       "title1": "Ustvarjeno za administratorje SAP BTP.",
       "title2": "S strani strokovnjakov za SAP BTP.",
       "subtitle": "Edina aplikacija za namizje, posebej namenjena upravljanju uporabnikov SAP BTP — poglejte vsakega uporabnika na globalnih računih, podračunih, CF organizacijah in CF prostorih v enem enotnem seznamu."
+    },
+    "why": {
+      "eyebrow": "Pravi razlog, zakaj obstaja BTP xID",
+      "question": "Če zaposljenec jutri zapusti vašo podjetje, ali lahko recite - v manj kot minuto - vsak Sub-Account, Cloud Foundry Org in Space, do katerih ima dostop po celotnem vašem SAP BTP pokrajino?",
+      "problemLabel": "Težava",
+      "problem": "Za večino ekip SAP BTP je pošten odgovor ne. Kabina je zgrajena okrog računov - ne okrog osebe. Odgovor na to vprašanje pomeni krmarjenje skozi vsak podračun, vsak CF Org in Space enega za drugim in ročno usklajanje rezultatov.",
+      "iasNote": "In SAP IAS tudi tega ne reši. IAS upravlja preverjanje pristnosti in lahko preslika skupine na Role Collections, vendar ne dodeli vlog Cloud Foundry Org ali Space in vam ne more povedati, kje se uporabnik dejansko nahaja v vaših podračunih, CF Orgs in Spaces.",
+      "solutionLabel": "Z BTP xID",
+      "solution": "Vnesite e-pošto uporabnika in takoj vidite <b>vsak Global Account, Sub-Account, Cloud Foundry Org in Space</b>, kjer obstajajo po celotnem vašem SAP BTP pokrajino - z njihovimi vlogami. Iščite poverilnice API po imenu primerka, imenu ključa, ustvarjalcu ali datumu preteka čez celotno pokrajino.",
+      "solutionExtra": "Ista aplikacija upravlja vklapljanje in izklapljanje z enim klikom in Cloud Foundry Org Manager prisili dodajanje za SAP Note 3249765.",
+      "readMore": "Preberi celotno zgodbo"
     }
   }
 }

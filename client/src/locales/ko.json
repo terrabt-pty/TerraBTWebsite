@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "시작하기",
-    "title": "비즈니스를 변환할 준비가 되셨나요?",
-    "subtitle": "SAP BTP 전문가와 무료 상담을 예약하세요",
+    "title": "문의하기",
+    "subtitle": "SAP BTP 액세스 거버넌스 요구 사항에 대해 당사 팀과 대화하세요.",
     "availability": "제한된 가용성",
     "contactInfo": "연락처 정보",
     "email": "이메일",
@@ -1557,7 +1557,7 @@
       "title1": "하나의 앱.",
       "title2": "모든 사용자.",
       "title3": "모든 계정.",
-      "description": "글로벌 계정, 서브 계정, Cloud Foundry 조직 및 공간의 SAP BTP 사용자를 하나의 화면에서 관리하세요. 모든 SAP BTP 사용자를 즉시 역방향 검색합니다.",
+      "description": "단일 앱에서 환경 전체의 모든 BTP 사용자, 역할 및 API 자격 증명을 관리합니다. 완전한 가시성, 완전한 제어, 실행하는 모든 Global Account, 하위 계정 및 Cloud Foundry 환경에 대해.",
       "shieldBadge": "SAP OAuth · 자격 증명 미저장"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "monthly": "월간",
       "annual": "연간",
       "save": "17% 절약"
+    },
+    "why": {
+      "eyebrow": "BTP xID가 존재하는 진정한 이유",
+      "question": "사용자가 내일 회사를 떠난다면 1분 이내에 전체 SAP BTP 환경에서 액세스할 수 있는 모든 Sub-Account, Cloud Foundry Org 및 Space를 알려줄 수 있습니까?",
+      "problemLabel": "문제",
+      "problem": "대부분의 SAP BTP 팀에게 솔직한 답변은 '아니오'입니다. 콕핏은 계정을 중심으로 구축되었으며 개인을 중심으로 하지 않습니다. 이 질문에 답하려면 각 하위 계정, 각 CF Org 및 Space를 하나씩 탐색하고 결과를 수동으로 조정해야 합니다.",
+      "iasNote": "그리고 SAP IAS도 이를 해결하지 못합니다. IAS는 인증을 처리하고 그룹을 Role Collections에 매핑할 수 있지만 Cloud Foundry Org 또는 Space 역할을 할당하지 않으며 사용자가 실제로 하위 계정, CF Orgs 및 Spaces에 어디에 위치하는지 알려줄 수 없습니다.",
+      "solutionLabel": "BTP xID 사용",
+      "solution": "사용자 이메일을 입력하면 전체 SAP BTP 환경에서 존재하는 <b>모든 Global Account, Sub-Account, Cloud Foundry Org 및 Space</b>와 함께 역할을 즉시 볼 수 있습니다. 인스턴스 이름, 키 이름, 작성자 또는 만료 날짜로 전체 환경에서 API 자격 증명을 검색합니다.",
+      "solutionExtra": "동일한 앱은 한 번의 클릭으로 온보딩 및 오프보딩을 처리하며 Cloud Foundry Org Manager는 SAP Note 3249765당 추가를 강제합니다.",
+      "readMore": "전체 스토리 읽기"
     }
   }
 }

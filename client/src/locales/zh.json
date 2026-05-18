@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "立即开始",
-    "title": "准备好改变您的业务吗？",
-    "subtitle": "预约与我们的SAP BTP专家进行免费咨询",
+    "title": "联系我们",
+    "subtitle": "与我们的团队讨论您的SAP BTP访问治理需求。",
     "availability": "位置有限",
     "contactInfo": "联系信息",
     "email": "电子邮件",
@@ -1557,7 +1557,7 @@
       "title1": "一款应用。",
       "title2": "每位用户。",
       "title3": "所有账户。",
-      "description": "在全局账户、子账户、Cloud Foundry 组织和空间中统一管理 SAP BTP 用户——一切尽在一个界面。即时反向搜索任何 SAP BTP 用户。",
+      "description": "从单个应用管理整个环境中的每个BTP用户、角色和API凭据。完全的可见性、完全的控制，覆盖您运行的每个Global Account、子账户和Cloud Foundry环境。",
       "shieldBadge": "SAP OAuth · 不存储凭据"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "monthly": "按月",
       "annual": "按年",
       "save": "节省 17%"
+    },
+    "why": {
+      "eyebrow": "BTP xID存在的真实原因",
+      "question": "如果用户明天离开您的公司，您能否在一分钟内告诉我整个SAP BTP环境中他们有权访问的每个Sub-Account、Cloud Foundry Org和Space?",
+      "problemLabel": "问题",
+      "problem": "对于大多数SAP BTP团队，诚实的答案是否定的。驾驶舱是围绕账户构建的——不是围绕个人构建的。回答这个问题意味着逐个浏览每个子账户、每个CF Org和Space，并手动协调结果。",
+      "iasNote": "SAP IAS也不能解决这个问题。IAS处理身份验证并可以将组映射到Role Collections，但它不分配Cloud Foundry Org或Space角色，也无法告诉您用户在您的子账户、CF Orgs和Spaces中的实际位置。",
+      "solutionLabel": "使用BTP xID",
+      "solution": "输入用户的电子邮件，您将立即看到<b>整个SAP BTP环境中存在的每个Global Account、Sub-Account、Cloud Foundry Org和Space</b>——以及他们的角色。按实例名称、密钥名称、创建者或到期日期在整个环境中搜索API凭据。",
+      "solutionExtra": "同一个应用处理入职和离职一键式操作，以及Cloud Foundry Org Manager根据SAP Note 3249765强制添加。",
+      "readMore": "阅读完整的故事"
     }
   }
 }

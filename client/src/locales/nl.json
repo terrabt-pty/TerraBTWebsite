@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Aan de slag",
-    "title": "Klaar om uw bedrijf te transformeren?",
-    "subtitle": "Boek een gratis overleg met onze SAP BTP-experts",
+    "title": "Neem contact op",
+    "subtitle": "Spreek met ons team over je SAP BTP-vereisten voor toegangsbeheer.",
     "availability": "Beperkte beschikbaarheid",
     "contactInfo": "Contactgegevens",
     "email": "E-mailadres",
@@ -1550,7 +1550,7 @@
       "title1": "Één app.",
       "title2": "Elke gebruiker.",
       "title3": "Alle accounts.",
-      "description": "Beheer SAP BTP-gebruikers in globale accounts, subaccounts, Cloud Foundry-organisaties en -ruimtes — alles vanuit één overzicht. Zoek direct omgekeerd naar elke SAP BTP-gebruiker.",
+      "description": "Beheer elke BTP-gebruiker, rol en API-referentie in je hele landschap - vanuit één app. Volledige zichtbaarheid, volledige controle, over elke Global Account, subaccount en Cloud Foundry-omgeving die je uitvoert.",
       "shieldBadge": "SAP OAuth · Geen inloggegevens opgeslagen"
     },
     "valueProps": {
@@ -1668,6 +1668,17 @@
       "title1": "Gebouwd voor SAP BTP admins.",
       "title2": "Door SAP BTP experts.",
       "subtitle": "De enige desktop app speciaal gebouwd voor SAP BTP-gebruikersbeheer — bekijk elke gebruiker in globale accounts, sub-accounts, CF orgs en CF spaces in één uniforme lijst."
+    },
+    "why": {
+      "eyebrow": "De ware reden dat BTP xID bestaat",
+      "question": "Als een gebruiker morgen je bedrijf verlaat, kun je dan zeggen - in minder dan een minuut - elke Sub-Account, Cloud Foundry Org en Space waartoe zij toegang hebben in je hele SAP BTP-landschap?",
+      "problemLabel": "Het probleem",
+      "problem": "Voor de meeste SAP BTP-teams is het eerlijke antwoord nee. De cockpit is gebouwd rond accounts - niet rond de persoon. Het beantwoorden van deze vraag betekent dat je door elke subaccount, elke CF Org en Space één voor één navigeert en de resultaten handmatig afstemt.",
+      "iasNote": "En SAP IAS lost dit ook niet op. IAS verwerkt verificatie en kan groepen aan Role Collections toewijzen, maar wijst geen Cloud Foundry Org- of Space-rollen toe en kan je niet vertellen waar een gebruiker daadwerkelijk in je subaccounts, CF Orgs en Spaces zit.",
+      "solutionLabel": "Met BTP xID",
+      "solution": "Typ het e-mailadres van de gebruiker en je ziet onmiddellijk <b>elke Global Account, Sub-Account, Cloud Foundry Org en Space</b> waarin zij in je hele SAP BTP-landschap voorkomen - met hun rollen. Zoek API-referenties op exemplaar naam, sleutel naam, maker of vervaldatum in het hele landschap.",
+      "solutionExtra": "Dezelfde app verwerkt onboarding en offboarding in één klik en Cloud Foundry Org Manager dwingt toevoeging per SAP Note 3249765.",
+      "readMore": "Lees het volledige verhaal"
     }
   }
 }

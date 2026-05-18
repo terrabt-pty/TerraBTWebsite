@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "お問い合わせ",
-    "title": "ビジネスを変革する準備はできていますか？",
-    "subtitle": "SAP BTPエキスパートとの無料相談を予約",
+    "title": "ご連絡ください",
+    "subtitle": "SAP BTPアクセスガバナンス要件についてチームにお話しください。",
     "availability": "限定受付中",
     "contactInfo": "お問い合わせ情報",
     "email": "メールアドレス",
@@ -1586,7 +1586,7 @@
       "title1": "1つのアプリ。",
       "title2": "すべてのユーザー。",
       "title3": "すべてのアカウント。",
-      "description": "グローバルアカウント、サブアカウント、Cloud Foundry組織とスペース全体のSAP BTPユーザーを1つの画面で管理。任意のSAP BTPユーザーを瞬時に逆引き検索。",
+      "description": "1つのアプリからパノラマ全体のすべてのBTPユーザー、ロール、API認証情報を管理します。完全な可視性、完全な制御、実行するすべてのGlobal Account、サブアカウント、Cloud Foundry環境に対応します。",
       "shieldBadge": "SAP OAuth · 認証情報は保存されません"
     },
     "valueProps": {
@@ -1704,6 +1704,17 @@
       "monthly": "月払い",
       "annual": "年払い",
       "save": "17% お得"
+    },
+    "why": {
+      "eyebrow": "BTP xIDが存在する本当の理由",
+      "question": "ユーザーが明日会社を離れた場合、1分以内にSAP BTzパノラマ全体にアクセスできるすべてのSub-Account、Cloud Foundry Org、Spaceを特定できますか?",
+      "problemLabel": "問題",
+      "problem": "ほとんどのSAP BTzチームでは、正直な答えはいいえです。コックピットはアカウントを中心に構築されており、個人を中心ではありません。この質問に答えるには、各サブアカウント、各CF OrgおよびSpaceを1つずつナビゲートし、結果を手動で調整する必要があります。",
+      "iasNote": "また、SAP IASもこれを解決しません。IASは認証を処理し、グループをRole Collectionsにマッピングできますが、Cloud Foundry OrgまたはSpace役割を割り当てたり、ユーザーがサブアカウント、CF Orgs、Spacesのどこに実際に配置されているかを伝えることができません。",
+      "solutionLabel": "BTP xIDを使用",
+      "solution": "ユーザーのメールアドレスを入力すると、SAP BTzパノラマ全体で存在するすべての<b>Global Account、Sub-Account、Cloud Foundry Org、Space</b>がロールとともに表示されます。API認証情報をインスタンス名、キー名、作成者、有効期限日付でパノラマ全体で検索します。",
+      "solutionExtra": "同じアプリはワンクリックでオンボーディングとオフボーディングを処理し、Cloud Foundry Org ManagerはSAP Note 3249765ごとに追加を強制します。",
+      "readMore": "完全なストーリーを読む"
     }
   }
 }

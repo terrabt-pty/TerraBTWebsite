@@ -175,8 +175,8 @@
   },
   "contact": {
     "badge": "Anza Sasa",
-    "title": "Je, Uko Tayari Kubadilisha Biashara Yako?",
-    "subtitle": "Weka nafasi ya ushauri bure na wataalam wetu wa SAP BTP",
+    "title": "Wasiliana nasi",
+    "subtitle": "Kamatiana na timu yetu kuhusu mahitaji yako ya usimamizi wa kufikiana na SAP BTP.",
     "availability": "Nafasi Zinazopunguka",
     "contactInfo": "Maelezo ya Mawasiliano",
     "email": "Barua pepe",
@@ -1580,7 +1580,7 @@
       "title1": "Programu moja.",
       "title2": "Kila mtumiaji.",
       "title3": "Akaunti zote.",
-      "description": "Simamia watumiaji wa SAP BTP katika akaunti za kimataifa, akaunti ndogo, shirika na nafasi za Cloud Foundry — yote kutoka sehemu moja. Tafuta mtumiaji yeyote wa SAP BTP mara moja kwa utafutaji wa nyuma.",
+      "description": "Dhibiti kila mtumiaji wa BTP, jukumu na sehemu za API katika mandhari yako yote - kutoka kwa programu moja tu. Kuzingatiwa kamili, udhibiti kamili, juu ya kila Global Account, akaunti ndogo na mandhari ya Cloud Foundry unayokimbia.",
       "shieldBadge": "SAP OAuth · Hakuna vitambulisho vilivyohifadhiwa"
     },
     "valueProps": {
@@ -1698,6 +1698,17 @@
       "title1": "Imejengwa kwa wasimamizi wa SAP BTP.",
       "title2": "Na wataalamu wa SAP BTP.",
       "subtitle": "Programu pekee ya desktop iliyotengana kwa usimamizi wa watumiaji wa SAP BTP — tazama kila mtumiaji katika akaunti za kimataifa, akaunti ndogo, CF orgs, na CF spaces katika orodha moja iliyoingiliana."
+    },
+    "why": {
+      "eyebrow": "Sababu Halisi Kwa Nini BTP xID Ipo",
+      "question": "Ikiwa mtumiaji ataacha kampuni yako kesho, unaweza kusema - kwa chini ya dakika moja - kila Sub-Account, Cloud Foundry Org na Space inayofikiana nayo katika mandhari yako yote ya SAP BTP?",
+      "problemLabel": "Tatizo",
+      "problem": "Kwa timu nyingi za SAP BTP, jibu la juu juu ni la. Kokpit inajengwa kuzunguka akaunti - si kuzunguka mtu. Kujibu swali hilo kunamaanisha kunaviga kila akaunti ndogo, kila CF Org na Space moja kwa moja na kusambaza matokeo kwa mikono.",
+      "iasNote": "Na SAP IAS pia haisoli hili. IAS inatumia uthibitisho na inaweza kupanga vikundi kwa Role Collections, lakini haitoe jukumu la Cloud Foundry Org au Space na haiwezi kuwambia mahali mtumiaji anakaa kwa kweli katika akaunti ndogo zako, CF Orgs na Spaces.",
+      "solutionLabel": "Na BTP xID",
+      "solution": "Andika barua pepe ya mtumiaji na mara moja utaona <b>kila Global Account, Sub-Account, Cloud Foundry Org na Space</b> ambapo wanapatikana katika mandhari yako yote ya SAP BTP - na majukumu yao. Tafuta sehemu za API kulingana na jina la matukio, jina la ufunguo, mwanzo au tarehe ya muda katika mandhari yote.",
+      "solutionExtra": "Programu sawa inatumia kuingizwa na kuondolewa kwa mgomo mmoja na Cloud Foundry Org Manager kulazimisha kuongeza kwa kila SAP Note 3249765.",
+      "readMore": "Soma hadithi kamili"
     }
   }
 }

@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Alusta",
-    "title": "Valmis teie ettevõtet muutma?",
-    "subtitle": "Broneeri tasuta konsultatsioon meie SAP BTP ekspertidega",
+    "title": "Võtke ühendust",
+    "subtitle": "Rääkige meie meeskonnaga oma SAP BTP juurdepääsu haldusvajaduste kohta.",
     "availability": "Piiratud kättesaadavus",
     "contactInfo": "Kontaktteave",
     "email": "E-post",
@@ -1557,7 +1557,7 @@
       "title1": "Üks rakendus.",
       "title2": "Iga kasutaja.",
       "title3": "Kõik kontod.",
-      "description": "Hallake SAP BTP kasutajaid globaalsetes kontodes, alakontodes, Cloud Foundry organisatsioonides ja ruumides — kõik ühest vaatest. Leidke iga SAP BTP kasutaja koheselt pöördotsingu abil.",
+      "description": "Kontrollige iga BTP kasutajat, rolli ja API identimisteavet kogu oma maastikul - ühest rakendusest. Täielik nähtavus, täielik kontroll, iga Global Account'i, alamkonto ja Cloud Foundry keskkonna üle, mida te käitate.",
       "shieldBadge": "SAP OAuth · Mandaate ei salvestata"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "monthly": "Igakuine",
       "annual": "Iga-aastane",
       "save": "Säästa 17%"
+    },
+    "why": {
+      "eyebrow": "Tõeline põhjus, miks BTP xID on olemas",
+      "question": "Kui kasutaja lahkub teie ettevõttest homme, kas te võite öelda - vähem kui minut - kõik Sub-Account, Cloud Foundry Org ja Space, millele neil on juurdepääs kogu teie SAP BTP maastikul?",
+      "problemLabel": "Probleem",
+      "problem": "Enamiku SAP BTP meeskondade jaoks on aus vastus ei. Kokpit on ehitatud kontode ümber - mitte isiku ümber. Selle küsimuse vastamine tähendab iga alamkonto, iga CF Org ja Space'i navigeerimist ükshaaval ja tulemuste käsitsi lepitamist.",
+      "iasNote": "Ja SAP IAS ei lahenda seda ka. IAS käsitleb autentimist ja saab rühmi Role Collections'ile kaardistada, kuid ei määra Cloud Foundry Org ega Space rolle ning ei saa teile öelda, kus kasutaja teie alamkontodes, CF Orgs ja Spaces'ides tegelikult asub.",
+      "solutionLabel": "BTP xID-ga",
+      "solution": "Tippige kasutaja e-posti ja näete kohe <b>iga Global Account, Sub-Account, Cloud Foundry Org ja Space</b>, millel nad teie kogu SAP BTP maastikul eksisteerivad - nende rollidega. Otsige API identimisteabe järgi eksemplari nime, võtme nime, looja või aegumiskuupäeva järgi kogu maastikul.",
+      "solutionExtra": "Sama rakendus käsitleb onboarding'ut ja offboarding'ut ühe klikiga ja Cloud Foundry Org Manager sunni lisamine SAP Note 3249765 kohta.",
+      "readMore": "Lugege täielikku lugu"
     }
   }
 }

@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Kontaktujte nás",
-    "title": "Jste připraveni na transformaci Vašeho podnikání?",
-    "subtitle": "Zarezervujte si bezplatnou konzultaci s našimi experty na SAP BTP",
+    "title": "Kontaktujte nás",
+    "subtitle": "Promluvte si s naším týmem o vašich požadavcích na řízení přístupu SAP BTP.",
     "availability": "Omezený počet termínů",
     "contactInfo": "Kontaktní údaje",
     "email": "E-mail",
@@ -1556,7 +1556,7 @@
       "title1": "Jedna aplikace.",
       "title2": "Každý uživatel.",
       "title3": "Všechny účty.",
-      "description": "Spravujte uživatele SAP BTP v globálních účtech, podúčtech, organizacích a prostorech Cloud Foundry — vše z jednoho přehledu. Okamžité zpětné vyhledání libovolného uživatele SAP BTP.",
+      "description": "Spravujte každého BTP uživatele, roli a přihlašovací údaje API v celé vaší krajině - z jedné aplikace. Úplná viditelnost, úplná kontrola, v každém Global Account, podúčtu a Cloud Foundry prostředí, které provozujete.",
       "shieldBadge": "SAP OAuth · Žádné přihlašovací údaje nejsou uloženy"
     },
     "valueProps": {
@@ -1674,6 +1674,17 @@
       "title1": "Vytvořeno pro administrátory SAP BTP.",
       "title2": "Odborníky SAP BTP.",
       "subtitle": "Jedinou desktopovou aplikaci vytvořenou speciálně pro správu uživatelů SAP BTP — zobrazte každého uživatele v globálních účtech, podúčtech, CF organizacích a CF prostorech v jednom jednotném seznamu."
+    },
+    "why": {
+      "eyebrow": "Skutečný důvod, proč existuje BTP xID",
+      "question": "Pokud si uživatel zítra odejde z vaší společnosti, můžete říci - za méně než minutu - každý Sub-Account, Cloud Foundry Org a Space, ke kterým mají přístup v celé vaší SAP BTP krajině?",
+      "problemLabel": "Problém",
+      "problem": "Pro většinu SAP BTP týmů je poctivá odpověď ne. Kokpit je postaven kolem účtů - ne kolem osoby. Odpověď na tuto otázku znamená procházení každý podúčet, každý CF Org a Space jeden po jednom a ruční sladění výsledků.",
+      "iasNote": "A SAP IAS to také neřeší. IAS zpracovává ověřování a může mapovat skupiny na Role Collections, ale nepřiřazuje role Cloud Foundry Org nebo Space a nemůže vám říci, kde se uživatel skutečně nachází v celých vašich podúčtech, CF Orgs a Spaces.",
+      "solutionLabel": "S BTP xID",
+      "solution": "Zadejte e-mail uživatele a okamžitě vidíte <b>každý Global Account, Sub-Account, Cloud Foundry Org a Space</b>, ve kterém existují v celé vaší SAP BTP krajině - s jejich rolemi. Vyhledávejte přihlašovací údaje API podle názvu instance, názvu klíče, tvůrce nebo data vypršení platnosti v celé krajině.",
+      "solutionExtra": "Stejná aplikace zpracovává onboarding a offboarding v jednom kliknutí a Cloud Foundry Org Manager vynutit přidání za SAP Note 3249765.",
+      "readMore": "Přečtěte si celý příběh"
     }
   }
 }

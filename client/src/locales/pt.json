@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Começar",
-    "title": "Pronto para Transformar Seu Negócio?",
-    "subtitle": "Agende uma consulta gratuita com nossos especialistas em SAP BTP",
+    "title": "Entre em contato",
+    "subtitle": "Fale com nosso time sobre seus requisitos de governança de acesso ao SAP BTP.",
     "availability": "Disponibilidade Limitada",
     "contactInfo": "Informações de Contato",
     "email": "Email",
@@ -1557,7 +1557,7 @@
       "title1": "Um app.",
       "title2": "Cada usuário.",
       "title3": "Todas as contas.",
-      "description": "Gerencie usuários de SAP BTP em contas globais, subcontas, organizações e espaços do Cloud Foundry — tudo em um único painel. Pesquisa reversa de qualquer usuário de SAP BTP instantaneamente.",
+      "description": "Controle cada usuário BTP, função e credencial de API em toda a sua paisagem - de um único aplicativo. Visibilidade completa, controle completo, em cada Global Account, subconta e ambiente Cloud Foundry que você executa.",
       "shieldBadge": "SAP OAuth · Nenhuma credencial armazenada"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "title1": "Construído para administradores de SAP BTP.",
       "title2": "Por especialistas em SAP BTP.",
       "subtitle": "O único aplicativo de desktop feito especificamente para gerenciamento de usuários do SAP BTP — veja cada usuário em contas globais, subcontas, organizações CF e espaços CF em uma lista unificada."
+    },
+    "why": {
+      "eyebrow": "A Verdadeira Razão pela qual BTP xID Existe",
+      "question": "Se um usuário sair de sua empresa amanhã, você consegue dizer - em menos de um minuto - todas as Sub-Accounts, Cloud Foundry Orgs e Spaces aos quais ele tem acesso em toda a sua paisagem SAP BTP?",
+      "problemLabel": "O problema",
+      "problem": "Para a maioria das equipes SAP BTP, a resposta honesta é não. O cockpit é construído em torno de contas - não em torno da pessoa. Responder essa pergunta significa navegar em cada subconta, cada CF Org e Space um por um e reconciliar manualmente os resultados.",
+      "iasNote": "E SAP IAS também não resolve isso. IAS lida com autenticação e pode mapear grupos para Role Collections, mas não atribui funções do Cloud Foundry Org ou Space e não pode informar onde um usuário realmente está em suas subcontas, CF Orgs e Spaces.",
+      "solutionLabel": "Com BTP xID",
+      "solution": "Digite o e-mail do usuário e você vê instantaneamente <b>todas as Global Accounts, Sub-Accounts, Cloud Foundry Orgs e Spaces</b> onde existem em toda a sua paisagem SAP BTP - com suas funções. Procure credenciais de API por nome de instância, nome de chave, criador ou data de vencimento em toda a paisagem.",
+      "solutionExtra": "O mesmo aplicativo lida com integração e desativação em um único clique e Cloud Foundry Org Manager força a adição por SAP Note 3249765.",
+      "readMore": "Leia a história completa"
     }
   }
 }

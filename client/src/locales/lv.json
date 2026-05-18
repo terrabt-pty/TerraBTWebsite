@@ -137,8 +137,8 @@
   },
   "contact": {
     "badge": "Sāksim darbu",
-    "title": "Vai esat gatavi transformācijai?",
-    "subtitle": "Rezervējiet bezmaksas konsultāciju ar SAP BTP ekspertiem",
+    "title": "Sazinies ar mums",
+    "subtitle": "Runājiet ar mūsu komandu par SAP BTP pieejamības vadības prasībām.",
     "availability": "Maksimuma pieprasījums – ierobežots vietu skaits",
     "contactInfo": "Kontaktinformācija",
     "email": "E-pasts",
@@ -1548,7 +1548,7 @@
       "title1": "Viena lietotne.",
       "title2": "Katrs lietotājs.",
       "title3": "Visi konti.",
-      "description": "Pārvaldiet SAP BTP lietotājus globālajos kontos, subkontos, Cloud Foundry organizācijās un telpās — viss no viena skata. Tūlītēja apgrieztā meklēšana jebkuram SAP BTP lietotājam.",
+      "description": "Pārvaldiet katru BTP lietotāju, lomu un API kredenciālu savā ainā - no vienas lietotnes. Pilna redzamība, pilna kontrole visos Global Account, apakškontos un Cloud Foundry vidē, ko jūs palaižat.",
       "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti"
     },
     "valueProps": {
@@ -1666,6 +1666,17 @@
       "monthly": "Ikmēneša",
       "annual": "Ikgadēja",
       "save": "Ietaupiet 17%"
+    },
+    "why": {
+      "eyebrow": "Patiesos iemesls, kāpēc BTP xID pastāv",
+      "question": "Ja lietotājs rīt atstātu jūsu uzņēmumu, vai jūs varētu teikt - mazāk nekā minūtē - katru Sub-Account, Cloud Foundry Org un Space, kuriem viņš var piekļūt visā jūsu SAP BTP ainā?",
+      "problemLabel": "Problēma",
+      "problem": "Lielākajai daļai SAP BTP komandu patiesa atbilde ir nē. Kabīne tiek veidota ap kontiem - nevis ap personu. Atbildēt uz šo jautājumu nozīmē pārvietoties caur katru apakškontu, katru CF Org un Space pa vienam un manuāli saskaņot rezultātus.",
+      "iasNote": "Un SAP IAS to arī neatrisina. IAS apstrādā autentifikāciju un var kartēt grupas uz Role Collections, taču tas nenorāda Cloud Foundry Org vai Space lomas un nevar jums patstāstīt, kur lietotājs faktiski atrodas jūsu apakškontos, CF Orgs un Spaces.",
+      "solutionLabel": "Izmantojot BTP xID",
+      "solution": "Ierakstiet lietotāja e-pastu un nekavējoties redzēsiet <b>katru Global Account, Sub-Account, Cloud Foundry Org un Space</b>, kur viņi pastāv jūsu visā SAP BTP ainā - ar viņu lomām. Meklējiet API kredenciālus pēc gadījuma nosaukuma, atslēgas nosaukuma, veidotāja vai beigu datuma visā ainā.",
+      "solutionExtra": "Tā pati lietotne apstrādā uzņemšanu un atlaišanu vienā noklikšķinājumā un Cloud Foundry Org Manager piespiež pievienošanu uz SAP Note 3249765.",
+      "readMore": "Lasiet pilnu stāstu"
     }
   }
 }

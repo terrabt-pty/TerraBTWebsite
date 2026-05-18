@@ -452,18 +452,10 @@ export default {
           return `${origin}${prefix}${basePath}`;
         };
 
-        // 4. Canonical Tag (Self-referencing)
-        // We use the DETECTED language (this.lang) to form the canonical
-        // If this.lang is 'en-US', we treat it as 'en' for the URL structure if that's the convention
-        // The client code maps 'en' to '' (root).
-        // matchedCode from main logic is what we want.
-
-        // We need to know if the CURRENT URL is the canonical one.
-        // Ideally we just point to the version corresponding to this.lang.
-        // Note: this.lang passed to constructor comes from 'matchedCode' which is normalized.
-
-        const currentLangCode = this.lang.startsWith('en') ? 'en' : this.lang;
-        const canonicalUrl = buildUrl(currentLangCode);
+        // 4. Canonical Tag — always the language-neutral (English) URL
+        // This ensures Google indexes and shows www.terrabt.com/ not www.terrabt.com/de/
+        // regardless of which language variant is being served.
+        const canonicalUrl = buildUrl('en');
 
         element.append(
           `<link rel="canonical" href="${canonicalUrl}" />`,

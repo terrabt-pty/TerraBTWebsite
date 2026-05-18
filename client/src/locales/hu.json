@@ -145,8 +145,8 @@
   },
   "contact": {
     "badge": "Kezdje el",
-    "title": "Kész vállalkozása átalakítására?",
-    "subtitle": "Foglaljon ingyenes konzultációt SAP BTP szakértőinkkel",
+    "title": "Lépjen velünk kapcsolatba",
+    "subtitle": "Beszéljen csapatunkkal az SAP BTP hozzáférés-irányítási követelményeiről.",
     "availability": "Korlátozott elérhetőség",
     "contactInfo": "Kapcsolattartási adatok",
     "email": "E-mail",
@@ -1557,7 +1557,7 @@
       "title1": "Egy alkalmazás.",
       "title2": "Minden felhasználó.",
       "title3": "Minden fiók.",
-      "description": "Kezelje az SAP BTP felhasználókat globális fiókokban, alfiókokban, Cloud Foundry szervezetekben és területeken — egyetlen áttekintésből. Bármely SAP BTP felhasználó azonnali fordított keresése.",
+      "description": "Irányítsa az egyes BTP felhasználókat, szerepeket és API hitelesítő adatokat az egész tájképén - egyetlen alkalmazásból. Teljes láthatóság, teljes vezérlés, minden Global Account, részfiók és Cloud Foundry környezet felett, amelyet üzemeltet.",
       "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat"
     },
     "valueProps": {
@@ -1675,6 +1675,17 @@
       "title1": "Az SAP BTP rendszergazdák számára készítve.",
       "title2": "Az SAP BTP szakértői által.",
       "subtitle": "Az egyetlen kifejezetten az SAP BTP felhasználókezeléshez készített asztali alkalmazás — nézze meg az összes felhasználót a globális fiókok, alfiókok, CF szervezetek és CF terek között egy egyesített listában."
+    },
+    "why": {
+      "eyebrow": "Az igazi oka annak, hogy a BTP xID létezik",
+      "question": "Ha egy felhasználó holnap elhagyja a cégét, meg tudod-e mondani - egy perc alatt - minden Sub-Account, Cloud Foundry Org és Space, amelyhez hozzáférésük van az egész SAP BTP tájképén?",
+      "problemLabel": "A probléma",
+      "problem": "A legtöbb SAP BTP csapat számára az őszinte válasz nem. A vezetőfülke számlák körül épül fel - nem a személy körül. A kérdés megválaszolása azt jelenti, hogy minden részfiók, minden CF Org és Space között egyenként navigálnak, és manuálisan egyeztetik az eredményeket.",
+      "iasNote": "Az SAP IAS sem oldja meg ezt. Az IAS kezeli a hitelesítést és képes csoportokat Role Collections-ra leképezni, de nem rendel Cloud Foundry Org vagy Space szerepeket, és nem tudja megmondani, hogy egy felhasználó hol helyezkedik el az Ön részfiókjaiban, CF Orgs és Spaces között.",
+      "solutionLabel": "BTP xID-vel",
+      "solution": "Írja be a felhasználó e-mail címét, és azonnal látja <b>minden Global Account, Sub-Account, Cloud Foundry Org és Space</b> ahol léteznek az egész SAP BTP tájképén - a szerepeikkel. Keresse az API hitelesítő adatokat a példány neve, a kulcsnév, a készítő vagy a lejárat dátuma alapján az egész tájképen.",
+      "solutionExtra": "Ugyanaz az alkalmazás egy kattintásra kezeli a fedélzetre és a fedélzetről való leszállást, valamint a Cloud Foundry Org Manager kényszer hozzáadást az SAP Note 3249765 szerint.",
+      "readMore": "Olvassa el a teljes történetet"
     }
   }
 }
