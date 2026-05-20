@@ -1679,6 +1679,80 @@
       "solution": "Tapez l'e-mail de l'utilisateur et vous voyez instantanément <b>chaque Global Account, Sub-Account, Cloud Foundry Org et Space</b> où il existe dans tout votre paysage SAP BTP - avec ses rôles. Recherchez les identifiants API par nom d'instance, nom de clé, créateur ou date d'expiration dans tout le paysage.",
       "solutionExtra": "La même application gère l'intégration et le déploiement en un seul clic, et Cloud Foundry Org Manager force l'ajout par SAP Note 3249765.",
       "readMore": "Lire l'histoire complète"
+    },
+    "apiCredentials": {
+      "label": "Les clés de service sont des clés API",
+      "title": "Chaque credential API et chaque utilisateur dans votre paysage BTP — une seule vue",
+      "subtitle": "SAP BTP émet des credentials API à plusieurs niveaux — Global Account, Sub-account et dans chaque Cloud Foundry org et space. Aujourd'hui, chaque niveau est géré via un écran SAP différent. BTP xID les réunit dans une vue auditable.",
+      "todayLabel": "Dans SAP BTP aujourd'hui",
+      "todayText": "Les credentials API Sub-account sont présentées dans l'instance de service à laquelle elles sont liées. Les credentials API au niveau Global Account sont gérées via la BTP CLI. Chaque surface fonctionne bien — BTP xID est l'application unique qui consolide les deux.",
+      "xidLabel": "Avec BTP xID",
+      "xidText1": "Un écran. Chaque credential API dans votre paysage — y compris les credentials au niveau Global Account gérées via la BTP CLI. Filtrer, auditer, révoquer.",
+      "xidText2": "Présentez chaque credential API dans votre paysage — y compris celles uniquement visibles via la BTP CLI. Filtrer, auditer, révoquer. Remettez à votre auditeur un seul export au lieu d'une semaine de travail.",
+      "readMore": "La ventilation complète →"
+    },
+    "ias": {
+      "label": "Fonctionne avec SAP IAS",
+      "title1": "IAS sécurise l'identité.",
+      "title2": "BTP xID gouverne l'accès.",
+      "subtitle": "SAP IAS gère l'authentification. BTP xID gère ce qui suit — qui peut accéder à quoi, dans chaque account, org et space de votre paysage BTP.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identité, authentification et gouvernance d'accès partielle",
+      "xidBadge": "BTP xID",
+      "xidTitle": "Gouvernance d'accès complet",
+      "footer": "Que vous ayez IAS ou non, BTP xID vous donne un endroit unique pour voir et gérer tous les accès BTP — utilisateurs, rôles et credentials API sur Global Accounts, sub-accounts, CF Orgs et Spaces.",
+      "readMore": "Lire la ventilation complète →",
+      "iasItems": [
+        "Authentification unique et MFA",
+        "Fédération IdP d'entreprise (SAML / OIDC)",
+        "Provisionnement des utilisateurs via SCIM",
+        "Politiques d'authentification basées sur les risques",
+        "Journaux d'audit d'authentification",
+        "Attribution des utilisateurs et des rôles au niveau Global Account et Sub-account"
+      ],
+      "xidItems": [
+        "Service API Credential Management across every level — list, audit and revoke OAuth credentials in one place",
+        "Gestion des utilisateurs et attribution des rôles sur Global Accounts, Sub-accounts, Répertoires, CF Orgs et Spaces",
+        "Gestion des utilisateurs en masse sur l'ensemble de votre paysage BTP",
+        "Visibilité à l'échelle du paysage : qui a accès à quoi",
+        "Gouvernance pour les utilisateurs IdP personnalisés"
+      ]
+    },
+    "threeSteps": {
+      "label": "Three steps to secure your API credentials in SAP BTP",
+      "title1": "What every SAP BTP admin",
+      "title2": "needs to know about API credentials.",
+      "step1Label": "1. Secure access to CF Orgs and Spaces",
+      "step1Body1": "API credentials in SAP BTP live at the Cloud Foundry space level. We verified this: a user removed from a sub-account still had full CF access via CLI.",
+      "step1Body2": "BTP xID removes the user and their role assignments across every org and space as part of offboarding.",
+      "step2Label": "2. Audit, revoke and track API credentials across the landscape",
+      "step2Body1": "API credentials don't expire by default. Anyone who has worked with a credential has seen its secret. When team members leave, those credentials need to be revoked.",
+      "step2Body2": "SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential from one place.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Find and remove ghost API credentials",
+      "step3Body": "Global Account-level API credentials are not visible in the BTP cockpit — only via the BTP CLI. BTP xID surfaces them all."
+    },
+    "roadmap": {
+      "label": "On the roadmap",
+      "title": "Capabilities we are bringing next.",
+      "subtitle": "These are capabilities we are exploring. Nothing here is a commitment — priorities shift and some may not ship.",
+      "comingBadge": "Coming",
+      "item1Title": "Time-bound role assignments",
+      "item1Body": "Give a contractor a Space Developer role for 30 days — BTP xID revokes it automatically when the period ends.",
+      "item2Title": "Emergency firefighter IDs",
+      "item2Body": "Provision break-glass access with a hard expiration, natively in BTP.",
+      "item3Title": "Role and role collection authoring",
+      "item3Body": "Create and edit BTP role collections directly from BTP xID.",
+      "item4Title": "Continuous access reviews",
+      "item4Body": "Surface dormant accounts, unused role collections, and stale API credentials for quarterly review."
+    },
+    "trustStrip": {
+      "item1Strong": "Runs locally",
+      "item1Span": "on macOS & Windows — no data leaves your machine",
+      "item2Strong": "Direct to BTP APIs",
+      "item2Span": "no proxy, no relay, no third-party cloud",
+      "item3Strong": "Your credentials, your auth",
+      "item3Span": "signs in with your existing BTP login"
     }
   }
 }
