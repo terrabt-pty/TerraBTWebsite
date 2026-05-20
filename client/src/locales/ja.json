@@ -1715,6 +1715,80 @@
       "solution": "ユーザーのメールアドレスを入力すると、SAP BTzパノラマ全体で存在するすべての<b>Global Account、Sub-Account、Cloud Foundry Org、Space</b>がロールとともに表示されます。API認証情報をインスタンス名、キー名、作成者、有効期限日付でパノラマ全体で検索します。",
       "solutionExtra": "同じアプリはワンクリックでオンボーディングとオフボーディングを処理し、Cloud Foundry Org ManagerはSAP Note 3249765ごとに追加を強制します。",
       "readMore": "完全なストーリーを読む"
+    },
+    "apiCredentials": {
+      "label": "サービスキーはAPIキー",
+      "title": "SAP BTPランドスケープのすべてのAPIクレデンシャルとすべてのユーザー — 1つのビュー",
+      "subtitle": "SAP BTPは複数のレベルでAPIクレデンシャルを発行します。BTP xIDはそれらを統合します。",
+      "todayLabel": "現在のSAP BTP",
+      "todayText": "サブアカウントAPIクレデンシャルはサービスインスタンス内にあります。BTP xIDはその両方を統合します。",
+      "xidLabel": "BTP xIDで",
+      "xidText1": "1つの画面。すべてのAPIクレデンシャル — グローバルアカウントレベルを含めて。フィルター、監査、失効させる。",
+      "xidText2": "すべてのクレデンシャルを表示します。監査人に単一のエクスポートを渡してください。",
+      "readMore": "完全な詳細 →"
+    },
+    "ias": {
+      "label": "SAP IASと連携",
+      "title1": "IASが識別を確保します。",
+      "title2": "BTP xIDがアクセスを管理します。",
+      "subtitle": "SAP IASは認証を処理します。BTP xIDはその後の処理を処理します。",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "アイデンティティ、認証、および部分的なアクセス管理",
+      "xidBadge": "BTP xID",
+      "xidTitle": "完全なアクセス管理",
+      "footer": "IASがあるかどうかに関係なく、BTP xIDはすべてのBTPアクセスの一元的な場所を提供します。",
+      "readMore": "完全な詳細を読む →",
+      "iasItems": [
+        "シングルサインオンとMFA",
+        "企業IdPフェデレーション(SAML / OIDC)",
+        "SCIMによるユーザープロビジョニング",
+        "リスクベースの認証ポリシー",
+        "認証監査ログ",
+        "グローバルおよびサブアカウントレベルでのユーザーおよびロール割り当て"
+      ],
+      "xidItems": [
+        "サービスAPIクレデンシャル管理 — リスト、監査、失効",
+        "すべてのレベルのユーザー管理",
+        "一括ユーザー管理",
+        "ランドスケープ全体の可視性",
+        "カスタムIdPユーザーのガバナンス"
+      ]
+    },
+    "threeSteps": {
+      "label": "SAP BTPのAPIクレデンシャルをセキュアにするための3つのステップ",
+      "title1": "すべてのSAP BTP管理者が",
+      "title2": "APIクレデンシャルについて知る必要があることについて。",
+      "step1Label": "1. Cloud Foundry OrgおよびSpaceへのアクセスをセキュアにする",
+      "step1Body1": "APIクレデンシャルはCloud Foundry spaceレベルに存在します。サブアカウントから削除されたユーザーでもCLI経由でCFアクセスを持ちます。",
+      "step1Body2": "BTP xIDは、オフボーディングの一部として、ユーザーとそのロール割り当てをすべてのorgおよびspaceから削除します。",
+      "step2Label": "2. APIクレデンシャルを監査、失効、追跡する",
+      "step2Body1": "APIクレデンシャルはデフォルトでは有効期限がありません。チームメンバーが退職したとき、それらのクレデンシャルを失効させる必要があります。",
+      "step2Body2": "SAPでは90日ごとのローテーションを推奨しています。BTP xIDはすべてのクレデンシャルを1つの場所から表示します。",
+      "step2Ref": "SAP — サービスインスタンスシークレット",
+      "step3Label": "3. ゴーストAPIクレデンシャルを検出して削除する",
+      "step3Body": "グローバルアカウントレベルのAPIクレデンシャルはBTPコックピットに表示されません。BTP xIDはすべてを表示します。"
+    },
+    "roadmap": {
+      "label": "ロードマップ上",
+      "title": "次に提供する機能。",
+      "subtitle": "これらは検討している機能です。ここに記載されているものは約束ではありません。",
+      "comingBadge": "近日中",
+      "item1Title": "期間限定のロール割り当て",
+      "item1Body": "契約社員に30日間のロールを与える — BTP xIDが自動的に失効させます。",
+      "item2Title": "緊急消防士ID",
+      "item2Body": "ハード有効期限を持つブレーカーガラスアクセスをプロビジョニングします。",
+      "item3Title": "ロールおよびロール構成の作成",
+      "item3Body": "BTP xIDからBTPロール構成を作成および編集します。",
+      "item4Title": "継続的なアクセスレビュー",
+      "item4Body": "休止中のアカウントと古いAPIクレデンシャルを四半期ごとのレビューのために表示します。"
+    },
+    "trustStrip": {
+      "item1Strong": "ローカルで実行",
+      "item1Span": "macOSおよびWindows上 — データは機械を離れません",
+      "item2Strong": "BTP APIへの直接接続",
+      "item2Span": "プロキシなし、リレーなし、サードパーティクラウドなし",
+      "item3Strong": "あなたのクレデンシャル、あなたの認証",
+      "item3Span": "既存のBTPログインで署名"
     }
   }
 }

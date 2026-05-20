@@ -1686,6 +1686,26 @@
       "solution": "输入用户的电子邮件，您将立即看到<b>整个SAP BTP环境中存在的每个Global Account、Sub-Account、Cloud Foundry Org和Space</b>——以及他们的角色。按实例名称、密钥名称、创建者或到期日期在整个环境中搜索API凭据。",
       "solutionExtra": "同一个应用处理入职和离职一键式操作，以及Cloud Foundry Org Manager根据SAP Note 3249765强制添加。",
       "readMore": "阅读完整的故事"
+    },
+    "apiCredentials": {
+      "label": "服务密钥是API密钥"
+    },
+    "ias": {
+      "label": "与SAP IAS配合使用",
+      "title1": "IAS保证身份。",
+      "title2": "BTP xID管理访问。"
+    },
+    "threeSteps": {
+      "label": "在SAP BTP中保护API凭证的三个步骤"
+    },
+    "roadmap": {
+      "label": "在路线图上",
+      "comingBadge": "即将推出"
+    },
+    "trustStrip": {
+      "item1Strong": "本地运行",
+      "item2Strong": "直接到BTP API",
+      "item3Strong": "您的凭证，您的认证"
     }
   }
 }

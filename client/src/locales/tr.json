@@ -1685,6 +1685,26 @@
       "solution": "Kullanıcının e-postasını yazın ve anında tüm SAP BTP ortamınızda bulunduğu <b>her Global Account, Sub-Account, Cloud Foundry Org ve Space</b>'i görmüş olursunuz - rolleriyle birlikte. API kimlik bilgilerini tüm ortamda örnek adı, anahtar adı, oluşturucu veya sona erme tarihi ile arayın.",
       "solutionExtra": "Aynı uygulama ekleme ve kaldırmayı tek tıkla gerçekleştirir ve Cloud Foundry Org Manager SAP Not 3249765 başına eklemeyi zorlar.",
       "readMore": "Tam hikayeyi oku"
+    },
+    "apiCredentials": {
+      "label": "Hizmet anahtarları API anahtarlarıdır"
+    },
+    "ias": {
+      "label": "SAP IAS ile çalışır",
+      "title1": "IAS kimliği güvence altına alır.",
+      "title2": "BTP xID erişimi yönetir."
+    },
+    "threeSteps": {
+      "label": "SAP BTP'de API kimlik bilgilerinizi güvence altına almak için üç adım"
+    },
+    "roadmap": {
+      "label": "Yol haritasında",
+      "comingBadge": "Geliyor"
+    },
+    "trustStrip": {
+      "item1Strong": "Yerel olarak çalışır",
+      "item2Strong": "BTP API'lerine doğrudan",
+      "item3Strong": "Sizin kimlik bilgileriniz, sizin kimlik doğrulama"
     }
   }
 }

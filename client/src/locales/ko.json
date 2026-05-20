@@ -1686,6 +1686,26 @@
       "solution": "사용자 이메일을 입력하면 전체 SAP BTP 환경에서 존재하는 <b>모든 Global Account, Sub-Account, Cloud Foundry Org 및 Space</b>와 함께 역할을 즉시 볼 수 있습니다. 인스턴스 이름, 키 이름, 작성자 또는 만료 날짜로 전체 환경에서 API 자격 증명을 검색합니다.",
       "solutionExtra": "동일한 앱은 한 번의 클릭으로 온보딩 및 오프보딩을 처리하며 Cloud Foundry Org Manager는 SAP Note 3249765당 추가를 강제합니다.",
       "readMore": "전체 스토리 읽기"
+    },
+    "apiCredentials": {
+      "label": "서비스 키는 API 키입니다"
+    },
+    "ias": {
+      "label": "SAP IAS와 협력",
+      "title1": "IAS가 신원을 보호합니다.",
+      "title2": "BTP xID가 액세스를 관리합니다."
+    },
+    "threeSteps": {
+      "label": "SAP BTP에서 API 자격증명을 보호하는 3가지 단계"
+    },
+    "roadmap": {
+      "label": "로드맵에",
+      "comingBadge": "곧 출시"
+    },
+    "trustStrip": {
+      "item1Strong": "로컬에서 실행",
+      "item2Strong": "BTP API로 직접",
+      "item3Strong": "귀사의 자격증명, 귀사의 인증"
     }
   }
 }

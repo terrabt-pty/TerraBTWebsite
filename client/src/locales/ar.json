@@ -1685,6 +1685,26 @@
       "solution": "اكتب بريد المستخدم الإلكتروني، وترى على الفور <b>كل Global Account وSub-Account وCloud Foundry Org وSpace</b> الموجودة فيها عبر منظرك الساب BTP الكامل — مع أدوارهم. ابحث عن بيانات اعتماد API حسب اسم المثيل أو اسم المفتاح أو المنشئ أو تاريخ انتهاء الصلاحية عبر المنظر بأكمله.",
       "solutionExtra": "يتعامل نفس التطبيق مع الإدخال والخروج في نقرة واحدة، وCloud Foundry Org Manager فرض الإضافة لكل SAP Note 3249765.",
       "readMore": "اقرأ القصة الكاملة"
+    },
+    "apiCredentials": {
+      "label": "مفاتيح الخدمة هي مفاتيح API"
+    },
+    "ias": {
+      "label": "يعمل مع SAP IAS",
+      "title1": "IAS يؤمن الهوية.",
+      "title2": "BTP xID يحكم الوصول."
+    },
+    "threeSteps": {
+      "label": "ثلاث خطوات لتأمين بيانات اعتماد API في SAP BTP"
+    },
+    "roadmap": {
+      "label": "على خارطة الطريق",
+      "comingBadge": "قادمة قريبا"
+    },
+    "trustStrip": {
+      "item1Strong": "يعمل محليا",
+      "item2Strong": "مباشرة إلى واجهات برمجة تطبيقات BTP",
+      "item3Strong": "بيانات اعتمادك، مصادقتك"
     }
   }
 }
