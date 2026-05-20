@@ -214,35 +214,29 @@ export default function BTPxIDProduct() {
         <div className="btpxid-why-inner">
           <div className="btpxid-why-header">
             <h2 className="btpxid-why-title">
-              Every <span className="btpxid-why-accent">API Credential</span> and Every User in your BTP landscape — one view
+              {t('btpxidProduct.apiCredentials.title')}
             </h2>
             <p className="btpxid-why-question">
-              SAP BTP issues API credentials at multiple levels — Global Account, Sub-account, and across every Cloud Foundry org and space. Today each level is managed through a different SAP screen. BTP xID brings them together in one auditable view.
+              {t('btpxidProduct.apiCredentials.subtitle')}
             </p>
           </div>
 
           <div className="btpxid-why-grid">
             <div className="btpxid-why-card btpxid-why-problem">
-              <div className="btpxid-why-card-label">In SAP BTP today</div>
-              <p>
-                Sub-account API credentials are presented inside the service instance they're bound to. Global Account-level API credentials are managed through the BTP CLI. Each surface works well — BTP xID is the single app that consolidates both.
-              </p>
+              <div className="btpxid-why-card-label">{t('btpxidProduct.apiCredentials.todayLabel')}</div>
+              <p>{t('btpxidProduct.apiCredentials.todayText')}</p>
             </div>
 
             <div className="btpxid-why-card btpxid-why-solution">
-              <div className="btpxid-why-card-label">With BTP xID</div>
-              <p>
-                One screen. Every API credential across your landscape — <strong>including the Global Account-level credentials managed via the BTP CLI</strong>. Filter, audit, revoke.
-              </p>
-              <p>
-                Surface every API credential in your landscape — including the ones only visible via the BTP CLI. Filter, audit, revoke. Hand your auditor a single export instead of a week's work.
-              </p>
+              <div className="btpxid-why-card-label">{t('btpxidProduct.apiCredentials.xidLabel')}</div>
+              <p>{t('btpxidProduct.apiCredentials.xidText1')}</p>
+              <p>{t('btpxidProduct.apiCredentials.xidText2')}</p>
             </div>
           </div>
 
           <div className="btpxid-why-cta">
             <a href="/blog/btp-service-keys-api-credentials" className="btpxid-why-link">
-              The full breakdown: every BTP service, what its key contains, what it unlocks →
+              {t('btpxidProduct.apiCredentials.readMore')}
             </a>
           </div>
         </div>
@@ -252,12 +246,12 @@ export default function BTPxIDProduct() {
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">Works With SAP IAS</div>
+      <div className="btpxid-features-label">{t('btpxidProduct.ias.label')}</div>
       <h2 className="btpxid-showcase-title">
-        IAS secures identity.<br />BTP xID governs access.
+        {t('btpxidProduct.ias.title1')}<br />{t('btpxidProduct.ias.title2')}
       </h2>
       <p className="btpxid-showcase-sub">
-        SAP IAS handles authentication. BTP xID handles what comes after — who can access what, across every account, org, and space in your BTP landscape.
+        {t('btpxidProduct.ias.subtitle')}
       </p>
     </div>
 
@@ -265,18 +259,11 @@ export default function BTPxIDProduct() {
       {/* IAS column */}
       <div className="btpxid-ias-col btpxid-ias-col-ias">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-ias">SAP IAS</span>
-          <h3 className="btpxid-ias-col-title">Identity, Authentication &amp; Partial Access Governance</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-ias">{t('btpxidProduct.ias.iasBadge')}</span>
+          <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.iasTitle')}</h3>
         </div>
         <ul className="btpxid-ias-list">
-          {[
-            "Single sign-on & multi-factor authentication",
-            "Corporate IdP federation (SAML / OIDC)",
-            "User provisioning via SCIM",
-            "Risk-based authentication policies",
-            "Authentication audit logs",
-            "User and role assignment at SAP BTP Global and Sub-account level",
-          ].map((item) => (
+          {(t('btpxidProduct.ias.iasItems', { returnObjects: true }) as string[]).map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#E2E8F0"/>
@@ -298,17 +285,11 @@ export default function BTPxIDProduct() {
       {/* BTP xID column */}
       <div className="btpxid-ias-col btpxid-ias-col-xid">
         <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-xid">BTP xID</span>
-          <h3 className="btpxid-ias-col-title">Full Access Governance</h3>
+          <span className="btpxid-ias-badge btpxid-ias-badge-xid">{t('btpxidProduct.ias.xidBadge')}</span>
+          <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.xidTitle')}</h3>
         </div>
         <ul className="btpxid-ias-list">
-          {[
-            "Service API Credential Management across every Global Account, Sub-account, Cloud Foundry Org and Space — list, audit and revoke OAuth credentials in one place",
-            "User Management & Role assignment across multiple Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Cloud Foundry Spaces in a single unified interface",
-            "Bulk user management across your entire BTP landscape",
-            "Landscape-wide visibility: who has access to what, across every account",
-            "Governance for custom IdP users — not just SAP ID Service accounts",
-          ].map((item) => (
+          {(t('btpxidProduct.ias.xidItems', { returnObjects: true }) as string[]).map((item) => (
             <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
               <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
@@ -330,7 +311,7 @@ export default function BTPxIDProduct() {
 
     {/* Footer callout */}
     <div className="btpxid-ias-footer">
-      Whether you have IAS or not, BTP xID gives you one place to see and manage all BTP access — users, roles, and API credentials across Global Accounts, sub-accounts, CF Orgs and Spaces.
+      {t('btpxidProduct.ias.footer')}
     </div>
   </div>
 </section>
@@ -339,40 +320,40 @@ export default function BTPxIDProduct() {
       <section className="btpxid-risks">
         <div className="btpxid-risks-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">Three steps to secure your API credentials in SAP BTP</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.threeSteps.label')}</div>
             <h2 className="btpxid-showcase-title">
-              What every SAP BTP admin<br />needs to know about API credentials.
+              {t('btpxidProduct.threeSteps.title1')}<br />{t('btpxidProduct.threeSteps.title2')}
             </h2>
           </div>
 
           <div className="btpxid-risks-grid">
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">1. Secure access to CF Orgs and Spaces</div>
+              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step1Label')}</div>
               <p className="btpxid-risk-card-body">
-                API credentials in SAP BTP live at the Cloud Foundry space level. We verified this ourselves: we removed a user from a sub-account entirely, confirmed their BTP cockpit access was gone — then logged into CF via the CLI with the same credentials. We had full access to every API credential in every org and space we previously held roles in.
+                {t('btpxidProduct.threeSteps.step1Body1')}
               </p>
               <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                BTP xID removes the user and their role assignments across every org and space as part of offboarding — closing the gap between sub-account removal and actual access termination.
+                {t('btpxidProduct.threeSteps.step1Body2')}
               </p>
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">2. Audit, revoke and track API credentials across the landscape</div>
+              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step2Label')}</div>
               <p className="btpxid-risk-card-body">
-                API credentials don't expire by default. Anyone who has ever viewed, generated or worked with a credential has effectively seen its secret. When team members change roles or leave, those credentials need to be revoked and new ones issued — but without a landscape-wide inventory, most teams don't even know which credentials exist, let alone who created them.
+                {t('btpxidProduct.threeSteps.step2Body1')}
               </p>
               <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential — across every sub-account, CF org and space — so you can audit, revoke and track them from one place.
+                {t('btpxidProduct.threeSteps.step2Body2')}
               </p>
               <p className="btpxid-risk-card-source">
-                Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">SAP — Service Instance Secrets</a>
+                Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">{t('btpxidProduct.threeSteps.step2Ref')}</a>
               </p>
             </div>
 
             <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">3. Find and remove ghost API credentials</div>
+              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step3Label')}</div>
               <p className="btpxid-risk-card-body">
-                Global Account-level API credentials exist in SAP BTP and are not visible anywhere in the BTP cockpit. They can only be retrieved via the BTP CLI — which means most teams don't know they exist. BTP xID surfaces these hidden credentials alongside all others, giving you a complete picture of what has access to your landscape.
+                {t('btpxidProduct.threeSteps.step3Body')}
               </p>
             </div>
           </div>
@@ -429,42 +410,42 @@ export default function BTPxIDProduct() {
       <section className="btpxid-roadmap">
         <div className="btpxid-roadmap-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">On the roadmap</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.roadmap.label')}</div>
             <h2 className="btpxid-showcase-title">
-              Capabilities we are bringing next.
+              {t('btpxidProduct.roadmap.title')}
             </h2>
             <p className="btpxid-showcase-sub">
-              These are capabilities we are exploring. Nothing here is a commitment — priorities shift, and some of these may not ship. We share them because they reflect where we think this product can go.
+              {t('btpxidProduct.roadmap.subtitle')}
             </p>
           </div>
 
           <div className="btpxid-roadmap-grid">
             <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">Coming</span>
-              <p className="btpxid-roadmap-card-title">Time-bound role assignments</p>
+              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
+              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item1Title')}</p>
               <p className="btpxid-roadmap-card-body">
-                Give a contractor a Space Developer role for 30 days, and BTP xID revokes it automatically when the period ends. No follow-up tickets, no expired-access reviews. The validity-date controls BTP itself does not offer.
+                {t('btpxidProduct.roadmap.item1Body')}
               </p>
             </div>
             <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">Coming</span>
-              <p className="btpxid-roadmap-card-title">Emergency firefighter IDs</p>
+              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
+              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item2Title')}</p>
               <p className="btpxid-roadmap-card-body">
-                Provision break-glass access with a hard expiration. The pattern your GRC team already uses for S/4HANA, brought natively to BTP — with logging and automatic revocation.
+                {t('btpxidProduct.roadmap.item2Body')}
               </p>
             </div>
             <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">Coming</span>
-              <p className="btpxid-roadmap-card-title">Role and role collection authoring</p>
+              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
+              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item3Title')}</p>
               <p className="btpxid-roadmap-card-body">
-                Create and edit BTP role collections directly from BTP xID. One workflow for design, assignment, and review — instead of the BTP cockpit's role-template-then-collection split.
+                {t('btpxidProduct.roadmap.item3Body')}
               </p>
             </div>
             <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">Coming</span>
-              <p className="btpxid-roadmap-card-title">Continuous access reviews</p>
+              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
+              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item4Title')}</p>
               <p className="btpxid-roadmap-card-body">
-                Surface dormant accounts, unused role collections, and stale API credentials for your quarterly review — without your team building a single SQL query or PowerShell script.
+                {t('btpxidProduct.roadmap.item4Body')}
               </p>
             </div>
           </div>
@@ -489,22 +470,22 @@ export default function BTPxIDProduct() {
             <div className="btpxid-trust-item">
               <span className="btpxid-trust-icon">●</span>
               <div>
-                <strong>Runs locally</strong>
-                <span>on macOS &amp; Windows — no data leaves your machine</span>
+                <strong>{t('btpxidProduct.trustStrip.item1Strong')}</strong>
+                <span>{t('btpxidProduct.trustStrip.item1Span')}</span>
               </div>
             </div>
             <div className="btpxid-trust-item">
               <span className="btpxid-trust-icon">●</span>
               <div>
-                <strong>Direct to BTP APIs</strong>
-                <span>no proxy, no relay, no third-party cloud</span>
+                <strong>{t('btpxidProduct.trustStrip.item2Strong')}</strong>
+                <span>{t('btpxidProduct.trustStrip.item2Span')}</span>
               </div>
             </div>
             <div className="btpxid-trust-item">
               <span className="btpxid-trust-icon">●</span>
               <div>
-                <strong>Your credentials, your auth</strong>
-                <span>signs in with your existing BTP login</span>
+                <strong>{t('btpxidProduct.trustStrip.item3Strong')}</strong>
+                <span>{t('btpxidProduct.trustStrip.item3Span')}</span>
               </div>
             </div>
           </div>
