@@ -52,21 +52,22 @@ function LanguageSync() {
     let detectedLang: string | null = null;
 
     // First, check if there's a language in the URL path
-    // Match both exact codes (de-DE) and base codes (de → de-DE)
     if (pathSegments.length > 0) {
       const potentialLang = pathSegments[0];
       const exactMatch = SUPPORTED_LANGUAGES.some(lang => lang.code === potentialLang);
       if (exactMatch) {
         detectedLang = potentialLang;
-      } else {
-        // Base code match: URL segment 'de' should match locale 'de' (from de.json)
-        // even when config codes are 'de-DE'. Use the URL segment as-is.
-        const baseMatch = SUPPORTED_LANGUAGES.some(
+      } else if (/^[a-z]{2,3}$/i.test(potentialLang)) {
+        // Base code (e.g. 'de') — find canonical regional code (e.g. 'de-DE') and redirect
+        const canonical = SUPPORTED_LANGUAGES.find(
           lang => lang.code.toLowerCase().startsWith(potentialLang.toLowerCase() + '-')
-            || lang.code.toLowerCase() === potentialLang.toLowerCase()
         );
-        if (baseMatch && /^[a-z]{2,3}$/i.test(potentialLang)) {
-          detectedLang = potentialLang;
+        if (canonical) {
+          // Redirect /de → /de-DE (replace the base segment with the canonical code)
+          const rest = pathSegments.slice(1);
+          const newPath = '/' + [canonical.code, ...rest].join('/');
+          window.history.replaceState(null, '', newPath);
+          detectedLang = canonical.code;
         }
       }
     }
