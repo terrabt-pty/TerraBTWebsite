@@ -1558,7 +1558,9 @@
       "title2": "모든 사용자.",
       "title3": "모든 계정.",
       "description": "단일 앱에서 환경 전체의 모든 BTP 사용자, 역할 및 API 자격 증명을 관리합니다. 완전한 가시성, 완전한 제어, 실행하는 모든 Global Account, 하위 계정 및 Cloud Foundry 환경에 대해.",
-      "shieldBadge": "SAP OAuth · 자격 증명 미저장"
+      "shieldBadge": "SAP OAuth · 자격 증명 미저장",
+      "title": "SAP BTP 환경을위한 완전한 API 자격 증명 관리.",
+      "tagline": "SAP BTP를위한 API 자격 증명 및 액세스 관리"
     },
     "valueProps": {
       "0": "필요한 유일한 BTP 사용자 관리 앱",
@@ -1696,7 +1698,18 @@
       "title2": "BTP xID가 액세스를 관리합니다."
     },
     "threeSteps": {
-      "label": "SAP BTP에서 API 자격증명을 보호하는 3가지 단계"
+      "label": "SAP BTP에서 API 자격 증명을 보호하기위한 3 단계",
+      "title1": "모든 SAP BTP 관리자가",
+      "title2": "API 자격 증명에 대해 알아야 할 사항입니다.",
+      "step1Label": "1. CF Orgs 및 Spaces에 대한 안전한 액세스",
+      "step1Body1": "SAP BTP의 API 자격 증명은 Cloud Foundry 공간 수준에 있습니다. Sub-Account에서 제거 된 사용자는 여전히 CLI를 통해 CF에 대한 전체 액세스 권한을 가지고 있습니다.",
+      "step1Body2": "BTP xID는 모든 org 및 space에서 사용자 및 그들의 역할 할당을 제거합니다. 이는 오프 보딩의 일부입니다.",
+      "step2Label": "2. 환경 전체에서 API 자격 증명 감사, 취소 및 추적",
+      "step2Body1": "API 자격 증명은 기본적으로 만료되지 않습니다. 팀 멤버가 떠날 때 이러한 자격 증명을 취소해야합니다.",
+      "step2Body2": "SAP는 90 일마다 자격 증명을 회전할 것을 권장합니다. BTP xID는 한 곳에서 모든 자격 증명을 표시합니다.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. 고스트 API 자격 증명 찾기 및 제거",
+      "step3Body": "Global Account 수준의 API 자격 증명은 BTP 조종석에 표시되지 않습니다 — BTP CLI를 통해서만 표시됩니다. BTP xID는 모두를 표시합니다."
     },
     "roadmap": {
       "label": "로드맵에",

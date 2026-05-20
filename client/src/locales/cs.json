@@ -1557,7 +1557,9 @@
       "title2": "Každý uživatel.",
       "title3": "Všechny účty.",
       "description": "Spravujte každého BTP uživatele, roli a přihlašovací údaje API v celé vaší krajině - z jedné aplikace. Úplná viditelnost, úplná kontrola, v každém Global Account, podúčtu a Cloud Foundry prostředí, které provozujete.",
-      "shieldBadge": "SAP OAuth · Žádné přihlašovací údaje nejsou uloženy"
+      "shieldBadge": "SAP OAuth · Žádné přihlašovací údaje nejsou uloženy",
+      "title": "Úplná správa přihlašovacích údajů API pro vaši SAP BTP landscape.",
+      "tagline": "Správa přihlašovacích údajů API a přístupu pro SAP BTP"
     },
     "valueProps": {
       "0": "Jediná aplikace pro správu uživatelů BTP, kterou budete kdy potřebovat",
@@ -1725,18 +1727,18 @@
       ]
     },
     "threeSteps": {
-      "label": "Three steps to secure your API credentials in SAP BTP",
-      "title1": "What every SAP BTP admin",
-      "title2": "needs to know about API credentials.",
-      "step1Label": "1. Secure access to CF Orgs and Spaces",
-      "step1Body1": "API credentials in SAP BTP live at the Cloud Foundry space level. We verified this: a user removed from a sub-account still had full CF access via CLI.",
-      "step1Body2": "BTP xID removes the user and their role assignments across every org and space as part of offboarding.",
-      "step2Label": "2. Audit, revoke and track API credentials across the landscape",
+      "label": "Tři kroky k zabezpečení přihlašovacích údajů API v SAP BTP",
+      "title1": "Co by měl znát každý správce SAP BTP",
+      "title2": "o přihlašovacích údajích API.",
+      "step1Label": "1. Bezpečný přístup k CF Orgs a Spaces",
+      "step1Body1": "Přihlašovací údaje API v SAP BTP se nacházejí na úrovni Cloud Foundry space. Uživatel odebraný z Sub-Account má stále plný přístup CF přes CLI.",
+      "step1Body2": "BTP xID odstraní uživatele a jejich přiřazení rolí v každé organizaci a prostoru jako součást offboardingu.",
+      "step2Label": "2. Audit, revokace a sledování přihlašovacích údajů API v celé landscape",
       "step2Body1": "API credentials don't expire by default. Anyone who has worked with a credential has seen its secret. When team members leave, those credentials need to be revoked.",
-      "step2Body2": "SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential from one place.",
+      "step2Body2": "SAP doporučuje otáčet přihlašovací údaje každých 90 dní. BTP xID vynáší všechny přihlašovací údaje z jednoho místa.",
       "step2Ref": "SAP — Service Instance Secrets",
-      "step3Label": "3. Find and remove ghost API credentials",
-      "step3Body": "Global Account-level API credentials are not visible in the BTP cockpit — only via the BTP CLI. BTP xID surfaces them all."
+      "step3Label": "3. Najít a odstranit přihlašovací údaje API přízraků",
+      "step3Body": "Přihlašovací údaje API na úrovni Global Account nejsou viditelné v BTP cockpit — pouze přes BTP CLI. BTP xID je vynáší všechny."
     },
     "roadmap": {
       "label": "On the roadmap",

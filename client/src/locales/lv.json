@@ -1549,7 +1549,9 @@
       "title2": "Katrs lietotājs.",
       "title3": "Visi konti.",
       "description": "Pārvaldiet katru BTP lietotāju, lomu un API kredenciālu savā ainā - no vienas lietotnes. Pilna redzamība, pilna kontrole visos Global Account, apakškontos un Cloud Foundry vidē, ko jūs palaižat.",
-      "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti"
+      "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti",
+      "title": "Pilnīga API akreditācijas pārvaldība jūsu SAP BTP ainai.",
+      "tagline": "API kredenciāļu un piekļuves pārvaldība SAP BTP"
     },
     "valueProps": {
       "0": "Vienīgā BTP lietotāju pārvaldības lietotne, kas jums jebkad būs nepieciešama",
@@ -1677,6 +1679,20 @@
       "solution": "Ierakstiet lietotāja e-pastu un nekavējoties redzēsiet <b>katru Global Account, Sub-Account, Cloud Foundry Org un Space</b>, kur viņi pastāv jūsu visā SAP BTP ainā - ar viņu lomām. Meklējiet API kredenciālus pēc gadījuma nosaukuma, atslēgas nosaukuma, veidotāja vai beigu datuma visā ainā.",
       "solutionExtra": "Tā pati lietotne apstrādā uzņemšanu un atlaišanu vienā noklikšķinājumā un Cloud Foundry Org Manager piespiež pievienošanu uz SAP Note 3249765.",
       "readMore": "Lasiet pilnu stāstu"
+    },
+    "threeSteps": {
+      "label": "Trīs darbības, lai aizsargātu API kredenciālus SAP BTP",
+      "title1": "Ko jāzina katram SAP BTP administratoram",
+      "title2": "par API kredenciāliem.",
+      "step1Label": "1. Drošs piekļuve CF Orgs un Spaces",
+      "step1Body1": "API kredenciāļi SAP BTP atrodas Cloud Foundry vietas līmenī. Lietotājs, kas noņemts no Sub-Account, joprojām var pilnībā piekļūt CF caur CLI.",
+      "step1Body2": "BTP xID noņem lietotāju un viņa lomu uzdevumus katrā organizācijā un vietā kā atskaitīšanas daļu.",
+      "step2Label": "2. Revīzija, atsaukšana un API kredenciāļu izsekošana visā ainavā",
+      "step2Body1": "API kredenciāļi pēc noklusējuma neiztekst. Kad komandas locekļi aiziet, šie kredenciāļi ir jāatsauc.",
+      "step2Body2": "SAP iesaka rotēt kredenciālus katrus 90 dienas. BTP xID izplaisa visus kredenciālus no vienas vietas.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Atrodiet un noņemiet spoku API kredenciālus",
+      "step3Body": "Global Account līmeņa API kredenciāļi nav redzami BTP kabīnē — tikai caur BTP CLI. BTP xID tos visus izpraisa."
     }
   }
 }

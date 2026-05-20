@@ -1551,7 +1551,9 @@
       "title2": "Chaque utilisateur.",
       "title3": "Tous les comptes.",
       "description": "Gouvernez chaque utilisateur BTP, rôle et identifiants API dans tout votre paysage - à partir d'une seule application. Visibilité complète, contrôle complet, dans chaque Global Account, sous-compte et environnement Cloud Foundry que vous exécutez.",
-      "shieldBadge": "SAP OAuth · Aucune donnée d'identification stockée"
+      "shieldBadge": "SAP OAuth · Aucune donnée d'identification stockée",
+      "title": "Gestion complète des identifiants API pour votre paysage SAP BTP.",
+      "tagline": "Gestion des identifiants API et des accès pour SAP BTP"
     },
     "valueProps": {
       "0": "La seule app de gestion des utilisateurs BTP dont vous aurez besoin",
@@ -1719,18 +1721,18 @@
       ]
     },
     "threeSteps": {
-      "label": "Three steps to secure your API credentials in SAP BTP",
-      "title1": "What every SAP BTP admin",
-      "title2": "needs to know about API credentials.",
-      "step1Label": "1. Secure access to CF Orgs and Spaces",
-      "step1Body1": "API credentials in SAP BTP live at the Cloud Foundry space level. We verified this: a user removed from a sub-account still had full CF access via CLI.",
-      "step1Body2": "BTP xID removes the user and their role assignments across every org and space as part of offboarding.",
-      "step2Label": "2. Audit, revoke and track API credentials across the landscape",
-      "step2Body1": "API credentials don't expire by default. Anyone who has worked with a credential has seen its secret. When team members leave, those credentials need to be revoked.",
-      "step2Body2": "SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential from one place.",
+      "label": "Trois étapes pour sécuriser vos identifiants API dans SAP BTP",
+      "title1": "Ce que tout administrateur SAP BTP",
+      "title2": "doit savoir sur les identifiants API.",
+      "step1Label": "1. Accès sécurisé aux CF Orgs et Spaces",
+      "step1Body1": "Les identifiants API dans SAP BTP se situent au niveau de l'espace Cloud Foundry. Un utilisateur supprimé d'un Sub-Account a toujours un accès complet à CF via CLI.",
+      "step1Body2": "BTP xID supprime l'utilisateur et ses attributions de rôle dans chaque organisation et espace dans le cadre du offboarding.",
+      "step2Label": "2. Audit, révocation et suivi des identifiants API dans le paysage",
+      "step2Body1": "Les identifiants API n'expiration pas par défaut. Lorsque les membres de l'équipe quittent, ces identifiants doivent être révoqués.",
+      "step2Body2": "SAP recommande de faire tourner les identifiants tous les 90 jours. BTP xID expose tous les identifiants à partir d'un seul endroit.",
       "step2Ref": "SAP — Service Instance Secrets",
-      "step3Label": "3. Find and remove ghost API credentials",
-      "step3Body": "Global Account-level API credentials are not visible in the BTP cockpit — only via the BTP CLI. BTP xID surfaces them all."
+      "step3Label": "3. Trouvez et supprimez les identifiants API fantômes",
+      "step3Body": "Les identifiants API au niveau du Global Account ne sont pas visibles dans le cockpit BTP — uniquement via BTP CLI. BTP xID les expose tous."
     },
     "roadmap": {
       "label": "On the roadmap",

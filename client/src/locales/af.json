@@ -1581,7 +1581,9 @@
       "title2": "Elke gebruiker.",
       "title3": "Alle rekeninge.",
       "description": "Beheer elke BTP-gebruiker, rol en API-geloofsbrief oor jou landskap — vanuit 'n enkele app. Volledige sigbaarheid, volledige beheer, oor elke Global Account, sub-account en Cloud Foundry-omgewing wat jy bedryf.",
-      "shieldBadge": "SAP OAuth · Geen gestoorde geloofsbriewe"
+      "shieldBadge": "SAP OAuth · Geen gestoorde geloofsbriewe",
+      "title": "Volledige API-legitimaatbeheer voor uw SAP BTP-landschap.",
+      "tagline": "API-legitimatie- en toegangsbeheer voor SAP BTP"
     },
     "valueProps": {
       "0": "Die enigste BTP-gebruikerbestuurtoepassing wat u ooit sal nodig hê",
@@ -1709,6 +1711,20 @@
       "solution": "Tik 'n gebruiker se e-posadres in, en jy sien onmiddellik <b>elke Global Account, Sub-Account, Cloud Foundry Org en Space</b> waarin hulle op jou hele SAP BTP-landskap bestaan — met hul rolle. Deursoek API-geloofsbriewe volgens instantienaam, sleutelname, skepper of vervaldatum oor die hele landskap.",
       "solutionExtra": "Dieselfde app hanteer inboarding en afboarding in 'n enkele klik, en Cloud Foundry Org Manager dwing per SAP Note 3249765 by te voeg.",
       "readMore": "Lees die volle verhaal"
+    },
+    "threeSteps": {
+      "label": "Drie stappen om uw API-referenties in SAP BTP te beveiligen",
+      "title1": "Wat elke SAP BTP-beheerder",
+      "title2": "moet weten over API-referenties.",
+      "step1Label": "1. Beveiligde toegang tot CF Orgs en Spaces",
+      "step1Body1": "API-referenties in SAP BTP bevinden zich op Cloud Foundry-ruimteniveau. Een gebruiker die uit een Sub-Account is verwijderd, heeft nog steeds volledige CF-toegang via CLI.",
+      "step1Body2": "BTP xID verwijdert de gebruiker en hun roltoewijzingen in elke org en space als onderdeel van offboarding.",
+      "step2Label": "2. Controleer, herroep en volg API-referenties in het hele landschap",
+      "step2Body1": "API-referenties verlopen niet standaard. Wanneer teamleden vertrekken, moeten deze referenties worden ingetrokken.",
+      "step2Body2": "SAP raadt aan om referenties elke 90 dagen te roteren. BTP xID toont elke referentie vanaf één plek.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Vind en verwijder spook-API-referenties",
+      "step3Body": "API-referenties op Global Account-niveau zijn niet zichtbaar in de BTP cockpit — alleen via BTP CLI. BTP xID toont ze allemaal."
     }
   }
 }

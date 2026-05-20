@@ -1557,7 +1557,9 @@
       "title2": "Každý používateľ.",
       "title3": "Všetky účty.",
       "description": "Spravujte každého užívateľa BTP, rolu a poverenia API v celej vašej krajine - z jednej aplikácie. Úplná viditeľnosť, úplná kontrola, v každom Global Account, podúčte a Cloud Foundry prostredí, ktoré prevádzkujete.",
-      "shieldBadge": "SAP OAuth · Žiadne uložené prihlasovanie"
+      "shieldBadge": "SAP OAuth · Žiadne uložené prihlasovanie",
+      "title": "Kompletná správa API poverení pre vašu SAP BTP krajinu.",
+      "tagline": "Správa API poverení a prístupu pre SAP BTP"
     },
     "valueProps": {
       "0": "Jediná aplikácia pre správu používateľov BTP, ktorú budete kedy potrebovať",
@@ -1685,6 +1687,20 @@
       "solution": "Zadajte e-mail užívateľa a okamžite vidíte <b>každý Global Account, Sub-Account, Cloud Foundry Org a Space</b>, kde existujú v celej vašej krajine SAP BTP - s ich rolami. Vyhľadávajte poverenia API podľa názvu inštancie, názvu kľúča, tvórcu alebo dátumu vypršania v celej krajine.",
       "solutionExtra": "Tá istá aplikácia spracováva onboarding a offboarding jedným kliknutím a Cloud Foundry Org Manager prinúti pridať za SAP Note 3249765.",
       "readMore": "Prečítajte si celý príbeh"
+    },
+    "threeSteps": {
+      "label": "Tri kroky na zabezpečenie API poverení v SAP BTP",
+      "title1": "Čo by mal vedieť každý správca SAP BTP",
+      "title2": "o API povereniach.",
+      "step1Label": "1. Bezpečný prístup k CF Orgs a Spaces",
+      "step1Body1": "API poverenia v SAP BTP sa nachádzajú na úrovni Cloud Foundry space. Používateľ odstránený z Sub-Account má stále plný CF prístup cez CLI.",
+      "step1Body2": "BTP xID odstráni používateľa a jeho priraďovanie rolí v každej organizácii a priestore ako súčasť offboardingu.",
+      "step2Label": "2. Audit, revokácia a sledovanie API poverení v celej krajine",
+      "step2Body1": "API poverenia vypršavajú podľa predvolby. Keď členovia tímu odchádzajú, tieto poverenia musia byť zrušené.",
+      "step2Body2": "SAP odporúča rotáciu poverení každých 90 dní. BTP xID vynáša všetky poverenia z jedného miesta.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Nájdite a odstráňte duchovné API poverenia",
+      "step3Body": "API poverenia na úrovni Global Account nie sú viditeľné v kabíne BTP — iba cez BTP CLI. BTP xID ich všetky vynáša."
     }
   }
 }

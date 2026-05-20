@@ -1587,7 +1587,9 @@
       "title2": "すべてのユーザー。",
       "title3": "すべてのアカウント。",
       "description": "1つのアプリからパノラマ全体のすべてのBTPユーザー、ロール、API認証情報を管理します。完全な可視性、完全な制御、実行するすべてのGlobal Account、サブアカウント、Cloud Foundry環境に対応します。",
-      "shieldBadge": "SAP OAuth · 認証情報は保存されません"
+      "shieldBadge": "SAP OAuth · 認証情報は保存されません",
+      "title": "SAP BTP環境用の完全なAPI認証情報管理。",
+      "tagline": "SAP BTPのAPI認証情報とアクセス管理"
     },
     "valueProps": {
       "0": "必要なBTPユーザー管理アプリはこれ1つだけ",
@@ -1755,18 +1757,18 @@
       ]
     },
     "threeSteps": {
-      "label": "SAP BTPのAPIクレデンシャルをセキュアにするための3つのステップ",
+      "label": "SAP BTPでAPI認証情報を保護するための3つのステップ",
       "title1": "すべてのSAP BTP管理者が",
-      "title2": "APIクレデンシャルについて知る必要があることについて。",
-      "step1Label": "1. Cloud Foundry OrgおよびSpaceへのアクセスをセキュアにする",
-      "step1Body1": "APIクレデンシャルはCloud Foundry spaceレベルに存在します。サブアカウントから削除されたユーザーでもCLI経由でCFアクセスを持ちます。",
-      "step1Body2": "BTP xIDは、オフボーディングの一部として、ユーザーとそのロール割り当てをすべてのorgおよびspaceから削除します。",
-      "step2Label": "2. APIクレデンシャルを監査、失効、追跡する",
-      "step2Body1": "APIクレデンシャルはデフォルトでは有効期限がありません。チームメンバーが退職したとき、それらのクレデンシャルを失効させる必要があります。",
-      "step2Body2": "SAPでは90日ごとのローテーションを推奨しています。BTP xIDはすべてのクレデンシャルを1つの場所から表示します。",
-      "step2Ref": "SAP — サービスインスタンスシークレット",
-      "step3Label": "3. ゴーストAPIクレデンシャルを検出して削除する",
-      "step3Body": "グローバルアカウントレベルのAPIクレデンシャルはBTPコックピットに表示されません。BTP xIDはすべてを表示します。"
+      "title2": "API認証情報について知る必要があります。",
+      "step1Label": "1. CF OrgsおよびSpacesへの安全なアクセス",
+      "step1Body1": "SAP BTPのAPI認証情報はCloud Foundryスペースレベルにあります。Sub-Accountから削除されたユーザーは、CLIを介してCFへのフルアクセスを保持しています。",
+      "step1Body2": "BTP xIDは、ユーザーとその役割の割り当てをすべてのorgおよびspaceから削除します。これはオフボーディングの一部です。",
+      "step2Label": "2. ランドスケープ全体のAPI認証情報の監査、取り消し、追跡",
+      "step2Body1": "API認証情報はデフォルトでは期限切れになりません。チームメンバーが去るとき、これらの認証情報を失効させる必要があります。",
+      "step2Body2": "SAPは90日ごとに認証情報をローテーションすることをお勧めします。BTP xIDはすべての認証情報を1つの場所から表示します。",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. ゴーストAPI認証情報を検出および削除",
+      "step3Body": "Global AccountレベルのAPI認証情報はBTPコックピットに表示されません — BTP CLIのみを介して表示されます。BTP xIDはすべての認証情報を表示します。"
     },
     "roadmap": {
       "label": "ロードマップ上",

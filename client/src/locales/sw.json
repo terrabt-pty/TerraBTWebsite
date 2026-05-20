@@ -1581,7 +1581,9 @@
       "title2": "Kila mtumiaji.",
       "title3": "Akaunti zote.",
       "description": "Dhibiti kila mtumiaji wa BTP, jukumu na sehemu za API katika mandhari yako yote - kutoka kwa programu moja tu. Kuzingatiwa kamili, udhibiti kamili, juu ya kila Global Account, akaunti ndogo na mandhari ya Cloud Foundry unayokimbia.",
-      "shieldBadge": "SAP OAuth · Hakuna vitambulisho vilivyohifadhiwa"
+      "shieldBadge": "SAP OAuth · Hakuna vitambulisho vilivyohifadhiwa",
+      "title": "Usimamizi kamili wa API jina la mtumiaji kwa SAP BTP landhscape yako.",
+      "tagline": "API Credential & Access Management kwa SAP BTP"
     },
     "valueProps": {
       "0": "Programu pekee ya usimamizi wa watumiaji wa BTP utakayohitaji",
@@ -1709,6 +1711,20 @@
       "solution": "Andika barua pepe ya mtumiaji na mara moja utaona <b>kila Global Account, Sub-Account, Cloud Foundry Org na Space</b> ambapo wanapatikana katika mandhari yako yote ya SAP BTP - na majukumu yao. Tafuta sehemu za API kulingana na jina la matukio, jina la ufunguo, mwanzo au tarehe ya muda katika mandhari yote.",
       "solutionExtra": "Programu sawa inatumia kuingizwa na kuondolewa kwa mgomo mmoja na Cloud Foundry Org Manager kulazimisha kuongeza kwa kila SAP Note 3249765.",
       "readMore": "Soma hadithi kamili"
+    },
+    "threeSteps": {
+      "label": "Hatua tatu za kuandaa jina la mtumiaji wa API katika SAP BTP",
+      "title1": "Nini kila msimamizi wa SAP BTP",
+      "title2": "inajua kuhusu jina la mtumiaji wa API.",
+      "step1Label": "1. Upatikanaji salama wa CF Orgs na Spaces",
+      "step1Body1": "Jina la mtumiaji wa API katika SAP BTP huishi katika Cloud Foundry space level. Mtumiaji aliyeondolewa kutoka Sub-Account bado ana mkundu kamili wa CF kwa njia ya CLI.",
+      "step1Body2": "BTP xID huondoa mtumiaji na mgawanyiko wake wa jukumu katika kila org na space sehemu ya kuondoka.",
+      "step2Label": "2. Ukaguzi, kukataza na kufuatilia jina la mtumiaji wa API kote landhscape",
+      "step2Body1": "Jina la mtumiaji wa API hailo kumalizwa kwa chaguo-msingi. Wakati wanachama wa timu kuondoka, jina hilo la mtumiaji lazima kukatazwa.",
+      "step2Body2": "SAP inapendekeza kuzunguka jina la mtumiaji kila siku 90. BTP xID huanguka kila jina la mtumiaji kutoka sehemu moja.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Tafuta na ondoa jina la mtumiaji wa API ya pepo",
+      "step3Body": "Jina la mtumiaji wa API katika Global Account level si kamili katika BTP cockpit — tu kwa njia ya BTP CLI. BTP xID huanguka zote."
     }
   }
 }

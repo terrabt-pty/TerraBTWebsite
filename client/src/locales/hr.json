@@ -1558,7 +1558,9 @@
       "title2": "Svaki korisnik.",
       "title3": "Svi računi.",
       "description": "Upravljajte svakim BTP korisnikom, ulogom i API vjerodajnicama u cijelom vašem krajoliku - iz jedne aplikacije. Potpuna vidljivost, potpuna kontrola, nad svakim Global Account, podracheom i Cloud Foundry okruženju koje pokrenete.",
-      "shieldBadge": "SAP OAuth · Bez pohranjenih vjerodajnica"
+      "shieldBadge": "SAP OAuth · Bez pohranjenih vjerodajnica",
+      "title": "Potpuna upravljanja API legitimacionim podacima za vaš SAP BTP pejzaž.",
+      "tagline": "API legitimacijski podaci i upravljanje pristupom za SAP BTP"
     },
     "valueProps": {
       "0": "Jedina BTP aplikacija za upravljanje korisnicima koja vam je ikad potrebna",
@@ -1686,6 +1688,20 @@
       "solution": "Upišite e-mail korisnika i odmah vidite <b>svaki Global Account, Sub-Account, Cloud Foundry Org i Space</b> gdje postoje u cijelom vašem SAP BTP krajoliku - sa njihovim ulogama. Pretraživajte API vjerodajnice po imenu instance, imenu ključa, kreatoru ili datumu isteka kroz cijeli krajolik.",
       "solutionExtra": "Ista aplikacija rukuje uključivanjem i isključivanjem u jednom kliku, te Cloud Foundry Org Manager prisili dodavanje po SAP Note 3249765.",
       "readMore": "Pročitajte cijelu priču"
+    },
+    "threeSteps": {
+      "label": "Tri koraka da biste osigurali API legitimacijske podatke u SAP BTP",
+      "title1": "Što svaki SAP BTP administrator",
+      "title2": "trebati znati o API legitimacijskim podacima.",
+      "step1Label": "1. Siguran pristup CF Orgs i Spaces",
+      "step1Body1": "API legitimacijski podaci u SAP BTP žive na Cloud Foundry razini prostora. Korisnik uklonjen iz Sub-Account još uvijek ima puni CF pristup putem CLI.",
+      "step1Body2": "BTP xID uklanja korisnika i dodjele njegovih uloga u svakom org-u i prostoru kao dio offboardinga.",
+      "step2Label": "2. Revizija, opoziv i praćenje API legitimacijskih podataka diljem pejzaža",
+      "step2Body1": "API legitimacijski podaci ne istječu prema zadanom postavkama. Kada članovi tima odlaze, ti legitimacijski podaci moraju biti opozvani.",
+      "step2Body2": "SAP preporučuje rotaciju legitimacijskih podataka svakih 90 dana. BTP xID obnaša sve legitimacijske podatke s jednog mjesta.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Pronađite i uklonite API legitimacijske podatke duha",
+      "step3Body": "API legitimacijski podaci na razini Global Account nisu vidljivi u BTP kokpitu — samo putem BTP CLI. BTP xID obnaša sve njih."
     }
   }
 }

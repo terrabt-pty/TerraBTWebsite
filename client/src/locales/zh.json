@@ -1558,7 +1558,9 @@
       "title2": "每位用户。",
       "title3": "所有账户。",
       "description": "从单个应用管理整个环境中的每个BTP用户、角色和API凭据。完全的可见性、完全的控制，覆盖您运行的每个Global Account、子账户和Cloud Foundry环境。",
-      "shieldBadge": "SAP OAuth · 不存储凭据"
+      "shieldBadge": "SAP OAuth · 不存储凭据",
+      "title": "为您的SAP BTP环境完整的API凭据管理。",
+      "tagline": "SAP BTP的API凭据和访问管理"
     },
     "valueProps": {
       "0": "您所需的唯一 BTP 用户管理应用",
@@ -1696,7 +1698,18 @@
       "title2": "BTP xID管理访问。"
     },
     "threeSteps": {
-      "label": "在SAP BTP中保护API凭证的三个步骤"
+      "label": "在SAP BTP中保护API凭据的三个步骤",
+      "title1": "每个SAP BTP管理员",
+      "title2": "需要了解API凭据。",
+      "step1Label": "1. CF Orgs和Spaces的安全访问",
+      "step1Body1": "SAP BTP中的API凭据位于Cloud Foundry空间级别。从Sub-Account中删除的用户仍可通过CLI获得完整的CF访问权限。",
+      "step1Body2": "BTP xID删除用户及其在每个org和space中的角色分配，作为离职过程的一部分。",
+      "step2Label": "2. 在整个环境中审计、撤销和跟踪API凭据",
+      "step2Body1": "API凭据默认不过期。当团队成员离开时，这些凭据必须被撤销。",
+      "step2Body2": "SAP建议每90天轮换一次凭据。BTP xID从一个地方显示所有凭据。",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. 查找并删除ghost API凭据",
+      "step3Body": "Global Account级别的API凭据在BTP驾驶舱中不可见—仅通过BTP CLI。BTP xID显示它们全部。"
     },
     "roadmap": {
       "label": "在路线图上",

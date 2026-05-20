@@ -1557,7 +1557,9 @@
       "title2": "Her kullanıcı.",
       "title3": "Tüm hesaplar.",
       "description": "BTP kullanıcılarının her birini, rolünü ve API kimlik bilgilerini ortamınız genelinde yönetin - tek bir uygulamadan. Tam görünürlük, tam kontrol, çalıştırdığınız her Global Account, alt hesap ve Cloud Foundry ortamı üzerinde.",
-      "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz"
+      "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz",
+      "title": "SAP BTP manzaranız için tam API kimlik bilgisi yönetimi.",
+      "tagline": "SAP BTP için API Kimlik Bilgisi ve Erişim Yönetimi"
     },
     "valueProps": {
       "0": "İhtiyaç duyacağınız tek BTP kullanıcı yönetimi uygulaması",
@@ -1695,7 +1697,18 @@
       "title2": "BTP xID erişimi yönetir."
     },
     "threeSteps": {
-      "label": "SAP BTP'de API kimlik bilgilerinizi güvence altına almak için üç adım"
+      "label": "SAP BTP'de API kimlik bilgilerinizi güvenli hale getirmek için üç adım",
+      "title1": "Her SAP BTP yöneticisinin",
+      "title2": "API kimlik bilgileri hakkında bilmesi gerekenler.",
+      "step1Label": "1. CF Orgs ve Spaces'e Güvenli Erişim",
+      "step1Body1": "SAP BTP'deki API kimlik bilgileri Cloud Foundry alanı düzeyinde yaşar. Bir Sub-Account'tan kaldırılan kullanıcı, CLI aracılığıyla tam CF erişimine sahip olmaya devam eder.",
+      "step1Body2": "BTP xID, kullanıcıyı ve rol atamalarını çıkmazın bir parçası olarak her kuruluş ve alanda kaldırır.",
+      "step2Label": "2. Manzara Genelindeki API Kimlik Bilgilerini Denetleme, İptal Etme ve İzleme",
+      "step2Body1": "API kimlik bilgileri varsayılan olarak sona ermez. Takım üyeleri ayrıldığında, bu kimlik bilgileri iptal edilmelidir.",
+      "step2Body2": "SAP, kimlik bilgilerini her 90 günde bir döndürmeyi önerir. BTP xID tüm kimlik bilgilerini bir yerden ortaya koymaktadır.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Hayalet API Kimlik Bilgilerini Bulun ve Kaldırın",
+      "step3Body": "Global Account düzeyindeki API kimlik bilgileri BTP kokpit'de görünmez — yalnızca BTP CLI aracılığıyla. BTP xID hepsini ortaya koymaktadır."
     },
     "roadmap": {
       "label": "Yol haritasında",

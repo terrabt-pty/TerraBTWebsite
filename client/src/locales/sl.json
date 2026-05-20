@@ -1557,7 +1557,9 @@
       "title2": "Vsak uporabnik.",
       "title3": "Vsi računi.",
       "description": "Upravljajte vsakega uporabnika BTP, vlogo in poverilnico API po celotnem vašem pokrajino - iz ene same aplikacije. Popolna vidljivost, popoln nadzor, nad vsakim Global Account, podračunom in Cloud Foundry okoljem, ki ga zaženete.",
-      "shieldBadge": "SAP OAuth · Brez shranjenih poverilnic"
+      "shieldBadge": "SAP OAuth · Brez shranjenih poverilnic",
+      "title": "Celovita upravljanja API kredencialov za vaš SAP BTP pokrajino.",
+      "tagline": "API kredenciali in upravljanje dostopa za SAP BTP"
     },
     "valueProps": {
       "0": "Edina aplikacija za upravljanje uporabnikov BTP, ki jo boste kdaj potrebovali",
@@ -1685,6 +1687,20 @@
       "solution": "Vnesite e-pošto uporabnika in takoj vidite <b>vsak Global Account, Sub-Account, Cloud Foundry Org in Space</b>, kjer obstajajo po celotnem vašem SAP BTP pokrajino - z njihovimi vlogami. Iščite poverilnice API po imenu primerka, imenu ključa, ustvarjalcu ali datumu preteka čez celotno pokrajino.",
       "solutionExtra": "Ista aplikacija upravlja vklapljanje in izklapljanje z enim klikom in Cloud Foundry Org Manager prisili dodajanje za SAP Note 3249765.",
       "readMore": "Preberi celotno zgodbo"
+    },
+    "threeSteps": {
+      "label": "Tri koraki za zavarovanje API kredencialov v SAP BTP",
+      "title1": "Kaj bi moral vedeti vsak SAP BTP administrator",
+      "title2": "o API kredencialih.",
+      "step1Label": "1. Varen dostop do CF Orgs in Spaces",
+      "step1Body1": "API kredenciali v SAP BTP živijo na nivoju Cloud Foundry space. Uporabnik, ki je izbrisan iz Sub-Account, ima še vedno polno dostop CF prek CLI.",
+      "step1Body2": "BTP xID izbriše uporabnika in njegove dodelitve vlog v vsaki organizaciji in prostoru kot del odpusta.",
+      "step2Label": "2. Revizija, preklicanje in sledenje API kredencialov v celotni pokrajini",
+      "step2Body1": "API kredenciali se privzeto ne izpečejo. Ko člani ekipe odhajajo, je treba te kredenciale preklicati.",
+      "step2Body2": "SAP priporoča vrtenje kredencialov vsaki 90 dni. BTP xID izpostavi vse kredenciale z enega mesta.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Poiščite in odstranite duhove API kredenciale",
+      "step3Body": "API kredenciali na nivoju Global Account niso vidni v kabini BTP — samo prek BTP CLI. BTP xID jih vse izpostavi."
     }
   }
 }

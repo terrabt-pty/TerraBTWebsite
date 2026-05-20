@@ -1558,7 +1558,9 @@
       "title2": "እያንዳንዱ ተጠቃሚ።",
       "title3": "ሁሉም መለያዎች።",
       "description": "ሁሉንም BTP ተጠቃሚ፣ ሚና እና API ደብዳቤ ከአንደበት ላይ ቁጥጥር ያድርጉ — ከአንድ መተግበሪያ። ሙሉ ሥለላ፣ ሙሉ ቁጥጥር፣ እሱ ሰርዓተ ሂሳብ ጂ ልዩ ስሪት ሙሉ ላይ።",
-      "shieldBadge": "SAP OAuth · ምስክርነቶች አይቀመጡም"
+      "shieldBadge": "SAP OAuth · ምስክርነቶች አይቀመጡም",
+      "title": "ለ SAP BTP ots ላንዳስክ የተሟላ API ክሪዴንሼል አስተዳደር።",
+      "tagline": "API ክሪዴንሼል እና ተደራሲ አስተዳደር SAP BTP"
     },
     "valueProps": {
       "0": "ለዘለዓለም የሚያስፈልጎት ብቸኛ BTP ተጠቃሚ አስተዳደር መተግበሪያ",
@@ -1686,6 +1688,20 @@
       "solution": "የተጠቃሚውን ኢሜይል ተይብ ፣ እና በእንግዲህ ታዩ <b>ሁሉም Global Account ፣ Sub-Account ፣ Cloud Foundry Org እና Space</b> ከአንደበት ላይ ተሞክሮ - ከሚናቸው ጋር። API ደብዳቤዎችን በአጋጣሚ ስም፣ ቁልፍ ስም፣ ፈጠራ ወይም ጊዜ ያለበት ቀን በላይ ያለው ሙሉ አንደበት ላይ ፈልግ።",
       "solutionExtra": "ተመሳሳይ መተግበሪያ በአንድ ጥቅል ውስጥ onboarding እና off-boarding ይናገራል ፣ እና Cloud Foundry Org Manager SAP Note 3249765 በአንድ ምክንያት ይጨምር።",
       "readMore": "ሙሉውን ታሪክ ያንብቡ"
+    },
+    "threeSteps": {
+      "label": "ሶስት ደረጃዎች ለ SAP BTP ውስጥ ያለ API ክሪዴንሼል ማስቀየር",
+      "title1": "ምንም SAP BTP አስተዳዳሪ",
+      "title2": "ስለ API ክሪዴንሼል ማወቅ ያገዛቸዋል።",
+      "step1Label": "1. Cloud Foundry Orgs እና Spaces ወደ ተደራሲ ተደራሲ",
+      "step1Body1": "API ክሪዴንሼል በ SAP BTP ውስጥ Cloud Foundry ቦታ ደረጃ ላይ ይኖራሉ። ከ Sub-Account ተወግደው ያሉ ተጠቃሚዎች ሙሉ CF ተደራሲነት CLI በኩል ይሞታሉ።",
+      "step1Body2": "BTP xID ተጠቃሚውን እና ሚናቸውን በአምሳያው እና በነፃነት ዘዴ የሙሉ ወደ ገጠር።",
+      "step2Label": "2. ኢንደስትሪ ለ API ክሪዴንሼል በወሰን ሊወሱ የሚሉት ክሪዴንሼል",
+      "step2Body1": "API ክሪዴንሼል ደህንነት ቤት ቀጥታ ቀጥታ በቀጥታ ሊተወው የሚገባ ሂደት ዖり።",
+      "step2Body2": "SAP ከ 90 ቀናት በኋላ ክሪዴንሼል መሞት ይጠቁማል። BTP xID ከ አንድ ስኩዌር ወቅት ሁሉ ክሪዴንሼል ሌላ ሞክ።",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. ሙሉ ክሪዴንሼል ወገንዎል ለተወጀ API ክሪዴንሼል",
+      "step3Body": "Global Account-ደረጃ API ክሪዴንሼል በ BTP cockpit ውስጥ የሚገኝ ሌላ — CLI ብቻ BTP በኩል ብቻ። BTP xID ያቀረቡ ሁሉ።"
     }
   }
 }

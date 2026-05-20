@@ -1557,7 +1557,9 @@
       "title2": "Jokainen käyttäjä.",
       "title3": "Kaikki tilit.",
       "description": "Hallitse jokaista BTP-käyttäjää, roolia ja API-tunnistetietoja koko maisemassasi - yhdestä sovelluksesta. Täydellinen näkyvyys, täydellinen hallinta kaikissa Global Accounts, alitileissä ja Cloud Foundry-ympäristöissä, joita käytät.",
-      "shieldBadge": "SAP OAuth · Ei tallennettuja tunnistetietoja"
+      "shieldBadge": "SAP OAuth · Ei tallennettuja tunnistetietoja",
+      "title": "Täydellinen API-tunnisteen hallinta SAP BTP -ympäristöllesi.",
+      "tagline": "API-tunniste ja käyttöoikeuksien hallinta SAP BTP:lle"
     },
     "valueProps": {
       "0": "Ainoa BTP-käyttäjänhallintasovellus, jota tarvitset",
@@ -1685,6 +1687,20 @@
       "solution": "Kirjoita käyttäjän sähköpostiosoite ja näet välittömästi <b>jokaisen Global Account, Sub-Account, Cloud Foundry Org ja Space</b>, joissa he olemassa koko SAP BTP-maisemassasi - heidän rooleineen. Hae API-tunnistetietoja esiintymän nimen, avaimen nimen, luojan tai vanhentumispäivän mukaan koko maisemassa.",
       "solutionExtra": "Sama sovellus käsittelee käyttöönottoa ja poistamista yhdellä napsautuksella ja Cloud Foundry Org Manager pakota lisäys SAP Note 3249765 kohti.",
       "readMore": "Lue täydellinen tarina"
+    },
+    "threeSteps": {
+      "label": "Kolme vaiheessa suojaa API-tunnisteesi SAP BTP:ssä",
+      "title1": "Mitä jokaisen SAP BTP -järjestelmänvalvojan",
+      "title2": "on tiedettävä API-tunnisteista.",
+      "step1Label": "1. Turvallinen pääsy CF Orgeihin ja tiloihin",
+      "step1Body1": "API-tunnisteet SAP BTP:ssä asuvat Cloud Foundry -tilataskolla. Sub-Accountista poistetulla käyttäjällä on edelleen täysi CF-pääsy CLI:n kautta.",
+      "step1Body2": "BTP xID poistaa käyttäjän ja hänen roolitarkistusvelvolliseen jokaisessa org- ja tilassa osana irtisanomista.",
+      "step2Label": "2. Tarkkailun, kumoamisen ja API-tunnisteiden seuranta ympäristössä",
+      "step2Body1": "API-tunnisteet eivät vanhene oletuksena. Kun tiimin jäsenet lähtevät, nämä tunnisteet on kumottava.",
+      "step2Body2": "SAP suosittelee tunnistekorjaus jokaisen 90 päivän välein. BTP xID näyttää kaikki tunnisteet yhdestä paikasta.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Etsi ja poista haamun API-tunnisteet",
+      "step3Body": "Global Account -tason API-tunnisteet eivät ole näkyvissä BTP-ilmaisimessa — vain BTP CLI:n kautta. BTP xID näyttää ne kaikki."
     }
   }
 }

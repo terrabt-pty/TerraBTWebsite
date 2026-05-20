@@ -1558,7 +1558,9 @@
       "title2": "Fiecare utilizator.",
       "title3": "Toate conturile.",
       "description": "Guvernează fiecare utilizator BTP, rol și acreditare API pe toată peisajul tău - dintr-o singură aplicație. Vizibilitate completă, control complet, pe fiecare Global Account, sub-cont și mediu Cloud Foundry pe care îl rulezi.",
-      "shieldBadge": "SAP OAuth · Nicio acreditare stocată"
+      "shieldBadge": "SAP OAuth · Nicio acreditare stocată",
+      "title": "Gestiunea completă a credențialelor API pentru peisajul SAP BTP.",
+      "tagline": "Gestionarea credențialelor API și a accesului pentru SAP BTP"
     },
     "valueProps": {
       "0": "Singura aplicație de gestionare a utilizatorilor BTP de care veți avea nevoie",
@@ -1686,6 +1688,20 @@
       "solution": "Tastează e-mailul utilizatorului și vezi instant <b>fiecare Global Account, Sub-Account, Cloud Foundry Org și Space</b> unde există pe toată peisajul SAP BTP al tău - cu rolurile lor. Caută acreditări API după nume de instanță, nume de cheie, creator sau dată de expirare pe toată peisajul.",
       "solutionExtra": "Aceeași aplicație gestionează onboarding și offboarding cu un singur clic și Cloud Foundry Org Manager forțează adăugarea per SAP Note 3249765.",
       "readMore": "Citește povestea completă"
+    },
+    "threeSteps": {
+      "label": "Trei pași pentru a vă securiza credențialele API în SAP BTP",
+      "title1": "Ce trebuie să știe fiecare administrator SAP BTP",
+      "title2": "despre credențialele API.",
+      "step1Label": "1. Acces securizat la CF Orgs și Spaces",
+      "step1Body1": "Credențialele API în SAP BTP trăiesc la nivelul spațiului Cloud Foundry. Un utilizator eliminat dintr-un Sub-Account are încă acces CF complet prin CLI.",
+      "step1Body2": "BTP xID elimină utilizatorul și atribuțiile sale de rol în fiecare organizație și spațiu ca parte a plecării din serviciu.",
+      "step2Label": "2. Audit, revocare și urmărire a credențialelor API în peisajul întreg",
+      "step2Body1": "Credențialele API nu expiră în mod implicit. Când membrii echipei pleacă, aceste credențiale trebuie revocate.",
+      "step2Body2": "SAP recomandă rotația credențialelor la fiecare 90 de zile. BTP xID aduce la suprafață toate credențialele dintr-un singur loc.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Găsiți și eliminați credențialele API fantomă",
+      "step3Body": "Credențialele API la nivelul Global Account nu sunt vizibile în cockpitul BTP — doar prin BTP CLI. BTP xID le aduce la suprafață pe toate."
     }
   }
 }

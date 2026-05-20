@@ -1557,7 +1557,9 @@
       "title2": "Kiekvienas vartotojas.",
       "title3": "Visos paskyros.",
       "description": "Valdykite kiekvieną BTP vartotoją, vaidmenį ir API kredencialą per visą jūsų aplinką - iš vienos programos. Pilnas matomumas, pilna kontrolė, visame Global Account, paskyros dalyje ir Cloud Foundry aplinkoje, kurią paleitate.",
-      "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi"
+      "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi",
+      "title": "Pilna API kredencijų valdymas jūsų SAP BTP peizažui.",
+      "tagline": "API kredencijų ir prieigos valdymas SAP BTP"
     },
     "valueProps": {
       "0": "Vienintelė BTP vartotojų valdymo programa, kurios kada nors prireiks",
@@ -1685,6 +1687,20 @@
       "solution": "Įveskite vartotojo el. paštą ir nedelsiant matysite <b>kiekvieną Global Account, Sub-Account, Cloud Foundry Org ir Space</b>, kur jie egzistuoja per visą SAP BTP aplinką - su jų vaidmenimis. Ieškokite API kredencialų pagal egzemplioriaus pavadinimą, rakto pavadinimą, kūrėją ar pabaigos datą visoje aplinkoje.",
       "solutionExtra": "Ta pati aplikacija tvarko įregistravimą ir išregistravimą vienu spustelėjimu bei Cloud Foundry Org Manager priverstinį pridėjimą pagal SAP Note 3249765.",
       "readMore": "Perskaitykite visą istoriją"
+    },
+    "threeSteps": {
+      "label": "Trys žingsniai, kaip apsaugoti API kredencijas SAP BTP",
+      "title1": "Ką turėtų žinoti kiekvienas SAP BTP administratorius",
+      "title2": "apie API kredencijas.",
+      "step1Label": "1. Saugus prieiga prie CF Org ir Spaces",
+      "step1Body1": "API kredencijos SAP BTP gyvena Cloud Foundry vietos lygyje. Vartotojas, pašalintas iš Sub-Account, vis dar turi pilną CF prieigą per CLI.",
+      "step1Body2": "BTP xID pašalina vartotoją ir jo vaidmenų priskyrimus kiekvienoje organizacijoje ir erdvėje kaip atsiskyrimo dalį.",
+      "step2Label": "2. Auditas, atšaukimas ir API kredencijų sekimas per visą peizažą",
+      "step2Body1": "API kredencijos negresia numatytai. Kai komandos nariai išeina, šios kredencijos turi būti atšauktos.",
+      "step2Body2": "SAP rekomenduoja rotacidinti kredencijas kas 90 dienų. BTP xID paviršiaus visos kredencijos iš vienos vietos.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Raskite ir pašalinkite baismas API kredencijas",
+      "step3Body": "Global Account lygio API kredencijos nėra matomos BTP kabinoje — tik per BTP CLI. BTP xID jas visas paviršius."
     }
   }
 }

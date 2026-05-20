@@ -1557,7 +1557,9 @@
       "title2": "כל משתמש.",
       "title3": "כל החשבונות.",
       "description": "שלוט בכל משתמש BTP, תפקיד ואישורי API בכל הנוף שלך - מאפליקציה אחת. נראות מלאה, שליטה מלאה, בכל Global Account, תת-חשבון וסביבת Cloud Foundry שאתה מפעיל.",
-      "shieldBadge": "SAP OAuth · אישורים לא נשמרים"
+      "shieldBadge": "SAP OAuth · אישורים לא נשמרים",
+      "title": "ניהול API יומן בדיוק עבור SAP BTP נוף שלך.",
+      "tagline": "API Credential & Access Management ל-SAP BTP"
     },
     "valueProps": {
       "0": "האפליקציה היחידה לניהול משתמשי BTP שתצטרך",
@@ -1685,6 +1687,20 @@
       "solution": "הקלד את הדוא\"ל של המשתמש וברגע תוכל לראות <b>כל Global Account, Sub-Account, Cloud Foundry Org וSpace</b> שהם קיימים בו בכל נוף BTP של SAP שלך - עם התפקידים שלהם. חפש אישורי API לפי שם מופע, שם מפתח, יוצר או תאריך תפוגה בכל הנוף.",
       "solutionExtra": "אותה אפליקציה מטפלת בעלייה וירידה בלחיצה אחת, וCloud Foundry Org Manager כפוי הוספה לכל SAP Note 3249765.",
       "readMore": "קרא את הסיפור המלא"
+    },
+    "threeSteps": {
+      "label": "שלוש שלבים לאבטחת API זה ב-SAP BTP",
+      "title1": "מה כל מנהל SAP BTP",
+      "title2": "צריך לדעת על API זה.",
+      "step1Label": "1. גישה מאובטחת ל-CF Orgs ו-Spaces",
+      "step1Body1": "API זה ב-SAP BTP חיים ברמת Cloud Foundry space. משתמש שנמחק מ-Sub-Account עדיין יש גישה CF מלאה דרך CLI.",
+      "step1Body2": "BTP xID מסיר את המשתמש והקצאות התפקיד שלהם בכל ארגון ו-space כחלק מהפרידה.",
+      "step2Label": "2. ביקורת, שלילה ועקבוב API יומן בכל הנוף",
+      "step2Body1": "API אלה לא פוקעים כברירת מחדל. כאשר חברי הצוות עוזבים, יש לשלול את הזיהוי הזה.",
+      "step2Body2": "SAP ממליצה על סיבוב של כל 90 יום. BTP xID משטחת כל זה ממקום אחד.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. מצא וסלק את API הרוח",
+      "step3Body": "API ברמת Global Account לא נראה בתא BTP — רק דרך BTP CLI. BTP xID משטחת את כולם."
     }
   }
 }

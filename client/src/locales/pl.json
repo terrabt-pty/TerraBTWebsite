@@ -1557,7 +1557,9 @@
       "title2": "Każdy użytkownik.",
       "title3": "Wszystkie konta.",
       "description": "Zarządzaj każdym użytkownikiem BTP, rolą i poświadczeniami API w całym Twoim krajobrazie - z jednej aplikacji. Pełna widoczność, pełna kontrola, nad każdym Global Account, subkonta i środowiskiem Cloud Foundry, które uruchamiasz.",
-      "shieldBadge": "SAP OAuth · Brak przechowywanych danych logowania"
+      "shieldBadge": "SAP OAuth · Brak przechowywanych danych logowania",
+      "title": "Kompletne zarządzanie poświadczeniami API dla krajobrazu SAP BTP.",
+      "tagline": "Zarządzanie poświadczeniami API i dostępem dla SAP BTP"
     },
     "valueProps": {
       "0": "Jedyna aplikacja do zarządzania użytkownikami BTP, której będziesz potrzebować",
@@ -1725,18 +1727,18 @@
       ]
     },
     "threeSteps": {
-      "label": "Three steps to secure your API credentials in SAP BTP",
-      "title1": "What every SAP BTP admin",
-      "title2": "needs to know about API credentials.",
-      "step1Label": "1. Secure access to CF Orgs and Spaces",
-      "step1Body1": "API credentials in SAP BTP live at the Cloud Foundry space level. We verified this: a user removed from a sub-account still had full CF access via CLI.",
-      "step1Body2": "BTP xID removes the user and their role assignments across every org and space as part of offboarding.",
+      "label": "Trzy kroki do zabezpieczenia poświadczeń API w SAP BTP",
+      "title1": "Co powinien wiedzieć każdy administrator SAP BTP",
+      "title2": "o poświadczeniach API.",
+      "step1Label": "1. Bezpieczny dostęp do CF Orgs i Spaces",
+      "step1Body1": "Poświadczenia API w SAP BTP znajdują się na poziomie Cloud Foundry space. Użytkownik usunięty z Sub-Account nadal ma pełny dostęp do CF przez CLI.",
+      "step1Body2": "BTP xID usuwa użytkownika i jego przypisania ról we wszystkich organizacjach i przestrzeniach w ramach offboardingu.",
       "step2Label": "2. Audit, revoke and track API credentials across the landscape",
-      "step2Body1": "API credentials don't expire by default. Anyone who has worked with a credential has seen its secret. When team members leave, those credentials need to be revoked.",
-      "step2Body2": "SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential from one place.",
+      "step2Body1": "Poświadczenia API nie wygasają domyślnie. Gdy członkowie zespołu odchodzą, poświadczenia muszą być cofnięte.",
+      "step2Body2": "SAP zaleca obrót poświadczeń co 90 dni. BTP xID ujawnia wszystkie poświadczenia z jednego miejsca.",
       "step2Ref": "SAP — Service Instance Secrets",
-      "step3Label": "3. Find and remove ghost API credentials",
-      "step3Body": "Global Account-level API credentials are not visible in the BTP cockpit — only via the BTP CLI. BTP xID surfaces them all."
+      "step3Label": "3. Znajdź i usuń poświadczenia API ducha",
+      "step3Body": "Poświadczenia API na poziomie Global Account nie są widoczne w kokpicie BTP — tylko przez BTP CLI. BTP xID ujawnia je wszystkie."
     },
     "roadmap": {
       "label": "On the roadmap",

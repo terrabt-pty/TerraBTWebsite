@@ -1558,7 +1558,9 @@
       "title2": "Minden felhasználó.",
       "title3": "Minden fiók.",
       "description": "Irányítsa az egyes BTP felhasználókat, szerepeket és API hitelesítő adatokat az egész tájképén - egyetlen alkalmazásból. Teljes láthatóság, teljes vezérlés, minden Global Account, részfiók és Cloud Foundry környezet felett, amelyet üzemeltet.",
-      "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat"
+      "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat",
+      "title": "Teljes API hitelesítési adatok kezelése az SAP BTP táj számára.",
+      "tagline": "API hitelesítési adatok és hozzáféréskezelés az SAP BTP számára"
     },
     "valueProps": {
       "0": "Az egyetlen BTP felhasználókezelő alkalmazás, amelyre valaha szüksége lesz",
@@ -1686,6 +1688,20 @@
       "solution": "Írja be a felhasználó e-mail címét, és azonnal látja <b>minden Global Account, Sub-Account, Cloud Foundry Org és Space</b> ahol léteznek az egész SAP BTP tájképén - a szerepeikkel. Keresse az API hitelesítő adatokat a példány neve, a kulcsnév, a készítő vagy a lejárat dátuma alapján az egész tájképen.",
       "solutionExtra": "Ugyanaz az alkalmazás egy kattintásra kezeli a fedélzetre és a fedélzetről való leszállást, valamint a Cloud Foundry Org Manager kényszer hozzáadást az SAP Note 3249765 szerint.",
       "readMore": "Olvassa el a teljes történetet"
+    },
+    "threeSteps": {
+      "label": "Három lépés az API hitelesítési adatok biztonságossá tételéhez az SAP BTP-ben",
+      "title1": "Mit kell tudnia minden SAP BTP adminisztrátornak",
+      "title2": "az API hitelesítési adatokról.",
+      "step1Label": "1. Biztonságos hozzáférés a CF Orgs és Spaces-hoz",
+      "step1Body1": "Az API hitelesítési adatok az SAP BTP-ben a Cloud Foundry tér szintjén élnek. A Sub-Account-ból eltávolított felhasználó továbbra is teljes CF-hozzáféréssel rendelkezik a CLI-n keresztül.",
+      "step1Body2": "A BTP xID eltávolítja a felhasználót és a szerepkör-hozzárendeléseit az összes szervezetben és térben a kijelentkezés részeként.",
+      "step2Label": "2. Audit, visszavonás és API hitelesítési adatok nyomon követése a tájon",
+      "step2Body1": "Az API hitelesítési adatok alapértelmezésben nem járnak le. Amikor a csapattagok elmennek, ezeket a hitelesítési adatokat vissza kell vonni.",
+      "step2Body2": "Az SAP ajánlja a hitelesítési adatok 90 naponkénti forgatását. A BTP xID az összes hitelesítési adatot egy helyről felhozza.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Keresse meg és távolítsa el a szellem API hitelesítési adatait",
+      "step3Body": "A Global Account szintű API hitelesítési adatok nem láthatók a BTP pilótafülkében — csak a BTP CLI-n keresztül. A BTP xID az összeset felhozza."
     }
   }
 }

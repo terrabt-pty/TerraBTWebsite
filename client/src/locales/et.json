@@ -1558,7 +1558,9 @@
       "title2": "Iga kasutaja.",
       "title3": "Kõik kontod.",
       "description": "Kontrollige iga BTP kasutajat, rolli ja API identimisteavet kogu oma maastikul - ühest rakendusest. Täielik nähtavus, täielik kontroll, iga Global Account'i, alamkonto ja Cloud Foundry keskkonna üle, mida te käitate.",
-      "shieldBadge": "SAP OAuth · Mandaate ei salvestata"
+      "shieldBadge": "SAP OAuth · Mandaate ei salvestata",
+      "title": "Täielik API-tunnistuste haldus teie SAP BTP-maastikul.",
+      "tagline": "API-tunniste ja juurdepääsu haldus SAP BTP jaoks"
     },
     "valueProps": {
       "0": "Ainus BTP kasutajahalduse rakendus, mida kunagi vajate",
@@ -1686,6 +1688,20 @@
       "solution": "Tippige kasutaja e-posti ja näete kohe <b>iga Global Account, Sub-Account, Cloud Foundry Org ja Space</b>, millel nad teie kogu SAP BTP maastikul eksisteerivad - nende rollidega. Otsige API identimisteabe järgi eksemplari nime, võtme nime, looja või aegumiskuupäeva järgi kogu maastikul.",
       "solutionExtra": "Sama rakendus käsitleb onboarding'ut ja offboarding'ut ühe klikiga ja Cloud Foundry Org Manager sunni lisamine SAP Note 3249765 kohta.",
       "readMore": "Lugege täielikku lugu"
+    },
+    "threeSteps": {
+      "label": "Kolm sammu oma API-tunniste turvamiseks SAP BTP-s",
+      "title1": "Mida peab teadma iga SAP BTP-administraator",
+      "title2": "API-tunnistest.",
+      "step1Label": "1. Turvatud juurdepääs CF Orgs-le ja Spaces-le",
+      "step1Body1": "API-tunnistused SAP BTP-s asuvad Cloud Foundry tühikute tasandil. Sub-Accounti eemaldatud kasutajal on CLI kaudu endiselt täielik CF-juurdepääs.",
+      "step1Body2": "BTP xID eemaldab kasutaja ja tema rollimäärangud igas organisatsioonis ja tühikus väljaõppe osana.",
+      "step2Label": "2. Auditiõigus, tühistamine ja API-tunniste jälgimine kogu maastikul",
+      "step2Body1": "API-tunnistused ei aegu vaikimisi. Kui meeskonna liikmed lahkuvad, tuleb need tunnistused tühistada.",
+      "step2Body2": "SAP soovitab tunnistate pöördumist iga 90 päeva jooksul. BTP xID paljastab kõik tunnistused ühest kohast.",
+      "step2Ref": "SAP — Service Instance Secrets",
+      "step3Label": "3. Leidke ja eemaldage kummituse API-tunnistused",
+      "step3Body": "Global Account-taseme API-tunnistused ei ole BTP-kabiin nähtavad — ainult BTP CLI kaudu. BTP xID paljastab need kõik."
     }
   }
 }
