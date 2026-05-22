@@ -229,9 +229,9 @@ export default {
         "locale": "el"
       },
       "en": {
-        "title": "TerraBT Consulting",
-        "description": "TerraBT specializes exclusively in SAP BTP consulting services worldwide. Expert solutions in Fiori development, BTP architecture, PWA apps, AI-powered invoice processing, and integration suite. Serving underserved markets globally.",
-        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori development, BTP architecture, SAP integration suite, AI invoice processing, PWA apps, event mesh, SAP consulting",
+        "title": "BTP xID | SAP BTP API Credential & Access Management",
+        "description": "BTP xID is a desktop app for complete SAP BTP API credential and user management. Govern every user, role, and API credential across Global Accounts, sub-accounts, and Cloud Foundry environments from one place.",
+        "keywords": "SAP BTP API credential management, BTP xID, SAP BTP user management, service keys SAP BTP, Cloud Foundry access management, SAP BTP API keys, BTP access governance",
         "locale": "en"
       },
       "es": {
