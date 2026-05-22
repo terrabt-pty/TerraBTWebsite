@@ -181,51 +181,51 @@ export default {
     // SEO Translations Data
     const SEO_DATA = {
       "af": {
-        "title": "TerraBT - 100% SAP BTP Spesialisering",
-        "description": "Gespesialiseerde konsultasie wat toonaangewende SAP Business Technology Platform implementerings wêreldwyd lewer",
-        "keywords": "SAP BTP konsultasie, SAP Business Technology Platform, Fiori ontwikkeling, BTP argitektuur, SAP integrasie suite, AI faktuuur verwerking, PWA apps, event mesh, SAP konsultasie",
+        "title": "BTP xID | SAP BTP API Kredensiale & Toegangbestuur",
+        "description": "BTP xID is 'n skermtoepassing vir volledige SAP BTP API kredensiale en gebruikerbestuur. Beheer elke gebruiker, rol en API kredensiale oor Globale Rekeninge, sub-rekeninge en Cloud Foundry-omgewings op een plek.",
+        "keywords": "SAP BTP API kredensiaalbeheer, BTP xID, SAP BTP gebruikersbeheer, dienssleutels SAP BTP, Cloud Foundry toegangsbeheer, SAP BTP toegangsbestuur",
         "locale": "af"
       },
       "am": {
-        "title": "TerraBT - 100% SAP BTP ልዩ ባለሙያነት",
-        "description": "ዓለም አቀፍ የSAP Business Technology Platform ትግበራዎችን የሚያቀርብ ልዩ የማማከር አገልግሎት",
-        "keywords": "SAP BTP ምክክር, SAP Business Technology Platform, Fiori ልማት, BTP አርክቴክቸር, SAP የግንኙነት ስብስብ, AI ደረሰኝ ማቀናበር, PWA መተግበሪያዎች, event mesh, SAP ምክክር",
+        "title": "BTP xID | SAP BTP API ምስጋና እና መዳረሽ አስተዳደር",
+        "description": "BTP xID ለሙሉ SAP BTP API ምስጋና እና ተጠቃሚ አስተዳደር የስራ ገጽ ትግበራ ነው። እያንዳንዱን ተጠቃሚ፣ ሚና እና API ምስጋናን በአለም ሀገር ሂሳቦች፣ ንዑስ ሂሳቦች እና Cloud Foundry ከባቢያት ላይ ከአንድ ቦታ ያስተዳድሩ።",
+        "keywords": "SAP BTP API ምስጋናን አስተዳደር፣ BTP xID፣ SAP BTP ተጠቃሚ አስተዳደር፣ ድርጅት ቁልፎች SAP BTP፣ Cloud Foundry መዳረሽ አስተዳደር፣ SAP BTP መዳረሽ አስተዳደር",
         "locale": "am"
       },
       "ar": {
-        "title": "TerraBT - متخصصون بنسبة 100% في SAP BTP",
-        "description": "استشارات متخصصة تقدم أحدث تطبيقات SAP Business Technology Platform في جميع أنحاء العالم",
-        "keywords": "استشارات SAP BTP, SAP Business Technology Platform, تطوير Fiori, هندسة BTP, مجموعة تكامل SAP, معالجة الفواتير بالذكاء الاصطناعي, تطبيقات PWA, شبكة الأحداث, استشارات SAP",
+        "title": "BTP xID | إدارة بيانات اعتماد API وإدارة الوصول SAP BTP",
+        "description": "BTP xID هو تطبيق سطح المكتب لإدارة بيانات اعتماد API والمستخدم الكاملة SAP BTP. تحكم في كل مستخدم وأدوار وبيانات اعتماد API عبر الحسابات العامة والحسابات الفرعية وبيئات Cloud Foundry من مكان واحد.",
+        "keywords": "إدارة بيانات اعتماد API SAP BTP، BTP xID، إدارة المستخدمين SAP BTP، مفاتيح الخدمة SAP BTP، إدارة وصول Cloud Foundry، إدارة الوصول SAP BTP",
         "locale": "ar"
       },
       "bg": {
-        "title": "TerraBT - 100% специализация в SAP BTP",
-        "description": "Специализирано консултиране за внедряване на SAP Business Technology Platform по целия свят",
-        "keywords": "SAP BTP консултиране, SAP Business Technology Platform, Fiori разработка, BTP архитектура, SAP интеграционен пакет, AI обработка на фактури, PWA приложения, event mesh, SAP консултиране",
+        "title": "BTP xID | Управление на API учетни данни и достъп SAP BTP",
+        "description": "BTP xID е настолно приложение за пълно управление на API учетни данни и потребители SAP BTP. Управлявайте всеки потребител, роля и API учетни данни в глобални сметки, подсметки и среди Cloud Foundry от едно място.",
+        "keywords": "SAP BTP управление на API учетни данни, BTP xID, SAP BTP управление на потребители, ключове на услуги SAP BTP, управление на достъп Cloud Foundry, управление на достъп SAP BTP",
         "locale": "bg"
       },
       "cs": {
-        "title": "TerraBT - 100% fokus na SAP BTP",
-        "description": "Specializovaný konclulting pro implementace řešení SAP Business Technology Platform po celém světě",
-        "keywords": "SAP BTP konzultace, SAP Business Technology Platform, vývoj Fiori, architektura BTP, SAP Integration Suite, zpracování faktur AI, aplikace PWA, event mesh, konzultace SAP",
+        "title": "BTP xID | Správa přihlašovacích údajů API SAP BTP a správa přístupu",
+        "description": "BTP xID je desktopová aplikace pro úplnou správu přihlašovacích údajů API a uživatelů SAP BTP. Spravujte každého uživatele, roli a přihlašovací údaje API v globálních účtech, dílčích účtech a prostředích Cloud Foundry na jednom místě.",
+        "keywords": "Správa přihlašovacích údajů API SAP BTP, BTP xID, Správa uživatelů SAP BTP, klíče služeb SAP BTP, Správa přístupu Cloud Foundry, Správa přístupu SAP BTP",
         "locale": "cs"
       },
       "da": {
-        "title": "TerraBT - 100% SAP BTP-specialisering",
-        "description": "Specialiseret rådgivning i SAP Business Technology Platform implementeringer",
-        "keywords": "SAP BTP rådgivning, SAP Business Technology Platform, Fiori udvikling, BTP arkitektur, SAP integration suite, AI fakturabehandling, PWA apps, event mesh, SAP rådgivning",
+        "title": "BTP xID | SAP BTP API Legitimationsoplysninger & Adgangsstyring",
+        "description": "BTP xID er en desktopapplikation til fuldstændig SAP BTP API-legitimationsoplysninger og brugerstyring. Styr hver bruger, rolle og API-legitimationsoplysninger på tværs af globale konti, underkonti og Cloud Foundry-miljøer fra ét sted.",
+        "keywords": "SAP BTP API-legitimationsstyring, BTP xID, SAP BTP-brugerstyring, servicenøgler SAP BTP, Cloud Foundry-adgangsstyring, SAP BTP-adgangsstyring",
         "locale": "da"
       },
       "de": {
-        "title": "TerraBT - 100% SAP BTP-Spezialisierung",
-        "description": "Spezialisierte Beratung für modernste SAP Business Technology Platform-Implementierungen weltweit",
-        "keywords": "SAP BTP Beratung, SAP Business Technology Platform, Fiori Entwicklung, BTP Architektur, SAP Integration Suite, KI Rechnungsverarbeitung, PWA Apps, Event Mesh, SAP Beratung",
+        "title": "BTP xID | SAP BTP API Anmeldedaten & Zugriffsverwaltung",
+        "description": "BTP xID ist eine Desktop-Anwendung für vollständige SAP BTP API-Anmeldedaten und Benutzerverwaltung. Verwalten Sie jeden Benutzer, jede Rolle und jede API-Anmeldedaten über globale Konten, Unterkonten und Cloud Foundry-Umgebungen von einem Ort aus.",
+        "keywords": "SAP BTP API-Anmeldedatenverwaltung, BTP xID, SAP BTP-Benutzerverwaltung, Service-Schlüssel SAP BTP, Cloud Foundry-Zugriffsverwaltung, SAP BTP-Zugriffsverwaltung",
         "locale": "de"
       },
       "el": {
-        "title": "TerraBT - 100% Εξειδίκευση SAP BTP",
-        "description": "Εξειδικευμένες συμβουλευτικές υπηρεσίες για υλοποιήσεις SAP Business Technology Platform",
-        "keywords": "Συμβουλευτική SAP BTP, SAP Business Technology Platform, ανάπτυξη Fiori, αρχιτεκτονική BTP, σουίτα ενοποίησης SAP, επεξεργασία τιμολογίων AI, εφαρμογές PWA, event mesh, συμβουλευτική SAP",
+        "title": "BTP xID | Διαχείριση διαπιστευτηρίων API SAP BTP και έλεγχος πρόσβασης",
+        "description": "BTP xID είναι μια εφαρμογή επιφάνειας εργασίας για πλήρη διαχείριση διαπιστευτηρίων API και χρηστών SAP BTP. Ελέγξτε κάθε χρήστη, ρόλο και διαπιστευτήρια API σε παγκόσμιους λογαριασμούς, δευτερεύοντες λογαριασμούς και περιβάλλοντα Cloud Foundry από ένα σημείο.",
+        "keywords": "Διαχείριση διαπιστευτηρίων API SAP BTP, BTP xID, Διαχείριση χρηστών SAP BTP, κλειδιά υπηρεσίας SAP BTP, Διαχείριση πρόσβασης Cloud Foundry, Έλεγχος πρόσβασης SAP BTP",
         "locale": "el"
       },
       "en": {
@@ -235,153 +235,153 @@ export default {
         "locale": "en"
       },
       "es": {
-        "title": "TerraBT - 100% Especialización en SAP BTP",
-        "description": "Consultoría especializada en implementaciones SAP Business Technology Platform",
-        "keywords": "consultoría SAP BTP, SAP Business Technology Platform, desarrollo Fiori, arquitectura BTP, suite de integración SAP, procesamiento de facturas con IA, aplicaciones PWA, event mesh, consultoría SAP",
+        "title": "BTP xID | Gestión de credenciales API de SAP BTP y control de acceso",
+        "description": "BTP xID es una aplicación de escritorio para la gestión completa de credenciales API y usuarios de SAP BTP. Administre cada usuario, rol y credencial API en cuentas globales, subcuentas y entornos de Cloud Foundry desde un único lugar.",
+        "keywords": "Gestión de credenciales API de SAP BTP, BTP xID, Gestión de usuarios de SAP BTP, claves de servicio de SAP BTP, Gestión de acceso de Cloud Foundry, Control de acceso de SAP BTP",
         "locale": "es"
       },
       "et": {
-        "title": "TerraBT - 100% SAP BTP spetsialiseerumine",
-        "description": "Spetsialiseeritud nõustamine SAP Business Technology Platform juurutustes",
-        "keywords": "SAP BTP konsultatsioon, SAP Business Technology Platform, Fiori arendus, BTP arhitektuur, SAP integratsioonikomplekt, AI arvete töötlemine, PWA rakendused, event mesh, SAP konsultatsioon",
+        "title": "BTP xID | SAP BTP API identimisteabete ja juurdepääsukontrolli haldus",
+        "description": "BTP xID on töölauallikas SAP BTP API identimisteabete ja kasutajate täielikuks haldamiseks. Hallake kõiki kasutajaid, rolle ja API identimisteabeid globaalsete kontode, alamkontode ja Cloud Foundry keskkondade lõikes ühest kohast.",
+        "keywords": "SAP BTP API identimisteabete haldus, BTP xID, SAP BTP kasutajate haldus, teenuste võtmed SAP BTP, Cloud Foundry juurdepääsukontrolli, SAP BTP juurdepääsukontrolli",
         "locale": "et"
       },
       "fi": {
-        "title": "TerraBT - 100 % keskittyminen SAP BTP -alustaan",
-        "description": "Erikoistunutta konsultointia huipputason SAP Business Technology Platform -toteutuksiin maailmanlaajuisesti",
-        "keywords": "SAP BTP konsultointi, SAP Business Technology Platform, Fiori kehitys, BTP arkkitehtuuri, SAP integraatiopaketti, tekoäly laskujen käsittely, PWA sovellukset, event mesh, SAP konsultointi",
+        "title": "BTP xID | SAP BTP API tunnistetiedot ja pääsynhallinta",
+        "description": "BTP xID on työpöytäsovellus SAP BTP API tunnistetietojen ja käyttäjien täydelliselle hallinnalle. Hallitse jokaista käyttäjää, roolia ja API tunnistetietoja globaalien tilien, alitilien ja Cloud Foundry ympäristöjen välillä yhdestä paikasta.",
+        "keywords": "SAP BTP API tunnistetietojen hallinta, BTP xID, SAP BTP käyttäjähallinta, palveluavaimet SAP BTP, Cloud Foundry pääsynhallinta, SAP BTP pääsynhallinta",
         "locale": "fi"
       },
       "fr": {
-        "title": "TerraBT - Spécialisation 100% SAP BTP",
-        "description": "Conseil spécialisé livrant des implémentations de plateforme SAP Business Technology Platform de pointe dans le monde entier",
-        "keywords": "conseil SAP BTP, SAP Business Technology Platform, développement Fiori, architecture BTP, suite d'intégration SAP, traitement des factures par IA, applications PWA, event mesh, conseil SAP",
+        "title": "BTP xID | Gestion des identifiants API SAP BTP et contrôle d'accès",
+        "description": "BTP xID est une application de bureau pour la gestion complète des identifiants API et des utilisateurs SAP BTP. Gérez tous les utilisateurs, rôles et identifiants API sur les comptes mondiaux, les sous-comptes et les environnements Cloud Foundry à partir d'un seul endroit.",
+        "keywords": "Gestion des identifiants API SAP BTP, BTP xID, Gestion des utilisateurs SAP BTP, clés de service SAP BTP, Gestion de l'accès Cloud Foundry, Contrôle d'accès SAP BTP",
         "locale": "fr"
       },
       "he": {
-        "title": "TerraBT - 100% התמחות ב-SAP BTP",
-        "description": "ייעוץ מומחה ליישום פתרונות SAP Business Technology Platform מתקדמים ברחבי העולם",
-        "keywords": "ייעוץ SAP BTP, SAP Business Technology Platform, פיתוח Fiori, ארכיטקטורת BTP, חבילת אינטגרציה SAP, עיבוד חשבוניות AI, אפליקציות PWA, event mesh, ייעוץ SAP",
+        "title": "BTP xID | ניהול אישורי API של SAP BTP ובקרת גישה",
+        "description": "BTP xID היא יישומת שולחן עבודה לניהול מלא של אישורי API ויוזרים של SAP BTP. נהל כל יוזר, תפקיד ואישור API בחשבונות גלובליים, חשבונות משנה וסביבות Cloud Foundry ממקום אחד.",
+        "keywords": "ניהול אישורי API של SAP BTP, BTP xID, ניהול יוזרים של SAP BTP, מפתחות שירות של SAP BTP, ניהול גישה של Cloud Foundry, בקרת גישה של SAP BTP",
         "locale": "he"
       },
       "hr": {
-        "title": "TerraBT - 100% specijalizacija SAP BTP-a",
-        "description": "Specijalizirano savjetovanje za implementacije SAP Business Technology Platform",
-        "keywords": "SAP BTP savjetovanje, SAP Business Technology Platform, Fiori razvoj, BTP arhitektura, SAP integracijski paket, AI obrada računa, PWA aplikacije, event mesh, SAP savjetovanje",
+        "title": "BTP xID | Upravljanje API akreditivima SAP BTP i kontrola pristupa",
+        "description": "BTP xID je stolna aplikacija za kompletan SAP BTP API upravljanje akreditivima i korisnicima. Upravljajte svakim korisnikom, ulogom i API akreditivima preko globalnih računa, podrачuna i Cloud Foundry okruženja s jednog mjesta.",
+        "keywords": "SAP BTP upravljanje API akreditivima, BTP xID, SAP BTP upravljanje korisnicima, ključevi usluge SAP BTP, Cloud Foundry kontrola pristupa, SAP BTP kontrola pristupa",
         "locale": "hr"
       },
       "hu": {
-        "title": "TerraBT - 100% SAP BTP Specializáció",
-        "description": "Specializált tanácsadás SAP Business Technology Platform implementációkban",
-        "keywords": "SAP BTP tanácsadás, SAP Business Technology Platform, Fiori fejlesztés, BTP architektúra, SAP integrációs csomag, AI számlafeldolgozás, PWA alkalmazások, event mesh, SAP tanácsadás",
+        "title": "BTP xID | SAP BTP API hitelesítési adatok és hozzáférés-vezérlés",
+        "description": "BTP xID egy asztali alkalmazás az SAP BTP API hitelesítési adatok és felhasználók teljes kezeléséhez. Kezelje az összes felhasználót, szerepet és API hitelesítési adatokat globális fiókok, alfiókok és Cloud Foundry környezetek között egy helyről.",
+        "keywords": "SAP BTP API hitelesítési adatok kezelése, BTP xID, SAP BTP felhasználókezelés, szolgáltatás kulcsok SAP BTP, Cloud Foundry hozzáférés-vezérlés, SAP BTP hozzáférés-vezérlés",
         "locale": "hu"
       },
       "it": {
-        "title": "TerraBT - Specializzazione SAP BTP al 100%",
-        "description": "Consulenza specializzata in implementazioni SAP Business Technology Platform",
-        "keywords": "consulenza SAP BTP, SAP Business Technology Platform, sviluppo Fiori, architettura BTP, suite di integrazione SAP, elaborazione fatture AI, app PWA, event mesh, consulenza SAP",
+        "title": "BTP xID | Gestione delle credenziali API SAP BTP e controllo degli accessi",
+        "description": "BTP xID è un'applicazione desktop per la gestione completa delle credenziali API e degli utenti SAP BTP. Gestisci ogni utente, ruolo e credenziale API su account globali, account secondari e ambienti Cloud Foundry da un'unica posizione.",
+        "keywords": "Gestione delle credenziali API SAP BTP, BTP xID, Gestione degli utenti SAP BTP, chiavi di servizio SAP BTP, Controllo degli accessi Cloud Foundry, Controllo degli accessi SAP BTP",
         "locale": "it"
       },
       "ja": {
-        "title": "TerraBT - 100% SAP BTP専門",
-        "description": "世界中で最先端のSAP Business Technology Platform実装を提供する専門コンサルティング",
-        "keywords": "SAP BTP コンサルティング, SAP Business Technology Platform, Fiori 開発, BTP アーキテクチャ, SAP 統合スイート, AI 請求書処理, PWA アプリ, イベントメッシュ, SAP コンサルティング",
+        "title": "BTP xID | SAP BTP API 認証情報とアクセス管理",
+        "description": "BTP xID は、SAP BTP API の認証情報とユーザーの完全な管理用デスクトップアプリケーションです。グローバルアカウント、サブアカウント、Cloud Foundry 環境全体の、すべてのユーザー、ロール、API 認証情報を 1 か所から管理します。",
+        "keywords": "SAP BTP API 認証情報管理、BTP xID、SAP BTP ユーザー管理、サービスキー SAP BTP、Cloud Foundry アクセス管理、SAP BTP アクセス管理",
         "locale": "ja"
       },
       "ko": {
-        "title": "TerraBT - 100% SAP BTP 전문화",
-        "description": "SAP Business Technology Platform 구현 전문 컨설팅",
-        "keywords": "SAP BTP 컨설팅, SAP Business Technology Platform, Fiori 개발, BTP 아키텍처, SAP 통합 제품군, AI 송장 처리, PWA 앱, 이벤트 메쉬, SAP 컨설팅",
+        "title": "BTP xID | SAP BTP API 자격 증명 및 액세스 관리",
+        "description": "BTP xID는 SAP BTP API 자격 증명 및 사용자를 완벽하게 관리하기 위한 데스크탑 애플리케이션입니다. 한 곳에서 글로벌 계정, 하위 계정 및 Cloud Foundry 환경 전반에 걸쳐 모든 사용자, 역할 및 API 자격 증명을 관리합니다.",
+        "keywords": "SAP BTP API 자격 증명 관리, BTP xID, SAP BTP 사용자 관리, 서비스 키 SAP BTP, Cloud Foundry 액세스 관리, SAP BTP 액세스 관리",
         "locale": "ko"
       },
       "lt": {
-        "title": "TerraBT - 100% specializacija SAP BTP",
-        "description": "Specializuotas konsultavimas diegiant pažangiausius SAP Business Technology Platform sprendimus visame pasaulyje",
-        "keywords": "SAP BTP konsultacijos, SAP Business Technology Platform, Fiori kūrimas, BTP architektūra, SAP integracijos paketas, AI sąskaitų faktūrų apdorojimas, PWA programos, event mesh, SAP konsultacijos",
+        "title": "BTP xID | SAP BTP API kredencialai ir prieigos valdymas",
+        "description": "BTP xID yra darbalaukio programa, skirta SAP BTP API kredencialų ir vartotojų pilnam valdymui. Valdykite kiekvieną vartotoją, vaidmenį ir API kredencialus visame globaliųjų sąskaitų, posąskaitų ir Cloud Foundry aplinkų diapazone iš vienos vietos.",
+        "keywords": "SAP BTP API kredencialų valdymas, BTP xID, SAP BTP vartotojų valdymas, tarnybos raktai SAP BTP, Cloud Foundry prieigos valdymas, SAP BTP prieigos valdymas",
         "locale": "lt"
       },
       "lv": {
-        "title": "TerraBT - 100% specializācija SAP BTP",
-        "description": "Specializētas konsultācijas modernāko SAP Business Technology Platform risinājumu ieviešanai visā pasaulē",
-        "keywords": "SAP BTP konsultācijas, SAP Business Technology Platform, Fiori izstrāde, BTP arhitektūra, SAP integrācijas komplekts, AI rēķinu apstrāde, PWA lietotnes, event mesh, SAP konsultācijas",
+        "title": "BTP xID | SAP BTP API akreditācija un piekļuves pārvaldība",
+        "description": "BTP xID ir darbvirsmas lietojumprogramma SAP BTP API akreditācijas un lietotāju pilnai pārvaldībai. Pārvaldiet katru lietotāju, lomu un API akreditāciju globālajos kontos, apakškontos un Cloud Foundry vidēs no vienas vietas.",
+        "keywords": "SAP BTP API akreditācijas pārvaldība, BTP xID, SAP BTP lietotāju pārvaldība, pakalpojumu atslēgas SAP BTP, Cloud Foundry piekļuves pārvaldība, SAP BTP piekļuves pārvaldība",
         "locale": "lv"
       },
       "nb": {
-        "title": "TerraBT - 100% SAP BTP-spesialisering",
-        "description": "Spesialisert rådgivning i SAP Business Technology Platform implementeringer",
-        "keywords": "SAP BTP rådgivning, SAP Business Technology Platform, Fiori utvikling, BTP arkitektur, SAP integrasjonspakke, AI fakturabehandling, PWA apper, event mesh, SAP rådgivning",
+        "title": "BTP xID | SAP BTP API Legitimasjon & Tilgangskontroll",
+        "description": "BTP xID er et skrivebordsprogram for fullstendig SAP BTP API-legitimasjon og brukerstyring. Styr hver bruker, rolle og API-legitimasjon på tvers av globale konti, underkonti og Cloud Foundry-miljøer fra ett sted.",
+        "keywords": "SAP BTP API-legitimasjonsstyring, BTP xID, SAP BTP-brukerstyring, tjenestenøkler SAP BTP, Cloud Foundry-tilgangskontroll, SAP BTP-tilgangskontroll",
         "locale": "nb"
       },
       "nl": {
-        "title": "TerraBT - 100% SAP BTP-specialisatie",
-        "description": "Gespecialiseerde consulting voor SAP Business Technology Platform implementaties",
-        "keywords": "SAP BTP consulting, SAP Business Technology Platform, Fiori ontwikkeling, BTP architectuur, SAP integratie suite, AI factuurverwerking, PWA apps, event mesh, SAP consulting",
+        "title": "BTP xID | SAP BTP API Referenties & Toegangsbeheer",
+        "description": "BTP xID is een desktoptoepassing voor volledig SAP BTP API-referenties en gebruikersbeheer. Beheer elke gebruiker, rol en API-referentie op globale rekeningen, subrekeningen en Cloud Foundry-omgevingen vanaf één locatie.",
+        "keywords": "SAP BTP API-referentiebeheer, BTP xID, SAP BTP-gebruikersbeheer, servicesleutels SAP BTP, Cloud Foundry-toegangsbeheer, SAP BTP-toegangsbeheer",
         "locale": "nl"
       },
       "pl": {
-        "title": "TerraBT - 100% koncentracji na SAP BTP",
-        "description": "Specjalistyczne doradztwo dostarczające najnowocześniejsze wdrożenia SAP Business Technology Platform na całym świecie",
-        "keywords": "konsulting SAP BTP, SAP Business Technology Platform, rozwój Fiori, architektura BTP, pakiet integracji SAP, przetwarzanie faktur AI, aplikacje PWA, event mesh, konsulting SAP",
+        "title": "BTP xID | Zarządzanie poświadczeniami API SAP BTP i kontrola dostępu",
+        "description": "BTP xID to aplikacja komputerowa do pełnego zarządzania poświadczeniami API i użytkownikami SAP BTP. Zarządzaj każdym użytkownikiem, rolą i poświadczeniami API na kontach globalnych, kontach podrzędnych i środowiskach Cloud Foundry z jednego miejsca.",
+        "keywords": "Zarządzanie poświadczeniami API SAP BTP, BTP xID, Zarządzanie użytkownikami SAP BTP, klucze usług SAP BTP, Kontrola dostępu Cloud Foundry, Kontrola dostępu SAP BTP",
         "locale": "pl"
       },
       "pt": {
-        "title": "TerraBT - Especialização 100% SAP BTP",
-        "description": "Consultoria especializada em implementações SAP Business Technology Platform",
-        "keywords": "consultoria SAP BTP, SAP Business Technology Platform, desenvolvimento Fiori, arquitetura BTP, suíte de integração SAP, processamento de faturas com IA, apps PWA, event mesh, consultoria SAP",
+        "title": "BTP xID | Gerenciamento de credenciais API SAP BTP e controle de acesso",
+        "description": "BTP xID é um aplicativo de desktop para gerenciamento completo de credenciais de API e usuários SAP BTP. Gerencie cada usuário, função e credencial de API em contas globais, subcontas e ambientes Cloud Foundry a partir de um único local.",
+        "keywords": "Gerenciamento de credenciais API SAP BTP, BTP xID, Gerenciamento de usuários SAP BTP, chaves de serviço SAP BTP, Controle de acesso Cloud Foundry, Controle de acesso SAP BTP",
         "locale": "pt"
       },
       "ro": {
-        "title": "TerraBT - 100% Specializare SAP BTP",
-        "description": "Consultanță specializată în implementări SAP Business Technology Platform",
-        "keywords": "consultanță SAP BTP, SAP Business Technology Platform, dezvoltare Fiori, arhitectură BTP, suită de integrare SAP, procesare facturi AI, aplicații PWA, event mesh, consultanță SAP",
+        "title": "BTP xID | Gestionarea acreditărilor API SAP BTP și controlul accesului",
+        "description": "BTP xID este o aplicație desktop pentru gestionarea completă a acreditărilor API și utilizatorilor SAP BTP. Gestionați fiecare utilizator, rol și acreditare API în conturi globale, subconturi și medii Cloud Foundry dintr-un singur loc.",
+        "keywords": "Gestionarea acreditărilor API SAP BTP, BTP xID, Gestionarea utilizatorilor SAP BTP, chei de serviciu SAP BTP, Controlul accesului Cloud Foundry, Controlul accesului SAP BTP",
         "locale": "ro"
       },
       "ru": {
-        "title": "TerraBT - 100% фокус на SAP BTP",
-        "description": "Специализированный консалтинг по внедрению передовых решений на базе SAP Business Technology Platform по всему миру",
-        "keywords": "консалтинг SAP BTP, SAP Business Technology Platform, разработка Fiori, архитектура BTP, интеграционный пакет SAP, обработка счетов с ИИ, PWA приложения, event mesh, консалтинг SAP",
+        "title": "BTP xID | Управление учетными данными API SAP BTP и контроль доступа",
+        "description": "BTP xID — это настольное приложение для полного управления учетными данными API и пользователями SAP BTP. Управляйте каждым пользователем, ролью и учетными данными API в глобальных счетах, подсчетах и средах Cloud Foundry из одного места.",
+        "keywords": "Управление учетными данными API SAP BTP, BTP xID, Управление пользователями SAP BTP, ключи сервисов SAP BTP, Контроль доступа Cloud Foundry, Управление доступом SAP BTP",
         "locale": "ru"
       },
       "sk": {
-        "title": "TerraBT - 100% zameranie na SAP BTP",
-        "description": "Špecializované poradenstvo poskytujúce špičkové implementácie SAP Business Technology Platform po celom svete",
-        "keywords": "SAP BTP poradenstvo, SAP Business Technology Platform, vývoj Fiori, architektúra BTP, SAP integračný balík, spracovanie faktúr AI, PWA aplikácie, event mesh, SAP poradenstvo",
+        "title": "BTP xID | Správa poverení API SAP BTP a riadenie prístupu",
+        "description": "BTP xID je desktopová aplikácia na úplnú správu poverení API a používateľov SAP BTP. Spravujte každého používateľa, rolu a poverenie API v globálnych účtoch, podúčtoch a prostrediach Cloud Foundry na jednom mieste.",
+        "keywords": "Správa poverení API SAP BTP, BTP xID, Správa používateľov SAP BTP, servisné kľúče SAP BTP, Riadenie prístupu Cloud Foundry, Riadenie prístupu SAP BTP",
         "locale": "sk"
       },
       "sl": {
-        "title": "TerraBT - 100 % fokus na SAP BTP",
-        "description": "Specializirano svetovanje za implementacije SAP Business Technology Platform po vsem svetu",
-        "keywords": "SAP BTP svetovanje, SAP Business Technology Platform, razvoj Fiori, arhitektura BTP, SAP integracijski paket, obdelava računov z umetno inteligenco, PWA aplikacije, event mesh, SAP svetovanje",
+        "title": "BTP xID | Upravljanje poverilnic API SAP BTP in nadzor dostopa",
+        "description": "BTP xID je namizna aplikacija za popolno upravljanje poverilnic API in uporabnikov SAP BTP. Upravljajte vsakega uporabnika, vlogo in poverilnico API v globalnih računih, podračunih in okoljih Cloud Foundry na enem mestu.",
+        "keywords": "Upravljanje poverilnic API SAP BTP, BTP xID, Upravljanje uporabnikov SAP BTP, ključi storitve SAP BTP, Nadzor dostopa Cloud Foundry, Nadzor dostopa SAP BTP",
         "locale": "sl"
       },
       "sv": {
-        "title": "TerraBT - 100 % fokus på SAP BTP",
-        "description": "Specialiserad rådgivning som levererar banbrytande implementeringar av SAP Business Technology Platform världen över",
-        "keywords": "SAP BTP konsultation, SAP Business Technology Platform, Fiori utveckling, BTP arkitektur, SAP integrationssvit, AI fakturahantering, PWA appar, event mesh, SAP konsultation",
+        "title": "BTP xID | SAP BTP API Autentiseringsuppgifter & Åtkomstkontroll",
+        "description": "BTP xID är en skrivbordsapplikation för fullständig SAP BTP API-autentiseringsuppgifter och användarhantering. Styr alla användare, roller och API-autentiseringsuppgifter i globala konton, underkonton och Cloud Foundry-miljöer från ett ställe.",
+        "keywords": "SAP BTP API-autentiseringsuppgiftshantering, BTP xID, SAP BTP-användarhantering, tjänstenycklar SAP BTP, Cloud Foundry-åtkomstkontroll, SAP BTP-åtkomstkontroll",
         "locale": "sv"
       },
       "sw": {
-        "title": "TerraBT - Ujuzi Maalum 100% wa SAP BTP",
-        "description": "Ushauri wa kipekee unaoletea utekelezaji wa hali ya juu wa SAP Business Technology Platform duniani kote",
-        "keywords": "Ushauri wa SAP BTP, SAP Business Technology Platform, maendeleo ya Fiori, usanifu wa BTP, seti ya ujumuishaji wa SAP, uchakataji wa ankara wa AI, programu za PWA, matundu ya tukio, ushauri wa SAP",
+        "title": "BTP xID | Usimamizi wa API Akaunti ya SAP BTP na Kudhibiti Kuingilia",
+        "description": "BTP xID ni programu ya kompyuta kwa ajili ya usimamizi kamili wa API akaunti na watumiaji wa SAP BTP. Simamia kila mtumiaji, jukumu na API akaunti katika akaunti za kimataifa, akaunti ndogo na mazingira ya Cloud Foundry kutoka mahali pamoja.",
+        "keywords": "Usimamizi wa API Akaunti ya SAP BTP, BTP xID, Usimamizi wa Watumiaji wa SAP BTP, funguo za huduma SAP BTP, Kudhibiti Kuingilia kwa Cloud Foundry, Kudhibiti Kuingilia kwa SAP BTP",
         "locale": "sw"
       },
       "tr": {
-        "title": "TerraBT - %100 SAP BTP Uzmanlığı",
-        "description": "Dünya çapında en son teknoloji SAP İş Teknolojisi Platformu (BTP) uygulamaları sunan uzman danışmanlık",
-        "keywords": "SAP BTP danışmanlığı, SAP Business Technology Platform, Fiori geliştirme, BTP mimarisi, SAP entegrasyon paketi, YZ fatura işleme, PWA uygulamaları, event mesh, SAP danışmanlığı",
+        "title": "BTP xID | SAP BTP API Kimlik Bilgileri ve Erişim Yönetimi",
+        "description": "BTP xID, SAP BTP API kimlik bilgileri ve kullanıcı yönetiminin tam olması için bir masaüstü uygulamasıdır. Küresel hesaplar, alt hesaplar ve Cloud Foundry ortamları arasında her kullanıcı, rol ve API kimlik bilgisini tek bir yerden yönetin.",
+        "keywords": "SAP BTP API kimlik bilgileri yönetimi, BTP xID, SAP BTP kullanıcı yönetimi, SAP BTP hizmet anahtarları, Cloud Foundry erişim yönetimi, SAP BTP erişim yönetimi",
         "locale": "tr"
       },
       "uk": {
-        "title": "TerraBT - 100% фокус на SAP BTP",
-        "description": "Спеціалізований консалтинг із впровадження передових рішень SAP Business Technology Platform по всьому світу",
-        "keywords": "консалтинг SAP BTP, SAP Business Technology Platform, розробка Fiori, архітектура BTP, інтеграційний пакет SAP, обробка рахунків зі ШІ, PWA додатки, event mesh, консалтинг SAP",
+        "title": "BTP xID | Управління обліковими даними API SAP BTP та контроль доступу",
+        "description": "BTP xID — це настільна програма для повного управління обліковими даними API та користувачами SAP BTP. Керуйте кожним користувачем, роллю та обліковими даними API в глобальних рахунках, субрахунках та середовищах Cloud Foundry з одного місця.",
+        "keywords": "Управління обліковими даними API SAP BTP, BTP xID, Управління користувачами SAP BTP, ключи служб SAP BTP, Контроль доступу Cloud Foundry, Управління доступом SAP BTP",
         "locale": "uk"
       },
       "zh": {
-        "title": "TerraBT - 100%的SAP BTP专业化",
-        "description": "专业咨询提供前沿的SAP Business Technology Platform实施",
-        "keywords": "SAP BTP 咨询, SAP Business Technology Platform, Fiori 开发, BTP 架构, SAP 集成套件, AI 发票处理, PWA 应用, event mesh, SAP 咨询",
+        "title": "BTP xID | SAP BTP API 凭证和访问权限管理",
+        "description": "BTP xID 是一个桌面应用程序，用于完整的 SAP BTP API 凭证和用户管理。在全球账户、子账户和 Cloud Foundry 环境中从一处管理每个用户、角色和 API 凭证。",
+        "keywords": "SAP BTP API 凭证管理、BTP xID、SAP BTP 用户管理、SAP BTP 服务密钥、Cloud Foundry 访问权限管理、SAP BTP 访问权限管理",
         "locale": "zh"
       }
     };
