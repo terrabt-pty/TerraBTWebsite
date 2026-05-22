@@ -128,7 +128,7 @@ export default function BTPxIDProduct() {
   const { t, i18n } = useTranslation();
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
-  const [showAllDownloads, setShowAllDownloads] = useState(false);
+  const [showAllDownloads, setShowAllDownloads] = useState(true);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const { getLocalizedPath } = useLocalizedPath();

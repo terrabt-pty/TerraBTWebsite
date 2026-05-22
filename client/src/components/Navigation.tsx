@@ -6,7 +6,10 @@ import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
-const SCROLL_LINKS: { labelKey: string; href: string }[] = [];
+const SCROLL_LINKS = [
+  { labelKey: "nav.download", href: "#download" },
+  { labelKey: "nav.contact",  href: "#contact"  },
+];
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
