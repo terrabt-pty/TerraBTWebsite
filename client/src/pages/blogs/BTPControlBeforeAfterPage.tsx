@@ -167,13 +167,13 @@ export default function BTPControlBeforeAfterPage() {
               See what control looks like in practice
             </p>
             <p style={{ color: "#475569", fontSize: "0.9375rem", marginBottom: "24px" }}>
-              Download BTP xID and connect your BTP landscape in minutes.
+              Manage SAP BTP users and API credentials with BTP xID and connect your BTP landscape in minutes.
             </p>
             <a
               href="/"
               style={{ display: "inline-block", background: "linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099)", color: "#FFFFFF", padding: "12px 32px", borderRadius: "8px", fontWeight: 600, fontSize: "0.9375rem", textDecoration: "none" }}
             >
-              Download BTP xID
+              Manage SAP BTP users and API credentials with BTP xID
             </a>
           </section>
 
