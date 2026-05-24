@@ -1,57 +1,23 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { X, Cookie } from "lucide-react";
+import { Cookie } from "lucide-react";
 import { initializeGA } from "@/lib/googleAnalytics";
-
-declare global {
-    interface Window {
-        GEO_COUNTRY?: string;
-    }
-}
-
-// List of EEA countries + UK + Switzerland
-const GDPR_COUNTRIES = [
-    "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT",
-    "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE",
-    "GB", "CH", "NO", "IS", "LI"
-];
 
 export default function CookieConsent() {
     const { t } = useTranslation();
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        // 1. Check if user has already made a choice
-        const sensitivityChoice = localStorage.getItem("cookie-consent");
-
-        if (sensitivityChoice === "accepted") {
+        const choice = localStorage.getItem("cookie-consent");
+        if (choice === "accepted") {
             initializeGA();
             return;
         }
-
-        if (sensitivityChoice === "declined") {
+        if (choice === "declined") {
             return;
         }
-
-        // 2. If no choice yet, determine Country
-        // window.GEO_COUNTRY is injected by the Cloudflare Worker
-        // For local development, we can force a region via URL or default to 'US' (hidden)
-        const urlParams = new URLSearchParams(window.location.search);
-        const testGeo = urlParams.get("test_geo");
-        const country = testGeo || window.GEO_COUNTRY || "UNKNOWN";
-
-        // 3. Apply logic based on Location
-        if (GDPR_COUNTRIES.includes(country)) {
-            // In EU/UK -> Show Banner, Wait for Consent (Strict GDPR)
-            setIsVisible(true);
-        } else {
-            // Outside EU (US, AU, etc) -> Implied Consent
-            // We load GA immediately, user can still opt-out via other means if we built them,
-            // but standard practice for non-GDPR is opt-out, not opt-in.
-            // Since we don't have a settings menu yet, we just load it.
-            initializeGA();
-        }
+        setIsVisible(true);
     }, []);
 
     const handleAccept = () => {
