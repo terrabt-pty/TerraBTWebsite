@@ -62,7 +62,7 @@ export default function BTPxIDHero() {
             <div className="btpxid-trust-item">
               <span className="btpxid-trust-number">1st</span>
               <span className="btpxid-trust-label">
-                SAP BTP User Management App
+                SAP BTP API Credential Management App
               </span>
             </div>
             <div className="btpxid-trust-divider" />

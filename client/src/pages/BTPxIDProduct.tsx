@@ -166,8 +166,8 @@ export default function BTPxIDProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="BTP xID - SAP BTP User Management | TerraBT"
-        description="A desktop app for SAP BTP user management. Manage users across global accounts, sub-accounts, CF orgs, and spaces from one place. Available for Windows and MacOS."
+        title="BTP xID | SAP BTP API Credential & Access Management"
+        description="BTP xID is a desktop app for complete SAP BTP API credential and user management. Govern every user, role, and API credential across Global Accounts, sub-accounts, and Cloud Foundry environments from one place."
         path="/products/btp-xid"
       />
       <Navigation />
