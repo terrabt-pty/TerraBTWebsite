@@ -45,7 +45,8 @@ export default function CookieConsent() {
                             {t('cookie.title', 'We value your privacy')}
                         </h3>
                         <p className="text-sm text-muted-foreground max-w-2xl">
-                            {t('cookie.description', 'We use cookies to enhance your browsing experience and analyze our traffic. In accordance with GDPR, we only load analytics cookies with your explicit consent.')}
+                            We use cookies to enhance your browsing experience. We never sell your data to anyone.{' '}
+                            <a href="/privacy-policy" className="underline hover:no-underline">Learn more in our privacy policy.</a>
                         </p>
                     </div>
                 </div>
