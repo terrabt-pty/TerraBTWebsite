@@ -1703,5 +1703,12 @@
       "step3Label": "3. Pronađite i uklonite API legitimacijske podatke duha",
       "step3Body": "API legitimacijski podaci na razini Global Account nisu vidljivi u BTP kokpitu — samo putem BTP CLI. BTP xID obnaša sve njih."
     }
+  },
+  "cookie": {
+    "title": "Cijenimo vašu privatnost",
+    "description": "Koristimo kolačiće kako bismo poboljšali vašu iskustvo pregledavanja. Nikada ne prodajemo vaše podatke nikome.",
+    "privacyLink": "Saznajte više u našoj politici privatnosti.",
+    "decline": "Odbij",
+    "accept": "Prihvati kolačiće"
   }
 }

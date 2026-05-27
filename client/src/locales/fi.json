@@ -1702,5 +1702,12 @@
       "step3Label": "3. Etsi ja poista haamun API-tunnisteet",
       "step3Body": "Global Account -tason API-tunnisteet eivät ole näkyvissä BTP-ilmaisimessa — vain BTP CLI:n kautta. BTP xID näyttää ne kaikki."
     }
+  },
+  "cookie": {
+    "title": "Arvostamme yksityisyyttäsi",
+    "description": "Käytämme evästeitä selaimen käyttökokemuksesi parantamiseksi. Emme koskaan myy tietojasi kenellekään.",
+    "privacyLink": "Lisätietoja tietosuojakäytännöstämme.",
+    "decline": "Hylkää",
+    "accept": "Hyväksy evästeet"
   }
 }

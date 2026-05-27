@@ -1702,5 +1702,12 @@
       "step3Label": "3. Raskite ir pašalinkite baismas API kredencijas",
       "step3Body": "Global Account lygio API kredencijos nėra matomos BTP kabinoje — tik per BTP CLI. BTP xID jas visas paviršius."
     }
+  },
+  "cookie": {
+    "title": "Mes vertiname jūsų privatumą",
+    "description": "Naudojame slapukus, kad pagerintume jūsų naršymo patirtį. Jūsų duomenų niekada neparduodame niekam.",
+    "privacyLink": "Sužinokite daugiau iš mūsų privatumo politikos.",
+    "decline": "Atmesti",
+    "accept": "Sutikti su slapukais"
   }
 }

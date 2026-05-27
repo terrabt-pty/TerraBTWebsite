@@ -1703,5 +1703,12 @@
       "step3Label": "3. Keresse meg és távolítsa el a szellem API hitelesítési adatait",
       "step3Body": "A Global Account szintű API hitelesítési adatok nem láthatók a BTP pilótafülkében — csak a BTP CLI-n keresztül. A BTP xID az összeset felhozza."
     }
+  },
+  "cookie": {
+    "title": "Értékeljük az Ön magánéletét",
+    "description": "Cookie-kat használunk a böngészési élmény javítása érdekében. Soha nem értékesítjük az Ön adatait.",
+    "privacyLink": "Tudjon meg többet az adatvédelmi irányelvünkről.",
+    "decline": "Elutasít",
+    "accept": "Cookie-kat elfogad"
   }
 }

@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Cookie } from "lucide-react";
 import { initializeGA } from "@/lib/googleAnalytics";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function CookieConsent() {
     const { t } = useTranslation();
+    const { getLocalizedPath } = useLocalizedPath();
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -45,8 +47,8 @@ export default function CookieConsent() {
                             {t('cookie.title', 'We value your privacy')}
                         </h3>
                         <p className="text-sm text-muted-foreground max-w-2xl">
-                            We use cookies to enhance your browsing experience. We never sell your data to anyone.{' '}
-                            <a href="/privacy-policy" className="underline hover:no-underline">Learn more in our privacy policy.</a>
+                            {t('cookie.description', 'We use cookies to enhance your browsing experience. We never sell your data to anyone.')}{' '}
+                            <a href={getLocalizedPath('/privacy-policy')} className="underline hover:no-underline">{t('cookie.privacyLink', 'Learn more in our privacy policy.')}</a>
                         </p>
                     </div>
                 </div>

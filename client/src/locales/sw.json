@@ -1726,5 +1726,12 @@
       "step3Label": "3. Tafuta na ondoa jina la mtumiaji wa API ya pepo",
       "step3Body": "Jina la mtumiaji wa API katika Global Account level si kamili katika BTP cockpit — tu kwa njia ya BTP CLI. BTP xID huanguka zote."
     }
+  },
+  "cookie": {
+    "title": "Tunathamini faragha yako",
+    "description": "Tunatumia vidakuzi kuboresha uzoefu wako wa kuvinjari. Hatutauzi data yako kwa mtu yeyote.",
+    "privacyLink": "Jifunze zaidi katika sera yetu ya faragha.",
+    "decline": "Kataa",
+    "accept": "Kubali vidakuzi"
   }
 }

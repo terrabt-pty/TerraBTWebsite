@@ -1703,5 +1703,12 @@
       "step3Label": "3. Găsiți și eliminați credențialele API fantomă",
       "step3Body": "Credențialele API la nivelul Global Account nu sunt vizibile în cockpitul BTP — doar prin BTP CLI. BTP xID le aduce la suprafață pe toate."
     }
+  },
+  "cookie": {
+    "title": "Apreciem confidențialitatea dvs.",
+    "description": "Folosim module cookie pentru a îmbunătăți experiența dvs. de navigare. Nu vândem niciodată datele dvs. cuiva.",
+    "privacyLink": "Aflați mai multe în politica noastră de confidențialitate.",
+    "decline": "Refuzați",
+    "accept": "Acceptați modulele cookie"
   }
 }

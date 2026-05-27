@@ -1763,5 +1763,12 @@
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
     }
+  },
+  "cookie": {
+    "title": "Vi setter pris på ditt personvern",
+    "description": "Vi bruker informasjonskapsler for å forbedre nettleseropplevelsen din. Vi selger aldri dataene dine til noen.",
+    "privacyLink": "Les mer i vår personvernpolicy.",
+    "decline": "Avslå",
+    "accept": "Godta informasjonskapsler"
   }
 }

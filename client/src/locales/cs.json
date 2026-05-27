@@ -1762,5 +1762,12 @@
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
     }
+  },
+  "cookie": {
+    "title": "Ceníme si vašeho soukromí",
+    "description": "Používáme soubory cookie ke zlepšení vašeho prohlížení. Vaše data nikdy neprodáváme.",
+    "privacyLink": "Přečtěte si více v našich zásadách ochrany osobních údajů.",
+    "decline": "Odmítnout",
+    "accept": "Přijmout soubory cookie"
   }
 }

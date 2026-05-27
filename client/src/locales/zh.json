@@ -1720,5 +1720,12 @@
       "item2Strong": "直接到BTP API",
       "item3Strong": "您的凭证，您的认证"
     }
+  },
+  "cookie": {
+    "title": "我们重视您的隐私",
+    "description": "我们使用 Cookie 来增强您的浏览体验。我们绝不会将您的数据出售给任何人。",
+    "privacyLink": "在我们的隐私政策中了解更多信息。",
+    "decline": "拒绝",
+    "accept": "接受 Cookie"
   }
 }

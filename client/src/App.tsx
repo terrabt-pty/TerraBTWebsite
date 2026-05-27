@@ -140,6 +140,9 @@ function Router() {
       <Route path="/terms-of-service" component={TermsOfService} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/limited-liability" component={LimitedLiability} />
+      <Route path="/:lang/terms-of-service" component={TermsOfService} />
+      <Route path="/:lang/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/:lang/limited-liability" component={LimitedLiability} />
 
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />

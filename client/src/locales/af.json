@@ -1726,5 +1726,12 @@
       "step3Label": "3. Vind en verwijder spook-API-referenties",
       "step3Body": "API-referenties op Global Account-niveau zijn niet zichtbaar in de BTP cockpit — alleen via BTP CLI. BTP xID toont ze allemaal."
     }
+  },
+  "cookie": {
+    "title": "Ons waardeer u privaatheid",
+    "description": "Ons gebruik koekies om u blaaiervaring te verbeter. Ons verkoop nooit u gegewens aan enige persoon.",
+    "privacyLink": "Lees meer in ons privaatheidsbeleid.",
+    "decline": "Weigering",
+    "accept": "Aanvaar Koekies"
   }
 }

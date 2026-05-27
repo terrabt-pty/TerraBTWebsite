@@ -1791,5 +1791,12 @@
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
     }
+  },
+  "cookie": {
+    "title": "We value your privacy",
+    "description": "We use cookies to enhance your browsing experience. We never sell your data to anyone.",
+    "privacyLink": "Learn more in our privacy policy.",
+    "decline": "Decline",
+    "accept": "Accept Cookies"
   }
 }

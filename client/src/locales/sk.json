@@ -1702,5 +1702,12 @@
       "step3Label": "3. Nájdite a odstráňte duchovné API poverenia",
       "step3Body": "API poverenia na úrovni Global Account nie sú viditeľné v kabíne BTP — iba cez BTP CLI. BTP xID ich všetky vynáša."
     }
+  },
+  "cookie": {
+    "title": "Ceníme si vaše súkromie",
+    "description": "Používame súbory cookie na zlepšenie vašej skúsenosti s prehliadaním. Nikdy nepredávame vaše údaje nikomu.",
+    "privacyLink": "Dozviete sa viac v našich zásadách ochrany osobných údajov.",
+    "decline": "Odmietnuť",
+    "accept": "Prijať cookies"
   }
 }

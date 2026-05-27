@@ -1762,5 +1762,12 @@
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
     }
+  },
+  "cookie": {
+    "title": "Valoramos tu privacidad",
+    "description": "Utilizamos cookies para mejorar tu experiencia de navegación. Nunca vendemos tus datos a nadie.",
+    "privacyLink": "Obtén más información en nuestra política de privacidad.",
+    "decline": "Rechazar",
+    "accept": "Aceptar cookies"
   }
 }

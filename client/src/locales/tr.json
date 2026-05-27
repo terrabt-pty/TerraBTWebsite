@@ -1719,5 +1719,12 @@
       "item2Strong": "BTP API'lerine doğrudan",
       "item3Strong": "Sizin kimlik bilgileriniz, sizin kimlik doğrulama"
     }
+  },
+  "cookie": {
+    "title": "Gizliliğinize değer veriyoruz",
+    "description": "Tarama deneyiminizi iyileştirmek için çerezleri kullanıyoruz. Verilerinizi hiçbir zaman kimseye satmayız.",
+    "privacyLink": "Gizlilik politikamızda daha fazla bilgi edinin.",
+    "decline": "Reddet",
+    "accept": "Çerezleri Kabul Et"
   }
 }

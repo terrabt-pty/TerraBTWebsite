@@ -1703,5 +1703,12 @@
       "step3Label": "3. ሙሉ ክሪዴንሼል ወገንዎል ለተወጀ API ክሪዴንሼል",
       "step3Body": "Global Account-ደረጃ API ክሪዴንሼል በ BTP cockpit ውስጥ የሚገኝ ሌላ — CLI ብቻ BTP በኩል ብቻ። BTP xID ያቀረቡ ሁሉ።"
     }
+  },
+  "cookie": {
+    "title": "የእርስዎን ምስጢርነት እንከብራለን",
+    "description": "ለመሻገር ተሞክሮዎን ለማሻሻል ኩኪዎችን እንጠቀማለን። ውሂብዎን ለማንም አንሸጥም።",
+    "privacyLink": "በእኛ ግላዊነት መርህ ላይ ተጨማሪ ይወቁ።",
+    "decline": "ውድቅ ያድርጉ",
+    "accept": "ኩኪዎችን ይቀበሉ"
   }
 }

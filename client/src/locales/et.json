@@ -1703,5 +1703,12 @@
       "step3Label": "3. Leidke ja eemaldage kummituse API-tunnistused",
       "step3Body": "Global Account-taseme API-tunnistused ei ole BTP-kabiin nähtavad — ainult BTP CLI kaudu. BTP xID paljastab need kõik."
     }
+  },
+  "cookie": {
+    "title": "Hindame teie privaatsust",
+    "description": "Kasutame küpsiseid teie brausimisel parema kogemuse saamiseks. Me kunagi ei müü teie andmeid kellelegi.",
+    "privacyLink": "Lugege rohkem meie privaatsuspoliitikast.",
+    "decline": "Keeldu",
+    "accept": "Nõustun küpsistega"
   }
 }

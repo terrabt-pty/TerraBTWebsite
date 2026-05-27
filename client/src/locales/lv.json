@@ -1694,5 +1694,12 @@
       "step3Label": "3. Atrodiet un noņemiet spoku API kredenciālus",
       "step3Body": "Global Account līmeņa API kredenciāļi nav redzami BTP kabīnē — tikai caur BTP CLI. BTP xID tos visus izpraisa."
     }
+  },
+  "cookie": {
+    "title": "Mēs novērtējam jūsu privātumu",
+    "description": "Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pārlūkošanas pieredzi. Mēs nekad nepārdodam jūsu datus nevienam.",
+    "privacyLink": "Uzziniet vairāk mūsu privātuma politikā.",
+    "decline": "Noraidīt",
+    "accept": "Pieņemt sīkdatnes"
   }
 }
