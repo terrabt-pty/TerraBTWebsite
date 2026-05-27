@@ -63,7 +63,7 @@ export default function CookieConsent() {
                     </Button>
                     <Button
                         onClick={handleAccept}
-                        className="w-full md:w-auto bg-primary text-primary-foreground hover:bg-primary/90 whitespace-nowrap"
+                        className="w-full md:w-auto btpxid-btn-primary whitespace-nowrap"
                     >
                         {t('cookie.accept', 'Accept Cookies')}
                     </Button>
