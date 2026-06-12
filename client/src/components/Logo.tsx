@@ -6,6 +6,11 @@ export default function Logo({ className = "h-8" }: LogoProps) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" className={className} style={{ direction: 'ltr' }}>
       <defs>
+        {/* Gradient flows top-left → bottom-right across the full "Terra" word */}
+        <linearGradient id="logo-terra-grad" x1="0" y1="0" x2="52" y2="20" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#4CAF50" />
+          <stop offset="100%" stopColor="#1A6B30" />
+        </linearGradient>
         <style>
           {`
             @font-face {
@@ -19,24 +24,16 @@ export default function Logo({ className = "h-8" }: LogoProps) {
             .font-asimovian {
               font-family: 'Asimovian', sans-serif;
             }
-            .color-terra {
-              fill: hsl(var(--primary));
-            }
             .color-bt {
               fill: hsl(var(--trust));
-            }
-            .tagline {
-              fill: hsl(var(--muted-foreground));
-              font-family: Arial, sans-serif;
-              letter-spacing: 0.3;
             }
           `}
         </style>
       </defs>
 
       <text x="0" y="16" fontSize="20" letterSpacing="-0.5">
-        <tspan className="font-bold-main color-terra">T</tspan>
-        <tspan className="font-asimovian color-terra">erra</tspan>
+        <tspan className="font-bold-main" fill="url(#logo-terra-grad)">T</tspan>
+        <tspan className="font-asimovian" fill="url(#logo-terra-grad)">erra</tspan>
         <tspan className="font-asimovian color-bt">B</tspan>
         <tspan className="font-bold-main color-bt">T</tspan>
       </text>
