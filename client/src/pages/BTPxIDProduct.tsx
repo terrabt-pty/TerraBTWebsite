@@ -465,28 +465,6 @@ export default function BTPxIDProduct() {
             </p>
           </div>
 
-          {/* Trust strip — answers the first three CISO questions */}
-          <div className="btpxid-trust-strip">
-            <div className="btpxid-trust-item">
-              <div>
-                <strong>{t('btpxidProduct.trustStrip.item1Strong')}</strong>
-                <span>{t('btpxidProduct.trustStrip.item1Span')}</span>
-              </div>
-            </div>
-            <div className="btpxid-trust-item">
-              <div>
-                <strong>{t('btpxidProduct.trustStrip.item2Strong')}</strong>
-                <span>{t('btpxidProduct.trustStrip.item2Span')}</span>
-              </div>
-            </div>
-            <div className="btpxid-trust-item">
-              <div>
-                <strong>{t('btpxidProduct.trustStrip.item3Strong')}</strong>
-                <span>{t('btpxidProduct.trustStrip.item3Span')}</span>
-              </div>
-            </div>
-          </div>
-
           {/* Primary OS download */}
           <div className="btpxid-download-primary">
             {primaryDownloadUrl ? (
