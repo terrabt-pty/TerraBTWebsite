@@ -468,21 +468,18 @@ export default function BTPxIDProduct() {
           {/* Trust strip — answers the first three CISO questions */}
           <div className="btpxid-trust-strip">
             <div className="btpxid-trust-item">
-              <span className="btpxid-trust-icon">●</span>
               <div>
                 <strong>{t('btpxidProduct.trustStrip.item1Strong')}</strong>
                 <span>{t('btpxidProduct.trustStrip.item1Span')}</span>
               </div>
             </div>
             <div className="btpxid-trust-item">
-              <span className="btpxid-trust-icon">●</span>
               <div>
                 <strong>{t('btpxidProduct.trustStrip.item2Strong')}</strong>
                 <span>{t('btpxidProduct.trustStrip.item2Span')}</span>
               </div>
             </div>
             <div className="btpxid-trust-item">
-              <span className="btpxid-trust-icon">●</span>
               <div>
                 <strong>{t('btpxidProduct.trustStrip.item3Strong')}</strong>
                 <span>{t('btpxidProduct.trustStrip.item3Span')}</span>
