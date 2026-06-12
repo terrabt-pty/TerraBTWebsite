@@ -33,7 +33,7 @@ export default function Navigation() {
 
           {/* Logo */}
           <Link href={homePath} className="flex items-center gap-2 flex-shrink">
-            <Logo className="h-8 xxs:h-10 md:h-12" data-testid="img-logo" />
+            <Logo className="h-6 xxs:h-7 md:h-8" data-testid="img-logo" />
           </Link>
 
           {/* Centre — desktop nav */}
