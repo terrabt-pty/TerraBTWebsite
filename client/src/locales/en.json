@@ -1587,7 +1587,12 @@
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
-      "shieldBadge": "SAP OAuth · No credentials stored"
+      "shieldBadge": "SAP OAuth · No credentials stored",
+      "choiceIntro": "Choose how you'd like to use BTP xID — as a desktop app or directly in your browser. Both give you full access to credential management and governance, so pick whichever fits your workflow.",
+      "choiceDesktopTitle": "Download Desktop App",
+      "choiceDesktopDesc": "Native app for macOS and Windows. Runs on your machine.",
+      "choiceWebTitle": "Open in Browser",
+      "choiceWebDesc": "No install — sign in with your TerraBT account and start right away."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
@@ -1621,7 +1626,9 @@
         "description": "Windows may show a SmartScreen warning when you run the installer. To proceed:",
         "step1": "Click <1>More info</1> in the SmartScreen dialog",
         "step2": "Click <1>Run anyway</1>"
-      }
+      },
+      "webPrompt": "Prefer not to install?",
+      "webLink": "Open BTP xID in your browser"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",

@@ -11,13 +11,30 @@ import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   Download,
   CheckCircle,
+  Globe,
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
-import userLookupImg from "@assets/UserSearchScreenshot.webp";
+import userLookupImg from "@assets/UserSearchScreenshot.png";
+import securityInsightsImg from "@assets/SecurityInsightsScreenshot.png";
 
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
+const XID_WEB_URL = "https://xid-web.terrabt.com";
+
+const HERO_SCREENSHOTS = [
+  {
+    src: userLookupImg,
+    alt: "BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space",
+  },
+  {
+    src: securityInsightsImg,
+    alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
+  },
+];
 
 interface VersionInfo {
   version: string;
@@ -131,6 +148,7 @@ export default function BTPxIDProduct() {
   const [showAllDownloads, setShowAllDownloads] = useState(true);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
+  const [activeSlide, setActiveSlide] = useState(0);
   const { getLocalizedPath } = useLocalizedPath();
 
   // ?portal=test routes to accounts-test for internal testing without real payments
@@ -149,6 +167,18 @@ export default function BTPxIDProduct() {
       .then((data: VersionInfo) => setVersionInfo(data))
       .catch(() => { /* stays null — buttons remain in loading state */ });
   }, []);
+
+  // Auto-advance the hero screenshot carousel.
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setActiveSlide((i) => (i + 1) % HERO_SCREENSHOTS.length);
+    }, 6000);
+    return () => window.clearInterval(id);
+  }, []);
+
+  const goToSlide = (index: number) => {
+    setActiveSlide(((index % HERO_SCREENSHOTS.length) + HERO_SCREENSHOTS.length) % HERO_SCREENSHOTS.length);
+  };
 
   const primaryDownload = getPrimaryDownload(os, arch);
   const primaryDownloadLabel = t(primaryDownload.labelKey);
@@ -194,16 +224,99 @@ export default function BTPxIDProduct() {
 
             {/* Description */}
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.description')}</p>
+
+            {/* Two ways to use BTP xID — desktop app or web app */}
+            <div className="btpxid-choice">
+              <p className="btpxid-choice-intro">{t('btpxidProduct.hero.choiceIntro')}</p>
+              <div className="btpxid-choice-grid">
+                <button
+                  type="button"
+                  onClick={() => scrollToSection("#download")}
+                  className="btpxid-choice-card btpxid-choice-card-desktop"
+                >
+                  <span className="btpxid-choice-icon">
+                    <Download className="h-6 w-6" />
+                  </span>
+                  <span className="btpxid-choice-body">
+                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
+                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
+                  </span>
+                  <span className="btpxid-choice-platforms">
+                    <FaApple className="h-4 w-4" aria-hidden="true" />
+                    <FaWindows className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                </button>
+
+                <a
+                  href={XID_WEB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btpxid-choice-card btpxid-choice-card-web"
+                >
+                  <span className="btpxid-choice-icon">
+                    <Globe className="h-6 w-6" />
+                  </span>
+                  <span className="btpxid-choice-body">
+                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceWebTitle')}</span>
+                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceWebDesc')}</span>
+                  </span>
+                  <span className="btpxid-choice-platforms">
+                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
 
-          {/* Screenshot — full-width block below text */}
+          {/* Screenshot carousel — full-width block below text */}
           <div className="btpxid-hero-visual">
-            <div className="btpxid-hero-screenshot-frame">
-              <img
-                src={userLookupImg}
-                alt="BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space"
-                className="btpxid-hero-screenshot-img"
-              />
+            <div className="btpxid-hero-carousel">
+              <div className="btpxid-hero-screenshot-frame">
+                <div
+                  className="btpxid-hero-carousel-track"
+                  style={{ transform: `translateX(-${activeSlide * 100}%)` }}
+                >
+                  {HERO_SCREENSHOTS.map((slide) => (
+                    <div className="btpxid-hero-carousel-slide" key={slide.src}>
+                      <img
+                        src={slide.src}
+                        alt={slide.alt}
+                        className="btpxid-hero-screenshot-img"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <button
+                type="button"
+                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-prev"
+                onClick={() => goToSlide(activeSlide - 1)}
+                aria-label="Previous screenshot"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
+              <button
+                type="button"
+                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-next"
+                onClick={() => goToSlide(activeSlide + 1)}
+                aria-label="Next screenshot"
+              >
+                <ChevronRight className="h-5 w-5" />
+              </button>
+
+              <div className="btpxid-hero-carousel-dots">
+                {HERO_SCREENSHOTS.map((slide, i) => (
+                  <button
+                    type="button"
+                    key={slide.src}
+                    className={`btpxid-hero-carousel-dot ${i === activeSlide ? "is-active" : ""}`}
+                    onClick={() => goToSlide(i)}
+                    aria-label={`Go to screenshot ${i + 1}`}
+                    aria-current={i === activeSlide}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -507,6 +620,20 @@ export default function BTPxIDProduct() {
             >
               {showAllDownloads ? t('btpxidProduct.download.hideAll') : t('btpxidProduct.download.showAll')}
             </button>
+
+            <div className="btpxid-download-web">
+              <span className="btpxid-download-web-text">{t('btpxidProduct.download.webPrompt')}</span>
+              <a
+                href={XID_WEB_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btpxid-download-web-link"
+              >
+                <Globe className="h-4 w-4" aria-hidden="true" />
+                <span>{t('btpxidProduct.download.webLink')}</span>
+                <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+              </a>
+            </div>
           </div>
 
           {/* All download options */}
