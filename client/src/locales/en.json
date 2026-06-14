@@ -1762,20 +1762,6 @@
         "Governance for custom IdP users — not just SAP ID Service accounts"
       ]
     },
-    "threeSteps": {
-      "label": "Three steps to secure your API credentials in SAP BTP",
-      "title1": "What every SAP BTP admin",
-      "title2": "needs to know about API credentials.",
-      "step1Label": "1. Secure access to CF Orgs and Spaces",
-      "step1Body1": "API credentials in SAP BTP live at the Cloud Foundry space level. We verified this ourselves: we removed a user from a sub-account entirely, confirmed their BTP cockpit access was gone — then logged into CF via the CLI with the same credentials. We had full access to every API credential in every org and space we previously held roles in.",
-      "step1Body2": "BTP xID removes the user and their role assignments across every org and space as part of offboarding — closing the gap between sub-account removal and actual access termination.",
-      "step2Label": "2. Audit, revoke and track API credentials across the landscape",
-      "step2Body1": "API credentials don't expire by default. Anyone who has ever viewed, generated or worked with a credential has effectively seen its secret. When team members change roles or leave, those credentials need to be revoked and new ones issued — but without a landscape-wide inventory, most teams don't even know which credentials exist, let alone who created them.",
-      "step2Body2": "SAP recommends rotating credentials every 90 days, but provides no native view across the entire landscape. BTP xID surfaces every credential — across every sub-account, CF org and space — so you can audit, revoke and track them from one place.",
-      "step2Ref": "SAP — Service Instance Secrets",
-      "step3Label": "3. Find and remove ghost API credentials",
-      "step3Body": "Global Account-level API credentials exist in SAP BTP and are not visible anywhere in the BTP cockpit. They can only be retrieved via the BTP CLI — which means most teams don't know they exist. BTP xID surfaces these hidden credentials alongside all others, giving you a complete picture of what has access to your landscape."
-    },
     "roadmap": {
       "label": "On the roadmap",
       "title": "Capabilities we are bringing next.",

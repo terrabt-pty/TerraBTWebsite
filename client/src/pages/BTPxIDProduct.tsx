@@ -434,50 +434,6 @@ export default function BTPxIDProduct() {
   </div>
 </section>
 
-      {/* ===== THREE CONSIDERATIONS AT SCALE ===== */}
-      <section className="btpxid-risks">
-        <div className="btpxid-risks-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.threeSteps.label')}</div>
-            <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.threeSteps.title1')}<br />{t('btpxidProduct.threeSteps.title2')}
-            </h2>
-          </div>
-
-          <div className="btpxid-risks-grid">
-            <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step1Label')}</div>
-              <p className="btpxid-risk-card-body">
-                {t('btpxidProduct.threeSteps.step1Body1')}
-              </p>
-              <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                {t('btpxidProduct.threeSteps.step1Body2')}
-              </p>
-            </div>
-
-            <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step2Label')}</div>
-              <p className="btpxid-risk-card-body">
-                {t('btpxidProduct.threeSteps.step2Body1')}
-              </p>
-              <p className="btpxid-risk-card-body" style={{ marginTop: "8px" }}>
-                {t('btpxidProduct.threeSteps.step2Body2')}
-              </p>
-              <p className="btpxid-risk-card-source">
-                Reference: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer">{t('btpxidProduct.threeSteps.step2Ref')}</a>
-              </p>
-            </div>
-
-            <div className="btpxid-risk-card">
-              <div className="btpxid-risk-card-label">{t('btpxidProduct.threeSteps.step3Label')}</div>
-              <p className="btpxid-risk-card-body">
-                {t('btpxidProduct.threeSteps.step3Body')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ===== WHY BTP xID — THE LANDSCAPE-WIDE LOOKUP STORY ===== */}
       <section className="btpxid-why">
         <div className="btpxid-why-inner">
