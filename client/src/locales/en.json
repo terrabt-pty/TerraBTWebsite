@@ -1588,7 +1588,7 @@
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
       "shieldBadge": "SAP OAuth · No credentials stored",
-      "choiceIntro": "Choose how you'd like to use BTP xID — as a desktop app or directly in your browser. Both give you full access to credential management and governance, so pick whichever fits your workflow.",
+      "choiceIntro": "Choose how you'd like to use BTP xID — as a desktop app or directly in your browser.",
       "choiceDesktopTitle": "Download Desktop App",
       "choiceDesktopDesc": "Native app for macOS and Windows. Runs on your machine.",
       "choiceWebTitle": "Open in Browser",
