@@ -20,6 +20,7 @@ import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userLookupImg from "@assets/UserSearchScreenshot.png";
 import securityInsightsImg from "@assets/SecurityInsightsScreenshot.png";
+import credentialDetailImg from "@assets/CredentialDetailScreenshot.png";
 
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
@@ -33,6 +34,10 @@ const HERO_SCREENSHOTS = [
   {
     src: securityInsightsImg,
     alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
+  },
+  {
+    src: credentialDetailImg,
+    alt: "BTP xID API Credentials list with a credential detail panel showing governance fields like owner, risk level, expiry and rotation frequency",
   },
 ];
 
