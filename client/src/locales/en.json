@@ -1590,9 +1590,9 @@
       "shieldBadge": "SAP OAuth · No credentials stored",
       "choiceIntro": "Choose how you'd like to use BTP xID — as a desktop app or directly in your browser.",
       "choiceDesktopTitle": "Download Desktop App",
-      "choiceDesktopDesc": "Native app for macOS and Windows. Runs on your machine.",
+      "choiceDesktopDesc": "Best for user management — manage CF users, orgs, and spaces from a native macOS or Windows app.",
       "choiceWebTitle": "Open in Browser",
-      "choiceWebDesc": "No install — sign in with your TerraBT account and start right away."
+      "choiceWebDesc": "Best for API credential management — rotate and govern BTP API credentials with no installation needed."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
