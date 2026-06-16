@@ -11,6 +11,10 @@ const SCROLL_LINKS = [
   { labelKey: "nav.contact",  href: "#contact"  },
 ];
 
+const EXTERNAL_LINKS = [
+  { labelKey: "nav.btpXidWeb", href: "https://xid-web.terrabt.com" },
+];
+
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
@@ -38,6 +42,20 @@ export default function Navigation() {
 
           {/* Centre — desktop nav */}
           <div className="hidden lg:flex items-center justify-center gap-6">
+            {EXTERNAL_LINKS.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              >
+                {t(link.labelKey)}
+              </a>
+            ))}
             {SCROLL_LINKS.map((link) => (
               <button
                 key={link.href}
@@ -89,6 +107,21 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200" style={{ background: "#FFFFFF" }} data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
+            {EXTERNAL_LINKS.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+                style={{ color: "#475569" }}
+                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {t(link.labelKey)}
+              </a>
+            ))}
             {SCROLL_LINKS.map((link) => (
               <button
                 key={link.href}
