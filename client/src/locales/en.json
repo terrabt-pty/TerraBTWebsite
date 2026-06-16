@@ -1590,9 +1590,9 @@
       "shieldBadge": "SAP OAuth · No credentials stored",
       "choiceIntro": "Choose how you'd like to use BTP xID — as a desktop app or directly in your browser.",
       "choiceDesktopTitle": "Download Desktop App",
-      "choiceDesktopDesc": "Best for user management — manage CF users, orgs, and spaces from a native macOS or Windows app.",
-      "choiceWebTitle": "Open in Browser",
-      "choiceWebDesc": "Best for API credential management — rotate and govern BTP API credentials with no installation needed."
+      "choiceDesktopDesc": "Best For User Management — Manage CF Users, Orgs, And Spaces From A Native macOS Or Windows App.",
+      "choiceWebTitle": "Open In Browser",
+      "choiceWebDesc": "Best For API Credential Management — Rotate And Govern BTP API Credentials With No Installation Needed."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
