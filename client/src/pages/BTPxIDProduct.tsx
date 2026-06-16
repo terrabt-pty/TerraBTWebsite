@@ -234,24 +234,6 @@ export default function BTPxIDProduct() {
             <div className="btpxid-choice">
               <p className="btpxid-choice-intro">{t('btpxidProduct.hero.choiceIntro')}</p>
               <div className="btpxid-choice-grid">
-                <button
-                  type="button"
-                  onClick={() => scrollToSection("#download")}
-                  className="btpxid-choice-card btpxid-choice-card-desktop"
-                >
-                  <span className="btpxid-choice-icon">
-                    <Download className="h-6 w-6" />
-                  </span>
-                  <span className="btpxid-choice-body">
-                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
-                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
-                  </span>
-                  <span className="btpxid-choice-platforms">
-                    <FaApple className="h-4 w-4" aria-hidden="true" />
-                    <FaWindows className="h-4 w-4" aria-hidden="true" />
-                  </span>
-                </button>
-
                 <a
                   href={XID_WEB_URL}
                   target="_blank"
@@ -269,6 +251,24 @@ export default function BTPxIDProduct() {
                     <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                   </span>
                 </a>
+
+                <button
+                  type="button"
+                  onClick={() => scrollToSection("#download")}
+                  className="btpxid-choice-card btpxid-choice-card-desktop"
+                >
+                  <span className="btpxid-choice-icon">
+                    <Download className="h-6 w-6" />
+                  </span>
+                  <span className="btpxid-choice-body">
+                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
+                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
+                  </span>
+                  <span className="btpxid-choice-platforms">
+                    <FaApple className="h-4 w-4" aria-hidden="true" />
+                    <FaWindows className="h-4 w-4" aria-hidden="true" />
+                  </span>
+                </button>
               </div>
             </div>
           </div>
