@@ -1710,20 +1710,6 @@
       "step3Label": "3. Najít a odstranit přihlašovací údaje API přízraků",
       "step3Body": "Přihlašovací údaje API na úrovni Global Account nejsou viditelné v BTP cockpit — pouze přes BTP CLI. BTP xID je vynáší všechny."
     },
-    "roadmap": {
-      "label": "On the roadmap",
-      "title": "Capabilities we are bringing next.",
-      "subtitle": "These are capabilities we are exploring. Nothing here is a commitment — priorities shift and some may not ship.",
-      "comingBadge": "Coming",
-      "item1Title": "Time-bound role assignments",
-      "item1Body": "Give a contractor a Space Developer role for 30 days — BTP xID revokes it automatically when the period ends.",
-      "item2Title": "Emergency firefighter IDs",
-      "item2Body": "Provision break-glass access with a hard expiration, natively in BTP.",
-      "item3Title": "Role and role collection authoring",
-      "item3Body": "Create and edit BTP role collections directly from BTP xID.",
-      "item4Title": "Continuous access reviews",
-      "item4Body": "Surface dormant accounts, unused role collections, and stale API credentials for quarterly review."
-    },
     "trustStrip": {
       "item1Strong": "Runs locally",
       "item1Span": "on macOS & Windows — no data leaves your machine",

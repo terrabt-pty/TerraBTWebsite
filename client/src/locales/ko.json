@@ -1681,10 +1681,6 @@
       "step3Label": "3. 고스트 API 자격 증명 찾기 및 제거",
       "step3Body": "Global Account 수준의 API 자격 증명은 BTP 조종석에 표시되지 않습니다 — BTP CLI를 통해서만 표시됩니다. BTP xID는 모두를 표시합니다."
     },
-    "roadmap": {
-      "label": "로드맵에",
-      "comingBadge": "곧 출시"
-    },
     "trustStrip": {
       "item1Strong": "로컬에서 실행",
       "item2Strong": "BTP API로 직접",

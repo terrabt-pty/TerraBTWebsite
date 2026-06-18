@@ -1681,10 +1681,6 @@
       "step3Label": "3. 查找并删除ghost API凭据",
       "step3Body": "Global Account级别的API凭据在BTP驾驶舱中不可见—仅通过BTP CLI。BTP xID显示它们全部。"
     },
-    "roadmap": {
-      "label": "在路线图上",
-      "comingBadge": "即将推出"
-    },
     "trustStrip": {
       "item1Strong": "本地运行",
       "item2Strong": "直接到BTP API",

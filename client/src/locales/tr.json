@@ -1680,10 +1680,6 @@
       "step3Label": "3. Hayalet API Kimlik Bilgilerini Bulun ve Kaldırın",
       "step3Body": "Global Account düzeyindeki API kimlik bilgileri BTP kokpit'de görünmez — yalnızca BTP CLI aracılığıyla. BTP xID hepsini ortaya koymaktadır."
     },
-    "roadmap": {
-      "label": "Yol haritasında",
-      "comingBadge": "Geliyor"
-    },
     "trustStrip": {
       "item1Strong": "Yerel olarak çalışır",
       "item2Strong": "BTP API'lerine doğrudan",

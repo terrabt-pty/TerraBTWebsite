@@ -1680,10 +1680,6 @@
       "step3Label": "3. Найдите и удалите учетные данные API-призрака",
       "step3Body": "Учетные данные API на уровне Global Account не видны в кабине BTP — только через BTP CLI. BTP xID выводит их все."
     },
-    "roadmap": {
-      "label": "На дорожной карте",
-      "comingBadge": "Грядущий"
-    },
     "trustStrip": {
       "item1Strong": "Работает локально",
       "item2Strong": "Прямо к API BTP",

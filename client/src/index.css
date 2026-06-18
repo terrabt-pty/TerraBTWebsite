@@ -2897,62 +2897,6 @@
   }
 }
 
-/* ===== Roadmap section ─ "What's coming" ───────────────────────────────── */
-.btpxid-roadmap {
-  background: #F8FAFC;
-  padding: 72px 0;
-  border-top: 1px solid #E2E8F0;
-}
-.btpxid-roadmap-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-.btpxid-roadmap-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin-top: 2.5rem;
-}
-.btpxid-roadmap-card {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 12px;
-  padding: 22px 24px;
-  position: relative;
-}
-.btpxid-roadmap-card-badge {
-  display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #1E5099;
-  background: rgba(30, 80, 153, 0.08);
-  border: 1px solid rgba(30, 80, 153, 0.2);
-  border-radius: 100px;
-  padding: 3px 9px;
-  margin-bottom: 10px;
-}
-.btpxid-roadmap-card-title {
-  color: #0F172A;
-  font-size: 0.9375rem;
-  font-weight: 700;
-  margin: 0 0 6px;
-}
-.btpxid-roadmap-card-body {
-  color: #475569;
-  font-size: 0.875rem;
-  line-height: 1.6;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  .btpxid-roadmap-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ===== API Keys section ─ "Service keys are API keys" ──────────────────── */
 .btpxid-keys {
   background: #FFFFFF;

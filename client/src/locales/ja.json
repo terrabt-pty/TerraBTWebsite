@@ -1740,20 +1740,6 @@
       "step3Label": "3. ゴーストAPI認証情報を検出および削除",
       "step3Body": "Global AccountレベルのAPI認証情報はBTPコックピットに表示されません — BTP CLIのみを介して表示されます。BTP xIDはすべての認証情報を表示します。"
     },
-    "roadmap": {
-      "label": "ロードマップ上",
-      "title": "次に提供する機能。",
-      "subtitle": "これらは検討している機能です。ここに記載されているものは約束ではありません。",
-      "comingBadge": "近日中",
-      "item1Title": "期間限定のロール割り当て",
-      "item1Body": "契約社員に30日間のロールを与える — BTP xIDが自動的に失効させます。",
-      "item2Title": "緊急消防士ID",
-      "item2Body": "ハード有効期限を持つブレーカーガラスアクセスをプロビジョニングします。",
-      "item3Title": "ロールおよびロール構成の作成",
-      "item3Body": "BTP xIDからBTPロール構成を作成および編集します。",
-      "item4Title": "継続的なアクセスレビュー",
-      "item4Body": "休止中のアカウントと古いAPIクレデンシャルを四半期ごとのレビューのために表示します。"
-    },
     "trustStrip": {
       "item1Strong": "ローカルで実行",
       "item1Span": "macOSおよびWindows上 — データは機械を離れません",

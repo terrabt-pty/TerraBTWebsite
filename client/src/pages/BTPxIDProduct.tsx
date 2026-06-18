@@ -479,52 +479,6 @@ export default function BTPxIDProduct() {
 
 
 
-      {/* ===== ROADMAP ===== */}
-      <section className="btpxid-roadmap">
-        <div className="btpxid-roadmap-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.roadmap.label')}</div>
-            <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.roadmap.title')}
-            </h2>
-            <p className="btpxid-showcase-sub">
-              {t('btpxidProduct.roadmap.subtitle')}
-            </p>
-          </div>
-
-          <div className="btpxid-roadmap-grid">
-            <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
-              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item1Title')}</p>
-              <p className="btpxid-roadmap-card-body">
-                {t('btpxidProduct.roadmap.item1Body')}
-              </p>
-            </div>
-            <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
-              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item2Title')}</p>
-              <p className="btpxid-roadmap-card-body">
-                {t('btpxidProduct.roadmap.item2Body')}
-              </p>
-            </div>
-            <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
-              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item3Title')}</p>
-              <p className="btpxid-roadmap-card-body">
-                {t('btpxidProduct.roadmap.item3Body')}
-              </p>
-            </div>
-            <div className="btpxid-roadmap-card">
-              <span className="btpxid-roadmap-card-badge">{t('btpxidProduct.roadmap.comingBadge')}</span>
-              <p className="btpxid-roadmap-card-title">{t('btpxidProduct.roadmap.item4Title')}</p>
-              <p className="btpxid-roadmap-card-body">
-                {t('btpxidProduct.roadmap.item4Body')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ===== DOWNLOAD ===== */}
       <section className="btpxid-download" id="download">
         <div className="btpxid-download-inner">

@@ -1680,10 +1680,6 @@
       "step3Label": "3. Знайдіть та видаліть облікові дані API-примари",
       "step3Body": "Облікові дані API на рівні Global Account не видні в кабіні BTP — лише через BTP CLI. BTP xID виводить їх усі."
     },
-    "roadmap": {
-      "label": "На дорожній карті",
-      "comingBadge": "Скоро"
-    },
     "trustStrip": {
       "item1Strong": "Працює локально",
       "item2Strong": "Прямо до API BTP",

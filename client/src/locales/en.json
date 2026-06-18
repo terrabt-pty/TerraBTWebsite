@@ -1735,20 +1735,6 @@
         "Governance for custom IdP users — not just SAP ID Service accounts"
       ]
     },
-    "roadmap": {
-      "label": "On the roadmap",
-      "title": "Capabilities we are bringing next.",
-      "subtitle": "These are capabilities we are exploring. Nothing here is a commitment — priorities shift, and some of these may not ship. We share them because they reflect where we think this product can go.",
-      "comingBadge": "Coming",
-      "item1Title": "Time-bound role assignments",
-      "item1Body": "Give a contractor a Space Developer role for 30 days, and BTP xID revokes it automatically when the period ends. No follow-up tickets, no expired-access reviews. The validity-date controls BTP itself does not offer.",
-      "item2Title": "Emergency firefighter IDs",
-      "item2Body": "Provision break-glass access with a hard expiration. The pattern your GRC team already uses for S/4HANA, brought natively to BTP — with logging and automatic revocation.",
-      "item3Title": "Role and role collection authoring",
-      "item3Body": "Create and edit BTP role collections directly from BTP xID. One workflow for design, assignment, and review — instead of the BTP cockpit's role-template-then-collection split.",
-      "item4Title": "Continuous access reviews",
-      "item4Body": "Surface dormant accounts, unused role collections, and stale API credentials for your quarterly review — without your team building a single SQL query or PowerShell script."
-    },
     "trustStrip": {
       "item1Strong": "Runs locally",
       "item1Span": "on MacOS & Windows — no data leaves your machine",
