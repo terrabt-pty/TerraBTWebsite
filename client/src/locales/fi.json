@@ -1631,36 +1631,6 @@
       "annual": "Vuosittain",
       "save": "Säästä 17 %"
     },
-    "features": {
-      "label": "Ominaisuudet",
-      "title1": "Kaikki mitä tarvitset.",
-      "title2": "Ei mitään ylimääräistä.",
-      "subtitle": "SAP BTP-asiantuntijoiden suunnittelema, jotka olivat väsyneet cockpit-välilehtien välillä navigointiin.",
-      "0": {
-        "title": "Moninkertainen Global Account",
-        "description": "Yhdistä ja hallitse useita global accounteja samanaikaisesti. Ei enää cockpitien välillä vaihtamista."
-      },
-      "1": {
-        "title": "Yhdennetty käyttäjänäkymä",
-        "description": "Näe jokainen käyttäjä kaikissa sub-accounteissa, CF organisaatioissa, CF tiloissa ja palveluiden käyttäjissä — kaikki yhdellä näytöllä."
-      },
-      "2": {
-        "title": "Käänteinen haku",
-        "description": "Etsi mikä tahansa käyttäjä ja näe välittömästi mihin kaikkiaan heidät on lisätty. Ei enää arvailua."
-      },
-      "3": {
-        "title": "Palveluiden käyttäjien hallinta",
-        "description": "Hallitse palvelun käyttäjiä alustan käyttäjien ohella. Täydellistä elinkaaren hallintaa yhdestä paikasta."
-      },
-      "4": {
-        "title": "Joukkooperaatiot",
-        "description": "Lisää, poista tai päivitä käyttäjiä useissa accounteissa ja tiloissa yhdellä toiminnolla."
-      },
-      "5": {
-        "title": "Roolien hallinta",
-        "description": "Määritä ja poista roolien kokoelmia kaikissa laajoissa — Global Account, Subaccount, CF Org ja CF Space — muutamalla klikkauksella."
-      }
-    },
     "showcase": {
       "label": "Näytöllä",
       "title1": "Rakennettu SAP BTP-hallinnoijille.",

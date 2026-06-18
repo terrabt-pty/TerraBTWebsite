@@ -1642,36 +1642,6 @@
       "annual": "Annuale",
       "save": "Risparmia 17%"
     },
-    "features": {
-      "label": "Funzionalità",
-      "title1": "Tutto ciò di cui hai bisogno.",
-      "title2": "Niente di cui non hai bisogno.",
-      "subtitle": "Creato da esperti SAP BTP stanchi di gestire i tab del cockpit.",
-      "0": {
-        "title": "Account Globale Multiplo",
-        "description": "Connetti e gestisci più account globali contemporaneamente. Non più alternanza tra cockpit."
-      },
-      "1": {
-        "title": "Vista Utente Unificata",
-        "description": "Visualizza ogni utente in tutti i sub-account, le organizzazioni CF, gli spazi CF e gli utenti di servizio — tutto in una schermata."
-      },
-      "2": {
-        "title": "Ricerca Inversa",
-        "description": "Trova qualsiasi utente e visualizza istantaneamente ovunque sia stato aggiunto. Non più supposizioni."
-      },
-      "3": {
-        "title": "Gestione Utenti di Servizio",
-        "description": "Gestisci gli utenti di servizio insieme agli utenti della piattaforma. Controllo completo del ciclo di vita da un unico luogo."
-      },
-      "4": {
-        "title": "Operazioni in Massa",
-        "description": "Aggiungi, rimuovi o aggiorna utenti su più account e spazi in un'unica azione."
-      },
-      "5": {
-        "title": "Gestione Ruoli",
-        "description": "Assegna e rimuovi raccolte di ruoli in tutti gli ambiti — Account Globale, Sub-account, Organizzazione CF e Spazio CF — in pochi clic."
-      }
-    },
     "showcase": {
       "label": "Guardalo in Azione",
       "title1": "Creato per gli amministratori SAP BTP.",

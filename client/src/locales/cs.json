@@ -1641,36 +1641,6 @@
       "annual": "Ročně",
       "save": "Ušetřete 17 %"
     },
-    "features": {
-      "label": "Schopnosti",
-      "title1": "Všechno, co potřebujete.",
-      "title2": "Nic, co nepotřebujete.",
-      "subtitle": "Vytvořeno odborníky SAP BTP, kterí měli dost žonglovat kartami cockpitu.",
-      "0": {
-        "title": "Multi-Global Account",
-        "description": "Připojte a spravujte více globálních účtů současně. Žádné více přepínání mezi cockpity."
-      },
-      "1": {
-        "title": "Unified User View",
-        "description": "Podívejte se na každého uživatele v rámci všech podúčtů, CF organizací, CF prostorů a servisních uživatelů — vše na jedné obrazovce."
-      },
-      "2": {
-        "title": "Reverse Search",
-        "description": "Najděte libovolného uživatele a okamžitě uvidíte, kam všude jsou přidáni. Žádné více hádat."
-      },
-      "3": {
-        "title": "Service User Management",
-        "description": "Spravujte servisní uživatele po boku platformních uživatelů. Plná kontrola životního cyklu z jednoho místa."
-      },
-      "4": {
-        "title": "Bulk Operations",
-        "description": "Přidávejte, odstraňujte nebo aktualizujte uživatele v hromadě v rámci více účtů a prostorů v jedné akci."
-      },
-      "5": {
-        "title": "Role Management",
-        "description": "Přiřazujte a odstraňujte kolekce rolí v každém oboru — Global Account, Subaccount, CF Org a CF Space — v několika klikech."
-      }
-    },
     "showcase": {
       "label": "Viz v akci",
       "title1": "Vytvořeno pro administrátory SAP BTP.",

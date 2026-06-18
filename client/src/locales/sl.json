@@ -1641,36 +1641,6 @@
       "annual": "Letno",
       "save": "Prihranite 17 %"
     },
-    "features": {
-      "label": "Zmogljivosti",
-      "title1": "Vse, kar potrebuješ.",
-      "title2": "Nič, česar ne potrebuješ.",
-      "subtitle": "Ustvarjeno s strani ekipe SAP BTP strokovnjakov, ki so se naveličali preklapljanja med zavihki cockpita.",
-      "0": {
-        "title": "Več globalnih računov",
-        "description": "Povežite in upravljajte več globalnih računov hkrati. Ni več preklapljanja med cockpiti."
-      },
-      "1": {
-        "title": "Enotni prikaz uporabnikov",
-        "description": "Oglejte si vsakega uporabnika na podračunih, CF organizacijah, CF prostorih in storitvah — vse na enem zaslonu."
-      },
-      "2": {
-        "title": "Obratna rast",
-        "description": "Poiščite katerega koli uporabnika in takoj vidite, kje je dodan. Ni več ugibanja."
-      },
-      "3": {
-        "title": "Upravljanje servisnih uporabnikov",
-        "description": "Upravljajte servisne uporabnike skupaj z uporabniki platforme. Polna kontrola življenjskega ciklusa s tega enega mesta."
-      },
-      "4": {
-        "title": "Množični operacije",
-        "description": "Dodajajte, odstranjujte ali posodabljajte uporabnike na več računih in prostorih v enem dejanju."
-      },
-      "5": {
-        "title": "Upravljanje vlog",
-        "description": "Dodelite in odstranite zbirke vlog na vseh področjih — globalni račun, podračun, CF organizacija in CF prostor — v nekaj kliki."
-      }
-    },
     "showcase": {
       "label": "Poglejte v akciji",
       "title1": "Ustvarjeno za administratorje SAP BTP.",

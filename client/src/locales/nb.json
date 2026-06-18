@@ -1632,36 +1632,6 @@
       "annual": "Årlig",
       "save": "Spar 17 %"
     },
-    "features": {
-      "label": "Funksjoner",
-      "title1": "Alt du trenger.",
-      "title2": "Ingenting du ikke gjør.",
-      "subtitle": "Bygget av SAP BTP-eksperter som var lei av å navigere mellom cockpit-faner.",
-      "0": {
-        "title": "Multi-Global Account",
-        "description": "Koble til og håndter flere globale kontoer samtidig. Ikke flere bytte mellom cockpits."
-      },
-      "1": {
-        "title": "Enhetlig brukeroversikt",
-        "description": "Se alle brukere på tvers av underkontoer, CF-organisasjoner, CF-rom og tjenestebrukere — alt på en skjerm."
-      },
-      "2": {
-        "title": "Omvendt søk",
-        "description": "Finn enhver bruker og se øyeblikkelig overalt de er lagt til. Ikke mer gjetting."
-      },
-      "3": {
-        "title": "Håndtering av tjenestbrukere",
-        "description": "Håndter tjenestebrukere sammen med plattformbrukere. Full livssykluskontroll fra ett sted."
-      },
-      "4": {
-        "title": "Masseoperasjoner",
-        "description": "Legg til, fjern eller oppdater brukere på tvers av flere kontoer og rom i en enkelt handling."
-      },
-      "5": {
-        "title": "Rollehåndtering",
-        "description": "Tilordne og fjern rollesamlinger på tvers av alle omfang — Global Account, Underkonto, CF Org og CF Space — på noen få klikk."
-      }
-    },
     "showcase": {
       "label": "Se det i aksjon",
       "title1": "Bygget for SAP BTP-administratorer.",

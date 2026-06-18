@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
                         </p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>The TerraBT marketing website (terrabt.com and its localized versions)</li>
-                            <li>The BTP xID desktop application (macOS and Windows)</li>
+                            <li>The BTP xID desktop application (MacOS and Windows)</li>
                             <li>BTP xID Web (xid-web.terrabt.com)</li>
                             <li>The TerraBT License Server and accounts portal used to activate and validate BTP xID subscriptions</li>
                         </ul>

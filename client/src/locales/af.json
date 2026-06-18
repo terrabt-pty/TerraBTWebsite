@@ -1665,36 +1665,6 @@
       "annual": "Jaarliks",
       "save": "Spaar 17%"
     },
-    "features": {
-      "label": "Vermoëns",
-      "title1": "Alles wat jy nodig het.",
-      "title2": "Niks wat jy nie doen.",
-      "subtitle": "Gebou deur SAP BTP-deskundiges wat moeg was van die skuifeling van cockpit-oortjies.",
-      "0": {
-        "title": "Veelvoudige Globale Rekeninge",
-        "description": "Verbind en bestuur verskeie globale rekeninge gelyktydig. Geen meer skakeling tussen cockpits."
-      },
-      "1": {
-        "title": "Eenheidlike Gebruikersaanwysing",
-        "description": "Sien elke gebruiker oor sub-rekeninge, CF orgs, CF spaces, en diensgebruikers — alles op een skerm."
-      },
-      "2": {
-        "title": "Omgekeerde Soektog",
-        "description": "Vind enige gebruiker en sien onmiddellik oral waar hulle bygevoeg is. Geen meer raaiewerk."
-      },
-      "3": {
-        "title": "Diensgebruiker Bestuur",
-        "description": "Bestuur diensgebruikers naas platformgebruikers. Volledige lewensiklus beheer van een plek."
-      },
-      "4": {
-        "title": "Massa Operasies",
-        "description": "Voeg gebruikers by, verwyder, of werk by oor verskeie rekeninge en spasies in een aksie."
-      },
-      "5": {
-        "title": "Rolbestuuring",
-        "description": "Wys en verwyder rolversamelings oor elke omvang — Globale Rekening, Subrekening, CF Org, en CF Space — in enkele kliks."
-      }
-    },
     "showcase": {
       "label": "Sien Dit in Aksie",
       "title1": "Gebou vir SAP BTP-administrateurs.",

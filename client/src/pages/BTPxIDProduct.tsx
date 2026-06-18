@@ -3,7 +3,7 @@ import { useTranslation, Trans } from "react-i18next";
 import { Link } from "wouter";
 import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
-import BTPxIDFeatures from "@/components/BTPxIDFeatures";
+
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -474,8 +474,7 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
-      {/* ===== FEATURES ===== */}
-      <BTPxIDFeatures />
+
 
 
 
@@ -534,9 +533,6 @@ export default function BTPxIDProduct() {
             <h2 className="btpxid-showcase-title">
               {t('btpxidProduct.download.title')}
             </h2>
-            <p className="btpxid-showcase-sub">
-              {t('btpxidProduct.download.subtitle')}
-            </p>
           </div>
 
           {/* Primary OS download */}

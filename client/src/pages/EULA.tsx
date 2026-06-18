@@ -23,7 +23,7 @@ export default function EULA() {
                     <section>
                         <h2 className="text-2xl font-semibold mb-4">1. Agreement and Scope</h2>
                         <p>
-                            This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and TerraBT Pty Ltd ("TerraBT", "we", "us", or "our") for the BTP xID desktop application (macOS and Windows) and the BTP xID Web application at xid-web.terrabt.com (collectively, the "Software").
+                            This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and TerraBT Pty Ltd ("TerraBT", "we", "us", or "our") for the BTP xID desktop application (MacOS and Windows) and the BTP xID Web application at xid-web.terrabt.com (collectively, the "Software").
                         </p>
                         <p className="mt-2">
                             By installing, accessing, or using the Software, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use the Software.

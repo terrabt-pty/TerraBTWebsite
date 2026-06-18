@@ -1642,36 +1642,6 @@
       "annual": "Anual",
       "save": "Economize 17%"
     },
-    "features": {
-      "label": "Capacidades",
-      "title1": "Tudo o que você precisa.",
-      "title2": "Nada que você não precisa.",
-      "subtitle": "Construído por especialistas em SAP BTP cansados de alternar entre abas do cockpit.",
-      "0": {
-        "title": "Conta Global Múltipla",
-        "description": "Conecte e gerencie várias contas globais simultaneamente. Sem mais alternância entre cockpits."
-      },
-      "1": {
-        "title": "Visualização Unificada de Usuários",
-        "description": "Veja cada usuário em todas as subcontas, organizações CF, espaços CF e usuários de serviço — tudo em uma única tela."
-      },
-      "2": {
-        "title": "Pesquisa Reversa",
-        "description": "Encontre qualquer usuário e veja instantaneamente em todos os lugares onde foi adicionado. Sem mais adivinhações."
-      },
-      "3": {
-        "title": "Gerenciamento de Usuários de Serviço",
-        "description": "Gerencie usuários de serviço juntamente com usuários de plataforma. Controle completo do ciclo de vida a partir de um único local."
-      },
-      "4": {
-        "title": "Operações em Massa",
-        "description": "Adicione, remova ou atualize usuários em várias contas e espaços em uma única ação."
-      },
-      "5": {
-        "title": "Gerenciamento de Funções",
-        "description": "Atribua e remova coleções de funções em todos os escopos — Conta Global, Subconta, Organização CF e Espaço CF — em poucos cliques."
-      }
-    },
     "showcase": {
       "label": "Veja em Ação",
       "title1": "Construído para administradores de SAP BTP.",
