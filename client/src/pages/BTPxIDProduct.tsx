@@ -670,9 +670,13 @@ export default function BTPxIDProduct() {
             </p>
             <p>
               {t('btpxidProduct.download.legal')}{" "}
-              <a href={getLocalizedPath("/terms-of-service")}>{t('btpxidProduct.download.termsOfService')}</a>{" "}
-              {t('btpxidProduct.download.and')}{" "}
+              <a href={getLocalizedPath("/terms-of-service")}>{t('btpxidProduct.download.termsOfService')}</a>
+              {", "}
+              <a href={getLocalizedPath("/eula")}>{t('btpxidProduct.download.eula')}</a>
+              {", "}
               <a href={getLocalizedPath("/privacy-policy")}>{t('btpxidProduct.download.privacyPolicy')}</a>
+              {", and "}
+              <a href={getLocalizedPath("/limited-liability")}>{t('btpxidProduct.download.liabilityPolicy')}</a>.
             </p>
           </div>
         </div>

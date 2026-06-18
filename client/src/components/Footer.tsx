@@ -118,6 +118,14 @@ export default function Footer() {
             </a>
             <span className="hidden sm:inline">•</span>
             <a
+              href="/eula"
+              className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+              data-testid="link-eula"
+            >
+              {t('footer.eula')}
+            </a>
+            <span className="hidden sm:inline">•</span>
+            <a
               href="/limited-liability"
               className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
               data-testid="link-limited-liability"
@@ -125,6 +133,9 @@ export default function Footer() {
               {t('footer.liability')}
             </a>
           </div>
+          <p className="text-[10px] text-muted-foreground/50 text-center -mt-1">
+            Applies to BTP xID desktop, BTP xID Web, and the TerraBT website
+          </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">

@@ -9,24 +9,27 @@ export default function TermsOfService() {
     return (
         <div className="min-h-screen bg-background text-foreground">
             <SEOHead
-                title="Terms of Service - TerraBT | SAP BTP Consulting"
-                description="Terms of Use for TerraBT website and services, governed by the laws of Australia."
+                title="Terms of Service - TerraBT | BTP xID"
+                description="Terms of Service for the TerraBT website, accounts portal, and related services. For BTP xID software licensing, see our End User License Agreement."
                 path="/terms-of-service"
             />
             <Navigation />
 
             <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
                 <h1 className="text-3xl md:text-4xl font-bold mb-8">Terms of Use</h1>
-                <p className="text-muted-foreground mb-8">Last Updated: January 30, 2026</p>
+                <p className="text-muted-foreground mb-8">Last Updated: June 18, 2026</p>
 
                 <div className="space-y-8 prose prose-gray dark:prose-invert max-w-none">
                     <section>
                         <h2 className="text-2xl font-semibold mb-4">1. Agreement to Terms</h2>
                         <p>
-                            These Terms of Use ("Terms") constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and TerraBT ("we," "us," or "our"), concerning your access to and use of the TerraBT website as well as any other media form, media channel, mobile website, or mobile application related, linked, or otherwise connected thereto (collectively, the "Site").
+                            These Terms of Use ("Terms") constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and TerraBT ("we," "us," or "our"), concerning your access to and use of the TerraBT website (terrabt.com and localized versions), the accounts portal (accounts.terrabt.com), the TerraBT License Server, and any related services (collectively, the "Site" or "Services").
                         </p>
                         <p className="mt-2">
-                            We are registered in Australia and have our registered office in New South Wales. You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. If you do not agree with all of these Terms of Use, then you are expressly prohibited from using the Site and you must discontinue use immediately.
+                            <strong>For licensing and use of the BTP xID desktop application and BTP xID Web, please see our separate <a href="/eula">End User License Agreement (EULA)</a>.</strong>
+                        </p>
+                        <p className="mt-2">
+                            We are registered in Australia and have our registered office in New South Wales. You agree that by accessing or using any of the Services, you have read, understood, and agreed to be bound by all of these Terms of Use. If you do not agree with all of these Terms of Use, then you are expressly prohibited from using the Services and you must discontinue use immediately.
                         </p>
                     </section>
 

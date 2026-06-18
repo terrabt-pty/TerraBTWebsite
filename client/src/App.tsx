@@ -38,6 +38,7 @@ import BTPServiceKeysAPICredentialsPage from "@/pages/blogs/BTPServiceKeysAPICre
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
+import EULA from "@/pages/EULA";
 import BTPxIDProduct from "@/pages/BTPxIDProduct";
 import ClaudeCliProduct from "@/pages/ClaudeCliProduct";
 import NotFound from "@/pages/not-found";
@@ -140,9 +141,11 @@ function Router() {
       <Route path="/terms-of-service" component={TermsOfService} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/limited-liability" component={LimitedLiability} />
+      <Route path="/eula" component={EULA} />
       <Route path="/:lang/terms-of-service" component={TermsOfService} />
       <Route path="/:lang/privacy-policy" component={PrivacyPolicy} />
       <Route path="/:lang/limited-liability" component={LimitedLiability} />
+      <Route path="/:lang/eula" component={EULA} />
 
       {/* Blog post routes */}
       <Route path="/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />
