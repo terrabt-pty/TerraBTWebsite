@@ -21,6 +21,7 @@ export default function Navigation() {
   const { getLocalizedPath } = useLocalizedPath();
 
   const homePath = getLocalizedPath("/");
+  const btpXidPath = getLocalizedPath("/products/btp-xid");
 
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);
@@ -42,6 +43,16 @@ export default function Navigation() {
 
           {/* Centre — desktop nav */}
           <div className="hidden lg:flex items-center justify-center gap-6">
+            <Link
+              href={btpXidPath}
+              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              data-testid="link-btp-xid"
+            >
+              {t('nav.btpXid', 'BTP xID')}
+            </Link>
             {EXTERNAL_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -107,6 +118,17 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200" style={{ background: "#FFFFFF" }} data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
+            <Link
+              href={btpXidPath}
+              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              onClick={() => setMobileMenuOpen(false)}
+              data-testid="mobile-link-btp-xid"
+            >
+              {t('nav.btpXid', 'BTP xID')}
+            </Link>
             {EXTERNAL_LINKS.map((link) => (
               <a
                 key={link.href}
