@@ -15,7 +15,10 @@ export default function Knowledge() {
   const { t } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
 
-  // All existing website blogs - expanded list from locales and additional BTP xID blogs
+  // All existing website blogs - expanded list from locales and additional BTP xID blogs.
+  // `date` is the post's actual publish/creation date (oldest dates here come from when
+  // each blog page was first added to the codebase) — it drives the sort order below and
+  // is not displayed. Keep it set on every new entry so new posts sort correctly.
   const allBlogs = [
     {
       image: fioriImage,
@@ -24,6 +27,7 @@ export default function Knowledge() {
       excerpt: t('blog.post1.excerpt'),
       readTime: t('blog.post1.readTime'),
       slug: 'fiori-applications-sap-btp',
+      date: '2025-11-09T00:57:29Z',
     },
     {
       image: pwaImage,
@@ -32,6 +36,7 @@ export default function Knowledge() {
       excerpt: t('blog.post2.excerpt'),
       readTime: t('blog.post2.readTime'),
       slug: 'offline-pwa-business-continuity',
+      date: '2025-11-09T00:57:30Z',
     },
     {
       image: aiImage,
@@ -40,6 +45,7 @@ export default function Knowledge() {
       excerpt: t('blog.post3.excerpt'),
       readTime: t('blog.post3.readTime'),
       slug: 'ai-invoice-processing',
+      date: '2025-11-09T00:57:31Z',
     },
     {
       image: globalImage,
@@ -48,6 +54,7 @@ export default function Knowledge() {
       excerpt: t('blog.post4.excerpt'),
       readTime: t('blog.post4.readTime'),
       slug: 'mastering-sap-integration-suite',
+      date: '2025-11-09T00:57:32Z',
     },
     {
       image: teamImage,
@@ -56,6 +63,7 @@ export default function Knowledge() {
       excerpt: t('blog.post5.excerpt'),
       readTime: t('blog.post5.readTime'),
       slug: 'event-mesh-architecture-for-modern-enterprises',
+      date: '2025-11-09T00:57:33Z',
     },
     {
       image: fioriImage,
@@ -64,6 +72,7 @@ export default function Knowledge() {
       excerpt: t('blog.post6.excerpt'),
       readTime: t('blog.post6.readTime'),
       slug: 'database-optimization-strategies-for-sap-hana-cloud',
+      date: '2025-11-09T00:57:34Z',
     },
     {
       image: globalImage,
@@ -72,6 +81,7 @@ export default function Knowledge() {
       excerpt: t('blog.post7.excerpt'),
       readTime: t('blog.post7.readTime'),
       slug: 'sap-btp-architecture-best-practices',
+      date: '2026-01-29T19:32:50+11:00',
     },
     {
       image: teamImage,
@@ -80,6 +90,7 @@ export default function Knowledge() {
       excerpt: t('blog.post8.excerpt'),
       readTime: t('blog.post8.readTime'),
       slug: 'rapid-development-with-sap-cap',
+      date: '2026-01-29T19:32:51+11:00',
     },
     {
       image: pwaImage,
@@ -88,6 +99,7 @@ export default function Knowledge() {
       excerpt: t('blog.post9.excerpt'),
       readTime: t('blog.post9.readTime'),
       slug: 'low-code-revolution-with-sap-build-apps',
+      date: '2026-01-29T19:32:52+11:00',
     },
     {
       image: aiImage,
@@ -96,6 +108,7 @@ export default function Knowledge() {
       excerpt: t('blog.post10.excerpt'),
       readTime: t('blog.post10.readTime'),
       slug: 'enterprise-automation-with-sap-build-process-automation',
+      date: '2026-01-29T19:32:53+11:00',
     },
     {
       image: fioriImage,
@@ -104,6 +117,7 @@ export default function Knowledge() {
       excerpt: t('blog.post11.excerpt'),
       readTime: t('blog.post11.readTime'),
       slug: 'user-centered-innovation-with-design-thinking',
+      date: '2026-01-29T19:32:54+11:00',
     },
     // Additional BTP xID focused blogs
     {
@@ -113,6 +127,7 @@ export default function Knowledge() {
       excerpt: "How to discover every user, role, and assignment across your entire SAP BTP environment in seconds instead of hours.",
       readTime: "8 min",
       slug: 'finding-users-across-sap-btp-landscape',
+      date: '2026-05-08T23:28:55+10:00',
     },
     {
       image: teamImage,
@@ -121,6 +136,7 @@ export default function Knowledge() {
       excerpt: "A real-world look at how BTP access management changes when you have complete visibility across all accounts and environments.",
       readTime: "7 min",
       slug: 'before-and-after-btp-xid',
+      date: '2026-05-11T19:59:40+10:00',
     },
     {
       image: pwaImage,
@@ -129,6 +145,7 @@ export default function Knowledge() {
       excerpt: "Best practices for managing, auditing and securing the long-lived credentials that power your SAP BTP integrations and automations.",
       readTime: "9 min",
       slug: 'btp-service-keys-api-credentials',
+      date: '2026-05-11T22:23:38+10:00',
     },
     {
       image: aiImage,
@@ -137,8 +154,17 @@ export default function Knowledge() {
       excerpt: "A practical guide to governing user access and API credentials across Global Accounts, Subaccounts, and Cloud Foundry environments.",
       readTime: "6 min",
       slug: 'btp-access-management',
+      date: '2026-05-11T14:07:18+10:00',
     },
   ];
+
+  // BTP xID blogs first, then everything else; newest first within each group.
+  const sortedBlogs = [...allBlogs].sort((a, b) => {
+    const aIsBtpXid = a.category === 'BTP xID';
+    const bIsBtpXid = b.category === 'BTP xID';
+    if (aIsBtpXid !== bIsBtpXid) return aIsBtpXid ? -1 : 1;
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
 
   return (
     <div className="min-h-screen bg-background">
@@ -163,7 +189,7 @@ export default function Knowledge() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {allBlogs.map((post, index) => (
+          {sortedBlogs.map((post, index) => (
             <BlogCard
               key={index}
               image={post.image}
