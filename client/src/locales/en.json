@@ -1595,7 +1595,7 @@
       "choiceDesktopTitle": "Download Desktop App",
       "choiceDesktopDesc": "Best For User Management — Manage Global Accounts, Subaccounts, Directories, CF Users, Orgs, And Spaces From A Native MacOS Or Windows App.",
       "choiceWebTitle": "Open In Browser",
-      "choiceWebDesc": "Best For API Credential Management — Rotate And Govern BTP API Credentials With No Installation Needed."
+      "choiceWebDesc": "Best For API Credential/Service Keys Management — Rotate And Govern BTP API Credentials With No Installation Needed."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
@@ -1630,7 +1630,7 @@
         "step1": "Click <1>More info</1> in the SmartScreen dialog",
         "step2": "Click <1>Run anyway</1>"
       },
-      "webPrompt": "Prefer not to install?",
+      "webPrompt": "For API Credential/Service Keys Management?",
       "webLink": "Open BTP xID in your browser"
     },
     "downloadOptions": {

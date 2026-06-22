@@ -53,16 +53,6 @@ export default function Navigation() {
             >
               {t('nav.btpXid', 'BTP xID')}
             </Link>
-            <Link
-              href={getLocalizedPath("/knowledge")}
-              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-              style={{ color: "#475569" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-              data-testid="link-knowledge"
-            >
-              {t('nav.knowledge', 'Knowledge')}
-            </Link>
             {EXTERNAL_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -77,6 +67,16 @@ export default function Navigation() {
                 {t(link.labelKey)}
               </a>
             ))}
+            <Link
+              href={getLocalizedPath("/knowledge")}
+              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              data-testid="link-knowledge"
+            >
+              {t('nav.knowledge', 'Knowledge')}
+            </Link>
             {SCROLL_LINKS.map((link) => (
               <button
                 key={link.href}
@@ -139,17 +139,6 @@ export default function Navigation() {
             >
               {t('nav.btpXid', 'BTP xID')}
             </Link>
-            <Link
-              href={getLocalizedPath("/knowledge")}
-              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
-              style={{ color: "#475569" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-              onClick={() => setMobileMenuOpen(false)}
-              data-testid="mobile-link-knowledge"
-            >
-              {t('nav.knowledge', 'Knowledge')}
-            </Link>
             {EXTERNAL_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -165,6 +154,17 @@ export default function Navigation() {
                 {t(link.labelKey)}
               </a>
             ))}
+            <Link
+              href={getLocalizedPath("/knowledge")}
+              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              onClick={() => setMobileMenuOpen(false)}
+              data-testid="mobile-link-knowledge"
+            >
+              {t('nav.knowledge', 'Knowledge')}
+            </Link>
             {SCROLL_LINKS.map((link) => (
               <button
                 key={link.href}
