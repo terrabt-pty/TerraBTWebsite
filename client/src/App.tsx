@@ -41,6 +41,7 @@ import LimitedLiability from "@/pages/LimitedLiability";
 import EULA from "@/pages/EULA";
 import BTPxIDProduct from "@/pages/BTPxIDProduct";
 import ClaudeCliProduct from "@/pages/ClaudeCliProduct";
+import Knowledge from "@/pages/Knowledge";
 import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
@@ -136,6 +137,7 @@ function Router() {
       <Route path="/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/products/claude-cli" component={ClaudeCliProduct} />
+      <Route path="/knowledge" component={Knowledge} />
 
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />
@@ -182,6 +184,7 @@ function Router() {
       <Route path="/:lang/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/:lang/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/:lang/products/claude-cli" component={ClaudeCliProduct} />
+      <Route path="/:lang/knowledge" component={Knowledge} />
 
       {/* Localized blog post routes */}
       <Route path="/:lang/blog/fiori-applications-sap-btp" component={FioriApplicationsSAPBTP} />

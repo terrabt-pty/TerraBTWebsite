@@ -2,9 +2,11 @@ import { useTranslation } from "react-i18next";
 import { Linkedin, Twitter } from "lucide-react";
 import Logo from "@/components/Logo";
 import { SUPPORTED_LANGUAGES } from "@/config/languages";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
+  const { getLocalizedPath } = useLocalizedPath();
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (href: string) => {
@@ -77,6 +79,14 @@ export default function Footer() {
                 >
                   {t('footer.contact')}
                 </button>
+              </li>
+              <li>
+                <a
+                  href={getLocalizedPath("/knowledge")}
+                  className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+                >
+                  {t('footer.knowledge')}
+                </a>
               </li>
             </ul>
           </div>
