@@ -161,7 +161,7 @@ export default function Knowledge() {
       category: "BTP xID",
       title: "SAP BTP Service Key Access: A Security Problem Most Offboarding Processes Miss",
       excerpt: "Service keys for inbound Integration Suite connections have no expiry and no metadata. Worse, Cloud Foundry org/space access doesn't sync with subaccount offboarding — so removed users can still read or delete production API credentials.",
-      readTime: "8 min",
+      readTime: "4 min",
       slug: 'sap-btp-service-key-offboarding-risk',
       date: '2026-06-23T10:30:32+00:00',
     },
