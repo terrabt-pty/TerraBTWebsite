@@ -26,14 +26,17 @@ export default function BlogCard({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div
-      className="overflow-hidden transition-all duration-300 group"
+    <Link
+      href={getLocalizedPath(`/blog/${slug}`)}
+      className="block overflow-hidden transition-all duration-300 group"
       style={{
         background: "#FFFFFF",
         border: hovered ? "1px solid #CBD5E1" : "1px solid #E2E8F0",
         borderRadius: "12px",
         transform: hovered ? "translateY(-2px)" : "translateY(0)",
         boxShadow: hovered ? "0 8px 24px rgba(0, 0, 0, 0.06)" : "none",
+        textDecoration: "none",
+        cursor: "pointer",
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -67,20 +70,16 @@ export default function BlogCard({
             <Clock className="h-4 w-4" />
             <span>{readTime}</span>
           </div>
-          <Link href={getLocalizedPath(`/blog/${slug}`)}>
-            <button
-              className="flex items-center gap-1 font-medium text-sm hover-elevate px-3 py-2 rounded-md transition-all"
-              style={{ color: "#3A9A6A" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#2D7A53")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#3A9A6A")}
-              data-testid="button-read-more"
-            >
-              {t('knowledge.readMore')}
-              <ArrowRight className="h-4 w-4" />
-            </button>
-          </Link>
+          <span
+            className="flex items-center gap-1 font-medium text-sm px-3 py-2 rounded-md transition-all"
+            style={{ color: hovered ? "#2D7A53" : "#3A9A6A" }}
+            data-testid="button-read-more"
+          >
+            {t('knowledge.readMore')}
+            <ArrowRight className="h-4 w-4" />
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
