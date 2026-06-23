@@ -35,6 +35,7 @@ import FindingUsersAcrossSAPBTPLandscape from "@/pages/blogs/FindingUsersAcrossS
 import BTPAccessManagementPage from "@/pages/blogs/BTPAccessManagementPage";
 import BTPControlBeforeAfterPage from "@/pages/blogs/BTPControlBeforeAfterPage";
 import BTPServiceKeysAPICredentialsPage from "@/pages/blogs/BTPServiceKeysAPICredentialsPage";
+import SAPBTPServiceKeyOffboardingPage from "@/pages/blogs/SAPBTPServiceKeyOffboardingPage";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
@@ -165,6 +166,7 @@ function Router() {
       <Route path="/blog/btp-access-management" component={BTPAccessManagementPage} />
       <Route path="/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
       <Route path="/blog/btp-service-keys-api-credentials" component={BTPServiceKeysAPICredentialsPage} />
+      <Route path="/blog/sap-btp-service-key-offboarding-risk" component={SAPBTPServiceKeyOffboardingPage} />
 
       {/* Localized routes for all supported languages */}
       <Route path="/:lang" component={BTPxIDProduct} />
@@ -202,6 +204,7 @@ function Router() {
       <Route path="/:lang/blog/btp-access-management" component={BTPAccessManagementPage} />
       <Route path="/:lang/blog/before-and-after-btp-xid" component={BTPControlBeforeAfterPage} />
       <Route path="/:lang/blog/btp-service-keys-api-credentials" component={BTPServiceKeysAPICredentialsPage} />
+      <Route path="/:lang/blog/sap-btp-service-key-offboarding-risk" component={SAPBTPServiceKeyOffboardingPage} />
 
       <Route component={NotFound} />
     </Switch>
