@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useTranslation, Trans } from "react-i18next";
-import { Link } from "wouter";
 import { trackDownload } from "@/lib/trackDownload";
 import Navigation from "@/components/Navigation";
 
@@ -13,33 +12,19 @@ import {
   CheckCircle,
   Globe,
   ArrowUpRight,
-  ChevronLeft,
-  ChevronRight,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
-import userLookupImg from "@assets/UserSearchScreenshot.png";
 import securityInsightsImg from "@assets/SecurityInsightsScreenshot.png";
-import credentialDetailImg from "@assets/CredentialDetailScreenshot.png";
 
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
 const XID_WEB_URL = "https://xid-web.terrabt.com";
 
-const HERO_SCREENSHOTS = [
-  {
-    src: userLookupImg,
-    alt: "BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space",
-  },
-  {
-    src: securityInsightsImg,
-    alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
-  },
-  {
-    src: credentialDetailImg,
-    alt: "BTP xID API Credentials list with a credential detail panel showing governance fields like owner, risk level, expiry and rotation frequency",
-  },
-];
+const HERO_SCREENSHOT = {
+  src: securityInsightsImg,
+  alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
+};
 
 interface VersionInfo {
   version: string;
@@ -153,7 +138,6 @@ export default function BTPxIDProduct() {
   const [showAllDownloads, setShowAllDownloads] = useState(true);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
-  const [activeSlide, setActiveSlide] = useState(0);
   const { getLocalizedPath } = useLocalizedPath();
 
   // ?portal=test routes to accounts-test for internal testing without real payments
@@ -172,18 +156,6 @@ export default function BTPxIDProduct() {
       .then((data: VersionInfo) => setVersionInfo(data))
       .catch(() => { /* stays null — buttons remain in loading state */ });
   }, []);
-
-  // Auto-advance the hero screenshot carousel.
-  useEffect(() => {
-    const id = window.setInterval(() => {
-      setActiveSlide((i) => (i + 1) % HERO_SCREENSHOTS.length);
-    }, 6000);
-    return () => window.clearInterval(id);
-  }, []);
-
-  const goToSlide = (index: number) => {
-    setActiveSlide(((index % HERO_SCREENSHOTS.length) + HERO_SCREENSHOTS.length) % HERO_SCREENSHOTS.length);
-  };
 
   const primaryDownload = getPrimaryDownload(os, arch);
   const primaryDownloadLabel = t(primaryDownload.labelKey);
@@ -273,89 +245,17 @@ export default function BTPxIDProduct() {
             </div>
           </div>
 
-          {/* Screenshot carousel — full-width block below text */}
+          {/* Screenshot — full-width block below text */}
           <div className="btpxid-hero-visual">
             <div className="btpxid-hero-carousel">
               <div className="btpxid-hero-screenshot-frame">
-                <div
-                  className="btpxid-hero-carousel-track"
-                  style={{ transform: `translateX(-${activeSlide * 100}%)` }}
-                >
-                  {HERO_SCREENSHOTS.map((slide) => (
-                    <div className="btpxid-hero-carousel-slide" key={slide.src}>
-                      <img
-                        src={slide.src}
-                        alt={slide.alt}
-                        className="btpxid-hero-screenshot-img"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button
-                type="button"
-                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-prev"
-                onClick={() => goToSlide(activeSlide - 1)}
-                aria-label="Previous screenshot"
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </button>
-              <button
-                type="button"
-                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-next"
-                onClick={() => goToSlide(activeSlide + 1)}
-                aria-label="Next screenshot"
-              >
-                <ChevronRight className="h-5 w-5" />
-              </button>
-
-              <div className="btpxid-hero-carousel-dots">
-                {HERO_SCREENSHOTS.map((slide, i) => (
-                  <button
-                    type="button"
-                    key={slide.src}
-                    className={`btpxid-hero-carousel-dot ${i === activeSlide ? "is-active" : ""}`}
-                    onClick={() => goToSlide(i)}
-                    aria-label={`Go to screenshot ${i + 1}`}
-                    aria-current={i === activeSlide}
-                  />
-                ))}
+                <img
+                  src={HERO_SCREENSHOT.src}
+                  alt={HERO_SCREENSHOT.alt}
+                  className="btpxid-hero-screenshot-img"
+                />
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== API CREDENTIALS — a single view across every level ===== */}
-      <section className="btpxid-why" style={{ background: "#FFFFFF" }}>
-        <div className="btpxid-why-inner">
-          <div className="btpxid-why-header">
-            <h2 className="btpxid-why-title">
-              {t('btpxidProduct.apiCredentials.title')}
-            </h2>
-            <p className="btpxid-why-question">
-              {t('btpxidProduct.apiCredentials.subtitle')}
-            </p>
-          </div>
-
-          <div className="btpxid-why-grid">
-            <div className="btpxid-why-card btpxid-why-problem">
-              <div className="btpxid-why-card-label">{t('btpxidProduct.apiCredentials.todayLabel')}</div>
-              <p>{t('btpxidProduct.apiCredentials.todayText')}</p>
-            </div>
-
-            <div className="btpxid-why-card btpxid-why-solution">
-              <div className="btpxid-why-card-label">{t('btpxidProduct.apiCredentials.xidLabel')}</div>
-              <p>{t('btpxidProduct.apiCredentials.xidText1')}</p>
-              <p>{t('btpxidProduct.apiCredentials.xidText2')}</p>
-            </div>
-          </div>
-
-          <div className="btpxid-why-cta">
-            <a href="/blog/btp-service-keys-api-credentials" className="btpxid-why-link">
-              {t('btpxidProduct.apiCredentials.readMore')}
-            </a>
           </div>
         </div>
       </section>
@@ -433,49 +333,6 @@ export default function BTPxIDProduct() {
     </div>
   </div>
 </section>
-
-      {/* ===== WHY BTP xID — THE LANDSCAPE-WIDE LOOKUP STORY ===== */}
-      <section className="btpxid-why">
-        <div className="btpxid-why-inner">
-          <div className="btpxid-why-header">
-            <h2 className="btpxid-why-title">
-              <Trans
-                i18nKey="btpxidProduct.why.title"
-                components={{ accent: <span className="btpxid-why-accent" /> }}
-              />
-            </h2>
-            <p className="btpxid-why-question">{t('btpxidProduct.why.question')}</p>
-          </div>
-
-          <div className="btpxid-why-grid">
-            <div className="btpxid-why-card btpxid-why-problem">
-              <div className="btpxid-why-card-label">{t('btpxidProduct.why.problemLabel')}</div>
-              <p>{t('btpxidProduct.why.problem')}</p>
-              <p>{t('btpxidProduct.why.iasNote')}</p>
-            </div>
-
-            <div className="btpxid-why-card btpxid-why-solution">
-              <div className="btpxid-why-card-label">{t('btpxidProduct.why.solutionLabel')}</div>
-              <p>
-                <Trans
-                  i18nKey="btpxidProduct.why.solution"
-                  components={{ b: <strong /> }}
-                />
-              </p>
-              <p>{t('btpxidProduct.why.solutionExtra')}</p>
-            </div>
-          </div>
-
-          <div className="btpxid-why-cta">
-            <Link href={getLocalizedPath("/blog/finding-users-across-sap-btp-landscape")} className="btpxid-why-link">
-              {t('btpxidProduct.why.readMore')} →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-
-
 
 
 
