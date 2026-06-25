@@ -7,7 +7,7 @@ export default function SAPBTPServiceKeyOffboardingPage() {
     <>
       <SEOHead
         title="SAP BTP Service Key Access: A Security Problem Most Offboarding Processes Miss | TerraBT"
-        description="SAP BTP service keys for inbound Integration Suite connections have no expiry and no metadata. Worse, Cloud Foundry org/space access doesn't sync with subaccount offboarding — so removed users can still read or delete production API credentials."
+        description="SAP BTP service keys for inbound Integration Suite connections have no expiry and no metadata by default. Cloud Foundry org and space access doesn't sync with subaccount offboarding, so removed users can still read or delete production API credentials."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -37,59 +37,59 @@ export default function SAPBTPServiceKeyOffboardingPage() {
 
           {/* Lead */}
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
-            Most SAP BTP security conversations focus on role collections and identity providers. But there's a simpler problem underneath: Cloud Foundry access doesn't sync with subaccount offboarding, and that gap leaves production API credentials exposed long after someone's officially "removed." This usually surfaces in a security review, not before.
+            Most SAP BTP security conversations focus on role collections and identity providers. There's a more basic problem underneath: Cloud Foundry access doesn't sync with subaccount offboarding. Production API credentials stay exposed long after someone's removed. This usually gets found in a security review, not before.
           </p>
 
           {/* Section: The gap */}
           <section style={{ marginBottom: "48px" }}>
             <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Two access layers, one gap</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              When BTP Integration Suite exposes inbound endpoints (HTTP, AS2) to external systems, those systems authenticate with service keys: OAuth credentials created at the Cloud Foundry space level. By default these have no expiry and no metadata — no created-by, no last-used, nothing. Open the service key list in the cockpit and you can't tell who created a key, when, or whether anyone still needs it.
+              BTP Integration Suite exposes inbound endpoints over HTTP or AS2. External systems authenticate with service keys: OAuth credentials created at the Cloud Foundry space level. By default they have no expiry and no metadata, no created-by, no last-used timestamp. Open the service key list in the cockpit and you can't tell who created a key, when, or whether anyone still needs it.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              The bigger issue is what happens during offboarding. BTP has two access layers that don't talk to each other: <strong style={{ color: "#0F172A" }}>subaccount membership</strong>, which is what gets cleaned up when someone leaves, and <strong style={{ color: "#0F172A" }}>Cloud Foundry org/space membership</strong>, managed separately and not even visible from the subaccount Members view. A standard offboarding has no reason to check it.
+              The bigger issue is what happens during offboarding. BTP has two access layers that don't talk to each other. <strong style={{ color: "#0F172A" }}>Subaccount membership</strong> is what gets cleaned up when someone leaves. <strong style={{ color: "#0F172A" }}>Cloud Foundry org and space membership</strong> is managed separately and isn't visible from the subaccount Members view. A standard offboarding process doesn't check it.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
-              Remove someone from the subaccount and their CF role stays untouched. With it, they retain full access to every service key in that space — no cockpit needed, just the CF CLI, available by default. A few commands is all it takes to list, read, or delete any service key in the space.
+              Remove someone from the subaccount and their CF role doesn't change. They still have access to every service key in that space. They don't need the cockpit either, the CF CLI is available by default, and a few commands is enough to list, read, or delete any service key in the space.
             </p>
           </section>
 
           {/* Section: Why this matters */}
           <section style={{ marginBottom: "48px", background: "#F8FAFC", borderRadius: "12px", padding: "32px", border: "1px solid #E2E8F0" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Why this matters beyond compliance checkboxes</h2>
+            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Why this matters</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              Inbound integration endpoints carry business-critical traffic: orders from logistics partners, inventory updates, payment confirmations. Deleting the service keys behind them doesn't take a hack — just CF space access. The integration goes down immediately, and the cause isn't obvious to anyone who doesn't know to look at CF membership.
+              Inbound integration endpoints carry real traffic: orders from logistics partners, inventory updates, payment confirmations. Deleting the service keys behind them doesn't take a hack, just CF space access. The integration goes down immediately, and the cause isn't obvious unless you know to check CF membership.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
-              A disgruntled ex-employee removed from the subaccount but not the CF org has everything they need to do this.
+              An ex-employee removed from the subaccount but not the CF org still has what they need to do this.
             </p>
           </section>
 
           {/* Section: IAS doesn't help + what to check */}
           <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>IAS doesn't close this, so check it yourself</h2>
+            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>IAS doesn't cover this</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              Centralising identity through SAP IAS doesn't fix this — IAS handles authentication, not CF access. Removing a user there does nothing to their CF org or space membership; that's a separate, manual step most offboarding checklists skip. SAP's Identity Provisioning Service can automate it, but the architecture still treats CF access as a distinct concern, and your process needs to as well.
+              SAP IAS doesn't fix this. IAS handles authentication, not CF access. Removing a user in IAS doesn't touch their CF org or space membership. That's a separate step most offboarding checklists skip. SAP's Identity Provisioning Service can automate CF role removal, but it's a separate system you have to set up and maintain on top of IAS.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
-              If you run Integration Suite in production: review your CF org/space members independently of your subaccount list — they're not the same list. Make CF membership removal an explicit offboarding step. And audit your existing service keys — if nobody knows what one is for or when it was last rotated, it's an unmanaged credential with no expiry.
+              If you run Integration Suite in production, check your CF org and space members separately from your subaccount list. They're not the same list. Add CF membership removal as an explicit step in offboarding. Audit your existing service keys too. If nobody knows what a key is for or when it was last rotated, it has no expiry and nobody's tracking it.
             </p>
           </section>
 
           {/* Closing context */}
           <section style={{ marginBottom: "48px" }}>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
-              TerraBT is built to give teams visibility and control over API credential management in SAP BTP — tracking service keys, flagging stale credentials, and surfacing the CF access layer alongside subaccount membership instead of hiding it in a separate CLI.
+              TerraBT tracks service keys across a BTP landscape, flags ones that look stale, and shows CF access next to subaccount membership instead of in a separate CLI.
             </p>
           </section>
 
           {/* CTA */}
           <section style={{ textAlign: "center", background: "#F8FAFC", borderRadius: "12px", padding: "40px 24px", border: "1px solid #E2E8F0" }}>
             <p style={{ color: "#0F172A", fontSize: "1.125rem", fontWeight: 700, marginBottom: "8px" }}>
-              See your CF access layer alongside subaccount membership
+              See CF access next to subaccount membership
             </p>
             <p style={{ color: "#475569", fontSize: "0.9375rem", marginBottom: "24px" }}>
-              If any of the above sounds familiar in your environment, it's worth a look. Manage SAP BTP users and API credentials with BTP xID and connect your landscape in minutes.
+              If this sounds familiar, take a look. BTP xID shows SAP BTP users and API credentials across your landscape.
             </p>
             <a
               href="/"
