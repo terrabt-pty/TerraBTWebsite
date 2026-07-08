@@ -1560,7 +1560,9 @@
       "description": "Styr hver BTP-bruger, rolle og API-legitimationsoplysninger på tværs af dit landskab - fra en enkelt app. Fuld synlighed, fuld kontrol, på tværs af hver Global Account, underkonto og Cloud Foundry-miljø, du kører.",
       "shieldBadge": "SAP OAuth · Ingen gemte legitimationsoplysninger",
       "title": "Komplet API-legitimationsstyring til dit SAP BTP-landskab.",
-      "tagline": "API-legitimations- og adgangsstyring til SAP BTP"
+      "tagline": "API-legitimations- og adgangsstyring til SAP BTP",
+      "headline": "BTP xID hjælper dig med at sikre dine SAP BTP API-servicenøgler",
+      "subhead": "BTP xID giver ejerskab, livscyklus og revisionsspor til hver servicenøgle på tværs af dit landskab — så du holder dig i overensstemmelse med sikkerhedsstandarder."
     },
     "valueProps": {
       "0": "Den eneste BTP-brugeradministrationsapp, du nogensinde vil have brug for",
@@ -1594,7 +1596,12 @@
         "description": "Windows viser muligvis en SmartScreen-advarsel, når du kører installationsprogrammet. Sådan fortsætter du:",
         "step1": "Klik på <1>Flere oplysninger</1> i SmartScreen-dialogen",
         "step2": "Klik på <1>Kør alligevel</1>"
-      }
+      },
+      "getStartedLabel": "Kom i gang",
+      "getStartedTitle": "Se hver servicenøgle i dit landskab i dag.",
+      "webButton": "Åbn BTP xID i din browser",
+      "webButtonDesc": "Bedst til API-legitimations- og servicenøglestyrring — roter og styr BTP API-legitimationsoplysninger",
+      "desktopButtonDesc": "Bedst til brugerstyring — Global Accounts, underkonti, mapper, CF orgs og spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1674,28 +1681,29 @@
       "label": "Fungerer med SAP IAS",
       "title1": "IAS sikrer identitet.",
       "title2": "BTP xID styrrer adgang.",
-      "subtitle": "SAP IAS håndterer godkendelse. BTP xID håndterer hvad der kommer efter — hvem kan få adgang til hvad, på tværs af hver konto, org og space i dit BTP-landskab.",
+      "subtitle": "BTP xID hjælper dig også med at nå og styre hjørnerne af dit SAP BTP-landskab, som IAS ikke kan.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Identitet, godkendelse og delvis adgangskontrol",
+      "iasTitle": "Identitet, godkendelse og delvis adgangsstyring",
       "xidBadge": "BTP xID",
-      "xidTitle": "Fuldstændig adgangskontrol",
-      "footer": "Uanset om du har IAS eller ej, giver BTP xID dig et sted at se og administrere al BTP-adgang — brugere, roller og API-legitimationer på tværs af Global Accounts, sub-accounts, CF Orgs og Spaces.",
+      "xidTitle": "Fuldstændig adgangsstyring",
+      "footer": "Uanset om du har IAS eller ej, giver BTP xID dig ét sted at se og styre al BTP-adgang — brugere, roller og API-legitimationsoplysninger på tværs af Global Accounts, sub-accounts, CF Orgs og Spaces.",
       "readMore": "Læs hele oversigten →",
       "iasItems": [
-        "Enkeltlogon og MFA",
-        "Virksomheds-IdP-føderation (SAML / OIDC)",
+        "Single sign-on og multi-factor godkendelse",
+        "Corporate IdP federation (SAML / OIDC)",
         "Brugeretablering via SCIM",
         "Risikobaserede godkendelsespolitikker",
         "Godkendelsesrevisionslogs",
-        "Bruger- og rolletildeling på Global Account- og Sub-account-niveau"
+        "Bruger og rolletildeling på SAP BTP Global og Sub-account niveau"
       ],
       "xidItems": [
-        "Service API Credential Management across every level — list, audit and revoke OAuth credentials in one place",
-        "Brugeradministration og rolletildeling på tværs af Global Accounts, Sub-accounts, Mapper, CF Orgs og Spaces",
-        "Massebrugeradministration på tværs af dit hele BTP-landskab",
-        "Landskabsomspændende synlighed: hvem har adgang til hvad",
-        "Styring af brugerdefinerede IdP-brugere"
-      ]
+        "Service API legitimationsstyring på tværs af hver Global Account, Sub-account, Cloud Foundry Org og Space — list, audit og tilbagekald OAuth legitimationsoplysninger ét sted",
+        "Brugerstyring og rolletildeling på tværs af flere Global Accounts, Sub-accounts, Mapper, Cloud Foundry Orgs og Cloud Foundry Spaces i en enkelt samlet interface",
+        "Massebrugerstyring på tværs af hele dit BTP-landskab",
+        "Landskabsomspændende synlighed: hvem har adgang til hvad, på tværs af hver konto",
+        "Styring for brugerdefinerede IdP-brugere — ikke kun SAP ID Service-konti"
+      ],
+      "label2": "Komplementering af SAP IAS"
     },
     "threeSteps": {
       "label": "Tre trin til sikring af dine API-legitimationer i SAP BTP",
@@ -1718,6 +1726,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "Styringsgabet",
+      "title": "SAP BTP-servicenøgler er svære at styre",
+      "subtitle": "En servicenøgle giver API-adgang til dine SAP BTP-tjenester — det er gatewayen til data, der flyder gennem SAP BTP Integration Suite. En kompromitteret nøgle kan bruges til at indsætte falske data, læse organisationsdata eller udløse integrationer.",
+      "items": [
+        {
+          "title": "Ejer",
+          "desc": "Som standard har BTP ingen kreditejer på rekorden. En adgangsgennemgang eller hændelsesrespons starter fra nul hver gang."
+        },
+        {
+          "title": "Udløb",
+          "desc": "Servicenøgler udløber ikke. De fleste sikkerhedsstandarder kræver, at legitimationsoplysninger roteres efter en defineret tidsplan, men BTP har ingen indbygget mekanisme til at håndhæve eller spore det."
+        },
+        {
+          "title": "Formål",
+          "desc": "Ingen registrering af, hvad en nøgle er til. En gennemgang kan ikke skelne en kritisk integration fra en glemt testnøgle."
+        },
+        {
+          "title": "Forbruger",
+          "desc": "Ingen registrering af, hvilket system der afhænger af en nøgle. Du kan ikke vurdere konsekvensen af at rotere eller tilbagekalde den uden at teste i produktion."
+        },
+        {
+          "title": "Rotation",
+          "desc": "Ingen rotationshistorie. Du kan ikke demonstrere, at en legitimation nogensinde blev ændret, eller hvornår."
+        },
+        {
+          "title": "Tværkonto-synlighed",
+          "desc": "Ingen konsolideret visning på tværs af konti. En landskab-bred adgangsgennemgang betyder at besøge hver globale konto, underkonto og Cloud Foundry org og space enkeltvis."
+        },
+        {
+          "title": "Afgangsproces",
+          "desc": "Ingen forbindelse mellem mennesker og legitimationsoplysninger. Når nogen med adgang til en nøgles hemmelighed går, kræver sikkerhedsstandarder rotation og genandeling af de nøgler, de kunne få adgang til — men der er ingen måde at identificere, hvilke der er."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Compliance",
+      "title": "Hvad dette betyder for din revision",
+      "subtitle": "Sikkerhedsrammeværk kræver, at legitimationsoplysninger har ansvarlige ejere, definerede livscyklusser og gennemskuelig adgang.",
+      "cta": "Læs mere",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC revisioner spørger efter bevis på, hvem der har adgang til systemer, der påvirker finansial rapportering, og hvordan denne adgang gennemses. BTP xID registrerer en ejer for hver legitimation og giver den tværkonto-visning, som disse revisioner kræver."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 kræver, at adgang er begrænset og berettiget af forretningsbehov. A.8.24 kræver, at kryptografiske hemmeligheder styres gennem deres livscyklus. BTP xID registrerer ejer og formål på hver legitimation og tilføjer udløbsdatoer og rotationssporing."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 kræver, at systemkonti er identificerbare. IA-5 kræver, at autentikatorer opdateres med definerede intervaller. AC-2 kræver regelmæssige kontorevizioner. BTP xID identificerer hver legitimation med ejer og formål metadata, sporer rotation og gør nøgler oprettet på Cloud Foundry space-niveau centralt synlige."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Krav 8.3.10.1 pålægger, at statiske hemmeligheder ændres regelmæssigt. Krav 8.6 kræver, at systemkonti tildeles ejere og gennemses. BTP xID tilføjer rotationssporing og ejerandeling til hver servicenøgle."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 og CC6.2 dækker logisk adgangsetablering og fjernelse — herunder legitimationsoplysninger oprettet af mennesker, der siden er gået. CC7.1 dækker overvågning af nye adgangsstier. BTP xID lader dig finde hver legitimation ejet af en avgået bruger og viser nøgler oprettet overalt i landskabet i én visning."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Løsningen",
+      "title": "Hvordan BTP xID lukker hvert gap",
+      "subtitle": "BTP xID tilføjer et styringslag oven på dit eksisterende landskab. Metadata gemmes på selve legitimationen, i dine egne konti — ikke i en separat database.",
+      "items": [
+        {
+          "gap": "Ejer og ansvarlig part",
+          "fix": "Styringsfelter på hver legitimationsregister, hvem der ejer den og hvem der er ansvarlig for det forbrugersystem."
+        },
+        {
+          "gap": "Udløb og rotation",
+          "fix": "Sæt en udløbsdato på en legitimation, roter den med ét klik, og behold en registrering af hvornår den sidst blev roteret."
+        },
+        {
+          "gap": "Formål og forbruger",
+          "fix": "Registrer, hvad hver nøgle er til, og hvilket system der forbruger den, så en legitimationsgennemgang ikke afhænger af nogens hukommelse."
+        },
+        {
+          "gap": "Tværkonto-synlighed",
+          "fix": "Én visning af brugere og legitimationsoplysninger på alle globale konti, underkonti, Cloud Foundry orgs og spaces. Omvendt søgning efter bruger for at se alt, de kan få adgang til."
+        },
+        {
+          "gap": "Afgangsproces",
+          "fix": "Søg alle legitimationsoplysninger ejet af en afgående person, roter og genandel dem — en gentagelig proces i stedet for en undersøgelse."
+        },
+        {
+          "gap": "Revisionsbeviser",
+          "fix": "Security Insights scorer styringsomfang på tværs af dit landskab og viser præcist, hvilke legitimationsoplysninger der mangler ejere, udløbsdatoer eller formål."
+        }
+      ]
     }
   },
   "cookie": {

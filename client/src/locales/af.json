@@ -1577,13 +1577,8 @@
   },
   "btpxidProduct": {
     "hero": {
-      "title1": "Een toepassing.",
-      "title2": "Elke gebruiker.",
-      "title3": "Alle rekeninge.",
-      "description": "Beheer elke BTP-gebruiker, rol en API-geloofsbrief oor jou landskap — vanuit 'n enkele app. Volledige sigbaarheid, volledige beheer, oor elke Global Account, sub-account en Cloud Foundry-omgewing wat jy bedryf.",
-      "shieldBadge": "SAP OAuth · Geen gestoorde geloofsbriewe",
-      "title": "Volledige API-legitimaatbeheer voor uw SAP BTP-landschap.",
-      "tagline": "API-legitimatie- en toegangsbeheer voor SAP BTP"
+      "headline": "BTP xID Help Jou Jou SAP BTP API Dienstetoetse Beveilig",
+      "subhead": "BTP xID bring eienaarskap, lewensiklus, en ouditeerbaarheid na elke dienstetoets regdeur jou landskap — sodat jy voldoen aan sekuriteitnorme."
     },
     "valueProps": {
       "0": "Die enigste BTP-gebruikerbestuurtoepassing wat u ooit sal nodig hê",
@@ -1600,24 +1595,11 @@
       "unknown": "u platform"
     },
     "download": {
-      "label": "Laai af",
-      "title": "Gereed om te begin?",
-      "subtitle": "Laai BTP xID gratis af. Geen kredietkaart nodig nie. Kies u plan later.",
-      "primaryButton": "Laai af vir {{label}}",
-      "loading": "Laai...",
-      "showAll": "Wys alle aflaai-opsies",
-      "hideAll": "Verberg alle aflaai-opsies",
-      "versionLine": "Weergawe {{version}} · Vereis MacOS 12+ of Windows 10+",
-      "legal": "Deur af te laai, stem u in met die",
-      "termsOfService": "Diensvoorwaardes",
-      "and": "en die",
-      "privacyPolicy": "Privaatheidsbeleid",
-      "smartscreen": {
-        "title": "Windows SmartScreen-waarskuwing",
-        "description": "Windows mag 'n SmartScreen-waarskuwing wys wanneer u die installeerder uitvoer. Om voort te gaan:",
-        "step1": "Klik op <1>Meer inligting</1> in die SmartScreen-dialoog",
-        "step2": "Klik op <1>Hardloop tog</1>"
-      }
+      "getStartedLabel": "Aan die gang",
+      "getStartedTitle": "Sien elke dienstetoets in jou landskap vandag.",
+      "webButton": "Open BTP xID in jou blaaier",
+      "webButtonDesc": "Beste vir API-kredensiale & dienstetoetsbeheer — roteer en beheer BTP API-kredensiale",
+      "desktopButtonDesc": "Beste vir gebruikerbeheer — Global Accounts, subrekenings, directories, CF-orge en -ruimtes"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1695,6 +1677,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Vind en verwijder spook-API-referenties",
       "step3Body": "API-referenties op Global Account-niveau zijn niet zichtbaar in de BTP cockpit — alleen via BTP CLI. BTP xID toont ze allemaal."
+    },
+    "gaps": {
+      "label": "Die Bestuurgat",
+      "title": "SAP BTP dienstestoetse is moeilik om te beheer",
+      "subtitle": "'n Dienstetoets verleen API-toegang tot jou SAP BTP-dienste — dit is die poort vir data wat deur SAP BTP Integrasie Suite vloei. 'n Gekompromitteerde sleutel kan gebruik word om vals data in te voeg, organisasiedata te lees, of integrasies uit te voer.",
+      "items": [
+        {
+          "title": "Eienaar",
+          "desc": "Standaard het BTP geen kredensiaaleienaar op rekord nie. 'n Toegangshersiening of voorvalrespons begin elke keer van nul af."
+        },
+        {
+          "title": "Vervaldatum",
+          "desc": "Dienstesleutels verval nie. Die meeste sekuriteitnorme roep vir kredensiale wat volgens 'n gedefinieerde skedule geroteer word nie, maar BTP het geen ingeboude meganisme om dit af te dwing of op te spoor nie."
+        },
+        {
+          "title": "Doel",
+          "desc": "Geen rekord van wat 'n sleutel is vir nie. 'n Hersiening kan nie 'n kritieke integrasie van 'n vergete toetssleutel onderskei nie."
+        },
+        {
+          "title": "Verbruiker",
+          "desc": "Geen rekord van watter stelsel van 'n sleutel afhang nie. Jy kan nie die impak van rotasie of herroeping beoordeel sonder produksietoetsing nie."
+        },
+        {
+          "title": "Rotasie",
+          "desc": "Geen rotasiegeskiedenis nie. Jy kan nie aantoon dat 'n kredensiale ooit verander is nie, of wanneer."
+        },
+        {
+          "title": "Rekeningdoorgawe sigbaarheid",
+          "desc": "Geen gekonsolideerde beeld oor rekeninge nie. 'n Landskaapwye toegangshersiening beteken individueel elke globale rekening, subrekenings, en Cloud Foundry-org en -ruimte besoek."
+        },
+        {
+          "title": "Proses vir vertrekker",
+          "desc": "Geen skakel tussen mense en kredensiale nie. As iemand met toegang tot 'n sleutelgeheim vertrek, vereis sekuriteitnorme rotasie en hertoekenning van die sleutels wat hulle kon benaai — maar daar is geen manier om te identifiseer watter sleutels dit is nie."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Nakoming",
+      "title": "Wat dit vir jou ouditering beteken",
+      "subtitle": "Sekuriteitsraamwerke vereis kredensiale met aanspreeklike eienaars, gedefinieerde lewensiklusse, en hersiende toegang.",
+      "cta": "Lees meer",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC-ouditerings vra vir bewyse van wie toegang tot stelsels het wat finansiële verslagdoening beïnvloed, en hoe daardie toegang hersiening word. BTP xID neem 'n eienaar vir elke kredensiale op en verskaf die rekeningdoorgawe-aansig wat daardie hersiening vereis."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 vereis dat toegang beperk word en regverdig word deur besigheidsbehofte. A.8.24 vereis dat kriptografiese geheimnisse deur hulle lewensiklus bestuur word. BTP xID neem eienaar en doel op elke kredensiale op, en voeg vervaldatums en rotasie-opsporing by."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 vereis dat stelselsrekeninge identifiseerbaar is. IA-5 vereis dat verifieraars teen gedefinieerde tussenposes verfris word. AC-2 vereis gereelde rekeningsouditerings. BTP xID identifiseer elke kredensiale met eienaar- en doelmetadata, spoor rotasie op, en maak sleutels wat op Cloud Foundry-ruimtevlak geskep is, sentraal sigbaar."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Vereiste 8.3.10.1 beveel aan dat statiese geheimnisse gereeld verander word. Vereiste 8.6 vereis dat stelselsrekeninge aan eienaars toegeken word en hersiening word. BTP xID voeg rotasie-opsporing en eienaarstoekenning tot elke dienstetoets by."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 en CC6.2 dek logiese toegangsverskaffing en verwydering — insluitend kredensiale wat deur mense geskep is wat sedertdien vertrek het. CC7.1 dek monitering van nuwe toegangspaaie. BTP xID laat jou elke kredensiale van 'n vertrokke gebruiker vind, en wys sleutels wat oral in die landskap geskep is in een aansig."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Die Oplossing",
+      "title": "Hoe BTP xID elke gat sluit",
+      "subtitle": "BTP xID voeg 'n beheerslaag bo jou bestaande landskap by. Metagegewens word op die kredensiale self opgesla, in jou eie rekeninge — nie in 'n afsonderlike databasis nie.",
+      "items": [
+        {
+          "gap": "Eienaar & aanspreeklike party",
+          "fix": "Beheersvel op elke kredensiaallêer teken wie dit eiendom het en wie verantwoordelik is vir die verbruikerstelsel."
+        },
+        {
+          "gap": "Vervaldatum & rotasie",
+          "fix": "Stel 'n vervaldatum op enige kredensiale, roteer dit in een klik, en hou 'n rekord van wanneer dit laas geroteer is."
+        },
+        {
+          "gap": "Doel & verbruiker",
+          "fix": "Neem nota van wat elke sleutel vir is en watter stelsel dit verbruik, sodat 'n kredensiaalehersiening nie op enigiemand se geheue afhang nie."
+        },
+        {
+          "gap": "Rekeningdoorgawe sigbaarheid",
+          "fix": "Een aansig van gebruikers en kredensiale oor al globale rekeninge, subrekenings, Cloud Foundry-orge en -ruimtes. Omgekeerde soek per gebruiker om alles wat hulle kan benaai te sien."
+        },
+        {
+          "gap": "Vertrekkerproses",
+          "fix": "Navraag alle kredensiale wat deur 'n vertrokke persoon eiendom is, roteer en hertoekenning hulle — 'n herhaalbare proses in plaas van 'n ondersoek."
+        },
+        {
+          "gap": "Ouditebewyse",
+          "fix": "Sekuriteits Insigte-tellings bestuursdekking regdeur jou landskap en wys presies watter kredensiale eienaars, vervaldatums, of doel mis."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "SAP IAS Aanvul",
+      "title1": "IAS beveilig identiteit.",
+      "title2": "BTP xID beheer toegang.",
+      "subtitle": "BTP xID help jou ook die hoeke van jou SAP BTP-landskap bereik en beheer wat IAS nie kan nie.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identiteit, Verifikasie en Gedeeltelike Toegangsbeheer",
+      "iasItems": [
+        "Eenmalige teken-aan & multi-faktor-verifikasie",
+        "Korporatiewe IdP-federasie (SAML / OIDC)",
+        "Gebruiker-voorsienig via SCIM",
+        "Risikogebaseerde verifikasiebeleide",
+        "Verifikaasie-ouditelêer",
+        "Gebruiker- en roltoekenning op SAP BTP Global en Sub-rekening-vlak"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Volledige Toegangsbeheer",
+      "xidItems": [
+        "Dienste-API Kredensiaalbeheer regdeur elke Global Account, Sub-account, Cloud Foundry Org en Space — lys, ouditeering en herroeping van OAuth-kredensiale op een plek",
+        "Gebruikerbeheer & Roltoekenning oor baie Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs en Cloud Foundry Spaces in 'n enkele eenheidskoppelvlak",
+        "Massagebeur-beheer oor jou hele BTP-landskap",
+        "Landskapwye sigbaarheid: wie het toegang tot wat, regdeur elke rekening",
+        "Beheer vir pasgemaakte IdP-gebruikers — nie net SAP ID Service-rekeninge nie"
+      ],
+      "footer": "Of jy IAS het of nie, BTP xID gee jou een plek om alle BTP-toegang te sien en te beheer — gebruikers, rolle, en API-kredensiale regdeur Global Accounts, sub-rekeninge, CF Orgs en Spaces."
     }
   },
   "cookie": {

@@ -1560,7 +1560,9 @@
       "description": "Irányítsa az egyes BTP felhasználókat, szerepeket és API hitelesítő adatokat az egész tájképén - egyetlen alkalmazásból. Teljes láthatóság, teljes vezérlés, minden Global Account, részfiók és Cloud Foundry környezet felett, amelyet üzemeltet.",
       "shieldBadge": "SAP OAuth · Nem tárol hitelesítő adatokat",
       "title": "Teljes API hitelesítési adatok kezelése az SAP BTP táj számára.",
-      "tagline": "API hitelesítési adatok és hozzáféréskezelés az SAP BTP számára"
+      "tagline": "API hitelesítési adatok és hozzáféréskezelés az SAP BTP számára",
+      "headline": "A BTP xID segít megóvni az SAP BTP API-kulcsait",
+      "subhead": "A BTP xID tulajdonjogot, élettartamot és auditálhatóságot biztosít az összes szolgáltatási kulcshoz a teljes tájon — így megmarad a biztonsági szabványoknak való megfelelésnek."
     },
     "valueProps": {
       "0": "Az egyetlen BTP felhasználókezelő alkalmazás, amelyre valaha szüksége lesz",
@@ -1594,7 +1596,12 @@
         "description": "A Windows SmartScreen figyelmeztetést jeleníthet meg a telepítő futtatásakor. A folytatáshoz:",
         "step1": "Kattintson a <1>Továbbiak</1> elemre a SmartScreen párbeszédpanelen",
         "step2": "Kattintson a <1>Futtatás mindenképpen</1> elemre"
-      }
+      },
+      "getStartedLabel": "Kezdés",
+      "getStartedTitle": "Tekintse meg a tájban ma lévő összes szolgáltatási kulcsot.",
+      "webButton": "BTP xID megnyitása a böngészőben",
+      "webButtonDesc": "Legjobb API hitelesítési adat és szolgáltatási kulcs kezeléséhez — forgatás és kezelés BTP API hitelesítési adatokhoz",
+      "desktopButtonDesc": "Legjobb felhasználó-kezeléséhez — Global Accounts, részfiókok, könyvtárak, CF orgs és spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1672,6 +1679,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Keresse meg és távolítsa el a szellem API hitelesítési adatait",
       "step3Body": "A Global Account szintű API hitelesítési adatok nem láthatók a BTP pilótafülkében — csak a BTP CLI-n keresztül. A BTP xID az összeset felhozza."
+    },
+    "gaps": {
+      "label": "Irányítási hiányosság",
+      "title": "Az SAP BTP szolgáltatási kulcsai nehezen irányíthatóak",
+      "subtitle": "A szolgáltatási kulcs API-hozzáférést biztosít az SAP BTP-szolgáltatásokhoz — ez az adat áramlásának kapuja az SAP BTP Integration Suite-en keresztül. A kompromittált kulcs hamis adatok beszúrására, szervezeti adatok olvasására vagy integrációk kiváltására használható.",
+      "items": [
+        {
+          "title": "Tulajdonos",
+          "desc": "Alapértelmezés szerint a BTP-nek nincs hitelesítési adat tulajdonosa nyilvántartásban. A hozzáférés-felülvizsgálat vagy az incidens-kezelés minden alkalommal nulláról indul."
+        },
+        {
+          "title": "Lejárat",
+          "desc": "A szolgáltatási kulcsok nem járnak le. A legtöbb biztonsági szabvány meghatározott ütemezés szerinti hitelesítési adat-forgatást igényel, de a BTP-nek nincs beépített mekanizmusa ennek érvényesítésére vagy nyomon követésére."
+        },
+        {
+          "title": "Cél",
+          "desc": "Nincs nyilvántartás arról, hogy a kulcs mire szolgál. Az áttekintés nem tudja megkülönböztetni a kritikus integrációt az elfelejtett tesztkulcstól."
+        },
+        {
+          "title": "Fogyasztó",
+          "desc": "Nincs nyilvántartás arról, hogy mely rendszer függ a kulcstól. A forgatás vagy a visszavonás hatásait nem lehet felmérni az éles környezetben való tesztelés nélkül."
+        },
+        {
+          "title": "Forgatás",
+          "desc": "Nincs forgatási előzmények. Nem tudja igazolni, hogy a hitelesítési adatok valaha is megváltoztak, vagy mikor."
+        },
+        {
+          "title": "Fiók közötti láthatóság",
+          "desc": "Nincs konszolidált nézet a fiókok között. A tájszintű hozzáférés-felülvizsgálat azt jelenti, hogy egyesével látogatva meg minden globális fiókot, részfiókot és Cloud Foundry szervezetet és teret."
+        },
+        {
+          "title": "Kilépési folyamat",
+          "desc": "Nincs kapcsolat az emberek és a hitelesítési adatok között. Amikor valaki, akinek hozzáférése van egy kulcs titkához, eláll, a biztonsági szabványok megkövetelik a kulcsok, amelyekhez hozzáférésük volt, forgatását és újbóli hozzárendelését — de nincs mód annak azonosítására, hogy melyekről van szó."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Compliance",
+      "title": "Mit jelent ez az Ön audit számára",
+      "subtitle": "A biztonsági keretrendszerek megkövetelnek, hogy a hitelesítési adatok felelős tulajdonosokkal rendelkezzenek, meghatározott élettartammal és felülvizsgálható hozzáféréssel.",
+      "cta": "Bővebben",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "A SOX ITGC auditok bizonyítékot kérnek arra vonatkozóan, hogy kinek van hozzáférése a pénzügyi jelentéseket befolyásoló rendszerekhez, és hogyan vizsgálják felül ezt a hozzáférést. A BTP xID rögzít egy tulajdonost minden hitelesítési adathoz, és biztosítja a fiók közötti nézetet, amelyet ezek az auditok megkövetelnek."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "Az A.5.15 megköveteli, hogy a hozzáférés az üzleti igény által korlátozott és igazolt legyen. Az A.8.24 megköveteli, hogy a kriptográfiai titkok kezelése az élettartamukban történjen. A BTP xID rögzít tulajdonost és célt minden hitelesítési adaton, és lejárati dátumokat és forgatás-nyomon követést ad hozzá."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "Az IA-4 megköveteli, hogy a rendszerfiókok azonosíthatóak legyenek. Az IA-5 megköveteli, hogy az autentifikátorok meghatározott időközönként frissüljenek. Az AC-2 rendszeres fiókellenőrzéseket igényel. A BTP xID azonosít minden hitelesítési adatot tulajdonos és cél metaadatokkal, nyomon követi a forgatást, és a Cloud Foundry térszintjén létrehozott kulcsokat központilag láthatóvá teszi."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "A 8.3.10.1-es követelmény előírja, hogy a statikus titkok rendszeresen megváltoznak. A 8.6-os követelmény megköveteli, hogy a rendszerfiókok tulajdonosokhoz rendeljenek és felülvizsgáltak legyenek. A BTP xID forgatás-nyomon követést és tulajdonosok hozzárendelését adja hozzá minden szolgáltatási kulcshoz."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "A CC6.1 és CC6.2 a logikai hozzáférés-biztosítást és eltávolítást fedik — beleértve az olyan személyek által létrehozott hitelesítési adatokat, akik később elmentek. A CC7.1 az új hozzáférési útvonalak felügyeletét fedezi. A BTP xID lehetővé teszi, hogy megtalálja az elmenő felhasználó által birtokolt összes hitelesítési adatot, és megjeleníti a tájon bárhol létrehozott kulcsokat egy nézetben."
+        }
+      ]
+    },
+    "closes": {
+      "label": "A megoldás",
+      "title": "Hogyan zárja le a BTP xID az egyes hiányosságokat",
+      "subtitle": "A BTP xID egy irányítási réteget ad a meglévő tájhoz. A metaadatok magában a hitelesítési adatban tárolódnak, a saját fiókjaiban — nem egy külön adatbázisban.",
+      "items": [
+        {
+          "gap": "Tulajdonos és felelős fél",
+          "fix": "Irányítási mezők minden hitelesítési adat rekordon, aki a tulajdonosa és ki a felelős az azt felhasználó rendszerért."
+        },
+        {
+          "gap": "Lejárat és forgatás",
+          "fix": "Állítson be lejárati dátumot bármely hitelesítési adatra, forgassa meg egy kattintással, és tartsa meg a nyilvántartást arról, hogy mikor volt utoljára forgatva."
+        },
+        {
+          "gap": "Cél és fogyasztó",
+          "fix": "Jegyezze meg, hogy az egyes kulcsok mire szolgálnak és mely rendszer használja őket, hogy a hitelesítési adat felülvizsgálata ne függjön valaki memóriájától."
+        },
+        {
+          "gap": "Fiók közötti láthatóság",
+          "fix": "A felhasználók és hitelesítési adatok egyetlen nézete az összes globális fiók, részfiók, Cloud Foundry szervezet és tér között. Fordított keresés felhasználó szerint, hogy lásd mindazt, amit elérhetnek."
+        },
+        {
+          "gap": "Kilépési folyamat",
+          "fix": "Lekérdezés minden hitelesítési adatot egy elveszülő személy tulajdonában, forgassa meg és rendszerelje őket újra — egy ismételhető folyamat egy nyomozás helyett."
+        },
+        {
+          "gap": "Audit bizonyíték",
+          "fix": "A Security Insights az irányítási lefedettséget pontozza a teljes tájon, és pontosan megmutatja, mely hitelesítési adatokból hiányoznak a tulajdonosok, a lejárati dátumok vagy a cél."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Az SAP IAS-t kiegészítve",
+      "title1": "Az IAS biztosítja az identitást.",
+      "title2": "A BTP xID irányítja a hozzáférést.",
+      "subtitle": "A BTP xID segít az SAP BTP-tájának olyan sarkaira elérni és irányítani, amelyeket az IAS nem tud.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identitás, hitelesítés és részleges hozzáférés-irányítás",
+      "iasItems": [
+        "Egyszeri bejelentkezés és többtényezős hitelesítés",
+        "Vállalati IdP-föderáció (SAML / OIDC)",
+        "Felhasználók kiépítése SCIM-en keresztül",
+        "Kockázatalapú hitelesítési házirendek",
+        "Hitelesítési audit naplók",
+        "Felhasználó és szerep-hozzárendelés SAP BTP Global és Sub-account szintjén"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Teljes hozzáférés-irányítás",
+      "xidItems": [
+        "Service API hitelesítési adat kezelése minden Global Account, Sub-account, Cloud Foundry Org és Space között — egy helyen listázza, ellenőrizze és vonja vissza az OAuth hitelesítési adatokat",
+        "Felhasználó-kezelés és szerep-hozzárendelés több Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs és Cloud Foundry Spaces között egy unified interfészben",
+        "Tömeges felhasználó-kezelés a teljes BTP-tájon",
+        "Tájszintű láthatóság: ki fér hozzá mihez, az összes fiók között",
+        "Irányítás egyéni IdP-felhasználók számára — nem csak SAP ID Service-fiókok"
+      ],
+      "footer": "Függetlenül attól, hogy van-e IAS-e, a BTP xID egy helyet biztosít az összes BTP-hozzáférés megtekintésére és kezelésére — felhasználók, szerepek és API hitelesítési adatok az összes Global Accounts, részfiókok, CF Orgs és Spaces között."
     }
   },
   "cookie": {

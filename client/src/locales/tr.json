@@ -1559,7 +1559,9 @@
       "description": "BTP kullanıcılarının her birini, rolünü ve API kimlik bilgilerini ortamınız genelinde yönetin - tek bir uygulamadan. Tam görünürlük, tam kontrol, çalıştırdığınız her Global Account, alt hesap ve Cloud Foundry ortamı üzerinde.",
       "shieldBadge": "SAP OAuth · Kimlik bilgisi saklanmaz",
       "title": "SAP BTP manzaranız için tam API kimlik bilgisi yönetimi.",
-      "tagline": "SAP BTP için API Kimlik Bilgisi ve Erişim Yönetimi"
+      "tagline": "SAP BTP için API Kimlik Bilgisi ve Erişim Yönetimi",
+      "headline": "BTP xID, SAP BTP API Hizmet Anahtarlarını Güvenli Hale Getirmenize Yardımcı Olur",
+      "subhead": "BTP xID, manzaranız genelinde her hizmet anahtarına sahiplik, yaşam döngüsü ve denetlenebilirlik getirir — böylece güvenlik standartlarıyla uyumlu kalırsınız."
     },
     "valueProps": {
       "0": "İhtiyaç duyacağınız tek BTP kullanıcı yönetimi uygulaması",
@@ -1593,7 +1595,12 @@
         "description": "Yükleyiciyi çalıştırdığınızda Windows bir SmartScreen uyarısı gösterebilir. Devam etmek için:",
         "step1": "SmartScreen iletişim kutusunda <1>Daha fazla bilgi</1> seçeneğine tıklayın",
         "step2": "<1>Yine de çalıştır</1> seçeneğine tıklayın"
-      }
+      },
+      "getStartedLabel": "Başlayın",
+      "getStartedTitle": "Bugün manzaranız genelindeki her hizmet anahtarını görün.",
+      "webButton": "BTP xID'yi tarayıcınızda açın",
+      "webButtonDesc": "API kimlik bilgisi ve hizmet anahtarı yönetimi için en iyisi — BTP API kimlik bilgilerini döndürün ve yönetin",
+      "desktopButtonDesc": "Kullanıcı yönetimi için en iyisi — Global Accounts, alt hesaplar, dizinler, CF orgs ve spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1664,7 +1671,29 @@
     "ias": {
       "label": "SAP IAS ile çalışır",
       "title1": "IAS kimliği güvence altına alır.",
-      "title2": "BTP xID erişimi yönetir."
+      "title2": "BTP xID erişimi yönetir.",
+      "label2": "SAP IAS'ı Tamamlama",
+      "subtitle": "BTP xID, IAS'ın yapamayacağı SAP BTP manzaranızın köşelerini ulaşmaya ve yönetmeye de yardımcı olur.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Kimlik, Kimlik Doğrulama ve Kısmi Erişim Yönetişimi",
+      "iasItems": [
+        "Tek oturum açma ve çok faktörlü kimlik doğrulama",
+        "Kurumsal IdP federasyonu (SAML / OIDC)",
+        "SCIM üzerinden kullanıcı sağlama",
+        "Risk tabanlı kimlik doğrulama ilkeleri",
+        "Kimlik doğrulama denetim günlükleri",
+        "SAP BTP Global ve Alt-hesap düzeyinde kullanıcı ve rol ataması"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Tam Erişim Yönetişimi",
+      "xidItems": [
+        "Her Global Account, Sub-account, Cloud Foundry Org ve Space üzerinde Service API Credential Management — OAuth kimlik bilgilerini listeleyin, denetleyin ve iptal edin",
+        "Birden fazla Global Account, Sub-account, Dizin, Cloud Foundry Org ve Cloud Foundry Space üzerinde User Management ve Role assignment — tek birleştirilmiş arayüzde",
+        "Tüm BTP manzaranız üzerinde toplu kullanıcı yönetimi",
+        "Manzara genelinde görünürlük: kimin neye erişimi olduğu, her hesapta",
+        "Özel IdP kullanıcıları için yönetişim — yalnızca SAP ID Service hesapları değil"
+      ],
+      "footer": "IAS'nız olsun veya olmasın, BTP xID size BTP erişiminin tümünü görmek ve yönetmek için bir yer verir — Global Accounts, alt hesaplar, CF Orgs ve Spaces üzerinde kullanıcılar, roller ve API kimlik bilgileri."
     },
     "threeSteps": {
       "label": "SAP BTP'de API kimlik bilgilerinizi güvenli hale getirmek için üç adım",
@@ -1684,6 +1713,105 @@
       "item1Strong": "Yerel olarak çalışır",
       "item2Strong": "BTP API'lerine doğrudan",
       "item3Strong": "Sizin kimlik bilgileriniz, sizin kimlik doğrulama"
+    },
+    "gaps": {
+      "label": "Yönetişim Açığı",
+      "title": "SAP BTP hizmet anahtarlarını yönetmek zor",
+      "subtitle": "Hizmet anahtarı SAP BTP hizmetlerinize API erişimi verir — SAP BTP Integration Suite'in veri akış kapısıdır. Güvenliği ihlal edilmiş bir anahtar sahte veri eklemek, kurumsal verileri okumak veya entegrasyonları tetiklemek için kullanılabilir.",
+      "items": [
+        {
+          "title": "Owner",
+          "desc": "Varsayılan olarak, BTP'de kayıt olmuş bir kimlik bilgisi sahibi yoktur. Erişim incelemesi veya olay müdahalesi her seferinde sıfırdan başlar."
+        },
+        {
+          "title": "Expiry",
+          "desc": "Hizmet anahtarlarının süresi dolmaz. Çoğu güvenlik standardı kimlik bilgilerinin tanımlanmış bir programa göre döndürülmesini talep eder, ancak BTP'nin bunu zorunlu kılmak veya izlemek için yerleşik bir mekanizması yoktur."
+        },
+        {
+          "title": "Purpose",
+          "desc": "Anahtarın ne için olduğuna dair kayıt yok. Gözden geçirme kritik bir entegrasyonu unutulmuş bir test anahtarından ayıramaz."
+        },
+        {
+          "title": "Consumer",
+          "desc": "Hangi sistemin bir anahtarına bağlı olduğuna dair kayıt yok. Bunu sınamadan üretimde döndürmenin veya iptal etmenin etkisini değerlendiremezsiniz."
+        },
+        {
+          "title": "Rotation",
+          "desc": "Döndürme geçmişi yok. Bir kimlik bilgisinin hiç değiştirilip değiştirilmediğini veya ne zaman değiştirildiğini kanıtlayamazsınız."
+        },
+        {
+          "title": "Cross-account visibility",
+          "desc": "Hesaplar arasında birleştirilmiş görünüm yok. Manzara genelinde erişim incelemesi, her global hesap, alt hesap ve Cloud Foundry org ve alanını ayrı ayrı ziyaret etmek anlamına gelir."
+        },
+        {
+          "title": "Leaver process",
+          "desc": "İnsanlar ve kimlik bilgileri arasında bağlantı yok. Bir anahtarın sırrına erişim sahibi olan biri ayrıldığında, güvenlik standartları onların erişebileceği anahtarları döndürmeyi ve yeniden atamayı gerektirir — ancak hangilerinin olduğunu tanımlamanın bir yolu yoktur."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Uyum",
+      "title": "Bu, denetiniz için ne anlama geliyor",
+      "subtitle": "Güvenlik çerçeveleri kimlik bilgilerinin sorumlu sahipleri, tanımlanmış yaşam döngüleri ve gözden geçirilebilir erişimi olmasını gerektirir.",
+      "cta": "Daha fazla bilgi",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC denetimleri, mali raporlamayı etkileyen sistemlere erişim hakkı olan ve bu erişimin nasıl gözden geçirildiği konusunda kanıt talep eder. BTP xID her kimlik bilgisi için bir sahibi kaydeder ve bu incelemeler için gereken hesaplar arası erişim görünümünü sağlar."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15, erişimin sınırlandırılmasını ve iş ihtiyacı tarafından haklı gösterilmesini gerektirir. A.8.24, şifreleme sırlarının yaşam döngüsü boyunca yönetilmesini gerektirir. BTP xID her kimlik bilgisinde sahibi ve amacı kaydeder ve sona erme tarihleri ve döndürme izlemesini ekler."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4, sistem hesaplarının tanımlanabilir olmasını gerektirir. IA-5, kimlik doğrulayıcıların tanımlanmış aralıklarla yenilenmesini gerektirir. AC-2, düzenli hesap denetimleri gerektirir. BTP xID her kimlik bilgisini sahibi ve amaç meta verisi ile tanımlar, döndürmeyi izler ve Cloud Foundry alanı düzeyinde oluşturulan anahtarları merkezi olarak görünür hale getirir."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Gereksinim 8.3.10.1, statik sırların düzenli olarak değiştirilmesini zorunlu kılar. Gereksinim 8.6, sistem hesaplarının sahiplere atanmasını ve gözden geçirilmesini gerektirir. BTP xID her hizmet anahtarına döndürme izlemesi ve sahibi ataması ekler."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 ve CC6.2 mantıksal erişim sağlamayı ve kaldırmayı kapsar — ayrılmış kişiler tarafından oluşturulan kimlik bilgileri de dahil olmak üzere. CC7.1 yeni erişim yollarının izlenmesini kapsar. BTP xID bir ayrılan kullanıcı tarafından sahip olunan her kimlik bilgisini bulmanıza ve manzara genelinde oluşturulan anahtarları tek görünümde göstermenize olanak sağlar."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Çözüm",
+      "title": "BTP xID her açığı nasıl kapatıyor",
+      "subtitle": "BTP xID mevcut manzaranızın üzerine bir yönetişim katmanı ekler. Meta veriler kimlik bilgisinin kendisinde, kendi hesaplarınızda saklanır — ayrı bir veritabanında değil.",
+      "items": [
+        {
+          "gap": "Owner & responsible party",
+          "fix": "Her kimlik bilgisinde sahibi kim olduğunu ve tüketici sistemi için kimin sorumlu olduğunu kaydeden yönetişim alanları."
+        },
+        {
+          "gap": "Expiry & rotation",
+          "fix": "Herhangi bir kimlik bilgisine bir sona erme tarihi ayarlayın, bunu tek tıkla döndürün ve en son döndürüldüğü zamanın kaydını tutun."
+        },
+        {
+          "gap": "Purpose & consumer",
+          "fix": "Her anahtarın ne için olduğunu ve hangi sistemin bunu kullandığını kaydedin, böylece bir kimlik bilgisi incelemesi kimsenin hafızasına bağlı olmaz."
+        },
+        {
+          "gap": "Cross-account visibility",
+          "fix": "Tüm global hesaplar, alt hesaplar, Cloud Foundry orgs ve spaces genelinde kullanıcılar ve kimlik bilgilerinin tek görünümü. Erişebildikleri her şeyi görmek için kullanıcıya göre ters arama yapın."
+        },
+        {
+          "gap": "Leaver process",
+          "fix": "Ayrılan bir kişi tarafından sahip olunan tüm kimlik bilgilerini sorgulayın, ardından bunları döndürün ve yeniden atayın — bir araştırma yerine tekrarlanabilir bir işlem."
+        },
+        {
+          "gap": "Audit evidence",
+          "fix": "Güvenlik İçgörüleri manzaranız genelinde yönetişim kapsamını puanlandırır ve sahibi, sona erme tarihi veya amacı eksik olan kimlik bilgilerini tam olarak gösterir."
+        }
+      ]
     }
   },
   "cookie": {

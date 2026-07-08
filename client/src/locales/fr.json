@@ -1553,7 +1553,9 @@
       "description": "Gouvernez chaque utilisateur BTP, rôle et identifiants API dans tout votre paysage - à partir d'une seule application. Visibilité complète, contrôle complet, dans chaque Global Account, sous-compte et environnement Cloud Foundry que vous exécutez.",
       "shieldBadge": "SAP OAuth · Aucune donnée d'identification stockée",
       "title": "Gestion complète des identifiants API pour votre paysage SAP BTP.",
-      "tagline": "Gestion des identifiants API et des accès pour SAP BTP"
+      "tagline": "Gestion des identifiants API et des accès pour SAP BTP",
+      "headline": "BTP xID vous aide à sécuriser vos clés de service SAP BTP API",
+      "subhead": "BTP xID apporte la propriété, le cycle de vie et l'auditabilité à chaque clé de service dans votre environnement – pour que vous restiez conforme aux normes de sécurité."
     },
     "valueProps": {
       "0": "La seule app de gestion des utilisateurs BTP dont vous aurez besoin",
@@ -1587,7 +1589,12 @@
         "description": "Windows peut afficher un avertissement SmartScreen lors de l'exécution du programme d'installation. Pour continuer :",
         "step1": "Cliquez sur <1>Plus d'informations</1> dans la boîte de dialogue SmartScreen",
         "step2": "Cliquez sur <1>Exécuter quand même</1>"
-      }
+      },
+      "getStartedLabel": "Commencer",
+      "getStartedTitle": "Voyez chaque clé de service dans votre paysage aujourd'hui.",
+      "webButton": "Ouvrez BTP xID dans votre navigateur",
+      "webButtonDesc": "Meilleur pour la gestion des identifiants API et des clés de service – faites tourner et gérez les identifiants BTP API",
+      "desktopButtonDesc": "Meilleur pour la gestion des utilisateurs – Comptes globaux, sous-comptes, répertoires, organisations CF et espaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1667,12 +1674,12 @@
       "label": "Fonctionne avec SAP IAS",
       "title1": "IAS sécurise l'identité.",
       "title2": "BTP xID gouverne l'accès.",
-      "subtitle": "SAP IAS gère l'authentification. BTP xID gère ce qui suit — qui peut accéder à quoi, dans chaque account, org et space de votre paysage BTP.",
+      "subtitle": "BTP xID vous aide également à atteindre et gouverner les coins de votre paysage SAP BTP que IAS ne peut pas.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Identité, authentification et gouvernance d'accès partielle",
+      "iasTitle": "Identité, Authentification et Gouvernance Partielle de l'Accès",
       "xidBadge": "BTP xID",
-      "xidTitle": "Gouvernance d'accès complet",
-      "footer": "Que vous ayez IAS ou non, BTP xID vous donne un endroit unique pour voir et gérer tous les accès BTP — utilisateurs, rôles et credentials API sur Global Accounts, sub-accounts, CF Orgs et Spaces.",
+      "xidTitle": "Gouvernance Complète de l'Accès",
+      "footer": "Que vous ayez IAS ou non, BTP xID vous donne un endroit pour voir et gérer tous les accès BTP – les utilisateurs, les rôles et les identifiants API dans les comptes globaux, les sous-comptes, les organisations CF et les espaces.",
       "readMore": "Lire la ventilation complète →",
       "iasItems": [
         "Authentification unique et MFA",
@@ -1688,7 +1695,8 @@
         "Gestion des utilisateurs en masse sur l'ensemble de votre paysage BTP",
         "Visibilité à l'échelle du paysage : qui a accès à quoi",
         "Gouvernance pour les utilisateurs IdP personnalisés"
-      ]
+      ],
+      "label2": "Complément de SAP IAS"
     },
     "threeSteps": {
       "label": "Trois étapes pour sécuriser vos identifiants API dans SAP BTP",
@@ -1711,6 +1719,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "L'écart de gouvernance",
+      "title": "Les clés de service SAP BTP sont difficiles à gouverner",
+      "subtitle": "Une clé de service accorde l'accès API à vos services SAP BTP – c'est la passerelle pour les données circulant à travers SAP BTP Integration Suite. Une clé compromise peut être utilisée pour insérer de fausses données, lire les données organisationnelles ou déclencher des intégrations.",
+      "items": [
+        {
+          "title": "Propriétaire",
+          "desc": "Par défaut, BTP n'enregistre aucun propriétaire pour l'identifiant. Une revue d'accès ou une réponse à un incident repart de zéro à chaque fois."
+        },
+        {
+          "title": "Expiration",
+          "desc": "Les clés de service n'expirent pas. La plupart des normes de sécurité exigent que les identifiants soient renouvelés selon un calendrier défini, mais BTP ne dispose d'aucun mécanisme intégré pour l'imposer ou le suivre."
+        },
+        {
+          "title": "Objectif",
+          "desc": "Aucun enregistrement de l'usage d'une clé. Une revue ne peut pas distinguer une intégration critique d'une clé de test oubliée."
+        },
+        {
+          "title": "Consommateur",
+          "desc": "Aucun enregistrement du système qui dépend d'une clé. Impossible d'évaluer l'impact de sa rotation ou de sa révocation sans tester en production."
+        },
+        {
+          "title": "Rotation",
+          "desc": "Aucun historique de rotation. Impossible de démontrer qu'un identifiant a déjà été modifié, ni quand."
+        },
+        {
+          "title": "Visibilité inter-comptes",
+          "desc": "Aucune vue consolidée entre les comptes. Une revue d'accès à l'échelle du paysage implique de visiter individuellement chaque compte global, sous-compte, organisation et espace Cloud Foundry."
+        },
+        {
+          "title": "Processus de départ",
+          "desc": "Aucun lien entre les personnes et les identifiants. Lorsqu'une personne ayant accès au secret d'une clé quitte l'entreprise, les normes de sécurité exigent de faire tourner et de réattribuer les clés auxquelles elle avait accès — mais il n'existe aucun moyen d'identifier quelles sont ces clés."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Conformité",
+      "title": "Ce que cela signifie pour votre audit",
+      "subtitle": "Les cadres de sécurité exigent que les identifiants aient des propriétaires responsables, des cycles de vie définis et un accès vérifiable.",
+      "cta": "Lire la suite",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Les audits SOX ITGC exigent des preuves de qui a accès aux systèmes affectant les rapports financiers, et comment cet accès est révisé. BTP xID enregistre un propriétaire pour chaque identifiant et fournit la vue d'accès inter-comptes que ces revues exigent."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 exige que l'accès soit restreint et justifié par un besoin métier. A.8.24 exige que les secrets cryptographiques soient gérés tout au long de leur cycle de vie. BTP xID enregistre le propriétaire et l'objectif de chaque identifiant, et ajoute des dates d'expiration et un suivi de rotation."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 exige que les comptes système soient identifiables. IA-5 exige que les authentifiants soient renouvelés à intervalles définis. AC-2 exige des audits de comptes réguliers. BTP xID identifie chaque identifiant avec des métadonnées de propriétaire et d'objectif, suit la rotation, et rend visibles de manière centralisée les clés créées au niveau d'un espace Cloud Foundry."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "L'exigence 8.3.10.1 impose que les secrets statiques soient changés régulièrement. L'exigence 8.6 exige que les comptes système soient attribués à des propriétaires et révisés. BTP xID ajoute un suivi de rotation et une attribution de propriétaire à chaque clé de service."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 et CC6.2 couvrent l'attribution et la suppression des accès logiques — y compris les identifiants créés par des personnes ayant depuis quitté l'entreprise. CC7.1 couvre la surveillance des nouvelles voies d'accès. BTP xID vous permet de retrouver chaque identifiant appartenant à un utilisateur parti, et affiche en une seule vue les clés créées n'importe où dans le paysage."
+        }
+      ]
+    },
+    "closes": {
+      "label": "La solution",
+      "title": "Comment BTP xID comble chaque écart",
+      "subtitle": "BTP xID ajoute une couche de gouvernance au-dessus de votre paysage existant. Les métadonnées sont stockées sur l'identifiant lui-même, dans vos propres comptes – pas dans une base de données séparée.",
+      "items": [
+        {
+          "gap": "Propriétaire et responsable",
+          "fix": "Des champs de gouvernance sur chaque enregistrement d'identifiant indiquent qui le possède et qui est responsable du système consommateur."
+        },
+        {
+          "gap": "Expiration et rotation",
+          "fix": "Définissez une date d'expiration sur n'importe quel identifiant, faites-le tourner en un clic, et conservez un enregistrement de sa dernière rotation."
+        },
+        {
+          "gap": "Objectif et consommateur",
+          "fix": "Enregistrez à quoi sert chaque clé et quel système la consomme, afin qu'une revue d'identifiants ne dépende de la mémoire de personne."
+        },
+        {
+          "gap": "Visibilité inter-comptes",
+          "fix": "Une vue unique des utilisateurs et des identifiants sur tous les comptes globaux, sous-comptes, organisations et espaces Cloud Foundry. Recherche inversée par utilisateur pour voir tout ce à quoi il a accès."
+        },
+        {
+          "gap": "Processus de départ",
+          "fix": "Interrogez tous les identifiants appartenant à une personne qui quitte l'entreprise, puis faites-les tourner et réattribuez-les — un processus reproductible plutôt qu'une enquête."
+        },
+        {
+          "gap": "Preuves d'audit",
+          "fix": "Security Insights évalue la couverture de gouvernance sur l'ensemble de votre paysage et indique précisément quels identifiants manquent de propriétaire, de date d'expiration ou d'objectif."
+        }
+      ]
     }
   },
   "cookie": {

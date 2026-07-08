@@ -1553,7 +1553,9 @@
       "description": "Beheer elke BTP-gebruiker, rol en API-referentie in je hele landschap - vanuit één app. Volledige zichtbaarheid, volledige controle, over elke Global Account, subaccount en Cloud Foundry-omgeving die je uitvoert.",
       "shieldBadge": "SAP OAuth · Geen inloggegevens opgeslagen",
       "title": "Volledig API-referentiebeheer voor uw SAP BTP-landschap.",
-      "tagline": "API-referentie- en accessbeheer voor SAP BTP"
+      "tagline": "API-referentie- en accessbeheer voor SAP BTP",
+      "headline": "BTP xID helpt u uw SAP BTP API-servicesleutels te beveiligen",
+      "subhead": "BTP xID brengt eigendom, levenscyclus en controleerbaarheid naar elke servicesleutel in uw omgeving - zodat u voldoet aan beveiligingsnormen."
     },
     "valueProps": {
       "0": "De enige BTP gebruikersbeheer-app die u ooit nodig zult hebben",
@@ -1587,7 +1589,12 @@
         "description": "Windows kan een SmartScreen-waarschuwing weergeven wanneer u het installatieprogramma uitvoert. Om door te gaan:",
         "step1": "Klik op <1>Meer info</1> in het SmartScreen-dialoogvenster",
         "step2": "Klik op <1>Toch uitvoeren</1>"
-      }
+      },
+      "getStartedLabel": "Aan de Slag",
+      "getStartedTitle": "Zie vandaag nog elke servicesleutel in uw landschap.",
+      "webButton": "Open BTP xID in uw browser",
+      "webButtonDesc": "Best voor API-referentie- en servicesleutelbeheer - draai en beheer BTP API-referenties",
+      "desktopButtonDesc": "Best voor gebruikersbeheer - globale accounts, subaccounts, directories, CF orgs en spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1666,29 +1673,30 @@
     "ias": {
       "label": "Werkt met SAP IAS",
       "title1": "IAS beveiligt identiteit.",
-      "title2": "BTP xID regeert toegang.",
-      "subtitle": "SAP IAS verwerkt verificatie. BTP xID verwerkt wat daarna komt — wie kan wat openen, in elke account, org en space in uw BTP-landschap.",
+      "title2": "BTP xID beheerst toegang.",
+      "subtitle": "BTP xID helpt u ook te bereiken en te beheren van de hoeken van uw SAP BTP-landschap die IAS niet kan.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Identiteit, verificatie en gedeeltelijk toegangsbeheer",
+      "iasTitle": "Identiteit, Verificatie en Gedeeltelijke Toegangsgovernance",
       "xidBadge": "BTP xID",
-      "xidTitle": "Volledig toegangsbeheer",
-      "footer": "Of u nu IAS hebt of niet, BTP xID geeft u één plaats om alle BTP-toegang te zien en te beheren — gebruikers, rollen en API-referenties in Global Accounts, sub-accounts, CF Orgs en Spaces.",
+      "xidTitle": "Volledige Toegangsgovernance",
+      "footer": "Of u nu IAS hebt of niet, BTP xID geeft u één plek om alle BTP-toegang te zien en te beheren - gebruikers, rollen en API-referenties in globale accounts, subaccounts, CF Orgs en Spaces.",
       "readMore": "Lees de volledige uitsplitsing →",
       "iasItems": [
-        "Eenmalige aanmelding en MFA",
-        "Bedrijfs-IdP-federatie (SAML / OIDC)",
-        "Gebruikersprovisioning via SCIM",
-        "Op risico gebaseerd verificatiebeleid",
-        "Verificatie-controlelogboeken",
-        "Toewijzing van gebruikers en rollen op Global Account- en Sub-account-niveau"
+        "Single sign-on en multi-factor-verificatie",
+        "Federatie van bedrijfs-IdP (SAML / OIDC)",
+        "Gebruikersinrichting via SCIM",
+        "Risicogebaseerde verificatiebeleid",
+        "Verificatie-auditlogboeken",
+        "Gebruiker- en roltoewijzing op SAP BTP Global en Sub-account-niveau"
       ],
       "xidItems": [
-        "Service API Credential Management across every level — list, audit and revoke OAuth credentials in one place",
-        "Gebruikersbeheer en roltoewijzing in Global Accounts, Sub-accounts, Mappen, CF Orgs en Spaces",
-        "Bulkgebruikersbeheer in uw hele BTP-landschap",
-        "Zichtbaarheid in het hele landschap: wie heeft toegang tot wat",
-        "Governance voor aangepaste IdP-gebruikers"
-      ]
+        "Service-API-referentiebeheer in elk Global Account, Sub-account, Cloud Foundry Org en Space - referenties weergeven, controleren en intrekken op één plek",
+        "Gebruikersbeheer en Roltoewijzing in meerdere Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs en Cloud Foundry Spaces in een enkele geïntegreerde interface",
+        "Beheer van bulkgebruikers in uw hele BTP-landschap",
+        "Zichtbaarheid op landschapsniveau: wie toegang heeft tot wat, in alle accounts",
+        "Governance voor aangepaste IdP-gebruikers - niet alleen SAP ID Service-accounts"
+      ],
+      "label2": "Aanvullend op SAP IAS"
     },
     "threeSteps": {
       "label": "Drie stappen om uw API-referenties in SAP BTP te beveiligen",
@@ -1711,6 +1719,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "De Governance-Kloof",
+      "title": "SAP BTP-servicesleutels zijn moeilijk te beheren",
+      "subtitle": "Een servicesleutel geeft API-toegang tot uw SAP BTP-services - het is de gateway voor gegevensstroom via SAP BTP Integration Suite. Een gecompromitteerde sleutel kan worden gebruikt om valse gegevens in te voegen, organisatiegegevens te lezen of integraties te activeren.",
+      "items": [
+        {
+          "title": "Eigenaar",
+          "desc": "Standaard heeft BTP geen referentiehoudereigenaar. Een toegangscontrole of incidentrespons begint elke keer opnieuw."
+        },
+        {
+          "title": "Verval",
+          "desc": "Servicesleutels verlopen niet. De meeste beveiligingsnormen vereisen dat gegevens volgens een bepaald schema worden gedraaid, maar BTP heeft geen ingebouwd mechanisme om dit af te dwingen of bij te houden."
+        },
+        {
+          "title": "Doel",
+          "desc": "Geen record van waarvoor een sleutel is. Een controle kan een kritieke integratie niet onderscheiden van een vergeten testsleutel."
+        },
+        {
+          "title": "Consument",
+          "desc": "Geen record van welk systeem afhankelijk is van een sleutel. U kunt de impact van het draaien of intrekken ervan niet beoordelen zonder in productie te testen."
+        },
+        {
+          "title": "Rotatie",
+          "desc": "Geen rotatiegeschiedenis. U kunt niet aantonen dat gegevens ooit werden gewijzigd, of wanneer."
+        },
+        {
+          "title": "Zichtbaarheid over accounts",
+          "desc": "Geen geconsolideerde weergave over accounts. Een landschapsbrede toegangscontrole betekent het bezoeken van elk globaal account, subaccount en Cloud Foundry org en space afzonderlijk."
+        },
+        {
+          "title": "Leaver-proces",
+          "desc": "Geen koppeling tussen mensen en gegevens. Wanneer iemand met toegang tot het geheim van een sleutel weggaat, vereisen beveiligingsnormen het roteren en opnieuw toewijzen van de sleutels waar ze toegang toe konden krijgen - maar er is geen manier om te identificeren welke sleutels dat zijn."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Naleving",
+      "title": "Wat dit voor uw controle betekent",
+      "subtitle": "Beveiligingskaders vereisen dat gegevens verantwoordelijke eigenaren hebben, bepaalde levenscycli en controleerbare toegang.",
+      "cta": "Lees meer",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC-audits vragen om bewijzen van wie toegang heeft tot systemen die financiële rapportage beïnvloeden en hoe die toegang wordt gecontroleerd. BTP xID registreert een eigenaar voor elke referentie en biedt de cross-account-weergave die deze controles nodig hebben."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 vereist dat toegang is beperkt en gerechtvaardigd door bedrijfsbehoeften. A.8.24 vereist dat cryptografische geheimen worden beheerd via hun levenscyclus. BTP xID registreert eigenaar en doel op elke gegevensingang en voegt vervaldatums en rotatietracking toe."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 vereist dat systeemaccounts identificeerbaar zijn. IA-5 vereist dat authenticators op bepaalde intervallen worden vernieuwd. AC-2 vereist regelmatige accountaudits. BTP xID identificeert elke gegevensingang met eigenaar- en doelmetadata, volgt rotatie en maakt sleutels die op Cloud Foundry-espaceniveau worden aangemaakt centraal zichtbaar."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Vereiste 8.3.10.1 stelt voor dat statische geheimen regelmatig worden gewijzigd. Vereiste 8.6 vereist dat systeemaccounts aan eigenaren zijn toegewezen en worden gecontroleerd. BTP xID voegt rotatietracking en eigenaartoewijzing toe aan elke servicesleutel."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 en CC6.2 betreffen logische toegangsvoorziening en verwijdering - inclusief gegevens die door weggegane personen zijn aangemaakt. CC7.1 behandelt bewaking van nieuwe toegangspaden. Met BTP xID kunt u elke gegevensingang zoeken die het eigendom is van een vertrokken gebruiker en ziet u sleutels die overal in het landschap zijn aangemaakt in één weergave."
+        }
+      ]
+    },
+    "closes": {
+      "label": "De Oplossing",
+      "title": "Hoe BTP xID elke kloof dichtmaakt",
+      "subtitle": "BTP xID voegt een governance-laag toe op uw bestaande landschap. Metagegevens worden op de gegevensingang zelf opgeslagen, in uw eigen accounts - niet in een aparte database.",
+      "items": [
+        {
+          "gap": "Eigenaar en verantwoordelijke partij",
+          "fix": "Governancevelden op elke gegevensrecord die registreren wie het eigendom is en wie verantwoordelijk is voor het verbruikende systeem."
+        },
+        {
+          "gap": "Verval en rotatie",
+          "fix": "Stel een vervaldatum in op elke gegevensingang, draai deze met één klik en houd een record bij van wanneer deze voor het laatst werd gedraaid."
+        },
+        {
+          "gap": "Doel en consument",
+          "fix": "Registreer waarvoor elke sleutel is en welk systeem deze verbruikt, zodat een gegevenscontrole niet afhankelijk is van iemands geheugen."
+        },
+        {
+          "gap": "Zichtbaarheid over accounts",
+          "fix": "Één weergave van gebruikers en gegevens in alle globale accounts, subaccounts, Cloud Foundry orgs en spaties. Omgekeerd zoeken op gebruiker om alles te zien waartoe zij toegang hebben."
+        },
+        {
+          "gap": "Leaver-proces",
+          "fix": "Zoek alle gegevens die eigendom zijn van een vertrokken persoon, draai deze vervolgens en wijs ze opnieuw toe - een herhaalbaar proces in plaats van een onderzoek."
+        },
+        {
+          "gap": "Auditbewijs",
+          "fix": "Security Insights-scores geven governance-dekking in uw landschap en tonen precies welke gegevens eigenaren, vervaldatums of doel missen."
+        }
+      ]
     }
   },
   "cookie": {

@@ -1559,7 +1559,9 @@
       "description": "Hallitse jokaista BTP-käyttäjää, roolia ja API-tunnistetietoja koko maisemassasi - yhdestä sovelluksesta. Täydellinen näkyvyys, täydellinen hallinta kaikissa Global Accounts, alitileissä ja Cloud Foundry-ympäristöissä, joita käytät.",
       "shieldBadge": "SAP OAuth · Ei tallennettuja tunnistetietoja",
       "title": "Täydellinen API-tunnisteen hallinta SAP BTP -ympäristöllesi.",
-      "tagline": "API-tunniste ja käyttöoikeuksien hallinta SAP BTP:lle"
+      "tagline": "API-tunniste ja käyttöoikeuksien hallinta SAP BTP:lle",
+      "headline": "BTP xID auttaa sinua turvaamaan SAP BTP API -palveluavaimiasi",
+      "subhead": "BTP xID tuo omistajuuden, elinkaaren ja auditointikelpoisen historian jokaiselle palveluavaimelle koko maisemaasi – jotta pysyt vaatimusten mukaisena turvastandardi kanssa."
     },
     "valueProps": {
       "0": "Ainoa BTP-käyttäjänhallintasovellus, jota tarvitset",
@@ -1593,7 +1595,12 @@
         "description": "Windows saattaa näyttää SmartScreen-varoituksen, kun suoritat asennusohjelman. Jatkaaksesi:",
         "step1": "Napsauta <1>Lisätietoja</1> SmartScreen-valintaikkunassa",
         "step2": "Napsauta <1>Suorita joka tapauksessa</1>"
-      }
+      },
+      "getStartedLabel": "Aloita",
+      "getStartedTitle": "Näe jokainen palveluavain maisemassasi tänään.",
+      "webButton": "Avaa BTP xID selaimessasi",
+      "webButtonDesc": "Paras API-tunnisteen ja palveluavaimen hallintaan – kierrätä ja hallitse BTP API -tunnisteet",
+      "desktopButtonDesc": "Paras käyttäjien hallintaan – Global Accounts, alitileille, hakemistot, CF organisaatiot ja tilat"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1671,6 +1678,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Etsi ja poista haamun API-tunnisteet",
       "step3Body": "Global Account -tason API-tunnisteet eivät ole näkyvissä BTP-ilmaisimessa — vain BTP CLI:n kautta. BTP xID näyttää ne kaikki."
+    },
+    "gaps": {
+      "label": "Hallinnon aukkio",
+      "title": "SAP BTP -palveluavaimet ovat vaikea hallita",
+      "subtitle": "Palveluavain myöntää API-pääsyn SAP BTP -palveluihinne – se on väylä SAP BTP Integration Suiten läpi virtaaville tiedoille. Vaarannettua avainta voidaan käyttää väärän datan lisäämiseen, organisaation tietojen lukemiseen tai integrointien käynnistämiseen.",
+      "items": [
+        {
+          "title": "Omistaja",
+          "desc": "Oletuksena BTP:ssä ei ole kirjattua tunnistetietojen omistajaa. Käyttöoikeuksien tarkistus tai häiriötilanteeseen reagointi alkaa joka kerta nollasta."
+        },
+        {
+          "title": "Vanheneminen",
+          "desc": "Palveluavaimet eivät vanhene. Useimmat turvallisuusstandardit edellyttävät, että tunnistetiedot vaihdetaan säännöllisesti määritellyn aikataulun mukaisesti, mutta BTP:ssä ei ole sisäänrakennettua mekanismia tämän valvomiseksi tai seuraamiseksi."
+        },
+        {
+          "title": "Käyttötarkoitus",
+          "desc": "Ei tietoa siitä, mihin avainta käytetään. Tarkistuksessa ei voida erottaa kriittistä integraatiota unohdetusta testiavaimesta."
+        },
+        {
+          "title": "Käyttäjäjärjestelmä",
+          "desc": "Ei tietoa siitä, mikä järjestelmä on riippuvainen avaimesta. Sen vaihtamisen tai peruuttamisen vaikutusta ei voida arvioida ilman testausta tuotannossa."
+        },
+        {
+          "title": "Vaihtaminen",
+          "desc": "Vaihtohistoriaa ei ole. Ei voida osoittaa, että tunnistetietoja on koskaan muutettu, tai milloin."
+        },
+        {
+          "title": "Tilien välinen näkyvyys",
+          "desc": "Ei yhtenäistä näkymää eri tilien välillä. Koko ympäristön kattava käyttöoikeuksien tarkistus tarkoittaa jokaisen globaalin tilin, alitilin sekä Cloud Foundry -organisaation ja -tilan käymistä läpi erikseen."
+        },
+        {
+          "title": "Lähtöprosessi",
+          "desc": "Ei yhteyttä henkilöiden ja tunnistetietojen välillä. Kun joku, jolla on pääsy avaimen salaisuuteen, lähtee, turvallisuusstandardit edellyttävät niiden avainten vaihtamista ja uudelleenkohdentamista, joihin hänellä oli pääsy — mutta ei ole keinoa tunnistaa, mitkä avaimet nämä ovat."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Vaatimustenmukaisuus",
+      "title": "Mitä tämä merkitsee auditillesi",
+      "subtitle": "Turvaohjelmat edellyttävät, että tunnisteiden on oltava vastuussa olevia omistajia, määriteltyjä elinkaaria ja tarkastettavaa pääsyä.",
+      "cta": "Lue lisää",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC -tarkastukset edellyttävät todisteita siitä, kenellä on pääsy taloudelliseen raportointiin vaikuttaviin järjestelmiin ja miten tätä pääsyä tarkistetaan. BTP xID kirjaa omistajan jokaiselle tunnistetiedolle ja tarjoaa näiden tarkistusten edellyttämän tilien välisen näkymän."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 edellyttää, että pääsy on rajoitettu ja perusteltu liiketoiminnallisella tarpeella. A.8.24 edellyttää kryptografisten salaisuuksien hallintaa koko niiden elinkaaren ajan. BTP xID kirjaa omistajan ja käyttötarkoituksen jokaiselle tunnistetiedolle sekä lisää vanhenemispäivät ja vaihtoseurannan."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 edellyttää, että järjestelmätilit ovat tunnistettavissa. IA-5 edellyttää todentajien uusimista määritellyin väliajoin. AC-2 edellyttää säännöllisiä tilitarkastuksia. BTP xID tunnistaa jokaisen tunnistetiedon omistaja- ja käyttötarkoitusmetatiedoilla, seuraa vaihtamista ja tekee Cloud Foundry -tilan tasolla luoduista avaimista keskitetysti näkyviä."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Vaatimus 8.3.10.1 edellyttää staattisten salaisuuksien säännöllistä vaihtamista. Vaatimus 8.6 edellyttää, että järjestelmätilit on osoitettu omistajille ja tarkistettu. BTP xID lisää vaihtoseurannan ja omistajan osoittamisen jokaiseen palveluavaimeen."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 ja CC6.2 kattavat loogisen pääsyn myöntämisen ja poistamisen — mukaan lukien tunnistetiedot, jotka on luonut jo lähtenyt henkilö. CC7.1 kattaa uusien pääsyreittien seurannan. BTP xID:n avulla voit löytää jokaisen lähteneen käyttäjän omistaman tunnistetiedon ja näet missä tahansa ympäristössä luodut avaimet yhdessä näkymässä."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Ratkaisu",
+      "title": "Kuinka BTP xID sulkee jokaisen aukon",
+      "subtitle": "BTP xID lisää hallintakerrosta nykyisen maisemasi päälle. Metatiedot tallennetaan tunnistetteeseen itseensä omissa tilisäissä – ei erilliseen tietokantaan.",
+      "items": [
+        {
+          "gap": "Omistaja ja vastuuhenkilö",
+          "fix": "Hallintakentät jokaisessa tunnistetietueessa kertovat, kuka sen omistaa ja kuka vastaa käyttävästä järjestelmästä."
+        },
+        {
+          "gap": "Vanheneminen ja vaihtaminen",
+          "fix": "Aseta vanhenemispäivä mille tahansa tunnistetiedolle, vaihda se yhdellä klikkauksella ja pidä kirjaa siitä, milloin se viimeksi vaihdettiin."
+        },
+        {
+          "gap": "Käyttötarkoitus ja käyttäjäjärjestelmä",
+          "fix": "Kirjaa, mihin kukin avain on tarkoitettu ja mikä järjestelmä sitä käyttää, jotta tunnistetietojen tarkistus ei ole kenenkään muistin varassa."
+        },
+        {
+          "gap": "Tilien välinen näkyvyys",
+          "fix": "Yksi näkymä käyttäjiin ja tunnistetietoihin kaikissa globaaleissa tileissä, alitileissä sekä Cloud Foundry -organisaatioissa ja -tiloissa. Käänteishaku käyttäjän mukaan nähdäksesi kaiken, mihin hänellä on pääsy."
+        },
+        {
+          "gap": "Lähtöprosessi",
+          "fix": "Hae kaikki lähtevän henkilön omistamat tunnistetiedot, vaihda ja kohdenna ne sitten uudelleen — toistettava prosessi tutkinnan sijaan."
+        },
+        {
+          "gap": "Tarkastustodisteet",
+          "fix": "Security Insights pisteyttää hallinnan kattavuuden koko ympäristössäsi ja näyttää tarkalleen, mistä tunnistetiedoista puuttuu omistaja, vanhenemispäivä tai käyttötarkoitus."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "SAP IAS:n täydentäminen",
+      "title1": "IAS turvaa identiteetin.",
+      "title2": "BTP xID hallinnoi pääsyä.",
+      "subtitle": "BTP xID auttaa sinua myös saavuttamaan ja hallitsemaan SAP BTP -maisemasi nurkkia, joita IAS ei voi.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identiteetti, todennus ja osittainen pääsynhallinta",
+      "xidBadge": "BTP xID",
+      "xidTitle": "Täydellinen pääsynhallinta",
+      "footer": "Riippumatta siitä, onko sinulla IAS vai ei, BTP xID antaa sinulle paikan nähdä ja hallita kaikkea BTP-pääsyä – käyttäjät, roolit ja API-tunnisteet Global Accountsien, alitilien, CF Orgien ja Spacien välillä.",
+      "iasItems": [
+        "Kertakirjautuminen ja monivaiheinen todennus",
+        "Yrityksen IdP-federointi (SAML / OIDC)",
+        "Käyttäjien käyttöönotto SCIM:n kautta",
+        "Riskiperusteiset todennuskäytännöt",
+        "Todennuksen tarkastuslokit",
+        "Käyttäjien ja roolien osoittaminen SAP BTP:n Global- ja Sub-account-tasolla"
+      ],
+      "xidItems": [
+        "Palvelun API-tunnistetietojen hallinta jokaisessa Global Accountissa, Sub-accountissa, Cloud Foundry Orgissa ja Spacessa — OAuth-tunnistetietojen listaus, tarkastus ja peruutus yhdestä paikasta",
+        "Käyttäjähallinta ja roolien osoittaminen useiden Global Accountien, Sub-accountien, Directoryjen, Cloud Foundry Orgien ja Cloud Foundry Spacejen välillä yhdessä yhtenäisessä käyttöliittymässä",
+        "Massakäyttäjähallinta koko BTP-ympäristössäsi",
+        "Ympäristönlaajuinen näkyvyys: kenellä on pääsy mihinkin, kaikissa tileissä",
+        "Hallinta mukautetuille IdP-käyttäjille — ei vain SAP ID Service -tileille"
+      ]
     }
   },
   "cookie": {

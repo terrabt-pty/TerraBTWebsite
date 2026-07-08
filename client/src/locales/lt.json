@@ -1553,13 +1553,8 @@
   },
   "btpxidProduct": {
     "hero": {
-      "title1": "Viena programa.",
-      "title2": "Kiekvienas vartotojas.",
-      "title3": "Visos paskyros.",
-      "description": "Valdykite kiekvieną BTP vartotoją, vaidmenį ir API kredencialą per visą jūsų aplinką - iš vienos programos. Pilnas matomumas, pilna kontrolė, visame Global Account, paskyros dalyje ir Cloud Foundry aplinkoje, kurią paleitate.",
-      "shieldBadge": "SAP OAuth · Jokie kredencialai nesaugomi",
-      "title": "Pilna API kredencijų valdymas jūsų SAP BTP peizažui.",
-      "tagline": "API kredencijų ir prieigos valdymas SAP BTP"
+      "headline": "BTP xID padeda jums apsaugoti SAP BTP API paslaugų raktus",
+      "subhead": "BTP xID suteikia savininką, gyvavimo ciklą ir audituojamumą kiekvienam paslaugos raktui visame kraštovaizdyje - todėl jūs išliekate suderintas su saugumo standartais."
     },
     "valueProps": {
       "0": "Vienintelė BTP vartotojų valdymo programa, kurios kada nors prireiks",
@@ -1576,23 +1571,26 @@
       "unknown": "jūsų platforma"
     },
     "download": {
-      "label": "Atsisiųsti",
-      "title": "Pasiruošę pradėti?",
-      "subtitle": "Atsisiųskite BTP xID nemokamai. Kreditinė kortelė nereikalinga. Pasirinkite planą vėliau.",
+      "getStartedLabel": "Pradėkite",
+      "getStartedTitle": "Pamatykite kiekvieną paslaugos raktą savo kraštovaizdyje šiandien.",
+      "webButton": "Atidaryti BTP xID savo naršyklėje",
+      "webButtonDesc": "Geriausia API kredencialams ir paslaugų raktams valdyti - pasukite ir valdykite BTP API kredencialus",
+      "desktopButtonDesc": "Geriausia vartotojų valdymui - Global Account, paskyros, direktoriaus, CF org ir space",
       "primaryButton": "Atsisiųsti {{label}}",
-      "loading": "Kraunama...",
+      "loading": "Kraunamas...",
       "showAll": "Rodyti visas atsisiuntimo parinktis",
       "hideAll": "Slėpti visas atsisiuntimo parinktis",
-      "versionLine": "Versija {{version}} · Reikalauja MacOS 12+ arba Windows 10+",
-      "legal": "Atsisiųsdami sutinkate su",
-      "termsOfService": "Paslaugų teikimo sąlygomis",
-      "and": "ir",
+      "legal": "Atsisiunčiant arba naudojant BTP xID, sutinkate su mūsų",
+      "termsOfService": "Paslaugų sąlygos",
       "privacyPolicy": "Privatumo politika",
+      "liabilityPolicy": "Ribotos atsakomybės politika",
+      "eula": "Galutinio naudotojo licencijos sutartis",
+      "versionLine": "Versija {{version}} · Reikalauja MacOS 12+ arba Windows 10+",
       "smartscreen": {
         "title": "Windows SmartScreen įspėjimas",
-        "description": "Paleidus diegimo programą Windows gali parodyti SmartScreen įspėjimą. Norėdami tęsti:",
-        "step1": "Spustelėkite <1>Daugiau informacijos</1> SmartScreen dialogo lange",
-        "step2": "Spustelėkite <1>Vykdyti vis tiek</1>"
+        "description": "Windows gali rodyti SmartScreen įspėjimą paleidus diegimo programą. Norėdami tęsti:",
+        "step1": "Spustelėkite <1>Daugiau informacijos</1> SmartScreen dialoge",
+        "step2": "Spustelėkite <1>Paleisti vis tiek</1>"
       }
     },
     "downloadOptions": {
@@ -1671,6 +1669,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Raskite ir pašalinkite baismas API kredencijas",
       "step3Body": "Global Account lygio API kredencijos nėra matomos BTP kabinoje — tik per BTP CLI. BTP xID jas visas paviršius."
+    },
+    "gaps": {
+      "label": "Valdymo aukštis",
+      "title": "SAP BTP paslaugų raktus sunku valdyti",
+      "subtitle": "Paslaugos raktas suteikia API prieigą prie jūsų SAP BTP paslaugų - tai srauto geitai duomenims, tekančiam per SAP BTP Integration Suite. Sukomprometintas raktas gali būti naudojamas klaidingiems duomenims įdėti, organizacinių duomenų skaityti arba integracijas suaktyvinti.",
+      "items": [
+        {
+          "title": "Savininkas",
+          "desc": "Pagal numatytuosius nustatymus, BTP neturi žinomo kredencialų savininko. Prieigos peržiūra ar incidento atsakymas pradedamas iš nulio kiekvieną kartą."
+        },
+        {
+          "title": "Galiojimas",
+          "desc": "Paslaugų raktai negalioja. Dauguma saugumo standartų reikalauja, kad kredencialai būtų pasukti pagal nustatytą grafiką, bet BTP neturi įtaisyto mechanizmo tam naudoti ar sekti."
+        },
+        {
+          "title": "Tikslas",
+          "desc": "Nėra įrašo, kam skirtas raktas. Peržiūra negali atskirti kritinės integracijos nuo užmiršto bandymų rakto."
+        },
+        {
+          "title": "Vartotojas",
+          "desc": "Nėra įrašo, kuris sistemos priklauso nuo rakto. Negalite įvertinti rotavimo ar atšaukimo poveikio be gamybos testavimo."
+        },
+        {
+          "title": "Rotacija",
+          "desc": "Nėra rotavimo istorijos. Negalite parodyti, kad kredencialas kada nors buvo pakeistas, arba kada."
+        },
+        {
+          "title": "Skersinis paskyros matomumas",
+          "desc": "Nėra konsoliduoto žvilgsnio į paskyras. Plačiam prieigos peržiūrai reikia apsilankyti kiekvienoje globalinėje paskyroje, paskyrojoje ir Cloud Foundry org bei space atskirai."
+        },
+        {
+          "title": "Išvykimo procesas",
+          "desc": "Nėra ryšio tarp žmonių ir kredencialų. Kai kas nors, kuris gali pasiekti rakto paslaptį, išeina, saugumo standartai reikalauja sukti ir iš naujo priskirti raktus, kuriuos jie galėjo pasiekti - bet nėra būdo nustatyti, kurie raktai tai yra."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Atitiktis",
+      "title": "Ką tai reiškia jūsų auditui",
+      "subtitle": "Saugumo sistemos reikalauja, kad kredencialai turėtų atsakingus savininkus, apibrėžtus gyvavimo ciklus ir peržiūrią prieigą.",
+      "cta": "Skaityti daugiau",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC audituose prašoma įrodymo, kas turi prieigą prie sistemų, kurios turi įtakos finansiniam ataskaitomui, ir kaip ta prieiga yra peržiūrima. BTP xID saugo kiekvieno kredencialų savininką ir suteikia šias peržiūras reikalingą skersą paskyros peržiūrą."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 reikalauja, kad prieiga būtų ribojama ir pagrįsta verslo poreikiu. A.8.24 reikalauja, kad kriptografinės paslaptys būtų tvarkomas per jų gyvavimo ciklą. BTP xID saugo savininką ir tikslą kiekviename kredenciale, ir prideda galiojimo datas ir rotavimo sekimą."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 reikalauja, kad sistemos paskyros būtų identifikuojamos. IA-5 reikalauja, kad autentifikatoriai būtų atnaujinti nustatytais intervalais. AC-2 reikalauja reguliarių paskyros auditų. BTP xID identifikuoja kiekvieną kredencialą su savininko ir tikslo metaduomenimis, seka rotaciją ir darytinimo daro Cloud Foundry vietos lygyje rodomas raktus centrinėje vietoje."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Reikalavimas 8.3.10.1 nurodo, kad statinės paslaptys turi būti keičiamos reguliariai. Reikalavimas 8.6 reikalauja, kad sistemos paskyros būtų priskirtos savininkams ir peržiūrėtos. BTP xID prideda rotavimo sekimą ir savininko priskyrimą kiekvienam paslaugos raktui."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 ir CC6.2 apima loginę prieigos suteikimą ir šalinimą - įskaitant kredencialus, sukurtus žmonių, kurie yra išėję. CC7.1 apima naujos prieigos kelių stebėjimą. BTP xID leidžia rasti kiekvieną kredencialą, kurį valdo išvykę vartotojas, ir rodo raktus, sukurtus bet kur kraštovaizdyje, viename žvilgsnyje."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Sprendimas",
+      "title": "Kaip BTP xID uždaro kiekvieną aukštį",
+      "subtitle": "BTP xID prideda valdymo sluoksnį virš jūsų esamo kraštovaizdžio. Metaduomenys saugomi pačiame kredenciale, jūsų paskyroje - o ne atskiroje duomenų bazėje.",
+      "items": [
+        {
+          "gap": "Savininkas ir atsakinga šalis",
+          "fix": "Valdymo laukai kiekvienam kredencialų įrašui, kas jį valdo ir kas yra atsakingas už suvartojamo sistemos."
+        },
+        {
+          "gap": "Galiojimas ir rotacija",
+          "fix": "Nustatykite bet kurio kredencialų galiojimo datą, pasukite ją vienu spustelėjimu ir išsaugokite, kada jis buvo paskutinis pasuktas."
+        },
+        {
+          "gap": "Tikslas ir vartotojas",
+          "fix": "Įrašykite, kam kiekvienas raktas yra ir kurią sistemą jis naudoja, kad kredencialų peržiūra nepriklauso nuo niekamuos atminties."
+        },
+        {
+          "gap": "Skersinis paskyros matomumas",
+          "fix": "Vienas žvilgsnis į vartotojus ir kredencialus per visas globalines paskyras, paskyrą, Cloud Foundry org ir spaces. Atvirkščiai ieškoti pagal vartotoją, kad pamatytumėte viską, ką jie gali pasiekti."
+        },
+        {
+          "gap": "Išvykimo procesas",
+          "fix": "Užklausykite visus kredencialus, kuriuos valdo išvykimo žmogus, tada pasukite ir iš naujo jiem priskirkite - pakartojamą procesą, o ne tyrimą."
+        },
+        {
+          "gap": "Audito įrodymai",
+          "fix": "Saugumo Insights skaičiuoja valdymo padengimą jūsų kraštovaizdyje ir rodo tiksliai, kurie kredencialai trūksta savininkų, galiojimo datų arba tikslo."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Papildant SAP IAS",
+      "title1": "IAS apsaugo tapatybę.",
+      "title2": "BTP xID valdo prieigą.",
+      "subtitle": "BTP xID taip pat padeda jums pasiekti ir valdyti SAP BTP kraštovaizdžio kampus, kuriuos IAS negali.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Tapatybė, autentifikacija ir dalinė prieigos valdyba",
+      "iasItems": [
+        "Vienareikšmis prisijungimas ir daugiaetapis autentifikavimas",
+        "Korporatyvinis IdP tarpininkavimas (SAML / OIDC)",
+        "Vartotojo suteikimas per SCIM",
+        "Rizikais grįsta autentifikavimo politika",
+        "Autentifikavimo audito žurnalai",
+        "Vartotojo ir vaidmens priskyrimas SAP BTP Global ir Sub-account lygmenyje"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Pilna prieigos valdyba",
+      "xidItems": [
+        "Paslaugos API kredencialų valdymas visuose Global Account, Sub-account, Cloud Foundry Org ir Space - sąrašo, auditavimo ir panaikinimo OAuth kredencialus vienoje vietoje",
+        "Vartotojų valdymas ir vaidmens priskyrimas kelias Global Account, Sub-account, direktoriaus, Cloud Foundry Org ir Cloud Foundry Space vienam suvienytame sąsajoje",
+        "Masinis vartotojų valdymas per visą jūsų BTP kraštovaizdį",
+        "Platesnis peržiūros matomumas: kas turi prieigą prie kuo, per kiekvieną paskyrą",
+        "Valdymas pritaikytiems IdP vartotojams - ne tik SAP ID paslaugos paskyras"
+      ],
+      "footer": "Nesvarbu, ar turite IAS, ar ne, BTP xID suteikia jums vieną vietą, iš kurios galite matyti ir valdyti visą BTP prieigą - vartotojus, vaidmenis ir API kredencialus per Global Account, sub-accounts, CF Org ir Space."
     }
   },
   "cookie": {

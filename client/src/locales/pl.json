@@ -1559,7 +1559,9 @@
       "description": "Zarządzaj każdym użytkownikiem BTP, rolą i poświadczeniami API w całym Twoim krajobrazie - z jednej aplikacji. Pełna widoczność, pełna kontrola, nad każdym Global Account, subkonta i środowiskiem Cloud Foundry, które uruchamiasz.",
       "shieldBadge": "SAP OAuth · Brak przechowywanych danych logowania",
       "title": "Kompletne zarządzanie poświadczeniami API dla krajobrazu SAP BTP.",
-      "tagline": "Zarządzanie poświadczeniami API i dostępem dla SAP BTP"
+      "tagline": "Zarządzanie poświadczeniami API i dostępem dla SAP BTP",
+      "headline": "BTP xID Pomaga Zabezpieczyć Klucze Usług API SAP BTP",
+      "subhead": "BTP xID przynosi własność, cykl życia i audytowalność każdemu kluczowi usługi w całym krajobrazie - dzięki czemu pozostajesz zgodny ze standardami bezpieczeństwa."
     },
     "valueProps": {
       "0": "Jedyna aplikacja do zarządzania użytkownikami BTP, której będziesz potrzebować",
@@ -1593,7 +1595,12 @@
         "description": "System Windows może wyświetlić ostrzeżenie SmartScreen podczas uruchamiania instalatora. Aby kontynuować:",
         "step1": "Kliknij <1>Więcej informacji</1> w oknie dialogowym SmartScreen",
         "step2": "Kliknij <1>Uruchom i tak</1>"
-      }
+      },
+      "getStartedLabel": "Zacznij",
+      "getStartedTitle": "Wyświetl każdy klucz usługi w krajobrazie dzisiaj.",
+      "webButton": "Otwórz BTP xID w przeglądarce",
+      "webButtonDesc": "Najlepiej do zarządzania poświadczeniami API i kluczami usług - obracaj i zarządzaj poświadczeniami API BTP",
+      "desktopButtonDesc": "Najlepiej do zarządzania użytkownikami - konta globalne, podkonta, katalogi, CF orgs i spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1671,30 +1678,31 @@
     },
     "ias": {
       "label": "Pracuje z SAP IAS",
-      "title1": "IAS zabezpiecza tozsamosc.",
-      "title2": "BTP xID zarzadza dostepem.",
-      "subtitle": "SAP IAS obsluguje uwierzytelnianie. BTP xID obsluguje co niego nastepuje — kto moze dostac dostep do czego, na wszystkich kontach, organizacjach i przestrzeniach w Twoim krajobrazie BTP.",
+      "title1": "IAS zabezpiecza tożsamość.",
+      "title2": "BTP xID zarządza dostępem.",
+      "subtitle": "BTP xID pomaga również dotrzeć do i zarządzać narożnikami krajobrazu SAP BTP, które IAS nie może.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Tozsamosc, uwierzytelnianie i czescowa kontrola dostepem",
+      "iasTitle": "Tożsamość, Uwierzytelnianie i Częściowe Zarządzanie Dostępem",
       "xidBadge": "BTP xID",
-      "xidTitle": "Petna kontrola dostepem",
-      "footer": "Niezaleznie od tego, czy masz IAS czy nie, BTP xID daje Ci jedno miejsce do zobaczenia i zarzadzania wszystkim dostepem BTP — uzytkownikami, rolami i poswiadczeniami API na Global Accounts, sub-accounts, CF Orgs i Spaces.",
+      "xidTitle": "Pełne Zarządzanie Dostępem",
+      "footer": "Niezależnie od tego, czy masz IAS czy nie, BTP xID daje ci jedno miejsce do wyświetlenia i zarządzania całym dostępem BTP - użytkownikami, rolami i poświadczeniami API na kontach globalnych, podkontach, CF Orgs i Spaces.",
       "readMore": "Przeczytaj peine szczegoly →",
       "iasItems": [
-        "Jednokrotne logowanie i MFA",
-        "Federacja IdP przedsiebiorstwa (SAML / OIDC)",
-        "Prowizjonowanie uzytkownikow przez SCIM",
+        "Logowanie jednokrotne i uwierzytelnianie wieloskładnikowe",
+        "Federacja korporacyjnego dostawcy tożsamości (SAML / OIDC)",
+        "Provisioning użytkowników przez SCIM",
         "Polityki uwierzytelniania oparte na ryzyku",
         "Dzienniki audytu uwierzytelniania",
-        "Przydzielanie uzytkownikow i rol na poziomie Global Account i Sub-account"
+        "Przypisanie użytkownika i roli na poziomie SAP BTP Global i Sub-account"
       ],
       "xidItems": [
-        "Service API Credential Management across every level — list, audit and revoke OAuth credentials in one place",
-        "Zarzadzanie uzytkownikami i przydzielanie rol na Global Accounts, Sub-accounts, Katalogach, CF Orgs i Spaces",
-        "Masowe zarzadzanie uzytkownikami na calym krajobrazie BTP",
-        "Widocznosc na poziomie krajobrazu: kto ma dostep do czego",
-        "Zarzadzanie dla niestandardowych uzytkownikow IdP"
-      ]
+        "Zarządzanie poświadczeniami usług API na wszystkich kontach globalnych, podkontach, Cloud Foundry Org i Space - wymienianie, audyt i wycofywanie poświadczeń OAuth w jednym miejscu",
+        "Zarządzanie użytkownikami i przypisywanie ról na wielu kontach globalnych, podkontach, katalogach, Cloud Foundry Orgs i Cloud Foundry Spaces w jednym ujednoliconym interfejsie",
+        "Masowe zarządzanie użytkownikami na całym krajobrazie BTP",
+        "Widoczność na poziomie krajobrazu: kto ma dostęp do czego, na wszystkich kontach",
+        "Zarządzanie dla niestandardowych użytkowników IdP - nie tylko kont SAP ID Service"
+      ],
+      "label2": "Uzupełniający SAP IAS"
     },
     "threeSteps": {
       "label": "Trzy kroki do zabezpieczenia poświadczeń API w SAP BTP",
@@ -1717,6 +1725,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "Luka w Zarządzeniu",
+      "title": "Klucze usług SAP BTP są trudne do zarządzenia",
+      "subtitle": "Klucz usługi udziela dostępu API do usług SAP BTP - jest to brama dla danych przepływających przez SAP BTP Integration Suite. Zagrożony klucz może być używany do wstawiania fałszywych danych, odczytywania danych organizacyjnych lub wyzwalania integracji.",
+      "items": [
+        {
+          "title": "Właściciel",
+          "desc": "Domyślnie BTP nie posiada właściciela danych w ewidencji. Przegląd dostępu lub odpowiedź na incydent zaczyna się od zera za każdym razem."
+        },
+        {
+          "title": "Wygaśnięcie",
+          "desc": "Klucze usług nie wygasają. Większość standardów bezpieczeństwa wymaga rotacji poświadczeń według ustalonego harmonogramu, ale BTP nie ma wbudowanego mechanizmu do egzekwowania lub śledzenia tego."
+        },
+        {
+          "title": "Cel",
+          "desc": "Brak rejestru przeznaczenia klucza. Przegląd nie może odróżnić krytycznej integracji od zapomnianego klucza testowego."
+        },
+        {
+          "title": "Konsument",
+          "desc": "Brak rejestru systemu zależnego od klucza. Nie możesz ocenić wpływu obracania lub wycofania go bez testowania w produkcji."
+        },
+        {
+          "title": "Rotacja",
+          "desc": "Brak historii rotacji. Nie możesz udowodnić, że poświadczenie kiedykolwiek zostało zmienione lub kiedy."
+        },
+        {
+          "title": "Widoczność na konach",
+          "desc": "Brak skonsolidowanego widoku na kontach. Przegląd dostępu na całym krajobrazie oznacza odwiedzenie każdego konta globalnego, podkonta i Cloud Foundry org i space indywidualnie."
+        },
+        {
+          "title": "Proces opuszczania",
+          "desc": "Brak powiązania między ludźmi a poświadczeniami. Gdy ktoś z dostępem do tajemnicy klucza odchodzi, standardy bezpieczeństwa wymagają obrócenia i przenaczenia kluczy, do których mógł mieć dostęp - ale nie ma możliwości zidentyfikowania, które to są."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Zgodność",
+      "title": "Co to oznacza dla audytu",
+      "subtitle": "Ramy bezpieczeństwa wymagają, aby poświadczenia miały odpowiedzialnych właścicieli, określone cykle życia i przeglądy dostępu.",
+      "cta": "Czytaj więcej",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Audyty SOX ITGC wymagają dowodów na to, kto ma dostęp do systemów wpływających na sprawozdawczość finansową i jak ten dostęp jest przeglądany. BTP xID rejestruje właściciela każdego poświadczenia i zapewnia widok na kraje wymagany do tych przeglądów."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 wymaga, aby dostęp był ograniczony i uzasadniony potrzebami biznesowymi. A.8.24 wymaga zarządzania tajnymi kryptograficznie przez cały cykl życia. BTP xID rejestruje właściciela i cel na każdym poświadczeniu oraz dodaje daty wygaśnięcia i śledzenie rotacji."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 wymaga, aby konta systemowe były identyfikowalne. IA-5 wymaga, aby uwiarygodniacze były odświeżane w określonych odstępach. AC-2 wymaga regularnych audytów kont. BTP xID identyfikuje każde poświadczenie za pomocą metadanych właściciela i celu, śledzi rotację i czyni widoczne na miejscu klucze utworzone na poziomie Cloud Foundry space."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Wymóg 8.3.10.1 nakazuje regularną zmianę statycznych tajemnic. Wymóg 8.6 wymaga przypisania kont systemowych do właścicieli i ich przeglądu. BTP xID dodaje śledzenie rotacji i przypisanie właściciela do każdego klucza usługi."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 i CC6.2 obejmują provisioning dostępu logicznego i usuwanie - włącznie z poświadczeniami utworzonymi przez osoby, które odeszły. CC7.1 obejmuje monitorowanie nowych ścieżek dostępu. BTP xID pozwala znaleźć każde poświadczenie należące do opuszczającego użytkownika i pokazuje klucze utworzone gdziekolwiek w krajobrazie w jednym widoku."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Rozwiązanie",
+      "title": "Jak BTP xID zamyka każdą lukę",
+      "subtitle": "BTP xID dodaje warstwę zarządzania na wierzchu istniejącego krajobrazu. Metadane są przechowywane na samym poświadczeniu, na twoich kontach - nie w oddzielnej bazie danych.",
+      "items": [
+        {
+          "gap": "Właściciel i strona odpowiadająca",
+          "fix": "Pola zarządzenia na każdym rekordzie poświadczenia, które rejestrują jego właściciela i kto odpowiada za system zużywający."
+        },
+        {
+          "gap": "Wygaśnięcie i rotacja",
+          "fix": "Ustaw datę wygaśnięcia na każdym poświadczeniu, obróć go jednym klikiem i prowadź rejestr ostatniej rotacji."
+        },
+        {
+          "gap": "Cel i konsument",
+          "fix": "Zarejestruj cel każdego klucza i system, który go zużywa, aby przegląd poświadczenia nie zależał od czyjejś pamięci."
+        },
+        {
+          "gap": "Widoczność na kontach",
+          "fix": "Jeden widok użytkowników i poświadczeń na wszystkich kontach globalnych, podkontach, Cloud Foundry orgs i spacach. Wyszukiwanie odwrotne według użytkownika, aby zobaczyć wszystko, do czego ma dostęp."
+        },
+        {
+          "gap": "Proces opuszczania",
+          "fix": "Zapytaj o wszystkie poświadczenia będące własnością odchodzącej osoby, następnie obróć i przydziel je - powtarzalny proces zamiast śledztwa."
+        },
+        {
+          "gap": "Dowód audytu",
+          "fix": "Wyniki Security Insights pokazują pokrycie zarządzania w całym krajobrazie i dokładnie pokazują, które poświadczenia brakuje właścicieli, dat wygaśnięcia lub celu."
+        }
+      ]
     }
   },
   "cookie": {

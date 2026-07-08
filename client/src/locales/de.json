@@ -1560,7 +1560,9 @@
       "description": "Kontrollieren Sie jeden BTP-Benutzer, jede Rolle und jede API-Anmeldedaten in Ihrer gesamten Landschaft - von einer App. Vollständige Sichtbarkeit, vollständige Kontrolle über jeden Global Account, Sub-Account und jede Cloud Foundry-Umgebung, die Sie betreiben.",
       "shieldBadge": "SAP OAuth · Keine Anmeldedaten gespeichert",
       "title": "Vollständiges API-Credential-Management für Ihre SAP BTP-Landschaft.",
-      "tagline": "API-Authentifizierung und Zugriffsverwaltung für SAP BTP"
+      "tagline": "API-Authentifizierung und Zugriffsverwaltung für SAP BTP",
+      "headline": "BTP xID hilft Ihnen, Ihre SAP BTP API Service Keys zu sichern",
+      "subhead": "BTP xID bringt Eigentümerschaft, Lebenszyklus und Nachvollziehbarkeit zu jedem Service Key in Ihrer Landschaft – damit Sie die Sicherheitsstandards einhalten."
     },
     "valueProps": {
       "0": "Die einzige BTP-Benutzerverwaltungs-App, die Sie je brauchen werden",
@@ -1594,7 +1596,12 @@
         "description": "Windows zeigt möglicherweise eine SmartScreen-Warnung an, wenn Sie das Installationsprogramm ausführen. So gehen Sie vor:",
         "step1": "Klicken Sie auf <1>Weitere Informationen</1> im SmartScreen-Dialog",
         "step2": "Klicken Sie auf <1>Trotzdem ausführen</1>"
-      }
+      },
+      "getStartedLabel": "Erste Schritte",
+      "getStartedTitle": "Sehen Sie heute jeden Service Key in Ihrer Landschaft.",
+      "webButton": "Öffnen Sie BTP xID in Ihrem Browser",
+      "webButtonDesc": "Am besten für API Credential & Service Key Verwaltung – rotieren und verwalten Sie BTP API Credentials",
+      "desktopButtonDesc": "Am besten für Benutzerverwaltung – Global Accounts, Sub-Accounts, Verzeichnisse, CF Orgs und Spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1672,30 +1679,31 @@
     },
     "ias": {
       "label": "Funktioniert mit SAP IAS",
-      "title1": "IAS sichert die Identität.",
-      "title2": "BTP xID regelt den Zugriff.",
-      "subtitle": "SAP IAS kümmert sich um die Authentifizierung. BTP xID kümmert sich um das Folgende — wer kann auf was zugreifen, in jedem Account, Org und Space Ihrer BTP-Landschaft.",
+      "title1": "IAS sichert Identität.",
+      "title2": "BTP xID regiert Zugriff.",
+      "subtitle": "BTP xID hilft Ihnen auch, die Ecken Ihrer SAP BTP Landschaft zu erreichen und zu regieren, die IAS nicht kann.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Identität, Authentifizierung und teilweise Zugriffsverwaltung",
+      "iasTitle": "Identität, Authentifizierung & Teilweise Zugriffsverwaltung",
       "xidBadge": "BTP xID",
       "xidTitle": "Vollständige Zugriffsverwaltung",
-      "footer": "Egal ob Sie IAS haben oder nicht, BTP xID gibt Ihnen einen Ort, um alle BTP-Zugriffe zu sehen und zu verwalten — Benutzer, Rollen und API-Anmeldedaten über Global Accounts, Sub-Accounts, CF Orgs und Spaces.",
+      "footer": "Unabhängig davon, ob Sie IAS haben oder nicht, gibt Ihnen BTP xID einen Ort, um alle BTP Zugriffe zu sehen und zu verwalten – Benutzer, Rollen und API Credentials über Global Accounts, Sub-Accounts, CF Orgs und Spaces.",
       "readMore": "Die vollständige Aufschlüsselung lesen →",
       "iasItems": [
-        "Einmaliges Anmelden und MFA",
-        "Verbund mit Unternehmens-IdP (SAML / OIDC)",
+        "Single Sign-On & Multi-Faktor-Authentifizierung",
+        "Corporate IdP Verbund (SAML / OIDC)",
         "Benutzerbereitstellung via SCIM",
-        "Risiko-basierte Authentifizierungsrichtlinien",
-        "Authentifizierungs-Audit-Logs",
-        "Benutzer- und Rollenzuweisungen auf Global Account- und Sub-Account-Ebene"
+        "Risikobasierte Authentifizierungsrichtlinien",
+        "Authentifizierungs-Audit-Protokolle",
+        "Benutzer- und Rollenzuweisung auf SAP BTP Global Account und Sub-Account Ebene"
       ],
       "xidItems": [
-        "Service API Credential Management across every level — list, audit and revoke OAuth credentials in one place",
-        "Benutzerverwaltung und Rollenzuweisungen über Global Accounts, Sub-Accounts, Verzeichnisse, CF Orgs und Spaces",
-        "Massen-Benutzerverwaltung in Ihrer gesamten BTP-Landschaft",
-        "Landschaftsweite Sichtbarkeit: wer hat Zugriff auf was",
-        "Governance für benutzerdefinierte IdP-Benutzer"
-      ]
+        "Service API Credential Management über jeden Global Account, Sub-Account, Cloud Foundry Org und Space – Listen Sie auf, prüfen und widerrufen Sie OAuth Credentials an einem Ort",
+        "Benutzerverwaltung & Rollenzuweisung über mehrere Global Accounts, Sub-Accounts, Verzeichnisse, Cloud Foundry Orgs und Cloud Foundry Spaces in einer einzigen einheitlichen Oberfläche",
+        "Massen-Benutzerverwaltung über Ihre gesamte BTP Landschaft",
+        "Landschaftsweite Sichtbarkeit: wer Zugriff auf was hat, über jeden Account",
+        "Governance für Custom IdP Benutzer – nicht nur SAP ID Service Konten"
+      ],
+      "label2": "Ergänzung zu SAP IAS"
     },
     "threeSteps": {
       "label": "Drei Schritte zum Schutz Ihrer API-Anmeldedaten in SAP BTP",
@@ -1718,6 +1726,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "Die Governance-Lücke",
+      "title": "SAP BTP Service Keys sind schwer zu verwalten",
+      "subtitle": "Ein Service Key gewährt API-Zugriff auf Ihre SAP BTP Services – es ist das Tor für Daten, die durch SAP BTP Integration Suite fließen. Ein kompromittierter Key kann verwendet werden, um falsche Daten einzufügen, Organisationsdaten zu lesen oder Integrationen auszulösen.",
+      "items": [
+        {
+          "title": "Eigentümer",
+          "desc": "Standardmäßig hat BTP keinen bekannten Credential-Eigentümer. Eine Zugriffsprüfung oder Incident Response beginnt jedes Mal von vorne."
+        },
+        {
+          "title": "Ablauf",
+          "desc": "Service Keys laufen nicht ab. Die meisten Sicherheitsstandards fordern, dass Credentials regelmäßig rotiert werden, aber BTP hat keinen integrierten Mechanismus zur Durchsetzung oder Verfolgung."
+        },
+        {
+          "title": "Zweck",
+          "desc": "Kein Datensatz über den Verwendungszweck eines Keys. Eine Prüfung kann eine kritische Integration nicht von einem vergessenen Test-Key unterscheiden."
+        },
+        {
+          "title": "Konsument",
+          "desc": "Kein Datensatz über welches System einen Key benötigt. Sie können die Auswirkungen einer Key-Rotation oder eines Widerrufs nicht beurteilen, ohne in der Produktion zu testen."
+        },
+        {
+          "title": "Rotation",
+          "desc": "Keine Rotationsverlauf. Sie können nicht nachweisen, dass ein Credential jemals geändert wurde oder wann."
+        },
+        {
+          "title": "Kontoübergreifende Sichtbarkeit",
+          "desc": "Keine konsolidierte Ansicht über Konten hinweg. Eine Zugriffsprüfung in der gesamten Landschaft bedeutet, jeden Global Account, Sub-Account und Cloud Foundry Org und Space einzeln zu besuchen."
+        },
+        {
+          "title": "Leaver-Prozess",
+          "desc": "Keine Verknüpfung zwischen Personen und Credentials. Wenn jemand mit Zugriff auf das Geheimnis eines Keys das Unternehmen verlässt, erfordern Sicherheitsstandards die Rotation und Neuzuweisung der Keys, auf die sie zugreifen konnten – aber es gibt keine Möglichkeit, diese Keys zu identifizieren."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Compliance",
+      "title": "Was das für Ihren Audit bedeutet",
+      "subtitle": "Sicherheits-Frameworks erfordern, dass Credentials verantwortliche Eigentümer, definierte Lebenszyklen und überprüfbare Zugriffe haben.",
+      "cta": "Mehr erfahren",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC Audits fordern Nachweise darüber, wer Zugriff auf Systeme hat, die die Finanzberichterstattung beeinflussen, und wie dieser Zugriff überprüft wird. BTP xID zeichnet einen Eigentümer für jeden Credential auf und bietet die kontoübergreifende Zugriffssicht, die diese Prüfungen erfordern."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 erfordert, dass Zugriff begrenzt und durch Geschäftsbedarf gerechtfertigt ist. A.8.24 erfordert, dass kryptographische Geheimnisse durch ihren Lebenszyklus verwaltet werden. BTP xID zeichnet Eigentümer und Zweck für jeden Credential auf und fügt Ablaufdaten und Rotationsverfolgung hinzu."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 erfordert, dass Systemkonten identifizierbar sind. IA-5 erfordert, dass Authentifizierer in definierten Intervallen aktualisiert werden. AC-2 erfordert regelmäßige Konto-Audits. BTP xID identifiziert jeden Credential mit Eigentümer- und Zweck-Metadaten, verfolgt Rotationen und macht auf Cloud Foundry Space-Ebene erstellte Keys zentral sichtbar."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Anforderung 8.3.10.1 schreibt vor, dass statische Geheimnisse regelmäßig geändert werden. Anforderung 8.6 erfordert, dass Systemkonten Eigentümern zugewiesen und überprüft werden. BTP xID fügt Rotationsverfolgung und Eigentümerschaftszuweisung für jeden Service Key hinzu."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 und CC6.2 behandeln logische Zugriffsbereitstellung und -entfernung – einschließlich Credentials, die von Personen erstellt wurden, die seitdem gegangen sind. CC7.1 behandelt die Überwachung neuer Zugriffspfade. BTP xID lässt Sie jeden Credential finden, der von einem ausgeschiedenen Benutzer besessen ist, und zeigt überall in der Landschaft erstellte Keys in einer Ansicht."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Die Lösung",
+      "title": "Wie BTP xID jede Lücke schließt",
+      "subtitle": "BTP xID fügt eine Governance-Schicht auf Ihrer bestehenden Landschaft hinzu. Metadaten werden auf dem Credential selbst in Ihren eigenen Konten gespeichert – nicht in einer separaten Datenbank.",
+      "items": [
+        {
+          "gap": "Eigentümer & verantwortliche Partei",
+          "fix": "Governance-Felder auf jedem Credential zeichnen auf, wer es besitzt und wer für das konsumierende System verantwortlich ist."
+        },
+        {
+          "gap": "Ablauf & Rotation",
+          "fix": "Legen Sie ein Ablaufdatum für jeden Credential fest, rotieren Sie ihn mit einem Klick, und führen Sie einen Datensatz darüber, wann er zuletzt rotiert wurde."
+        },
+        {
+          "gap": "Zweck & Konsument",
+          "fix": "Zeichnen Sie auf, wofür jeder Key ist und welches System ihn nutzt, damit eine Credential-Überprüfung nicht vom Gedächtnis einer Person abhängt."
+        },
+        {
+          "gap": "Kontoübergreifende Sichtbarkeit",
+          "fix": "Eine Ansicht von Benutzern und Credentials über alle Global Accounts, Sub-Accounts, Cloud Foundry Orgs und Spaces. Rückwärtssuche nach Benutzer, um alles zu sehen, auf das sie zugreifen können."
+        },
+        {
+          "gap": "Leaver-Prozess",
+          "fix": "Fragen Sie alle Credentials ab, die von einer ausscheidenden Person besessen sind, dann rotieren und weisen sie neu zu – ein wiederholbarer Prozess statt einer Untersuchung."
+        },
+        {
+          "gap": "Audit-Nachweise",
+          "fix": "Security Insights bewertet die Governance-Abdeckung in Ihrer Landschaft und zeigt genau an, welche Credentials Eigentümer, Ablaufdaten oder Zweck fehlen."
+        }
+      ]
     }
   },
   "cookie": {

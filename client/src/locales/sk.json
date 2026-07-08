@@ -1559,7 +1559,9 @@
       "description": "Spravujte každého užívateľa BTP, rolu a poverenia API v celej vašej krajine - z jednej aplikácie. Úplná viditeľnosť, úplná kontrola, v každom Global Account, podúčte a Cloud Foundry prostredí, ktoré prevádzkujete.",
       "shieldBadge": "SAP OAuth · Žiadne uložené prihlasovanie",
       "title": "Kompletná správa API poverení pre vašu SAP BTP krajinu.",
-      "tagline": "Správa API poverení a prístupu pre SAP BTP"
+      "tagline": "Správa API poverení a prístupu pre SAP BTP",
+      "headline": "BTP xID Vám Pomáha Zabezpečiť Vaše Kľúče Služby SAP BTP API",
+      "subhead": "BTP xID prináša vlastníctvo, životný cyklus a auditovateľnosť každému kľúču služby v celom vašom prostredí — aby ste zostali v súlade so štandardmi bezpečnosti."
     },
     "valueProps": {
       "0": "Jediná aplikácia pre správu používateľov BTP, ktorú budete kedy potrebovať",
@@ -1593,7 +1595,12 @@
         "description": "Pri spustení inštalátora môže systém Windows zobraziť varovanie SmartScreen. Ak chcete pokračovať:",
         "step1": "Kliknite na <1>Viac informácií</1> v dialógovom okne SmartScreen",
         "step2": "Kliknite na <1>Napriek tomu spustiť</1>"
-      }
+      },
+      "getStartedLabel": "Začnite",
+      "getStartedTitle": "Pozrite si každý kľúč služby vo vašom prostredí dnes.",
+      "webButton": "Otvorte BTP xID v prehliadači",
+      "webButtonDesc": "Najlepšie pre správu poverenív API a kľúčov služby — rotácia a riadenie poverenív BTP API",
+      "desktopButtonDesc": "Najlepšie pre správu používateľov — globálne účty, dielčie účty, adresáre, organizácie CF a priestory"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1671,6 +1678,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Nájdite a odstráňte duchovné API poverenia",
       "step3Body": "API poverenia na úrovni Global Account nie sú viditeľné v kabíne BTP — iba cez BTP CLI. BTP xID ich všetky vynáša."
+    },
+    "gaps": {
+      "label": "Medzera v riadení",
+      "title": "Kľúče služby SAP BTP je ťažké spravovať",
+      "subtitle": "Kľúč služby poskytuje prístup k API vašim službám SAP BTP — je bránou pre údaje pretekajúce cez SAP BTP Integration Suite. Kompromitovaný kľúč je možné použiť na vloženie falošných údajov, čítanie údajov organizácie alebo spustenie integrácií.",
+      "items": [
+        {
+          "title": "Vlastník",
+          "desc": "Podľa štandardu BTP nemá žiadny vlastník poverení zaznamenané. Kontrola prístupu alebo reakcia na incident sa každý raz začína od nuly."
+        },
+        {
+          "title": "Expiracia",
+          "desc": "Kľúče služby nevyprší. Väčšina štandardov bezpečnosti vyžaduje rotáciu poverenív podľa stanoveného harmonogramu, ale BTP nemá zabudovaný mechanizmus na vynútenie alebo sledovanie."
+        },
+        {
+          "title": "Účel",
+          "desc": "Žiadny záznam o účele kľúča. Kontrola nemôže rozlíšiť kritickú integráciu od zabudnutého testovacieho kľúča."
+        },
+        {
+          "title": "Spotrebiteľ",
+          "desc": "Žiadny záznam o tom, aký systém závisí od kľúča. Nemôžete posúdiť vplyv rotácie alebo odvolania bez testovania v produkcii."
+        },
+        {
+          "title": "Rotácia",
+          "desc": "Žiadna história rotácie. Nemôžete preukázať, že boli poverenia kedy-koľvek zmenené alebo kedy."
+        },
+        {
+          "title": "Viditeľnosť medzi účtami",
+          "desc": "Žiadny konsolidovaný pohľad medzi účtami. Kontrola prístupu na úrovni prostredia znamená návštevu každého globálneho účtu, dielčieho účtu a organizácie/priestoru Cloud Foundry jednotlivo."
+        },
+        {
+          "title": "Proces odchodu",
+          "desc": "Žiadne prepojenie medzi ľuďmi a povereniami. Keď osoba s prístupom k tajomstvu kľúča odchádza, štandardy bezpečnosti vyžadujú rotáciu a preradenie kľúčov — ale neexistuje spôsob, ako ich identifikovať."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Dodržovanie",
+      "title": "Čo to znamená pre vašu kontrolu",
+      "subtitle": "Štandardy bezpečnosti vyžadujú, aby poverenia mali zodpovedných vlastníkov, definovaný životný cyklus a preskúmatteľný prístup.",
+      "cta": "Čítaj ďalej",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Audity SOX ITGC požadujú dôkazy o tom, kto má prístup k systémom ovplyvňujúcim finančné výkaznictvo a ako sa tento prístup preskúmava. BTP xID zaznamenáva vlastníka pre každé poverenie a poskytuje pohľad na prístup medzi účtami, ktorý tieto audity vyžadujú."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 vyžaduje, aby bol prístup obmedzený a zdôvodnený obchodnou potrebou. A.8.24 vyžaduje správu kryptografických tajomstiev počas ich životného cyklu. BTP xID zaznamenáva vlastníka a účel na každom poverení a pridáva dátumy vypršania a sledovanie rotácie."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 vyžaduje identifikovateľnosť systémových účtov. IA-5 vyžaduje osvieženie autentifikátorov v stanovených intervaloch. AC-2 vyžaduje pravidelné audity účtov. BTP xID identifikuje každé poverenie s metaúdajmi vlastníka a účelu, sleduje rotáciu a zlepšuje viditeľnosť kľúčov vytvorených na úrovni priestoru Cloud Foundry."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Požiadavka 8.3.10.1 vyžaduje pravidelné zmeny statických tajomstiev. Požiadavka 8.6 vyžaduje priradenie systémových účtov vlastníkom a ich preskúmanie. BTP xID pridáva sledovanie rotácie a priradenie vlastníka každému kľúču služby."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 a CC6.2 pokrývajú poskytovanie a odstránenie logického prístupu — vrátane poverenív vytvorených ľuďmi, ktorí odišli. CC7.1 pokrýva monitorovanie nových prístupových ciest. BTP xID vám umožní nájsť každé poverenie vlastnené odišlým používateľom a zobrazuje kľúče vytvorené kdekoľvek v prostredí v jednom pohľade."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Riešenie",
+      "title": "Ako BTP xID zatvára každú medzeru",
+      "subtitle": "BTP xID pridáva vrstvu riadenia na vrchol vášho existujúceho prostredia. Metaúdaje sú uložené na samotnom poverení, vo vašich vlastných účtoch — nie v samostatnej databáze.",
+      "items": [
+        {
+          "gap": "Vlastník a zodpovedná strana",
+          "fix": "Polia riadenia na každom zázname poverenia, ktorý zaznamenáva vlastníka a kto je zodpovedný za systém spotrebiteľa."
+        },
+        {
+          "gap": "Expiracia a rotácia",
+          "fix": "Nastavte dátum vypršania na akékoľvek poverenie, otočte ho jedným kliknutím a vedú si záznam o tom, kedy bol naposledy otočený."
+        },
+        {
+          "gap": "Účel a spotrebiteľ",
+          "fix": "Zaznamenajte účel každého kľúča a ktorý systém ho spotrebuje, aby recenzia poverenia nezávisela od pamäti niekoho."
+        },
+        {
+          "gap": "Viditeľnosť medzi účtami",
+          "fix": "Jeden pohľad na používateľov a poverenia vo všetkých globálnych účtoch, dielčích účtoch, organizáciách a priestoroch Cloud Foundry. Spätné vyhľadávanie podľa používateľa, aby ste videli všetko, k čomu majú prístup."
+        },
+        {
+          "gap": "Proces odchodu",
+          "fix": "Dopytovacie všetky poverania vlastnené odchádzajúcou osobou, potom ich otočte a preraďte — opakovateľný proces namiesto vyšetrovania."
+        },
+        {
+          "gap": "Dôkazy auditu",
+          "fix": "Skóre Security Insights pokrýva riadenie v celom vašom prostredí a zobrazuje presne, ktorým povereniam chýbajú vlastníci, dátumy vypršania alebo účel."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Doplnenie SAP IAS",
+      "title1": "IAS zabezpečuje identitu.",
+      "title2": "BTP xID spravuje prístup.",
+      "subtitle": "BTP xID vám tiež pomáha dosiahnuť a spravovať rohy vášho prostredia SAP BTP, ktoré IAS nemôže.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identita, Autentifikácia a Čiastočné Riadenie Prístupu",
+      "iasItems": [
+        "Jednotné prihlasovanie a viacfaktorová autentifikácia",
+        "Federácia podnikového poskytovania identity (SAML / OIDC)",
+        "Zásobovanie používateľov cez SCIM",
+        "Politiky autentifikácie založené na riziku",
+        "Protokoly auditu autentifikácie",
+        "Priradenie používateľa a role na úrovni SAP BTP Global a Sub-account"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Úplné Riadenie Prístupu",
+      "xidItems": [
+        "Riadenie poverenív API služby vo všetkých globálnych účtoch, dielčích účtoch, organizáciách a priestoroch Cloud Foundry — zoznam, audit a odvolanie poverenív OAuth na jednom mieste",
+        "Riadenie používateľov a priradenie rolí vo viacerých globálnych účtoch, dielčích účtoch, adresároch, organizáciách a priestoroch Cloud Foundry v jednom zjednotenom rozhraní",
+        "Hromadné riadenie používateľov v celom vašom prostredí BTP",
+        "Viditeľnosť na úrovni prostredia: kto má prístup k čomu vo všetkých účtoch",
+        "Riadenie pre používateľov vlastného poskytovania identity — nie len pre účty SAP ID Service"
+      ],
+      "footer": "Či už máte IAS alebo nie, BTP xID vám poskytuje jedno miesto na zobrazenie a riadenie všetkého prístupu BTP — používatelia, role a poverenia API vo všetkých globálnych účtoch, dielčích účtoch, organizáciách a priestoroch CF."
     }
   },
   "cookie": {

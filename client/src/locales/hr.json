@@ -1560,7 +1560,9 @@
       "description": "Upravljajte svakim BTP korisnikom, ulogom i API vjerodajnicama u cijelom vašem krajoliku - iz jedne aplikacije. Potpuna vidljivost, potpuna kontrola, nad svakim Global Account, podracheom i Cloud Foundry okruženju koje pokrenete.",
       "shieldBadge": "SAP OAuth · Bez pohranjenih vjerodajnica",
       "title": "Potpuna upravljanja API legitimacionim podacima za vaš SAP BTP pejzaž.",
-      "tagline": "API legitimacijski podaci i upravljanje pristupom za SAP BTP"
+      "tagline": "API legitimacijski podaci i upravljanje pristupom za SAP BTP",
+      "headline": "BTP xID vam pomaže zaštititi vaše SAP BTP API ključeve usluge",
+      "subhead": "BTP xID donosi vlasništvo, životni ciklus i revizibilnost svakog ključa usluge u cijelom vašem krajoliku — kako biste ostali u skladu sa sigurnosnim standardima."
     },
     "valueProps": {
       "0": "Jedina BTP aplikacija za upravljanje korisnicima koja vam je ikad potrebna",
@@ -1594,7 +1596,12 @@
         "description": "Windows može prikazati upozorenje SmartScreen pri pokretanju instalatora. Za nastavak:",
         "step1": "Kliknite <1>Više informacija</1> u SmartScreen dijalogu",
         "step2": "Kliknite <1>Ipak pokreni</1>"
-      }
+      },
+      "getStartedLabel": "Započnite",
+      "getStartedTitle": "Pogledajte svaki ključ usluge u vašem krajoliku danas.",
+      "webButton": "Otvorite BTP xID u svom pregledniku",
+      "webButtonDesc": "Najbolje za upravljanja API vjerodajnicama i ključima usluge — rotirajte i upravljajte BTP API vjerodajnicama",
+      "desktopButtonDesc": "Najbolje za upravljanja korisnicima — Global Accounts, podračune, direktorije, CF orgs i spaces"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1672,6 +1679,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Pronađite i uklonite API legitimacijske podatke duha",
       "step3Body": "API legitimacijski podaci na razini Global Account nisu vidljivi u BTP kokpitu — samo putem BTP CLI. BTP xID obnaša sve njih."
+    },
+    "gaps": {
+      "label": "Jaz u upravljanju",
+      "title": "SAP BTP ključevi usluge teško se mogu upravljati",
+      "subtitle": "Ključ usluge daje API pristup vašim SAP BTP uslugama — to je vrata za podatke koji teku kroz SAP BTP Integration Suite. Kompromitiran ključ može se koristiti za ubacivanje lažnih podataka, čitanje podataka organizacije ili pokretanje integracija.",
+      "items": [
+        {
+          "title": "Vlasnik",
+          "desc": "Prema zadanoj postavci, BTP nema vlasnika vjerodajnica na zapisu. Pregled pristupa ili odgovor na incident počinje od nule svaki put."
+        },
+        {
+          "title": "Isteka",
+          "desc": "Ključevi usluge ne istječu. Većina sigurnosnih standarda zahtijeva rotaciju vjerodajnica prema određenom rasporedu, ali BTP nema ugrađenog mehanizma za primjenu ili praćenje toga."
+        },
+        {
+          "title": "Svrha",
+          "desc": "Nema zapisa o tome čemu je ključ namenjen. Pregled ne može razlikovati kritičnu integraciju od zaboravljenog testnog ključa."
+        },
+        {
+          "title": "Potrošač",
+          "desc": "Nema zapisa o kojem sustavu zavisi ključ. Ne možete procijeniti utjecaj rotiranja ili opoziva bez testiranja u proizvodnji."
+        },
+        {
+          "title": "Rotacija",
+          "desc": "Nema zgodovine rotacije. Ne možete dokazati da su vjerodajnice ikada promijenjene ili kada."
+        },
+        {
+          "title": "Vidljivost između računa",
+          "desc": "Nema konsolidiranog prikaza između računa. Pregled pristupa u cijelom krajoliku znači posjet svakom globalnom računu, podračunu i Cloud Foundry org i space pojedinačno."
+        },
+        {
+          "title": "Proces odlaska",
+          "desc": "Nema veze između ljudi i vjerodajnica. Kada osoba s pristupom tajnoj ključu odlazi, sigurnosni standardi zahtijevaju rotaciju i ponovno dodjelu ključeva kojima su mogli pristupiti — ali nema način da se identificira koji su to ključi."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Usklađenost",
+      "title": "Što ovo znači za vašu reviziju",
+      "subtitle": "Sigurnosni okviri zahtijevaju da vjerodajnice imaju odgovorne vlasnike, definirane životne cikluse i preglednu kontrolu pristupa.",
+      "cta": "Pročitajte više",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC revizije traže dokaze tko ima pristup sustavima koji utječu na financijsko izvještavanje, i kako se taj pristup provjeravao. BTP xID bilježi vlasnika za svaku vjerodajnicu i pruža pregled između računa koji te revizije trebaju."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 zahtijeva da je pristup ograničen i opravdan poslovnom potrebom. A.8.24 zahtijeva da se kriptografske tajne upravljaju kroz njihov životni ciklus. BTP xID bilježi vlasnika i svrhu na svakoj vjerodajnici te dodaje datume isteka i praćenje rotacije."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 zahtijeva da su sustavni računi identificirani. IA-5 zahtijeva da se autentifikatori osvježavaju u određenim intervalima. AC-2 zahtijeva redovne revizije računa. BTP xID identificira svaku vjerodajnicu s metapodacima vlasnika i svrhe, prati rotaciju i čini ključeve kreirane na Cloud Foundry razini prostora vidljive centralno."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Zahtjev 8.3.10.1 obavezuje da se statične tajne redovito mijenjaju. Zahtjev 8.6 zahtijeva da se sustavni računi dodjele vlasnicima i pregleda. BTP xID dodaje praćenje rotacije i dodjelu vlasnika svakom ključu usluge."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 i CC6.2 pokrivaju logičko uspostavljanje pristupa i uklanjanje — uključujući vjerodajnice koje su stvorile osobe koje su kasnije otišle. CC7.1 pokriva praćenje novih putanja pristupa. BTP xID vam omogućuje pronalaženje svake vjerodajnice koju posjeduje osoba koja je otišla, i prikazuje ključeve kreirane bilo gdje u krajoliku u jednoj pregledu."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Rješenje",
+      "title": "Kako BTP xID zatvara svaki jaz",
+      "subtitle": "BTP xID dodaje sloj upravljanja na vašem postojećem krajoliku. Metapodaci se pohranjevaju na samoj vjerodajnici, u vašim vlastitim računima — ne u zasebnoj bazi podataka.",
+      "items": [
+        {
+          "gap": "Vlasnik i odgovorna strana",
+          "fix": "Polja upravljanja na svakom zapisu vjerodajnice koji je posjeduje i tko je odgovoran za sustav koji je konzumira."
+        },
+        {
+          "gap": "Isteka i rotacija",
+          "fix": "Postavite datum isteka na bilo koju vjerodajnicu, rotirajte je jednim klikom i zadržite zapis o tome kada je posljednja rotirana."
+        },
+        {
+          "gap": "Svrha i potrošač",
+          "fix": "Zabilježite čemu je svaki ključ namenjen i koji sustav ga konzumira, kako pregled vjerodajnica ne bi ovisio o nečijem sjećanju."
+        },
+        {
+          "gap": "Vidljivost između računa",
+          "fix": "Jedan pregled korisnika i vjerodajnica na svim globalnim računima, podračunima, Cloud Foundry org i space. Obrnuta pretraga po korisniku kako biste vidjeli sve na što mogu pristupiti."
+        },
+        {
+          "gap": "Proces odlaska",
+          "fix": "Ispitajte sve vjerodajnice koje posjeduje odlazna osoba, rotirajte ih i ponovno dodijelite — ponavljajući proces umjesto istrage."
+        },
+        {
+          "gap": "Dokazi revizije",
+          "fix": "Security Insights bilježi pokrivanje upravljanja u cijelom vašem krajoliku i pokazuje točno koje vjerodajnice nedostaju vlasnicima, datumima isteka ili svrhom."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Dopunjavajući SAP IAS",
+      "title1": "IAS osigurava identitet.",
+      "title2": "BTP xID upravljanja pristupom.",
+      "subtitle": "BTP xID vam također pomaže dostići i upravljati kutka vašeg SAP BTP krajolika koje IAS ne može.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identitet, autentifikacija i djelomično upravljanje pristupom",
+      "iasItems": [
+        "Jedinstvena prijava i višefaktorska autentifikacija",
+        "Federacija korporativnog IdP-a (SAML / OIDC)",
+        "Dodjela korisnika putem SCIM-a",
+        "Pravila autentifikacije na temelju rizika",
+        "Revizije zapisa autentifikacije",
+        "Dodjela korisnika i ulogu na razini SAP BTP Global i Sub-account"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Potpuno upravljanje pristupom",
+      "xidItems": [
+        "Upravljanje API vjerodajnicama usluge na svakoj Global Account, Sub-account, Cloud Foundry Org i Space — navedite, revidirajte i opozovite OAuth vjerodajnice na jednom mjestu",
+        "Upravljanje korisnicima i dodjela uloga na više Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs i Cloud Foundry Spaces u jednom objedinjenom sučelju",
+        "Skupna upravljanja korisnicima u cijelom vašem BTP krajoliku",
+        "Vidljivost u cijelom krajoliku: tko ima pristup čemu, na svim računima",
+        "Upravljanja za korisnike prilagođenog IdP-a — ne samo SAP ID Service račune"
+      ],
+      "footer": "Bez obzira imate li IAS ili ne, BTP xID vam daje jedno mjesto za prikaz i upravljanje svim pristupom BTP — korisnicima, ulogama, i API vjerodajnicama na svim Global Accounts, podračunima, CF Orgs i Spaces."
     }
   },
   "cookie": {

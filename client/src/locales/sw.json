@@ -1583,7 +1583,9 @@
       "description": "Dhibiti kila mtumiaji wa BTP, jukumu na sehemu za API katika mandhari yako yote - kutoka kwa programu moja tu. Kuzingatiwa kamili, udhibiti kamili, juu ya kila Global Account, akaunti ndogo na mandhari ya Cloud Foundry unayokimbia.",
       "shieldBadge": "SAP OAuth · Hakuna vitambulisho vilivyohifadhiwa",
       "title": "Usimamizi kamili wa API jina la mtumiaji kwa SAP BTP landhscape yako.",
-      "tagline": "API Credential & Access Management kwa SAP BTP"
+      "tagline": "API Credential & Access Management kwa SAP BTP",
+      "headline": "BTP xID Inakusaidia Kuwalinda Ufunguo wa Huduma za SAP BTP API",
+      "subhead": "BTP xID inafanya tabia ya umiliki, mzunguko wa maisha, na uangalifu kwa kila ufunguo wa huduma katika mandhari yako — kwa hivyo unabaki kulingana na viwango vya usalama."
     },
     "valueProps": {
       "0": "Programu pekee ya usimamizi wa watumiaji wa BTP utakayohitaji",
@@ -1617,7 +1619,12 @@
         "description": "Windows inaweza kuonyesha onyo la SmartScreen unapoendesha msanidi. Ili kuendelea:",
         "step1": "Bonyeza <1>Maelezo zaidi</1> katika kisanduku cha mazungumzo cha SmartScreen",
         "step2": "Bonyeza <1>Endesha hata hivyo</1>"
-      }
+      },
+      "getStartedLabel": "Anza",
+      "getStartedTitle": "Ona kila ufunguo wa huduma katika mandhari yako leo.",
+      "webButton": "Fungua BTP xID katika kivinjari chako",
+      "webButtonDesc": "Rafiki zaidi kwa usimamizi wa poverile ya API na ufunguo wa huduma — zunguza na dhibiti poverile ya BTP API",
+      "desktopButtonDesc": "Rafiki zaidi kwa usimamizi wa mtumiaji — Akaunti za Kimataifa, akaunti ndogo, jahazi, org za CF na nafasi"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1695,6 +1702,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Tafuta na ondoa jina la mtumiaji wa API ya pepo",
       "step3Body": "Jina la mtumiaji wa API katika Global Account level si kamili katika BTP cockpit — tu kwa njia ya BTP CLI. BTP xID huanguka zote."
+    },
+    "gaps": {
+      "label": "Pengo la Utawala",
+      "title": "Ufunguo wa huduma wa SAP BTP ni vigumu kudhibiti",
+      "subtitle": "Ufunguo wa huduma hukupatia ufikiaji wa API kwa huduma zako za SAP BTP — ni mlangoni kwa data inayoingiz kupitia SAP BTP Integration Suite. Ufunguo ulioweza kukiuka unaweza kutumiwa kuingiza data ya uongo, kusoma data ya shirika, au kuanzisha unganisho.",
+      "items": [
+        {
+          "title": "Mwenye",
+          "desc": "Kwa chaguomsingi BTP haina mwenye buni wa poverile aliyesajiliwa. Ukaguzi wa ufikiaji au jibu la tukio huanza kutoka sifuri kila wakati."
+        },
+        {
+          "title": "Kumishia Kazi",
+          "desc": "Ufunguo wa huduma hauuwi. Viwango vingi vya usalama vinahitaji mzunguko wa poverile kulingana na ratiba iliyoelezwa, lakini BTP haina utaratibu uliojengwa ili kulazimisha au kufuatilia hii."
+        },
+        {
+          "title": "Madhumuni",
+          "desc": "Hakuna rekodi ya madhumuni ya ufunguo. Ukaguzi huwezi kutofautiana ujumuisho muhimu kutoka kwa ufunguo wa mtihani uliosahaun"
+        },
+        {
+          "title": "Mtumiaji",
+          "desc": "Hakuna rekodi ya mfumo unaotegemea ufunguo. Huwezi kutathmini athari ya kuzungusha au kukansela bila mtihani katika uzalishaji."
+        },
+        {
+          "title": "Mzunguko",
+          "desc": "Hakuna historia ya mzunguko. Huwezi kuonyesha kuwa poverile kilichangajua wakati wowote, au lini."
+        },
+        {
+          "title": "Mwonekano wa akaunti nyingi",
+          "desc": "Hakuna mtazamo uliounganishwa kati ya akaunti. Ukaguzi wa ufikiaji wa karibu ni kumtembelea kila akaunti ya kimataifa, akaunti ndogo, na org na nafasi ya Cloud Foundry kwa tando."
+        },
+        {
+          "title": "Mchakato wa kumondoka",
+          "desc": "Hakuna muunganisho kati ya watu na poverile. Mtu anayebadilisha ambaye ana ufikiaji wa siri ya ufunguo, viwango vya usalama vinahitaji mzunguko na kuweka poverile tena — lakini hakuna njia ya kutambua ufunguo gani huo."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Maadhimisho",
+      "title": "Hii inamaanisha nini kwa ukaguzi wako",
+      "subtitle": "Viwango vya usalama vinahitaji poverile kuwa na waenye wajibu, mizunguko ya maisha iliyoelezwa, na ufikiaji unaobadilishwa.",
+      "cta": "Soma zaidi",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Ukaguzi wa SOX ITGC unaomtaka uthibitisho wa nani anayebadilisha mifumo inayoathiri kuripoti vile. BTP xID inasajili mwenye kwa kila poverile na inatoa mtazamo wa ufikiaji wa akaunti nyingi ambao ukaguzi huu unahitaji."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 inahitaji ufikiaji kuwa na kikomo na kujumuishwa na mahitaji ya biashara. A.8.24 inahitaji siri za kriptografia kusimamishwa kupitia mzunguko wao wa maisha. BTP xID inasajili mwenye na madhumuni kwa kila poverile, na inaongeza tarehe za kumishia kazi na kufuatilia mzunguko."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 inahitaji akaunti za mfumo kuwa na utambulisho. IA-5 inahitaji maalum yanayobadilisha ujinga kuboreshwa katika vipindi vilivyoelezwa. AC-2 inahitaji ukaguzi wa kawaida wa akaunti. BTP xID inatambua kila poverile kwa mwenye na metadata ya madhumuni, inafuatilia mzunguko, na inafanya ufunguo ulioundwa katika ngazi ya nafasi ya Cloud Foundry kuonekana kwa katikati."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Mahitaji 8.3.10.1 yanasihi siri thabiti kusaswa kwa kawaida. Mahitaji 8.6 yanasihi akaunti za mfumo kulingwa kwa waenye na kuchunguzwa. BTP xID inaongeza kufuatilia mzunguko na wala mwenye kwa kila ufunguo wa huduma."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 na CC6.2 zinakamatia uongezaji na uondoaji wa ufikiaji wa mantiki — ikiwanya poverile iliyoundwa na watu ambao sasa wamembadilika. CC7.1 inakamatia kufuatilia njia za ufikiaji mpya. BTP xID inakuwezesha kupata kila poverile inayomilikiwa na mtumiaji aliyembadilika, na kuonyesha ufunguo ulioundwa ndani yote katika mandhari katika mtazamo mmoja."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Suluhisho",
+      "title": "Jinsi BTP xID inavuta pengo kila moja",
+      "subtitle": "BTP xID inaongeza tabaka la utawala juu ya mandhari yako iliyomilikiwa. Metadata inakumbukwa kwenye poverile yenyewe, katika akaunti zako — si katika hifadhidata tofauti.",
+      "items": [
+        {
+          "gap": "Mwenye na pande linajumuisha",
+          "fix": "Nyumba za utawala kwenye rekodi ya poverile kila moja inayoandika ni nani mwenye na ni nani wajibu wa mfumo wa mtumiaji."
+        },
+        {
+          "gap": "Kumishia kazi na mzunguko",
+          "fix": "Weka tarehe ya kumishia kazi kwenye poverile yoyote, izunguze katika bato moja, na weka rekodi ya wakati wa kumzunguza mwisho."
+        },
+        {
+          "gap": "Madhumuni na mtumiaji",
+          "fix": "Rekodi ya madhumuni ya kila ufunguo na mfumo unaoutumia, ili ukaguzi wa poverile usitegemee kumbukumbu ya yeyote."
+        },
+        {
+          "gap": "Mwonekano wa akaunti nyingi",
+          "fix": "Mtazamo mmoja wa watumiaji na poverile katika akaunti zote za kimataifa, akaunti ndogo, org na nafasi za Cloud Foundry. Tafuta nyuma kwa mtumiaji kuona kila kitu kinachobadilisha ufikiaji."
+        },
+        {
+          "gap": "Mchakato wa kumondoka",
+          "fix": "Uliza poverile zote inayomilikiwa na mtu anayembadilika, kisha izunguze na kuweka tena — mchakato unaobadilisha badala ya utafiti."
+        },
+        {
+          "gap": "Uthibitisho wa ukaguzi",
+          "fix": "Alama za Security Insights znakamatia utawala katika mandhari yako na kuonyesha kwa usahihi ufunguo gani upulishi umiliki wa mwenye, tarehe za kumishia kazi, au madhumuni."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Kukamatia SAP IAS",
+      "title1": "IAS inawalinda kitambulisho.",
+      "title2": "BTP xID inadhibiti ufikiaji.",
+      "subtitle": "BTP xID pia inakusaidia kufikia na kudhibiti pembe za mandhari yako ya SAP BTP ambayo IAS hainaweza.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Kitambulisho, Uthibitishaji & Ufikiaji Kiasi cha Utawala",
+      "iasItems": [
+        "Kuingia moja na uthibitishaji wa sababu nyingi",
+        "Shirikisha ya IdP ya kampuni (SAML / OIDC)",
+        "Uongezaji wa mtumiaji kupitia SCIM",
+        "Sera za uthibitishaji zinazozingatia hatari",
+        "Kumbukumbu za ukaguzi wa uthibitishaji",
+        "Mtumiaji na wagawaji wa jukwaa katika ngazi ya SAP BTP Global na Sub-akaunti"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Utawala Kamili wa Ufikiaji",
+      "xidItems": [
+        "Usimamizi wa Poverile ya API ya Huduma katika kila Akaunti ya Kimataifa, Akaunti ndogo, Org ya Cloud Foundry na Nafasi — lista, ukaguzi na kumkataa poverile ya OAuth katika mahali pamoja",
+        "Usimamizi wa Mtumiaji na Wagawaji wa Jukwaa katika akaunti nyingi za Kimataifa, Akaunti ndogo, Jahazi, Org za Cloud Foundry na Nafasi za Cloud Foundry katika kiolesura cha umoja mmoja",
+        "Usimamizi wa kawaida wa watumiaji katika mandhari yako yote ya BTP",
+        "Mwonekano wa mandhari: nani anayebadilisha ufikiaji kwa nini, katika akaunti kila moja",
+        "Utawala kwa watumiaji wa IdP ya kawaida — si tu akaunti za Huduma ya SAP ID"
+      ],
+      "footer": "Bila kujali kama una IAS au la, BTP xID inakupatia mahali pamoja kuona na kudhibiti ufikiaji wote wa BTP — watumiaji, majukwaa, na poverile ya API katika Akaunti za Kimataifa, akaunti ndogo, Org za CF na Nafasi."
     }
   },
   "cookie": {

@@ -1559,7 +1559,9 @@
       "description": "Gestiona cada usuario de BTP, rol y credencial de API en todo tu paisaje - desde una sola aplicación. Visibilidad completa, control completo, en cada Global Account, subcuenta y entorno Cloud Foundry que ejecutas.",
       "shieldBadge": "SAP OAuth · Sin credenciales almacenadas",
       "title": "Gestión completa de credenciales API para su panorama SAP BTP.",
-      "tagline": "Gestión de credenciales API y acceso para SAP BTP"
+      "tagline": "Gestión de credenciales API y acceso para SAP BTP",
+      "headline": "BTP xID te ayuda a asegurar tus claves de servicio SAP BTP API",
+      "subhead": "BTP xID aporta propiedad, ciclo de vida y auditoría a cada clave de servicio en tu panorama – para que sigas cumpliendo los estándares de seguridad."
     },
     "valueProps": {
       "0": "La única app de gestión de usuarios BTP que necesitará",
@@ -1593,7 +1595,12 @@
         "description": "Windows puede mostrar una advertencia de SmartScreen cuando ejecute el instalador. Para continuar:",
         "step1": "Haga clic en <1>Más información</1> en el cuadro de diálogo de SmartScreen",
         "step2": "Haga clic en <1>Ejecutar de todas formas</1>"
-      }
+      },
+      "getStartedLabel": "Comienza",
+      "getStartedTitle": "Ve cada clave de servicio en tu panorama hoy.",
+      "webButton": "Abre BTP xID en tu navegador",
+      "webButtonDesc": "Mejor para gestión de credenciales API y claves de servicio – rota y gobierna credenciales BTP API",
+      "desktopButtonDesc": "Mejor para gestión de usuarios – Cuentas Globales, sub-cuentas, directorios, organizaciones de CF y espacios"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1673,12 +1680,12 @@
       "label": "Funciona con SAP IAS",
       "title1": "IAS asegura la identidad.",
       "title2": "BTP xID rige el acceso.",
-      "subtitle": "SAP IAS maneja la autenticación. BTP xID maneja lo que viene después — quién puede acceder a qué, en cada account, org y space en su panorama BTP.",
+      "subtitle": "BTP xID también te ayuda a alcanzar y gobernar las esquinas de tu panorama SAP BTP que IAS no puede.",
       "iasBadge": "SAP IAS",
-      "iasTitle": "Identidad, autenticación y gobierno de acceso parcial",
+      "iasTitle": "Identidad, Autenticación y Gobernanza Parcial de Acceso",
       "xidBadge": "BTP xID",
-      "xidTitle": "Gobierno de acceso completo",
-      "footer": "Ya sea que tenga IAS o no, BTP xID le da un lugar para ver y gestionar todo el acceso BTP — usuarios, roles y credenciales API en Global Accounts, sub-accounts, CF Orgs y Spaces.",
+      "xidTitle": "Gobernanza Completa de Acceso",
+      "footer": "Ya sea que tengas IAS o no, BTP xID te proporciona un lugar para ver y gestionar todos los accesos de BTP – usuarios, roles y credenciales de API en Cuentas Globales, sub-cuentas, Organizaciones de CF y Espacios.",
       "readMore": "Lea el desglose completo →",
       "iasItems": [
         "Inicio de sesión único y MFA",
@@ -1694,7 +1701,8 @@
         "Gestión de usuarios en masa en todo su panorama BTP",
         "Visibilidad en todo el panorama: quién tiene acceso a qué",
         "Gobierno para usuarios IdP personalizados"
-      ]
+      ],
+      "label2": "Complementando SAP IAS"
     },
     "threeSteps": {
       "label": "Tres pasos para proteger sus credenciales API en SAP BTP",
@@ -1717,6 +1725,105 @@
       "item2Span": "no proxy, no relay, no third-party cloud",
       "item3Strong": "Your credentials, your auth",
       "item3Span": "signs in with your existing BTP login"
+    },
+    "gaps": {
+      "label": "La brecha de gobernanza",
+      "title": "Las claves de servicio SAP BTP son difíciles de gobernar",
+      "subtitle": "Una clave de servicio otorga acceso API a tus servicios SAP BTP – es la puerta para datos que fluyen a través del Suite de Integración de SAP BTP. Una clave comprometida puede usarse para insertar datos falsos, leer datos organizacionales o desencadenar integraciones.",
+      "items": [
+        {
+          "title": "Propietario",
+          "desc": "Por defecto, BTP no registra ningún propietario de la credencial. Una revisión de acceso o respuesta a incidentes empieza de cero cada vez."
+        },
+        {
+          "title": "Caducidad",
+          "desc": "Las claves de servicio no caducan. La mayoría de los estándares de seguridad exigen que las credenciales se roten según un calendario definido, pero BTP no cuenta con ningún mecanismo integrado para exigirlo o rastrearlo."
+        },
+        {
+          "title": "Propósito",
+          "desc": "No hay registro de para qué sirve una clave. Una revisión no puede distinguir una integración crítica de una clave de prueba olvidada."
+        },
+        {
+          "title": "Consumidor",
+          "desc": "No hay registro de qué sistema depende de una clave. No se puede evaluar el impacto de rotarla o revocarla sin probarlo en producción."
+        },
+        {
+          "title": "Rotación",
+          "desc": "No existe historial de rotación. No se puede demostrar que una credencial se haya cambiado alguna vez, ni cuándo."
+        },
+        {
+          "title": "Visibilidad entre cuentas",
+          "desc": "No hay una vista consolidada entre cuentas. Una revisión de acceso a escala del panorama implica visitar cada cuenta global, subcuenta y organización/espacio de Cloud Foundry individualmente."
+        },
+        {
+          "title": "Proceso de baja",
+          "desc": "No hay vínculo entre las personas y las credenciales. Cuando alguien con acceso al secreto de una clave se marcha, los estándares de seguridad exigen rotar y reasignar las claves a las que tenía acceso — pero no hay forma de identificar cuáles son esas claves."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Cumplimiento",
+      "title": "Qué significa esto para tu auditoría",
+      "subtitle": "Los marcos de seguridad requieren que las credenciales tengan propietarios responsables, ciclos de vida definidos y acceso revisable.",
+      "cta": "Leer más",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Las auditorías SOX ITGC piden evidencia de quién tiene acceso a los sistemas que afectan a los informes financieros, y cómo se revisa ese acceso. BTP xID registra un propietario para cada credencial y ofrece la vista de acceso entre cuentas que requieren esas revisiones."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 exige que el acceso esté restringido y justificado por una necesidad empresarial. A.8.24 exige que los secretos criptográficos se gestionen durante todo su ciclo de vida. BTP xID registra el propietario y el propósito de cada credencial, y añade fechas de caducidad y seguimiento de rotación."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 exige que las cuentas del sistema sean identificables. IA-5 exige que los autenticadores se renueven en intervalos definidos. AC-2 exige auditorías regulares de cuentas. BTP xID identifica cada credencial con metadatos de propietario y propósito, rastrea la rotación, y hace visibles de forma centralizada las claves creadas a nivel de espacio de Cloud Foundry."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "El requisito 8.3.10.1 exige que los secretos estáticos se cambien regularmente. El requisito 8.6 exige que las cuentas del sistema se asignen a propietarios y se revisen. BTP xID añade seguimiento de rotación y asignación de propietario a cada clave de servicio."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 y CC6.2 cubren el aprovisionamiento y la eliminación del acceso lógico — incluidas las credenciales creadas por personas que ya se han marchado. CC7.1 cubre la supervisión de nuevas vías de acceso. BTP xID le permite encontrar cada credencial propiedad de un usuario que ya no está, y muestra las claves creadas en cualquier parte del panorama en una sola vista."
+        }
+      ]
+    },
+    "closes": {
+      "label": "La solución",
+      "title": "Cómo BTP xID cierra cada brecha",
+      "subtitle": "BTP xID añade una capa de gobernanza encima de tu panorama existente. Los metadatos se almacenan en la credencial misma, en tus propias cuentas – no en una base de datos separada.",
+      "items": [
+        {
+          "gap": "Propietario y responsable",
+          "fix": "Los campos de gobernanza en cada registro de credencial indican quién la posee y quién es responsable del sistema que la consume."
+        },
+        {
+          "gap": "Caducidad y rotación",
+          "fix": "Establezca una fecha de caducidad en cualquier credencial, rótela con un clic, y mantenga un registro de cuándo se rotó por última vez."
+        },
+        {
+          "gap": "Propósito y consumidor",
+          "fix": "Registre para qué sirve cada clave y qué sistema la consume, para que una revisión de credenciales no dependa de la memoria de nadie."
+        },
+        {
+          "gap": "Visibilidad entre cuentas",
+          "fix": "Una vista única de usuarios y credenciales en todas las cuentas globales, subcuentas, organizaciones y espacios de Cloud Foundry. Búsqueda inversa por usuario para ver todo a lo que tiene acceso."
+        },
+        {
+          "gap": "Proceso de baja",
+          "fix": "Consulte todas las credenciales propiedad de una persona que se marcha, luego rótelas y reasígnelas — un proceso repetible en lugar de una investigación."
+        },
+        {
+          "gap": "Evidencia de auditoría",
+          "fix": "Security Insights puntúa la cobertura de gobernanza en todo su panorama y muestra exactamente a qué credenciales les falta propietario, fecha de caducidad o propósito."
+        }
+      ]
     }
   },
   "cookie": {

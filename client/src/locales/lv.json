@@ -1545,13 +1545,8 @@
   },
   "btpxidProduct": {
     "hero": {
-      "title1": "Viena lietotne.",
-      "title2": "Katrs lietotājs.",
-      "title3": "Visi konti.",
-      "description": "Pārvaldiet katru BTP lietotāju, lomu un API kredenciālu savā ainā - no vienas lietotnes. Pilna redzamība, pilna kontrole visos Global Account, apakškontos un Cloud Foundry vidē, ko jūs palaižat.",
-      "shieldBadge": "SAP OAuth · Akreditācijas dati netiek glabāti",
-      "title": "Pilnīga API akreditācijas pārvaldība jūsu SAP BTP ainai.",
-      "tagline": "API kredenciāļu un piekļuves pārvaldība SAP BTP"
+      "headline": "BTP xID palīdz nodrošināt SAP BTP API pakalpojuma atslēgu drošību",
+      "subhead": "BTP xID sniedz īpašumtiesības, dzīves ciklu un audita izsekojamību katrai pakalpojuma atslēgai visā jūsu vidē — lai jūs paliktu saskaņā ar drošības standartiem."
     },
     "valueProps": {
       "0": "Vienīgā BTP lietotāju pārvaldības lietotne, kas jums jebkad būs nepieciešama",
@@ -1568,23 +1563,26 @@
       "unknown": "jūsu platforma"
     },
     "download": {
-      "label": "Lejupielāde",
-      "title": "Gatavs sākt?",
-      "subtitle": "Lejupielādējiet BTP xID bez maksas. Kredītkarte nav nepieciešama. Izvēlieties plānu vēlāk.",
+      "getStartedLabel": "Sākt",
+      "getStartedTitle": "Šodien skatiet visas pakalpojuma atslēgas jūsu ainavā.",
+      "webButton": "Atvērt BTP xID pārlūkprogrammā",
+      "webButtonDesc": "Labāk piemērots API akreditācijas un pakalpojuma atslēgu pārvaldībai — rotējiet un pārvaldiet BTP API akreditācijas",
+      "desktopButtonDesc": "Labāk piemērots lietotāja pārvaldībai — globālie konti, apakškonti, direktoriji, CF org un space",
       "primaryButton": "Lejupielādēt {{label}}",
-      "loading": "Ielādē...",
-      "showAll": "Rādīt visas lejupielādes iespējas",
-      "hideAll": "Slēpt visas lejupielādes iespējas",
+      "loading": "Ielāde...",
+      "showAll": "Rādīt visas lejupielādes opcijas",
+      "hideAll": "Paslēpt visas lejupielādes opcijas",
+      "legal": "Lejupielādējot vai izmantojot BTP xID, jūs piekrītat mūsu",
+      "termsOfService": "Pakalpojumu noteikumi",
+      "privacyPolicy": "Privātuma politika",
+      "liabilityPolicy": "Ierobežotās atbildības politika",
+      "eula": "Beigu lietotāja licences nolīgums",
       "versionLine": "Versija {{version}} · Nepieciešams MacOS 12+ vai Windows 10+",
-      "legal": "Lejupielādējot jūs piekrītat",
-      "termsOfService": "Pakalpojumu noteikumiem",
-      "and": "un",
-      "privacyPolicy": "Privātuma politikai",
       "smartscreen": {
         "title": "Windows SmartScreen brīdinājums",
-        "description": "Palaižot instalētāju, Windows var parādīt SmartScreen brīdinājumu. Lai turpinātu:",
-        "step1": "SmartScreen dialoglodziņā noklikšķiniet uz <1>Papildinformācija</1>",
-        "step2": "Noklikšķiniet uz <1>Tik un tā palaist</1>"
+        "description": "Windows var parādīt SmartScreen brīdinājumu, kad jūs palaižat instalētāju. Lai turpinātu:",
+        "step1": "SmartScreen dialogā noklikšķiniet uz <1>Papildu informācija</1>",
+        "step2": "Noklikšķiniet uz <1>Tomēr palaist</1>"
       }
     },
     "downloadOptions": {
@@ -1663,6 +1661,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Atrodiet un noņemiet spoku API kredenciālus",
       "step3Body": "Global Account līmeņa API kredenciāļi nav redzami BTP kabīnē — tikai caur BTP CLI. BTP xID tos visus izpraisa."
+    },
+    "gaps": {
+      "label": "Pārvaldības atšķirība",
+      "title": "SAP BTP pakalpojuma atslēgas ir grūti pārvaldīt",
+      "subtitle": "Pakalpojuma atslēga piešķir API piekļuvi SAP BTP pakalpojumiem — tas ir vārti datiem, kas plūst caur SAP BTP Integration Suite. Apdraudēta atslēga var tikt izmantota nepatiess datu ievietošanai, organizācijas datu nolasīšanai vai integrāciju aktivizēšanai.",
+      "items": [
+        {
+          "title": "Īpašnieks",
+          "desc": "Pēc noklusējuma BTP nav reģistrēta akreditācijas datus īpašnieka. Piekļuves pārskatīšana vai incidents tiek sākts no nulles katru reizi."
+        },
+        {
+          "title": "Derīguma termiņš",
+          "desc": "Pakalpojuma atslēgas neizbeidzas. Lielākā daļa drošības standartu prasa, lai akreditācijas datus tiek rotētas saskaņā ar noteiktu grafiku, bet BTP nav iebūvēts mehānisms, lai to piespiestu vai sekotu."
+        },
+        {
+          "title": "Mērķis",
+          "desc": "Nav ieraksta par to, kam tiek izmantota atslēga. Pārskatīšana nevar nošķirt kritisko integrāciju no aizmirsta testa atslēgas."
+        },
+        {
+          "title": "Patērētājs",
+          "desc": "Nav ieraksta par to, kura sistēma ir atkarīga no atslēgas. Jūs nevarat novērtēt rotācijas vai atsaukšanas ietekmi bez testēšanas ražošanas vidē."
+        },
+        {
+          "title": "Rotācija",
+          "desc": "Nav rotācijas vēstures. Jūs nevarat pierādīt, ka akreditācijas dati kada jebkad ir mainīti vai kad."
+        },
+        {
+          "title": "Starpkonta redzamība",
+          "desc": "Nav konsolidēta skate starp kontiem. Ainavas plašs piekļuves pārskats nozīmē katras globālā konta, apakškonta un Cloud Foundry org un space apmeklējumu atsevišķi."
+        },
+        {
+          "title": "Darbinieka aizejošais process",
+          "desc": "Nav saites starp cilvēkiem un akreditācijas datiem. Ja personas, kurai ir piekļuve atslēgas noslēpumam, aiziet, drošības standarti prasa rotēt un pārdēvēt atslēgas, ko viņi varētu piekļūt — bet nav iespējas identificēt, kuras tās ir."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Atbilstība",
+      "title": "Ko tas nozīmē jūsu auditam",
+      "subtitle": "Drošības sistēmas prasa akreditācijas datiem, lai būtu atbildīgi īpašnieki, noteikti dzīves cikli un pārskatāma piekļuve.",
+      "cta": "Lasīt vairāk",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC auditi prasa pierādījumus par to, kuram ir piekļuve sistēmām, kas ietekmē finanšu pārskatus, un kā šī piekļuve ir pārskatīta. BTP xID reģistrē īpašnieku katrai akreditācijai un sniedz starpkonta piekļuves skatu, ko šie auditi prasa."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 prasa, lai piekļuve būtu ierobežota un pamatota ar biznesa nepieciešamību. A.8.24 prasa, lai kriptogrāfiskie noslēpumi tik pārvaldīti to dzīves cikla laikā. BTP xID reģistrē īpašnieku un mērķi katrai akreditācijai un pievieno derīguma termiņa datus un rotācijas sekošanu."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 prasa, lai sistēmas konti būtu identificējami. IA-5 prasa, lai autentifikatori tik atjaunināti noteiktā intervālā. AC-2 prasa regulāru konta auditus. BTP xID identificē katru akreditāciju ar īpašnieka un mērķa metadatiem, seko rotācijai un padarī redzamus centrāli atslēgas, kas izveidotas Cloud Foundry space līmenī."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Prasība 8.3.10.1 nosaka, ka statiskos noslēpumi ir regulāri mainīti. Prasība 8.6 prasa, lai sistēmas konti tik piešķirti īpašniekiem un pārskatīti. BTP xID pievieno rotācijas sekošanu un īpašnieka piešķiršanu katrai pakalpojuma atslēgai."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 un CC6.2 nosedz loģiskās piekļuves nodrošināšanu un noņemšanu — arī akreditācijas, ko izveidoja cilvēki, kuri kopš tā ir aizgājuši. CC7.1 nosedz jauno piekļuves ceļu monitoringu. BTP xID ļauj jums atrast katru akreditāciju, kuru pieder aizgājušais lietotājs, un rāda atslēgas, kas izveidotas jebkur ainavā vienā skatu."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Risinājums",
+      "title": "Kā BTP xID aizvērt katru atšķirību",
+      "subtitle": "BTP xID pievieno pārvaldības slāni uz jūsu esošo ainavu. Metadati ir uzglabāti uz akreditācijas sevi, jūsu kontos — nevis atsevišķā datu bāzē.",
+      "items": [
+        {
+          "gap": "Īpašnieks un atbildīgā puse",
+          "fix": "Pārvaldības lauki uz katras akreditācijas ierakstīt, kurš viņu pieder un kurš atbild par patērējošo sistēmu."
+        },
+        {
+          "gap": "Derīguma termiņš un rotācija",
+          "fix": "Iestatiet derīguma termiņu jebkurai akreditācijai, rotējiet to ar vienu klikšķi un turiet ierakstu par to, kad tā tik pēdējo reizi rotēta."
+        },
+        {
+          "gap": "Mērķis un patērētājs",
+          "fix": "Ierakstiet, kam tiek izmantota katra atslēga un kura sistēma to patērē, lai akreditācijas pārskatīšana nepaļaujas uz kāda atmiņu."
+        },
+        {
+          "gap": "Starpkonta redzamība",
+          "fix": "Viena skate par lietotājiem un akreditācijām visos globālajos kontos, apakškontos, Cloud Foundry org un space. Apgrieztā meklēšana pēc lietotāja, lai skatītu visu, kam viņi var piekļūt."
+        },
+        {
+          "gap": "Darbinieka aizejošais process",
+          "fix": "Vaicājiet visas akreditācijas, kuras pieder aiziešanas personai, pēc tam rotējiet un pārdēvējiet tās — atkārtojams process, nevis izmeklēšana."
+        },
+        {
+          "gap": "Audita pierādījumi",
+          "fix": "Security Insights novērtē pārvaldības pārklājumu visā jūsu ainavā un parāda tieši, kuram akreditācijām trūkst īpašnieku, derīguma termiņu vai mērķa."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Papildinot SAP IAS",
+      "title1": "IAS nodrošina identitāti.",
+      "title2": "BTP xID pārvalda piekļuvi.",
+      "subtitle": "BTP xID arī palīdz sasniegt un pārvaldīt SAP BTP ainavu stūrus, ko IAS nevar.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identitāte, autentifikācija un daļēja piekļuves pārvaldība",
+      "iasItems": [
+        "Viena pierakstīšanās un daudzfaktoru autentifikācija",
+        "Korporatīvā IdP federācija (SAML / OIDC)",
+        "Lietotāja nodrošināšana caur SCIM",
+        "Risku balstītas autentifikācijas politikas",
+        "Autentifikācijas audita žurnāli",
+        "Lietotāja un lomas piešķiršana SAP BTP globālajā un apakškonta līmenī"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Pilna piekļuves pārvaldība",
+      "xidItems": [
+        "Pakalpojuma API akreditācijas pārvaldība visos globālajos kontos, apakškontos, Cloud Foundry Org un Space — uzskaitīt, auditēt un atsaukt OAuth akreditācijas vienā vietā",
+        "Lietotāja pārvaldība un lomas piešķiršana vairākos globālajos kontos, apakškontos, direktorijos, Cloud Foundry Org un Cloud Foundry Space vienotā saskarņē",
+        "Masveida lietotāja pārvaldība visā BTP ainavā",
+        "Ainava plašs redzamība: kurš kam var piekļūt visos kontos",
+        "Pārvaldība pielāgotiem IdP lietotājiem — nevis tikai SAP ID Service kontiem"
+      ],
+      "footer": "Neatkarīgi no tā, vai jums ir IAS vai nē, BTP xID sniedz vienu vietu, kur jūs varat redzēt un pārvaldīt visu BTP piekļuvi — lietotājus, lomas un API akreditācijas visos globālajos kontos, apakškontos, CF Org un Space."
     }
   },
   "cookie": {

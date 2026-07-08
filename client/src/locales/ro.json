@@ -1560,7 +1560,9 @@
       "description": "Guvernează fiecare utilizator BTP, rol și acreditare API pe toată peisajul tău - dintr-o singură aplicație. Vizibilitate completă, control complet, pe fiecare Global Account, sub-cont și mediu Cloud Foundry pe care îl rulezi.",
       "shieldBadge": "SAP OAuth · Nicio acreditare stocată",
       "title": "Gestiunea completă a credențialelor API pentru peisajul SAP BTP.",
-      "tagline": "Gestionarea credențialelor API și a accesului pentru SAP BTP"
+      "tagline": "Gestionarea credențialelor API și a accesului pentru SAP BTP",
+      "headline": "BTP xID Vă Ajută Să Securizați Cheile Dvs. de Serviciu API SAP BTP",
+      "subhead": "BTP xID aduce proprietate, ciclu de viață și auditabilitate fiecărei chei de serviciu din peisajul dvs. — pentru a rămâne conform cu standardele de securitate."
     },
     "valueProps": {
       "0": "Singura aplicație de gestionare a utilizatorilor BTP de care veți avea nevoie",
@@ -1594,7 +1596,12 @@
         "description": "Windows poate afișa un avertisment SmartScreen când rulați programul de instalare. Pentru a continua:",
         "step1": "Faceți clic pe <1>Mai multe informații</1> în dialogul SmartScreen",
         "step2": "Faceți clic pe <1>Rulați oricum</1>"
-      }
+      },
+      "getStartedLabel": "Începeți",
+      "getStartedTitle": "Vedeți fiecare cheie de serviciu din peisajul dvs. azi.",
+      "webButton": "Deschideți BTP xID în browserul dvs.",
+      "webButtonDesc": "Cel mai bun pentru gestionarea acreditării API și cheii de serviciu — rotați și guvernați acreditările BTP API",
+      "desktopButtonDesc": "Cel mai bun pentru gestionarea utilizatorilor — Conturi Globale, sub-conturi, directoare, org-uri CF și spații"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1672,6 +1679,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Găsiți și eliminați credențialele API fantomă",
       "step3Body": "Credențialele API la nivelul Global Account nu sunt vizibile în cockpitul BTP — doar prin BTP CLI. BTP xID le aduce la suprafață pe toate."
+    },
+    "gaps": {
+      "label": "Decalajul de Guvernanță",
+      "title": "Cheile de serviciu SAP BTP sunt greu de guvernat",
+      "subtitle": "O cheie de serviciu acordă acces API la serviciile dvs. SAP BTP — este poarta pentru datele care curg prin SAP BTP Integration Suite. O cheie compromisă poate fi utilizată pentru a introduce date false, a citi date organizaționale sau a declanșa integrări.",
+      "items": [
+        {
+          "title": "Proprietar",
+          "desc": "În mod implicit, BTP nu are proprietar de acreditare înregistrat. O revizuire a accesului sau un răspuns la incident începe de la zero de fiecare dată."
+        },
+        {
+          "title": "Expirare",
+          "desc": "Cheile de serviciu nu expiră. Majoritatea standardelor de securitate cer ca acreditările să fie rotite conform unui calendar definit, dar BTP nu are un mecanism încorporat pentru a impune sau urmări aceasta."
+        },
+        {
+          "title": "Scop",
+          "desc": "Nicio înregistrare a scopului unei chei. O revizuire nu poate distinge o integrare critică de la o cheie de test uitată."
+        },
+        {
+          "title": "Consumator",
+          "desc": "Nicio înregistrare a sistemului care depinde de o cheie. Nu puteți evalua impactul rotației sau revocării acesteia fără a testa în producție."
+        },
+        {
+          "title": "Rotație",
+          "desc": "Niciun istoric de rotație. Nu puteți demonstra că o acreditare a fost vreodată schimbată, sau când."
+        },
+        {
+          "title": "Vizibilitate între conturi",
+          "desc": "Nicio vizualizare consolidată între conturi. O revizuire a accesului la nivel de peisaj înseamnă a vizita fiecare cont global, sub-cont și org și spațiu Cloud Foundry individual."
+        },
+        {
+          "title": "Proces de plecare",
+          "desc": "Nicio legătură între oameni și acreditări. Când cineva cu acces la secretul unei chei pleacă, standardele de securitate necesită rotația și reatribuirea cheilor pe care ar putea să le acceseze — dar nu există o modalitate de a identifica care sunt acele chei."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Conformitate",
+      "title": "Ce înseamnă aceasta pentru auditul dvs.",
+      "subtitle": "Cadrul de securitate necesită ca acreditările să aibă proprietari responsabili, cicluri de viață definite și acces revizuibil.",
+      "cta": "Citiți mai mult",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "Auditurile SOX ITGC solicită dovezi cu privire la cine are acces la sisteme care afectează raportarea financiară și cum este revizuit accesul. BTP xID înregistrează un proprietar pentru fiecare acreditare și oferă vizualizarea accesului între conturi pe care o necesită aceste revizuiri."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 necesită ca accesul să fie restricționat și justificat de nevoia de afaceri. A.8.24 necesită ca secretele criptografice să fie gestionate pe durata ciclului de viață. BTP xID înregistrează proprietarul și scopul pe fiecare acreditare și adaugă date de expirare și urmărire a rotației."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 necesită ca conturile de sistem să fie identificabile. IA-5 necesită ca autentificatorii să fie reîmprospătați la intervale definite. AC-2 necesită audituri regulate de cont. BTP xID identifică fiecare acreditare cu metadate de proprietar și scop, urmărește rotația și face cheile create la nivel de spațiu Cloud Foundry vizibile centralizat."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Cerința 8.3.10.1 impune ca secretele statice să fie schimbate regulat. Cerința 8.6 impune ca conturile de sistem să fie alocate proprietarilor și revizuite. BTP xID adaugă urmărirea rotației și alocarea proprietarului fiecărei chei de serviciu."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 și CC6.2 acoperă aprovizionarea și îndepărtarea accesului logic — inclusiv acreditările create de persoane care au plecat. CC7.1 acoperă monitorizarea de noi căi de acces. BTP xID vă permite să găsiți fiecare acreditare deținută de un utilizator plecat și arată cheile create oriunde în peisaj într-o singură vizualizare."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Soluția",
+      "title": "Cum BTP xID închide fiecare decalaj",
+      "subtitle": "BTP xID adaugă un strat de guvernanță deasupra peisajului dvs. existent. Metadatele sunt stocate pe acreditare, în propriile dvs. conturi — nu într-o bază de date separată.",
+      "items": [
+        {
+          "gap": "Proprietar și parte responsabilă",
+          "fix": "Câmpuri de guvernanță pe fiecare înregistrare de acreditare care o deține și cine este responsabil pentru sistemul consumator."
+        },
+        {
+          "gap": "Expirare și rotație",
+          "fix": "Setați o dată de expirare pe orice acreditare, rotițiți-o într-un singur clic și păstrați o înregistrare a când a fost rotită ultima dată."
+        },
+        {
+          "gap": "Scop și consumator",
+          "fix": "Înregistrați scopul fiecărei chei și care sistem o consumă, pentru ca o revizuire a acreditării să nu depindă de memoria cuiva."
+        },
+        {
+          "gap": "Vizibilitate între conturi",
+          "fix": "O vizualizare a utilizatorilor și acreditărilor în toate conturile globale, sub-conturile, org-urile și spațiile Cloud Foundry. Căutare inversă după utilizator pentru a vedea tot ce pot accesa."
+        },
+        {
+          "gap": "Proces de plecare",
+          "fix": "Interogați toate acreditările deținute de o persoană care pleacă, apoi rotațiți și reatribuiți-le — un proces repetabil în loc de o investigație."
+        },
+        {
+          "gap": "Dovezi de audit",
+          "fix": "Scorurile Security Insights acoperă governance-ul peisajului dvs. și arată exact care acreditări lipsesc proprietari, date de expirare sau scop."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "Completând SAP IAS",
+      "title1": "IAS securizează identitatea.",
+      "title2": "BTP xID guvernează accesul.",
+      "subtitle": "BTP xID vă ajută, de asemenea, să atingeți și să guvernați colțurile peisajului dvs. SAP BTP pe care IAS nu poate.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identitate, Autentificare și Guvernanță Parțială a Accesului",
+      "iasItems": [
+        "Autentificare unică și autentificare multifactor",
+        "Federație IdP corporativă (SAML / OIDC)",
+        "Aprovizionare utilizator via SCIM",
+        "Politici de autentificare bazate pe risc",
+        "Jurnale de audit de autentificare",
+        "Alocarea utilizatorului și a rolurilor la nivelul SAP BTP Global și Sub-account"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "Guvernanță Completă a Accesului",
+      "xidItems": [
+        "Gestionarea Acreditării API de Serviciu în fiecare Cont Global, Sub-cont, Org Cloud Foundry și Spațiu — listare, audit și revocare a acreditărilor OAuth într-un singur loc",
+        "Gestionarea Utilizatorului și alocarea Rolului în mai multe Conturi Globale, Sub-conturi, Directoare, Org-uri Cloud Foundry și Spații Cloud Foundry într-o singură interfață unificată",
+        "Gestionare în masă a utilizatorilor în întregul peisaj BTP",
+        "Vizibilitate la scara peisajului: cine are acces la ce, în fiecare cont",
+        "Guvernanță pentru utilizatorii IdP personalizați — nu doar pentru conturile Serviciului SAP ID"
+      ],
+      "footer": "Indiferent dacă aveți IAS sau nu, BTP xID vă oferă un singur loc pentru a vedea și gestiona tot accesul BTP — utilizatori, roluri și acreditări API în Conturi Globale, sub-conturi, Org-uri CF și Spații."
     }
   },
   "cookie": {

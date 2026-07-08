@@ -1560,7 +1560,9 @@
       "description": "从单个应用管理整个环境中的每个BTP用户、角色和API凭据。完全的可见性、完全的控制，覆盖您运行的每个Global Account、子账户和Cloud Foundry环境。",
       "shieldBadge": "SAP OAuth · 不存储凭据",
       "title": "为您的SAP BTP环境完整的API凭据管理。",
-      "tagline": "SAP BTP的API凭据和访问管理"
+      "tagline": "SAP BTP的API凭据和访问管理",
+      "headline": "BTP xID 帮助您保护 SAP BTP API 服务密钥",
+      "subhead": "BTP xID 为整个环境中的每个服务密钥带来所有权、生命周期和可审计性——让您符合安全标准。"
     },
     "valueProps": {
       "0": "您所需的唯一 BTP 用户管理应用",
@@ -1594,7 +1596,12 @@
         "description": "运行安装程序时，Windows 可能会显示 SmartScreen 警告。要继续：",
         "step1": "在 SmartScreen 对话框中点击 <1>更多信息</1>",
         "step2": "点击 <1>仍要运行</1>"
-      }
+      },
+      "getStartedLabel": "开始",
+      "getStartedTitle": "立即查看您整个环境中的每个服务密钥。",
+      "webButton": "在浏览器中打开 BTP xID",
+      "webButtonDesc": "最适合 API 凭证和服务密钥管理——轮换和管理 BTP API 凭证",
+      "desktopButtonDesc": "最适合用户管理——全球账户、子账户、目录、CF 组织和空间"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1664,8 +1671,30 @@
     },
     "ias": {
       "label": "与SAP IAS配合使用",
-      "title1": "IAS保证身份。",
-      "title2": "BTP xID管理访问。"
+      "title1": "IAS 保护身份。",
+      "title2": "BTP xID 管理访问。",
+      "label2": "补充 SAP IAS",
+      "subtitle": "BTP xID 还帮助您到达并管理 IAS 无法覆盖的 SAP BTP 环境的各个角落。",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "身份、身份验证和部分访问管理",
+      "iasItems": [
+        "单点登录和多因素身份验证",
+        "企业 IdP 联合 (SAML / OIDC)",
+        "通过 SCIM 进行用户供应",
+        "基于风险的身份验证策略",
+        "身份验证审计日志",
+        "SAP BTP Global 和 Sub-account 级别的用户和角色分配"
+      ],
+      "xidBadge": "BTP xID",
+      "xidTitle": "完整的访问管理",
+      "xidItems": [
+        "在每个 Global Account、Sub-account、Cloud Foundry Org 和 Space 中的 Service API 凭证管理——在一个位置列出、审计和撤销 OAuth 凭证",
+        "在多个 Global Account、Sub-account、Directory、Cloud Foundry Org 和 Cloud Foundry Space 中的用户管理和角色分配——在单个统一界面中",
+        "整个 BTP 环境的批量用户管理",
+        "环境范围的可见性：谁可以访问什么，每个账户中",
+        "自定义 IdP 用户的管理——不仅仅是 SAP ID Service 账户"
+      ],
+      "footer": "无论您是否拥有 IAS，BTP xID 都为您提供了一个位置来查看和管理所有 BTP 访问——全球账户、子账户、CF Org 和 Space 中的用户、角色和 API 凭证。"
     },
     "threeSteps": {
       "label": "在SAP BTP中保护API凭据的三个步骤",
@@ -1685,6 +1714,105 @@
       "item1Strong": "本地运行",
       "item2Strong": "直接到BTP API",
       "item3Strong": "您的凭证，您的认证"
+    },
+    "gaps": {
+      "label": "管理漏洞",
+      "title": "SAP BTP 服务密钥难以管理",
+      "subtitle": "服务密钥授予对 SAP BTP 服务的 API 访问权限——是流经 SAP BTP Integration Suite 的数据网关。受损的密钥可被用于插入虚假数据、读取组织数据或触发集成。",
+      "items": [
+        {
+          "title": "Owner",
+          "desc": "默认情况下，BTP 没有记录凭证所有者。访问审核或事件响应每次都从零开始。"
+        },
+        {
+          "title": "Expiry",
+          "desc": "服务密钥不会过期。大多数安全标准要求按照既定计划轮换凭证，但 BTP 没有内置机制来强制执行或跟踪此操作。"
+        },
+        {
+          "title": "Purpose",
+          "desc": "没有记录密钥的用途。审核无法将关键集成与被遗忘的测试密钥区分开来。"
+        },
+        {
+          "title": "Consumer",
+          "desc": "没有记录哪个系统依赖密钥。在不在生产中测试的情况下，您无法评估轮换或撤销密钥的影响。"
+        },
+        {
+          "title": "Rotation",
+          "desc": "没有轮换历史记录。您无法证明凭证是否曾被更改或何时被更改。"
+        },
+        {
+          "title": "Cross-account visibility",
+          "desc": "跨账户没有统一视图。跨环境的访问审核意味着逐个访问每个全球账户、子账户和 Cloud Foundry 组织和空间。"
+        },
+        {
+          "title": "Leaver process",
+          "desc": "人员和凭证之间没有关联。当有权访问密钥机密的人离职时，安全标准要求轮换并重新分配他们能访问的密钥——但无法识别具体是哪些。"
+        }
+      ]
+    },
+    "standards": {
+      "label": "合规",
+      "title": "这对您的审计意味着什么",
+      "subtitle": "安全框架要求凭证具有可追责的所有者、定义的生命周期和可审计的访问。",
+      "cta": "了解更多",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC 审计要求提供谁可以访问影响财务报告的系统的证据，以及如何审查这些访问。BTP xID 为每个凭证记录所有者，并提供这些审查所需的跨账户访问视图。"
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 要求访问权限受到限制并由业务需要证明。A.8.24 要求在整个生命周期内管理加密机密。BTP xID 记录每个凭证的所有者和目的，并添加过期日期和轮换跟踪。"
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 要求系统账户可识别。IA-5 要求在定义的间隔刷新身份验证器。AC-2 要求定期审计账户。BTP xID 使用所有者和目的元数据识别每个凭证，跟踪轮换，并使 Cloud Foundry 空间级别创建的密钥在中央可见。"
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "要求 8.3.10.1 规定定期更改静态机密。要求 8.6 要求系统账户分配给所有者并进行审查。BTP xID 为每个服务密钥添加轮换跟踪和所有者分配。"
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 和 CC6.2 涵盖逻辑访问供应和移除——包括由已离职的人创建的凭证。CC7.1 涵盖新访问路径的监控。BTP xID 允许您查找已离职用户拥有的每个凭证，并在一个视图中显示在环境中任何地方创建的密钥。"
+        }
+      ]
+    },
+    "closes": {
+      "label": "解决方案",
+      "title": "BTP xID 如何弥补每个漏洞",
+      "subtitle": "BTP xID 在您现有的环境之上添加了一个管理层。元数据存储在凭证本身上，位于您自己的账户中——而不是在单独的数据库中。",
+      "items": [
+        {
+          "gap": "Owner & responsible party",
+          "fix": "每个凭证上的管理字段记录谁拥有该凭证以及谁负责使用该凭证的系统。"
+        },
+        {
+          "gap": "Expiry & rotation",
+          "fix": "为任何凭证设置过期日期，一键轮换，并保留最后一次轮换的记录。"
+        },
+        {
+          "gap": "Purpose & consumer",
+          "fix": "记录每个密钥的用途和消费系统，这样凭证审查就不取决于任何人的记忆。"
+        },
+        {
+          "gap": "Cross-account visibility",
+          "fix": "跨全球账户、子账户、Cloud Foundry 组织和空间统一查看用户和凭证。按用户反向搜索以查看他们可以访问的所有内容。"
+        },
+        {
+          "gap": "Leaver process",
+          "fix": "查询离职人员拥有的所有凭证，然后轮换和重新分配——可重复的流程而不是调查。"
+        },
+        {
+          "gap": "Audit evidence",
+          "fix": "安全洞察评分跨环境的管理覆盖范围，并准确显示哪些凭证缺少所有者、过期日期或目的。"
+        }
+      ]
     }
   },
   "cookie": {

@@ -1560,7 +1560,9 @@
       "description": "Kontrollige iga BTP kasutajat, rolli ja API identimisteavet kogu oma maastikul - ühest rakendusest. Täielik nähtavus, täielik kontroll, iga Global Account'i, alamkonto ja Cloud Foundry keskkonna üle, mida te käitate.",
       "shieldBadge": "SAP OAuth · Mandaate ei salvestata",
       "title": "Täielik API-tunnistuste haldus teie SAP BTP-maastikul.",
-      "tagline": "API-tunniste ja juurdepääsu haldus SAP BTP jaoks"
+      "tagline": "API-tunniste ja juurdepääsu haldus SAP BTP jaoks",
+      "headline": "BTP xID aitab teil kaitseda SAP BTP API teenuseklahve",
+      "subhead": "BTP xID toob omandiõiguse, elutsükli ja auditeeritavuse igale teenuseklahvile kogu teie maastikul – et te jääksite vastavuses turvastandarditega."
     },
     "valueProps": {
       "0": "Ainus BTP kasutajahalduse rakendus, mida kunagi vajate",
@@ -1594,7 +1596,12 @@
         "description": "Windows võib installiprogrammi käivitamisel kuvada SmartScreen hoiatuse. Jätkamiseks:",
         "step1": "Klõpsake SmartScreen dialoogis <1>Lisateave</1>",
         "step2": "Klõpsake <1>Käivita ikkagi</1>"
-      }
+      },
+      "getStartedLabel": "Alusta",
+      "getStartedTitle": "Näe iga teenuseklahve oma maastikul täna.",
+      "webButton": "Avage BTP xID oma brauseris",
+      "webButtonDesc": "Parim API mandaatide ja teenuseklahvide haldamiseks – pöörake ja hallatage BTP API mandaate",
+      "desktopButtonDesc": "Parim kasutajate haldamiseks – Global Accounts, alamkontod, kataloogid, CF organisatsioonid ja ruumid"
     },
     "downloadOptions": {
       "macArm64Label": "MacOS Apple Silicon",
@@ -1672,6 +1679,131 @@
       "step2Ref": "SAP — Service Instance Secrets",
       "step3Label": "3. Leidke ja eemaldage kummituse API-tunnistused",
       "step3Body": "Global Account-taseme API-tunnistused ei ole BTP-kabiin nähtavad — ainult BTP CLI kaudu. BTP xID paljastab need kõik."
+    },
+    "gaps": {
+      "label": "Valitsemise lünk",
+      "title": "SAP BTP teenuseklahve on raske hallata",
+      "subtitle": "Teenusekahvel annab API juurdepääsu teie SAP BTP teenustele – see on värav andmete jaoks, mis voolavad SAP BTP Integration Suite kaudu. Kompromiteeritud võti saab kasutada väär andmete sisestamiseks, organisatsiooniliste andmete lugemiseks või integratsiooni käivitamiseks.",
+      "items": [
+        {
+          "title": "Omanik",
+          "desc": "Vaikimisi ei ole BTP-l registreeritud mandaadi omanikku. Juurdepääsu ülevaatus või intsidendile reageerimine algab iga kord nullist."
+        },
+        {
+          "title": "Aegumine",
+          "desc": "Teenusevõtmed ei aegu. Enamik turvastandardeid nõuab mandaatide vahetamist kindla ajakava alusel, kuid BTP-l puudub sisseehitatud mehhanism selle jõustamiseks või jälgimiseks."
+        },
+        {
+          "title": "Otstarve",
+          "desc": "Puudub kirje selle kohta, milleks võti on. Ülevaatus ei suuda eristada kriitilist integratsiooni unustatud testivõtmest."
+        },
+        {
+          "title": "Tarbija",
+          "desc": "Puudub kirje selle kohta, milline süsteem võtmest sõltub. Ilma tootmiskeskkonnas testimata ei saa hinnata selle vahetamise või tühistamise mõju."
+        },
+        {
+          "title": "Vahetamine",
+          "desc": "Vahetamise ajalugu puudub. Ei ole võimalik tõendada, et mandaati on kunagi muudetud, ega millal."
+        },
+        {
+          "title": "Kontodevaheline nähtavus",
+          "desc": "Puudub koondvaade kõigi kontode üleselt. Kogu maastikku hõlmav juurdepääsu ülevaatus tähendab iga globaalse konto, alamkonto ning Cloud Foundry organisatsiooni ja ruumi eraldi külastamist."
+        },
+        {
+          "title": "Lahkumisprotsess",
+          "desc": "Puudub seos inimeste ja mandaatide vahel. Kui keegi, kellel on juurdepääs võtme saladusele, lahkub, nõuavad turvastandardid nende võtmete vahetamist ja ümbermääramist, millele tal oli juurdepääs — kuid puudub võimalus tuvastada, millised need võtmed on."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Nõuetele vastavus",
+      "title": "Mida see teie auditile tähendab",
+      "subtitle": "Turvakarkassi nõuavad, et mandaatidel oleks vastutavad omanikud, määratletud elutsüklid ja ülevaatavad juurdepääsud.",
+      "cta": "Lugege edasi",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC auditid nõuavad tõendeid selle kohta, kellel on juurdepääs finantsaruandlust mõjutavatele süsteemidele ja kuidas seda juurdepääsu üle vaadatakse. BTP xID registreerib iga mandaadi jaoks omaniku ja pakub kontodevahelist juurdepääsu vaadet, mida need ülevaatused nõuavad."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 nõuab, et juurdepääs oleks piiratud ja põhjendatud äriliste vajadustega. A.8.24 nõuab krüptograafiliste saladuste haldamist kogu nende olelusringi jooksul. BTP xID registreerib iga mandaadi omaniku ja otstarbe ning lisab aegumiskuupäevad ja vahetamise jälgimise."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 nõuab, et süsteemikontod oleksid tuvastatavad. IA-5 nõuab autentimisvahendite värskendamist kindlaksmääratud intervallidega. AC-2 nõuab regulaarseid kontoauditeid. BTP xID tuvastab iga mandaadi omaniku ja otstarbe metaandmetega, jälgib vahetamist ning muudab Cloud Foundry ruumi tasandil loodud võtmed kesksel viisil nähtavaks."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Nõue 8.3.10.1 näeb ette staatiliste saladuste regulaarse muutmise. Nõue 8.6 nõuab, et süsteemikontod oleksid omanikele määratud ja üle vaadatud. BTP xID lisab igale teenusevõtmele vahetamise jälgimise ja omaniku määramise."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 ja CC6.2 käsitlevad loogilise juurdepääsu andmist ja eemaldamist — sealhulgas mandaate, mille on loonud inimesed, kes on vahepeal lahkunud. CC7.1 käsitleb uute juurdepääsuteede jälgimist. BTP xID võimaldab teil leida iga mandaadi, mis kuulub lahkunud kasutajale, ja näitab ühes vaates kõikjal maastikul loodud võtmeid."
+        }
+      ]
+    },
+    "closes": {
+      "label": "Lahendus",
+      "title": "Kuidas BTP xID suleb iga lünka",
+      "subtitle": "BTP xID lisab valitsemiskihi teie olemasolevale maastikule. Metaandmed salvestatakse mandaadil endal teie kontos – mitte eraldi andmebaasis.",
+      "items": [
+        {
+          "gap": "Omanik ja vastutav isik",
+          "fix": "Iga mandaadi kirje haldusväljad näitavad, kellele see kuulub ja kes vastutab tarbiva süsteemi eest."
+        },
+        {
+          "gap": "Aegumine ja vahetamine",
+          "fix": "Määrake mis tahes mandaadile aegumiskuupäev, vahetage see ühe klõpsuga ning pidage arvestust selle üle, millal seda viimati vahetati."
+        },
+        {
+          "gap": "Otstarve ja tarbija",
+          "fix": "Registreerige, milleks iga võti on mõeldud ja milline süsteem seda tarbib, et mandaatide ülevaatus ei sõltuks kellegi mälust."
+        },
+        {
+          "gap": "Kontodevaheline nähtavus",
+          "fix": "Üks vaade kasutajatele ja mandaatidele kõigi globaalsete kontode, alamkontode, Cloud Foundry organisatsioonide ja ruumide üleselt. Pöördotsing kasutaja järgi, et näha kõike, millele tal on juurdepääs."
+        },
+        {
+          "gap": "Lahkumisprotsess",
+          "fix": "Päring kõigi lahkuva inimese omanduses olevate mandaatide kohta, seejärel nende vahetamine ja ümbermääramine — korratav protsess uurimise asemel."
+        },
+        {
+          "gap": "Auditi tõendid",
+          "fix": "Security Insights hindab haldusalast katvust kogu teie maastikul ja näitab täpselt, millistel mandaatidel puudub omanik, aegumiskuupäev või otstarve."
+        }
+      ]
+    },
+    "ias": {
+      "label2": "SAP IAS-i täiendamine",
+      "title1": "IAS turvab identiteeti.",
+      "title2": "BTP xID hallitseb juurdepääsu.",
+      "subtitle": "BTP xID aitab teil samuti kätte saada ja hallata SAP BTP maastiku nurki, mida IAS ei saa.",
+      "iasBadge": "SAP IAS",
+      "iasTitle": "Identiteet, autentimine ja osaline juurdepääsu valitsus",
+      "xidBadge": "BTP xID",
+      "xidTitle": "Täielik juurdepääsu valitsus",
+      "footer": "Olenemata sellest, kas teil on IAS-i või mitte, annab BTP xID teile koha kõigi BTP juurdepääsude nägemiseks ja haldamiseks – kasutajad, rollid ja API mandaadid globaalsete kontode, alamkontode, CF organisatsioonide ja ruumide kohal.",
+      "iasItems": [
+        "Ühekordne sisselogimine ja mitmefaktoriline autentimine",
+        "Ettevõtte IdP föderatsioon (SAML / OIDC)",
+        "Kasutajate provisioneerimine SCIM kaudu",
+        "Riskipõhised autentimispoliitikad",
+        "Autentimise auditilogid",
+        "Kasutajate ja rollide määramine SAP BTP Globaalse ja Alamkonto tasandil"
+      ],
+      "xidItems": [
+        "Teenuse API mandaatide haldamine igas Global Account'is, Sub-account'is, Cloud Foundry Org'is ja Space'is — OAuth mandaatide loetlemine, auditeerimine ja tühistamine ühest kohast",
+        "Kasutajate haldus ja rollide määramine mitme Global Account'i, Sub-account'i, Directory, Cloud Foundry Org'i ja Cloud Foundry Space'i üleselt ühtses kasutajaliideses",
+        "Massiline kasutajahaldus kogu teie BTP maastikul",
+        "Maastikuülene nähtavus: kellel on juurdepääs millele, kõigi kontode üleselt",
+        "Haldus kohandatud IdP kasutajatele — mitte ainult SAP ID Service kontodele"
+      ]
     }
   },
   "cookie": {
