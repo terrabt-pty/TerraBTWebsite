@@ -1584,9 +1584,10 @@
   "btpxidTagline": "SAP BTP API credential & user management",
   "btpxidProduct": {
     "hero": {
-      "tagline": "API Credential & Access Management for SAP BTP",
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
+      "headline": "BTP xID Helps You Secure Your SAP BTP API Service Keys",
+      "subhead": "BTP xID brings ownership, lifecycle, and auditability to every service key across your landscape — so you stay compliant with security standards.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
@@ -1596,6 +1597,105 @@
       "choiceDesktopDesc": "Best For User Management — Manage Global Accounts, Subaccounts, Directories, CF Users, Orgs, And Spaces From A Native MacOS Or Windows App.",
       "choiceWebTitle": "Open In Browser",
       "choiceWebDesc": "Best For API Credential/Service Keys Management — Rotate And Govern BTP API Credentials With No Installation Needed."
+    },
+    "gaps": {
+      "label": "The Governance Gap",
+      "title": "Why SAP BTP service keys are hard to govern",
+      "subtitle": "A service key grants API access to your SAP BTP services — it's the gateway for data flowing through SAP BTP Integration Suite. A compromised key can be used to insert false data, read organizational data, or trigger integrations.",
+      "items": [
+        {
+          "title": "Owner",
+          "desc": "By default, BTP has no credential owner on record. An access review or incident response starts from zero every time."
+        },
+        {
+          "title": "Expiry",
+          "desc": "Service keys do not expire. Every key ever issued is still live today unless someone manually deleted it."
+        },
+        {
+          "title": "Purpose",
+          "desc": "No record of what a key is for. A review can't tell a critical integration apart from a forgotten test key."
+        },
+        {
+          "title": "Consumer",
+          "desc": "No record of which system depends on a key. You can't assess the impact of rotating or revoking it without testing in production."
+        },
+        {
+          "title": "Rotation",
+          "desc": "No rotation history. You cannot demonstrate that a credential was ever changed, or when."
+        },
+        {
+          "title": "Cross-account visibility",
+          "desc": "No consolidated view across accounts. A landscape-wide access review means visiting every global account, subaccount, and Cloud Foundry org and space individually."
+        },
+        {
+          "title": "Leaver process",
+          "desc": "No link between people and credentials. When someone with access to a key's secret leaves, security standards require rotating and reassigning the keys they could access — but there is no way to identify which keys those are."
+        }
+      ]
+    },
+    "standards": {
+      "label": "Compliance",
+      "title": "What this means for your audit",
+      "subtitle": "Security frameworks require credentials to have accountable owners, defined lifecycles, and reviewable access. These are the controls affected by the gaps above — and the evidence BTP xID gives you for each.",
+      "cta": "See the full control-by-control mapping",
+      "cards": [
+        {
+          "name": "SOX",
+          "clauses": "IT General Controls",
+          "text": "SOX ITGC audits ask for evidence of who has access to systems that affect financial reporting, and how that access is reviewed. BTP xID records an owner for every credential and provides the cross-account access view those reviews require."
+        },
+        {
+          "name": "ISO/IEC 27001:2022",
+          "clauses": "A.5.15 · A.8.24",
+          "text": "A.5.15 requires access to be restricted and justified by business need. A.8.24 requires cryptographic secrets to be managed through their lifecycle. BTP xID records owner and purpose on each credential, and adds expiry dates and rotation tracking."
+        },
+        {
+          "name": "NIST SP 800-53",
+          "clauses": "IA-4 · IA-5 · AC-2",
+          "text": "IA-4 requires system accounts to be identifiable. IA-5 requires authenticators to be refreshed at defined intervals. AC-2 requires regular account audits. BTP xID identifies every credential with owner and purpose metadata, tracks rotation, and makes keys created at Cloud Foundry space level visible centrally."
+        },
+        {
+          "name": "PCI DSS 4.0",
+          "clauses": "8.3.10.1 · 8.6",
+          "text": "Requirement 8.3.10.1 mandates that static secrets are changed regularly. Requirement 8.6 requires system accounts to be assigned to owners and reviewed. BTP xID adds rotation tracking and owner assignment to every service key."
+        },
+        {
+          "name": "SOC 2 Type II",
+          "clauses": "CC6.1 · CC6.2 · CC7.1",
+          "text": "CC6.1 and CC6.2 cover logical access provisioning and removal — including credentials created by people who have since left. CC7.1 covers monitoring of new access paths. BTP xID lets you find every credential owned by a departed user, and shows keys created anywhere in the landscape in one view."
+        }
+      ]
+    },
+    "closes": {
+      "label": "The Fix",
+      "title": "How BTP xID closes each gap",
+      "subtitle": "BTP xID adds a governance layer on top of your existing landscape. Metadata is stored on the credential itself, in your own accounts — not in a separate database.",
+      "items": [
+        {
+          "gap": "Owner & responsible party",
+          "fix": "Governance fields on every credential record who owns it and who is responsible for the consuming system."
+        },
+        {
+          "gap": "Expiry & rotation",
+          "fix": "Set an expiry date on any credential, rotate it in one click, and keep a record of when it was last rotated."
+        },
+        {
+          "gap": "Purpose & consumer",
+          "fix": "Record what each key is for and which system consumes it, so a credential review does not depend on anyone's memory."
+        },
+        {
+          "gap": "Cross-account visibility",
+          "fix": "One view of users and credentials across all global accounts, subaccounts, Cloud Foundry orgs and spaces. Reverse-search by user to see everything they can access."
+        },
+        {
+          "gap": "Leaver process",
+          "fix": "Query all credentials owned by a departing person, then rotate and reassign them — a repeatable process instead of an investigation."
+        },
+        {
+          "gap": "Audit evidence",
+          "fix": "Security Insights scores governance coverage across your landscape and shows exactly which credentials are missing owners, expiry dates, or purpose."
+        }
+      ]
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
@@ -1712,7 +1812,7 @@
       "label": "Works With SAP IAS",
       "title1": "IAS secures identity.",
       "title2": "BTP xID governs access.",
-      "subtitle": "SAP IAS handles authentication. BTP xID handles what comes after — who can access what, across every account, org, and space in your BTP landscape.",
+      "subtitle": "BTP xID also helps you reach and govern the corners of your SAP BTP landscape that IAS can't.",
       "iasBadge": "SAP IAS",
       "iasTitle": "Identity, Authentication & Partial Access Governance",
       "xidBadge": "BTP xID",

@@ -26,6 +26,71 @@ const HERO_SCREENSHOT = {
   alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
 };
 
+// FAQ structured data — factual statements about SAP BTP service key gaps.
+// Rendered as JSON-LD so search and AI engines can cite the answers directly.
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Do SAP BTP service keys expire?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. SAP BTP service keys have no expiration date and remain valid until they are explicitly deleted. Compliance frameworks such as PCI DSS 4.0 (requirement 8.3.10.1) and ISO/IEC 27001:2022 (control A.8.24) require credentials to be managed through a defined lifecycle, so teams must add expiry and rotation tracking themselves. BTP xID adds an expiry date and rotation record to every credential.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Does SAP BTP record who owns a service key?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. SAP BTP has no owner field on a service key. The platform does not store who owns a key, what it is used for, or which system consumes it. BTP xID adds owner, responsible party, and purpose fields to every credential, stored as metadata on the credential itself in your own landscape.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What happens to SAP BTP service keys when an employee leaves?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The keys keep working. Removing a user from a subaccount does not delete or rotate the service keys they created, and SAP BTP does not record who created a key. Security standards such as NIST SP 800-53 IA-5 and PCI DSS 8.6 require rotating a credential and reassigning its ownership when a person with access to its secret leaves. BTP xID records an owner on every credential, so a leaver event becomes a query followed by rotation and reassignment.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do you review all users and service keys across an SAP BTP landscape?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Natively, only by visiting each global account, subaccount, Cloud Foundry org, and space individually — SAP BTP has no single cross-account view. BTP xID provides one view of all users and API credentials across the entire landscape, including reverse search by user.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which compliance controls are affected by SAP BTP service key gaps?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The missing owner, expiry, purpose, and rotation records on SAP BTP service keys affect ISO/IEC 27001:2022 controls A.5.15 and A.8.24, NIST SP 800-53 controls IA-4, IA-5, and AC-2, PCI DSS 4.0 requirements 8.3.10.1 and 8.6, SOC 2 Trust Services Criteria CC6.1, CC6.2, and CC7.1, and SOX IT General Controls for access management.",
+      },
+    },
+  ],
+};
+
+interface GapItem {
+  title: string;
+  desc: string;
+}
+
+interface StandardCard {
+  name: string;
+  clauses: string;
+  text: string;
+}
+
+interface CloseItem {
+  gap: string;
+  fix: string;
+}
+
 interface VersionInfo {
   version: string;
   mac: { arm64: string; x64: string };
@@ -173,9 +238,13 @@ export default function BTPxIDProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="BTP xID | SAP BTP API Credential & Access Management by TerraBT"
-        description="BTP xID is a desktop app for complete SAP BTP API credential and user management. Govern every user, role, and API credential across Global Accounts, sub-accounts, and Cloud Foundry environments from one place."
+        title="BTP xID | SAP BTP Service Key Governance — Owner, Expiry, Rotation | TerraBT"
+        description="SAP BTP service keys have no owner, no expiry date, and no record of purpose. BTP xID adds owner, purpose, expiry, and rotation tracking to every credential and one view of users and keys across your landscape — evidence for ISO 27001, SOC 2, PCI DSS, NIST 800-53, and SOX audits."
         path="/products/btp-xid"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }}
       />
       <Navigation />
 
@@ -193,56 +262,11 @@ export default function BTPxIDProduct() {
               </span>
             </div>
 
-            {/* Tagline */}
-            <p className="btpxid-hero-tagline">{t('btpxidProduct.hero.tagline')}</p>
-
             {/* Headline */}
-            <h1 className="btpxid-hero-title">{t('btpxidProduct.hero.title')}</h1>
+            <h1 className="btpxid-hero-title">{t('btpxidProduct.hero.headline')}</h1>
 
             {/* Description */}
-            <p className="btpxid-hero-desc">{t('btpxidProduct.hero.description')}</p>
-
-            {/* Two ways to use BTP xID — desktop app or web app */}
-            <div className="btpxid-choice">
-              <p className="btpxid-choice-intro">{t('btpxidProduct.hero.choiceIntro')}</p>
-              <div className="btpxid-choice-grid">
-                <a
-                  href={XID_WEB_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btpxid-choice-card btpxid-choice-card-web"
-                >
-                  <span className="btpxid-choice-icon">
-                    <Globe className="h-6 w-6" />
-                  </span>
-                  <span className="btpxid-choice-body">
-                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceWebTitle')}</span>
-                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceWebDesc')}</span>
-                  </span>
-                  <span className="btpxid-choice-platforms">
-                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                  </span>
-                </a>
-
-                <button
-                  type="button"
-                  onClick={() => scrollToSection("#download")}
-                  className="btpxid-choice-card btpxid-choice-card-desktop"
-                >
-                  <span className="btpxid-choice-icon">
-                    <Download className="h-6 w-6" />
-                  </span>
-                  <span className="btpxid-choice-body">
-                    <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
-                    <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
-                  </span>
-                  <span className="btpxid-choice-platforms">
-                    <FaApple className="h-4 w-4" aria-hidden="true" />
-                    <FaWindows className="h-4 w-4" aria-hidden="true" />
-                  </span>
-                </button>
-              </div>
-            </div>
+            <p className="btpxid-hero-desc">{t('btpxidProduct.hero.subhead')}</p>
           </div>
 
           {/* Screenshot — full-width block below text */}
@@ -260,11 +284,84 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
+      {/* ===== GAPS — what SAP BTP does not record ===== */}
+      <section className="btpxid-gaps" id="gaps">
+        <div className="btpxid-gaps-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.gaps.label')}</div>
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.gaps.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.gaps.subtitle')}</p>
+          </div>
+
+          <div className="btpxid-gaps-grid">
+            {(t('btpxidProduct.gaps.items', { returnObjects: true }) as GapItem[]).map((item) => (
+              <div key={item.title} className="btpxid-gap-card">
+                <h3 className="btpxid-gap-title">{item.title}</h3>
+                <p className="btpxid-gap-desc">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== STANDARDS — audit impact ===== */}
+      <section className="btpxid-standards" id="compliance">
+        <div className="btpxid-standards-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.standards.label')}</div>
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.standards.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.standards.subtitle')}</p>
+          </div>
+
+          <div className="btpxid-standards-grid">
+            {(t('btpxidProduct.standards.cards', { returnObjects: true }) as StandardCard[]).map((card) => (
+              <div key={card.name} className="btpxid-standard-card">
+                <div className="btpxid-standard-head">
+                  <h3 className="btpxid-standard-name">{card.name}</h3>
+                  <span className="btpxid-standard-clauses">{card.clauses}</span>
+                </div>
+                <p className="btpxid-standard-text">{card.text}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="btpxid-standards-cta">
+            <a href={getLocalizedPath("/products/btp-xid/compliance")} className="btpxid-standards-link">
+              {t('btpxidProduct.standards.cta')}
+              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== HOW BTP xID CLOSES EACH GAP ===== */}
+      <section className="btpxid-closes" id="features">
+        <div className="btpxid-closes-inner">
+          <div className="btpxid-showcase-header">
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.closes.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.closes.subtitle')}</p>
+          </div>
+
+          <div className="btpxid-closes-grid">
+            {(t('btpxidProduct.closes.items', { returnObjects: true }) as CloseItem[]).map((item) => (
+              <div key={item.gap} className="btpxid-close-card">
+                <div className="btpxid-close-check">
+                  <CheckCircle className="h-5 w-5" aria-hidden="true" />
+                </div>
+                <div>
+                  <h3 className="btpxid-close-gap">{item.gap}</h3>
+                  <p className="btpxid-close-fix">{item.fix}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ===== IAS COMPLEMENT ===== */}
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">{t('btpxidProduct.ias.label')}</div>
       <h2 className="btpxid-showcase-title">
         {t('btpxidProduct.ias.title1')}<br />{t('btpxidProduct.ias.title2')}
       </h2>
@@ -344,6 +441,47 @@ export default function BTPxIDProduct() {
             <h2 className="btpxid-showcase-title">
               {t('btpxidProduct.download.title')}
             </h2>
+          </div>
+
+          {/* Two ways to use BTP xID — desktop app or web app */}
+          <div className="btpxid-choice btpxid-choice-wide">
+            <div className="btpxid-choice-grid">
+              <a
+                href={XID_WEB_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btpxid-choice-card btpxid-choice-card-web"
+              >
+                <span className="btpxid-choice-icon">
+                  <Globe className="h-6 w-6" />
+                </span>
+                <span className="btpxid-choice-body">
+                  <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceWebTitle')}</span>
+                  <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceWebDesc')}</span>
+                </span>
+                <span className="btpxid-choice-platforms">
+                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                </span>
+              </a>
+
+              <button
+                type="button"
+                onClick={() => scrollToSection("#download")}
+                className="btpxid-choice-card btpxid-choice-card-desktop"
+              >
+                <span className="btpxid-choice-icon">
+                  <Download className="h-6 w-6" />
+                </span>
+                <span className="btpxid-choice-body">
+                  <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
+                  <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
+                </span>
+                <span className="btpxid-choice-platforms">
+                  <FaApple className="h-4 w-4" aria-hidden="true" />
+                  <FaWindows className="h-4 w-4" aria-hidden="true" />
+                </span>
+              </button>
+            </div>
           </div>
 
           {/* Primary OS download */}

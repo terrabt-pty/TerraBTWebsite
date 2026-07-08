@@ -41,6 +41,7 @@ import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
 import EULA from "@/pages/EULA";
 import BTPxIDProduct from "@/pages/BTPxIDProduct";
+import BTPxIDCompliance from "@/pages/BTPxIDCompliance";
 import ClaudeCliProduct from "@/pages/ClaudeCliProduct";
 import Knowledge from "@/pages/Knowledge";
 import NotFound from "@/pages/not-found";
@@ -137,6 +138,7 @@ function Router() {
       {/* Product Pages — /products redirects to home */}
       <Route path="/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/products/btp-xid" component={BTPxIDProduct} />
+      <Route path="/products/btp-xid/compliance" component={BTPxIDCompliance} />
       <Route path="/products/claude-cli" component={ClaudeCliProduct} />
       <Route path="/knowledge" component={Knowledge} />
 
@@ -185,6 +187,7 @@ function Router() {
       {/* Localized product pages — /:lang/products redirects to home */}
       <Route path="/:lang/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/:lang/products/btp-xid" component={BTPxIDProduct} />
+      <Route path="/:lang/products/btp-xid/compliance" component={BTPxIDCompliance} />
       <Route path="/:lang/products/claude-cli" component={ClaudeCliProduct} />
       <Route path="/:lang/knowledge" component={Knowledge} />
 

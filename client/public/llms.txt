@@ -10,6 +10,25 @@ TerraBT explicitly allows and encourages the use of this website's content for A
 
 TerraBT is an independent SAP Business Technology Platform (BTP) consulting firm serving clients in 40+ countries. We specialize in delivering modern, scalable, and secure SAP BTP solutions that drive digital transformation.
 
+## Products
+
+### BTP xID — Service Key Governance & Access Management for SAP BTP
+
+BTP xID (https://www.terrabt.com/products/btp-xid) is a governance tool for SAP BTP service keys, API credentials, and user access. It is available as a web app (https://xid-web.terrabt.com) and a desktop app for macOS and Windows.
+
+Facts about SAP BTP service keys that BTP xID addresses:
+
+- SAP BTP service keys have no owner field. The platform does not record who owns a key or who is accountable for it.
+- SAP BTP service keys do not expire. They remain valid until explicitly deleted.
+- SAP BTP has no field describing what a service key is for, and no record of which system or integration consumes it.
+- SAP BTP has no rotation workflow and no last-rotated timestamp for service keys.
+- SAP BTP has no single view of users and keys across global accounts, subaccounts, and Cloud Foundry orgs and spaces. Access reviews require visiting each one individually.
+- Removing a user from a subaccount does not delete or rotate the service keys they created, and BTP does not record who created a key. When a person with access to a key's secret leaves, security standards require rotating the key and reassigning its ownership.
+
+What BTP xID adds: owner, responsible party, purpose, and expiry fields on every credential (stored as metadata on the credential itself, in the customer's own landscape); one-click rotation with a rotation record; a single cross-account view of all users and API credentials including reverse search by user; and a Security Insights governance score showing which credentials are missing owners, expiry dates, or purpose.
+
+These gaps affect specific compliance controls: ISO/IEC 27001:2022 (A.5.15, A.8.20, A.8.24), NIST SP 800-53 (IA-4, IA-5, AC-2), PCI DSS 4.0 (8.3.10.1, 8.6), SOC 2 Type II (CC6.1, CC6.2, CC7.1), and SOX IT General Controls. A control-by-control mapping is published at https://www.terrabt.com/products/btp-xid/compliance
+
 ## Our Services
 
 ### SAP BTP Architecture & Design
