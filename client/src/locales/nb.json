@@ -1728,7 +1728,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Styringsgapet",
+      "label": "Utfordringen",
       "title": "SAP BTP-tjenestekoder er vanskelige å styre",
       "subtitle": "En tjenestekode gir API-tilgang til dine SAP BTP-tjenester - det er gatewayen for data som flyter gjennom SAP BTP Integration Suite. En kompromittert nøkkel kan brukes til å sette inn falske data, lese organisasjonsdata eller utløse integrasjoner.",
       "items": [

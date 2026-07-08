@@ -1681,7 +1681,7 @@
       "step3Body": "Global Account-taseme API-tunnistused ei ole BTP-kabiin nähtavad — ainult BTP CLI kaudu. BTP xID paljastab need kõik."
     },
     "gaps": {
-      "label": "Valitsemise lünk",
+      "label": "Väljakutse",
       "title": "SAP BTP teenuseklahve on raske hallata",
       "subtitle": "Teenusekahvel annab API juurdepääsu teie SAP BTP teenustele – see on värav andmete jaoks, mis voolavad SAP BTP Integration Suite kaudu. Kompromiteeritud võti saab kasutada väär andmete sisestamiseks, organisatsiooniliste andmete lugemiseks või integratsiooni käivitamiseks.",
       "items": [

@@ -1681,7 +1681,7 @@
       "step3Body": "A Global Account szintű API hitelesítési adatok nem láthatók a BTP pilótafülkében — csak a BTP CLI-n keresztül. A BTP xID az összeset felhozza."
     },
     "gaps": {
-      "label": "Irányítási hiányosság",
+      "label": "A kihívás",
       "title": "Az SAP BTP szolgáltatási kulcsai nehezen irányíthatóak",
       "subtitle": "A szolgáltatási kulcs API-hozzáférést biztosít az SAP BTP-szolgáltatásokhoz — ez az adat áramlásának kapuja az SAP BTP Integration Suite-en keresztül. A kompromittált kulcs hamis adatok beszúrására, szervezeti adatok olvasására vagy integrációk kiváltására használható.",
       "items": [

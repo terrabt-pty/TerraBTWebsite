@@ -1721,7 +1721,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "De Governance-Kloof",
+      "label": "De Uitdaging",
       "title": "SAP BTP-servicesleutels zijn moeilijk te beheren",
       "subtitle": "Een servicesleutel geeft API-toegang tot uw SAP BTP-services - het is de gateway voor gegevensstroom via SAP BTP Integration Suite. Een gecompromitteerde sleutel kan worden gebruikt om valse gegevens in te voegen, organisatiegegevens te lezen of integraties te activeren.",
       "items": [

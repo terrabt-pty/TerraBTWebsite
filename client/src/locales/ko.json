@@ -1706,7 +1706,7 @@
       "item3Strong": "귀사의 자격증명, 귀사의 인증"
     },
     "gaps": {
-      "label": "거버넌스 격차",
+      "label": "과제",
       "title": "SAP BTP 서비스 키는 관리하기 어렵습니다",
       "subtitle": "서비스 키는 SAP BTP 서비스에 대한 API 액세스 권한을 부여합니다 — SAP BTP Integration Suite를 통해 데이터가 흐르는 게이트웨이입니다. 손상된 키는 잘못된 데이터를 삽입하거나, 조직 데이터를 읽거나, 통합을 트리거하는 데 사용될 수 있습니다.",
       "items": [

@@ -1679,7 +1679,7 @@
       "step3Body": "API-referenties op Global Account-niveau zijn niet zichtbaar in de BTP cockpit — alleen via BTP CLI. BTP xID toont ze allemaal."
     },
     "gaps": {
-      "label": "Die Bestuurgat",
+      "label": "Die Uitdaging",
       "title": "SAP BTP dienstestoetse is moeilik om te beheer",
       "subtitle": "'n Dienstetoets verleen API-toegang tot jou SAP BTP-dienste — dit is die poort vir data wat deur SAP BTP Integrasie Suite vloei. 'n Gekompromitteerde sleutel kan gebruik word om vals data in te voeg, organisasiedata te lees, of integrasies uit te voer.",
       "items": [

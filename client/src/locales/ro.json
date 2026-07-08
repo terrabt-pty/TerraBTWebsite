@@ -1681,7 +1681,7 @@
       "step3Body": "Credențialele API la nivelul Global Account nu sunt vizibile în cockpitul BTP — doar prin BTP CLI. BTP xID le aduce la suprafață pe toate."
     },
     "gaps": {
-      "label": "Decalajul de Guvernanță",
+      "label": "Provocarea",
       "title": "Cheile de serviciu SAP BTP sunt greu de guvernat",
       "subtitle": "O cheie de serviciu acordă acces API la serviciile dvs. SAP BTP — este poarta pentru datele care curg prin SAP BTP Integration Suite. O cheie compromisă poate fi utilizată pentru a introduce date false, a citi date organizaționale sau a declanșa integrări.",
       "items": [

@@ -1680,7 +1680,7 @@
       "step3Body": "API kredenciali na nivoju Global Account niso vidni v kabini BTP — samo prek BTP CLI. BTP xID jih vse izpostavi."
     },
     "gaps": {
-      "label": "Vrzel v upravljanju",
+      "label": "Izziv",
       "title": "Ključi storitve SAP BTP so težko upravljivi",
       "subtitle": "Ključ storitve daje dostop do API-ja vaših storitev SAP BTP — je vrata za podatke, ki tečejo skozi SAP BTP Integration Suite. Ogroženi ključ je mogoče uporabiti za vstavitev lažnih podatkov, branje podatkov organizacije ali sprožitev integracij.",
       "items": [

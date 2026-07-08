@@ -1728,7 +1728,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "A Lacuna de Governança",
+      "label": "O Desafio",
       "title": "As chaves de serviço SAP BTP são difíceis de governar",
       "subtitle": "Uma chave de serviço concede acesso à API para seus serviços SAP BTP - é o gateway para dados fluindo através do SAP BTP Integration Suite. Uma chave comprometida pode ser usada para inserir dados falsos, ler dados organizacionais ou acionar integrações.",
       "items": [

@@ -1680,7 +1680,7 @@
       "step3Body": "Global Account-ደረጃ API ክሪዴንሼል በ BTP cockpit ውስጥ የሚገኝ ሌላ — CLI ብቻ BTP በኩል ብቻ። BTP xID ያቀረቡ ሁሉ።"
     },
     "gaps": {
-      "label": "የአስተዳደር ክፍተት",
+      "label": "ፈተናው",
       "title": "SAP BTP አገልግሎት ቁልፎች ለአስተዳደር ከባድ ናቸው",
       "subtitle": "አገልግሎት ቁልፍ ወደ SAP BTP አገልግሎቶች API ዳሰሳ ይሰጣል — ለውሂብ ሙሌት ውስጥ SAP BTP Integration Suite በኩል ተንሳፋፊ የሆነው መግብር ነው። የተበላሸ ቁልፍ ም虚 ውሂብ ማስገባት፣ የድርጅት ውሂብ ማንበብ ወይም ውህደትን ለማስነሳት ጥቅም ላይ ሊውል ይችላል።",
       "items": [

@@ -1715,7 +1715,7 @@
       "item3Strong": "Sizin kimlik bilgileriniz, sizin kimlik doğrulama"
     },
     "gaps": {
-      "label": "Yönetişim Açığı",
+      "label": "Zorluk",
       "title": "SAP BTP hizmet anahtarlarını yönetmek zor",
       "subtitle": "Hizmet anahtarı SAP BTP hizmetlerinize API erişimi verir — SAP BTP Integration Suite'in veri akış kapısıdır. Güvenliği ihlal edilmiş bir anahtar sahte veri eklemek, kurumsal verileri okumak veya entegrasyonları tetiklemek için kullanılabilir.",
       "items": [

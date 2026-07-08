@@ -1680,7 +1680,7 @@
       "step3Body": "API poverenia na úrovni Global Account nie sú viditeľné v kabíne BTP — iba cez BTP CLI. BTP xID ich všetky vynáša."
     },
     "gaps": {
-      "label": "Medzera v riadení",
+      "label": "Výzva",
       "title": "Kľúče služby SAP BTP je ťažké spravovať",
       "subtitle": "Kľúč služby poskytuje prístup k API vašim službám SAP BTP — je bránou pre údaje pretekajúce cez SAP BTP Integration Suite. Kompromitovaný kľúč je možné použiť na vloženie falošných údajov, čítanie údajov organizácie alebo spustenie integrácií.",
       "items": [

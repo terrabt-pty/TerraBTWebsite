@@ -1599,7 +1599,7 @@
       "choiceWebDesc": "Best For API Credential/Service Keys Management — Rotate And Govern BTP API Credentials With No Installation Needed."
     },
     "gaps": {
-      "label": "The Governance Gap",
+      "label": "The Challenge",
       "title": "SAP BTP service keys are hard to govern",
       "subtitle": "A service key grants API access to your SAP BTP services — it's the gateway for data flowing through SAP BTP Integration Suite. A compromised key can be used to insert false data, read organizational data, or trigger integrations.",
       "items": [

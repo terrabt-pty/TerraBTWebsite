@@ -1681,7 +1681,7 @@
       "step3Body": "API legitimacijski podaci na razini Global Account nisu vidljivi u BTP kokpitu — samo putem BTP CLI. BTP xID obnaša sve njih."
     },
     "gaps": {
-      "label": "Jaz u upravljanju",
+      "label": "Izazov",
       "title": "SAP BTP ključevi usluge teško se mogu upravljati",
       "subtitle": "Ključ usluge daje API pristup vašim SAP BTP uslugama — to je vrata za podatke koji teku kroz SAP BTP Integration Suite. Kompromitiran ključ može se koristiti za ubacivanje lažnih podataka, čitanje podataka organizacije ili pokretanje integracija.",
       "items": [

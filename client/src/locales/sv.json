@@ -1727,7 +1727,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Styrningsgapet",
+      "label": "Utmaningen",
       "title": "SAP BTP-tjänstenycklar är svåra att styra",
       "subtitle": "En tjänstenyckel ger API-åtkomst till dina SAP BTP-tjänster — det är grinden för data som flödar genom SAP BTP Integration Suite. En komprometterad nyckel kan användas för att infoga falska data, läsa organisationsdata eller utlösa integreringar.",
       "items": [

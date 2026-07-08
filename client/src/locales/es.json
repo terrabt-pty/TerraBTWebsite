@@ -1727,7 +1727,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "La brecha de gobernanza",
+      "label": "El desafío",
       "title": "Las claves de servicio SAP BTP son difíciles de gobernar",
       "subtitle": "Una clave de servicio otorga acceso API a tus servicios SAP BTP – es la puerta para datos que fluyen a través del Suite de Integración de SAP BTP. Una clave comprometida puede usarse para insertar datos falsos, leer datos organizacionales o desencadenar integraciones.",
       "items": [

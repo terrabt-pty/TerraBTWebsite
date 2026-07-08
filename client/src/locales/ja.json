@@ -1746,7 +1746,7 @@
       "item3Span": "既存のBTPログインで署名"
     },
     "gaps": {
-      "label": "ガバナンスのギャップ",
+      "label": "課題",
       "title": "SAP BTP サービスキーは管理が難しい",
       "subtitle": "サービスキーは SAP BTP サービスへの API アクセスを付与します — SAP BTP Integration Suite を通じてデータが流れるゲートウェイです。侵害されたキーは不正なデータの挿入、組織データの読み取り、統合のトリガーに使用できます。",
       "items": [

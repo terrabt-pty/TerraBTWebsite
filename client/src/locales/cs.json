@@ -1724,7 +1724,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Mezera v řízení",
+      "label": "Výzva",
       "title": "Klíče služby SAP BTP je obtížné spravovat",
       "subtitle": "Klíč služby uděluje přístup k API služeb SAP BTP — je to brána, kterou data protékají přes SAP BTP Integration Suite. Ohrožený klíč lze použít k vložení falešných dat, čtení dat organizace nebo spuštění integrací.",
       "items": [

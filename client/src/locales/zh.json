@@ -1716,7 +1716,7 @@
       "item3Strong": "您的凭证，您的认证"
     },
     "gaps": {
-      "label": "管理漏洞",
+      "label": "挑战",
       "title": "SAP BTP 服务密钥难以管理",
       "subtitle": "服务密钥授予对 SAP BTP 服务的 API 访问权限——是流经 SAP BTP Integration Suite 的数据网关。受损的密钥可被用于插入虚假数据、读取组织数据或触发集成。",
       "items": [

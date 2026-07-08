@@ -1721,7 +1721,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "L'écart de gouvernance",
+      "label": "Le défi",
       "title": "Les clés de service SAP BTP sont difficiles à gouverner",
       "subtitle": "Une clé de service accorde l'accès API à vos services SAP BTP – c'est la passerelle pour les données circulant à travers SAP BTP Integration Suite. Une clé compromise peut être utilisée pour insérer de fausses données, lire les données organisationnelles ou déclencher des intégrations.",
       "items": [

@@ -1680,7 +1680,7 @@
       "step3Body": "Global Account -tason API-tunnisteet eivät ole näkyvissä BTP-ilmaisimessa — vain BTP CLI:n kautta. BTP xID näyttää ne kaikki."
     },
     "gaps": {
-      "label": "Hallinnon aukkio",
+      "label": "Haaste",
       "title": "SAP BTP -palveluavaimet ovat vaikea hallita",
       "subtitle": "Palveluavain myöntää API-pääsyn SAP BTP -palveluihinne – se on väylä SAP BTP Integration Suiten läpi virtaaville tiedoille. Vaarannettua avainta voidaan käyttää väärän datan lisäämiseen, organisaation tietojen lukemiseen tai integrointien käynnistämiseen.",
       "items": [

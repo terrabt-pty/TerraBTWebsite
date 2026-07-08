@@ -1671,7 +1671,7 @@
       "step3Body": "Global Account lygio API kredencijos nėra matomos BTP kabinoje — tik per BTP CLI. BTP xID jas visas paviršius."
     },
     "gaps": {
-      "label": "Valdymo aukštis",
+      "label": "Iššūkis",
       "title": "SAP BTP paslaugų raktus sunku valdyti",
       "subtitle": "Paslaugos raktas suteikia API prieigą prie jūsų SAP BTP paslaugų - tai srauto geitai duomenims, tekančiam per SAP BTP Integration Suite. Sukomprometintas raktas gali būti naudojamas klaidingiems duomenims įdėti, organizacinių duomenų skaityti arba integracijas suaktyvinti.",
       "items": [

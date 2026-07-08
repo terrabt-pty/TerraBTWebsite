@@ -1728,7 +1728,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Styringsgabet",
+      "label": "Udfordringen",
       "title": "SAP BTP-servicenøgler er svære at styre",
       "subtitle": "En servicenøgle giver API-adgang til dine SAP BTP-tjenester — det er gatewayen til data, der flyder gennem SAP BTP Integration Suite. En kompromitteret nøgle kan bruges til at indsætte falske data, læse organisationsdata eller udløse integrationer.",
       "items": [

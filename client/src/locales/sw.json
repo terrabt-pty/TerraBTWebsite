@@ -1704,7 +1704,7 @@
       "step3Body": "Jina la mtumiaji wa API katika Global Account level si kamili katika BTP cockpit — tu kwa njia ya BTP CLI. BTP xID huanguka zote."
     },
     "gaps": {
-      "label": "Pengo la Utawala",
+      "label": "Changamoto",
       "title": "Ufunguo wa huduma wa SAP BTP ni vigumu kudhibiti",
       "subtitle": "Ufunguo wa huduma hukupatia ufikiaji wa API kwa huduma zako za SAP BTP — ni mlangoni kwa data inayoingiz kupitia SAP BTP Integration Suite. Ufunguo ulioweza kukiuka unaweza kutumiwa kuingiza data ya uongo, kusoma data ya shirika, au kuanzisha unganisho.",
       "items": [

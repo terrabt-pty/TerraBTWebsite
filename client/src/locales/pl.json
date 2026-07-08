@@ -1727,7 +1727,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Luka w Zarządzeniu",
+      "label": "Wyzwanie",
       "title": "Klucze usług SAP BTP są trudne do zarządzenia",
       "subtitle": "Klucz usługi udziela dostępu API do usług SAP BTP - jest to brama dla danych przepływających przez SAP BTP Integration Suite. Zagrożony klucz może być używany do wstawiania fałszywych danych, odczytywania danych organizacyjnych lub wyzwalania integracji.",
       "items": [

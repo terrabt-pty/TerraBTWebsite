@@ -1663,7 +1663,7 @@
       "step3Body": "Global Account līmeņa API kredenciāļi nav redzami BTP kabīnē — tikai caur BTP CLI. BTP xID tos visus izpraisa."
     },
     "gaps": {
-      "label": "Pārvaldības atšķirība",
+      "label": "Izaicinājums",
       "title": "SAP BTP pakalpojuma atslēgas ir grūti pārvaldīt",
       "subtitle": "Pakalpojuma atslēga piešķir API piekļuvi SAP BTP pakalpojumiem — tas ir vārti datiem, kas plūst caur SAP BTP Integration Suite. Apdraudēta atslēga var tikt izmantota nepatiess datu ievietošanai, organizācijas datu nolasīšanai vai integrāciju aktivizēšanai.",
       "items": [

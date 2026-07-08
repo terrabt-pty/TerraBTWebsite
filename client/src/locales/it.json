@@ -1717,7 +1717,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Il divario di governance",
+      "label": "La sfida",
       "title": "Le chiavi di servizio SAP BTP sono difficili da governare",
       "subtitle": "Una service key concede accesso API ai vostri servizi SAP BTP — è il gateway per i dati che fluiscono attraverso SAP BTP Integration Suite. Una chiave compromessa può essere utilizzata per inserire dati falsi, leggere dati organizzativi o attivare integrazioni.",
       "items": [

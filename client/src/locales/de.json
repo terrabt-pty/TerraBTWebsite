@@ -1728,7 +1728,7 @@
       "item3Span": "signs in with your existing BTP login"
     },
     "gaps": {
-      "label": "Die Governance-Lücke",
+      "label": "Die Herausforderung",
       "title": "SAP BTP Service Keys sind schwer zu verwalten",
       "subtitle": "Ein Service Key gewährt API-Zugriff auf Ihre SAP BTP Services – es ist das Tor für Daten, die durch SAP BTP Integration Suite fließen. Ein kompromittierter Key kann verwendet werden, um falsche Daten einzufügen, Organisationsdaten zu lesen oder Integrationen auszulösen.",
       "items": [
