@@ -1600,7 +1600,7 @@
     },
     "gaps": {
       "label": "The Governance Gap",
-      "title": "Why SAP BTP service keys are hard to govern",
+      "title": "SAP BTP service keys are hard to govern",
       "subtitle": "A service key grants API access to your SAP BTP services — it's the gateway for data flowing through SAP BTP Integration Suite. A compromised key can be used to insert false data, read organizational data, or trigger integrations.",
       "items": [
         {
@@ -1637,7 +1637,7 @@
       "label": "Compliance",
       "title": "What this means for your audit",
       "subtitle": "Security frameworks require credentials to have accountable owners, defined lifecycles, and reviewable access. These are the controls affected by the gaps above — and the evidence BTP xID gives you for each.",
-      "cta": "See the full control-by-control mapping",
+      "cta": "Read more",
       "cards": [
         {
           "name": "SOX",
@@ -1667,7 +1667,7 @@
       ]
     },
     "closes": {
-      "label": "The Fix",
+      "label": "The Solution",
       "title": "How BTP xID closes each gap",
       "subtitle": "BTP xID adds a governance layer on top of your existing landscape. Metadata is stored on the credential itself, in your own accounts — not in a separate database.",
       "items": [
@@ -1714,6 +1714,11 @@
     "download": {
       "label": "Find Out More",
       "title": "Ready to get started?",
+      "getStartedLabel": "Get Started",
+      "getStartedTitle": "See every service key in your landscape today.",
+      "webButton": "Open BTP xID in your browser",
+      "webButtonDesc": "Best for API credential & service key management — rotate and govern BTP API credentials",
+      "desktopButtonDesc": "Best for user management — Global Accounts, subaccounts, directories, CF orgs and spaces",
       "primaryButton": "Download for {{label}}",
       "loading": "Loading...",
       "showAll": "Show all download options",
@@ -1810,6 +1815,7 @@
     },
     "ias": {
       "label": "Works With SAP IAS",
+      "label2": "Complementing SAP IAS",
       "title1": "IAS secures identity.",
       "title2": "BTP xID governs access.",
       "subtitle": "BTP xID also helps you reach and govern the corners of your SAP BTP landscape that IAS can't.",

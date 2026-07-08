@@ -200,7 +200,7 @@ export default function BTPxIDProduct() {
   const { t, i18n } = useTranslation();
   const [os, setOS] = useState<OSType>("unknown");
   const [arch, setArch] = useState<"arm64" | "x64">("arm64");
-  const [showAllDownloads, setShowAllDownloads] = useState(true);
+  const [showAllDownloads, setShowAllDownloads] = useState(false);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
   const { getLocalizedPath } = useLocalizedPath();
@@ -227,13 +227,6 @@ export default function BTPxIDProduct() {
   const primaryDownloadDesc = t(primaryDownload.descKey);
   const PrimaryIcon = OS_ICONS[os];
   const primaryDownloadUrl = versionInfo ? getDownloadUrl(primaryDownload.id, versionInfo) : null;
-
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <div className="min-h-screen">
@@ -338,6 +331,7 @@ export default function BTPxIDProduct() {
       <section className="btpxid-closes" id="features">
         <div className="btpxid-closes-inner">
           <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.closes.label')}</div>
             <h2 className="btpxid-showcase-title">{t('btpxidProduct.closes.title')}</h2>
             <p className="btpxid-showcase-sub">{t('btpxidProduct.closes.subtitle')}</p>
           </div>
@@ -362,6 +356,7 @@ export default function BTPxIDProduct() {
 <section className="btpxid-ias" id="services">
   <div className="btpxid-ias-inner">
     <div className="btpxid-showcase-header">
+      <div className="btpxid-features-label">{t('btpxidProduct.ias.label2')}</div>
       <h2 className="btpxid-showcase-title">
         {t('btpxidProduct.ias.title1')}<br />{t('btpxidProduct.ias.title2')}
       </h2>
@@ -437,59 +432,37 @@ export default function BTPxIDProduct() {
       <section className="btpxid-download" id="download">
         <div className="btpxid-download-inner">
           <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.download.label')}</div>
+            <div className="btpxid-features-label">{t('btpxidProduct.download.getStartedLabel')}</div>
             <h2 className="btpxid-showcase-title">
-              {t('btpxidProduct.download.title')}
+              {t('btpxidProduct.download.getStartedTitle')}
             </h2>
           </div>
 
-          {/* Two ways to use BTP xID — desktop app or web app */}
-          <div className="btpxid-choice btpxid-choice-wide">
-            <div className="btpxid-choice-grid">
-              <a
-                href={XID_WEB_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btpxid-choice-card btpxid-choice-card-web"
-              >
-                <span className="btpxid-choice-icon">
-                  <Globe className="h-6 w-6" />
-                </span>
-                <span className="btpxid-choice-body">
-                  <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceWebTitle')}</span>
-                  <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceWebDesc')}</span>
-                </span>
-                <span className="btpxid-choice-platforms">
-                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                </span>
-              </a>
-
-              <button
-                type="button"
-                onClick={() => scrollToSection("#download")}
-                className="btpxid-choice-card btpxid-choice-card-desktop"
-              >
-                <span className="btpxid-choice-icon">
-                  <Download className="h-6 w-6" />
-                </span>
-                <span className="btpxid-choice-body">
-                  <span className="btpxid-choice-title">{t('btpxidProduct.hero.choiceDesktopTitle')}</span>
-                  <span className="btpxid-choice-desc">{t('btpxidProduct.hero.choiceDesktopDesc')}</span>
-                </span>
-                <span className="btpxid-choice-platforms">
-                  <FaApple className="h-4 w-4" aria-hidden="true" />
-                  <FaWindows className="h-4 w-4" aria-hidden="true" />
-                </span>
-              </button>
-            </div>
-          </div>
-
-          {/* Primary OS download */}
+          {/* Primary CTA — the web app is the credential-governance tool this page sells */}
           <div className="btpxid-download-primary">
+            <a
+              href={XID_WEB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btpxid-download-btn"
+            >
+              <Globe className="h-6 w-6" />
+              <div className="btpxid-download-btn-text">
+                <span className="btpxid-download-btn-title">
+                  {t('btpxidProduct.download.webButton')}
+                </span>
+                <span className="btpxid-download-btn-desc">
+                  {t('btpxidProduct.download.webButtonDesc')}
+                </span>
+              </div>
+              <ArrowUpRight className="h-5 w-5" />
+            </a>
+
+            {/* Secondary — desktop app for user management */}
             {primaryDownloadUrl ? (
               <a
                 href={primaryDownloadUrl}
-                className="btpxid-download-btn"
+                className="btpxid-download-btn btpxid-download-btn-secondary"
                 onClick={() => { trackDownload('btp-xid', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
               >
                 <PrimaryIcon className="h-6 w-6" />
@@ -498,16 +471,22 @@ export default function BTPxIDProduct() {
                     {t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}
                   </span>
                   <span className="btpxid-download-btn-desc">
+                    {t('btpxidProduct.download.desktopButtonDesc')}
+                  </span>
+                  <span className="btpxid-download-btn-desc">
                     {primaryDownloadDesc} · v{versionInfo!.version}
                   </span>
                 </div>
                 <Download className="h-5 w-5" />
               </a>
             ) : (
-              <button disabled className="btpxid-download-btn" style={{ opacity: 0.7 }}>
+              <button disabled className="btpxid-download-btn btpxid-download-btn-secondary" style={{ opacity: 0.7 }}>
                 <PrimaryIcon className="h-6 w-6" />
                 <div className="btpxid-download-btn-text">
                   <span className="btpxid-download-btn-title">{t('btpxidProduct.download.loading')}</span>
+                  <span className="btpxid-download-btn-desc">
+                    {t('btpxidProduct.download.desktopButtonDesc')}
+                  </span>
                   <span className="btpxid-download-btn-desc">
                     {primaryDownloadDesc}
                   </span>
@@ -526,20 +505,6 @@ export default function BTPxIDProduct() {
             >
               {showAllDownloads ? t('btpxidProduct.download.hideAll') : t('btpxidProduct.download.showAll')}
             </button>
-
-            <div className="btpxid-download-web">
-              <span className="btpxid-download-web-text">{t('btpxidProduct.download.webPrompt')}</span>
-              <a
-                href={XID_WEB_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btpxid-download-web-link"
-              >
-                <Globe className="h-4 w-4" aria-hidden="true" />
-                <span>{t('btpxidProduct.download.webLink')}</span>
-                <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-              </a>
-            </div>
           </div>
 
           {/* All download options */}

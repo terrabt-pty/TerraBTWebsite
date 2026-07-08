@@ -2138,6 +2138,23 @@
   box-shadow: 0 12px 40px rgba(76, 175, 80, 0.3), 0 4px 12px rgba(76, 175, 80, 0.2);
 }
 
+/* Secondary variant — desktop app download, subordinate to the web-app CTA */
+.btpxid-download-btn-secondary {
+  background: #FFFFFF;
+  color: #0F172A;
+  border: 1px solid #E2E8F0;
+}
+
+.btpxid-download-btn-secondary .btpxid-download-btn-desc {
+  color: #64748B;
+  opacity: 1;
+}
+
+.btpxid-download-btn-secondary:hover {
+  border-color: #94A3B8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
 .btpxid-download-btn-text {
   display: flex;
   flex-direction: column;
@@ -3289,24 +3306,6 @@
   max-width: 1200px;
   margin: 2.5rem auto 0;
   animation: btpxid-fadeInUp 0.8s ease-out 0.3s both;
-}
-
-/* Breaks out of a narrower parent (e.g. the 700px download section) to reach
-   full 1200px width, and adds breathing room before whatever follows it. */
-.btpxid-choice-wide {
-  width: 100vw;
-  max-width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-bottom: 3rem;
-  padding: 0 3rem;
-}
-.btpxid-choice-wide .btpxid-choice-grid {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .btpxid-choice-intro {
