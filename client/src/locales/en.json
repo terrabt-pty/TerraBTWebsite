@@ -1609,7 +1609,7 @@
         },
         {
           "title": "Expiry",
-          "desc": "Service keys do not expire. Every key ever issued is still live today unless someone manually deleted it."
+          "desc": "Service keys do not expire. Most security standards call for credentials to be rotated on a defined schedule, but BTP has no built-in mechanism to enforce or track that."
         },
         {
           "title": "Purpose",
@@ -1636,7 +1636,7 @@
     "standards": {
       "label": "Compliance",
       "title": "What this means for your audit",
-      "subtitle": "Security frameworks require credentials to have accountable owners, defined lifecycles, and reviewable access. These are the controls affected by the gaps above — and the evidence BTP xID gives you for each.",
+      "subtitle": "Security frameworks require credentials to have accountable owners, defined lifecycles, and reviewable access.",
       "cta": "Read more",
       "cards": [
         {
