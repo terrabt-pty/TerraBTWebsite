@@ -6,8 +6,8 @@ export default function BTPServiceKeysAPICredentialsPage() {
   return (
     <>
       <SEOHead
-        title="SAP BTP Service Keys: What Each Key Unlocks and Why It Matters | TerraBT"
-        description="A service-by-service breakdown of SAP BTP Cloud Foundry service keys: HANA Cloud, Destination, XSUAA, Connectivity, Object Store, Integration Suite. What each key contains, what an attacker holding one can reach, and why BTP service keys are uniquely dangerous in a Fortune 500 landscape."
+        title="SAP BTP Service Keys: What Each Key Contains and What It Can Reach | TerraBT"
+        description="A service-by-service look at SAP BTP Cloud Foundry service keys: HANA Cloud, Destination, XSUAA, Connectivity, Object Store, Integration Suite. What each key contains, what it can reach, and why they are easy to lose track of. Stated plainly, with sources."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -30,109 +30,112 @@ export default function BTPServiceKeysAPICredentialsPage() {
           </p>
 
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            What each SAP BTP service key actually unlocks
+            What each SAP BTP service key actually contains
           </h1>
 
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
-            "Service key" is SAP's term for what the rest of the world calls an API key: a JSON blob containing credentials, returned by <code style={codeStyle}>cf create-service-key</code>. The contents differ per service, the danger differs per service, and the BTP cockpit aggregates none of it. This is a service-by-service look at what's actually inside, and what an attacker holding one can reach.
+            "Service key" is SAP's name for what most people call an API key. It is a JSON document that holds credentials, produced by <code style={codeStyle}>cf create-service-key</code>. What it contains and how far it can reach depends on which service it belongs to. The BTP cockpit does not list them in one place. This post goes service by service and says what is inside each key and what it can reach. Sources are linked in each part.
           </p>
 
           {/* What they are */}
           <section style={{ marginBottom: "40px" }}>
             <h2 style={hh2}>The mechanics, in one paragraph</h2>
             <p style={p}>
-              Every service key in SAP BTP is one of three things: an OAuth <code style={codeStyle}>clientid</code> + <code style={codeStyle}>clientsecret</code> pair, a database user and password, or hyperscaler-native credentials (S3 access key, Azure key, etc.). They are created by anyone holding the Cloud Foundry <strong>Space Developer</strong> role — the same role required to deploy an application. SAP's own documentation confirms: <em>"the secret remains valid as long as the binding or the service key exists."</em> There is no expiry by default, and no automatic revocation when the user who created it is removed from the platform.
+              Every service key in SAP BTP is one of three things. An OAuth <code style={codeStyle}>clientid</code> and <code style={codeStyle}>clientsecret</code> pair, a database user and password, or hyperscaler credentials like an S3 access key. Anyone with the Cloud Foundry <strong>Space Developer</strong> role can create one, and that is the same role a person needs to deploy an app. There is no expiry by default. SAP's docs say <em>"the secret remains valid as long as the binding or the service key exists."</em> Deleting the user who made the key does not revoke it.
             </p>
             <p style={smallSrc}>
-              Source: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer" style={a}>SAP docs — Service Instance Secrets</a>
+              Source: <a href="https://github.com/SAP-docs/btp-cloud-platform/blob/main/docs/50-administration-and-ops/service-instance-secrets-5578ec4.md" target="_blank" rel="noopener noreferrer" style={a}>SAP docs, Service Instance Secrets</a>
             </p>
           </section>
 
           {/* Per-service breakdown */}
           <section style={{ marginBottom: "40px" }}>
-            <h2 style={hh2}>What each service key contains, and what it unlocks</h2>
+            <h2 style={hh2}>What each service key contains, and what it can reach</h2>
+            <p style={{ ...p, marginBottom: "24px" }}>
+              One thing applies to all of them, so I will say it once here. A key can reach whatever the identity or grants behind it can reach. A key is not powerful on its own. It is powerful when the user, scope or plan behind it is broad. A lot of the real risk on BTP is keys that got more privilege than the task needed, because that was the quick way to set it up.
+            </p>
 
             <ServiceCard
               service="SAP HANA Cloud"
-              contents="JDBC URL · username · plaintext password · schema · certificate"
-              unlocks="Direct database connection over port 443, public on the internet — no VPN, no Cloud Connector. Whatever grants the bound user has are now the attacker's. If the binding uses a DBADMIN-derived role, that is effectively root on the HANA tenant: customer PII, financial postings, ML features, every schema the user can read."
-              source={{ label: "SAP HANA Cloud — Connect via JDBC", url: "https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/connect-to-sap-hana-database-in-sap-hana-cloud-via-jdbc" }}
+              contents="JDBC URL · username · password · schema · certificate"
+              unlocks="A direct database connection over port 443. HANA Cloud is on the public internet by default, so there is no VPN or Cloud Connector in the way. You get exactly the access the bound database user has. If that user has wide grants, the reach is wide. If it is scoped to one schema, it stays there. The problem is usually not the key. It is that teams bind a high-privilege user because it was faster at setup time."
+              source={{ label: "SAP HANA Cloud, Connect via JDBC", url: "https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/connect-to-sap-hana-database-in-sap-hana-cloud-via-jdbc" }}
             />
 
             <ServiceCard
               service="SAP Destination Service"
               contents="clientid · clientsecret · destination-service URI · XSUAA token URL"
-              unlocks="The full Destination Service REST API for the sub-account. The attacker calls GET /destination-configuration/v1/destinations and receives the configuration of every destination the customer has registered — S/4HANA, SuccessFactors, Ariba, third-party APIs — including the stored Basic-auth passwords, OAuth client secrets, and Cloud-Connector ProxyAuthorization headers in plain readable form. A single Destination key is a credential vault dump of every backend system the BTP apps can call."
-              source={{ label: "SAP Cloud SDK — Destinations", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/destinations" }}
+              unlocks="The key is only an OAuth client credential. It does not contain the passwords of your backend systems. It authenticates against the Destination Service REST API for that subaccount. Calling GET /destination-configuration/v1/destinations returns the destinations the subaccount has registered. If a destination stores a Basic-auth password or an OAuth client secret, the service returns that value in the response. So the key lets you read the stored credentials of the systems those destinations point to, like S/4HANA, SuccessFactors or third-party APIs. It does not hold those credentials itself."
+              source={{ label: "SAP Cloud SDK, Destinations", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/destinations" }}
             />
 
             <ServiceCard
               service="SAP Authorization & Trust Management (XSUAA)"
               contents="clientid · clientsecret · OAuth URL · api URL · tenant ID · subaccount ID"
-              unlocks="Depends on the service plan. The application plan grants token-minting for the bound app's scopes. The apiaccess plan is the dangerous one — SAP's own community documentation describes it as the way to programmatically manage roles, role collections, and users. A leaked apiaccess key lets an attacker mint themselves a token, create a role collection containing admin scopes, and grant themselves that collection — a full privilege escalation inside the sub-account."
-              source={{ label: "SAP Community — XSUAA REST API", url: "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-btp-security-how-to-use-rest-api-of-xsuaa-to-programmatically-manage/ba-p/13540720" }}
+              unlocks="This depends on the service plan, so check the plan before you decide it is low risk. The application plan lets you mint tokens for the bound app's own scopes. The apiaccess plan is the one to watch. It is the plan SAP documents for managing users, roles and role collections through the API. With that plan, the holder can create a role collection with admin scopes and assign it. That is a privilege escalation inside the subaccount."
+              source={{ label: "SAP Community, XSUAA REST API", url: "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-btp-security-how-to-use-rest-api-of-xsuaa-to-programmatically-manage/ba-p/13540720" }}
             />
 
             <ServiceCard
               service="SAP Connectivity Service"
               contents="clientid · clientsecret · onpremise_proxy_host · onpremise_proxy_port · token service URL"
-              unlocks="The Cloud Connector tunnel. The proxy is reachable from inside the CF space, but combined with a compromised app or a Destination key, the attacker routes arbitrary HTTP requests through the Cloud Connector tunnel into the on-premise network. Cloud SDK documentation describes the flow plainly: the connectivity service brokers requests that pass via the Cloud Connector to on-premise S/4HANA. A leaked Connectivity key is a passage past the corporate firewall."
-              source={{ label: "SAP Cloud SDK — On-premise Connectivity", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/on-premise" }}
+              unlocks="On its own this key only works from inside the CF space, because the proxy host it points to is not public. Its use to an attacker is as a second step. Paired with a foothold in a CF app, it lets requests go through the Cloud Connector tunnel toward on-premise systems like S/4HANA. It is a path toward the internal network, not an open door by itself."
+              source={{ label: "SAP Cloud SDK, On-premise Connectivity", url: "https://sap.github.io/cloud-sdk/docs/js/features/connectivity/on-premise" }}
             />
 
             <ServiceCard
               service="SAP Object Store"
               contents="access_key_id · secret_access_key · region · bucket (or Azure / GCS equivalents)"
-              unlocks="Real hyperscaler IAM credentials behind the scenes — direct S3 (or Azure Blob, GCS) API access to the customer's bucket. Read, write, delete, list. Object Store is where SAP AI Core grounding data, SAP Build Apps backups, and CAP app uploads typically land. The kicker: object-level access through the hyperscaler API does not show in the BTP Audit Log Service. Detection requires the hyperscaler's own logging, which many customers do not pipe to their SOC."
+              unlocks="These are real hyperscaler credentials. An S3 access key, or the Azure Blob or GCS equivalent, for the customer's bucket. Read, write, delete, list. This is usually where AI Core grounding data, Build Apps backups and CAP uploads sit. One thing to know: object-level access through the hyperscaler API is not recorded in the BTP Audit Log Service. It only shows in the hyperscaler's own logging, which a lot of teams do not forward to their SOC."
               source={{ label: "SAP Object Store FAQ", url: "https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/frequently-asked-questions" }}
             />
 
             <ServiceCard
               service="SAP Integration Suite (Cloud Integration / CPI)"
               contents="clientid · clientsecret · token URL · tenant runtime URL (or x.509 certificate variant)"
-              unlocks="With the integration-flow plan: ability to invoke any deployed iFlow endpoint the instance is scoped to. With the api management plan: list every deployed iFlow, download its full definition (revealing mapping logic, hard-coded usernames, partner endpoints), and deploy new ones — including a malicious iFlow that exfiltrates every message passing through. CPI tenants typically broker B2B / EDI / payroll between S/4HANA, SuccessFactors, banks and Ariba; the message contents in flight include invoices, employee PII, and payment instructions."
-              source={{ label: "SAP Help — Cloud Integration Service Key Types", url: "https://help.sap.com/docs/cloud-integration/sap-cloud-integration/service-key-types" }}
+              unlocks="With the integration-flow plan, the key can invoke the iFlow endpoints it is scoped to. With the api management plan, it can list the deployed iFlows, download their definitions, which often contain mapping logic, hard-coded usernames and partner endpoints, and deploy new ones. CPI tenants usually carry B2B, EDI and payroll traffic between S/4HANA, SuccessFactors, banks and Ariba, so the messages passing through can include invoices, employee data and payment instructions. Again, the actual reach depends on the plan and the instance scope."
+              source={{ label: "SAP Help, Cloud Integration Service Key Types", url: "https://help.sap.com/docs/cloud-integration/sap-cloud-integration/service-key-types" }}
             />
 
             <ServiceCard
               service="SAP Build Work Zone"
               contents="clientid · clientsecret · workzone tenant URL"
-              unlocks="The SCIM API (enumerate site users) and the content-management API (modify the launchpad). The launchpad is high-value for credential phishing because users implicitly trust the corporate portal — an attacker can change a tile to point at an attacker-controlled URL and harvest credentials from inside the customer's own branded UI."
-              source={{ label: "SAP Help — Work Zone Solution Architecture", url: "https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/solution-architecture-and-authentication-details" }}
+              unlocks="Access to the SCIM API for listing site users and the content-management API for editing the launchpad. The launchpad matters because employees trust it. A tile repointed to an attacker URL is a working phishing surface inside the company's own branded portal."
+              source={{ label: "SAP Help, Work Zone Solution Architecture", url: "https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/solution-architecture-and-authentication-details" }}
             />
           </section>
 
-          {/* What makes BTP service keys uniquely dangerous */}
+          {/* What makes BTP service keys easy to lose track of */}
           <section style={{ marginBottom: "40px", background: "#F8FAFC", borderRadius: "12px", padding: "32px", border: "1px solid #E2E8F0" }}>
-            <h2 style={hh2}>What makes BTP service keys uniquely dangerous</h2>
+            <h2 style={hh2}>A few things that make these keys easy to lose track of</h2>
             <ol style={{ ...p, paddingLeft: "20px", margin: 0 }}>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>They are credential bundles, not single credentials.</strong> A Destination key contains, by design, the credentials for every other system in the sub-account. This is a force multiplier no AWS or Azure access key offers.
+                <strong style={strong}>Some keys lead to other credentials.</strong> A Destination key does not hold your backend passwords, but the API it authenticates against will return them. So one key can lead to many. This is not special to SAP. An AWS key with Secrets Manager access does the same. But on BTP the Destination service makes it the normal pattern, not a misconfiguration.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>They route past the corporate firewall.</strong> A Connectivity key paired with any CF app gives an attacker a tunnel through the Cloud Connector into the on-premise data centre.
+                <strong style={strong}>Some keys are a step toward the on-premise network.</strong> A Connectivity key on its own only works from inside the CF space. With a foothold in a CF app, it lets requests pass through the Cloud Connector tunnel toward on-premise systems. It is a step, not an open door, but it counts as one.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>They outlive the people.</strong> Removing the user who created them has zero effect on the key. SAP KBA <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={a}>3220053</a> documents the related shadow-user behaviour — keys created by employees who left two years ago remain fully functional.
+                <strong style={strong}>They outlive the people who created them.</strong> Removing the user who made a key does nothing to the key. SAP KBA <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={a}>3220053</a> covers the related shadow-user behaviour. Keys made by people who left two years ago can still work.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>The rotation default is "never."</strong> SAP's published recommendation is 90 days, but the technical default is open-ended. Only X.509 service keys have built-in expiry (7 days default), and most customers use client-secret because it's the path of least resistance.
+                <strong style={strong}>There is no rotation by default.</strong> The client-secret type stays valid until someone deletes the binding or the key. The X.509 certificate type is the exception. It defaults to a 7-day validity and can be extended up to a year. Most teams use the client-secret type because it is simpler.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>Audit retention is 90 days by default.</strong> A key created and used in month 1 of a year-long campaign has its creation event aged out of the BTP Audit Log before the customer notices. Premium retention is a separate paid SKU.
+                <strong style={strong}>The audit log keeps 90 days by default.</strong> The BTP Audit Log Service keeps data for 90 days on the free plan. Longer retention needs the premium paid plan. A key created early in a longer campaign can have its creation event age out before anyone looks.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>Detection is asymmetric.</strong> HANA Cloud SQL access and Object Store object-level access are not captured by the BTP Audit Log Service. An attacker holding a HANA service key can <code style={codeStyle}>SELECT *</code> for months and the BTP audit log shows nothing.
+                <strong style={strong}>Some access does not show in the BTP Audit Log at all.</strong> Object-level access in Object Store goes through the hyperscaler API and shows only in the hyperscaler's logging. Direct SQL access with a HANA key is logged by HANA's own auditing if it is switched on, not by the BTP Audit Log. If you only watch the BTP Audit Log, you will not see either.
               </li>
               <li style={{ marginBottom: 0 }}>
-                <strong style={strong}>The Space Developer role is over-broad.</strong> Anyone who can deploy a CF app can also create service keys for any service instance in that space. The platform conflates "I need to push code" with "I need permanent extractable credentials to every downstream system."
+                <strong style={strong}>The Space Developer role is broad.</strong> Anyone who can deploy a CF app can also create service keys for any service instance in that space. The platform treats "I need to push code" and "I need non-expiring credentials to downstream systems" as the same permission.
               </li>
             </ol>
           </section>
 
           {/* Real incidents */}
           <section style={{ marginBottom: "40px" }}>
-            <h2 style={hh2}>Two documented incidents that hit SAP BTP directly</h2>
+            <h2 style={hh2}>Two real incidents that touched SAP BTP</h2>
 
             <div style={incidentCard}>
               <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px", flexWrap: "wrap" }}>
@@ -140,41 +143,41 @@ export default function BTPServiceKeysAPICredentialsPage() {
                 <h3 style={incidentTitle}>SAPwned (Wiz Research)</h3>
               </div>
               <p style={{ ...p, marginBottom: "10px" }}>
-                Wiz researchers exploited a tenant-isolation failure in SAP AI Core (a BTP service) to extract customer service-key material from neighbouring tenants. The report describes obtaining other customers' AWS credentials (for S3 data access), SAP HANA Cloud credentials (for Data Lake access), and Docker Hub credentials — plus cluster admin on the AI Core Kubernetes cluster, write access to SAP's internal container registry, and write access to SAP's Artifactory. SAP confirmed and patched between January and May 2024.
+                Wiz researchers found tenant-isolation flaws in SAP AI Core, which is a BTP service. By running normal training workloads, they moved laterally inside the shared Kubernetes environment and reached other tenants' material. That included AWS credentials, SAP HANA Cloud credentials and Docker Hub credentials. They also got cluster-admin on the AI Core cluster and write access to SAP's internal container registry and Artifactory. They reported it to SAP on 25 January 2024 and SAP fixed it by 15 May 2024. SAP said no customer data was accessed by anyone other than the researchers.
               </p>
               <p style={p}>
-                The lesson for a BTP CISO: a single leaked BTP service key, paired with a tenant-isolation bug in any BTP-managed service, can leak <em>other</em> customers' service keys. This is a risk vector that has no AWS or GCP equivalent.
+                A service key did not cause this. The point is that credentials from one tenant were reachable from another tenant because of a flaw in the platform. Service keys are one of the things inside that blast radius.
               </p>
               <p style={smallSrc}>
-                Source: <a href="https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security" target="_blank" rel="noopener noreferrer" style={a}>Wiz — SAPwned</a> · <a href="https://www.securityweek.com/sap-ai-core-vulnerabilities-allowed-service-takeover-customer-data-access/" target="_blank" rel="noopener noreferrer" style={a}>SecurityWeek</a>
+                Source: <a href="https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security" target="_blank" rel="noopener noreferrer" style={a}>Wiz, SAPwned</a> · <a href="https://thehackernews.com/2024/07/sap-ai-core-vulnerabilities-expose.html" target="_blank" rel="noopener noreferrer" style={a}>The Hacker News</a>
               </p>
             </div>
 
             <div style={incidentCard}>
               <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "8px", flexWrap: "wrap" }}>
                 <span style={incidentYear}>April 2026</span>
-                <h3 style={incidentTitle}>Mini Shai-Hulud — SAP npm supply-chain compromise</h3>
+                <h3 style={incidentTitle}>Mini Shai-Hulud, SAP npm supply-chain compromise</h3>
               </div>
               <p style={{ ...p, marginBottom: "10px" }}>
-                A worm embedded in four official SAP npm packages (<code style={codeStyle}>mbt</code>, <code style={codeStyle}>@cap-js/sqlite</code>, <code style={codeStyle}>@cap-js/postgres</code>, <code style={codeStyle}>@cap-js/db-service</code>) executed a hidden preinstall script that read in-memory secrets from CI environments — GitHub Actions secrets, AWS credential files, Azure Key Vault references, GCP Secret Manager, and Kubernetes service-account JSON. Stolen credentials were uploaded to over 1,200 public GitHub repositories. A significant portion of the stolen tokens were BTP service-binding JSON.
+                In late April 2026, four SAP-related npm packages, <code style={codeStyle}>mbt</code>, <code style={codeStyle}>@cap-js/sqlite</code>, <code style={codeStyle}>@cap-js/postgres</code> and <code style={codeStyle}>@cap-js/db-service</code>, were published with a malicious preinstall step. Any <code style={codeStyle}>npm install</code> that pulled one of these, directly or through a dependency, ran a credential stealer. It collected the usual developer and CI material: GitHub and npm tokens, AWS, Azure and GCP secrets, Kubernetes tokens, GitHub Actions secrets and saved browser passwords. It uploaded the stolen data to GitHub repos it created under the victim's own account.
               </p>
               <p style={p}>
-                The lesson: BTP service keys do not just leak through your own developers' mistakes. They leak through the SAP-published packages your developers depend on.
+                One thing to be clear about. This attack did not target BTP service keys, and the public reporting does not show BTP service-binding JSON as a notable part of what was taken. The link to BTP is indirect. These are SAP-published packages that BTP developers use, so a BTP developer's laptop or CI pipeline was a valid target. Whatever credentials happened to be in that environment, including a service key checked into a repo or exported into CI, were in reach.
               </p>
               <p style={smallSrc}>
-                Source: <a href="https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm" target="_blank" rel="noopener noreferrer" style={a}>Wiz — Mini Shai-Hulud SAP npm</a> · <a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank" rel="noopener noreferrer" style={a}>BleepingComputer</a>
+                Source: <a href="https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm" target="_blank" rel="noopener noreferrer" style={a}>Wiz, Mini Shai-Hulud SAP npm</a> · <a href="https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html" target="_blank" rel="noopener noreferrer" style={a}>The Hacker News</a>
               </p>
             </div>
           </section>
 
           {/* Where they live */}
           <section style={{ marginBottom: "40px" }}>
-            <h2 style={hh2}>And the BTP cockpit shows you none of them in one place</h2>
+            <h2 style={hh2}>And the BTP cockpit does not show them in one place</h2>
             <p style={p}>
-              Service keys do not live at the Global Account level. They do not live at the sub-account level. They live inside specific service instances, inside specific Cloud Foundry spaces. To inventory every service key, an admin must open every Global Account, every sub-account, every CF environment, every org, every space, every service instance — and run <code style={codeStyle}>cf service-keys</code> against each one. A Fortune 500 BTP landscape typically has hundreds of CF spaces; the inventory exercise is a multi-day project that no native cockpit feature accelerates.
+              Service keys do not live at the Global Account level, and they do not live at the subaccount level. They live inside specific service instances, inside specific Cloud Foundry spaces. To list every service key, an admin has to go through every Global Account, every subaccount, every CF environment, every org, every space and every service instance, and run <code style={codeStyle}>cf service-keys</code> against each one. A large BTP landscape can have dozens or hundreds of CF spaces, so doing this by hand takes days, and no native cockpit feature speeds it up.
             </p>
             <p style={p}>
-              BTP xID does this in one screen, by calling the BTP and Cloud Foundry APIs directly. It aggregates every service key, surfaces the contents, lets you filter by sub-account or service type, and lets you delete keys instantly through the same APIs.
+              BTP xID does this in one screen by calling the BTP and Cloud Foundry APIs directly. It collects every service key, shows what each one contains, lets you filter by subaccount or service type, and lets you delete a key through the same APIs when it is no longer needed.
             </p>
           </section>
 
@@ -237,7 +240,7 @@ function ServiceCard({ service, contents, unlocks, source }: { service: string; 
         <span style={{ fontWeight: 700, color: "#0F172A" }}>Contains:</span> <code style={{ ...codeStyle, fontSize: "0.8125rem" }}>{contents}</code>
       </p>
       <p style={{ ...p, marginBottom: "10px" }}>
-        <span style={{ fontWeight: 700, color: "#0F172A" }}>What it unlocks:</span> {unlocks}
+        <span style={{ fontWeight: 700, color: "#0F172A" }}>What it can reach:</span> {unlocks}
       </p>
       <p style={smallSrc}>
         Source: <a href={source.url} target="_blank" rel="noopener noreferrer" style={a}>{source.label}</a>
