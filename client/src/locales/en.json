@@ -101,6 +101,15 @@
       "point1": "Intelligent automation for repetitive tasks",
       "point2": "Advanced data processing and analysis",
       "point3": "Seamless integration with existing workflows"
+    },
+    "serviceKeyGovernance": {
+      "badge": "BTP xID",
+      "title": "Governance Attributes on Every Service Key",
+      "description": "SAP BTP does not record who owns a service key, what it is for, or when it should be rotated. BTP xID adds these attributes to every key and maintains them as metadata on the credential itself, inside your own landscape.",
+      "point1": "Owner and responsible party recorded on every key",
+      "point2": "Purpose, integrating system and target API captured for each credential",
+      "point3": "Expiry and rotation frequency tracked, so keys don't quietly go stale",
+      "point4": "Environment, risk level, linked ticket and notes, plus any custom field you need"
     }
   },
   "knowledge": {

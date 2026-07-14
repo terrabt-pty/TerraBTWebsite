@@ -1382,6 +1382,48 @@
   box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
 }
 
+/* Rotating screenshot carousel — fixed-aspect frame so switching between
+   screenshots of different heights never shifts the banner layout. */
+.btpxid-announce-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin-left: auto;
+  aspect-ratio: 16 / 10;
+  border-radius: 0.5rem;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+  background: #FFFFFF;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btpxid-announce:hover .btpxid-announce-carousel {
+  transform: translateY(-0.125rem) scale(1.01);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+}
+
+.btpxid-announce-carousel-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.btpxid-announce-carousel-img.is-active {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btpxid-announce-carousel-img {
+    transition: none;
+  }
+}
+
 @media (max-width: 900px) {
   .btpxid-announce-inner {
     grid-template-columns: 1fr;

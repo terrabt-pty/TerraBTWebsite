@@ -28,6 +28,7 @@ import globalImage from "@assets/generated_images/Global_reach_world_map_bb3068a
 import aiImage from "@assets/AI_technology_integration_visual_7e9469a5_1769326356235.webp";
 import fioriImage from "@assets/generated_images/Fiori_development_blog_image_eb27dacf.webp";
 import pwaImage from "@assets/generated_images/PWA_technology_blog_image_598a891e.webp";
+import credentialDetailImage from "@assets/CredentialDetailScreenshot.png";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -226,6 +227,20 @@ export default function Home() {
               t('value.ai.point2'),
               t('value.ai.point3'),
             ]}
+          />
+
+          <ValueProposition
+            image={credentialDetailImage}
+            badge={t('value.serviceKeyGovernance.badge')}
+            title={t('value.serviceKeyGovernance.title')}
+            description={t('value.serviceKeyGovernance.description')}
+            points={[
+              t('value.serviceKeyGovernance.point1'),
+              t('value.serviceKeyGovernance.point2'),
+              t('value.serviceKeyGovernance.point3'),
+              t('value.serviceKeyGovernance.point4'),
+            ]}
+            imageOnRight
           />
         </div>
       </section>
