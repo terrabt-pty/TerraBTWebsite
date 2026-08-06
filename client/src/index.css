@@ -2180,21 +2180,20 @@
   box-shadow: 0 12px 40px rgba(76, 175, 80, 0.3), 0 4px 12px rgba(76, 175, 80, 0.2);
 }
 
-/* Secondary variant — desktop app download, subordinate to the web-app CTA */
+/* Secondary variant, desktop app download, same green as the web-app CTA */
 .btpxid-download-btn-secondary {
-  background: #FFFFFF;
-  color: #0F172A;
-  border: 1px solid #E2E8F0;
+  background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099);
+  color: white;
+  border: none;
 }
 
 .btpxid-download-btn-secondary .btpxid-download-btn-desc {
-  color: #64748B;
-  opacity: 1;
+  color: white;
+  opacity: 0.8;
 }
 
 .btpxid-download-btn-secondary:hover {
-  border-color: #94A3B8;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 40px rgba(76, 175, 80, 0.3), 0 4px 12px rgba(76, 175, 80, 0.2);
 }
 
 .btpxid-download-btn-text {

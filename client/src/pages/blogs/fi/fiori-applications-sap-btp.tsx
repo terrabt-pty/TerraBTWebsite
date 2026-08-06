@@ -18,7 +18,7 @@ export default function FioriApplicationsSAPBTP() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Miksi valita SAP BTP Fiori-kehitykseen"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP tarjoaa valikoiman työkaluja ja palveluita, jotka on luotu erityisesti Fioria varten. Alusta kattaa kaiken — koodausympäristöistä hostaukseen. Tämä antaa tiimeille mahdollisuuden keskittyä hyvään UI/UX-suunnitteluun palvelimien ylläpidon sijaan."}
+            {"SAP BTP tarjoaa valikoiman työkaluja ja palveluita, jotka on luotu erityisesti Fioria varten. Alusta kattaa kaiken, koodausympäristöistä hostaukseen. Tämä antaa tiimeille mahdollisuuden keskittyä hyvään UI/UX-suunnitteluun palvelimien ylläpidon sijaan."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Keskeiset periaatteet ja käytännöt"}</h2>
           <p className="leading-relaxed">
@@ -26,7 +26,7 @@ export default function FioriApplicationsSAPBTP() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integrointi BTP-palveluihin"}</h2>
           <p className="leading-relaxed">
-            {"Yksi suurimmista eduista on vaivaton yhteys muihin pilvipalveluihin. Tietoturvasta SAP Cloud Identityn kautta tietokantoihin SAP HANA Cloudissa — kehittäjillä on pääsy kaikkeen tarvittavaan yhdessä paikassa."}
+            {"Yksi suurimmista eduista on vaivaton yhteys muihin pilvipalveluihin. Tietoturvasta SAP Cloud Identityn kautta tietokantoihin SAP HANA Cloudissa, kehittäjillä on pääsy kaikkeen tarvittavaan yhdessä paikassa."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Responsiivinen muotoilu kaikille laitteille"}</h2>
           <p className="leading-relaxed">

@@ -20,7 +20,7 @@ export default function BTPxIDAnnouncement() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    // Respect users who prefer reduced motion — leave the first screenshot in place.
+    // Respect users who prefer reduced motion, leave the first screenshot in place.
     const prefersReducedMotion =
       typeof window !== "undefined" &&
       window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;

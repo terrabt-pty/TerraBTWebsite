@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// GitHub Pages only serves files that physically exist on disk — there is no
+// GitHub Pages only serves files that physically exist on disk, there is no
 // server-side rewrite for a client-side-routed SPA. Every route (and every
 // language-prefixed variant of it) must exist as a real index.html so the
 // origin returns 200 for it directly, instead of relying on the 404.html
@@ -51,7 +51,7 @@ function prerenderRoutes() {
         const prefix = lang === 'en' ? '' : `/${lang}`;
         routes.forEach((route) => {
             const routeDir = path.join(DIST_DIR, prefix.slice(1), route.slice(1));
-            // Root ("" route, "en" language) already has dist/index.html — skip it.
+            // Root ("" route, "en" language) already has dist/index.html, skip it.
             if (routeDir === DIST_DIR) return;
             fs.mkdirSync(routeDir, { recursive: true });
             fs.writeFileSync(path.join(routeDir, 'index.html'), indexHtml);

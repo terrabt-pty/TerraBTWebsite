@@ -12,21 +12,35 @@ import {
   CheckCircle,
   Globe,
   ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
+import userLookupImg from "@assets/UserSearchScreenshot.png";
 import securityInsightsImg from "@assets/SecurityInsightsScreenshot.png";
+import credentialDetailImg from "@assets/CredentialDetailScreenshot.png";
 
 
 const R2_BASE = "https://updates.terrabt.com/btp-xid";
 const XID_WEB_URL = "https://xid-web.terrabt.com";
 
-const HERO_SCREENSHOT = {
-  src: securityInsightsImg,
-  alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
-};
+const HERO_SCREENSHOTS = [
+  {
+    src: userLookupImg,
+    alt: "BTP xID User Lookup showing one user found across Global Account, Subaccount, Cloud Foundry Org and Space",
+  },
+  {
+    src: securityInsightsImg,
+    alt: "BTP xID Security Insights showing a governance score, coverage metrics, and prioritized recommendations",
+  },
+  {
+    src: credentialDetailImg,
+    alt: "BTP xID API Credentials list with a credential detail panel showing governance fields like owner, risk level, expiry and rotation frequency",
+  },
+];
 
-// FAQ structured data — factual statements about SAP BTP service key gaps.
+// FAQ structured data, factual statements about SAP BTP service key gaps.
 // Rendered as JSON-LD so search and AI engines can cite the answers directly.
 const FAQ_SCHEMA = {
   "@context": "https://schema.org",
@@ -61,7 +75,7 @@ const FAQ_SCHEMA = {
       name: "How do you review all users and service keys across an SAP BTP landscape?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Natively, only by visiting each global account, subaccount, Cloud Foundry org, and space individually — SAP BTP has no single cross-account view. BTP xID provides one view of all users and API credentials across the entire landscape, including reverse search by user.",
+        text: "Natively, only by visiting each global account, subaccount, Cloud Foundry org, and space individually. SAP BTP has no single cross-account view. BTP xID provides one view of all users and API credentials across the entire landscape, including reverse search by user.",
       },
     },
     {
@@ -203,6 +217,7 @@ export default function BTPxIDProduct() {
   const [showAllDownloads, setShowAllDownloads] = useState(false);
   const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
+  const [activeSlide, setActiveSlide] = useState(0);
   const { getLocalizedPath } = useLocalizedPath();
 
   // ?portal=test routes to accounts-test for internal testing without real payments
@@ -219,8 +234,20 @@ export default function BTPxIDProduct() {
     fetch(`${R2_BASE}/version.json`)
       .then((r) => r.json())
       .then((data: VersionInfo) => setVersionInfo(data))
-      .catch(() => { /* stays null — buttons remain in loading state */ });
+      .catch(() => { /* stays null, buttons remain in loading state */ });
   }, []);
+
+  // Auto-advance the hero screenshot carousel.
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setActiveSlide((i) => (i + 1) % HERO_SCREENSHOTS.length);
+    }, 6000);
+    return () => window.clearInterval(id);
+  }, []);
+
+  const goToSlide = (index: number) => {
+    setActiveSlide(((index % HERO_SCREENSHOTS.length) + HERO_SCREENSHOTS.length) % HERO_SCREENSHOTS.length);
+  };
 
   const primaryDownload = getPrimaryDownload(os, arch);
   const primaryDownloadLabel = t(primaryDownload.labelKey);
@@ -231,8 +258,8 @@ export default function BTPxIDProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="BTP xID | SAP BTP Service Key Governance — Owner, Expiry, Rotation | TerraBT"
-        description="SAP BTP service keys have no owner, no expiry date, and no record of purpose. BTP xID adds owner, purpose, expiry, and rotation tracking to every credential and one view of users and keys across your landscape — evidence for ISO 27001, SOC 2, PCI DSS, NIST 800-53, and SOX audits."
+        title="BTP xID | SAP BTP Service Key Governance: Owner, Expiry, Rotation | TerraBT"
+        description="SAP BTP service keys have no owner, no expiry date, and no record of purpose. BTP xID adds owner, purpose, expiry, and rotation tracking to every credential and one view of users and keys across your landscape, evidence for ISO 27001, SOC 2, PCI DSS, NIST 800-53, and SOX audits."
         path="/products/btp-xid"
       />
       <script
@@ -244,7 +271,7 @@ export default function BTPxIDProduct() {
       {/* ===== HERO ===== */}
       <section className="btpxid-hero" id="home">
         <div className="btpxid-hero-inner">
-          {/* Text block — centered, stacked */}
+          {/* Text block, centered, stacked */}
           <div className="btpxid-hero-content">
             {/* Wordmark */}
             <div className="btpxid-hero-wordmark">
@@ -262,22 +289,61 @@ export default function BTPxIDProduct() {
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.subhead')}</p>
           </div>
 
-          {/* Screenshot — full-width block below text */}
+          {/* Screenshot carousel, full-width block below text */}
           <div className="btpxid-hero-visual">
             <div className="btpxid-hero-carousel">
               <div className="btpxid-hero-screenshot-frame">
-                <img
-                  src={HERO_SCREENSHOT.src}
-                  alt={HERO_SCREENSHOT.alt}
-                  className="btpxid-hero-screenshot-img"
-                />
+                <div
+                  className="btpxid-hero-carousel-track"
+                  style={{ transform: `translateX(-${activeSlide * 100}%)` }}
+                >
+                  {HERO_SCREENSHOTS.map((slide) => (
+                    <div className="btpxid-hero-carousel-slide" key={slide.src}>
+                      <img
+                        src={slide.src}
+                        alt={slide.alt}
+                        className="btpxid-hero-screenshot-img"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <button
+                type="button"
+                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-prev"
+                onClick={() => goToSlide(activeSlide - 1)}
+                aria-label="Previous screenshot"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
+              <button
+                type="button"
+                className="btpxid-hero-carousel-arrow btpxid-hero-carousel-arrow-next"
+                onClick={() => goToSlide(activeSlide + 1)}
+                aria-label="Next screenshot"
+              >
+                <ChevronRight className="h-5 w-5" />
+              </button>
+
+              <div className="btpxid-hero-carousel-dots">
+                {HERO_SCREENSHOTS.map((slide, i) => (
+                  <button
+                    type="button"
+                    key={slide.src}
+                    className={`btpxid-hero-carousel-dot ${i === activeSlide ? "is-active" : ""}`}
+                    onClick={() => goToSlide(i)}
+                    aria-label={`Go to screenshot ${i + 1}`}
+                    aria-current={i === activeSlide}
+                  />
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ===== GAPS — what SAP BTP does not record ===== */}
+      {/* ===== GAPS: what SAP BTP does not record ===== */}
       <section className="btpxid-gaps" id="gaps">
         <div className="btpxid-gaps-inner">
           <div className="btpxid-showcase-header">
@@ -297,7 +363,7 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
-      {/* ===== STANDARDS — audit impact ===== */}
+      {/* ===== STANDARDS: audit impact ===== */}
       <section className="btpxid-standards" id="compliance">
         <div className="btpxid-standards-inner">
           <div className="btpxid-showcase-header">
@@ -413,7 +479,7 @@ export default function BTPxIDProduct() {
               <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
               <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            <span>Cloud Foundry Org &amp; Space manager assignments — including Org Manager force-add in one click, without service update wizards or JSON payloads (<a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>SAP Note 3249765</a>)</span>
+            <span>Cloud Foundry Org &amp; Space manager assignments, including Org Manager force-add in one click, without service update wizards or JSON payloads (<a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>SAP Note 3249765</a>)</span>
           </li>
         </ul>
       </div>
@@ -438,7 +504,7 @@ export default function BTPxIDProduct() {
             </h2>
           </div>
 
-          {/* Primary CTA — the web app is the credential-governance tool this page sells */}
+          {/* Primary CTA: the web app is the credential-governance tool this page sells */}
           <div className="btpxid-download-primary">
             <a
               href={XID_WEB_URL}
@@ -458,7 +524,7 @@ export default function BTPxIDProduct() {
               <ArrowUpRight className="h-5 w-5" />
             </a>
 
-            {/* Secondary — desktop app for user management */}
+            {/* Secondary: desktop app for user management */}
             {primaryDownloadUrl ? (
               <a
                 href={primaryDownloadUrl}
@@ -536,7 +602,7 @@ export default function BTPxIDProduct() {
             </div>
           )}
 
-          {/* Windows SmartScreen notice — glass modal overlay */}
+          {/* Windows SmartScreen notice: glass modal overlay */}
           {showSmartScreenNotice && (
             <div className="btpxid-smartscreen-overlay" onClick={() => setShowSmartScreenNotice(false)}>
               <div className="btpxid-smartscreen-modal" onClick={(e) => e.stopPropagation()}>

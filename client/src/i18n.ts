@@ -99,7 +99,7 @@ const getBrowserLanguage = (): string => {
   const storedLang = matchSupported(localStorage.getItem('terrabt-language'));
   if (storedLang) return storedLang;
 
-  // 4. Browser navigator.languages — defensive parse
+  // 4. Browser navigator.languages, defensive parse
   const browserLanguages = navigator.languages || [navigator.language || (navigator as any).userLanguage];
   for (const browserLang of browserLanguages) {
     const m = matchSupported(browserLang);

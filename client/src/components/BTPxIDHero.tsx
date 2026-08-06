@@ -37,7 +37,7 @@ export default function BTPxIDHero() {
 
           <p className="btpxid-subtitle">
             Manage users across global accounts, sub-accounts, Cloud Foundry
-            orgs and spaces — all from a single pane of glass. Reverse search
+            orgs and spaces, all from a single pane of glass. Reverse search
             any user instantly.
           </p>
 

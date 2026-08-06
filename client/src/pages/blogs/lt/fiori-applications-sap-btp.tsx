@@ -18,7 +18,7 @@ export default function FioriApplicationsSAPBTP() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Kodėl SAP BTP Fiori kūrimui"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP siūlo specialiai Fiori sukurtų įrankių ir paslaugų rinkinį. Platforma apima viską — nuo programavimo aplinkų iki talpinimo. Tai leidžia komandoms susikoncentruoti į gerą UI/UX, o ne į serverių priežiūrą."}
+            {"SAP BTP siūlo specialiai Fiori sukurtų įrankių ir paslaugų rinkinį. Platforma apima viską, nuo programavimo aplinkų iki talpinimo. Tai leidžia komandoms susikoncentruoti į gerą UI/UX, o ne į serverių priežiūrą."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Pagrindiniai principai ir praktika"}</h2>
           <p className="leading-relaxed">
@@ -26,7 +26,7 @@ export default function FioriApplicationsSAPBTP() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integracija su BTP paslaugomis"}</h2>
           <p className="leading-relaxed">
-            {"Vienas pagrindinių privalumų yra lengvas ryšys su kitomis debesijos paslaugomis. Nuo saugumo per SAP Cloud Identity iki duomenų bazių SAP HANA Cloud — kūrėjai turi prieigą prie visko vienoje vietoje."}
+            {"Vienas pagrindinių privalumų yra lengvas ryšys su kitomis debesijos paslaugomis. Nuo saugumo per SAP Cloud Identity iki duomenų bazių SAP HANA Cloud, kūrėjai turi prieigą prie visko vienoje vietoje."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Adaptyvus dizainas visiems ekranams"}</h2>
           <p className="leading-relaxed">

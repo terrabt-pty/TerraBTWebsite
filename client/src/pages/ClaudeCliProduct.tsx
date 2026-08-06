@@ -19,7 +19,7 @@ import {
 import { FaApple, FaWindows } from "react-icons/fa6";
 
 /* ===================================================================
-   Claude CLI Conversation Backup & Viewer — Product Landing Page
+   Claude CLI Conversation Backup & Viewer: Product Landing Page
    Visual identity: green/teal accents (same family as BTP xID)
    =================================================================== */
 
@@ -187,7 +187,7 @@ export default function ClaudeCliProduct() {
     fetch(VERSION_JSON_URL)
       .then((r) => r.json())
       .then((data: VersionInfo) => setVersionInfo(data))
-      .catch(() => { /* stays null — buttons remain in loading state */ });
+      .catch(() => { /* stays null, buttons remain in loading state */ });
   }, []);
 
   const primaryDownload = getPrimaryDownload(os, arch);
@@ -206,7 +206,7 @@ export default function ClaudeCliProduct() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="Claude CLI Backup & Viewer — Desktop app by TerraBT"
+        title="Claude CLI Backup & Viewer: Desktop app by TerraBT"
         description={t('claudeCliProduct.meta.description')}
         path="/products/claude-cli"
       />
@@ -561,7 +561,7 @@ export default function ClaudeCliProduct() {
             </div>
           )}
 
-          {/* Windows SmartScreen notice — glass modal overlay */}
+          {/* Windows SmartScreen notice: glass modal overlay */}
           {showSmartScreenNotice && (
             <div className="ccv-smartscreen-overlay" data-testid="notice-ccv-smartscreen" onClick={() => setShowSmartScreenNotice(false)}>
               <div className="ccv-smartscreen-modal" onClick={(e) => e.stopPropagation()}>

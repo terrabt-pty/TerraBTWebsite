@@ -18,7 +18,7 @@ export default function FioriApplicationsSAPBTP() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"העוצמה של SAP BTP לפיתוח Fiori"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP מציעה חבילה מקיפה של כלים המיועדים במיוחד לפיתוח Fiori. הפלטפורמה מספקת הכל — מסביבות פיתוח ועד תשתית פריסה, מה שמאפשר לצוותים להתמקד ביצירת חוויות משתמש יוצאות דופן."}
+            {"SAP BTP מציעה חבילה מקיפה של כלים המיועדים במיוחד לפיתוח Fiori. הפלטפורמה מספקת הכל, מסביבות פיתוח ועד תשתית פריסה, מה שמאפשר לצוותים להתמקד ביצירת חוויות משתמש יוצאות דופן."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"תכונות מפתח ושיטות עבודה מומלצות"}</h2>
           <p className="leading-relaxed">

@@ -34,7 +34,7 @@ export default function AIInvoiceProcessing() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Mitattavat liiketoimintahyödyt"}</h2>
           <p className="leading-relaxed">
-            {"Yritykset, jotka ovat ottaneet AI:n käyttöön laskutuksessa, raportoivat merkittävistä parannuksista: käsittelyajan lyhentyminen 90 %, tallennusvirheiden väheneminen 95 % ja huomattavat säästöt. Mikä tärkeintä — tiimit voivat keskittyä strategisiin tehtäviin rutiininomaisen tietojen syötön sijaan."}
+            {"Yritykset, jotka ovat ottaneet AI:n käyttöön laskutuksessa, raportoivat merkittävistä parannuksista: käsittelyajan lyhentyminen 90 %, tallennusvirheiden väheneminen 95 % ja huomattavat säästöt. Mikä tärkeintä, tiimit voivat keskittyä strategisiin tehtäviin rutiininomaisen tietojen syötön sijaan."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Johtopäätös"}</h2>
           <p className="leading-relaxed">

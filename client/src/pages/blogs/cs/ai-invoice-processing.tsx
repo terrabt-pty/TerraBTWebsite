@@ -34,7 +34,7 @@ export default function AIInvoiceProcessing() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Měřitelný obchodní výsledek"}</h2>
           <p className="leading-relaxed">
-            {"Firmy, které zavedly AI pro zpracování faktur, zaznamenávají ohromující zlepšení: zkrácení doby zpracování o 90 %, snížení chyb při zadávání o 95 % a významné úspory nákladů. Co je však nejdůležitější — zaměstnanci se mohou soustředit na strategické úkoly namísto repetitivního zadávání dat."}
+            {"Firmy, které zavedly AI pro zpracování faktur, zaznamenávají ohromující zlepšení: zkrácení doby zpracování o 90 %, snížení chyb při zadávání o 95 % a významné úspory nákladů. Co je však nejdůležitější, zaměstnanci se mohou soustředit na strategické úkoly namísto repetitivního zadávání dat."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Závěr"}</h2>
           <p className="leading-relaxed">

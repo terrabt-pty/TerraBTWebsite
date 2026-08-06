@@ -6,6 +6,6 @@ export function trackDownload(app: string, version: string, platform: string): v
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ app, version, platform }),
   }).catch(() => {
-    // fire-and-forget — never block or surface tracking failures
+    // fire-and-forget, never block or surface tracking failures
   });
 }

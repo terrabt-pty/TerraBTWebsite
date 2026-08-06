@@ -18,7 +18,7 @@ export default function FioriApplicationsSAPBTP() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"SAP BTP jauda Fiori izstrādei"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP piedāvā plašu rīku un pakalpojumu klāstu, kas īpaši izstrādāts Fiori lietotnēm. Platforma nodrošina visu nepieciešamo — no izstrādes vidēm līdz izvietošanas infrastruktūrai, ļaujot komandām koncentrēties uz pašu saskarni."}
+            {"SAP BTP piedāvā plašu rīku un pakalpojumu klāstu, kas īpaši izstrādāts Fiori lietotnēm. Platforma nodrošina visu nepieciešamo, no izstrādes vidēm līdz izvietošanas infrastruktūrai, ļaujot komandām koncentrēties uz pašu saskarni."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Galvenās funkcijas un labākā prakse"}</h2>
           <p className="leading-relaxed">
@@ -26,7 +26,7 @@ export default function FioriApplicationsSAPBTP() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integrācija ar SAP BTP pakalpojumiem"}</h2>
           <p className="leading-relaxed">
-            {"Viena no lielākajām priekšrocībām ir nemanāma integrācija ar citiem platformas pakalpojumiem — mākoņa identitātes pakalpojumiem autentifikācijai vai SAP HANA Cloud datu glabāšanai, nodrošinot uzņēmuma līmeņa servisu pieejamību."}
+            {"Viena no lielākajām priekšrocībām ir nemanāma integrācija ar citiem platformas pakalpojumiem, mākoņa identitātes pakalpojumiem autentifikācijai vai SAP HANA Cloud datu glabāšanai, nodrošinot uzņēmuma līmeņa servisu pieejamību."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Adaptīvs dizains un vairāku ierīču atbalsts"}</h2>
           <p className="leading-relaxed">

@@ -30,7 +30,7 @@ export default function OfflinePWABusinessContinuity() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Biznesa ieguvumi"}</h2>
           <p className="leading-relaxed">
-            {"Bezsaistes PWAs nodrošina produktivitāti jebkurā vidē — lauka darbinieki var turpināt darbu attālos objektos, un operācijas netiek pārtrauktas tīkla kļūmju gadījumā, tādējādi uzlabojot klientu apmierinātību."}
+            {"Bezsaistes PWAs nodrošina produktivitāti jebkurā vidē, lauka darbinieki var turpināt darbu attālos objektos, un operācijas netiek pārtrauktas tīkla kļūmju gadījumā, tādējādi uzlabojot klientu apmierinātību."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Ieviešana ar SAP BTP"}</h2>
           <p className="leading-relaxed">

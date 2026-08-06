@@ -95,7 +95,7 @@ export default function BlogPost({
             <img src={image} alt={title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
 
-          {/* Content — blog-light-content overrides dark-mode Tailwind CSS vars */}
+          {/* Content: blog-light-content overrides dark-mode Tailwind CSS vars */}
           <div className="blog-light-content">
             {content}
           </div>

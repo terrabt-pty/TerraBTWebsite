@@ -26,7 +26,7 @@ export default function OfflinePWABusinessContinuity() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Sinchronizavimo mechanizmai"}</h2>
           <p className="leading-relaxed">
-            {"Didelis iššūkis — kaip atnaujinti duomenis ryšiui sugrįžus. Modernios strategijos užtikrina, kad informacija nebus prarasta. Background Sync API leidžia tai padaryti vartotojui nepastebimai fone."}
+            {"Didelis iššūkis: kaip atnaujinti duomenis ryšiui sugrįžus. Modernios strategijos užtikrina, kad informacija nebus prarasta. Background Sync API leidžia tai padaryti vartotojui nepastebimai fone."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Vertė verslui"}</h2>
           <p className="leading-relaxed">

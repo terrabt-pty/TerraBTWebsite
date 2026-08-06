@@ -7,7 +7,7 @@ export default function BTPControlBeforeAfterPage() {
     <>
       <SEOHead
         title="Before and After BTP xID: BTP User Management and Control Compared | TerraBT"
-        description="A side-by-side comparison of what it takes to manage users, roles, API credentials and Cloud Foundry access in SAP BTP — before and after BTP xID. Onboarding, auditing, offboarding, bulk changes, all compared."
+        description="A side-by-side comparison of what it takes to manage users, roles, API credentials and Cloud Foundry access in SAP BTP, before and after BTP xID. Onboarding, auditing, offboarding, bulk changes, all compared."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
@@ -37,7 +37,7 @@ export default function BTPControlBeforeAfterPage() {
 
           {/* Lead */}
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
-            Most BTP teams have learned to live with how the platform handles users and API credentials. Click through every sub-account. Switch between BTP cockpit and Cloud Foundry. Track API credentials across hundreds of CF spaces with no single inventory view. Keep a spreadsheet so nothing falls through the cracks. The work gets done, but it gets done slowly — and security questions about <em>who has access to what, and which credentials are still active</em> often go unanswered for hours or days.
+            Most BTP teams have learned to live with how the platform handles users and API credentials. Click through every sub-account. Switch between BTP cockpit and Cloud Foundry. Track API credentials across hundreds of CF spaces with no single inventory view. Keep a spreadsheet so nothing falls through the cracks. The work gets done. It gets done slowly. Security questions about <em>who has access to what, and which credentials are still active</em> often go unanswered for hours or days.
             <br /><br />
             Here is what changes when BTP xID sits in the middle of that picture.
           </p>
@@ -54,11 +54,11 @@ export default function BTPControlBeforeAfterPage() {
             <ComparisonRow
               before={{
                 title: "Before BTP xID",
-                body: "Open the BTP cockpit. Navigate to the first sub-account. Add the user. Assign the right role collections. Switch to the Cloud Foundry environment. Add them to each org as an Org Manager or Auditor. Click into each space. Assign Space Developer where needed. Repeat for the next sub-account. And the next. A landscape with twenty sub-accounts and three spaces each easily becomes a half-day task, with the constant risk of inconsistency between accounts."
+                body: "Open the BTP cockpit. Navigate to the first sub-account. Add the user. Assign the right role collections. Switch to the Cloud Foundry environment. Add them to each org as an Org Manager or Auditor. Click into each space. Assign Space Developer where needed. Repeat for the next sub-account. And the next. A landscape with twenty sub-accounts and three spaces each easily becomes a half-day task. The risk of inconsistency between accounts stays constant throughout."
               }}
               after={{
                 title: "After BTP xID",
-                body: "Open BTP xID. Select the user. Tick the accounts, orgs and spaces they need. Assign roles. Apply. The same onboarding that took half a day takes a few minutes — and the assignments are consistent across the landscape because they were configured from one place."
+                body: "Open BTP xID. Select the user. Tick the accounts, orgs and spaces they need. Assign roles. Apply. The same onboarding that took half a day takes a few minutes. The assignments stay consistent across the landscape because they were configured from one place."
               }}
             />
           </section>
@@ -75,11 +75,11 @@ export default function BTPControlBeforeAfterPage() {
             <ComparisonRow
               before={{
                 title: "Before BTP xID",
-                body: "There is no native way to ask this question and get a complete answer. The BTP cockpit shows you what is inside each sub-account, one at a time. CF org and space memberships sit in a different view. Role collections assigned at login through IAS group mapping do not appear in the cockpit's user list at all. Most teams end up clicking through every sub-account and every space, exporting role lists into a spreadsheet, and reconciling by hand."
+                body: "There is no native way to ask this question and get a complete answer. The BTP cockpit shows what is inside each sub-account, one at a time. CF org and space memberships sit in a different view. Role collections assigned at login through IAS group mapping do not appear in the cockpit's user list at all. Most teams end up clicking through every sub-account and every space, exporting role lists into a spreadsheet, and reconciling by hand."
               }}
               after={{
                 title: "After BTP xID",
-                body: "Start from any user, or any environment. See the full access picture in one screen — role collections, Global Account roles, CF org and space memberships, all in one place. Answering an audit question becomes a query, not a project."
+                body: "Start from any user, or any environment. See the full access picture in one screen: role collections, Global Account roles, CF org and space memberships, all in one place. Answering an audit question becomes a query, not a project."
               }}
             />
           </section>
@@ -96,11 +96,11 @@ export default function BTPControlBeforeAfterPage() {
             <ComparisonRow
               before={{
                 title: "Before BTP xID",
-                body: "Disable the corporate IdP account. Remove the user from IAS. Then start cleaning up everywhere they had access in BTP. Open each sub-account in turn, remove role collection assignments. Switch to Cloud Foundry. Remove org and space memberships one by one. If they had Org Manager rights anywhere, they may still have access to deployed applications through tokens that are still valid. There is no consolidated view to confirm everything has been removed, so a careful offboarding takes time, and a careless one leaves dormant access in place."
+                body: "Disable the corporate IdP account. Remove the user from IAS. Then start cleaning up everywhere they had access in BTP. Open each sub-account in turn. Remove role collection assignments. Switch to Cloud Foundry. Remove org and space memberships one by one. If they had Org Manager rights anywhere, they may still have access to deployed applications through tokens that are still valid. There is no consolidated view to confirm everything has been removed. A careful offboarding takes time. A careless one leaves dormant access in place."
               }}
               after={{
                 title: "After BTP xID",
-                body: "Select the user. Remove all their access — role collections, Global Account roles, CF org and space memberships — across every account in your landscape in a single action. The picture is consistent because the action was atomic."
+                body: "Select the user. Remove all their access in a single action: role collections, Global Account roles, CF org and space memberships, across every account in your landscape. The picture stays consistent because the action was atomic."
               }}
             />
           </section>
@@ -117,11 +117,11 @@ export default function BTPControlBeforeAfterPage() {
             <ComparisonRow
               before={{
                 title: "Before BTP xID",
-                body: "Open Services → Instances and Subscriptions. Find the Cloud Foundry Runtime entry. Open the menu, click Update. Navigate the wizard to the Parameters screen. Construct a JSON payload by hand with the user's email and ID. Submit. Wait. Then run the whole thing again with an empty payload to clear the configuration, or all future updates will error. This is documented in SAP Note 3249765 and it is the official supported process."
+                body: "Open Services, then Instances and Subscriptions. Find the Cloud Foundry Runtime entry. Open the menu and click Update. Navigate the wizard to the Parameters screen. Construct a JSON payload by hand with the user's email and ID. Submit. Wait. Then run the whole thing again with an empty payload to clear the configuration, or all future updates will error. This is documented in SAP Note 3249765. It is the official supported process."
               }}
               after={{
                 title: "After BTP xID",
-                body: "Select the user. Select Org Manager. Done. BTP xID handles the underlying API calls — no service update wizard, no JSON, no cleanup step."
+                body: "Select the user. Select Org Manager. Done. BTP xID handles the underlying API calls, no service update wizard, no JSON, no cleanup step."
               }}
             />
           </section>
@@ -138,11 +138,11 @@ export default function BTPControlBeforeAfterPage() {
             <ComparisonRow
               before={{
                 title: "Before BTP xID",
-                body: "A team is moving from one project to another. Twelve developers, four sub-accounts, six CF spaces. The change involves removing existing assignments and adding new ones. Done through the cockpit, this is dozens of individual actions repeated for each developer. A spreadsheet tracks who has been moved, who is still pending. The team is operational at half-speed until the migration is complete."
+                body: "A team is moving from one project to another. Twelve developers, four sub-accounts, six CF spaces. The change involves removing existing assignments and adding new ones. Done through the cockpit, this is dozens of individual actions repeated for each developer. A spreadsheet tracks who has been moved and who is still pending. The team runs at half-speed until the migration is complete."
               }}
               after={{
                 title: "After BTP xID",
-                body: "Select the twelve developers. Select the target sub-accounts and spaces. Apply roles. Done. The same change that took the better part of an afternoon takes minutes — and the consistency across the team is guaranteed because the action was applied once, not twelve times."
+                body: "Select the twelve developers. Select the target sub-accounts and spaces. Apply roles. Done. The same change that took the better part of an afternoon takes minutes. Consistency across the team is guaranteed because the action was applied once, not twelve times."
               }}
             />
           </section>
@@ -151,13 +151,13 @@ export default function BTPControlBeforeAfterPage() {
           <section style={{ marginBottom: "48px", background: "#F8FAFC", borderRadius: "12px", padding: "32px", border: "1px solid #E2E8F0" }}>
             <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>What changes for the people responsible for control</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              The day-to-day workflow improvements matter to operations teams. The bigger change is for the people who are responsible for being able to answer questions about BTP access — security architects, compliance leads, internal auditors.
+              The day-to-day workflow improvements matter to operations teams. The bigger change is for the people responsible for answering questions about BTP access: security architects, compliance leads, internal auditors.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              Before BTP xID, those questions land in a queue. <em>Can you confirm this contractor has been fully offboarded?</em> <em>Who currently has Org Manager rights across production?</em> <em>Did the access changes we agreed last quarter actually get applied everywhere?</em> Each of these takes a BTP admin a non-trivial amount of time to investigate. Each carries a real chance of an incomplete answer.
+              Before BTP xID, those questions land in a queue. <em>Can you confirm this contractor has been fully offboarded?</em> <em>Who currently has Org Manager rights across production?</em> <em>Did the access changes we agreed last quarter actually get applied everywhere?</em> Each takes a BTP admin a non-trivial amount of time to investigate. Each carries a real chance of an incomplete answer.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: 0 }}>
-              After BTP xID, those questions can be answered from one screen, with the confidence that the picture is consistent across the whole landscape — because that's how the access was set up in the first place.
+              After BTP xID, those questions can be answered from one screen. The picture stays consistent across the whole landscape because that is how the access was set up in the first place.
             </p>
           </section>
 

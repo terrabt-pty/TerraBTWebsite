@@ -17,7 +17,7 @@ export default function Knowledge() {
 
   // All existing website blogs - expanded list from locales and additional BTP xID blogs.
   // `date` is the post's actual publish/creation date (oldest dates here come from when
-  // each blog page was first added to the codebase) — it drives the sort order below and
+  // each blog page was first added to the codebase), it drives the sort order below and
   // is not displayed. Keep it set on every new entry so new posts sort correctly.
   const allBlogs = [
     {
@@ -160,7 +160,7 @@ export default function Knowledge() {
       image: globalImage,
       category: "BTP xID",
       title: "SAP BTP Service Key Access: A Security Problem Most Offboarding Processes Miss",
-      excerpt: "Service keys for inbound Integration Suite connections have no expiry and no metadata. Worse, Cloud Foundry org/space access doesn't sync with subaccount offboarding — so removed users can still read or delete production API credentials.",
+      excerpt: "Service keys for inbound Integration Suite connections have no expiry and no metadata. Worse, Cloud Foundry org/space access doesn't sync with subaccount offboarding, so removed users can still read or delete production API credentials.",
       readTime: "4 min",
       slug: 'sap-btp-service-key-offboarding-risk',
       date: '2026-06-23T10:30:32+00:00',

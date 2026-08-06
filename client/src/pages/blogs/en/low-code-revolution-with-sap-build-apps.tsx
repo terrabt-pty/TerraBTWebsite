@@ -13,32 +13,32 @@ export default function LowCodeRevolutionBuildApps() {
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"The demand for digital solutions is outstripping the capacity of professional developers. SAP Build Apps (formerly AppGyver) addresses this by empowering business experts and IT teams to create professional applications visually."}
+            {"Demand for digital solutions has outpaced what professional development teams can deliver. SAP Build Apps, previously known as AppGyver, is SAP's answer to this gap. It lets business experts and IT teams build production-grade applications through a visual interface, without writing traditional code."}
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Visual Development Paradigm"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Visual Development"}</h2>
           <p className="leading-relaxed">
-            {"With its drag-and-drop interface and vast library of pre-built components, SAP Build Apps allows you to build sophisticated user interfaces in a fraction of the time required by traditional coding. The visual logic builder replaces complex code with intuitive flows."}
+            {"SAP Build Apps gives you a drag-and-drop canvas and a large library of pre-built components. You can put together a working UI in a fraction of the time a hand-coded build would take. The visual logic builder handles the app logic too. Instead of writing conditionals and event handlers you connect flow blocks."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Enterprise Connectivity"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Connecting to Enterprise Systems"}</h2>
           <p className="leading-relaxed">
-            {"Low-code doesn't mean isolated. SAP Build Apps integrates seamlessly with SAP BTP services and external APIs via OData and REST. This ensures your no-code apps have access to the same enterprise data as your pro-code applications."}
+            {"Low-code does not mean cut off from the rest of your landscape. SAP Build Apps connects to SAP BTP services and external systems through OData and REST APIs. An app built visually here reads and writes the same enterprise data as your pro-code applications. There is no separate data silo to manage."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Cross-Platform by Design"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Built Once, Runs on Multiple Platforms"}</h2>
           <p className="leading-relaxed">
-            {"Apps built with SAP Build are inherently responsive. You can build once and deploy to web, iOS, and Android, providing a consistent experience for users across all their devices without maintaining multiple codebases."}
+            {"Apps built in SAP Build are responsive by default. You build the app once and deploy it to web, iOS, and Android. Users get a consistent experience across devices and you avoid maintaining separate codebases for each platform."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Extensibility with JavaScript"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Custom JavaScript When You Need It"}</h2>
           <p className="leading-relaxed">
-            {"When you hit the limits of built-in components, SAP Build Apps allows pro-developers to write custom JavaScript. This ensures that the platform is powerful enough for complex requirements while remaining accessible for simpler tasks."}
+            {"Pre-built components will not cover every scenario. When you hit that wall SAP Build Apps lets pro-developers drop in custom JavaScript. Business users can handle the standard cases through the visual builder, and developers can step in for the edge cases that need real code."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Part of the SAP Build Family"}</h2>
           <p className="leading-relaxed">
-            {"As part of the wider SAP Build family, Apps works in harmony with SAP Build Process Automation and SAP Build Work Zone, providing a unified experience for building, automating, and accessing business applications."}
+            {"SAP Build Apps does not work in isolation. It sits alongside SAP Build Process Automation and SAP Build Work Zone. Together these three cover building, automating, and accessing business applications from one connected environment."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
           <p className="leading-relaxed">
-            {"SAP Build Apps is democratizing innovation. By lowering the barrier to entry, it allows organizations to respond more quickly to business needs while maintaining the security and governance required by the enterprise."}
+            {"SAP Build Apps lowers the barrier to building enterprise applications. More people in an organization can build the apps they need without waiting on a development queue. Governance and security controls stay in place, so this speed does not come at the cost of enterprise standards."}
           </p>
         </div>
       }

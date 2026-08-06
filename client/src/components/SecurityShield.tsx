@@ -7,28 +7,28 @@ export default function SecurityShield({ className }: { className?: string }) {
       className={className}
     >
       <defs>
-        {/* Main body gradient — teal-green → blue → dark navy, matching the BTP xID icon */}
+        {/* Main body gradient: teal-green to blue to dark navy, matching the BTP xID icon */}
         <linearGradient id="ss-body" x1="20" y1="0" x2="140" y2="188" gradientUnits="userSpaceOnUse">
           <stop offset="0%"   stopColor="#2D8B7A" />
           <stop offset="38%"  stopColor="#1E5099" />
           <stop offset="100%" stopColor="#080E24" />
         </linearGradient>
 
-        {/* Glass gloss — top-left highlight, same as the icon's corner shine */}
+        {/* Glass gloss: top-left highlight, same as the icon's corner shine */}
         <radialGradient id="ss-gloss" cx="32%" cy="22%" r="52%" fx="25%" fy="15%">
           <stop offset="0%"   stopColor="rgba(255,255,255,0.36)" />
           <stop offset="45%"  stopColor="rgba(255,255,255,0.10)" />
           <stop offset="100%" stopColor="rgba(255,255,255,0)" />
         </radialGradient>
 
-        {/* Edge rim gradient — green at top, fading to subtle blue */}
+        {/* Edge rim gradient: green at top, fading to subtle blue */}
         <linearGradient id="ss-rim" x1="0" y1="0" x2="160" y2="188" gradientUnits="userSpaceOnUse">
           <stop offset="0%"   stopColor="rgba(76,175,80,0.7)" />
           <stop offset="45%"  stopColor="rgba(30,80,153,0.5)" />
           <stop offset="100%" stopColor="rgba(76,175,80,0.2)" />
         </linearGradient>
 
-        {/* Inner icon fill — light/white semi-transparent, same treatment as the cross in the BTP xID icon */}
+        {/* Inner icon fill: light/white semi-transparent, same treatment as the cross in the BTP xID icon */}
         <linearGradient id="ss-icon" x1="65" y1="80" x2="95" y2="130" gradientUnits="userSpaceOnUse">
           <stop offset="0%"   stopColor="rgba(235,242,255,0.95)" />
           <stop offset="100%" stopColor="rgba(180,210,255,0.75)" />

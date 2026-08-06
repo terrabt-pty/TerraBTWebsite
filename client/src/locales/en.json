@@ -1595,7 +1595,7 @@
     "hero": {
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
-      "headline": "BTP xID Helps You Secure Your SAP BTP API Service Keys",
+      "headline": "BTP xID helps govern SAP BTP Service Keys and Mass Manage SAP BTP Users",
       "subhead": "BTP xID brings ownership, lifecycle, and auditability to every service key across your landscape — so you stay compliant with security standards.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
@@ -1644,7 +1644,7 @@
     },
     "standards": {
       "label": "Compliance",
-      "title": "What this means for your audit",
+      "title": "BTP xID Helps You with Security Audits",
       "subtitle": "Security frameworks require credentials to have accountable owners, defined lifecycles, and reviewable access.",
       "cta": "Read more",
       "cards": [
@@ -1677,7 +1677,7 @@
     },
     "closes": {
       "label": "The Solution",
-      "title": "How BTP xID closes each gap",
+      "title": "BTP xID Strengthens Governance",
       "subtitle": "BTP xID adds a governance layer on top of your existing landscape. Metadata is stored on the credential itself, in your own accounts — not in a separate database.",
       "items": [
         {
@@ -1726,8 +1726,8 @@
       "getStartedLabel": "Get Started",
       "getStartedTitle": "See every service key in your landscape today.",
       "webButton": "Open BTP xID in your browser",
-      "webButtonDesc": "Best for API credential & service key management — rotate and govern BTP API credentials",
-      "desktopButtonDesc": "Best for user management — Global Accounts, subaccounts, directories, CF orgs and spaces",
+      "webButtonDesc": "Best for API credential & service key management, rotate and govern BTP API credentials",
+      "desktopButtonDesc": "Best for user management, Global Accounts, subaccounts, directories, CF orgs and spaces",
       "primaryButton": "Download for {{label}}",
       "loading": "Loading...",
       "showAll": "Show all download options",

@@ -41,7 +41,7 @@ export default function Navigation() {
             <Logo className="h-6 xxs:h-7 md:h-8" data-testid="img-logo" />
           </Link>
 
-          {/* Centre — desktop nav */}
+          {/* Centre: desktop nav */}
           <div className="hidden lg:flex items-center justify-center gap-6">
             <Link
               href={btpXidPath}
@@ -92,7 +92,7 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Right — language + sign in */}
+          {/* Right: language + sign in */}
           <div className="flex items-center gap-0.5 xxs:gap-1 sm:gap-2 justify-end">
             <div className="hidden lg:flex items-center gap-2">
               <LanguageSwitcher />

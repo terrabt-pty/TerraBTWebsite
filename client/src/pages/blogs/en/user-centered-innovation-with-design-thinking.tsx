@@ -13,32 +13,32 @@ export default function UserCenteredInnovationDesignThinking() {
       content={
         <div className="space-y-6 text-foreground">
           <p className="text-lg leading-relaxed">
-            {"Building great software isn't just about technology; it's about solving human problems. Design Thinking provides a structured approach to innovation that puts the user at the center of the development lifecycle, ensuring that the final product truly meets their needs."}
+            {"Building good software is not only about the technology stack. It is about solving a real problem for a real person. Design Thinking gives us a structured way to keep the user at the center of the development lifecycle. It helps make sure the final product actually meets their needs, not just the requirements written in a document."}
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"The Five Stages of Design Thinking"}</h2>
           <p className="leading-relaxed">
-            {"The process involves five key stages: Empathize with users, Define their needs, Ideate creative solutions, Prototype quickly, and Test with real users. This iterative loop ensures that the project remains focused on the user's actual challenges."}
+            {"The process has five stages. Empathize with users. Define their needs. Ideate on possible solutions. Prototype quickly. Test with real users. It is an iterative loop, not a straight line. Each pass keeps the project anchored to what the user actually deals with day to day."}
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">{"Empathy: Understanding the 'Why'"}</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">{"Empathy: Understanding the Why"}</h2>
           <p className="leading-relaxed">
-            {"Before writing a single line of code, we spend time with users to understand their workflows, frustrations, and motivations. This deep empathy is the key to identifying the 'hidden' requirements that traditional requirements gathering often misses."}
+            {"Before writing a single line of code we spend time with the actual users. We watch their workflows and note where they get stuck or frustrated. This is where the hidden requirements show up. A standard requirements gathering session usually misses these. This usually gets found in a security review, not before, and the same is true for usability gaps if nobody watches the user work."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Ideation and Divergent Thinking"}</h2>
           <p className="leading-relaxed">
-            {"During ideation, we encourage teams to think outside the box and explore many possible solutions without judgment. This broad range of ideas is then narrowed down to the most promising concepts for prototyping."}
+            {"During ideation we ask the team to put forward as many ideas as possible without judging them early. No idea is dismissed at this stage. Once we have a wide set of options we narrow it down to the concepts worth prototyping."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Rapid Prototyping on SAP BTP"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP tools like SAP Build Apps and Fiori Elements allow us to build functional prototypes incredibly quickly. These prototypes allow users to 'feel' the solution and provide feedback before significant development effort is invested."}
+            {"SAP BTP tools such as SAP Build Apps and Fiori Elements let us put together working prototypes quickly. A prototype gives the user something to click through and react to. Feedback at this stage costs a lot less than feedback collected after the build is mostly done."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Testing and Iteration"}</h2>
           <p className="leading-relaxed">
-            {"Testing with real users often reveals unexpected insights. We use these insights to iterate on our designs, refining the solution until it perfectly matches the user's mental model and optimizes their business process."}
+            {"Testing with real users tends to surface things the team did not expect. We take those findings back into the design and refine it again. The goal is a solution that matches how the user actually thinks about the task, and one that fits their business process instead of fighting it."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Conclusion"}</h2>
           <p className="leading-relaxed">
-            {"Design Thinking is the bridge between technology and business value. By applying these principles to SAP BTP projects, we ensure that we build solutions that users love and that deliver a clear return on investment."}
+            {"Design Thinking connects the technical build to actual business value. Applying it on SAP BTP projects keeps the team honest about who the solution is for. The result is software people are willing to use and one that pays for itself."}
           </p>
         </div>
       }

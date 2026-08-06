@@ -22,7 +22,7 @@ export default function BTPxIDShowcase() {
         <div className="btpxid-screenshot-wrap">
           <img
             src={usersImg}
-            alt="BTP xID — User Management"
+            alt="BTP xID: User Management"
             className="btpxid-screenshot"
           />
         </div>

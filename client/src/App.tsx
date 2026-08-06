@@ -62,7 +62,7 @@ function LanguageSync() {
       if (exactMatch) {
         detectedLang = potentialLang;
       } else if (/^[a-z]{2,3}$/i.test(potentialLang)) {
-        // Base code (e.g. 'de') — find canonical regional code (e.g. 'de-DE') and redirect
+        // Base code (e.g. 'de'), find canonical regional code (e.g. 'de-DE') and redirect
         const canonical = SUPPORTED_LANGUAGES.find(
           lang => lang.code.toLowerCase().startsWith(potentialLang.toLowerCase() + '-')
         );
@@ -95,7 +95,7 @@ function ScrollToTop() {
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
-      // Hash navigation — let the browser scroll to the anchor, or retry once rendered
+      // Hash navigation: let the browser scroll to the anchor, or retry once rendered
       const id = hash.slice(1);
       const el = document.getElementById(id);
       if (el) {
@@ -135,7 +135,7 @@ function Router() {
       <Route path="/services/build-apps" component={BuildApps} />
       <Route path="/services/build-automation" component={BuildAutomation} />
 
-      {/* Product Pages — /products redirects to home */}
+      {/* Product Pages: /products redirects to home */}
       <Route path="/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/products/btp-xid/compliance" component={BTPxIDCompliance} />
@@ -184,7 +184,7 @@ function Router() {
       <Route path="/:lang/services/build-apps" component={BuildApps} />
       <Route path="/:lang/services/build-automation" component={BuildAutomation} />
 
-      {/* Localized product pages — /:lang/products redirects to home */}
+      {/* Localized product pages: /:lang/products redirects to home */}
       <Route path="/:lang/products">{() => { window.location.replace("/"); return null; }}</Route>
       <Route path="/:lang/products/btp-xid" component={BTPxIDProduct} />
       <Route path="/:lang/products/btp-xid/compliance" component={BTPxIDCompliance} />

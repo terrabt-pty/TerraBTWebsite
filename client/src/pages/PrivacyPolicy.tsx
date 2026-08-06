@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <div className="min-h-screen bg-background text-foreground">
             <SEOHead
                 title="Privacy Policy - BTP xID by TerraBT | SAP BTP Access & Credential Management"
-                description="Privacy Policy for TerraBT and BTP xID. BTP xID connects directly to your SAP BTP tenants — we never receive or store your BTP data or credentials."
+                description="Privacy Policy for TerraBT and BTP xID. BTP xID connects directly to your SAP BTP tenants, we never receive or store your BTP data or credentials."
                 path="/privacy-policy"
             />
             <Navigation />

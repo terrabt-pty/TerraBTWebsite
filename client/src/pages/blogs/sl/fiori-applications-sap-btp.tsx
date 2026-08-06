@@ -18,7 +18,7 @@ export default function FioriApplicationsSAPBTP() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Potencial SAP BTP za razvoj Fiori"}</h2>
           <p className="leading-relaxed">
-            {"SAP BTP nudi celovit nabor orodij in storitev, posebej zasnovanih za ustvarjanje Fiori aplikacij. Platforma nudi vse — od razvojnih okolij do infrastrukture za uvedbo, kar ekipam omogoča fokus na ustvarjanje vrhunskega UX-a namesto upravljanja strežnikov."}
+            {"SAP BTP nudi celovit nabor orodij in storitev, posebej zasnovanih za ustvarjanje Fiori aplikacij. Platforma nudi vse, od razvojnih okolij do infrastrukture za uvedbo, kar ekipam omogoča fokus na ustvarjanje vrhunskega UX-a namesto upravljanja strežnikov."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Ključne funkcije in najboljše prakse"}</h2>
           <p className="leading-relaxed">
@@ -26,7 +26,7 @@ export default function FioriApplicationsSAPBTP() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Integracija s storitvami SAP BTP"}</h2>
           <p className="leading-relaxed">
-            {"Ena glavnih prednosti razvoja na SAP BTP je brezšivna povezava z drugimi oblačnimi storitvami. Od avtentikacije preko SAP Cloud Identity do shranjevanja podatkov v SAP HANA Cloud — razvijalci imajo dostop do storitev na ravni podjetja že od samega začetka."}
+            {"Ena glavnih prednosti razvoja na SAP BTP je brezšivna povezava z drugimi oblačnimi storitvami. Od avtentikacije preko SAP Cloud Identity do shranjevanja podatkov v SAP HANA Cloud, razvijalci imajo dostop do storitev na ravni podjetja že od samega začetka."}
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4">{"Odzivno načrtovanje in podpora napravam"}</h2>
           <p className="leading-relaxed">

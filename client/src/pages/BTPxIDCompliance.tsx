@@ -22,7 +22,7 @@ interface StandardSection {
 const STANDARDS: StandardSection[] = [
   {
     id: "sox",
-    name: "Sarbanes-Oxley (SOX) — IT General Controls",
+    name: "Sarbanes-Oxley (SOX): IT General Controls",
     intro:
       "SOX ITGC audits cover systems that affect financial reporting. Where SAP BTP integrations reach financial data, the service keys granting that access fall under user access management and change management controls.",
     rows: [
@@ -48,12 +48,12 @@ const STANDARDS: StandardSection[] = [
   },
   {
     id: "iso27001",
-    name: "ISO/IEC 27001:2022 — Annex A",
+    name: "ISO/IEC 27001:2022: Annex A",
     intro:
       "ISO 27001 covers access control, asset management, and cryptography. Three Annex A controls are directly affected by how SAP BTP handles service keys.",
     rows: [
       {
-        control: "A.5.15 — Access control",
+        control: "A.5.15: Access control",
         requires:
           "Access to information and associated assets must be restricted based on business and security requirements, and must be reviewable.",
         btpNative:
@@ -62,7 +62,7 @@ const STANDARDS: StandardSection[] = [
           "Owner, purpose, and expiry are recorded per credential, making an access review against business need possible.",
       },
       {
-        control: "A.8.20 — Networks security",
+        control: "A.8.20: Networks security",
         requires:
           "Networks and network services must be secured, managed, and controlled to protect data in transit.",
         btpNative:
@@ -71,7 +71,7 @@ const STANDARDS: StandardSection[] = [
           "BTP xID is not a gateway and does not add network controls itself. It provides the credential inventory across all accounts, so you know which keys exist and can identify the ones bypassing your network controls.",
       },
       {
-        control: "A.8.24 — Use of cryptography",
+        control: "A.8.24: Use of cryptography",
         requires:
           "Cryptographic keys and secrets must be managed through their full lifecycle, including rotation, regeneration, and retirement.",
         btpNative:
@@ -83,12 +83,12 @@ const STANDARDS: StandardSection[] = [
   },
   {
     id: "nist80053",
-    name: "NIST SP 800-53 — Access Control & Identification",
+    name: "NIST SP 800-53: Access Control & Identification",
     intro:
       "NIST SP 800-53 is the reference control catalog for US federal systems and widely adopted in large enterprises. The Identification and Authentication (IA) and Access Control (AC) families apply to non-human accounts such as service keys.",
     rows: [
       {
-        control: "IA-4 — Identifier management",
+        control: "IA-4: Identifier management",
         requires:
           "Non-human system accounts must be uniquely identified and managed like any other account.",
         btpNative:
@@ -97,7 +97,7 @@ const STANDARDS: StandardSection[] = [
           "Owner, purpose, and consuming-system metadata on every credential, so each key is an identifiable, accountable system account.",
       },
       {
-        control: "IA-5 — Authenticator management",
+        control: "IA-5: Authenticator management",
         requires:
           "Authenticators must be changed or refreshed at defined intervals, and when personnel with access to them leave.",
         btpNative:
@@ -106,7 +106,7 @@ const STANDARDS: StandardSection[] = [
           "Expiry dates define the interval, rotation runs in one click, and the rotation record proves it happened.",
       },
       {
-        control: "AC-2 — Account management",
+        control: "AC-2: Account management",
         requires:
           "Accounts must be created under control and audited regularly.",
         btpNative:
@@ -118,12 +118,12 @@ const STANDARDS: StandardSection[] = [
   },
   {
     id: "pcidss",
-    name: "PCI DSS 4.0 — Requirement 8",
+    name: "PCI DSS 4.0: Requirement 8",
     intro:
-      "If integration flows process, store, or transmit cardholder data — for example an e-commerce integration connecting to an SAP backend — the service keys on that path fall under PCI DSS requirement 8.",
+      "If integration flows process, store, or transmit cardholder data, for example an e-commerce integration connecting to an SAP backend, the service keys on that path fall under PCI DSS requirement 8.",
     rows: [
       {
-        control: "8.3.10.1 — Secret change interval",
+        control: "8.3.10.1: Secret change interval",
         requires:
           "Passwords and secrets must be changed at least every 90 days, or the system must use dynamic authentication.",
         btpNative:
@@ -132,7 +132,7 @@ const STANDARDS: StandardSection[] = [
           "Expiry dates and rotation records make a 90-day cycle definable, executable, and auditable.",
       },
       {
-        control: "8.6 — System and application accounts",
+        control: "8.6: System and application accounts",
         requires:
           "System-to-system credentials must be tightly controlled, assigned to specific owners, and reviewed regularly.",
         btpNative:
@@ -144,12 +144,12 @@ const STANDARDS: StandardSection[] = [
   },
   {
     id: "soc2",
-    name: "SOC 2 Type II — Trust Services Criteria",
+    name: "SOC 2 Type II: Trust Services Criteria",
     intro:
       "A SOC 2 Type II audit verifies operational effectiveness of controls over a 6-to-12-month period. Two criteria groups are directly affected by service key handling.",
     rows: [
       {
-        control: "CC6.1 / CC6.2 — Logical access",
+        control: "CC6.1 / CC6.2: Logical access",
         requires:
           "Logical access is provisioned and removed under control. Departed personnel must not retain access.",
         btpNative:
@@ -158,11 +158,11 @@ const STANDARDS: StandardSection[] = [
           "Owner metadata links every key to an accountable person. A leaver event becomes a query by owner, followed by rotation and reassignment.",
       },
       {
-        control: "CC7.1 — Monitoring of controls",
+        control: "CC7.1: Monitoring of controls",
         requires:
           "Infrastructure and access paths must be monitored so that new or changed access points are visible to the control environment.",
         btpNative:
-          "A Cloud Foundry Space Developer can create a new access point — a service key — without any centralized visibility or link to a change request.",
+          "A Cloud Foundry Space Developer can create a new access point, a service key, without any centralized visibility or link to a change request.",
         xidAdds:
           "Every credential in every org and space is visible in one central view, so keys created anywhere in the landscape no longer sit outside review.",
       },
@@ -196,8 +196,8 @@ export default function BTPxIDCompliance() {
   return (
     <>
       <SEOHead
-        title="SAP BTP Service Keys: Compliance Control Mapping — ISO 27001, SOC 2, PCI DSS, NIST 800-53, SOX | TerraBT"
-        description="Control-by-control mapping of SAP BTP service key gaps to ISO/IEC 27001:2022 (A.5.15, A.8.20, A.8.24), NIST SP 800-53 (IA-4, IA-5, AC-2), PCI DSS 4.0 (8.3.10.1, 8.6), SOC 2 (CC6.1, CC6.2, CC7.1), and SOX ITGC — and what BTP xID adds for each."
+        title="SAP BTP Service Keys: Compliance Control Mapping, ISO 27001, SOC 2, PCI DSS, NIST 800-53, SOX | TerraBT"
+        description="Control-by-control mapping of SAP BTP service key gaps to ISO/IEC 27001:2022 (A.5.15, A.8.20, A.8.24), NIST SP 800-53 (IA-4, IA-5, AC-2), PCI DSS 4.0 (8.3.10.1, 8.6), SOC 2 (CC6.1, CC6.2, CC7.1), and SOX ITGC, and what BTP xID adds for each."
         path="/products/btp-xid/compliance"
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
@@ -229,7 +229,7 @@ export default function BTPxIDCompliance() {
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "24px" }}>
             SAP BTP service keys have no owner field, no expiration date, no purpose field, no record
             of the consuming system, and no rotation history. This page maps those facts to the specific
-            controls they affect in ISO/IEC 27001:2022, NIST SP 800-53, PCI DSS 4.0, SOC 2, and SOX ITGC —
+            controls they affect in ISO/IEC 27001:2022, NIST SP 800-53, PCI DSS 4.0, SOC 2, and SOX ITGC,
             and states what BTP xID adds for each.
           </p>
           <p style={{ color: "#64748B", fontSize: "0.9375rem", lineHeight: 1.7, marginBottom: "48px", borderBottom: "1px solid #E2E8F0", paddingBottom: "32px" }}>
