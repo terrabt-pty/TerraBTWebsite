@@ -6,7 +6,7 @@ export default function SAPBTPServiceKeyOffboardingPage() {
   return (
     <>
       <SEOHead
-        title="SAP BTP Service Keys Outlive Subaccount Offboarding | TerraBT"
+        title="SAP BTP Service Keys Stay Active After Subaccount Offboarding | TerraBT"
         description="SAP BTP service keys for inbound Integration Suite connections have no expiry and no metadata. Cloud Foundry org and space access doesn't sync with subaccount offboarding, so removed users can still read or delete production API credentials."
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
@@ -32,7 +32,7 @@ export default function SAPBTPServiceKeyOffboardingPage() {
 
           {/* Title */}
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            SAP BTP Service Keys Outlive Subaccount Offboarding
+            SAP BTP Service Keys Stay Active After Subaccount Offboarding
           </h1>
 
           {/* Lead */}
@@ -42,12 +42,12 @@ export default function SAPBTPServiceKeyOffboardingPage() {
 
           {/* Section: The gap */}
           <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Cloud Foundry Access Doesn't Follow Subaccount Offboarding</h2>
+            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>Removing Someone from a Subaccount Doesn't Revoke Their Cloud Foundry Role</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
               BTP Integration Suite exposes inbound endpoints over HTTP or AS2, and external systems authenticate against them with service keys, which are OAuth credentials created at the Cloud Foundry space level. They have no expiry, no metadata, no created-by field, and no last-used timestamp. The service key list in the cockpit doesn't show who created a key, when, or whether anyone still needs it.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              Offboarding doesn't touch Cloud Foundry access. BTP treats <strong style={{ color: "#0F172A" }}>subaccount membership</strong> and <strong style={{ color: "#0F172A" }}>Cloud Foundry org and space membership</strong> as two separate systems, with no sync between them. Removing someone from the subaccount clears their subaccount access, but their CF org and space roles stay untouched, and the subaccount Members view never shows CF membership at all. A standard offboarding process built around that Members view misses it.
+              Offboarding doesn't revoke Cloud Foundry access. BTP treats <strong style={{ color: "#0F172A" }}>subaccount membership</strong> and <strong style={{ color: "#0F172A" }}>Cloud Foundry org and space membership</strong> as two separate systems, with no sync between them. Removing someone from the subaccount clears their subaccount access, but their CF org and space roles stay in place, and the subaccount Members view never shows CF membership. A standard offboarding process built around that Members view misses it.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
               Removing someone from the subaccount doesn't change their CF role, so they keep access to every service key in that space. They don't need the cockpit. The CF CLI is available by default, and cf service-keys, cf service-key, and cf delete-service-key are enough to list, read, or delete any key in the space.
@@ -67,9 +67,9 @@ export default function SAPBTPServiceKeyOffboardingPage() {
 
           {/* Section: IAS doesn't help + what to check */}
           <section style={{ marginBottom: "48px" }}>
-            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>IAS Doesn't Cover This</h2>
+            <h2 style={{ color: "#0F172A", fontSize: "1.5rem", fontWeight: 700, marginBottom: "16px" }}>IAS Authentication Doesn't Extend to Cloud Foundry Access</h2>
             <p style={{ color: "#475569", lineHeight: 1.7, marginBottom: "16px" }}>
-              SAP IAS doesn't fix this, as it only handles authentication, and removing a user in IAS doesn't touch their CF org or space membership. That's a separate step most offboarding checklists skip. SAP's Identity Provisioning Service can automate CF role removal, but it's a separate system you have to set up and maintain on top of IAS.
+              SAP IAS doesn't fix this, as it only authenticates users, and removing a user in IAS doesn't clear their CF org or space membership. That's a separate step most offboarding checklists skip. SAP's Identity Provisioning Service can automate CF role removal, but it's a separate system you have to set up and maintain on top of IAS.
             </p>
             <p style={{ color: "#475569", lineHeight: 1.7 }}>
               If you run Integration Suite in production, check your CF org and space members separately from your subaccount list, since they're not the same list. Add CF membership removal as an explicit step in offboarding. Audit your existing service keys too, because if nobody knows what a key is for or when it was last rotated, it has no expiry and nobody's tracking it.
