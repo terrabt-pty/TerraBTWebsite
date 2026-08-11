@@ -50,9 +50,12 @@ export default function BTPServiceKeysAPICredentialsPage() {
 
           {/* Per-service breakdown */}
           <section style={{ marginBottom: "40px" }}>
-            <h2 style={hh2}>What Each Service Key Contains, and What It Can Reach</h2>
-            <p style={{ ...p, marginBottom: "24px" }}>
-              One point applies to all of them: a key can reach only whatever the identity or the grants behind it can reach. By itself, a key is not powerful, and it becomes powerful only when the user, the scope, or the plan behind it is broad. Most of the real risk on BTP follows this pattern: a key gets more privilege than the task needed, because that was the faster way to set it up at the time.
+            <h2 style={hh2}>A Key's Reach Comes From Its Service Instance</h2>
+            <p style={{ ...p, marginBottom: "8px" }}>
+              A key's reach comes from the service instance and plan it belongs to, independent of whoever created it. The clientid and clientsecret pair authenticates through an OAuth client-credentials grant, a machine credential that never inherits the creator's own permissions. For XSUAA specifically, the scopes come from the xs-security.json configured on that service instance, and the plan, application or apiaccess, sets the ceiling on what those scopes can do. The Cloud Foundry Space Developer role only gates who is allowed to run cf create-service-key. It has no bearing on what the resulting key can reach once it exists, which is also why removing the person who created a key does nothing to the key itself. Most of the real risk on BTP follows a different pattern: a key gets bound to a broader plan or a higher-privilege database user than the task needed, because that was the faster way to set it up at the time.
+            </p>
+            <p style={{ ...smallSrc, marginBottom: "24px" }}>
+              Source: <a href="https://sap.github.io/cloud-sdk/docs/java/guides/cloud-foundry-xsuaa-service" target="_blank" rel="noopener noreferrer" style={a}>SAP Cloud SDK, Cloud Foundry XSUAA Service</a>
             </p>
 
             <ServiceCard
