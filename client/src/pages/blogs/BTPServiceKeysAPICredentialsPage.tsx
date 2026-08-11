@@ -116,7 +116,7 @@ export default function BTPServiceKeysAPICredentialsPage() {
                 <strong style={strong}>Some keys are a step toward the on-premise network.</strong> A Connectivity key by itself works only from inside the CF space. Once there is a foothold in a CF app, it lets requests pass through the Cloud Connector tunnel toward on-premise systems. It's one step toward a breach.
               </li>
               <li style={{ marginBottom: "12px" }}>
-                <strong style={strong}>They outlive the people who created them.</strong> Removing the user who made a key does nothing to the key. SAP KBA <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={a}>3220053</a> documents this related shadow-user behavior. Keys made by people who left the company two years back are still working.
+                <strong style={strong}>Keys stay active after the person who made them leaves the company.</strong> Removing the user who made a key does nothing to the key. SAP KBA <a href="https://userapps.support.sap.com/sap/support/knowledge/en/3220053" target="_blank" rel="noopener noreferrer" style={a}>3220053</a> documents this related shadow-user behavior. Keys made by people who left the company two years back are still working.
               </li>
               <li style={{ marginBottom: "12px" }}>
                 <strong style={strong}>There is no rotation by default.</strong> The client-secret type stays valid until someone deletes the binding or the key. The X.509 certificate type is the only exception. It comes with a 7-day validity by default and can be extended up to one year. Most teams use the client-secret type because it is simpler.
