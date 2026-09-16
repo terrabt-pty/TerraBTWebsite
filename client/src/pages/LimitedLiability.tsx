@@ -10,7 +10,7 @@ export default function LimitedLiability() {
         <div className="min-h-screen bg-background text-foreground">
             <SEOHead
                 title="Limited Liability Policy - BTP xID by TerraBT | SAP BTP Access & Credential Management"
-                description="Limited Liability Disclaimer for the TerraBT website, BTP xID desktop app, BTP xID Web, and subscription services."
+                description="Limited Liability Disclaimer for the TerraBT website, BTP xID, and subscription services."
                 path="/limited-liability"
             />
             <Navigation />

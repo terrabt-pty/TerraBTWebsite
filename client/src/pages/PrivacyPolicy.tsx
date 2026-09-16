@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <div className="min-h-screen bg-background text-foreground">
             <SEOHead
                 title="Privacy Policy - BTP xID by TerraBT | SAP BTP Access & Credential Management"
-                description="Privacy Policy for TerraBT and BTP xID. BTP xID connects directly to your SAP BTP tenants, we never receive or store your BTP data or credentials."
+                description="Privacy Policy for TerraBT and BTP xID. BTP xID connects directly to your SAP BTP tenants; we never receive or store your BTP data or credentials."
                 path="/privacy-policy"
             />
             <Navigation />
@@ -30,8 +30,7 @@ export default function PrivacyPolicy() {
                         </p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>The TerraBT marketing website (terrabt.com and its localized versions)</li>
-                            <li>The BTP xID desktop application (MacOS and Windows)</li>
-                            <li>BTP xID Web (xid-web.terrabt.com)</li>
+                            <li>BTP xID (btpxid.terrabt.com)</li>
                             <li>The TerraBT License Server and accounts portal used to activate and validate BTP xID subscriptions</li>
                         </ul>
                         <p className="mt-2">
@@ -62,7 +61,7 @@ export default function PrivacyPolicy() {
                                 <strong>Website Language Preference:</strong> We store a small piece of data in your browser to remember which language you selected.
                             </li>
                             <li>
-                                <strong>BTP xID Local Data:</strong> The desktop app stores connection history, UI preferences, and governance metadata locally on your machine (as described in the BTP xID section below). The web version uses browser storage for the current session only.
+                                <strong>BTP xID Local Data:</strong> BTP xID uses browser storage for connection history, UI preferences, and the current session only (as described in the BTP xID section below).
                             </li>
                         </ul>
                         <p className="mt-2">
@@ -71,12 +70,12 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">4. BTP xID Desktop Application and Web Companion</h2>
+                        <h2 className="text-2xl font-semibold mb-4">4. BTP xID</h2>
                         <p>
-                            BTP xID is a desktop application (and companion web application) that helps SAP BTP administrators discover, govern, and manage users, role collections, and API credentials across their SAP BTP landscape.
+                            BTP xID is a web application that helps SAP BTP administrators discover, govern, and manage users, role collections, and API credentials across their SAP BTP landscape.
                         </p>
                         <p className="mt-2">
-                            <strong>Direct connection, zero data exfiltration:</strong> BTP xID authenticates directly against SAP's own identity services using standard SAP OAuth 2.0 flows (the same mechanism used by the SAP BTP Cockpit). All communication with SAP BTP happens directly between your device/browser and SAP's infrastructure.
+                            <strong>Direct connection, zero data exfiltration:</strong> BTP xID authenticates directly against SAP's own identity services using standard SAP OAuth 2.0 flows (the same mechanism used by the SAP BTP Cockpit). All communication with SAP BTP happens directly between your browser session and SAP's infrastructure.
                         </p>
                         <p className="mt-2">
                             <strong>TerraBT never receives your BTP data.</strong> We do not collect, transmit, log, or have any access to:
@@ -88,7 +87,7 @@ export default function PrivacyPolicy() {
                             <li>Subaccount hierarchies, orgs, spaces, or any other landscape data</li>
                         </ul>
                         <p className="mt-2">
-                            User lists, credential details, and all other SAP BTP information are fetched live and processed only on your local device (desktop app) or within your current browser session (BTP xID Web). Closing the application or browser tab removes the data from memory.
+                            User lists, credential details, and all other SAP BTP information are fetched live and processed only within your current browser session. Closing the browser tab removes the data from memory.
                         </p>
                         <p className="mt-2">
                             The applications may store the following information <strong>locally on your device only</strong>:

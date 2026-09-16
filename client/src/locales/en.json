@@ -4,18 +4,14 @@
     "services": "Services",
     "knowledge": "Knowledge",
     "contact": "Contact",
-    "download": "Download",
     "btpXid": "BTP xID",
-    "btpXidWeb": "BTP xID Web",
     "bookConsultation": "Book Free Consultation",
     "signIn": "Sign In",
     "pricing": "Pricing",
     "features": "Features",
-    "downloads": "Downloads",
     "products": "Products",
     "btpxidTagline": "SAP BTP API credential & user management",
-    "claudeCliTagline": "Back up & search conversations",
-    "sapBtpUserManagement": "SAP BTP API Credential Management"
+    "claudeCliTagline": "Back up & search conversations"
   },
   "meta": {
     "home": {
@@ -1721,41 +1717,16 @@
       "unknown": "your platform"
     },
     "download": {
-      "label": "Find Out More",
       "title": "Ready to get started?",
       "getStartedLabel": "Get Started",
       "getStartedTitle": "See every service key in your landscape today.",
       "webButton": "Open BTP xID in your browser",
       "webButtonDesc": "Best for API credential & service key management, rotate and govern BTP API credentials",
-      "desktopButtonDesc": "Best for user management, Global Accounts, subaccounts, directories, CF orgs and spaces",
-      "primaryButton": "Download for {{label}}",
-      "loading": "Loading...",
-      "showAll": "Show all download options",
-      "hideAll": "Hide all download options",
-      "versionLine": "Version {{version}} · Requires MacOS 12+ or Windows 10+",
-      "legal": "By downloading or using BTP xID, you agree to our",
+      "legal": "By using BTP xID, you agree to our",
       "termsOfService": "Terms of Service",
       "eula": "End User License Agreement",
       "privacyPolicy": "Privacy Policy",
-      "liabilityPolicy": "Limited Liability Policy",
-      "smartscreen": {
-        "title": "Windows SmartScreen Warning",
-        "description": "Windows may show a SmartScreen warning when you run the installer. To proceed:",
-        "step1": "Click <1>More info</1> in the SmartScreen dialog",
-        "step2": "Click <1>Run anyway</1>"
-      },
-      "webPrompt": "For API Credential/Service Keys Management?",
-      "webLink": "Open BTP xID in your browser"
-    },
-    "downloadOptions": {
-      "macArm64Label": "MacOS Apple Silicon",
-      "macArm64Desc": "DMG for M1, M2, M3, M4 Macs",
-      "macX64Label": "MacOS Intel",
-      "macX64Desc": "DMG for Intel-based Macs",
-      "winInstallerLabel": "Windows Installer",
-      "winInstallerDesc": "Installer for Windows 10/11",
-      "winPortableLabel": "Windows Portable",
-      "winPortableDesc": "No installation required"
+      "liabilityPolicy": "Limited Liability Policy"
     },
     "security": {
       "label": "Security",

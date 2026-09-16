@@ -14,7 +14,7 @@ TerraBT is an independent SAP Business Technology Platform (BTP) consulting firm
 
 ### BTP xID — Service Key Governance & Access Management for SAP BTP
 
-BTP xID (https://www.terrabt.com/products/btp-xid) is a governance tool for SAP BTP service keys, API credentials, and user access. It is available as a web app (https://xid-web.terrabt.com) and a desktop app for macOS and Windows.
+BTP xID (https://www.terrabt.com/products/btp-xid) is a governance tool for SAP BTP service keys, API credentials, and user access. It is available as a web app (https://btpxid.terrabt.com) — no installation required.
 
 Facts about SAP BTP service keys that BTP xID addresses:
 

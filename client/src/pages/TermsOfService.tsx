@@ -26,7 +26,7 @@ export default function TermsOfService() {
                             These Terms of Use ("Terms") constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and TerraBT ("we," "us," or "our"), concerning your access to and use of the TerraBT website (terrabt.com and localized versions), the accounts portal (accounts.terrabt.com), the TerraBT License Server, and any related services (collectively, the "Site" or "Services").
                         </p>
                         <p className="mt-2">
-                            <strong>For licensing and use of the BTP xID desktop application and BTP xID Web, please see our separate <a href="/eula">End User License Agreement (EULA)</a>.</strong>
+                            <strong>For licensing and use of BTP xID, please see our separate <a href="/eula">End User License Agreement (EULA)</a>.</strong>
                         </p>
                         <p className="mt-2">
                             We are registered in Australia and have our registered office in New South Wales. You agree that by accessing or using any of the Services, you have read, understood, and agreed to be bound by all of these Terms of Use. If you do not agree with all of these Terms of Use, then you are expressly prohibited from using the Services and you must discontinue use immediately.

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { useTranslation, Trans } from "react-i18next";
-import { trackDownload } from "@/lib/trackDownload";
+import { useTranslation } from "react-i18next";
 import Navigation from "@/components/Navigation";
 
 import ContactSection from "@/components/ContactSection";
@@ -8,22 +7,19 @@ import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
-  Download,
   CheckCircle,
   Globe,
   ArrowUpRight,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import { FaApple, FaWindows } from "react-icons/fa6";
 import btpxidIcon from "@assets/btp-xid-icon.png";
 import userLookupImg from "@assets/UserSearchScreenshot.png";
 import securityInsightsImg from "@assets/SecurityInsightsScreenshot.png";
 import credentialDetailImg from "@assets/CredentialDetailScreenshot.png";
 
 
-const R2_BASE = "https://updates.terrabt.com/btp-xid";
-const XID_WEB_URL = "https://xid-web.terrabt.com";
+const XID_WEB_URL = "https://btpxid.terrabt.com";
 
 const HERO_SCREENSHOTS = [
   {
@@ -105,137 +101,10 @@ interface CloseItem {
   fix: string;
 }
 
-interface VersionInfo {
-  version: string;
-  mac: { arm64: string; x64: string };
-  win: { x64: string; portable: string };
-}
-
-type OSType = "mac" | "windows" | "unknown";
-
-function detectOS(): OSType {
-  const ua = navigator.userAgent.toLowerCase();
-  if (ua.includes("mac")) return "mac";
-  if (ua.includes("win")) return "windows";
-  return "unknown";
-}
-
-function detectArch(): "arm64" | "x64" {
-  const ua = navigator.userAgent.toLowerCase();
-  if (ua.includes("arm") || ua.includes("aarch64")) return "arm64";
-  if (
-    typeof navigator !== "undefined" &&
-    // @ts-expect-error userAgentData is not in all browsers
-    navigator.userAgentData?.platform === "macOS"
-  ) {
-    return "arm64"; // Most modern Macs are Apple Silicon
-  }
-  return "x64";
-}
-
-
-const OS_ICONS: Record<OSType, React.ComponentType<{ className?: string }>> = {
-  mac: FaApple,
-  windows: FaWindows,
-  unknown: Download,
-};
-
-const DL_ICONS: Record<DownloadOption["id"], React.ComponentType<{ className?: string }>> = {
-  "mac-arm64":     FaApple,
-  "mac-x64":       FaApple,
-  "win-installer": FaWindows,
-  "win-portable":  FaWindows,
-};
-
-interface DownloadOption {
-  id: "mac-arm64" | "mac-x64" | "win-installer" | "win-portable";
-  labelKey: string;
-  descKey: string;
-  os: OSType;
-  arch?: string;
-}
-
-const ALL_DOWNLOADS: DownloadOption[] = [
-  {
-    id: "mac-arm64",
-    labelKey: "btpxidProduct.downloadOptions.macArm64Label",
-    descKey: "btpxidProduct.downloadOptions.macArm64Desc",
-    os: "mac",
-    arch: "arm64",
-  },
-  {
-    id: "mac-x64",
-    labelKey: "btpxidProduct.downloadOptions.macX64Label",
-    descKey: "btpxidProduct.downloadOptions.macX64Desc",
-    os: "mac",
-    arch: "x64",
-  },
-  {
-    id: "win-installer",
-    labelKey: "btpxidProduct.downloadOptions.winInstallerLabel",
-    descKey: "btpxidProduct.downloadOptions.winInstallerDesc",
-    os: "windows",
-    arch: "x64",
-  },
-  {
-    id: "win-portable",
-    labelKey: "btpxidProduct.downloadOptions.winPortableLabel",
-    descKey: "btpxidProduct.downloadOptions.winPortableDesc",
-    os: "windows",
-    arch: "x64",
-  },
-];
-
-function getDownloadUrl(id: DownloadOption["id"], v: VersionInfo): string {
-  const map: Record<DownloadOption["id"], string> = {
-    "mac-arm64":     `${R2_BASE}/${v.mac.arm64}`,
-    "mac-x64":       `${R2_BASE}/${v.mac.x64}`,
-    "win-installer": `${R2_BASE}/${v.win.x64}`,
-    "win-portable":  `${R2_BASE}/${v.win.portable}`,
-  };
-  return map[id];
-}
-
-function getPrimaryDownload(os: OSType, arch: string): DownloadOption {
-  if (os === "mac") {
-    return (
-      ALL_DOWNLOADS.find((d) => d.os === "mac" && d.arch === arch) ??
-      ALL_DOWNLOADS[0]
-    );
-  }
-  if (os === "windows") {
-    return ALL_DOWNLOADS.find((d) => d.id === "win-installer")!;
-  }
-  return ALL_DOWNLOADS[0];
-}
-
-
 export default function BTPxIDProduct() {
-  const { t, i18n } = useTranslation();
-  const [os, setOS] = useState<OSType>("unknown");
-  const [arch, setArch] = useState<"arm64" | "x64">("arm64");
-  const [showAllDownloads, setShowAllDownloads] = useState(false);
-  const [showSmartScreenNotice, setShowSmartScreenNotice] = useState(false);
-  const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
+  const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
   const { getLocalizedPath } = useLocalizedPath();
-
-  // ?portal=test routes to accounts-test for internal testing without real payments
-  const portalBase = new URLSearchParams(window.location.search).get("portal") === "test"
-    ? "https://accounts-test.terrabt.com"
-    : "https://accounts.terrabt.com";
-
-  useEffect(() => {
-    setOS(detectOS());
-    setArch(detectArch());
-  }, []);
-
-  useEffect(() => {
-    fetch(`${R2_BASE}/version.json`)
-      .then((r) => r.json())
-      .then((data: VersionInfo) => setVersionInfo(data))
-      .catch(() => { /* stays null, buttons remain in loading state */ });
-  }, []);
 
   // Auto-advance the hero screenshot carousel.
   useEffect(() => {
@@ -248,12 +117,6 @@ export default function BTPxIDProduct() {
   const goToSlide = (index: number) => {
     setActiveSlide(((index % HERO_SCREENSHOTS.length) + HERO_SCREENSHOTS.length) % HERO_SCREENSHOTS.length);
   };
-
-  const primaryDownload = getPrimaryDownload(os, arch);
-  const primaryDownloadLabel = t(primaryDownload.labelKey);
-  const primaryDownloadDesc = t(primaryDownload.descKey);
-  const PrimaryIcon = OS_ICONS[os];
-  const primaryDownloadUrl = versionInfo ? getDownloadUrl(primaryDownload.id, versionInfo) : null;
 
   return (
     <div className="min-h-screen">
@@ -523,127 +386,9 @@ export default function BTPxIDProduct() {
               </div>
               <ArrowUpRight className="h-5 w-5" />
             </a>
-
-            {/* Secondary: desktop app for user management */}
-            {primaryDownloadUrl ? (
-              <a
-                href={primaryDownloadUrl}
-                className="btpxid-download-btn btpxid-download-btn-secondary"
-                onClick={() => { trackDownload('btp-xid', versionInfo!.version, primaryDownload.id); if (os === "windows") setShowSmartScreenNotice(true); }}
-              >
-                <PrimaryIcon className="h-6 w-6" />
-                <div className="btpxid-download-btn-text">
-                  <span className="btpxid-download-btn-title">
-                    {t('btpxidProduct.download.primaryButton', { label: primaryDownloadLabel })}
-                  </span>
-                  <span className="btpxid-download-btn-desc">
-                    {t('btpxidProduct.download.desktopButtonDesc')}
-                  </span>
-                  <span className="btpxid-download-btn-desc">
-                    {primaryDownloadDesc} · v{versionInfo!.version}
-                  </span>
-                </div>
-                <Download className="h-5 w-5" />
-              </a>
-            ) : (
-              <button disabled className="btpxid-download-btn btpxid-download-btn-secondary" style={{ opacity: 0.7 }}>
-                <PrimaryIcon className="h-6 w-6" />
-                <div className="btpxid-download-btn-text">
-                  <span className="btpxid-download-btn-title">{t('btpxidProduct.download.loading')}</span>
-                  <span className="btpxid-download-btn-desc">
-                    {t('btpxidProduct.download.desktopButtonDesc')}
-                  </span>
-                  <span className="btpxid-download-btn-desc">
-                    {primaryDownloadDesc}
-                  </span>
-                </div>
-                <Download className="h-5 w-5" />
-              </button>
-            )}
-
-            <button
-              onClick={() => {
-                const next = !showAllDownloads;
-                setShowAllDownloads(next);
-                if (next && os === "windows") setShowSmartScreenNotice(true);
-              }}
-              className="btpxid-download-other"
-            >
-              {showAllDownloads ? t('btpxidProduct.download.hideAll') : t('btpxidProduct.download.showAll')}
-            </button>
           </div>
 
-          {/* All download options */}
-          {showAllDownloads && (
-            <div className="btpxid-download-grid">
-              {ALL_DOWNLOADS.map((dl) => {
-                const url = versionInfo ? getDownloadUrl(dl.id, versionInfo) : null;
-                const DlIcon = DL_ICONS[dl.id];
-                const dlLabel = t(dl.labelKey);
-                const dlDesc = t(dl.descKey);
-                return url ? (
-                  <a key={dl.id} href={url} className="btpxid-download-option" onClick={() => trackDownload('btp-xid', versionInfo!.version, dl.id)}>
-                    <div>
-                      <div className="btpxid-download-option-label">{dlLabel}</div>
-                      <div className="btpxid-download-option-desc">{dlDesc}</div>
-                    </div>
-                    <DlIcon className="h-4 w-4 flex-shrink-0" />
-                  </a>
-                ) : (
-                  <button key={dl.id} disabled className="btpxid-download-option" style={{ opacity: 0.7 }}>
-                    <div>
-                      <div className="btpxid-download-option-label">{dlLabel}</div>
-                      <div className="btpxid-download-option-desc">{dlDesc}</div>
-                    </div>
-                    <DlIcon className="h-4 w-4 flex-shrink-0" />
-                  </button>
-                );
-              })}
-            </div>
-          )}
-
-          {/* Windows SmartScreen notice: glass modal overlay */}
-          {showSmartScreenNotice && (
-            <div className="btpxid-smartscreen-overlay" onClick={() => setShowSmartScreenNotice(false)}>
-              <div className="btpxid-smartscreen-modal" onClick={(e) => e.stopPropagation()}>
-                <button
-                  className="btpxid-smartscreen-notice-close"
-                  onClick={() => setShowSmartScreenNotice(false)}
-                  aria-label="Dismiss"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-                </button>
-                <div className="btpxid-smartscreen-notice-title">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                  {t('btpxidProduct.download.smartscreen.title')}
-                </div>
-                <p>
-                  {t('btpxidProduct.download.smartscreen.description')}
-                </p>
-                <ol>
-                  <li>
-                    <Trans
-                      i18nKey="btpxidProduct.download.smartscreen.step1"
-                      components={{ 1: <strong /> }}
-                    />
-                  </li>
-                  <li>
-                    <Trans
-                      i18nKey="btpxidProduct.download.smartscreen.step2"
-                      components={{ 1: <strong /> }}
-                    />
-                  </li>
-                </ol>
-              </div>
-            </div>
-          )}
-
           <div className="btpxid-download-info">
-            <p>
-              {versionInfo
-                ? t('btpxidProduct.download.versionLine', { version: versionInfo.version })
-                : t('btpxidProduct.download.loading')}
-            </p>
             <p>
               {t('btpxidProduct.download.legal')}{" "}
               <a href={getLocalizedPath("/terms-of-service")}>{t('btpxidProduct.download.termsOfService')}</a>

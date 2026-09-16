@@ -69,10 +69,10 @@ export default function FindingUsersAcrossSAPBTPLandscape() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4 text-foreground">Two minutes that change the conversation</h2>
           <p className="leading-relaxed">
-            The fastest way to see the difference is to try it. Download BTP xID, open the app and click Demo below the logon fields. No SAP credentials are needed for the demo. It just gives you a feel for what landscape-wide user search looks like when it actually works.
+            The fastest way to see the difference is to try it. Open BTP xID and click Demo below the logon fields. No SAP credentials are needed for the demo. It just gives you a feel for what landscape-wide user search looks like when it actually works.
           </p>
           <p className="leading-relaxed">
-            <a href="/products/btp-xid" className="text-primary underline hover:no-underline">Download BTP xID</a>, open the app and click <strong>Demo</strong> below the logon fields. Type a user and watch them appear across every Global Account, Sub-Account, CF Org and Space at once. Then ask yourself how long that report would have taken in the cockpit.
+            <a href="/products/btp-xid" className="text-primary underline hover:no-underline">Open BTP xID</a> and click <strong>Demo</strong> below the logon fields. Type a user and watch them appear across every Global Account, Sub-Account, CF Org and Space at once. Then ask yourself how long that report would have taken in the cockpit.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4 text-foreground">Closing thought</h2>

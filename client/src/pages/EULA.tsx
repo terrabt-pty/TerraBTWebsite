@@ -10,7 +10,7 @@ export default function EULA() {
         <div className="min-h-screen bg-background text-foreground">
             <SEOHead
                 title="End User License Agreement - BTP xID by TerraBT | SAP BTP Access & Credential Management"
-                description="End User License Agreement (EULA) for the BTP xID desktop application and BTP xID Web. Governed by the laws of Australia."
+                description="End User License Agreement (EULA) for BTP xID. Governed by the laws of Australia."
                 path="/eula"
             />
             <Navigation />
@@ -23,10 +23,10 @@ export default function EULA() {
                     <section>
                         <h2 className="text-2xl font-semibold mb-4">1. Agreement and Scope</h2>
                         <p>
-                            This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and TerraBT Pty Ltd ("TerraBT", "we", "us", or "our") for the BTP xID desktop application (MacOS and Windows) and the BTP xID Web application at xid-web.terrabt.com (collectively, the "Software").
+                            This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and TerraBT Pty Ltd ("TerraBT", "we", "us", or "our") for the BTP xID web application at btpxid.terrabt.com (the "Software").
                         </p>
                         <p className="mt-2">
-                            By installing, accessing, or using the Software, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use the Software.
+                            By accessing or using the Software, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not use the Software.
                         </p>
                         <p className="mt-2">
                             This EULA applies specifically to the Software. For use of the TerraBT website and accounts portal, please refer to our <a href="/terms-of-service">Terms of Service</a>.
@@ -36,14 +36,7 @@ export default function EULA() {
                     <section>
                         <h2 className="text-2xl font-semibold mb-4">2. License Grant</h2>
                         <p>
-                            TerraBT grants you a limited, non-exclusive, non-transferable, revocable license to:
-                        </p>
-                        <ul className="list-disc pl-6 space-y-1 mt-2">
-                            <li>Install and use the BTP xID desktop application on devices you own or control; and</li>
-                            <li>Access and use BTP xID Web</li>
-                        </ul>
-                        <p className="mt-2">
-                            solely for your internal business purposes of managing users, role collections, service keys, and API credentials within SAP BTP Global Accounts and environments for which you have authorization.
+                            TerraBT grants you a limited, non-exclusive, non-transferable, revocable license to access and use BTP xID solely for your internal business purposes of managing users, role collections, service keys, and API credentials within SAP BTP Global Accounts and environments for which you have authorization.
                         </p>
                         <p className="mt-2">
                             The Software is licensed, not sold. Your rights are subject to your compliance with this EULA and payment of any applicable subscription fees.
@@ -87,10 +80,10 @@ export default function EULA() {
                             TerraBT may provide updates, patches, or new versions. These are subject to the same terms as the original Software unless accompanied by a separate license.
                         </p>
                         <p className="mt-2">
-                            Upon expiration, non-renewal, or termination of your subscription, the Software (or certain features) will cease to function. You must uninstall the desktop application and cease use of BTP xID Web upon termination of your rights.
+                            Upon expiration, non-renewal, or termination of your subscription, the Software (or certain features) will cease to function. You must cease use of BTP xID upon termination of your rights.
                         </p>
                         <p className="mt-2">
-                            TerraBT may terminate this EULA immediately if you breach any term. Upon termination, you must destroy all copies of the Software in your possession.
+                            TerraBT may terminate this EULA immediately if you breach any term. Upon termination, your right to access and use the Software ends immediately.
                         </p>
                     </section>
 

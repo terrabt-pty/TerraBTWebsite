@@ -7,12 +7,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const SCROLL_LINKS = [
-  { labelKey: "nav.download", href: "#download" },
-  { labelKey: "nav.contact",  href: "#contact"  },
-];
-
-const EXTERNAL_LINKS = [
-  { labelKey: "nav.btpXidWeb", href: "https://xid-web.terrabt.com" },
+  { labelKey: "nav.contact", href: "#contact" },
 ];
 
 export default function Navigation() {
@@ -53,20 +48,6 @@ export default function Navigation() {
             >
               {t('nav.btpXid', 'BTP xID')}
             </Link>
-            {EXTERNAL_LINKS.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-                style={{ color: "#475569" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-              >
-                {t(link.labelKey)}
-              </a>
-            ))}
             <Link
               href={getLocalizedPath("/knowledge")}
               className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
@@ -139,21 +120,6 @@ export default function Navigation() {
             >
               {t('nav.btpXid', 'BTP xID')}
             </Link>
-            {EXTERNAL_LINKS.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
-                style={{ color: "#475569" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-                onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {t(link.labelKey)}
-              </a>
-            ))}
             <Link
               href={getLocalizedPath("/knowledge")}
               className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"

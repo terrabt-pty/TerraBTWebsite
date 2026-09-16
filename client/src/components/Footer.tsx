@@ -144,7 +144,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="text-[10px] text-muted-foreground/50 text-center -mt-1">
-            Applies to BTP xID desktop, BTP xID Web, and the TerraBT website
+            Applies to BTP xID and the TerraBT website
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
