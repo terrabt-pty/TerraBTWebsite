@@ -136,7 +136,7 @@ export default function AboutUs() {
             SAP BTP is powerful, but it wasn't built to answer "who owns this credential, and when does it expire?" or "what will this change actually do to production?" TerraBT builds the governance and change-management layer SAP BTP is missing — built by practitioners who've run these landscapes themselves, not outside observers.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={BTP_XID_APP_URL} target="_blank" rel="noopener noreferrer" className="btpxid-hero-cta">
+            <a href={BTP_XID_APP_URL} target="_blank" rel="noopener noreferrer" className="btpxid-hero-cta" style={{ marginTop: 0 }}>
               Try BTP xID Now
               <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
             </a>
