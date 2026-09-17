@@ -455,6 +455,23 @@
   color: #0F172A;
 }
 
+/* Badge — small eye-catching pill announcing a new capability */
+.btpxid-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #2D7A53;
+  background: rgba(58, 154, 106, 0.1);
+  border: 1px solid rgba(58, 154, 106, 0.3);
+  border-radius: 100px;
+  padding: 6px 16px;
+  margin-bottom: 1.25rem;
+  animation: btpxid-fadeInUp 0.8s ease-out both;
+}
+
 /* Tagline */
 .btpxid-hero-tagline {
   font-size: 0.75rem;
@@ -4611,6 +4628,11 @@
 }
 .btpxid-standards-link:hover {
   background: rgba(58, 154, 106, 0.08);
+}
+.btpxid-servicekeys-compliance-text {
+  font-size: 0.9375rem;
+  color: #475569;
+  margin: 0 0 1rem;
 }
 
 /* ── Closes section — how BTP xID closes each gap ───────────────────────── */

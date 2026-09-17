@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Menu, X, UserCircle } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -14,15 +14,22 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const { getLocalizedPath } = useLocalizedPath();
+  const [, setLocation] = useLocation();
 
   const homePath = getLocalizedPath("/");
-  const btpXidPath = getLocalizedPath("/products/btp-xid");
+  const BTP_XID_APP_URL = "https://btpxid.terrabt.com";
 
+  // Scroll-link targets (e.g. #contact) only exist on some pages. If the
+  // current page doesn't have the target, navigate to the homepage with the
+  // hash instead — ScrollToTop (App.tsx) picks up the hash after the route
+  // change and scrolls once the section has rendered.
   const scrollToSection = (href: string) => {
     setMobileMenuOpen(false);
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      setLocation(`${homePath}${href}`);
     }
   };
 
@@ -38,8 +45,10 @@ export default function Navigation() {
 
           {/* Centre: desktop nav */}
           <div className="hidden lg:flex items-center justify-center gap-6">
-            <Link
-              href={btpXidPath}
+            <a
+              href={BTP_XID_APP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
               style={{ color: "#475569" }}
               onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
@@ -47,7 +56,7 @@ export default function Navigation() {
               data-testid="link-btp-xid"
             >
               {t('nav.btpXid', 'BTP xID')}
-            </Link>
+            </a>
             <Link
               href={getLocalizedPath("/knowledge")}
               className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
@@ -109,8 +118,10 @@ export default function Navigation() {
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200" style={{ background: "#FFFFFF" }} data-testid="mobile-menu">
           <div className="px-4 pt-2 pb-4 space-y-2">
-            <Link
-              href={btpXidPath}
+            <a
+              href={BTP_XID_APP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
               style={{ color: "#475569" }}
               onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
@@ -119,7 +130,7 @@ export default function Navigation() {
               data-testid="mobile-link-btp-xid"
             >
               {t('nav.btpXid', 'BTP xID')}
-            </Link>
+            </a>
             <Link
               href={getLocalizedPath("/knowledge")}
               className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"

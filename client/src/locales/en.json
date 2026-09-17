@@ -1591,8 +1591,9 @@
     "hero": {
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
-      "headline": "BTP xID helps govern SAP BTP Service Keys and Mass Manage SAP BTP Users",
-      "subhead": "BTP xID brings ownership, lifecycle, and auditability to every service key across your landscape — and now lets you manage that landscape itself as reviewed, Terraform-backed infrastructure, so you stay compliant and in control as you scale.",
+      "badge": "New · Landscape Management",
+      "headline": "Govern Every Credential. Version Every Change. Own Your Whole SAP BTP Landscape.",
+      "subhead": "BTP xID tracks the owner, lifecycle and audit trail of every service key — and lets you manage your entire SAP BTP landscape as reviewed, Terraform-backed infrastructure. No more clicking through Cockpit. No more surprises in production.",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
@@ -1702,8 +1703,41 @@
         }
       ]
     },
+    "serviceKeys": {
+      "label": "Service Key Governance",
+      "title": "Every Service Key Should Have an Owner. Most Don't.",
+      "subtitle": "A service key grants raw API access to your SAP BTP services — and SAP BTP records no owner, no expiry, and no purpose for any of them. BTP xID closes every one of those gaps.",
+      "items": [
+        {
+          "gap": "Owner & responsible party",
+          "fix": "Governance fields on every credential record who owns it and who is responsible for the consuming system."
+        },
+        {
+          "gap": "Expiry & rotation",
+          "fix": "Set an expiry date on any credential, rotate it in one click, and keep a record of when it was last rotated."
+        },
+        {
+          "gap": "Purpose & consumer",
+          "fix": "Record what each key is for and which system consumes it, so a credential review does not depend on anyone's memory."
+        },
+        {
+          "gap": "Cross-account visibility",
+          "fix": "One view of users and credentials across all global accounts, subaccounts, Cloud Foundry orgs and spaces. Reverse-search by user to see everything they can access."
+        },
+        {
+          "gap": "Leaver process",
+          "fix": "Query all credentials owned by a departing person, then rotate and reassign them — a repeatable process instead of an investigation."
+        },
+        {
+          "gap": "Audit evidence",
+          "fix": "Security Insights scores governance coverage across your landscape and shows exactly which credentials are missing owners, expiry dates, or purpose."
+        }
+      ],
+      "complianceText": "These same gaps map directly to ISO/IEC 27001:2022, NIST SP 800-53, PCI DSS 4.0, SOC 2 and SOX ITGC controls.",
+      "complianceCta": "See the full compliance mapping"
+    },
     "landscape": {
-      "label": "New: Landscape Management",
+      "label": "Landscape Management",
       "title": "Manage your SAP BTP landscape as code, not as clicks",
       "subtitle": "Model your Global Accounts and Subaccounts as Landscapes, Paths and Stages, then change them through Terraform — with a plan, a review and an approval before anything reaches production.",
       "modelLabel": "The model",
@@ -1765,9 +1799,9 @@
     "download": {
       "title": "Ready to get started?",
       "getStartedLabel": "Get Started",
-      "getStartedTitle": "See every service key in your landscape today.",
+      "getStartedTitle": "Govern every credential. Manage your whole landscape. Today.",
       "webButton": "Open BTP xID in your browser",
-      "webButtonDesc": "Best for API credential & service key management, rotate and govern BTP API credentials",
+      "webButtonDesc": "Credential governance and Terraform-backed landscape management, no installation needed",
       "legal": "By using BTP xID, you agree to our",
       "termsOfService": "Terms of Service",
       "eula": "End User License Agreement",
@@ -1841,10 +1875,10 @@
     },
     "ias": {
       "label": "Works With SAP IAS",
-      "label2": "Complementing SAP IAS",
+      "label2": "User Management",
       "title1": "IAS secures identity.",
       "title2": "BTP xID governs access.",
-      "subtitle": "BTP xID also helps you reach and govern the corners of your SAP BTP landscape that IAS can't.",
+      "subtitle": "One place to manage every user, role and Cloud Foundry assignment across your entire SAP BTP landscape — reaching the corners SAP IAS can't.",
       "iasBadge": "SAP IAS",
       "iasTitle": "Identity, Authentication & Partial Access Governance",
       "xidBadge": "BTP xID",

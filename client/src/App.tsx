@@ -95,15 +95,18 @@ function ScrollToTop() {
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
-      // Hash navigation: let the browser scroll to the anchor, or retry once rendered
+      // Hash navigation to a page that just mounted: jump instantly rather than
+      // smooth-scrolling. A smooth scrollIntoView started while the new page's
+      // layout is still settling from mount is unreliable — it can be dropped
+      // or cut short by the concurrent reflow, landing back at the top.
       const id = hash.slice(1);
       const el = document.getElementById(id);
       if (el) {
-        el.scrollIntoView({ behavior: 'smooth' });
+        el.scrollIntoView({ behavior: 'auto' });
       } else {
         // Element not rendered yet; retry after React paints
         const timer = setTimeout(() => {
-          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+          document.getElementById(id)?.scrollIntoView({ behavior: 'auto' });
         }, 100);
         return () => clearTimeout(timer);
       }

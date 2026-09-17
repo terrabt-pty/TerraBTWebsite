@@ -85,17 +85,6 @@ const FAQ_SCHEMA = {
   ],
 };
 
-interface GapItem {
-  title: string;
-  desc: string;
-}
-
-interface StandardCard {
-  name: string;
-  clauses: string;
-  text: string;
-}
-
 interface CloseItem {
   gap: string;
   fix: string;
@@ -149,6 +138,9 @@ export default function BTPxIDProduct() {
                 <span className="btpxid-hero-wordmark-xid"> xID</span>
               </span>
             </div>
+
+            {/* Badge */}
+            <div className="btpxid-hero-badge">{t('btpxidProduct.hero.badge')}</div>
 
             {/* Headline */}
             <h1 className="btpxid-hero-title">{t('btpxidProduct.hero.headline')}</h1>
@@ -211,155 +203,6 @@ export default function BTPxIDProduct() {
         </div>
       </section>
 
-      {/* ===== GAPS: what SAP BTP does not record ===== */}
-      <section className="btpxid-gaps" id="gaps">
-        <div className="btpxid-gaps-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.gaps.label')}</div>
-            <h2 className="btpxid-showcase-title">{t('btpxidProduct.gaps.title')}</h2>
-            <p className="btpxid-showcase-sub">{t('btpxidProduct.gaps.subtitle')}</p>
-          </div>
-
-          <div className="btpxid-gaps-grid">
-            {(t('btpxidProduct.gaps.items', { returnObjects: true }) as GapItem[]).map((item) => (
-              <div key={item.title} className="btpxid-gap-card">
-                <h3 className="btpxid-gap-title">{item.title}</h3>
-                <p className="btpxid-gap-desc">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== STANDARDS: audit impact ===== */}
-      <section className="btpxid-standards" id="compliance">
-        <div className="btpxid-standards-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.standards.label')}</div>
-            <h2 className="btpxid-showcase-title">{t('btpxidProduct.standards.title')}</h2>
-            <p className="btpxid-showcase-sub">{t('btpxidProduct.standards.subtitle')}</p>
-          </div>
-
-          <div className="btpxid-standards-grid">
-            {(t('btpxidProduct.standards.cards', { returnObjects: true }) as StandardCard[]).map((card) => (
-              <div key={card.name} className="btpxid-standard-card">
-                <div className="btpxid-standard-head">
-                  <h3 className="btpxid-standard-name">{card.name}</h3>
-                  <span className="btpxid-standard-clauses">{card.clauses}</span>
-                </div>
-                <p className="btpxid-standard-text">{card.text}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="btpxid-standards-cta">
-            <a href={getLocalizedPath("/products/btp-xid/compliance")} className="btpxid-standards-link">
-              {t('btpxidProduct.standards.cta')}
-              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== HOW BTP xID CLOSES EACH GAP ===== */}
-      <section className="btpxid-closes" id="features">
-        <div className="btpxid-closes-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.closes.label')}</div>
-            <h2 className="btpxid-showcase-title">{t('btpxidProduct.closes.title')}</h2>
-            <p className="btpxid-showcase-sub">{t('btpxidProduct.closes.subtitle')}</p>
-          </div>
-
-          <div className="btpxid-closes-grid">
-            {(t('btpxidProduct.closes.items', { returnObjects: true }) as CloseItem[]).map((item) => (
-              <div key={item.gap} className="btpxid-close-card">
-                <div className="btpxid-close-check">
-                  <CheckCircle className="h-5 w-5" aria-hidden="true" />
-                </div>
-                <div>
-                  <h3 className="btpxid-close-gap">{item.gap}</h3>
-                  <p className="btpxid-close-fix">{item.fix}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== IAS COMPLEMENT ===== */}
-<section className="btpxid-ias" id="services">
-  <div className="btpxid-ias-inner">
-    <div className="btpxid-showcase-header">
-      <div className="btpxid-features-label">{t('btpxidProduct.ias.label2')}</div>
-      <h2 className="btpxid-showcase-title">
-        {t('btpxidProduct.ias.title1')}<br />{t('btpxidProduct.ias.title2')}
-      </h2>
-      <p className="btpxid-showcase-sub">
-        {t('btpxidProduct.ias.subtitle')}
-      </p>
-    </div>
-
-    <div className="btpxid-ias-columns">
-      {/* IAS column */}
-      <div className="btpxid-ias-col btpxid-ias-col-ias">
-        <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-ias">{t('btpxidProduct.ias.iasBadge')}</span>
-          <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.iasTitle')}</h3>
-        </div>
-        <ul className="btpxid-ias-list">
-          {(t('btpxidProduct.ias.iasItems', { returnObjects: true }) as string[]).map((item) => (
-            <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
-              <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
-                <circle cx="8" cy="8" r="8" fill="#E2E8F0"/>
-                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#64748B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {/* Plus divider */}
-      <div className="btpxid-ias-plus">
-        <div className="btpxid-ias-plus-line" />
-        <span className="btpxid-ias-plus-sign">+</span>
-        <div className="btpxid-ias-plus-line" />
-      </div>
-
-      {/* BTP xID column */}
-      <div className="btpxid-ias-col btpxid-ias-col-xid">
-        <div className="btpxid-ias-col-header">
-          <span className="btpxid-ias-badge btpxid-ias-badge-xid">{t('btpxidProduct.ias.xidBadge')}</span>
-          <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.xidTitle')}</h3>
-        </div>
-        <ul className="btpxid-ias-list">
-          {(t('btpxidProduct.ias.xidItems', { returnObjects: true }) as string[]).map((item) => (
-            <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
-              <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
-                <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
-                <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-          <li className="btpxid-ias-list-item btpxid-ias-list-item-xid">
-            <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
-              <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
-              <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            <span>Cloud Foundry Org &amp; Space manager assignments, including Org Manager force-add in one click, without service update wizards or JSON payloads (<a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>SAP Note 3249765</a>)</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    {/* Footer callout */}
-    <div className="btpxid-ias-footer">
-      {t('btpxidProduct.ias.footer')}
-    </div>
-  </div>
-</section>
-
       {/* ===== LANDSCAPE MANAGEMENT ===== */}
       <section className="btpxid-landscape" id="landscape">
         <div className="btpxid-landscape-inner">
@@ -401,6 +244,113 @@ export default function BTPxIDProduct() {
           </div>
 
           <p className="btpxid-landscape-ai-note">{t('btpxidProduct.landscape.aiNote')}</p>
+        </div>
+      </section>
+
+      {/* ===== USER MANAGEMENT (complements SAP IAS) ===== */}
+      <section className="btpxid-ias" id="services">
+        <div className="btpxid-ias-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.ias.label2')}</div>
+            <h2 className="btpxid-showcase-title">
+              {t('btpxidProduct.ias.title1')}<br />{t('btpxidProduct.ias.title2')}
+            </h2>
+            <p className="btpxid-showcase-sub">
+              {t('btpxidProduct.ias.subtitle')}
+            </p>
+          </div>
+
+          <div className="btpxid-ias-columns">
+            {/* IAS column */}
+            <div className="btpxid-ias-col btpxid-ias-col-ias">
+              <div className="btpxid-ias-col-header">
+                <span className="btpxid-ias-badge btpxid-ias-badge-ias">{t('btpxidProduct.ias.iasBadge')}</span>
+                <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.iasTitle')}</h3>
+              </div>
+              <ul className="btpxid-ias-list">
+                {(t('btpxidProduct.ias.iasItems', { returnObjects: true }) as string[]).map((item) => (
+                  <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-ias">
+                    <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+                      <circle cx="8" cy="8" r="8" fill="#E2E8F0"/>
+                      <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#64748B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Plus divider */}
+            <div className="btpxid-ias-plus">
+              <div className="btpxid-ias-plus-line" />
+              <span className="btpxid-ias-plus-sign">+</span>
+              <div className="btpxid-ias-plus-line" />
+            </div>
+
+            {/* BTP xID column */}
+            <div className="btpxid-ias-col btpxid-ias-col-xid">
+              <div className="btpxid-ias-col-header">
+                <span className="btpxid-ias-badge btpxid-ias-badge-xid">{t('btpxidProduct.ias.xidBadge')}</span>
+                <h3 className="btpxid-ias-col-title">{t('btpxidProduct.ias.xidTitle')}</h3>
+              </div>
+              <ul className="btpxid-ias-list">
+                {(t('btpxidProduct.ias.xidItems', { returnObjects: true }) as string[]).map((item) => (
+                  <li key={item} className="btpxid-ias-list-item btpxid-ias-list-item-xid">
+                    <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+                      <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
+                      <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span>{item}</span>
+                  </li>
+                ))}
+                <li className="btpxid-ias-list-item btpxid-ias-list-item-xid">
+                  <svg className="btpxid-ias-check" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="8" fill="rgba(58,154,106,0.12)"/>
+                    <path d="M4.5 8L7 10.5L11.5 5.5" stroke="#3A9A6A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  <span>Cloud Foundry Org &amp; Space manager assignments, including Org Manager force-add in one click, without service update wizards or JSON payloads (<a href="https://me.sap.com/notes/3249765" target="_blank" rel="noopener noreferrer" style={{ color: "#3A9A6A", textDecoration: "none" }}>SAP Note 3249765</a>)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Footer callout */}
+          <div className="btpxid-ias-footer">
+            {t('btpxidProduct.ias.footer')}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== SERVICE KEY GOVERNANCE ===== */}
+      <section className="btpxid-closes" id="features">
+        <div className="btpxid-closes-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.serviceKeys.label')}</div>
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.serviceKeys.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.serviceKeys.subtitle')}</p>
+          </div>
+
+          <div className="btpxid-closes-grid">
+            {(t('btpxidProduct.serviceKeys.items', { returnObjects: true }) as CloseItem[]).map((item) => (
+              <div key={item.gap} className="btpxid-close-card">
+                <div className="btpxid-close-check">
+                  <CheckCircle className="h-5 w-5" aria-hidden="true" />
+                </div>
+                <div>
+                  <h3 className="btpxid-close-gap">{item.gap}</h3>
+                  <p className="btpxid-close-fix">{item.fix}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="btpxid-standards-cta">
+            <p className="btpxid-servicekeys-compliance-text">{t('btpxidProduct.serviceKeys.complianceText')}</p>
+            <a href={getLocalizedPath("/products/btp-xid/compliance")} className="btpxid-standards-link">
+              {t('btpxidProduct.serviceKeys.complianceCta')}
+              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </section>
 
