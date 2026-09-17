@@ -1591,7 +1591,7 @@
     "hero": {
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
-      "badge": "New · Landscape Management",
+      "badge": "New · SAP BTP Landscape Management",
       "headline": "Govern Every Credential. Version Every Change. Own Your Whole SAP BTP Landscape.",
       "subhead": "BTP xID tracks the owner, lifecycle and audit trail of every service key — and lets you manage your entire SAP BTP landscape as reviewed, Terraform-backed infrastructure. No more clicking through Cockpit. No more surprises in production.",
       "ctaLabel": "Try BTP xID Now",

@@ -455,11 +455,17 @@
   color: #0F172A;
 }
 
-/* Badge — small eye-catching pill announcing a new capability */
+/* Badge — small eye-catching pill announcing a new capability. display:flex (not
+   inline-flex) so it's a block-level box that always falls onto its own row
+   below the wordmark, instead of flowing inline next to it when there's room. */
 .btpxid-hero-badge {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   align-items: center;
+  justify-content: center;
   gap: 6px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.02em;
