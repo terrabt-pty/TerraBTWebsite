@@ -1591,9 +1591,9 @@
     "hero": {
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
-      "badge": "New · SAP BTP Landscape Management",
-      "headline": "Govern Every Credential. Version Every Change. Own Your Whole SAP BTP Landscape.",
-      "subhead": "BTP xID is your 3-in-1 platform for everything SAP BTP: service key governance, user & access management, and Terraform-backed landscape management — three tools that used to live in three different places, now in one. No more clicking through Cockpit. No more surprises in production.",
+      "badge": "New · AI-Powered Landscape Management",
+      "headline": "Use AI To Manage Your Whole SAP BTP Landscape.",
+      "subhead": "Describe what you need in plain English, and the AI Assistant manages your entire SAP BTP landscape — reviewed and Terraform-backed — along with your users and service keys. No clicking through Cockpit. No learning Terraform.",
       "ctaLabel": "Try BTP xID Now",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
@@ -1745,15 +1745,15 @@
       "modelSteps": [
         {
           "title": "Landscape",
-          "desc": "The top-level container for every Path and Stage you manage — typically one per organization or business unit."
+          "desc": "See your whole SAP BTP estate in one place."
         },
         {
           "title": "Path",
-          "desc": "A promotion track inside a Landscape — \"Core Platform,\" \"Sales,\" whatever mirrors how your team actually ships. Its Stages move through it in order."
+          "desc": "Promote changes the way your team already ships — Dev to QA to Prod."
         },
         {
           "title": "Stage",
-          "desc": "A Path's Dev, QA or Prod step, bound to a real subaccount. Mark it production and BTP xID locks it down automatically."
+          "desc": "Connect a real subaccount and get automatic protection once it's production."
         }
       ],
       "flowLabel": "The Workflow",
@@ -1781,9 +1781,9 @@
       ],
       "storageTitle": "Every Version Tracked. Every Byte Yours.",
       "storageText": "Every save is a new, immutable, content-hashed version — nothing is ever overwritten, and identical saves don't clutter your history. Compare any two versions with a full file-by-file diff, or roll back in a click. And your configuration isn't locked inside BTP xID: push and pull it to your own Git repository — GitHub, GitLab, wherever your team already works — so it's versioned in source control you control, with commits, branches and pull requests exactly like the rest of your codebase.",
-      "safetyTitle": "Production Is Protected By Code, Not By Policy",
-      "safetyText": "A stage marked production can never be changed directly — not by a mistaken click, not by a rushed request, and not by the AI Assistant. Every production change earns its way through Plan, Review, Approve and Apply, no matter who's asking.",
-      "aiNote": "The AI Assistant speaks both modes. Ask it to change something right now, and it acts through the same confirm-before-you-commit flow you'd use yourself. Ask it to set something up across stages — like Transport Management between two Global Accounts — and it switches to Landscape mode, proposing the Terraform for a person to plan, review, approve and apply."
+      "safetyTitle": "Nothing Reaches Production Without Your Approval",
+      "safetyText": "Once you mark a stage production, BTP xID will never apply a change to it — including one proposed by the AI Assistant — without a Plan, a Review and an Approval first. BTP xID governs everything that happens through BTP xID; it does not replace the access controls you already have on the SAP BTP Cockpit itself.",
+      "aiNote": "Just ask. The AI Assistant runs your SAP BTP landscape — you stay in control, it does the work."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",

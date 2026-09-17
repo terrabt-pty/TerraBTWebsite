@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
-import { Menu, X, UserCircle } from "lucide-react";
+import { Menu, X, UserCircle, Sparkles } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -49,12 +49,10 @@ export default function Navigation() {
               href={BTP_XID_APP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md"
-              style={{ color: "#475569" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              className="btpxid-nav-launch"
               data-testid="link-btp-xid"
             >
+              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
               {t('nav.btpXid', 'BTP xID')}
             </a>
             <Link
@@ -122,13 +120,11 @@ export default function Navigation() {
               href={BTP_XID_APP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
-              style={{ color: "#475569" }}
-              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
-              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              className="btpxid-nav-launch btpxid-nav-launch-mobile"
               onClick={() => setMobileMenuOpen(false)}
               data-testid="mobile-link-btp-xid"
             >
+              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
               {t('nav.btpXid', 'BTP xID')}
             </a>
             <Link

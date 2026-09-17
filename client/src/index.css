@@ -4809,6 +4809,29 @@
   background: rgba(30, 80, 153, 0.05);
   border-color: rgba(30, 80, 153, 0.2);
 }
+
+/* Nav "BTP xID" launch pill — makes the primary app link stand out from plain nav text */
+.btpxid-nav-launch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099);
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(58, 154, 106, 0.25);
+}
+.btpxid-nav-launch:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(58, 154, 106, 0.35);
+}
+.btpxid-nav-launch-mobile {
+  width: fit-content;
+}
 .btpxid-landscape-ai-note {
   margin-top: 1.5rem;
   font-size: 0.875rem;
