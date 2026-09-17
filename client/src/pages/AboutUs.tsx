@@ -2,10 +2,11 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Linkedin } from "lucide-react";
 import ashHeadshot from "@assets/ash-goyal-headshot.png";
 
 const BTP_XID_APP_URL = "https://btpxid.terrabt.com";
+const ASH_LINKEDIN_URL = "https://www.linkedin.com/in/ashwanigoyal/";
 
 const TIMELINE: Array<{ period: string; title: string; body: string }> = [
   {
@@ -69,7 +70,19 @@ export default function AboutUs() {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold mb-1">Ash Goyal</h2>
-              <p className="text-sm font-semibold mb-6" style={{ color: "#3A9A6A" }}>Founder, TerraBT</p>
+              <div className="flex items-center gap-3 mb-6">
+                <p className="text-sm font-semibold" style={{ color: "#3A9A6A" }}>Founder, TerraBT</p>
+                <a
+                  href={ASH_LINKEDIN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ash Goyal on LinkedIn"
+                  className="h-7 w-7 rounded-md border flex items-center justify-center transition-colors hover:bg-black/5"
+                  style={{ borderColor: "#E2E8F0", color: "#475569" }}
+                >
+                  <Linkedin className="h-3.5 w-3.5" />
+                </a>
+              </div>
 
               <div className="space-y-4 leading-relaxed" style={{ color: "#334155" }}>
                 <p>
