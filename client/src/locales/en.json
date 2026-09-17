@@ -1594,6 +1594,7 @@
       "badge": "New · Landscape Management",
       "headline": "Govern Every Credential. Version Every Change. Own Your Whole SAP BTP Landscape.",
       "subhead": "BTP xID tracks the owner, lifecycle and audit trail of every service key — and lets you manage your entire SAP BTP landscape as reviewed, Terraform-backed infrastructure. No more clicking through Cockpit. No more surprises in production.",
+      "ctaLabel": "Try BTP xID Now",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
       "secondaryCta": "Download for {{os}}",
@@ -1799,7 +1800,7 @@
     "download": {
       "title": "Ready to get started?",
       "getStartedLabel": "Get Started",
-      "getStartedTitle": "Govern every credential. Manage your whole landscape. Today.",
+      "getStartedTitle": "Everything you need to run SAP BTP with confidence.",
       "webButton": "Open BTP xID in your browser",
       "webButtonDesc": "Credential governance and Terraform-backed landscape management, no installation needed",
       "legal": "By using BTP xID, you agree to our",

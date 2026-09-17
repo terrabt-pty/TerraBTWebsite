@@ -147,6 +147,12 @@ export default function BTPxIDProduct() {
 
             {/* Description */}
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.subhead')}</p>
+
+            {/* Primary CTA */}
+            <a href={XID_WEB_URL} target="_blank" rel="noopener noreferrer" className="btpxid-hero-cta">
+              {t('btpxidProduct.hero.ctaLabel')}
+              <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
+            </a>
           </div>
 
           {/* Screenshot carousel, full-width block below text */}

@@ -510,6 +510,28 @@
   hyphens: none;
 }
 
+/* Primary hero CTA — opens the app directly */
+.btpxid-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.75rem;
+  padding: 14px 28px;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #4CAF50, #3A9A6A, #1E5099);
+  color: #FFFFFF;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(58, 154, 106, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: btpxid-fadeInUp 0.8s ease-out 0.3s both;
+}
+.btpxid-hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(58, 154, 106, 0.35);
+}
+
 /* Screenshot block — full-width below text */
 .btpxid-hero-visual {
   width: 100%;
