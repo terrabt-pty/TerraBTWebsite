@@ -54,13 +54,13 @@ export default function Footer() {
             <h3 className="font-semibold text-foreground mb-4">{t('footer.company')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <button
-                  onClick={() => scrollToSection("#home")}
+                <a
+                  href={getLocalizedPath("/about")}
                   className="text-muted-foreground hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
                   data-testid="link-about"
                 >
                   {t('footer.about')}
-                </button>
+                </a>
               </li>
               <li>
                 <a

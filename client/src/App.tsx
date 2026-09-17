@@ -36,6 +36,7 @@ import BTPAccessManagementPage from "@/pages/blogs/BTPAccessManagementPage";
 import BTPControlBeforeAfterPage from "@/pages/blogs/BTPControlBeforeAfterPage";
 import BTPServiceKeysAPICredentialsPage from "@/pages/blogs/BTPServiceKeysAPICredentialsPage";
 import SAPBTPServiceKeyOffboardingPage from "@/pages/blogs/SAPBTPServiceKeyOffboardingPage";
+import AboutUs from "@/pages/AboutUs";
 import TermsOfService from "@/pages/TermsOfService";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import LimitedLiability from "@/pages/LimitedLiability";
@@ -144,6 +145,9 @@ function Router() {
       <Route path="/products/btp-xid/compliance" component={BTPxIDCompliance} />
       <Route path="/products/claude-cli" component={ClaudeCliProduct} />
       <Route path="/knowledge" component={Knowledge} />
+
+      <Route path="/about" component={AboutUs} />
+      <Route path="/:lang/about" component={AboutUs} />
 
       {/* Legal Pages */}
       <Route path="/terms-of-service" component={TermsOfService} />
