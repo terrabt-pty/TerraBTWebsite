@@ -7,13 +7,6 @@ import ashHeadshot from "@assets/ash-goyal-headshot.png";
 
 const BTP_XID_APP_URL = "https://btpxid.terrabt.com";
 
-const STATS: Array<{ value: string; label: string }> = [
-  { value: "20+", label: "Years building enterprise software" },
-  { value: "12+", label: "Years as an architect inside SAP itself" },
-  { value: "1st", label: "Productive SAPUI5 app ever shipped at SAP" },
-  { value: "35", label: "People led on a single delivery team" },
-];
-
 const TIMELINE: Array<{ period: string; title: string; body: string }> = [
   {
     period: "2007 – 2018",
@@ -61,18 +54,6 @@ export default function AboutUs() {
           <p className="text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed" style={{ color: "#475569" }}>
             TerraBT is led by Ash Goyal — a 12+ year SAP architect and enterprise integration specialist who spent his career building the systems he now helps you govern.
           </p>
-        </div>
-      </section>
-
-      {/* ===== STATS STRIP ===== */}
-      <section className="border-y" style={{ background: "#F8FAFC" }}>
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {STATS.map((s) => (
-            <div key={s.label}>
-              <div className="text-3xl md:text-4xl font-extrabold" style={{ color: "#1E5099" }}>{s.value}</div>
-              <div className="text-xs md:text-sm mt-1" style={{ color: "#64748B" }}>{s.label}</div>
-            </div>
-          ))}
         </div>
       </section>
 
