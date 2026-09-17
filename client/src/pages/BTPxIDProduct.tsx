@@ -101,6 +101,11 @@ interface CloseItem {
   fix: string;
 }
 
+interface LandscapeStep {
+  title: string;
+  desc: string;
+}
+
 export default function BTPxIDProduct() {
   const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
@@ -355,7 +360,49 @@ export default function BTPxIDProduct() {
   </div>
 </section>
 
+      {/* ===== LANDSCAPE MANAGEMENT ===== */}
+      <section className="btpxid-landscape" id="landscape">
+        <div className="btpxid-landscape-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.landscape.label')}</div>
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.landscape.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.landscape.subtitle')}</p>
+          </div>
 
+          <div className="btpxid-landscape-group">
+            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.modelLabel')}</h3>
+            <div className="btpxid-landscape-grid btpxid-landscape-grid-3">
+              {(t('btpxidProduct.landscape.modelSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
+                <div key={step.title} className="btpxid-landscape-step">
+                  <div className="btpxid-landscape-step-num">{i + 1}</div>
+                  <h4>{step.title}</h4>
+                  <p>{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="btpxid-landscape-group">
+            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.flowLabel')}</h3>
+            <div className="btpxid-landscape-grid btpxid-landscape-grid-5">
+              {(t('btpxidProduct.landscape.flowSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
+                <div key={step.title} className="btpxid-landscape-step">
+                  <div className="btpxid-landscape-step-num">{i + 1}</div>
+                  <h4>{step.title}</h4>
+                  <p>{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="btpxid-landscape-callout">
+            <h4>{t('btpxidProduct.landscape.safetyTitle')}</h4>
+            <p>{t('btpxidProduct.landscape.safetyText')}</p>
+          </div>
+
+          <p className="btpxid-landscape-ai-note">{t('btpxidProduct.landscape.aiNote')}</p>
+        </div>
+      </section>
 
       {/* ===== DOWNLOAD ===== */}
       <section className="btpxid-download" id="download">

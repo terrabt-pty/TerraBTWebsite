@@ -4672,3 +4672,106 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ── Landscape management section ───────────────────────────────────────── */
+.btpxid-landscape {
+  background: #FFFFFF;
+  padding: 80px 0;
+}
+.btpxid-landscape-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.btpxid-landscape-group {
+  margin-top: 3rem;
+}
+.btpxid-landscape-group-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748B;
+  margin: 0 0 1.25rem;
+}
+.btpxid-landscape-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+.btpxid-landscape-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.btpxid-landscape-grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.btpxid-landscape-step {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+.btpxid-landscape-step-num {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background: rgba(58, 154, 106, 0.08);
+  border: 1px solid rgba(58, 154, 106, 0.25);
+  color: #3A9A6A;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.875rem;
+}
+.btpxid-landscape-step h4 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 6px;
+}
+.btpxid-landscape-step p {
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+.btpxid-landscape-callout {
+  margin-top: 2.5rem;
+  background: rgba(58, 154, 106, 0.06);
+  border: 1px solid rgba(58, 154, 106, 0.25);
+  border-radius: 14px;
+  padding: 1.5rem 1.75rem;
+}
+.btpxid-landscape-callout h4 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin: 0 0 6px;
+}
+.btpxid-landscape-callout p {
+  font-size: 0.9375rem;
+  color: #334155;
+  line-height: 1.65;
+  margin: 0;
+}
+.btpxid-landscape-ai-note {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: #64748B;
+  line-height: 1.65;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .btpxid-landscape-grid-3,
+  .btpxid-landscape-grid-5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .btpxid-landscape-grid-3,
+  .btpxid-landscape-grid-5 {
+    grid-template-columns: 1fr;
+  }
+}
