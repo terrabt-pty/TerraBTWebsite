@@ -184,7 +184,7 @@
   },
   "contact": {
     "badge": "Get Started",
-    "title": "Get in touch",
+    "title": "Get In Touch",
     "subtitle": "Speak with our team about your SAP BTP access governance requirements.",
     "availability": "Limited Availability",
     "contactInfo": "Contact Information",
@@ -1593,7 +1593,7 @@
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
       "badge": "New · SAP BTP Landscape Management",
       "headline": "Govern Every Credential. Version Every Change. Own Your Whole SAP BTP Landscape.",
-      "subhead": "BTP xID tracks the owner, lifecycle and audit trail of every service key — and lets you manage your entire SAP BTP landscape as reviewed, Terraform-backed infrastructure. No more clicking through Cockpit. No more surprises in production.",
+      "subhead": "BTP xID is your 3-in-1 platform for everything SAP BTP: service key governance, user & access management, and Terraform-backed landscape management — three tools that used to live in three different places, now in one. No more clicking through Cockpit. No more surprises in production.",
       "ctaLabel": "Try BTP xID Now",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",
@@ -1739,49 +1739,51 @@
     },
     "landscape": {
       "label": "Landscape Management",
-      "title": "Manage your SAP BTP landscape as code, not as clicks",
-      "subtitle": "Model your Global Accounts and Subaccounts as Landscapes, Paths and Stages, then change them through Terraform — with a plan, a review and an approval before anything reaches production.",
-      "modelLabel": "The model",
+      "title": "Manage Your SAP BTP Landscape As Code, Not As Clicks",
+      "subtitle": "Model your Global Accounts and Subaccounts as Landscapes, Paths and Stages. Every change ships through Terraform — planned, reviewed and approved before it ever reaches production.",
+      "modelLabel": "The Model",
       "modelSteps": [
         {
           "title": "Landscape",
-          "desc": "A top-level grouping of the Paths and Stages you manage — typically one per organization or business unit."
+          "desc": "The top-level container for every Path and Stage you manage — typically one per organization or business unit."
         },
         {
           "title": "Path",
-          "desc": "A promotion track inside a Landscape, such as \"Core Platform\" or \"Sales\" — the order its stages get promoted through."
+          "desc": "A promotion track inside a Landscape — \"Core Platform,\" \"Sales,\" whatever mirrors how your team actually ships. Its Stages move through it in order."
         },
         {
           "title": "Stage",
-          "desc": "A Path's Dev, QA or Prod step, bound to a real subaccount. Mark a stage production and BTP xID protects it automatically."
+          "desc": "A Path's Dev, QA or Prod step, bound to a real subaccount. Mark it production and BTP xID locks it down automatically."
         }
       ],
-      "flowLabel": "The workflow",
+      "flowLabel": "The Workflow",
       "flowSteps": [
         {
           "title": "Propose",
-          "desc": "Write the Terraform yourself, or describe the change in plain language and let the AI Assistant draft it."
+          "desc": "Write the Terraform yourself, or describe the change in plain language and let the AI Assistant draft it for you."
         },
         {
           "title": "Plan",
-          "desc": "BTP xID runs a live Terraform plan against the real subaccount before anything changes."
+          "desc": "BTP xID runs a live Terraform plan against the real subaccount, so you see exactly what will change before anything does."
         },
         {
           "title": "Review",
-          "desc": "The plan, and every file it touches, is visible to whoever needs to sign off."
+          "desc": "The full plan — and every file behind it — is visible to whoever needs to sign off. Nothing hides in a chat log."
         },
         {
           "title": "Approve",
-          "desc": "Your stage's approval policy decides who can approve — always a person, never the model."
+          "desc": "Your stage's approval policy decides who can approve. Always a person. Never the model."
         },
         {
           "title": "Apply",
-          "desc": "Only after approval does BTP xID apply the change and record the full run log."
+          "desc": "Only after approval does BTP xID apply the change — and log the entire run, end to end."
         }
       ],
-      "safetyTitle": "Production is protected by code, not by policy",
-      "safetyText": "A stage marked production can never be changed directly — not by a mistaken click, and not by the AI Assistant. Every production change goes through Plan, Review, Approve and Apply, whoever is asking.",
-      "aiNote": "The AI Assistant speaks both modes: ask it to change something right now and it acts through the same confirm-before-you-commit flow you'd use yourself; ask it to set something up across stages — like Transport Management between two Global Accounts — and it switches to Landscape mode, proposing the Terraform for a person to plan, review, approve and apply."
+      "storageTitle": "Every Version Tracked. Every Byte Yours.",
+      "storageText": "Every save is a new, immutable, content-hashed version — nothing is ever overwritten, and identical saves don't clutter your history. Compare any two versions with a full file-by-file diff, or roll back in a click. And your configuration isn't locked inside BTP xID: push and pull it to your own Git repository — GitHub, GitLab, wherever your team already works — so it's versioned in source control you control, with commits, branches and pull requests exactly like the rest of your codebase.",
+      "safetyTitle": "Production Is Protected By Code, Not By Policy",
+      "safetyText": "A stage marked production can never be changed directly — not by a mistaken click, not by a rushed request, and not by the AI Assistant. Every production change earns its way through Plan, Review, Approve and Apply, no matter who's asking.",
+      "aiNote": "The AI Assistant speaks both modes. Ask it to change something right now, and it acts through the same confirm-before-you-commit flow you'd use yourself. Ask it to set something up across stages — like Transport Management between two Global Accounts — and it switches to Landscape mode, proposing the Terraform for a person to plan, review, approve and apply."
     },
     "valueProps": {
       "0": "Only BTP user mgmt app you'll ever need",
@@ -1800,7 +1802,7 @@
     "download": {
       "title": "Ready to get started?",
       "getStartedLabel": "Get Started",
-      "getStartedTitle": "Everything you need to run SAP BTP with confidence.",
+      "getStartedTitle": "Everything You Need To Run SAP BTP With Confidence.",
       "webButton": "Open BTP xID in your browser",
       "webButtonDesc": "Credential governance and Terraform-backed landscape management, no installation needed",
       "legal": "By using BTP xID, you agree to our",
@@ -1877,8 +1879,8 @@
     "ias": {
       "label": "Works With SAP IAS",
       "label2": "User Management",
-      "title1": "IAS secures identity.",
-      "title2": "BTP xID governs access.",
+      "title1": "IAS Secures Identity.",
+      "title2": "BTP xID Governs Access.",
       "subtitle": "One place to manage every user, role and Cloud Foundry assignment across your entire SAP BTP landscape — reaching the corners SAP IAS can't.",
       "iasBadge": "SAP IAS",
       "iasTitle": "Identity, Authentication & Partial Access Governance",

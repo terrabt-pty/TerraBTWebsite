@@ -244,6 +244,11 @@ export default function BTPxIDProduct() {
             </div>
           </div>
 
+          <div className="btpxid-landscape-callout btpxid-landscape-callout-storage">
+            <h4>{t('btpxidProduct.landscape.storageTitle')}</h4>
+            <p>{t('btpxidProduct.landscape.storageText')}</p>
+          </div>
+
           <div className="btpxid-landscape-callout">
             <h4>{t('btpxidProduct.landscape.safetyTitle')}</h4>
             <p>{t('btpxidProduct.landscape.safetyText')}</p>
