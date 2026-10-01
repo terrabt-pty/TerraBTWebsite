@@ -142,6 +142,14 @@ export default function Footer() {
             >
               {t('footer.liability')}
             </a>
+            <span className="hidden sm:inline">•</span>
+            <a
+              href="/trust"
+              className="hover:text-foreground transition-colors hover-elevate px-2 py-1 rounded-md"
+              data-testid="link-trust-center"
+            >
+              Trust Center
+            </a>
           </div>
           <p className="text-[10px] text-muted-foreground/50 text-center -mt-1">
             Applies to BTP xID and the TerraBT website
