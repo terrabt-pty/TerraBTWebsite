@@ -1735,7 +1735,8 @@
         }
       ],
       "complianceText": "These same gaps map directly to ISO/IEC 27001:2022, NIST SP 800-53, PCI DSS 4.0, SOC 2 and SOX ITGC controls.",
-      "complianceCta": "See the full compliance mapping"
+      "complianceCta": "See the full compliance mapping",
+      "trustCenterCta": "Visit our Trust Center"
     },
     "landscape": {
       "label": "Landscape Management",

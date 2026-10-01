@@ -361,6 +361,10 @@ export default function BTPxIDProduct() {
               {t('btpxidProduct.serviceKeys.complianceCta')}
               <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
             </a>
+            <a href={getLocalizedPath("/trust")} className="btpxid-standards-link">
+              {t('btpxidProduct.serviceKeys.trustCenterCta')}
+              <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+            </a>
           </div>
         </div>
       </section>
