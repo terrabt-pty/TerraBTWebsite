@@ -160,6 +160,12 @@ export default function Footer() {
               © {currentYear} TerraBT. {t('footer.copyright')}
             </p>
           </div>
+          <p className="text-xs text-muted-foreground/70 text-center -mt-1">
+            TerraBT Pty Ltd · ABN 56 692 065 222
+          </p>
+          <p className="text-xs text-muted-foreground/70 text-center -mt-1">
+            Built in Australia with love
+          </p>
 
           <div className="flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground/50 max-w-2xl text-center">
