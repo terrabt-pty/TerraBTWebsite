@@ -10,8 +10,14 @@ import SEOHead from "@/components/SEOHead";
 //   - The "nothing stored" architecture claims come from the actual
 //     BTPxID server session-cookie implementation
 //     (server/src/btp/session-cookie.ts, server/src/cf/cf-session-cookie.ts).
-//   - The scan table rows are real Snyk CLI results run against the current
+//   - The Snyk rows are real Snyk CLI results run against the current
 //     state of each repo on 2026-10-01 — not illustrative placeholders.
+//   - The Semgrep, OWASP ZAP and Dependabot rows come from the internal
+//     compliance program's controls register (github.com/terrabt-pty/Compliance,
+//     CONTROLS.md rows 5.4, 7.1, 7.2, 8.4), and the npm audit row from the
+//     license platform's infra-hardening log (P3-T17). Those sources record
+//     the outcome but not finding counts, so none are shown. Add counts or
+//     exact dates here only from a real re-run.
 //   - The SOC 2 line describes the actual, current state of the internal
 //     compliance program (github.com/terrabt-pty/Compliance): governance,
 //     risk assessment, and most control domains done; third-party audit
@@ -47,6 +53,34 @@ const SCAN_ROWS: ScanRow[] = [
     date: "2026-10-01",
     issuesFound: "3 (1 High, 2 Medium — transitive, via a charting library's lodash dependency)",
     status: "Fix identified (library upgrade); scheduled, not yet applied",
+  },
+  {
+    scope: "TerraBT product source code",
+    tool: "Semgrep (open-source static analysis, including a check for committed secrets)",
+    date: "Q3 2026",
+    issuesFound: "Findings were remediated; no committed secrets found",
+    status: "Resolved. Self-performed; not yet an automated CI gate",
+  },
+  {
+    scope: "TerraBT test and production environments (web applications)",
+    tool: "OWASP ZAP (open-source dynamic scan, full active scan)",
+    date: "Q3 2026",
+    issuesFound: "Findings were resolved down to warning-level only",
+    status: "Resolved. Self-performed; to be repeated on a defined schedule",
+  },
+  {
+    scope: "BTP xID and TerraBT License Platform repositories",
+    tool: "GitHub Dependabot (continuous alerts and automatic security fix pull requests)",
+    date: "Q3 2026 (enabled)",
+    issuesFound: "Ongoing: alerts are raised as new advisories are published",
+    status: "Enabled on both product repositories",
+  },
+  {
+    scope: "TerraBT License Platform — server + client",
+    tool: "npm audit (open-source package advisory check)",
+    date: "2026-04-17",
+    issuesFound: "0 critical or high; one moderate issue fixed",
+    status: "Clean at the time of the run (Snyk re-scan above is more recent)",
   },
   {
     scope: "Independent third-party penetration test",
@@ -91,7 +125,7 @@ export default function TrustCenter() {
     <>
       <SEOHead
         title="Trust Center: Security, Data Handling & SOC 2 Status | TerraBT"
-        description="How TerraBT handles your SAP BTP credentials and session data, real dependency-scan results, and current SOC 2 compliance program status."
+        description="How TerraBT handles your SAP BTP credentials and session data, real security test results, and current SOC 2 compliance program status."
         path="/trust"
       />
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
@@ -176,8 +210,10 @@ export default function TrustCenter() {
               </table>
             </div>
             <p style={{ color: "#64748B", fontSize: "0.875rem", lineHeight: 1.7, marginTop: "16px" }}>
-              Dependency scanning covers known vulnerabilities in third-party packages — it does not
-              replace a full penetration test, which is listed above as a planned, not-yet-complete step.
+              Dependency scanning covers known vulnerabilities in third-party packages, Semgrep reviews
+              our own code, and ZAP probes the running applications. All of this testing was performed
+              by TerraBT itself, so it does not replace an independent penetration test, which is listed
+              above as a planned, not-yet-complete step.
             </p>
           </section>
 
