@@ -48,13 +48,6 @@ const SCAN_ROWS: ScanRow[] = [
     status: "Clean",
   },
   {
-    scope: "TerraBT website",
-    tool: "Snyk (dependency vulnerability scan)",
-    date: "2026-10-01",
-    issuesFound: "3 (1 High, 2 Medium — transitive, via a charting library's lodash dependency)",
-    status: "Fix identified (library upgrade); scheduled, not yet applied",
-  },
-  {
     scope: "TerraBT product source code",
     tool: "Semgrep (open-source static analysis, including a check for committed secrets)",
     date: "Q3 2026",

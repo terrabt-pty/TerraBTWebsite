@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
-import { Menu, X, UserCircle, Sparkles } from "lucide-react";
+import { Menu, X, UserCircle, Sparkles, Shield } from "lucide-react";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
@@ -64,6 +64,17 @@ export default function Navigation() {
               data-testid="link-knowledge"
             >
               {t('nav.knowledge', 'Knowledge')}
+            </Link>
+            <Link
+              href={getLocalizedPath("/trust")}
+              className="font-medium transition-colors hover-elevate px-3 py-2 rounded-md inline-flex items-center gap-1.5"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              data-testid="link-trust"
+            >
+              <Shield className="h-3.5 w-3.5" aria-hidden="true" />
+              {t('nav.trust', 'Trust Center')}
             </Link>
             {SCROLL_LINKS.map((link) => (
               <button
@@ -137,6 +148,18 @@ export default function Navigation() {
               data-testid="mobile-link-knowledge"
             >
               {t('nav.knowledge', 'Knowledge')}
+            </Link>
+            <Link
+              href={getLocalizedPath("/trust")}
+              className="flex items-center gap-2 w-full text-left px-3 py-2 font-medium hover-elevate rounded-md"
+              style={{ color: "#475569" }}
+              onMouseEnter={e => (e.currentTarget.style.color = "#0F172A")}
+              onMouseLeave={e => (e.currentTarget.style.color = "#475569")}
+              onClick={() => setMobileMenuOpen(false)}
+              data-testid="mobile-link-trust"
+            >
+              <Shield className="h-4 w-4" aria-hidden="true" />
+              {t('nav.trust', 'Trust Center')}
             </Link>
             {SCROLL_LINKS.map((link) => (
               <button
