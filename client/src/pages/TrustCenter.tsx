@@ -265,7 +265,7 @@ export default function TrustCenter() {
               TerraBT Pty Ltd · ABN 56 692 065 222
             </p>
             <p style={{ color: "#94A3B8", fontSize: "0.8125rem" }}>
-              Built in Australia with love
+              Built in Australia with ❤️
             </p>
           </div>
         </article>

@@ -164,7 +164,7 @@ export default function Footer() {
             TerraBT Pty Ltd · ABN 56 692 065 222
           </p>
           <p className="text-xs text-muted-foreground/70 text-center -mt-1">
-            Built in Australia with love
+            Built in Australia with ❤️
           </p>
 
           <div className="flex flex-col items-center gap-2">
