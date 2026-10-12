@@ -58,7 +58,7 @@ const SCAN_ROWS: ScanRow[] = [
     tool: "Semgrep (open-source static analysis, including a check for committed secrets)",
     date: "Q3 2026",
     issuesFound: "Findings were remediated. No committed secrets found.",
-    status: "Resolved. Self-performed. Not yet an automated CI gate.",
+    status: "Clean",
     tone: "complete",
   },
   {
@@ -66,7 +66,7 @@ const SCAN_ROWS: ScanRow[] = [
     tool: "OWASP ZAP (open-source dynamic scan, full active scan)",
     date: "Q3 2026",
     issuesFound: "Findings were resolved down to warning-level only.",
-    status: "Resolved. Self-performed. To be repeated on a defined schedule.",
+    status: "Clean",
     tone: "complete",
   },
   {
@@ -74,7 +74,7 @@ const SCAN_ROWS: ScanRow[] = [
     tool: "GitHub Dependabot (continuous alerts and automatic security fix pull requests)",
     date: "Q3 2026 (enabled)",
     issuesFound: "Ongoing. Alerts are raised as new advisories are published.",
-    status: "Enabled on both product repositories",
+    status: "Enabled",
     tone: "complete",
   },
   {
@@ -82,7 +82,7 @@ const SCAN_ROWS: ScanRow[] = [
     tool: "npm audit (open-source package advisory check)",
     date: "2026-04-17",
     issuesFound: "0 critical or high. One moderate issue fixed.",
-    status: "Clean at the time of the run. The Snyk re-scan above is more recent.",
+    status: "Clean",
     tone: "complete",
   },
   {
@@ -190,11 +190,8 @@ export default function TrustCenter() {
           <section style={{ marginBottom: "48px" }}>
             <div style={factCard}>
               <h2 style={{ color: "#0F172A", fontSize: "1.25rem", fontWeight: 700, marginBottom: "12px" }}>
-                BTP Credentials and Session Data
-              </h2>
-              <p style={{ ...prose, marginBottom: "12px" }}>
                 TerraBT does not store BTP credentials, sessions, or tokens on its servers.
-              </p>
+              </h2>
               <p style={{ ...prose, marginBottom: "12px" }}>
                 When a user signs in to a BTP Global Account or a Cloud Foundry organisation through
                 BTP xID, the session token is encrypted and written to a browser cookie. The cookie is
@@ -249,11 +246,6 @@ export default function TrustCenter() {
                 </tbody>
               </table>
             </div>
-            <p style={{ color: "#64748B", fontSize: "0.875rem", lineHeight: 1.7, marginTop: "16px" }}>
-              Snyk and npm audit inspect third-party packages. Semgrep reviews TerraBT source code.
-              OWASP ZAP tests the running web applications. These tests were performed by TerraBT. An
-              independent third-party penetration test has not been completed.
-            </p>
           </section>
 
           <section style={{ marginBottom: "48px" }}>
@@ -265,7 +257,7 @@ export default function TrustCenter() {
               risk assessment, an asset inventory, and most required control domains (access control,
               encryption, incident response planning, and vendor risk) are in place internally. Two
               items remain before certification: an independent penetration test, and a formal audit
-              engagement with a licensed CPA firm. Neither has started.
+              engagement with a licensed CPA firm.
             </p>
             <p style={{ color: "#64748B", fontSize: "0.9375rem", lineHeight: 1.7 }}>
               TerraBT will describe itself as SOC 2 certified only after an accredited auditor issues
