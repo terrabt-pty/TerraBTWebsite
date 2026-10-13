@@ -192,7 +192,12 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: getLanguageFromPath(),
+    // English-only now (other languages disabled site-wide, see
+    // LanguageRedirect/LanguageSync/LanguageSwitcher) — translations above
+    // and getLanguageFromPath/getBrowserLanguage are kept, not deleted, in
+    // case the decision is reversed, but nothing calls them to pick a
+    // non-English language anymore.
+    lng: 'en',
     fallbackLng: (code) => {
       const baseLang = getBaseLanguage(code);
       return baseLang !== code ? [baseLang, 'en'] : ['en'];

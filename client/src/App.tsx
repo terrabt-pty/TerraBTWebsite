@@ -7,7 +7,6 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SUPPORTED_LANGUAGES } from "@/config/languages";
 import LanguageRedirect from "@/components/LanguageRedirect";
-import { getBrowserLanguage } from "@/i18n";
 import Home from "@/pages/Home";
 import BTPArchitecture from "@/pages/BTPArchitecture";
 import FioriDevelopment from "@/pages/FioriDevelopment";
@@ -50,43 +49,19 @@ import NotFound from "@/pages/not-found";
 import CookieConsent from "@/components/CookieConsent";
 
 function LanguageSync() {
-  const [location] = useLocation();
+  // English-only now. This used to read a /:lang URL segment (or the
+  // browser's preferred language) and switch i18n to match. The :lang
+  // routes still exist (and the Worker redirects them to their English
+  // equivalent before they're ever reached in production), but nothing
+  // should switch the app away from English anymore, so this is a no-op —
+  // kept as a component rather than deleted in case that decision reverses.
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    const pathSegments = location.split('/').filter(Boolean);
-    let detectedLang: string | null = null;
-
-    // First, check if there's a language in the URL path
-    if (pathSegments.length > 0) {
-      const potentialLang = pathSegments[0];
-      const exactMatch = SUPPORTED_LANGUAGES.some(lang => lang.code === potentialLang);
-      if (exactMatch) {
-        detectedLang = potentialLang;
-      } else if (/^[a-z]{2,3}$/i.test(potentialLang)) {
-        // Base code (e.g. 'de'), find canonical regional code (e.g. 'de-DE') and redirect
-        const canonical = SUPPORTED_LANGUAGES.find(
-          lang => lang.code.toLowerCase().startsWith(potentialLang.toLowerCase() + '-')
-        );
-        if (canonical) {
-          // Redirect /de → /de-DE (replace the base segment with the canonical code)
-          const rest = pathSegments.slice(1);
-          const newPath = '/' + [canonical.code, ...rest].join('/');
-          window.history.replaceState(null, '', newPath);
-          detectedLang = canonical.code;
-        }
-      }
+    if (i18n.language !== 'en') {
+      i18n.changeLanguage('en');
     }
-
-    // If no language in URL, use browser language detection (which respects localStorage and browser preferences)
-    if (!detectedLang) {
-      detectedLang = getBrowserLanguage();
-    }
-
-    if (i18n.language !== detectedLang) {
-      i18n.changeLanguage(detectedLang);
-    }
-  }, [location, i18n]);
+  }, [i18n]);
 
   return null;
 }

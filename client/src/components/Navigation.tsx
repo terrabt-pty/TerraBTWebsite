@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "wouter";
 import { Menu, X, UserCircle, Sparkles, Shield } from "lucide-react";
 import Logo from "@/components/Logo";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 
 const SCROLL_LINKS = [
@@ -91,10 +90,9 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Right: language + sign in */}
+          {/* Right: sign in */}
           <div className="flex items-center gap-0.5 xxs:gap-1 sm:gap-2 justify-end">
             <div className="hidden lg:flex items-center gap-2">
-              <LanguageSwitcher />
               <a
                 href={`https://accounts.terrabt.com/auth/login?lang=${i18n.language}`}
                 className="flex flex-col items-center transition-colors hover-elevate p-2 rounded-md"
@@ -109,7 +107,6 @@ export default function Navigation() {
               </a>
             </div>
             <div className="lg:hidden flex items-center gap-0.5 xxs:gap-1 sm:gap-2">
-              <LanguageSwitcher />
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="p-1.5 xxs:p-2 hover:bg-slate-200 rounded-md transition-colors"

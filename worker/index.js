@@ -3,6 +3,29 @@
  * Supports both URL paths and SPA query-string paths (GitHub Pages pattern)
  * Includes fix for URL-encoded characters in search queries.
  */
+
+// The site officially supports English only now. The /:lang routes, their
+// page components, and all translated strings still exist in the app and
+// in SEO_DATA below — nothing was deleted — but they're no longer reachable
+// at a public URL: any request whose first path segment is one of these
+// codes is redirected straight to its English equivalent before it ever
+// reaches origin. This list mirrors client/src/config/languages.ts.
+const LANGUAGE_PATH_CODES = new Set([
+  "en-GB", "de-DE", "de-AT", "de-CH", "fr-FR", "fr-CH", "es-ES", "it-IT", "nl-NL", "pt-PT",
+  "sv-SE", "da-DK", "nb-NO", "fi-FI",
+  "pl-PL", "cs-CZ", "hu-HU", "ro-RO", "sk-SK", "sl-SI", "hr-HR", "bg-BG", "uk-UA", "ru-RU", "lt-LT", "lv-LV", "et-EE",
+  "el-GR",
+  "nl-BE", "fr-BE",
+  "en-US", "en-CA", "fr-CA",
+  "es-MX", "es-AR", "es-CO", "es-CL", "es-PE", "es-GT", "es-CR", "pt-BR",
+  "zh-CN", "zh-TW", "ja-JP", "ko-KR",
+  "en-SG", "en-MY", "en-ID", "en-PH", "en-TH", "en-VN",
+  "en-IN", "en-PK", "en-BD", "en-LK",
+  "ar-AE", "ar-SA", "ar-EG", "en-AE", "en-SA", "he-IL", "tr-TR",
+  "am-ET", "en-KE", "sw-KE", "en-ZA", "af-ZA", "en-NG", "en-GH", "en-UG", "en-TZ", "sw-TZ", "en-ZM", "en-ZW", "en-RW", "fr-RW", "en-NA",
+  "ar-MA", "ar-TN", "ar-DZ", "fr-SN", "fr-CI", "fr-CM", "fr-GA", "pt-AO", "pt-MZ",
+]);
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -13,8 +36,18 @@ export default {
       return fetch(request);
     }
 
+    // Redirect any language-prefixed path (/de-DE/..., /ja-JP, etc.) to its
+    // English equivalent — permanent, so search engines drop the old URL and
+    // consolidate on the English one instead of leaving it disallowed/stuck.
+    const pathSegments = url.pathname.split('/').filter(Boolean);
+    if (pathSegments.length > 0 && LANGUAGE_PATH_CODES.has(pathSegments[0])) {
+      const rest = pathSegments.slice(1).join('/');
+      const target = new URL('/' + rest, url.origin);
+      target.search = url.search;
+      return Response.redirect(target.toString(), 301);
+    }
+
     const country = request.cf?.country;
-    const cookieHeader = request.headers.get("Cookie") || "";
 
     // Security Check: Block access to the worker source code if someone tries to fetch it directly
     // url is already defined above
@@ -50,133 +83,13 @@ export default {
       }
     }
 
-    // Language detection, layered priority:
-    //   1. ?lang= query param   (explicit, used by emails)
-    //   2. URL path prefix       (e.g. /de/products/)
-    //   3. terrabt_lang cookie   (returning user)
-    //   4. Accept-Language       (parsed with q values)
-    //   5. CF-IPCountry          (country → language map)
-    //   6. en-US fallback
-    let matchedCode = "en-US";
-    let status = "Fallback";
-
-    const SUPPORTED_LANGS = new Set([
-      "en","de","fr","es","it","pt","nl","sv","da","nb","fi","pl","cs","hu","ro","sk","sl","hr",
-      "bg","uk","ru","lt","lv","et","el","tr","zh","ko","ja","ar","he","af","sw","am"
-    ]);
-
-    // Map a candidate code (e.g. "de-CH", "zh-Hans") to a supported code
-    const matchSupported = (code) => {
-      if (!code) return null;
-      const lower = code.toLowerCase();
-      if (SUPPORTED_LANGS.has(lower)) return lower;
-      const base = lower.split("-")[0];
-      if (SUPPORTED_LANGS.has(base)) return base;
-      return null;
-    };
-
-    // 1. ?lang= query param
-    const langParam = url.searchParams.get("lang");
-    const langFromParam = matchSupported(langParam);
-    if (langFromParam) {
-      matchedCode = langFromParam;
-      status = "url-param";
-    }
-
-    // 2. URL path prefix (existing logic, kept for back-compat)
-    if (status === "Fallback") {
-      let segments = url.pathname.split("/").filter(Boolean);
-      if (segments.length === 0 && url.search) {
-        const decodedSearch = decodeURIComponent(url.search);
-        const searchPath = decodedSearch.replace(/^[?]/, "").replace(/^[\/]/, "");
-        segments = searchPath.split("/").filter(Boolean);
-      }
-      if (segments.length > 0) {
-        const langRegex = /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,4})?$/;
-        if (langRegex.test(segments[0])) {
-          const fromPath = matchSupported(segments[0]);
-          if (fromPath) {
-            matchedCode = fromPath;
-            status = "url-path";
-          }
-        }
-      }
-    }
-
-    // 3. terrabt_lang cookie
-    if (status === "Fallback") {
-      const cookieMatch = cookieHeader.match(/(?:^|;\s*)terrabt_lang=([^;]+)/);
-      const fromCookie = matchSupported(cookieMatch?.[1]);
-      if (fromCookie) {
-        matchedCode = fromCookie;
-        status = "cookie";
-      }
-    }
-
-    // 4. Accept-Language header (parsed with quality values)
-    if (status === "Fallback") {
-      const acceptLang = request.headers.get("Accept-Language") || "";
-      const candidates = acceptLang
-        .split(",")
-        .map((part) => {
-          const [tag, ...params] = part.trim().split(";");
-          const q = params.find((p) => p.trim().startsWith("q="));
-          const quality = q ? parseFloat(q.split("=")[1]) : 1.0;
-          return { tag: tag.trim(), q: isNaN(quality) ? 1.0 : quality };
-        })
-        .filter((c) => c.tag && c.tag !== "*")
-        .sort((a, b) => b.q - a.q);
-
-      for (const c of candidates) {
-        const m = matchSupported(c.tag);
-        if (m) { matchedCode = m; status = "accept-language"; break; }
-      }
-    }
-
-    // 5. CF-IPCountry → language map
-    if (status === "Fallback") {
-      const COUNTRY_LANG = {
-        DE: "de", AT: "de", CH: "de", LI: "de",
-        FR: "fr", BE: "fr", LU: "fr", MC: "fr",
-        ES: "es", AR: "es", MX: "es", CL: "es", CO: "es", PE: "es", VE: "es", UY: "es",
-        IT: "it", SM: "it", VA: "it",
-        PT: "pt", BR: "pt", AO: "pt", MZ: "pt",
-        NL: "nl",
-        SE: "sv",
-        DK: "da",
-        NO: "nb",
-        FI: "fi",
-        PL: "pl",
-        CZ: "cs",
-        HU: "hu",
-        RO: "ro", MD: "ro",
-        SK: "sk",
-        SI: "sl",
-        HR: "hr",
-        BG: "bg",
-        UA: "uk",
-        RU: "ru", BY: "ru",
-        LT: "lt",
-        LV: "lv",
-        EE: "et",
-        GR: "el", CY: "el",
-        TR: "tr",
-        CN: "zh", TW: "zh", HK: "zh", SG: "zh",
-        KR: "ko", KP: "ko",
-        JP: "ja",
-        SA: "ar", AE: "ar", EG: "ar", IQ: "ar", JO: "ar", LB: "ar", LY: "ar",
-        MA: "ar", OM: "ar", QA: "ar", SY: "ar", TN: "ar", YE: "ar", DZ: "ar", BH: "ar", KW: "ar",
-        IL: "he",
-        ZA: "af", NA: "af",
-        KE: "sw", TZ: "sw", UG: "sw",
-        ET: "am", ER: "am",
-      };
-      const fromCountry = matchSupported(COUNTRY_LANG[country]);
-      if (fromCountry) {
-        matchedCode = fromCountry;
-        status = "country";
-      }
-    }
+    // English-only now — no runtime language detection. Any request that
+    // could have resolved to a different language (a /:lang path, or a
+    // ?lang= param) was already redirected to its English equivalent above,
+    // so there's nothing left to detect. SEO_DATA's other-language entries
+    // below are kept (not deleted) but getSeoData always resolves to 'en'.
+    const matchedCode = "en-US";
+    const status = "english-only";
 
     // SEO Translations Data
     const SEO_DATA = {
@@ -462,16 +375,14 @@ export default {
           { html: true }
         );
 
-        // 5. Hreflang Tags
-        // Iterate over SEO_DATA keys
-        // SEO_DATA keys are like 'en', 'ja', 'ar', 'af'...
-        Object.keys(SEO_DATA).forEach(langCode => {
-          const href = buildUrl(langCode);
-          element.append(
-            `<link rel="alternate" hreflang="${langCode}" href="${href}" />`,
-            { html: true }
-          );
-        });
+        // 5. Hreflang Tag — English only now. SEO_DATA still holds every
+        // other language's translated copy (kept, not deleted), but it's no
+        // longer advertised as a reachable alternate: those paths redirect
+        // here instead of serving a page, so they shouldn't be hreflang'd.
+        element.append(
+          `<link rel="alternate" hreflang="en" href="${canonicalUrl}" />`,
+          { html: true }
+        );
 
         // 6. x-default Tag
         // Points to the default language version (en)
@@ -546,7 +457,7 @@ export default {
             "email": "support@terrabt.com",
             "description": this.seoData.description,
             "areaServed": "Worldwide",
-            "knowsLanguage": ["en", "ja", "ar", this.langCode], // Explicitly include current lang
+            "knowsLanguage": ["en"],
             "serviceType": [
               "SAP BTP Architecture", "SAP Fiori Development", "SAP CAP Development",
               "SAP Build Apps", "SAP Build Process Automation", "AI Invoice Processing",
@@ -575,7 +486,7 @@ export default {
               "target": "https://www.terrabt.com/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             },
-            "inLanguage": ["en", "ja", "ar", this.langCode]
+            "inLanguage": ["en"]
           };
           element.setInnerContent(JSON.stringify(webSchema), { html: true });
         }
@@ -644,12 +555,6 @@ export default {
     newHeaders.set("X-Language-Matched", matchedCode);
     newHeaders.set("X-Language-Match-Status", status);
     newHeaders.set("X-Content-Signal", "search=yes,ai-train=yes");
-
-    // Persist explicit ?lang= choice as a cookie so future visits skip detection.
-    // Not HttpOnly, the React app needs to read/update it on language switch.
-    if (status === "url-param" && langFromParam) {
-      newHeaders.append("Set-Cookie", `terrabt_lang=${langFromParam}; Path=/; Max-Age=31536000; Secure; SameSite=Lax`);
-    }
 
     return new Response(finalResponse.body, {
       status: finalResponse.status,

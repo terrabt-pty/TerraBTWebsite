@@ -1,9 +1,11 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Configuration
 const BASE_URL = 'https://www.terrabt.com';
-const LANGUAGES_FILE = path.join(__dirname, '../client/src/config/languages.ts');
 const OUTPUT_FILE = path.join(__dirname, '../client/public/sitemap.xml');
 
 // Routes (extracted from App.tsx)
@@ -47,70 +49,31 @@ const ROUTES = [
     "/blog/user-centered-innovation-with-design-thinking",
 ];
 
-// Helper to read languages
-function getLanguages() {
-    const content = fs.readFileSync(LANGUAGES_FILE, 'utf8');
-    // Regex to match objects in the array: { code: 'en-GB', ... }
-    // This is a simple regex assumption that the file structure is consistent
-    const regex = /code:\s*['"]([a-zA-Z-]+)['"]/g;
-    const languages = [];
-    let match;
-    while ((match = regex.exec(content)) !== null) {
-        languages.push(match[1]);
-    }
-    return languages;
-}
-
+// English-only now. The site used to publish a sitemap entry (plus hreflang
+// alternates to every other language) for every route x language
+// combination. Other languages' pages still exist — they're just no longer
+// advertised to Google as separate indexable URLs, since they now redirect
+// straight back to the English page (see worker/index.js).
 function generateSitemap() {
-    const languages = getLanguages();
-    console.log(`Found ${languages.length} languages.`);
-
     let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
 
     ROUTES.forEach(route => {
-        // For each route, we create an entry for every language version of that route
+        const url = `${BASE_URL}${route}`;
 
-        // 1. First, define the set of all variants for this route to use in xhtml:link
-        const alternateLinks = languages.map(lang => {
-            const prefix = lang === 'en' ? '' : `/${lang}`;
-            // Ensure strictly no double slashes, but route starts with / (except empty string for home?)
-            // Route "" -> prefix only
-            // Route "/foo" -> prefix + "/foo"
-            const url = `${BASE_URL}${prefix}${route}`;
-            return { lang, url };
-        });
-
-        // Add x-default link (pointing to international/english usually, or a specific page)
-        // Using 'en' (root) as x-default
-        const xDefaultUrl = `${BASE_URL}${route}`;
-
-        // 2. Now generate the <url> block for each language variant
-        languages.forEach(currentLang => {
-            const currentPrefix = currentLang === 'en' ? '' : `/${currentLang}`;
-            const currentUrl = `${BASE_URL}${currentPrefix}${route}`;
-
-            xml += '  <url>\n';
-            xml += `    <loc>${currentUrl}</loc>\n`;
-
-            // Add alternate links for ALL languages
-            alternateLinks.forEach(link => {
-                xml += `    <xhtml:link rel="alternate" hreflang="${link.lang}" href="${link.url}"/>\n`;
-            });
-
-            // Add x-default
-            xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefaultUrl}"/>\n`;
-
-            xml += '    <changefreq>weekly</changefreq>\n';
-            xml += '    <priority>1.0</priority>\n';
-            xml += '  </url>\n';
-        });
+        xml += '  <url>\n';
+        xml += `    <loc>${url}</loc>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="en" href="${url}"/>\n`;
+        xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${url}"/>\n`;
+        xml += '    <changefreq>weekly</changefreq>\n';
+        xml += '    <priority>1.0</priority>\n';
+        xml += '  </url>\n';
     });
 
     xml += '</urlset>';
 
     fs.writeFileSync(OUTPUT_FILE, xml);
-    console.log(`Sitemap generated at ${OUTPUT_FILE}`);
+    console.log(`Sitemap generated at ${OUTPUT_FILE} (${ROUTES.length} English-only URLs).`);
 }
 
 generateSitemap();

@@ -62,27 +62,23 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
     }
     canonicalLink.setAttribute('href', canonicalUrl);
 
-    // Hreflang Tags Logic
+    // Hreflang Tags Logic — English-only now. Other languages' pages still
+    // exist (not deleted) but are no longer published as reachable alternates,
+    // since they're redirected away at the Worker and no longer officially
+    // supported. Emitting hreflang for them would tell Google to keep
+    // indexing URLs that now just redirect back here.
     const existingAlternates = document.querySelectorAll('link[hreflang]');
     existingAlternates.forEach(link => link.remove());
 
-    SUPPORTED_LANGUAGES.forEach(language => {
-      const link = document.createElement('link');
-      link.setAttribute('rel', 'alternate');
-      link.setAttribute('hreflang', language.code);
+    const enLink = document.createElement('link');
+    enLink.setAttribute('rel', 'alternate');
+    enLink.setAttribute('hreflang', 'en');
+    enLink.setAttribute('href', `${baseUrl}${path}`);
+    document.head.appendChild(enLink);
 
-      // For English (default), no language prefix. For others, append /code
-      const prefix = language.code === 'en' ? '' : `/${language.code}`;
-      link.setAttribute('href', `${baseUrl}${prefix}${path}`);
-
-      document.head.appendChild(link);
-    });
-
-    // x-default Hreflang Logic
     const xDefaultLink = document.createElement('link');
     xDefaultLink.setAttribute('rel', 'alternate');
     xDefaultLink.setAttribute('hreflang', 'x-default');
-    // x-default should point to the English version (or whatever your default is)
     xDefaultLink.setAttribute('href', `${baseUrl}${path}`);
     document.head.appendChild(xDefaultLink);
 
@@ -94,7 +90,6 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
       existingScripts.forEach(script => script.remove());
 
       const metaDescription = description || t('meta.home.description');
-      const langCode = i18n.language;
 
       // 1. Organization Schema
       const orgSchema = {
@@ -106,7 +101,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
         "email": "contact@terrabt.com",
         "description": metaDescription,
         "areaServed": "Worldwide",
-        "knowsLanguage": ["en", "ja", "ar", langCode],
+        "knowsLanguage": ["en"],
         "serviceType": [
           "SAP BTP Architecture", "SAP Fiori Development", "SAP CAP Development",
           "SAP Build Apps", "SAP Build Process Automation", "AI Invoice Processing",
@@ -130,7 +125,7 @@ export default function SEOHead({ title, description, path = '' }: SEOHeadProps)
           "target": "https://www.terrabt.com/?q={search_term_string}",
           "query-input": "required name=search_term_string"
         },
-        "inLanguage": ["en", "ja", "ar", langCode]
+        "inLanguage": ["en"]
       };
 
       // 3. ProfessionalService Schema
