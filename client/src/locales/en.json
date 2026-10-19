@@ -1594,7 +1594,7 @@
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
       "badge": "User & API Credential Management for SAP BTP",
       "headline": "The Best Way To Manage SAP BTP Users Manually Without IAS.",
-      "subhead": "BTP xID gives you one place to find, onboard, change and off-board every user across all your Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Spaces. No Identity Authentication Service required.",
+      "subhead": "BTP xID gives you one place to find, onboard, change and off-board every user across all your Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Spaces.",
     "points": [
       "Find any user in seconds, with every role they hold across the landscape",
       "Onboard and off-board in a single click, including Cloud Foundry Org and Space roles",
