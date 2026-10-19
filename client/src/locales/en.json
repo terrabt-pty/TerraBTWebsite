@@ -1592,9 +1592,15 @@
     "hero": {
       "title": "Complete API Credential Management for your SAP BTP Landscape.",
       "description": "Govern every BTP user, role, and API credential across your landscape. Complete visibility, complete control, across every Global Account, sub-account, and Cloud Foundry environment you run.",
-      "badge": "New · AI-Powered Landscape Management",
-      "headline": "Use AI To Manage Your Whole SAP BTP Landscape.",
-      "subhead": "Describe what you need in plain English, and the AI Assistant manages your entire SAP BTP landscape — reviewed and Terraform-backed — along with your users and service keys. No clicking through Cockpit. No learning Terraform.",
+      "badge": "User & API Credential Management for SAP BTP",
+      "headline": "The Best Way To Manage SAP BTP Users Manually, Without IAS.",
+      "subhead": "BTP xID gives you one place to find, onboard, change and off-board every user across all your Global Accounts, Sub-accounts, Directories, Cloud Foundry Orgs and Spaces. No Identity Authentication Service required.",
+    "points": [
+      "Find any user in seconds, with every role they hold across the landscape",
+      "Onboard and off-board in a single click, including Cloud Foundry Org and Space roles",
+      "Bulk changes across your whole landscape, not one account at a time",
+      "Works with or without SAP IAS, including custom IdP users"
+    ],
       "ctaLabel": "Try BTP xID Now",
       "trustLine": "SAP OAuth · Credentials never stored · Runs on your machine · No data leaves your network",
       "primaryCta": "How it works",

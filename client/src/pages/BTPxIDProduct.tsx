@@ -148,6 +148,16 @@ export default function BTPxIDProduct() {
             {/* Description */}
             <p className="btpxid-hero-desc">{t('btpxidProduct.hero.subhead')}</p>
 
+            {/* Proof points */}
+            <ul className="btpxid-hero-points">
+              {(t('btpxidProduct.hero.points', { returnObjects: true }) as string[]).map((point) => (
+                <li key={point}>
+                  <CheckCircle className="h-5 w-5" aria-hidden="true" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+
             {/* Primary CTA */}
             <a href={XID_WEB_URL} target="_blank" rel="noopener noreferrer" className="btpxid-hero-cta">
               {t('btpxidProduct.hero.ctaLabel')}
@@ -206,55 +216,6 @@ export default function BTPxIDProduct() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ===== LANDSCAPE MANAGEMENT ===== */}
-      <section className="btpxid-landscape" id="landscape">
-        <div className="btpxid-landscape-inner">
-          <div className="btpxid-showcase-header">
-            <div className="btpxid-features-label">{t('btpxidProduct.landscape.label')}</div>
-            <h2 className="btpxid-showcase-title">{t('btpxidProduct.landscape.title')}</h2>
-            <p className="btpxid-showcase-sub">{t('btpxidProduct.landscape.subtitle')}</p>
-          </div>
-
-          <div className="btpxid-landscape-group">
-            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.modelLabel')}</h3>
-            <div className="btpxid-landscape-grid btpxid-landscape-grid-3">
-              {(t('btpxidProduct.landscape.modelSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
-                <div key={step.title} className="btpxid-landscape-step">
-                  <div className="btpxid-landscape-step-num">{i + 1}</div>
-                  <h4>{step.title}</h4>
-                  <p>{step.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="btpxid-landscape-group">
-            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.flowLabel')}</h3>
-            <div className="btpxid-landscape-grid btpxid-landscape-grid-5">
-              {(t('btpxidProduct.landscape.flowSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
-                <div key={step.title} className="btpxid-landscape-step">
-                  <div className="btpxid-landscape-step-num">{i + 1}</div>
-                  <h4>{step.title}</h4>
-                  <p>{step.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="btpxid-landscape-callout btpxid-landscape-callout-storage">
-            <h4>{t('btpxidProduct.landscape.storageTitle')}</h4>
-            <p>{t('btpxidProduct.landscape.storageText')}</p>
-          </div>
-
-          <div className="btpxid-landscape-callout">
-            <h4>{t('btpxidProduct.landscape.safetyTitle')}</h4>
-            <p>{t('btpxidProduct.landscape.safetyText')}</p>
-          </div>
-
-          <p className="btpxid-landscape-ai-note">{t('btpxidProduct.landscape.aiNote')}</p>
         </div>
       </section>
 
@@ -329,6 +290,55 @@ export default function BTPxIDProduct() {
           <div className="btpxid-ias-footer">
             {t('btpxidProduct.ias.footer')}
           </div>
+        </div>
+      </section>
+
+      {/* ===== LANDSCAPE MANAGEMENT ===== */}
+      <section className="btpxid-landscape" id="landscape">
+        <div className="btpxid-landscape-inner">
+          <div className="btpxid-showcase-header">
+            <div className="btpxid-features-label">{t('btpxidProduct.landscape.label')}</div>
+            <h2 className="btpxid-showcase-title">{t('btpxidProduct.landscape.title')}</h2>
+            <p className="btpxid-showcase-sub">{t('btpxidProduct.landscape.subtitle')}</p>
+          </div>
+
+          <div className="btpxid-landscape-group">
+            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.modelLabel')}</h3>
+            <div className="btpxid-landscape-grid btpxid-landscape-grid-3">
+              {(t('btpxidProduct.landscape.modelSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
+                <div key={step.title} className="btpxid-landscape-step">
+                  <div className="btpxid-landscape-step-num">{i + 1}</div>
+                  <h4>{step.title}</h4>
+                  <p>{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="btpxid-landscape-group">
+            <h3 className="btpxid-landscape-group-title">{t('btpxidProduct.landscape.flowLabel')}</h3>
+            <div className="btpxid-landscape-grid btpxid-landscape-grid-5">
+              {(t('btpxidProduct.landscape.flowSteps', { returnObjects: true }) as LandscapeStep[]).map((step, i) => (
+                <div key={step.title} className="btpxid-landscape-step">
+                  <div className="btpxid-landscape-step-num">{i + 1}</div>
+                  <h4>{step.title}</h4>
+                  <p>{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="btpxid-landscape-callout btpxid-landscape-callout-storage">
+            <h4>{t('btpxidProduct.landscape.storageTitle')}</h4>
+            <p>{t('btpxidProduct.landscape.storageText')}</p>
+          </div>
+
+          <div className="btpxid-landscape-callout">
+            <h4>{t('btpxidProduct.landscape.safetyTitle')}</h4>
+            <p>{t('btpxidProduct.landscape.safetyText')}</p>
+          </div>
+
+          <p className="btpxid-landscape-ai-note">{t('btpxidProduct.landscape.aiNote')}</p>
         </div>
       </section>
 
