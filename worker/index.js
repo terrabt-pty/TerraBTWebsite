@@ -27,6 +27,9 @@ const LANGUAGE_PATH_CODES = new Set([
   "ar-AE", "ar-SA", "ar-EG", "en-AE", "en-SA", "he-IL", "tr-TR",
   "am-ET", "en-KE", "sw-KE", "en-ZA", "af-ZA", "en-NG", "en-GH", "en-UG", "en-TZ", "sw-TZ", "en-ZM", "en-ZW", "en-RW", "fr-RW", "en-NA",
   "ar-MA", "ar-TN", "ar-DZ", "fr-SN", "fr-CI", "fr-CM", "fr-GA", "pt-AO", "pt-MZ",
+  // Bare language codes. The old hreflang tags and sitemap pointed at these (/fr/, /de/, ...).
+  "af", "am", "ar", "bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "he", "hr", "hu", "it",
+  "ja", "ko", "lt", "lv", "nb", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "sw", "tr", "uk", "zh",
 ]);
 
 const SITE_LANGUAGE = "en-US";
