@@ -178,7 +178,7 @@ export default function TrustCenter() {
           </p>
 
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            Security and Data Handling
+            Robust Security With No BTP Credentials Stored on Our Servers
           </h1>
 
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "40px" }}>
