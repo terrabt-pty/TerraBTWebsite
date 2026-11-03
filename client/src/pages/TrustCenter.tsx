@@ -1,4 +1,4 @@
-import { CheckCircle, Circle } from "lucide-react";
+import { CheckCircle, Circle, ShieldCheck } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
@@ -11,6 +11,9 @@ import SEOHead from "@/components/SEOHead";
 //   - The "nothing stored" architecture claims come from the actual
 //     BTPxID server session-cookie implementation
 //     (server/src/btp/session-cookie.ts, server/src/cf/cf-session-cookie.ts).
+//   - The Infrastructure Security list is checked against the live servers
+//     (see INFRASTRUCTURE_CONTROLS below). Do not describe SSH as Cloudflare-only
+//     until direct SSH (port 22) is actually closed.
 //   - The Snyk rows are real Snyk CLI results run against the current
 //     state of each repo on 2026-10-01 — not illustrative placeholders.
 //   - The Semgrep, OWASP ZAP and Dependabot rows come from the internal
@@ -95,6 +98,57 @@ const SCAN_ROWS: ScanRow[] = [
   },
 ];
 
+interface InfrastructureControl {
+  label: string;
+  detail: string;
+}
+
+// Each entry was checked on 2026-11-03 against the production, test application and test
+// database servers (sshd effective config, ufw rules, apt unattended-upgrades, fail2ban)
+// and against the application and nginx configuration. Re-check before changing any wording.
+const INFRASTRUCTURE_CONTROLS: InfrastructureControl[] = [
+  {
+    label: "Edge protection",
+    detail:
+      "All public web traffic passes through Cloudflare, including its DDoS mitigation. The servers accept web connections only from Cloudflare's published address ranges, so web requests cannot bypass it.",
+  },
+  {
+    label: "Default-deny firewalls",
+    detail:
+      "Every server blocks all inbound and outbound traffic unless a rule explicitly allows it.",
+  },
+  {
+    label: "Encrypted connections",
+    detail:
+      "Public sites use TLS 1.2 or newer, HTTP Strict Transport Security, and a strict Content Security Policy.",
+  },
+  {
+    label: "Administrative access",
+    detail:
+      "Administrators sign in over SSH with keys only. Password sign-in is disabled, and repeated failed attempts are blocked automatically.",
+  },
+  {
+    label: "Database isolation",
+    detail:
+      "Database ports are closed to the internet and open only to a specific private network address. Test and production use separate databases.",
+  },
+  {
+    label: "Patching",
+    detail:
+      "Security updates install automatically, and servers are rebooted for kernel updates. No security updates were outstanding at the last check.",
+  },
+  {
+    label: "Application controls",
+    detail:
+      "Rate limiting is applied in the application on authentication and API endpoints.",
+  },
+  {
+    label: "Controlled change",
+    detail:
+      "Every change is deployed to a separate test environment before production, and infrastructure changes are recorded in a change log.",
+  },
+];
+
 const cellHead: React.CSSProperties = {
   textAlign: "left",
   padding: "10px 14px",
@@ -173,18 +227,24 @@ export default function TrustCenter() {
       <div style={{ background: "#FFFFFF", minHeight: "100vh" }}>
         <Navigation />
         <article style={{ maxWidth: "900px", margin: "0 auto", padding: "40px 24px 80px" }}>
-          <p style={{ color: "#3A9A6A", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "12px" }}>
+          <p style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "#3A9A6A", fontSize: "1.6rem", fontWeight: 700, letterSpacing: "0.04em", marginBottom: "12px" }}>
+            <ShieldCheck aria-hidden="true" style={{ width: "1.1em", height: "1.1em", flexShrink: 0 }} />
             Trust Center
           </p>
 
           <h1 style={{ color: "#0F172A", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, lineHeight: 1.2, marginBottom: "16px" }}>
-            Robust Security With No BTP Credentials Stored on Our Servers
+            Security Is Foundational to Every TerraBT Product
           </h1>
+
+          <p style={{ color: "#0F172A", fontSize: "1.25rem", fontWeight: 600, lineHeight: 1.5, marginBottom: "16px" }}>
+            We have implemented defence in depth, from application to infrastructure.
+          </p>
 
           <p style={{ color: "#475569", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "40px" }}>
             BTP xID connects to the customer&apos;s SAP BTP and Cloud Foundry environment. This page
-            describes how TerraBT handles BTP credentials and session data, the security tests that
-            have been run, and the current status of the SOC 2 program.
+            describes how TerraBT handles BTP credentials and session data, how its infrastructure is
+            secured, the security tests that have been run, and the current status of the SOC 2
+            program.
           </p>
 
           <section style={{ marginBottom: "48px" }}>
@@ -210,6 +270,29 @@ export default function TrustCenter() {
                 in that customer&apos;s account.
               </p>
             </div>
+          </section>
+
+          <section style={{ marginBottom: "48px" }}>
+            <h2 style={{ color: "#0F172A", fontSize: "1.375rem", fontWeight: 700, marginBottom: "10px" }}>
+              Infrastructure Security
+            </h2>
+            <p style={{ color: "#475569", fontSize: "1rem", lineHeight: 1.7, marginBottom: "20px" }}>
+              TerraBT products run on Ubuntu servers in Oracle Cloud Infrastructure, behind
+              Cloudflare. The controls below apply in layers, so that no single control is the only
+              thing between an attacker and customer data.
+            </p>
+            <div style={factCard}>
+              <ul style={{ ...prose, listStyle: "none", margin: 0, padding: 0 }}>
+                {INFRASTRUCTURE_CONTROLS.map((control) => (
+                  <li key={control.label} style={{ marginBottom: "14px" }}>
+                    <strong style={{ color: "#0F172A" }}>{control.label}.</strong> {control.detail}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <p style={{ color: "#64748B", fontSize: "0.9375rem", lineHeight: 1.7, marginTop: "12px" }}>
+              Server settings were last checked on 3 November 2026.
+            </p>
           </section>
 
           <section style={{ marginBottom: "48px" }}>
